@@ -6,7 +6,7 @@ The Parliamentary Services of the Federal Assembly (Bern, Switzerland) have an o
 - In order to keep directories reasonably small, affairs file names use the following notation ``/#{product}/#{id[0..4]}/#{id}.#{lang}.json``
 
 ## Additional files
-- For each product a ``/#{product}_updated_at.json`` file is preriodically generated, this helps to keep the dataset up to date without having to scrape the whole website. 
+- For each product a ``/#{product}/updated_at.json`` file is preriodically generated, this helps to keep the dataset up to date without having to scrape the whole website. 
 - For those products presenting metadata in the index page not included in the JSON objects itself, additional index files are generated: ``/#{product}/index.#{lang}.json``
 
 ## Feedbacks
