@@ -7,7 +7,7 @@ The Parliamentary Services of the Federal Assembly (Bern, Switzerland) have an o
 
 ## Additional files
 - For each product a ``/#{product}_updated_at.json`` file is preriodically generated, this helps to keep the dataset up to date without having to scrape the whole website. 
-- For those products presenting metadata in the index page not included in the JSON objects itself, an additional index files are generated: ``/#{product}/index.#{lang}.json``
+- For those products presenting metadata in the index page not included in the JSON objects itself, additional index files are generated: ``/#{product}/index.#{lang}.json``
 
 ## Feedbacks
 Feedbacks are welcome. For missing or incorrect data open an issue. 
