@@ -16,3 +16,5 @@ Feedbacks are welcome. For missing or incorrect data open an issue.
 - https://www.parlament.ch/en/services/open-data-webservices
 - https://www.parlament.ch/centers/documents/de/kurzdokumentation-webservices-d.pdf (in german)
 - https://www.parlament.ch/en/services/terms-and-conditions
+
+ This repository is licensed under the [CC BY-NC-SA 4.0 licence](https://creativecommons.org/licenses/by-nc-sa/4.0/) and cannot be used for commercial purposes. 
