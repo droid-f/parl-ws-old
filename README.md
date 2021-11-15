@@ -1,6 +1,8 @@
 # Swiss Parliamentary Services Opendata portal
 The Parliamentary Services of the Federal Assembly (Bern, Switzerland) have an opendata portal at the address http://ws-old.parlament.ch. Here we present and update on a regular schedule all the data available on the Parliamentary Services Opendata website.
 
+According to the Parliamentary Services, the opendata portal will be fully renewed in 2022. 
+
 ## Changes with respect to the original data
 - JSON objects are prettified in order to take advantage of git to track changes.
 - In order to keep directories reasonably small, affairs file names use the following notation ``/#{product}/#{id[0..4]}/#{id}.#{lang}.json``
@@ -18,3 +20,5 @@ Feedbacks are welcome. For missing or incorrect data open an issue.
 - https://www.parlament.ch/en/services/terms-and-conditions
 
  This repository is licensed under the [CC BY-NC-SA 4.0 licence](https://creativecommons.org/licenses/by-nc-sa/4.0/) and cannot be used for commercial purposes. 
+ 
+ Droid Factory.
