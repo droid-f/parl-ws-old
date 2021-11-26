@@ -1,18 +1,19 @@
 # Swiss Parliamentary Services Opendata portal
-The Parliamentary Services of the Federal Assembly (Bern, Switzerland) have an opendata portal at the address http://ws-old.parlament.ch. Here we present and update on a regular schedule all the data available on the Parliamentary Services Opendata website.
+The Parliamentary Services of the Federal Assembly (Bern, Switzerland) have an opendata portal at the address http://ws-old.parlament.ch. Here we present and update on a regular schedule all the data available in JSON format from the Parliamentary Services Opendata portal.
 
-According to the Parliamentary Services, the opendata portal will be fully renewed in 2022. 
+According to the Parliamentary Services, the opendata portal ws-old.parlament.ch will be fully renewed in 2022. 
 
 ## Changes with respect to the original data
 - JSON objects are prettified in order to take advantage of git to track changes.
-- In order to keep directories reasonably small, affairs file names use the following notation ``/#{product}/#{id[0..4]}/#{id}.#{lang}.json``
+- In order to keep directories reasonably small, affairs file names use the following notation ``/#{product}/#{id[0..3]}/#{id[0..3]}-#{id[4]}/#{id}.#{lang}.json``
+- The portal API always returns a document even when it is not available in the requested language (fallback to another version). During the crawling phase, documents that do not match the requested language are discarded and are not included in the repository. 
 
 ## Additional files
-- For each product a ``/#{product}/updated_at.json`` file is preriodically generated, this helps to keep the dataset up to date without having to scrape the whole website. 
+- For each product a ``/#{product}/updates.json`` file is preriodically generated.
 - For those products presenting metadata in the index page not included in the JSON objects itself, additional index files are generated: ``/#{product}/index.#{lang}.json``
 
 ## Feedbacks
-Feedbacks are welcome. For missing or incorrect data open an issue. 
+Feedbacks are welcome [@gamba](https://github.com/gamba). For missing or incorrect data open an issue. 
 
 ## References, terms and conditions
 - https://www.parlament.ch/en/services/open-data-webservices
