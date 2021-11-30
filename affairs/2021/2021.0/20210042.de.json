@@ -1,6 +1,6 @@
 {
   "id": 20210042,
-  "updated": "2021-11-16T17:38:42Z",
+  "updated": "2021-11-30T21:14:50Z",
   "additionalIndexing": "24;48;2841",
   "affairType": {
     "abbreviation": "BRG",
@@ -171,8 +171,8 @@
         },
         {
           "date": "/Date(1632261600000+0200)/",
-          "id": 27,
-          "name": "Erledigt"
+          "id": 4,
+          "name": "Von beiden Räten behandelt"
         }
       ],
       "texts": [
@@ -614,7 +614,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2021-11-30T00:00:00Z",
+            "text": "Beschluss abweichend vom Entwurf",
+            "type": 52
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -644,7 +658,50 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2023,
+                    "gender": "m",
+                    "id": 724,
+                    "name": "Brélaz Daniel",
+                    "officialDenomination": "Brélaz"
+                  },
+                  "faction": {
+                    "abbreviation": "G",
+                    "code": "G",
+                    "id": 6,
+                    "name": "Grüne Fraktion"
+                  },
+                  "language": "fr"
+                },
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3214,
+                    "gender": "f",
+                    "id": 4318,
+                    "name": "Wyss Sarah",
+                    "officialDenomination": "Wyss"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion S",
+                    "code": "S",
+                    "id": 2,
+                    "name": "Sozialdemokratische Fraktion"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5112"
             }
@@ -708,6 +765,11 @@
           "date": "/Date(1631829600000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1638226800000+0100)/",
+          "id": 3,
+          "name": "Behandelt vom Ständerat"
         }
       ],
       "texts": [
@@ -723,7 +785,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2021-11-30T00:00:00Z",
+            "text": "Beschluss abweichend vom Entwurf",
+            "type": 52
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -817,6 +893,11 @@
           "date": "/Date(1631829600000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1638226800000+0100)/",
+          "id": 3,
+          "name": "Behandelt vom Ständerat"
         }
       ],
       "texts": [
@@ -830,11 +911,6 @@
       ]
     }
   ],
-  "handling": {
-    "date": "2021-09-22T00:00:00Z",
-    "legislativePeriod": 51,
-    "session": "5111"
-  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -860,9 +936,9 @@
   ],
   "shortId": "21.042",
   "state": {
-    "id": 27,
-    "name": "Erledigt",
-    "doneKey": "1",
+    "id": 4,
+    "name": "Von beiden Räten behandelt",
+    "doneKey": "0",
     "newKey": 0
   },
   "texts": [
