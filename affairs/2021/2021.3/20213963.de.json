@@ -1,6 +1,6 @@
 {
   "id": 20213963,
-  "updated": "2021-09-16T15:08:06Z",
+  "updated": "2021-12-01T13:29:14Z",
   "additionalIndexing": "2841;04;1236",
   "affairType": {
     "abbreviation": "Mo.",
@@ -57,6 +57,21 @@
             "date": "2021-09-16T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2021-12-01T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -117,7 +132,28 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3107,
+                    "gender": "m",
+                    "id": 4206,
+                    "name": "Ettlin Erich",
+                    "officialDenomination": "Ettlin Erich"
+                  },
+                  "faction": {
+                    "abbreviation": "M-E",
+                    "code": "M-E",
+                    "id": 139,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5112"
             }
@@ -145,6 +181,11 @@
           "date": "/Date(1631743200000+0200)/",
           "id": 11,
           "name": "Motion an 2. Rat"
+        },
+        {
+          "date": "/Date(1638313200000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -152,6 +193,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-01T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -187,9 +233,9 @@
   ],
   "shortId": "21.3963",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },
