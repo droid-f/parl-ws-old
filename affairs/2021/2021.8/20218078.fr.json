@@ -1,6 +1,6 @@
 {
   "id": 20218078,
-  "updated": "2021-12-01T16:03:55Z",
+  "updated": "2021-12-06T17:03:00Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-06T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Département des finances",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638313200000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +122,33 @@
   ],
   "shortId": "21.8078",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La réponse du Conseil fédéral n'existe qu'en allemand. (Veuillez changer la langue en haut à droite de la page d'accueil)</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Comme on l'a appris récemment, à l'inverse de la Suisse, l'UE ne prévoit pas, dans sa mise en oeuvre de \" Bâle III final \", de lien entre la capacité financière des preneurs d'hypothèques et les exigences auxquelles les banques doivent satisfaire en matière de fonds propres.</p><p>- Le Conseil fédéral est-il prêt, eu égard à ce choix de l'UE, à renoncer lui aussi à prévoir un tel lien ?</p><p>Dans la négative, pourquoi ?</p><p>- La mise en oeuvre prévue par l'UE est-elle conforme au dispositif de Bâle ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Mise en oeuvre de \" Bâle III final \" : pas de régime spécial pour la Suisse sur le marché hypothécaire"
     }
   ],
-  "title": "Titre suit"
+  "title": "Mise en oeuvre de \" Bâle III final \" : pas de régime spécial pour la Suisse sur le marché hypothécaire"
 }

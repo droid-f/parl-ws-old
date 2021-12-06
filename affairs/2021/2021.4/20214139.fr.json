@@ -1,6 +1,6 @@
 {
   "id": 20214139,
-  "updated": "2021-10-01T10:24:46Z",
+  "updated": "2021-12-06T10:27:33Z",
   "additionalIndexing": "52",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,26 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-02T00:00:00Z",
+            "text": "Classé car l’auteur a quitté le conseil",
+            "type": 42
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "n",
+        "date": "2021-11-17T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -68,6 +84,11 @@
           "date": "/Date(1632866400000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1638399600000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -75,6 +96,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-02T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -107,12 +133,19 @@
   ],
   "shortId": "21.4139",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>1) La Confédération ne relève aucune donnée concernant le nombre de chasseurs abattant une espèce spécifique. Les cantons indiquent à l'Office fédéral de l'environnement la quantité d'animaux tués par espèce et la quantité de titulaires d'une autorisation de chasser. Ces données sont recensées dans la statistique fédérale de la chasse. Ajouter à cette statistique le nombre d'animaux abattus par chasseur entraînerait un surcroît de travail considérable pour les cantons.</p><p>2) La Liste rouge des oiseaux nicheurs sera vraisemblablement publiée fin 2021.</p><p>3) et 4) L'exploitation cynégétique des espèces est, en vertu de la Constitution, une régale des cantons. Le Parlement détermine à l'art. 5 de la loi sur la chasse (LChP ; RS 922.0) les espèces pouvant être chassées. Le Conseil fédéral peut, après avoir entendu les cantons, réduire la liste des animaux dont la chasse est autorisée dans l'ensemble de la Suisse lorsque cela s'impose pour protéger des espèces menacées (art. 5, al. 6, LChP). C'est actuellement le cas uniquement pour une espèce figurant sur la liste rouge : le fuligule milouin. Dans le cadre de la révision de la LChP, le Parlement avait décidé de placer sous protection le fuligule milouin et onze autres espèces de canards sauvages passant l'hiver en Suisse. Or cette révision a été refusée par le peuple en automne 2020.</p><p>Les cantons sont tenus, lorsque la protection d'espèces localement menacées l'exige, de protéger ces dernières dans leur législation (art. 5, al. 4, LChP). C'est pourquoi la chasse au lièvre commun et à la bécasse des bois a été suspendue dans de nombreux cantons. Ces espèces ne sont chassées que dans les régions abritant des populations importantes.</p>"
+    },
     {
       "type": {
         "id": 5,
@@ -125,8 +158,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Combien de chasseurs tuent des espèces chassables sur la liste rouge ?"
+      "value": "Combien de chasseurs tuent des espèces chassables sur la liste rouge?"
     }
   ],
-  "title": "Combien de chasseurs tuent des espèces chassables sur la liste rouge ?"
+  "title": "Combien de chasseurs tuent des espèces chassables sur la liste rouge?"
 }

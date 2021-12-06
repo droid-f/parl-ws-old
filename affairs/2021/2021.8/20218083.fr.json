@@ -1,6 +1,6 @@
 {
   "id": 20218083,
-  "updated": "2021-12-01T16:17:06Z",
+  "updated": "2021-12-06T16:33:15Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -15,7 +15,7 @@
       "officialDenomination": "Kamerzin"
     },
     "faction": {
-      "abbreviation": "M-E",
+      "abbreviation": "Groupe M-E",
       "id": 139,
       "name": "Le Groupe du Centre. Le Centre. PEV."
     },
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-06T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638313200000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -83,7 +113,7 @@
         "officialDenomination": "Kamerzin"
       },
       "faction": {
-        "abbreviation": "M-E",
+        "abbreviation": "Groupe M-E",
         "id": 139,
         "name": "Le Groupe du Centre. Le Centre. PEV."
       },
@@ -92,12 +122,19 @@
   ],
   "shortId": "21.8083",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La réponse du Conseil fédéral n'existe qu'en allemand. (Veuillez changer la langue en haut à droite de la page d'accueil)</p>"
+    },
     {
       "type": {
         "id": 5,

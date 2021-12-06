@@ -1,6 +1,6 @@
 {
   "id": 20218048,
-  "updated": "2021-12-01T11:23:51Z",
+  "updated": "2021-12-06T16:48:29Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-06T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638313200000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +122,33 @@
   ],
   "shortId": "21.8048",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La réponse du Conseil fédéral n'existe qu'en allemand. (Veuillez changer la langue en haut à droite de la page d'accueil)</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Les services médicaux régionaux doivent désormais déterminer les capacités fonctionnelles des assurés, des points de vue qualitatif et quantitatif (art. 49, al. 1bis, RAI). Selon les explications du Conseil fédéral contenues dans le rapport explicatif sur la modification du règlement sur l'assurance-invalidité (RAI), cette nouvelle tâche compense la suppression de l'abattement en raison d'une atteinte à la santé.</p><p>Cela signifie-t-il que les services médicaux régionaux doivent le cas échéant procéder à des abattements sur la capacité de travail attestée par un médecin ou par un expert et, dans l'affirmative, comment s'assure-t-on qu'ils procèdent systématiquement à ce contrôle ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Nouvelle tâche confiée aux services médicaux régionaux. Comment s’assure-t-on de son exécution ?"
     }
   ],
-  "title": "Titre suit"
+  "title": "Nouvelle tâche confiée aux services médicaux régionaux. Comment s’assure-t-on de son exécution ?"
 }

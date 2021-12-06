@@ -1,6 +1,6 @@
 {
   "id": 20217994,
-  "updated": "2021-11-29T17:50:18Z",
+  "updated": "2021-12-06T15:17:26Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,7 +39,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Réponse donnée par oral",
+            "type": 82
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -55,13 +69,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638140400000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +93,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +121,26 @@
   ],
   "shortId": "21.7994",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>L'Asulam est un herbicide utilisé pour combattre les rumex et les fougères, notamment dans les pâturages de montagne. Or il est interdit dans l'Union européenne parce qu'il est suspecté de provoquer des cancers de la thyroïde. A cela s'ajoute le fait qu'après l'épandage, il se dégrade en sulfanilamide, un antibiotique qui favorise la résistance de diverses bactéries présentes dans l'environnement et susceptibles de s'attaquer également à l'être humain.</p><p>- Depuis quand l'Asulam est-il interdit dans l'Union européenne ?</p><p>- Depuis quand la Suisse est-elle censée mettre en oeuvre cette interdiction ?</p><p>- Pourquoi ne le fait-elle pas ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Quand l’Asulam, herbicide probablement cancérigène, sera-t-il interdit en Suisse ?"
     }
   ],
-  "title": "Titre suit"
+  "title": "Quand l’Asulam, herbicide probablement cancérigène, sera-t-il interdit en Suisse ?"
 }

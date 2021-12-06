@@ -1,6 +1,6 @@
 {
   "id": 20218067,
-  "updated": "2021-12-01T15:05:14Z",
+  "updated": "2021-12-06T15:11:16Z",
   "affairType": {
     "abbreviation": "Fra.",
     "id": 14,
@@ -40,7 +40,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Mündliche Beantwortung der Frage",
+            "type": 82
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -56,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638313200000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -70,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "relatedAffairs": [
 
@@ -94,19 +123,26 @@
   ],
   "shortId": "21.8067",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Die SBB errichten Wohnungen und Geschäftsräume (Einkaufspassagen/Büros). SBB Immobilien spricht von einer Grössenordnung von 10 000 Wohnungen.</p><p>- Kann diese Information bestätigt werden?</p><p>- Wie sieht die Zeitplanung für den Bau aus?</p><p>- Welches Verhältnis ist zwischen Wohnungen und Geschäften/Büros beziehungsweise zwischen Wohnungen des freien Marktes und gemeinnützigen Wohnungen vorgesehen?</p><p>- Werden diese Bauprojekte auf Grundstücken realisiert, die bisher für die Bedürfnisse des Bahnverkehrs bestimmt waren?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Immobilienprojekte der SBB: Welche Entwicklungen sind geplant?"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Immobilienprojekte der SBB: Welche Entwicklungen sind geplant?"
 }

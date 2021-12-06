@@ -1,6 +1,6 @@
 {
   "id": 20218099,
-  "updated": "2021-12-01T17:10:08Z",
+  "updated": "2021-12-06T16:53:26Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-06T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFAE",
+          "id": 3,
+          "name": "Département des affaires étrangères",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638313200000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,12 +122,19 @@
   ],
   "shortId": "21.8099",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le droit suisse prévoit que toute personne dont la vie ou l'intégrité physique est directement, sérieusement et concrètement menacée dans son pays d'origine ou de provenance peut soumettre une demande de visa humanitaire. La demande doit être déposée en personne auprès d'une représentation suisse à l'étranger habilitée à délivrer des visas. Chaque demande est examinée minutieusement et au cas-par-cas. Les critères pour rétablissement d'un visa humanitaire sont néanmoins stricts. Le simple fait d'appartenir à un groupe potentiellement menacé n'est pas suffisant pour pouvoir justifier d'un danger de mort. Par ailleurs, conformément à la pratique constante, la personne doit avoir un lien étroit et actuel avec la Suisse. </p>"
+    },
     {
       "type": {
         "id": 5,

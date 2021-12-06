@@ -1,6 +1,6 @@
 {
   "id": 20218052,
-  "updated": "2021-12-01T11:32:11Z",
+  "updated": "2021-12-06T16:49:19Z",
   "affairType": {
     "abbreviation": "Fra.",
     "id": 14,
@@ -40,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Schriftliche Beantwortung der Frage",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-06T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638313200000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -70,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "relatedAffairs": [
 
@@ -94,12 +124,19 @@
   ],
   "shortId": "21.8052",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Die Impfung gegen Sars-CoV-2 ist in der Schweiz freiwillig. Ein Impfobligatorium ist nicht vorgesehen. Das Epidemiengesetz sieht vor, dass die Kantone, bei Vorliegen einer erheblichen Gefahr, Impfungen von gefährdeten Bevölkerungsgruppen, von besonders exponierten Personen und von Personen, die bestimmte Tätigkeiten ausüben, für obligatorisch erklären können. Der Bund kann die Impfung für diese Gruppen gestützt auf das Epidemiengesetz ebenfalls für obligatorisch erklären. Diese Bundeskompetenz ist aber lediglich subsidiär. Theoretisch könnte der Bundesrat in der ausserordentlichen Lage gemäss Epidemiengesetz auch ein Impfobligatorium anordnen, falls dies geeignet und erforderlich wäre.</p>"
+    },
     {
       "type": {
         "id": 5,

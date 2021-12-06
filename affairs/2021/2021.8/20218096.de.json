@@ -1,6 +1,6 @@
 {
   "id": 20218096,
-  "updated": "2021-12-01T17:03:51Z",
+  "updated": "2021-12-06T17:02:21Z",
   "affairType": {
     "abbreviation": "Fra.",
     "id": 14,
@@ -15,7 +15,7 @@
       "officialDenomination": "Arslan"
     },
     "faction": {
-      "abbreviation": "G",
+      "abbreviation": "Fraktion G",
       "code": "G",
       "id": 6,
       "name": "Grüne Fraktion"
@@ -40,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Schriftliche Beantwortung der Frage",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-06T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638313200000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -70,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "relatedAffairs": [
 
@@ -84,7 +114,7 @@
         "officialDenomination": "Arslan"
       },
       "faction": {
-        "abbreviation": "G",
+        "abbreviation": "Fraktion G",
         "code": "G",
         "id": 6,
         "name": "Grüne Fraktion"
@@ -94,12 +124,19 @@
   ],
   "shortId": "21.8096",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Seit Beginn der Krise setzt sich die Schweiz für eine globale Lösung zur gerechten Verteilung der Impfstoffe gegen Covid-19 ein. Sie tut dies insbesondere durch umfangreiche Unterstützungen der Covax-Initiative, welche die Entwicklung, die Produktion und insbesondere die faire Verteilung der Impfstoffe gegen Covid-19 zum Ziel hat. Die Schweiz hat den Covax Advance Market Commitment, der fokussiert den Zugang zu Impfstoffen von Staaten mit niedrigem Einkommen fördert, mit bisher 145 Millionen Franken unterstützt und Beiträge an weitere Organisationen wie Coalition for Epidemie Preparedness Innovations geleistet. Der Bundesrat hat zudem entschieden, insgesamt 4 Millionen Impfdosen des Herstellers Astra Zeneca an Covax zu spenden. Ferner hat die Schweiz ein sogenanntes Queue Swapping vereinbart, womit eine Million Moderna-Impfdosen zuerst an Covax geliefert werden und erst zu einem späteren Zeitpunkt bei Bedarf an die Schweiz. Zusätzliche Weitergaben von nicht benötigtem Impfstoff werden fortlaufend geprüft. Ebenso setzt sich die Schweiz für die Stärkung der Gesundheitskompetenz der Bevölkerung ein. Dazu gehören auch sachliche und transparente Informationen über Impfstoffe.</p>"
+    },
     {
       "type": {
         "id": 5,

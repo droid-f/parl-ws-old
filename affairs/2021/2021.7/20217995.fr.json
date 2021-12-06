@@ -1,6 +1,6 @@
 {
   "id": 20217995,
-  "updated": "2021-11-30T07:09:24Z",
+  "updated": "2021-12-06T17:06:48Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +39,35 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "Bu-CN",
+              "id": 1,
+              "name": "Bureau CN",
+              "abbreviation1": "Bu-CN",
+              "abbreviation2": "Bu",
+              "committeeNumber": 1,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Conseil national",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-06T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +80,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "Parl",
+          "id": 1,
+          "name": "Parlement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638140400000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +104,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +132,33 @@
   ],
   "shortId": "21.7995",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>L'informatique du Parlement fait partie intégrante du réseau de la Confédération, lequel est surveillé par Swisscom 24 heures sur 24. En cas de cyberattaque, les Services du Parlement sont immédiatement alertés ; ils peuvent alors faire appel à d'autres spécialistes pour les soutenir si nécessaire.</p><p>1. L'ordonnance sur la transformation numérique et l'informatique ainsi que l'ordonnance sur les cyberrisques règlent en détail les compétences en cas de cyberincident survenant au sein de l'administration fédérale et les processus à suivre. Elles prévoient notamment que les unités organisationnelles gèrent tout cyberincident touchant leurs objets informatiques à protéger. Dans ces conditions, la cybersécurité des députés incombe aux Services du Parlement. Le Centre national pour la cybersécurité (NCSC), rattaché au Département fédéral des finances, soutient les autorités victimes de cyberincident, y compris les Services du Parlement.</p><p>2. L'art. 27, al. 1bis, de l'ordonnance sur l'administration du Parlement (OLPA ; <a  href=\"https://www.fedlex.admin.ch/eli/cc/2003/512/fr\">RS 171.115)</a> dispose que la Délégation administrative nomme le délégué à la sécurité de l'Assemblée fédérale. Celui-ci est responsable, dans tous les domaines de la sécurité, de la planification et de l'organisation de mesures de protection à l'intention des députés et des collaborateurs des Services du Parlement. Il est soutenu par le délégué à la sécurité informatique des Services du Parlement et collabore étroitement avec d'autres services de la Confédération, en particulier avec le NCSC.</p><p>Lorsque des députés lui signalent une cyberattaque, Fedpol conseille les personnes concernées et coordonne d'éventuelles mesures avec les Services du Parlement et le NCSC. Si l'annonce en question fait état d'une menace, Fedpol procède à une évaluation de la menace et ordonne, au besoin, des mesures de protection. Si l'affaire revêt une importance pénale, Fedpol transmet les informations en sa possession aux autorités de poursuite pénale compétentes ; il peut être chargé de mener des enquêtes.</p><p>3. Les Services du Parlement sont au fait des cas qui leur sont annoncés. Il y en a eu 30 en 2020, dont 5 critiques ; 31 ont été enregistrés jusqu'ici en 2021, dont 6 critiques. Fedpol ne tient pas de statistique des cyberattaques ciblant des députés.</p><p>4. Outre les mesures de sécurité usuelles pour le réseau informatique (par ex. authentification à deux facteurs pour l'accès à Parlnet), des mesures supplémentaires sont prévues, comme des programmes antivirus ou des dispositifs de cryptage pour les députés. Les Services du Parlement chargent régulièrement des spécialistes externes de contrôler leur infrastructure, puis comblent les lacunes ainsi détectées. Les équipements standard fournis par les Services du Parlement sont dotés des dispositifs de sécurité de base. Ceux-ci sont actifs tant que les députés respectent les consignes. Les députés ayant opté pour la variante du crédit informatique sont responsables de la sécurité de leurs appareils. Au-delà des moyens techniques, l'être humain reste le principal garant de la sécurité. C'est la raison pour laquelle les Services du Parlement sensibilisent régulièrement les députés à la problématique et leur prodiguent des conseils à ce sujet (cf. <a  href=\"https://parlnet.parlament.ch/documents/20123/240595/wegweiser-bedrohung-leporello-f.pdf/\">\" Menaces, harcèlement, insultes : petit guide à l'intention des membres de l'Assemblée fédérale \"</a>).</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Selon l'ordonnance révisée sur la protection des personnes et des bâtiments relevant de la compétence fédérale (OPF), qui est entrée en vigueur au début 2021, c'est Fedpol qui assure la sécurité des membres de l'Assemblée fédérale. Or, il est uniquement question dans l'OPF des personnes et des bâtiments relevant de la compétence fédérale, les systèmes informatiques n'étant pas mentionnés.</p><p>D'où mes questions :</p><p>- Le DFJP a-t-il oublié la cybersécurité ?</p><p>- Qui est responsable de la sécurité informatique des membres du Parlement ?</p><p>- Fedpol tient-il des statistiques sur les cyberattaques visant les députés ?</p><p>- Quelles mesures de protection ont-elles été prises ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Qui protège les élus du Parlement fédéral contre les cyber-attaques ?"
     }
   ],
-  "title": "Titre suit"
+  "title": "Qui protège les élus du Parlement fédéral contre les cyber-attaques ?"
 }

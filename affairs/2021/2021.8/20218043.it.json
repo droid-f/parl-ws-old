@@ -1,6 +1,6 @@
 {
   "id": 20218043,
-  "updated": "2021-12-01T11:13:14Z",
+  "updated": "2021-12-06T16:45:31Z",
   "affairType": {
     "abbreviation": "Dom.",
     "id": 14,
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Risposta scritta alla domanda",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-06T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Dipartimento dell'interno",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638313200000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -69,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "it",
   "relatedAffairs": [
 
@@ -92,12 +122,19 @@
   ],
   "shortId": "21.8043",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il numero degli ultimi casi di Covid-19 dichiarati è pubblicato, in base a fasce d'età di dieci anni, sulla dashboard dell'Ufficio federale della sanità pubblica (UFSP), aggiornata nei giorni feriali. Sul sito web dell'UFSP è inoltre riportata una stima settimanale dell'evoluzione del numero di casi per le diverse fasce d'età nel rapporto sulla situazione epidemiologica in Svizzera e nel Principato del Liechtenstein.</p>"
+    },
     {
       "type": {
         "id": 5,

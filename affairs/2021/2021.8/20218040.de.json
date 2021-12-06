@@ -1,6 +1,6 @@
 {
   "id": 20218040,
-  "updated": "2021-12-01T11:09:05Z",
+  "updated": "2021-12-06T16:44:33Z",
   "affairType": {
     "abbreviation": "Fra.",
     "id": 14,
@@ -40,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Schriftliche Beantwortung der Frage",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-06T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638313200000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -70,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "relatedAffairs": [
 
@@ -94,19 +124,33 @@
   ],
   "shortId": "21.8040",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Die Antwort des Bundesrates existiert nur in französischer Sprache. (Bitte wechseln Sie auf der Homepage oben rechts die Sprache)</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat will mindestens bis zum 24. Januar 2022 eine Covid-Zertifikatspflicht bei Treffen von mehr als 10 Personen im Familien- oder Freundeskreis durchsetzen.</p><p>- Wie stellt er sich vor, dass eine solche Massnahme, die einen massiven staatlichen Eingriff in die Privatsphäre darstellen würde, kontrolliert werden könnte?</p><p>- Müssen die Familien in unserem Land damit rechnen, dass die Polizei an Weihnachten an ihrer Tür klopfen wird? </p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Kommt die Polizei an Weihnachten zu den Familien?"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Kommt die Polizei an Weihnachten zu den Familien?"
 }

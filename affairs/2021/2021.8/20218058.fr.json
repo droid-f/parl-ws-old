@@ -1,6 +1,6 @@
 {
   "id": 20218058,
-  "updated": "2021-12-01T13:36:04Z",
+  "updated": "2021-12-06T17:01:14Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -15,7 +15,7 @@
       "officialDenomination": "Regazzi"
     },
     "faction": {
-      "abbreviation": "M-E",
+      "abbreviation": "Groupe M-E",
       "id": 139,
       "name": "Le Groupe du Centre. Le Centre. PEV."
     },
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-06T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Département des finances",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638313200000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -83,7 +113,7 @@
         "officialDenomination": "Regazzi"
       },
       "faction": {
-        "abbreviation": "M-E",
+        "abbreviation": "Groupe M-E",
         "id": 139,
         "name": "Le Groupe du Centre. Le Centre. PEV."
       },
@@ -92,19 +122,33 @@
   ],
   "shortId": "21.8058",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La réponse du Conseil fédéral n'existe qu'en allemand. (Veuillez changer la langue en haut à droite de la page d'accueil)</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>De nombreuses entreprises n'ont plus de stocks, si bien qu'elles devront utiliser leurs réserves fiscales de 33 % lors de la clôture de fin d'année, réserves qu'elles reconstitueront l'année prochaine lorsque la situation se sera normalisée. Cette situation a pour conséquence que le bénéfice pour 2021 augmentera fortement et qu'il diminuera à nouveau l'année prochaine en raison des modifications fiscales correspondantes.</p><p>L'Administration fédérale des contributions et la Conférence suisse des impôts sont-elles en mesure de trouver une solution pour l'année 2021 afin d'atténuer cet effet ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Atténuer les problèmes de pénurie au niveau mondial"
     }
   ],
-  "title": "Titre suit"
+  "title": "Atténuer les problèmes de pénurie au niveau mondial"
 }

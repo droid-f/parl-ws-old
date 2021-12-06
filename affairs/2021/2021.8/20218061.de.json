@@ -1,6 +1,6 @@
 {
   "id": 20218061,
-  "updated": "2021-12-01T13:43:44Z",
+  "updated": "2021-12-06T16:50:05Z",
   "affairType": {
     "abbreviation": "Fra.",
     "id": 14,
@@ -40,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Schriftliche Beantwortung der Frage",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-06T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638313200000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -70,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "relatedAffairs": [
 
@@ -94,12 +124,19 @@
   ],
   "shortId": "21.8061",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Wissenschaftliche Studien zeigen, dass der Schutz von geimpften Personen gegen Infektion und Transmission von Sars-CoV-2 mit der Zeit abnimmt. Bei älteren Personen schwächt sich zudem der Schutz gegen schwere Krankheitsverläufe ab. Aus diesem Grund empfehlen das Bundesamt für Gesundheit und die Eidgenössische Kommission für Impffragen grundsätzlich allen Personen ab 16 Jahren eine Auffrischimpfung, sofern die Grundimmunisierung mindestens sechs Monate zurückliegt. Aufgrund des abnehmenden Schutzes nach der Impfung haben einige Länder die Gültigkeitsdauer des Impfzertifikates reduziert. In der Schweiz beträgt die Gültigkeitsdauer weiterhin ein Jahr. Der Bundesrat behält sich vor, auf bereits getroffene Entscheide zurückzukommen, sollten neue Erkenntnisse vorliegen. Diese Flexibilität wird von der Bevölkerung erwartet, denn sie ist die Voraussetzung für ein effizientes Krisenmanagement.</p>"
+    },
     {
       "type": {
         "id": 5,

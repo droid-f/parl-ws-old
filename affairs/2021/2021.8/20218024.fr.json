@@ -1,6 +1,6 @@
 {
   "id": 20218024,
-  "updated": "2021-11-30T13:27:27Z",
+  "updated": "2021-12-06T15:21:58Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,7 +39,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Réponse donnée par oral",
+            "type": 82
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -55,13 +69,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638226800000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +93,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +121,26 @@
   ],
   "shortId": "21.8024",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Alors que la Suisse exportait 56 068 tonnes de fromage pour en importer 33 072 tonnes en 2006, elle en exportait 77 124 tonnes pour en importer 71 664 tonnes en 2020. Tandis que les exportations ont augmenté de 37 % depuis l'introduction du libre-échange avec l'Union européenne, les importations ont, quant à elles, augmenté de 117 %.</p><p>- Selon le Conseil fédéral, existe-t-il des possibilités d'enrayer cette tendance négative durable ?</p><p>- Les statistiques indiquent que les prix moyens à l'exportation sont toujours plus bas, est-ce compatible avec notre stratégie en matière de qualité ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Le fleuron centenaire de la production alimentaire et de l’économie d’exportation suisses est menacé. La Suisse passe du statut d’exportateur net à celui d’importateur net de fromage"
     }
   ],
-  "title": "Titre suit"
+  "title": "Le fleuron centenaire de la production alimentaire et de l’économie d’exportation suisses est menacé. La Suisse passe du statut d’exportateur net à celui d’importateur net de fromage"
 }

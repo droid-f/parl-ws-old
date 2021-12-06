@@ -1,6 +1,6 @@
 {
   "id": 20217993,
-  "updated": "2021-11-29T17:46:30Z",
+  "updated": "2021-12-06T15:15:58Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,7 +39,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Réponse donnée par oral",
+            "type": 82
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -55,13 +69,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638140400000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +93,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +121,26 @@
   ],
   "shortId": "21.7993",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Lors de l'Open FiBL Day cette année, Florian Leiber, dr en sciences naturelles, a souligné que le recul de la biodiversité et le dérèglement du cycle de l'azote renforcent encore les changements climatiques, pulvérisant les limites de la planète. Il affirme que cette évolution ne peut que saper la résistance d'importants composants de l'écosystème.</p><p>- Cette approche scientifique est-elle connue ?</p><p>- Que signifie-t-elle pour l'agriculture suisse et comment y réagit-on ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Le recul de la biodiversité et le dérèglement du cycle de l'azote pulvérisent les limites planétaires. Que faire ?"
     }
   ],
-  "title": "Titre suit"
+  "title": "Le recul de la biodiversité et le dérèglement du cycle de l'azote pulvérisent les limites planétaires. Que faire ?"
 }

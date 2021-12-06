@@ -1,6 +1,6 @@
 {
   "id": 20218022,
-  "updated": "2021-11-30T13:24:30Z",
+  "updated": "2021-12-06T15:21:28Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,7 +39,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Réponse donnée par oral",
+            "type": 82
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -55,13 +69,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638226800000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +93,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +121,26 @@
   ],
   "shortId": "21.8022",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>A ma question 21.7498, le Conseil fédéral a répondu que la majeure partie de la valeur ajoutée de l'agriculture suisse provient de la production animale et que le principal produit d'exportation de l'agriculture suisse est le fromage. Dans son rapport sur la surveillance de la promotion des ventes pour les produits agricoles, le CDF déclare que 85 % des moyens sont versés aux dix organisations de marketing disposant des fonds propres les plus importants et aux quatre plus grands groupes de produits.</p><p>- Combien d'argent est versé à quels groupes de produits et à quelles organisations ?</p><p>- Quels sont le chiffre d'affaires et les capitaux propres de ces organisations ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Promotion des ventes. Quelles organisations et quels groupes de produits bénéficient de fonds de la Confédération ?"
     }
   ],
-  "title": "Titre suit"
+  "title": "Promotion des ventes. Quelles organisations et quels groupes de produits bénéficient de fonds de la Confédération ?"
 }

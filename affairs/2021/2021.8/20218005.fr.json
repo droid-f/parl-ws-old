@@ -1,6 +1,6 @@
 {
   "id": 20218005,
-  "updated": "2021-11-30T08:13:10Z",
+  "updated": "2021-12-06T16:18:24Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-06T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638140400000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,12 +122,19 @@
   ],
   "shortId": "21.8005",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>1. La loi sur les fonds de compensation constitue la base légale qui réglemente la présentation des comptes conforme à la réalité. Ces dispositions ne pouvaient cependant pas être élaborées et adoptées au 1er janvier 2019, date de la mise en exploitation opérationnelle de l'établissement, car les risques et les conséquences d'une adaptation à court terme étaient difficiles à évaluer et devaient faire l'objet d'un examen plus approfondi. Il fallait par ailleurs tenir compte, lors de la définition des principes relatifs à la présentation des comptes, du standard \"Ipsas Social Benefits\", qui n'a été approuvé qu'en janvier 2019.</p><p>2. Etant donné que le total des charges de l'AVS n'augmente pas de manière significative, les nouvelles prescriptions n'ont pas d'effets substantiels sur la contribution fédérale à l'AVS.</p>"
+    },
     {
       "type": {
         "id": 5,

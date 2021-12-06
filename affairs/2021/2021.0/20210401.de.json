@@ -1,6 +1,6 @@
 {
   "id": 20210401,
-  "updated": "2021-11-01T16:47:08Z",
+  "updated": "2021-12-06T19:16:22Z",
   "additionalIndexing": "1221",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -162,7 +162,7 @@
                     "officialDenomination": "Rieder"
                   },
                   "faction": {
-                    "abbreviation": "M-E",
+                    "abbreviation": "Fraktion M-E",
                     "code": "M-E",
                     "id": 139,
                     "name": "Die Mitte-Fraktion. Die Mitte. EVP."
@@ -253,6 +253,11 @@
           "date": "/Date(1631656800000+0200)/",
           "id": 3,
           "name": "Behandelt vom Ständerat"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 4,
+          "name": "Von beiden Räten behandelt"
         }
       ],
       "texts": [
@@ -276,6 +281,21 @@
             "date": "2021-09-15T00:00:00Z",
             "text": "Beschluss gemäss Entwurf",
             "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
           }
         ]
       },
@@ -306,12 +326,55 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3058,
+                    "gender": "f",
+                    "id": 4184,
+                    "name": "Arslan Sibel",
+                    "officialDenomination": "Arslan"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion G",
+                    "code": "G",
+                    "id": 6,
+                    "name": "Grüne Fraktion"
+                  },
+                  "language": "de"
+                },
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2698,
+                    "gender": "m",
+                    "id": 3895,
+                    "name": "Lüscher Christian",
+                    "officialDenomination": "Lüscher"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "fr"
+                }
               ],
               "sessionId": "5112"
             }
           ],
-          "treatmentCategory": "IIIb/IV"
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
@@ -348,7 +411,7 @@
                     "officialDenomination": "Rieder"
                   },
                   "faction": {
-                    "abbreviation": "M-E",
+                    "abbreviation": "Fraktion M-E",
                     "code": "M-E",
                     "id": 139,
                     "name": "Die Mitte-Fraktion. Die Mitte. EVP."
@@ -375,7 +438,7 @@
                     "officialDenomination": "Rieder"
                   },
                   "faction": {
-                    "abbreviation": "M-E",
+                    "abbreviation": "Fraktion M-E",
                     "code": "M-E",
                     "id": 139,
                     "name": "Die Mitte-Fraktion. Die Mitte. EVP."
@@ -428,6 +491,11 @@
           "date": "/Date(1631656800000+0200)/",
           "id": 3,
           "name": "Behandelt vom Ständerat"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 4,
+          "name": "Von beiden Räten behandelt"
         }
       ],
       "texts": [
@@ -476,8 +544,8 @@
   ],
   "shortId": "21.401",
   "state": {
-    "id": 3,
-    "name": "Behandelt vom Ständerat",
+    "id": 4,
+    "name": "Von beiden Räten behandelt",
     "doneKey": "0",
     "newKey": 0
   },

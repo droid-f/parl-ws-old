@@ -1,6 +1,6 @@
 {
   "id": 20218074,
-  "updated": "2021-12-01T15:53:04Z",
+  "updated": "2021-12-06T16:54:19Z",
   "affairType": {
     "abbreviation": "Fra.",
     "id": 14,
@@ -40,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Schriftliche Beantwortung der Frage",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-06T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638313200000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -70,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "relatedAffairs": [
 
@@ -94,12 +124,19 @@
   ],
   "shortId": "21.8074",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der leidensbedingte Abzug wird neu im Gegensatz zur bisherigen Praxis bereits am Anfang der Beurteilung der Arbeitsfähigkeit berücksichtigt. Braucht beispielsweise eine versicherte Person in angepasster Tätigkeit pro Stunde 15 Minuten Pause, ist ihre Arbeitsfähigkeit um ein Viertel reduziert. Auf eine Arbeitszeit von acht Stunden braucht sie also zwei Stunden Pause, womit eine Arbeitsfähigkeit von 75 Prozent resultieren würde. Von der festgelegten funktionellen Leistungsfähigkeit kann nicht direkt die Verwertbarkeit im Arbeitsmarkt abgeleitet werden, weil mit der funktionellen Leistungsfähigkeit nur ein Teil der Invaliditätsbemessung abgedeckt wird.</p>"
+    },
     {
       "type": {
         "id": 5,

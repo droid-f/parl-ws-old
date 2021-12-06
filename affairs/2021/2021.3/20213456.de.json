@@ -1,6 +1,6 @@
 {
   "id": 20213456,
-  "updated": "2021-05-31T19:08:31Z",
+  "updated": "2021-12-06T20:17:56Z",
   "additionalIndexing": "1211;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -57,6 +57,21 @@
             "date": "2021-05-31T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -105,7 +120,7 @@
                     "officialDenomination": "Rieder"
                   },
                   "faction": {
-                    "abbreviation": "M-E",
+                    "abbreviation": "Fraktion M-E",
                     "code": "M-E",
                     "id": 139,
                     "name": "Die Mitte-Fraktion. Die Mitte. EVP."
@@ -137,7 +152,28 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3140,
+                    "gender": "f",
+                    "id": 4248,
+                    "name": "Bellaiche Judith",
+                    "officialDenomination": "Bellaiche"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion GL",
+                    "code": "GL",
+                    "id": 137,
+                    "name": "Grünliberale Fraktion"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5112"
             }
@@ -166,6 +202,11 @@
           "date": "/Date(1622412000000+0200)/",
           "id": 11,
           "name": "Motion an 2. Rat"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -173,6 +214,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -208,9 +254,9 @@
   ],
   "shortId": "21.3456",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },

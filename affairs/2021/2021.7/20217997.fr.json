@@ -1,6 +1,6 @@
 {
   "id": 20217997,
-  "updated": "2021-11-30T07:14:17Z",
+  "updated": "2021-12-06T16:34:14Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-06T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFAE",
+          "id": 3,
+          "name": "Département des affaires étrangères",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638140400000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +122,33 @@
   ],
   "shortId": "21.7997",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La réponse du Conseil fédéral n'existe qu'en allemand. (Veuillez changer la langue en haut à droite de la page d'accueil)</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Les informations faisant état de l'utilisation de gaz toxique par l'armée turque dans la région autonome du Kurdistan (Irak du nord) se multiplient.</p><p>- La Suisse a-t-elle exigé des explications auprès du gouvernement turc ?</p><p>A quel niveau le sujet a-t-il été discuté ? </p><p>- La Suisse s'engage-t-elle à ce qu'une enquête indépendante soit menée par l'Organisation pour l'interdiction des armes chimiques ou par une autre organisation internationale ?</p><p>- Peut-elle exclure que le gaz qui est présumé avoir été utilisé est un produit suisse ?</p><p>Si oui, comment ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Violation présumée par la Turquie du Protocole de Genève, de la Convention sur les armes biologiques, de la Convention sur les armes chimiques et du droit international coutumier contraignant"
     }
   ],
-  "title": "Titre suit"
+  "title": "Violation présumée par la Turquie du Protocole de Genève, de la Convention sur les armes biologiques, de la Convention sur les armes chimiques et du droit international coutumier contraignant"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20218054,
-  "updated": "2021-12-01T12:49:27Z",
+  "updated": "2021-12-06T14:39:13Z",
   "affairType": {
     "abbreviation": "Fra.",
     "id": 14,
@@ -15,7 +15,7 @@
       "officialDenomination": "Walder"
     },
     "faction": {
-      "abbreviation": "G",
+      "abbreviation": "Fraktion G",
       "code": "G",
       "id": 6,
       "name": "Grüne Fraktion"
@@ -40,7 +40,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Mündliche Beantwortung der Frage",
+            "type": 82
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -56,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638313200000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -70,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "relatedAffairs": [
 
@@ -84,7 +113,7 @@
         "officialDenomination": "Walder"
       },
       "faction": {
-        "abbreviation": "G",
+        "abbreviation": "Fraktion G",
         "code": "G",
         "id": 6,
         "name": "Grüne Fraktion"
@@ -94,19 +123,26 @@
   ],
   "shortId": "21.8054",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Am 25. November wurde Ahmed Nasser Al-Raisi, Polizeigeneral der Vereinigten Arabischen Emirate, zum Interpol-Präsidenten gewählt, obwohl er beschuldigt wird, an Missbräuchen in Gefängnissen in seinem Land beteiligt zu sein. Am selben Tag wurde der chinesische General Binchen Hu ebenfalls ins Exekutivkomitee gewählt.</p><p>- Hat der Bundesrat diese Nominierungen befürwortet?</p><p>- Welche Vorsichtsmassnahmen trifft die Schweiz beim Austausch von Informationen innerhalb von Interpol, um sicherzugehen, dass diese nicht gegen Minderheiten oder politische Gegnerinnen und Gegner verwendet werden können?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Interpol: eine Organisation im Dienst der Autokraten?"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Interpol: eine Organisation im Dienst der Autokraten?"
 }

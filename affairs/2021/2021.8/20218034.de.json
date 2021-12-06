@@ -1,6 +1,6 @@
 {
   "id": 20218034,
-  "updated": "2021-12-01T09:56:57Z",
+  "updated": "2021-12-06T16:43:28Z",
   "affairType": {
     "abbreviation": "Fra.",
     "id": 14,
@@ -15,7 +15,7 @@
       "officialDenomination": "Brenzikofer"
     },
     "faction": {
-      "abbreviation": "G",
+      "abbreviation": "Fraktion G",
       "code": "G",
       "id": 6,
       "name": "Grüne Fraktion"
@@ -40,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Schriftliche Beantwortung der Frage",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-06T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638313200000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -70,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "relatedAffairs": [
 
@@ -84,7 +114,7 @@
         "officialDenomination": "Brenzikofer"
       },
       "faction": {
-        "abbreviation": "G",
+        "abbreviation": "Fraktion G",
         "code": "G",
         "id": 6,
         "name": "Grüne Fraktion"
@@ -94,12 +124,19 @@
   ],
   "shortId": "21.8034",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Es ist anhand von periodisch durchgeführten Erhebungen wie HBSC und Omnibus-Studie möglich, das grobe Ausmass des Konsums von Psychopharmaka und dessen Entwicklung zu erfassen. Gemäss Omnibus-Erhebung des BFS gaben 2018 weniger als ein Prozent der Betroffenen in der Altersgruppe der 15- bis 34-Jährigen an, fast täglich in den letzten drei Monaten Schlaf- und Beruhigungsmittel sowie leistungssteigende Medikamente einzunehmen. Weiter zeigen Zahlen im Rahmen der HBSC-Studie von 2018, dass etwa vier Prozent der 15-Jährigen bereits einmal Medikamente mit der Absicht von psychoaktiven Effekten eingenommen haben. Die nächsten Daten werden mit der Befragungswelle im 2022 erhoben und anschliessend im 2023 zur Verfügung stehen. Diese Erhebungen ermöglichen es, Veränderungen im Laufe der Zeit zu beobachten, indem ähnliche Fragen in Abständen von mehreren Jahren wiederholt werden. Der Bundesrat sieht momentan nicht den Bedarf, die Erhebungsabstände zu verkürzen. Zur Vertiefung der Kenntnisse werden zudem weitere Abklärungen getroffen: So führt beispielsweise Infodrog, die vom Bundesamt für Gesundheit eingesetzte Schweizerische Koordinations- und Fachstelle Sucht, zurzeit eine Situations- und Bedarfsanalyse zum Thema \"Jugendliche und Mischkonsum\" durch. Die Ergebnisse dieser Analyse werden bis Ende 2022 zu Verfügung stehen.</p>"
+    },
     {
       "type": {
         "id": 5,

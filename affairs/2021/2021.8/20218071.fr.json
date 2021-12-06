@@ -1,6 +1,6 @@
 {
   "id": 20218071,
-  "updated": "2021-12-01T15:39:08Z",
+  "updated": "2021-12-06T14:52:37Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,7 +39,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Réponse donnée par oral",
+            "type": 82
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -55,13 +69,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DDPS",
+          "id": 6,
+          "name": "Département de la défense, de la protection de la population et des sports",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638313200000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +93,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +121,26 @@
   ],
   "shortId": "21.8071",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>- Combien de décollages et d'atterrissages les Forces aériennes suisses ont-elles effectués avec les F-5 Tiger et les F/A-18 Hornet au cours des trois dernières années ?</p><p>- Combien d'heures de vol cela représente-t-il par an ?</p><p>- Le F-35 doit-il effectuer 144 heures de vol par an ?</p><p>- Combien de départs cela représente-t-il ?</p><p>- L'instruction pour les missions de police aérienne et désormais aussi de surveillance et de capacité air-sol est-elle incluse ?</p><p>- Les soumissionnaires écartés doivent-ils tous voler le même nombre d'heures ?</p><p>Combien ?</p><p>- Combien d'heures de vol étaient-elles demandées aux soumissionnaires dans la demande d'offres de 2018 ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "F-35. Un avion de combat avec bien plus de missions et beaucoup moins d’instruction ?"
     }
   ],
-  "title": "Titre suit"
+  "title": "F-35. Un avion de combat avec bien plus de missions et beaucoup moins d’instruction ?"
 }

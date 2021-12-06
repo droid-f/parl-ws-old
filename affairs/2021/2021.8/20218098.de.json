@@ -1,6 +1,6 @@
 {
   "id": 20218098,
-  "updated": "2021-12-01T17:08:03Z",
+  "updated": "2021-12-06T17:05:54Z",
   "affairType": {
     "abbreviation": "Fra.",
     "id": 14,
@@ -15,7 +15,7 @@
       "officialDenomination": "Badertscher"
     },
     "faction": {
-      "abbreviation": "G",
+      "abbreviation": "Fraktion G",
       "code": "G",
       "id": 6,
       "name": "Grüne Fraktion"
@@ -40,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Schriftliche Beantwortung der Frage",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-06T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EFD",
+          "id": 7,
+          "name": "Finanzdepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638313200000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -70,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "relatedAffairs": [
 
@@ -84,7 +114,7 @@
         "officialDenomination": "Badertscher"
       },
       "faction": {
-        "abbreviation": "G",
+        "abbreviation": "Fraktion G",
         "code": "G",
         "id": 6,
         "name": "Grüne Fraktion"
@@ -94,12 +124,19 @@
   ],
   "shortId": "21.8098",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Die Nationale Ethikkommission im Bereich Humanmedizin (NEK) hat am 8. Dezember 2020 eine Stellungnahme mit dem Titel \"Die amtliche Registrierung des Geschlechts - Ethische Erwägungen zum Umgang mit dem Geschlechtseintrag im Personenstandsregister\" veröffentlicht. Im Auftrag des Bundesamts für Justiz äussert sie sich aus ethischer und rechtlicher Sicht zu unterschiedlichen Ausgestaltungsmöglichkeiten der Registrierung des amtlichen Geschlechts. Dabei war sie unter anderem aufgefordert, sich zur allgemeinen Abschaffung jeglicher amtlichen Registrierung des Geschlechts und zur Schaffung neuer Geschlechtskategorien zu äussern. Dieser Auftrag an die NEK steht in Zusammenhang mit der Erarbeitung des Berichts in Beantwortung der vom Nationalrat am 17. September 2018 überwiesenen Postulate Arslan 17.4121 und Ruiz 17.4185. In ihrer Stellungnahme spricht sich die NEK für die Einführung einer dritten Geschlechtskategorie aus und empfiehlt, eine vertiefte Prüfung der allgemeinen Abschaffung des Geschlechtseintrags zu erwägen. Die Kommission befasste sich folglich lediglich mit der Frage, inwieweit die rechtlichen Kategorien Mann und Frau für die amtliche Registrierung zwingend sind. Sie empfiehlt weder die Abschaffung des Begriffs \"Mutter\", noch äussert sie sich zur Bezeichnung \"schwangere Frau\".</p>"
+    },
     {
       "type": {
         "id": 5,

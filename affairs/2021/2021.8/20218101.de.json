@@ -1,6 +1,6 @@
 {
   "id": 20218101,
-  "updated": "2021-12-01T17:16:55Z",
+  "updated": "2021-12-06T15:13:59Z",
   "affairType": {
     "abbreviation": "Fra.",
     "id": 14,
@@ -15,7 +15,7 @@
       "officialDenomination": "Roduit"
     },
     "faction": {
-      "abbreviation": "M-E",
+      "abbreviation": "Fraktion M-E",
       "code": "M-E",
       "id": 139,
       "name": "Die Mitte-Fraktion. Die Mitte. EVP."
@@ -40,7 +40,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Mündliche Beantwortung der Frage",
+            "type": 82
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -56,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638313200000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -70,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "relatedAffairs": [
 
@@ -84,7 +113,7 @@
         "officialDenomination": "Roduit"
       },
       "faction": {
-        "abbreviation": "M-E",
+        "abbreviation": "Fraktion M-E",
         "code": "M-E",
         "id": 139,
         "name": "Die Mitte-Fraktion. Die Mitte. EVP."
@@ -94,19 +123,26 @@
   ],
   "shortId": "21.8101",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Am 28. November 2021 hat die Walliser Stimmbevölkerung mit sehr grosser Mehrheit die Volksinitiative \"Für einen Kanton Wallis ohne Grossraubtiere\" angenommen.</p><p>Ist der Bundesrat bereit, durch eine Änderung des Bundesrechts die Umsetzung dieser kantonalen Initiative zu befördern?</p><p>Falls ja, wie gedenkt er dies zu tun?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Grossraubtiere. Wie kann dem Volkswillen in den betroffenen Kantonen Rechnung getragen werden?"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Grossraubtiere. Wie kann dem Volkswillen in den betroffenen Kantonen Rechnung getragen werden?"
 }

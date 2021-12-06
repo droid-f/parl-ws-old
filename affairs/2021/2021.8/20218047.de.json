@@ -1,6 +1,6 @@
 {
   "id": 20218047,
-  "updated": "2021-12-01T11:21:45Z",
+  "updated": "2021-12-06T16:47:42Z",
   "affairType": {
     "abbreviation": "Fra.",
     "id": 14,
@@ -40,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Schriftliche Beantwortung der Frage",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-06T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638313200000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -70,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "relatedAffairs": [
 
@@ -94,12 +124,19 @@
   ],
   "shortId": "21.8047",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>1. Alle in die Schweiz einreisenden Personen sind verpflichtet, das \"Swiss Passenger Locator Form\" vor Einreise auszufüllen. Von dieser Pflicht sind allerdings zahlreiche Personengruppen ausgenommen: Namentlich handelt es sich dabei um Durchreisende, Grenzgängerinnen und Grenzgänger, Einreisende aus Grenzgebieten sowie um Personen, die im Rahmen ihrer beruflichen Tätigkeit grenzüberschreitend Güter oder Personen befördern. Zwischen dem 1. Oktober und dem 30. November 2021 wurden insgesamt 3 434 735 Einreiseformulare ausgefüllt.</p><p>2./3. Die Eidgenössische Zollverwaltung führt an der Grenze Stichproben durch. Eine systematische Kontrolle aller Einreisenden ist allerdings nicht möglich. Bei Nichteinhaltung der Vorgabe können die betroffenen Personen gebüsst sowie an den Aufenthaltskanton gemeldet werden. Zwecks Sicherstellung der Einhaltung dieser Einreisebestimmung wird bundesseitig eine Informationskampagne auf der Webseite des Bundesamtes für Gesundheit und \"Travelcheck\" sowie auf Social-Media-Kanälen durchgeführt. Die relevanten Stakeholder aus der Reise- und Luftfahrtbranche informieren ihre Kunden ebenfalls entsprechend. Gleichzeitig stellt das Bundesamt für Gesundheit gemeinsam mit dem Eidgenössischen Departement für auswärtige Angelegenheiten sicher, dass die nötigen Informationen auch über die schweizerischen Botschaften und Konsulate im Ausland verbreitet werden.</p>"
+    },
     {
       "type": {
         "id": 5,

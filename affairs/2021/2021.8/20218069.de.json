@@ -1,6 +1,6 @@
 {
   "id": 20218069,
-  "updated": "2021-12-01T17:49:32Z",
+  "updated": "2021-12-06T16:57:56Z",
   "affairType": {
     "abbreviation": "Fra.",
     "id": 14,
@@ -40,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Schriftliche Beantwortung der Frage",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-06T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "BK",
+          "id": 10,
+          "name": "Bundeskanzlei",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638313200000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -70,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "relatedAffairs": [
 
@@ -94,12 +124,19 @@
   ],
   "shortId": "21.8069",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Cloud-Dienste sind ein wichtiger Bestandteil der digitalen Transformation der Bundesverwaltung. Der Bundesrat hat am 11. Dezember 2020 die Cloud-Strategie der Bundesverwaltung verabschiedet (vgl. Medienmitteilung des Finanzdepartementes vom 11. Dezember 2020, https;//www.admin.ch/gov/de/start/dokumentation/medienmittei- lungen.msg-id-81568.html). Diese sieht eine bundesinterne Private Cloud sowie - zur Reduktion der Abhängigkeit von einzelnen Anbietern - mehrere Public Clouds vor. Das Vorhaben \"Public Clouds Bund\" (Ausschreibung WTO-20007) ist ein erster Schritt zur Umsetzung der Cloud-Strategie (vgl. Medienmitteilung der Bundeskanzlei vom 10. November 2021, https://www.admin.ch/gov/de/start/dokumentation/medien- mitteilungen.msg-id-85828.html). Es ging kein Angebot eines Schweizer Anbieters ein, das die Anforderungen der Ausschreibung erfüllte. Angebote von Firmen mit Mutterhaus im europäischen Raum sind keine eingegangen. Ebenfalls am 11. Dezember 2020 nahm der Bundesrat den Bericht zur Bedarfsabklärung für eine nationale Cloud für die Wirtschaft und die Verwaltung zur Kenntnis. Daraus geht hervor, dass der Bedarf momentan nicht gegeben ist (vgl. Medienmitteilung des EFD vom 11. Dezember 2020, https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen.msg-id-81573.html).</p><p>Wenn sich in Zukunft Anforderungen nach Leistungen aus der Schweiz ergeben - zum Beispiel Speicherplatz in Ergänzung zur Private Cloud des Bundes exklusiv nach Schweizer Recht - so können diese Leistungen als zusätzliche Sourcing-Option beschafft werden. Diese Möglichkeit ist in der Cloud-Strategie der Bundesverwaltung verankert. Im Übrigen verweist der Bundesrat auf seine Antworten zu den Fragen Moret 21.7760, 21.7930 und 21.7931. </p>"
+    },
     {
       "type": {
         "id": 5,

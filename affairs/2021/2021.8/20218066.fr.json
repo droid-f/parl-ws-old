@@ -1,6 +1,6 @@
 {
   "id": 20218066,
-  "updated": "2021-12-01T15:02:56Z",
+  "updated": "2021-12-06T16:51:12Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -15,7 +15,7 @@
       "officialDenomination": "Walder"
     },
     "faction": {
-      "abbreviation": "G",
+      "abbreviation": "Groupe G",
       "id": 6,
       "name": "Groupe des VERT-E-S"
     },
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-06T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFAE",
+          "id": 3,
+          "name": "Département des affaires étrangères",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638313200000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -83,7 +113,7 @@
         "officialDenomination": "Walder"
       },
       "faction": {
-        "abbreviation": "G",
+        "abbreviation": "Groupe G",
         "id": 6,
         "name": "Groupe des VERT-E-S"
       },
@@ -92,12 +122,19 @@
   ],
   "shortId": "21.8066",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La Suisse soutient depuis 2011 les processus de transition politique et économique entamés par la Tunisie. Le Conseil fédéral a exprimé sa préoccupation vis-à-vis des mesures exceptionnelles décrétées depuis le 25 juillet. Il a appelé au maintien de l'Etat de droit et au respect des principes démocratiques fondamentaux tels que prévus dans la Constitution tunisienne. La Suisse suit l'évolution de la situation en continu. Elle est prête à ajuster son engagement dans le pays, notamment en adaptant les priorités de son programme de coopération à la situation. </p>"
+    },
     {
       "type": {
         "id": 5,
