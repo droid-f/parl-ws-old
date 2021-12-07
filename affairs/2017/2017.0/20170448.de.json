@@ -1,6 +1,6 @@
 {
   "id": 20170448,
-  "updated": "2021-11-08T08:51:33Z",
+  "updated": "2021-12-07T14:05:54Z",
   "additionalIndexing": "2446;2831;28;1211",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -233,6 +233,11 @@
           "date": "/Date(1632261600000+0200)/",
           "id": 2,
           "name": "Behandelt vom Nationalrat"
+        },
+        {
+          "date": "/Date(1638831600000+0100)/",
+          "id": 4,
+          "name": "Von beiden Räten behandelt"
         }
       ],
       "texts": [
@@ -256,6 +261,21 @@
             "date": "2021-09-22T00:00:00Z",
             "text": "Beschluss gemäss Entwurf",
             "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2021-12-07T00:00:00Z",
+            "text": "Abweichung",
+            "type": 37
           }
         ]
       },
@@ -381,7 +401,22 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2768,
+                    "gender": "m",
+                    "id": 4055,
+                    "name": "Engler Stefan",
+                    "officialDenomination": "Engler"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5112"
             }
@@ -433,6 +468,11 @@
           "date": "/Date(1632261600000+0200)/",
           "id": 2,
           "name": "Behandelt vom Nationalrat"
+        },
+        {
+          "date": "/Date(1638831600000+0100)/",
+          "id": 4,
+          "name": "Von beiden Räten behandelt"
         }
       ],
       "texts": [
@@ -479,8 +519,8 @@
   ],
   "shortId": "17.448",
   "state": {
-    "id": 2,
-    "name": "Behandelt vom Nationalrat",
+    "id": 4,
+    "name": "Von beiden Räten behandelt",
     "doneKey": "0",
     "newKey": 0
   },

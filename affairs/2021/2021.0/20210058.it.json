@@ -1,6 +1,6 @@
 {
   "id": 20210058,
-  "updated": "2021-10-27T15:09:38Z",
+  "updated": "2021-12-07T07:58:05Z",
   "additionalIndexing": "08;2836",
   "affairType": {
     "abbreviation": "OCF",
@@ -128,6 +128,11 @@
           "date": "/Date(1629237600000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 3,
+          "name": "Trattato dal Consiglio degli Stati"
         }
       ],
       "texts": [
@@ -143,7 +148,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Decisione secondo il disegno (progetto)",
+            "type": 62
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -195,7 +214,27 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2143,
+                    "gender": "m",
+                    "id": 172,
+                    "name": "Rechsteiner Paul",
+                    "officialDenomination": "Rechsteiner Paul"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo S",
+                    "id": 2,
+                    "name": "Gruppo socialista"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5112"
             }
@@ -237,6 +276,11 @@
           "date": "/Date(1629237600000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 3,
+          "name": "Trattato dal Consiglio degli Stati"
         }
       ],
       "texts": [
@@ -251,6 +295,15 @@
     }
   ],
   "language": "it",
+  "priorityCouncils": [
+    {
+      "abbreviation": "CS",
+      "id": 2,
+      "name": "Consiglio degli Stati",
+      "type": "S",
+      "priority": 1
+    }
+  ],
   "relatedAffairs": [
 
   ],
@@ -259,8 +312,8 @@
   ],
   "shortId": "21.058",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 3,
+    "name": "Trattato dal Consiglio degli Stati",
     "doneKey": "0",
     "newKey": 0
   },

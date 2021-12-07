@@ -1,6 +1,6 @@
 {
   "id": 20210058,
-  "updated": "2021-10-27T15:09:38Z",
+  "updated": "2021-12-07T07:58:05Z",
   "additionalIndexing": "08;2836",
   "affairType": {
     "abbreviation": "BRG",
@@ -128,6 +128,11 @@
           "date": "/Date(1629237600000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 3,
+          "name": "Behandelt vom Ständerat"
         }
       ],
       "texts": [
@@ -143,7 +148,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2021-12-06T00:00:00Z",
+            "text": "Beschluss gemäss Entwurf",
+            "type": 62
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -195,7 +214,28 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2143,
+                    "gender": "m",
+                    "id": 172,
+                    "name": "Rechsteiner Paul",
+                    "officialDenomination": "Rechsteiner Paul"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion S",
+                    "code": "S",
+                    "id": 2,
+                    "name": "Sozialdemokratische Fraktion"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5112"
             }
@@ -237,6 +277,11 @@
           "date": "/Date(1629237600000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1638745200000+0100)/",
+          "id": 3,
+          "name": "Behandelt vom Ständerat"
         }
       ],
       "texts": [
@@ -251,6 +296,15 @@
     }
   ],
   "language": "de",
+  "priorityCouncils": [
+    {
+      "abbreviation": "SR",
+      "id": 2,
+      "name": "Ständerat",
+      "type": "S",
+      "priority": 1
+    }
+  ],
   "relatedAffairs": [
 
   ],
@@ -259,8 +313,8 @@
   ],
   "shortId": "21.058",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 3,
+    "name": "Behandelt vom Ständerat",
     "doneKey": "0",
     "newKey": 0
   },
