@@ -1,6 +1,6 @@
 {
   "id": 20218146,
-  "updated": "2021-12-08T10:33:19Z",
+  "updated": "2021-12-13T18:31:40Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Département des finances",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +122,33 @@
   ],
   "shortId": "21.8146",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La réponse du Conseil fédéral n'existe qu'en allemand. (Veuillez changer la langue en haut à droite de la page d'accueil)</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>La Banque nationale suisse (BNS) a décidé qu'elle n'investirait plus dans les entreprises dont l'activité consiste principalement à extraire du charbon. Elle affirme vouloir ainsi être en accord avec les \" valeurs de la Suisse \".</p><p>Sur quelles bases et avec quels processus et organes la BNS s'assure-t-elle que l'identification de ces valeurs suisses, d'une part, et l'examen des modèles d'affaires des entreprises concernées, d'autre part, reposent sur des éléments objectifs et sont effectués de manière systématique et donc vérifiable ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Comment la BNS détermine-t-elle les \" valeurs suisses \" qui conditionnent ses décisions de placement ?"
     }
   ],
-  "title": "Titre suit"
+  "title": "Comment la BNS détermine-t-elle les \" valeurs suisses \" qui conditionnent ses décisions de placement ?"
 }

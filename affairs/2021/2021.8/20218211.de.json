@@ -1,6 +1,6 @@
 {
   "id": 20218211,
-  "updated": "2021-12-08T16:12:25Z",
+  "updated": "2021-12-13T15:11:43Z",
   "affairType": {
     "abbreviation": "Fra.",
     "id": 14,
@@ -40,7 +40,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Mündliche Beantwortung der Frage",
+            "type": 82
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -56,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -70,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "relatedAffairs": [
 
@@ -94,19 +123,26 @@
   ],
   "shortId": "21.8211",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat hatte in Betracht gezogen, die Gültigkeitsdauer von PCR-Tests von 72 Stunden auf 48 Stunden zu beschränken, verzichtete jedoch auf Antrag von Westschweizer Kantonen darauf.</p><p>- Um welche Westschweizer Kantone handelt es sich?</p><p>- Welche Gründe haben diese Westschweizer Kantone angegeben?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Gültigkeitsdauer von PCR-Tests"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Gültigkeitsdauer von PCR-Tests"
 }

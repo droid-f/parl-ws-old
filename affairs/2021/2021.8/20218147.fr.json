@@ -1,6 +1,6 @@
 {
   "id": 20218147,
-  "updated": "2021-12-08T10:37:01Z",
+  "updated": "2021-12-13T18:33:33Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Département des finances",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +122,33 @@
   ],
   "shortId": "21.8147",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La réponse du Conseil fédéral n'existe qu'en allemand. (Veuillez changer la langue en haut à droite de la page d'accueil)</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Dans le dernier rapport en date qu'elle consacre aux \" Perspectives à long terme des finances publiques en Suisse \", l'Administration fédérale des finances (AFF) constate qu'avec l'évolution démographique, le changement climatique comptera parmi les principaux défis auxquels devront répondre les finances publiques. Elle prévoit ainsi une réduction de la marge de manoeuvre en matière de politique budgétaire.</p><p>Mais pourquoi ne dit-elle rien des conséquences financières qu'entraînera l'appauvrissement de la biodiversité, alors qu'au niveau international, toutes les grandes entreprises de conseil et de réassurance alertent aujourd'hui avec force sur les coûts concernés ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Pourquoi l’AFF reste-t-elle silencieuse sur les conséquences économiques de la perte de biodiversité ?"
     }
   ],
-  "title": "Titre suit"
+  "title": "Pourquoi l’AFF reste-t-elle silencieuse sur les conséquences économiques de la perte de biodiversité ?"
 }

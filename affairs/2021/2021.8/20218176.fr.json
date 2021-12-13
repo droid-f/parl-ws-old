@@ -1,6 +1,6 @@
 {
   "id": 20218176,
-  "updated": "2021-12-08T13:38:56Z",
+  "updated": "2021-12-13T14:57:27Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,7 +39,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par oral",
+            "type": 82
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -55,13 +69,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +93,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,9 +121,9 @@
   ],
   "shortId": "21.8176",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
@@ -103,15 +132,15 @@
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p></p>"
+      "value": "<p>Comme le Conseil fédéral l'a expliqué dans sa réponse à la question 21.8075, il est illicite et punissable de facturer deux fois une prestation par le biais de l'assurance-maladie et de l'assurance-accidents. Or, selon les informations fournies par des patients, cela arrive.</p><p>- Comment peut-on faire en sorte que les doubles facturations de ce type soient identifiées et évitées et que les fournisseurs de prestations fautifs soient tenus de rendre des comptes ?</p><p>- A qui les personnes concernées peuvent-elles s'adresser ?</p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Prévenir les doubles facturations et sanctionner leurs auteurs"
     }
   ],
-  "title": "Titre suit"
+  "title": "Prévenir les doubles facturations et sanctionner leurs auteurs"
 }

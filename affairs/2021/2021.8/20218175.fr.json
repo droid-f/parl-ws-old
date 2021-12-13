@@ -1,6 +1,6 @@
 {
   "id": 20218175,
-  "updated": "2021-12-08T13:36:26Z",
+  "updated": "2021-12-13T18:26:17Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFAE",
+          "id": 3,
+          "name": "Département des affaires étrangères",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,12 +122,19 @@
   ],
   "shortId": "21.8175",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral constate dans sa Stratégie Chine 2021-2024 que la situation des droits de l'homme en Chine s'est détériorée, notamment pour les minorités ethniques et religieuses qui sont sous une pression additionnelle. C'est la raison pour laquelle la Suisse priorise ces thèmes dans sa politique des droits de l'homme envers la Chine. La Suisse a pris connaissance des rapports sur la politique des langues de la Chine. Ceux-ci n'ont toutefois pas encore été confirmés par des sources officielles. Malgré cela, la Suisse constate que la langue tibétaine est sous une pression croissante. Ainsi c'est une thématique qui est régulièrement soulevée dans le cadres des relations bilatérales avec la Chine. La Suisse considère qu'en général les leaders religieux devraient être choisis librement par la communauté concernée elle-même.</p>"
+    },
     {
       "type": {
         "id": 5,

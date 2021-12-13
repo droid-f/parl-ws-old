@@ -1,6 +1,6 @@
 {
   "id": 20218126,
-  "updated": "2021-12-07T11:56:01Z",
+  "updated": "2021-12-13T14:37:13Z",
   "affairType": {
     "abbreviation": "Fra.",
     "id": 14,
@@ -40,7 +40,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Mündliche Beantwortung der Frage",
+            "type": 82
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -56,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638831600000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -70,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "relatedAffairs": [
 
@@ -94,19 +123,26 @@
   ],
   "shortId": "21.8126",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Auf Seite 18 des erläuternden Berichts zur Rechnungslegungsverordnung Compenswiss, die sich zurzeit in der Vernehmlassung befindet, schreibt der Bundesrat, dass der Gesamtaufwand der AHV nicht wesentlich steigen wird und dass die neuen Vorschriften keinen wesentlichen Einfluss auf den Beitrag, den der Bund an die AHV leisten muss (Art. 103 AHVG), haben werden.</p><p>- Um welche Beträge geht es?</p><p>- Wie stark wird der Bundesbeitrag an die AHV schätzungsweise steigen?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Rechnungslegungsverordnung Compenswiss: finanzielle Auswirkungen auf die AHV"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Rechnungslegungsverordnung Compenswiss: finanzielle Auswirkungen auf die AHV"
 }

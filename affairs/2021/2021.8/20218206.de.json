@@ -1,6 +1,6 @@
 {
   "id": 20218206,
-  "updated": "2021-12-08T16:10:22Z",
+  "updated": "2021-12-13T15:10:53Z",
   "affairType": {
     "abbreviation": "Fra.",
     "id": 14,
@@ -40,7 +40,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Mündliche Beantwortung der Frage",
+            "type": 82
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -56,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -70,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "relatedAffairs": [
 
@@ -94,19 +123,26 @@
   ],
   "shortId": "21.8206",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Stimmt es, dass gewisse Westschweizer Kantone sich weigern, mit den grossen privaten Labors zusammenzuarbeiten?</p><p>- Ist das der Grund, wieso gewisse Westschweizer Kantone kein rasches Bereitstellen von PCR-Tests sicherstellen können und:</p><p>-- sie sich daher geweigert haben, die Gültigkeitsdauer bei PCR-Tests von 72 auf 48 Stunden zu reduzieren?</p><p>-- sie daher nicht imstande sind, PCR-Speichel-Tests ab dem ersten Ausbruch in einer Schulklasse durchzuführen?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Covid-19-Tests. Zusammenarbeit gewisser Westschweizer Kantone mit grossen privaten Labors"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Covid-19-Tests. Zusammenarbeit gewisser Westschweizer Kantone mit grossen privaten Labors"
 }

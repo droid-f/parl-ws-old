@@ -1,6 +1,6 @@
 {
   "id": 20218252,
-  "updated": "2021-12-08T15:18:52Z",
+  "updated": "2021-12-13T18:16:20Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,12 +122,19 @@
   ],
   "shortId": "21.8252",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral a interrogé les cantons à ce sujet entre le 30 novembre et le 1er décembre. Douze cantons proposaient alors une vaccination de rappel à l'ensemble des résidents des homes et des EMS. Seule la moitié des cantons ont informé le Conseil fédéral qu'ils pouvaient proposer une vaccination de rappel à toutes les personnes six mois après leur immunisation de base. Dans un courrier daté du 24 novembre 2021, le Conseil fédéral a déjà communiqué aux cantons que la mise à disposition rapide des vaccinations de rappel constitue une priorité absolue. Il leur demande de prendre contact directement avec toutes les personnes éligibles à une troisième dose et de leur proposer un rendez-vous. Actuellement, seuls neuf cantons prennent directement contact avec les personnes concernées, tandis que trois cantons proposent automatiquement des rendez-vous. Afin de soutenir les cantons, le Conseil fédéral a décidé, le 7 décembre 2021, d'engager une nouvelle fois le service d'appui de l'armée en faveur des autorités civiles. Jusqu'à 2500 militaires pourront ainsi apporter leur soutien aux hôpitaux pour les soins et le transport des patients et aux cantons pour la vaccination. Ils seront déployés à la demande des cantons, si les moyens civils sont insuffisants.</p>"
+    },
     {
       "type": {
         "id": 5,

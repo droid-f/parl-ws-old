@@ -1,6 +1,6 @@
 {
   "id": 20218156,
-  "updated": "2021-12-08T10:53:53Z",
+  "updated": "2021-12-13T18:23:46Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFAE",
+          "id": 3,
+          "name": "Département des affaires étrangères",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +122,33 @@
   ],
   "shortId": "21.8156",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La réponse du Conseil fédéral n'existe qu'en allemand. (Veuillez changer la langue en haut à droite de la page d'accueil)</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Après ses derniers entretiens à Bruxelles, le ministre des Affaires étrangères Ignazio Cassis a annoncé qu'une rencontre avec le vice-président de la Commission européenne Maros Sefcovic aurait lieu à l'occasion du WEF en janvier 2022. L'UE attend de la Suisse une feuille de route sur la manière de poursuivre les discussions relatives à leurs futures relations.</p><p>- Comment se présente cette feuille de route ?</p><p>- Quelles sont les propositions concrètes de la Suisse ?</p><p>- Le Conseil fédéral en a-t-il déjà discuté ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Feuille de route pour les discussions à venir entre la Suisse et l'UE"
     }
   ],
-  "title": "Titre suit"
+  "title": "Feuille de route pour les discussions à venir entre la Suisse et l'UE"
 }

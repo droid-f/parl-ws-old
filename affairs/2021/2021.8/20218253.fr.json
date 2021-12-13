@@ -1,6 +1,6 @@
 {
   "id": 20218253,
-  "updated": "2021-12-08T17:41:28Z",
+  "updated": "2021-12-13T18:17:10Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +122,33 @@
   ],
   "shortId": "21.8253",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La réponse du Conseil fédéral n'existe qu'en allemand. (Veuillez changer la langue en haut à droite de la page d'accueil)</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>La campagne de dépistage du VIH et d'IST en novembre a été un grand succès. Les organisations qui ont mené cette campagne ont dû refuser de nombreuses personnes qui voulaient se faire dépister ou ont dû assumer elles-mêmes les coûts des tests supplémentaires.</p><p>- Est-il prévu de leur rembourser ces frais supplémentaires ?</p><p>- Le budget de futures campagnes de ce type sera-t-il revu à la hausse afin qu'aucune personne ne doive être refusée ?</p><p>- Que fait l'OFSP pour proposer quand même ces tests aux personnes qui se les sont vu refuser ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Quelles suites donner au succès de la campagne de dépistage du VIH et d’IST en novembre ?"
     }
   ],
-  "title": "Titre suit"
+  "title": "Quelles suites donner au succès de la campagne de dépistage du VIH et d’IST en novembre ?"
 }

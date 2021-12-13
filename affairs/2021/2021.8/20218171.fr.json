@@ -1,6 +1,6 @@
 {
   "id": 20218171,
-  "updated": "2021-12-08T12:52:54Z",
+  "updated": "2021-12-13T18:24:48Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFAE",
+          "id": 3,
+          "name": "Département des affaires étrangères",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,12 +122,19 @@
   ],
   "shortId": "21.8171",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La Suisse et le Maroc entretiennent des relations qualitatives et empreintes de respect mutuel, qui permettent de dialoguer ouvertement sur toutes les thématiques d'intérêt, y compris les droits de l'homme. Le DFAE n'a pas encore connaissance de tous les éléments de l'affaire mentionnée. Après examen, celle-ci pourrait être thématisée le cas échéant dans le cadre des échanges diplomatiques réguliers entre les deux pays.</p>"
+    },
     {
       "type": {
         "id": 5,

@@ -1,6 +1,6 @@
 {
   "id": 20218243,
-  "updated": "2021-12-08T17:29:03Z",
+  "updated": "2021-12-13T15:28:46Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,7 +39,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par oral",
+            "type": 82
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -55,13 +69,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +93,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +121,26 @@
   ],
   "shortId": "21.8243",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Dans le cadre des campagnes de vaccination et autres campagnes en lien avec le Covid, combien la Confédération a-t-elle payé en 2020 et 2021, directement ou indirectement (par ex. via les cantons, les agences de publicité, etc.), pour les publications émanant des médias suivants :</p><p>a. SRG SSR;</p><p>b. TX Group AG;</p><p>c. CH Media;</p><p>d. Ringier;</p><p>e. Groupe de médias NZZ;</p><p>f. AZ-Medien;</p><p>g. Gruppo Corriere del Ticino;</p><p>h. ESH Médias;</p><p>i. Somedia;</p><p>j. autres médias ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Campagne de vaccination. Qui reçoit combien d’argent ?"
     }
   ],
-  "title": "Titre suit"
+  "title": "Campagne de vaccination. Qui reçoit combien d’argent ?"
 }

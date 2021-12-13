@@ -1,6 +1,6 @@
 {
   "id": 20218244,
-  "updated": "2021-12-08T17:30:47Z",
+  "updated": "2021-12-13T15:30:12Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,7 +39,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par oral",
+            "type": 82
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -55,13 +69,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +93,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +121,26 @@
   ],
   "shortId": "21.8244",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>- Combien de personnes sont-elles employées directement ou indirectement par la task-force ?</p><p>- Pour quels coûts ?</p><p>- Comment ces dépenses sont-elles financées ?</p><p>- Envisage-t-on de transposer dans le droit et le budget ordinaires la task force, y compris sa fonction, ses structures et son financement ?</p><p>Si oui, pourquoi et avec quelle fonction ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Combien coûte la task force Covid-19 ?"
     }
   ],
-  "title": "Titre suit"
+  "title": "Combien coûte la task force Covid-19 ?"
 }

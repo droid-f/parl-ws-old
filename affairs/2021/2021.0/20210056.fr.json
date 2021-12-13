@@ -1,6 +1,6 @@
 {
   "id": 20210056,
-  "updated": "2021-10-27T15:08:55Z",
+  "updated": "2021-12-13T20:18:39Z",
   "additionalIndexing": "08;2811;2446",
   "affairType": {
     "abbreviation": "OCF",
@@ -148,6 +148,11 @@
           "date": "/Date(1628632800000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 3,
+          "name": "Traité par le Conseil des Etats"
         }
       ],
       "texts": [
@@ -163,7 +168,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Décision conforme au projet",
+            "type": 62
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -215,7 +234,27 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2674,
+                    "gender": "m",
+                    "id": 3871,
+                    "name": "Bischof Pirmin",
+                    "officialDenomination": "Bischof"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe M-E",
+                    "id": 139,
+                    "name": "Le Groupe du Centre. Le Centre. PEV."
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5112"
             }
@@ -257,6 +296,11 @@
           "date": "/Date(1628632800000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 3,
+          "name": "Traité par le Conseil des Etats"
         }
       ],
       "texts": [
@@ -271,6 +315,15 @@
     }
   ],
   "language": "fr",
+  "priorityCouncils": [
+    {
+      "abbreviation": "CE",
+      "id": 2,
+      "name": "Conseil des Etats",
+      "type": "S",
+      "priority": 1
+    }
+  ],
   "relatedAffairs": [
 
   ],
@@ -279,8 +332,8 @@
   ],
   "shortId": "21.056",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 3,
+    "name": "Traité par le Conseil des Etats",
     "doneKey": "0",
     "newKey": 0
   },

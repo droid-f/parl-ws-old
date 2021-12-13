@@ -1,6 +1,6 @@
 {
   "id": 20218171,
-  "updated": "2021-12-08T12:52:54Z",
+  "updated": "2021-12-13T18:24:48Z",
   "affairType": {
     "abbreviation": "Fra.",
     "id": 14,
@@ -40,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Schriftliche Beantwortung der Frage",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDA",
+          "id": 3,
+          "name": "Departement für auswärtige Angelegenheiten",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -70,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "relatedAffairs": [
 
@@ -94,26 +124,33 @@
   ],
   "shortId": "21.8171",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Die Antwort des Bundesrates existiert nur in französischer Sprache. (Bitte wechseln Sie auf der Homepage oben rechts die Sprache)</p>"
+    },
+    {
+      "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p></p>"
+      "value": "<p>Am 25. November 2021 wurde Fatima Zahra Ould Belaid von der Polizei in ihrer Wohnung in Tanger festgenommen. Sie ist Aktivistin der ATTAC/CADTM Marokko, einer in der Schweiz und in Europa bekannten NGO. Diese weitere Festnahme ist Teil einer Politik der Unterdrückung jeder oppositionellen Stimme. Die MENA-Strategie sieht vor, dass die Schweiz die Menschenrechtssituation in der Region beobachten muss.</p><p>Müsste der Bundesrat angesichts dieser erneuten Menschenrechtsverletzung nicht seinen Botschafter zu Konsultationen zurückrufen?</p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Weitere Festnahme in Marokko: Muss die Schweiz nicht aktiver eingreifen, um die Menschenrechte zu verteidigen?"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Weitere Festnahme in Marokko: Muss die Schweiz nicht aktiver eingreifen, um die Menschenrechte zu verteidigen?"
 }

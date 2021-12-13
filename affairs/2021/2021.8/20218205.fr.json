@@ -1,6 +1,6 @@
 {
   "id": 20218205,
-  "updated": "2021-12-08T15:06:13Z",
+  "updated": "2021-12-13T15:09:38Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,7 +39,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par oral",
+            "type": 82
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -55,13 +69,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +93,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +121,26 @@
   ],
   "shortId": "21.8205",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>La vaccination a été et continue d'être fortement encouragée en Suisse, et le certificat obligatoire revient de plus en plus à soumettre de nombreux citoyens à une obligation de vaccination qui ne dit pas son nom. Aussi convient-il de relever que Christoph Berger, président de la Commission fédérale pour les vaccinations, a déclaré à la mi-novembre dans la Berner Zeitung que le booster ne saurait être la solution à la pandémie, et qu'il ne nous permettra pas de nous débarrasser du virus.</p><p>D'où ma question : quel est le plan B du Conseil fédéral qui lui permettra de tenir dûment compte de cette constatation de Christoph Berger dans les mesures qu'il prendra demain ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Le vaccin booster ne sera pas la solution à la pandémie"
     }
   ],
-  "title": "Titre suit"
+  "title": "Le vaccin booster ne sera pas la solution à la pandémie"
 }

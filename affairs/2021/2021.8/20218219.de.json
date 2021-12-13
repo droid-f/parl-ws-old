@@ -1,6 +1,6 @@
 {
   "id": 20218219,
-  "updated": "2021-12-08T15:16:23Z",
+  "updated": "2021-12-13T15:15:33Z",
   "affairType": {
     "abbreviation": "Fra.",
     "id": 14,
@@ -40,7 +40,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Mündliche Beantwortung der Frage",
+            "type": 82
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -56,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -70,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "relatedAffairs": [
 
@@ -94,19 +123,26 @@
   ],
   "shortId": "21.8219",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>In einigen Kantonen vervierfachen sich die Corona-Fallzahlen bei den 10-12-Jährigen.</p><p>Ist der Bundesrat der Ansicht:</p><p>- dass sich in den Schulen die ganze Klasse testen lassen muss, sobald eine Person positiv ist? Oder kann man in Ruhe abwarten, bis es einen zweiten Coronafall gibt?</p><p>- dass es genügt, wenn den Schülerinnen und Schülern ein Selbsttest ausgehändigt wird, der zu Hause freiwillig durchgeführt werden kann? Oder sollte ein PCR-Speicheltest in der Klasse durchgeführt werden?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Covid-19-Tests in Schulen"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Covid-19-Tests in Schulen"
 }

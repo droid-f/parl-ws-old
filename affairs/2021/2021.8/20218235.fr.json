@@ -1,6 +1,6 @@
 {
   "id": 20218235,
-  "updated": "2021-12-08T17:08:45Z",
+  "updated": "2021-12-13T18:27:08Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFAE",
+          "id": 3,
+          "name": "Département des affaires étrangères",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,26 +122,33 @@
   ],
   "shortId": "21.8235",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La réponse du Conseil fédéral n'existe qu'en allemand. (Veuillez changer la langue en haut à droite de la page d'accueil)</p>"
+    },
+    {
+      "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p></p>"
+      "value": "<p>Les Jeux olympiques d'hiver en Chine commenceront le 4 février 2022. Les Etats-Unis comme l'Australie ont déclaré ne pas y envoyer de représentation officielle. Ces pays justifient le boycott diplomatique par les violations des droits de l'homme commises par Pékin, en particulier à l'encontre de la minorité ouïghoure. En outre, la Chine bloque souvent le dialogue sur les droits de l'homme.</p><p>- Le Conseil fédéral enverra-t-il une délégation officielle pour représenter la Suisse lors de la cérémonie d'ouverture, ou participera-t-il au boycott diplomatique ?</p><p>- Que pense-t-il entreprendre pour confronter la Chine aux violations des droits de l'homme qu'elle commet sur son territoire ?</p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Boycott diplomatique des Jeux olympiques d’hiver 2022 de Pékin"
     }
   ],
-  "title": "Titre suit"
+  "title": "Boycott diplomatique des Jeux olympiques d’hiver 2022 de Pékin"
 }

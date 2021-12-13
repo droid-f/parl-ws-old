@@ -1,6 +1,6 @@
 {
   "id": 20218191,
-  "updated": "2021-12-08T14:34:27Z",
+  "updated": "2021-12-13T15:04:10Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,7 +39,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par oral",
+            "type": 82
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -55,13 +69,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +93,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,9 +121,9 @@
   ],
   "shortId": "21.8191",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
@@ -103,15 +132,15 @@
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p></p>"
+      "value": "<p>En mai 2019, dans sa réponse à mon interpellation 19.3325 (\" Ecarts dans les taux de vacance sur le marché du logement \"), le Conseil fédéral indiquait qu'une étude de faisabilité et une estimation des besoins seraient réalisées en 2021. La fin de l'année approchant, je le prie de répondre aux questions suivantes :</p><p>1. Les résultats de l'évaluation des besoins et de l'étude de faisabilité sont-ils disponibles ?</p><p>2. Qui l'Office fédéral de la statistique a-t-il associé à ces démarches ?</p><p>3. Quand les résultats seront-ils publiés ?</p><p>4. Quelles conclusions le Conseil fédéral en tire-t-il ?</p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Revoir la statistique des logements vacants"
     }
   ],
-  "title": "Titre suit"
+  "title": "Revoir la statistique des logements vacants"
 }

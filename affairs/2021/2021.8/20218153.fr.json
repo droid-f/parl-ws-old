@@ -1,6 +1,6 @@
 {
   "id": 20218153,
-  "updated": "2021-12-08T10:49:52Z",
+  "updated": "2021-12-13T14:44:08Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,7 +39,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par oral",
+            "type": 82
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -55,13 +69,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +93,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +121,26 @@
   ],
   "shortId": "21.8153",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Contrairement à ce qui a été dit dans la réponse à ma question 21.7876, l'Office fédéral de la statistique (OFS) connaît les nationalités des auteurs de viols. Mais un nombre de cas inférieur à quatre interdit de calculer le taux de condamnation, car il serait alors possible de remonter jusqu'aux personnes concernées.</p><p>- Combien de personnes ont été condamnées pour viol au cours des dix dernières années ?</p><p>Combien d'entre elles étaient de nationalité étrangère ?</p><p>- Etant entendu que sont prises en compte uniquement les nationalités comptant au moins quatre auteurs au cours des dix dernières années :</p><p>- combien de personnes appartenant à quelle nationalité ont-elles été condamnées durant la période concernée ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Nationalité des violeurs (IV)"
     }
   ],
-  "title": "Titre suit"
+  "title": "Nationalité des violeurs (IV)"
 }

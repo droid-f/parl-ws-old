@@ -1,6 +1,6 @@
 {
   "id": 20218148,
-  "updated": "2021-12-08T10:39:10Z",
+  "updated": "2021-12-13T14:40:30Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,7 +39,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par oral",
+            "type": 82
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -55,13 +69,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +93,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +121,26 @@
   ],
   "shortId": "21.8148",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>La réponse apportée aux questions 21.7990, 21.7991 et 21.8090 de l'heure des questions en soulève d'autres :</p><p>1. Le Conseil fédéral juge-t-il approprié de violer la loi au prétexte que des bus permettant de s'allonger ne sont pas disponibles ?</p><p>2. Est-il disposé à fournir publiquement des informations complètes une fois que l'Office fédéral des transports et l'Administration fédérale des douanes auront procédé aux éclaircissements nécessaires ?</p><p>3. Quand peut-on escompter les résultats de ces éclaircissements ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Cabotage pendant la semaine nationale de vaccination"
     }
   ],
-  "title": "Titre suit"
+  "title": "Cabotage pendant la semaine nationale de vaccination"
 }

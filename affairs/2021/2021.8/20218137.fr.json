@@ -1,6 +1,6 @@
 {
   "id": 20218137,
-  "updated": "2021-12-07T13:49:48Z",
+  "updated": "2021-12-13T18:22:23Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +70,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFAE",
+          "id": 3,
+          "name": "Département des affaires étrangères",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638831600000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,12 +122,19 @@
   ],
   "shortId": "21.8137",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Dans le cadre de sa politique d'Etat-hôte, la Suisse facilite des rencontres sur son territoire dans un but de promotion de la paix et de prévention des conflits, comme par exemple des négociations de paix onusiennes. Depuis le début de la pandémie et malgré les circonstances, elle a ainsi accueilli de telles négociations à douze reprises. Dans le cas mentionné. Monsieur Londorio avait pris lui-même l'initiative de venir en Suisse mi-novembre. Le DFAE a été contacté pour une rencontre bilatérale, demande à laquelle il a répondu positivement. Monsieur Londorio a cependant lui-même pris la décision d'annuler son voyage quelques semaines avant la date de son arrivée, raison pour laquelle les rencontres prévues n'ont pas eu lieu. Le fait que Monsieur Londorio ne soit pas venu en Suisse mi-novembre n'affectera pas rengagement suisse de promotion de paix en Colombie. En tant que pays qui a accompagné le processus de paix colombien depuis de nombreux années, la Suisse restera en contact avec les deux parties signataires. Elle continuera de soutenir les efforts de paix, en particulier la mise en oeuvre de l'Accord de Paix.</p>"
+    },
     {
       "type": {
         "id": 5,

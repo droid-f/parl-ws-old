@@ -1,6 +1,6 @@
 {
   "id": 20218233,
-  "updated": "2021-12-08T17:04:10Z",
+  "updated": "2021-12-13T15:26:59Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,7 +39,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par oral",
+            "type": 82
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -55,13 +69,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +93,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +121,26 @@
   ],
   "shortId": "21.8233",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>La révision de l'ordonnance sur les dispositifs médicaux a créé des obstacles importants à l'importation. Une enquête de l'association professionnelle Swiss Medtech réalisée en novembre 2021 montre que des problèmes d'approvisionnement se profilent pour le deuxième semestre 2022. Jusqu'à 26 % des dispositifs médicaux importés en Suisse, d'une valeur d'1,5 milliard de francs risquent de manquer. Ce sont les patients en Suisse qui en souffriront.</p><p>Que compte faire le Conseil fédéral ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Obstacles à l’importation de dispositifs médicaux. Un problème d’approvisionnement se profile"
     }
   ],
-  "title": "Titre suit"
+  "title": "Obstacles à l’importation de dispositifs médicaux. Un problème d’approvisionnement se profile"
 }
