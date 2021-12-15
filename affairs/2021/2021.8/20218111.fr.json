@@ -1,6 +1,7 @@
 {
   "id": 20218111,
-  "updated": "2021-12-07T07:47:26Z",
+  "updated": "2021-12-14T10:41:42Z",
+  "additionalIndexing": "32;04",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638745200000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,12 +123,19 @@
   ],
   "shortId": "21.8111",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La reconnaissance à l'échelle nationale des diplômes des hautes écoles pédagogiques est du ressort de la Conférence suisse des directeurs cantonaux de l'instruction publique (CDIP). Elle se fonde sur l'accord intercantonal du 18 février 1993 sur la reconnaissance des diplômes de fin d'études, auquel tous les cantons ont adhéré. La CDIP a adopté des règlements de reconnaissance pour les différents diplômes de formation, qui fixent les exigences posées aux étudiants, aux filières de formation et aux contenus ainsi qu'aux enseignants. Selon les articles 20 et 21 du règlement de la CDIP du 28 mars 2019 concernant la reconnaissance des diplômes d'enseignement du degré primaire, du degré secondaire I et pour les écoles de maturité, les formateurs et formatrices des hautes écoles pédagogiques possèdent en règle générale une expérience de l'enseignement dans le degré concerné, et les praticiennes et praticiens formateurs une expérience d'enseignement de plusieurs années. Le Secrétariat d'Etat à la formation, à la recherche et à l'innovation est compétent uniquement pour la reconnaissance des filières de formation pour les responsables de la formation professionnelle. Pour le reste, la Confédération n'a aucune compétence dans ce domaine. </p>"
+    },
     {
       "type": {
         "id": 5,

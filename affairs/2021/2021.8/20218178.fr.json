@@ -1,6 +1,7 @@
 {
   "id": 20218178,
-  "updated": "2021-12-08T13:43:27Z",
+  "updated": "2021-12-14T10:43:11Z",
+  "additionalIndexing": "55;52;15",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +123,33 @@
   ],
   "shortId": "21.8178",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral s'est déjà abondamment exprimé sur le sujet, par exemple en réponse à la question Rytz Regula 21.7769. Il se permet donc de renvoyer à cette réponse. La promotion des ventes soutient le secteur agricole à titre subsidiaire pour que les produits suisses puissent se démarquer des importations mais aussi afin que leur qualité et leurs avantages soient dûment communiqués aux consommateurs. L'agriculture suisse se distingue par un haut niveau de qualité et des normes de production strictes en matière de protection des animaux, d'écologie et de sécurité des denrées alimentaires, qui ont pour effet de majorer les coûts de production. La promotion des ventes permet aux consommateurs de mieux connaître ces avantages et de comprendre pourquoi les produits agricoles suisses sont comparativement plus chers. </p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>A ma question 21.7963, le Conseil fédéral répond que les impulsions de croissance dans le domaine de l'agriculture doivent venir de la demande et que la Confédération soutient celle-ci, par exemple au travers de la promotion des ventes.</p><p>Le Conseil fédéral est-il prêt, sur la base des art. 104 et 104a de la Constitution, à adapter la promotion des ventes et, d'ici dix ans, à promouvoir uniquement la vente de produits issus d'une agriculture durable, en pleine terre et adaptée aux conditions locales ?</p><p>Si oui, comment ?</p><p>Si non, pourquoi ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Le Conseil fédéral est-il prêt, d'ici 10 ans, à promouvoir uniquement la vente de produits issus d'une agriculture durable, en pleine terre et adaptée aux conditions locales ?"
     }
   ],
-  "title": "Titre suit"
+  "title": "Le Conseil fédéral est-il prêt, d'ici 10 ans, à promouvoir uniquement la vente de produits issus d'une agriculture durable, en pleine terre et adaptée aux conditions locales ?"
 }

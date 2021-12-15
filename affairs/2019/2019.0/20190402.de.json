@@ -1,6 +1,6 @@
 {
   "id": 20190402,
-  "updated": "2019-03-29T11:52:12Z",
+  "updated": "2021-12-15T14:52:41Z",
   "additionalIndexing": "04;12",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -67,6 +67,61 @@
             "date": "2019-02-14T00:00:00Z",
             "text": "Beschluss, einen Erlassentwurf auszuarbeiten",
             "type": 48
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "WAK-NR",
+              "id": 10,
+              "name": "Kommission für Wirtschaft und Abgaben NR",
+              "abbreviation1": "WAK-NR",
+              "abbreviation2": "WAK",
+              "committeeNumber": 10,
+              "council": {
+                "abbreviation": "NR",
+                "id": 1,
+                "name": "Nationalrat",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2019-07-04T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2021-12-15T00:00:00Z",
+            "text": "Fristverlängerung",
+            "type": 50
+          },
+          {
+            "category": {
+              "id": 4,
+              "name": "Ergänzung"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2021-12-15T00:00:00Z",
+            "text": "Bis zur Wintersession 2023.",
+            "type": 0
           }
         ]
       },
@@ -127,7 +182,22 @@
             },
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2674,
+                    "gender": "m",
+                    "id": 3871,
+                    "name": "Bischof Pirmin",
+                    "officialDenomination": "Bischof"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5112"
             }
@@ -150,6 +220,11 @@
           "date": "/Date(1550098800000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1639522800000+0100)/",
+          "id": 3,
+          "name": "Behandelt vom Ständerat"
         }
       ],
       "texts": [
@@ -274,8 +349,8 @@
   ],
   "shortId": "19.402",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 3,
+    "name": "Behandelt vom Ständerat",
     "doneKey": "0",
     "newKey": 0
   },

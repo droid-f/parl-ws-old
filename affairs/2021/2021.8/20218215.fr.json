@@ -1,6 +1,7 @@
 {
   "id": 20218215,
-  "updated": "2021-12-08T16:28:00Z",
+  "updated": "2021-12-14T10:44:23Z",
+  "additionalIndexing": "66;55;52",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +123,33 @@
   ],
   "shortId": "21.8215",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>L'agriculture et le secteur agroalimentaire doivent être considérés comme un tout. C'est l'ensemble de la chaîne de valeur qui doit fonctionner, de l'importation de moyens de production à la distribution des produits dans le commerce de détail, en passant par la production agricole et la transformation des produits. Chacun de ces maillons a un besoin impérieux d'électricité. Il s'ensuit que, en cas de panne d'électricité, il faut s'attendre à ce que tous les segments de la chaîne de valeur subissent entre autres des difficultés d'approvisionnement, des pertes alimentaires et une diminution du bien- être animal. </p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>En cas de pénurie d'électricité, il se peut que l'électricité soit coupée par alternance dans certaines parties du réseau, qui se retrouveraient sans électricité pendant environ quatre heures. En cas de panne générale, l'interruption peut être plus longue.</p><p>Y a-t-il des domaines dans la production de denrées alimentaires qui devraient impérativement recevoir du courant en cas de panne de longue durée, afin d'empêcher d'importantes pertes de denrées alimentaires et la souffrance animale, et pour lesquels un tel approvisionnement d'urgence n'est pas prévu ?</p><p>Dans l'affirmative, lesquels ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Pénurie d’électricité (2)"
     }
   ],
-  "title": "Titre suit"
+  "title": "Pénurie d’électricité (2)"
 }

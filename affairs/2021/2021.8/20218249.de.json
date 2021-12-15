@@ -1,6 +1,7 @@
 {
   "id": 20218249,
-  "updated": "2021-12-08T17:39:13Z",
+  "updated": "2021-12-14T10:36:47Z",
+  "additionalIndexing": "10;48",
   "affairType": {
     "abbreviation": "Fra.",
     "id": 14,
@@ -40,10 +41,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Schriftliche Beantwortung der Frage",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +72,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -70,6 +96,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "relatedAffairs": [
 
@@ -94,12 +125,19 @@
   ],
   "shortId": "21.8249",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Dem Bundesrat ist nicht bekannt, dass die Europäische Eisenbahnagentur (ERA) ECM-Zertifikate von Schweizer Zertifizierungsstellen nicht mehr anerkennen will. Weder im Austausch mit der ERA noch anlässlich des Gemischten Landverkehrsausschusses Schweiz/EU wurde dieses Thema angesprochen. In der Schweiz gilt bezüglich der Zertifizierung von für die Instandhaltung von Güterwagen zuständigen Stellen, sogenannte ECM, gemäss Artikel 5j Absatz 2 der Eisenbahnverordnung die EU-Durchführungsverordnung 2019/779. Für die Zertifizierung von anderen Fahrzeugen als Güterwagen kann diese Verordnung derzeit noch freiwillig angewandt werden. Diese EU-Verordnung wurde noch nicht in den Anhang 1 des Landverkehrsabkommens aufgenommen, weil sie in der Schweiz erst im Rahmen der Umsetzung der technischen Säule des vierten EU-Eisenbahnpakets vollständig umgesetzt sein wird. Das wird voraussichtlich im Jahre 2024 der Fall sein. Momentan wird daher noch auf die Vorgängerverordnung 445/2011 verwiesen. Auch im Rahmen der OTIF, der Zwischenstaatlichen Organisation-für den internationalen Eisenbahnverkehr, findet sich ein Regelwerk zur gegenseitigen Anerkennung von ECM-Zertifikaten. Dieses kann als Rückfallebene dienen, sollte die ERA die schweizerischen Zertifikate tatsächlich nicht mehr anerkennen.</p>"
+    },
     {
       "type": {
         "id": 5,

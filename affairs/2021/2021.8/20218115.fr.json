@@ -1,6 +1,7 @@
 {
   "id": 20218115,
-  "updated": "2021-12-07T07:31:14Z",
+  "updated": "2021-12-14T10:42:03Z",
+  "additionalIndexing": "15;04;24;32",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638745200000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +123,33 @@
   ],
   "shortId": "21.8115",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Dans le domaine du transfert de savoir et de technologie, la Confédération joue un rôle subsidiaire. Sur la base de la loi fédérale sur l'encouragement de la recherche et de l'innovation, elle soutient le transfert de savoir et de technologie fondé sur la science en finançant, via Innosuisse, des projets d'innovation réunissant des partenaires de la recherche et du monde de l'économie. Au travers d'un programme de mentorat et de chèques d'innovation, Innosuisse offre également son soutien aux petites et moyennes entreprises qui ont peu d'expérience dans les projets d'innovation, qui recherchent des partenaires de projet pour résoudre des problèmes concrets ou qui souhaitent tester la faisabilité d'une nouvelle idée. En 2020, 339 PME ont reçu des bons pour de telles prestations de mentorat de Innosuisse. Les cantons ont leurs propres offres d'encouragement; la Confédération en soutient certaines par le biais de sa politique régionale, par exemple l'offre \"Alliance\" en Suisse romande. Une grande importance est accordée à la mise en réseau de tous les acteurs, par exemple avec des manifestations en commun. Ceci afin de garantir que les entreprises trouvent facilement l'aide répondant le mieux à leurs besoins, indépendamment du fait qu'elles s'adressent en premier lieu à un interlocuteur au niveau national, régional ou cantonal. Cette approche s'avère très appropriée au paysage du soutien à l'innovation qui est en constante évolution. La collaboration est optimisée en permanence, sans que des coûts supplémentaires ne soient générés.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>1. Comment les PME, notamment les plus petites, peuvent-elles concrètement tirer avantage de transferts de connaissances et de technologies (TCT) ?</p><p>2. Une PME confrontée à un problème concret (p. ex. dans le domaine des matériaux) peut-elle obtenir un soutien concret sous la forme de TCT ?</p><p>3. Comment le Conseil fédéral fait-il pour conserver une vue d'ensemble des programmes cantonaux de TST ?</p><p>4. Quelles seraient les conséquences financières de telles améliorations ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Les petites PME peuvent-elles bénéficier de transferts de connaissances et de technologies ?"
     }
   ],
-  "title": "Titre suit"
+  "title": "Les petites PME peuvent-elles bénéficier de transferts de connaissances et de technologies ?"
 }

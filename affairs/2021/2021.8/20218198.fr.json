@@ -1,6 +1,7 @@
 {
   "id": 20218198,
-  "updated": "2021-12-08T14:51:48Z",
+  "updated": "2021-12-14T10:40:40Z",
+  "additionalIndexing": "24;04",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DDPS",
+          "id": 6,
+          "name": "Département de la défense, de la protection de la population et des sports",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,12 +123,19 @@
   ],
   "shortId": "21.8198",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Comme indiqué dans le message concernant l'arrêté de planification relatif à l'acquisition de nouveaux avions de combat et conformément à l'arrêté fédéral, c'est la valeur du contrat qui est déterminante pour le calcul du volume des affaires compensatoires, en l'occurrence les montants effectivement payés aux fournisseurs étrangers. Le Parlement a décidé que ces montants devaient être compensés à 60 pour cent. Il n'y a pas d'affaires compensatoires prévues pour les parts concernant les taxes sur la valeur ajoutée, le supplément pour risques et les mandats confiés directement par la Confédération à des entreprises suisses. Si l'on déduit du crédit d'engagement les parts non compensées, on obtient une valeur contractuelle d'environ 4,8 milliards de francs; 60 pour cent correspondent à environ 2,9 milliards de francs. La clé de répartition entre les régions ne concerne pas seulement les compensations directes, mais toutes les affaires compensatoires. Conformément à l'arrêté de planification, le Conseil fédéral s'assure que la clé de répartition des affaires compensatoires dans les régions soit respectée dans la mesure du possible. </p>"
+    },
     {
       "type": {
         "id": 5,

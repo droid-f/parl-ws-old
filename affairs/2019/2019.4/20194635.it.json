@@ -1,6 +1,6 @@
 {
   "id": 20194635,
-  "updated": "2019-12-27T12:13:32Z",
+  "updated": "2021-12-14T07:20:56Z",
   "additionalIndexing": "2446;08;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -16,7 +16,7 @@
       "officialDenomination": "Ettlin Erich"
     },
     "faction": {
-      "abbreviation": "M-E",
+      "abbreviation": "Gruppo M-E",
       "id": 139,
       "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
     },
@@ -54,6 +54,21 @@
             "date": "2020-06-04T00:00:00Z",
             "text": "Trasmissione per esame alla commissione competente",
             "type": 66
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
           }
         ]
       },
@@ -87,7 +102,27 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3107,
+                    "gender": "m",
+                    "id": 4206,
+                    "name": "Ettlin Erich",
+                    "officialDenomination": "Ettlin Erich"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo M-E",
+                    "id": 139,
+                    "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5111"
             }
@@ -110,6 +145,11 @@
           "date": "/Date(1576796400000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -190,7 +230,7 @@
         "officialDenomination": "Ettlin Erich"
       },
       "faction": {
-        "abbreviation": "M-E",
+        "abbreviation": "Gruppo M-E",
         "id": 139,
         "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
       },
@@ -199,9 +239,10 @@
   ],
   "shortId": "19.4635",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [

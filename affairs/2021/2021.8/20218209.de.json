@@ -1,6 +1,7 @@
 {
   "id": 20218209,
-  "updated": "2021-12-08T16:20:25Z",
+  "updated": "2021-12-14T10:35:37Z",
+  "additionalIndexing": "48;2846;15;04",
   "affairType": {
     "abbreviation": "Fra.",
     "id": 14,
@@ -40,10 +41,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Schriftliche Beantwortung der Frage",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +72,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -70,6 +96,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "relatedAffairs": [
 
@@ -94,19 +125,33 @@
   ],
   "shortId": "21.8209",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Die Antwort des Bundesrates existiert nur in französischer Sprache. (Bitte wechseln Sie auf der Homepage oben rechts die Sprache)</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Artikel 39 Absatz 1 des Eisenbahngesetzes (EBG) regelt die Einrichtung von Nebenbetrieben zu kommerziellen Zwecken auf Bahnhofgebieten.</p><p>Die zahlreichen Verdichtungsprojekte auf Bahnhofgebieten, die derzeit von SBB Immobilien entwickelt werden, profitieren von sehr unterschiedlich dimensionierten Bewilligungen für kommerzielle Betriebe, was zu grossem Druck, ja sogar zu unlauterem Wettbewerb im lokalen Handel führt.</p><p>Gibt es Kriterien, mit denen sich das \"Bahnhofgebiet\" objektiv definieren lässt?</p><p>Falls ja, welche sind es?</p><p>Falls nein, weshalb nicht?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Bau von Geschäften in den Bahnhöfen: unterschiedlich grosse Flächen"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Bau von Geschäften in den Bahnhöfen: unterschiedlich grosse Flächen"
 }

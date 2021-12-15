@@ -1,6 +1,6 @@
 {
   "id": 20214336,
-  "updated": "2021-10-21T14:17:11Z",
+  "updated": "2021-12-14T14:25:11Z",
   "additionalIndexing": "1216",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2021-12-14T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2021-11-24T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
@@ -105,13 +122,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1634594400000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1639436400000+0100)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -154,12 +181,20 @@
   ],
   "shortId": "21.4336",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>In linea di principio, il Consiglio federale non è contrario all'idea di porre termine, a determinate condizioni, ai procedimenti penali in maniera consensuale e di promuovere la riconciliazione tra autori e vittime.</p><p>Tuttavia, questo tipo di approccio ai reati costituisce una novità tanto importante che, a suo avviso, non è possibile elaborare rapidamente una normativa coerente senza prima effettuare lavori preliminari approfonditi. Occorrerebbe prima stilare un quadro della situazione ampio ed esaustivo e intavolare una vasta discussione in seno alla popolazione e al mondo politico.</p><p>A seconda dell'impostazione della giustizia riparativa (\"justice restaurative\"), si pongono questioni delicate, persino fondamentali, sul sistema del diritto penale, ad esempio: si potrebbe ricorrere alla giustizia riparativa per tutti i reati, anche i più gravi? In caso affermativo, come si concilierebbe la giustizia riparativa con la pretesa punitiva dello Stato? In che misura le vittime rischierebbero di essere indotte a optare per la giustizia riparativa?</p><p>Considerando quanto sopra, il Consiglio federale preferirebbe esaminare in maniera approfondita la tematica nel quadro di un postulato. A suo avviso, questo esame potrebbe essere effettuato in adempimento del postulato 18.4063 (Mazzone. Integrazione della giustizia riparativa nella nostra legislazione, un progresso necessario), che il Consiglio nazionale non ha tolto di ruolo (Boll. Uff. 2021 N 636) in occasione dei dibattiti sull'oggetto 19.048 (Codice di procedura penale. Modifica). La presente mozione va pertanto respinta. Se la Camera prioritaria dovesse trasmetterla contrariamente alla proposta del Consiglio federale, quest'ultimo proporrà alla seconda Camera di trasformarla in un mandato d'esame.</p>"
+    },
     {
       "type": {
         "id": 5,

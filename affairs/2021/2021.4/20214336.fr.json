@@ -1,6 +1,6 @@
 {
   "id": 20214336,
-  "updated": "2021-10-21T14:17:11Z",
+  "updated": "2021-12-14T14:25:11Z",
   "additionalIndexing": "1216",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2021-12-14T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2021-11-24T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
@@ -105,13 +122,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1634594400000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639436400000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -154,12 +181,20 @@
   ],
   "shortId": "21.4336",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral n'est pas, par principe, contre l'idée de mettre fin aux procédures pénales par consentement mutuel dans certaines conditions et d'encourager la réconciliation entre auteurs et victimes.</p><p>Cette façon d'appréhender les infractions constitue toutefois une innovation si importante qu'il n'est pas possible, au sens du Conseil fédéral, d'élaborer rapidement une réglementation cohérente sans procéder au préalable à des travaux préparatoires approfondis. Il faudrait commencer par dresser un état des lieux exhaustif et ouvrir une vaste discussion au sein de la population et du monde politique.</p><p>Des questions délicates, voire fondamentales, devraient être réglées en fonction de la forme qu'adopterait la justice restaurative, par exemple : pourrait-on recourir à la justice restaurative pour toutes les infractions, même les plus graves ? Si oui, comment la justice restaurative s'articulerait-elle avec le mandat pénal de l'Etat ? Dans quelle mesure les victimes risqueraient-elles d'être poussées à opter pour la justice restaurative?</p><p>Dans un tel contexte, le Conseil fédéral préfèrerait examiner la thématique de manière approfondie dans le cadre d'un postulat. Cet examen pourrait selon lui être réalisé en exécution du postulat 18.4063 (Mazzone. Intégration de la justice restaurative dans notre législation, un progrès nécessaire) que le Conseil national n'a pas classé (BO 2021 N 636) lors des débats sur l'objet 19.048 (Code de procédure pénale. Modification). Il convient par conséquent de rejeter la motion.</p><p>Si le conseil prioritaire adopte la motion contrairement à la proposition du Conseil fédéral, celui-ci demanderait au second conseil de modifier le texte de la motion pour en faire en un mandat d'examen.</p>"
+    },
     {
       "type": {
         "id": 5,

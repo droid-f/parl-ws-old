@@ -1,6 +1,6 @@
 {
   "id": 20214336,
-  "updated": "2021-10-21T14:17:11Z",
+  "updated": "2021-12-14T14:25:11Z",
   "additionalIndexing": "1216",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2021-12-14T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2021-11-24T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
@@ -105,13 +122,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1634594400000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1639436400000+0100)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -154,12 +181,20 @@
   ],
   "shortId": "21.4336",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat stellt sich nicht grundsätzlich gegen die Idee, Strafverfahren unter gewissen Voraussetzungen einvernehmlich zu beenden und die Versöhnung zwischen Tätern und Opfern zu fördern.</p><p>Allerdings stellt diese Art des Umgangs mit Straftaten eine so grundlegende Neuerung dar, dass sich nach Ansicht des Bundesrates ohne vertiefte Vorarbeiten nicht auf raschem Weg eine kohärente Regelung ausarbeiten lässt. Vielmehr wäre vorgängig eine breite und umfassende Auslegeordnung zu erstellen und vor allem auch in der Bevölkerung und der Politik breit zu diskutieren.</p><p>Je nach Ausgestaltung der justice restaurative stellen sich heikle oder gar grundlegende Fragen zum Strafrechtssystem. Beispielsweise: Soll die justice restaurative grundsätzlich bei allen Delikten, also auch schwersten, möglich sein? Falls ja, wie verhält sich dies zum Strafanspruch des Staates? Inwiefern besteht die Gefahr, dass Opfer unter Druck geraten, sich auf die justice restaurative einzulassen?</p><p>Vor diesem Hintergrund bevorzugt es der Bundesrat, die Thematik im Rahmen eines Postulates gründlich zu prüfen. Nach Ansicht des Bundesrates könnte diese Prüfung im Rahmen des Postulates 18.4063 (Mazzone. Wiedergutmachungsjustiz in unsere Rechtsordnung integrieren. Es muss mehr getan werden) stattfinden, das der Nationalrat im Rahmen der Beratungen des Geschäftes 19.048 (Strafprozessordnung. Änderung) nicht abgeschrieben hat (AB 2021 N 636). Die vorliegende Motion ist somit abzulehnen. Sollte der Erstrat die Motion entgegen dem Antrag des Bundesrats überweisen, wird der Bundesrat im Zweitrat die Umwandlung in einen Prüfungsauftrag beantragen.</p>"
+    },
     {
       "type": {
         "id": 5,

@@ -1,6 +1,7 @@
 {
   "id": 20218151,
-  "updated": "2021-12-08T10:45:29Z",
+  "updated": "2021-12-14T10:40:06Z",
+  "additionalIndexing": "2841",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DDPS",
+          "id": 6,
+          "name": "Département de la défense, de la protection de la population et des sports",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +123,33 @@
   ],
   "shortId": "21.8151",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La réponse du Conseil fédéral n'existe qu'en allemand. (Veuillez changer la langue en haut à droite de la page d'accueil)</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Selon la réponse qui a été donnée à ma question 21.8060, jusqu'à fin novembre 2021, les hôpitaux n'ont pas eu à prendre de décisions délicates. Tous les patients dont l'état nécessitait une place aux soins intensifs ont pu en avoir une.</p><p>Entre-temps, de nombreux représentants d'hôpitaux et experts ont pris la parole dans les médias pour dire qu'il faudrait peut-être \" trier les malades \".</p><p>D'où mes questions :</p><p>1. Comment la situation se présente-t-elle en ce mois de décembre ?</p><p>2. Combien de tris des malades ont-ils été effectués en décembre 2021 ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Combien de situations de tri des malades se sont-elles réellement produites ?"
     }
   ],
-  "title": "Titre suit"
+  "title": "Combien de situations de tri des malades se sont-elles réellement produites ?"
 }

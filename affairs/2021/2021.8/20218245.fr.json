@@ -1,6 +1,7 @@
 {
   "id": 20218245,
-  "updated": "2021-12-08T17:32:45Z",
+  "updated": "2021-12-14T10:30:59Z",
+  "additionalIndexing": "2841;2811;24;10",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +123,33 @@
   ],
   "shortId": "21.8245",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La réponse du Conseil fédéral n'existe qu'en allemand. (Veuillez changer la langue en haut à droite de la page d'accueil)</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Une modification de la loi fédérale sur les étrangers et l'intégration a été adoptée à la session d'automne 2021. Elle prévoit qu'un dépistage du COVID-19 peut être exécuté en cas de renvoi ou d'expulsion de requérants d'asile déboutés.</p><p>- Tous les cantons mettent-ils en oeuvre cette modification ?</p><p>- Dans la négative, lesquels s'y refusent ?</p><p>- Combien de cas Schengen-Dublin incomberont nouvellement à la Suisse à la fin 2022 en raison de l'expiration du délai de renvoi ou d'expulsion ?</p><p>- Quels en seront les coûts supplémentaires ?</p><p>- Quels en sont les coûts à ce jour ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Certains cantons refusent-ils, au détriment du contribuable, d’exécuter des tests COVID-19 en vue du renvoi ou de l’expulsion de requérants d’asile déboutés ?"
     }
   ],
-  "title": "Titre suit"
+  "title": "Certains cantons refusent-ils, au détriment du contribuable, d’exécuter des tests COVID-19 en vue du renvoi ou de l’expulsion de requérants d’asile déboutés ?"
 }

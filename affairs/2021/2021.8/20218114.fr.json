@@ -1,6 +1,7 @@
 {
   "id": 20218114,
-  "updated": "2021-12-07T07:29:10Z",
+  "updated": "2021-12-14T10:41:51Z",
+  "additionalIndexing": "32;24",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638745200000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,12 +123,19 @@
   ],
   "shortId": "21.8114",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>L'octroi d'aides à la formation relève de la compétence des cantons. Ces dernières années, les législations cantonales en matière de bourses d'études ont convergé sur des points importants. La base de cette harmonisation est le concordat de la CDIP du 18 juin 2009 sur les bourses d'études, auquel ont adhéré 22 cantons. Cet accord règle notamment le droit à une allocation de formation. Selon l'article 13 du concordat, si la filière de formation dure plusieurs années, le droit à l'allocation porte au minimum sur la durée réglementaire des études plus deux semestres. En cas de changement unique de filière, la durée de l'allocation s'établit sur la base de la nouvelle formation, les cantons ayant toutefois la possibilité d'en déduire la durée de la première formation. Si une personne bénéficiaire prolonge ses études plus de deux semestres au-delà de la durée réglementaire ou si elle change plus d'une fois de formation, les cantons peuvent mettre fin à l'allocation en vertu du concordat. Les bourses ne doivent généralement pas être remboursées. Certains cantons prévoient néanmoins une obligation de remboursement en cas d'abandon des études causé par une faute grave ou sans motif valable. La Confédération n'a pas de vue d'ensemble des coûts consécutifs aux cas d'abandon des études. </p>"
+    },
     {
       "type": {
         "id": 5,

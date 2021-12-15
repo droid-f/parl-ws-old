@@ -1,6 +1,7 @@
 {
   "id": 20218112,
-  "updated": "2021-12-07T07:23:57Z",
+  "updated": "2021-12-14T10:39:06Z",
+  "additionalIndexing": "2841",
   "affairType": {
     "abbreviation": "Fra.",
     "id": 14,
@@ -40,10 +41,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Schriftliche Beantwortung der Frage",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +72,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "VBS",
+          "id": 6,
+          "name": "Departement für Verteidigung, Bevölkerungsschutz und Sport",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638745200000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -70,6 +96,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "relatedAffairs": [
 
@@ -94,12 +125,19 @@
   ],
   "shortId": "21.8112",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Das System zur Erfassung der Spitalauslastung wurde durch den Koordinierten Sanitätsdienst ad hoc für die Covid-Pandemie bereitgestellt. In der Anfangsphase war eine einfache Erfassungsmaske wichtig, um das Personal auf den Intensivstationen nicht zusätzlich zu belasten. Heute ist es somit nicht möglich, die gewünschten Daten zu veröffentlichen. Aufgrund der Entwicklung der Pandemie hat der Bedarf an präziseren Daten zugenommen. Der Koordinierte Sanitätsdienst hat deshalb das Projekt \"Patient Flow\" lanciert, um eine detaillierte Erfassung der Spitalauslastung auf Patientenbasis zu ermöglichen, inklusive Angaben zum Impfstatus. Derzeit befindet sich der Umsetzungsvorschlag in Konsultation bei den betroffenen Stellen. Dazu gehören unter anderem die Spitäler, die Schweizerische Gesellschaft für Intensivmedizin und die Ethikkommission. Ziel des Projekts ist es, die Datenmenge und -qualität zu verbessern und dabei den Aufwand für das Personal auf den Intensivstationen so klein wie möglich zu halten. Die erfolgreiche Umsetzung des Projekts hängt stark von der Mitarbeit der Spitäler ab. </p>"
+    },
     {
       "type": {
         "id": 5,

@@ -1,6 +1,7 @@
 {
   "id": 20218230,
-  "updated": "2021-12-08T16:53:24Z",
+  "updated": "2021-12-14T10:38:54Z",
+  "additionalIndexing": "24",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Département des finances",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,26 +123,33 @@
   ],
   "shortId": "21.8230",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La réponse du Conseil fédéral n'existe qu'en allemand. (Veuillez changer la langue en haut à droite de la page d'accueil)</p>"
+    },
+    {
+      "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p></p>"
+      "value": "<p>Dans sa réponse à la question 21.8076, le Conseil fédéral déclare que l'entrée en vigueur de \" Bâle III final \" est prévue dans le courant de l'année 2024. Sur son site Internet, en revanche, le SFI indique toujours le 1er janvier 2023 pour l'entrée en vigueur. A l'heure actuelle, le calendrier est tout sauf clair.</p><p>- Quelle est la date réelle de l'entrée en vigueur et quel délai transitoire le Conseil fédéral a-t-il prévu ?</p><p>- En l'état actuel de la planification, à partir de quel moment les banques devront-elles disposer de fonds propres et les annoncer, conformément à la nouvelle ordonnance sur les fonds propres ?</p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Adaptation du calendrier de la mise en œuvre de \" Bâle III final \" en Suisse"
     }
   ],
-  "title": "Titre suit"
+  "title": "Adaptation du calendrier de la mise en œuvre de \" Bâle III final \" en Suisse"
 }

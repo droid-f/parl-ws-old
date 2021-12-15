@@ -1,6 +1,7 @@
 {
   "id": 20218143,
-  "updated": "2021-12-08T09:12:26Z",
+  "updated": "2021-12-14T10:33:36Z",
+  "additionalIndexing": "36;52;55",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,26 +123,33 @@
   ],
   "shortId": "21.8143",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La réponse du Conseil fédéral n'existe qu'en allemand. (Veuillez changer la langue en haut à droite de la page d'accueil)</p>"
+    },
+    {
+      "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p></p>"
+      "value": "<p>La Conseillère fédérale Simonetta Somaruga a dit au Conseil des Etats que les nouvelles technologies étaient actuellement surtout utilisées lorsqu'il était question de développer des plantes résistantes aux herbicides.</p><p>- Quelles sont les données ou les études qui étayent cette déclaration du Conseil fédéral ?</p><p>- La tolérance aux herbicides ne jouent-elle pas un rôle secondaire dans l'application et la recherche sur l'édition génomique par rapport à la modification des composants, à la rentabilité ou à la résistance aux maladies et aux nuisibles ?</p><p>- Que dit l'étude complète réalisée cette année par la Commission européenne à ce sujet ?</p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Applications de l'édition génomique"
     }
   ],
-  "title": "Titre suit"
+  "title": "Applications de l'édition génomique"
 }

@@ -1,6 +1,7 @@
 {
   "id": 20218141,
-  "updated": "2021-12-07T14:02:55Z",
+  "updated": "2021-12-14T10:33:19Z",
+  "additionalIndexing": "66;2846;52",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638831600000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +123,33 @@
   ],
   "shortId": "21.8141",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La réponse du Conseil fédéral n'existe qu'en allemand. (Veuillez changer la langue en haut à droite de la page d'accueil)</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral envisage de faciliter l'octroi d'autorisations pour la construction d'éoliennes et le développement de l'énergie hydraulique. En Suisse, l'énergie éolienne ne promet pas des rendements très élevés en raison de la topographie défavorable et met en danger la biodiversité, notamment en raison des collisions impliquant des oiseaux et de l'assèchement des sols.</p><p>- Lors de l'octroi des autorisations, tient-on compte du fait que les pales des éoliennes finiront comme déchets spéciaux après une vingtaine d'années ?</p><p>- Est-ce la sécurité de l'approvisionnement en énergie ou la biodiversité qui prévaut ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Des autorisations facilitées pour l'énergie éolienne"
     }
   ],
-  "title": "Titre suit"
+  "title": "Des autorisations facilitées pour l'énergie éolienne"
 }

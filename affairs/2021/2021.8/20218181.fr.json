@@ -1,6 +1,7 @@
 {
   "id": 20218181,
-  "updated": "2021-12-08T13:50:26Z",
+  "updated": "2021-12-14T10:34:27Z",
+  "additionalIndexing": "48;52;04",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,12 +123,19 @@
   ],
   "shortId": "21.8181",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Les CFF ont examiné les variantes les plus diverses. Les idées les plus prometteuses sur le plan économique et écologique seront poursuivies:</p><p>- eau chaude;</p><p>- matériaux de banquette endiguant la végétation;</p><p>- robots autonomes herbicide électrique (par la Deutsche Bahn);</p><p>- tapis vert;</p><p>- herbicides bio ou alternatives chimiques.</p><p>La méthode de l'eau chaude est intéressante. L'eau atteint la zone racinaire de la végétation et son impact environnemental est plus faible que celui d'autres procédés. Il reste toutefois quelques défis à relever. Ainsi, les CFF ont développé un véhicule expérimental afin de tester la méthode; il ne s'agit toutefois pas d'une solution économique et durable. Le plus difficile est de pulvériser l'eau chaude avec précision à une vitesse pouvant atteindre 40 kilomètres à l'heure. Il faut aussi optimiser encore la consommation d'eau et d'énergie. En 2018, les CFF ont lancé un programme visant à élaborer des alternatives écologiques au glyphosate, auquel ils veulent renoncer d'ici à 2025. Mais ils ne pourront pas se passer totalement d'herbicides. Ils doivent appliquer des procédés et des méthodes propres à maintenir la sécurité de l'exploitation ferroviaire. Il faut s'attendre à une recrudescence des néophytes dangereux pour la santé et destructeurs d'infrastructures. Une lutte rapide est indispensable pour endiguer la prolifération de ces plantes. Un herbicide peut également être nécessaire à cet effet.</p>"
+    },
     {
       "type": {
         "id": 5,

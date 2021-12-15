@@ -1,6 +1,7 @@
 {
   "id": 20218238,
-  "updated": "2021-12-08T17:15:13Z",
+  "updated": "2021-12-14T10:30:44Z",
+  "additionalIndexing": "1216;08;1236",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +123,33 @@
   ],
   "shortId": "21.8238",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La réponse du Conseil fédéral n'existe qu'en allemand. (Veuillez changer la langue en haut à droite de la page d'accueil)</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>De nombreuses institutions sont intervenues cette année en faveur de Brian : l'ONU, la Commission nationale de prévention de la torture et d'autres organisations représentant les victimes de tortures. Le Tribunal fédéral lui-même a critiqué la détention de Brian à trois reprises. Pourtant, rien n'a été fait à ce jour.</p><p>- Qu'entreprend le Conseil fédéral afin de s'assurer que la Suisse remplisse ses obligations dans ce cas, en particulier celles qui relèvent de la Convention contre la torture ?</p><p>- S'engage-t-il pour qu'une enquête indépendante, éventuellement pénale, soit diligentée pour étudier les allégations de torture formulées, comme l'exige la Convention ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Violations de la Convention contre la torture. Le cas de Brian fera-t-il l’objet d’une enquête ?"
     }
   ],
-  "title": "Titre suit"
+  "title": "Violations de la Convention contre la torture. Le cas de Brian fera-t-il l’objet d’une enquête ?"
 }

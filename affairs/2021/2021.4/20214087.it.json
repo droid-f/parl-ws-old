@@ -1,6 +1,6 @@
 {
   "id": 20214087,
-  "updated": "2021-09-24T11:15:23Z",
+  "updated": "2021-12-15T14:40:33Z",
   "additionalIndexing": "1236;2841;04;34",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2021-12-15T00:00:00Z",
+            "text": "Liquidato",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-11-24T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -68,6 +83,11 @@
           "date": "/Date(1632348000000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1639522800000+0100)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -75,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-15T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -107,12 +132,19 @@
   ],
   "shortId": "21.4087",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>1. e 3. L'evoluzione del sistema per l'emissione dei certificati COVID è stata seguita da vicino dall'Incaricato federale della protezione dei dati e della trasparenza (IFPDT) e dai servizi cantonali per la protezione dei dati. I dati personali necessari per la pianificazione degli appuntamenti di vaccinazione sono registrati in un sistema cantonale e memorizzati conformemente alle prescrizioni cantonali. Per l'emissione dei certificati, questi dati sono abbinati a quelli sul vaccino impiegato nel sistema per l'emissione dei certificati messo a disposizione dall'Ufficio federale dell'informatica e della telecomunicazione (UFIT) e firmati elettronicamente. Per motivi di sicurezza, questa firma elettronica deve avvenire nei sistemi della Confederazione. Il trattamento dei dati avviene su sistemi ubicati in Svizzera e soggetti al diritto svizzero. Una volta che il certificato COVID è stato generato e trasmesso al richiedente, i dati sono nuovamente cancellati dal sistema per l'emissione dei certificati. Il sistema memorizza soltanto le informazioni anonime necessarie ad impedire gli abusi, che permettono di revocare i certificati COVID. Il certificato COVID è stampato sul posto al momento della sua emissione o memorizzato nell'app \"COVID Certificate\" sul telefono cellulare del titolare. Per generare il certificato light, il certificato COVID viene trasmesso dall'app in modalità sicura al sistema per l'emissione dei certificati. Quest'ultimo genera il certificato light, lo firma elettronicamente e successivamente lo reinvia all'app in modalità sicura e ne cancella i dati al proprio interno. L'Ufficio federale della sanità pubblica non può accedere in alcun momento ai dati trattati.</p><p>2. L'app \"COVID Certificate Check\" utilizza i dati letti dal codice QR solo per la verifica sul posto. A tale scopo si legge il certificato per verificare, da un lato, la validità della firma elettronica e, dall'altro, se i dati relativi al test, alla guarigione o alla vaccinazione corrispondono alle norme vigenti (p. es. se il certificato di test è scaduto). I dati non sono memorizzati né trasmessi a terzi. La verifica dell'identità è legittimata dalle disposizioni sui provvedimenti del piano di protezione secondo l'allegato 2 dell'ordinanza COVID-19 situazione particolare (RS 818.101.26). Al momento della verifica con l'app \"COVID Certificate Check\", questa visualizza soltanto i seguenti dati per il confronto dell'identità: cognome, nome, data di nascita ed esito della verifica (\"verde\" o \"rosso\"). Non è visualizzato il tipo di certificato (vaccinazione, test o guarigione). Inoltre, le informazioni personali contenute nel certificato light sono state ridotte ai soli dati necessari per il confronto dell'identità, per cui nessuno può più estrarre dati. Il codice di programmazione di tutte le componenti del sistema (app per i titolari di certificati di vaccinazione, guarigione e test negativo, app per la verifica e sistemi dell'UFIT) è open source ed è stato sottoposto a test di sicurezza pubblici. Il Centro nazionale per la cibersicurezza (NCSC) svolge regolarmente test di sicurezza supplementari.</p><p>4. I sistemi di trattamento e trasmissione dei dati utilizzati finora sono stati sviluppati nel rispetto di requisiti già elevati in materia di sicurezza e protezione dei dati. Inoltre, si consiglia di utilizzare in Svizzera il certificato light, che impedisce efficacemente l'estrazione e la memorizzazione non autorizzata di dati sanitari. I rischi residuali sono stati analizzati ponderando ogni volta praticabilità e sicurezza e accettati come proporzionati coinvolgendo le cerchie interessate (in particolare IFPDT e NCSC).</p>"
+    },
     {
       "type": {
         "id": 5,

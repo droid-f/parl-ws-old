@@ -1,6 +1,7 @@
 {
   "id": 20218240,
-  "updated": "2021-12-08T17:22:32Z",
+  "updated": "2021-12-14T10:44:49Z",
+  "additionalIndexing": "32;44;24",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,19 +123,33 @@
   ],
   "shortId": "21.8240",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral dirige le domaine des EPF par le biais d'objectifs stratégiques. Leur réalisation est contrôlée, d'une part, dans le cadre des entretiens qui ont régulièrement lieu entre le DEFR/l'AFF et la présidence du Conseil des EPF et, d'autre part, sur la base des rapports annuels du domaine des EPF au Conseil fédéral. Le Conseil des EPF définit la stratégie du domaine des EPF dans le cadre des objectifs stratégiques qui lui sont assignés par le Conseil fédéral, effectue le controlling stratégique et représente le domaine des EPF vis-à-vis des autorités fédérales. De plus, il est lui-même un service de la construction et des immeubles (SCI) de la Confédération. Le Conseil fédéral considère que la structure actuelle permet au Conseil des EPF et aux collaborateurs de son état-major de mener à bien ces multiples tâches. En vertu de la loi sur les EPF, le Conseil fédéral élit la présidence et les membres du Conseil des EPF sur la base de profils d'exigences très complets. Les collaborateurs du domaine des EPF sont employés conformément à la loi sur le personnel de la Confédération. Ils sont également soumis aux dispositions d'exécution de l'ordonnance du Conseil des EPF sur le personnel du domaine des écoles polytechniques fédérales. Cette dernière est soumise à l'approbation du Conseil fédéral et à la haute surveillance de la Délégation des finances des Chambres fédérales. La structure de gouvernance du domaine des EPF est l'un des objets sur lesquels porte l'évaluation intermédiaire qui est réalisée tous les quatre ans par un groupe international d'experts en vertu de la loi sur les EPF. </p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil des EPF compte actuellement 11 membres et 56 collaborateurs.</p><p>- Le Conseil fédéral estime-t-il que cette structure soit en adéquation avec les besoins d'aujourd'hui ?</p><p>- Quelles sont les compétences du Conseil fédéral en ce qui concerne le contrôle des activités et l'indemnisation des membres du Conseil des EPF et de leurs collaborateurs ?</p><p>- Sur quelle base et selon quels critères le Conseil fédéral nomme-t-il les membres du Conseil des EPF ainsi que son président ?</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "La structure du Conseil des EPF est-elle surchargée ?"
     }
   ],
-  "title": "Titre suit"
+  "title": "La structure du Conseil des EPF est-elle surchargée ?"
 }

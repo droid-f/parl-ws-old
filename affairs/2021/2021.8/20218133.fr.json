@@ -1,6 +1,7 @@
 {
   "id": 20218133,
-  "updated": "2021-12-07T14:05:14Z",
+  "updated": "2021-12-14T10:42:34Z",
+  "additionalIndexing": "10;36;24",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638831600000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,12 +123,19 @@
   ],
   "shortId": "21.8133",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Déjà lors de la conception d'Horizon Europe, l'UE avait envisagé un nouveau mécanisme financier, où chaque pays associé paie en principe ce que ses chercheurs obtiennent. Le Conseil fédéral s'est préparé à ce nouveau principe de calcul, parfois appelé \"pay as you go\". Le message relatif au financement de la participation de la Suisse au paquet Horizon 2021-2027 prévoyait donc déjà des contributions suisses en fonction des subventions attendues. Dans la demande de crédit qui a été approuvée par le Parlement en 2020, le Conseil fédéral table sur un retour moyen de 5 pour cent des budgets des différents programmes, selon une estimation de la Commission européenne elle-même. Dans la génération précédente Horizon 2020, les subsides contractés par des chercheurs suisses n'ont pas dépassé les contributions versées par la Suisse selon les chiffres disponibles jusque-là, et il y aurait donc une certaine marge avant d'atteindre un retour positif de plus de 8 pour cent comme stipulé dans la question. Gardons cependant à l'esprit que les modalités concernant la contribution suisse seront négociées dans un futur accord d'association. Dans la situation actuelle, la Suisse ne contribue pas au budget de l'UE mais finance directement ses participants dans le cadre des mesures transitoires.</p>"
+    },
     {
       "type": {
         "id": 5,

@@ -1,6 +1,6 @@
 {
   "id": 20183949,
-  "updated": "2020-09-16T17:20:43Z",
+  "updated": "2021-12-15T14:58:36Z",
   "additionalIndexing": "15;55",
   "affairType": {
     "abbreviation": "Mo.",
@@ -70,6 +70,21 @@
             "date": "2020-09-16T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2021-12-15T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -124,7 +139,22 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3053,
+                    "gender": "m",
+                    "id": 4153,
+                    "name": "Hegglin Peter",
+                    "officialDenomination": "Hegglin Peter"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5112"
             }
@@ -152,6 +182,11 @@
           "date": "/Date(1600207200000+0200)/",
           "id": 11,
           "name": "Motion an 2. Rat"
+        },
+        {
+          "date": "/Date(1639522800000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -159,6 +194,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-15T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -402,9 +442,9 @@
   ],
   "shortId": "18.3949",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },

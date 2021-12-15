@@ -1,6 +1,7 @@
 {
   "id": 20218210,
-  "updated": "2021-12-08T16:22:34Z",
+  "updated": "2021-12-14T10:44:00Z",
+  "additionalIndexing": "52;2841;04",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-13T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-12-13T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -55,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638918000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639350000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -69,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -92,12 +123,19 @@
   ],
   "shortId": "21.8210",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La nouvelle ordonnance sur la garantie de l'approvisionnement en eau potable lors d'une pénurie grave est entrée en vigueur le 1er octobre 2020. Selon cette ordonnance, les cantons font un inventaire électronique des installations d'approvisionnement en eau, des nappes phréatiques et des sources garantissant l'approvisionnement en eau potable. Les cantons sont actuellement en train de mettre en oeuvre l'ordonnance; l'état d'avancement dans chaque canton n'est pas connu. L'ordonnance ne prévoit pas de délai pour cette mise en oeuvre mais il est prévu de la vérifier dans deux ou trois ans. </p>"
+    },
     {
       "type": {
         "id": 5,
