@@ -1,6 +1,6 @@
 {
   "id": 20214177,
-  "updated": "2021-10-01T10:13:37Z",
+  "updated": "2021-12-17T10:39:34Z",
   "additionalIndexing": "04;09;34;1236",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,26 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-17T00:00:00Z",
+            "text": "Liquidé",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "b",
+        "date": "2021-11-17T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -68,6 +84,11 @@
           "date": "/Date(1632952800000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639695600000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -75,6 +96,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-17T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -107,19 +133,33 @@
   ],
   "shortId": "21.4177",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral répond comme suit aux questions posées par l'auteure de l'interpellation:</p><p>Question 1</p><p>L'incident a principalement des conséquences graves pour les citoyens concernés. Il est en effet à craindre que les auteurs essayent d'utiliser les données volées à des fins criminelles (par ex. des tentatives d'escroquerie). Pour cette raison, il est très important que les personnes dont les données ont été dérobées en soient informées. Cet incident est aussi grave sur le plan institutionnel, car il ébranle la confiance que les citoyens placent dans l'Etat. Il est donc primordial que l'ensemble des autorités accordent une priorité absolue à la protection des données qu'elles traitent.</p><p>Questions 2 et 3</p><p>Oui, force est de supposer que d'autres communes sont également vulnérables aux cyberattaques. La raison principale est que de nombreuses administrations ne disposent pas encore de suffisamment de connaissances concernant les cybermenaces pour se prémunir efficacement contre de telles attaques.</p><p>Question 4</p><p>Sur son site Internet, le Centre national pour la cybersécurité (NCSC) publie à l'attention des particuliers, des entreprises et des administrations des informations concernant la manière de se protéger contre les cyberattaques. Ces informations sont mises à jour régulièrement. Parmi ces publications se trouvent également des recommandations relatives aux mesures de protection contre les attaques au rançongiciel (la commune de Rolle a été victime d'une attaque de ce type): <a  href=\"https://www.ncsc.admin.ch/ncsc/fr/home/cyberbedrohungen/ransomware.html\">https://www.ncsc.admin.ch/ncsc/fr/home/cyberbedrohungen/ransomware.html</a>. Ces mesures, qui peuvent être mises en place sans mobiliser beaucoup de moyens, augmentent considérablement le degré de protection des systèmes contre les cyberattaques.</p><p>Question 5</p><p>En vertu de l'art. 12 de l'ordonnance sur les cyberrisques, le NCSC peut enregistrer les annonces concernant les cyberincidents et formuler des recommandations quant à la manière de les gérer. Le NCSC ne dispose pas d'un mandat légal pour soutenir davantage les communes dans leurs efforts pour se protéger contre les cyberrisques. Dans sa stratégie nationale de protection de la Suisse contre les cyberrisques (SNPC), le Conseil fédéral a toutefois indiqué clairement que la Confédération entendait participer à la protection des PME et des communes. Dans le cadre de la mise en oeuvre de cette stratégie, des labels ont notamment été créés afin d'aider les communes à évaluer la sécurité de leurs propres systèmes et la fiabilité de leurs fournisseurs informatiques, et à identifier les mesures à prendre pour améliorer leur niveau de protection contre les cyberattaques. En fournissant les informations et les instructions évoquées dans la réponse à la question 4, le NCSC contribue en outre à la prévention globale, ce dont les communes profitent directement.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Durant l'été 2021, la commune de Rolle (VD) a été victime d'une cyberattaque avec demande de rançon. L'ampleur de l'attaque n'était pas claire au départ. Il s'est par la suite avéré que des milliers de données personnelles sensibles sur les habitants de la commune, y compris des enfants, ont été rendu publiques. </p><p>Dès lors, je prie le Conseil fédéral de répondre aux questions suivantes.</p><p>1. Selon lui, quelle est la gravité de cet incident ?</p><p>2. Pense-t-il qu'il s'agit d'un risque qui concerne toutes les communes du pays et que de nombreuses autres communes sont aussi vulnérables ?</p><p>3. Les ressources et les connaissances des cantons et des communes sont-elles suffisantes pour réagir correctement en cas de cyberattaque ?</p><p>4. Que recommande le Conseil fédéral aux cantons et aux communes pour se protéger ?</p><p>5. Le Centre national pour la cybersécurité (NCSC) peut-il aider les communes dans leurs efforts pour se protéger ?</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Vulnérabilité des communes face aux cyberattaques"
     }
   ],
-  "title": "Titre suit"
+  "title": "Vulnérabilité des communes face aux cyberattaques"
 }

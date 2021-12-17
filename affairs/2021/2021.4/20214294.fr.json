@@ -1,6 +1,6 @@
 {
   "id": 20214294,
-  "updated": "2021-10-05T09:28:08Z",
+  "updated": "2021-12-17T10:53:50Z",
   "additionalIndexing": "48",
   "affairType": {
     "abbreviation": "Ip.",
@@ -16,7 +16,7 @@
       "officialDenomination": "Bregy"
     },
     "faction": {
-      "abbreviation": "M-E",
+      "abbreviation": "Groupe M-E",
       "id": 139,
       "name": "Le Groupe du Centre. Le Centre. PEV."
     },
@@ -40,10 +40,26 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-17T00:00:00Z",
+            "text": "Liquidé",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "n",
+        "date": "2021-11-17T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -68,6 +84,11 @@
           "date": "/Date(1633039200000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639695600000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -75,6 +96,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-17T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -98,7 +124,7 @@
         "officialDenomination": "Bregy"
       },
       "faction": {
-        "abbreviation": "M-E",
+        "abbreviation": "Groupe M-E",
         "id": 139,
         "name": "Le Groupe du Centre. Le Centre. PEV."
       },
@@ -107,12 +133,19 @@
   ],
   "shortId": "21.4294",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>1. Des chantiers sont actuellement ouverts sur quelque 152 kilomètres du réseau des routes nationales, ce qui correspond à 6,7 % de la longueur totale des routes nationales.</p><p>2./6. Aucune donnée n'est recueillie au sujet de la durée moyenne des travaux sur un kilomètre de chantier, car de telles données ne sont pas pertinentes. La complexité et la durée des travaux réalisés sont très variables. Les travaux d'entretien sont planifiés de telle sorte qu'aucun nouveau chantier entravant la circulation ne soit admis sur le même tronçon dans les quinze années suivant la fin des travaux.</p><p>3./4./5. Il n'y a pas de chantiers à l'arrêt sur le réseau des routes nationales. Toutefois, les travaux peuvent être interrompus temporairement à certains endroits non seulement à la suite d'intempéries, mais aussi durant la phase de séchage ou de durcissement des matériaux de construction. Parfois, des travaux sont réalisés en dehors du champ de vision des automobilistes ou des voies fermées sont utilisées comme des couloirs logistiques et de transport pour les livraisons, si bien que l'on pourrait croire, à tort, que personne ne travaille sur le chantier.</p>"
+    },
     {
       "type": {
         "id": 5,
@@ -125,8 +158,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Y a-t-il plus de chantiers que d'ouvriers sur les autoroutes suisses ?"
+      "value": "Y a-t-il plus de chantiers que d'ouvriers sur les autoroutes suisses?"
     }
   ],
-  "title": "Y a-t-il plus de chantiers que d'ouvriers sur les autoroutes suisses ?"
+  "title": "Y a-t-il plus de chantiers que d'ouvriers sur les autoroutes suisses?"
 }

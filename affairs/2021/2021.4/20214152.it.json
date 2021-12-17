@@ -1,6 +1,6 @@
 {
   "id": 20214152,
-  "updated": "2021-10-01T10:20:16Z",
+  "updated": "2021-12-17T08:33:39Z",
   "additionalIndexing": "52;34;04;09",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2021-12-17T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2021-11-17T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -68,6 +85,11 @@
           "date": "/Date(1632952800000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1639695600000+0100)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -677,19 +699,34 @@
   ],
   "shortId": "21.4152",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Nel 2014 l'UFPP aveva deciso, sulla base delle possibilità tecnologiche del momento, di introdurre un'app per allertare la popolazione in caso di pericolo (app Alertswiss). Allora Cell Broadcast non rappresentava la soluzione migliore. Nel frattempo però, considerati gli sviluppi tecnologici, la situazione è cambiata. Oggi solo gli utenti che hanno installato l'app di Alertswiss sul proprio cellulare possono essere allertati direttamente in caso di catastrofe naturale.</p><p>Cell Broadcast permette ora di colmare questa lacuna. Con questa tecnologia è infatti possibile inviare automaticamente allerte e informazioni su tutti i telefoni cellulari situati nella zona o nella cella interessata. Inoltre la Svizzera, in quanto Paese turistico e di transito, deve poter avvisare rapidamente anche i turisti stranieri in caso di evento.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è stato incaricato di creare delle basi legali per introdurre il più presto possibile un sistema di allerta mediante Cell Broadcast che permetta di informare la popolazione sui pericoli incombenti, segnatamente quelli di origine naturale. Il Consiglio federale dovrà inoltre fornire una valutazione sui provvedimenti necessari per migliorare la diffusione delle allerte di maltempo. A tal fine dovranno essere coinvolti i Cantoni e tutti i partner interessati.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Cell Broadcast. Allertare in modo mirato in caso di catastrofi naturali"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Cell Broadcast. Allertare in modo mirato in caso di catastrofi naturali"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20214327,
-  "updated": "2021-10-05T09:18:56Z",
+  "updated": "2021-12-17T10:41:27Z",
   "additionalIndexing": "0421;04;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-17T00:00:00Z",
+            "text": "Point 1 rejeté; Points 2 adopté.",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-/+",
+        "date": "2021-11-17T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter le premier tiret de la motion (estimation des coûts dans l'avis du Conseil fédéral relatif à un postulat) et d'en accepter le second (présentation des coûts engendrés par l'élaboration du rapport)."
       },
       "index": 0,
       "links": [
@@ -68,10 +85,18 @@
           "date": "/Date(1633039200000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1639695600000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
-
+        {
+          "type": null,
+          "value": "Le Conseil fédéral propose de rejeter le premier tiret de la motion (estimation des coûts dans l'avis du Conseil fédéral relatif à un postulat) et d'en accepter le second (présentation des coûts engendrés par l'élaboration du rapport)."
+        }
       ]
     }
   ],
@@ -427,19 +452,41 @@
   ],
   "shortId": "21.4327",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Il arrive fréquemment que des postulats soient adoptés sans que l'on sache vraiment si les rapports demandés seront utiles. Cela s'explique en partie par le fait que les coûts d'élaboration d'un \" simple rapport \" ne sont guère connus. Cette situation est insatisfaisante. Une plus grande transparence s'impose, afin que les membres de l'Assemblée fédérale puissent désormais se prononcer en toute connaissance de cause.</p><p>Pour résoudre ce problème, le Conseil fédéral prendra les deux mesures qui suivent.</p><p>Premièrement, il présentera, dans son avis relatif à un postulat, une estimation des coûts qu'engendrerait l'élaboration du rapport demandé. Cette information permettra aux députés d'apprécier plus facilement le rapport coûts/utilité du rapport avant de demander au Conseil fédéral de l'élaborer. Il faut partir de l'idée qu'avec le temps, l'administration fédérale parviendra à effectuer des estimations de plus en plus précises.</p><p>Deuxièmement, lorsqu'il élaborera un rapport en exécution d'un postulat, le Conseil fédéral indiquera systématiquement les coûts engendrés : il les présentera brièvement dans un paragraphe ad hoc inséré à la fin du rapport. Dans sa réponse à l'interpellation 07.3176, le Conseil fédéral indiquait qu'il était tout à fait possible d'estimer au préalable les coûts d'un rapport élaboré en exécution d'un postulat.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral est d'avis, comme l'auteur de la motion, que les interventions parlementaires doivent apporter une valeur ajoutée. Il estime donc, à l'instar de l'auteur de la motion, qu'il devrait également en être ainsi pour les rapports élaborés en exécution d'un postulat. Le Conseil fédéral se déclare expressément favorable à une prise en considération du rapport coûts/utilité dès le dépôt et l'adoption d'interventions parlementaires. Mais il estime néanmoins que le dépôt et l'adoption d'interventions parlementaires par les membres des conseils et les commissions devraient en premier lieu être dictés par le contenu et non par le coût des interventions (adoption, par ex., d'un postulat parce que les investigations demandées faciliteront la formation de la volonté politique).</p><p>Premier tiret : la motion exige que le Conseil fédéral présente, dans ses avis relatifs à des postulats, une estimation des coûts qu'engendrerait l'élaboration des rapports demandés. Or, ces coûts ne peuvent, dans le meilleur des cas, être estimés à l'avance de manière fiable que si certaines circonstances favorables sont réunies. Il n'est par exemple guère possible de procéder à une estimation exacte des coûts lorsqu'on ne sait pas encore s'il sera nécessaire de recourir à une aide externe ou d'effectuer d'importantes recherches (voir en particulier les réponses 4 et 7 faites par le Conseil fédéral dans son avis relatif à l'interpellation 07.3176). La décision d'adopter ou non un postulat pourrait donc être influencée par une estimation peu fiable. Par ailleurs, une estimation des coûts en amont engendrerait des dépenses supplémentaires avant même que le Parlement décide d'adopter ou non le postulat. L'utilité d'une telle estimation serait donc pour le moins discutable.</p><p>Deuxième tiret : le Conseil fédéral estime qu'il est judicieux de présenter les coûts engendrés par un rapport élaboré en exécution d'un postulat, car une telle mesure permet d'accroître la transparence des coûts.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé de faire en sorte que les coûts engendrés par les postulats soient plus transparents. Concrètement, il devra désormais :</p><p>- dans son avis relatif à un postulat, présenter une estimation des coûts qu'engendrerait l'élaboration du rapport demandé ;</p><p>- dans le rapport (si le postulat est adopté), présenter de manière détaillée les coûts engendrés par l'élaboration du rapport.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Accroître la transparence des coûts engendrés par les rapports élaborés en exécution d'un postulat"
     }
   ],
-  "title": "Titre suit"
+  "title": "Accroître la transparence des coûts engendrés par les rapports élaborés en exécution d'un postulat"
 }
