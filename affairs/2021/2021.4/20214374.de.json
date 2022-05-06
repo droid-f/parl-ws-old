@@ -1,6 +1,6 @@
 {
   "id": 20214374,
-  "updated": "2021-12-03T10:55:59Z",
+  "updated": "2022-03-18T10:50:14Z",
   "additionalIndexing": "2841;34;1236",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,10 +41,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-23T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -57,13 +74,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638399600000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1647558000000+0100)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -124,10 +151,11 @@
   ],
   "shortId": "21.4374",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -136,6 +164,20 @@
         "name": "Begründung"
       },
       "value": "<p>Mit dem EPD wurde ein wichtiges und anspruchsvolles Projekt lanciert, welche den Informationsaustausch medizinischer Daten über eine elektronische Plattform ermöglichen soll.</p><p>Zur Entlastung der Verwaltungskosten im Gesundheitswesen ist die Fortführung der Bestrebungen im administrativen Bereich des Gesundheitswesens anzustreben. Eine digitale Patientenadministration bildet die Basis für die institutionsübergreifende Zusammenarbeit unter den Leistungserbringern und vereinfacht die Zusammenwirkung mit den Versicherungen und Behörden.</p><p>Die Prozesse im Bereich der Patientenadministration verfügen bereits, im Gegensatz zur medizinischen Dokumentation, über einen hohen Standardisierungsgrad.</p><p>In der Umsetzung sind folgende Themengebiete mitzuberücksichtigen:</p><p>1. Einheitliche, standardisierte und offene Datenformate (z. B. über anerkannte nationale und internationale Standardisierungsorganisationen): Patientenstammdaten, Versicherungsdaten/-deckung, Behandlungsteam (Hausärztin, Fachärztin, etc.), Kontaktpersonen, Abrechnungsinformationen, Kostengutspracheinformationen, etc.</p><p>2. Interoperabilität mit dem elektronischen Patientendossier (EPD)</p><p>3. Digitale Verwaltung über ein Portal für Patientinnen und Patienten</p><p>4. Abruf der Daten für Leistungserbringer</p><p>5. Digital zweckmässiger Datenaustausch mit den Kostenträgern (Erteilung der Kostengutsprache durch die Versicherungen, Unfallmeldungen an die Unfallversicherungsgesellschaften, Rechnungsstellung und Rückweisungsmöglichkeit, ...)</p><p>6. Die Datenspeicherung erfolgt nicht zentral (sondern dezentral oder nur individuell verschlüsselt zentral)</p><p>7. Prüfung einer besseren Verbreitung und Einbezug des Bundesgesetzes über die elektronische Signatur, ZertES.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat unterstützt das Anliegen der Motion, die Prozesse rund um die Patientenadministration zu vereinfachen. Er ist überzeugt, dass die durchgängige digitale Abwicklung dieser Prozesse Vereinfachungen in der institutionsübergreifenden Zusammenarbeit und Effizienzsteigerungen sowie eine Verbesserung der Datenqualität bringt. Es sind in diesem Zusammenhang auch bereits Bestrebungen im Gang, die Administration zu vereinfachen, bspw. bezüglich der elektronischen Rechnungsstellung im Kontext der Kostendämpfungsmassnahmen der Krankenversicherung.</p><p>Die Sicherstellung einer hinreichenden und effizienten Gesundheitsversorgung liegt grundsätzlich in der Kompetenz der Kantone. Der Bund hingegen hat im Bereich der obligatorischen Krankenversicherung eine umfassende Regelungskompetenz. Der Bundesrat ist bereit, im Rahmen seiner Kompetenzen die digitale Abwicklung zu fördern.</p><p>Der Bundesrat ist zudem bereit, im Rahmen seiner Kompetenzen und vorhandenen Ressourcen Unterstützung für die Standardisierung von Datenstrukturen und Schnittstellen zu bieten, die für die Umsetzung notwendig sind. Die Umsetzung einer digitalen Patientenadministration, insbesondere deren technischen und organisatorischen Anforderungen, liegt hingegen in der Verantwortung der Kantone und der betroffenen Akteure (Leistungserbringer, Versicherer, Stammgemeinschaften, Standesorganisationen, etc.).</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, alle betroffenen Gesetze dahingehend anzupassen, dass die Prozesse rund um die Patientenadministration für alle involvierten Parteien der ambulanten und stationären Versorgungsbereichen im Sinne eines virtuellen Schweizer Gesundheitsnetzes digital abgewickelt werden können (Spital, Langzeit, Spitex, Praxen, Apotheken, etc.).</p>"
     },
     {
       "type": {

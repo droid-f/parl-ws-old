@@ -1,6 +1,6 @@
 {
   "id": 20214334,
-  "updated": "2021-10-18T10:14:19Z",
+  "updated": "2022-03-17T13:03:48Z",
   "additionalIndexing": "2846;1211",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-03-17T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2021-11-24T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
@@ -88,8 +105,8 @@
                     "officialDenomination": "Bulliard"
                   },
                   "faction": {
-                    "abbreviation": "M-E",
-                    "id": 139,
+                    "abbreviation": "Groupe M-E",
+                    "id": 3,
                     "name": "Le Groupe du Centre. Le Centre. PEV."
                   },
                   "language": "fr"
@@ -138,7 +155,12 @@
           },
           "date": "2021-10-12T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ],
+              "sessionId": "5115"
+            }
           ]
         }
       ],
@@ -158,6 +180,11 @@
           "date": "/Date(1633989600000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1647471600000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -200,10 +227,11 @@
   ],
   "shortId": "21.4334",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -212,6 +240,13 @@
         "name": "Développement"
       },
       "value": "<p>Le 28 avril 2021, le Tribunal fédéral a jugé, dans le cas d'un dépôt situé dans la zone agricole d'une commune lucernoise, que certaines constructions illégales datant d'avant 1983 devaient être démolies. Cette décision a pour effet que les constructions illégales situées en zone à bâtir et celles se trouvant hors zone à bâtir ne sont pas soumises aux mêmes règles. S'agissant des constructions situées en zone à bâtir pour lesquelles aucune autorisation n'a été accordée, l'obligation de rétablir la situation conforme au droit s'éteint en principe après 30 ans. Selon des informations communiquées par la SRF, environ 600 000 constructions en Suisse seraient concernées et l'application du jugement du Tribunal fédéral entraînerait une charge administrative disproportionnée et insurmontable pour les autorités cantonales et communales compétentes.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>De l'avis du Conseil fédéral, l'introduction légale d'un délai de prescription ou de péremption pour les constructions illégales hors de la zone à bâtir conduirait inévitablement à ce que les personnes qui respectent le droit et les décisions officielles se retrouvent désavantagées par rapport à celles qui construisent illégalement.</p><p>A cela s'ajoute le fait que, contrairement à la zone à bâtir destinée à la construction, les terrains situés en dehors de la zone à bâtir doivent être préservés de toute construction, en vertu du principe de la loi sur l'aménagement du territoire qui consiste à séparer le territoire constructible du territoire non constructible. Les constructions illégales vont ainsi à l'encontre de ce principe fondamental de l'aménagement du territoire. De telles infractions ont un impact non négligeable sur le paysage, la nature et l'environnement, et elles peuvent également porter préjudice à l'exploitation agricole. Cet impact négatif existe tant que la construction illégale reste en place. Il serait donc inadmissible que, dans le cas d'une construction ou d'une installation illégale, l'obligation de rétablir la situation conforme au droit doive s'éteindre au-delà d'un certain délai.</p><p>Le problème est encore exacerbé par les nombreuses possibilités de ralentir la procédure : même si une commune se montre très déterminée, la procédure peut dans la pratique prendre des décennies si toutes les décisions officielles nécessaires sont systématiquement contestées.</p><p>La sécurité juridique est mieux servie lorsque les autorités compétentes de la police de l'urbanisme interviennent systématiquement contre les constructions illégales. Les personnes qui envisagent de réaliser une construction sont alors conscientes dès le départ qu'elles doivent s'attendre à une démolition si elles construisent illégalement. Dans son arrêt du 28 avril 2021, le Tribunal fédéral a montré combien il est important que les constructions illégales situées hors de la zone à bâtir ne soient pas soumises à un délai de prescription. Dans ce même arrêt, les faits montrent également de manière exemplaire que les communes sont encore plus sollicitées lorsqu'un délai de péremption est prévu. Cela s'explique par les questions de preuve qui se posent.</p><p>Il convient de souligner qu'en Suisse, environ 595 000 constructions sont situées hors de la zone à bâtir. Seules certaines d'entre elles sont illégales ou comportent des éléments illégaux.</p>"
     },
     {
       "type": {
@@ -225,8 +260,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Prescription de l’obligation de rétablir la situation conforme au droit hors de la zone à bâtir"
+      "value": "Prescription de l'obligation de rétablir la situation conforme au droit hors de la zone à bâtir"
     }
   ],
-  "title": "Prescription de l’obligation de rétablir la situation conforme au droit hors de la zone à bâtir"
+  "title": "Prescription de l'obligation de rétablir la situation conforme au droit hors de la zone à bâtir"
 }

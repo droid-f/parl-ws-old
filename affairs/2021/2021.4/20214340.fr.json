@@ -1,6 +1,6 @@
 {
   "id": 20214340,
-  "updated": "2021-11-01T11:09:55Z",
+  "updated": "2022-02-28T19:17:28Z",
   "additionalIndexing": "04;2836",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-02-28T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2021-11-24T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -88,7 +105,7 @@
                     "officialDenomination": "Weichelt"
                   },
                   "faction": {
-                    "abbreviation": "G",
+                    "abbreviation": "Groupe G",
                     "id": 6,
                     "name": "Groupe des VERT-E-S"
                   },
@@ -125,13 +142,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1635458400000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1646002800000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -174,12 +201,20 @@
   ],
   "shortId": "21.4340",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Pour les raisons exposées dans le message sur la modernisation de la surveillance, le Conseil fédéral estime qu'il ne se justifie pas de revoir complètement la structure organisationnelle de la CdC. A l'heure des questions de la session d'été 2021, il s'est néanmoins déclaré prêt à tenir compte, dans ses futures réflexions sur le développement de l'AVS, de la nouvelle proposition que le Contrôle fédéral des finances a faite dans son rapport de révision du 10 mai 2021, à savoir fusionner la CdC dans son ensemble avec compenswiss.</p>"
+    },
     {
       "type": {
         "id": 5,
@@ -192,8 +227,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Assurer la gouvernance, la transparence, la cohérence et la surveillance des activités de la Confédération dans le domaine de l’AVS, de l’AI et de l’APG"
+      "value": "Assurer la gouvernance, la transparence, la cohérence et la surveillance des activités de la Confédération dans le domaine de l'AVS/AI/APG"
     }
   ],
-  "title": "Assurer la gouvernance, la transparence, la cohérence et la surveillance des activités de la Confédération dans le domaine de l’AVS, de l’AI et de l’APG"
+  "title": "Assurer la gouvernance, la transparence, la cohérence et la surveillance des activités de la Confédération dans le domaine de l'AVS/AI/APG"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20214339,
-  "updated": "2021-10-29T16:00:28Z",
+  "updated": "2022-03-15T08:42:44Z",
   "additionalIndexing": "2836;2846",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-03-15T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2021-11-24T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
@@ -71,7 +88,55 @@
           },
           "date": "2021-10-28T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2757,
+                    "gender": "m",
+                    "id": 4051,
+                    "name": "de Courten Thomas",
+                    "officialDenomination": "de Courten"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion V",
+                    "code": "V",
+                    "id": 4,
+                    "name": "Fraktion der Schweizerischen Volkspartei"
+                  },
+                  "language": "de"
+                },
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3088,
+                    "gender": "m",
+                    "id": 4193,
+                    "name": "Nantermod Philippe",
+                    "officialDenomination": "Nantermod"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5112"
+            }
           ]
         },
         {
@@ -100,13 +165,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EFD",
+          "id": 7,
+          "name": "Finanzdepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1635372000000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1647298800000+0100)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -149,10 +224,11 @@
   ],
   "shortId": "21.4339",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -161,6 +237,13 @@
         "name": "Begründung"
       },
       "value": "<p>Für einen Grossteil der Bevölkerung stellt der Erwerb von Wohneigentum ein wichtiges Ziel dar. Jedes Jahr machen Tausende Personen von ihrem Recht Gebrauch, bei ihrer Vorsorgeeinrichtung Gelder für den Erwerb von Wohneigentum zu beziehen. Dieser verantwortungsbewusste Schritt erfolgt in der Regel im Alter von 35 bis 45 Jahren und ist zu unterstützen.</p><p>2012 änderte die FINMA die Vorschriften für Vorbezüge aus der zweiten Säule und erschwerte so den Liegenschaftserwerb. Seither gilt, dass die Hälfte der Eigenmittel vom künftigen Eigentümer bzw. der künftigen Eigentümerin eingebracht werden muss und die andere Hälfte aus der zweiten Säule entnommen werden kann.</p><p>Damit wurde der Kauf von Wohneigentum erschwert. Darüber hinaus wurde das Ziel dieser Massnahme, nämlich die Stabilisierung des Immobilienmarktes, nicht erreicht, da die Vorsorgeeinrichtungen in den letzten zehn Jahren ihre Investitionen in Schweizer Immobilien deutlich erhöht haben. Paradoxerweise werden diese Investitionen mit dem Kapital der Versicherten finanziert.</p><p>Unter diesen Umständen wäre eine Rückkehr zur Situation, die vor 2013 galt, angezeigt. Der geforderte Mindestbetrag an Eigenmitteln für den Wohneigentumserwerb muss wieder vollumfänglich mit Geldern aus der zweiten Säule gedeckt werden können. Es existieren Instrumente - Mindestbetrag an Eigenmitteln, Amortisierung mit Fristen, Anpassung der Berechnung der theoretischen Rückzahlungsfähigkeit -, um allfällige Bedenken bezüglich der Zahlungsfähigkeit der künftigen Eigentümerinnen und Eigentümer zu zerstreuen. Mit der Begrenzung des Kapitalbezugs aus der zweiten Säule wurde das angestrebte Ziel hingegen verfehlt und ihr einziger Effekt ist, dass der Erwerb von Wohneigentum einem privilegierten Teil der Bevölkerung vorbehalten ist.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Die Schweizerische Bankiervereinigung hat 2012 vor dem Hintergrund gestiegener Risiken am Hypothekarmarkt die von der FINMA als Mindeststandard anerkannten Richtlinien zur Kreditvergabe revidiert mit dem Ziel, die Kreditqualität zu verbessern und damit die Resilienz der Banken zu stärken. Ein Element dieser nachfrageseitigen Massnahmen ist die Festlegung eines Mindestanteils an eigenen Mitteln des Kreditnehmers, die nicht aus dem Guthaben der 2. Säule stammen dürfen.</p><p>Der Bundesrat teilt die Einschätzung, dass der Erwerb von Wohneigentum für viele Haushalte schwieriger geworden ist. Dies zeigt auch der Monitor \"Personenfreizügigkeit und Wohnungsmarkt\" 2021 des Bundesamtes für Wohnungswesen. Der Hauptgrund dafür ist, dass sich die Preise von Immobilien in den letzten Jahrzehnten stark erhöht haben. Dieser Anstieg geht sowohl auf Faktoren auf der Nachfrage- wie auf der Angebotsseite zurück. Zu den nachfrageseitigen Faktoren zählen u.a. das allgemeine Wachstum der Wirtschaft und der Einkommen, das Bevölkerungswachstum sowie das historisch tiefe Zinsniveau. Angebotsseitig spielen namentlich regulatorische (etwa die Bau- und Zonenordnungen, das Raumplanungsgesetz, Bauvorschriften etc.) sowie geografische Einschränkungen eine Rolle. Entgegen dem Ziel der Motion würde eine Aufhebung des Mindestanteils eigener Mittel ausserhalb der 2. Säule den Nachfrageüberhang nach Eigenheimen weiter verstärken. In der Folge erhöhten sich die Preise von Wohneigentum noch weiter, was den Kauf von Wohneigentum wiederum erschwerte.</p><p>Neben diesen unerwünschten Auswirkungen würden zudem die Risiken für Vorsorgenehmer sowie für kreditgebende Institute langfristig erhöht. Gemäss Art. 30d Abs. 1 BVG muss der Versicherte den aus der 2. Säule bezogenen Betrag, insbesondere wenn das Wohneigentum veräussert wird, zurückzahlen. Muss die Immobilie z.B. aufgrund eines Zinsanstiegs, einer Scheidung oder eines Arbeitsplatzverlustes zum Zeitpunkt einer Wertminderung veräussert werden, ist diese Wertminderung durch den Kreditnehmer zu tragen. Der heute geforderte Mindestanteil eigener Mitteln ausserhalb der 2. Säule stellt als Puffer sicher, dass eine gewisse Wertminderung der Immobilie aufgefangen werden kann. Stünden für diese Verlustabsorption ausschliesslich Guthaben aus der 2. Säule zur Verfügung, könnte der Versicherte gegebenenfalls seiner Rückzahlungspflicht gemäss BVG nicht nachkommen. Dieses Risiko gilt es mit dem Mindestanteil an Eigenmitteln ausserhalb der 2. Säule zu adressieren.</p><p>Der Bundesrat verfolgt die Entwicklungen am Schweizer Immobilienmarkt aufmerksam. Er erachtet es im derzeitigen makroökonomischen Umfeld nicht als angezeigt, die bestehenden Kreditvergabestandards zu lockern und damit das Preiswachstum zusätzlich zu begünstigen.</p>"
     },
     {
       "type": {
@@ -174,8 +257,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Den Erwerb von Wohneigentum mit Hilfe der 2. Säule erleichtern"
+      "value": "Den Erwerb von Wohneigentum mit Hilfe der zweiten Säule erleichtern"
     }
   ],
-  "title": "Den Erwerb von Wohneigentum mit Hilfe der 2. Säule erleichtern"
+  "title": "Den Erwerb von Wohneigentum mit Hilfe der zweiten Säule erleichtern"
 }

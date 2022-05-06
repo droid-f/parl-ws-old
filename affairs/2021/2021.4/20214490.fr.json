@@ -1,6 +1,6 @@
 {
   "id": 20214490,
-  "updated": "2021-12-23T15:20:25Z",
+  "updated": "2022-03-18T10:50:35Z",
   "additionalIndexing": "2841;36;04;34;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "ChF",
+          "id": 10,
+          "name": "Chancellerie fédérale",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639609200000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1647558000000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -332,10 +359,11 @@
   ],
   "shortId": "21.4490",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -344,6 +372,13 @@
         "name": "Développement"
       },
       "value": "<p>La crise du coronavirus nous a clairement montré que la Confédération, et en particulier l'OFSP, doivent agir dans le secteur du numérique. Il est évident que la Confédération ne peut pas réaliser elle-même tous les projets, ne serait-ce que par manque de savoir-faire dans le domaine. C'est pourquoi il faut créer une base juridique afin qu'elle puisse aider des projets de numérisation qui apportent une réelle valeur ajoutée à la société, à la science et à la place économique suisse.</p><p>Les projets à soutenir ne doivent pas concurrencer l'économie. Ils relèveront par exemple de l'éducation, de la formation continue, de la cybersécurité, de la sensibilisation au numérique, de l'intelligence artificielle, de l'interopérabilité, de l'utilisation multiple des données, des données ouvertes, etc.</p><p>Dans le domaine du numérique, la Suisse occupe régulièrement une bonne place à l'international, tout en restant en milieu de classement. Les deux EPF jouent dans la cours des grands et de nombreuses entreprises s'engagent dans les domaines numériques d'avenir. L'exemple du Danemark montre que les partenariats publics-privés bénéficient de la confiance d'une large partie de la population et renforce la place économique. Les projets sont réalisés plus rapidement, leur portée est plus importante et il est possible de mieux se positionner sur le plan international.</p><p>Or, il n'existe à ce jour aucune base juridique permettant à la Confédération de participer à des projets privés sélectionnés et de les pousser en avant, comme c'est généralement le cas dans le cadre du développement, de l'innovation et de la promotion économique. Ainsi, de nombreuses bonnes initiatives d'organisations privées se trouvent retardées ou ne sont pas réalisées. Je prie donc le Conseil fédéral de créer au plus vite une base juridique permettant d'apporter un soutien financier à des projets privés, sous son patronage ou sous une forme similaire.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral est disposé à créer une base juridique visant à soutenir des projets numériques phares d'intérêt public. Lors de la mise en oeuvre, il veillera à ce que le nouveau type de subvention n'ait pas un champ d'application trop large et à ce qu'il ne fasse pas double emploi avec des instruments d'encouragement existants, en particulier dans le domaine de la promotion économique, de la formation, de la recherche et de l'innovation. Les travaux consisteront notamment à vérifier si les exigences constitutionnelles sont remplies.</p>"
     },
     {
       "type": {
@@ -357,8 +392,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Lancer des projets numériques phares d’intérêt public pour faire avancer la Suisse"
+      "value": "Lancer des projets numériques phares d'intérêt public pour faire avancer la Suisse"
     }
   ],
-  "title": "Lancer des projets numériques phares d’intérêt public pour faire avancer la Suisse"
+  "title": "Lancer des projets numériques phares d'intérêt public pour faire avancer la Suisse"
 }

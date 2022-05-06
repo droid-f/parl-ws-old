@@ -1,6 +1,6 @@
 {
   "id": 20214195,
-  "updated": "2021-10-08T08:47:46Z",
+  "updated": "2022-03-15T10:22:01Z",
   "additionalIndexing": "12;04;2831",
   "affairType": {
     "abbreviation": "Mo.",
@@ -16,7 +16,7 @@
       "officialDenomination": "Andrey"
     },
     "faction": {
-      "abbreviation": "G",
+      "abbreviation": "Gruppo G",
       "id": 6,
       "name": "Gruppo dei Verdi"
     },
@@ -40,10 +40,42 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Opposizione"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2021-12-17T00:00:00Z",
+            "text": "Controverso. Discussione rinviata",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-03-15T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2021-11-17T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -68,6 +100,11 @@
           "date": "/Date(1632952800000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1647298800000+0100)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -211,6 +248,16 @@
     },
     {
       "councillor": {
+        "code": 3210,
+        "gender": "f",
+        "id": 4314,
+        "name": "Heimgartner Stefanie",
+        "officialDenomination": "Heimgartner"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
         "code": 3137,
         "gender": "m",
         "id": 4245,
@@ -218,7 +265,7 @@
         "officialDenomination": "Andrey"
       },
       "faction": {
-        "abbreviation": "G",
+        "abbreviation": "Gruppo G",
         "id": 6,
         "name": "Gruppo dei Verdi"
       },
@@ -227,19 +274,34 @@
   ],
   "shortId": "21.4195",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Seguendo l'esempio degli Stati Uniti e dei Paesi Bassi, anche in Svizzera le fotografie realizzate su incarico della Confederazione dovrebbero essere liberamente accesssibili al pubblico. Gli Stati Uniti, per esempio, mettono a disposizione di tutti le immagini realizzate nello spazio. </p><p>In Svizzera ad oggi vi è una strana situazione, per cui ad esempio le foto di personalità svizzere diventano liberamente accessibili solo grazie ai contatti di queste ultime con le autorità statunitensi. Secondo la risposta del Consiglio federale all'interpellanza Weibel (19.3247), il Consiglio federale è di principio disposto a permettere la libera utilizzazione delle fotografie della Confederazione. Inoltre, secondo la risposta del Consiglio federale all'interrogazione Glättli (19.1053), è prevista la pubblicazione di tali immagini nell'elenco del portale svizzero Open Government Data (opendata.swiss).</p><p>Dopo l'introduzione del principio di trasparenza per gli atti dell'Amministrazione federale e la messa a disposizione di Open </p><p>Government Data, ora si deve procedere verso una maggiore libertà e facilità d'accesso anche nell'ambito delle immagini.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di adottare misure di propria iniziativa o, se necessario, di presentare una revisione normativa affinché le immagini di proprietà della Confederazione siano più accessibili al pubblico. Questa revisione comprende in particolare i seguenti elementi. </p><p>1. Le fotografie in possesso della Confederazione, per le quali la protezione del diritto d'autore è scaduta o non è mai stata applicabile, vengono digitalizzate e messe gratuitamente a disposizione del pubblico, a condizione che il dispendio di risorse non sia sproporzionato. </p><p>2. Le fotografie scattate da collaboratori della Confederazione nell'ambito del lavoro sono messe gratuitamente a disposizione del pubblico (Public Domain), a condizione che il dispendio di risorse non sia sproporzionato. In alternativa, si può usare una licenza libera, che richiede l'indicazione della fonte ma che non limita l'uso dell'immagine a fini non commerciali. </p><p>3. Va elaborata una base legale che autorizzerà l'uso di regola senza restrizioni delle fotografie commissionate dalla Confederazione. </p><p>4. Le fotografie in possesso della Confederazione dovranno essere elencate nel portale svizzero Open Government Data (opendata.swiss).</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Libero uso di immagini della Confederazione sul portale Open Government Data"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Libero uso di immagini della Confederazione sul portale Open Government Data"
 }

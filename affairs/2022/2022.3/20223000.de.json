@@ -1,6 +1,6 @@
 {
   "id": 20223000,
-  "updated": "2022-01-13T11:20:47Z",
+  "updated": "2022-03-17T13:05:04Z",
   "additionalIndexing": "48;08",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-03-17T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -90,7 +107,7 @@
                   "faction": {
                     "abbreviation": "Fraktion M-E",
                     "code": "M-E",
-                    "id": 139,
+                    "id": 3,
                     "name": "Die Mitte-Fraktion. Die Mitte. EVP."
                   },
                   "language": "de"
@@ -126,13 +143,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1641855600000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1647471600000+0100)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -175,10 +202,11 @@
   ],
   "shortId": "22.3000",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -187,6 +215,13 @@
         "name": "Begründung"
       },
       "value": "<p>Die Verlagerung des Transit-Gütertransports auf die Schiene ist auf effiziente und leistungsfähige Zufahrtslinien angewiesen. Nur so kann das gesetzlich festgelegte Verlagerungsziel von max. 650'000 LKW-Fahrten erreicht werden.</p><p>Nach Inbetriebnahme des 4m-Korridors präsentiert sich die Situation für Züge des Kombinierten Verkehrs (KV) wie folgt:</p><p>- 5 Zufahrtsgleise nach Italien: Chiasso (2), Luino (1), Domodossola (2)</p><p>- 4 Gleise durch die Schweiz, je 2 via Gotthard und Lötschberg/Simplon</p><p>- NUR 2 Zufahrtsgleise nördlich der Schweiz Karlsruhe-Basel bis mindestens 2042</p><p>- 4-6 Zufahrtsgleise nördlich von Karlsruhe bis Nordrhein-Westfalen und Rotterdam</p><p>Verkehrsprognosen rechnen mit einem Wachstum der alpenquerenden Verkehre von 2% pro Jahr, was in 20 Jahren 48% mehr Alpentransit bedeutet. Ohne einen raschen Ausbau dieses Nadelöhrs wird ein grosser Teil dieses Mehrverkehrs die Alpen im Strassentransport queren müssen.</p><p>Der Ausbau der 71km langen bestehenden Flachbahnstrecke Wörth-Lauterbourg-Strasbourg entlang des Rheins kann vor 2030 realisiert werden. Die historische Gotthard-Zulaufstrecke wurde doppelspurig gebaut und weist heute eine sehr geringe Verkehrsdichte auf. Sie lässt sich in wenigen Jahren und mit vertretbarem Aufwand elektrifizieren und den geltenden TEN-T Zugsparametern anpassen. Kostenschätzungen haben ergeben, dass mit Investitionen von CHF 178 Mio. die Tageskapazität um 30 Züge und mit einem weiteren Ausbau von CHF 338 Mio. um total 60 Züge/Tag erhöht werden kann.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat ist der Ansicht, dass die linksrheinische Zulaufstrecke Wörth - Strasbourg die Redundanz im Zulauf zur NEAT verbessern kann. Daher sollen Verhandlungen mit den Nachbarstaaten aufgenommen werden.</p>"
     },
     {
       "type": {
@@ -200,8 +235,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Weiterführung der erfolgreichen Verlagerungspolitik und Gewährleistung der nationalen Versorgungssicherheit dank Ausbau des linksrheinischen NEAT-Zubringers Wörth-Strasbourg"
+      "value": "Weiterführung der erfolgreichen Verlagerungspolitik und Gewährleistung der nationalen Versorgungssicherheit dank Ausbau des linksrheinischen Neat-Zubringers Wörth-Strassburg"
     }
   ],
-  "title": "Weiterführung der erfolgreichen Verlagerungspolitik und Gewährleistung der nationalen Versorgungssicherheit dank Ausbau des linksrheinischen NEAT-Zubringers Wörth-Strasbourg"
+  "title": "Weiterführung der erfolgreichen Verlagerungspolitik und Gewährleistung der nationalen Versorgungssicherheit dank Ausbau des linksrheinischen Neat-Zubringers Wörth-Strassburg"
 }

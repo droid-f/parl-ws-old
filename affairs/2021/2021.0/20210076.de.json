@@ -1,6 +1,6 @@
 {
   "id": 20210076,
-  "updated": "2022-01-31T08:35:11Z",
+  "updated": "2022-04-28T11:13:39Z",
   "additionalIndexing": "08;2836;44",
   "affairType": {
     "abbreviation": "BRG",
@@ -108,6 +108,11 @@
           "date": "/Date(1637708400000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1646866800000+0100)/",
+          "id": 2,
+          "name": "Behandelt vom Nationalrat"
         }
       ],
       "texts": [
@@ -123,7 +128,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-03-10T00:00:00Z",
+            "text": "Beschluss gemäss Entwurf",
+            "type": 62
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -221,7 +240,33 @@
           },
           "date": "2021-11-12T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2632,
+                    "gender": "m",
+                    "id": 1120,
+                    "name": "Sommaruga Carlo",
+                    "officialDenomination": "Sommaruga Carlo"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion S",
+                    "code": "S",
+                    "id": 2,
+                    "name": "Sozialdemokratische Fraktion"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5115"
+            }
           ]
         }
       ],
@@ -260,6 +305,11 @@
           "date": "/Date(1637708400000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1646866800000+0100)/",
+          "id": 2,
+          "name": "Behandelt vom Nationalrat"
         }
       ],
       "texts": [
@@ -291,8 +341,8 @@
   ],
   "shortId": "21.076",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 2,
+    "name": "Behandelt vom Nationalrat",
     "doneKey": "0",
     "newKey": 0
   },

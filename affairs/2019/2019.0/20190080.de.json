@@ -1,6 +1,6 @@
 {
   "id": 20190080,
-  "updated": "2022-01-31T08:04:10Z",
+  "updated": "2022-03-31T07:51:38Z",
   "additionalIndexing": "2836",
   "affairType": {
     "abbreviation": "BRG",
@@ -113,6 +113,11 @@
           "date": "/Date(1623621600000+0200)/",
           "id": 3,
           "name": "Behandelt vom Ständerat"
+        },
+        {
+          "date": "/Date(1647471600000+0100)/",
+          "id": 4,
+          "name": "Von beiden Räten behandelt"
         }
       ],
       "texts": [
@@ -142,6 +147,36 @@
             "date": "2021-06-14T00:00:00Z",
             "text": "Beschluss abweichend vom Entwurf",
             "type": 52
+          },
+          {
+            "category": {
+              "id": 8,
+              "name": "Deskription"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-03-07T00:00:00Z",
+            "text": "Beginn der Debatte",
+            "type": 91
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-03-17T00:00:00Z",
+            "text": "Abweichung",
+            "type": 37
           }
         ]
       },
@@ -206,9 +241,46 @@
                 }
               ],
               "sessionId": "5113"
+            },
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2796,
+                    "gender": "f",
+                    "id": 4090,
+                    "name": "Amaudruz Céline",
+                    "officialDenomination": "Amaudruz"
+                  },
+                  "language": "fr"
+                },
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3103,
+                    "gender": "f",
+                    "id": 4202,
+                    "name": "Sauter Regine",
+                    "officialDenomination": "Sauter"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5115"
             }
           ],
-          "treatmentCategory": "IIIa/IV"
+          "treatmentCategory": "IIIb/IV"
         },
         {
           "committee": {
@@ -248,6 +320,27 @@
                 }
               ],
               "sessionId": "5110"
+            },
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3107,
+                    "gender": "m",
+                    "id": 4206,
+                    "name": "Ettlin Erich",
+                    "officialDenomination": "Ettlin Erich"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5115"
             }
           ]
         }
@@ -292,6 +385,11 @@
           "date": "/Date(1623621600000+0200)/",
           "id": 3,
           "name": "Behandelt vom Ständerat"
+        },
+        {
+          "date": "/Date(1647471600000+0100)/",
+          "id": 4,
+          "name": "Von beiden Räten behandelt"
         }
       ],
       "texts": [
@@ -323,8 +421,8 @@
   ],
   "shortId": "19.080",
   "state": {
-    "id": 3,
-    "name": "Behandelt vom Ständerat",
+    "id": 4,
+    "name": "Von beiden Räten behandelt",
     "doneKey": "0",
     "newKey": 0
   },

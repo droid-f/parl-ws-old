@@ -1,6 +1,6 @@
 {
   "id": 20214340,
-  "updated": "2021-11-01T11:09:55Z",
+  "updated": "2022-02-28T19:17:28Z",
   "additionalIndexing": "04;2836",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-02-28T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2021-11-24T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -88,7 +105,7 @@
                     "officialDenomination": "Weichelt"
                   },
                   "faction": {
-                    "abbreviation": "G",
+                    "abbreviation": "Fraktion G",
                     "code": "G",
                     "id": 6,
                     "name": "Grüne Fraktion"
@@ -126,13 +143,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1635458400000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1646002800000+0100)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -175,12 +202,20 @@
   ],
   "shortId": "21.4340",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat ist aus den in der Botschaft zur Modernisierung der Aufsicht dargelegten Gründen der Ansicht, dass eine umfassende Anpassung der Organisationsstruktur der ZAS nicht gerechtfertigt ist. Dennoch hat er sich im Rahmen der Fragestunde der Sommersession 2021 bereit erklärt, den neuen Vorschlag der Eidgenössischen Finanzkontrolle in deren Nachprüfbericht vom 10. Mai 2021, die ZAS als Ganzes mit compenswiss zusammenzulegen, in seine weiteren Überlegungen zur Entwicklung der AHV einfliessen zu lassen.</p>"
+    },
     {
       "type": {
         "id": 5,

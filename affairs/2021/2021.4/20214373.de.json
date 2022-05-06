@@ -1,6 +1,6 @@
 {
   "id": 20214373,
-  "updated": "2021-12-03T10:56:12Z",
+  "updated": "2022-03-18T10:49:58Z",
   "additionalIndexing": "2841;28;36;1236",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,10 +41,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-23T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -57,13 +74,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638399600000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1647558000000+0100)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -124,10 +151,11 @@
   ],
   "shortId": "21.4373",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -135,7 +163,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Das KVG sieht vor, die Wirksamkeit, Zweckmässigkeit und Wirtschaftlichkeit der Gesundheitsleistungen periodisch zu überprüfen (Art. 32, Abs. 2). Aufgrund der zunehmenden Komplexität und Fragementierung in der Gesundheitsversorgung sind verschiedene Aufgaben heute kaum zu bewerkstelligen (z. B. Aufsichtsfunktion, Qualitätsentwicklung, Forschung und Innovation).</p><p>In der Umsetzung der Master-PID sind folgende Themengebiete mitzuberücksichtigen:</p><p>1. Transparenz über Qualität und Wirtschaftlichkeit eines institutionsübergreifenden Behandlungspfads soll ermöglicht werden</p><p>2. Schnittstellen/Synergien mit bestehenden Systemen sind unter klaren Rahmenbedingungen zu ermöglichen (EPD, SPHN, etc.). Dabei ist darauf zu achten, dass die mit der Master-PID codierten Daten nicht automatisch, sondern nur mit Einwilligung des Betroffenen mit Daten aus anderen Quellen abgeglichen oder zusammengeführt werden können.</p><p>3. Aufbau eines digitalen Registers mit offenem Zugang und API (u. a. zwecks Überprüfung der Wirksamkeit, Zweckmässigkeit und Wirtschaftlichkeit, Forschungszwecke, Evaluation von innovativen Versorgungsprojekten, etc.)</p><p>4. Schutzkonzept zur pseudonymisierten, institutionsübergeifenden Datenverarbeitung</p><p>5. Zugang zu anonymisierten Daten für das Bundesamt für Statistik (BFS) unter Wahrung des Statistikgeheimnisses und strenger Berücksichtigung der Privatsphäre, z.B. mithilfe der Anwendung von Differential Privacy </p><p>6. Vermeidung von unbeabsichtigten Folgen der Transparenz (z. B. Diskriminierung, Patientenselektion, etc.)</p><p>7. Möglichkeit zur Neuvergabe von Master-Patienten-Nummer, um Datenmissbrauch zu verhindern</p><p>8. Verpflichtung der Datennutzer (also aller welche mit den Daten Wirksamkeit, Zweckmässigkeit etc prüfen), ihre Ergebnisse transparent und nachvollziehbar öffentlich zur Verfügung zu stellen (insb. soll der Datenzugang für Hochschulen und Forschungsinstitute sichergestellt sein).</p>"
+      "value": "<p>Das KVG sieht vor, die Wirksamkeit, Zweckmässigkeit und Wirtschaftlichkeit der Gesundheitsleistungen periodisch zu überprüfen (Art. 32, Abs. 2). Aufgrund der zunehmenden Komplexität und Fragementierung in der Gesundheitsversorgung sind verschiedene Aufgaben heute kaum zu bewerkstelligen (z. B. Aufsichtsfunktion, Qualitätsentwicklung, Forschung und Innovation).</p><p>In der Umsetzung des eindeutigen Patienten-Identifikators (Master-PID) sind folgende Themengebiete mitzuberücksichtigen:</p><p>1. Transparenz über Qualität und Wirtschaftlichkeit eines institutionsübergreifenden Behandlungspfads soll ermöglicht werden</p><p>2. Schnittstellen/Synergien mit bestehenden Systemen sind unter klaren Rahmenbedingungen zu ermöglichen (EPD, SPHN, etc.). Dabei ist darauf zu achten, dass die mit der Master-PID codierten Daten nicht automatisch, sondern nur mit Einwilligung des Betroffenen mit Daten aus anderen Quellen abgeglichen oder zusammengeführt werden können.</p><p>3. Aufbau eines digitalen Registers mit offenem Zugang und API (u. a. zwecks Überprüfung der Wirksamkeit, Zweckmässigkeit und Wirtschaftlichkeit, Forschungszwecke, Evaluation von innovativen Versorgungsprojekten, etc.)</p><p>4. Schutzkonzept zur pseudonymisierten, institutionsübergeifenden Datenverarbeitung</p><p>5. Zugang zu anonymisierten Daten für das Bundesamt für Statistik (BFS) unter Wahrung des Statistikgeheimnisses und strenger Berücksichtigung der Privatsphäre, z.B. mithilfe der Anwendung von Differential Privacy </p><p>6. Vermeidung von unbeabsichtigten Folgen der Transparenz (z. B. Diskriminierung, Patientenselektion, etc.)</p><p>7. Möglichkeit zur Neuvergabe von Master-Patienten-Nummer, um Datenmissbrauch zu verhindern</p><p>8. Verpflichtung der Datennutzer (also aller welche mit den Daten Wirksamkeit, Zweckmässigkeit etc prüfen), ihre Ergebnisse transparent und nachvollziehbar öffentlich zur Verfügung zu stellen (insb. soll der Datenzugang für Hochschulen und Forschungsinstitute sichergestellt sein).</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat unterstützt das von der Motion verfolgte Ziel. Die Notwendigkeit eines eindeutigen digitalen Patienten-Identifikators wird auch im Bericht \"Verbesserungen des Datenmanagements im Gesundheitsbereich\" postuliert. Diesen Bericht hat der Bundesrat am 12. Januar 2022 zur Kenntnis genommen und gleichzeitig das Eidgenössische Departement des Innern (Bundesamt für Gesundheit und Bundesamt für Statistik) gemeinsam mit dem Koordinierter Sanitätsdienst und der Bundeskanzlei (digitale Transformation und IKT-Lenkung) beauftragt, ein Identifikatoren-Konzept der Gesundheitsregister zu erarbeiten. Darauf gestützt kann anschliessend die Umsetzung der Motion in Angriff genommen werden.</p><p>Die Sicherstellung einer hinreichenden und effizienten Gesundheitsversorgung liegt zwar grundsätzlich in der Kompetenz der Kantone. Der Bund hat im Bereich der obligatorischen Krankenpflegeversicherung eine umfassende Regelungskompetenz. Damit verfügt er nicht über die Kompetenz, um alle Anliegen der Motion umzusetzen. Der Bundesrat ist jedoch bereit, die Einführung einer solchen \"Master-Patient-Nummer\" im Bereich der obligatorischen Krankenpflegeversicherung zu fördern. Dabei könnte vorgesehen werden, dass diese Nummer, analog der AHV-Nummer oder der Patientenidentifikationsnummer im Bereich des elektronischen Patientendossiers, in Bereichen, deren Regelung in die Zuständigkeit der Kantone fällt, eingesetzt werden kann, sofern die dafür notwendigen rechtlichen Grundlagen auf kantonaler Ebene geschaffen werden.</p>"
     },
     {
       "type": {
@@ -149,8 +184,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Einführung eines eindeutigen Patienten-Identifikators (Master-PID)"
+      "value": "Einführung eines eindeutigen Patientenidentifikators"
     }
   ],
-  "title": "Einführung eines eindeutigen Patienten-Identifikators (Master-PID)"
+  "title": "Einführung eines eindeutigen Patientenidentifikators"
 }

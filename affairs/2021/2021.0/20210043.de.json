@@ -1,6 +1,6 @@
 {
   "id": 20210043,
-  "updated": "2022-01-31T08:26:48Z",
+  "updated": "2022-03-23T07:22:07Z",
   "additionalIndexing": "2841;34;15",
   "affairType": {
     "abbreviation": "BRG",
@@ -108,6 +108,11 @@
           "date": "/Date(1621375200000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1646607600000+0100)/",
+          "id": 2,
+          "name": "Behandelt vom Nationalrat"
         }
       ],
       "texts": [
@@ -123,7 +128,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-03-07T00:00:00Z",
+            "text": "Beschluss abweichend vom Entwurf",
+            "type": 52
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -153,12 +172,55 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3166,
+                    "gender": "m",
+                    "id": 4274,
+                    "name": "Mäder Jörg",
+                    "officialDenomination": "Mäder"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion GL",
+                    "code": "GL",
+                    "id": 137,
+                    "name": "Grünliberale Fraktion"
+                  },
+                  "language": "de"
+                },
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3121,
+                    "gender": "m",
+                    "id": 4220,
+                    "name": "Roduit Benjamin",
+                    "officialDenomination": "Roduit"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "fr"
+                }
               ],
               "sessionId": "5113"
             }
           ],
-          "treatmentCategory": "IIIa/IV"
+          "treatmentCategory": "IIIb/IV"
         },
         {
           "committee": {
@@ -217,6 +279,11 @@
           "date": "/Date(1621375200000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1646607600000+0100)/",
+          "id": 2,
+          "name": "Behandelt vom Nationalrat"
         }
       ],
       "texts": [
@@ -248,8 +315,8 @@
   ],
   "shortId": "21.043",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 2,
+    "name": "Behandelt vom Nationalrat",
     "doneKey": "0",
     "newKey": 0
   },

@@ -1,6 +1,6 @@
 {
   "id": 20223005,
-  "updated": "2022-01-18T10:41:45Z",
+  "updated": "2022-04-05T17:58:00Z",
   "additionalIndexing": "2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-03-17T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-23T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -137,6 +154,11 @@
           "date": "/Date(1642114800000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1647471600000+0100)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -155,7 +177,11 @@
     }
   ],
   "relatedAffairs": [
-
+    {
+      "id": 20223018,
+      "priorityCode": "S",
+      "shortId": "22.3018"
+    }
   ],
   "roles": [
     {
@@ -179,19 +205,41 @@
   ],
   "shortId": "22.3005",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Secondo le stime, in Svizzera vivono dalle 100 000 alle 200 000 persone il cui sistema immunitario è indebolito a causa di una malattia o di una terapia (chemioterapia, trattamenti immunosoppressori, dialisi ecc.). Questi pazienti detti immunodepressi sono ad esempio affetti da leucemia, fibrosi cistica, sclerosi multipla, artrite reumatoide o hanno subito il trapianto di un organo.</p><p>Nonostante i vaccini siano molto efficaci, una parte di queste persone non sviluppa le difese immunitarie sufficienti contro la COVID-19, neanche dopo due o tre dosi. Hanno quindi un doppio problema: non possono proteggersi da un'infezione e, tenuto conto della loro patologia di base, corrono un rischio maggiore di un decorso grave in caso di infezione.</p><p>Disporre di una profilassi efficace contro l'infezione da coronavirus è quindi cruciale per queste persone che non sviluppano una protezione sufficiente nonostante più dosi di vaccino. Al momento, a fronte dell'elevato numero di infezioni, a queste persone e a chi le circonda non resta che proteggersi rispettando strettamente le misure igieniche. Ciò comporta spesso una forte riduzione dei loro contatti sociali e può condurre a un isolamento sociale particolarmente marcato. </p><p>La trasmissione \"Echo der Zeit\" del 10 dicembre 2021 dell'emittente radiofonica SRF 1 ha riferito che un medicamento che può essere utilizzato da queste persone a titolo preventivo (quindi prima che siano infettate) beneficia di un'autorizzazione d'emergenza negli Stati Uniti dall'inizio di dicembre 2021. Somministrato in una sola dose, questo medicamento fornisce una buona protezione per almeno sei mesi. Secondo gli studi riduce il rischio di infezione da coronavirus del 77 per cento circa. Inoltre, le persone che l'hanno ricevuto durante questi studi non hanno sviluppato una forma grave o fatale della malattia. In Francia, l'utilizzo di questo medicamento per le persone immunodepresse è raccomandato ufficialmente dal Consiglio di orientamento della strategia vaccinale.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale sostiene l'accesso a medicamenti suscettibili di essere utilizzati a titolo preventivo. Terapie a base di anticorpi monoclonali e antivirali in corso di sviluppo possono permettere una profilassi della COVID-19 di cui potrebbero beneficiare le persone immunodeficienti ad alto rischio di decorso grave che non hanno sviluppato difese immunitarie sufficienti dopo la vaccinazione o per cui la vaccinazione è controindicata.</p><p>Per questo motivo il Consiglio federale è disposto ad acquistarle e a renderle accessibili. Considerate le particolarità di questi medicamenti, ritiene remota la possibilità di acquistarli in modo centralizzato, ma vaglierà l'opportunità di concordare una garanzia di acquisto con i fabbricanti affinché i medicamenti siano disponibili rapidamente. Il Consiglio federale propone di accogliere la presente mozione e la mozione Herzog Verena 21.4632 di ugual tenore.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di acquistare e rendere al più presto accessibili in Svizzera le terapie di profilassi alle persone il cui sistema immunitario è indebolito da un cancro o da una malattia cronica e che non sviluppano quindi una risposta immunitaria nonostante la vaccinazione.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Migliore protezione contro il COVID-19 per le persone con un sistema immunitario indebolito a causa del cancro e di malattie croniche"
+      "value": "Migliore protezione contro la Covid-19 per le persone con un sistema immunitario indebolito a causa di un cancro o di una malattia cronica"
     }
   ],
-  "title": "Migliore protezione contro il COVID-19 per le persone con un sistema immunitario indebolito a causa del cancro e di malattie croniche"
+  "title": "Migliore protezione contro la Covid-19 per le persone con un sistema immunitario indebolito a causa di un cancro o di una malattia cronica"
 }

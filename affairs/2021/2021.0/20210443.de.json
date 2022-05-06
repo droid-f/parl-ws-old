@@ -1,6 +1,6 @@
 {
   "id": 20210443,
-  "updated": "2022-02-02T08:07:24Z",
+  "updated": "2022-04-28T11:20:35Z",
   "additionalIndexing": "04;1236;44",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -74,31 +74,6 @@
               "name": "Normal"
             },
             "committee": {
-              "abbreviation": "SPK-NR",
-              "id": 11,
-              "name": "Staatspolitische Kommission NR",
-              "abbreviation1": "SPK-NR",
-              "abbreviation2": "SPK",
-              "committeeNumber": 11,
-              "council": {
-                "abbreviation": "NR",
-                "id": 1,
-                "name": "Nationalrat",
-                "type": "N"
-              },
-              "typeCode": 1
-            },
-            "council": null,
-            "date": "2021-04-15T00:00:00Z",
-            "text": "Folge gegeben",
-            "type": 16
-          },
-          {
-            "category": {
-              "id": 3,
-              "name": "Normal"
-            },
-            "committee": {
               "abbreviation": "SPK-SR",
               "id": 24,
               "name": "Staatspolitische Kommission SR",
@@ -115,8 +90,8 @@
             },
             "council": null,
             "date": "2021-04-26T00:00:00Z",
-            "text": "Zustimmung",
-            "type": 3
+            "text": "Folge gegeben",
+            "type": 16
           }
         ]
       },
@@ -179,7 +154,59 @@
         }
       ],
       "references": [
-
+        {
+          "committee": {
+            "abbreviation": "SPK-NR",
+            "id": 11,
+            "name": "Staatspolitische Kommission NR",
+            "abbreviation1": "SPK-NR",
+            "abbreviation2": "SPK",
+            "committeeNumber": 11,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "/Date(1643238000000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "345",
+            "source": "BBl 2022 345",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "https://www.admin.ch/opc/de/federal-gazette/2022/345.pdf",
+            "year": "2022"
+          },
+          "type": {
+            "id": 6,
+            "name": "Bericht"
+          }
+        },
+        {
+          "date": "/Date(1644966000000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "432",
+            "source": "BBl 2022 432",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "https://www.admin.ch/opc/de/federal-gazette/2022/432.pdf",
+            "year": "2022"
+          },
+          "type": {
+            "id": 2,
+            "name": "Stellungnahme des Bundesrates"
+          }
+        }
       ],
       "relatedDepartments": [
         {
@@ -199,6 +226,11 @@
           "date": "/Date(1619388000000+0200)/",
           "id": 1,
           "name": "Folge gegeben"
+        },
+        {
+          "date": "/Date(1647385200000+0100)/",
+          "id": 2,
+          "name": "Behandelt vom Nationalrat"
         }
       ],
       "texts": [
@@ -208,7 +240,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-03-16T00:00:00Z",
+            "text": "Beschluss abweichend vom Entwurf",
+            "type": 52
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -306,7 +352,33 @@
           },
           "date": "2021-04-15T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3086,
+                    "gender": "f",
+                    "id": 4186,
+                    "name": "Mazzone Lisa",
+                    "officialDenomination": "Mazzone"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion G",
+                    "code": "G",
+                    "id": 6,
+                    "name": "Grüne Fraktion"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5115"
+            }
           ]
         }
       ],
@@ -315,11 +387,15 @@
           "date": "/Date(1643238000000+0100)/",
           "publication": {
             "isOldFormat": false,
+            "page": "346",
+            "source": "BBl 2022 346",
             "type": {
               "id": 1,
               "name": "Bundesblatt",
               "shortName": "BBl"
-            }
+            },
+            "url": "https://www.admin.ch/opc/de/federal-gazette/2022/346.pdf",
+            "year": "2022"
           },
           "title": "Bundesgesetz über den Datenschutz (Datenschutzgesetz, DSG)",
           "type": {
@@ -341,6 +417,11 @@
           "date": "/Date(1643238000000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1647385200000+0100)/",
+          "id": 2,
+          "name": "Behandelt vom Nationalrat"
         }
       ],
       "texts": [
@@ -356,7 +437,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-03-16T00:00:00Z",
+            "text": "Beschluss gemäss Entwurf",
+            "type": 62
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -414,11 +509,15 @@
           "date": "/Date(1643238000000+0100)/",
           "publication": {
             "isOldFormat": false,
+            "page": "347",
+            "source": "BBl 2022 347",
             "type": {
               "id": 1,
               "name": "Bundesblatt",
               "shortName": "BBl"
-            }
+            },
+            "url": "https://www.admin.ch/opc/de/federal-gazette/2022/347.pdf",
+            "year": "2022"
           },
           "title": "Bundesgesetz über die Informationssicherheit beim Bund (Informationssicherheitsgesetz, ISG)",
           "type": {
@@ -440,6 +539,11 @@
           "date": "/Date(1643238000000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1647385200000+0100)/",
+          "id": 2,
+          "name": "Behandelt vom Nationalrat"
         }
       ],
       "texts": [
@@ -455,7 +559,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-03-16T00:00:00Z",
+            "text": "Beschluss abweichend vom Entwurf",
+            "type": 52
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -513,11 +631,15 @@
           "date": "/Date(1643238000000+0100)/",
           "publication": {
             "isOldFormat": false,
+            "page": "348",
+            "source": "BBl 2022 348",
             "type": {
               "id": 1,
               "name": "Bundesblatt",
               "shortName": "BBl"
-            }
+            },
+            "url": "https://www.admin.ch/opc/de/federal-gazette/2022/348.pdf",
+            "year": "2022"
           },
           "title": "Verordnung der Bundesversammlung über das Arbeitsverhältnis der Leiterin oder des Leiters des Eidgenössischen Datenschutz- und Öffentlichkeits-beauftragten",
           "type": {
@@ -539,6 +661,11 @@
           "date": "/Date(1643238000000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1647385200000+0100)/",
+          "id": 2,
+          "name": "Behandelt vom Nationalrat"
         }
       ],
       "texts": [
@@ -587,8 +714,8 @@
   ],
   "shortId": "21.443",
   "state": {
-    "id": 1,
-    "name": "Folge gegeben",
+    "id": 2,
+    "name": "Behandelt vom Nationalrat",
     "doneKey": "0",
     "newKey": 0
   },

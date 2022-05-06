@@ -1,6 +1,6 @@
 {
   "id": 20152039,
-  "updated": "2019-02-18T19:03:06Z",
+  "updated": "2022-04-05T17:52:46Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -36,6 +36,21 @@
             "date": "2017-12-15T00:00:00Z",
             "text": "Non è dato seguito",
             "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2021-12-08T00:00:00Z",
+            "text": "Si prende atto della petizione nel contesto dell’oggetto 20.089 (v. art. 126 cp 2 Legge sul parlamento).",
+            "type": 0
           }
         ]
       },
@@ -120,6 +135,11 @@
           "date": "/Date(1513292400000+0100)/",
           "id": 3,
           "name": "Trattato dal Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1638918000000+0100)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -127,6 +147,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2021-12-08T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5112"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -138,7 +163,11 @@
     }
   ],
   "relatedAffairs": [
-
+    {
+      "id": 20200089,
+      "priorityCode": "N",
+      "shortId": "20.089"
+    }
   ],
   "roles": [
     {
@@ -148,9 +177,9 @@
   ],
   "shortId": "15.2039",
   "state": {
-    "id": 3,
-    "name": "Trattato dal Consiglio degli Stati",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
     "newKey": 0
   },
   "texts": [

@@ -1,6 +1,6 @@
 {
   "id": 20223008,
-  "updated": "2022-01-31T09:33:08Z",
+  "updated": "2022-03-16T12:18:43Z",
   "additionalIndexing": "48;2841;24;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-03-16T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-02-23T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
@@ -138,6 +155,11 @@
           "date": "/Date(1642978800000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1647385200000+0100)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -180,10 +202,11 @@
   ],
   "shortId": "22.3008",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -195,10 +218,17 @@
     },
     {
       "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Das Konzept zur finanziellen Stabilisierung der SBB, das der Bundesrat am 17. Dezember 2021 beschlossen hat (<a  href=\"https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen/bundesrat.msg-id-86536.html\">Medienmitteilung</a>), basiert auf einer gemeinsam von SBB, UVEK und EFD erstellten Analyse. Es beinhaltet Massnahmen im Verantwortungsbereich des Verwaltungsrats der SBB sowie Aufträge an das EFD und das UVEK für zusätzliche Massnahmen des Bundes.</p><p>Die Corona-Krise führt vor allem im Fernverkehr zu namhaften Ertragsausfällen. 2020 lagen die Erträge knapp 1 Milliarde unter dem Budget (Zahlen von 2021 liegen noch nicht vor). Gemäss der aktuellen Mittelfristplanung der SBB werden die Erträge auch in den nächsten Jahren deutlich unter den früheren Erwartungen bleiben. Mit den vom Bundesrat beschlossenen Massnahmen soll die SBB trotz dieser ungünstigen Entwicklung mittelfristig - d.h. spätestens 2030 - wieder eine finanzielle Situation wie vor der Pandemie erreichen können, d.h. die bisherige Obergrenze für die Nettoverschuldung von 6,5x EBITDA einhalten. Die bisherige Strategie der SBB kann demnach fortgesetzt werden. Die mit den Ausbauschritten 2025 und 2035 beschlossenen Projekte sollen nicht aus finanziellen Gründen zurückgestellt werden müssen.</p><p>Ein wichtiges Element des Massnahmenpakets sind die vom Verwaltungsrat der SBB beschlossenen Massnahmen zur Ertragssteigerung und zur Senkung der operativen Kosten. Zusätzlich zu den bereits eingeplanten Entlastungen soll das Ergebnis der SBB damit jährlich mindestens um 80 Millionen (ab 2024) verbessert werden. Bis 2030 ergibt dies kumuliert eine Entlastung der SBB von ca. 500 Millionen.</p><p>Darüber hinaus soll der Trassenpreis für den Fernverkehr angepasst werden (ein entsprechender Antrag der SBB wird vom BAV geprüft). Der sogenannte \"Deckungsbeitrag\" (Prozentsatz der Erlöse) soll reduziert werden. Ziel der Anpassung ist ein mindestens kostendeckender Betrieb 2022 - 2025. Ab 2026 soll die SBB bis zum Ablauf der geltenden Konzession 2029 im Fernverkehr wieder eine angemessene Rendite erwirtschaften können. Die Entlastung des Fernverkehrs erreicht 2022-2029 kumuliert eine Grössenordnung von 1,5-1,7 Milliarden. Auch in den meisten Ländern der Europäischen Union wurden die Trassengebühren zur Kompensation der pandemiebedingten Umsatzrückgänge stark reduziert; in Frankreich, Deutschland, Luxemburg und Österreich wurden sie bis Ende 2021 sogar vollständig ausgesetzt.</p><p>Zum Ausgleich der Trassenpreiszahlungen müssen die aus dem Bahninfrastrukturfonds (BIF) geleisteten Abgeltungen für den Betrieb der Bahninfrastruktur erhöht werden. Damit sich diese zusätzliche Belastung des BIF nicht negativ auf die Investitionen in den Substanzerhalt und den Ausbau der Bahninfrastruktur auswirken, werden Ausgleichsmassnahmen für den BIF erarbeitet. Mitte 2022 wird der Bundesrat entsprechende Beschlüsse fassen und eine Vernehmlassung zu notwendigen Gesetzesanpassungen unterbreiten.</p><p>Am 17. Dezember 2021 hat der Bundesrat zudem das UVEK (BAV) beauftragt, bis im Sommer 2022 die Umsetzungsplanung für den Ausbauschritt 2035 zu aktualisieren und dem Parlament dazu Bericht zu erstatten. Dieser Auftrag erfolgt weitgehend unabhängig von den Massnahmen zur finanziellen Stabilisierung der SBB. Es geht in erster Linie um eine realistischere Einschätzung des Zeitbedarfs für die Ausführungsplanung, die Genehmigungsprozesse sowie die Berücksichtigung von technischen Rahmenbedingungen zur Gewährleistung der Fahrplanstabilität. Allfällige Anpassungen am Terminplan ergeben sich allenfalls aus absehbaren sachlich begründeten Schwierigkeiten bei Bau-, Planungs- und Bewilligungsverfahren und nicht aus einem Mangel an finanziellen Mitteln im BIF.</p><p>Der Bundesrat erachtet das Anliegen der Motion bereits als erfüllt und lehnt diese deshalb ab.</p>"
+    },
+    {
+      "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Der Bundesrat wird beauftragt, einen Gesetzesentwurf zu unterbreiten, der vorsieht, dass die durch die Covid-19-Pandemie verursachten Defizite der SBB als ausserordentlich gelten und der SBB entsprechende Finanzhilfen gewährt werden, um die planungsgemässe Durchführung der Investitionen gemäss den Beschlüssen der Bundesversammlung sicherzustellen.</p>"
+      "value": "<p>Der Bundesrat wird beauftragt, einen Gesetzesentwurf zu unterbreiten, der vorsieht, dass die durch die Covid-19-Pandemie verursachten Defizite der SBB als ausserordentlich gelten und der SBB entsprechende Finanzhilfen gewährt werden, um die planungsgemässe Durchführung der Investitionen gemäss den Beschlüssen der Bundesversammlung sicherzustellen.</p><p> </p><p>Eine Minderheit der Kommission (Hegglin Peter, Ettlin Erich, Knecht, Stark, Würth) beantragt, die Motion abzulehnen.</p>"
     },
     {
       "type": {

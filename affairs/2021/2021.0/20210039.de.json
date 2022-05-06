@@ -1,6 +1,6 @@
 {
   "id": 20210039,
-  "updated": "2022-01-19T07:29:14Z",
+  "updated": "2022-04-28T10:09:36Z",
   "additionalIndexing": "48",
   "affairType": {
     "abbreviation": "BRG",
@@ -113,6 +113,11 @@
           "date": "/Date(1638226800000+0100)/",
           "id": 2,
           "name": "Behandelt vom Nationalrat"
+        },
+        {
+          "date": "/Date(1646694000000+0100)/",
+          "id": 4,
+          "name": "Von beiden Räten behandelt"
         }
       ],
       "texts": [
@@ -142,6 +147,21 @@
             "date": "2021-11-30T00:00:00Z",
             "text": "Beschluss abweichend vom Entwurf",
             "type": 52
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-03-08T00:00:00Z",
+            "text": "Abweichung",
+            "type": 37
           }
         ]
       },
@@ -206,7 +226,7 @@
                     "gender": "f",
                     "id": 4308,
                     "name": "Pasquier-Eichenberger Isabelle",
-                    "officialDenomination": "Pasquier"
+                    "officialDenomination": "Pasquier-Eichenberger"
                   },
                   "faction": {
                     "abbreviation": "Fraktion G",
@@ -218,6 +238,55 @@
                 }
               ],
               "sessionId": "5111"
+            },
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2594,
+                    "gender": "m",
+                    "id": 1122,
+                    "name": "Fluri Kurt",
+                    "officialDenomination": "Fluri"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "de"
+                },
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3204,
+                    "gender": "f",
+                    "id": 4308,
+                    "name": "Pasquier-Eichenberger Isabelle",
+                    "officialDenomination": "Pasquier-Eichenberger"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion G",
+                    "code": "G",
+                    "id": 6,
+                    "name": "Grüne Fraktion"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5115"
             }
           ],
           "treatmentCategory": "IIIb/IV"
@@ -242,9 +311,57 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3054,
+                    "gender": "m",
+                    "id": 4152,
+                    "name": "Wicki Hans",
+                    "officialDenomination": "Wicki"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5113"
+            },
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3054,
+                    "gender": "m",
+                    "id": 4152,
+                    "name": "Wicki Hans",
+                    "officialDenomination": "Wicki"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5115"
             }
           ]
         }
@@ -289,6 +406,11 @@
           "date": "/Date(1638226800000+0100)/",
           "id": 2,
           "name": "Behandelt vom Nationalrat"
+        },
+        {
+          "date": "/Date(1646694000000+0100)/",
+          "id": 4,
+          "name": "Von beiden Räten behandelt"
         }
       ],
       "texts": [
@@ -320,8 +442,8 @@
   ],
   "shortId": "21.039",
   "state": {
-    "id": 2,
-    "name": "Behandelt vom Nationalrat",
+    "id": 4,
+    "name": "Von beiden Räten behandelt",
     "doneKey": "0",
     "newKey": 0
   },

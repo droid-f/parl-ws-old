@@ -1,6 +1,6 @@
 {
   "id": 20214195,
-  "updated": "2021-10-08T08:47:46Z",
+  "updated": "2022-03-15T10:22:01Z",
   "additionalIndexing": "12;04;2831",
   "affairType": {
     "abbreviation": "Mo.",
@@ -16,7 +16,7 @@
       "officialDenomination": "Andrey"
     },
     "faction": {
-      "abbreviation": "G",
+      "abbreviation": "Groupe G",
       "id": 6,
       "name": "Groupe des VERT-E-S"
     },
@@ -40,10 +40,42 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Combattu"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-17T00:00:00Z",
+            "text": "Combattu. Discussion reportée",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-03-15T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2021-11-17T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -68,6 +100,11 @@
           "date": "/Date(1632952800000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1647298800000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -211,6 +248,16 @@
     },
     {
       "councillor": {
+        "code": 3210,
+        "gender": "f",
+        "id": 4314,
+        "name": "Heimgartner Stefanie",
+        "officialDenomination": "Heimgartner"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
         "code": 3137,
         "gender": "m",
         "id": 4245,
@@ -218,7 +265,7 @@
         "officialDenomination": "Andrey"
       },
       "faction": {
-        "abbreviation": "G",
+        "abbreviation": "Groupe G",
         "id": 6,
         "name": "Groupe des VERT-E-S"
       },
@@ -227,19 +274,34 @@
   ],
   "shortId": "21.4195",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Il faut que la Suisse suive l'exemple des Etats-Unis et des Pays-Bas et qu'elle rende les photos prises sur mandat de l'Etat accessibles à la collectivité. En effet, toute personne dans le monde qui le souhaite peut par exemple utiliser les photos de l'espace détenues par les Etats-Unis.</p><p>Par contre, en Suisse, nous avons une situation paradoxale qui fait que certaines photos de personnalités suisses ne sont librement accessibles que par l'intermédiaire de leurs contacts avec les autorités américaines. Selon sa réponse à l'interpellation Weibel (19.3247), le Conseil fédéral est en principe prêt à rendre les images de la Confédération librement accessibles. A la question Glättli (19.1053), le Conseil fédéral répond en outre qu'il prévoit de publier les images dans un répertoire OGD sur opendata.swiss.</p><p>Après l'introduction du principe de la transparence pour les dossiers de l'administration fédérale et la mise en place du portail OGD, le moment est venu de franchir une étape supplémentaire vers plus d'ouverture et un meilleur service au citoyen dans le domaine des images.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé de prendre des mesures relevant de sa propre autorité ou, si nécessaire, de modifier la loi afin que les images de la Confédération soient plus facilement accessibles à la collectivité. Il s'agit en particulier de régler les points suivants.</p><p>1. Les photos détenues par la Confédération qui ne sont pas ou plus soumises à des droits d'auteur sont numérisées et mises gratuitement à disposition de la collectivité, dès lors que le coût reste raisonnable.</p><p>2. Les photos prises par le personnel de la Confédération pendant le temps de travail sont mises à disposition de la collectivité gratuitement et libres de droits (domaine public), dès lors que le coût reste raisonnable. Une autre possibilité est d'utiliser une licence libre qui exige une mention de la source mais ne restreint pas l'utilisation non commerciale.</p><p>3. Une base légale est préparée afin d'établir une règle générale selon laquelle les photos prises sur mandat de la Confédération peuvent être utilisées librement et sans restriction.</p><p>4. Les photos détenues par la Confédération sont chargées sur le portail des données ouvertes des administrations publiques suisses (Open Government Data [OGD]) opendata.swiss.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Libre accès aux images de la Confédération sur le portail Open Government Data"
     }
   ],
-  "title": "Titre suit"
+  "title": "Libre accès aux images de la Confédération sur le portail Open Government Data"
 }

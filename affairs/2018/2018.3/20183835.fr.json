@@ -1,6 +1,6 @@
 {
   "id": 20183835,
-  "updated": "2020-09-16T17:19:30Z",
+  "updated": "2022-03-14T18:52:56Z",
   "additionalIndexing": "36;28;2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2020-09-16T00:00:00Z",
             "text": "Adoption",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-03-14T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
           }
         ]
       },
@@ -67,31 +82,6 @@
 
       ],
       "preConsultations": [
-        {
-          "committee": {
-            "abbreviation": "CSSS-CE",
-            "id": 19,
-            "name": "Commission de la sécurité sociale et de la santé publique CE",
-            "abbreviation1": "CSSS-CE",
-            "abbreviation2": "CSSS",
-            "committeeNumber": 19,
-            "council": {
-              "abbreviation": "CE",
-              "id": 2,
-              "name": "Conseil des Etats",
-              "type": "S"
-            },
-            "typeCode": 1
-          },
-          "date": "2018-09-25T00:00:00Z",
-          "registrations": [
-            {
-              "correspondents": [
-
-              ]
-            }
-          ]
-        },
         {
           "committee": {
             "abbreviation": "CSEC-CE",
@@ -110,7 +100,27 @@
           },
           "date": "2018-09-25T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3220,
+                    "gender": "f",
+                    "id": 4325,
+                    "name": "Chassot Isabelle",
+                    "officialDenomination": "Chassot"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5113"
+            }
           ]
         },
         {
@@ -156,6 +166,11 @@
           "date": "/Date(1600207200000+0200)/",
           "id": 11,
           "name": "Motion au 2e conseil"
+        },
+        {
+          "date": "/Date(1647212400000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -163,6 +178,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-03-14T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5113"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -325,9 +345,9 @@
   ],
   "shortId": "18.3835",
   "state": {
-    "id": 11,
-    "name": "Motion au 2e conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },

@@ -1,6 +1,6 @@
 {
   "id": 20214373,
-  "updated": "2021-12-03T10:56:12Z",
+  "updated": "2022-03-18T10:49:58Z",
   "additionalIndexing": "2841;28;36;1236",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-23T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638399600000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1647558000000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -122,19 +149,41 @@
   ],
   "shortId": "21.4373",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>L'art. 32, al. 2, LAMal prévoit que l'efficacité, l'adéquation et le caractère économique des prestations de santé doivent être réexaminées périodiquement. Or, la complexité et la fragmentation croissantes du système rendent aujourd'hui quasiment impossible l'exécution de certaines tâches (par ex. la fonction de surveillance, le développement de la qualité, la recherche et l'innovation).</p><p>La mise en oeuvre d'un identificateur univoque des patients devra tenir compte des points suivants :</p><p>1. transparence sur la qualité et le caractère économique d'un processus thérapeutique interinstitutionnel ;</p><p>2. exploitation des liens et des synergies entre les systèmes existants dans un cadre clairement défini (dossier électronique du patient, réseau de santé personnalisé suisse [SPHN], etc.), en veillant à ce que les données codées avec l'identificateur ne puissent être recoupées ou regroupées automatiquement avec des données provenant d'autres sources, mais uniquement avec le consentement de la personne concernée ;</p><p>3. création d'un registre numérique libre d'accès et disposant d'une interface de programmation d'application (notamment afin de réexaminer l'efficacité, l'adéquation et le caractère économique, à des fins de recherche et à des fins d'évaluation de projets novateurs en matière de soins) ;</p><p>4. plan de protection pour le traitement pseudonymisé et intersinstitutionnel des données ;</p><p>5. accès pour l'Office fédéral de la statistique aux donnée anonymisées dans le respect du secret statistique et le strict respect de la sphère privée, par exemple en recourant à la confidentialité différentielle ;</p><p>6. mesures pour éviter les conséquences imprévues de la transparence (par ex. discrimination ou sélection des patients) ;</p><p>7. possibilité de délivrer un nouveau numéro global à un patient afin d'éviter une utilisation abusive des données ;</p><p>8. obligation faite aux utilisateurs des données (à savoir tous ceux qui les utilisent pour examiner l'efficacité, l'adéquation, etc.) de rendre leurs résultats publics sous une forme transparente et compréhensible (on s'assurera en particulier que les hautes écoles et les instituts de recherche aient accès aux données).</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral soutient l'objectif poursuivi par la motion. La nécessité d'un identificateur numérique univoque des patients est également mentionnée dans le rapport \" Améliorations de la gestion des données dans le domaine de la santé \". Le 12 janvier 2022, le Conseil fédéral a pris connaissance de ce rapport et chargé le Département fédéral de l'intérieur (Office fédéral de la santé publique et Office fédéral de la statistique), en collaboration avec le Service sanitaire coordonné et la Chancellerie fédérale (transformation numérique et gouvernance de l'informatique (TNI), d'élaborer un projet d'identificateurs pour les registres de santé. La motion pourra ensuite être mise en oeuvre sur cette base.</p><p>En principe, il incombe aux cantons d'assurer des soins de santé suffisants et efficaces. La Confédération dispose d'une compétence de réglementation globale dans le domaine de l'assurance obligatoire des soins. C'est pourquoi elle n'est pas habilitée à mettre en oeuvre toutes les demandes de la motion. Le Conseil fédéral est toutefois prêt à promouvoir l'introduction d'un tel identificateur numérique univoque des patients dans l'assurance obligatoire des soins. Comme pour le numéro AVS ou le numéro d'identification du patient pour le dossier électronique du patient, le recours à cet identificateur pourrait être prévu dans les domaines dont la réglementation relève de la compétence des cantons, et ce dans la mesure où les bases légales nécessaires seront créées au niveau cantonal.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé de modifier toutes les lois pertinentes afin qu'un identificateur numérique univoque des patients (numéro global) puisse être généré et utilisé par tous les partenaires du système de santé (fournisseurs de prestations, assurances, etc.) dans leurs communications.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Introduction d'un identificateur univoque des patients"
     }
   ],
-  "title": "Titre suit"
+  "title": "Introduction d'un identificateur univoque des patients"
 }

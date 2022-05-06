@@ -1,6 +1,6 @@
 {
   "id": 20214373,
-  "updated": "2021-12-03T10:56:12Z",
+  "updated": "2022-03-18T10:49:58Z",
   "additionalIndexing": "2841;28;36;1236",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-23T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Dipartimento dell'interno",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638399600000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1647558000000+0100)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -122,19 +149,41 @@
   ],
   "shortId": "21.4373",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>La legge federale sull'assicurazione malattie (LAMal) prevede di riesaminare periodicamente l'efficacia, l'appropriatezza e l'economicità delle prestazioni sanitarie (art. 32 cpv. 2). A causa della crescente complessità e frammentazione nell'ambito delle cure, alcuni compiti sono oggi praticamente impossibili da gestire (p. es. funzione di vigilanza, evoluzione della qualità, ricerca e innovazione).</p><p>L'attuazione dell'identificatore univoco del paziente deve tenere conto dei seguenti ambiti tematici:</p><p>1. trasparenza sulla qualità ed economicità di un percorso terapeutico interistituzionale;</p><p>2. sfruttamento di interfacce/sinergie con sistemi già esistenti nell'ambito di condizioni quadro chiare (cartella informatizzata del paziente, rete svizzera di medicina personalizzata [SPHN] ecc.), facendo attenzione affinché i dati codificati con l'identificatore univoco del paziente non siano automaticamente allineati o raggruppati con altre fonti, se non con il consenso del paziente;</p><p>3. creazione di un registro digitale con accesso aperto e interfaccia di programmazione (tra l'altro per esaminare l'efficacia, l'appropriatezza e l'economicità, a fini di ricerca e di valutazione di progetti innovativi in materia di approvvigionamento ecc.);</p><p>4. piano di protezione per il trattamento dei dati pseudonimizzato e interistituzionale;</p><p>5. accesso a dati anonimizzati per l'Ufficio federale di statistica (UST) con garanzia del segreto statistico e rigorosa considerazione della sfera privata, p. es. applicando la privacy differenziale;</p><p>6. misure volte a evitare conseguenze involontarie della trasparenza (p. es. discriminazione, selezione dei pazienti ecc.);</p><p>7. possibilità di nuova attribuzione dell'identificatore univoco del paziente per evitare l'abuso di dati;</p><p>8. obbligo per gli utenti dei dati (vale a dire tutti coloro che con questi dati verificano l'efficacia, l'appropriatezza ecc.) di rendere pubblici i risultati in modo trasparente e comprensibile (in particolare deve essere garantito l'accesso ai dati per le scuole universitarie e gli istituti di ricerca).</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale appoggia l'obiettivo perseguito dalla mozione. La necessità di un identificatore digitale univoco del paziente è postulata anche nel rapporto sul miglioramento della gestione dei dati nel settore sanitario (\"Verbesserungen des Datenmanagements im Gesundheitsbereich\", disponibile in tedesco e in francese). Il 12 gennaio 2022, Il Consiglio federale ha preso atto di questo rapporto e incaricato il Dipartimento federale dell'interno (Ufficio federale della sanità pubblica e Ufficio federale di statistica) di elaborare, d'intesa con il Servizio sanitario coordinato e con la Cancelleria federale (Trasformazione digitale e governance delle TIC), un progetto di identificatore dei registri sanitari, sulla base del quale potrà essere avviato successivamente l'adempimento della mozione.</p><p>Garantire un'assistenza sanitaria sufficiente ed efficiente rientra fondamentalmente nella competenza dei Cantoni. La Confederazione dispone di un'ampia competenza di disciplinamento nell'ambito dell'assicurazione obbligatoria delle cure medico-sanitarie (AOMS), che tuttavia non è sufficiente ad adempiere tutte le richieste della mozione. Il Consiglio federale è però disposto a promuovere l'introduzione di un identificatore univoco del paziente nel settore dell'AOMS. Analogamente a quanto accade per il numero AVS o il numero d'identificazione del paziente nell'ambito della cartella informatizzata del paziente, questo numero potrebbe essere impiegato nei settori il cui disciplinamento rientra nella competenza dei Cantoni, purché vengano create le basi legali cantonali necessarie a tal fine.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di adeguare tutte le leggi interessate affinché un identificatore digitale univoco del paziente (numero master del paziente) possa essere generato e impiegato da tutti i partner nel settore sanitario (fornitori di prestazioni, assicurazioni ecc.) nella comunicazione.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Introduzione di un identificatore univoco del paziente"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Introduzione di un identificatore univoco del paziente"
 }

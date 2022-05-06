@@ -1,6 +1,6 @@
 {
   "id": 20214518,
-  "updated": "2021-12-20T15:36:47Z",
+  "updated": "2022-03-08T14:09:55Z",
   "additionalIndexing": "48",
   "affairType": {
     "abbreviation": "Po.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-03-08T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter le postulat."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639609200000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1646694000000+0100)/",
+          "id": 26,
+          "name": "Adopté"
         }
       ],
       "texts": [
@@ -70,6 +97,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-03-08T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5113"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -232,12 +264,33 @@
   ],
   "shortId": "21.4518",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 26,
+    "name": "Adopté",
+    "doneKey": "3",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>L'incident du 9 novembre 2021 sur la ligne ferroviaire entre Lausanne et Genève à la hauteur de Tolochenaz a démontré une fois de plus la fragilité de certains segments vitaux du réseaux ferroviaire suisse lors de coupures importantes de la ligne. Dans les faits, le Canton de Genève s'est vu entièrement isolé du réseau ferroviaire national en raison de l'unique voie le reliant au reste du pays. D'autres régions sont également gravement exposées à de tels risques. Les conséquences directes et indirectes de ces interruptions sur ces grandes lignes pour l'ensemble de la société sont immenses et dans de nombreux domaines : économie, sécurité, environnement, tourisme, communication, logistique, etc. Elles affectent non seulement la région touchée mais par effet domino l'entièreté du pays.</p><p>Il est par conséquent nécessaire pour la Confédération de statuer pour le long-terme sur ces vulnérabilités flagrantes. Ceci passe par le développement d'une vision stratégique pour combler ces lacunes puis sous forme de projet très concret visant à assurer une redondance des grandes lignes ferroviaires nationales. Le but étant d'atténuer les risques de voir des travailleurs, des entreprises, des touristes, des hôpitaux, des bureaux de la Poste, des marchandises, et bien plus encore, en partie coupés du reste de la Suisse à la suite de ces interruptions ferroviaires systémiques.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral partage les préoccupations des signataires du postulat. Dans le cadre de l'établissement de la Perspective RAIL 2050, la stabilité et la robustesse du réseau ferré ont été identifiées comme des conditions prérequises pour le développement de l'offre et de l'infrastructure. La redondance des lignes structurantes constitue une des options possibles pour améliorer la robustesse du réseau. Quant à la proposition de projets concrets selon le présent postulat, elle sera traitée dans le cadre de la prochaine étape d'aménagement.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé d'évaluer les risques majeurs sur le réseau ferroviaire et le cas échéant de proposer un programme de mesures correctives ferroviaires afin d'assurer la fiabilité et la redondance des grandes lignes ferroviaires du réseau national.</p>"
+    },
     {
       "type": {
         "id": 1,

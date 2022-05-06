@@ -1,6 +1,6 @@
 {
   "id": 20214339,
-  "updated": "2021-10-29T16:00:28Z",
+  "updated": "2022-03-15T08:42:44Z",
   "additionalIndexing": "2836;2846",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-03-15T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2021-11-24T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
@@ -71,7 +88,53 @@
           },
           "date": "2021-10-28T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2757,
+                    "gender": "m",
+                    "id": 4051,
+                    "name": "de Courten Thomas",
+                    "officialDenomination": "de Courten"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe V",
+                    "id": 4,
+                    "name": "Groupe de l'Union démocratique du Centre"
+                  },
+                  "language": "de"
+                },
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3088,
+                    "gender": "m",
+                    "id": 4193,
+                    "name": "Nantermod Philippe",
+                    "officialDenomination": "Nantermod"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe RL",
+                    "id": 1,
+                    "name": "Groupe libéral-radical"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5112"
+            }
           ]
         },
         {
@@ -100,13 +163,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Département des finances",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1635372000000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1647298800000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -149,10 +222,11 @@
   ],
   "shortId": "21.4339",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -161,6 +235,13 @@
         "name": "Développement"
       },
       "value": "<p>Devenir propriétaire de son logement constitue un objectif important pour une grande partie de la population. Chaque année, des milliers de personnes font valoir auprès de leur institution de prévoyance leur droit au versement d'un montant pour la propriété d'un logement. Cet acte, qui a lieu généralement entre 35 et 45 ans, est responsable et doit être encouragé.</p><p>En 2012, la FINMA a modifié les dispositions concernant le prélèvement dans le deuxième pilier afin de rendre l'accès à la propriété plus difficile. La règle exige dorénavant que la moitié des fonds propres soit apportée par le futur propriétaire et que l'autre moitié puisse provenir du deuxième pilier. </p><p>En conséquence, l'accès à la propriété a été rendu plus difficile. De surcroit, l'objectif de cette mesure, à savoir la stabilisation du marché immobilier, n'a pas été atteint puisque les institutions de prévoyance ont augmenté de manière conséquente leurs investissements dans l'immobilier en Suisse ces dix dernières années. Paradoxalement, ces investissements sont eux-mêmes financés par le capital des assurés.</p><p>Dans ces conditions, il serait opportun de revenir à la situation qui prévalait jusqu'en 2013 : le capital du deuxième pilier doit pouvoir constituer l'entier des fonds propres minimaux nécessaires à l'acquisition du logement. Des instruments - apport personnel minimal, amortissements avec échéances, adaptation du calcul de la capacité de remboursement théorique - existent pour dissiper les éventuelles craintes quant à la solvabilité des futurs propriétaires. En revanche, la limitation de la part prélevée du capital du deuxième pilier n'atteint pas son objectif et a pour seul effet de donner accès à la propriété du logement à une catégorie privilégiée de la population.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>En 2012, compte tenu des risques accrus pesant sur le marché hypothécaire, l'Association suisse des banquiers a révisé les directives en matière d'octroi de crédits reconnues comme norme minimale par l'Autorité fédérale de surveillance des marchés financiers afin d'améliorer la qualité des crédits et ainsi de renforcer la résistance des banques. Ces mesures, qui concernent les preneurs de crédits, prévoient notamment l'apport par ceux-ci d'une part minimale de fonds propres ne provenant pas de l'avoir du 2e pilier.</p><p>Le Conseil fédéral partage l'avis selon lequel l'acquisition du logement est devenue plus difficile pour beaucoup de ménages. C'est ce que montre également le monitorage \"Libre circulation des personnes et marché du logement\" de l'Office fédéral du logement concernant l'année 2021. Cette difficulté découle essentiellement du fait que les prix de l'immobilier ont fortement augmenté au cours des dernières décennies. Un ensemble de facteurs liés tant à la demande qu'à l'offre expliquent cette augmentation. Les facteurs liés à la demande comprennent notamment la croissance générale de l'économie et des revenus, la croissance démographique et les taux d'intérêt historiquement bas. Du côté de l'offre, les restrictions réglementaires (telles que les règlements sur les constructions et les plans de zones, la loi sur l'aménagement du territoire, les prescriptions en matière de construction, etc.) et géographiques jouent un rôle. Cependant, contrairement à l'objectif de la motion, une abrogation de la part minimale de fonds propres ne provenant pas du 2e pilier viendrait renforcer la demande déjà accrue de logements. Par conséquent, les prix des logements en propriété augmenteraient une nouvelle fois, rendant ainsi leur achat encore plus difficile.</p><p>En plus de ces effets indésirables, tant les preneurs de prévoyance que les établissements de crédit verraient leurs risques s'accroître à long terme. Selon l'art. 30d, al. 1, de la loi fédérale sur la prévoyance professionnelle vieillesse, survivants et invalidité (LPP), la personne assurée doit rembourser le montant prélevé sur le 2e pilier, notamment en cas de vente du logement. Si le bien immobilier doit être vendu, par exemple en raison d'une augmentation des taux d'intérêt, d'un divorce ou d'une perte d'emploi, au moment d'une baisse de valeur du bien, cette moins-value est à la charge du preneur de crédit. La part minimale de fonds propres ne provenant pas du 2e pilier actuellement exigée permet de compenser une certaine baisse de la valeur du bien immobilier. Si seul l'avoir du 2e pilier était à disposition pour absorber ces pertes, l'assuré pourrait ne pas être en mesure de remplir son obligation de remboursement selon la LPP. La part minimale requise de fonds propres ne provenant pas du 2e pilier vise à prévenir ce risque.</p><p>Le Conseil fédéral suit de près l'évolution du marché immobilier suisse. Il considère qu'il n'est pas approprié, dans le contexte macroéconomique actuel, d'assouplir les normes existantes en matière d'octroi de crédits et de favoriser ainsi davantage la croissance des prix.</p>"
     },
     {
       "type": {
@@ -174,8 +255,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Faciliter l’accès à la propriété grâce au 2e pilier"
+      "value": "Faciliter l'accès à la propriété grâce au deuxième pilier"
     }
   ],
-  "title": "Faciliter l’accès à la propriété grâce au 2e pilier"
+  "title": "Faciliter l'accès à la propriété grâce au deuxième pilier"
 }

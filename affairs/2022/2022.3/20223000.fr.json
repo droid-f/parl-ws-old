@@ -1,6 +1,6 @@
 {
   "id": 20223000,
-  "updated": "2022-01-13T11:20:47Z",
+  "updated": "2022-03-17T13:05:04Z",
   "additionalIndexing": "48;08",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-03-17T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -89,7 +106,7 @@
                   },
                   "faction": {
                     "abbreviation": "Groupe M-E",
-                    "id": 139,
+                    "id": 3,
                     "name": "Le Groupe du Centre. Le Centre. PEV."
                   },
                   "language": "de"
@@ -125,13 +142,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1641855600000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1647471600000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -174,10 +201,11 @@
   ],
   "shortId": "22.3000",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -186,6 +214,13 @@
         "name": "Développement"
       },
       "value": "<p>Le transfert du transport de marchandises de transit vers le rail est tributaire de lignes d'accès efficaces et performantes. Seul l'existence de telles lignes permettra de garantir que l'objectif inscrit dans la loi visant à limiter les trajets de poids lourds à 650 000 par an puisse être atteint.</p><p>Depuis l'ouverture du corridor à 4 m, la situation pour les trains du transport combiné est la suivante :</p><p>- 5 voies d'accès vers l'Italie : Chiasso (2), Luino (1), Domodossola (2)</p><p>- 4 voies à travers la Suisse, 2 par le Gothard et 2 par le Lötschberg/Simplon</p><p>- SEULEMENT 2 voies d'accès au nord de la Suisse Karlsruhe-Bâle jusqu'en 2042 au moins</p><p>- 4 à 6 voies d'accès au nord de Karlsruhe jusqu'en Rhénanie-du-Nord-Westphalie et jusqu'à Rotterdam</p><p>Les prévisions de trafic tablent sur une croissance du trafic transalpin de 2 % par an, ce qui équivaudra à 48 % de transit alpin en plus dans 20 ans. Sans un aménagement rapide de ce goulet d'étranglement, une grande partie de ce trafic supplémentaire devra traverser les Alpes par la route.</p><p>L'aménagement de la ligne ferroviaire à faible déclivité Wörth-Lauterbourg-Strasbourg qui s'étend sur 71 km le long du Rhin peut être réalisé avant 2030. Construite avec une double voie, la ligne historique d'accès au Gothard présente aujourd'hui une très faible densité de trafic. Elle peut être électrifiée en quelques années, à un coût raisonnable, et adaptée aux paramètres de train RTE-T en vigueur. Des estimations de coûts ont montré que des investissements de 178 millions de francs permettraient d'augmenter la capacité journalière de 30 trains ; un aménagement supplémentaire de 338 millions de francs permettrait d'augmenter cette capacité de 60 trains au total.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral est d'avis que la ligne d'accès Wörth-Strasbourg de la rive gauche du Rhin peut améliorer la redondance sur le parcours d'accès à la NLFA. C'est pourquoi il y a lieu d'entamer des négociations avec les pays voisins.</p>"
     },
     {
       "type": {
@@ -199,8 +234,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Aménager la ligne d’accès à la NLFA Wörth-Strasbourg afin de poursuivre la politique de transfert du trafic et de garantir la sécurité de l’approvisionnement de la Suisse"
+      "value": "Aménager la ligne d'accès à la NLFA Wörth-Strasbourg afin de poursuivre la politique de transfert du trafic et de garantir la sécurité de l'approvisionnement de la Suisse"
     }
   ],
-  "title": "Aménager la ligne d’accès à la NLFA Wörth-Strasbourg afin de poursuivre la politique de transfert du trafic et de garantir la sécurité de l’approvisionnement de la Suisse"
+  "title": "Aménager la ligne d'accès à la NLFA Wörth-Strasbourg afin de poursuivre la politique de transfert du trafic et de garantir la sécurité de l'approvisionnement de la Suisse"
 }

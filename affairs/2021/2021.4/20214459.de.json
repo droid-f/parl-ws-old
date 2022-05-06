@@ -1,6 +1,6 @@
 {
   "id": 20214459,
-  "updated": "2021-12-23T15:35:04Z",
+  "updated": "2022-03-18T11:34:32Z",
   "additionalIndexing": "2841;44",
   "affairType": {
     "abbreviation": "Ip.",
@@ -18,7 +18,7 @@
     "faction": {
       "abbreviation": "Fraktion M-E",
       "code": "M-E",
-      "id": 139,
+      "id": 3,
       "name": "Die Mitte-Fraktion. Die Mitte. EVP."
     },
     "type": "author"
@@ -41,10 +41,26 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Erledigt",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "n",
+        "date": "2022-02-16T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -57,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639522800000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1647558000000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -71,6 +97,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-03-18T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5113"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -96,7 +127,7 @@
       "faction": {
         "abbreviation": "Fraktion M-E",
         "code": "M-E",
-        "id": 139,
+        "id": 3,
         "name": "Die Mitte-Fraktion. Die Mitte. EVP."
       },
       "type": "author"
@@ -104,12 +135,19 @@
   ],
   "shortId": "21.4459",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Die jährliche Erhebung der \"Strukturdaten der Arztpraxen und ambulanten Zentren\" durch das Bundesamt für Statistik (BFS) stützt sich auf das Bundesstatistikgesetz (BStatG, SR 431.01) wie auch auf das Bundesgesetz über die Krankenversicherung (KVG, SR 832.10). Beide Gesetzesgrundlagen sehen eine obligatorische Teilnahme an der Erhebung vor. Im Rahmen des KVG sind keine Sanktionen für eine Teilnahmeverweigerung vorgesehen; auf Grundlage des BStatG sind Sanktionen möglich, jedoch unter Wahrung des Verhältnismässigkeitsprinzips.</p><p>1. Die Erhebung wurde 2016 eingeführt und es sind einige Erhebungszyklen notwendig, um diese zu etablieren. Bis 2019 konnte die Teilnahme an der Erhebung stetig erhöht werden. Die Erhebung wurde im Jahr 2020 aufgrund der Covid-19-Krise vorzeitig beendet. Im Jahr 2021 konnte die Erhebung trotz erschwerenden Umständen gestartet werden, die Auswirkung dieser Krise auf die Teilnahme wird erst nach Abschluss der Erhebung im April 2022 evaluiert werden können.</p><p>2. Wenn sich nach Beendigung der Pandemie die bisherige Tendenz der stetigen Teilnahmeerhöhung nicht wiedereinstellt, wird der Bundesrat die Angemessenheit von Massnahmen evaluieren.</p><p>3. Aufgrund der bislang wenigen Erhebungszyklen hat das BFS auf Sanktionen gemäss BStatG verzichtet. Bei ca. 18'000 potentiellen Teilnehmern bestünde ein erheblicher administrativer Aufwand zur Vollstreckung von Sanktionen. Somit beschränkt sich das BFS auf das Schreiben von Mahnungen. Das BFS bemüht sich zudem, in Zusammenarbeit mit den Vertretern der Ärzteschaft auf nationaler und kantonaler Ebene, eine gleichzeitige signifikante Erhöhung sowohl der Teilnahme wie auch der Datenqualität zu erreichen.</p>"
+    },
     {
       "type": {
         "id": 5,
@@ -122,8 +160,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Transparenz bei Einkommen der Ärztinnen und Ärzte"
+      "value": "Transparenz bei den Einkommen der Ärztinnen und Ärzte"
     }
   ],
-  "title": "Transparenz bei Einkommen der Ärztinnen und Ärzte"
+  "title": "Transparenz bei den Einkommen der Ärztinnen und Ärzte"
 }

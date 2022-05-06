@@ -1,6 +1,6 @@
 {
   "id": 20214377,
-  "updated": "2021-12-03T10:55:20Z",
+  "updated": "2022-03-17T14:16:57Z",
   "additionalIndexing": "34;04;24;36;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -16,9 +16,9 @@
       "officialDenomination": "Würth"
     },
     "faction": {
-      "abbreviation": "M-E",
+      "abbreviation": "Fraktion M-E",
       "code": "M-E",
-      "id": 139,
+      "id": 3,
       "name": "Die Mitte-Fraktion. Die Mitte. EVP."
     },
     "type": "author"
@@ -41,10 +41,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-03-17T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -57,13 +74,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "BK",
+          "id": 10,
+          "name": "Bundeskanzlei",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638399600000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1647471600000+0100)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -144,9 +171,9 @@
         "officialDenomination": "Würth"
       },
       "faction": {
-        "abbreviation": "M-E",
+        "abbreviation": "Fraktion M-E",
         "code": "M-E",
-        "id": 139,
+        "id": 3,
         "name": "Die Mitte-Fraktion. Die Mitte. EVP."
       },
       "type": "author"
@@ -154,10 +181,11 @@
   ],
   "shortId": "21.4377",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -166,6 +194,13 @@
         "name": "Begründung"
       },
       "value": "<p>In den Rankings betreffend Digitalisierung nimmt die Schweiz regelmässig einen guten, wenn auch im Mittelfeld gelegenen Platz ein. Die beiden ETH spielen in der Top-Liga und zahlreiche Unternehmen engagieren sich für verschiedene digitale Zukunftsfelder. Die Abstimmung zur E-ID hat gezeigt, dass die öffentliche Hand Vertrauen geniesst und sie eine positive Rolle bei dieser Entwicklung spielen kann. Ein Vergleich etwa zu Dänemark zeigt, dass privat-öffentliche Partnerschaften sowohl das breite Vertrauen der Bevölkerung geniessen, als auch standortfördernd wirken. Man kann schneller realisieren, Reichweiten generieren und sich auch international positionieren.</p><p>Bis heute gibt es aber keine Rechtsgrundlage, dass sich der Bund auch bei ausgewählten privaten Leuchtturm-Projekten mit öffentlichem Interesse beteiligen und sie mitanschieben kann, wie das sonst bei Entwicklung, Innovation und Standortförderung der Fall ist. Eine solche Anschubfinanzierung würde wichtige Impulse für gute Initiativen mit hoher Wirkung setzen. Im Ergebnis soll dadurch auch ein Beitrag geleistet werden, damit die Schweiz ihre Rolle in der Digitalisierung international stärken kann. Ich ersuche daher den Bundesrat, schnellstmöglich eine Rechtsgrundlage zu schaffen für eine Anschubfinanzierung solcher Vorhaben, welche einem öffentlichen Interesse und der Standortförderung dienen. Für eine nachhaltige digitale Transformation und einen starken Innovationsstandort Schweiz braucht es eine Bündelung der Kräfte und verstärkte Zusammenarbeit des privaten und öffentlichen Sektors.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat ist bereit, eine Rechtsgrundlage für die Unterstützung digitaler Leuchtturm-Projekte im öffentlichen Interesse zu schaffen und wird bei der Umsetzung darauf achten, dass dadurch weder ein zu breiter neuer Subventionstatbestand noch Doppelspurigkeiten zu den bestehenden Förderinstrumenten geschaffen werden, namentlich in den Bereichen Standortförderung, Bildung, Forschung und Innovationsförderung. Im Rahmen der Umsetzung wird insbesondere geprüft, ob die bestehenden verfassungsmässigen Voraussetzungen ausreichen.</p>"
     },
     {
       "type": {
@@ -179,8 +214,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Die Schweiz voranbringen: Digitale Leuchtturm-Projekte mit öffentlichem Interesse anschieben"
+      "value": "Die Schweiz voranbringen. Digitale Leuchtturmprojekte mit öffentlichem Interesse anschieben"
     }
   ],
-  "title": "Die Schweiz voranbringen: Digitale Leuchtturm-Projekte mit öffentlichem Interesse anschieben"
+  "title": "Die Schweiz voranbringen. Digitale Leuchtturmprojekte mit öffentlichem Interesse anschieben"
 }

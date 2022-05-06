@@ -1,6 +1,6 @@
 {
   "id": 20214374,
-  "updated": "2021-12-03T10:55:59Z",
+  "updated": "2022-03-18T10:50:14Z",
   "additionalIndexing": "2841;34;1236",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-23T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638399600000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1647558000000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -122,26 +149,41 @@
   ],
   "shortId": "21.4374",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Le dossier électronique du patient est un projet important et exigeant qui vise à ce que les données médicales puissent être échangées en passant par une plateforme électronique.</p><p>Il faut cependant poursuivre les efforts pour réduire les coûts administratifs dans le domaine de la santé. Un système d'administration numérique des patients est le socle d'une collaboration interinstitutionnelle entre les fournisseurs de soins et simplifie les interactions avec les assurances et les autorités.</p><p>Contrairement à la documentation médicale, les processus relatifs à l'administration des patients sont déjà largement standardisés.</p><p>La mise en oeuvre devra tenir compte des points suivants :</p><p>1. utilisation de formats de données uniformisés, standardisés et ouverts (par ex. par l'intermédiaire d'organisations de normalisation nationales et internationales reconnues) : données de référence des patients, données d'assurance et couverture d'assurance, équipe chargée du traitement (médecin de famille, médecin spécialiste, etc.), personnes à contacter, informations de facturation, informations sur les garanties de prise en charge des frais, etc.</p><p>2. interopérabilité avec le dossier électronique du patient ;</p><p>3. gestion électronique sur un portail pour les patients ;</p><p>4. consultation des données pour les fournisseurs de prestations ;</p><p>5. échange de données adéquat sous forme numérique avec ceux qui assument les coûts (délivrance de la garantie de prise en charge des coûts par les assurances, annonces d'accident aux sociétés d'assurance-accident, établissement des factures et possibilité de renvoyer les factures) ;</p><p>6. enregistrement non centralisé des données (enregistrement décentralisé ou enregistrement centralisé avec une clé de chiffrement individuelle) ;</p><p>7. examen de la possibilité d'une utilisation et d'une intégration plus larges de la loi sur la signature électronique.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral soutient la demande présentée dans la motion, selon laquelle il convient de simplifier les processus relatifs à l'administration des patients. Il est convaincu que le traitement numérique continu de ces processus simplifiera la collaboration entre les institutions, augmentera l'efficacité et améliorera la qualité des données. Dans ce contexte, des efforts sont déjà en cours, par exemple en ce qui concerne la facturation électronique dans le cadre des mesures visant à freiner les coûts de l'assurance-maladie.</p><p>Garantir une offre suffisante et efficiente en soins de santé relève fondamentalement de la compétence des cantons. En revanche, la Confédération dispose de la compétence globale de légiférer dans le domaine de l'assurance obligatoire des soins. Dans le cadre de ses compétences, le Conseil fédéral est prêt à promouvoir le déroulement numérique des processus.</p><p>Le Conseil fédéral est en outre disposé à offrir son soutien pour la standardisation des structures de données et des interfaces nécessaires à la mise en oeuvre, dans la mesure de ses compétences et des ressources disponibles. Par contre, la mise en oeuvre d'une administration numérique des patients, notamment les exigences techniques et organisationnelles de celle-ci, relève de la responsabilité des cantons et des acteurs concernés (fournisseurs de prestations, assureurs, communautés de référence, organisations professionnelles, etc.).</p>"
+    },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Der Bundesrat wird beauftragt, alle betroffenen Gesetze dahingehend anzupassen, dass die Prozesse rund um die Patientenadministration für alle involvierten Parteien der ambulanten und stationären Versorgungsbereichen im Sinne eines virtuellen Schweizer Gesundheitsnetzes digital abgewickelt werden können (Spital, Langzeit, Spitex, Praxen, Apotheken, etc.).</p>"
+      "value": "<p>Le Conseil fédéral est chargé de modifier toutes les lois pertinentes afin que tous les processus relatifs à l'administration des patients se déroulent numériquement, au sens d'un réseau de santé suisse virtuel, pour toutes les parties qui interviennent dans les soins ambulatoires et hospitaliers (hôpitaux, centres de soins de longue durée, services d'aide et de soins à domicile, cabinets, pharmacies, etc.).</p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Introduction d'un système d'administration numérique des patients"
     }
   ],
-  "title": "Titre suit"
+  "title": "Introduction d'un système d'administration numérique des patients"
 }

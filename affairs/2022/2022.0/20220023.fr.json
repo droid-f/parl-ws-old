@@ -1,6 +1,6 @@
 {
   "id": 20220023,
-  "updated": "2022-02-25T17:29:23Z",
+  "updated": "2022-02-28T19:16:27Z",
   "affairType": {
     "abbreviation": "OP",
     "id": 2,
@@ -24,7 +24,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-02-28T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -52,8 +66,34 @@
           },
           "date": "2022-02-25T00:00:00Z",
           "registrations": [
-
-          ]
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3025,
+                    "gender": "m",
+                    "id": 4120,
+                    "name": "Romano Marco",
+                    "officialDenomination": "Romano"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe M-E",
+                    "id": 3,
+                    "name": "Le Groupe du Centre. Le Centre. PEV."
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5113"
+            }
+          ],
+          "treatmentCategory": "IIIb/IV"
         }
       ],
       "references": [
@@ -72,6 +112,11 @@
           "date": "/Date(1645743600000+0100)/",
           "id": 9,
           "name": "Déposé"
+        },
+        {
+          "date": "/Date(1646002800000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -79,6 +124,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-02-28T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5113"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -97,12 +147,19 @@
   ],
   "shortId": "22.023",
   "state": {
-    "id": 9,
-    "name": "Déposé",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil national,</p><p>- bouleversé par les souffrances humaines causées par l'agression russe contre l'Ukraine ;</p><p>- convaincu qu'une guerre d'agression unilatérale ne doit jamais être un moyen politique et est indigne d'un Etat, au 21e siècle ;</p><p>- préoccupé par le fait que les valeurs que sont la coexistence pacifique des peuples, la démocratie et les droits de l'homme, promues en Europe et dans le monde depuis la fin de la Seconde Guerre mondiale, sont gravement remises en question par cette agression ;</p><p>- déterminé à oeuvrer, avec la communauté internationale, pour un retour rapide de la paix en Ukraine ;</p><p>vu l'art. 32 de son règlement (RCN ; RS 171.13) :</p><p>a. condamne fermement la guerre d'agression des autorités russes contre l'Ukraine, qui est contraire au droit international ;</p><p>b. invite instamment les autorités russes et toutes les autres parties au conflit à convenir d'un cessez-le-feu immédiat ;</p><p>c. souligne l'importance cruciale du système de sécurité mondial fondé sur le droit international ;</p><p>d. appelle toutes les parties au conflit, et en particulier les autorités russes, à respecter le droit humanitaire international ;</p><p>e. se solidarise avec le peuple ukrainien et demande de soutenir la population ukrainienne en lui fournissant une aide humanitaire ;</p><p>f. demande au Conseil fédéral d'augmenter la pression sur la Russie en associant la Suisse aux sanctions de l'Union européenne contre ce pays. En tant que principale place de négoce de matières premières et pôle important en matière de prestations financières pour les groupes russes, la Suisse doit prendre ses responsabilités.</p><p> </p><p>Une minorité (Rutz Gregor, Addor, Bircher, Glarner, Marchesi, Steinemann) propose le rejet de la déclaration.</p>"
+    },
     {
       "type": {
         "id": 1,

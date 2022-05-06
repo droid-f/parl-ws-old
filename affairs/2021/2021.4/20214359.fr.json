@@ -1,6 +1,6 @@
 {
   "id": 20214359,
-  "updated": "2021-12-03T10:59:11Z",
+  "updated": "2022-03-18T11:15:50Z",
   "additionalIndexing": "08;48;15",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,26 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Liquidé",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "b",
+        "date": "2022-01-26T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +72,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638226800000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1647558000000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -70,6 +96,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-03-18T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5113"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -102,12 +133,19 @@
   ],
   "shortId": "21.4359",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le tronçon français Evian - Saint-Gingolph de la ligne du Sud-Léman a été fermé à tout trafic et neutralisé en 1998. Il n'était plus exploité depuis 1940 pour le transport de personnes et depuis 1988 pour le transport des marchandises. Depuis plus de dix ans, les autorités régionales des deux côtés de la frontière se sont données pour objectif la réouverture de cette ligne. La remise en service de la ligne ferroviaire de 17 kilomètres entre Evian-les-Bains (F) et Saint-Gingolph (CH) permettrait de relier le Chablais au Léman Express via la rive sud du lac.</p><p>Les études préliminaires sont actuellement en cours et devraient se terminer cette année. Selon le planning de 2019, les travaux de réhabilitation pourraient débuter à l'horizon 2026. Les études d'APS (avant-projet sommaire), d'APD (avant-projet détaillé) et de projet devraient être menées d'ici là. La Suisse demande que les études préliminaires considèrent l'ensemble des potentialités de la ligne (voyageurs et marchandises) de manière à disposer d'une base de décision complète permettant de définir en connaissance de cause la suite à donner au projet.</p><p>Au niveau institutionnel, la France, voulant exclure le trafic de marchandises de cette ligne, a dénoncé, le 4 juin 2019, la convention du 27 février 1882 pour le raccordement du chemin de fer de Thonon au Bouveret par Saint-Gingolph. Sur la base des résultats des études préliminaires, la France et la Suisse seront donc amenées à définir la suite qu'elles entendent donner au projet.</p>"
+    },
     {
       "type": {
         "id": 5,
@@ -120,8 +158,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "La ligne de train au sud du lac Léman est-elle en panne ?"
+      "value": "La ligne de train au sud du lac Léman est-elle en panne?"
     }
   ],
-  "title": "La ligne de train au sud du lac Léman est-elle en panne ?"
+  "title": "La ligne de train au sud du lac Léman est-elle en panne?"
 }

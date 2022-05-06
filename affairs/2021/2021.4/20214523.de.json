@@ -1,6 +1,6 @@
 {
   "id": 20214523,
-  "updated": "2021-12-20T15:35:38Z",
+  "updated": "2022-03-17T14:15:09Z",
   "additionalIndexing": "15;1211;2846",
   "affairType": {
     "abbreviation": "Mo.",
@@ -18,7 +18,7 @@
     "faction": {
       "abbreviation": "Fraktion M-E",
       "code": "M-E",
-      "id": 139,
+      "id": 3,
       "name": "Die Mitte-Fraktion. Die Mitte. EVP."
     },
     "type": "author"
@@ -41,10 +41,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-03-17T00:00:00Z",
+            "text": "Zuweisung an die zuständige Kommission zur Vorberatung",
+            "type": 66
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-02-23T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
@@ -57,13 +74,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639609200000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1647471600000+0100)/",
+          "id": 33,
+          "name": "An die Kommission zur Vorberatung zugewiesen"
         }
       ],
       "texts": [
@@ -106,7 +133,7 @@
       "faction": {
         "abbreviation": "Fraktion M-E",
         "code": "M-E",
-        "id": 139,
+        "id": 3,
         "name": "Die Mitte-Fraktion. Die Mitte. EVP."
       },
       "type": "author"
@@ -114,12 +141,33 @@
   ],
   "shortId": "21.4523",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 33,
+    "name": "An die Kommission zur Vorberatung zugewiesen",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Im Schweizer Mobiliarsicherungsrecht können Sicherheiten an mobilen Gütern grundsätzlich nur durch Besitzübertragung der Sicherheit vom Schuldner auf den Gläubiger bestellt werden (sogenanntes Faustpfandprinzip). Diese Rechtslage hat zur Folge, dass Schweizer Unternehmen mobile Produktionsmittel wie Maschinen, Fahrzeuge, Rohmaterialien, Lagerbestände oder andere bewegliche Güter in den meisten Fällen nicht zur Besicherung von Forderungen oder Krediten nutzen können.</p><p>Das bestehende Instrument zur Besicherung von mobilen Gütern ohne Faustpfand prinzip ist der Eigentumsvorbehalt. Dieser ist aber in seiner heutigen Ausgestaltung praxisuntauglich, unter anderem weil das entsprechende Register durch 400 lokale Betreibungsämter separat geführt wird. Das Instrument wird in der heutigen Ausgestaltung daher kaum gebraucht.</p><p>Eine am 4. Oktober 2021 veröffentlichte Studie \"Regulierungsfolgenabschätzung zur Schaffung einer Rechtsgrundlage für eine allfällige Revision des schweizerischen Mobiliarsicherungsrechts\" im Auftrag des Staatssekretariats für Wirtschaft SECO und des Bundesamts für Justiz (BJ) kommt zum Schluss, dass sich für Schweizer KMU im Vergleich mit praktisch allen vergleichbaren ausländischen Rechtsordnungen starke Beschränkungen beim Zugang zu einer gesicherten Fremdfinanzierung ergeben. Empfohlen wird eine auf Unternehmen beschränkte Revision des Mobiliarsicherungsrechts. Wichtige Elemente sind dabei die Zulassung einer Mobiliarhypothek mit Registerpublizität, eine Modernisierung des Eigentumsvorbehaltes und des Abtretungsrechts sowie eine Modernisierung in Bezug auf Immaterialgüterrechte beziehungsweise immaterielle Vermögenswerte.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Das Schweizer Mobiliarsicherungsrecht basiert auf dem Faustpfandprinzip. Anders als ausländische Rechtsordnungen schliesst es besitzlose Mobiliarsicherungsrechte grundsätzlich aus. Der Bundesrat anerkennt, dass insb. das Instrument des Eigentumsvorbehalts und das heutige Eigentumsvorbehaltsregister nicht mehr praxistauglich sind. Eine Reform würde Schweizer Unternehmen insbesondere im internationalen Handel den Zugang zu Lieferantenkrediten erleichtern.</p><p>Dass Schweizer Unternehmen aber generell Schwierigkeiten bei der Kreditbeschaffung haben, belegt auch die in der Motion erwähnte Regulierungsfolgenabschätzung (RFA) nicht. Die RFA stützt ihre weitergehende Revisionsforderung vielmehr auf allgemeine volkswirtschaftliche Überlegungen und Hochrechnungen.</p><p>Bevor eine umfassende Modernisierung des Mobiliarsicherungsrechts angegangen wird, müssen die konkreten praktischen Bedürfnisse auf Seite der Banken und Unternehmen sorgfältig analysiert werden. Zu prüfen ist zudem, wie sich ein schweizweites Register für Mobiliarsicherungsrechte umsetzen liesse und was es in Entwicklung und Betrieb kosten würde. Der Bundesrat ist bereit, dem Parlament entsprechende Handlungsoptionen zu unterbreiten.</p><p>Bei dieser Ausgangslage erachtet der Bundesrat die Motion als verfrüht. Für den Fall der Annahme der Motion im Erstrat beantragt der Bundesrat im Zweitrat die Umwandlung in einen Prüfantrag im Sinne des vorgeschlagenen Vorgehens.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, eine Botschaft zur Modernisierung des Mobiliarsicherungsrechts auszuarbeiten und dem Parlament zu unterbreiten.</p>"
+    },
     {
       "type": {
         "id": 1,

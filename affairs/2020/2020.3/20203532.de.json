@@ -1,6 +1,6 @@
 {
   "id": 20203532,
-  "updated": "2021-09-30T15:17:29Z",
+  "updated": "2022-03-08T12:18:26Z",
   "additionalIndexing": "15;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -16,9 +16,9 @@
       "officialDenomination": "Rieder"
     },
     "faction": {
-      "abbreviation": "M-E",
+      "abbreviation": "Fraktion M-E",
       "code": "M-E",
-      "id": 139,
+      "id": 3,
       "name": "Die Mitte-Fraktion. Die Mitte. EVP."
     },
     "type": "author"
@@ -70,6 +70,21 @@
             "date": "2021-09-30T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-03-08T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
           }
         ]
       },
@@ -101,7 +116,55 @@
           },
           "date": "2020-06-08T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3064,
+                    "gender": "m",
+                    "id": 4158,
+                    "name": "Burgherr Thomas",
+                    "officialDenomination": "Burgherr"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion V",
+                    "code": "V",
+                    "id": 4,
+                    "name": "Fraktion der Schweizerischen Volkspartei"
+                  },
+                  "language": "de"
+                },
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2776,
+                    "gender": "m",
+                    "id": 4072,
+                    "name": "Regazzi Fabio",
+                    "officialDenomination": "Regazzi"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5113"
+            }
           ]
         },
         {
@@ -173,6 +236,11 @@
           "date": "/Date(1632952800000+0200)/",
           "id": 11,
           "name": "Motion an 2. Rat"
+        },
+        {
+          "date": "/Date(1646694000000+0100)/",
+          "id": 26,
+          "name": "Angenommen"
         }
       ],
       "texts": [
@@ -180,6 +248,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-03-08T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5113"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -207,9 +280,9 @@
         "officialDenomination": "Rieder"
       },
       "faction": {
-        "abbreviation": "M-E",
+        "abbreviation": "Fraktion M-E",
         "code": "M-E",
-        "id": 139,
+        "id": 3,
         "name": "Die Mitte-Fraktion. Die Mitte. EVP."
       },
       "type": "author"
@@ -217,9 +290,9 @@
   ],
   "shortId": "20.3532",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
-    "doneKey": "0",
+    "id": 26,
+    "name": "Angenommen",
+    "doneKey": "3",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },

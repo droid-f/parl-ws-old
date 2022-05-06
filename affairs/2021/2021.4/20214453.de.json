@@ -1,6 +1,6 @@
 {
   "id": 20214453,
-  "updated": "2021-12-23T15:36:46Z",
+  "updated": "2022-03-17T14:22:50Z",
   "additionalIndexing": "2841;34;04;1236",
   "affairType": {
     "abbreviation": "Po.",
@@ -41,10 +41,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-03-17T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung des Postulates."
       },
       "index": 0,
       "links": [
@@ -57,13 +74,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639522800000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1647471600000+0100)/",
+          "id": 26,
+          "name": "Angenommen"
         }
       ],
       "texts": [
@@ -71,12 +98,17 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-03-17T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5113"
+  },
   "language": "de",
   "priorityCouncils": [
     {
       "abbreviation": "SR",
       "id": 2,
-      "name": "Nationalrat",
+      "name": "Ständerat",
       "type": "S",
       "priority": 1
     }
@@ -104,10 +136,10 @@
   ],
   "shortId": "21.4453",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 26,
+    "name": "Angenommen",
+    "doneKey": "3",
+    "newKey": 0
   },
   "texts": [
     {
@@ -116,6 +148,13 @@
         "name": "Begründung"
       },
       "value": "<p>Schweizweit waren zu Beginn der Corona Krise rund 300 000 Nutzerinnen und Nutzer auf dem elektronischen Impfausweis von meineimpfungen.ch registriert. Der Bund unterstützte den Service mit der Zielsetzung, ein elektronisches Impfbüchlein für die ganze Schweiz zur Verfügung zu stellen. Aufgrund Anfang 2021 festgestellter Sicherheitsmängel musste der Betrieb eingestellt werden.</p><p>Inzwischen ist für die Umsetzung der Covid-Imfpungen und für das Covid-Zertifikats eine neue, breit eingesetzte Infrastruktur entstanden. Dies ist eine Chance für das Elektronische Patientendossier (EPD). Dies könnte erfolgen, indem diese Dossiers in individuelle, neu zu eröffnende EPD übertragen werden, oder selber als EPD-Basis genutzt werden. Damit würde die Verbreitung des EPD aktiv gefördert und die Covid-Impfung genutzt werden, um dem EPD einen entscheidenden Startimpuls zu verleihen.</p><p>Die automatisierte Erstellung eines EPD auf der Basis der Corona-Impfdokumentation hätte folgende Vorteile:</p><p>1. Sicherstellung der langfristigen Verfügbarkeit der Impfdaten;</p><p>2. Rasche Verfügbarkeit von bis zu rund sechs Millionen EPD;</p><p>3. Rasche Integration der Dienstleister des Gesundheitswesens;</p><p>Die potenziellen Inhaberinnen und Inhaber des EPD sollen die Möglichkeit haben, ihr Dossier zu löschen, wenn sie auf ein EPD verzichten möchten.</p><p>Damit könnte die derzeit grösste Hürde für Ausbreitung der EPD, die Eröffnung der Dossiers, übersprungen werden: Demnach müssen sich die Bürgerinnen und Bürger um eine E-ID bemühen (was nach wie vor kompliziert ist), und müssen in einem zweiten Schritt die Eröffnung eines EPD beantragen. Ein Prozess, der deutlich zu schwerfällig ist, um rasch eine grosse Zahl an EPD zu erreichen. Mit der vorhandenen Infrastruktur könnte eine Übergangslösung geschaffen werden (mit Two-Phase-Login wie bei den Impfdossiers und beim Zertifikat auf den oben genannten Plattformen), bis die Bürgerinnen und Bürger eine E-ID erhalten haben bzw. bis die Infrastruktur dafür geschaffen ist.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat unterstützt das Vorhaben, die Impfdaten im Elektronischen Patientendossier (EPD) abzulegen und verfügbar zu machen. Er will dazu von möglichen Synergien mit den bestehenden elektronisch erfassten Covid-Impfdaten profitieren. eHealth Suisse und das Bundesamt für Gesundheit (BAG) arbeiten bereits daran, dieses Anliegen umzusetzen.</p><p>Die Umsetzung erfolgt letztlich durch die Stammgemeinschaften, welche ihre EPD-Plattformanbieter mit der technischen Implementierung der gewählten Lösung beauftragen.</p><p>Bei diesem Vorhaben muss jedoch der aktuelle gesetzliche Rahmen des EPDG (SR 816.1) stets berücksichtigt werden. Beispielsweise müssen die gesetzlichen Anforderungen an den EPD-Eröffnungsprozess eingehalten werden, was z.B. das Einfordern einer handschriftlichen Unterschrift bzw. einer gleichwertigen digitalen Signatur der Patientin oder des Patienten auf dem EPD-Eröffnungsantrag voraussetzt. Im Weiteren muss die Überführung der bestehenden Impfdaten aus anderen Systemen bzw. Datenbanken in das EPD allen Anforderungen, insbesondere dem Datenschutz, genügen.</p><p>Vor dem Hintergrund der bereits laufenden Arbeiten erübrigt sich aus Sicht des Bundesrates die Erstellung eines Postulatsberichts. eHealth Suisse und das BAG werden in geeigneter Form über die Arbeiten berichten.</p>"
     },
     {
       "type": {
@@ -129,8 +168,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Covid-Impfkampagne als Chance für das Elektronische Patientendossier nutzen"
+      "value": "Covid-Impfkampagne als Chance für das elektronische Patientendossier nutzen"
     }
   ],
-  "title": "Covid-Impfkampagne als Chance für das Elektronische Patientendossier nutzen"
+  "title": "Covid-Impfkampagne als Chance für das elektronische Patientendossier nutzen"
 }

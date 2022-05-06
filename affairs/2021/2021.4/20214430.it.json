@@ -1,6 +1,6 @@
 {
   "id": 20214430,
-  "updated": "2021-12-23T15:43:37Z",
+  "updated": "2022-03-18T10:54:56Z",
   "additionalIndexing": "2836;1211;28",
   "affairType": {
     "abbreviation": "Po.",
@@ -33,10 +33,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere il postulato."
       },
       "index": 0,
       "links": [
@@ -49,13 +66,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Dipartimento dell'interno",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639522800000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1647558000000+0100)/",
+          "id": 26,
+          "name": "Adottato"
         }
       ],
       "texts": [
@@ -63,6 +90,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-03-18T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5113"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -98,19 +130,33 @@
   ],
   "shortId": "21.4430",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 26,
+    "name": "Adottato",
+    "doneKey": "3",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Nei dibattiti si evoca spesso una presunta penalizzazione del matrimonio, ma la situazione è più complessa di quanto possa sembrare. Secondo i dati del Consiglio federale, complessivamente nell'AVS le coppie sposate sono avvantaggiate per un importo di 400 milioni di franchi all'anno rispetto alle persone non sposate: la limitazione della somma delle due rendite dei coniugi è globalmente più che compensata da altri vantaggi (rendite per vedove/vedovi, accrediti).</p><p>Nella LPP, per principio ogni assicurato contribuisce in modo indipendente alla costituzione del proprio 2° pilastro. Tuttavia, al momento della concessione della rendita sono presi in considerazione anche criteri legati allo stato civile, per esempio nel caso delle rendite per vedove.</p><p>Il Consiglio federale è pertanto invitato ad analizzare i flussi esistenti tra le varie comunità di vita nella previdenza per la vecchiaia, a presentare un modello rigorosamente individuale che non costi complessivamente più del sistema attuale, e ad analizzare le ripercussioni di un tale modello sulla società.</p><p>Dovrà inoltre valutare gli effetti del nuovo sistema sulle altre assicurazioni sociali, nonché la ripartizione delle spese tra i vari livelli istituzionali.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è invitato a presentare un rapporto sulle possibili conseguenze dell'introduzione di una previdenza per la vecchiaia individuale, ossia completamente indipendente dallo stato civile. Esaminerà in particolare i punti seguenti:</p><p>- AVS: eliminazione dei vantaggi e degli svantaggi per le coppie sposate o in unione domestica registrata;</p><p>- LPP: individualizzazione rigorosa delle prestazioni della previdenza professionale, effetti sul livello delle rendite e sulla ridistribuzione dagli attivi ai pensionati;</p><p>- ripercussioni sulle altre assicurazioni sociali (prestazioni complementari, aiuto sociale ecc.), nonché sulle finanze di Confederazione, Cantoni e Comuni;</p><p>- evoluzione dei parametri nei prossimi anni e decenni;</p><p>- neutralità dei costi del passaggio al nuovo sistema.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Conseguenze di una previdenza per la vecchiaia indipendente dallo stato civile?"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Conseguenze di una previdenza per la vecchiaia indipendente dallo stato civile?"
 }

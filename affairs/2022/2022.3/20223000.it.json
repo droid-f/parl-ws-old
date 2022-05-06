@@ -1,6 +1,6 @@
 {
   "id": 20223000,
-  "updated": "2022-01-13T11:20:47Z",
+  "updated": "2022-03-17T13:05:04Z",
   "additionalIndexing": "48;08",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-03-17T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -89,7 +106,7 @@
                   },
                   "faction": {
                     "abbreviation": "Gruppo M-E",
-                    "id": 139,
+                    "id": 3,
                     "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
                   },
                   "language": "de"
@@ -125,13 +142,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1641855600000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1647471600000+0100)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -174,10 +201,11 @@
   ],
   "shortId": "22.3000",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -189,11 +217,25 @@
     },
     {
       "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale ritiene che la tratta sulla sponda sinistra del Reno Wörth - Strasburgo possa migliorare la ridondanza nell'accesso ad Alptransit. Per tale motivo considera opportuno avviare trattative con i Paesi confinanti.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di intraprendere i passi necessari per eliminare il collo di bottiglia della linea di accesso alla NFTA nella tratta a sud della pianura del Reno, in Germania. A tal fine, è necessario accordarsi con la Francia e la Germania per elettrificare i 71 chilometri della linea ferroviaria che corre sulla riva sinistra del Reno tra Wörth e Strasburgo, in modo da renderla conforme agli standard della NFTA. Questa tratta riveste un particolare interesse ai fini dell'attuazione della politica di trasferimento del traffico della Svizzera. La realizzazione e il cofinanziamento dell'opera da parte della Svizzera devono essere disciplinati in modo che essa possa entrare in servizio tempestivamente prima del 2030.</p><p>In questo contesto, riveste un ruolo essenziale il prospettato adeguamento del profilo delle due gallerie di Kannenfeld e Schützenmatt, nella tratta Basilea FFS-Basilea St. Johann, al corridoio di 4 metri.</p><p>È inoltre necessario far avanzare i negoziati, avviati nel 2021, con la Francia e il Belgio riguardanti il potenziamento della linea ferroviaria Anversa-Metz-Strasburgo (-Basilea).</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Prosecuzione dell’efficace politica di trasferimento del traffico e garanzia della sicurezza dell’approvvigionamento nazionale grazie all’ampliamento della linea di accesso alla NFTA Wörth-Strasburgo sulla riva sinistra del Reno"
+      "value": "Prosecuzione dell'efficace politica di trasferimento del traffico e garanzia della sicurezza dell'approvvigionamento nazionale grazie all'ampliamento della linea di accesso alla NFTA Wörth-Strasburgo sulla riva sinistra del Reno"
     }
   ],
-  "title": "Prosecuzione dell’efficace politica di trasferimento del traffico e garanzia della sicurezza dell’approvvigionamento nazionale grazie all’ampliamento della linea di accesso alla NFTA Wörth-Strasburgo sulla riva sinistra del Reno"
+  "title": "Prosecuzione dell'efficace politica di trasferimento del traffico e garanzia della sicurezza dell'approvvigionamento nazionale grazie all'ampliamento della linea di accesso alla NFTA Wörth-Strasburgo sulla riva sinistra del Reno"
 }

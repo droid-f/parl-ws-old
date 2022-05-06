@@ -1,6 +1,6 @@
 {
   "id": 20214377,
-  "updated": "2021-12-03T10:55:20Z",
+  "updated": "2022-03-17T14:16:57Z",
   "additionalIndexing": "34;04;24;36;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -16,8 +16,8 @@
       "officialDenomination": "Würth"
     },
     "faction": {
-      "abbreviation": "M-E",
-      "id": 139,
+      "abbreviation": "Gruppo M-E",
+      "id": 3,
       "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
     },
     "type": "author"
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2022-03-17T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "CaF",
+          "id": 10,
+          "name": "Cancelleria federale",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1638399600000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1647471600000+0100)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -143,8 +170,8 @@
         "officialDenomination": "Würth"
       },
       "faction": {
-        "abbreviation": "M-E",
-        "id": 139,
+        "abbreviation": "Gruppo M-E",
+        "id": 3,
         "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
       },
       "type": "author"
@@ -152,19 +179,41 @@
   ],
   "shortId": "21.4377",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Nelle classifiche concernenti la digitalizzazione la Svizzera occupa generalmente una buona posizione, anche se collocata a metà della graduatoria. I due politecnici federali giocano nella lega superiore e numerose imprese si impegnano in diversi campi del futuro digitale. La votazione sull'identità elettronica ha mostrato che lo Stato gode della fiducia della popolazione e che può influire positivamente su questo sviluppo. A titolo di esempio, un raffronto con la Danimarca indica che i partenariati pubblico-privati non solo godono dell'ampia fiducia della popolazione ma promuovono anche la piazza economica nazionale. Si possono realizzare progetti più rapidamente con una portata maggiore e posizionarsi meglio a livello internazionale.</p><p>Ad oggi non esistono però basi legali che permettano alla Confederazione di partecipare a progetti faro privati selezionati di interesse pubblico e di promuoverli, come già avviene per lo sviluppo, l'innovazione e la promozione della piazza economica. Un simile finanziamento iniziale darebbe uno slancio importante a valide iniziative dal considerevole effetto, contribuendo anche a rafforzare a livello internazionale il ruolo della Svizzera nella digitalizzazione. Invito pertanto il Consiglio federale a creare il più rapidamente possibile una base legale per il finanziamento iniziale di questi progetti che hanno un interesse pubblico e promuovono la piazza economica. Per ottenere una trasformazione digitale sostenibile e un forte polo innovativo svizzero, occorre unire le forze e potenziare la cooperazione tra il settore pubblico e il settore privato.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale è pronto a creare una base legale per sostenere i progetti faro digitali di interesse pubblico e durante l'attuazione farà attenzione a non creare una nuova categoria troppo ampia di sussidi o doppioni rispetto agli strumenti di promozione esistenti, in particolare nei settori della formazione, della promozione della ricerca e dell'innovazione nonché della promozione della piazza economica. Nel quadro dell'attuazione esaminerà segnatamente se i requisiti costituzionali esistenti sono sufficienti.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è invitato a creare le basi legali per sostenere progetti faro digitali di interesse pubblico. A tal scopo stabilisce finanziamenti iniziali. Il campo di applicazione si estende sia a progetti privati sia a partenariati pubblico-privati che abbiano un interesse pubblico e rafforzino la piazza economica svizzera.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Dare slancio alla Svizzera promuovendo progetti faro digitali di interesse pubblico"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Dare slancio alla Svizzera promuovendo progetti faro digitali di interesse pubblico"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20213181,
-  "updated": "2021-06-18T08:33:23Z",
+  "updated": "2022-03-01T13:53:51Z",
   "additionalIndexing": "04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2021-06-18T00:00:00Z",
             "text": "Adoption",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-03-01T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
           }
         ]
       },
@@ -85,7 +100,32 @@
           },
           "date": "2021-03-16T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2694,
+                    "gender": "m",
+                    "id": 3891,
+                    "name": "Jositsch Daniel",
+                    "officialDenomination": "Jositsch"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe S",
+                    "id": 2,
+                    "name": "Groupe socialiste"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5113"
+            }
           ]
         }
       ],
@@ -110,6 +150,11 @@
           "date": "/Date(1623967200000+0200)/",
           "id": 11,
           "name": "Motion au 2e conseil"
+        },
+        {
+          "date": "/Date(1646089200000+0100)/",
+          "id": 26,
+          "name": "Adopté"
         }
       ],
       "texts": [
@@ -117,6 +162,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-03-01T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5113"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -1179,9 +1229,9 @@
   ],
   "shortId": "21.3181",
   "state": {
-    "id": 11,
-    "name": "Motion au 2e conseil",
-    "doneKey": "0",
+    "id": 26,
+    "name": "Adopté",
+    "doneKey": "3",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },

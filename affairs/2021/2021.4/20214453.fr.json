@@ -1,6 +1,6 @@
 {
   "id": 20214453,
-  "updated": "2021-12-23T15:36:46Z",
+  "updated": "2022-03-17T14:22:50Z",
   "additionalIndexing": "2841;34;04;1236",
   "affairType": {
     "abbreviation": "Po.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-03-17T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter le postulat."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639522800000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1647471600000+0100)/",
+          "id": 26,
+          "name": "Adopté"
         }
       ],
       "texts": [
@@ -70,6 +97,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-03-17T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5113"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -102,10 +134,10 @@
   ],
   "shortId": "21.4453",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 26,
+    "name": "Adopté",
+    "doneKey": "3",
+    "newKey": 0
   },
   "texts": [
     {
@@ -114,6 +146,13 @@
         "name": "Développement"
       },
       "value": "<p>Au début de la crise du coronavirus, près de 300 000 utilisateurs étaient enregistrés sur la plateforme de certificats de vaccination mesvaccins.ch. La Confédération soutenait le service afin mettre à la disposition de l'ensemble des habitants du pays un carnet de vaccination électronique. Des failles de sécurité détectées au début de 2021 ont cependant entraîné la fin de l'exploitation de la plateforme.</p><p>Entre-temps, une nouvelle infrastructure largement utilisée a vu le jour pour mettre en oeuvre les vaccinations contre le COVID-19 et le certificat COVID. Il faut saisir cette chance et transférer ces dossiers dans un nouveau dossier électronique individuel du patient ou les utiliser comme base pour ce dernier. Cela permettrait de promouvoir la diffusion du dossier électronique du patient et d'utiliser la vaccination contre le COVID-19 pour lui donner une impulsion de départ décisive.</p><p>L'établissement automatique d'un dossier électronique du patient sur la base de la documentation relative à la vaccination contre le COVID-19 présenterait les avantages suivants :</p><p>1. garantir une disponibilité à long terme des données de vaccination ;</p><p>2. mettre rapidement à disposition un potentiel de près de 6 millions de dossiers électronique du patient ;</p><p>3. intégrer rapidement les fournisseurs de prestations du système de santé.</p><p>Les détenteurs potentiels du dossier électronique du patient doivent avoir la possibilité d'effacer leur dossier s'ils ne souhaitent pas en disposer.</p><p>Le plus grand obstacle à la diffusion du dossier électronique du patient, à savoir l'ouverture du dossier, pourrait ainsi être surmonté : celle-ci requiert en effet du citoyen qu'il se procure une identité électronique (ce qui reste compliqué) et qu'il fasse ensuite la demande de l'ouverture du dossier. Une telle procédure est beaucoup trop lourde pour obtenir rapidement un grand nombre de dossiers. L'infrastructure existante fournirait une solution transitoire (avec une authentification en deux temps comme pour les dossiers de vaccination et le certificat sur la plateforme précitée) jusqu'à ce que les citoyens reçoivent une identité électronique et que l'infrastructure nécessaire soit créée.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral soutient le projet consistant à enregistrer les données de vaccination dans le dossier électronique du patient (DEP) et à les rendre disponibles. A cette fin, il entend mettre à profit les synergies possibles à partir des données concernant la vaccination contre le COVID-19 saisies électroniquement. eHealth Suisse et l'Office fédéral de la santé publique (OFSP) s'emploient déjà à concrétiser cette demande.</p><p>La mise en oeuvre sera assurée en dernier lieu par les communautés de référence, qui chargeront leurs fournisseurs de plateformes DEP de l'implémentation de la solution choisie.</p><p>Toutefois, ce projet doit toujours tenir compte du cadre légal actuel de la LDEP (RS 816.1). Il faut notamment respecter les exigences légales concernant le processus d'ouverture d'un DEP, ce qui nécessite par exemple que la demande d'ouverture correspondante soit accompagnée d'une signature manuscrite ou d'une signature numérique équivalente du patient. Par ailleurs, le transfert vers le DEP des données de vaccination disponibles dans d'autres systèmes ou bases de données doit répondre à toutes les exigences, en particulier en matière de protection des données.</p><p>Au vu des travaux déjà en cours, le Conseil fédéral estime qu'il n'est pas nécessaire d'établir un rapport en réponse au postulat. eHealth Suisse et l'OFSP communiqueront sur l'avancement des travaux sous la forme appropriée.</p>"
     },
     {
       "type": {

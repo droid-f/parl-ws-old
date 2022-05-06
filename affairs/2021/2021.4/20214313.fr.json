@@ -1,6 +1,6 @@
 {
   "id": 20214313,
-  "updated": "2021-10-05T09:22:50Z",
+  "updated": "2022-02-28T19:18:27Z",
   "additionalIndexing": "2841;34;1236;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,42 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Combattu"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2021-12-17T00:00:00Z",
+            "text": "Combattu. Discussion reportée",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-02-28T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2021-11-10T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -68,6 +100,11 @@
           "date": "/Date(1633039200000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1646002800000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -241,6 +278,16 @@
     },
     {
       "councillor": {
+        "code": 3055,
+        "gender": "m",
+        "id": 4154,
+        "name": "Addor Jean-Luc",
+        "officialDenomination": "Addor"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
         "code": 3070,
         "gender": "m",
         "id": 4190,
@@ -257,10 +304,11 @@
   ],
   "shortId": "21.4313",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -282,8 +330,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Création d’un certificat électronique de vaccination"
+      "value": "Création d'un certificat électronique de vaccination"
     }
   ],
-  "title": "Création d’un certificat électronique de vaccination"
+  "title": "Création d'un certificat électronique de vaccination"
 }

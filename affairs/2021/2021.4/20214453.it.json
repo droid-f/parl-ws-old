@@ -1,6 +1,6 @@
 {
   "id": 20214453,
-  "updated": "2021-12-23T15:36:46Z",
+  "updated": "2022-03-17T14:22:50Z",
   "additionalIndexing": "2841;34;04;1236",
   "affairType": {
     "abbreviation": "Po.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2022-03-17T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere il postulato."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Dipartimento dell'interno",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639522800000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1647471600000+0100)/",
+          "id": 26,
+          "name": "Adottato"
         }
       ],
       "texts": [
@@ -70,6 +97,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-03-17T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5113"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -102,19 +134,40 @@
   ],
   "shortId": "21.4453",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 26,
+    "name": "Adottato",
+    "doneKey": "3",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>All'inizio della crisi legata al COVID-19, circa 300 000 utenti in tutta la Svizzera erano registrati sul libretto di vaccinazione elettronico mievaccinazioni.ch. La Confederazione sosteneva il servizio allo scopo di mettere a disposizione di tutti i cittadini del Paese un libretto di vaccinazione elettronico. Il progetto è stato sospeso all'inizio del 2021 in seguito alla constatazione di lacune inerenti alla sicurezza.</p><p>Nel frattempo, per le vaccinazioni anti-COVID-19 e per il certificato COVID è stata costituita una nuova infrastruttura ampiamente utilizzata. Occorre cogliere questa opportunità per trasferire questi dossier individuali in nuove CIP oppure per usarli come base per la CIP. Ciò permetterebbe di promuovere la diffusione della CIP e di utilizzare la vaccinazione anti-COVID-19 per dare alla CIP un impulso di partenza decisivo. </p><p>L'allestimento automatizzato di una CIP sulla base della documentazione in merito alla vaccinazione anti-COVID-19 avrebbe i seguenti vantaggi:</p><p>1. assicurare la disponibilità a lungo termine dei dati vaccinali;</p><p>2. mettere rapidamente a disposizione fino a circa sei milioni di CIP;</p><p>3. integrare rapidamente i fornitori di prestazioni del sistema sanitario.</p><p>I potenziali titolari della CIP dovrebbero avere la possibilità di cancellare il proprio dossier se desiderano rinunciarvi.</p><p>In tal modo potrebbe essere superato l'ostacolo attualmente più importante alla diffusione della CIP, ossia l'apertura del dossier: questa richiede che i cittadini si dotino di un'identità elettronica (cosa che rimane complicata) e domandino in seguito l'apertura di una CIP. Una simile procedura è evidentemente troppo complessa per raggiungere rapidamente un elevato numero di CIP. L'infrastruttura esistente fornirebbe una soluzione transitoria (con autenticazione a due fattori come per il dossier di vaccinazione e per il certificato sulla piattaforma sopra menzionata) in attesa che i cittadini ricevano un'identità elettronica o venga creata l'infrastruttura adeguata. </p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale sostiene il progetto di registrare e rendere disponibili i dati sulle vaccinazioni nella cartella informatizzata del paziente (CIP). A tale proposito intende beneficiare delle possibili sinergie con i dati sulla vaccinazione anti-COVID registrati elettronicamente. eHealth Suisse e l'Ufficio federale della sanità pubblica (UFSP) si stanno già occupando della questione.</p><p>L'attuazione viene effettuata dalle comunità di riferimento, le quali commissionano al loro fornitore della piattaforma CIP l'implementazione tecnica della soluzione scelta.</p><p>In questo progetto bisogna però sempre tenere conto del quadro legislativo vigente della legge federale sulla cartella informatizzata del paziente (LCIP; RS 816.1). Ad esempio, all'apertura di una CIP occorre adempiere ai requisiti legali, i quali prevedono, per esempio, la richiesta di una firma autografa o una firma digitale equivalente da parte del paziente alla presentazione della domanda per l'apertura di una CIP. Inoltre, il trasferimento dei dati sulle vaccinazioni da altri sistemi o banche dati alla CIP deve adempiere a tutti gli altri requisiti, in particolare a quello della protezione dei dati.</p><p>Alla luce dei lavori già in corso, il Consiglio federale non ritiene necessario elaborare un rapporto in adempimento del postulato. eHealth Suisse e l'UFSP riferiranno sui lavori nella forma più appropriata.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di esaminare in un rapporto la possibilità di generare cartelle informatizzate del paziente (CIP) individuali a partire dai dossier di vaccinazione anti-COVID-19 registrati e dai certificati di vaccinazione della Confederazione e dei Cantoni.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Utilizzare la campagna di vaccinazione anti-Covid-19 per promuovere la cartella informatizzata del paziente"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Utilizzare la campagna di vaccinazione anti-Covid-19 per promuovere la cartella informatizzata del paziente"
 }

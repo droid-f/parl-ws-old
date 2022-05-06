@@ -1,6 +1,6 @@
 {
   "id": 20210078,
-  "updated": "2022-01-27T14:33:51Z",
+  "updated": "2022-05-02T09:01:11Z",
   "additionalIndexing": "08;24",
   "affairType": {
     "abbreviation": "OCF",
@@ -108,6 +108,11 @@
           "date": "/Date(1637103600000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1647385200000+0100)/",
+          "id": 3,
+          "name": "Trattato dal Consiglio degli Stati"
         }
       ],
       "texts": [
@@ -123,7 +128,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2022-03-16T00:00:00Z",
+            "text": "Decisione secondo il disegno (progetto)",
+            "type": 62
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -151,9 +170,55 @@
           },
           "date": "2021-11-17T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3189,
+                    "gender": "m",
+                    "id": 4297,
+                    "name": "Walder Nicolas",
+                    "officialDenomination": "Walder"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo G",
+                    "id": 6,
+                    "name": "Gruppo dei Verdi"
+                  },
+                  "language": "fr"
+                },
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3017,
+                    "gender": "f",
+                    "id": 4101,
+                    "name": "Bulliard-Marbach Christine",
+                    "officialDenomination": "Bulliard"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo M-E",
+                    "id": 3,
+                    "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5115"
+            }
           ],
-          "treatmentCategory": "IIIb/IV"
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
@@ -191,7 +256,7 @@
                   },
                   "faction": {
                     "abbreviation": "Gruppo M-E",
-                    "id": 139,
+                    "id": 3,
                     "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
                   },
                   "language": "de"
@@ -237,6 +302,11 @@
           "date": "/Date(1637103600000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1647385200000+0100)/",
+          "id": 3,
+          "name": "Trattato dal Consiglio degli Stati"
         }
       ],
       "texts": [
@@ -268,8 +338,8 @@
   ],
   "shortId": "21.078",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 3,
+    "name": "Trattato dal Consiglio degli Stati",
     "doneKey": "0",
     "newKey": 0
   },

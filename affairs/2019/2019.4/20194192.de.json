@@ -1,6 +1,6 @@
 {
   "id": 20194192,
-  "updated": "2021-09-22T14:32:48Z",
+  "updated": "2022-03-17T14:25:32Z",
   "additionalIndexing": "15;55",
   "affairType": {
     "abbreviation": "Mo.",
@@ -70,6 +70,21 @@
             "date": "2021-09-22T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-03-17T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -122,7 +137,27 @@
           },
           "date": "2019-09-26T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3075,
+                    "gender": "f",
+                    "id": 4181,
+                    "name": "Gmür-Schönenberger Andrea",
+                    "officialDenomination": "Gmür-Schönenberger"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5113"
+            }
           ]
         }
       ],
@@ -147,6 +182,11 @@
           "date": "/Date(1632261600000+0200)/",
           "id": 11,
           "name": "Motion an 2. Rat"
+        },
+        {
+          "date": "/Date(1647471600000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -154,6 +194,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-03-17T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5113"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -457,26 +502,33 @@
   ],
   "shortId": "19.4192",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
     {
       "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Die Presse hat nach einem Besuch von Bäckern im Bundeshaus erneut betont, dass in der Schweiz jährlich etwa 60 kleine, unabhängige Bäckereien schliessen würden. Das sei die stille Erosion einer Welt und eines Know-hows, aufgrund des Drucks der Grossverteiler, der Tankstellenshops und vor allem wegen der stetig wachsenden Importe von tiefgefrorenen Fertigprodukten aus dem Osten.</p><p>Die Möglichkeiten für eine preiswerte Beschaffung in Ländern wie Polen oder Rumänien haben dem lokalen Markt geschadet. Die dort hergestellten Croissants können beispielsweise zum Preis von 11 Rappen bestellt werden, während die Produktionskosten in der Schweiz über einem Franken liegen. Die enorm preiswerten Produkte werden per Lastwagen oder sogar per Flugzeug importiert und haben eine katastrophale CO2-Bilanz. All das wird gemacht, ohne dass Konsumentinnen und Konsumenten detailliert darüber informiert werden.</p><p>Da es heute aufgrund der WTO-Abkommen und der Verträge mit der Europäischen Union (Cassis-de-Dijon-Prinzip) nicht möglich ist, diese Importe infrage zu stellen, braucht es eine absolute Transparenz auf dem Markt. Dies würde den Konsumentinnen und Konsumenten dabei helfen, sich verantwortungsbewusst für Schweizer Brot entscheiden zu können, und so dazu beitragen, dass das Know-how und die Arbeitsplätze in der Schweiz erhalten bleiben und die negativen Auswirkungen auf die Umwelt vermindert werden.</p>"
+    },
+    {
+      "type": {
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Der Bundesrat ist sich bewusst, dass die gestiegenen Importe und die strukturellen Veränderungen bei der Produktion von Brot und Backwaren zu einem stärkeren Wettbewerb führen und dass die transparente Angabe der Herkunft von Produkten wichtig ist. Gemäss Lebensmittelgesetzgebung muss das Herkunftsland der Lebensmittel klar bezeichnet werden. Konkret muss heute auf allen Lebensmitteln das Produktionsland angegeben sein (Art. 12 Abs. 1 Bst. a des Lebensmittelgesetzes LMG, SR 817.0; Art. 36 Abs. 1 Bst. e der Lebensmittel- und Gebrauchsgegenständeverordnung, LGV, SR 817.02; und Art. 3 Abs. 1 Bst. h der Verordnung des Eidgenössischen Departementes des Innern (EDI) betreffend die Information über Lebensmittel, LIV, SR 817.022.16). Bei offen in Verkehr gebrachten Lebensmitteln (beispielsweise bei in einer Bäckerei verkauftem Brot) muss diese Information entweder schriftlich oder mündlich verfügbar sein (Art. 39 Abs. 1 LGV). Es ist Sache des Betriebs, dies zu gewährleisten.</p><p>Als Produktionsland gilt das Land, in dem das Lebensmittel hauptsächlich verarbeitet wird (Art. 15 Abs. 1 LIV). Es genügt beispielsweise nicht, importiertes vorgebackenes Brot in der Schweiz fertig zu backen, um es als in der Schweiz hergestelltes Produkt kennzeichnen zu können. Auf solchen Produkten muss das effektive Produktionsland, aus dem sie importiert wurden, angegeben werden, bei Produkten im Offenverkauf muss diese Information mündlich erfragt werden können.</p><p>Zudem können Bäckereien und Restaurants zur Aufwertung ihrer Produkte freiwillige Informationen bereitstellen (lokale Produktion, Brot vom Bäcker usw.) oder ein Label zu diesem Zweck schaffen. Auch mit der \"Swissness\" kann geworben werden, sofern die Anforderungen des Markenschutzgesetzes (SR 232.11), insbesondere der Verordnung über die Verwendung von schweizerischen Herkunftsangaben für Lebensmittel (HasLV; SR 232.112.1), erfüllt sind. Nach Ansicht des Bundesrates bietet das geltende Schweizer Recht demnach genügend Möglichkeiten, die Schweizer Herkunft von Backwaren hervorzuheben.</p><p>Zudem ist die geltende Gesetzgebung das Ergebnis eines Kompromisses, der im Rahmen der parlamentarischen Beratung der Revision des Lebensmittel- und des Markenschutzgesetzes (\"Swissness\"), die 2017 in Kraft getreten sind, ausgehandelt wurde. Neben dem Anliegen einer besseren Transparenz, damit die Konsumentinnen und Konsumenten bewusste Kaufentscheide treffen können, hat das Parlament auch dem Verwaltungsaufwand und den Kosten für die Unternehmen Rechnung getragen.</p>"
+      "value": "<p>Der Bundesrat ist sich bewusst, dass die gestiegenen Importe und die strukturellen Veränderungen bei der Produktion von Brot und Backwaren zu einem stärkeren Wettbewerb führen und dass die transparente Angabe der Herkunft von Produkten wichtig ist. Gemäss Lebensmittelgesetzgebung muss das Herkunftsland der Lebensmittel klar bezeichnet werden. Konkret muss heute auf allen Lebensmitteln das Produktionsland angegeben sein (Art. 12 Abs. 1 Bst. a Lebensmittelgesetz [LMG; SR 817.0], Art. 36 Abs. 1 Bst. e Lebensmittel- und Gebrauchsgegenständeverordnung [LGV; SR 817.02] und Art. 3 Abs. 1 Bst. h der Verordnung des EDI betreffend die Information über Lebensmittel [LIV; SR 817.022.16]). Bei offen in Verkehr gebrachten Lebensmitteln (beispielsweise bei in einer Bäckerei verkauftem Brot) muss diese Information entweder schriftlich oder mündlich verfügbar sein (Art. 39 Abs. 1 LGV). Es ist Sache des Betriebs, dies zu gewährleisten.</p><p>Als Produktionsland gilt das Land, in dem das Lebensmittel hauptsächlich verarbeitet wird (Art. 15 Abs. 1 LIV). Es genügt beispielsweise nicht, importiertes vorgebackenes Brot in der Schweiz fertig zu backen, um es als in der Schweiz hergestelltes Produkt kennzeichnen zu können. Auf solchen Produkten muss das effektive Produktionsland, aus dem sie importiert wurden, angegeben werden, bei Produkten im Offenverkauf muss diese Information mündlich erfragt werden können.</p><p>Zudem können Bäckereien und Restaurants zur Aufwertung ihrer Produkte freiwillige Informationen bereitstellen (lokale Produktion, Brot vom Bäcker usw.) oder ein Label zu diesem Zweck schaffen. Auch mit der \" Swissness \" kann geworben werden, sofern die Anforderungen des Markenschutzgesetzes (SR 232.11), insbesondere der Verordnung über die Verwendung von schweizerischen Herkunftsangaben für Lebensmittel (HasLV; SR 232.112.1), erfüllt sind. Nach Ansicht des Bundesrates bietet das geltende Schweizer Recht demnach genügend Möglichkeiten, die Schweizer Herkunft von Backwaren hervorzuheben.</p><p>Zudem ist die geltende Gesetzgebung das Ergebnis eines Kompromisses, der im Rahmen der parlamentarischen Beratung der Revision des Lebensmittel- und des Markenschutzgesetzes (\" Swissness \"), die 2017 in Kraft getreten sind; ausgehandelt wurde. Neben dem Anliegen einer besseren Transparenz, damit die Konsumentinnen und Konsumenten bewusste Kaufentscheide treffen können, hat das Parlament auch dem Verwaltungsaufwand und den Kosten für die Unternehmen Rechnung getragen.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Der Bundesrat wird beauftragt, das Recht anzupassen, um das Schweizer Brot zu schützen, das von Schweizer Bäckereien mit Schweizer Mehl hergestellt wird. Dazu soll er ein Label für Restaurants, Bäckereien, Brotverkaufsstellen, Supermärkte usw. einführen, das unter anderem auf Vitrinen, Speisekarten und Produktverpackungen angebracht werden sollte, um hervorzuheben, dass das angebotene Brot in der Schweiz und aus Schweizer Mehl hergestellt wurde.</p><p>Die Presse hat nach einem Besuch von Bäckern im Bundeshaus erneut betont, dass in der Schweiz jährlich etwa 60 kleine, unabhängige Bäckereien schliessen würden. Das sei die stille Erosion einer Welt und eines Know-hows, aufgrund des Drucks der Grossverteiler, der Tankstellenshops und vor allem wegen der stetig wachsenden Importe von tiefgefrorenen Fertigprodukten aus dem Osten.</p><p>Die Möglichkeiten für eine preiswerte Beschaffung in Ländern wie Polen oder Rumänien haben dem lokalen Markt geschadet. Die dort hergestellten Croissants können beispielsweise zum Preis von 11 Rappen bestellt werden, während die Produktionskosten in der Schweiz über einem Franken liegen. Die enorm preiswerten Produkte werden per Lastwagen oder sogar per Flugzeug importiert und haben eine katastrophale CO2-Bilanz. All das wird gemacht, ohne dass Konsumentinnen und Konsumenten detailliert darüber informiert werden.</p><p>Da es heute aufgrund der WTO-Abkommen und der Verträge mit der Europäischen Union (Cassis-de-Dijon-Prinzip) nicht möglich ist, diese Importe infrage zu stellen, braucht es eine absolute Transparenz auf dem Markt. Dies würde den Konsumentinnen und Konsumenten dabei helfen, sich verantwortungsbewusst für Schweizer Brot entscheiden zu können, und so dazu beitragen, dass das Know-how und die Arbeitsplätze in der Schweiz erhalten bleiben und die negativen Auswirkungen auf die Umwelt vermindert werden.</p>"
+      "value": "<p>Der Bundesrat wird beauftragt, das Recht anzupassen, um das Schweizer Brot zu schützen, das von Schweizer Bäckereien mit Schweizer Mehl hergestellt wird. Dazu soll er ein Label für Restaurants, Bäckereien, Brotverkaufsstellen, Supermärkte usw. einführen, das unter anderem auf Vitrinen, Speisekarten und Produktverpackungen angebracht werden sollte, um hervorzuheben, dass das angebotene Brot in der Schweiz und aus Schweizer Mehl hergestellt wurde.</p>"
     },
     {
       "type": {

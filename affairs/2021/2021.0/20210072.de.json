@@ -1,6 +1,6 @@
 {
   "id": 20210072,
-  "updated": "2022-01-27T08:58:21Z",
+  "updated": "2022-03-23T07:22:18Z",
   "additionalIndexing": "66;24;15",
   "affairType": {
     "abbreviation": "BRG",
@@ -108,6 +108,11 @@
           "date": "/Date(1637103600000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1646262000000+0100)/",
+          "id": 3,
+          "name": "Behandelt vom Ständerat"
         }
       ],
       "texts": [
@@ -123,7 +128,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-03-03T00:00:00Z",
+            "text": "Beschluss gemäss Entwurf",
+            "type": 62
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -151,9 +170,57 @@
           },
           "date": "2021-11-17T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3171,
+                    "gender": "m",
+                    "id": 4279,
+                    "name": "Pointet François",
+                    "officialDenomination": "Pointet"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion GL",
+                    "code": "GL",
+                    "id": 137,
+                    "name": "Grünliberale Fraktion"
+                  },
+                  "language": "fr"
+                },
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3180,
+                    "gender": "f",
+                    "id": 4288,
+                    "name": "Schlatter Marionna",
+                    "officialDenomination": "Schlatter"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion G",
+                    "code": "G",
+                    "id": 6,
+                    "name": "Grüne Fraktion"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5115"
+            }
           ],
-          "treatmentCategory": "IIIa/IV"
+          "treatmentCategory": "IIIb/IV"
         },
         {
           "committee": {
@@ -175,7 +242,28 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3052,
+                    "gender": "m",
+                    "id": 4151,
+                    "name": "Dittli Josef",
+                    "officialDenomination": "Dittli"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5113"
             }
@@ -217,6 +305,11 @@
           "date": "/Date(1637103600000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1646262000000+0100)/",
+          "id": 3,
+          "name": "Behandelt vom Ständerat"
         }
       ],
       "texts": [
@@ -248,8 +341,8 @@
   ],
   "shortId": "21.072",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 3,
+    "name": "Behandelt vom Ständerat",
     "doneKey": "0",
     "newKey": 0
   },

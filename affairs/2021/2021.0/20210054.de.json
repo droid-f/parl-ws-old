@@ -1,6 +1,6 @@
 {
   "id": 20210054,
-  "updated": "2022-01-27T08:42:52Z",
+  "updated": "2022-03-23T07:22:07Z",
   "additionalIndexing": "04;2836",
   "affairType": {
     "abbreviation": "BRG",
@@ -113,6 +113,16 @@
           "date": "/Date(1639004400000+0100)/",
           "id": 2,
           "name": "Behandelt vom Nationalrat"
+        },
+        {
+          "date": "/Date(1646262000000+0100)/",
+          "id": 4,
+          "name": "Von beiden Räten behandelt"
+        },
+        {
+          "date": "/Date(1647558000000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -142,6 +152,51 @@
             "date": "2021-12-09T00:00:00Z",
             "text": "Beschluss abweichend vom Entwurf",
             "type": 52
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-03-03T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Annahme in der Schlussabstimmung",
+            "type": 36
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Annahme in der Schlussabstimmung",
+            "type": 36
           }
         ]
       },
@@ -220,7 +275,28 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3199,
+                    "gender": "m",
+                    "id": 4244,
+                    "name": "Zopfi Mathias",
+                    "officialDenomination": "Zopfi"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion G",
+                    "code": "G",
+                    "id": 6,
+                    "name": "Grüne Fraktion"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5113"
             }
@@ -267,6 +343,16 @@
           "date": "/Date(1639004400000+0100)/",
           "id": 2,
           "name": "Behandelt vom Nationalrat"
+        },
+        {
+          "date": "/Date(1646262000000+0100)/",
+          "id": 4,
+          "name": "Von beiden Räten behandelt"
+        },
+        {
+          "date": "/Date(1647558000000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -280,6 +366,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-03-18T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5113"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -298,9 +389,9 @@
   ],
   "shortId": "21.054",
   "state": {
-    "id": 2,
-    "name": "Behandelt vom Nationalrat",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 0
   },
   "texts": [

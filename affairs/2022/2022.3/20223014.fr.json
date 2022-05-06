@@ -1,6 +1,6 @@
 {
   "id": 20223014,
-  "updated": "2022-02-03T11:00:06Z",
+  "updated": "2022-03-15T14:17:47Z",
   "additionalIndexing": "55;36;12;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-03-15T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-23T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -110,7 +127,7 @@
                   },
                   "faction": {
                     "abbreviation": "Groupe M-E",
-                    "id": 139,
+                    "id": 3,
                     "name": "Le Groupe du Centre. Le Centre. PEV."
                   },
                   "language": "de"
@@ -137,6 +154,11 @@
           "date": "/Date(1643670000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1647298800000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -179,10 +201,11 @@
   ],
   "shortId": "22.3014",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {

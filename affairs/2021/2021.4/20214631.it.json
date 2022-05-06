@@ -1,6 +1,6 @@
 {
   "id": 20214631,
-  "updated": "2021-12-20T15:01:12Z",
+  "updated": "2022-03-08T07:53:30Z",
   "additionalIndexing": "2841;36",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Amm."
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-03-07T00:00:00Z",
+            "text": "Ritirato",
+            "type": 17
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-02-23T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Dipartimento dell'interno",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639695600000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1646607600000+0100)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -70,6 +97,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-03-07T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5113"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -262,19 +294,40 @@
   ],
   "shortId": "21.4631",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>In Svizzera esiste attualmente una procedura chiaramente definita che permette il ricorso a terapie per il trattamento delal COVID-19 (raccomandazione del gruppo Clinical Care, iscrizione all'allegato 5 dell'ordinanza 3 COVID-19, decisione di accertamento di Swissmedic). Questa procedura permette di accedere a uno stadio precoce al trattamento prima che l'esame della qualità, della sicurezza e della efficacia sia terminato e che Swissmedic rilasci l'omologazione. Allo stato attuale manca una procedura simile per la profilassi, benché la sua necessità sia incontestabile.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale riconosce l'importanza dell'argomento. Terapie a base di anticorpi monoclonali e antivirali in corso di sviluppo possono permettere una profilassi della COVID-19 di cui potrebbero beneficiare le persone immunodeficienti ad alto rischio di decorso grave che non hanno sviluppato difese immunitarie sufficienti dopo la vaccinazione o per cui la vaccinazione è controindicata.</p><p>La richiesta avanzata nella mozione è tuttavia già largamente adempiuta. Come per la terapia medicamentosa della COVID-19, la Svizzera si è mossa per tempo anche nell'approvvigionamento di medicamenti per la sua profilassi. Per la valutazione dell'efficacia medica è già operativo un processo cui partecipa il gruppo Clinical Care, nel quadro del quale i maggiori infettivologi attivi in Svizzera consolidano le esigenze delle unità di terapia intensiva degli ospedali e consigliano l'Ufficio federale della sanità pubblica.</p><p>Per i motivi succitati, il Consiglio federale propone di respingere la presente mozione, ma raccomanda al contempo l'accoglimento delle mozioni di ugual tenore ad essa correlate Herzog Verena 21.4632 e CSSS-N 22.3005 \"Migliore protezione contro la COVID-19 per le persone con un sistema immunitario indebolito a causa di un cancro o di una malattia cronica\". Nel quadro del loro adempimento la Confederazione dovrà dare il via libera a medicamenti per la profilassi rendendone così possibile l'acquisto.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di definire per la profilassi, analogamente a quanto accade per il trattamento, un chiaro processo di valutazione dei benefici medici delle terapie contro la COVID-19 (precisando in particolare le autorità partecipanti e le loro responsabilità) e renderle così accessibili a uno stadio precoce.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Accesso precoce a terapie profilattiche contro la Covid-19"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Accesso precoce a terapie profilattiche contro la Covid-19"
 }

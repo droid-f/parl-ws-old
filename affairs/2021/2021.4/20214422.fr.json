@@ -1,6 +1,6 @@
 {
   "id": 20214422,
-  "updated": "2021-12-15T09:40:24Z",
+  "updated": "2022-03-18T10:54:12Z",
   "additionalIndexing": "1211;15",
   "affairType": {
     "abbreviation": "Po.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter le postulat."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639436400000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1647558000000+0100)/",
+          "id": 26,
+          "name": "Adopté"
         }
       ],
       "texts": [
@@ -70,6 +97,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-03-18T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5113"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -102,19 +134,33 @@
   ],
   "shortId": "21.4422",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 26,
+    "name": "Adopté",
+    "doneKey": "3",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Comme le Conseil fédéral le relève dans sa réponse à l'interpellation 21.4272, la Sàrl est une forme juridique qui en Suisse connaît un immense succès. Toutefois, si on la compare avec des dispositifs similaires mis en place à l'étranger, elle présente quelques inconvénients non négligeables. Sa constitution requiert ainsi obligatoirement un capital de 20 000 francs. En effet, contrairement à ce qui est le cas pour la société anonyme, il n'est pas possible de ne verser au départ que 50% du capital nécessaire. De même, contrairement à ce que l'Allemagne autorise pour sa \" Unternehmergesellschaft (haftungsbeschränkt) \", le droit suisse ne permet pas de fonder une société avec un capital social limité à un franc.</p><p>Il est exact qu'un modèle d'affaires requiert généralement un capital de départ élevé. Normalement, 20 000 francs (Sàrl) ou 50 000 ou 100 000 francs (SA) ne sont même pas suffisants. Néanmoins, les entreprises dites bootstrapped (c.-à-d. autofinancées avec les moyens du bord) ou les entreprises du secteur des services se distinguent par leur faible besoin en capital de départ. Aujourd'hui, ces entreprises n'ont d'autre choix que de démarrer leur activité sous la forme d'une société de personnes, ou encore avec un apport en capital dont elles n'ont pas besoin au départ ou qui pourrait même être mieux utilisé autrement. Purement gratuites, ces deux contraintes n'apportent strictement rien.</p><p>Pour s'opposer à la mise en place d'une Sàrl avec libération partielle du capital, on avance deux arguments : le manque de protection des créanciers et le risque de faillites abusives. Or, il est tout-à-fait possible d'encadrer juridiquement ces deux risques. Le Conseil fédéral a esquissé des possibilités en ce sens dans sa réponse à l'interpellation 21.4272 (responsabilité solidaire des associés, publication des comptes annuels, limitation de l'opting-out ...). Une autre possibilité, que le Conseil fédéral pourrait creuser, consisterait à interdire aux sociétés dont le capital a été partiellement libéré de se prévaloir de l'appellation \" Sàrl \" dans le cadre des transactions juridiques, cette appellation devant alors être précisée (par ex. \" Sàrl au capital partiellement libéré \", sur le modèle de la \" Unternehmergesellschaft (haftungsbeschränkt) \" allemande). Cette réglementation permettrait de protéger les partenaires commerciaux ou créanciers potentiels de la société, qui identifieraient immédiatement celle-ci comme une Sàrl ayant été constituée avec un capital social inférieur à 20 000 francs.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé de soumettre au Parlement un rapport sur les possibilités qui s'offriraient de permettre la constitution d'une Sàrl avec libération partielle du capital ou, à défaut, de réduire le capital de départ nécessaire. Il examinera dans ce contexte les dispositions qu'il y aurait lieu d'adopter pour protéger les transactions juridiques, notamment les intérêts des créanciers, ainsi que la valeur ajoutée du nouveau dispositif, et procédera à une comparaison avec le droit étranger.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Moderniser la Sàrl"
     }
   ],
-  "title": "Titre suit"
+  "title": "Moderniser la Sàrl"
 }

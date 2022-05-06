@@ -1,6 +1,6 @@
 {
   "id": 20223005,
-  "updated": "2022-01-18T10:41:45Z",
+  "updated": "2022-04-05T17:58:00Z",
   "additionalIndexing": "2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-03-17T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-23T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -137,6 +154,11 @@
           "date": "/Date(1642114800000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1647471600000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -155,7 +177,11 @@
     }
   ],
   "relatedAffairs": [
-
+    {
+      "id": 20223018,
+      "priorityCode": "S",
+      "shortId": "22.3018"
+    }
   ],
   "roles": [
     {
@@ -179,10 +205,11 @@
   ],
   "shortId": "22.3005",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -191,6 +218,13 @@
         "name": "Développement"
       },
       "value": "<p>Selon les estimations, de 100 000 à 200 000 personnes dont le système immunitaire est affaibli en raison d'une maladie ou d'une thérapie (chimiothérapie, traitements immunosuppresseurs, dialyse, etc.) vivent en Suisse. Ces patients dits immunodéprimés sont par exemple atteints de leucémie, de fibrose cystique, de sclérose en plaques, d'arthrite rhumatoïde ou ont subi la transplantation d'un organe.</p><p>Même si les vaccins sont très efficaces, une partie de ces personnes ne développe pas de défenses immunitaires suffisantes contre le COVID-19, même après deux ou trois doses. Elles sont donc doublement affectées : elles ne peuvent pas se protéger contre une infection et, compte tenu de leur maladie sous-jacente, elles courent un risque accru d'une évolution grave en cas d'infection.</p><p>Disposer d'une prophylaxie efficace contre une infection au coronavirus est donc capital pour ces personnes, puisqu'elles ne développent pas de protection suffisante malgré plusieurs doses de vaccin. Alors que le nombre de personnes infectées est élevé, elles ne peuvent se protéger qu'en respectant strictement les mesures d'hygiène, pour elles et leur entourage, ce qui entraîne souvent une forte réduction de leurs contacts sociaux et peut conduire à un isolement social particulièrement marqué.</p><p>L'émission \" Echo der Zeit \" du 10 décembre 2021 de la radio SRF 1 a rapporté qu'un médicament qui peut être utilisé chez ces personnes à titre préventif (donc avant qu'elles soient infectées) bénéficiait d'une autorisation d'urgence aux Etats-Unis depuis début décembre 2021. Administré en une seule dose, ce médicament donne une bonne protection pour au moins six mois. Selon des études, il réduit le risque d'infection au coronavirus d'environ 77 %. De plus, les personnes qui l'ont reçu pendant ces études n'ont pas développé une forme grave ou mortelle de la maladie. En France, l'utilisation de ce médicament pour les personnes immunodéprimées est recommandée officiellement par le Conseil d'orientation de la stratégie vaccinale.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral soutient la demande qui consiste à assurer l'accès aux médicaments utilisés à des fins prophylactiques. Des thérapies à base d'anticorps monoclonaux et antiviraux, actuellement en développement, peuvent permettre une prophylaxie du COVID-19. Les personnes présentant un déficit immunitaire et un risque élevé d'évolution grave qui n'ont pas développé une immunité suffisante après une vaccination ou qui ont une contre-indication à une vaccination pourraient en bénéficier.</p><p>C'est pourquoi le Conseil fédéral est disposé à autoriser l'accès à ces traitements prophylactiques et à se procurer de tels médicaments. Compte tenu des particularités des médicaments concernés, il ne voit pas de véritable possibilité de se les procurer de manière centralisée, mais examinera l'opportunité de signer des garanties d'achat avec les fabricants pour qu'ils puissent être disponibles rapidement. Le Conseil fédéral propose d'accepter la présente motion ainsi que celle du même intitulé 21.4632 Herzog Verena.</p>"
     },
     {
       "type": {
@@ -204,8 +238,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Mieux protéger du COVID-19 les personnes dont le système immunitaire est affaibli par un cancer ou une maladie chronique"
+      "value": "Mieux protéger du Covid-19 les personnes dont le système immunitaire est affaibli par un cancer ou une maladie chronique"
     }
   ],
-  "title": "Mieux protéger du COVID-19 les personnes dont le système immunitaire est affaibli par un cancer ou une maladie chronique"
+  "title": "Mieux protéger du Covid-19 les personnes dont le système immunitaire est affaibli par un cancer ou une maladie chronique"
 }
