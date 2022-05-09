@@ -1,6 +1,6 @@
 {
   "id": 20223367,
-  "updated": "2022-03-22T16:20:05Z",
+  "updated": "2022-05-09T16:18:02Z",
   "additionalIndexing": "09;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-05-09T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-04-13T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -116,7 +133,7 @@
                   "language": "de"
                 }
               ],
-              "sessionId": "5119"
+              "sessionId": "5114"
             }
           ]
         }
@@ -137,6 +154,11 @@
           "date": "/Date(1647817200000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1652047200000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -155,7 +177,11 @@
     }
   ],
   "relatedAffairs": [
-
+    {
+      "id": 20223374,
+      "priorityCode": "S",
+      "shortId": "22.3374"
+    }
   ],
   "roles": [
     {
@@ -179,9 +205,10 @@
   ],
   "shortId": "22.3367",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 1
   },
   "texts": [
@@ -191,6 +218,13 @@
         "name": "Développement"
       },
       "value": "<p>Les dépenses militaires ont été constamment réduites depuis les années 1990, passant de 15,7 milliards par an en 1990 à 5,6 milliards en 2019. En 1990, la part du PIB consacrée à l'armée s'élevait à 1,34 % ; en 2019, elle n'était plus que de 0,67 %. A la suite de mesures d'économie ayant fortement réduit son budget, l'armée a dû différer des acquisitions, si bien qu'il existe à présent des lacunes en matière de capacités. La guerre en Ukraine a montré que, en Europe, des guerres sont encore menées avec des armes d'infanterie, des chars, de l'artillerie, des avions de combat, etc. En raison des prescriptions relatives au frein à l'endettement, il n'est pas possible d'augmenter d'un coup la part du budget fédéral affectée à l'armée. Par conséquent, la planification financière de la Confédération doit être conçue de sorte que les dépenses militaires soient progressivement augmentées dès 2023 afin de représenter 1 % du PIB au plus tard en 2030.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral soutient la demande d'augmenter progressivement les dépenses de l'armée à partir de 2023. Pour atteindre l'objectif visé dans les motions (augmentation des dépenses militaires à au moins 1% du PIB d'ici 2030), le Conseil fédéral évaluera en permanence l'évolution des dépenses de l'armée à la lumière des dépenses globales du budget fédéral.</p>"
     },
     {
       "type": {

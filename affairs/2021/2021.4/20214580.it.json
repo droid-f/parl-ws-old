@@ -1,6 +1,6 @@
 {
   "id": 20214580,
-  "updated": "2021-12-20T15:20:49Z",
+  "updated": "2022-05-09T18:46:26Z",
   "additionalIndexing": "48;15;08",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,42 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Opposizione"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Controverso. Discussione rinviata",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-05-09T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -56,13 +88,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639609200000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1652047200000+0200)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -410,7 +452,7 @@
         "gender": "f",
         "id": 4308,
         "name": "Pasquier-Eichenberger Isabelle",
-        "officialDenomination": "Pasquier"
+        "officialDenomination": "Pasquier-Eichenberger"
       },
       "type": "cosign"
     },
@@ -436,6 +478,16 @@
     },
     {
       "councillor": {
+        "code": 3158,
+        "gender": "m",
+        "id": 4266,
+        "name": "Giezendanner Benjamin",
+        "officialDenomination": "Giezendanner"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
         "code": 3208,
         "gender": "m",
         "id": 4312,
@@ -452,19 +504,41 @@
   ],
   "shortId": "21.4580",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>La Svizzera è attraversata da importanti assi di traffico internazionali, alcuni dei quali hanno un rischio maggiore di incidenti. Tuttavia, le autorità svizzere hanno le informazioni più lacunose d'Europa sugli utenti internazionali delle strade svizzere un particolare del traffico di transito. </p><p>Secondo la Legge federale sulla circolazione stradale LCStr, la Confederazione deve mantenere un sistema d'informazione sui controlli del traffico stradale che deve essere collegato ad altri sistemi d'informazione (articolo 89t lettera e della legge sulla Circolazione Stradale LCStr). </p><p>Fintanto che le autorità di controllo svizzere non saranno collegate al registro internazionale delle imprese di trasporto stradale ERRU (European Register of Road Transport Undertaking), questo mandato legale non potrà essere attuato adeguatamente e la Svizzera sarà privata di informazioni rilevanti per la sicurezza sugli utenti della strada stranieri.</p><p>Nella sua risposta all'interpellanza 21.4018, il Consiglio federale conferma che la partecipazione della Svizzera aumenta la sicurezza stradale. Il Consiglio federale condivide anche l'opinione che sia la Svizzera che gli Stati esteri trarranno vantaggio dal relativo scambio di dati. </p><p>Il sistema collega i registri elettronici nazionali e contiene informazioni che la Svizzera deve attualmente registrare in parte in parallelo. La connessione al sistema internazionale ridurrà quindi anche lo sforzo di applicazione in Svizzera per i trasportatori e l'amministrazione.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Quest'anno il Consiglio federale intende condurre la procedura di consultazione per adeguare la legge sull'accesso alle professioni di trasportatore su strada (LPTS). La modifica di legge creerà la necessaria base legale per la partecipazione all'ERRU.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di preparare e attuare la partecipazione della Svizzera all'ERRU.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Maggiore sicurezza stradale grazie allo scambio di informazioni: consentire alla polizia svizzera di accedere al sistema ERRU"
+      "value": "Maggiore sicurezza stradale grazie allo scambio di informazioni. Consentire alla polizia svizzera di accedere al sistema ERRU"
     }
   ],
-  "title": "Maggiore sicurezza stradale grazie allo scambio di informazioni: consentire alla polizia svizzera di accedere al sistema ERRU"
+  "title": "Maggiore sicurezza stradale grazie allo scambio di informazioni. Consentire alla polizia svizzera di accedere al sistema ERRU"
 }

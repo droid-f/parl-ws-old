@@ -1,6 +1,6 @@
 {
   "id": 20214580,
-  "updated": "2021-12-20T15:20:49Z",
+  "updated": "2022-05-09T18:46:26Z",
   "additionalIndexing": "48;15;08",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,10 +41,42 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Bekämpft"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Bekämpft. Diskussion verschoben",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-05-09T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -57,13 +89,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639609200000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1652047200000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -411,7 +453,7 @@
         "gender": "f",
         "id": 4308,
         "name": "Pasquier-Eichenberger Isabelle",
-        "officialDenomination": "Pasquier"
+        "officialDenomination": "Pasquier-Eichenberger"
       },
       "type": "cosign"
     },
@@ -437,6 +479,16 @@
     },
     {
       "councillor": {
+        "code": 3158,
+        "gender": "m",
+        "id": 4266,
+        "name": "Giezendanner Benjamin",
+        "officialDenomination": "Giezendanner"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
         "code": 3208,
         "gender": "m",
         "id": 4312,
@@ -454,19 +506,41 @@
   ],
   "shortId": "21.4580",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Durch die Schweiz führen wichtige internationale Verkehrsachsen. Auf einigen davon besteht ein erhöhtes Unfallrisiko. Doch die Schweizer Behörden verfügen über die lückenhaftesten Informationen in ganz Europa, was die internationalen Verkehrsteilnehmerinnen und Verkehrsteilnehmer auf Schweizer Strassen betrifft, insbesondere in Bezug auf den Transitverkehr.</p><p>Nach dem Strassenverkehrsgesetz (SVG) muss der Bund ein Informationssystem Strassenverkehrskontrollen führen. Dieses muss mit anderen Informationssystemen verknüpft sein (Art. 89t Bst. e SVG). </p><p>Solange die Schweizer Kontrollbehörden nicht an das internationale Register ERRU angeschlossen sind, kann dieser gesetzliche Auftrag nicht angemessen umgesetzt werden, und der Schweiz fehlen sicherheitsrelevante Informationen über die ausländischen Verkehrsteilnehmerinnen und -teilnehmer. </p><p>In seiner Antwort auf die Interpellation 21.4018 bestätigt der Bundesrat, dass eine Teilnahme der Schweiz am Register die Verkehrssicherheit erhöht. Der Bundesrat teilt auch die Meinung, dass sowohl die Schweiz als auch die ausländischen Staaten von einem entsprechenden Datenaustausch profitieren würden. </p><p>Das System verknüpft die nationalen elektronischen Register und enthält Informationen, die die Schweiz derzeit teilweise parallel erfassen muss. Durch einen Anschluss ans internationale System würde sich demnach in der Schweiz auch der Umsetzungsaufwand für die Strassentransportunternehmen und für die Verwaltung reduzieren.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat beabsichtigt, im laufenden Jahr die Vernehmlassung zur Anpassung des Bundesgesetzes über die Zulassung als Strassentransportunternehmen (STUG) durchzuführen. Mit der Gesetzesanpassung soll die nötige Rechtsgrundlage für die Teilnahme an ERRU geschaffen werden.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, die Teilnahme der Schweiz am europäischen Register der Strassentransportunternehmen (European Register of Road Transport Undertaking, ERRU) vorzubereiten und umzusetzen.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Erhöhung der Verkehrssicherheit durch Informationsaustausch. Der Schweizer Polizei Zugriff auf das europäische Strassentransportregister ermöglichen"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Erhöhung der Verkehrssicherheit durch Informationsaustausch. Der Schweizer Polizei Zugriff auf das europäische Strassentransportregister ermöglichen"
 }

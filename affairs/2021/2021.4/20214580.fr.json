@@ -1,6 +1,6 @@
 {
   "id": 20214580,
-  "updated": "2021-12-20T15:20:49Z",
+  "updated": "2022-05-09T18:46:26Z",
   "additionalIndexing": "48;15;08",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,42 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Combattu"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Combattu. Discussion reportée",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-05-09T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -56,13 +88,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639609200000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1652047200000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -410,7 +452,7 @@
         "gender": "f",
         "id": 4308,
         "name": "Pasquier-Eichenberger Isabelle",
-        "officialDenomination": "Pasquier"
+        "officialDenomination": "Pasquier-Eichenberger"
       },
       "type": "cosign"
     },
@@ -436,6 +478,16 @@
     },
     {
       "councillor": {
+        "code": 3158,
+        "gender": "m",
+        "id": 4266,
+        "name": "Giezendanner Benjamin",
+        "officialDenomination": "Giezendanner"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
         "code": 3208,
         "gender": "m",
         "id": 4312,
@@ -452,19 +504,41 @@
   ],
   "shortId": "21.4580",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>La Suisse est traversée par d'importants axes routiers internationaux, dont certains présentent un danger d'accident accru. Les autorités suisses sont toutefois les moins bien loties en Europe, en ce qui concerne les informations sur les usagers étrangers des routes suisses, en particulier des usagers en transit.</p><p>En vertu de la loi fédérale sur la circulation routière (LCR), la Confédération exploite un système d'information relatif aux contrôles de la circulation routière qui doit être connecté avec d'autres systèmes d'information (art. 89t, let. e, LCR).</p><p>Ce mandat légal ne pourra pas être rempli adéquatement tant que les autorités de contrôle suisses ne seront pas reliées à l'ERRU et notre pays demeurera privé d'informations importantes pour la sécurité concernant les usagers de la route étrangers.</p><p>Dans sa réponse à l'ip. 21.4018, le Conseil fédéral confirme que la participation de la Suisse à l'ERRU \" pourrait avoir une incidence positive sur la sécurité routière \" et estime lui aussi que \" tant la Suisse que l'UE bénéficieraient d'un échange fondé sur l'ERRU \".</p><p>L'ERRU relie les registres électroniques nationaux et contient des informations que la Suisse doit en partie enregistrer de son côté. La participation à l'ERRU simplifierait donc la tâche tant des transporteurs que de l'administration.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral a l'intention de mettre en consultation l'adaptation de la loi fédérale du 20 mars 2009 sur les entreprises de transport par route (LEnTR) durant cette année. Cette adaptation de la loi doit permettre de créer la base juridique nécessaire pour participer à l'ERRU.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé de préparer et de mettre en oeuvre la participation de la Suisse au système de registre européen des entreprises de transport routier (ERRU).</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Amélioration de la sécurité routière grâce à l'échange d'informations. Permettre à la police suisse d'accéder à l'ERRU"
     }
   ],
-  "title": "Titre suit"
+  "title": "Amélioration de la sécurité routière grâce à l'échange d'informations. Permettre à la police suisse d'accéder à l'ERRU"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20214561,
-  "updated": "2021-12-27T10:36:53Z",
+  "updated": "2022-05-09T18:45:42Z",
   "additionalIndexing": "66;15",
   "affairType": {
     "abbreviation": "Po.",
@@ -40,10 +40,42 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Opposizione"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Controverso. Discussione rinviata",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-05-09T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere il postulato."
       },
       "index": 0,
       "links": [
@@ -56,13 +88,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639609200000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1652047200000+0200)/",
+          "id": 26,
+          "name": "Adottato"
         }
       ],
       "texts": [
@@ -70,6 +112,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-05-09T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5114"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -206,6 +253,16 @@
     },
     {
       "councillor": {
+        "code": 3078,
+        "gender": "m",
+        "id": 4163,
+        "name": "Hess Erich",
+        "officialDenomination": "Hess Erich"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
         "code": 3150,
         "gender": "m",
         "id": 4258,
@@ -222,19 +279,33 @@
   ],
   "shortId": "21.4561",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 26,
+    "name": "Adottato",
+    "doneKey": "3",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>L'aumento dell'efficienza energetica è un elemento essenziale per raggiungere gli obiettivi della Strategia energetica 2050+. Il potenziale di riduzione del consumo energetico è stimato ad almeno il 30 per cento ed è attualmente lontano dall'essere sfruttato. L'efficienza energetica comprende anche la \"sufficienza\", cioè le ottimizzazioni operative e i cambiamenti di comportamento. L'ottimizzazione operativa si riferisce principalmente al funzionamento a vuoto: molti motori e processi di produzione girano a vuoto per determinati periodi perché l'esercizio non è ottimizzato. La ventilazione e l'illuminazione sono spesso in funzione anche se nell'ambiente in questione non c'è nessuno. Il funzionamento a vuoto è una forma particolarmente irritante di spreco di energia, perché l'elettricità viene consumata senza alcun beneficio. </p><p>Anche il rapporto dell'UFE sul consumo di energia elettrica del maggio 2021 individua in questo ambito un potenziale di efficientamento energetico. Secondo tale rapporto, gli ostacoli sono rappresentati soprattutto dalla scarsa incidenza dei costi dell'energia rispetto ai costi d'investimento complessivi e ai costi d'esercizio e di gestione. Molti attori quindi non conoscono il proprio consumo energetico o non ritengono che questo sia un ambito in cui intervenire. Inoltre, molti di essi non sono sufficientemente informati sui benefici delle misure di efficienza e hanno conoscenze insufficienti.</p><p>L'Ufficio federale dell'energia ha pubblicato nel 2009 un rapporto in cui veniva fatto un primo punto della situazione sul tema del funzionamento a vuoto nel settore dei servizi. Da allora sono trascorsi più di 10 anni. Con il presente postulato si invita a fare il punto della situazione, a determinare il potenziale di risparmio e a includere altri settori, oltre a quello dei servizi.</p><p>Inoltre, si dovranno presentare proposte su come ridurre il consumo di energia nel funzionamento a vuoto. Incentivi e strumenti potrebbero essere, per esempio, una maggiore sensibilizzazione, un'ulteriore formazione o il sostegno a strumenti come il contracting di risparmio energetico. Si potrebbero anche prendere in considerazione prescrizioni ad hoc per chi fabbrica, installa o utilizza apparecchi elettrici.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di illustrare in un rapporto il potenziale di consumo energetico del funzionamento a vuoto, e di presentare proposte di misure e meccanismi di incentivazione per evitarlo.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Spreco di energia durante il funzionamento a vuoto"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Spreco di energia durante il funzionamento a vuoto"
 }
