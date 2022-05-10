@@ -1,6 +1,6 @@
 {
   "id": 20200026,
-  "updated": "2022-01-31T14:53:08Z",
+  "updated": "2022-05-10T13:08:59Z",
   "additionalIndexing": "1211",
   "affairType": {
     "abbreviation": "BRG",
@@ -113,6 +113,11 @@
           "date": "/Date(1623794400000+0200)/",
           "id": 3,
           "name": "Behandelt vom Ständerat"
+        },
+        {
+          "date": "/Date(1652133600000+0200)/",
+          "id": 4,
+          "name": "Von beiden Räten behandelt"
         }
       ],
       "texts": [
@@ -142,6 +147,21 @@
             "date": "2021-06-16T00:00:00Z",
             "text": "Beschluss abweichend vom Entwurf",
             "type": 52
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-05-10T00:00:00Z",
+            "text": "Abweichung",
+            "type": 37
           }
         ]
       },
@@ -172,7 +192,50 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3131,
+                    "gender": "m",
+                    "id": 4230,
+                    "name": "Bregy Philipp Matthias",
+                    "officialDenomination": "Bregy"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                },
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2698,
+                    "gender": "m",
+                    "id": 3895,
+                    "name": "Lüscher Christian",
+                    "officialDenomination": "Lüscher"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "fr"
+                }
               ],
               "sessionId": "5114"
             }
@@ -267,6 +330,11 @@
           "date": "/Date(1623794400000+0200)/",
           "id": 3,
           "name": "Behandelt vom Ständerat"
+        },
+        {
+          "date": "/Date(1652133600000+0200)/",
+          "id": 4,
+          "name": "Von beiden Räten behandelt"
         }
       ],
       "texts": [
@@ -298,8 +366,8 @@
   ],
   "shortId": "20.026",
   "state": {
-    "id": 3,
-    "name": "Behandelt vom Ständerat",
+    "id": 4,
+    "name": "Von beiden Räten behandelt",
     "doneKey": "0",
     "newKey": 0
   },

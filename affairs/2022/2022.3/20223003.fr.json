@@ -1,6 +1,6 @@
 {
   "id": 20223003,
-  "updated": "2022-01-18T10:41:21Z",
+  "updated": "2022-05-10T13:03:25Z",
   "additionalIndexing": "1211;1221;04;12",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-05-10T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-02-23T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
@@ -73,7 +90,48 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3131,
+                    "gender": "m",
+                    "id": 4230,
+                    "name": "Bregy Philipp Matthias",
+                    "officialDenomination": "Bregy"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe M-E",
+                    "id": 3,
+                    "name": "Le Groupe du Centre. Le Centre. PEV."
+                  },
+                  "language": "de"
+                },
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2698,
+                    "gender": "m",
+                    "id": 3895,
+                    "name": "Lüscher Christian",
+                    "officialDenomination": "Lüscher"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe RL",
+                    "id": 1,
+                    "name": "Groupe libéral-radical"
+                  },
+                  "language": "fr"
+                }
               ],
               "sessionId": "5114"
             }
@@ -117,6 +175,11 @@
           "date": "/Date(1642114800000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1652133600000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -159,10 +222,11 @@
   ],
   "shortId": "22.3003",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -171,6 +235,13 @@
         "name": "Développement"
       },
       "value": "<p>En ce qui concerne la protection de la personnalité, la protection juridique en droit civil est, à l'heure actuelle, souvent à la traîne des évolutions sociales et techniques : en particulier dans le cas d'atteintes à la personnalité diffusées par les nouveaux médias et les médias électroniques, la protection juridique à titre préventif est réduite à néant si des mesures superprovisionnelles ne peuvent pas être obtenues dans les plus brefs délais - et donc souvent en dehors des heures d'ouverture générales des tribunaux. Dans ce contexte, de nombreux pays connaissent déjà des systèmes de juges de garde pour les requêtes en dehors des heures de bureau ou des services de piquet spéciaux au sein des tribunaux. </p><p>Afin que la protection juridique préventive en cas de pareilles atteintes à la personnalité soit garantie même en dehors des heures d'ouverture des tribunaux, il convient de créer un service de piquet dans les cantons en tenant compte des compétences de ces derniers en matière d'organisation judiciaire. Parallèlement, les droits procéduraux de toutes les parties devront être garantis. En outre, dans l'intérêt de tous, ce service de piquet devra être simple, facile à mettre en oeuvre, peu coûteux et efficace. Dans la mesure du possible, il faudra également recourir aux nouveaux moyens de communication électroniques.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La motion demande de poser les bases pour que la protection juridique à titre provisionnel en procédure civile soit possible en dehors des heures habituelles d'ouverture des tribunaux compétents. La Commission des affaires juridiques a également déposé un postulat 22.3002 \"Protection juridique à titre préventif en dehors des heures de bureau\", dont l'objet est identique.</p><p>Avec les mesures superprovisionnelles prévues à l'art. 265 du code de procédure civile (CPC; RS 272), le droit en vigueur offre déjà une protection juridique en cas d'urgence. Cet instrument permet en effet d'agir rapidement en cas d'urgence particulière, des mesures pouvant être prononcées immédiatement sans entendre la partie adverse (art. 265, al. 1, CPC). Le Conseil fédéral peut tout à fait concevoir qu'il faille, dans certaines situations bien précises, notamment en matière de protection de la personnalité, avoir la possibilité de faire prononcer une mesure le soir, avant la matinée du lendemain, ou pendant le week-end, avant le lundi matin.</p><p>Mais la solution à ce problème implique de clarifier diverses questions complexes et dépend de facteurs et d'acteurs différents qu'il s'agit d'intégrer. Ainsi, les heures d'ouverture des tribunaux et l'instauration d'un service de piquet concernent avant tout l'organisation judiciaire, domaine qui relève de la compétence des cantons (art. 122, al. 2, de la Constitution suisse [Cst., RS 101] et art. 3 CPC). Un tel changement ne peut se faire sans examiner les limites posées au législateur fédéral dans ce domaine et sans intégrer les cantons dans la décision, au vu aussi des conséquences organisationnelles et financières qu'aurait un tel changement pour eux. Mais ce changement avant tout organisationnel n'est pas sans effet sur les règles de procédures. Sont ainsi en particulier à examiner le respect du droit d'être entendu et les modalités de notification des actes et décisions. Il faut en effet pouvoir exiger que la partie destinataire de la décision reçoive des décisions à minuit ou le dimanche. La communication et la réception doivent ensuite être matériellement possibles avec la rapidité souhaitée, ce qui implique d'étudier les possibilités de communication par voie électronique. Enfin, d'autres acteurs doivent être impliqués dans l'examen, en particulier les avocats.</p><p>Au vu des multiples ramifications de cette problématique, le Conseil fédéral privilégie la voie du postulat. L'analyse approfondie des problèmes juridiques posés et la consultation des parties prenantes dans ce cadre permettront de dégager les solutions adéquates et potentiellement acceptables pour tous. Les modifications législatives nécessaires pourront être proposée dans un deuxième temps sur cette base. C'est dans ce sens, et en proposant simultanément d'accepter le postulat 22.3002, que le Conseil fédéral propose le rejet de cette motion.</p>"
     },
     {
       "type": {
