@@ -1,6 +1,6 @@
 {
   "id": 20223015,
-  "updated": "2022-03-25T09:47:38Z",
+  "updated": "2022-05-11T08:23:30Z",
   "additionalIndexing": "2841;34;1236;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-05-11T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-04-27T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -158,6 +175,11 @@
           "date": "/Date(1643929200000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1652220000000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -200,12 +222,20 @@
   ],
   "shortId": "22.3015",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 0
+    "isMotionInSecondCouncil": true,
+    "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral approuve les requêtes formulées dans la motion, qui concordent avec les enseignements du rapport élaboré en réponse au postulat Wehrli 18.4328 \" Dossier électronique du patient. Que faire encore pour qu'il soit pleinement utilisé ? \". Le rapport a notamment établi que la répartition des tâches et des compétences ainsi que le financement de l'exploitation n'étaient pas suffisamment réglementés à l'heure actuelle. C'est pourquoi, le 11 août 2021, le Conseil fédéral a décidé de procéder à un examen approfondi de la loi fédérale sur le dossier électronique du patient (LDEP ; RS 816.1). Au vu des résultats de cet examen, il a décidé, le 27 avril 2022, de lancer une révision de la LDEP au sens de la présente motion.</p><p>Sur la base des retours des cantons et des communautés de référence, il n'est toutefois pas prévu, à l'avenir, de faire reposer le DEP sur une infrastructure physique centralisée unique. Le système décentralisé des communautés de référence doit être maintenu. Cependant, l'interopérabilité de ces dernières engendre une infrastructure centrale virtuelle. De plus, la révision de loi doit permettre l'enregistrement centralisé des données, qui peut par exemple être exploité par une seule communauté de référence. L'objectif est notamment de soutenir l'échange de données dynamiques.</p>"
+    },
     {
       "type": {
         "id": 5,

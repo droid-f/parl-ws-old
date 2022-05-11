@@ -1,6 +1,6 @@
 {
   "id": 20223016,
-  "updated": "2022-02-08T13:53:11Z",
+  "updated": "2022-05-11T08:31:42Z",
   "additionalIndexing": "2841;1236;34",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-05-11T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-05-04T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
@@ -110,13 +127,13 @@
                   },
                   "faction": {
                     "abbreviation": "Groupe M-E",
-                    "id": 139,
+                    "id": 3,
                     "name": "Le Groupe du Centre. Le Centre. PEV."
                   },
                   "language": "fr"
                 }
               ],
-              "sessionId": "5115"
+              "sessionId": "5114"
             }
           ]
         },
@@ -146,13 +163,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1643929200000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1652220000000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -195,9 +222,10 @@
   ],
   "shortId": "22.3016",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 1
   },
   "texts": [
@@ -207,6 +235,13 @@
         "name": "Développement"
       },
       "value": "<p>La littératie des données (\" data literacy \") est la capacité à collecter, gérer, évaluer et appliquer les données de manière critique. Cette capacité nécessite une approche interprofessionnelle et la mise en place d'une culture d'implication et de feed-back continue entre les fournisseurs des données et leurs utilisateurs. Elle nécessite aussi le développement, la mise en place et le respect d'une éthique et d'une utilisation adéquate des données dans un contexte donné, tout comme le développement d'une culture de communication appropriée.</p><p>Certes, différents projets sont déjà en cours. Il est cependant important que le Conseil fédéral mandate des instances telles que l'OFSP, l'OFS et l'Académie suisse des sciences afin d'élaborer, en collaboration avec les experts en littératie des données et les représentants compétents des associations professionnelles concernées, un codex de littératie des données et des directives compatibles avec les développements internationaux. Le Conseil fédéral veille à garantir les moyens logistiques et financiers nécessaires.</p><p>Il est important de collecter et d'évaluer les expériences et les effets de différentes approches thérapeutiques afin de pouvoir formuler, au moins après la fin de la pandémie, les recommandations les plus appropriées sur une prise en charge judicieuse et rentable des patients COVID ambulatoires et sur une éventuelle réduction du besoin d'hospitalisation. C'est ainsi qu'on pourra pallier les faiblesses qui ont été mises en évidence durant la pandémie de COVID-19. Cela aurait un impact durable sur les ressources et les coûts de la santé.</p><p>Cette motion s'inscrit dans le prolongement du \" Rapport concernant l'amélioration de la gestion des données dans le domaine de la santé \" du 12 janvier 2022, qui délaisse cependant le domaine ambulatoire. Elle reprend les demandes de l'interpellation Rieder 20.4173 \" Campagne nationale de promotion des compétences désormais indispensables en matière de traitement des données (data literacy) \" et complète la motion Ettlin 21.3957 \" Transformation numérique dans le système de santé. Rattraper enfin notre retard ! \". Plusieurs plans de littératie des données proposés à l'OFSP et au Conseil fédéral permettraient de passer d'une stratégie de gestion du COVID de type pandémique à une stratégie axée sur la prévention efficace des maladies infectieuses transmissibles telles que la grippe, le VRS et d'autres virus.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>En sa qualité de centre de compétences en matière de statistique fédérale, l'Office fédéral de la statistique (OFS) utilise des données administratives issues des sources les plus diverses. En cela, il pratique depuis de très nombreuses années une gestion des données critique et transversale (\" littératie \" des données). Dans le but d'assurer l'utilisation multiple des données, l'OFS met à la disposition de l'ensemble des entités de l'administration fédérale des services de base (par ex. Ia plateforme d'interopérabilité), également pour le domaine de la santé. A cet effet, il travaille en étroite collaboration avec ses partenaires, à savoir la Chancellerie fédérale (secteur \"Transformation numérique et gouvernance de l'informatique - TNI\"), l'Administration numérique suisse (qui a mis en place les fondements nécessaires dans les domaines architecture, gouvernance, sourcing, collaboration, etc.) ainsi que l'Office fédéral de l'informatique (responsable de la mise à disposition des plateformes techniques).</p><p>Bien entendu, les littératies statistique et des données sont aussi appliquées dans le contexte du système de santé. Ainsi, le 12 janvier 2022, dans le cadre du \"Rapport concernant l'amélioration de la gestion des données dans le domaine de la santé\", le Conseil fédéral a chargé le DFI d'analyser, en coopération avec le DDPS et le DFF, comment développer la compétence en matière de science des données et l'infrastructure d'exploitation des données nécessaire à leur analyse dans le domaine de la santé. Les résultats de cette analyse seront soumis au Conseil fédéral avant la fin 2022.</p><p>Par ailleurs, le rapport en réponse au postulat Humbel 15.4225 \"Mieux utiliser les données médicales pour assurer l'efficience et la qualité des soins\" complètera les analyses déjà en cours. Ses conclusions seront soumises au Conseil fédéral également avant la fin 2022.</p><p>Enfin, dans le cadre de sa réponse à l'interpellation Rieder 20.4173 du 24 septembre 2020 \"Campagne nationale de promotion des compétences désormais indispensables en matière de traitement des données (data literacy)\", le Conseil fédéral a exposé les activités déjà entreprises pour promouvoir une compétence nationale en matière de données (data literacy) comme, par exemple, le soutien au projet \"Renforcement des digital skills dans l'enseignement\" de swissuniversities.</p><p>De son côté, le Fonds national suisse a publié l'appel à projets pour le programme national de recherche \"Covid-19 et société\" (PNR 80). Ce programme dispose d'une enveloppe financière globale de 14 millions de francs et doit permettre de tirer des enseignements de la pandémie de COVID-19 susceptibles d'être transposés dans la gestion proactive de futures pandémies.</p><p>Le Conseil fédéral partage le souci concernant la nécessité de la transformation numérique dans le domaine de la santé. Toutefois, comme exposé ci-dessus, de nombreuses mesures sont d'ores et déjà en cours. Ces mesures répondant à la teneur de la motion, le Conseil fédéral estime qu'il n'est pas nécessaire d'élaborer d'autres méthodologies et concepts en matière de data literacy.</p>"
     },
     {
       "type": {
@@ -220,8 +255,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Mise en oeuvre d’une stratégie durable de littératie des données (compétences en matière de données) dans le cadre de la transformation numérique du système de santé"
+      "value": "Mise en oeuvre d'une stratégie durable de littératie des données (compétences en matière de données) dans le cadre de la transformation numérique du système de santé"
     }
   ],
-  "title": "Mise en oeuvre d’une stratégie durable de littératie des données (compétences en matière de données) dans le cadre de la transformation numérique du système de santé"
+  "title": "Mise en oeuvre d'une stratégie durable de littératie des données (compétences en matière de données) dans le cadre de la transformation numérique du système de santé"
 }

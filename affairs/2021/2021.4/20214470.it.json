@@ -1,6 +1,6 @@
 {
   "id": 20214470,
-  "updated": "2021-12-23T15:25:36Z",
+  "updated": "2022-05-11T10:25:24Z",
   "additionalIndexing": "28;08;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,42 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Opposizione"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Controverso. Discussione rinviata",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-05-11T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -56,13 +88,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Dipartimento dell'interno",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639522800000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1652220000000+0200)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -166,6 +208,16 @@
     },
     {
       "councillor": {
+        "code": 3096,
+        "gender": "f",
+        "id": 4174,
+        "name": "Steinemann Barbara",
+        "officialDenomination": "Steinemann"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
         "code": 3149,
         "gender": "f",
         "id": 4257,
@@ -182,19 +234,34 @@
   ],
   "shortId": "21.4470",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Secondo il sondaggio condotto nel novembre del 2021 sulla violenza nelle coppie, il 42 per cento delle donne e il 24 per cento degli uomini hanno già subìto violenze in una relazione. Ogni due settimane una donna muore a causa di atti di violenza domestica, il che equivale a 25 donne ogni anno. Secondo uno studio condotto nel 2019 da gfs.bern, su un totale di 4495 donne, il 22 per cento ha dichiarato di avere già subìto atti sessuali indesiderati. Proiettato sull'intera popolazione, ciò corrisponde a 800 000 donne. Il 12 per cento o, se proiettato sull'intera popolazione, circa 430 000 donne hanno già subìto violenze sessuali.</p><p>Esperte ed esperti sono concordi nell'affermare che campagne di prevenzione regolari e adeguate ai gruppi target siano un elemento centrale della prevenzione e della lotta contro la violenza. Con la ratifica della Convenzione di Istanbul, la Svizzera si è impegnata a svolgere campagne di questo tipo in collaborazione con organizzazioni e organismi specializzati (art. 13). Le (potenziali) vittime, le persone a loro vicine e le o i (potenziali) autori di violenza devono essere sensibilizzati e informati in modo efficace e mirato sulle cause di violenza, sui loro diritti e sulle offerte di sostegno e protezione. Lo svolgimento regolare di campagne permette di comunicare in modo mirato con i gruppi target e di mettere in evidenza le diverse forme e i diversi gruppi coinvolti nel fenomeno (art. 4 della Convenzione di Istanbul). In altri ambiti sanitari (p. es. HIV/AIDS o incidenti stradali), la Confederazione punta da decenni sull'attuazione di misure di prevenzione, ma finora non ha fatto lo stesso per quanto riguarda la violenza. </p><p>È tempo che non lasci più questo compito a Cantoni e Comuni, che si mobilitano in modo molto diverso l'uno dall'altro, o che si limiti ad accordare aiuti finanziari alle ONG. Con il coinvolgimento di Cantoni, Comuni e istituzioni attive in questo campo, la Confederazione deve fare in modo che l'intera popolazione svizzera sia sensibilizzata e informata sul problema della violenza. L'obiettivo deve essere quello di unire le forze per prevenire la violenza e facilitare l'accesso delle vittime di violenza alle offerte di sostegno e protezione.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di svolgere regolarmente campagne di prevenzione nazionali contro la violenza domestica, sessuale e di genere che trattino varie forme di violenza e siano rivolte in modo mirato a diversi gruppi target e (potenziali) autori o autrici di violenza. Queste campagne devono essere finalizzate all'adempimento degli obblighi di cui agli articoli 4 e 13 della Convenzione di Istanbul e coinvolgere organizzazioni e organismi specializzati.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Campagne di prevenzione contro la violenza"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Campagne di prevenzione contro la violenza"
 }

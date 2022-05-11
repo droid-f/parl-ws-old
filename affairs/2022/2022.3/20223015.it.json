@@ -1,6 +1,6 @@
 {
   "id": 20223015,
-  "updated": "2022-03-25T09:47:38Z",
+  "updated": "2022-05-11T08:23:30Z",
   "additionalIndexing": "2841;34;1236;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-05-11T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-04-27T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -158,6 +175,11 @@
           "date": "/Date(1643929200000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1652220000000+0200)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -200,12 +222,20 @@
   ],
   "shortId": "22.3015",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 0
+    "isMotionInSecondCouncil": true,
+    "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale condivide le richieste della mozione, che coincidono con i risultati del rapporto in adempimento del postulato Wehrli 18.4328 \"Cartella informatizzata del paziente. Che cos'altro si può fare per garantirne il pieno utilizzo?\". Dal rapporto emerge in particolare che la ripartizione dei compiti e delle competenze e il finanziamento dell'esercizio non sono disciplinati a sufficienza. L'11 agosto 2021 il Consiglio federale aveva pertanto deciso di sottoporre a un esame approfondito la legge federale sulla cartella informatizzata del paziente (LCIP; RS 816.1). Sulla base dei risultati di questo esame, il 27 aprile 2022 ha deciso di avviare una revisione della LCIP nel senso della presente mozione.</p><p>Considerati i riscontri dei Cantoni e delle comunità di riferimento, non è tuttavia previsto che in futuro la CIP si basi su un'unica infrastruttura fisica centrale. Il sistema decentralizzato delle comunità di riferimento resterà invariato, ma, grazie all'interoperabilità delle comunità di riferimento, sarà creata un'infrastruttura centrale virtuale. Inoltre, con la revisione della legge dovrà essere resa possibile un'archiviazione centralizzata dei dati gestita, per esempio, da un'unica comunità di riferimento. In questo modo si intende favorire, tra l'altro, lo scambio di dati dinamici.</p>"
+    },
     {
       "type": {
         "id": 5,

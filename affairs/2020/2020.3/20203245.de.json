@@ -1,6 +1,6 @@
 {
   "id": 20203245,
-  "updated": "2020-05-07T11:06:12Z",
+  "updated": "2022-05-11T12:40:04Z",
   "additionalIndexing": "09;2841;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -9,9 +9,9 @@
   },
   "author": {
     "faction": {
-      "abbreviation": "M-E",
+      "abbreviation": "Fraktion M-E",
       "code": "M-E",
-      "id": 139,
+      "id": 3,
       "name": "Die Mitte-Fraktion. Die Mitte. EVP."
     },
     "type": "author"
@@ -34,7 +34,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-05-11T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -65,6 +79,11 @@
           "date": "/Date(1588543200000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1652220000000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -92,9 +111,9 @@
   "roles": [
     {
       "faction": {
-        "abbreviation": "M-E",
+        "abbreviation": "Fraktion M-E",
         "code": "M-E",
-        "id": 139,
+        "id": 3,
         "name": "Die Mitte-Fraktion. Die Mitte. EVP."
       },
       "type": "author"
@@ -112,9 +131,10 @@
   ],
   "shortId": "20.3245",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [

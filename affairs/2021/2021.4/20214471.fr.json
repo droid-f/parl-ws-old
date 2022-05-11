@@ -1,6 +1,6 @@
 {
   "id": 20214471,
-  "updated": "2021-12-23T15:25:22Z",
+  "updated": "2022-05-11T10:25:55Z",
   "additionalIndexing": "28;08;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,42 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Combattu"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Combattu. Discussion reportée",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-05-11T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -56,13 +88,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639522800000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1652220000000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -186,6 +228,16 @@
     },
     {
       "councillor": {
+        "code": 3096,
+        "gender": "f",
+        "id": 4174,
+        "name": "Steinemann Barbara",
+        "officialDenomination": "Steinemann"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
         "code": 3154,
         "gender": "f",
         "id": 4262,
@@ -202,12 +254,27 @@
   ],
   "shortId": "21.4471",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Les violences domestiques, sexuelles et fondées sur le genre sont monnaie courante en Suisse. Une récente enquête menée en novembre 2021 sur la violence au sein du couple révèle que 42 % des femmes et 24 % des hommes ont déjà vécu des actes de violence dans leur couple. Une femme meurt toutes les deux semaines des suites de violences domestiques, ce qui représente en moyenne 25 décès par an. D'après une étude de gfs.bern réalisée en 2019, 22 % des 4 495 femmes interrogées ont déclaré avoir déjà subi des actes sexuels non désirés et 12 % avoir été violées, soit respectivement quelque 800 000 et 430 000 femmes si l'on extrapole à l'ensemble de la Suisse.</p><p>Les spécialistes s'accordent à dire que des campagnes de prévention régulières et ciblées sont essentielles pour prévenir et combattre la violence. En ratifiant la Convention d'Istanbul, la Suisse s'est engagée à mener de telles campagnes en y associant les organisations et les services spécialisés (art. 13). Il s'agit de sensibiliser et d'informer à grande échelle et de manière ciblée les victimes (potentielles), leurs proches ainsi que les auteurs (potentiels) quant aux causes de la violence, à leurs droits et aux possibilités de soutien et de protection qui leur sont offertes. Des campagnes régulières permettront d'adapter la communication au groupe cible, de traiter les différentes formes de violence et de s'adresser aux différents publics (art. 4). Alors que la Confédération mise depuis des décennies sur la prévention dans d'autres domaines de la santé (par exemple pour le sida/VIH ou les accidents de la route), elle n'exploite pas encore ce potentiel dans le domaine de la violence.</p><p>La Confédération doit veiller à ce que la population suisse dans son ensemble soit sensibilisée aux problèmes de violence et informées sur ces questions. Il est grand temps qu'elle cesse de déléguer entièrement ce dossier aux cantons et aux communes, lesquels se mobilisent de manière très différente, et qu'elle octroie un soutien financier aux ONG. Elle associera les cantons, les communes et les institutions engagées dans ce domaine dans le but d'unir les efforts pour prévenir la violence et faciliter l'accès des personnes concernées aux possibilités de soutien et de protection.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé de mener régulièrement des campagnes nationales de prévention des violences domestiques, sexuelles et fondées sur le genre. Ces campagnes couvriront différentes formes de violences et s'adresseront à différents publics cibles ainsi qu'aux (potentiels) auteurs. Elles respecteront les obligations découlant de la Convention du Conseil de l'Europe sur la prévention et la lutte contre la violence à l'égard des femmes et la violence domestique (Convention d'Istanbul, art. 4 et 13) et associeront les organisations et services spécialisés.</p>"
+    },
     {
       "type": {
         "id": 1,

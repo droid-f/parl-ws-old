@@ -1,6 +1,6 @@
 {
   "id": 20223023,
-  "updated": "2022-02-25T13:19:50Z",
+  "updated": "2022-05-11T08:31:59Z",
   "additionalIndexing": "36;34;2831",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-05-11T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-05-04T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -125,13 +142,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Dipartimento dell'interno",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1645657200000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1652220000000+0200)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -174,12 +201,20 @@
   ],
   "shortId": "22.3023",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>La ricerca sulla provenienza serve ad accertare l'origine dei beni culturali ed è un compito permanente di tutti i musei, sia per le nuove acquisizioni che per le collezioni esistenti. Facilitare l'accesso ai risultati tramite una piattaforma adeguata contribuirebbe alla qualità e alla trasparenza della ricerca sulla provenienza e favorirebbe gli scambi tra i ricercatori e le ricercatrici. In caso di accoglimento della mozione sarà attuata la soluzione più economica tra quelle che soddisfano i requisiti qualitativi per una piattaforma di ricerca.</p>"
+    },
     {
       "type": {
         "id": 5,

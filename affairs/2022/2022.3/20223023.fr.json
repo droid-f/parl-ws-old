@@ -1,6 +1,6 @@
 {
   "id": 20223023,
-  "updated": "2022-02-25T13:19:50Z",
+  "updated": "2022-05-11T08:31:59Z",
   "additionalIndexing": "36;34;2831",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-05-11T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-05-04T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -125,13 +142,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1645657200000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1652220000000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -174,12 +201,20 @@
   ],
   "shortId": "22.3023",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La recherche de provenance consiste à tirer au clair des questions ouvertes concernant l'origine des biens culturels. C'est une tâche permanente de tous les musées, qui concerne aussi bien les nouvelles acquisitions que les collections existantes. L'accès facilité aux résultats par le biais d'une plateforme appropriée contribue à la qualité et à la transparence des recherches de provenance et favorise la mise en réseau des chercheurs. En cas d'acceptation de la motion, la solution la plus économique répondant aux exigences qualitatives d'une plateforme de recherche sera mise en oeuvre.</p>"
+    },
     {
       "type": {
         "id": 5,
