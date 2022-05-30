@@ -1,6 +1,6 @@
 {
   "id": 20212021,
-  "updated": "2021-09-20T11:24:19Z",
+  "updated": "2022-05-30T20:23:04Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-05-30T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -71,7 +85,33 @@
           },
           "date": "2021-09-20T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3075,
+                    "gender": "f",
+                    "id": 4181,
+                    "name": "Gmür-Schönenberger Andrea",
+                    "officialDenomination": "Gmür-Schönenberger"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5115"
+            }
           ]
         }
       ],
@@ -91,6 +131,11 @@
           "date": "/Date(1632088800000+0200)/",
           "id": 9,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1653861600000+0200)/",
+          "id": 3,
+          "name": "Behandelt vom Ständerat"
         }
       ],
       "texts": [
@@ -99,6 +144,15 @@
     }
   ],
   "language": "de",
+  "priorityCouncils": [
+    {
+      "abbreviation": "SR",
+      "id": 2,
+      "name": "Ständerat",
+      "type": "S",
+      "priority": 1
+    }
+  ],
   "relatedAffairs": [
 
   ],
@@ -110,10 +164,10 @@
   ],
   "shortId": "21.2021",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
+    "id": 3,
+    "name": "Behandelt vom Ständerat",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

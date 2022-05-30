@@ -1,6 +1,6 @@
 {
   "id": 20213034,
-  "updated": "2021-08-09T16:42:33Z",
+  "updated": "2022-05-30T20:24:57Z",
   "additionalIndexing": "0421;04;2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2021-06-07T00:00:00Z",
             "text": "Trasmissione per esame alla commissione competente",
             "type": 66
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2022-05-30T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
           }
         ]
       },
@@ -87,8 +102,29 @@
           "registrations": [
             {
               "correspondents": [
-
-              ]
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2775,
+                    "gender": "m",
+                    "id": 4075,
+                    "name": "Caroni Andrea",
+                    "officialDenomination": "Caroni"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo RL",
+                    "id": 1,
+                    "name": "Gruppo liberale radicale"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5115"
             }
           ]
         }
@@ -114,6 +150,11 @@
           "date": "/Date(1623016800000+0200)/",
           "id": 33,
           "name": "Assegnato alla Commissione per l’esame preliminare"
+        },
+        {
+          "date": "/Date(1653861600000+0200)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -121,6 +162,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-05-30T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5115"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -203,9 +249,9 @@
   ],
   "shortId": "21.3034",
   "state": {
-    "id": 33,
-    "name": "Assegnato alla Commissione per l’esame preliminare",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
     "newKey": 0
   },
   "texts": [

@@ -1,6 +1,6 @@
 {
   "id": 1159,
-  "updated": "2015-11-12T17:46:50Z",
+  "updated": "2022-05-30T08:19:56Z",
   "canton": "Schwyz",
   "cantonName": "SZ",
   "council": "N",
@@ -275,28 +275,6 @@
       "function": "Präsident/in"
     },
     {
-      "id": 24,
-      "updated": "2019-12-12T12:41:34Z",
-      "entryDate": "2019-12-02T00:00:00Z",
-      "committee": {
-        "id": 12,
-        "updated": "2020-07-15T11:59:55Z",
-        "abbreviation": "RK",
-        "code": "KOM_12_",
-        "committeeNumber": 12,
-        "council": {
-          "id": 1,
-          "updated": "2010-12-26T13:07:49Z",
-          "abbreviation": "NR",
-          "code": "RAT_1_",
-          "name": "Nationalrat",
-          "type": "N"
-        },
-        "name": "Kommission für Rechtsfragen NR"
-      },
-      "function": null
-    },
-    {
       "id": 27,
       "updated": "2019-10-22T15:28:14Z",
       "entryDate": "2019-12-02T00:00:00Z",
@@ -315,6 +293,28 @@
           "type": "N"
         },
         "name": "Finanzkommission NR"
+      },
+      "function": null
+    },
+    {
+      "id": 24,
+      "updated": "2019-12-12T12:41:34Z",
+      "entryDate": "2019-12-02T00:00:00Z",
+      "committee": {
+        "id": 12,
+        "updated": "2020-07-15T11:59:55Z",
+        "abbreviation": "RK",
+        "code": "KOM_12_",
+        "committeeNumber": 12,
+        "council": {
+          "id": 1,
+          "updated": "2010-12-26T13:07:49Z",
+          "abbreviation": "NR",
+          "code": "RAT_1_",
+          "name": "Nationalrat",
+          "type": "N"
+        },
+        "name": "Kommission für Rechtsfragen NR"
       },
       "function": null
     },
@@ -686,8 +686,9 @@
     },
     {
       "id": 29,
-      "updated": "2020-12-17T07:32:58Z",
+      "updated": "2021-12-02T10:52:29Z",
       "entryDate": "2021-01-01T00:00:00Z",
+      "leavingDate": "2021-12-31T00:00:00Z",
       "committee": {
         "id": 28,
         "updated": "2020-07-15T11:59:55Z",
@@ -705,6 +706,28 @@
         "name": "Finanzdelegation"
       },
       "function": "Präsident/in"
+    },
+    {
+      "id": 30,
+      "updated": "2021-12-02T10:52:29Z",
+      "entryDate": "2022-01-01T00:00:00Z",
+      "committee": {
+        "id": 28,
+        "updated": "2020-07-15T11:59:55Z",
+        "abbreviation": "FinDel",
+        "code": "KOM_28_",
+        "committeeNumber": 28,
+        "council": {
+          "id": 3,
+          "updated": "2010-12-26T13:07:49Z",
+          "abbreviation": "V",
+          "code": "RAT_3_",
+          "name": "Vereinigte Bundesversammlung",
+          "type": "B"
+        },
+        "name": "Finanzdelegation"
+      },
+      "function": null
     }
   ],
   "concerns": [
@@ -731,6 +754,13 @@
     },
     {
       "agency": "F",
+      "function": "Gf.",
+      "name": "kapisa coaching gmbh",
+      "organizationType": "-",
+      "type": "GmbH"
+    },
+    {
+      "agency": "F",
       "function": "M",
       "name": "Schweizer Verband für Rechnungslegung, Controlling und Rechnungswesen (veb.ch), Zürich",
       "organizationType": "Bei.",
@@ -738,9 +768,23 @@
     },
     {
       "agency": "F",
+      "function": "P",
+      "name": "Schwyzer Sport",
+      "organizationType": "GL",
+      "type": "Ve."
+    },
+    {
+      "agency": "F",
       "function": "M",
       "name": "EXPERTsuisse, Public Affairs Ausschuss",
       "organizationType": "A",
+      "type": "-"
+    },
+    {
+      "agency": "F",
+      "function": "Bei.",
+      "name": "SVIT Schweiz",
+      "organizationType": "Bei.",
       "type": "-"
     }
   ],
@@ -839,12 +883,10 @@
   ],
   "displayLanguage": "de",
   "domicile": {
-    "canton": "SZ",
-    "city": "Lachen",
-    "addressLine": "Alpenblickstrasse 24",
-    "company": "c/o hs real estate gmbh",
-    "extraAddressLine": "Postfach 361",
-    "zip": "8853"
+    "canton": null,
+    "city": null,
+    "addressLine": null,
+    "zip": "0"
   },
   "factionId": 4,
   "gender": "m",
@@ -860,10 +902,12 @@
   "officialDenomination": "Schwander",
   "partyId": 13,
   "postalAddress": {
-    "canton": null,
-    "city": null,
-    "addressLine": null,
-    "zip": "0"
+    "canton": "SZ",
+    "city": "Lachen",
+    "addressLine": "Alpenblickstrasse 24",
+    "company": "c/o hs real estate gmbh",
+    "extraAddressLine": "Postfach 361",
+    "zip": "8853"
   },
   "professions": [
     "Unternehmer"

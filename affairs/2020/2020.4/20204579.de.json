@@ -1,6 +1,6 @@
 {
   "id": 20204579,
-  "updated": "2021-10-21T08:26:29Z",
+  "updated": "2022-05-30T20:25:52Z",
   "additionalIndexing": "52;2841;55;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -16,7 +16,7 @@
       "officialDenomination": "Graf Maya"
     },
     "faction": {
-      "abbreviation": "G",
+      "abbreviation": "Fraktion G",
       "code": "G",
       "id": 6,
       "name": "Grüne Fraktion"
@@ -55,6 +55,21 @@
             "date": "2021-03-18T00:00:00Z",
             "text": "Zuweisung an die zuständige Kommission zur Vorberatung",
             "type": 66
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-05-30T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
           }
         ]
       },
@@ -107,7 +122,33 @@
           },
           "date": "2020-12-17T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2710,
+                    "gender": "f",
+                    "id": 3907,
+                    "name": "Thorens Goumaz Adèle",
+                    "officialDenomination": "Thorens Goumaz"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion G",
+                    "code": "G",
+                    "id": 6,
+                    "name": "Grüne Fraktion"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5115"
+            }
           ]
         }
       ],
@@ -116,9 +157,9 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "WBF",
-          "id": 8,
-          "name": "Departement für Wirtschaft, Bildung und Forschung",
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
           "leading": true
         }
       ],
@@ -132,6 +173,11 @@
           "date": "/Date(1616022000000+0100)/",
           "id": 33,
           "name": "An die Kommission zur Vorberatung zugewiesen"
+        },
+        {
+          "date": "/Date(1653861600000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -272,7 +318,7 @@
         "officialDenomination": "Graf Maya"
       },
       "faction": {
-        "abbreviation": "G",
+        "abbreviation": "Fraktion G",
         "code": "G",
         "id": 6,
         "name": "Grüne Fraktion"
@@ -282,9 +328,10 @@
   ],
   "shortId": "20.4579",
   "state": {
-    "id": 33,
-    "name": "An die Kommission zur Vorberatung zugewiesen",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [

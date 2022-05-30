@@ -1,6 +1,6 @@
 {
   "id": 20194425,
-  "updated": "2021-12-13T18:14:53Z",
+  "updated": "2022-05-30T20:22:07Z",
   "additionalIndexing": "52;08;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2021-12-13T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2022-05-30T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
           }
         ]
       },
@@ -67,7 +82,73 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSEC-CN",
+            "id": 5,
+            "name": "Commissione della scienza, dell'educazione e della cultura CN",
+            "abbreviation1": "CSEC-CN",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2019-12-12T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CS",
+            "id": 18,
+            "name": "Commissione della scienza, dell'educazione e della cultura CS",
+            "abbreviation1": "CSEC-CS",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2019-12-12T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3075,
+                    "gender": "f",
+                    "id": 4181,
+                    "name": "Gmür-Schönenberger Andrea",
+                    "officialDenomination": "Gmür-Schönenberger"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo M-E",
+                    "id": 3,
+                    "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5115"
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -90,6 +171,11 @@
           "date": "/Date(1639350000000+0100)/",
           "id": 11,
           "name": "Mozione alla seconda Camera"
+        },
+        {
+          "date": "/Date(1653861600000+0200)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -97,6 +183,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-05-30T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5115"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -199,9 +290,9 @@
   ],
   "shortId": "19.4425",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },

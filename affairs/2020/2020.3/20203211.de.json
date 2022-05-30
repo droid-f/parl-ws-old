@@ -1,6 +1,6 @@
 {
   "id": 20203211,
-  "updated": "2022-03-17T14:15:02Z",
+  "updated": "2022-05-30T20:25:36Z",
   "additionalIndexing": "2841;15;10",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2020-09-21T00:00:00Z",
             "text": "Zuweisung an die zuständige Kommission zur Vorberatung",
             "type": 66
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-05-30T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
           }
         ]
       },
@@ -88,7 +103,28 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3108,
+                    "gender": "m",
+                    "id": 4207,
+                    "name": "Müller Damian",
+                    "officialDenomination": "Müller Damian"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5115"
             }
@@ -137,6 +173,11 @@
           "date": "/Date(1600639200000+0200)/",
           "id": 33,
           "name": "An die Kommission zur Vorberatung zugewiesen"
+        },
+        {
+          "date": "/Date(1653861600000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -177,9 +218,10 @@
   ],
   "shortId": "20.3211",
   "state": {
-    "id": 33,
-    "name": "An die Kommission zur Vorberatung zugewiesen",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [

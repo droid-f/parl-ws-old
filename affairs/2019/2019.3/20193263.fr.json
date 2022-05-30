@@ -1,6 +1,6 @@
 {
   "id": 20193263,
-  "updated": "2021-03-11T09:00:43Z",
+  "updated": "2022-05-30T20:21:46Z",
   "additionalIndexing": "08;52;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2021-03-10T00:00:00Z",
             "text": "Adoption",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-05-30T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
           }
         ]
       },
@@ -106,7 +121,27 @@
           },
           "date": "2019-03-21T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3136,
+                    "gender": "m",
+                    "id": 4237,
+                    "name": "Würth Benedikt",
+                    "officialDenomination": "Würth"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5115"
+            }
           ]
         }
       ],
@@ -131,6 +166,11 @@
           "date": "/Date(1615330800000+0100)/",
           "id": 11,
           "name": "Motion au 2e conseil"
+        },
+        {
+          "date": "/Date(1653861600000+0200)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -138,6 +178,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-05-30T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5115"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -590,9 +635,9 @@
   ],
   "shortId": "19.3263",
   "state": {
-    "id": 11,
-    "name": "Motion au 2e conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },

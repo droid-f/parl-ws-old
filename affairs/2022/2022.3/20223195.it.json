@@ -1,6 +1,6 @@
 {
   "id": 20223195,
-  "updated": "2022-03-22T13:28:08Z",
+  "updated": "2022-05-30T14:02:10Z",
   "additionalIndexing": "2836;1211",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Amm."
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-05-24T00:00:00Z",
+            "text": "Ritirato",
+            "type": 17
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Dipartimento dell'interno",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647471600000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1653343200000+0200)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -70,6 +97,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-05-24T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5115"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -132,19 +164,40 @@
   ],
   "shortId": "22.3195",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>L'articolo 2 OPP 3 stabilisce l'elenco dei beneficiari delle prestazioni di previdenza ai sensi della LPP, applicabile alle polizze del 2° e del 3° pilastro. Secondo questa disposizione, in caso di decesso dell'intestatario della previdenza, il primo beneficiario è necessariamente e senza eccezioni il coniuge superstite.</p><p>Soprattutto nelle famiglie ricomposte non è raro che i coniugi decidano di rinunciare reciprocamente a qualsiasi aspettativa successoria in modo da evitare una diluizione del patrimonio incerta, legata all'ordine in cui avviene il loro decesso. </p><p>Tuttavia, con un elenco di beneficiari relativamente rigido, l'OPP 3 esclude de jure l'applicazione delle disposizioni in caso di morte, in particolare delle disposizioni di esclusione dalla successione adottate tra i coniugi, a una parte non trascurabile del patrimonio dei cittadini. Questa regola è obsoleta e non corrisponde alle esigenze attuali dei cittadini. Con la presente mozione il Consiglio federale è incaricato di modificare l'ordinanza in tal senso e di rendere meno restrittiva la disposizione in questione.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Conformemente al mandato costituzionale (art. 113 cpv. 2 lett. a Cost., RS 101), le disposizioni concernenti i beneficiari delle prestazioni della previdenza professionale e del pilastro 3a mirano a compensare la perdita di sostegno subita dai parenti in caso di decesso dell'assicurato. Le prestazioni per il coniuge superstite sono sempre state un elemento fondamentale del diritto previdenziale.</p><p>Contrariamente al diritto successorio, volto a garantire la trasmissione del patrimonio familiare, il ruolo della previdenza professionale è, in caso di decesso dell'assicurato, di provvedere prioritariamente ai bisogni di sostentamento dei familiari.</p><p>In caso di decesso dell'intestatario della previdenza, il coniuge superstite è una delle persone direttamente colpite dalla sua morte e sarebbe privato di un importante sostegno finanziario. È quindi giustificato proteggerlo concedendogli per principio lo statuto di primo beneficiario, come previsto attualmente nell'ordinanza. Permettergli di rinunciare alle sue aspettative di previdenza significherebbe mischiare i principi del diritto successorio e quelli della previdenza professionale.</p><p>Tuttavia, nell'ambito del postulato 22.3220 Nantermod \"OPP 3. Maggiore libertà nella pianificazione successoria\", il Consiglio federale è disposto ad analizzare le disposizioni concernenti i beneficiari delle prestazioni della previdenza professionale e a valutare in modo approfondito se sia necessario intervenire.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di modificare l'articolo 2 \"Beneficiari\" dell'ordinanza sulla legittimazione alle deduzioni fiscali per i contributi a forme di previdenza riconosciute (OPP 3) per consentire all'intestatario della previdenza di modificare interamente l'ordine dei beneficiari mediante un contratto successorio, in particolare per permettergli di escludere il coniuge superstite, se le parti interessate vi acconsentono.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "OPP 3. Maggiore libertà nella pianificazione successoria"
     }
   ],
-  "title": "Titolo segue"
+  "title": "OPP 3. Maggiore libertà nella pianificazione successoria"
 }

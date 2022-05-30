@@ -47,6 +47,9 @@
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-05-25T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
@@ -73,7 +76,48 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3147,
+                    "gender": "m",
+                    "id": 4255,
+                    "name": "Dandrès Christian",
+                    "officialDenomination": "Dandrès"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe S",
+                    "id": 2,
+                    "name": "Groupe socialiste"
+                  },
+                  "language": "fr"
+                },
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2765,
+                    "gender": "m",
+                    "id": 4059,
+                    "name": "Flach Beat",
+                    "officialDenomination": "Flach"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe GL",
+                    "id": 137,
+                    "name": "Groupe vert'libéral"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5115"
             }
@@ -162,9 +206,16 @@
     "id": 24,
     "name": "Non encore traité au conseil",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La motion se base sur une proposition faite dans le cadre de la révision du Code de procédure civile (CPC, RS 272), qui entretemps a été écartée. Le 10 mai 2022, le Conseil national a en effet adopté une autre solution pour modifier l'art. 142 CPC. Concrètement, en cas de notification d'un envoi par courrier \"A+\" un samedi, un dimanche ou un autre jour férié, la communication devrait être réputée avoir eu lieu le premier jour ouvrable qui suit. Ainsi, les destinataires d'envois \"A+\" déclenchant un délai seraient à l'avenir dispensés de vérifier si l'envoi a été reçu le samedi ou le lundi lorsque la case postale est vidée le lundi. Le Conseil national s'est donc prononcé contre une proposition de sa commission des affaires juridiques, qui est à l'origine de cette motion et qui s'était révélée inapte.</p><p>La motion demande que la solution proposée initialement par la CAJ-N pour les envois A+ soit étendue à toutes les lois fédérales. Cette solution passe à côté de son objectif tout d'abord en matière de procédure pénale, où la notification doit toujours se faire par lettre signature ou par tout autre mode de communication impliquant un accusé de réception (art. 85, al. 2, du Code de procédure pénale [CPP, RS 312.0] ainsi que ATF 144 IV 57 consid. 2.3.1). Du reste, il en va de même pour la solution adoptée par le Conseil national. Pour cette seule raison, la motion doit être rejetée.</p><p>Savoir si l'extension de la solution proposée à tous les autres domaines juridiques serait réellement appropriée nécessiterait un examen en détail. Il faudrait de plus examiner comment la solution proposée par la motion s'intégrerait aux diverses règles de procédure cantonales. De ce point de vue également, la motion est en tout cas prématurée. Si le Conseil national accepte la motion malgré ces réserves, le Conseil fédéral proposera au Conseil des Etats de la transformer en mandat d'examen.</p>"
+    },
     {
       "type": {
         "id": 5,
@@ -177,8 +228,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "De l’harmonisation de la computation des délais"
+      "value": "De l'harmonisation de la computation des délais"
     }
   ],
-  "title": "De l’harmonisation de la computation des délais"
+  "title": "De l'harmonisation de la computation des délais"
 }

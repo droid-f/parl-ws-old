@@ -1,6 +1,6 @@
 {
   "id": 20204579,
-  "updated": "2021-10-21T08:26:29Z",
+  "updated": "2022-05-30T20:25:52Z",
   "additionalIndexing": "52;2841;55;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -16,7 +16,7 @@
       "officialDenomination": "Graf Maya"
     },
     "faction": {
-      "abbreviation": "G",
+      "abbreviation": "Gruppo G",
       "id": 6,
       "name": "Gruppo dei Verdi"
     },
@@ -54,6 +54,21 @@
             "date": "2021-03-18T00:00:00Z",
             "text": "Trasmissione per esame alla commissione competente",
             "type": 66
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2022-05-30T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
           }
         ]
       },
@@ -106,7 +121,32 @@
           },
           "date": "2020-12-17T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2710,
+                    "gender": "f",
+                    "id": 3907,
+                    "name": "Thorens Goumaz Adèle",
+                    "officialDenomination": "Thorens Goumaz"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo G",
+                    "id": 6,
+                    "name": "Gruppo dei Verdi"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5115"
+            }
           ]
         }
       ],
@@ -115,9 +155,9 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "DEFR",
-          "id": 8,
-          "name": "Dipartimento dell'economia, della formazione e della ricerca",
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Dipartimento dell'interno",
           "leading": true
         }
       ],
@@ -131,6 +171,11 @@
           "date": "/Date(1616022000000+0100)/",
           "id": 33,
           "name": "Assegnato alla Commissione per l’esame preliminare"
+        },
+        {
+          "date": "/Date(1653861600000+0200)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -271,7 +316,7 @@
         "officialDenomination": "Graf Maya"
       },
       "faction": {
-        "abbreviation": "G",
+        "abbreviation": "Gruppo G",
         "id": 6,
         "name": "Gruppo dei Verdi"
       },
@@ -280,9 +325,10 @@
   ],
   "shortId": "20.4579",
   "state": {
-    "id": 33,
-    "name": "Assegnato alla Commissione per l’esame preliminare",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [

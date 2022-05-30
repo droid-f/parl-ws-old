@@ -47,6 +47,9 @@
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-05-25T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
@@ -71,7 +74,53 @@
           },
           "date": "2022-04-06T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2513,
+                    "gender": "m",
+                    "id": 491,
+                    "name": "Maillard Pierre-Yves",
+                    "officialDenomination": "Maillard"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo S",
+                    "id": 2,
+                    "name": "Gruppo socialista"
+                  },
+                  "language": "fr"
+                },
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3024,
+                    "gender": "m",
+                    "id": 4118,
+                    "name": "Lohr Christian",
+                    "officialDenomination": "Lohr"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo M-E",
+                    "id": 3,
+                    "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5115"
+            }
           ]
         },
         {
@@ -157,7 +206,7 @@
     "id": 24,
     "name": "Non ancora trattato dalla Camera",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -169,18 +218,25 @@
     },
     {
       "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale ha sottolineato a più riprese la sua disponibilità a occuparsi della richiesta avanzata dalla Commissione con la sua mozione, vale a dire di rielaborare le basi in questione, procedere alle valutazioni necessarie, presentare i suoi risultati e procedere agli adeguamenti che dovessero rivelarsi necessari. L'adeguamento delle disposizioni di ordinanza concernenti la valutazione del grado d'invalidità entro il 1° luglio 2023 non è tuttavia possibile per i seguenti motivi:</p><p>Per poter valutare in modo adeguato le novità introdotte con la riforma Ulteriore sviluppo dell'assicurazione invalidità (AI) occorre una base di dati relativa ad almeno due anni, anche perché occorre illustrare non soltanto gli effetti sull'AI ma, come stabilito dal Tribunale federale, anche quelli sulle altre assicurazioni sociali interessate (AINF, AM, PP, PC).</p><p>Le proposte presentate dal Prof. em. Riemer-Kafka (Schweizerische Zeitschrift für Sozialversicherung und berufliche Vorsorge 6/2021 \"Der Weg zu einem invaliditätskonformeren Tabellenlohn\"; www.szs.recht.ch &gt; Archiv &gt; 2021) riguardo a possibili salari statistici corrispondenti all'invalidità non sono ancora affinate a tal punto da poter essere attuate già entro la data richiesta. Tra le altre cose, non è ancora stata effettuata alcuna verifica della praticabilità a lungo termine del \"Job-Matching-Tool\" della Schweizerische Paraplegiker-Forschung in caso di suo impiego sull'arco di più anni per la realizzazione di rilevazioni speciali della struttura dei salari. Inoltre non esistono rilevazioni e analisi concernenti l'impiego del tool per l'allestimento di tabelle per le persone affette da malattie psichiche, che costituiscono il 50 per cento dei beneficiari di rendite dell'AI. Infine occorre chiarire se le proposte presentate tengano sufficientemente conto delle differenze salariali tra donne e uomini, dato che esse sembrerebbero non apportare alcun miglioramento per le donne. I lavori necessari a tal fine in collaborazione con l'Ufficio federale di statistica, responsabile per la Rilevazione svizzera della struttura dei salari (RSS) sono stati avviati e il Prof. em. Riemer-Kafka si è detto disposto a parteciparvi attivamente.</p><p>Nella sua sentenza 8C_256/2021 del 9 marzo 2022, il Tribunale federale ha stabilito che il salario mediano dei salari lordi standardizzati della RSS continua a essere idoneo quale base per la determinazione del reddito con invalidità. Con il concetto di mercato del lavoro equilibrato (art. 16 della legge federale sulla parte generale del diritto delle assicurazioni sociali [LPGA; RS 830.1]) il legislatore parte dal presupposto che per principio anche le persone con problemi di salute possano ancora accedere a posti di lavoro adatti alle loro capacità residue. Si dovrà dunque valutare se le auspicate tabelle RSS adattate all'invalidità siano ancora compatibili con il concetto di mercato del lavoro equilibrato.</p><p>Considerata la chiara affermazione del Tribunale federale, il Consiglio federale è del parere che le novità introdotte con la riforma Ulteriore sviluppo per quanto riguarda la valutazione del grado d'invalidità siano conformi alla legge. Appare quindi tanto più importante valutare in modo approfondito i presupposti necessari per l'eventuale introduzione di nuove basi di calcolo, procedere a una valutazione seria delle novità introdotte con la riforma e dei loro effetti su tutte le assicurazioni sociali interessate e analizzare la possibilità di apportare modifiche nel senso proposto dalla mozione. Il Consiglio federale ha avviato i necessari lavori, ma un'eventuale modifica di ordinanza potrà entrare in vigore al più presto nel 2025.</p>"
+    },
+    {
+      "type": {
         "id": 5,
         "name": "Testo depositato"
       },
-      "value": "<p>Il Consiglio federale è incaricato di implementare entro il 31 giugno 2023 una base di calcolo che, nel determinare il reddito con invalidità, mediante valori statistici consideri le possibilità di reddito realistiche delle persone affette da problemi di salute. Nel farlo, esso tiene conto del fatto che anche nel caso di attività ausiliarie al minimo livello di competenza, proprio perché affette da problemi di salute le persone con disabilità non sono in grado di svolgere determinati lavori e che anche per le attività che, ragionevolmente, si possono assegnare loro, il livello salariale è inferiore a quello delle persone sane.</p><p>Nella rielaborazione delle basi di calcolo, fondata su una metodologia statistica riconosciuta e sullo stato della ricerca, il Consiglio federale tiene conto del nuovo sistema pensionistico lineare, dell'ulteriore sviluppo della valutazione dell'invalidità e, di conseguenza, delle nuove norme a livello di ordinanza in vigore dal 1° gennaio 2022. Come ha più volte annunciato, esso include anche la soluzione proposta da Riemer-Kafka/Schwegler.</p><p>Prima di procedere alla consultazione delle pertinenti modifiche dell'ordinanza, il Consiglio federale rende pubbliche le conseguenze finanziarie dell'elaborazione e consulta le commissioni specialistiche competenti prima della messa in vigore.</p>"
+      "value": "<p>Il Consiglio federale è incaricato di implementare entro il 30 giugno 2023 una base di calcolo che, nel determinare il reddito con invalidità, mediante valori statistici consideri le possibilità di reddito realistiche delle persone affette da problemi di salute. Nel farlo, esso tiene conto del fatto che anche nel caso di attività ausiliarie al minimo livello di competenza, proprio perché affette da problemi di salute le persone con disabilità non sono in grado di svolgere determinati lavori e che anche per le attività che, ragionevolmente, si possono assegnare loro, il livello salariale è inferiore a quello delle persone sane.</p><p>Nella rielaborazione delle basi di calcolo, fondata su una metodologia statistica riconosciuta e sullo stato della ricerca, il Consiglio federale tiene conto del nuovo sistema pensionistico lineare, dell'ulteriore sviluppo della valutazione dell'invalidità e, di conseguenza, delle nuove norme a livello di ordinanza in vigore dal 1° gennaio 2022. Come ha più volte annunciato, esso include anche la soluzione proposta da Riemer-Kafka/Schwegler.</p><p>Prima di procedere alla consultazione delle pertinenti modifiche dell'ordinanza, il Consiglio federale rende pubbliche le conseguenze finanziarie dell'elaborazione e consulta le commissioni specialistiche competenti prima della messa in vigore.</p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Utilizzare scaglioni salariali corrispondenti all’invalidità nel calcolo del grado d’invalidità"
+      "value": "Utilizzare salari statistici corrispondenti all’invalidità nel calcolo del grado d’invalidità"
     }
   ],
-  "title": "Utilizzare scaglioni salariali corrispondenti all’invalidità nel calcolo del grado d’invalidità"
+  "title": "Utilizzare salari statistici corrispondenti all’invalidità nel calcolo del grado d’invalidità"
 }
