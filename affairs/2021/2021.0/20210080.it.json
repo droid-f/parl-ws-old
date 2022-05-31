@@ -1,6 +1,6 @@
 {
   "id": 20210080,
-  "updated": "2022-05-10T08:32:12Z",
+  "updated": "2022-05-31T12:51:10Z",
   "additionalIndexing": "48",
   "affairType": {
     "abbreviation": "OCF",
@@ -113,6 +113,11 @@
           "date": "/Date(1646780400000+0100)/",
           "id": 2,
           "name": "Trattato dal Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1653948000000+0200)/",
+          "id": 4,
+          "name": "Trattato dalle due Camere"
         }
       ],
       "texts": [
@@ -142,6 +147,21 @@
             "date": "2022-03-09T00:00:00Z",
             "text": "Decisione in deroga al disegno (progetto)",
             "type": 52
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2022-05-31T00:00:00Z",
+            "text": "Deroga",
+            "type": 37
           }
         ]
       },
@@ -287,7 +307,27 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3065,
+                    "gender": "m",
+                    "id": 4189,
+                    "name": "Burkart Thierry",
+                    "officialDenomination": "Burkart"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo RL",
+                    "id": 1,
+                    "name": "Gruppo liberale radicale"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5115"
             }
@@ -334,6 +374,11 @@
           "date": "/Date(1646780400000+0100)/",
           "id": 2,
           "name": "Trattato dal Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1653948000000+0200)/",
+          "id": 4,
+          "name": "Trattato dalle due Camere"
         }
       ],
       "texts": [
@@ -365,8 +410,8 @@
   ],
   "shortId": "21.080",
   "state": {
-    "id": 2,
-    "name": "Trattato dal Consiglio nazionale",
+    "id": 4,
+    "name": "Trattato dalle due Camere",
     "doneKey": "0",
     "newKey": 0
   },

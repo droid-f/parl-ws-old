@@ -1,6 +1,6 @@
 {
   "id": 20210080,
-  "updated": "2022-05-10T08:32:12Z",
+  "updated": "2022-05-31T12:51:10Z",
   "additionalIndexing": "48",
   "affairType": {
     "abbreviation": "OCF",
@@ -113,6 +113,11 @@
           "date": "/Date(1646780400000+0100)/",
           "id": 2,
           "name": "Traité par le Conseil national"
+        },
+        {
+          "date": "/Date(1653948000000+0200)/",
+          "id": 4,
+          "name": "Traité par les deux conseils"
         }
       ],
       "texts": [
@@ -142,6 +147,21 @@
             "date": "2022-03-09T00:00:00Z",
             "text": "Décision modifiant le projet",
             "type": 52
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-05-31T00:00:00Z",
+            "text": "Divergences",
+            "type": 37
           }
         ]
       },
@@ -287,7 +307,27 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3065,
+                    "gender": "m",
+                    "id": 4189,
+                    "name": "Burkart Thierry",
+                    "officialDenomination": "Burkart"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe RL",
+                    "id": 1,
+                    "name": "Groupe libéral-radical"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5115"
             }
@@ -334,6 +374,11 @@
           "date": "/Date(1646780400000+0100)/",
           "id": 2,
           "name": "Traité par le Conseil national"
+        },
+        {
+          "date": "/Date(1653948000000+0200)/",
+          "id": 4,
+          "name": "Traité par les deux conseils"
         }
       ],
       "texts": [
@@ -365,8 +410,8 @@
   ],
   "shortId": "21.080",
   "state": {
-    "id": 2,
-    "name": "Traité par le Conseil national",
+    "id": 4,
+    "name": "Traité par les deux conseils",
     "doneKey": "0",
     "newKey": 0
   },
