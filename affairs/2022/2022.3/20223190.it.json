@@ -44,6 +44,9 @@
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere il postulato."
       },
       "index": 0,
       "links": [
@@ -56,7 +59,12 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "CaF",
+          "id": 10,
+          "name": "Cancelleria federale",
+          "leading": true
+        }
       ],
       "states": [
         {
@@ -200,7 +208,7 @@
         "gender": "f",
         "id": 4308,
         "name": "Pasquier-Eichenberger Isabelle",
-        "officialDenomination": "Pasquier"
+        "officialDenomination": "Pasquier-Eichenberger"
       },
       "type": "cosign"
     },
@@ -235,16 +243,37 @@
     "id": 24,
     "name": "Non ancora trattato dalla Camera",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>I dark pattern sono meccanismi progettati per disorientare l'utente e spingerlo a compiere o a non compiere una determinata azione, ad esempio, effettuare un acquisto, sottoscrivere un abbonamento, non abbandonare un sito web o una piattaforma, non cancellare un conto. Lo scopo è commerciale: gli internauti sono esposti il più possibile a messaggi pubblicitari affinché sottoscrivano o non disdicano un contratto a pagamento o prendano decisioni che non sono nel loro interesse. </p><p>Il problema ha assunto dimensioni preoccupanti per i consumatori, soprattutto quando si rende loro difficile o addirittura impossibile porre fine ad un contratto o li si manipola in modo tale da indurli a rendere accessibili più dati personali del necessario.</p><p>Un'indagine condotta dalla Federazione romanda dei consumatori (<a  href=\"https://www.frc.ch/sombres-jeux-dinfluence/\">https://www.frc.ch/sombres-jeux-dinfluence/</a>) su 52 siti e piattaforme digitali ha dimostrato che oltre la metà di essi ostacola la cancellazione dei conti utente e che il 75 per cento utilizza almeno uno dei meccanismi incriminati. Numerosi sono i siti e le piattaforme svizzeri denunciati: tra di essi Deindeal.ch, Coop.ch e Migros.ch. Le pratiche in questione, non disciplinate e scarsamente documentate, sono preoccupanti poiché limitano fortemente o addirittura annullano la libertà di scelta degli utenti. Un rapporto del Consiglio federale permetterà di fare chiarezza su queste pratiche e individuare gli interventi necessari. </p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale è consapevole che il fenomeno dei dark pattern interessa anche la Svizzera e prende il problema molto sul serio. Manca tuttavia ancora una definizione univoca di tale fenomeno. Vi sono diverse tipologie di dark pattern, e queste possono ricadere sotto il campo di applicazione della legge federale contro la concorrenza sleale (LCSl) o della legge sulla protezione dei dati (LPD).</p><p>Secondo l'articolo 3 capoverso 1 lettera b LCSl, dare indicazioni inesatte o fallaci sulle proprie merci o prestazioni e sui loro prezzi è considerato un comportamento sleale. L'articolo 3 capoverso 1 lettera s LCSl stabilisce inoltre che chi offre merci o prestazioni in Internet deve segnatamente indicare le singole fasi tecniche della conclusione di un contratto. Chiunque si rende intenzionalmente colpevole di concorrenza sleale è punito a querela di parte (art. 23 LCSl). La SECO può promuovere un'azione in giudizio contro un'azienda, se ha ricevuto un reclamo relativo a pratiche commerciali sleali e sono lesi gli interessi di molte persone (art. 10 cpv. 3 LCSl). Oltre alla SECO, può proporre azione contro una pratica commerciale sleale anche chiunque è leso nei propri interessi economici (art. 9 cpv. 1 LCSl). Il diritto di azione è riconosciuto anche alle associazioni professionali ed economiche nonché alle organizzazioni di protezione dei consumatori (art. 10 cpv. 2 lett. a e b LCSl).</p><p>Con la revisione totale della legge sulla protezione dei dati, adottata dal Parlamento il 25 settembre 2020 (nLPD; FF 2020 6695), la protezione dei cittadini è stata migliorata sotto diversi aspetti per quanto riguarda le attività in rete. L'articolo 7 capoversi 1 e 2 nLPD, ad esempio, sancisce il principio della \"privacy by design\", secondo cui sotto il profilo tecnico e organizzativo il trattamento dei dati personali deve essere conforme alle disposizioni sulla protezione dei dati. All'articolo 7 capoverso 3 nLPD è inoltre iscritto il principio della \"privacy by default\", il quale esige che, attraverso le impostazioni predefinite del sito web, il trattamento dei dati personali sia circoscritto al minimo indispensabile per lo scopo perseguito. Il nuovo articolo 19 nLPD rafforza dal canto suo la trasparenza in materia di trattamento dei dati.</p><p>Per disporre di maggiori informazioni riguardanti i dark pattern, il Consiglio federale monitora da vicino l'evoluzione internazionale - in particolare nel quadro dell'Organizzazione per la cooperazione e lo sviluppo economico (OCSE) e della Conferenza delle Nazioni Unite sul commercio e lo sviluppo (CNUCES) - e segue le analisi condotte dall'UE. Alla luce dei lavori in corso e delle basi legali recentemente rivedute, il Consiglio federale non ritiene necessario procedere a ulteriori chiarimenti.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di presentare un rapporto concernente l'utilizzo su Internet di elementi dell'interfaccia digitale noti come \"dark pattern\". Il rapporto deve registrare e documentare il ricorso a tali tecniche in siti web, piattaforme digitali e applicazioni e rispondere in particolare alle seguenti domande: la legislazione in vigore tiene conto di queste pratiche e del loro utilizzo cumulativo in uno stesso sito web o piattaforma? Queste pratiche variano a seconda del tipo di piattaforma? Come incidono sulla libera scelta dei consumatori? Qual è la situazione per quanto riguarda le piattaforme con sede in Svizzera? In che modo è possibile limitare l'utilizzo di queste tecniche?</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Documentare la nebulosa dei dark pattern"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Documentare la nebulosa dei dark pattern"
 }

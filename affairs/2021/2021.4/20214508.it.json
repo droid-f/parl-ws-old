@@ -44,6 +44,9 @@
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
@@ -56,7 +59,12 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Dipartimento dell'interno",
+          "leading": true
+        }
       ],
       "states": [
         {
@@ -205,16 +213,37 @@
     "id": 24,
     "name": "Non ancora trattato dalla Camera",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>I sistemi decisionali basati su algoritmi sono strumenti importanti per l'efficienza dei processi dell'Amministrazione federale, sebbene celino rischi da affrontare attivamente. Con la crescente digitalizzazione dell'Amministrazione e il conseguente incremento del numero di dati generati, l'utilizzo di sistemi decisionali automatizzati aumenterà; a maggior ragione è quindi importante riflettere sin d'ora su come gestirli. Un primo passo è fare trasparenza sul numero di sistemi di questo tipo in uso nell'Amministrazione e sui settori in cui sono impiegati. Questo non solo permette alle persone coinvolte e alle parti interessate della società civile di accedere a informazioni, ma consente in particolare anche di svolgere ricerche nell'interesse pubblico sull'utilizzo dei sistemi decisionali algoritmici. Ciò è fondamentale per garantire un dibattito sociale basato su elementi concreti su questo utilizzo, le sue conseguenze e le condizioni quadro necessarie.</p><p>Nel rapporto per il futuro del trattamento e della sicurezza dei dati, il Consiglio federale afferma che, tra l'altro, occorre assicurare trasparenza sugli algoritmi (cfr. misura 50). Trasparenza che oggi non c'è: attualmente, infatti, si può sapere in che ambiti la Confederazione usa gli algoritmi solo se l'informazione è comunicata attivamente o se qualcuno ha chiesto lumi in merito.</p><p>Nell'ottica di un'attività dell'Amministrazione facilmente accessibile, verificabile e comprensibile per il pubblico, è necessario un cambio di paradigma: un registro pubblico può creare trasparenza in tal senso.</p><p>La stessa richiesta figura anche nel parere sulla regolamentazione dei sistemi IA in Svizzera redatto da AlgorithmWatch Svizzera in collaborazione con scienziati e scienziate di varie discipline e con il sostegno del DSI Strategy Lab dell'Università di Zurigo.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il 25 agosto 2021 il Consiglio federale ha deciso di istituire una rete di competenze per l'intelligenza artificiale (Competence Network for Artificial Intelligence, CNAI), che dovrà essere operativa nella primavera del 2022.</p><p>Uno dei mandati assegnati alla CNAI è quello di creare, rendere operativa e mettere a disposizione del pubblico una banca dati strutturata contenente una panoramica dei progetti correnti e delle applicazioni del portafoglio TIC della Confederazione che ricorrono o sono correlati all'intelligenza artificiale (IA), e quindi anche dei sistemi decisionali automatizzati. La banca dati contiene informazioni importanti come il nome del progetto, il settore tematico, l'istituzione interessata e gli interlocutori, ma anche aspetti fondamentali per l'IA, come il tipo di dati utilizzati e le componenti dell'apprendimento automatico. Altre informazioni (come il produttore del sistema, l'analisi dell'impatto sulla protezione dei dati imposta dal metodo della gestione di progetto Hermes ecc.), potranno essere richieste direttamente agli interlocutori menzionati nella banca dati. I progetti e le applicazioni militari classificati e quelli legati alle attività di informazione sono esplicitamente esclusi e non figurano in questa banca dati. Dal 1° gennaio 2022, sul sito della CNAI (www.cnai.swiss) è disponibile una versione ridotta di questa banca dati (lista pubblica).</p><p>Varie disposizioni della nuova legge federale sulla protezione dei dati adottata il 25 settembre 2020incrementano inoltre la trasparenza. Se la decisione individuale automatizzata è presa da un organo federale, questi la designa come tale (art. 21 cpv. 4). Alle persone che fanno valere il proprio diritto d'accesso sono comunicate l'esistenza di una decisione individuale automatizzata e la logica su cui si fonda la decisione (art. 25 cpv. 2 lett. f). Infine, è richiesta una base legale formale quando il tipo di trattamento (che include anche il ricorso ad algoritmi) può comportare una grave ingerenza nei diritti fondamentali della persona interessata (art. 34 cpv. 2 lett. c).</p><p>Il Consiglio federale propone di respingere la mozione in quanto il suo obiettivo è già stato raggiunto.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di allestire un registro pubblico di tutti i sistemi decisionali automatizzati basati su algoritmi impiegati nell'Amministrazione federale. Nel registro dovranno figurare l'uso previsto del sistema, il suo funzionamento, chi ha sviluppato e prodotto il software e (se disponibili) i risultati di una valutazione d'impatto.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Registro pubblico degli algoritmi impiegati nell'Amministrazione"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Registro pubblico degli algoritmi impiegati nell'Amministrazione"
 }
