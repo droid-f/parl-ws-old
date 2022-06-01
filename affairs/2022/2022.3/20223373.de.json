@@ -1,6 +1,6 @@
 {
   "id": 20223373,
-  "updated": "2022-04-04T09:19:42Z",
+  "updated": "2022-06-01T11:14:20Z",
   "additionalIndexing": "28;2831;1236",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-06-01T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-05-25T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -160,6 +177,11 @@
           "date": "/Date(1648677600000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1654034400000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -202,12 +224,20 @@
   ],
   "shortId": "22.3373",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat ist bereit, die gesetzliche Anerkennung der Gebärdensprachen an die Hand zu nehmen. Um die Kohärenz des Behindertengleichstellungsrechts zu gewährleisten, soll dem Anliegen nach gesetzlicher Anerkennung der Gebärdensprachen mit einer entsprechenden Ergänzung des Behindertengleichstellungsgesetzes Rechnung getragen werden. Dies würde es zugleich erlauben, auf die bereits bestehenden gesetzlichen Bestimmungen zur Förderung der Gleichstellung von gehörlosen Menschen zu verweisen. Dieses Vorgehen hätte keine personellen oder finanziellen Auswirkungen. Eine darüber hinausgehende Förderung würde erhebliche personelle und finanzielle Ressourcen erfordern, die nicht vorhanden sind und zur Verfügung gestellt werden müssten.</p>"
+    },
     {
       "type": {
         "id": 5,

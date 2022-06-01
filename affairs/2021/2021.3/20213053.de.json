@@ -1,6 +1,6 @@
 {
   "id": 20213053,
-  "updated": "2021-06-02T15:02:54Z",
+  "updated": "2022-06-01T14:00:39Z",
   "additionalIndexing": "24;55;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2021-06-02T00:00:00Z",
             "text": "Zuweisung an die zuständige Kommission zur Vorberatung",
             "type": 66
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-06-01T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -86,7 +101,33 @@
           },
           "date": "2021-03-03T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3053,
+                    "gender": "m",
+                    "id": 4153,
+                    "name": "Hegglin Peter",
+                    "officialDenomination": "Hegglin Peter"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5115"
+            }
           ]
         }
       ],
@@ -111,6 +152,11 @@
           "date": "/Date(1622584800000+0200)/",
           "id": 33,
           "name": "An die Kommission zur Vorberatung zugewiesen"
+        },
+        {
+          "date": "/Date(1654034400000+0200)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -118,6 +164,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-06-01T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5115"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -155,9 +206,9 @@
   ],
   "shortId": "21.3053",
   "state": {
-    "id": 33,
-    "name": "An die Kommission zur Vorberatung zugewiesen",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 0
   },
   "texts": [

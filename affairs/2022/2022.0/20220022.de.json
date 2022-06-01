@@ -1,6 +1,6 @@
 {
   "id": 20220022,
-  "updated": "2022-04-29T09:00:21Z",
+  "updated": "2022-06-01T17:23:13Z",
   "additionalIndexing": "04;34",
   "affairType": {
     "abbreviation": "BRG",
@@ -128,6 +128,11 @@
           "date": "/Date(1646348400000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1654034400000+0200)/",
+          "id": 3,
+          "name": "Behandelt vom Ständerat"
         }
       ],
       "texts": [
@@ -143,7 +148,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-06-01T00:00:00Z",
+            "text": "Beschluss gemäss Entwurf",
+            "type": 62
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -215,7 +234,28 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3136,
+                    "gender": "m",
+                    "id": 4237,
+                    "name": "Würth Benedikt",
+                    "officialDenomination": "Würth"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5115"
             }
@@ -257,6 +297,11 @@
           "date": "/Date(1646348400000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1654034400000+0200)/",
+          "id": 3,
+          "name": "Behandelt vom Ständerat"
         }
       ],
       "texts": [
@@ -288,10 +333,10 @@
   ],
   "shortId": "22.022",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 3,
+    "name": "Behandelt vom Ständerat",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

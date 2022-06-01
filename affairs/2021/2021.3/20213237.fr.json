@@ -1,6 +1,6 @@
 {
   "id": 20213237,
-  "updated": "2021-06-18T08:34:01Z",
+  "updated": "2022-06-01T14:01:42Z",
   "additionalIndexing": "55;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2021-06-18T00:00:00Z",
             "text": "Adoption",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-06-01T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
           }
         ]
       },
@@ -85,7 +100,32 @@
           },
           "date": "2021-03-17T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3053,
+                    "gender": "m",
+                    "id": 4153,
+                    "name": "Hegglin Peter",
+                    "officialDenomination": "Hegglin Peter"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe M-E",
+                    "id": 3,
+                    "name": "Le Groupe du Centre. Le Centre. PEV."
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5115"
+            }
           ]
         }
       ],
@@ -110,6 +150,11 @@
           "date": "/Date(1623967200000+0200)/",
           "id": 11,
           "name": "Motion au 2e conseil"
+        },
+        {
+          "date": "/Date(1654034400000+0200)/",
+          "id": 26,
+          "name": "Adopté"
         }
       ],
       "texts": [
@@ -117,6 +162,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-06-01T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5115"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -149,9 +199,9 @@
   ],
   "shortId": "21.3237",
   "state": {
-    "id": 11,
-    "name": "Motion au 2e conseil",
-    "doneKey": "0",
+    "id": 26,
+    "name": "Adopté",
+    "doneKey": "3",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },
