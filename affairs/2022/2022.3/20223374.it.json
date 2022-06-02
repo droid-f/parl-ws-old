@@ -1,6 +1,6 @@
 {
   "id": 20223374,
-  "updated": "2022-04-04T09:19:56Z",
+  "updated": "2022-06-02T14:21:11Z",
   "additionalIndexing": "09;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2022-06-02T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-04-13T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -95,7 +112,7 @@
                   "language": "de"
                 }
               ],
-              "sessionId": "5120"
+              "sessionId": "5115"
             }
           ]
         }
@@ -116,6 +133,11 @@
           "date": "/Date(1648677600000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1654120800000+0200)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -162,10 +184,11 @@
   ],
   "shortId": "22.3374",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -174,6 +197,13 @@
         "name": "Motivazione"
       },
       "value": "<p>Dal 1990 la spesa per l'esercito è stata continuamente ridotta passando da 15,7% annuo al 6,8% della spesa federale nel 2019. Nel 1990 l'1,34 per cento del PIL era investito nell'esercito, nel 2019 lo era lo 0,67 per cento. A causa della grande pressione per ridurre le spese destinate all'esercito, gli acquisti sono stati rinviati e ora vi sono lacune in materia di capacità. La guerra in Ucraina ha dimostrato che in Europa le guerre si fanno ancora con armi di fanteria, carri armati, artiglieria, aerei da combattimento ecc. A causa delle prescrizioni del freno all'indebitamento, le finanze della Confederazione non tollerano alcuna manovra affrettata. La pianificazione finanziaria della Confederazione dev'essere orientata verso un aumento progressivo delle spese per l'esercito a partire dal 2023, per arrivare all'1 per cento del PIL al più tardi nel 2030.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale sostiene un aumento graduale delle spese dell'esercito a partire dal 2023. Per quanto riguarda l'obiettivo indicato nella mozione (aumento delle spese dell'esercito ad almeno l'1 per cento del PIL entro il 2030), il Consiglio federale valuterà costantemente l'evoluzione delle spese dell'esercito alla luce delle spese complessive del bilancio della Confederazione.</p>"
     },
     {
       "type": {
@@ -187,8 +217,8 @@
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Graduale aumento delle spese per l’esercito"
+      "value": "Graduale aumento delle spese per l'esercito"
     }
   ],
-  "title": "Graduale aumento delle spese per l’esercito"
+  "title": "Graduale aumento delle spese per l'esercito"
 }
