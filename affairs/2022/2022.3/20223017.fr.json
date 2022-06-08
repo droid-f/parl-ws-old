@@ -1,6 +1,6 @@
 {
   "id": 20223017,
-  "updated": "2022-02-17T10:50:24Z",
+  "updated": "2022-06-08T09:18:40Z",
   "additionalIndexing": "24;34;04;1216",
   "affairType": {
     "abbreviation": "Po.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-06-08T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-04-27T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter le postulat."
       },
       "index": 0,
       "links": [
@@ -110,13 +127,13 @@
                   },
                   "faction": {
                     "abbreviation": "Groupe M-E",
-                    "id": 139,
+                    "id": 3,
                     "name": "Le Groupe du Centre. Le Centre. PEV."
                   },
                   "language": "de"
                 }
               ],
-              "sessionId": "5114"
+              "sessionId": "5115"
             }
           ]
         }
@@ -126,9 +143,9 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "AS-MPC",
-          "id": 12,
-          "name": "Autorité de surveillance du Ministère public de la Confédération",
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
           "leading": true
         }
       ],
@@ -137,6 +154,11 @@
           "date": "/Date(1644879600000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1654639200000+0200)/",
+          "id": 26,
+          "name": "Adopté"
         }
       ],
       "texts": [
@@ -144,6 +166,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-06-08T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5115"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -179,10 +206,10 @@
   ],
   "shortId": "22.3017",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 26,
+    "name": "Adopté",
+    "doneKey": "3",
+    "newKey": 0
   },
   "texts": [
     {
@@ -191,6 +218,13 @@
         "name": "Développement"
       },
       "value": "<p>Les cyberattaques contre des collectivités publiques ou des entreprises ont explosé ces derniers mois. Les rançons sont souvent exigées en bitcoin ou d'autres crypto-monnaies (98% des cas selon certaines sources). Dans le cadre de la proposition 21.4068, le CN Roger Nordmann proposait d'interdire les crypto-monnaies qui ne permettait pas l'identification des ayant-droits économiques. Dans sa réponse, le Conseil fédéral et la Commission de l'économie et des redevances du CN, estime qu'une telle interdiction serait difficilement atteignable et que les outils juridiques actuels contre le blanchiment sont suffisants.</p><p>Les demandes de régulation et d'interdiction des crypto-monnaies montrent aussi une méconnaissance du fonctionnement de ces technologies. Récemment, plusieurs enquêtes de grandes envergures ont montré qu'il est possible de suivre les transactions financières dans les systèmes blockchain associés aux crypto-monnaies. Des outils spécifiques sont utilisés pour ces analyses, ils sont utilisés de manière courante par les autorités de poursuite pénale dans d'autres pays (le FBI, la gendarmerie française, etc.)</p><p>Ces analyses sont toutefois complexes et coûteuses. Un centre d'analyse centralisé, commun aux autorités de poursuite pénale fédérale et cantonale, doit permettre d'assurer ce service.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Les autorités de poursuite pénale suisses (des cantons et de la Confédération) sont de plus en plus confrontées à des affaires impliquant l'utilisation de crypto-monnaies. En conséquence, des logiciels d'analyse spécifiques ont été progressivement acquis par la Confédération et plusieurs cantons pour pouvoir suivre ces transactions financières. Les outils, développés par des entreprises privées et à des coûts variables sont déjà utilisés quotidiennement et donnent des résultats satisfaisants.</p><p>Les difficultés principales de la poursuite pénale dans le domaine des crypto-monnaies proviennent en premier lieu du caractère transfrontalier de ce type de criminalité. Généralement, les avoirs incriminés ont été transférés à plusieurs reprises et hormis la présence en Suisse du lésé, aucun lien de rattachement avec la Suisse ne permet aux autorités de poursuite pénale d'agir en dehors de l'entraide judiciaire internationale en matière pénale. A ce titre, l'usage de technologies, aussi efficaces soient-elles, n'est que d'une utilité secondaire.</p><p>Dans le cadre des enquêtes relevant de la compétence fédérale, fedpol a développé ses capacités en matière d'analyse des transactions financières en crypto-monnaies. Au niveau national, la coordination des moyens, y compris dans le domaine des crypto-monnaies, est gérée par le Réseau national de soutien aux enquêtes dans la lutte contre la criminalité informatique (NEDIK) dont fedpol fait également partie. Ainsi des synergies ont été mises en place déjà entre cantons notamment dans le cadre des concordats régionaux mais également au sein de NEDIK ou du Cyberboard et donc avec fedpol.</p><p>Sans compter les conséquences en matière de recrutement massif de personnel additionnel, le développement d'un centre d'analyse centralisé et commun aux autorités de poursuite pénale fédérales et cantonales irait à contre-courant de la tendance actuellement développée en Suisse. En effet, l'analyse des flux financiers de crypto-monnaies s'impose désormais comme une activité récurrente, dans le cadre des enquêtes menées par les cantons ou par la Confédération. Il appartient à toutes les autorités de poursuite pénale de développer leurs compétences dans ce domaine, une centralisation de celles-ci n'aurait de sens que si l'on envisageait de repenser tout le système de la poursuite pénale en Suisse.</p>"
     },
     {
       "type": {
@@ -204,8 +238,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Renforcer les autorités de poursuite pénale dans le domaine des crypto-monnaies"
+      "value": "Renforcer les autorités de poursuite pénale dans le domaine des cryptomonnaies"
     }
   ],
-  "title": "Renforcer les autorités de poursuite pénale dans le domaine des crypto-monnaies"
+  "title": "Renforcer les autorités de poursuite pénale dans le domaine des cryptomonnaies"
 }

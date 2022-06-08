@@ -1,6 +1,6 @@
 {
   "id": 20210414,
-  "updated": "2021-03-11T15:16:52Z",
+  "updated": "2022-06-08T08:00:34Z",
   "additionalIndexing": "04;2811",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -41,7 +41,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-06-07T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -69,8 +83,57 @@
           },
           "date": "2021-03-11T00:00:00Z",
           "registrations": [
-
-          ]
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3141,
+                    "gender": "f",
+                    "id": 4249,
+                    "name": "Binder-Keller Marianne",
+                    "officialDenomination": "Binder"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                },
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3146,
+                    "gender": "m",
+                    "id": 4254,
+                    "name": "Cottier Damien",
+                    "officialDenomination": "Cottier"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5114"
+            }
+          ],
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
@@ -98,13 +161,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "Parl",
+          "id": 1,
+          "name": "Parlament",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1615417200000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1654552800000+0200)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -112,6 +185,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-06-07T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5115"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -123,7 +201,10 @@
     }
   ],
   "relatedAffairs": [
-
+    {
+      "id": 20212040,
+      "shortId": "21.2040"
+    }
   ],
   "roles": [
     {
@@ -355,9 +436,9 @@
   ],
   "shortId": "21.414",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 0
   },
   "texts": [

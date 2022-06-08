@@ -1,6 +1,6 @@
 {
   "id": 20223371,
-  "updated": "2022-04-04T09:19:21Z",
+  "updated": "2022-06-08T07:31:35Z",
   "additionalIndexing": "04;28;1236",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-06-07T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-04-27T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -160,6 +177,11 @@
           "date": "/Date(1648677600000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1654552800000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -202,10 +224,11 @@
   ],
   "shortId": "22.3371",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -214,6 +237,13 @@
         "name": "Begründung"
       },
       "value": "<p>Die Schweiz ist zurecht Stolz auf ihre direkte Demokratie und die Möglichkeit der politischen Partizipation für alle stimmberechtigten Bürgerinnen und Bürger. Leider können heute die politischen Grundrechte von Menschen mit einer Sehbehinderung nicht selbstständig ausgeübt werden.</p><p>Für die Stimmabgabe benötigen blinde und sehbehinderte Menschen die Unterstützung einer weiteren Person, welche Hilfestellungen leistet oder die Stimme im Namen des Stimmberechtigten abgibt. Menschen mit einer Sehbehinderung haben aktuell keine Alternative und müssen der unterstützenden Person vertrauen, dass diese die Stimme gemäss Anweisung abgibt. Das bedeutet, dass das Wahl- und Stimmgeheimnis für Menschen mit einer Sehbehinderung nicht gewahrt wird.</p><p>Das 2002 verabschiedete Bundesgesetz über die Beseitigung von Benachteiligungen von Menschen mit Behinderungen nimmt unter Artikel 5 Absatz 1 sowohl Bund wie auch Kantone zusätzlich in die Pflicht: \"Bund und Kantone ergreifen Massnahmen, um Benachteiligungen zu verhindern, zu verringern oder zu beseitigen; [...].\"</p><p>Mit den entwickelten Abstimmungsschablonen, welche die Wahrung des Stimmgeheimnisses von Menschen mit einer Sehbehinderung bei nationalen Abstimmung ermöglichen, liegt eine einfache und pragmatische Lösung vor, welche möglichst rasch eingeführt werden soll.</p><p>Die Standardisierung und Anpassungen der Stimmzettel ermöglicht es Menschen mit einer Sehbehinderung, diesen korrekt und eindeutig in die Abstimmungsschablonen einzulegen und so unter Wahrung des Stimmgeheimnis ihre Stimme abzugeben. Eine entsprechende technische Lösung wurde von SZBLIND der verantwortlichen Stelle der Bundeskanzlei vorgestellt.</p><p>Unter Berücksichtigung der durchschnittlichen Stimmbeteiligung ist von 80'000 - 100'000 Betroffenen auszugehen, welche die Abstimmungsschablonen, welche aktuell zwischen 35.- CHF und 50.- CHF kosten, nutzen werden.</p><p>Damit die politische Partizipation bei nationalen Abstimmungen nicht vom Wohnort abhängig ist, sollen auch Gemeinden mit dem E-Counting-System Lösungen entwickeln oder adaptieren, wie es Bundesgesetz zu den Politischen Rechten Artikel 6 fordert.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat ist bereit, in Absprache mit den Kantonen und den betroffenen Organisationen die Voraussetzungen für den Einsatz von Abstimmungsschablonen zu schaffen und deren Finanzierung zu prüfen. Soweit die Motion eine Verpflichtung der Kantone vorsieht, die eigene Stimmzettel für das E-Counting einsetzen, bedingt dies eine Anpassung der rechtlichen Grundlagen auf Bundesebene.</p>"
     },
     {
       "type": {
@@ -227,8 +257,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Stimmgeheimnis - Ein Recht für alle"
+      "value": "Stimmgeheimnis. Ein Recht für alle"
     }
   ],
-  "title": "Stimmgeheimnis - Ein Recht für alle"
+  "title": "Stimmgeheimnis. Ein Recht für alle"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20214598,
-  "updated": "2021-12-20T15:14:49Z",
+  "updated": "2022-06-08T12:24:52Z",
   "additionalIndexing": "09;1216;04",
   "affairType": {
     "abbreviation": "Po.",
@@ -40,10 +40,42 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Opposizione"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Controverso. Discussione rinviata",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-06-08T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-23T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere il postulato."
       },
       "index": 0,
       "links": [
@@ -56,13 +88,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639609200000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1654639200000+0200)/",
+          "id": 26,
+          "name": "Adottato"
         }
       ],
       "texts": [
@@ -70,6 +112,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-06-08T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5115"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -176,6 +223,16 @@
     },
     {
       "councillor": {
+        "code": 3074,
+        "gender": "m",
+        "id": 4161,
+        "name": "Glarner Andreas",
+        "officialDenomination": "Glarner"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
         "code": 3084,
         "gender": "f",
         "id": 4197,
@@ -192,19 +249,40 @@
   ],
   "shortId": "21.4598",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 26,
+    "name": "Adottato",
+    "doneKey": "3",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Negli ultimi anni, nel quadro della lotta al terrorismo e all'estremismo violento sono stati creati compiti e competenze supplementari per la Polizia federale, le polizie cantonali nonché per il Servizio delle attività informative della Confederazione e la giustizia penale. In particolare, è stato esteso il margine di manovra preventivo a un reato. Inoltre, si opera con concetti e definizioni differenti a seconda della legge rilevante. In parte si ha l'impressione che le competenze e le delimitazioni non siano sempre chiare. Ciò può dare adito a problemi sia sul piano giuridico che su quello della politica di sicurezza. Un punto della situazione potrebbe contribuire a eliminare doppioni e riconoscere eventuali lacune giuridiche.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Nell'ambito della lotta al terrorismo e all'estremismo violento diverse autorità federali e cantonali svolgono compiti differenti. Il Consiglio federale comprende pertanto la richiesta di illustrare in modo più approfondito tali competenze all'interno di un rapporto.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di illustrare in un rapporto quali livelli e organi sono competenti per quali forme di lotta al terrorismo e all'estremismo e quali pertinenti basi legali sono previste. Si tratta di delimitare le competenze, ad esempio tra Polizia federale e polizie cantonali, Servizio delle attività informative della Confederazione o autorità giudiziarie penali.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Punto della situazione in materia di lotta al terrorismo e all'estremismo"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Punto della situazione in materia di lotta al terrorismo e all'estremismo"
 }

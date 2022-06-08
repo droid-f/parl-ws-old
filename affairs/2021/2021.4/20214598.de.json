@@ -1,6 +1,6 @@
 {
   "id": 20214598,
-  "updated": "2021-12-20T15:14:49Z",
+  "updated": "2022-06-08T12:24:52Z",
   "additionalIndexing": "09;1216;04",
   "affairType": {
     "abbreviation": "Po.",
@@ -41,10 +41,42 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Bekämpft"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Bekämpft. Diskussion verschoben",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-06-08T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-23T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme des Postulates."
       },
       "index": 0,
       "links": [
@@ -57,13 +89,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639609200000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1654639200000+0200)/",
+          "id": 26,
+          "name": "Angenommen"
         }
       ],
       "texts": [
@@ -71,6 +113,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-06-08T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5115"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -177,6 +224,16 @@
     },
     {
       "councillor": {
+        "code": 3074,
+        "gender": "m",
+        "id": 4161,
+        "name": "Glarner Andreas",
+        "officialDenomination": "Glarner"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
         "code": 3084,
         "gender": "f",
         "id": 4197,
@@ -194,12 +251,33 @@
   ],
   "shortId": "21.4598",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 26,
+    "name": "Angenommen",
+    "doneKey": "3",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Für die Bekämpfung von Terrorismus und gewalttätigen Extremismus sind in den letzten Jahren zusätzliche Befugnisse und Aufgaben für Bundespolizei, kantonale Polizeien, sowie für den Nachrichtendienst und die Strafjustiz geschaffen worden. Insbesondere wurde der Spielraum im Vorfeld einer Straftat erweitert. Zusätzlich wird je nach Gesetz mit unterschiedlichen Begrifflichkeiten und Definitionen operiert. Teilweise ergibt sich daraus der Eindruck, dass die Zuständigkeiten und Abgrenzungen nicht immer klar sind. Dies kann sowohl aus rechtlichen wie auch aus sicherheitspolitischen Überlegungen Probleme geben. Eine Auslegeordnung könnte helfen, Doppelspurigkeiten zu vermeiden, sowie allfällige Rechtslücken zu erkennen.  </p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>In die Bekämpfung von Terrorismus und gewalttätigem Extremismus sind verschiedene Behörden von Bund und Kantonen mit unterschiedlichen Aufgaben involviert. Der Bundesrat hat Verständnis für das Anliegen, dass diese Zuständigkeiten in einem Bericht näher erläutert werden.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, in einem Bericht darzulegen, welche Ebenen und Organe für welche Formen von Terrorismus- und Extremismusbekämpfung zuständig sind und welche gesetzlichen Grundlagen dafür jeweils gegeben sind. Dabei geht es um die Abgrenzung von Zuständigkeiten und Kompetenzen beispielsweise von Bundespolizei und kantonalen Polizeien, Bundespolizei und Nachrichtendienst, sowie zur Strafjustiz.</p>"
+    },
     {
       "type": {
         "id": 1,

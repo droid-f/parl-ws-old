@@ -1,6 +1,6 @@
 {
   "id": 20220013,
-  "updated": "2022-05-10T08:32:55Z",
+  "updated": "2022-06-07T18:18:38Z",
   "affairType": {
     "abbreviation": "PAG",
     "id": 2,
@@ -24,7 +24,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-06-07T00:00:00Z",
+            "text": "Kenntnisnahme",
+            "type": 43
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -81,7 +95,28 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2694,
+                    "gender": "m",
+                    "id": 3891,
+                    "name": "Jositsch Daniel",
+                    "officialDenomination": "Jositsch"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion S",
+                    "code": "S",
+                    "id": 2,
+                    "name": "Sozialdemokratische Fraktion"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5115"
             }
@@ -104,6 +139,11 @@
           "date": "/Date(1642460400000+0100)/",
           "id": 9,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1654552800000+0200)/",
+          "id": 2,
+          "name": "Behandelt vom Nationalrat"
         }
       ],
       "texts": [
@@ -136,8 +176,8 @@
   ],
   "shortId": "22.013",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
+    "id": 2,
+    "name": "Behandelt vom Nationalrat",
     "doneKey": "0",
     "newKey": 0
   },

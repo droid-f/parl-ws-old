@@ -1,6 +1,7 @@
 {
   "id": 20227418,
-  "updated": "2022-06-02T09:57:24Z",
+  "updated": "2022-06-07T16:29:57Z",
+  "additionalIndexing": "04;2841",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-06-07T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2022-06-07T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -67,6 +83,11 @@
           "date": "/Date(1654034400000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1654552800000+0200)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -74,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-06-07T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5115"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -97,12 +123,19 @@
   ],
   "shortId": "22.7418",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La stratégie de surveillance nationale comporte plusieurs systèmes. Les séquençages indiqués sur le tableau de bord Covid-19 proviennent de la surveillance génomique. Il s'agit exclusivement d'échantillons de personnes hospitalisées avec le Covid-19. En complément, la Confédération a mis en place un système de séquençage d'échantillons d'eaux usées. Celui-ci offre une vue d'ensemble des variants du virus présents dans toute la Suisse. L'institut Eawag publie les données de séquençage correspondantes. Toutes les données sont régulièrement analysées par des spécialistes en tenant compte de la situation internationale. Afin de mieux présenter les informations figurant dans le tableau de bord, l'OFSP renverra à la surveillance des eaux usées de l'Eawag. Dans le cadre du Document de base concernant l'évolution à moyen et à long terme de l'épidémie de Covid-19 et la transition vers la \"situation normale\", le Conseil fédéral a stipulé, le 18 mai 2022, que les cantons devaient assurer un traçage des contacts complet si la situation épidémiologique l'exigeait. Dans le cadre d'un sondage, les médecins cantonaux ont précisé qu'ils étaient en mesure de mettre rapidement à disposition les ressources nécessaires à cette fin.</p>"
+    },
     {
       "type": {
         "id": 5,

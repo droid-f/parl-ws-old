@@ -1,6 +1,6 @@
 {
   "id": 20223371,
-  "updated": "2022-04-04T09:19:21Z",
+  "updated": "2022-06-08T07:31:35Z",
   "additionalIndexing": "04;28;1236",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-06-07T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-04-27T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -158,6 +175,11 @@
           "date": "/Date(1648677600000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1654552800000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -200,10 +222,11 @@
   ],
   "shortId": "22.3371",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -215,18 +238,25 @@
     },
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral est prêt, d'entente avec les cantons et les associations concernées, à créer un cadre pour l'utilisation de gabarits de vote et à en examiner le financement. Dès lors que la motion prévoit une obligation faite aux cantons qui utilisent leur propres bulletins pour le comptage électronique des voix, il faudra modifier les bases juridiques au niveau fédéral.</p>"
+    },
+    {
+      "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Le Conseil fédéral est chargé de faire en sorte que le secret du vote puisse être garanti pour les personnes malvoyantes aux élections nationales grâce à l'utilisation de modèles de vote.</p><p>Afin que cette solution pragmatique puisse être introduite, le Conseil fédéral est chargé de confier à la Chancellerie fédérale le mandat de réunir les conditions préalables à l'utilisation de modèles de vote, d'examiner le financement de ces modèles et d'obliger les communes qui utilisent un système de comptage électronique des voix à garantir, après une période transitoire, le secret du vote pour les personnes malvoyantes lors d'élections nationales.</p>"
+      "value": "<p>Le Conseil fédéral est chargé de faire en sorte que le secret du vote puisse être garanti pour les personnes malvoyantes aux élections nationales grâce à l'utilisation de modèles de vote.</p><p>Afin que cette solution pragmatique puisse être introduite, le Conseil fédéral est chargé de confier à la Chancellerie fédérale le mandat de réunir les conditions préalables à l'utilisation de modèles de vote, d'examiner le financement de ces modèles et d'obliger les communes qui utilisent un système de comptage électronique des voix à garantir, après une période transitoire, le secret du vote pour les personnes malvoyantes lors de votations nationales.</p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Le secret du vote : un droit pour tous"
+      "value": "Le secret du vote. Un droit pour tous"
     }
   ],
-  "title": "Le secret du vote : un droit pour tous"
+  "title": "Le secret du vote. Un droit pour tous"
 }

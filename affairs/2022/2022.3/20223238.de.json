@@ -1,6 +1,6 @@
 {
   "id": 20223238,
-  "updated": "2022-03-22T11:44:48Z",
+  "updated": "2022-06-08T15:25:47Z",
   "additionalIndexing": "2841;34;1236",
   "affairType": {
     "abbreviation": "Ip.",
@@ -41,10 +41,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-06-08T00:00:00Z",
+            "text": "Erledigt",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2022-05-25T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -57,13 +72,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647471600000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1654639200000+0200)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -71,6 +96,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-06-08T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5115"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -104,12 +134,26 @@
   ],
   "shortId": "22.3238",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>1. Der Bundesrat ist sich bewusst, dass rund um das elektronische Patientendossier (EPD) diverse Herausforderungen bestehen, die die Einführung und Verbreitung behindern. Im Bericht in Erfüllung des Postulates Wehrli 18.4328 \"Elektronisches Patientendossier. Was gibt es noch zu tun bis zu seiner flächendeckenden Einführung?\" hat der Bundesrat am 11. August 2021 u.a. festgestellt, dass es an einer klaren Aufgaben- und Kompetenzaufteilung sowie einer nachhaltigen Finanzierung fehlt. Er hat das Eidgenössische Departement des Innern (EDI) daher beauftragt, das Bundesgesetz über das elektronische Patientendossier (EPDG; SR 816.1) einer grundlegenden Prüfung zu unterziehen. Basierend auf den Ergebnissen hat der Bundesrat am 27. April 2022 entschieden, eine umfassende Revision des EPDG anzustossen. In diesem Sinne hat er auch die Motion 22.3015 SGK-NR \"Elektronisches Patientendossier. Praxistauglich gestalten und finanziell sichern\" zur Annahme empfohlen, welche am 11. Mai 2022 vom Nationalrat angenommen wurde.</p><p>2. In die Einführung des EPD sind sehr viele Akteure wie Stammgemeinschaften, Gesundheitseinrichtungen, EPD-Plattformanbieter, Identity Provider (Herausgeber von Identifikationsmitteln) sowie die Kompetenz- und Koordinationsstelle eHealth Suisse wie auch Bund und Kantone involviert. Bei den Stammgemeinschaften, den ID-Providern und den Plattformanbietern handelt es sich um private Anbieter, welche die angefallenen Kosten im Rahmen ihrer privatrechtlichen Verträge sowie ihre betriebsinternen Kosten nicht deklarieren müssen. Die Kosten bei den Gesundheitseinrichtungen hängen von der EPD-Anbindung ab, welche je nach Gesundheitseinrichtung unterschiedlich ausfallen kann (bspw. tiefe Integration im Primärsystem versus Anbindung via Web-Portal). Entsprechend kann der Bundesrat keine Schätzung der bisherigen Gesamtkosten abgeben.</p><p>Für die Erfüllung der Aufgaben im Rahmen des EPDG kann der Finanzbedarf auf Seiten Bund und eHealth Suisse für die Jahre 2013 bis 2024 auf rund CHF 80 Mio. geschätzt werden. Bei aktuell rund 8.7 Millionen Einwohnern ergeben sich daher durchschnittliche Kosten von rund CHF 0.75 pro Kopf und Jahr. Dieser Kostenblock enthält die Kosten für die Gesetzgebung und Vollzugsaufwände, Kosten für die Kompetenz- und Koordinationsstelle eHealth Suisse sowie auch die Finanzhilfen des Bundes für den Aufbau und die Zertifizierung der Stammgemeinschaften.</p><p>3. Die Komplexität des EPD-Systems, die fehlende Transparenz und die sich daraus ergebenden Lücken bei der Konsolidierung aller Kosten lassen nur ungefähre Schätzungen zu. Der Bund geht von Betriebskosten für alle Stammgemeinschaften (EPD-Plattform, Personal- und Betriebsaufwand) von circa CHF 59 bis 64 Mio. aus. Die Kosten für die zentralen Dienste des Bundes belaufen sich auf CHF 0.12 Mio. jährlich.</p><p>4. Der Bundesrat geht auf der Basis der Angaben der ID-Provider von Herausgabekosten von mind. CHF 15.- bis 25.- pro Identifikationsmittel (IDM) aus, abhängig vom Identifikationsprozess (persönliche Vorsprache oder Videoidentifikation). Die jährlichen Betriebskosten werden mit rund CHF 5.- pro IDM veranschlagt.</p><p>5. Pro konkretes Vorhaben zur Weiterentwicklung des EPD (z.B. \"eMedikation\", \"eImpfung\") geht der Bund von Kosten von rund CHF 1 bis 2 Mio. für Entwicklung und Implementierung aus. Die von den Stammgemeinschaften zu implementierenden Weiterentwicklungen werden in der Regel im Rahmen der Re-Zertifizierung oder eines jährlichen Wiederholungsaudits geprüft.</p><p>Die Kosten für den jährlichen Wiederholungsaudit und die alle drei Jahre fällige Re-Zertifzierung sind unterschiedlich, weil sie von der Grösse der Stammgemeinschaft und deren Reifegrad sowie den angeschlossenen Gesundheitseinrichtungen abhängen. Durch die verzögerten Betriebsaufnahmen sind noch nicht genug Wiederholungsaudits für eine Kostenschätzung durchgeführt worden. Ebenso wenig wurden bis heute Re-Zertifizierungen vorgenommen.</p><p>6. Gemäss Auskunft der ELGA GmbH (Elektronische Gesundheitsakte in Österreich) beläuft sich das Jahresbudget auf rund EUR 7.5 Mio., wobei Sonderprojekte wie der eImpfpass ein Sonderbudget erhalten. Bei rund 9 Millionen Einwohnern ergeben sich daher Kosten von rund EUR 1 pro Kopf. Diese Kosten sind mit den Kosten für eHealth Suisse vergleichbar. Die Betriebskosten der ELGA sind nicht bekannt.</p><p>7. Im Rahmen der unter Punkt 1 genannten Überprüfung des EPDG wurde auch eine Zentralisierung geprüft. An einem Runden Tisch vom 1. Oktober 2021 haben sich die Stakeholder mehrheitlich für eine Beibehaltung der dezentralen Strukturen ausgesprochen; dies grösstenteils aus Investitionsschutzüberlegungen. Der Bundesrat hat daher entschieden, an der dezentralen Konzeption des EPD festzuhalten. Er ist jedoch auch der Auffassung, dass das EPD angesichts der Kleinräumigkeit der Schweiz heute wohl anders konzipiert werden würde und befürwortet daher grundsätzlich eine Zentralisierung durch natürliche Zusammenschlüsse der Stammgemeinschaften.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Das elektronische Patientendossier (EPD) hätte gemäss dem Bundesgesetz über das elektronische Patientendossier (EPDG) spätestens am 15. April 2020 in Betrieb gehen sollen. Knapp zwei Jahre später hat noch nicht einmal ein Promille der Bevölkerung ein EPD eröffnet. Die Zahl der aktiv genutzten EPD dürfte sogar noch viel tiefer liegen. Dieses Resultat entspricht in keiner Weise den Erwartungen und es steht in keinem Verhältnis zu den Kosten. Die Ursachen dafür sind vielfältig: Das Schweizer EPD beruht auf dezentralen Teilsystemen, die vernetzt, koordiniert und synchronisiert werden müssen. Die doppelte Freiwilligkeit führt dazu, dass beim Start des EPDs die Patienten und die ambulanten Gesundheitsversorger als wichtigste EPD-Akteure fehlen. Die EPD-Architektur lässt auch bereits vorhandene Datenströme zwischen Leistungserbringern - Versicherern - Patienten völlig ausser acht. Die vorgeschriebenen Zertifizierungsverfahren sind im Vergleich zu ihrem Nutzen extrem aufwändig. Und nicht zuletzt erschweren und verteuern die hohen Anforderungen an die elektronische Identität (eID) den Zugriff auf das EPD und auf dessen Einführung, weil die Bevölkerung noch nicht über entsprechende eIDs verfügt. Die Glaubwürdigkeit und Akzeptanz des offensichtlich nicht zielführenden heutigen EPD-Konzepts erodiert. Mit weiterem Zuwarten wird eine Korrektur immer schwieriger und teurer. </p><p>Ich bitte den Bundesrat um die Beantwortung der folgenden Fragen:</p><p>1. Wie beurteilt der Bundesrat den Zustand des Projekts EPD?</p><p>2. Wie hoch schätzt der Bundesrat die bisherigen Gesamtkosten des EPDG-Vollzugs total und pro Kopf der Bevölkerung (Gesetzgebung, Vollzugsaufwände bei Bund und Kantonen, Koordinationsstelle eHealth Suisse, Aufbau und Zertifizierung von Gemeinschaften und Stammgemeinschaften, Umsetzung und Systemintegrationen in Spitälern und Heimen, Entwicklungs- und Testaufwand von Systemanbietern, Entwicklungs- und Zertifizierungskosten der Technikprovider, Umsetzungs- und Zertifizierungskosten der ID-Provider)?</p><p>3. Wie hoch schätzt der Bundesrat nach heutiger Erfahrung die Gesamtkosten (Vollkosten) pro Jahr für den Betrieb aller zertifizierten EPD-Teilsysteme total und pro Kopf der Bevölkerung (Betrieb und Unterhalt der EPD-Plattformen, Betrieb der Managementsysteme, Supportorganisationen, Kundenbetreuung, Datenschutz- und Datensicherheitsmanagement, Schulungen, Incidentmanagement, Testing, Rezertifizierungen, Stichprobenaudits, zentrale Abfragedienste des Bundes, eID für Gesundheitsfachpersonen)?</p><p>4. Wie hoch schätzt der Bundesrat die jährlichen Kosten einer EPD-konformen eID total und pro Kopf der Bevölkerung (Prozesskosten für die Ausgabe und Erneuerung alle fünf Jahre, Lizenzgebühren, Supportkosten)?</p><p>5. Welche jährlichen Gesamt-Investitionen in die Weiterentwicklung des EPD-Schweiz erachtet der Bundesrat total und pro Kopf der Bevölkerung als notwendig (technische Systemanpassungen, funktionale Weiterentwicklung (eMedikation, Impfdaten, mHealth usw.), Nachzertifizierungen, Folgekosten bei den Stammgemeinschaften und Gesundheitseinrichtungen)?</p><p>6. Wieviel kosten Betrieb und Weiterentwicklung der ELGA (Elektronische Gesundheitsakte) in Österreich total pro Kopf der Bevölkerung?</p><p>7. Sieht der Bundesrat in einem Wechsel auf ein zentrales EPD-Konzept eine Möglichkeit, dem EPD zum Durchbruch zu verhelfen?</p>"
+    },
     {
       "type": {
         "id": 1,
