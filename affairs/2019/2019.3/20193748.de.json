@@ -1,6 +1,6 @@
 {
   "id": 20193748,
-  "updated": "2021-11-17T16:03:13Z",
+  "updated": "2022-06-09T10:31:14Z",
   "additionalIndexing": "44;15;2836",
   "affairType": {
     "abbreviation": "Po.",
@@ -16,7 +16,7 @@
       "officialDenomination": "Cramer"
     },
     "faction": {
-      "abbreviation": "G",
+      "abbreviation": "Fraktion G",
       "code": "G",
       "id": 6,
       "name": "Grüne Fraktion"
@@ -55,6 +55,36 @@
             "date": "2019-09-11T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-06-09T00:00:00Z",
+            "text": "Abschreibung",
+            "type": 15
+          },
+          {
+            "category": {
+              "id": 4,
+              "name": "Ergänzung"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-06-09T00:00:00Z",
+            "text": "Im Zusammenhang mit der Beratung des Geschäfts 22.006.",
+            "type": 0
           }
         ]
       },
@@ -68,7 +98,27 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-SR",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2019-06-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        }
       ],
       "references": [
 
@@ -91,6 +141,11 @@
           "date": "/Date(1568152800000+0200)/",
           "id": 26,
           "name": "Angenommen"
+        },
+        {
+          "date": "/Date(1654725600000+0200)/",
+          "id": 25,
+          "name": "Abgeschrieben"
         }
       ],
       "texts": [
@@ -226,7 +281,7 @@
         "officialDenomination": "Cramer"
       },
       "faction": {
-        "abbreviation": "G",
+        "abbreviation": "Fraktion G",
         "code": "G",
         "id": 6,
         "name": "Grüne Fraktion"
@@ -236,9 +291,9 @@
   ],
   "shortId": "19.3748",
   "state": {
-    "id": 26,
-    "name": "Angenommen",
-    "doneKey": "3",
+    "id": 25,
+    "name": "Abgeschrieben",
+    "doneKey": "0",
     "newKey": 0
   },
   "texts": [

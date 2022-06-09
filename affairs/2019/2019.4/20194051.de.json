@@ -1,6 +1,6 @@
 {
   "id": 20194051,
-  "updated": "2021-12-17T16:58:18Z",
+  "updated": "2022-06-09T10:05:21Z",
   "additionalIndexing": "66",
   "affairType": {
     "abbreviation": "Po.",
@@ -48,6 +48,36 @@
             "date": "2019-12-20T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-06-07T00:00:00Z",
+            "text": "Abschreibung",
+            "type": 15
+          },
+          {
+            "category": {
+              "id": 4,
+              "name": "Ergänzung"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-06-07T00:00:00Z",
+            "text": "Im Zusammenhang mit der Beratung des Geschäfts 22.006.",
+            "type": 0
           }
         ]
       },
@@ -61,7 +91,48 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "UREK-NR",
+            "id": 7,
+            "name": "Kommission für Umwelt, Raumplanung und Energie NR",
+            "abbreviation1": "UREK-NR",
+            "abbreviation2": "UREK",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2019-09-18T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "UREK-SR",
+            "id": 20,
+            "name": "Kommission für Umwelt, Raumplanung und Energie SR",
+            "abbreviation1": "UREK-SR",
+            "abbreviation2": "UREK",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2019-09-18T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -84,6 +155,11 @@
           "date": "/Date(1576796400000+0100)/",
           "id": 26,
           "name": "Angenommen"
+        },
+        {
+          "date": "/Date(1654552800000+0200)/",
+          "id": 25,
+          "name": "Abgeschrieben"
         }
       ],
       "texts": [
@@ -132,9 +208,9 @@
   ],
   "shortId": "19.4051",
   "state": {
-    "id": 26,
-    "name": "Angenommen",
-    "doneKey": "3",
+    "id": 25,
+    "name": "Abgeschrieben",
+    "doneKey": "0",
     "newKey": 0
   },
   "texts": [

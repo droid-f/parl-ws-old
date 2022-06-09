@@ -1,6 +1,6 @@
 {
   "id": 20223391,
-  "updated": "2022-05-02T10:01:13Z",
+  "updated": "2022-06-09T12:55:44Z",
   "additionalIndexing": "32",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-06-09T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-05-25T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
@@ -146,13 +163,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1651183200000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1654725600000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -195,12 +222,20 @@
   ],
   "shortId": "22.3391",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>A travers ses tâches d'information et de conseil aux jeunes et aux adultes, l'orientation professionnelle, universitaire et de carrière (OPUC) joue un rôle crucial dans l'espace suisse de formation. Elle permet à tout un chacun d'accéder à une offre d'apprentissage tout au long de la vie. En adoptant en 2002 la loi fédérale sur la formation professionnelle (LFPr ; RS 412.10), le législateur a décidé que la Confédération devait se retirer du financement et de la réglementation dans le domaine de l'OPUC. Le transfert aux cantons de la compétence de l'OPUC (art. 51 LFPr) répond au principe de subsidiarité ; le Conseil fédéral estime que cette mesure a fait ses preuves et qu'elle a permis aux cantons de concevoir l'OPUC comme une prestation complète, qui va au-delà du champ d'application de la LFPr.</p><p>Les cantons sont conscients de l'importance et du potentiel que revêt la coopération intercantonale dans le domaine de l'OPUC et coordonnent leurs mesures en la matière. En octobre 2021, la Conférence suisse des directeurs cantonaux de l'instruction publique (CDIP) a adopté la stratégie nationale pour l'OPUC, qui comprend cinq orientations stratégiques et 21 objectifs au total. Par ailleurs, un plan d'action courant jusqu'à fin 2023 est prévu dans le cadre d'une première phase de mise en oeuvre. La stratégie nationale vise à optimiser les effets de l'OPUC en Suisse et à accroître ainsi l'équité des chances pour la population dans les domaines de la formation et de la vie professionnelle.</p><p>Dans le cadre de l'encouragement de projets (art. 54 et 55 LFPr), la Confédération a déjà la possibilité d'indemniser certaines prestations fournies par les cantons en matière d'OPUC et de contribuer ainsi à l'existence d'une offre de qualité. Elle pratique déjà activement cette forme d'encouragement. Ainsi, le Secrétariat d'Etat à la formation, à la recherche et à l'innovation (SEFRI) encourage l'OPUC dans deux domaines prioritaires sur la période FRI en cours (2021-2024) : d'une part, la Confédération soutient les cantons dans le développement et la réalisation du projet \" viamia : bilan professionnel gratuit pour les adultes de 40 ans et plus \" avec une contribution annuelle d'environ 10 millions de francs. Le projet s'achèvera à la fin de 2024. Si l'offre fait ses preuves et que le besoin se vérifie, il sera alors dans l'intérêt des cantons de l'intégrer dans leurs structures ordinaires en veillant à ce qu'elle soit alignée avec la stratégie nationale pour l'OPUC. Une éventuelle prolongation de l'incitation financière de la Confédération doit être examinée dans le cadre du message FRI pour les années 2025 à 2028 et des bases juridiques existantes.</p><p>D'autre part, le SEFRI soutient la mise en oeuvre de la stratégie nationale pour l'OPUC et des mesures y relatives, et participe ainsi au positionnement et au développement d'une OPUC de qualité en tant que partie intégrante de l'espace suisse de formation. Les projets correspondants pourront également être examinés pendant la période FRI de 2025 à 2028 dans le cadre des compétences et des bases juridiques.</p>"
+    },
     {
       "type": {
         "id": 5,

@@ -1,6 +1,6 @@
 {
   "id": 20223391,
-  "updated": "2022-05-02T10:01:13Z",
+  "updated": "2022-06-09T12:55:44Z",
   "additionalIndexing": "32",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-06-09T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-05-25T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
@@ -146,13 +163,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Dipartimento dell'economia, della formazione e della ricerca",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1651183200000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1654725600000+0200)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -195,12 +222,20 @@
   ],
   "shortId": "22.3391",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>All'interno dello spazio formativo svizzero i servizi di orientamento professionale, universitario e di carriera svolgono un compito importante, fornendo informazioni e consulenza a giovani e adulti e agevolando così l'accesso all'apprendimento permanente. Con l'adozione della legge sulla formazione professionale (LFPr; RS 412.10), nel 2002, il Parlamento ha voluto che la Confederazione si ritirasse dal finanziamento e dalla regolamentazione di questi servizi. Il loro trasferimento ai Cantoni (art. 51 LFPr) è conforme al principio di sussidiarietà e, secondo il Consiglio federale, ha dato buoni frutti. Ha anche permesso ai Cantoni di concepire l'orientamento professionale, universitario e di carriera come un servizio completo che oltrepassa il campo d'applicazione della LFPr.</p><p>Consapevoli dell'importanza e del potenziale di cooperazione intercantonale nel campo dell'orientamento professionale, universitario e di carriera, i Cantoni coordinano le loro misure. In ottobre 2021 la Conferenza svizzera dei direttori cantonali della pubblica educazione (CDPE) ha adottato una strategia nazionale in questo ambito. È articolata in cinque orientamenti principali e persegue in tutto 21 obiettivi. In una prima fase attuativa è inoltre previsto un piano d'azione che durerà fino alla fine del 2023. La strategia nazionale mira a ottimizzare in Svizzera l'impatto dei servizi in questione e ad aumentare così le pari opportunità per la popolazione sia nella formazione che nella vita lavorativa.</p><p>Nell'ambito della promozione di progetti (art. 54 e 55 LFPr), la Confederazione si avvale già oggi della possibilità, conferitagli della legge, di indennizzare i Cantoni per determinate prestazioni a favore dell'orientamento professionale, universitario e di carriera, contribuendo così a un'offerta di qualità in tutta la Svizzera. Nell'attuale periodo ERI (2021-2024), ad esempio, la Segreteria di Stato per la formazione, la ricerca e l'innovazione (SEFRI) è coinvolta in due settori prioritari: da un lato, la Confederazione sostiene i Cantoni con un contributo di circa 10 milioni di franchi nello sviluppo e nella realizzazione del progetto \"viamia\", che durerà fino alla fine del 2024 e che è incentrato su una valutazione gratuita della situazione professionale per le persone \"over 40\".</p><p>Se l'offerta dovesse dimostrare di essere valida e di rispondere a un bisogno comprovato, sarà nell'interesse dei Cantoni integrarla nelle loro strutture regolari in sintonia con la suddetta strategia nazionale. L'eventualità di prorogare il finanziamento iniziale da parte della Confederazione andrà esaminata nel quadro del messaggio ERI 2025-2028 e delle basi legali vigenti.</p><p>Dall'altro lato, la SEFRI sostiene anche l'attuazione della strategia nazionale per l'orientamento professionale, universitario e di carriera nonché le misure associate. Contribuisce così al posizionamento e all'ulteriore sviluppo di un orientamento professionale di alta qualità nel panorama formativo svizzero. I progetti corrispondenti potranno essere esaminati anche nel periodo ERI 2025-2028 nel quadro delle competenze e delle basi legali.</p>"
+    },
     {
       "type": {
         "id": 5,
