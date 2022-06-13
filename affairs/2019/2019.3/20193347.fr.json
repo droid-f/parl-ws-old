@@ -1,6 +1,6 @@
 {
   "id": 20193347,
-  "updated": "2019-09-10T13:31:55Z",
+  "updated": "2022-06-13T19:23:12Z",
   "additionalIndexing": "2846;1211",
   "affairType": {
     "abbreviation": "Mo.",
@@ -69,6 +69,21 @@
             "date": "2019-09-10T00:00:00Z",
             "text": "Adoption",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-06-13T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
           }
         ]
       },
@@ -123,9 +138,24 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2775,
+                    "gender": "m",
+                    "id": 4075,
+                    "name": "Caroni Andrea",
+                    "officialDenomination": "Caroni"
+                  },
+                  "language": "de"
+                }
               ],
-              "sessionId": "5112"
+              "sessionId": "5115"
             }
           ]
         }
@@ -151,6 +181,11 @@
           "date": "/Date(1568066400000+0200)/",
           "id": 11,
           "name": "Motion au 2e conseil"
+        },
+        {
+          "date": "/Date(1655071200000+0200)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -158,6 +193,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-06-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5115"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -290,9 +330,9 @@
   ],
   "shortId": "19.3347",
   "state": {
-    "id": 11,
-    "name": "Motion au 2e conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },

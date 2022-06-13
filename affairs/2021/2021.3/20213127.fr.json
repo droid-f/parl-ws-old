@@ -1,6 +1,6 @@
 {
   "id": 20213127,
-  "updated": "2021-09-14T13:18:16Z",
+  "updated": "2022-06-13T19:36:56Z",
   "additionalIndexing": "34;04;1236;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -69,6 +69,21 @@
             "date": "2021-09-14T00:00:00Z",
             "text": "Adoption",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-06-13T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
           }
         ]
       },
@@ -121,7 +136,32 @@
           },
           "date": "2021-03-10T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2632,
+                    "gender": "m",
+                    "id": 1120,
+                    "name": "Sommaruga Carlo",
+                    "officialDenomination": "Sommaruga Carlo"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe S",
+                    "id": 2,
+                    "name": "Groupe socialiste"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5115"
+            }
           ]
         }
       ],
@@ -146,6 +186,11 @@
           "date": "/Date(1631570400000+0200)/",
           "id": 11,
           "name": "Motion au 2e conseil"
+        },
+        {
+          "date": "/Date(1655071200000+0200)/",
+          "id": 26,
+          "name": "Adopté"
         }
       ],
       "texts": [
@@ -153,6 +198,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-06-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5115"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -339,9 +389,9 @@
   ],
   "shortId": "21.3127",
   "state": {
-    "id": 11,
-    "name": "Motion au 2e conseil",
-    "doneKey": "0",
+    "id": 26,
+    "name": "Adopté",
+    "doneKey": "3",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },
