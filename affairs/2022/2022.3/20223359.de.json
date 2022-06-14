@@ -1,6 +1,6 @@
 {
   "id": 20223359,
-  "updated": "2022-03-22T10:47:36Z",
+  "updated": "2022-06-14T14:35:22Z",
   "additionalIndexing": "66;2836;2846;08",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,10 +41,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-06-14T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
@@ -57,13 +74,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647558000000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1655157600000+0200)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -71,6 +98,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-06-14T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5115"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -144,19 +176,40 @@
   ],
   "shortId": "22.3359",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Gemäss Artikel 2 ELG hat die EL den Existenzbedarf zu decken. Aufgrund des Russland-Ukraine Konfliktes zeichnet sich ab, dass die Heizkosten merklich steigen werden und sich weder kurz- noch mittelfristig eine Beruhigung der Situation abzeichnet. Somit kann es zu mehreren Tausend Franken Nachzahlungen kommen. Die EL-Bezüger:innen leben schon heute am Existenzminimum. Sie werden für diese Mehrkosten aus eigenen Mitteln nicht aufkommen können.</p><p>Die heutigen gesetzlichen Grundlagen sehen vor, dass die Akonto-Nebenkosten für die Heizkosten bei der EL-Berechnung berücksichtigt werden. Wird für die Nebenkosten eine Schlussabrechnung erstellt, so kann keine Nachzahlung bei der jährlichen EL berücksichtigt werden.</p><p>Für Personen, welche als Mieterinnen oder Mieter die Heizkosten direkt bezahlen, also nicht über die Nebenkosten, sieht die Gesetzgebung eine Pauschale von aktuell 1260 Franken pro Jahr vor, unabhängig ob es sich um ein Paarhaushalt oder einen Einzelpersonenhaushalt handelt. Auch dieser Betrag ist im Hinblick/ auf die steigenden Heizkosten zu überprüfen und eine einfache und pragmatische Lösung für ausserordentliche Situationen - wie dies aktuell der Fall ist - zu finden.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Gemäss Artikel 19 des Bundesgesetzes über Ergänzungsleistungen zur Alters-, Hinterlassenen- und Invalidenversicherung (ELG; SR 831.30) liegt es in der Kompetenz des Bundesrats, im Rahmen der regelmässigen Anpassungen der Renten an die Lohn- und Preisentwicklung die Höhe der anerkannten Ausgaben, der anrechenbaren Einnahmen und der Krankheits- und Behinderungskosten bei den Ergänzungsleistungen (EL) anzupassen, sollte es zu massiven und andauernden Preisanstiegen oder -senkungen kommen. Zum heutigen Zeitpunkt ist jedoch noch unklar, in welchen Bereichen (Heizöl, Benzin, Lebensmittel etc.) es aufgrund des Krieges in der Ukraine zu anhaltenden Preisansteigen kommen wird, weshalb eine Anpassung bei den EL gegenwärtig nicht angezeigt ist. Zudem wurden die Maximalmietzinse und die Pauschale für Heizkosten für EL-beziehende Personen, welche ihre Mietwohnungen selber beheizen müssen, im Rahmen der EL-Reform per 1. Januar 2021 bereits erhöht.</p><p>Heute wird in der Berechnung der jährlichen EL der Bruttomietzins als Wohnkosten anerkannt. Eine allfällige Schlussabrechnung der Miet-Nebenkosten bleibt unberücksichtigt und hat demzufolge keinen Einfluss auf die Höhe der ausgerichteten EL. Eine anderslautende Regelung hätte unter anderem zur Folge, dass von den Bezügerinnen und Bezügern EL zurückgefordert werden müssten, wenn sie vom Vermieter im Rahmen der Schlussabrechnung eine Rückzahlung erhalten. Weiter steht es den EL-beziehenden Personen frei, die Nebenkosten-Akontobeiträge bis zum Mietzinsmaxima den tatsächlichen Gegebenheiten anpassen zu lassen.</p><p>Eine Dringlichkeit betreffend die Nebenkostenabrechnung 2021/2022 liegt zudem nicht vor, da die Öltanks vor den Wintermonaten und somit vor Kriegsausbruch gefüllt wurden.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, eine Änderung des Bundesgesetzes über Ergänzungsleistungen zur Alters-, Hinterlassenen- und Invalidenversicherung (ELG; SR 831.30) und der Verordnung zum ELG (SR 831.301) zu prüfen, welche - wenn nötig per Dringlichkeitsrecht - vorsehen, dass bei einem ausserordentlichen Heizkostenanstieg die EL die Mehrkosten übernimmt.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Ausserordentlichen Heizkostenanstieg bei der EL Berechnung berücksichtigen"
+      "value": "Ausserordentlichen Heizkostenanstieg bei der EL-Berechnung berücksichtigen"
     }
   ],
-  "title": "Ausserordentlichen Heizkostenanstieg bei der EL Berechnung berücksichtigen"
+  "title": "Ausserordentlichen Heizkostenanstieg bei der EL-Berechnung berücksichtigen"
 }

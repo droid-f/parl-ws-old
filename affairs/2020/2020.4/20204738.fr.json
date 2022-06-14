@@ -1,6 +1,6 @@
 {
   "id": 20204738,
-  "updated": "2021-01-06T13:29:30Z",
+  "updated": "2022-06-14T14:30:50Z",
   "additionalIndexing": "15;44",
   "affairType": {
     "abbreviation": "Mo.",
@@ -16,8 +16,8 @@
       "officialDenomination": "Ettlin Erich"
     },
     "faction": {
-      "abbreviation": "M-E",
-      "id": 139,
+      "abbreviation": "Groupe M-E",
+      "id": 3,
       "name": "Le Groupe du Centre. Le Centre. PEV."
     },
     "type": "author"
@@ -54,6 +54,21 @@
             "date": "2021-03-18T00:00:00Z",
             "text": "Transmis à la commission compétente pour examen préalable",
             "type": 66
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-06-14T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
           }
         ]
       },
@@ -106,7 +121,32 @@
           },
           "date": "2020-12-18T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2641,
+                    "gender": "m",
+                    "id": 1162,
+                    "name": "Kuprecht Alex",
+                    "officialDenomination": "Kuprecht"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe V",
+                    "id": 4,
+                    "name": "Groupe de l'Union démocratique du Centre"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5115"
+            }
           ]
         }
       ],
@@ -126,6 +166,11 @@
           "date": "/Date(1608246000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1655157600000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -196,8 +241,8 @@
         "officialDenomination": "Ettlin Erich"
       },
       "faction": {
-        "abbreviation": "M-E",
-        "id": 139,
+        "abbreviation": "Groupe M-E",
+        "id": 3,
         "name": "Le Groupe du Centre. Le Centre. PEV."
       },
       "type": "author"
@@ -205,9 +250,10 @@
   ],
   "shortId": "20.4738",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
