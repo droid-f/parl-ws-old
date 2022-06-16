@@ -1,6 +1,6 @@
 {
   "id": 20223260,
-  "updated": "2022-03-22T11:33:42Z",
+  "updated": "2022-06-16T17:02:25Z",
   "additionalIndexing": "66;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,10 +41,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-06-16T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
@@ -57,13 +74,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647471600000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1655330400000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -324,19 +351,41 @@
   ],
   "shortId": "22.3260",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Die Strommangellage ist eines der grössten und gefährlichsten Risiken, dem die Schweiz in den nächsten Jahren ausgesetzt ist. Eine Strommangellage kann bis zu 3 Milliarden Franken pro Tag kosten. Somit muss Sie mit allen Mitteln verhindert werden. </p><p>Sollte es trotz vorsorglichen Massnahmen (Mo Mäder OSTRAL 1) zu einer drohenden Strommangellage kommen, muss der Verbrauch gedrosselt werden. Bevor die Reduktion oder Abschaltung von Verbrauchern erzwungen wird, sollen jene Verbraucher gedrosselt oder abgeschaltet werden, die dazu gegen ein angemessenes Entgelt freiwillig bereit sind.</p><p>Die Voraussetzung dafür ist die Schaffung eines Marktes für kurzfristig und vorübergehend drossel- oder abschaltbare elektrische Lasten. Bei Bedarf meldet der Bund beispielsweise über Swissgrid die benötigte Lastenreduktion (Leistung und Zeit), die dann bei der Nutzung entsprechend vergütet werden. Im Gegensatz zum Regelenergiemarkt deckt dieser neu zu schaffende Markt für drossel- und abschaltbare Verbraucher nur den Notfall ab. Die Vergütung im Einsatzfall ist eine Kompensation für Produktionseinbussen. Allenfalls können technische Vorbereitungen finanziell unterstützt werden. Auf diese Weise wird Flexibilität zu geringen Kosten und ohne Autonomieverlust ermöglicht. Diese Massnahme und die Effizienzanstrengungen stärken die Energieunabhängigkeit der Schweiz und ihre Resilienz.</p><p>Die aktuell als Lösung diskutierte Versicherung mit Gaskraftwerken, welche gemäss Planung höchstens wenige Stunden im Jahr tatsächlich eingesetzt würden, wären im Vergleich viel teurer. Darüber hinaus ist es sehr wahrscheinlich, dass es im Falle einer Stromknappheit auch zu einer Erdgasknappheit kommen wird. In einem solchen Szenario wären Gaskraftwerke wirkungslos und machen uns von ausländischen Gaslieferungen (heute kommt knapp 50 % vom schweizerischen Erdgas aus Russland) abhängig. Die Herstellung und Speicherung von synthetischem Gas in ausreichender Menge, ist technisch kaum machbar und würde entsprechende Kosten verursachen.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Die Nutzung von verbrauchsseitiger Flexibilität (zeitliche Verschiebung oder auch Verbrauchsreduktion) spielt bei der Umsetzung der Energiestrategie 2050 sowie bei der Systemsicherheit und der Versorgungssicherheit eine wichtige Rolle.</p><p>Gewissen Verbrauchern ist es heute bereits indirekt über ihren Stromlieferanten möglich, Verbrauchsreduktionen bei einer drohenden Unterdeckung anzubieten. So sieht die Strommarktbörse bei fehlender Markträumung (Angebot reicht nicht zur Deckung der Nachfrage) die Möglichkeit einer zweiten Runde zur Eingabe eines revidierten Angebots- oder Nachfrageprofils vor. Die Stromlieferanten können diese anpassen, indem sie unterbrechbare Verträge abrufen und so die Nachfrage reduzieren. Die kleinen Stromkunden (&lt;100 MWh) sind dabei an ihren Stromlieferanten gebunden und unter Umständen haben sie keine Möglichkeit, an diesem Markt für Verbrauchsreduktionen teilzunehmen. Die vollständige Marktöffnung könnte diesen Markt beleben.</p><p>Der Bundesrat will die Entwicklung des Flexibilitätsmarktes weiter fördern. Der Entwurf zum Bundesgesetz über eine sichere Stromversorgung mit erneuerbaren Energien sieht deshalb vor, die nötigen regulatorischen Rahmenbedingungen für einen vielseitigen Einsatz der Flexibilität einzuführen: Zugriffsrechte (im Sinne der Inhaberschaft) und die Nutzungsrechte für diese Flexibilität durch die Netzbetreiber sollen demnach klar geregelt werden. Die Vorlage befindet sich derzeit in der parlamentarischen Beratung.</p><p>Zudem sieht der Bundesrat vor, dass die Verbraucher mittelfristig auch an der Energiereserve teilnehmen können, wie sie im erwähnten neuen Bundesgesetz konzipiert ist. Mit diesem Instrument soll auf unerwartete Gegebenheiten reagiert werden können. Die Energiereserve setzt bei Nichträumung des Marktes an und somit tendenziell bevor die Ostralmassnahmen greifen. Die Nutzung (zusätzlicher) verbrauchsseitiger Flexibilität könnte mittel- bis längerfristig in diesem Rahmen umgesetzt werden. Solche Verbrauchsreduktionen sind als komplementär zu den übrigen vom Bundesrat vorgesehenen Massnahmen (rascher Ausbau der erneuerbaren Energien, Effizienzmassnahmen, Speicherreserve, Reservekraftwerke) anzusehen. Wie die Motionärin in ihrer Begründung schreibt, muss eine schwere Strommangellage, welche Wochen oder gar Monate dauern könnte, mit allen Mitteln verhindert werden. Insbesondere aufgrund des am Markt bereits ausgeschöpften Volumens sowie der besonderen Industriestruktur in der Schweiz dürften zusätzliche vertraglich festgelegte Unterbrechungen von Stromlieferungen beschränktes Potenzial aufweisen. Gemäss heutigem Wissensstand kann zudem nicht davon ausgegangen werden, dass eine alleinige Lastreduktion effizienter und kostengünstiger realisiert werden kann als andere Massnahmen wie Reservekraftwerke. Bei den geplanten Reservekraftwerken gilt es darauf hinzuweisen, dass diese nur in Ausnahmesituationen eingesetzt werden sollen. Der Betrieb soll klimaneutral erfolgen, z. B. durch den Einsatz von CO2-freien Brennstoffen oder durch die vollständige Kompensation gemäss CO2-Gesetz. Auch wenn eine Strommangellage keineswegs mit einer Gasmangellage einhergehen muss, sollen für eine erhöhte Versorgungssicherheit Dual Fuel-Anlagen vorgesehen werden. Ihr Betrieb soll somit nicht von einer einzigen Brennstoffart, wie z. B. Erdgas, abhängig sein.</p><p>Die in der Motion verlangten Massnahmen sind aus Sicht des Bundesrates bereits umgesetzt oder befinden sich in der parlamentarischen Beratung.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, ein marktwirtschaftliches System zu etablieren, welches im Falle einer Strommangellage zuverlässig drossel- oder abschaltbare Stromlasten (Kapazität) ausschreibt. Unternehmen können Angebote für diese Kapazitäten einreichen, wobei zuerst das günstigste Angebot zuerst gebraucht wird.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "OSTRAL 2: Eine Strommangellage mit marktwirtschaftlichen Mechanismen effizient bekämpfen"
+      "value": "Ostral 2. Eine Strommangellage mit marktwirtschaftlichen Mechanismen effizient bekämpfen"
     }
   ],
-  "title": "OSTRAL 2: Eine Strommangellage mit marktwirtschaftlichen Mechanismen effizient bekämpfen"
+  "title": "Ostral 2. Eine Strommangellage mit marktwirtschaftlichen Mechanismen effizient bekämpfen"
 }
