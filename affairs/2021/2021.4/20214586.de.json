@@ -1,6 +1,6 @@
 {
   "id": 20214586,
-  "updated": "2021-12-20T15:19:26Z",
+  "updated": "2022-06-17T10:25:43Z",
   "additionalIndexing": "2836;28;44",
   "affairType": {
     "abbreviation": "Po.",
@@ -41,10 +41,57 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Bekämpft"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Bekämpft. Diskussion verschoben",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-05-09T00:00:00Z",
+            "text": "Herr NR de Courten zieht seine Bekämpfung zurück.",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-06-17T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme des Postulates."
       },
       "index": 0,
       "links": [
@@ -57,13 +104,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639609200000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1655416800000+0200)/",
+          "id": 26,
+          "name": "Angenommen"
         }
       ],
       "texts": [
@@ -71,6 +128,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-06-17T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5115"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -314,12 +376,26 @@
   ],
   "shortId": "21.4586",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 26,
+    "name": "Angenommen",
+    "doneKey": "3",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Per 1. Januar 2022 wird mit der Weiterentwicklung der IV anstelle des bisherigen Rentensystems mit 25-Prozent-Schritten ein neues System mit feineren Abstufungen eingeführt (prozentpunktgenaue Rente zwischen der Viertelsrente und der vollen Rente, wenn auch nicht mit voller Linearität). Ziel dieser Massnahme ist namentlich, die Nutzung der Restarbeitsfähigkeit von Personen mit IV-Renten zu fördern, indem negative Anreize reduziert werden. Die Förderung der Erwerbstätigkeit ist finanzpolitisch, volkswirtschaftlich aber auch im Sinne der Inklusion von Menschen mit Behinderungen von hoher Relevanz. Entsprechend ist es wichtig, rasch zu verstehen, inwiefern die Massnahme Wirkung zeigt oder allenfalls durch weitere Instrumente ergänzt werden muss.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird gebeten, in einem Bericht zu analysieren, inwiefern sich die Erwerbstätigkeit von Personen mit IV-Renten mit dem stufenlosen Rentensystem verändert hat und - falls wenig positive Veränderung sichtbar ist - welche anderen Hindernisse neben den bisherigen Schwelleneffekten einer Steigerung der Erwerbspartizipation im Wege stehen. Die Antwort des Bundesrats kann im Rahmen der geplanten Evaluation der Vorlage 17.022 erfolgen.</p>"
+    },
     {
       "type": {
         "id": 1,

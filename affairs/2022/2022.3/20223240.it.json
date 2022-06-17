@@ -1,6 +1,6 @@
 {
   "id": 20223240,
-  "updated": "2022-03-22T11:43:52Z",
+  "updated": "2022-06-17T07:09:03Z",
   "additionalIndexing": "08;15;66;2446",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2022-06-16T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647471600000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1655330400000+0200)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -152,19 +179,34 @@
   ],
   "shortId": "22.3240",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Vista l'attuale crisi (dei prezzi) dell'energia dovuta alla guerra in Ucraina, sono importanti e più che mai opportune misure volte a ridurre il consumo di energie fossili a breve e medio termine. Si possono raggiungere importanti traguardi anche senza grandi programmi d'investimento o sussidi. Attualmente, troppo spesso nell'ambito del risparmio energetico la Confederazione si limita a promuovere apparecchi più efficienti o l'isolamento termico. Sono tuttavia ipotizzabili anche incentivi per favorire i cambiamenti di comportamento nonché campagne d'informazione e di sensibilizzazione, ad esempio nel quadro del programma SvizzeraEnergia.</p><p>Le nuove generazioni, per esempio, non conoscono il \"metodo Ogi\" per cuocere le uova, molti non sanno utilizzare in modo corretto le pentole a pressione né comprendono i vantaggi delle correnti d'aria rispetto a una finestra lasciata aperta a vasistas. Per affrancarci dal gas russo l'Agenzia internazionale dell'energia (AIE) raccomanda un cambiamento dei comportamenti, come ad esempio impostare sul termostato una temperatura inferiore o ricorrere al comando a distanza degli impianti di riscaldamento. Secondo l'AIE tale obiettivo può essere raggiunto con campagne di sensibilizzazione o accordi sugli obiettivi con le imprese. Si tratta di misure a effetto molto rapido e poco costose, che non compromettono troppo il nostro comfort.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di esaminare e attuare misure di risparmio energetico a breve e medio termine per ridurre il consumo di petrolio, gas ed energia elettrica. In questo contesto la priorità dovrà essere accordata a misure volte a cambiare il comportamento legato al consumo energetico.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Ridurre il consumo di energia. Misure a breve termine per risparmiare energia cambiando comportamento"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Ridurre il consumo di energia. Misure a breve termine per risparmiare energia cambiando comportamento"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20223250,
-  "updated": "2022-03-22T11:39:27Z",
+  "updated": "2022-06-17T10:45:05Z",
   "additionalIndexing": "1211;1231;08",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-06-17T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647471600000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1655416800000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -222,19 +249,34 @@
   ],
   "shortId": "22.3250",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Dans son rapport du 18 juin 2021 intitulé \" Convention de La Haye sur le recouvrement international des aliments - possibilités de mise en oeuvre en Suisse \" donnant suite au postulat 19.3105 Vogler \" Protéger les familles et décharger les collectivités publiques. Examen de l'opportunité de ratifier la Convention de La Haye sur les obligations alimentaires \", le Conseil fédéral formule plusieurs constats. Il relève tout d'abord que la ratification par la Suisse de la convention de La Haye apporterait des avantages indéniables. Elle permettrait de faire valoir à l'étranger des avances sur contribution d'entretien bien plus souvent qu'à l'heure actuelle et améliorerait l'exécution forcée à l'encontre des débiteurs hors de Suisse. Les collectivités publiques verraient ainsi leurs charges financières s'alléger, et il deviendrait plus difficile pour les débiteurs de se soustraire à leurs obligations en quittant le pays. Davantage de créanciers pourraient en outre profiter de l'exonération des frais de procédure à l'étranger.</p><p>Le Conseil fédéral relève toutefois également que la convention ne peut pour l'heure pas être ratifiée car il faut tout d'abord régler la question de l'organisation des autorités chargées du recouvrement international d'aliments. Les modèles d'organisation dans les cantons sont en effet extrêmement variés - ce qui n'est pas un obstacle en soi - et l'on constate que dans quelques cantons, la compétence est répartie entre des centaines de communes. Le résultat est que certains services n'ont pratiquement jamais de cas internationaux à traiter et manquent donc des connaissances et de l'expérience nécessaires. Le même problème s'observe dans les petits cantons. Comme l'indique le Conseil fédéral dans son rapport, même de grands cantons organisés de manière centralisée, disposant de suffisamment de ressources et traitant un nombre important de cas critiquent le manque de soutien de la Confédération et les retards dus au nombre d'autorités impliquées dans la procédure.</p><p>Le Conseil fédéral détaille dans son rapport plusieurs modèle d'organisation et leurs combinaisons possibles. Il doit maintenant prendre les devants et élaborer, en collaboration avec les cantons, un nouveau modèle d'organisation pour le traitement des dossiers internationaux qui soit fonctionnel et tienne compte du contexte des différents cantons. Les conditions seront ainsi remplies pour que la convention de La Haye et sa législation d'exécution soient soumises au Parlement pour ratification.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé, en collaboration avec les cantons, de réorganiser les autorités chargées du recouvrement international d'aliments pour permettre à la Suisse de ratifier la convention de La Haye de 2007. La réorganisation visera à concentrer le traitement des dossiers au sein d'un nombre aussi réduit que possible d'autorités centrales cantonales ou supracantonales ou au sein d'une autorité centrale fédérale agissant à titre exclusif ou subsidiaire. L'objectif sera de garantir que les services impliqués disposent des connaissances et de l'expérience nécessaires. Le Conseil fédéral soumettra ensuite la convention et sa législation d'exécution au Parlement pour ratification.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Convention de La Haye sur le recouvrement international des aliments. Réorganisation des autorités compétentes et ratification par la Suisse"
     }
   ],
-  "title": "Titre suit"
+  "title": "Convention de La Haye sur le recouvrement international des aliments. Réorganisation des autorités compétentes et ratification par la Suisse"
 }

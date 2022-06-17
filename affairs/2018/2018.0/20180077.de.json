@@ -1,6 +1,6 @@
 {
   "id": 20180077,
-  "updated": "2022-04-27T15:41:34Z",
+  "updated": "2022-06-17T06:46:13Z",
   "additionalIndexing": "2846",
   "affairType": {
     "abbreviation": "BRG",
@@ -117,6 +117,11 @@
           "date": "/Date(1575327600000+0100)/",
           "id": 2,
           "name": "Behandelt vom Nationalrat"
+        },
+        {
+          "date": "/Date(1655330400000+0200)/",
+          "id": 4,
+          "name": "Von beiden Räten behandelt"
         }
       ],
       "texts": [
@@ -146,6 +151,36 @@
             "date": "2019-12-03T00:00:00Z",
             "text": "Nichteintreten",
             "type": 67
+          },
+          {
+            "category": {
+              "id": 8,
+              "name": "Deskription"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-06-09T00:00:00Z",
+            "text": "Beginn der Debatte",
+            "type": 91
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-06-16T00:00:00Z",
+            "text": "Abweichung",
+            "type": 37
           }
         ]
       },
@@ -240,7 +275,22 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3196,
+                    "gender": "m",
+                    "id": 4241,
+                    "name": "Stark Jakob",
+                    "officialDenomination": "Stark"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5115"
             }
@@ -287,6 +337,11 @@
           "date": "/Date(1575327600000+0100)/",
           "id": 2,
           "name": "Behandelt vom Nationalrat"
+        },
+        {
+          "date": "/Date(1655330400000+0200)/",
+          "id": 4,
+          "name": "Von beiden Räten behandelt"
         }
       ],
       "texts": [
@@ -318,8 +373,8 @@
   ],
   "shortId": "18.077",
   "state": {
-    "id": 2,
-    "name": "Behandelt vom Nationalrat",
+    "id": 4,
+    "name": "Von beiden Räten behandelt",
     "doneKey": "0",
     "newKey": 0
   },

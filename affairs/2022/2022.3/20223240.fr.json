@@ -1,6 +1,6 @@
 {
   "id": 20223240,
-  "updated": "2022-03-22T11:43:52Z",
+  "updated": "2022-06-17T07:09:03Z",
   "additionalIndexing": "08;15;66;2446",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-06-16T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647471600000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1655330400000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -152,19 +179,34 @@
   ],
   "shortId": "22.3240",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Eu égard à l'actuelle crise de l'énergie provoquée par la guerre en Ukraine et à la forte hausse des prix qui en résulte, l'instauration de mesures visant à réduire la consommation d'énergies fossiles à court et à moyen terme est primordiale et nécessaire. Du reste, ces mesures ne requièrent pas de grands programmes d'investissements ou de subventions pour être menées à bien. Aujourd'hui, au niveau fédéral, l'économie d'énergie est trop souvent assimilée à la seule promotion d'appareils plus efficaces ou à l'isolation thermique. Il est tout à fait envisageable de créer des incitations encourageant le changement des habitudes de consommation ou d'organiser des campagnes d'information et de sensibilisation menées, par exemple, par SuisseEnergie. </p><p>La \" méthode Ogi \" de cuisson des oeufs est désormais étrangère aux jeunes générations, beaucoup ne savent pas comment utiliser correctement un autocuiseur, et aérer les pièces par intermittence plutôt que de laisser la fenêtre continuellement entrouverte n'a pas la cote. L'Agence internationale de l'énergie (AIE) recommande de changer ses habitudes de consommation (p. ex. en réglant le système de chauffage et les thermostats) afin de réduire la dépendance au gaz russe. D'après l'AIE, des campagnes ou des conventions d'objectifs avec les entreprises seraient un pas dans la bonne direction. De telles mesures peuvent avoir un effet très rapide, sans conséquences majeures sur notre confort et sont, en plus, peu coûteuses.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé de déterminer et de mettre en oeuvre des mesures d'économie d'énergie à court et à moyen terme, de sorte à réduire la consommation de produits pétroliers, de gaz et d'électricité. Le Conseil fédéral se concentrera sur les mesures visant à changer les habitudes de consommation.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Faire des économies d'énergie en changeant les habitudes de consommation"
     }
   ],
-  "title": "Titre suit"
+  "title": "Faire des économies d'énergie en changeant les habitudes de consommation"
 }

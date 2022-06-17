@@ -1,10 +1,14 @@
 {
   "id": 20212017,
-  "updated": "2021-07-23T08:35:59Z",
+  "updated": "2022-06-17T08:08:34Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
     "name": "Petition"
+  },
+  "author": {
+    "external": "Roger Schawinski",
+    "type": "author"
   },
   "deposit": {
     "date": "2021-07-21T00:00:00Z",
@@ -18,14 +22,32 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-06-17T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
       },
       "index": 0,
       "links": [
-
+        {
+          "date": "/Date(1655071200000+0200)/",
+          "title": "Antrag Aeschi Thomas",
+          "url": "https://www.parlament.ch/centers/documents/_layouts/15/DocIdRedir.aspx?ID=DOCID-1-10986"
+        }
       ],
       "preConsultations": [
         {
@@ -46,8 +68,14 @@
           },
           "date": "2021-07-23T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
-          ]
+              ],
+              "sessionId": "5115"
+            }
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
@@ -87,6 +115,11 @@
           "date": "/Date(1626818400000+0200)/",
           "id": 9,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1655416800000+0200)/",
+          "id": 2,
+          "name": "Behandelt vom Nationalrat"
         }
       ],
       "texts": [
@@ -99,12 +132,15 @@
 
   ],
   "roles": [
-
+    {
+      "external": "Roger Schawinski",
+      "type": "author"
+    }
   ],
   "shortId": "21.2017",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
+    "id": 2,
+    "name": "Behandelt vom Nationalrat",
     "doneKey": "0",
     "newKey": 0
   },
@@ -114,8 +150,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Roger Schawinski. Rettet UKW"
+      "value": "Rettet UKW"
     }
   ],
-  "title": "Roger Schawinski. Rettet UKW"
+  "title": "Rettet UKW"
 }

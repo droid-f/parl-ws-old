@@ -1,6 +1,6 @@
 {
   "id": 20214622,
-  "updated": "2021-12-20T15:03:23Z",
+  "updated": "2022-06-17T10:22:40Z",
   "additionalIndexing": "52;15;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,57 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Combattu"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Combattu. Discussion reportée",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-05-09T00:00:00Z",
+            "text": "Monsieur le CN Glarner retire son l'opposition.",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-06-17T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -56,13 +103,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639695600000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1655416800000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -272,19 +329,34 @@
   ],
   "shortId": "21.4622",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>La Suisse est un pays attrayant pour le commerce sans scrupules de chiots. Chaque année, quelque 50 000 nouveaux chiens sont déclarés, dont plus de la moitié viennent de l'étranger. Ils sont nombreux à être élevés et détenus dans les pires conditions. Les chiots, souvent séparés de leur mère et du reste de la portée bien trop tôt, sont mal sociabilisés, malades ou affaiblis. Quant aux mères, elles sont forcées de vivre dans des conditions déplorables. Comme l'a révélé une enquête diffusée par la SRF en octobre 2021, cela fait des années que les vétérinaires cantonaux ont dans leur viseur une entreprise slovaque particulièrement peu scrupuleuse qui pratique ce commerce à grande échelle et vend des chiots - souvent malades - dans notre pays. Entre juin 2019 et février 2021, les données enregistrées par cette entreprise présentaient des irrégularités dans 70 % des cas (soit 350 dossiers sur 500). L'OSAV a donc déposé une plainte auprès du ministère public du canton de Saint-Gall pour violation de la loi sur les épizooties et de la loi fédérale sur la protection des animaux et pour faux dans les titres. Cependant, une instruction pénale limitée à la Suisse ne servira pas à grand-chose. Il serait bien plus efficace d'informer les autorités slovaques pour qu'elles puissent intervenir directement au siège de l'entreprise. Mais la législation suisse en matière de protection des données ne permet pas la transmission de telles informations : la protection des données l'emporte sur la protection des animaux, ce qui semble difficile à justifier au vu de la souffrance endurée par ces derniers. La transmission de données n'est possible à l'heure actuelle que si le pays dans lequel l'entreprise a son siège dépose une demande d'assistance administrative auprès de la Suisse, une procédure longue et complexe qui fait obstacle à une intervention rapide. Ces démarches administratives inutiles empêchent de mettre fin aux agissements d'entreprises potentiellement criminelles, même lorsqu'il est établi que des animaux sont clairement maltraités. Il importe donc d'instaurer une coopération internationale rapide et non bureaucratique entre les autorités des pays impliqués dans le commerce de chiots, qu'il s'agisse des pays d'origine, d'élevage, de transit ou de vente.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé d'édicter des dispositions contraignantes permettant aux autorités concernées (OSAV, douanes, offices vétérinaires cantonaux, etc.) d'échanger rapidement et facilement des données et des informations relatives à l'importation et au commerce de chiots avec les autorités étrangères. L'objectif est de mettre fin au commerce de chiots maltraités.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Mettre fin au commerce de chiots maltraités"
     }
   ],
-  "title": "Titre suit"
+  "title": "Mettre fin au commerce de chiots maltraités"
 }

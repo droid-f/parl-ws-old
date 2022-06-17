@@ -1,6 +1,6 @@
 {
   "id": 20213054,
-  "updated": "2021-06-15T08:48:11Z",
+  "updated": "2022-06-17T07:36:54Z",
   "additionalIndexing": "34;04;28",
   "affairType": {
     "abbreviation": "Mo.",
@@ -16,8 +16,8 @@
       "officialDenomination": "Juillard"
     },
     "faction": {
-      "abbreviation": "M-E",
-      "id": 139,
+      "abbreviation": "Groupe M-E",
+      "id": 3,
       "name": "Le Groupe du Centre. Le Centre. PEV."
     },
     "type": "author"
@@ -54,6 +54,21 @@
             "date": "2021-06-15T00:00:00Z",
             "text": "Transmis à la commission compétente pour examen préalable",
             "type": 66
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-06-16T00:00:00Z",
+            "text": "Suspension",
+            "type": 65
           }
         ]
       },
@@ -85,7 +100,32 @@
           },
           "date": "2021-03-03T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2768,
+                    "gender": "m",
+                    "id": 4055,
+                    "name": "Engler Stefan",
+                    "officialDenomination": "Engler"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe M-E",
+                    "id": 3,
+                    "name": "Le Groupe du Centre. Le Centre. PEV."
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5115"
+            }
           ]
         }
       ],
@@ -110,6 +150,11 @@
           "date": "/Date(1623708000000+0200)/",
           "id": 33,
           "name": "Transmis à la commission pour examen préalable"
+        },
+        {
+          "date": "/Date(1655330400000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -260,8 +305,8 @@
         "officialDenomination": "Juillard"
       },
       "faction": {
-        "abbreviation": "M-E",
-        "id": 139,
+        "abbreviation": "Groupe M-E",
+        "id": 3,
         "name": "Le Groupe du Centre. Le Centre. PEV."
       },
       "type": "author"
@@ -269,9 +314,10 @@
   ],
   "shortId": "21.3054",
   "state": {
-    "id": 33,
-    "name": "Transmis à la commission pour examen préalable",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [

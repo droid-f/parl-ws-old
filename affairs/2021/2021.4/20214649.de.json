@@ -1,6 +1,6 @@
 {
   "id": 20214649,
-  "updated": "2021-12-20T14:47:28Z",
+  "updated": "2022-06-17T08:48:20Z",
   "additionalIndexing": "34;09;1236;1216;04",
   "affairType": {
     "abbreviation": "Ip.",
@@ -41,10 +41,26 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-06-17T00:00:00Z",
+            "text": "Erledigt",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "b",
+        "date": "2022-02-16T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -57,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EFD",
+          "id": 7,
+          "name": "Finanzdepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639695600000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1655416800000+0200)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -71,6 +97,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-06-17T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5115"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -104,19 +135,33 @@
   ],
   "shortId": "21.4649",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Für die Cybersicherheit und den Datenschutz ist die Umsetzung von Zwei-Faktor-Authentifizierungen (2FA) eine essentielle Massnahme. Sie verhindert sehr viele Angriffe, weil die Angreifer sich Zugang zu zwei verschiedenen Sicherungssystemen verschaffen müssen. Es trifft aber zu, dass Authentifizierungsmethoden, die auf einem Versand von Codes an eine Telefonnummer basieren, umgangen werden können. Neben dem erwähnten SIM Swapping werden dazu auch Schwachstellen in den Übermittlungs- und Signalisierungsprotokollen (SS7) ausgenutzt. Die Authentisierung mit Hilfe eines SMS Tokens ist deshalb zwar sicherer als eine Authentisierung mit nur einem Faktor (Passwort), aber nicht ausreichend für einen höheren Schutzbedarf.</p><p>Aus diesem Grund wurden sichere Alternativen für die 2FA entwickelt. Smartcards und Kryptosticks ermöglichen beispielsweise eine sichere Identifizierung und Verschlüsselung der Kommunikation. Auch Geräte, die ein einmaliges Passwort generieren sind seit vielen Jahren im Einsatz. Zunehmend wichtig für die 2FA werden Softwarelösungen, welche ein einmaliges Passwort generieren und Anwendungen wie die Mobile ID, welche direkt in die SIM-Karten integriert sind.</p><p>Zu den Fragen nimmt der Bundesrat wie folgt Stellung:</p><p>1) In der Bundesverwaltung sind die Anforderungen an die Authentifizierung in den Vorgaben für den Grundschutz geregelt. Der Zugriff von Personen auf Arbeitsplatz- und Serversysteme der Bundesverwaltung ist nur über eine 2FA möglich, welche Identifikationsmittel der Sicherheitsstufe \"hoch\" nutzt. Dies schliesst Lösungen über den Versand von Codes an Telefonnummern aus.</p><p>2) Das Nationale Zentrum für Cybersicherheit (NCSC) empfiehlt, 2FA umfassend umzusetzen, dabei aber die oben aufgeführten sicheren Methoden dafür einzusetzen. Es hat dies beispielsweise im Leitfaden \"Home Office - Sicherer Umgang mit Fernzugängen\" festgehalten.</p><p>3) Es bestehen sichere Alternativen für die 2FA via SMS. Diese können bereits heute umgesetzt werden. Beim Einsatz dieser Mittel lässt sich die Bedrohung der Sicherheit von 2FA durch SIM Swapping beseitigen.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>SIM-Swapping bzw. der Austausch von SIM-Karten ist eine Hackermethode, die seit der allgemeinen Einführung der 2-Faktor-Authentifizierung (2FA) auf dem Vormarsch ist.</p><p>Die Funktionsweise und deren Auswirkungen machen diese Methode zu einer Herausforderung für den Datenschutz, da der Angriff es ermöglicht, an die Telefonnummer des Opfers, die oft als zweiter Authentifizierungsfaktor verwendet wird, zu gelangen.</p><p>Der erhaltene Code ermöglicht anschliessend den Zugriff auf alle Arten von Online-Konten, Bankkonten, Geschäftskonten, Konten von Einrichtungen oder sogar von Betreiberinnen von Infrastrukturen, wenn sich der Angriff gegen eine solche richtet.</p><p>Weil 2FA-Lösungen für die gesamte Bevölkerung dieselben sind, sind wir alle betroffen, sowohl privat als auch beruflich oder politisch.</p><p>Ich bitte darum den Bundesrat, die folgenden Fragen zu beantworten:</p><p>1. Was unternimmt die Bundesverwaltung, um ihre Mitarbeitenden vor einem SIM-Swapping-Angriff zu schützen?</p><p>2. Hat sich das BAKOM bereits mit der Problematik befasst und Empfehlungen abgegeben?</p><p>3. Welche Massnahmen könnten zum Schutz der gesamten Bevölkerung, der Gemeinden, der Kantone und des Bundes ergriffen werden, um solche Angriffe zu verhindern?</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "SIM-Swapping.  Welchen Schutz geniessen Bürgerinnen und Bürger und Behörden?"
     }
   ],
-  "title": "Titel folgt"
+  "title": "SIM-Swapping.  Welchen Schutz geniessen Bürgerinnen und Bürger und Behörden?"
 }

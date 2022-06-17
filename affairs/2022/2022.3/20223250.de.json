@@ -1,6 +1,6 @@
 {
   "id": 20223250,
-  "updated": "2022-03-22T11:39:27Z",
+  "updated": "2022-06-17T10:45:05Z",
   "additionalIndexing": "1211;1231;08",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,10 +41,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-06-17T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -57,13 +74,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647471600000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1655416800000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -224,19 +251,34 @@
   ],
   "shortId": "22.3250",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Der Bericht des Bundesrates vom 18. Juni 2021 \"Haager Unterhaltsübereinkommen - Umsetzungsmöglichkeiten in der Schweiz\" in Erfüllung des Postulats 19.3105 Vogler \"Familien schützen und Gemeinwesen entlasten. Die Ratifikation des Haager Unterhaltsübereinkommens prüfen\" kommt zu eindeutigen Schlüssen. Die erste Hauptfeststellung betrifft die überwiegenden Vorteile einer Ratifizierung des Abkommens durch die Schweiz. Neu könnten in viel mehr Fällen auch bevorschusste Unterhaltsforderungen im Ausland geltend gemacht werden. Dies führte zu mehr Zwangsvollstreckungen bei unterhaltspflichtigen Personen im Ausland. Dies wiederum würde zu einer finanziellen Entlastung des Schweizer Gemeinwesens beitragen und es unterhaltspflichtigen Personen erschweren, sich durch Wegzug ins Ausland ihrer familienrechtlichen Verpflichtungen zu entziehen. Zudem könnten mehr Unterhaltsberechtigte aus der Schweiz von der unentgeltlichen Rechtspflege im Ausland profitieren. </p><p>Der erwähnte Bericht zeigt aber in seiner zweiten Hauptfeststellung auch klar auf, dass eine Ratifikation des Abkommens mit der heutigen Behördenorganisation des grenzüberschreitenden Unterhaltsinkassos nicht möglich ist. Die Organisationsmodelle in den Kantonen sind höchst unterschiedlich, was nicht à priori zu beanstanden ist. Aber in einigen Kantonen ist die Zuständigkeit auch für internationale Sachverhalte auf mehrere hundert Gemeinden verteilt, was dazu führt, dass es wegen sehr weniger zu bearbeitender Fälle oftmals an Fachwissen und Erfahrung fehlt. Mit einer ähnlichen Problematik sehen sich auch kleinere Kantone konfrontiert. Gemäss dem Bericht kritisieren auch zentral organisierte (grosse) Kantone mit genügend Ressourcen und ausreichend hohen Fallzahlen die zu geringe Unterstützung durch den Bund und die Verfahrensverzögerungen, die durch die vielschichtige Behördenstruktur entstehen. </p><p>Im Postulatsbericht werden verschiedene Behördenorganisationsmodelle und deren mögliche Kombination(en) diskutiert. Der Bundesrat soll die Initiative ergreifen und zusammen mit den Kantonen ein tragfähiges, den unterschiedlichen Ausgangslagen in den Kantonen angepasstes neues Behördenmodell für internationale Sachverhalte erarbeiten. Anschliessend sind die Voraussetzungen erfüllt, um dem Parlament zusammen mit der nötigen Umsetzungsgesetzgebung die Ratifikation des Haager Unterhaltsabkommens von 2007 zu beantragen.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, in Zusammenarbeit mit den Kantonen die für eine Ratifizierung des Haager Unterhaltsübereinkommens von 2007 notwendige angepasste Behördenorganisation im Bereich des internationalen Unterhaltsinkassos zu schaffen. Die neue Behördenorganisation sorgt im Bereich der internationalen Alimenteninkassoverfahren dafür, dass die Sachbearbeitung bei möglichst wenigen Stellen in den Kantonen oder im Verbund mehrerer Kantone oder bei einer ausschliesslich oder subsidiär tätigen Bundeszentralbehörde konzentriert wird, um Fachwissen und Erfahrung zu gewährleisten. Anschliessend unterbreitet der Bundesrat dem Parlament die Ratifikation des Übereinkommens mit der dafür nötigen Umsetzungsgesetzgebung.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Haager Unterhaltsübereinkommen - Vorbereitung und Ratifizierung durch die Schweiz"
+      "value": "Haager Unterhaltsübereinkommen. Vorbereitung und Ratifizierung durch die Schweiz"
     }
   ],
-  "title": "Haager Unterhaltsübereinkommen - Vorbereitung und Ratifizierung durch die Schweiz"
+  "title": "Haager Unterhaltsübereinkommen. Vorbereitung und Ratifizierung durch die Schweiz"
 }

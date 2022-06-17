@@ -1,6 +1,6 @@
 {
   "id": 20213054,
-  "updated": "2021-06-15T08:48:11Z",
+  "updated": "2022-06-17T07:36:54Z",
   "additionalIndexing": "34;04;28",
   "affairType": {
     "abbreviation": "Mo.",
@@ -16,9 +16,9 @@
       "officialDenomination": "Juillard"
     },
     "faction": {
-      "abbreviation": "M-E",
+      "abbreviation": "Fraktion M-E",
       "code": "M-E",
-      "id": 139,
+      "id": 3,
       "name": "Die Mitte-Fraktion. Die Mitte. EVP."
     },
     "type": "author"
@@ -55,6 +55,21 @@
             "date": "2021-06-15T00:00:00Z",
             "text": "Zuweisung an die zuständige Kommission zur Vorberatung",
             "type": 66
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-06-16T00:00:00Z",
+            "text": "Sistierung",
+            "type": 65
           }
         ]
       },
@@ -86,7 +101,33 @@
           },
           "date": "2021-03-03T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2768,
+                    "gender": "m",
+                    "id": 4055,
+                    "name": "Engler Stefan",
+                    "officialDenomination": "Engler"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5115"
+            }
           ]
         }
       ],
@@ -111,6 +152,11 @@
           "date": "/Date(1623708000000+0200)/",
           "id": 33,
           "name": "An die Kommission zur Vorberatung zugewiesen"
+        },
+        {
+          "date": "/Date(1655330400000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -261,9 +307,9 @@
         "officialDenomination": "Juillard"
       },
       "faction": {
-        "abbreviation": "M-E",
+        "abbreviation": "Fraktion M-E",
         "code": "M-E",
-        "id": 139,
+        "id": 3,
         "name": "Die Mitte-Fraktion. Die Mitte. EVP."
       },
       "type": "author"
@@ -271,9 +317,10 @@
   ],
   "shortId": "21.3054",
   "state": {
-    "id": 33,
-    "name": "An die Kommission zur Vorberatung zugewiesen",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [

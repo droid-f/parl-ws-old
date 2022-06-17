@@ -1,6 +1,6 @@
 {
   "id": 20214649,
-  "updated": "2021-12-20T14:47:28Z",
+  "updated": "2022-06-17T08:48:20Z",
   "additionalIndexing": "34;09;1236;1216;04",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,26 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-06-17T00:00:00Z",
+            "text": "Liquidé",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "b",
+        "date": "2022-02-16T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +72,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Département des finances",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639695600000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1655416800000+0200)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -70,6 +96,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-06-17T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5115"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -102,19 +133,33 @@
   ],
   "shortId": "21.4649",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le recours à l'authentification à deux facteurs est une mesure essentielle à la cybersécurité et à la protection des données. Cette méthode d'identification prévient un très grand nombre de cyberattaques, car elle contraint les pirates à venir à bout de deux systèmes de sécurité pour arriver à leurs fins. Toutefois, il est vrai que les méthodes d'authentification basées sur l'envoi de codes à un numéro de téléphone peuvent être contournées. Outre l'exemple de l'échange de carte SIM (SIM swapping) mentionné par l'auteur de l'interpellation, des vulnérabilités présentes dans les protocoles de transmission et de signalisation (SS7) sont également exploitées. L'authentification à l'aide d'un jeton SMS est donc certes plus sûre qu'une authentification avec un seul facteur (mot de passe), mais elle n'est pas suffisante lorsqu'un niveau de protection élevé est nécessaire.</p><p>Pour cette raison, des moyens d'identification plus sûrs ont été mis au point pour l'authentification à deux facteurs. Les cartes à puce et les clés de sécurité permettent par exemple une identification sécurisée et le cryptage des communications. En outre, les appareils servant à générer des mots de passe uniques sont utilisés depuis plusieurs années. Les solutions logicielles qui génèrent un mot de passe unique et les applications telles que Mobile ID, qui sont directement intégrées dans les cartes SIM, prennent de plus en plus d'importance dans les processus d'authentification à deux facteurs.</p><p>La position du Conseil fédéral sur les questions posées est la suivante:</p><p>1. En ce qui concerne l'administration fédérale, les exigences en matière d'authentification sont fixées dans les directives relatives à la protection de base. Les personnes peuvent accéder aux systèmes de postes de travail et de serveurs de l'administration fédérale uniquement à l'aide d'une authentification à deux facteurs dont les moyens d'identification disposent du niveau de sécurité \"élevé\". Cela exclut les solutions qui consistent à envoyer des codes à des numéros de téléphone.</p><p>2. Le Centre national pour la cybersécurité (NCSC) recommande l'utilisation généralisée de l'authentification à deux facteurs à l'aide des moyens d'identification sécurisés mentionnés ci-dessus. Cette mesure figure par exemple dans le document concernant le télétravail \"Sécuriser son accès à distance\".</p><p>3. Il existe des solutions sûres à même de remplacer l'authentification à deux facteurs à l'aide de SMS. Celles-ci peuvent déjà être utilisées. Ces autres moyens d'identification permettent de sécuriser le processus d'authentification à deux facteurs en éliminant le risque d'échange de carte SIM.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le SIM Swapping, ou l'échange de carte SIM, est une méthode de piratage en progression, depuis la mise en place généralisée</p><p>des authentifications à 2 facteurs (2FA).</p><p>Son fonctionnement et ses conséquences en font un casse-tête pour la protection des données, car l'attaque permet d'obtenir le numéro de téléphone de la victime, souvent utilisé comme 2ème facteur d'authentification.</p><p>Le code reçu permet ensuite d'accéder à toutes sortes de comptes en-ligne, bancaires, professionnels, institutionnels voir encore infrastructurels dans le cas ou l'attaque viserait un gestionnaire d'une infrastructure.</p><p>Ces solutions 2FA étant les mêmes pour l'ensemble de la population, nous sommes toutes et tous concernés, tant de manière privée que professionnelle ou politique.</p><p>J'adresse donc les questions suivantes au Conseil fédéral :</p><p>1. Quelles sont les mesures prises par l'administration fédérale pour protéger ses collaborateurs d'une attaque de type SIM Swapping ?</p><p>2. L'OFCOM a-t-elle déjà documenté la problématique et émis des recommandations ?</p><p>3. Afin de protéger l'ensemble de la population, les communes, les cantons et la confédération, quelles mesures pourraient être prises afin d'empêcher ce type d'attaques ?</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "SIM Swapping - Quelle protection pour les citoyens et les autorités ?"
+      "value": "SIM Swapping. Quelle protection pour les citoyens et les autorités?"
     }
   ],
-  "title": "SIM Swapping - Quelle protection pour les citoyens et les autorités ?"
+  "title": "SIM Swapping. Quelle protection pour les citoyens et les autorités?"
 }

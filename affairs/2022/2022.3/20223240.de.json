@@ -1,6 +1,6 @@
 {
   "id": 20223240,
-  "updated": "2022-03-22T11:43:52Z",
+  "updated": "2022-06-17T07:09:03Z",
   "additionalIndexing": "08;15;66;2446",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,10 +41,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-06-16T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -57,13 +74,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647471600000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1655330400000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -154,19 +181,34 @@
   ],
   "shortId": "22.3240",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Angesichts der aktuellen Energie(preis)krise aufgrund des Kriegs in der Ukraine sind Massnahmen, die den Verbrauch fossiler Energien kurz- und mittelfristig senken, wertvoll und erst recht angezeigt. Dies kann auch gelingen ohne grosse Investitionsprogramme oder Subventionen. Energiesparen wird heute beim Bund zu oft nur mit der Förderung effizienterer Geräte oder Wärmedämmung gleichgesetzt. Denkbar sind Anreize zur Verhaltensänderung, Informations-und Sensibilisierungskampagnen z.B. durch Energie Schweiz.</p><p>Die \"Ogi-Methode\" zum Kochen von Eiern kennt die jüngere Generationen heute nicht mehr, Dampfkochtöpfe wissen viele nicht richtig zu benutzen und Stosslüften, statt gekippter Fenster, ist oftmals eine leere Phrase. Die internationale Energieagentur lEA empfiehlt, um von russischem Gas weg zu kommen, Verhaltensänderungen wie zum Beispiel Anpassungen an der Heizungskontrolle und Thermostat tiefer einstellen. Solche können gemäss lEA durch Kampagnen oder Zielvereinbarungen mit Unternehmen erreicht werden. Solche Massnahmen können sehr schnell wirken, ohne unseren Komfort wesentlich einzuschränken und sind auch noch kostengünstig.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, kurz- bis mittelfristig umsetzbare Energiesparmassnahmen zur Reduktion des Öl-, Gas-und Stromverbrauchs zu prüfen und umzusetzen. Der Bundesrat soll sich dabei auf Massnahmen konzentrieren, die eine Änderung von Gewohnheiten beabsichtigt.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Energieverbrauch senken: Kurzfristige Massnahmen zum Energiesparen durch Verhaltensänderung"
+      "value": "Energieverbrauch senken. Kurzfristige Massnahmen zum Energiesparen durch Verhaltensänderung"
     }
   ],
-  "title": "Energieverbrauch senken: Kurzfristige Massnahmen zum Energiesparen durch Verhaltensänderung"
+  "title": "Energieverbrauch senken. Kurzfristige Massnahmen zum Energiesparen durch Verhaltensänderung"
 }

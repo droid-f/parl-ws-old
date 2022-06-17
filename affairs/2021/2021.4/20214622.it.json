@@ -1,6 +1,6 @@
 {
   "id": 20214622,
-  "updated": "2021-12-20T15:03:23Z",
+  "updated": "2022-06-17T10:22:40Z",
   "additionalIndexing": "52;15;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,57 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Opposizione"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Controverso. Discussione rinviata",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Amm."
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-05-09T00:00:00Z",
+            "text": "Signor CN Glarner ritira sua l'opposizione.",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-06-17T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -56,13 +103,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Dipartimento dell'interno",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639695600000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1655416800000+0200)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -272,19 +329,34 @@
   ],
   "shortId": "21.4622",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>La Svizzera è un Paese attrattivo per il commercio senza scrupoli di cuccioli. Oltre la metà dei circa 50 000 nuovi cani registrati ogni anno proviene dall'estero. Molti sono allevati e detenuti nelle peggiori condizioni. Spesso questi animali vengono separati prematuramente dalle madri e dai fratelli e sono quindi poco socializzati, malati e deboli, e le fattrici vegetano in condizioni penose. Un reportage andato in onda nell'ottobre del 2021 su SRF rivela che da anni i veterinari cantonali svizzeri tengono d'occhio una società slovacca dedita al commercio di cani, che in Svizzera vende su vasta scala cuccioli perlopiù malati. Nel periodo compreso tra il giugno del 2019 e il febbraio del 2021 hanno rilevato irregolarità nel 70 per cento dei casi, ossia in 350 dei 500 dati rilevati. L'USAV ha quindi sporto denuncia penale al ministero pubblico di San Gallo per violazione della legge sulle epizoozie, della legge sulla protezione degli animali e per falsità in documenti, ma un'indagine penale limitata alla Svizzera serve a ben poco. Più utile sarebbe informare le autorità slovacche affinché intervengano presso la sede della società in questione, ma la legislazione svizzera sulla protezione dei dati rende impossibile trasmettere a Bratislava informazioni sul commercio di cani. Vista la sofferenza degli animali, il fatto che la protezione dei dati prevalga sulla protezione degli animali è incomprensibile. Attualmente, la trasmissione di dati è possibile soltanto se il Paese in cui ha sede l'azienda presenta una domanda di assistenza amministrativa alla Svizzera, il che, oltre a essere complicato, richiede decisamente troppo tempo per poter intervenire rapidamente contro i commercianti di cani che violano le leggi. Questa inutile burocrazia impedisce di porre fine all'attività di presunti trafficanti esteri di cani, malgrado le palesi infrazioni alle norme sulla protezione degli animali. Per questo motivo è necessario che le autorità dei Paesi di allevamento, provenienza, transito e vendita instaurino una cooperazione internazionale rapida e senza complicazioni burocratiche.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di emanare disposizioni vincolanti affinché le autorità svizzere interessate (p. es. USAV, autorità doganali e uffici dei veterinari cantonali) possano avviare rapidamente e senza difficoltà uno scambio di dati e informazioni con quelle estere in merito all'importazione e al commercio di cuccioli al fine di impedire queste crudeli attività.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Porre fine al commercio crudele di cuccioli"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Porre fine al commercio crudele di cuccioli"
 }
