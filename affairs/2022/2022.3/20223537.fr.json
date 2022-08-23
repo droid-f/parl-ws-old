@@ -1,6 +1,6 @@
 {
   "id": 20223537,
-  "updated": "2022-06-02T15:41:50Z",
+  "updated": "2022-08-23T15:46:20Z",
   "additionalIndexing": "48;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-08-23T00:00:00Z",
+            "text": "Retrait",
+            "type": 17
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-17T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1654120800000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1661205600000+0200)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -70,6 +97,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-08-23T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5116"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -376,16 +408,6 @@
     },
     {
       "councillor": {
-        "code": 3076,
-        "gender": "m",
-        "id": 4162,
-        "name": "Grüter Franz",
-        "officialDenomination": "Grüter"
-      },
-      "type": "cosign"
-    },
-    {
-      "councillor": {
         "code": 3013,
         "gender": "m",
         "id": 4098,
@@ -642,19 +664,40 @@
   ],
   "shortId": "22.3537",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
     {
       "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Ces avancées techniques ont cependant aussi eu pour conséquence d'augmenter le poids à vide des véhicules, en raison notamment des équipements de sécurité et des mesures destinées à réduire les émissions. Pour les titulaires d'un permis de conduire de la catégorie B, cela est loin d'être anodin : une famille avec deux enfants peut aujourd'hui difficilement utiliser un véhicule dont le poids maximal autorisé est de 3,5 t sans excéder ce poids, alors même que ce type de véhicule est conçu pour supporter des charges supérieures à 3,5 t. </p><p>Les limites de poids actuelles ne sont plus adaptées à notre époque et pénalisent inexplicablement certains types de véhicules : les véhicules de la catégorie B tractant une remorque n'excédant pas 750 kg peuvent, eux, avoir un poids total allant jusqu'à 4,25 t, tout comme, depuis le 1er avril 2022, les camping-cars électriques. </p><p>La législation actuelle favorise ainsi les véhicules à remorque et les camping-cars électriques. Pour le dire autrement, elle pénalise les camping-cars équipés d'un moteur à combustion. La présente motion demande que la réglementation soit adaptée aux conditions actuelles et que les limites de poids soient harmonisées pour tous les camping-cars de la catégorie B et les minibus.</p><p>Le secteur automobile a énormément évolué ces dernières décennies. Les véhicules sont devenus de plus en plus sûrs, consomment moins de carburant et produisent beaucoup moins d'émissions. Cela est particulièrement vrai pour les camping-cars et les minibus.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Au sein de l'Union européenne (UE) et en Suisse, la catégorie de permis B permet de conduire uniquement des véhicules dont le poids total n'excède pas 3500 kg. Des exceptions sont admises aussi bien dans l'UE qu'en Suisse pour les véhicules dotés d'une propulsion alternative, afin de permettre une compensation du poids supplémentaire généré par le dispositif en question.</p><p>L'UE révise actuellement ses prescriptions relatives au permis de conduire. Dans ce cadre, les Etats membres discutent la possibilité d'augmenter à 4250 kg de manière générale la limite de poids admise pour la catégorie B. La Commission européenne adoptera vraisemblablement sa proposition de modification de la directive relative au permis de conduire au 4e trimestre 2022.</p><p>Si l'UE devait par la suite relever à 4250 kg la limite de poids pour la catégorie B, le Conseil fédéral mettrait en discussion la même augmentation pour la catégorie B en Suisse, indépendamment du type de propulsion.</p><p>A l'heure actuelle, le Conseil fédéral n'est toutefois pas disposé à relever le poids total admis pour la catégorie B et, partant, à adopter une réglementation valable pour le seul trafic intérieur. Les autorités étrangères ne seraient en effet pas tenues de reconnaître une limite de poids fixée par la Suisse lors des trajets effectués au-delà de ses frontières.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé de modifier les bases légales afin de fixer à 4,25 t la limite de poids pour tous les camping-cars et les minibus.</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Adapter les limites de poids aux réalités actuelles pour tous les camping-cars"
     }
   ],
-  "title": "Titre suit"
+  "title": "Adapter les limites de poids aux réalités actuelles pour tous les camping-cars"
 }
