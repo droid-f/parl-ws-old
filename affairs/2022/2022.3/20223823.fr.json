@@ -1,6 +1,6 @@
 {
   "id": 20223823,
-  "updated": "2022-06-20T13:55:41Z",
+  "updated": "2022-09-12T19:36:08Z",
   "additionalIndexing": "04;24;0;0421",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-09-12T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-24T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "ChF",
+          "id": 10,
+          "name": "Chancellerie fédérale",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1655416800000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1662933600000+0200)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -70,6 +97,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-09-12T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5116"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -102,19 +134,40 @@
   ],
   "shortId": "22.3823",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Il n'est pas d'autre pays au monde où l'électeur ait autant de droits politiques qu'en Suisse. Non seulement il peut élire ses représentants tous les quatre ans, mais l'initiative populaire lui permet de modifier la Constitution, et le référendum, de se prononcer sur une loi. En soutenant financièrement les assemblées citoyennes, la Confédération sape les institutions démocratiquement légitimées, sans contrepartie. Les \" assemblées citoyennes \" peuvent certes avoir leur utilité dans les pays où les citoyens ont moins de possibilités de s'exprimer qu'en Suisse, mais chez nous, c'est exactement le contraire, et ces assemblées constituent une menace pour notre démocratie directe. Aussi faut-il interdire à la Confédération d'utiliser l'argent du contribuable pour les soutenir.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral partage l'avis de l'auteur de la motion selon lequel les citoyens suisses disposent à tous les échelons étatiques de possibilités de participation développées et institutionnalisées. En plus de ces dispositifs institutionnalisés, il existe également une grande variété d'outils à caractère participatif qui sont plus souples.</p><p>L'un de ces outils est l'\" assemblée citoyenne \", qui permet aux citoyens de mener un dialogue limité dans le temps sur des thèmes et des questions spécifiques. Généralement lancés par des acteurs de la société civile, les projets de ce type sont parfois soutenus par la Confédération dans le cadre des compétences et des moyens d'encouragement qui lui sont dévolus (par ex. dans le cadre de la loi sur l'encouragement de l'enfance et de la jeunesse, LEEJ ; RS 446.1). Les assemblées concernées ne disposent juridiquement d'aucune compétence décisionnelle. Elles ne sont donc pas comparables au Conseil du climat dont la création, demandée par le Groupe des verts dans le cadre de l'iv. pa. 20.467, a été rejetée par le Conseil national, et qui aurait été doté de compétences étendues. Le droit fédéral ne permet par ailleurs pas d'investir une assemblée citoyenne de pouvoirs de décision.</p><p>Du point de vue du Conseil fédéral, il ne parait pas nécessaire de restreindre les possibilités de participation des citoyens à travers une interdiction générale de financement. Le Conseil fédéral s'oppose à une interdiction qui serait prononcée à titre préventif.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé de modifier la loi de façon à interdire d'utiliser l'argent du contribuable suisse pour financer des \" parlements bis \" (ou \" assemblées citoyennes \").</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Non à un soutien financier aux \"parlements bis\""
     }
   ],
-  "title": "Titre suit"
+  "title": "Non à un soutien financier aux \"parlements bis\""
 }

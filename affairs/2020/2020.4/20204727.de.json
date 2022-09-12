@@ -1,6 +1,6 @@
 {
   "id": 20204727,
-  "updated": "2020-12-23T11:00:18Z",
+  "updated": "2022-09-12T19:41:05Z",
   "additionalIndexing": "04;44",
   "affairType": {
     "abbreviation": "Mo.",
@@ -16,9 +16,9 @@
       "officialDenomination": "Candinas"
     },
     "faction": {
-      "abbreviation": "M-E",
+      "abbreviation": "Fraktion M-E",
       "code": "M-E",
-      "id": 139,
+      "id": 3,
       "name": "Die Mitte-Fraktion. Die Mitte. EVP."
     },
     "type": "author"
@@ -41,7 +41,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-09-12T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -72,6 +86,11 @@
           "date": "/Date(1608246000000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1662933600000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -282,9 +301,9 @@
         "officialDenomination": "Candinas"
       },
       "faction": {
-        "abbreviation": "M-E",
+        "abbreviation": "Fraktion M-E",
         "code": "M-E",
-        "id": 139,
+        "id": 3,
         "name": "Die Mitte-Fraktion. Die Mitte. EVP."
       },
       "type": "author"
@@ -292,9 +311,10 @@
   ],
   "shortId": "20.4727",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [

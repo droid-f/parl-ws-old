@@ -1,6 +1,6 @@
 {
   "id": 20223343,
-  "updated": "2022-03-22T10:52:31Z",
+  "updated": "2022-09-12T19:35:44Z",
   "additionalIndexing": "08;04;09;2841",
   "affairType": {
     "abbreviation": "Po.",
@@ -33,10 +33,42 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Combattu"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-06-17T00:00:00Z",
+            "text": "Combattu. Discussion reportée",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-09-12T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter le postulat."
       },
       "index": 0,
       "links": [
@@ -49,13 +81,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "ChF",
+          "id": 10,
+          "name": "Chancellerie fédérale",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647558000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1662933600000+0200)/",
+          "id": 26,
+          "name": "Adopté"
         }
       ],
       "texts": [
@@ -63,6 +105,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-09-12T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5116"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -77,6 +124,16 @@
 
   ],
   "roles": [
+    {
+      "councillor": {
+        "code": 3030,
+        "gender": "m",
+        "id": 4125,
+        "name": "Rutz Gregor",
+        "officialDenomination": "Rutz Gregor"
+      },
+      "type": "controvert"
+    },
     {
       "faction": {
         "abbreviation": "Groupe GL",
@@ -98,19 +155,40 @@
   ],
   "shortId": "22.3343",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 26,
+    "name": "Adopté",
+    "doneKey": "3",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Après la pandémie de COVID-19, l'offensive russe en Ukraine précipite une nouvelle fois la Suisse dans une crise dont les répercussions se font sentir dans presque tous les domaines et à laquelle la Confédération n'était pas préparée. Celle-ci ne disposait en effet pas de scénarios ou de mesures élaborées en amont qu'elle aurait pu mettre en oeuvre rapidement. Le Conseil fédéral a en outre perdu un temps précieux avant d'activer la gestion de crise et de déterminer les responsabilités de chacun. </p><p>D'après la Constitution, le Conseil fédéral est \" l'autorité directoriale et exécutive suprême de la Confédération \". En pratique, sa fonction \" directoriale \" s'efface toutefois trop souvent derrière sa fonction \" exécutive \", en raison de l'importance prépondérante accordée à l'organisation en départements. Si cette organisation permet de maintenir une certaine stabilité, elle rend toutefois difficile pour le Conseil fédéral d'avoir une vue d'ensemble et l'empêche d'anticiper les crises, de s'y préparer et d'y réagir rapidement et résolument. Cela est particulièrement vrai pour les crises qui concernent plusieurs départements. Dans son rapport concernant l'évaluation de la gestion de crise pendant la pandémie de COVID-19, la Chancellerie fédérale admet d'ailleurs que \" le cloisonnement départemental et le manque de vue d'ensemble se sont accentués sur la durée de la crise \".</p><p>Ce constat est d'autant plus préoccupant que l'absence de stratégie globale du Conseil fédéral est critiquée depuis des années. En 2014 et 2015, les Commissions de gestion s'étaient ainsi longuement penchées sur la manière dont le Conseil fédéral assurait la collaboration entre les départements en matière de politique extérieure. Aujourd'hui, il est difficile de dire quelle a été l'efficacité de leurs recommandations et dans quelle mesure elles ont été mises en oeuvre. On mesure les efforts qui restent à accomplir dans ce domaine, et le manque de conscience que le Conseil fédéral a du problème, à la réponse fournie par ce dernier à nos questions portant sur la guerre en Ukraine (22.3043). Il y indique certes que chaque département a pour tâche de détecter précocement d'éventuelles crises dans son domaine de compétence, et que la Chancellerie fédérale soutient les départements et le Conseil fédéral dans l'accomplissement de cette tâche. Mais il ne dit rien sur un aspect pourtant essentiel : la nécessité de synthétiser ces analyses en une vue d'ensemble prévoyant différents scénarios, de préparer les mesures à prendre pour y réagir et de garantir leur mise en oeuvre sans délai le moment venu.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral partage l'avis des signataires du postulat. Il a chargé dès mai 2020 la Chancellerie fédérale d'analyser la gestion de crise de l'administration fédérale à la lumière de la pandémie de COVID-19 et de présenter des mesures permettant d'améliorer la résistance aux crises de manière générale. Les questions soulevées par le postulat seront reprises et traitées dans le cadre de ces travaux.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé d'établir un rapport dans lequel il présentera les mesures qui lui permettront d'être mieux préparé aux crises et de réagir rapidement et efficacement aux grands bouleversements. Il décrira comment, lorsque surviennent des événements susceptibles d'entraîner une crise, il s'agit d'établir les faits, de réaliser des analyses, d'élaborer des scénarios, d'identifier les mesures à prendre et de préparer leur mise en oeuvre. Il détaillera aussi la manière dont ces éléments sont mis à la disposition de l'ensemble du Conseil fédéral en tant qu'aide à la décision. Il accordera pour ce faire une attention particulière à la phase correspondant au tout début de la crise. Enfin, il désignera le département responsable de l'anticipation des crises sur le plan politique, précisera la manière dont la responsabilité globale de l'organisation de crise est déterminée dès la survenance d'une crise et indiquera les éventuels changements qui s'imposent sur le plan institutionnel.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Garantir enfin la capacité institutionnelle du Conseil fédéral à faire face aux crises"
     }
   ],
-  "title": "Titre suit"
+  "title": "Garantir enfin la capacité institutionnelle du Conseil fédéral à faire face aux crises"
 }

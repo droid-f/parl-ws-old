@@ -1,6 +1,6 @@
 {
   "id": 20223343,
-  "updated": "2022-03-22T10:52:31Z",
+  "updated": "2022-09-12T19:35:44Z",
   "additionalIndexing": "08;04;09;2841",
   "affairType": {
     "abbreviation": "Po.",
@@ -33,10 +33,42 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Opposizione"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-06-17T00:00:00Z",
+            "text": "Controverso. Discussione rinviata",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-09-12T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere il postulato."
       },
       "index": 0,
       "links": [
@@ -49,13 +81,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "CaF",
+          "id": 10,
+          "name": "Cancelleria federale",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647558000000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1662933600000+0200)/",
+          "id": 26,
+          "name": "Adottato"
         }
       ],
       "texts": [
@@ -63,6 +105,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-09-12T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5116"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -77,6 +124,16 @@
 
   ],
   "roles": [
+    {
+      "councillor": {
+        "code": 3030,
+        "gender": "m",
+        "id": 4125,
+        "name": "Rutz Gregor",
+        "officialDenomination": "Rutz Gregor"
+      },
+      "type": "controvert"
+    },
     {
       "faction": {
         "abbreviation": "Gruppo GL",
@@ -98,19 +155,40 @@
   ],
   "shortId": "22.3343",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 26,
+    "name": "Adottato",
+    "doneKey": "3",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Subito dopo la pandemia, la guerra d'aggressione della Russia contro l'Ucraina ha nuovamente messo il nostro Paese di fronte a una crisi che si ripercuote praticamente su tutti gli ambiti della vita e che ha colto impreparate le autorità federali. Non erano disponibili previsioni sull'evoluzione della situazione né misure predefinite che avrebbero permesso di reagire in modo rapido a questa situazione. Inoltre, nella fase iniziale il Consiglio federale ha perso tempo prezioso prima di attivare la gestione delle crisi e definire le responsabilità. Secondo la Costituzione federale \"il Consiglio federale è la suprema autorità direttiva ed esecutiva della Confederazione\". Nella prassi governativa si direbbe tuttavia che la componente \"esecutiva\" prevale su quella \"direttiva\". Questo squilibrio è la conseguenza dell'eccessivo peso dato alla struttura dipartimentale del Governo. Tale struttura è adatta a situazioni di ordinaria amministrazione, ma favorisce una compartimentazione che impedisce al Consiglio federale di anticipare tempestivamente le crisi adottando i provvedimenti necessari e di agire con velocità e determinazione quando le crisi esplodono. Un effetto particolarmente marcato nei casi in cui più dipartimenti sono chiamati a rispondere. Tali lacune sono state constatate senza mezzi termini nel rapporto di valutazione della gestione della crisi pandemica di COVID-19, pubblicato dalla Cancelleria federale, secondo cui \"[i]l dipartimentalismo e l'approccio a compartimenti stagni hanno acquisito sempre più importanza nel corso della gestione della crisi.\" Questa situazione è ancora più preoccupante se si considera che già da anni la mancanza di una strategia globale volta a rafforzare le funzioni direttive del Consiglio federale è oggetto di critiche. Così, già nel 2014 e nel 2015 le Commissioni della gestione hanno esaminato in modo approfondito le modalità con cui il Consiglio federale garantisce la cooperazione interdipartimentale nella politica estera, eppure a tutt'oggi non sono chiare né l'efficacia né l'attuazione delle raccomandazioni allora formulate. A conferma della mancata consapevolezza della necessità di agire si possono citare le risposte del Consiglio federale alle domande sulla guerra in Ucraina (22.3043). Vi si afferma che ogni dipartimento è incaricato dell'identificazione precoce di crisi nel proprio ambito di competenza e che, dal canto suo, la Cancelleria federale ha il compito di coordinare l'operato dei dipartimenti e del collegio governativo. Non vi si fa accenno però all'elemento centrale, cioè al fatto che è necessario unire tutte queste analisi in un quadro complessivo con diverse previsioni sugli sviluppi possibili, predisporre le relative misure e garantirne l'attuazione immediata in caso di necessità.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale condivide la richiesta degli autori del postulato. Già nel maggio 2020 ha incaricato la Cancelleria federale di analizzare la gestione delle crisi da parte dell'Amministrazione federale prendendo spunto dalla pandemia di COVID-19 e di proporre misure per migliorare in maniera generale la resistenza a simili situazioni. Le domande sollevate dal postulato saranno esaminate nel quadro di tale valutazione.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di presentare un rapporto sulle misure che intende adottare per migliorare la sua capacità di affrontare le crisi e di garantire una risposta veloce ed efficace a cambiamenti di ampia portata. Il rapporto dovrà illustrare in che modo il Consiglio federale elabora le basi, le analisi e le ipotesi sui possibili sviluppi e prepara le misure e la loro attuazione in relazione a circostanze che possono preludere a una crisi, e in che modo questi elementi sono messi a disposizione del Collegio governativo come base per le sue decisioni. Particolare attenzione dovrà essere data all'aspetto della fase iniziale delle crisi. Il rapporto dovrà inoltre stabilire a quale dipartimento spetta la responsabilità politica per l'identificazione precoce delle crisi, definire modalità che permettano di determinare rapidamente dopo l'insorgere di una crisi l'unità responsabile per il coordinamento della gestione della stessa e illustrare gli adeguamenti istituzionali eventualmente necessari.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Rafforzare finalmente a livello istituzionale la capacità del Consiglio federale di affrontare le crisi"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Rafforzare finalmente a livello istituzionale la capacità del Consiglio federale di affrontare le crisi"
 }
