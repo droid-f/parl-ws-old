@@ -1,6 +1,6 @@
 {
   "id": 20194194,
-  "updated": "2021-09-22T14:33:16Z",
+  "updated": "2022-09-13T13:43:03Z",
   "additionalIndexing": "2841;28",
   "affairType": {
     "abbreviation": "Mo.",
@@ -16,7 +16,7 @@
       "officialDenomination": "Graf Maya"
     },
     "faction": {
-      "abbreviation": "G",
+      "abbreviation": "Gruppo G",
       "id": 6,
       "name": "Gruppo dei Verdi"
     },
@@ -69,6 +69,21 @@
             "date": "2021-09-22T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2022-09-13T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
           }
         ]
       },
@@ -121,7 +136,27 @@
           },
           "date": "2019-09-26T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2569,
+                    "gender": "f",
+                    "id": 806,
+                    "name": "Graf Maya",
+                    "officialDenomination": "Graf Maya"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5116"
+            }
           ]
         }
       ],
@@ -146,6 +181,11 @@
           "date": "/Date(1632261600000+0200)/",
           "id": 11,
           "name": "Mozione alla seconda Camera"
+        },
+        {
+          "date": "/Date(1663020000000+0200)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -153,6 +193,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-09-13T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5116"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -386,7 +431,7 @@
         "officialDenomination": "Graf Maya"
       },
       "faction": {
-        "abbreviation": "G",
+        "abbreviation": "Gruppo G",
         "id": 6,
         "name": "Gruppo dei Verdi"
       },
@@ -405,9 +450,9 @@
   ],
   "shortId": "19.4194",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },
