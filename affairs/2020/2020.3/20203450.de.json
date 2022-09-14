@@ -1,6 +1,6 @@
 {
   "id": 20203450,
-  "updated": "2020-06-17T18:39:07Z",
+  "updated": "2022-09-14T10:58:34Z",
   "additionalIndexing": "24;2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -57,6 +57,21 @@
             "date": "2020-06-17T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-09-14T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -157,7 +172,33 @@
           },
           "date": "2020-05-11T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3183,
+                    "gender": "f",
+                    "id": 4306,
+                    "name": "Gapany Johanna",
+                    "officialDenomination": "Gapany"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5116"
+            }
           ]
         }
       ],
@@ -182,6 +223,11 @@
           "date": "/Date(1592344800000+0200)/",
           "id": 11,
           "name": "Motion an 2. Rat"
+        },
+        {
+          "date": "/Date(1663106400000+0200)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -189,6 +235,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-09-14T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5116"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -224,9 +275,9 @@
   ],
   "shortId": "20.3450",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },
