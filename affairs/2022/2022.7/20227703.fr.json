@@ -1,6 +1,6 @@
 {
   "id": 20227703,
-  "updated": "2022-09-15T08:48:52Z",
+  "updated": "2022-09-19T17:06:38Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-09-19T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2022-09-19T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -67,6 +82,11 @@
           "date": "/Date(1663106400000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1663538400000+0200)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -74,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-09-19T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5116"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -97,12 +122,19 @@
   ],
   "shortId": "22.7703",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La notion de consommateurs protégés ou non protégés n'existe pas pour l'électricité; elle n'existe que pour le contingentement du gaz. Le contingentement de l'électricité s'applique en principe aux gros consommateurs dont la consommation annuelle est supérieure à 100 mégawattheure. En principe, la consommation totale d'une entreprise est contingentée. Si de gros consommateurs utilisent des installations de production d'énergie avec des puissances de raccordement jusqu'à 30 kilowatt pour leur propre consommation, le gestionnaire de réseau de distribution ne disposé en général pas de données de mesure pour ces installations de production d'énergie. Dans ces cas, il n'est donc pas possible de tenir compte des fluctuations dues, par exemple, aux conditions météorologiques. Pour les installations de production d'énergie d'une puissance de raccordement supérieure à 30 kilowatt, les gestionnaires de réseau de distribution disposent des données de mesure nécessaires. </p>"
+    },
     {
       "type": {
         "id": 5,

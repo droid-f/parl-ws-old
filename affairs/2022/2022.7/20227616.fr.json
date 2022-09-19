@@ -1,6 +1,6 @@
 {
   "id": 20227616,
-  "updated": "2022-09-14T16:10:03Z",
+  "updated": "2022-09-19T16:45:46Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-09-19T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2022-09-19T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -67,6 +82,11 @@
           "date": "/Date(1663106400000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1663538400000+0200)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -74,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-09-19T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5116"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -97,12 +122,19 @@
   ],
   "shortId": "22.7616",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral est conscient des défis liés à l'augmentation des coûts de l'électricité pour les entreprises sur le marché libre et pour les ménages. Il a donc chargé le groupe de travail interdépartemental (DEFR, DETEC, DFI, DFF, DFJP) d'évaluer les mesures envisageables, en tenant compte de l'évolution des marchés de l'énergie et de ses conséquences sur les ménages et l'économie. Le groupe de travail interdépartemental soumettra les résultats de son évaluation au Conseil fédéral en octobre 2022. Les tarifs d'approvisionnement de base pour l'année 2023 ont été publiés le 31 août 2022 par les gestionnaires de réseau de distribution et sont désormais fixes pour une année. Selon l'article 11 alinéa 2, de l'ordonnance du 14 mars 2008 sur l'approvisionnement en électricité (OApEl; RS 734.71), le principe \"libre une fois, libre toujours\" s'applique: celui qui change de fournisseur ou fait usage de son droit d'accès au réseau ne peut plus revenir à l'approvisionnement de base. Le Tribunal fédéral a constaté que le législateur visait exclusivement un exercice unique du droit d'accès au réseau et qu'un changement à volonté (dans les cas extrêmes, chaque année) ne correspondait donc pas à l'esprit de la loi. Ainsi, une fois que l'on a opté pour l'accès au réseau, on se trouve sur le marché libre et il n'est plus possible de revenir à l'approvisionnement de base, selon la législation actuelle. Si l'on veut permettre aux entreprises de revenir à l'approvisionnement de base à un autre tarif (structure à deux tarifs) sans que cela ne pèse sur les clients finaux existants (pas de financement croisé), le fournisseur de base doit en règle générale se procurer ces quantités supplémentaires sur le marché à l'heure actuelle. Dans ces conditions, on peut supposer que le prix ne sera pas plus bas que le prix actuel pour les entreprises sur le marché libre. </p>"
+    },
     {
       "type": {
         "id": 5,
