@@ -1,6 +1,6 @@
 {
   "id": 20223016,
-  "updated": "2022-05-11T08:31:42Z",
+  "updated": "2022-09-20T14:12:45Z",
   "additionalIndexing": "2841;1236;34",
   "affairType": {
     "abbreviation": "Mo.",
@@ -57,6 +57,21 @@
             "date": "2022-05-11T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-09-20T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -157,7 +172,33 @@
           },
           "date": "2022-02-04T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3053,
+                    "gender": "m",
+                    "id": 4153,
+                    "name": "Hegglin Peter",
+                    "officialDenomination": "Hegglin Peter"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5116"
+            }
           ]
         }
       ],
@@ -182,6 +223,11 @@
           "date": "/Date(1652220000000+0200)/",
           "id": 11,
           "name": "Motion an 2. Rat"
+        },
+        {
+          "date": "/Date(1663624800000+0200)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -189,6 +235,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-09-20T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5116"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -224,11 +275,11 @@
   ],
   "shortId": "22.3016",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "isMotionInSecondCouncil": true,
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

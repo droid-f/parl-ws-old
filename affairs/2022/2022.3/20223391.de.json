@@ -1,6 +1,6 @@
 {
   "id": 20223391,
-  "updated": "2022-06-09T12:55:44Z",
+  "updated": "2022-09-20T08:40:27Z",
   "additionalIndexing": "32",
   "affairType": {
     "abbreviation": "Mo.",
@@ -57,6 +57,21 @@
             "date": "2022-06-09T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-09-19T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -157,7 +172,33 @@
           },
           "date": "2022-04-29T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3196,
+                    "gender": "m",
+                    "id": 4241,
+                    "name": "Stark Jakob",
+                    "officialDenomination": "Stark"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion V",
+                    "code": "V",
+                    "id": 4,
+                    "name": "Fraktion der Schweizerischen Volkspartei"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5116"
+            }
           ]
         }
       ],
@@ -182,6 +223,11 @@
           "date": "/Date(1654725600000+0200)/",
           "id": 11,
           "name": "Motion an 2. Rat"
+        },
+        {
+          "date": "/Date(1663538400000+0200)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -189,6 +235,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-09-19T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5116"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -224,9 +275,9 @@
   ],
   "shortId": "22.3391",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },
