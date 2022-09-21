@@ -1,6 +1,6 @@
 {
   "id": 20194635,
-  "updated": "2021-12-14T07:20:56Z",
+  "updated": "2022-09-21T15:31:29Z",
   "additionalIndexing": "2446;08;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -18,7 +18,7 @@
     "faction": {
       "abbreviation": "Fraktion M-E",
       "code": "M-E",
-      "id": 139,
+      "id": 3,
       "name": "Die Mitte-Fraktion. Die Mitte. EVP."
     },
     "type": "author"
@@ -70,6 +70,21 @@
             "date": "2021-12-13T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-09-21T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -120,13 +135,82 @@
                   "faction": {
                     "abbreviation": "Fraktion M-E",
                     "code": "M-E",
-                    "id": 139,
+                    "id": 3,
                     "name": "Die Mitte-Fraktion. Die Mitte. EVP."
                   },
                   "language": "de"
                 }
               ],
               "sessionId": "5111"
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-NR",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2019-12-20T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2786,
+                    "gender": "m",
+                    "id": 4083,
+                    "name": "Grossen Jürg",
+                    "officialDenomination": "Grossen Jürg"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion GL",
+                    "code": "GL",
+                    "id": 137,
+                    "name": "Grünliberale Fraktion"
+                  },
+                  "language": "de"
+                },
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2776,
+                    "gender": "m",
+                    "id": 4072,
+                    "name": "Regazzi Fabio",
+                    "officialDenomination": "Regazzi"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5116"
             }
           ]
         }
@@ -152,6 +236,11 @@
           "date": "/Date(1639350000000+0100)/",
           "id": 11,
           "name": "Motion an 2. Rat"
+        },
+        {
+          "date": "/Date(1663711200000+0200)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -159,6 +248,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-09-21T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5116"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -234,7 +328,7 @@
       "faction": {
         "abbreviation": "Fraktion M-E",
         "code": "M-E",
-        "id": 139,
+        "id": 3,
         "name": "Die Mitte-Fraktion. Die Mitte. EVP."
       },
       "type": "author"
@@ -242,9 +336,9 @@
   ],
   "shortId": "19.4635",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },

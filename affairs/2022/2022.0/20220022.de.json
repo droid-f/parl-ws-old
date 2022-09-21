@@ -1,6 +1,6 @@
 {
   "id": 20220022,
-  "updated": "2022-08-12T11:10:30Z",
+  "updated": "2022-09-21T15:31:55Z",
   "additionalIndexing": "04;34",
   "affairType": {
     "abbreviation": "BRG",
@@ -133,6 +133,11 @@
           "date": "/Date(1654034400000+0200)/",
           "id": 3,
           "name": "Behandelt vom Ständerat"
+        },
+        {
+          "date": "/Date(1663711200000+0200)/",
+          "id": 4,
+          "name": "Von beiden Räten behandelt"
         }
       ],
       "texts": [
@@ -162,6 +167,21 @@
             "date": "2022-06-01T00:00:00Z",
             "text": "Beschluss abweichend vom Entwurf",
             "type": 52
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-09-21T00:00:00Z",
+            "text": "Abweichung",
+            "type": 37
           }
         ]
       },
@@ -192,11 +212,55 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3160,
+                    "gender": "f",
+                    "id": 4268,
+                    "name": "Gysin Greta",
+                    "officialDenomination": "Gysin Greta"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion G",
+                    "code": "G",
+                    "id": 6,
+                    "name": "Grüne Fraktion"
+                  },
+                  "language": "de"
+                },
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3182,
+                    "gender": "m",
+                    "id": 4290,
+                    "name": "Silberschmidt Andri",
+                    "officialDenomination": "Silberschmidt"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5116"
             }
-          ]
+          ],
+          "treatmentCategory": "IIIb/IV"
         },
         {
           "committee": {
@@ -307,6 +371,11 @@
           "date": "/Date(1654034400000+0200)/",
           "id": 3,
           "name": "Behandelt vom Ständerat"
+        },
+        {
+          "date": "/Date(1663711200000+0200)/",
+          "id": 4,
+          "name": "Von beiden Räten behandelt"
         }
       ],
       "texts": [
@@ -338,8 +407,8 @@
   ],
   "shortId": "22.022",
   "state": {
-    "id": 3,
-    "name": "Behandelt vom Ständerat",
+    "id": 4,
+    "name": "Von beiden Räten behandelt",
     "doneKey": "0",
     "newKey": 0
   },

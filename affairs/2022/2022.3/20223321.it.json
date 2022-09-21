@@ -1,6 +1,6 @@
 {
   "id": 20223321,
-  "updated": "2022-03-22T11:10:05Z",
+  "updated": "2022-09-21T18:28:04Z",
   "additionalIndexing": "66;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-09-21T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647558000000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1663711200000+0200)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -422,19 +449,41 @@
   ],
   "shortId": "22.3321",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Nei prossimi anni i requisiti di flessibilità della rete elettrica diventeranno più severi. Ciò è da ascrivere principalmente alla decentralizzazione del sistema elettrico (fotovoltaico, elettromobilità) e alla mancata stipula di un accordo sul mercato elettrico tra la Svizzera e l'UE. </p><p>L'attuale mercato dell'energia di regolazione svizzero è stato creato e dimensionato per l'energia idroelettrica. La regolazione si basa sull'attivazione e la disattivazione di produttori e consumatori di energia. L'unità più piccola di potenza immessa in rete deve essere pari rispettivamente a +/-1MW duante 4 ore, oppure a +/- 5MW durante una settimana. Queste condizioni quadro di fatto precludono la partecipazione al mercato dei piccoli e medi attori e consumatori di energia quali le batterie, la mobilità elettrica o i carichi intelligenti. </p><p>Tuttavia, per la flessibilizzazione del mercato la partecipazione di questi attori è imprescindibile. Diversamente dalle centrali idroelettriche, essi possono essere regolati, oppure attivati/disattivati, gradualmente o con continuità, in modo flessibile e praticamente senza costi marginali. Va poi osservato che la costruzione di ulteriori centrali idroelettriche si scontra con grossi ostacoli, cosa che certamente non favorisce una maggiore flessibilità delle centrali idroelettriche.</p><p></p><p>La flessibilità supplementare presenta però anche altri vantaggi: rafforza la stabilità della rete compensando i carichi imprevedibili e aumenta la liquidità del mercato. Inoltre permette di risparmiare riserve di stoccaggio.</p><p>Nel definire nuove regole di mercato il Consiglio federale potrà far capo alle esperienze positive maturate all'estero, ad esempio in Finlandia.</p><p>Nella sua risposta al postulato 16.3890, il Consiglio federale ha sottolineato che in Svizzera vi è un potenziale consistente per l'estensione del mercato dell'energia di regolazione a produttori e consumatori più piccoli (ca +/- 750 MW), potenziale che si dovrebbe sfruttare. Il potenziale inutilizzato si ingrandisce sempre più e corrisponde almeno alla flessibilità necessaria attualmente.</p><p>Si impone pertanto la creazione di un accesso capillare, non discriminatorio, al mercato dell'energia di regolazione affinché tale energia rimanga conveniente e affidabile e la stabilità della rete sia garantita sul lungo periodo.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Visto il potenziamento delle energie rinnovabili, si può partire dal presupposto che occorrerà una maggiore flessibilità del futuro sistema elettrico. Nel progetto di legge federale su un approvvigionamento sicuro con le energie rinnovabili, attualmente dibattuto in Parlamento, il Consiglio federale ha pertanto previsto anche una disposizione di flessibilizzazione. Il diritto di sfruttare le flessibilizzazioni spetterà ai produttori, ai gestori degli impianti di stoccaggio e ai consumatori finali. Soggetti terzi, quali ad esempio i gestori della rete di distribuzione, intenzionati a usare la flessibilità devono acquisirla in linea di principio tramite un contratto. Se, come sinora, i gestori della rete di distribuzione intendono sfruttare le flessibilità al servizio della rete, sono tenuti a offrire ai titolari di tali flessibilità condizioni contrattuali non discriminatorie.</p><p>Conformemente all'articolo 20 capoverso 2 lettera b della legge sull'approvvigionamento elettrico (LAEl; RS 734.7), in Svizzera la responsabilità del mercato dell'energia elettrica incombe alla società di rete Swissgrid. Sulla base di requisiti tecnici risultanti dall'interconnessione con l'Europa, Swissgrid definisce tipo e quantità dei prodotti di energia di regolazione necessari per garantire la sicurezza della gestione della rete. Nel configurare il mercato dell'energia di regolazione, Swissgrid deve far sì che esso si adegui costantemente all'evoluzione tecnica in corso, così da poterne assicurare per quanto possibile la liquidità; ciò significa nel contempo che un numero possibilmente elevato di offerenti può partecipare al mercato e che lo stesso diventa più efficiente. Affinché anche i fornitori della flessibilità più piccoli possano partecipare al mercato dell'energia di regolazione, già nel 2013 Swissgrid aveva introdotto l'opzione del pooling (v. la raccomandazione per il mercato elettrico svizzero, Anbindung von Regelpools an den Schweizer SDL-Markt, non disponibile in italiano). È così garantito che anche gli attori più piccoli possano partecipare al mercato dell'energia di regolazione. Per ragioni tecniche e logistiche una partecipazione diretta non è attualmente possibile.</p><p>Inoltre, a intervalli regolari vengono discussi e introdotti nuovi adeguamenti dei prodotti del mercato dell'energia di regolazione allo scopo, tra l'altro, di promuovere la partecipazione anche degli attori più piccoli. L'esempio più recente è costituito dalla partecipazione di Swissgrid al progetto pilota Equigy, che analizza gli ostacoli di natura tecnico-logistica a una partecipazione diretta degli attori più piccoli.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di consentire agli attori di piccola e media taglia di partecipare, senza discriminazioni e indipendentemente dalla tecnologia impiegata, al mercato dell'energia di regolazione, sia dal lato della produzione che da quello del consumo. Per la partecipazione devono valere limiti inferiori di gran lunga più bassi e/o un lasso di tempo più breve rispetto ad oggi, fermo restando che questi limiti non devono discriminare nessuna tecnologia. Il limite inferiore può essere raggiunto tramite aggregazione.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Stabilità della rete elettrica a costi contenuti grazie all'integrazione di attori di piccola e media taglia nel mercato dell'energia di regolazione"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Stabilità della rete elettrica a costi contenuti grazie all'integrazione di attori di piccola e media taglia nel mercato dell'energia di regolazione"
 }

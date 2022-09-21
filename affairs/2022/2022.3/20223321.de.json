@@ -1,6 +1,6 @@
 {
   "id": 20223321,
-  "updated": "2022-03-22T11:10:05Z",
+  "updated": "2022-09-21T18:28:04Z",
   "additionalIndexing": "66;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,10 +41,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-09-21T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
@@ -57,13 +74,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647558000000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1663711200000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -424,19 +451,41 @@
   ],
   "shortId": "22.3321",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Die Anforderungen an die Flexibilität des Stromnetzes werden sich in den nächsten Jahren erhöhen. Die beiden Hauptursachen sind die Dezentralisierung des Stromsystems (Photovoltaik, Elektromobilität) und die Nichtunterzeichnung des Abkommens über den Elektrizitätsmarkt zwischen der Schweiz und Europa. </p><p>Der heutige Regelenergiemarkt der Schweiz wurde für die Wasserkraft geschaffen und dimensioniert. Die Regelung beruht auf dem Ein- und Ausschalten von Energieproduzenten und Verbrauchern. Als kleinste Einheit muss eine Leistung von +/-1MW während 4 Stunden oder +/- 5MW während einer Woche eingespeist werden können. Mit diesen Rahmenbedingungen wird mittleren und kleinen Akteuren und Energieverbrauchern wie Batterien, E-Mobilität oder intelligenten Lasten die Teilnahme an diesem Markt faktisch verunmöglicht. </p><p>Die Teilnahme dieser Akteure ist für die Flexibilisierung jedoch unverzichtbar. Sie können im Gegensatz zu Wasserkraftwerken flexibel und quasi ohne Grenzkosten stufenweise oder stufenlos geregelt oder ein- und ausgeschaltet werden. Ausserdem zeigt sich, dass der Bau von zusätzlichen Wasserkraftwerken mit grossen Hürden verbunden ist. Somit ist kaum mehr Flexibilität von der Wasserkraft zu erwarten.</p><p>Die zusätzliche Flexibilität hat weitere Vorteile: Sie erhöht die Netzstabilität beim Ausgleich von nicht-planbaren Lasten und erhöht die Liquidität des Marktes. Zudem werden die Speicherreserven geschont.</p><p>Der Bundesrat, kann sich bei der Etablierung der neuen Marktregeln an den guten Erfahrungen im Ausland anlehnen, wie z.B. in Finnland.</p><p>In der Antwort auf das Postulat 16.3890, hat der Bundesrat gezeigt, dass es in der Schweiz ein beträchtliches Potenzial für eine Ausweitung des Regelenergiemarktes auf kleinere Produzenten und Verbraucher gibt (ca +/- 750 MW), welches ausgeschöpft werden sollte. Das brachliegende Potenzial wird immer grösser und entspricht mindestens der aktuell benötigten Flexibilität.</p><p>Daher ist die Schaffung eines feiner gegliederten, diskriminierungsfreien Zugangs auf den Regelenergiemarkt nötig, damit die Regelenergie preiswert und zuverlässig bleibt und die Netzstabilität langfristig garantiert werden kann.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Aufgrund des Zubaus an erneuerbaren Energien kann von einem steigenden Flexibilitätsbedarf im künftigen Stromsystem ausgegangen werden. Der Bundesrat hat deswegen im Entwurf zum Bundesgesetz über einer sicheren Stromversorgung mit erneuerbaren Energien, welche derzeit im Parlament beraten wird, auch eine Flexibilitätsregulierung vorgesehen. Das Recht, die Flexibilitäten zu nutzen, soll den jeweiligen Erzeugern, Speicherbetreibern oder Endverbraucherinnen und Endverbrauchern zustehen. Wenn Dritte, auch Verteilnetzbetreiber, die Flexibilitäten nutzen wollen, müssen sie sich diese grundsätzlich vertraglich sichern. Wollen Verteilnetzbetreiber Flexibilität, wie bis anhin, netzdienlich nutzen, so müssen sie den Flexibilitätsinhabern diskriminierungsfreie Vertragskonditionen anbieten.</p><p>Für den Regelenergiemarkt in der Schweiz ist die Swissgrid gemäss Stromversorgungsgesetz (StromVG, SR 734.7) Art. 20 Abs. 2 Bst. b zuständig. Sie definiert aufgrund technischer Anforderungen, die sich auch aus dem Verbundbetrieb mit Europa ergeben, die Art und Menge der Regelenergieprodukte, um die Netzsicherheit gewährleisten zu können. Swissgrid hat bei der Ausgestaltung des Regelenergiemarktes darauf zu achten, dass dieser sich laufend an den Stand der technischen Entwicklungen anpasst; mit dem Ziel, dass er möglichst liquide ist - was auch bedeutet, dass möglichst viele Anbieter teilnehmen können und der Markt effizienter wird. Damit auch kleinere Flexibilitätsanbieter am Regelenergiemarkt teilnehmen können, hat Swissgrid bereits im Jahr 2013 die Möglichkeit des Poolings eingeführt (siehe Branchenempfehlung Strommarkt Schweiz, Anbindung von Regelpools an den Schweizer SDL-Markt). Damit ist gewährleistet, dass kleinere Akteure am Regelenergiemarkt teilnehmen können. Eine direkte Teilnahme ist aus technischen und logistischen Gründen zurzeit nicht möglich.</p><p>Weiter werden regelmässig neue Anpassungen der Produkte im Regelenergiemarkt diskutiert und eingeführt, um u.a. auch die Teilnahme kleinerer Akteure zu fördern. Jüngstes Beispiel ist die Beteiligung der Swissgrid am Pilotprojekt Equigy, das die technischen und logistischen Hürden einer direkten Beteiligung von kleineren Akteuren untersucht.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, mittleren und kleinen Akteuren sowohl auf Produktions- wie auch Verbraucherseite die diskriminierungsfreie und technologieneutrale Teilnahme am Regelenergiemarkt zu ermöglichen. Für die Teilnahme gelten deutlich tiefere Untergrenzen und/oder eine kürzere Zeitdauer als heute, wobei diese Grenzen keine Technologie diskriminieren dürfen. Die Untergrenze kann durch Aggregation erreicht werden.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Strom-Netzstabilität zu geringen Kosten durch Einbindung von mittleren und kleinen Teilnehmern im Regelenergiemarkt"
+      "value": "Strommnetzstabilität zu geringen Kosten durch Einbindung von mittleren und kleinen Teilnehmern im Regelenergiemarkt"
     }
   ],
-  "title": "Strom-Netzstabilität zu geringen Kosten durch Einbindung von mittleren und kleinen Teilnehmern im Regelenergiemarkt"
+  "title": "Strommnetzstabilität zu geringen Kosten durch Einbindung von mittleren und kleinen Teilnehmern im Regelenergiemarkt"
 }

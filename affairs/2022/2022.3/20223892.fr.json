@@ -1,6 +1,6 @@
 {
   "id": 20223892,
-  "updated": "2022-09-01T09:28:57Z",
+  "updated": "2022-09-21T15:35:09Z",
   "additionalIndexing": "2846;2831;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-09-21T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-09-16T00:00:00Z",
+        "text": "Le Conseil fédéral propose d’accepter la motion.\r\nPar rapport à la situation actuelle, la mise en œuvre n’engendre aucune charge de personnel supplémentaire. Les missions de la Confédération peuvent être accomplies dans le cadre des ressources à disposition."
       },
       "index": 0,
       "links": [
@@ -158,10 +175,18 @@
           "date": "/Date(1661810400000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1663711200000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
-
+        {
+          "type": null,
+          "value": "Le Conseil fédéral propose d’accepter la motion.\r\nPar rapport à la situation actuelle, la mise en œuvre n’engendre aucune charge de personnel supplémentaire. Les missions de la Confédération peuvent être accomplies dans le cadre des ressources à disposition."
+        }
       ]
     }
   ],
@@ -200,9 +225,10 @@
   ],
   "shortId": "22.3892",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 1
   },
   "texts": [

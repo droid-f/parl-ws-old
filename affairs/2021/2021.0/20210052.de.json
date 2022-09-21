@@ -1,6 +1,6 @@
 {
   "id": 20210052,
-  "updated": "2022-06-27T07:52:46Z",
+  "updated": "2022-09-21T13:53:12Z",
   "additionalIndexing": "09;24",
   "affairType": {
     "abbreviation": "BRG",
@@ -19,7 +19,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-09-21T00:00:00Z",
+            "text": "Kenntnisnahme",
+            "type": 43
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -117,13 +131,23 @@
         }
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "VBS",
+          "id": 6,
+          "name": "Departement für Verteidigung, Bevölkerungsschutz und Sport",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1625004000000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1663711200000+0200)/",
+          "id": 3,
+          "name": "Behandelt vom Ständerat"
         }
       ],
       "texts": [
@@ -138,6 +162,15 @@
     }
   ],
   "language": "de",
+  "priorityCouncils": [
+    {
+      "abbreviation": "SR",
+      "id": 2,
+      "name": "Ständerat",
+      "type": "S",
+      "priority": 1
+    }
+  ],
   "relatedAffairs": [
 
   ],
@@ -146,8 +179,8 @@
   ],
   "shortId": "21.052",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 3,
+    "name": "Behandelt vom Ständerat",
     "doneKey": "0",
     "newKey": 0
   },
