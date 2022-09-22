@@ -1,6 +1,6 @@
 {
   "id": 20223334,
-  "updated": "2022-03-22T10:55:25Z",
+  "updated": "2022-09-22T13:06:24Z",
   "additionalIndexing": "28;1216",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,42 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Combattu"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-06-17T00:00:00Z",
+            "text": "Combattu. Discussion reportée",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-09-22T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -56,13 +88,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647558000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1663797600000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -86,6 +128,16 @@
   "roles": [
     {
       "councillor": {
+        "code": 3135,
+        "gender": "f",
+        "id": 4234,
+        "name": "Schläpfer Therese",
+        "officialDenomination": "Schläpfer"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
         "code": 3149,
         "gender": "f",
         "id": 4257,
@@ -102,19 +154,34 @@
   ],
   "shortId": "22.3334",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>En Suisse, les victimes de violences sexuelles, domestiques ou sexistes trouvent rarement l'aide médicale et psychologique d'urgence dont elles ont spécifiquement besoin. De même, elles n'ont pas, le plus souvent, la possibilité de faire documenter et sauvegarder par la médecine légale les traces des violences qu'elles ont subies afin de pouvoir ensuite décider à tête reposée si elles souhaitent porter plainte ou non. Les victimes sont ainsi privées de premiers soins adaptés et voient se réduire les chances de succès des poursuites pénales qu'elles pourraient vouloir engager.</p><p>Il est important que la victime d'un acte de violence reçoive le plus vite possible des premiers soins spécifiquement adaptés à sa situation, comprenant le traitement des blessures, la gestion du traumatisme et la prévention des maladies sexuellement transmissibles.</p><p>Souvent, une personne qui vient de subir des violences est dans un état de choc qui l'empêche de se décider quant au dépôt d'une plainte et de livrer un témoignage exploitable. Les traces de ces violences n'en doivent pas moins être rapidement sauvegardées et documentées par la médecine légale avant d'être conservées en lieu sûr, pour le cas où des poursuites judiciaires seraient engagées. Alors que confier ces opérations à la médecine légale augmente les chances de pouvoir exploiter ces traces et donc les chances de succès d'éventuelles poursuites pénales, le prélèvement est souvent effectué en Suisse par un personnel médical moins ou non spécialisé. D'autre part, si la victime a ensuite le temps de se faire conseiller et accompagner par l'aide aux victimes, la probabilité augmente qu'elle porte plainte. On peut également supposer que les retraits de plainte, les déclarations de désintérêt ou les refus de témoigner sont moins fréquents. C'est pourquoi il importe de ne pas faire appel systématiquement à la police lors des premiers soins et du relevé des traces, et qu'un service spécialisé dans l'aide aux victimes prenne ensuite contact de lui-même avec la personne en vue d'un conseil et d'un suivi adaptés.</p><p>De bons modèles de centres ont à cet égard été mis en place depuis déjà de nombreuses années dans les cantons de Vaud (CHUV) et de Berne. L'aide qu'ils fournissent doit pouvoir être accessible à toutes les victimes en Suisse. L'art. 25 de la Convention d'Istanbul oblige du reste à créer des centres d'aide d'urgence et recommande qu'il y en ait un pour 40000 habitants. Des normes harmonisées garantiront que les victimes de violences auront partout en Suisse les mêmes chances de se faire aider et de poursuivre leurs agresseurs.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé de créer les bases légales et normes contraignantes nécessaires pour faire en sorte que toutes les régions disposent d'un centre d'aide d'urgence pour les victimes de violences. Dans ces centres, les victimes devront pouvoir bénéficier sur les plans médical et psychologique de premiers soins et d'un soutien complets et professionnels. De même, la médecine légale devra documenter et sauvegarder les traces des violences subies sans que cela n'entraîne l'obligation de porter plainte. Destinés à améliorer l'aide aux victimes ainsi que les chances de succès des poursuites pénales, ces centres devront être facilement accessibles à toutes les victimes et connus de la population. Enfin, ces centres devront pouvoir, avec l'accord des victimes, transmettre directement les coordonnées de ces dernières au service d'aide aux victimes compétent, afin que ce dernier puisse ensuite de lui-même prendre contact avec elles.</p><p>Il s'agira par ailleurs de régler la question du financement.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Mettre en place de centres d'aide d'urgence pour les victimes de violences"
     }
   ],
-  "title": "Titre suit"
+  "title": "Mettre en place de centres d'aide d'urgence pour les victimes de violences"
 }

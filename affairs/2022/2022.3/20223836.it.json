@@ -1,6 +1,6 @@
 {
   "id": 20223836,
-  "updated": "2022-06-20T13:51:35Z",
+  "updated": "2022-09-22T11:57:51Z",
   "additionalIndexing": "09;04;34;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Amm."
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-09-21T00:00:00Z",
+            "text": "Ritirato",
+            "type": 17
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-24T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Dipartimento delle Finanze",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1655416800000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1663711200000+0200)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -70,6 +97,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-09-21T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5116"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -172,19 +204,40 @@
   ],
   "shortId": "22.3836",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>La tematica \"cyber\" è ancora nuova e allo stesso tempo le strutture esistenti sono in piena evoluzione. La Svizzera vanta diverse esercitazioni condotte a buon fine, alcune collocabili in un contesto globale internazionale. Tuttavia, mancano una visione d'insieme e un piano globale di test. È necessario definire come, fino a quando, per chi e con chi la Confederazione intende effettuare le esercitazioni e con quale obiettivo - dal piano della Confederazione a tutte le strutture federali, passando dalle infrastrutture critiche. Attualmente sono presenti varie strutture, diversamente dislocate, alle quali sono aggregati numerosi organi. In breve, le esercitazioni strategiche si affiancano a quelle tecniche. Si tratta quindi di esercitazioni molto diverse in termini di scopo, di portata e d'importanza strategica. Il contesto, l'interazione e gli obiettivi dell'esercitazione previsti per i singoli elementi e strumenti sono di conseguenza poco chiari, così come l'interconnessione interna alla Confederazione dei singoli partecipanti all'esercitazione. Di conseguenza, la strategia di test globale deve comprendere anche un'organizzazione.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale condivide l'opinione dell'autore della mozione, secondo cui le ciberesercitazioni costituiscono uno strumento adeguato per aumentare la ciber-resilienza. L'Esecutivo ha pertanto definito la pianificazione e la realizzazione di ciberesercitazioni quale misura della Strategia nazionale per la protezione della Svizzera contro i ciber-rischi (SNPC). Nel quadro dell'attuazione della suddetta misura si sono svolte esercitazioni nei settori finanziario e sanitario. Inoltre, il Centro nazionale per la cibersicurezza (NCSC), l'esercito, il Servizio delle attività informative della Confederazione e altri servizi federali hanno partecipato a esercitazioni condotte su scala internazionale. Tali esercitazioni sono molto importanti, perché i ciber-rischi devono essere sempre affrontati insieme a partner internazionali.</p><p>È vero che attualmente queste esercitazioni non vengono condotte in base a un piano sovraordinato, né sono coordinate da un'unica organizzazione. Tuttavia, nel quadro dei suoi compiti di attuazione della SNPC, il Dipartimento federale della difesa, della protezione della popolazione e dello sport sta elaborando, in collaborazione con l'NCSC e altri partner della Confederazione, un piano di esercitazioni che risponde ampiamente alle richieste dell'autore della mozione. L'Esecutivo ritiene quindi che la presente mozione non sia necessaria per raggiungere l'obiettivo auspicato.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è stato incaricato di sviluppare e introdurre un piano globale di test di cibersicurezza per il periodo 2023-2030, che copra i settori civile, militare e federale per questioni di natura privata e statale. L'obiettivo del piano è aumentare la resilienza a medio e lungo termine, sviluppare le competenze, migliorare la collaborazione tra i diversi settori e formarli. Dovrà essere definita un'organizzazione ad hoc. </p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Test di cibersicurezza. La Svizzera necessita di un piano globale"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Test di cibersicurezza. La Svizzera necessita di un piano globale"
 }

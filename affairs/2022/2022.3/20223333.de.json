@@ -1,6 +1,6 @@
 {
   "id": 20223333,
-  "updated": "2022-03-22T10:55:38Z",
+  "updated": "2022-09-22T13:06:11Z",
   "additionalIndexing": "28;1216",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,10 +41,42 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Bekämpft"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-06-17T00:00:00Z",
+            "text": "Bekämpft. Diskussion verschoben",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-09-22T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -57,13 +89,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647558000000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1663797600000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -87,6 +129,16 @@
   "roles": [
     {
       "councillor": {
+        "code": 3135,
+        "gender": "f",
+        "id": 4234,
+        "name": "Schläpfer Therese",
+        "officialDenomination": "Schläpfer"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
         "code": 3154,
         "gender": "f",
         "id": 4262,
@@ -104,12 +156,27 @@
   ],
   "shortId": "22.3333",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>In der Schweiz finden Opfer von sexualisierter, häuslicher und geschlechtsbezogener Gewalt oft keine auf Gewalt spezialisierte medizinische und psychologische Soforthilfe. Ebenso haben sie in den meisten Regionen nicht die Möglichkeit, die Spuren der Gewalt durch die Rechtsmedizin zu dokumentieren und sichern zu lassen, um danach in Ruhe entscheiden zu können, ob sie eine Anzeige machen. Dies hat zur Folge, dass die Chancen auf Erfolg der Strafverfolgung sinken und verwehrt den Opfern eine adäquate Ersthilfe.</p><p>Unmittelbar nach einer Gewalttat ist es wichtig, dass Opfer eine auf Gewalt spezialisierte, opfer- und traumasensible Ersthilfe erhalten. Dazu gehört die Versorgung von Verletzungen, Traumahilfe und die Prävention von sexuell übertragbaren Krankheiten. </p><p>Oft steht das Opfer nach einer Tat unter Schock, weshalb ein Entscheid über eine Anzeige und eine verwertbare Aussage nicht möglich ist. Trotzdem sollen die Spuren der Tat zeitnah durch die Rechtsmedizin gesichert und dokumentiert und sicher verwahrt werden, damit die Chancen auf eine Strafverfolgung intakt bleiben. Die Durchführung durch die Rechtsmedizin garantiert eine grössere Chance der Verwertbarkeit der Spuren. An vielen Orten der Schweiz wird jedoch die Entnahme durch weniger oder nicht spezialisiertes medizinisches Personal durchgeführt, was die Verwertbarkeit und damit die Chance der Strafverfolgung vermindert. Hat das Opfer Zeit, sich im Nachgang der Tat von der Opferhilfe beraten und begleiten zu lassen, ist es wahrscheinlicher, dass es Strafanzeige erstattet. Ebenfalls darf davon ausgegangen werden, dass Opfer weniger häufig den Strafantrag zurückziehen, eine Desinteresseerklärung abgeben oder die Aussageverweigern. Deshalb ist es wichtig, dass es bei der Ersthilfe und Spurensicherung keinen systematischen Hinzuzug der Polizei gibt und im Anschluss eine proaktive Kontaktaufnahme durch eine spezialisierte Opferberatungsstelle für eine qualifizierte Beratung und Nachbetreuung sichergestellt wird.</p><p>Gute Modelle finden sich seit Jahren im Kanton Waadt (CHUV) und Bern. Dies soll für alle Opfer in der Schweiz garantiert sein. Die Istanbul-Konvention verpflichtet mit Artikel 25 IK zu solchen Zentren und empfiehlt pro 40 000 Einwohner_innen ein Zentrum. Einheitliche Standards garantieren dass überall in der Schweiz die Opfer von Gewalt, dieselben Chancen auf Hilfe und Strafverfolgung haben.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, verbindliche Standards und Grundlagen dafür zu schaffen, dass in allen Regionen der Schweiz Krisenzentren für Opfer von Gewalt garantiert sind. Opfer sollen in den Krisenzentren umfassende spezialisierte medizinische und psychologische Erstbetreuung und Unterstützung erhalten. Ebenfalls wird eine Dokumentation und Spurensicherung durch die Rechtsmedizin ohne Verpflichtung zur Anzeige gewährleistet. Die Krisenzentren sollen für alle Opfer leicht zugänglich und in der Bevölkerung bekannt sein. Damit soll die Hilfe für Opfer wie auch die Aussichten auf Erfolg der Strafverfolgung verbessert werden. Die Krisenzentren sollen mit Einverständnis der Opfer deren Kontaktdaten direkt zur zuständigen Opferberatungsstelle weiterleiten dürfen, damit diese später proaktiv mit den Betroffenen Kontakt aufnehmen können.</p><p>Ausserdem muss geklärt werden, wie diese Untersuchungen finanziert werden.</p>"
+    },
     {
       "type": {
         "id": 1,

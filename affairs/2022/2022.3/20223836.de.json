@@ -1,6 +1,6 @@
 {
   "id": 20223836,
-  "updated": "2022-06-20T13:51:35Z",
+  "updated": "2022-09-22T11:57:51Z",
   "additionalIndexing": "09;04;34;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,10 +41,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-09-21T00:00:00Z",
+            "text": "Zurückgezogen",
+            "type": 17
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-24T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
@@ -57,13 +74,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EFD",
+          "id": 7,
+          "name": "Finanzdepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1655416800000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1663711200000+0200)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -71,6 +98,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-09-21T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5116"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -174,12 +206,33 @@
   ],
   "shortId": "22.3836",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Das Thema \"Cyber\" ist noch immer neu, gleichzeitig sind bestehende Strukturen im Fluss. Die Schweiz hat verschiedene sehr erfolgreiche Übungen hinter sich, teilweise im umfassenden, internationalen Zusammenhang. Was fehlt ist der Überblick und ein übergeordnetes Konzept, wie und bis wann der Bund zum Thema Cyber wen mit wem und welchem Testziel beüben will - dies von der Stufe Bund via Kritische Infrastrukturen bis hin zu allen föderalen Strukturen. Gegenwärtig bestehen verschiedene, divers angesiedelte Strukturen und zahlreiche, verschieden angehängte Gefässe. Kurz: Es bestehen strategische neben technischen Übungen. Es handelt sich also hinsichtlich Fokus, Umfang und strategischer Bedeutung um sehr unterschiedliche Übungselemente. Der Zusammenhang und das Zusammenspiel, sowie die angestrebten Übungsziele dieser einzelnen Elemente und Tools ist entsprechend ebenso unklar wie die bundes-interne Vernetzung der einzelnen Übungsteilnehmer. Entsprechend gehört zur übergreifenden Teststrategie auch eine Organisation.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat teilt die Ansicht, dass Cyberübungen ein geeignetes Mittel sind, um die Cyberresilienz zu erhöhen. Er hat deshalb die Planung und Durchführung von Cyberübungen als Massnahme der Nationalen Strategie zum Schutz der Schweiz vor Cyberrisiken (NCS) definiert. Als Umsetzung dieser Massnahme wurden Übungen im Finanzsektor und im Gesundheitssektor durchgeführt. Das Nationale Zentrum für Cybersicherheit (NCSC), die Armee, der Nachrichtendienst des Bundes und weitere Bundesstellen haben sich zudem an internationalen Übungen beteiligt. Diese sind von grosser Bedeutung, da Cyberkrisen immer im Verbund mit internationalen Partnern bewältigt werden müssen.</p><p>Es trifft zu, dass diese Übungen momentan nicht auf der Grundlage eines übergeordneten Konzepts erfolgen und dass sie nicht durch eine einzelne Organisation koordiniert sind. Im Rahmen seiner Aufgaben für die Umsetzung der NCS erstellt jedoch das VBS, in Zusammenarbeit mit dem NCSC und weiteren Partnern im Bund, ein Übungskonzept, welches die Forderungen der Motion weitgehend abdeckt. Aus Sicht des Bundesrats ist die Motion daher nicht notwendig, um das gewünschte Ziel zu erreichen.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, ein übergeordnetes, umfassendes Cyber Test-Konzept 2023-2030 zu entwickeln und einzuführen, welches die zivilen, militärischen und föderalen Bereiche privater und staatlicher Natur abdeckt. Der Zweck dieses Konzepts ist es, mittel und langfristig die Resilienz zu erhöhen, Know-how aufzubauen, die Zusammenarbeit verschiedener Bereiche zu verbessern und zu trainieren. Eine entsprechende Organisation ist zu bestimmen.</p>"
+    },
     {
       "type": {
         "id": 1,
