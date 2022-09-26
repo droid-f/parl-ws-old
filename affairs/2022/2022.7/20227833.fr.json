@@ -1,6 +1,6 @@
 {
   "id": 20227833,
-  "updated": "2022-09-21T16:35:05Z",
+  "updated": "2022-09-26T16:49:38Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-09-26T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2022-09-26T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -67,6 +82,11 @@
           "date": "/Date(1663711200000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1664143200000+0200)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -74,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-09-26T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5116"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -97,12 +122,19 @@
   ],
   "shortId": "22.7833",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>D'abord, il est important de noter que les coupures de courant planifiées sont une mesure de dernier recours pour éviter un black-out. Avant de prendre cette mesure, des restrictions d'utilisation sont édictées et, le cas échéant, les gros consommateurs sont contingentés. Lorsque cela est techniquement possible, les infrastructures des réseaux d'eau potable et les stations d'épuration restent exclus des délestages cycliques (coupures de courant planifiées). Toutefois, ces exceptions à la déconnexion, comme mentionnées dans la question, ne sont pas possibles dans tous les cas, en raison des conditions techniques comme le raccordement au réseau électrique et la topologie du réseau. La décision concernant ces exceptions devrait être prise par les gestionnaires de réseau de distribution chargés de la préparation des délestages cycliques, selon les possibilités techniques et en collaboration avec les cellules de crise locales. Celles- ci déterminent les infrastructures concernées.</p>"
+    },
     {
       "type": {
         "id": 5,

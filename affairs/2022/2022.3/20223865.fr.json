@@ -1,6 +1,6 @@
 {
   "id": 20223865,
-  "updated": "2022-06-21T17:00:39Z",
+  "updated": "2022-09-26T19:48:07Z",
   "additionalIndexing": "44;28;2446;2836",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-09-26T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-24T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
@@ -146,13 +163,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Département des finances",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1655676000000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1664143200000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -195,10 +222,11 @@
   ],
   "shortId": "22.3865",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -207,6 +235,13 @@
         "name": "Développement"
       },
       "value": "<p>A l'heure actuelle, il manque une incitation, sur le plan fiscal, visant à encourager la poursuite d'une activité lucrative au-delà de l'âge ordinaire de la retraite. Une déduction fiscale pour les revenus perçus par les personnes retraitées serait souhaitable à plusieurs égards.</p><p>Premièrement, des incitations fiscales permettraient d'améliorer la situation financière des retraitées et des retraités qui continuent d'exercer une activité lucrative. En effet, lors du départ à la retraite, le revenu médian baisse de 57 595 francs à 43 768 francs par an (chiffres 2020 selon l'OFS). Si l'on part du principe que le loyer médian pour un ménage formé d'un couple se monte à 1205 francs à Berne, une baisse de l'imposition du revenu profiterait particulièrement aux locataires.</p><p>Deuxièmement, la période de transition du \" troisième \" âge, actif et autonome, au \" quatrième \" âge, marqué par la fragilité, s'allongeant de plus en plus, il devient toujours plus nécessaire de se constituer une réserve financière pour faire face à l'augmentation des coûts de prise en charge. Pour les personnes qui ne se constituent pas une telle réserve de leur propre initiative, les coûts occasionnés - qui ont tendance à augmenter sous l'effet de l'évolution démographique - doivent être supportés par la collectivité.</p><p>Troisièmement, une participation accrue des personnes retraitées au marché du travail constituerait une contribution importante pour remédier à la pénurie de main-d'oeuvre qualifiée. Les jeunes collaboratrices et collaborateurs pourraient ainsi profiter plus longtemps de la précieuse expertise de ces personnes, qui resteraient ainsi impliquées plus longtemps dans la vie professionnelle et pourraient transmettre leur savoir.</p><p>Quatrièmement, le maintien d'une activité professionnelle au-delà de l'âge ordinaire de la retraite permettrait de soulager les assurances sociales, et notamment le régime de la prévoyance vieillesse.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Dans le système fiscal suisse, tous les revenus sont en principe soumis à l'impôt sur le revenu. Une imposition privilégiée des bénéficiaires de rentes exerçant une activité lucrative serait contraire aux principes constitutionnels de l'égalité de traitement et de l'imposition selon la capacité économique. Il faudrait donc qu'une telle imposition soit motivée par des raisons extrafiscales.</p><p>Le vieillissement de la population va considérablement modifier la structure démographique de la Suisse au cours des prochaines décennies. La société et l'économie devront s'adapter à ces nouvelles conditions dans de nombreux domaines, notamment celui du marché du travail. La tranche d'âge la plus peuplée de Suisse se rapproche de l'âge ordinaire de la retraite, ce qui entraîne différents inconvénients, notamment l'accentuation de la pénurie de main-d'oeuvre qualifiée et une baisse de la croissance. L'exploitation du potentiel de production des travailleurs âgés gagne donc en importance - même au-delà de l'âge ordinaire de la retraite (âge de référence) -, raison pour laquelle le Conseil fédéral veut créer des incitations au maintien de l'activité professionnelle au-delà de cet âge. La réforme AVS 21 contient déjà de premiers pas dans cette direction.</p><p>Le postulat Hegglin 19.3172 \"Promouvoir le maintien dans la vie active après l'âge réglementaire de la retraite\" a été transmis le 19 juin 2019. Le rapport évaluera également les incitations fiscales mentionnées dans la présente motion qui sont destinées à encourager le maintien d'une activité lucrative après l'âge ordinaire de la retraite. Le rapport doit être adopté par le Conseil fédéral à la fin de l'année 2022. Il ne serait pas judicieux de décider de la pertinence de mesures avant que le rapport ne soit disponible.</p>"
     },
     {
       "type": {
@@ -220,8 +255,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Encourager la poursuite d’une activité lucrative, sur une base volontaire, après l’âge ordinaire de la retraite"
+      "value": "Encourager la poursuite d'une activité lucrative, sur une base volontaire, après l'âge ordinaire de la retraite"
     }
   ],
-  "title": "Encourager la poursuite d’une activité lucrative, sur une base volontaire, après l’âge ordinaire de la retraite"
+  "title": "Encourager la poursuite d'une activité lucrative, sur une base volontaire, après l'âge ordinaire de la retraite"
 }
