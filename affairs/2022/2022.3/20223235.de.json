@@ -1,6 +1,6 @@
 {
   "id": 20223235,
-  "updated": "2022-03-22T11:54:23Z",
+  "updated": "2022-09-27T16:19:40Z",
   "additionalIndexing": "1211;28",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,10 +41,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-09-27T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -57,13 +74,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647471600000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1664229600000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -114,12 +141,27 @@
   ],
   "shortId": "22.3235",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Das Abstammungsrecht ist von grosser Bedeutung, bestimmt es doch, wem ein Kind rechtlich als Eltern zugeordnet wird.</p><p>Dabei haben sich die Grundzüge des Abstammungsrecht bewährt, so namentlich das Zwei-Eltern-Prinzip, die Entstehung der Mutterschaft durch Geburt und im Grundsatz auch die Vaterschaftsvermutung des Ehemannes. In andern Punkten aber entspricht das Abstammungsrecht nicht mehr den heutigen Bedürfnissen, wie auch der Bundesrat in seinem (Bericht zur \"Reform des Abstammungsrechts\" vom 17. Dezember 2021 (Ziff. 3.3) ausführt.</p><p>Der Bundesrat soll daher eine Reform des Abstammungsrechts vorlegen, die zwar auf Bewährtem aufbaut, aber Verbesserungen schafft. Dies namentlich in den Punkten, die der Bundesrat selber als reformbedürftig ausweist, nämlich die Anfechtung der Vaterschaftsvermutung, die Regelung der privaten Samenspende und das Recht auf Kenntnis der eigenen Abstammung. Wie vom Bundesrat selber erwähnt, können dabei aber auch weitere Punkte aus seinem Bericht bzw. dem zugrundeliegenden Expertengutachten geprüft und aufgenommen werden.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, die rechtlichen Grundlagen für ein zeitgemässes Abstammungsrecht zu entwerfen.</p><p>Dabei soll er sich an seinem Bericht vom 17. Dezember 2021 zum \"Reformbedarf im Abstammungsrecht\" und namentlich seinen Schlussfolgerungen (Ziff. 4) orientieren.</p>"
+    },
     {
       "type": {
         "id": 1,

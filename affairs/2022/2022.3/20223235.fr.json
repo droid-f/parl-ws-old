@@ -1,6 +1,6 @@
 {
   "id": 20223235,
-  "updated": "2022-03-22T11:54:23Z",
+  "updated": "2022-09-27T16:19:40Z",
   "additionalIndexing": "1211;28",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-09-27T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647471600000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1664229600000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -112,19 +139,34 @@
   ],
   "shortId": "22.3235",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Le droit de l'établissement de la filiation est d'une grande importance, puisqu'il détermine qui sont légalement les parents d'un enfant.</p><p>Les principes fondamentaux fonctionnent et n'ont pas à être remis en cause, à savoir le principe de la double parenté, l'établissement de la maternité par la naissance et la présomption de paternité du mari. En revanche, comme l'explique le Conseil fédéral au point 3.3 de son rapport, d'autres aspects ne répondent plus aux besoins actuels.</p><p>Le Conseil fédéral doit donc préparer une réforme qui maintienne les points incontestés du droit actuel tout en y apportant des améliorations. Il a d'ailleurs lui-même identifié les aspects qui mériteraient d'être révisés, à savoir la contestation de la présomption de paternité, la réglementation du don de sperme privé et le droit de connaître ses origines. Comme il le suggère lui-même, d'autres points de son rapport ou de celui rendu préalablement par le groupe d'experts pourraient aussi être étudiés et intégrés aux travaux.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé d'élaborer des bases juridiques pour un droit de l'établissement de la filiation répondant aux besoins actuels.</p><p>Pour ce faire, il s'inspirera de son rapport du 17 décembre 2021 \" De la nécessité de réviser le droit de l'établissement de la filiation \" et, notamment, de sa conclusion (ch. 4).</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Dépoussiérer le droit de l'établissement de la filiation"
     }
   ],
-  "title": "Titre suit"
+  "title": "Dépoussiérer le droit de l'établissement de la filiation"
 }

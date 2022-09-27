@@ -1,6 +1,6 @@
 {
   "id": 20223235,
-  "updated": "2022-03-22T11:54:23Z",
+  "updated": "2022-09-27T16:19:40Z",
   "additionalIndexing": "1211;28",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2022-09-27T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647471600000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1664229600000+0200)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -112,19 +139,34 @@
   ],
   "shortId": "22.3235",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Il diritto della filiazione riveste grande importanza, dato che stabilisce a chi è attribuita giuridicamente la genitorialità di un bambino. </p><p>Gli elementi principali del diritto della filiazione restano validi, in particolare il principio della bigenitorialità, l'insorgenza della maternità in seguito alla nascita e in linea di massima anche la presunzione di paternità del marito. Tuttavia, in altri punti il diritto della filiazione non soddisfa più le esigenze attuali, come indicato anche dal Consiglio federale nel rapporto del 17 dicembre 2021 sulla necessità di riforma nel diritto della filiazione (n. 3.3). </p><p></p><p>Il Consiglio federale è pertanto incaricato di presentare una revisione del diritto della filiazione che, pur fondandosi sugli aspetti consolidati, introduca miglioramenti, in particolare nei punti che il Consiglio federale stesso reputa necessario riformare, segnatamente l'impugnazione della presunzione di paternità, il disciplinamento della donazione privata di spermatozoi e il diritto a conoscere la propria filiazione. Come menzionato dal Consiglio federale stesso, è possibile esaminare e riprendere anche altri elementi tratti dal suo rapporto e dalla pertinente perizia.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di delineare le basi legali per un diritto della filiazione al passo con i tempi, orientandosi al suo rapporto del 17 dicembre 2021 sulla necessità di riforma nel diritto della filiazione e in particolare alle conclusioni ivi tratte (n. 4).</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Diritto della filiazione al passo con i tempi"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Diritto della filiazione al passo con i tempi"
 }

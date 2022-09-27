@@ -1,6 +1,6 @@
 {
   "id": 20223234,
-  "updated": "2022-03-22T11:54:38Z",
+  "updated": "2022-09-27T16:19:21Z",
   "additionalIndexing": "28;1216",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2022-09-27T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647471600000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1664229600000+0200)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -222,19 +249,34 @@
   ],
   "shortId": "22.3234",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>In molte regioni della Svizzera le vittime di violenza sessualizzata, domestica e di genere non trovano l'assistenza medica e psicologica specifica di cui hanno bisogno. Sovente non hanno nemmeno la possibilità di far documentare e assicurare le tracce della violenza da un medico legale, per poter poi decidere in tutta calma se sporgere denuncia. È quindi negata loro una prima assistenza adeguata e le probabilità di successo del perseguimento penale diminuiscono.</p><p>Dopo un atto di violenza è importante che la vittima riceva il più presto possibile una prima assistenza specifica e comprendente la cura delle ferite, il sostegno per superare il trauma e la prevenzione di malattie sessualmente trasmissibili. Questa assistenza deve essere accessibile a tutti. </p><p>Dopo un atto di violenza la vittima è spesso in stato di choc, per cui non è in grado di decidere se sporgere denuncia né di rilasciare dichiarazioni utilizzabili. Ciononostante, le tracce del reato devono essere assicurate, documentate e conservate in un luogo sicuro dal medico legale entro 72 ore, in modo da mantenere intatte le possibilità di un perseguimento penale. Mentre conferire tali compiti al medico legale aumenta le probabilità che le tracce siano utilizzabili e quindi le possibilità di successo di un eventuale perseguimento penale, in Svizzera spesso il prelievo è effettuato da personale medico poco o non specializzato. Se dopo la violenza la vittima ha il tempo di farsi accompagnare e consigliare da personale specializzato nell'aiuto alle vittime, è più probabile che sporga denuncia penale. Si può parimenti presupporre che il ritiro delle querele penali, le dichiarazioni di disinteresse o il rifiuto di testimoniare siano meno frequenti. È quindi importante non allertare sistematicamente la polizia in occasione della prima assistenza e del rilevamento delle tracce e che in seguito un consultorio per le vittime contatti proattivamente la vittima per una consulenza e un'assistenza successiva specializzate.</p><p>In questi centri è fondamentale non soltanto una collaborazione interdisciplinare specializzata nel settore della violenza, bensì anche che le procedure, i locali, ecc. siano predisposti in funzione delle esigenze delle vittime. Ottimi modelli di centri simili esistono già da molti anni nel Cantone di Vaud (CHUV) e in quello di Berna (modello bernese). Sono ovviamente possibili altri modelli, come ad esempio quello del Canton San Gallo, dove le vittime possono chiamare un numero d'emergenza per richiedere l'intervento di uno specialista forense. L'articolo 25 della Convenzione di Istanbul obbliga a istituire centri di questo tipo e raccomanda un centro ogni 40 000 abitanti. Standard uniformi garantiscono che le vittime di violenza abbiano in tutta la Svizzera le medesime possibilità di farsi assistere e far perseguire i loro aggressori. È importante pubblicizzare regolarmente l'offerta alla popolazione e predisporre l'accesso per tutti gli interessati.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di creare standard e basi vincolanti affinché in ogni Cantone siano disponibili centri di crisi per vittime di violenza sessuale, domestica e di genere o vengano istituiti centri regionali su mandato di più Cantoni. In questi centri le vittime riceveranno, sul piano medico e psicologico, una prima assistenza e un sostegno completi e specializzati. Saranno pure garantiti la documentazione e il rilevamento delle tracce da parte di un medico legale senza obbligo di sporgere denuncia. I centri di crisi dovranno essere facilmente accessibili alle vittime e noti alla popolazione. L'obiettivo è migliorare l'aiuto alle vittime e le prospettive di successo del perseguimento penale. I centri di crisi dovranno poter trasmettere le coordinate della vittima, con il suo consenso, direttamente al competente consultorio per le vittime, affinché quest'ultimo possa in seguito contattarla proattivamente.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Centri di crisi per vittime di violenza sessualizzata, domestica e di genere"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Centri di crisi per vittime di violenza sessualizzata, domestica e di genere"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20223804,
-  "updated": "2022-06-17T11:49:40Z",
+  "updated": "2022-09-27T08:03:15Z",
   "additionalIndexing": "66;15;48",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-09-26T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-09-07T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1655330400000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1664143200000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -102,19 +129,41 @@
   ],
   "shortId": "22.3804",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Les prix des carburants dans les stations-service suisses ont considérablement augmenté au courant des derniers mois. Cette hausse n'est qu'en partie due à la situation internationale. Selon Stefan Meierhans, Surveillant des prix, il faut plutôt y voir la conséquence du manque de transparence des prix de l'essence et du diesel en Suisse qui permet aux compagnies pétrolières de pratiquer des prix parfois bien supérieurs aux prix du marché.</p><p>L'Autriche et, dans une moindre mesure, l'Allemagne ont résolu ce problème conformément à l'économie de marché. En Autriche, le consommateur dispose depuis 2011 d'une plateforme en ligne (<a  href=\"http://www.spritpreisrechner.at\">www.spritpreisrechner.at</a>), gérée par le ministère en charge de la numérisation et de l'économie (Bundesministerium für Digitalisierung und Wirtschaftsstandort), qui lui permet de trouver la station-service la moins chère les environs. Les stations-service sont tenues d'annoncer leurs prix en temps réel au bureau compétent. Le calculateur de prix informe le consommateur en toute transparence et est devenu indispensable à l'automobiliste. Dans l'année qui a suivi sa mise en service, le prix de l'essence a baissé de plus de 20 % en Autriche. Le calculateur de prix permet de rechercher les stations-service les moins chères par adresse ou par région. La recherche par adresse affiche les 5 stations-service les moins chères pour le carburant choisi. La recherche par région affiche les 10 prix les plus bas dans la zone pertinente. Les stations-service apparaissent sur une carte et sont numérotées, de la moins chère à la plus chère. L'expérience montre que les automobilistes comparent assidûment les prix des carburants. Ce qui évite un alignement des prix vers le haut. Si les entreprises voient quels sont les prix les plus élevés, elles peuvent plus facilement proposer un prix très légèrement inférieur et donc passer pour \" moins chères \". Grâce à la limitation des résultats aux prix les plus bas, la probabilité d'obtenir l'effet voulu, soit un alignement des prix au niveau le moins élevé, augmente. Par la suite, il devrait être possible de faire la même chose pour le gaz et l'électricité utilisés par les véhicules. Un projet devrait être coordonné avec le Surveillant des prix</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Les prix de l'énergie ont fortement augmenté au niveau international, ce qui a également entraîné un renchérissement général en Suisse. L'inflation y est toutefois modérée par rapport à d'autres pays. En juillet 2022, elle s'élevait à 3,4 %, soit environ 5 points de pourcentage de moins que dans la zone euro.</p><p>Ce phénomène s'explique par la part relativement faible des dépenses des ménages consacrées à l'énergie et par une économie efficace sur le plan énergétique. Les prévisions actuelles établies par différents instituts sont de l'ordre de 2,5 % d'inflation pour l'ensemble de l'année 2022, une moyenne qui devrait redescendre à 1,4 % en 2023. En outre, la reprise économique après la crise du coronavirus devrait se poursuivre, même si elle est moins vigoureuse que ce que les prévisions indiquaient avant la guerre en Ukraine.</p><p>C'est en principe la BNS qui est chargée de garantir la stabilité générale des prix. Elle dispose d'instruments pour contrer une éventuelle inflation en Suisse. Le Conseil fédéral a conscience des défis liés à la hausse des prix de l'énergie. Sur la base des résultats du groupe de travail interdépartemental réunissant le DEFR, le DFF, le DETEC et le DFI, il ne voit actuellement pas la nécessité de prendre des mesures immédiates.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé de jeter les bases d'un calculateur de prix des carburants, du gaz et de l'électricité dans les stations-service et les stations de recharge en Suisse, sur le modèle du calculateur en ligne autrichien \" spritpreisrechner.at \", accessible à tous depuis 2011.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Calculateur de prix des carburants. S’inspirer du modèle autrichien"
     }
   ],
-  "title": "Titre suit"
+  "title": "Calculateur de prix des carburants. S’inspirer du modèle autrichien"
 }

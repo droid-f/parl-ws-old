@@ -1,6 +1,6 @@
 {
   "id": 20210067,
-  "updated": "2022-09-09T07:32:32Z",
+  "updated": "2022-09-27T09:19:17Z",
   "additionalIndexing": "2841",
   "affairType": {
     "abbreviation": "OCF",
@@ -113,6 +113,11 @@
           "date": "/Date(1654034400000+0200)/",
           "id": 2,
           "name": "Traité par le Conseil national"
+        },
+        {
+          "date": "/Date(1664143200000+0200)/",
+          "id": 4,
+          "name": "Traité par les deux conseils"
         }
       ],
       "texts": [
@@ -178,8 +183,43 @@
               "id": 4,
               "name": "Complément"
             },
-            "council": null,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
             "date": "2022-06-01T00:00:00Z",
+            "text": "Jusqu'au 21.11.2023.",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-09-26T00:00:00Z",
+            "text": "Prolongation de délai",
+            "type": 50
+          },
+          {
+            "category": {
+              "id": 4,
+              "name": "Complément"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-09-26T00:00:00Z",
             "text": "Jusqu'au 21.11.2023.",
             "type": 0
           }
@@ -347,6 +387,11 @@
           "date": "/Date(1654034400000+0200)/",
           "id": 2,
           "name": "Traité par le Conseil national"
+        },
+        {
+          "date": "/Date(1664143200000+0200)/",
+          "id": 4,
+          "name": "Traité par les deux conseils"
         }
       ],
       "texts": [
@@ -567,8 +612,8 @@
   ],
   "shortId": "21.067",
   "state": {
-    "id": 2,
-    "name": "Traité par le Conseil national",
+    "id": 4,
+    "name": "Traité par les deux conseils",
     "doneKey": "0",
     "newKey": 0
   },
