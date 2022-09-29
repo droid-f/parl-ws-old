@@ -1,6 +1,6 @@
 {
   "id": 20223393,
-  "updated": "2022-05-02T10:01:37Z",
+  "updated": "2022-09-29T16:56:54Z",
   "additionalIndexing": "2811;32",
   "affairType": {
     "abbreviation": "Po.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-09-29T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-05-25T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter le postulat."
       },
       "index": 0,
       "links": [
@@ -125,13 +142,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1651183200000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1664402400000+0200)/",
+          "id": 26,
+          "name": "Adopté"
         }
       ],
       "texts": [
@@ -139,6 +166,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-09-29T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5116"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -174,12 +206,19 @@
   ],
   "shortId": "22.3393",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 26,
+    "name": "Adopté",
+    "doneKey": "3",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral partage l'objectif sous-jacent du présent postulat. Il s'agit de permettre aux personnes réfugiées en Suisse de poursuivre au mieux leur parcours scolaire, leur formation professionnelle, leurs études universitaires, ou d'intégrer le marché du travail dans notre pays, le plus possible en adéquation avec leurs compétences professionnelles. Au-delà du développement personnel des personnes réfugiées dans notre pays, il y a un intérêt général à favoriser leur formation et leur intégration dans notre société, ainsi qu'à profiter de la main d'oeuvre à disposition.</p><p>Toutefois, le Conseil fédéral est d'avis qu'un rapport procédant à un état des lieux sur les données et les connaissances existantes concernant le potentiel de formation et/ou des compétences professionnelles des personnes réfugiées en Suisse ne s'impose pas. Le Secrétariat d'Etat aux migrations examine d'ores et déjà l'opportunité et la manière de collecter, dans le cadre de la procédure d'asile, certaines données relatives aux personnes réfugiées pertinentes pour la formation et le marché du travail afin de mieux déterminer leurs compétences.</p>"
+    },
     {
       "type": {
         "id": 5,

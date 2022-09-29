@@ -1,6 +1,6 @@
 {
   "id": 20223055,
-  "updated": "2022-03-03T10:49:58Z",
+  "updated": "2022-09-29T18:42:13Z",
   "additionalIndexing": "09",
   "affairType": {
     "abbreviation": "Mo.",
@@ -34,7 +34,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Bekämpft"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-06-17T00:00:00Z",
+            "text": "Bekämpft. Diskussion verschoben",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-09-29T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -65,6 +94,11 @@
           "date": "/Date(1646175600000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1664402400000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -87,6 +121,16 @@
   ],
   "roles": [
     {
+      "councillor": {
+        "code": 3159,
+        "gender": "f",
+        "id": 4267,
+        "name": "Gredig Corina",
+        "officialDenomination": "Gredig"
+      },
+      "type": "controvert"
+    },
+    {
       "faction": {
         "abbreviation": "Fraktion V",
         "code": "V",
@@ -108,9 +152,10 @@
   ],
   "shortId": "22.3055",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [

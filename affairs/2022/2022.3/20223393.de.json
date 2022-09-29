@@ -1,6 +1,6 @@
 {
   "id": 20223393,
-  "updated": "2022-05-02T10:01:37Z",
+  "updated": "2022-09-29T16:56:54Z",
   "additionalIndexing": "2811;32",
   "affairType": {
     "abbreviation": "Po.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-09-29T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-05-25T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung des Postulates."
       },
       "index": 0,
       "links": [
@@ -127,13 +144,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "WBF",
+          "id": 8,
+          "name": "Departement für Wirtschaft, Bildung und Forschung",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1651183200000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1664402400000+0200)/",
+          "id": 26,
+          "name": "Angenommen"
         }
       ],
       "texts": [
@@ -141,6 +168,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-09-29T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5116"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -176,12 +208,19 @@
   ],
   "shortId": "22.3393",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 26,
+    "name": "Angenommen",
+    "doneKey": "3",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat teilt das Ziel, das diesem Postulat zugrundliegt: Geflüchteten soll es in der Schweiz möglich sein, ihre schulische Ausbildung, ihre Berufsbildung bzw. ihr Hochschulstudium bestmöglich fortzusetzen oder sich ihren Berufskompetenzen entsprechend in den hiesigen Arbeitsmarkt zu integrieren. Es besteht, abgesehen vom Nutzen für die persönliche Entwicklung der Geflüchteten, in unserem Land auch gesamtgesellschaftlich ein Interesse daran, die Ausbildung der Geflüchteten sowie ihre Integration in unsere Gesellschaft zu fördern und die verfügbaren Arbeitskräfte zu nutzen.</p><p>Der Bundesrat ist jedoch der Ansicht, dass ein Bericht mit einer Standortbestimmung zu den vorhandenen Daten und Kenntnissen über das Bildungspotential und/oder die beruflichen Kompetenzen der in die Schweiz Geflüchteten nicht zielführend ist. Das Staatssekretariat für Migration prüft zurzeit bereits, ob und wie gewisse bildungs- und arbeitsmarktrelevante Daten zu den Geflüchteten im Rahmen des Asylprozesses erhoben und die Kenntnisse über ihre Kompetenzen so verbessert werden können.</p>"
+    },
     {
       "type": {
         "id": 5,
