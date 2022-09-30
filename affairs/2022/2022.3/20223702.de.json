@@ -1,6 +1,6 @@
 {
   "id": 20223702,
-  "updated": "2022-06-20T14:25:35Z",
+  "updated": "2022-09-30T09:41:03Z",
   "additionalIndexing": "66;52;2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,10 +41,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-09-30T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-08-24T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -57,13 +74,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1655330400000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1664488800000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -254,19 +281,34 @@
   ],
   "shortId": "22.3702",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Die Schweiz soll bis 2050 klimaneutral werden. Um den CO2-Austoss zu senken, sind alle möglichen Massnahmen auszuschöpfen. Dazu gehört auch die Nutzung der ganzjährig anfallender Wärme und Abwärme etwa aus Kehrichtverwertungsanlagen, industriellen Prozessen, Rechenzentren oder Geothermieanlagen. Diese Wärme verpufft im Sommer ungenutzt, da sie aufgrund der aktuellen Gewässerschutzordnung weder im Grundwasser noch im Untergrund vorübergehend bis in den Winter gespeichert werden kann. Dabei würde eine saisonale Wärmespeicherung den CO2-Ausstoss senken und den zusätzlichen Winterstrombedarf um bis zu 3 Terawattstunden (TWh) oder bis zu 30 Prozent decken.</p><p>Die aktuelle Gewässerschutzverordnung legt fest, dass sich die Grundwasser-Temperatur aufgrund von Wärmeeintrag respektive -entzug nicht mehr als 3 Grad verändern darf. Sie wurde in den 1970er Jahren eingeführt. Die Verordnung differenziert aber nicht zwischen Trinkwasser und Grundwasser. Mit der beantragten Änderung muss das Trinkwasser wie bisher geschützt werden. Hingegen soll Grundwasser, das nicht als Trinkwasser in Frage kommt, thermisch genutzt werden können. Dies gilt insbesondere für Grundwasser in grosser Tiefe. Dieses Grundwasser kann aufgrund seiner chemischen Zusammensetzung nicht als Trinkwasser genutzt werden. </p><p>Im internationalen Vergleich ist die Temperaturlimite in der Schweiz äusserst tief. So kennen zum Beispiel Österreich, Frankreich, Deutschland und Grossbritannien eine grundsätzliche Limite von 6°, 10° oder 11° Celsius. Verschiedene europäische Länder erlauben vorübergehende Temperaturschwankungen zwischen 15° bis 23° Celsius.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt zusammen mit allen betroffenen Bundesämtern die Grundlagen so zu ändern, dass das geothermische Potenzial des Untergrunds einschliesslich saisonaler Wärmespeicherung optimal genutzt werden kann. </p><p>Im Grundwasser ist der Spielraum bezüglich maximaler Temperaturveränderung durch Wärmenutzung oder Wärmespeicherung optimal zu erhöhen. Die Nutzung des tiefen Untergrunds für Wärmenutzung und Wärmespeicherung ist von der heutigen 3°C-Regel auszunehmen. Dabei dürfen der Schutz des als Trinkwasser genutzten oder die von Grundwasser abhängigen Lebensräume nicht negativ beeinträchtigt werden.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Energiezukunft durch sichere Speichernutzung des Untergrundes"
+      "value": "Energiezukunft durch sichere Nutzung des Untergrunds zur Speicherung"
     }
   ],
-  "title": "Energiezukunft durch sichere Speichernutzung des Untergrundes"
+  "title": "Energiezukunft durch sichere Nutzung des Untergrunds zur Speicherung"
 }

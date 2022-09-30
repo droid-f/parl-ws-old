@@ -1,6 +1,6 @@
 {
   "id": 20223808,
-  "updated": "2022-06-20T14:09:43Z",
+  "updated": "2022-09-30T11:32:57Z",
   "additionalIndexing": "52;36;04;34",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,26 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-09-30T00:00:00Z",
+            "text": "Liquidato",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "b",
+        "date": "2022-08-24T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +72,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Dipartimento dell'interno",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1655416800000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1664488800000+0200)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -70,6 +96,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-09-30T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5116"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -172,19 +203,40 @@
   ],
   "shortId": "22.3808",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Con la statistica degli esperimenti sugli animali, l'USAV pubblica annualmente diverse informazioni sugli esperimenti sugli animali eseguiti, segnatamente il numero di animali impiegati negli esperimenti, il grado di aggravio e il luogo in cui sono stati utilizzati, il numero di animali allevati o importati per gli esperimenti e detenuti nei laboratori, nonché il numero di domande di autorizzazione accolte e respinte. Inoltre, ogni trimestre informa sugli esperimenti conclusi.</p><p>Tutti questi dati sono benvenuti, ma la loro significatività diminuisce perché non possono essere collegati direttamente tra loro o comunque solo tramite complicati download di singole tabelle Excel senza alcun riferimento reciproco. Di conseguenza, l'informazione del pubblico prevista dalla LPAn è realizzata solo in misura limitata.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>1. e 2. Nelle statistiche pubblicate annualmente, la Confederazione indica il numero di animali utilizzati negli esperimenti sugli animali (art. 20a e 36 della legge federale sulla protezione degli animali [LPAn], RS 455; www.usav.admin.ch &gt; Animali &gt; Pubblicazioni &gt; Statistiche e rapporti &gt; Protezione degli animali &gt; Statistica degli esperimenti sugli animali &gt; Esperimenti sugli animali in Svizzera, quest'ultima pagina disponibile solo in tedesco e francese). Questi dati specificano non soltanto il numero di animali utilizzati, ma anche le singole specie animali e l'utilizzo previsto, ad esempio per la ricerca di base, la diagnosi delle malattie o la formazione. Le statistiche indicano inoltre il numero di animali utilizzati negli esperimenti a seconda del Cantone e, in modo dettagliato, il numero di animali utilizzati suddivisi per specie e livello di sofferenza (livello di gravità 0-3).</p><p>Nelle statistiche estese, anch'esse accessibili a tutti gli interessati (percorso come sopra &gt; scheda Erweiterte Statistik/Statistiques dynamiques, disponibile solo in tedesco e francese), è possibile effettuare ricerche ancora più dettagliate. Ad esempio, si può chiedere in quali organizzazioni (università, Confederazione, industria) o per quali gruppi di malattie (sistema cardiovascolare, cancro ecc.) sono state utilizzate quali specie animali e in che misura. I criteri di consultazione possono essere combinati a piacere, in modo diversificato e per qualsiasi periodo di tempo.</p><p>Inoltre, senza alcun obbligo di legge, la Confederazione pubblica già il numero di animali allevati nei centri di detenzione di animali da laboratorio e importati dall'estero (art. 145 dell'ordinanza sulla protezione degli animali [OPAn], RS 455.1; percorso come sopra &gt; scheda Versuchstierhaltungen/Animaleries, disponibile in tedesco e francese). Sulla base della tabella proposta si può calcolare quanti animali vengono allevati o importati ma non utilizzati per gli esperimenti sugli animali.</p><p>I dati messi a disposizione del pubblico consentono quindi non solo di avere una visione d'insieme delle cifre nel campo della sperimentazione animale e della sua evoluzione, ma anche di effettuare ricerche dettagliate e specifiche. L'Ufficio federale della sicurezza alimentare e di veterinaria (USAV) ne verifica costantemente la presentazione e ne ottimizza regolarmente l'usabilità.</p><p>3. Finora non è stata rilevata la sorte degli animali che vengono allevati per la sperimentazione animale ma che poi non possono essere utilizzati negli esperimenti. Per questo l'USAV sta valutando se modificare l'OPAn in modo che in futuro si debba indicare il numero di animali sottoposti a eutanasia ogni anno. Non appena i dati saranno raccolti, verranno ovviamente anche resi disponibili sul sito web.</p><p>4. Infine, nell'ambito della prossima revisione della LPAn, l'USAV esaminerà in quale forma sia possibile, dal punto di vista tecnico e giuridico, un'estensione dell'obbligo di informazione in merito agli esperimenti sugli animali ai sensi dell'articolo 20a della LPAn già prima del loro svolgimento. Poiché gran parte delle sperimentazioni si svolge nell'ambito della ricerca di base (circa il 60 %), è necessario tener conto anche del segreto commerciale e di ricerca.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Chiedo al Consiglio federale di rispondere alle seguenti domande:</p><p>1. È disposto a consentire al pubblico di accedere in modo semplice e quindi più trasparente alle informazioni disponibili relative agli esperimenti sugli animali?</p><p>2. È disposto a migliorare l'attuale pagina web www.tv-statistik.ch (disponibile in tedesco e francese) in modo che le diverse fonti di dati siano collegate tra loro?</p><p>3. Prevede di rendere disponibili in futuro anche altre informazioni su questa pagina web?</p><p>4. Qual è la sua posizione in merito a un'estensione dell'articolo 20a della legge federale sulla protezione degli animali (LPAn) che renda accessibili al pubblico informazioni relative a un esperimento sugli animali già prima del suo svolgimento?</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Per una statistica degli esperimenti sugli animali più significativa e trasparente"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Per una statistica degli esperimenti sugli animali più significativa e trasparente"
 }

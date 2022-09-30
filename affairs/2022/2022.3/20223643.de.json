@@ -1,6 +1,6 @@
 {
   "id": 20223643,
-  "updated": "2022-06-16T15:56:11Z",
+  "updated": "2022-09-30T09:40:29Z",
   "additionalIndexing": "04;1236;34",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,10 +41,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-09-30T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-08-24T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -57,13 +74,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1655244000000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1664488800000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -124,19 +151,41 @@
   ],
   "shortId": "22.3643",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Immer mehr Bürgerinnen und Bürger nutzen ihr Smartphone als digitales \"Wallet\". Bank-, Versicherungs- und Fahrkarten sind nun in unsere Smartphones integriert. Nach und nach sind nur noch offizielle Dokumente von dieser Entwicklung ausgenommen, darunter die Identitätskarte und der Führerausweis.</p><p>Die Hersteller von Smartphones bieten zunehmend an, offizielle Dokumente in ihr Betriebssystem zu integrieren. Der Bund wird mit dieser Motion beauftragt, die Schweizer Identitätsausweise auch auf diesen digitalen Plattformen zur Verfügung zu stellen. Vor Kurzem hat Frankreich angekündigt, seinen nationalen Identitätsausweis für iOS anzubieten, und mehrere US-Bundesstaaten bieten ihre Identitäts- und Führerausweise bereits im elektronischen Format an. Bei Bedarf kann der Bund eine eigene App dafür zur Verfügung stellen.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat hat am 29. Juni 2022 die Vernehmlassung zum Vorentwurf des E-ID-Gesetzes eröffnet. Dieser Vorentwurf enthält die notwendigen gesetzlichen Grundlagen für eine staatliche Vertrauensinfrastruktur, die es ermöglicht, die E-ID und andere elektronische Nachweise auszustellen und zu verwenden. Die Vorlage sieht vor, dass der Bund eine staatliche elektronische Brieftasche bereitstellt, die die E-ID und weitere elektronische Nachweise enthalten kann. Die Inhaberinnen und Inhaber der Brieftasche können ihre E-ID und andere elektronische Nachweise sicher und transparent beantragen, beziehen und vorweisen. Ein im Rahmen dieser Arbeiten gemeinsam mit dem Bundesamt für Strassen durchgeführtes Pilotprojekt prüft die Möglichkeit, einen digitalen Führerausweis auszustellen. Der Vorentwurf und die Motion verfolgen also das gleiche Ziel.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, der Bevölkerung eine digitale Version der Identitätsausweise anzubieten, die mit den gängigsten mobilen Betriebssystemen kompatibel ist. Hierbei soll es sich nicht um einen eigenständigen elektronischen Identitätsausweis handeln, sondern lediglich um die Digitalisierung bestehender Ausweisdokumente in Papierform. Dies betrifft insbesondere Identitätskarten, Aufenthalts- und Niederlassungsbewilligungen sowie Führerausweise.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Für digitale Identitätsausweise"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Für digitale Identitätsausweise"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20223700,
-  "updated": "2022-06-20T14:28:19Z",
+  "updated": "2022-09-30T11:20:01Z",
   "additionalIndexing": "2446;15;24",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,26 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-09-30T00:00:00Z",
+            "text": "Liquidato",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "b",
+        "date": "2022-08-24T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +72,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Dipartimento delle Finanze",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1655330400000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1664488800000+0200)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -70,6 +96,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-09-30T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5116"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -102,19 +133,33 @@
   ],
   "shortId": "22.3700",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale è disposto a verificare le misure proposte dall'autore dell'interpellanza. Questa verifica verrà svolta nel quadro del rapporto in adempimento del postulato 17.4292 \"Ridurre l'imposta sul capitale e l'imposta sul patrimonio per le PMI in forte crescita\", depositato dal consigliere nazionale Derder. Sulla base dei risultati l'Esecutivo deciderà se avviare tali misure. Il rapporto in adempimento del postulato sarà approvato dal Consiglio federale nel secondo semestre del 2023.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Col passare del tempo, la Svizzera è diventata uno dei pochi Paesi in cui si tassa la sostanza. Molti esperti criticano questo sistema fiscale che penalizza il patrimonio e causa spesso una fuga di capitali. </p><p>Uno degli aspetti più frequentemente criticati dell'imposta sulla sostanza è l'imposizione dei mezzi di produzione. Molti lavoratori indipendenti e piccoli imprenditori sono costretti a pagare ingenti somme di denaro per potere semplicemente esistere in quanto azienda. Queste somme superano a volte il reddito realizzato dall'impresa. Nel caso delle start up, non è raro che la forte impennata del valore delle aziende comporti anche un'esplosione delle imposte. I proprietari non dispongono necessariamente delle risorse sufficienti per far fronte ai loro obblighi. </p><p>Il Consiglio federale è dunque disposto, nel quadro delle riforme fiscali in corso, a riconsiderare la pertinenza di esentare i mezzi di produzione dall'imposta sulla sostanza? In caso contrario, per affrontare i problemi summenzionati sarebbe pensabile adottare una misura come l'introduzione di un tetto massimo per l'imposizione?</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Esentare i mezzi di produzione dall'imposta sulla sostanza"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Esentare i mezzi di produzione dall'imposta sulla sostanza"
 }

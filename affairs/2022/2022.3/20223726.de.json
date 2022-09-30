@@ -1,6 +1,6 @@
 {
   "id": 20223726,
-  "updated": "2022-06-20T14:19:19Z",
+  "updated": "2022-09-30T09:41:41Z",
   "additionalIndexing": "09;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,10 +41,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-09-30T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-09-07T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -57,13 +74,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "VBS",
+          "id": 6,
+          "name": "Departement für Verteidigung, Bevölkerungsschutz und Sport",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1655330400000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1664488800000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -214,12 +241,27 @@
   ],
   "shortId": "22.3726",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Der Bundesrat hat im Bereich Sicherheit und Verteidigung der Schweiz Berichte erarbeitet und dem Parlament vorgelegt (Sicherheitspolitischer Bericht, Bericht zur Zukunft der Bodentruppen, etc.) Bislang hat es der Bundesrat jedoch verpasst, eine übergeordnete Strategie zur Sicherheit und Verteidigung der Schweiz zu erarbeiten und dem Parlament zu unterbreiten oder zur Kenntnis zu bringen.</p><p>Sinn der übergeordneten Strategie:</p><p>Die Vernetzung, Abhängigkeiten, Ergänzungen und Wechselwirkungen zwischen verschiedenen Departementen, den Staatsstufen als auch den unterschiedlichen Kompetenzbereichen bzgl. Sicherheit und Verteidigung der Schweiz sind zu koordinieren. Diese Strategie soll die Mittel und Wege beschreiben, um die Ziele der Schweiz im Bereich der Sicherheit und Verteidigung zu erreichen und eine Grundlage des gemeinsamen, zielorientierten Handelns der Schweiz darstellen.  </p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, eine übergeordnete Strategie zur Sicherheit und Verteidigung der Schweiz zu erarbeiten und dem Parlament vorzulegen.</p>"
+    },
     {
       "type": {
         "id": 1,

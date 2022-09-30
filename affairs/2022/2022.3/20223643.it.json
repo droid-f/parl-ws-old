@@ -1,6 +1,6 @@
 {
   "id": 20223643,
-  "updated": "2022-06-16T15:56:11Z",
+  "updated": "2022-09-30T09:40:29Z",
   "additionalIndexing": "04;1236;34",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-09-30T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-08-24T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1655244000000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1664488800000+0200)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -122,19 +149,41 @@
   ],
   "shortId": "22.3643",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Sempre più cittadini utilizzano il loro smartphone come portafoglio digitale. Le carte bancarie, assicurative e i titoli di trasporto sono ormai integrati nei nostri telefoni cellulari. Poco a poco, soltanto i documenti ufficiali sfuggono ancora a questa regola, in particolare le carte d'identità e le licenze di condurre. </p><p>I produttori di smartphone propongono sempre più di integrare questi documenti nei loro sistemi operativi. La Confederazione è invitata, con la presente mozione, ad assicurarsi che i documenti d'identità svizzeri siano disponibili anche su queste piattaforme. Di recente la Francia ha annunciato di offrire la sua carta d'identità su iOS, vari Stati americani propongono la loro carta d'identità e patente in formato elettronico. Se necessario, la Confederazione potrà proporre un'applicazione autonoma.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il 29 giugno 2022 il Consiglio federale ha avviato la consultazione relativa all'avamprogetto di legge sull'Id-e. Quest'ultimo contiene le basi legali necessarie per un'infrastruttura statale di fiducia che permetta di emettere e gestire l'Id-e e altri mezzi di autenticazione elettronici. L'avamprogetto prevede che la Confederazione metta a disposizione un portafoglio elettronico, che può contenere l'Id-e e altri mezzi di autenticazione elettronici. I titolari del portafoglio possono richiedere, ottenere e presentare il loro Id-e o i loro mezzi di autenticazione elettronici in maniera sicura e trasparente. Un progetto pilota condotto nel quadro di questi lavori insieme all'Ufficio federale delle strade esamina la possibilità di rilasciare una licenza di condurre elettronica. L'avamprogetto di legge e la mozione si prefiggono quindi il medesimo obiettivo.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è pregato di garantire che ai cittadini sia proposta una versione digitale dei documenti d'identità, compatibile con i sistemi operativi mobili più diffusi. Questa offerta non costituisce un'identità digitale indipendente, ma la semplice digitalizzazione dei documenti d'identità fisici esistenti, in particolare le carte d'identità, i permessi di dimora e di domicilio e le licenze di condurre.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Per documenti d'identità digitali"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Per documenti d'identità digitali"
 }

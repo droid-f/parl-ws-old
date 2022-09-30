@@ -1,6 +1,6 @@
 {
   "id": 20223700,
-  "updated": "2022-06-20T14:28:19Z",
+  "updated": "2022-09-30T11:20:01Z",
   "additionalIndexing": "2446;15;24",
   "affairType": {
     "abbreviation": "Ip.",
@@ -41,10 +41,26 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-09-30T00:00:00Z",
+            "text": "Erledigt",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "b",
+        "date": "2022-08-24T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -57,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EFD",
+          "id": 7,
+          "name": "Finanzdepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1655330400000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1664488800000+0200)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -71,6 +97,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-09-30T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5116"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -104,19 +135,33 @@
   ],
   "shortId": "22.3700",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat ist bereit, die vom Interpellant vorgeschlagene Massnahme zu prüfen. Dies soll im Rahmen des Berichts zum Postulat 17.4292 Derder \"Kapital- und Vermögenssteuern stark wachsender KMU senken\" erfolgen. Gestützt auf die Ergebnisse wird der Bundesrat entscheiden, ob er Massnahmen initiieren wird. Der Postulatsbericht soll im zweiten Halbjahr 2023 vom Bundesrat verabschiedet werden.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Im Laufe der Zeit ist die Schweiz zu einem der wenigen Länder geworden, in denen das Vermögen besteuert wird. Zahlreiche Fachleute kritisieren diese Besteuerung, die Vermögen bestraft und oft zu Kapitalflucht führt.</p><p>Einer der am häufigsten kritisierten Aspekte der Vermögenssteuer ist die Besteuerung der Produktionsmittel. Viele Selbstständigerwerbende und Kleinunternehmerinnen und -unternehmer sehen sich zu grossen Ausgaben gezwungen einzig für das Existenzrecht ihres Geschäfts. Die zu bezahlenden Summen übersteigen manchmal das Firmeneinkommen. Bei Start-ups kommt es nicht selten vor, dass bei explodierendem Unternehmenswert auch die Steuern der Inhaberinnen und Inhaber explodieren. Diese haben aber nicht unbedingt die Mittel, ihren Verpflichtungen nachzukommen.</p><p>Ist der Bundesrat angesichts dieser Tatsache bereit, im Rahmen der laufenden Steuerreformen eine Befreiung der Produktionsmittel von der Vermögenssteuer zu erwägen und damit den oben ausgeführten Problemen zu begegnen, beispielsweise mit einer Plafonierung der Steuern?</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Die Produktionsmittel von der Vermögenssteuer befreien"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Die Produktionsmittel von der Vermögenssteuer befreien"
 }

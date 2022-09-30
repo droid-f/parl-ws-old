@@ -1,6 +1,6 @@
 {
   "id": 20223466,
-  "updated": "2022-05-12T14:26:11Z",
+  "updated": "2022-09-30T09:37:27Z",
   "additionalIndexing": "52;2846;34",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-09-30T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-08-17T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1652220000000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1664488800000+0200)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -342,19 +369,34 @@
   ],
   "shortId": "22.3466",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>In Svizzera non è tuttora possibile allestire e aggiornare una panoramica delle superfici giuridicamente tutelate esistenti, motivo per cui circolano cifre differenti relative al numero di superfici protette. Una visione globale delle zone protette e il riferimento diretto alle relative disposizioni di protezione vigenti sono urgentemente necessari per consentire l'attuazione di misure di protezione effettive. In collaborazione tra la Confederazione e i Cantoni, devono essere elaborati requisiti uniformi per la categorizzazione delle superfici protette e la loro rappresentazione sotto forma di geodati. La categorizzazione dovrà basarsi sulle categorie di zone protette consuete a livello internazionale. L'ordinanza sulla geoinformazione è lo strumento adatto con cui il Consiglio federale può portare avanti lo sviluppo.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di adeguare l'ordinanza sulla geoinformazione (OGI) in modo tale che vengano pubblicati i geodati delle zone protette comunali, cantonali e nazionali e delle relative disposizioni vigenti suddivise secondo le categorie IUCN I, II, III, IV e V. In questo modo i geodati possono essere raggruppati e archiviati su una piattaforma nazionale. In particolare, occorre rendere facilmente accessibili online per la popolazione i regolamenti vigenti per i visitatori delle zone protette. Ciò è finora possibile soltanto per le zone di tranquillità per la selvaggina e le bandite di caccia.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Consentire l'accesso ai geodati delle superfici protette"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Consentire l'accesso ai geodati delle superfici protette"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20223466,
-  "updated": "2022-05-12T14:26:11Z",
+  "updated": "2022-09-30T09:37:27Z",
   "additionalIndexing": "52;2846;34",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,10 +41,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-09-30T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-08-17T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -57,13 +74,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1652220000000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1664488800000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -344,12 +371,27 @@
   ],
   "shortId": "22.3466",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Noch immer ist in der Schweiz das Erstellen und Aktualisieren einer Übersicht über bestehende rechtlich geschützte Flächen nicht möglich. Deshalb kursieren auch unterschiedliche Zahlen zum Anteil der geschützten Fläche. Diese Gesamtschau der geschützten Gebiete und der direkte Bezug zu den jeweils geltenden Schutzbestimmungen ist dringend nötig, um effektive Schutzmassnahmen umsetzen zu können. In Zusammenarbeit zwischen Bund und Kantonen müssen einheitliche Vorgaben für die Kategorisierung der geschützten Flächen und deren Darstellung als Geodaten entwickelt werden. Die Kategorisierung soll sich an den international üblichen Schutzgebietskategorien orientieren. Die Geoinformationsverordnung ist das geeignete Instrument mit welchem der Bundesrat die Entwicklung vorantreiben kann.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, die Verordnung über Geoinformation (Geodateninformationsverordnung; GeoIV) dahingehend anzupassen, dass die Geodaten von kommunalen, kantonalen und nationalen Schutzgebieten und der darin geltenden Bestimmungen nach den IUCN-Kategorien I, II, III, IV und V aufgeschlüsselt zu publizieren sind. Somit können sie auf einer nationalen Plattform zusammengeführt und überlagert werden. Insbesondere sollen die in den Gebieten geltenden Besucherregeln für die Bevölkerung leicht verständlich digital zugänglich gemacht werden. Dies ist bisher erst für Wildruhezonen und Jagdbanngebiete der Fall.</p>"
+    },
     {
       "type": {
         "id": 1,

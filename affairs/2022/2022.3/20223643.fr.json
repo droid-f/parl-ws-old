@@ -1,6 +1,6 @@
 {
   "id": 20223643,
-  "updated": "2022-06-16T15:56:11Z",
+  "updated": "2022-09-30T09:40:29Z",
   "additionalIndexing": "04;1236;34",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-09-30T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-08-24T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1655244000000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1664488800000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -122,12 +149,34 @@
   ],
   "shortId": "22.3643",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>De plus en plus de citoyens utilisent leur smartphone comme portefeuille numérique. Les cartes bancaires, les cartes d'assurance, les titres de transport sont désormais intégrés dans nos téléphones mobiles. Petit à petit, seuls les documents officiels échappent encore à cette règle, notamment la carte d'identité et le permis de conduire. </p><p>Les producteurs de smartphone proposent de plus en plus d'intégrer ces documents dans leur système d'exploitation. La Confédération est invitée, par la présente motion, à s'assurer que les documents d'identité suisses soient aussi disponibles sur ces plateformes. Récemment, la France a annoncé proposer sa carte d'identité nationale sur iOS, plusieurs Etats américains proposent leur carte d'identité et permis de conduire au format électronique. Au besoin, la Confédération pourra proposer une application autonome.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le 29 juin 2022, le Conseil fédéral a ouvert la procédure de consultation concernant l'avant-projet de loi sur l'e-ID. Cet avant-projet met en place les bases légales nécessaires pour la création d'une infrastructure de confiance étatique permettant d'émettre et d'exploiter l'e-ID et d'autres moyens de preuve électroniques. Il prévoit que la Confédération mettra à disposition un portefeuille électronique, qui pourra contenir l'eID et d'autres moyens de preuve électroniques. Les titulaires du portefeuille pourront demander, obtenir et présenter leur e-ID ou leurs moyens de preuve électroniques de manière sécurisée et transparente. Un projet pilote mené avec l'Office fédéral des routes dans le cadre de ces travaux examine la possibilité d'émettre un permis de conduire électronique aux titulaires. L'avant-projet de loi et la motion visent ainsi à atteindre le même objectif.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est prié de s'assurer qu'une version numérique des documents d'identité soit proposée aux citoyens, compatible avec les systèmes d'exploitation mobiles les plus communément utilisés. Cette offre ne constitue pas une identité numérique indépendante, mais la simple numérisation des documents d'identité physiques existants. Les cartes d'identité, permis de séjour et d'établissement et permis de conduire sont notamment concernés.</p>"
+    },
     {
       "type": {
         "id": 1,

@@ -1,6 +1,6 @@
 {
   "id": 20223432,
-  "updated": "2022-05-12T14:34:33Z",
+  "updated": "2022-09-30T10:27:13Z",
   "additionalIndexing": "2811;08",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,26 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-09-30T00:00:00Z",
+            "text": "Liquidato",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "n",
+        "date": "2022-06-29T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +72,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1652133600000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1664488800000+0200)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -70,6 +96,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-09-30T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5116"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -222,12 +253,19 @@
   ],
   "shortId": "22.3432",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
     "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>1. Come già illustrato a più riprese dal Consiglio federale (da ultimo nella sua risposta all'interpellanza 21.3899 Clivaz Christophe, \"Situazione geopolitica in Eritrea. La Segreteria di Stato della migrazione non dovrebbe ripensare la sua politica d'asilo?\"), la Segreteria di Stato della migrazione (SEM) osserva costantemente la situazione e gli sviluppi in Eritrea. A tal fine si fonda sulle informazioni fornite dalle organizzazioni internazionali (compreso l'Alto Commissariato dell'ONU per i rifugiati) e le ONG, nonché gli scienziati, i giornalisti e altre persone competenti e degne di fiducia. La SEM esamina in maniera accurata ogni singola domanda d'asilo basandosi, da un lato, su questa costante e ampia analisi della situazione e, dall'altro, sulle indicazioni fornite dai richiedenti l'asilo.</p><p>2 e 3. La SEM esamina accuratamente ogni singolo caso per determinare se ritornando nel suo Paese d'origine il richiedente l'asilo rischia di subire pregiudizi ai sensi dell'articolo 3 della legge sull'asilo, per cui deve essere riconosciuto come rifugiato. Se il richiedente non adempie la qualità di rifugiato, occorre successivamente determinare se l'esecuzione del suo allontanamento è ammissibile, ragionevolmente esigibile e possibile ai sensi dell'articolo 83 della legge federale sugli stranieri e la loro integrazione. Questa prassi giuridica è stata sostenuta a più riprese dal Tribunale amministrativo federale (TAF).</p><p>Sulla base della sua continua analisi della situazione, la SEM riesamina costantemente la sua prassi d'asilo riguardo all'Eritrea e la adegua se necessario. La prassi è stata riesaminata anche in considerazione del caso individuale riportato di recente dal collettivo di ricerca Reflekt, senza tuttavia che ne siano risultati motivi a sostegno di un adeguamento generale. Non vi è quindi ragione di modificare i criteri per la valutazione delle domande di riesame.</p><p>4. L'esecuzione dell'allontanamento rientra nella responsabilità dei servizi cantonali e non della SEM. Le autorità cantonali effettuano un colloquio di partenza con ogni persona obbligata a lasciare il territorio, informandola in merito alle possibilità di ritorno nel Paese di origine e di concessione di un aiuto al ritorno. Nel caso dell'Eritrea è possibile soltanto un ritorno volontario, poiché le autorità eritree non accettano i ritorni forzati. Le persone che decidono di ritornare in Eritrea sono responsabili e autonome per le formalità da sbrigare al fine di ottenere un documento di viaggio presso le autorità del loro Paese d'origine e per la pianificazione della loro partenza volontaria. Il Consiglio federale non vede dunque la necessità di fornire informazioni dettagliate, tramite monitoraggio, sulla situazione politica in Eritrea.</p>"
+    },
     {
       "type": {
         "id": 5,
@@ -240,8 +278,8 @@
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Eritrea – come procedere con gli allontanamenti?"
+      "value": "Eritrea. Come procedere con gli allontanamenti?"
     }
   ],
-  "title": "Eritrea – come procedere con gli allontanamenti?"
+  "title": "Eritrea. Come procedere con gli allontanamenti?"
 }

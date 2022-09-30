@@ -1,6 +1,6 @@
 {
   "id": 20223466,
-  "updated": "2022-05-12T14:26:11Z",
+  "updated": "2022-09-30T09:37:27Z",
   "additionalIndexing": "52;2846;34",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-09-30T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-08-17T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1652220000000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1664488800000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -342,19 +369,34 @@
   ],
   "shortId": "22.3466",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>En Suisse, il n'est toujours pas possible de créer et d'alimenter une base de données permettant d'avoir une vue d'ensemble des surfaces protégées, dont le nombre n'est du reste pas clairement déterminé. L'établissement d'une telle vue d'ensemble, assortie des dispositions de protection applicables dans chaque zone protégée, s'impose urgemment si l'on veut mettre en oeuvre des mesures de protection efficaces. Ensemble, la Confédération et les cantons doivent développer des directives uniformes pour le classement des surfaces protégées et pour leur conversion en géodonnées. La méthode de classement s'appuiera sur les catégories internationales usuelles. Partant, l'ordonnance sur la géoinformation est l'outil approprié pour mettre en place ce changement.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé de modifier l'ordonnance sur la géoinformation (OGéo) de sorte que les géodonnées relatives aux zones protégées communales, cantonales et nationales, ainsi que les dispositions qui y sont applicables, soient publiées selon le classement de l'Union internationale pour la conservation de la nature (catégories UICN I, II, III, IV et V). Ces données pourraient ainsi être regroupées et conservées sur une plateforme nationale. La population doit, en particulier, pouvoir accéder en ligne à la réglementation en vigueur dans les zones protégées, comme c'est actuellement le cas pour les zones de tranquillité et pour les districts francs.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Libre accès aux géodonnées relatives aux surfaces protégées"
     }
   ],
-  "title": "Titre suit"
+  "title": "Libre accès aux géodonnées relatives aux surfaces protégées"
 }
