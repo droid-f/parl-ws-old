@@ -1,6 +1,6 @@
 {
   "id": 20221049,
-  "updated": "2022-09-28T13:46:41Z",
+  "updated": "2022-11-24T10:12:58Z",
   "additionalIndexing": "36;66;09",
   "affairType": {
     "abbreviation": "I",
@@ -44,6 +44,7 @@
         ]
       },
       "federalCouncilProposal": {
+        "date": "2022-11-23T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -68,6 +69,11 @@
           "date": "/Date(1664143200000+0200)/",
           "id": 9,
           "name": "Depositato"
+        },
+        {
+          "date": "/Date(1669158000000+0100)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -75,6 +81,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-11-23T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5117"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -107,12 +118,19 @@
   ],
   "shortId": "22.1049",
   "state": {
-    "id": 9,
-    "name": "Depositato",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>In caso di penuria di elettricità, il Consiglio federale potrebbe ordinare un contingentamento per i grandi consumatori di elettricità (almeno 100 MWh all'anno). Devono sottostarvi gli istituti di ricerca collegati alla rete elettrica svizzera e che raggiungono questa soglia.</p><p>Il Consiglio federale può inoltre vietare determinati utilizzi di elettricità per un periodo di tempo limitato; in teoria, sarebbe quindi possibile vietare le attività di ricerca che usano molta elettricità. Non sarebbe però una disconnessione dalla rete in senso stretto. L'Amministrazione non ha ancora approfondito il potenziale di risparmio di un simile divieto. Il Consiglio federale sta inoltre valutando la possibilità per i grandi consumatori di scollegarsi, se necessario, dalla rete elettrica su base contrattuale. Tuttavia, il CERN non è integrato nella rete elettrica svizzera e non può quindi essere soggetto a un contingentamento da parte del Consiglio federale né a un divieto per le attività di ricerca.</p>"
+    },
     {
       "type": {
         "id": 5,
@@ -125,8 +143,8 @@
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Il CERN è un energivoro?"
+      "value": "Il Cern è un energivoro?"
     }
   ],
-  "title": "Il CERN è un energivoro?"
+  "title": "Il Cern è un energivoro?"
 }
