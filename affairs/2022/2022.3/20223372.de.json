@@ -1,6 +1,6 @@
 {
   "id": 20223372,
-  "updated": "2022-05-04T11:08:42Z",
+  "updated": "2022-12-01T12:32:23Z",
   "additionalIndexing": "2841;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,7 +43,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-12-01T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -76,7 +90,28 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3107,
+                    "gender": "m",
+                    "id": 4206,
+                    "name": "Ettlin Erich",
+                    "officialDenomination": "Ettlin Erich"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5116"
             }
@@ -120,6 +155,11 @@
           "date": "/Date(1648591200000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1669849200000+0100)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -166,9 +206,10 @@
   ],
   "shortId": "22.3372",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
