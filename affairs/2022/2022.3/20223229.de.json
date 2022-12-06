@@ -1,6 +1,6 @@
 {
   "id": 20223229,
-  "updated": "2022-06-17T07:11:25Z",
+  "updated": "2022-12-06T14:39:20Z",
   "additionalIndexing": "48;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2022-06-16T00:00:00Z",
             "text": "Zuweisung an die zuständige Kommission zur Vorberatung",
             "type": 66
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-12-06T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
           }
         ]
       },
@@ -68,7 +83,74 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "KVF-NR",
+            "id": 9,
+            "name": "Kommission für Verkehr und Fernmeldewesen NR",
+            "abbreviation1": "KVF-NR",
+            "abbreviation2": "KVF",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-17T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "KVF-SR",
+            "id": 22,
+            "name": "Kommission für Verkehr und Fernmeldewesen SR",
+            "abbreviation1": "KVF-SR",
+            "abbreviation2": "KVF",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-17T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3200,
+                    "gender": "f",
+                    "id": 4303,
+                    "name": "Maret Marianne",
+                    "officialDenomination": "Maret Marianne"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5117"
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -91,6 +173,11 @@
           "date": "/Date(1655330400000+0200)/",
           "id": 33,
           "name": "An die Kommission zur Vorberatung zugewiesen"
+        },
+        {
+          "date": "/Date(1670281200000+0100)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -241,9 +328,10 @@
   ],
   "shortId": "22.3229",
   "state": {
-    "id": 33,
-    "name": "An die Kommission zur Vorberatung zugewiesen",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [

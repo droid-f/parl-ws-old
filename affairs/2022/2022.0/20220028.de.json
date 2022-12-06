@@ -1,6 +1,6 @@
 {
   "id": 20220028,
-  "updated": "2022-10-27T08:15:55Z",
+  "updated": "2022-12-06T07:33:43Z",
   "additionalIndexing": "08;2446",
   "affairType": {
     "abbreviation": "BRG",
@@ -133,6 +133,11 @@
           "date": "/Date(1662933600000+0200)/",
           "id": 2,
           "name": "Behandelt vom Nationalrat"
+        },
+        {
+          "date": "/Date(1670194800000+0100)/",
+          "id": 4,
+          "name": "Von beiden Räten behandelt"
         }
       ],
       "texts": [
@@ -162,6 +167,21 @@
             "date": "2022-09-12T00:00:00Z",
             "text": "Beschluss gemäss Entwurf",
             "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-12-05T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
           }
         ]
       },
@@ -262,7 +282,28 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2674,
+                    "gender": "m",
+                    "id": 3871,
+                    "name": "Bischof Pirmin",
+                    "officialDenomination": "Bischof"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5117"
             }
@@ -309,6 +350,11 @@
           "date": "/Date(1662933600000+0200)/",
           "id": 2,
           "name": "Behandelt vom Nationalrat"
+        },
+        {
+          "date": "/Date(1670194800000+0100)/",
+          "id": 4,
+          "name": "Von beiden Räten behandelt"
         }
       ],
       "texts": [
@@ -340,8 +386,8 @@
   ],
   "shortId": "22.028",
   "state": {
-    "id": 2,
-    "name": "Behandelt vom Nationalrat",
+    "id": 4,
+    "name": "Von beiden Räten behandelt",
     "doneKey": "0",
     "newKey": 0
   },

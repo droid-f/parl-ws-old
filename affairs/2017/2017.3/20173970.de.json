@@ -1,6 +1,6 @@
 {
   "id": 20173970,
-  "updated": "2019-02-18T19:03:06Z",
+  "updated": "2022-12-06T14:29:46Z",
   "additionalIndexing": "66",
   "affairType": {
     "abbreviation": "Mo.",
@@ -57,6 +57,21 @@
             "date": "2018-03-08T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-12-06T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -137,8 +152,24 @@
           "registrations": [
             {
               "correspondents": [
-
-              ]
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3193,
+                    "gender": "f",
+                    "id": 4238,
+                    "name": "Baume-Schneider Elisabeth",
+                    "officialDenomination": "Baume-Schneider"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5117"
             }
           ]
         }
@@ -164,6 +195,11 @@
           "date": "/Date(1520463600000+0100)/",
           "id": 11,
           "name": "Motion an 2. Rat"
+        },
+        {
+          "date": "/Date(1670281200000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -171,6 +207,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5117"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -206,9 +247,9 @@
   ],
   "shortId": "17.3970",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },

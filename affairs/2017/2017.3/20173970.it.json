@@ -1,6 +1,6 @@
 {
   "id": 20173970,
-  "updated": "2019-02-18T19:03:06Z",
+  "updated": "2022-12-06T14:29:46Z",
   "additionalIndexing": "66",
   "affairType": {
     "abbreviation": "Mo.",
@@ -57,6 +57,21 @@
             "date": "2018-03-08T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2022-12-06T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
           }
         ]
       },
@@ -136,8 +151,24 @@
           "registrations": [
             {
               "correspondents": [
-
-              ]
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3193,
+                    "gender": "f",
+                    "id": 4238,
+                    "name": "Baume-Schneider Elisabeth",
+                    "officialDenomination": "Baume-Schneider"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5117"
             }
           ]
         }
@@ -163,6 +194,11 @@
           "date": "/Date(1520463600000+0100)/",
           "id": 11,
           "name": "Mozione alla seconda Camera"
+        },
+        {
+          "date": "/Date(1670281200000+0100)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -170,6 +206,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-12-06T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5117"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -205,9 +246,9 @@
   ],
   "shortId": "17.3970",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },

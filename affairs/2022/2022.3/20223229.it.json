@@ -1,6 +1,6 @@
 {
   "id": 20223229,
-  "updated": "2022-06-17T07:11:25Z",
+  "updated": "2022-12-06T14:39:20Z",
   "additionalIndexing": "48;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2022-06-16T00:00:00Z",
             "text": "Trasmissione per esame alla commissione competente",
             "type": 66
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2022-12-06T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
           }
         ]
       },
@@ -67,7 +82,73 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CTT-CN",
+            "id": 9,
+            "name": "Commissione dei trasporti e delle telecomunicazioni CN",
+            "abbreviation1": "CTT-CN",
+            "abbreviation2": "CTT",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-17T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CTT-CS",
+            "id": 22,
+            "name": "Commissione dei trasporti e delle telecomunicazioni CS",
+            "abbreviation1": "CTT-CS",
+            "abbreviation2": "CTT",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-17T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3200,
+                    "gender": "f",
+                    "id": 4303,
+                    "name": "Maret Marianne",
+                    "officialDenomination": "Maret Marianne"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo M-E",
+                    "id": 3,
+                    "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5117"
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -90,6 +171,11 @@
           "date": "/Date(1655330400000+0200)/",
           "id": 33,
           "name": "Assegnato alla Commissione per l’esame preliminare"
+        },
+        {
+          "date": "/Date(1670281200000+0100)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -239,9 +325,10 @@
   ],
   "shortId": "22.3229",
   "state": {
-    "id": 33,
-    "name": "Assegnato alla Commissione per l’esame preliminare",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
