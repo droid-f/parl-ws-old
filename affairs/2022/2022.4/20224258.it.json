@@ -1,6 +1,6 @@
 {
   "id": 20224258,
-  "updated": "2022-10-20T14:23:19Z",
+  "updated": "2022-12-12T20:02:41Z",
   "additionalIndexing": "48;2846",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-12-12T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-23T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
@@ -146,13 +163,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1665957600000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1670799600000+0100)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -161,6 +188,15 @@
     }
   ],
   "language": "it",
+  "priorityCouncils": [
+    {
+      "abbreviation": "CN",
+      "id": 1,
+      "name": "Consiglio nazionale",
+      "type": "N",
+      "priority": 1
+    }
+  ],
   "relatedAffairs": [
 
   ],
@@ -186,10 +222,11 @@
   ],
   "shortId": "22.4258",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -198,6 +235,13 @@
         "name": "Motivazione"
       },
       "value": "<p>Alla luce della situazione attuale, lo sviluppo dei trasporti su rotaia in Svizzera è essenziale per la qualità di vita, la mobilità e l'ambiente. Una rete ferroviaria efficiente e durevole costituisce anche uno dei fattori di successo socioeconomico di una collettività. Il progetto \"Prospettiva Ferrovia 2050\" deve quindi concentrarsi maggiormente, oltre che sulle priorità già stabilite, anche sul completamento e il potenziamento di tutti i tratti necessari al traffico a lunga percorrenza, sia sull'asse nord-sud che su quello est-ovest. Tali progetti infrastrutturali sono di fondamentale importanza per il rafforzamento della coesione nazionale e dello sviluppo socioeconomico interregionale. Una rete ferroviaria completa ed efficiente da un confine all'altro, sugli assi nord-sud ed est-ovest, rappresenta anche un notevole valore aggiunto per la politica di trasferimento del traffico e per migliori collegamenti con le reti internazionali ad alta velocità. Nell'ambito del progetto \"Prospettiva Ferrovia 2050\", il Consiglio federale è quindi incaricato di sfruttare il margine di manovra a disposizione al fine di ottimizzare le scadenze e ridurre i tempi di realizzazione dei progetti di infrastruttura ferroviaria indispensabili per attuare il modello \"Croce federale della mobilità\".</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>La prospettiva FERROVIA 2050 indica gli orientamenti grazie ai quali la ferrovia può fornire il massimo contributo al raggiungimento degli obiettivi preminenti della Confederazione, ad esempio in materia di politica climatica, ambiente o pianificazione del territorio. Lo scopo della prospettiva non è definire una futura rete di tratte.</p><p>Nel progetto posto in consultazione (Fedlex&gt;Consultazioni&gt;concluse) il Consiglio federale predilige l'orientamento \"brevi e medie distanze\", che per le fasi successive al 2030 prevede un maggiore ampliamento dell'offerta nei centri degli agglomerati, nelle cinture degli agglomerati, nelle regioni periferiche nonché tra gli agglomerati e le aree insediative rurali e turistiche. Nel traffico a lunga distanza si devono realizzare riduzioni dei tempi di percorrenza se la ferrovia non risulta competitiva rispetto alla strada. Nel traffico viaggiatori internazionale e nel traffico regionale transfrontaliero l'attrattiva della ferrovia va aumentata con offerte di trasporto più frequenti e ben collegate nonché riduzioni mirate dei tempi di percorrenza. I lavori relativi alla prospettiva FERROVIA 2050 hanno mostrato che una sensibile accelerazione dei trasporti, su cui si basa la \"Croce federale della mobilità\", può risultare controproducente per il raggiungimento degli obiettivi preminenti della Confederazione, in quanto implica un notevole aumento del traffico.</p><p>La richiesta della mozione sarà esaminata valutando, nell'ambito dell'analisi della consultazione, una maggiore incentivazione ed eventuale accelerazione del traffico a lunga distanza sugli assi ovest-est e nord-sud. La necessità di sviluppare ulteriormente il traffico viaggiatori internazionale è un fatto riconosciuto nella prospettiva FERROVIA 2050. La realizzazione di una rete ad alta velocità in Svizzera non rientra tra gli obiettivi del Consiglio federale.</p>"
     },
     {
       "type": {
@@ -211,8 +255,8 @@
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Prospettiva Ferrovia 2050: impegnarsi anche per la realizzazione e il completamento della «Croce federale della mobilità»"
+      "value": "Prospettiva Ferrovia 2050. Impegnarsi anche per la realizzazione e il completamento della \"Croce federale della mobilità\""
     }
   ],
-  "title": "Prospettiva Ferrovia 2050: impegnarsi anche per la realizzazione e il completamento della «Croce federale della mobilità»"
+  "title": "Prospettiva Ferrovia 2050. Impegnarsi anche per la realizzazione e il completamento della \"Croce federale della mobilità\""
 }

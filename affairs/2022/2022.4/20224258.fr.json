@@ -1,6 +1,6 @@
 {
   "id": 20224258,
-  "updated": "2022-10-20T14:23:19Z",
+  "updated": "2022-12-12T20:02:41Z",
   "additionalIndexing": "48;2846",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-12-12T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-23T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
@@ -146,13 +163,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1665957600000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1670799600000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -161,6 +188,15 @@
     }
   ],
   "language": "fr",
+  "priorityCouncils": [
+    {
+      "abbreviation": "CN",
+      "id": 1,
+      "name": "Conseil national",
+      "type": "N",
+      "priority": 1
+    }
+  ],
   "relatedAffairs": [
 
   ],
@@ -186,10 +222,11 @@
   ],
   "shortId": "22.4258",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -198,6 +235,13 @@
         "name": "Développement"
       },
       "value": "<p>Dans la situation actuelle, le développement du trafic ferroviaire est d'importance capitale pour la qualité de vie, la mobilité et l'environnement de notre pays. Un réseau ferroviaire efficient et durable est un des facteurs de la réussite socioéconomique d'une société. Outre les priorités déjà saisies, le projet de perspective RAIL 2050 doit donc se concentrer davantage sur l'achèvement et le développement de tous les tronçons nécessaires au trafic de grandes lignes ainsi que sur les axes nord/sud et est/ouest. Ces projets d'infrastructures sont d'une importance capitale pour le renforcement de la cohésion nationale et le développement socio-économique interrégional. Un réseau ferroviaire performant couvrant toute la Suisse d'une frontière à l'autre (tant du nord au sud que d'est en ouest) représente une valeur ajoutée considérable pour la politique de transfert et l'amélioration du raccordement aux réseaux internationaux à grande vitesse. Dans cet esprit, le Conseil fédéral est chargé d'exploiter toute la marge de manoeuvre dont il dispose pour optimiser les délais et raccourcir la durée de réalisation des projets d'infrastructure ferroviaire indispensables à la \" Croix fédérale de la mobilité \". </p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La Perspective Rail 2050 indique les orientations qui permettront au chemin de fer de contribuer au maximum à la réalisation des objectifs supérieurs de la Confédération, par exemple dans le domaine de la politique climatique, de l'environnement ou de l'aménagement du territoire. Il ne s'agit pas de définir un futur réseau de lignes.</p><p>Dans le projet mis en consultation (Fedlex&gt;Procédures de consultation&gt;Procédures de consultation terminées), le Conseil fédéral a favorisé l'orientation \" courtes et moyennes distances \". L'aménagement de l'offre doit donc, dans les futures étapes d'aménagement à partir de 2030, se situer davantage au coeur des agglomérations, dans les couronnes d'agglomération, dans les régions frontalières ainsi qu'entre les zones d'habitat rurales ou touristiques et les agglomérations. En transport grandes lignes, il faut prévoir des réductions de temps de parcours si le train est plus lent et moins compétitif que la route. En transport de voyageurs international et en transport régional transfrontalier, l'attrait du rail peut augmenter grâce à des offres plus fréquentes et bien connectées ainsi qu'à des réductions ciblées des temps de parcours. Les travaux relatifs à la perspective Rail 2050 ont montré qu'une nette accélération, telle que celle qui sous-tend la \" Croix fédérale de la mobilité \", peut empêcher d'atteindre les objectifs supérieurs de la Confédération, car elle entraîne un surcroît de trafic déterminant.</p><p>La demande de la motion sera examinée lors de l'évaluation de la consultation au sens d'un encouragement renforcé et, le cas échéant, d'une accélération du transport grandes lignes sur les axes ouest-est et nord-sud. Le besoin de développer le transport voyageurs international est reconnu dans la perspective RAIL 2050. Réaliser un réseau à grande vitesse à travers la Suisse n'est pas un objectif du Conseil fédéral.</p>"
     },
     {
       "type": {
@@ -211,8 +255,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Perspective RAIL 2050 : concentration également sur la réalisation et l’achèvement de la « Croix fédérale de la mobilité »."
+      "value": "Perspective Rail 2050. Concentration également sur la réalisation et l'achèvement de la \"Croix fédérale de la mobilité\""
     }
   ],
-  "title": "Perspective RAIL 2050 : concentration également sur la réalisation et l’achèvement de la « Croix fédérale de la mobilité »."
+  "title": "Perspective Rail 2050. Concentration également sur la réalisation et l'achèvement de la \"Croix fédérale de la mobilité\""
 }

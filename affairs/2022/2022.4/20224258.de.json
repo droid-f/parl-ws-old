@@ -1,6 +1,6 @@
 {
   "id": 20224258,
-  "updated": "2022-10-20T14:23:19Z",
+  "updated": "2022-12-12T20:02:41Z",
   "additionalIndexing": "48;2846",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-12-12T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-23T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
@@ -148,13 +165,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1665957600000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1670799600000+0100)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -163,6 +190,15 @@
     }
   ],
   "language": "de",
+  "priorityCouncils": [
+    {
+      "abbreviation": "NR",
+      "id": 1,
+      "name": "Nationalrat",
+      "type": "N",
+      "priority": 1
+    }
+  ],
   "relatedAffairs": [
 
   ],
@@ -188,10 +224,11 @@
   ],
   "shortId": "22.4258",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -200,6 +237,13 @@
         "name": "Begründung"
       },
       "value": "<p>In der gegenwärtigen Situation ist die Entwicklung des Schienenverkehrs für die Lebensqualität, die Mobilität und die Umwelt in unserem Land von wesentlicher Bedeutung. Ein effizientes und nachhaltiges Schienennetz ist auch einer der Faktoren für den sozioökonomischen Erfolg einer Gesellschaft. Das Projekt Perspektive Bahn 2050 muss sich deshalb, neben den bereits erfassten Prioritäten, stärker auf die Fertigstellung und den Ausbau aller für den Fernverkehr notwendigen Abschnitte, sowohl auf der Nord/Süd- als auch auf der Ost/West-Achse, konzentrieren. Diese Infrastrukturprojekte sind für die Stärkung des nationalen Zusammenhalts und der interregionalen sozioökonomischen Entwicklung von wesentlicher Bedeutung. Ein flächendeckendes und leistungsfähiges vollständiges Bahnnetz von Grenze zu Grenze - sowohl Nord/Süd als auch Ost/West - schafft auch einen erheblichen Mehrwert für die Verlagerungspolitik und die bessere Anbindung an die internationalen Hochgeschwindigkeitsnetze. In diesem Sinne wird der Bundesrat im Rahmen von \"Perspektive Bahn 2050\" beauftragt, alle verfügbaren Spielräume zu nutzen, um die Fristen zu optimieren und die Zeit für die Realisierung, der für das \"Verkehrskreuz Schweiz\" unabdingbaren Bahninfrastrukturprojekten, zu verkürzen.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Die Perspektive Bahn 2050 zeigt auf, mit welchen Stossrichtungen die Eisenbahn einen maximalen Beitrag zur Erreichung der übergeordneten Ziele des Bundes, z.B. im Bereich der Klimapolitik, der Umwelt oder der Raumplanung, leisten kann. Es geht dabei nicht um die Festlegung eines zukünftigen Streckennetzes.</p><p>In der Vernehmlassungsvorlage (Fedlex&gt;Vernehmlassungen&gt;Abgeschlossen) hat der Bundesrat die Stossrichtung 'Kurze und mittlere Distanzen' favorisiert. Der Angebotsausbau soll damit in zukünftigen Ausbauschritten ab 2030 vermehrt innerhalb der Agglomerationskerne, der Agglomerationsgürtel, der Grenzregionen sowie zwischen ländlichen sowie touristischen Siedlungsräumen und den Agglomerationen liegen. Im Fernverkehr sind Fahrzeitverkürzungen vorzusehen, sofern die Bahn gegenüber der Strasse in Bezug auf die Reisezeit nicht wettbewerbsfähig ist. Im internationalen Personenverkehr und im grenzüberschreitenden Regionalverkehr sollen häufigere und gut vernetzte Verkehrsangebote sowie gezielte Fahrzeitverkürzungen die Attraktivität der Bahn erhöhen. Die Arbeiten zur Perspektive Bahn 2050 haben gezeigt, dass eine deutliche Beschleunigung, wie sie dem \"Verkehrskreuz Schweiz\" zugrunde liegt, für das Erreichen der übergeordneten Ziele des Bundes kontraproduktiv sein kann, weil dadurch relevanter Mehrverkehr geschaffen wird.</p><p>Das Anliegen der Motion wird im Rahmen der Auswertung der Vernehmlassung im Sinne einer verstärkten Förderung und allenfalls Beschleunigung des Fernverkehrs auf der West-Ost- sowie der Nord-Süd-Achse geprüft. Der Bedarf, den internationalen Personenverkehr weiterzuentwickeln, ist in der Perspektive BAHN 2050 anerkannt. Die Realisierung eines Hochgeschwindigkeitsnetzes durch die Schweiz ist kein Ziel des Bundesrates.</p>"
     },
     {
       "type": {
@@ -213,8 +257,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Perspektive Bahn 2050: ein Fokus auch auf die Realisierung und Vollendung des \"Verkehrskreuz Schweiz“"
+      "value": "Perspektive Bahn 2050. Einen Fokus auch auf die Realisierung und Vollendung des \"Verkehrskreuzes Schweiz\""
     }
   ],
-  "title": "Perspektive Bahn 2050: ein Fokus auch auf die Realisierung und Vollendung des \"Verkehrskreuz Schweiz“"
+  "title": "Perspektive Bahn 2050. Einen Fokus auch auf die Realisierung und Vollendung des \"Verkehrskreuzes Schweiz\""
 }
