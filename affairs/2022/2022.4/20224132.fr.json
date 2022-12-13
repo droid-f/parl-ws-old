@@ -1,6 +1,6 @@
 {
   "id": 20224132,
-  "updated": "2022-10-04T10:04:10Z",
+  "updated": "2022-12-13T08:17:51Z",
   "additionalIndexing": "66;15;24;09",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-12-12T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-11-16T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1664402400000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1670799600000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -172,19 +199,34 @@
   ],
   "shortId": "22.4132",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Les débats parlementaires qui ont entouré la loi fédérale sur des aides financières subsidiaires destinées au sauvetage des entreprises du secteur de l'électricité d'importance systémique - dont la durée de validité est limitée à la fin 2026 - ont révélé à la fois une certaine opacité et une marge de manoeuvre insuffisante de la Confédération s'agissant des entreprises énergétiques d'importance systémique. Si nous voulons que le texte qui suivra soit efficace et prêt à temps, nous devons nous attaquer dès à présent aux travaux législatifs. A la lumière du bilan des derniers mois, on constate que s'imposent des dispositions législatives comparables aux modifications qui ont été apportées à la loi sur les banques à la suite de la crise financière mondiale de 2007 et 2008 et des mesures de sauvetage imposées aux grandes banques.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé de proposer au plus vite les dispositions législatives propres à limiter efficacement les risques que les entreprises d'importance systémique du secteur de l'électricité font courir à l'économie du pays.</p><p>A cet égard, il tiendra compte des éléments suivants :</p><p>1. améliorer la transparence sur les activités et les risques vis-à-vis des autorités fédérales compétentes ;</p><p>2. réduire significativement les risques pour la stabilité du marché suisse de l'électricité ;</p><p>3. assurer la poursuite des fonctions indispensables à l'économie nationale ;</p><p>4. éviter tout financement d'urgence de la part de la Confédération.</p><p>Les entreprises du secteur de l'électricité sont considérées comme d'importance systémique lorsqu'elles ont leur siège en Suisse, qu'elles disposent elles-mêmes en Suisse, par l'intermédiaire de sociétés auxquelles elles sont directement ou indirectement liées ou de toute autre manière, d'une puissance installée d'au moins 1500 mégawatts, et qu'elles participent à des marchés organisés de l'électricité.</p><p>Les risques seront notamment limités par des mesures touchant les aspects suivants :</p><p>a. transparence et engagements en matière de publicité vis-à-vis de l'ElCom ;</p><p>b. prescriptions en matière de gestion de la continuité d'activité (BCM), de façon à pouvoir garantir la poursuite sans interruption de l'exploitation des centrales d'importance systémique, même en situation exceptionnelle ;</p><p>c. tâches organisationnelles en matière de gestion des risques ;</p><p>d. limitation du risque intrinsèque par des contrats à moyen et long terme avec des entreprises remplissant une mission de service public ;</p><p>e. prescriptions relatives aux fonds propres et aux liquidités.</p><p>Les mesures devront être proportionnées, tenir compte des conséquences pour les entreprises concernées et leur compétitivité, ne pas mettre en danger l'interconnexion du réseau électrique suisse et du réseau européen, prendre en considération le développement du droit européen pertinent et se garder autant que possible de tout Swiss Finish.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Limiter les risques que représentent pour l'économie nationale les entreprises d'importance systémique du secteur de l'électricité"
     }
   ],
-  "title": "Titre suit"
+  "title": "Limiter les risques que représentent pour l'économie nationale les entreprises d'importance systémique du secteur de l'électricité"
 }

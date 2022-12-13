@@ -1,6 +1,6 @@
 {
   "id": 20223389,
-  "updated": "2022-04-28T09:09:03Z",
+  "updated": "2022-12-13T08:55:10Z",
   "additionalIndexing": "2836;44",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-12-12T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-05-25T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -95,7 +112,7 @@
                   "language": "de"
                 }
               ],
-              "sessionId": "5115"
+              "sessionId": "5117"
             }
           ]
         },
@@ -137,6 +154,11 @@
           "date": "/Date(1650924000000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1670799600000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -179,12 +201,20 @@
   ],
   "shortId": "22.3389",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>L'exception en vigueur pour les revenus tirés d'une activité accessoire ne se justifie plus dans le contexte social actuel. Une adaptation devrait toutefois être considérée sous ses différents aspects et n'intervenir que lorsque la réforme de la prévoyance professionnelle (LPP 21) sera entrée en vigueur ou aura échoué. En cas d'acceptation de la motion par le premier conseil, le Conseil fédéral se réserve la possibilité de soumettre une proposition d'amendement au deuxième conseil concernant le calendrier de mise en oeuvre.</p>"
+    },
     {
       "type": {
         "id": 5,
@@ -197,8 +227,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Inclure les revenus tirés d’activités accessoires dans la LPP"
+      "value": "Inclure les revenus tirés d'activités accessoires dans la LPP"
     }
   ],
-  "title": "Inclure les revenus tirés d’activités accessoires dans la LPP"
+  "title": "Inclure les revenus tirés d'activités accessoires dans la LPP"
 }

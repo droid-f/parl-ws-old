@@ -1,6 +1,6 @@
 {
   "id": 20223921,
-  "updated": "2022-09-21T15:53:16Z",
+  "updated": "2022-12-13T15:43:13Z",
   "additionalIndexing": "66;44;1211",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-12-13T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-09T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
@@ -68,6 +85,11 @@
           "date": "/Date(1663106400000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1670886000000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -357,10 +379,11 @@
   ],
   "shortId": "22.3921",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -369,6 +392,13 @@
         "name": "Développement"
       },
       "value": "<p  align=\"both\">Le temps presse. Des pénuries de gaz et d'électricité menacent cet hiver. Les dommages économiques se chiffreraient rapidement en milliards. Il faut autant que possible éviter les contingentements et rationnements de gaz et d'électricité, le chômage partiel et d'autres mesures. En cas de pénurie d'énergie, les entreprises doivent par conséquent avoir tout de suite la possibilité d'employer sur demande les travailleurs de sorte à pouvoir économiser de l'énergie ou casser les pics de consommation d'énergie en adaptant les processus de production.</p><p  align=\"both\">Pour notre bien à tous, tout doit être entrepris afin de limiter les dommages économiques en pareil cas.</p><p  align=\"both\">Flexibiliser les dispositions relatives aux horaires de travail est indispensable pour les raisons suivantes :</p><p  align=\"both\">- une pénurie d'énergie peut entraîner des restrictions de consommation à certains moments ; il est donc important pour l'employeur de pouvoir organiser les horaires de travail des collaborateurs en fonction de ces restrictions ;</p><p  align=\"both\">- une pénurie d'énergie peut obliger les entreprises à travailler en période de faible consommation d'énergie, c'est-à-dire la nuit et le dimanche.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral est d'avis que la loi sur le travail octroie déjà une grande latitude aux entreprises dans l'aménagement des horaires de travail puisqu'il est possible de travailler sans autorisation du lundi au samedi, entre 6 h et 23 h.</p><p>Si les entreprises devaient être contraintes, en raison de décisions des autorités ou d'une pénurie d'énergie avérée, de procéder à des adaptations de l'organisation du travail allant au-delà de ce cadre temporel, la question de l'intérêt général se poserait et l'art. 27, al. 1, let. b, de l'ordonnance 1 relative à la loi sur le travail (OLT 1) entrerait en ligne de compte. Les cantons ont, dans ce cas, la possibilité de réagir rapidement et d'octroyer des permis relatifs à la durée du travail pour une période allant jusqu'à six mois. Le SECO fournira alors rapidement les documents correspondants aux cantons afin d'assurer une pratique la plus uniforme possible dans toute la Suisse. Le SECO est habilité à examiner des demandes d'autorisations de plus longue durée en cas de besoin et d'octroyer de tels permis. L'art. 28 OLT 1 serait applicable le cas échéant. L'existence d'un besoin concret est toujours un prérequis à l'octroi d'un permis. C'est pourquoi l'établissement de permis préventifs n'est pas envisageable. Si l'évolution de la situation le requiert, le SECO examinera quelles mesures supplémentaires sont nécessaires, après avoir consulté les partenaires sociaux.</p><p>Dans le contexte exposé précédemment, le Conseil fédéral ne voit pas de nécessité d'intervenir davantage.</p>"
     },
     {
       "type": {
@@ -382,8 +412,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Flexibiliser temporairement la loi sur le travail en cas de pénurie de gaz ou d’électricité"
+      "value": "Flexibiliser temporairement la loi sur le travail en cas de pénurie de gaz ou d'électricité"
     }
   ],
-  "title": "Flexibiliser temporairement la loi sur le travail en cas de pénurie de gaz ou d’électricité"
+  "title": "Flexibiliser temporairement la loi sur le travail en cas de pénurie de gaz ou d'électricité"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20224128,
-  "updated": "2022-10-04T10:04:58Z",
+  "updated": "2022-12-13T08:36:00Z",
   "additionalIndexing": "66;15;09",
   "affairType": {
     "abbreviation": "Po.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-12-12T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-11-16T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter le postulat."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1664402400000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1670799600000+0100)/",
+          "id": 26,
+          "name": "Adopté"
         }
       ],
       "texts": [
@@ -70,6 +97,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-12-12T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5117"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -102,19 +134,33 @@
   ],
   "shortId": "22.4128",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 26,
+    "name": "Adopté",
+    "doneKey": "3",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>A la fin 2021, l'énergéticien Alpiq s'est trouvé à court de liquidités en raison de la hausse des prix de l'énergie et a demandé une aide financière à la Confédération. Il y a quelques semaines à peine, la Confédération avait mis à la disposition d'Axpo un crédit-cadre de 4 milliards de francs, après que le Conseil fédéral eut recouru au droit d'urgence pour activer le mécanisme de sauvetage des entreprises électriques. Enfin, l'Assemblée fédérale a adopté en procédure d'urgence la loi fédérale sur des aides financières subsidiaires destinées au sauvetage des entreprises du secteur de l'électricité d'importance systémique (LFiEl) et approuvé un crédit d'engagement de 10 milliards de francs.</p><p>Cette succession d'événements et de décisions a révélé que certains énergéticiens suisses étaient devenus des acteurs d'importance systémique. Aussi convient-il, en s'inspirant de la réglementation \" too big to fail \" adoptée pour le secteur bancaire suite à la crise financière, d'examiner comment désamorcer le problème dans le secteur de l'énergie.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est invité à établir et à soumettre au Parlement un rapport sur les moyens qui permettraient de désamorcer le problème que pose l'émergence d'acteurs d'importance systémique (too big to fail) dans le secteur de l'énergie en Suisse.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Prévenir la survenue d'une situation de type \"too big to fail\" dans le secteur de l'énergie"
     }
   ],
-  "title": "Titre suit"
+  "title": "Prévenir la survenue d'une situation de type \"too big to fail\" dans le secteur de l'énergie"
 }

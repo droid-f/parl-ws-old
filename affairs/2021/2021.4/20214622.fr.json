@@ -1,6 +1,6 @@
 {
   "id": 20214622,
-  "updated": "2022-06-17T10:22:40Z",
+  "updated": "2022-12-13T11:52:44Z",
   "additionalIndexing": "52;15;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -84,6 +84,21 @@
             "date": "2022-06-17T00:00:00Z",
             "text": "Adoption",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-12-12T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
           }
         ]
       },
@@ -97,7 +112,73 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSEC-CN",
+            "id": 5,
+            "name": "Commission de la science, de l'éducation et de la culture CN",
+            "abbreviation1": "CSEC-CN",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-12-17T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CE",
+            "id": 18,
+            "name": "Commission de la science, de l'éducation et de la culture CE",
+            "abbreviation1": "CSEC-CE",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-12-17T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2569,
+                    "gender": "f",
+                    "id": 806,
+                    "name": "Graf Maya",
+                    "officialDenomination": "Graf Maya"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe G",
+                    "id": 6,
+                    "name": "Groupe des VERT-E-S"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5117"
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -120,6 +201,11 @@
           "date": "/Date(1655416800000+0200)/",
           "id": 11,
           "name": "Motion au 2e conseil"
+        },
+        {
+          "date": "/Date(1670799600000+0100)/",
+          "id": 26,
+          "name": "Adopté"
         }
       ],
       "texts": [
@@ -127,6 +213,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-12-12T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5117"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -329,9 +420,9 @@
   ],
   "shortId": "21.4622",
   "state": {
-    "id": 11,
-    "name": "Motion au 2e conseil",
-    "doneKey": "0",
+    "id": 26,
+    "name": "Adopté",
+    "doneKey": "3",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },

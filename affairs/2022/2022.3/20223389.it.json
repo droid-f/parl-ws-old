@@ -1,6 +1,6 @@
 {
   "id": 20223389,
-  "updated": "2022-04-28T09:09:03Z",
+  "updated": "2022-12-13T08:55:10Z",
   "additionalIndexing": "2836;44",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2022-12-12T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-05-25T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -95,7 +112,7 @@
                   "language": "de"
                 }
               ],
-              "sessionId": "5115"
+              "sessionId": "5117"
             }
           ]
         },
@@ -137,6 +154,11 @@
           "date": "/Date(1650924000000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1670799600000+0100)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -179,12 +201,20 @@
   ],
   "shortId": "22.3389",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Nell'attuale contesto sociale, l'eccezione prevista per i redditi da attività accessorie non ha più ragion d'essere. Tuttavia, si dovrebbe procedere a un adeguamento differenziato e soltanto una volta noto l'esito della riforma della previdenza professionale (LPP 21). Se la Camera prioritaria accoglierà la mozione, il Consiglio federale si riserva di presentare alla seconda Camera una proposta di modifica relativa alle tempistiche di attuazione.</p>"
+    },
     {
       "type": {
         "id": 5,
