@@ -1,6 +1,6 @@
 {
   "id": 20223890,
-  "updated": "2022-08-23T15:12:45Z",
+  "updated": "2022-12-14T17:44:14Z",
   "additionalIndexing": "34;1236;15;36;32;2841;09",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2022-12-14T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-11-23T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -125,13 +142,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "CaF",
+          "id": 10,
+          "name": "Cancelleria federale",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1661119200000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1670972400000+0100)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -174,10 +201,11 @@
   ],
   "shortId": "22.3890",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -186,6 +214,13 @@
         "name": "Motivazione"
       },
       "value": "<p>Il valore aggiunto dei dati risiede nel loro potenziale quasi illimitato di riutilizzo per scopi secondari. I dati hanno valore una volta liberati dai loro compartimenti stagni, condivisi, raggruppati e utilizzati per nuovi scopi (secondari). Solo collegandoli è possibile ottenere nuove conoscenze e migliorare la presa di decisioni. Per consentire e promuovere utilizzi secondari dei dati che generino un valore aggiunto, occorrono dunque condizioni quadro affidabili (\"data room\").</p><p>È fondamentale rendersi conto che custodire i dati in compartimenti stagni non fa progredire la Svizzera, comporta costi elevati e impedisce di trovare soluzioni digitali concrete a vantaggio dell'economia e della società. Ne è una dimostrazione lampante quanto è avvenuto nel settore sanitario - con tutte le ripercussioni dovute alla pandemia di coronavirus. L'esempio dell'infrastruttura dei dati sulla mobilità sottolinea inoltre l'importanza di disporre di infrastrutture consolidate per l'utilizzo secondario dei dati al fine di affrontare le sfide future di un settore (tra cui un uso più efficiente delle infrastrutture e dei mezzi di trasporto). Tale esempio evidenza tuttavia anche la possibilità di migliorare mediante approcci adeguati le strutture decisionali e le responsabilità di un settore che sono cresciute nel tempo in modo frammentario. Progetti analoghi concernenti l'utilizzo secondario dei dati sono in fase pianificatoria o pilota in altri settori strategicamente rilevanti quali l'energia, l'istruzione o il turismo.</p><p>I dati costituiscono una base importante per il successo economico e il progresso, il benessere sociale e l'azione statale. L'utilizzo dei dati sta diventando una competenza chiave nei settori economico, amministrativo, scientifico e dell'istruzione. Tuttavia, un utilizzo dei dati che generi un valore aggiunto presuppone la presenza di un quadro giuridico certo. Sono quindi necessari approcci nuovi e pragmatici per la cooperazione tra operatori di mercato privati, semiprivati e pubblici, la ricerca, l'istruzione e lo Stato nell'ambito di data rooms comuni e affidabili. Mentre dal profilo tecnologico gran parte delle condizioni sono già date, a livello normativo sussiste un certo ritardo.</p><p>È necessario intervenire in particolare nei seguenti settori: data room relativi a trasporti e mobilità (cfr. avamprogetto della legge federale sull'infrastruttura di dati sulla mobilità), sanità, energia, ricerca, istruzione, agricoltura, ambiente, turismo, nonché infrastrutture critiche.</p><p>La nuova legge quadro dovrà contenere principi generali e definizioni comuni concernenti lo sviluppo e l'esercizio di tali infrastrutture per l'utilizzo dei dati. Basandosi sulle legislazioni specifiche già esistenti, dovrà inoltre disciplinare in particolare i seguenti aspetti: la gestione delle infrastrutture di dati da parte di enti di diritto pubblico o di organizzazioni miste, il loro finanziamento, il collegamento, l'accessibilità e la connessione dei dati provenienti da fonti pubbliche e private, la validità della protezione e della sicurezza dei dati nell'ambito dell'utilizzo secondario, nonché l'interoperabilità tra le infrastrutture settoriali di utilizzo dei dati. Occorre inoltre valutare l'interfaccia con la nuova organizzazione \"Amministrazione digitale svizzera\", sostenuta dalla Confederazione e dai Cantoni, e il rapporto con le infrastrutture di dati europee. La legge quadro rappresenterà altresì una base che darà un impulso significativo alla realizzazione di infrastrutture di dati sancite in leggi specifiche. Per esempio, dovrà essere possibile avviare progetti modello e progetti pilota mediante un sandbox normativo, regolamentare i finanziamenti per progetti di data room e rafforzare la rete di conoscenze e informazioni.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale riconosce il potenziale di riutilizzo dei dati per scopi secondari. La legge sulla protezione dei dati prevede che i dati personali possano essere raccolti e trattati soltanto per determinati scopi, riconoscibili dalle persone interessate. Spesso al momento della raccolta non è possibile prevedere l'utilità dei dati qualora fosse consentito il loro utilizzo per un altro scopo. Nell'ambito dell'attuazione della mozione, il Consiglio federale esaminerà in particolare in quali settori l'utilizzo secondario è pertinente e proporzionato, quali infrastrutture e altre condizioni quadro sono necessarie per il funzionamento di data room affidabili e interoperabili.</p>"
     },
     {
       "type": {
@@ -199,8 +234,8 @@
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Elaborare una legge quadro per l’utilizzo secondario dei dati"
+      "value": "Elaborare una legge quadro per l'utilizzo secondario dei dati"
     }
   ],
-  "title": "Elaborare una legge quadro per l’utilizzo secondario dei dati"
+  "title": "Elaborare una legge quadro per l'utilizzo secondario dei dati"
 }

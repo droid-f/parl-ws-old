@@ -1,6 +1,6 @@
 {
   "id": 20213354,
-  "updated": "2022-03-09T12:48:16Z",
+  "updated": "2022-12-14T17:37:47Z",
   "additionalIndexing": "09;34;2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2022-03-09T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-12-14T00:00:00Z",
+            "text": "Die Motion wird mit folgender Änderung angenommen: Der Bundesrat wird beauftragt, bei der Beschaffung von Informations- und Kommunikationstechnologien bzw. -mitteln für Organisationen wie bspw. die Schweizer Armee, das Bundesamt für Bevölkerungsschutz, den Nachrichtendienst des Bundes etc., welche für die Sicherheit der Schweiz zentral sind, Schweizer Produzentinnen gegenüber ausländischen Anbietern im Rahmen der geltenden Bestimmungen zu bevorzugen.",
+            "type": 0
           }
         ]
       },
@@ -68,7 +83,74 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "SiK-NR",
+            "id": 8,
+            "name": "Sicherheitspolitische Kommission NR",
+            "abbreviation1": "SiK-NR",
+            "abbreviation2": "SiK",
+            "committeeNumber": 8,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-03-18T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SiK-SR",
+            "id": 21,
+            "name": "Sicherheitspolitische Kommission SR",
+            "abbreviation1": "SiK-SR",
+            "abbreviation2": "SiK",
+            "committeeNumber": 21,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-03-18T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3052,
+                    "gender": "m",
+                    "id": 4151,
+                    "name": "Dittli Josef",
+                    "officialDenomination": "Dittli"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5117"
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -91,6 +173,11 @@
           "date": "/Date(1646780400000+0100)/",
           "id": 11,
           "name": "Motion an 2. Rat"
+        },
+        {
+          "date": "/Date(1670972400000+0100)/",
+          "id": 26,
+          "name": "Angenommen"
         }
       ],
       "texts": [
@@ -98,6 +185,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-12-14T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5117"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -291,9 +383,9 @@
   ],
   "shortId": "21.3354",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
-    "doneKey": "0",
+    "id": 26,
+    "name": "Angenommen",
+    "doneKey": "3",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },

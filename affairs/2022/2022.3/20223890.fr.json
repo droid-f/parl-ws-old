@@ -1,6 +1,6 @@
 {
   "id": 20223890,
-  "updated": "2022-08-23T15:12:45Z",
+  "updated": "2022-12-14T17:44:14Z",
   "additionalIndexing": "34;1236;15;36;32;2841;09",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-12-14T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-11-23T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -125,13 +142,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "ChF",
+          "id": 10,
+          "name": "Chancellerie fédérale",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1661119200000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1670972400000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -174,10 +201,11 @@
   ],
   "shortId": "22.3890",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -186,6 +214,13 @@
         "name": "Développement"
       },
       "value": "<p>Ce que les données ont de plus précieux est leur potentiel presque illimité de réutilisation à des fins secondaires. Les données sont utiles lorsqu'elles sont libérées de leurs silos, partagées, compilées et utilisées à de nouvelles fins (secondaires). Ce n'est qu'en les reliant entre elles qu'il est possible d'obtenir de nouvelles informations et de prendre de meilleures décisions. C'est pourquoi il faut un cadre fiable (\" espaces de données \") pour permettre et encourager l'utilisation secondaire à valeur ajoutée des données.</p><p>Il est essentiel de comprendre que le maintien de silos de données ne fait pas avancer la Suisse, qu'il entraîne des coûts élevés et empêche la mise en place de solutions numériques pratiques au profit de l'économie et de la société. L'exemple du secteur de la santé - et de ses conséquences dans le cadre de la pandémie de COVID-19 - est révélateur à cet égard. Celui de l'infrastructure de données sur la mobilité met également en évidence l'importance d'infrastructures consolidées pour l'utilisation secondaire de données en vue de relever des défis futurs dans un secteur (notamment l'utilisation plus efficace des infrastructures et des moyens de transport). Il montre aussi comment les structures de décision et les compétences fragmentées, qui se sont développées au fil du temps dans un secteur, peuvent être améliorées grâce à des approches appropriées. Des projets similaires d'utilisation secondaire des données sont à l'étude ou en phase pilote dans d'autres domaines d'importance stratégique, par exemple dans les domaines de l'énergie, de la formation ou du tourisme.</p><p>Les données constituent une base essentielle pour le succès et le progrès économiques, le bien-être social et l'action publique. L'utilisation des données devient une compétence-clé dans les domaines de l'économie, de l'administration, de la science et de la formation. Un cadre juridique sûr est toutefois une condition essentielle d'une utilisation des données à valeur ajoutée. Il faut ainsi des approches nouvelles et pragmatiques pour la coopération entre les acteurs privés, semi-privés et publics du marché, la recherche, la formation et l'Etat dans des espaces de données communs et fiables. Il existe de nombreuses bases d'un point de vue technologique, mais le cadre réglementaire ne suit pas.</p><p>Des mesures s'imposent en particulier dans les secteurs suivants : espace de données relatives au transport et à la mobilité (cf. projet de loi fédérale concernant l'infrastructure de données sur la mobilité), à la santé, à l'énergie, à la recherche, à la formation, à l'agriculture, à l'environnement, au tourisme ainsi qu'espace de données relatives aux infrastructures critiques.</p><p>La nouvelle loi-cadre contiendra des principes généraux et des définitions communes pour la mise en place et l'exploitation de telles infrastructures d'utilisation des données. En outre, elle règlera notamment les points suivants, en se fondant sur les législations spécifiques existantes : le pilotage des infrastructures de données par des organisations publiques ou d'économie mixte, leur financement, le traitement, l'accessibilité et le croisement des données issues de sources publiques et privées, l'application de la protection des données et de la sécurité des données lors de l'utilisation secondaire des données et l'interopérabilité des infrastructures sectorielles d'utilisation des données. Elle devra aussi préciser les points de convergence avec la nouvelle organisation \" Administration numérique suisse \", portée par la Confédération et les cantons, ainsi que la relation avec les infrastructures de données européennes. La loi-cadre devra par ailleurs donner des impulsions déterminantes pour la création d'infrastructures de données dans une législation spéciale. Il s'agira par exemple de permettre des projets-modèle et des projets pilotes à l'aide d'un \" bac à sable réglementaire \", de régler les subventions pour les projets d'espace de données et de renforcer la mise en réseau des connaissances et de l'information.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Si le Conseil fédéral est conscient du potentiel qui réside dans la réutilisation des données à des fins d'utilisation secondaire, il rappelle que la loi sur la protection des données prévoit que les données personnelles ne peuvent être collectées que pour des finalités déterminées et reconnaissables pour la personne concernée. Or, au moment où les données sont collectées, il est souvent impossible de prévoir l'utilité qu'elles pourraient présenter si elles pouvaient être utilisées à d'autres fins. En conséquence, lorsqu'il mettra en oeuvre la motion, le Conseil fédéral s'attachera en particulier à déterminer les domaines dans lesquels une utilisation secondaire des données serait pertinente et proportionnée, ainsi que les infrastructures et autres exigences préalables qui seraient nécessaires pour exploiter des espaces de données fiables et interopérables.</p>"
     },
     {
       "type": {
@@ -199,8 +234,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Élaboration d’une loi-cadre sur la réutilisation des données"
+      "value": "Elaboration d'une loi-cadre sur la réutilisation des données"
     }
   ],
-  "title": "Élaboration d’une loi-cadre sur la réutilisation des données"
+  "title": "Elaboration d'une loi-cadre sur la réutilisation des données"
 }

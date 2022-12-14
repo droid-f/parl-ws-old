@@ -1,6 +1,6 @@
 {
   "id": 20210495,
-  "updated": "2021-10-08T11:49:56Z",
+  "updated": "2022-12-14T10:05:22Z",
   "additionalIndexing": "09;34;04;1236;1231",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -64,6 +64,61 @@
             "date": "2022-02-14T00:00:00Z",
             "text": "È dato seguito",
             "type": 16
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Amm."
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-08-15T00:00:00Z",
+            "text": "Sarà ripreso",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "committee": {
+              "abbreviation": "CPS-CS",
+              "id": 21,
+              "name": "Commissione della politica di sicurezza CS",
+              "abbreviation1": "CPS-CS",
+              "abbreviation2": "CPS",
+              "committeeNumber": 21,
+              "council": {
+                "abbreviation": "CS",
+                "id": 2,
+                "name": "Consiglio degli Stati",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2022-08-18T00:00:00Z",
+            "text": "Nessuna adesione",
+            "type": 49
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Amm."
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-12-14T00:00:00Z",
+            "text": "Ritirato",
+            "type": 17
           }
         ]
       },
@@ -96,8 +151,15 @@
               "correspondents": [
 
               ]
+            },
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5117"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
@@ -129,13 +191,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "Parl",
+          "id": 1,
+          "name": "Parlamento",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1632952800000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1670972400000+0100)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -143,6 +215,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-12-14T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5117"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -381,13 +458,23 @@
         "name": "Gruppo liberale radicale"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3209,
+        "gender": "f",
+        "id": 4313,
+        "name": "Riniker Maja",
+        "officialDenomination": "Riniker"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "21.495",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
     "newKey": 0
   },
   "texts": [

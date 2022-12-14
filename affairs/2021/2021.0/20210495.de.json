@@ -1,6 +1,6 @@
 {
   "id": 20210495,
-  "updated": "2021-10-08T11:49:56Z",
+  "updated": "2022-12-14T10:05:22Z",
   "additionalIndexing": "09;34;04;1236;1231",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -65,6 +65,61 @@
             "date": "2022-02-14T00:00:00Z",
             "text": "Folge gegeben",
             "type": 16
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-08-15T00:00:00Z",
+            "text": "Wird übernommen",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "SiK-SR",
+              "id": 21,
+              "name": "Sicherheitspolitische Kommission SR",
+              "abbreviation1": "SiK-SR",
+              "abbreviation2": "SiK",
+              "committeeNumber": 21,
+              "council": {
+                "abbreviation": "SR",
+                "id": 2,
+                "name": "Ständerat",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2022-08-18T00:00:00Z",
+            "text": "Keine Zustimmung",
+            "type": 49
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-12-14T00:00:00Z",
+            "text": "Zurückgezogen",
+            "type": 17
           }
         ]
       },
@@ -97,8 +152,15 @@
               "correspondents": [
 
               ]
+            },
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5117"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
@@ -130,13 +192,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "Parl",
+          "id": 1,
+          "name": "Parlament",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1632952800000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1670972400000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -144,6 +216,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-12-14T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5117"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -383,13 +460,23 @@
         "name": "FDP-Liberale Fraktion"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3209,
+        "gender": "f",
+        "id": 4313,
+        "name": "Riniker Maja",
+        "officialDenomination": "Riniker"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "21.495",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 0
   },
   "texts": [

@@ -1,6 +1,6 @@
 {
   "id": 20190405,
-  "updated": "2022-10-26T15:30:54Z",
+  "updated": "2022-12-14T18:03:40Z",
   "additionalIndexing": "2446;66;48",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -105,6 +105,21 @@
             "date": "2022-03-15T00:00:00Z",
             "text": "Folge gegeben",
             "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-12-14T00:00:00Z",
+            "text": "Keine Zustimmung",
+            "type": 49
           }
         ]
       },
@@ -174,6 +189,12 @@
                 }
               ],
               "sessionId": "5113"
+            },
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5118"
             }
           ],
           "treatmentCategory": "IV"
@@ -203,7 +224,22 @@
             },
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3194,
+                    "gender": "f",
+                    "id": 4239,
+                    "name": "Herzog Eva",
+                    "officialDenomination": "Herzog Eva"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5117"
             }
@@ -231,6 +267,11 @@
           "date": "/Date(1647298800000+0100)/",
           "id": 28,
           "name": "Vorprüfung - Behandelt vom Nationalrat"
+        },
+        {
+          "date": "/Date(1670972400000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -238,6 +279,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-12-14T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5117"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -871,9 +917,9 @@
   ],
   "shortId": "19.405",
   "state": {
-    "id": 28,
-    "name": "Vorprüfung - Behandelt vom Nationalrat",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 0
   },
   "texts": [
