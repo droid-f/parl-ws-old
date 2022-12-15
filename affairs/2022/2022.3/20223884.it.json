@@ -1,6 +1,6 @@
 {
   "id": 20223884,
-  "updated": "2022-08-18T08:55:23Z",
+  "updated": "2022-12-15T07:12:07Z",
   "additionalIndexing": "15;66;34;48;08",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-12-14T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-02T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
@@ -73,8 +90,29 @@
           "registrations": [
             {
               "correspondents": [
-
-              ]
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3170,
+                    "gender": "f",
+                    "id": 4278,
+                    "name": "Michaud Gigon Sophie",
+                    "officialDenomination": "Michaud Gigon"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo G",
+                    "id": 6,
+                    "name": "Gruppo dei Verdi"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5117"
             }
           ]
         },
@@ -116,6 +154,11 @@
           "date": "/Date(1660514400000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1670972400000+0100)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -158,10 +201,11 @@
   ],
   "shortId": "22.3884",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -173,10 +217,17 @@
     },
     {
       "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>I prezzi dell'energia sono saliti notevolmente a livello internazionale provocando un aumento generalizzato dell'inflazione, che in Svizzera rimane però moderata rispetto ad altri Paesi. A settembre 2022, infatti, era del 3,3 per cento, ossia circa 6,7 punti percentuali al di sotto del valore registrato nella zona euro. Ciò è dovuto al fatto che le famiglie svizzere spendono meno per l'energia e che la nostra economia è efficiente dal punto di vista energetico.</p><p>Secondo le previsioni del 20 settembre 2022 del gruppo di esperti della Confederazione, il tasso di inflazione per l'intero 2022 è del 3,0 per cento. Nel 2023 dovrebbe tornare a una media annua del 2,3 per cento.</p><p>In generale, la BNS è la garante della stabilità dei prezzi e dispone di strumenti per contrastare un eventuale incremento dell'inflazione in Svizzera. Il Consiglio federale è consapevole delle sfide legate al rincaro dell'energia. Sulla base delle conclusioni del gruppo di lavoro interdipartimentale (DEFR, DFF, DATEC e DFI), per il momento non ritiene necessario adottare misure urgenti.</p>"
+    },
+    {
+      "type": {
         "id": 5,
         "name": "Testo depositato"
       },
-      "value": "<p>Il Consiglio federale è incaricato di introdurre una piattaforma (calcolatore in linea) secondo il modello austriaco, sulla quale possono essere consultati i prezzi dei carburanti delle stazioni di servizio in Svizzera. Una siffatta piattaforma si fonda sul principio economico della concorrenza, è efficace (contro gli aumenti dei prezzi) e non è costosa. La sua introduzione potrebbe pure essere coordinata con i lavori in corso del Sorvegliante dei prezzi sui margini conseguiti sul mercato dei carburanti.</p><p></p><p>Una minoranza della Commissione (Aeschi Thomas, Amaudruz, Dettling, Friedli Esther, Haab, Tuena) propone di respingere la mozione.</p>"
+      "value": "<p>Il Consiglio federale è incaricato di introdurre una piattaforma (calcolatore in linea) secondo il modello austriaco, sulla quale possono essere consultati i prezzi dei carburanti delle stazioni di servizio in Svizzera. Una siffatta piattaforma si fonda sul principio economico della concorrenza, è efficace (contro gli aumenti dei prezzi) e non è costosa. La sua introduzione potrebbe pure essere coordinata con i lavori in corso del Sorvegliante dei prezzi sui margini conseguiti sul mercato dei carburanti.</p><p> </p><p>Una minoranza della Commissione (Aeschi Thomas, Amaudruz, Dettling, Haab, Tuena) propone di respingere la mozione.</p>"
     },
     {
       "type": {

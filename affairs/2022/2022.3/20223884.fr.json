@@ -1,6 +1,6 @@
 {
   "id": 20223884,
-  "updated": "2022-08-18T08:55:23Z",
+  "updated": "2022-12-15T07:12:07Z",
   "additionalIndexing": "15;66;34;48;08",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-12-14T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-02T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
@@ -73,8 +90,29 @@
           "registrations": [
             {
               "correspondents": [
-
-              ]
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3170,
+                    "gender": "f",
+                    "id": 4278,
+                    "name": "Michaud Gigon Sophie",
+                    "officialDenomination": "Michaud Gigon"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe G",
+                    "id": 6,
+                    "name": "Groupe des VERT-E-S"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5117"
             }
           ]
         },
@@ -116,6 +154,11 @@
           "date": "/Date(1660514400000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1670972400000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -158,10 +201,11 @@
   ],
   "shortId": "22.3884",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -173,10 +217,17 @@
     },
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Les prix de l'énergie ont explosé à l'international, entraînant une hausse de l'inflation en Suisse. Celle-ci reste toutefois modérée par rapport à d'autres pays : elle s'inscrivait à 3,3 % en septembre 2022, soit environ 6,7 points de pourcentage de moins que dans la zone euro. Cela s'explique notamment par le fait que la part des dépenses des ménages consacrées à l'énergie est relativement faible et que les milieux économiques veillent à l'efficacité énergétique.</p><p>Le Groupe d'experts de la Confédération pour les prévisions conjoncturelles table dans ses dernières prévisions du 20 septembre sur une inflation annuelle moyenne de 3,0 % pour 2022, taux qui devrait refluer à 2,3 % en 2023.</p><p>Garantir la stabilité des prix dans notre pays incombe à la Banque nationale suisse (BNS), qui dispose d'instruments pour lutter contre une éventuelle nouvelle hausse de l'inflation en Suisse. Le Conseil fédéral est conscient des défis engendrés par l'augmentation des prix de l'énergie. Sur la base des résultats du groupe de travail interdépartemental réunissant des représentants du DEFR, du DFF, du DETEC et du DFI, il n'estime toutefois pas nécessaire de prendre des mesures immédiates à l'heure actuelle.</p>"
+    },
+    {
+      "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Le Conseil fédéral est invité à mettre en place une plateforme (calculateur en ligne) répertoriant les prix du carburant dans les stations-service en Suisse, sur le modèle développé par l'Autriche. Ce levier est basé sur le principe économique de la concurrence, il est efficace (contre la hausse des prix) et pas cher. Ceci pourra être coordonné avec les travaux en cours sur les marges du secteur pétrolier par le Surveillant des prix.</p><p> </p><p>Une minorité de la commission (Aeschi Thomas, Amaudruz, Dettling, Friedli Esther, Haab, Tuena) propose de rejeter la motion.</p>"
+      "value": "<p>Le Conseil fédéral est invité à mettre en place une plateforme (calculateur en ligne) répertoriant les prix du carburant dans les stations-service en Suisse, sur le modèle développé par l'Autriche. Ce levier est basé sur le principe économique de la concurrence, il est efficace (contre la hausse des prix) et pas cher. Ceci pourra être coordonné avec les travaux en cours sur les marges du secteur pétrolier par le Surveillant des prix.</p><p> </p><p>Une minorité de la commission (Aeschi Thomas, Amaudruz, Dettling, Haab, Tuena) propose de rejeter la motion.</p>"
     },
     {
       "type": {
