@@ -1,6 +1,6 @@
 {
   "id": 20224179,
-  "updated": "2022-10-04T09:53:36Z",
+  "updated": "2022-12-16T09:53:42Z",
   "additionalIndexing": "55;15;52",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,26 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-12-16T00:00:00Z",
+            "text": "Liquidato",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "tw",
+        "date": "2022-11-23T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +72,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Dipartimento dell'economia, della formazione e della ricerca",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1664402400000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1671145200000+0100)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -70,6 +96,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-12-16T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5117"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -132,19 +163,40 @@
   ],
   "shortId": "22.4179",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Le crisi agricole, la volatilità dei prezzi su scala mondiale, l'inflazione e le aspettative dal punto di vista climatico (costi per la transizione energetica) e ambientale (riorientamento dei metodi di produzione) rendono ancora più importanti le questioni legate al mercato. Le informazioni lacunose sui costi, le differenti evoluzioni dei prezzi, così come le forti concentrazioni di alcuni attori all'interno della catena del valore comportano una mancanza di trasparenza che limita l'efficacia delle politiche pubbliche in materia di sostenibilità.</p><p>Le differenze di valore in ogni fase del circuito agroalimentare devono poter essere misurate e spiegate (costi della produzione agricola, costi di trasformazione, costi di distribuzione) adottando un approccio settoriale completato da un'analisi macroeconomica della ripartizione della spesa alimentare tra le categorie.</p><p>L'osservatorio dei prezzi dovrebbe consentire di acquisire maggiori conoscenze sui mercati onde migliorarne il funzionamento, tenendo conto degli interessi di tutti gli operatori della filiera (dal produttore al consumatore). Dovrebbe inoltre agevolare relazioni equilibrate tra i vari attori delle filiere e soprattutto permettere di ripartire in modo equo il valore aggiunto lungo la catena del valore.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>1. Il Consiglio federale è consapevole dell'importanza di un'elevata trasparenza nel mercato agricolo svizzero e lungo l'intera catena del valore della filiera alimentare. Già oggi, in virtù dell'articolo 27 della legge sull'agricoltura (LAgr; RS 901.1) e dell'ordinanza concernente il monitoraggio del mercato nel settore agricolo (RS 942.31), i prezzi delle merci influenzati da provvedimenti di politica agricola della Confederazione sono sottoposti a un monitoraggio del mercato a diversi livelli, dalla produzione al consumo. Le informazioni e i dati in questione sono già di dominio pubblico. Già oggi, a partire dai vari dati possono essere effettuate stime sulla ripartizione del valore aggiunto lungo le catene del valore. Tuttavia tale stima non rientra tra i compiti della Confederazione, bensì può essere effettuata da chiunque.</p><p>2./3. L'Ufficio federale dell'agricoltura (UFAG) affina continuamente il suo monitoraggio. I dati sul mercato per i comparti frutta e verdura, latticini, carne, uova, pane e cereali, semi oleosi nonché alimenti per animali sono messi costantemente a disposizione della collettività. Contengono, tra le altre cose, prezzi medi ponderati a diversi livelli commerciali nonché le evoluzioni dei quantitativi. In tal modo si crea una panoramica sulla situazione di mercato da una prospettiva neutrale, consentendo ai vari attori del mercato, dai produttori ai consumatori, di informarsi sull'andamento del mercato, nonché sull'evoluzione e sulla formazione dei prezzi. Con le infografiche relative al mercato dei suini e delle uova vengono presentate informazioni approfondite sulle caratteristiche del mercato lungo l'intera catena del valore onde incrementare la trasparenza in questi mercati. Sono previste ulteriori infografiche su altri mercati. I dati sui prezzi messi a disposizione del pubblico consentono già oggi di migliorare le conoscenze sulla formazione del prezzo nelle categorie specifiche.</p><p>Dati specifici di singole imprese, come ad esempio i margini, rientrano tra le informazioni confidenziali di un'azienda. Sulla scorta della base legale attuale, le imprese non possono essere obbligate a pubblicare informazioni relative ai margini. La base legale esclude una pubblicazione di tali dati specifici delle aziende. Il Consiglio federale si attiene a questa prassi. La pubblicazione di dati di questo tipo comporta il rischio di un effetto limitante della concorrenza e può agevolare accordi in materia di concorrenza illeciti ai sensi della legge sui cartelli.</p><p>Il Consiglio federale ritiene sufficienti sia le basi legali sia le risorse e le competenze a disposizione per ottenere, elaborare e mettere a disposizione della collettività le necessarie informazioni sui prezzi lungo le catene del valore della filiera alimentare.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Per illustrare la creazione e la ripartizione del valore aggiunto lungo le catene di produzione, di trasformazione e di distribuzione dei prodotti alimentari, invito il Consiglio federale a rispondere alle seguenti domande.</p><p>In che modo l'osservatorio dei prezzi, attualmente subordinato all'UFAG, può accrescere la trasparenza lungo la catena del valore riguardo alla ripartizione del valore aggiunto conseguito?</p><p>Le prerogative e le risorse di questo osservatorio sono sufficienti a produrre informazioni, condivise da tutte le parti interessate, che consentano di migliorare le conoscenze sulla formazione dei prezzi all'interno delle filiere?</p><p>Se non è il caso, di quali informazioni dovrebbe disporre l'osservatorio e come potrebbe ottenerle?</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Osservatorio nazionale dei prezzi nella produzione alimentare. Maggiore trasparenza sulla ripartizione del valore aggiunto"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Osservatorio nazionale dei prezzi nella produzione alimentare. Maggiore trasparenza sulla ripartizione del valore aggiunto"
 }

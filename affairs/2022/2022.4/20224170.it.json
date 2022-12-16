@@ -1,6 +1,6 @@
 {
   "id": 20224170,
-  "updated": "2022-10-04T09:55:25Z",
+  "updated": "2022-12-16T09:51:10Z",
   "additionalIndexing": "2841;04;34",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,26 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-12-16T00:00:00Z",
+            "text": "Liquidato",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "b",
+        "date": "2022-11-16T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +72,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Dipartimento dell'interno",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1664402400000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1671145200000+0100)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -70,6 +96,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2022-12-16T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5117"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -102,19 +133,40 @@
   ],
   "shortId": "22.4170",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Come documentano numerosi interventi parlamentari, la pandemia di coronavirus ci ha dimostrato che nel nostro settore sanitario la digitalizzazione è ancora ai primi passi. Il Consiglio federale vuole ora per lo meno procedere con la cartella informatizzata del paziente.</p><p>Ulteriori progetti di digitalizzazione, per esempio lo scambio di dati tra i fornitori di prestazioni e le autorità, sono ai blocchi di partenza. In questo senso, il Parlamento ha accolto un intervento che intende promuovere la trasformazione digitale nel settore sanitario. Come dichiarato nel suo comunicato stampa del 20 settembre, l'UFSP ha pertanto istituito un gruppo di esperti incaricato di occuparsi del tema dello scambio di dati e dell'interazione tra gli attori del settore sanitario. L'obiettivo principale è quello di standardizzare i dati sul piano materiale, strutturale e tecnico per poterne garantire innanzitutto lo scambio digitale.</p><p>Un campo di attività potrebbe essere la trattazione completamente e capillarmente digitale delle garanzie di assunzione dei costi. Il loro numero è infatti molto elevato, la loro gestione amministrativa in parte molto onerosa e il tasso di errore considerevole. Nell'ambito dei processi digitali standardizzati per le garanzie di assunzione dei costi vi sono promettenti progetti pilota nel settore stazionario. Le garanzie di assunzione dei costi sono uno strumento importante, utilizzato molto di frequente per accertare il soggetto che sostiene le spese, la cui preparazione e gestione comportano ancora oggi una notevole mole burocratica.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>1. Il gruppo di esperti Gestione dei dati è composto da rappresentanti di Confederazione, Cantoni, organizzazioni e gruppi d'interesse del sistema sanitario, nonché da specialisti del settore, e dovrà sviluppare una concezione dell'architettura informatica comune a tutte le parti interessate, concordare standard comuni e provvedere alla loro elaborazione, nonché riprendere standard internazionali. Gli standard dovranno essere approvati con largo consenso dagli attori e, previa consultazione, adottati come raccomandazioni nazionali. In questo modo, il gruppo di esperti darà un contributo essenziale alla trasformazione digitale necessaria nel sistema sanitario. Il gruppo si è riunito per la prima volta nel settembre 2022 e la prossima riunione si terrà alla fine di novembre 2022.</p><p>2. Il Consiglio federale riconosce il potenziale di miglioramento dell'efficienza. Per questo, tramite il progetto sull'assistenza sanitaria stazionaria SpiGes (Spitalstationäre Gesundheitsversorgung ), progetto pilota del programma Gestione dei dati a livello nazionale (NaDB), si sta elaborando un sistema che mira a ottimizzare la gestione dei dati per il settore dell'assistenza sanitaria stazionaria in base al principio once-only per l'utilizzo multiplo. Il progetto favorirà, tra le altre cose, la trasmissione efficiente e trasparente dei dati degli ospedali alle autorità cantonali e federali, nonché agli organi dell'assicurazione malattie, promuovendo in questo modo anche l'interoperabilità semantica e tecnica dei dati degli ospedali per un loro utilizzo multiplo.</p><p>3./4. La garanzia di assunzione dei costi, invece, è uno strumento che permette agli assicuratori di valutare le condizioni che danno diritto alle prestazioni. Appositi processi e standard sono definiti congiuntamente dai fornitori di prestazioni e dagli assicuratori-malattie, per esempio nell'ambito del forum Datenaustausch o tramite lo standard di comunicazione aperto SHIP (Swiss Health Information Processing). Si tratta di una procedura collaudata, dal momento che permette di trovare soluzioni differenziate e adeguate alle diverse situazioni, nonché al passo con i più recenti sviluppi tecnologici. Il Consiglio federale è persuaso che gli organi e i processi attuali costituiscano una buona base per migliorare costantemente l'efficienza del sistema.</p><p>Per quanto riguarda l'attenzione dedicata al trattamento delle richieste degli assicurati, l'UFSP garantisce inoltre, nell'ambito degli audit periodici presso gli assicuratori-malattie, che i processi siano attuati entro termini ragionevoli.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Invito il Consiglio federale a rispondere alle seguenti domande:</p><p>1. Quali sono il mandato concreto, gli obiettivi e la tabella di marcia del gruppo di esperti Gestione dei dati?</p><p>2. Processi standard unitari sono importanti affinché i dati possano essere scambiati e i dati raccolti utilizzati più volte e facilmente assegnati al giusto destinatario. Ciò permette non solo di ridurre i costi, ma anche di garantire alla popolazione svizzera un'assistenza sanitaria più efficiente e qualitativamente migliore. Il Consiglio federale condivide l'opinione che vi sia un grande potenziale di miglioramento dell'efficienza nello scambio di dati tra i fornitori di prestazioni e i soggetti che sostengono le spese, in particolare nel settore stazionario?</p><p>3. Il Consiglio federale e l'UFSP sono disposti a contribuire ad armonizzare, standardizzare e automatizzare i processi per la garanzia di assunzione dei costi?</p><p>4. Come giudica l'UFSP i potenziali di miglioramento dell'efficienza per la garanzia di assunzione dei costi?</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Semplificazione dei processi per la garanzia di assunzione dei costi"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Semplificazione dei processi per la garanzia di assunzione dei costi"
 }
