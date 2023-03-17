@@ -1,6 +1,6 @@
 {
   "id": 20224495,
-  "updated": "2022-12-22T11:07:39Z",
+  "updated": "2023-03-16T12:11:55Z",
   "additionalIndexing": "09;66;52;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-03-16T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-15T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
@@ -68,6 +85,11 @@
           "date": "/Date(1671145200000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1678921200000+0100)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -75,6 +97,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-03-16T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5118"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -217,10 +244,10 @@
   ],
   "shortId": "22.4495",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
     {
@@ -229,6 +256,13 @@
         "name": "Motivazione"
       },
       "value": "<p>Per la sicurezza della Svizzera sono determinanti un approvvigionamento energetico autonomo e una base tecnologica e industriale rilevante in materia di sicurezza (STIB). Come afferma il Consiglio federale nella sua risposta all'interpellanza 20.4723, l'esercito si sta adoperando per aumentare la quota di energie rinnovabili. Sebbene l'importazione di energie rinnovabili possa dare un certo contributo alla diversificazione delle dipendenze dalle importazioni, in questo modo tale dipendenza continua comunque a perdurare. Per questa ragione è fondamentale procedere a una produzione industriale di metanolo in Svizzera.</p><p>Nel caso di una crisi o di una guerra in Europa, l'importazione di petrolio e di gas naturale non sarebbe più possibile o lo sarebbe solo in misura limitata. Il metanolo può essere immagazzinato facilmente e prodotto a partire da CO2 e idrogeno, che può essere ottenuto tramite elettrolisi con energia elettrica rinnovabile. Poiché l'approvvigionamento di carburante è determinante, in particolare anche per l'esercito, è logico che proprio l'esercito garantisca la costruzione di un impianto di questo tipo. In tal modo viene anche ridotta la dipendenza geopolitica. </p><p>Allo stesso tempo un impianto di questo tipo contribuisce a sviluppare un prezioso know-how per la produzione di metanolo, che sarà importante anche per la protezione del clima.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale condivide l'opinione che un approvvigionamento energetico il più possibile autonomo dell'Esercito svizzero sia determinante per la sicurezza della Svizzera. Come già sottolineato nella sua risposta all'interpellanza 20.4723 Andrey \"Autonomia energetica dell'esercito\", l'esercito è consapevole della dipendenza dai carburanti di tipo tradizionale e perciò segue già diverse piste per ridurla. L'efficienza energetica e il grado di autoapprovvigionamento, ad esempio, devono essere aumentati. Ridurre e sostituire le energie fossili è uno degli indirizzi del Piano d'azione energia e clima DDPS il quale integra le prescrizioni del Pacchetto clima per l'Amministrazione federale.</p><p>Le energie rinnovabili offrono diverse possibilità per aumentare l'autonomia energetica futura della Svizzera. La produzione di metanolo rinnovabile è una delle tante opzioni. Come spiega il Consiglio federale nella sua risposta all'interpellanza 22.3024 Egger Mike \"Potenziale del metanolo rinnovabile come vettore energetico alternativo\", il potenziale d'impiego del metanolo quale carburante deve essere analizzato in modo più approfondito. Dal punto di vista del Consiglio federale, non è necessario intervenire per incentivare in modo specifico la produzione di metanolo in Svizzera. Le condizioni quadro devono essere il più possibile neutrali sotto il profilo tecnologico, in modo che prevalgano le soluzioni più efficienti e vantaggiose.</p><p>La Confederazione promuove la ricerca e lo sviluppo nel settore della produzione sostenibile di carburanti liquidi, ad esempio nel quadro del programma di ricerca energetica SWEET (\"Swiss Energy research for the Energy Transition\") sotto la responsabilità dell'Ufficio federale dell'energia (UFE). Il relativo programma di promozione \"Sustainable Fuels\" è condotto in collaborazione con il DDPS e l'Ufficio federale dell'aviazione civile (UFAC) e sottolinea la necessità di trovare approcci di soluzione che siano utili sia alle esigenze civili sia a quelle militari. Inoltre il DDPS promuove progetti pilota per la produzione sostenibile di carburanti, ad esempio la costruzione di dimostratori tecnologici per la propulsione a idrogeno. Obiettivo dell'impianto è analizzare le possibilità d'impiego di idrogeno prodotto in modo sostenibile tenendo conto delle condizioni quadro militari.</p><p>Il Consiglio federale vuole inoltre sostenere sotto il profilo finanziario la promozione di carburanti rinnovabili per aeromobili e con il suo messaggio concernente la revisione della legge sul CO2 chiede i mezzi appropriati.</p>"
     },
     {
       "type": {
@@ -242,8 +276,8 @@
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Consentire la costruzione di un impianto di produzione di metanolo in Svizzera per rafforzare l’approvvigionamento di carburante in caso di crisi"
+      "value": "Consentire la costruzione di un impianto di produzione di metanolo in Svizzera per rafforzare l'approvvigionamento di carburante in caso di crisi"
     }
   ],
-  "title": "Consentire la costruzione di un impianto di produzione di metanolo in Svizzera per rafforzare l’approvvigionamento di carburante in caso di crisi"
+  "title": "Consentire la costruzione di un impianto di produzione di metanolo in Svizzera per rafforzare l'approvvigionamento di carburante in caso di crisi"
 }

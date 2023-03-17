@@ -1,6 +1,6 @@
 {
   "id": 20224268,
-  "updated": "2022-11-01T09:57:19Z",
+  "updated": "2023-03-02T12:01:58Z",
   "additionalIndexing": "32",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-03-02T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-23T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
@@ -116,7 +133,7 @@
                   "language": "fr"
                 }
               ],
-              "sessionId": "5117"
+              "sessionId": "5118"
             }
           ]
         },
@@ -138,7 +155,12 @@
           },
           "date": "2022-10-28T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ],
+              "sessionId": "5120"
+            }
           ]
         }
       ],
@@ -146,13 +168,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Dipartimento dell'economia, della formazione e della ricerca",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1666908000000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1677711600000+0100)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -195,10 +227,11 @@
   ],
   "shortId": "22.4268",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -207,6 +240,13 @@
         "name": "Motivazione"
       },
       "value": "<p>Secondo l'articolo 24 capoverso 1 LPSU, per l'ammissione al primo livello di studio, le alte scuole pedagogiche richiedono oggi di norma una maturità liceale. Il capoverso 2 dello stesso articolo precisa tuttavia che i titolari di una maturità specializzata in pedagogia possono accedere senza esame al primo livello di studio per la formazione degli insegnanti per i livelli prescolastico ed elementare. I titolari di una maturità professionale sono ammessi invece solo \"a determinate condizioni\", stabilite dal Consiglio delle scuole universitarie. Attualmente la maturità professionale non consente pertanto di accedere senza esame neanche alla formazione di insegnante di scuola elementare presso un'alta scuola pedagogica. I candidati devono superare un esame d'ammissione. Per la preparazione a questo esame sono stati istituiti dei corsi preparatori che vengono in parte definiti \"facoltativi\", ma che in realtà non lo sono. Questo ulteriore ostacolo per i titolari di una maturità professionale che vogliono accedere a un'alta scuola pedagogica non è quindi più giustificato, perlomeno per la formazione di insegnante di scuola elementare. </p><p>Gli argomenti a favore di questa soluzione sono molteplici e sono esposti qui di seguito. </p><p>1. L'obiettivo della maturità professionale è quello di offrire prospettive attrattive agli apprendisti e ai giovani professionisti, rafforzando così il sistema della formazione professionale. Per favorire questo obiettivo occorre evitare che siano poste condizioni inutili e supplementari per poter accedere a scuole superiori. </p><p>2. Non è giusto che i titolari di una maturità professionale debbano seguire lo stesso corso di preparazione e sostenere lo stesso esame di ammissione dei candidati senza maturità professionale. Ciò non tiene conto del fatto che i primi vantano ampie conoscenze generali acquisite con la maturità professionale.</p><p>3. La materia del corso preparatorio è praticamente la stessa offerta dalle scuole professionali di maturità. Questa ridondanza è inutile.</p><p>4. Obbligando i titolari di un diploma di maturità professionale a sostenere un esame d'ammissione non si dà il giusto valore all'ulteriore esperienza acquisita in un'altra professione. Proprio in tempi di penuria di insegnanti, queste persone sono assolutamente necessarie al sistema formativo.</p><p>5. Conseguire un diploma di maturità professionale durante o dopo un apprendistato richiede un investimento di tempo supplementare da parte degli apprendisti. Il fatto che questi ultimi debbano seguire un corso di preparazione e sostenere l'esame di ammissione costituisce un'inutile perdita di tempo.</p><p>6. Da anni mancano gli insegnanti. Ora tutti si lamentano della grave penuria per il nuovo anno scolastico. Si vorrebbero assumere studenti e pensionati. Si ventilano programmi di riqualificazione per gli insegnanti. Si è quasi giunti al punto di reclutare insegnanti anche per strada. Visto che già da diversi anni si sta ormai delineando questa penuria di insegnanti, non si capisce perché persone molto preparate con un diploma di maturità professionale debbano affrontare ostacoli del tutto inutili per accedere alle alte scuole pedagogiche.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale concorda con la Commissione sul fatto che nel sistema formativo svizzero la promozione della permeabilità svolga un ruolo molto importante.</p><p>La presente mozione riguarda un aspetto che si colloca a metà tra due ambiti formativi con diverse competenze: la maturità professionale (MP), infatti, compete principalmente alla Confederazione mentre la formazione degli insegnanti di scuola elementare nelle alte scuole pedagogiche (ASP) è di competenza dei Cantoni e della Conferenza svizzera dei direttori cantonali della pubblica educazione (CDPE). Nel sistema formativo svizzero, di stampo federalista, l'autorità responsabile di un determinato livello formativo disciplina anche i requisiti di tale livello. Le modifiche che riguardano gli aspetti in comune tra due ambiti formativi differenti si ripercuotono su entrambi, per questo devono essere valutate congiuntamente.</p><p>Come il Consiglio federale ha già affermato nel parere relativo all'omonima mozione <a  href=\"https://www.parlament.ch/it/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20204593\">20.4593</a> Stadler, a seconda dell'indirizzo frequentato, rispetto a chi ha ottenuto una maturità specializzata (MS) in pedagogia i titolari di una MP non hanno le competenze di cultura generale necessarie per gli studi presso una ASP in materie quali lingue, geografia, arti visive, educazione tecnica, musica, attività fisiche e sportive, pedagogia, etica, filosofia, psicologia, sociologia e scienze naturali. L'esame complementare che attesta l'equivalenza con la MS nel campo professionale della pedagogia garantisce che i titolari di una MP abbiano il bagaglio di cultura generale necessario per accedere ai corsi ASP per insegnanti elementari.</p><p>Tuttavia, contrariamente a quanto affermato nella mozione, questi studenti non devono seguire lo stesso corso di preparazione e sostenere lo stesso esame di ammissione dei candidati senza maturità professionale. Inoltre, i contenuti dei corsi di preparazione (facoltativi nella maggior parte dei Cantoni) non sono gli stessi di quelli offerti dalle scuole professionali di maturità. In secondo luogo gli esami organizzati dalle diverse ASP tengono conto delle competenze già acquisite dai titolari di una MP i quali, in base alla formazione pregressa, possono ottenere l'esonero per alcune materie. Pertanto queste persone godono di condizioni diverse e agevolate rispetto a coloro che non hanno conseguito la MP.</p><p>Per i motivi summenzionati, il Consiglio federale respinge la presente mozione ma è favorevole a esaminare insieme alla CDPE le questioni sollevate e raccomanda pertanto di accogliere il postulato 22.4267.</p>"
     },
     {
       "type": {

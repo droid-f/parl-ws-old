@@ -1,6 +1,6 @@
 {
   "id": 20224273,
-  "updated": "2022-11-17T08:57:20Z",
+  "updated": "2023-03-01T08:35:56Z",
   "additionalIndexing": "24;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-02-28T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-02-15T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -71,7 +88,32 @@
           },
           "date": "2022-11-15T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3183,
+                    "gender": "f",
+                    "id": 4306,
+                    "name": "Gapany Johanna",
+                    "officialDenomination": "Gapany"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo RL",
+                    "id": 1,
+                    "name": "Gruppo liberale radicale"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5118"
+            }
           ]
         },
         {
@@ -100,13 +142,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Dipartimento delle Finanze",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1668466800000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1677538800000+0100)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -149,10 +201,11 @@
   ],
   "shortId": "22.4273",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -161,6 +214,13 @@
         "name": "Motivazione"
       },
       "value": "<p>Il freno all'indebitamento è ancora rispettato nel 2023, poiché nel bilancio ordinario permette un deficit di finanziamento congiunturale più ampio. </p><p>Alla luce della situazione attuale però il freno all'indebitamento non sarà più rispettato negli anni di piano finanziario 2024-2026. Le cause di questo squilibrio strutturale sono il forte aumento delle uscite, in particolare a favore dell'esercito, le misure transitorie per la mancata associazione a Orizzonte Europa nonché il controprogetto indiretto all'Iniziativa per i ghiacciai e quello all'Iniziativa per premi meno onerosi. La necessità di correzione degli importi aumenta rapidamente e va oltre i tre miliardi di franchi. </p><p>Il Consiglio federale e il Parlamento sono tenuti a rispettare il freno all'indebitamento. Il Consiglio federale deve verificare tutti i compiti, vincolati e non vincolati per individuare il potenziale di risparmio. </p><p>In particolare dovrà effettuare una verifica approfondita dei compiti dell'Amministrazione federale nell'ottica di determinare se la Confederazione fornisce le giuste prestazioni, se l'adempimento dei compiti e la fornitura delle prestazioni sono ottimali oppure se sarebbe opportuno ridurre delle prestazioni o altre forme di fornitura di prestazioni. Al contempo deve essere verificato anche l'impiego del personale e le relative spese. </p><p>Con queste verifiche si intende garantire che anche in futuro siano forniti i giusti compiti e che anche in futuro si possa rispettare il freno all'indebitamento senza che il Parlamento debba intervenire in modo precipitoso durante la procedura di esame del preventivo.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Entro la primavera del 2023 il Consiglio federale definisce il suo piano di correzione per il preventivo 2024 e per gli anni del piano finanziario. Per eliminare i deficit strutturali è indispensabile effettuare una verifica dei compiti e delle prestazioni dello Stato, come pure fissare delle priorità. Pertanto, i lavori del Consiglio federale sono in linea con il tenore della mozione. In tal senso, l'Esecutivo è pronto ad accogliere la mozione.</p><p>Il Consiglio federale si aspetta altresì che il Parlamento lo sostenga nell'ambito dei suoi lavori volti ad allestire un piano finanziario conforme alle disposizioni del freno all'indebitamento e che mostri prudenza nelle decisioni in materia di spese. A breve termine i deficit potranno essere eliminati soltanto intervenendo sul fronte delle uscite, ossia tramite la rinuncia a nuovi progetti o il loro differimento oppure riducendo le uscite esistenti. Per questo motivo, laddove possibile occorre anche evitare la creazione o l'estensione dei compiti della Confederazione o adottare misure per consentirne il finanziamento.</p>"
     },
     {
       "type": {

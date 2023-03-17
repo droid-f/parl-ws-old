@@ -1,6 +1,6 @@
 {
   "id": 20222027,
-  "updated": "2022-10-18T13:00:42Z",
+  "updated": "2023-03-13T10:25:23Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-03-09T00:00:00Z",
+            "text": "Von der Petition wird im Rahmen der Behandlung des Geschäfts 20.022, Kenntnis genommen (vgl. Art. 126 Abs. 2 ParlG).",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,7 +64,11 @@
           },
           "date": "2022-10-14T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
           ]
         },
         {
@@ -71,7 +89,11 @@
           },
           "date": "2022-10-14T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
           ]
         }
       ],
@@ -79,13 +101,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "Parl",
+          "id": 1,
+          "name": "Parlament",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1665698400000+0200)/",
           "id": 9,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1678316400000+0100)/",
+          "id": 2,
+          "name": "Behandelt vom Nationalrat"
         }
       ],
       "texts": [
@@ -95,7 +127,11 @@
   ],
   "language": "de",
   "relatedAffairs": [
-
+    {
+      "id": 20200022,
+      "priorityCode": "S",
+      "shortId": "20.022"
+    }
   ],
   "roles": [
     {
@@ -105,10 +141,10 @@
   ],
   "shortId": "22.2027",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
+    "id": 2,
+    "name": "Behandelt vom Nationalrat",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

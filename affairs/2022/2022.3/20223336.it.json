@@ -1,6 +1,6 @@
 {
   "id": 20223336,
-  "updated": "2022-03-22T10:54:14Z",
+  "updated": "2023-03-08T12:49:29Z",
   "additionalIndexing": "66;08;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,42 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Opposizione"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-06-17T00:00:00Z",
+            "text": "Controverso. Discussione rinviata",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-03-08T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -56,13 +88,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647558000000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1678230000000+0100)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -246,6 +288,16 @@
     },
     {
       "councillor": {
+        "code": 2715,
+        "gender": "m",
+        "id": 3912,
+        "name": "Wasserfallen Christian",
+        "officialDenomination": "Wasserfallen Christian"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
         "code": 3144,
         "gender": "f",
         "id": 4252,
@@ -262,19 +314,34 @@
   ],
   "shortId": "22.3336",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Le imprese dispongono ancora di un notevole potenziale di efficienza energetica, sia a livello di energia di processo e di esercizio che di energia per il riscaldamento (elettricità e/o calore). Tale potenziale viene sfruttato solo in parte dall'attuale programma volontario di SvizzeraEnergia. Attualmente molte imprese svizzere non dispongono di cifre affidabili per quanto concerne il loro potenziale di efficienza energetica. Alcuni esempi mostrano che, evitando sistematicamente un esercizio a vuoto, è possibile ridurre notevolmente il consumo senza perdite di confort. Il rapporto del DATEC dell'8 febbraio 2022 \"Potenzial und Massnahmen zur Steigerung der Stromeffizienz bis 2022\" (Potenziale e misure per aumentare l'efficienza elettrica fino al 2022, non disponibile in italiano) mostra che, grazie a ulteriori misure di efficienza elettrica da parte della Confederazione fino al 2025, è possibile risparmiare elettricità pari a circa 200 GWh, con aumento successivo negli anni. Le stesse misure consentono un risparmio di 700 GWh nel 2030 e di 7,7 TWh per tutta la loro durata. Nell'analisi sono state esaminate solo le misure che chiedono pochi adeguamenti a livello legislativo o costituzionale.</p><p>Il programma di SvizzeraEnergia, esistente da molti anni, si basa su convenzioni sugli obiettivi e comprende elementi positivi dai quali possono derivare ulteriori sviluppi. Esso ha reso possibile una riduzione considerevole delle emissioni di CO2, come pure di diminuire il consumo di elettricità e quello dei combustibili fossili. Gli attori economici e la Confederazione apprezzano il programma e le modalità di attuazione semplici ed efficaci. </p><p>Poiché l'attuale percorso di riduzione del CO2 non è sufficiente per raggiungere il saldo netto delle emissioni pari a 0 entro il 2050 e considerato che l'approvvigionamento elettrico non è assicurato sul lungo periodo senza ulteriori misure, sono necessari altri sforzi a tutti i livelli. Obiettivi di efficienza più ambiziosi daranno un contributo essenziale. </p><p>È quindi opportuno in linea di principio proseguire i programmi consolidati, definendo tuttavia obiettivi più ambiziosi e adeguando i contenuti, al fine di accelerare i tempi e aumentare l'efficacia del percorso intrapreso. </p><p>In questo contesto la guerra in Ucraina mostra chiaramente che il problema di una dipendenza da combustibili fossili esteri potrebbe ripercuotersi sensibilmente sull'approvvigionamento energetico svizzero.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di adeguare l'attuale programma di SvizzeraEnergia in modo tale che venga sfruttata buona parte del potenziale di efficienza energetica individuato fino al 2050.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Maggiore indipendenza in campo energetico grazie a minori sprechi. Sfruttare il potenziale dell'efficienza"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Maggiore indipendenza in campo energetico grazie a minori sprechi. Sfruttare il potenziale dell'efficienza"
 }

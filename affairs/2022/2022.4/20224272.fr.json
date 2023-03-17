@@ -1,6 +1,6 @@
 {
   "id": 20224272,
-  "updated": "2022-11-17T08:57:09Z",
+  "updated": "2023-02-27T15:37:27Z",
   "additionalIndexing": "34;24;1216;1236",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-02-27T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-02-01T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -71,7 +88,53 @@
           },
           "date": "2022-11-14T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3114,
+                    "gender": "m",
+                    "id": 4213,
+                    "name": "Bendahan Samuel",
+                    "officialDenomination": "Bendahan"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe S",
+                    "id": 2,
+                    "name": "Groupe socialiste"
+                  },
+                  "language": "fr"
+                },
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3016,
+                    "gender": "f",
+                    "id": 4102,
+                    "name": "Bertschy Kathrin",
+                    "officialDenomination": "Bertschy"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe GL",
+                    "id": 137,
+                    "name": "Groupe vert'libéral"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5118"
+            }
           ]
         },
         {
@@ -112,6 +175,11 @@
           "date": "/Date(1668380400000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1677452400000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -154,12 +222,20 @@
   ],
   "shortId": "22.4272",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Suite à l'initiative parlementaire 10.450 \"Réprimer durement la vente de données bancaires\", l'art. 47 de la loi sur les banques ainsi que les dispositions analogues figurant dans d'autres lois sur les marchés financiers ont été modifiés le 1er juillet 2015 par la loi fédérale sur l'extension de la punissabilité en matière de violation du secret professionnel. Ces modifications visaient à étendre les éléments constitutifs de la violation du secret professionnel déterminés dans les lois précitées à toute personne qui, en violation du secret professionnel, révèle un secret qui lui a été confié ou exploite ce secret à son profit ou au profit d'un tiers.</p><p>Le 5 mai 2022, la Commission de l'économie et des redevances du Conseil national (CER-N) a consulté une experte en criminologie économique, un expert du droit des médias ainsi qu'un représentant de l'Association suisse des banquiers au sujet des \"Suisse Secrets\" et du problème de la liberté de la presse en ce qui concerne les questions relatives à la place financière. Cette rencontre a permis notamment de discuter les conséquences pour les journalistes des modifications législatives entrées en vigueur le 1er juillet 2015. La majorité des membres de la CER-N considérait alors qu'il n'était pas nécessaire de modifier la législation. Cependant, le 14 novembre 2022, une majorité de la Commission a décidé, lors des débats relatifs aux initiatives parlementaires 22.421 et 22.408, de charger le Conseil fédéral, via la présente motion, d'examiner comment la législation actuelle pourrait être modifiée afin de garantir la liberté de la presse en ce qui concerne les questions relatives à la place financière et, le cas échéant, de soumettre un projet de révision au Parlement. Les initiatives parlementaires précitées ont été retirées sur la base de cette décision.</p><p>Le Conseil fédéral reconnaît l'importance de la liberté des médias garantie par la Constitution. Il est disposé à procéder à l'examen demandé et, si les résultats sont concluants, à élaborer un projet de révision de la législation en vigueur.</p>"
+    },
     {
       "type": {
         "id": 5,

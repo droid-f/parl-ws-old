@@ -1,6 +1,6 @@
 {
   "id": 20213294,
-  "updated": "2021-06-14T19:55:02Z",
+  "updated": "2023-03-02T12:09:12Z",
   "additionalIndexing": "2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2021-06-14T00:00:00Z",
             "text": "Trasmissione per esame alla commissione competente",
             "type": 66
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-03-02T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
           }
         ]
       },
@@ -85,7 +100,32 @@
           },
           "date": "2021-03-18T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2647,
+                    "gender": "m",
+                    "id": 1267,
+                    "name": "Stöckli Hans",
+                    "officialDenomination": "Stöckli"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo S",
+                    "id": 2,
+                    "name": "Gruppo socialista"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5118"
+            }
           ]
         }
       ],
@@ -110,6 +150,11 @@
           "date": "/Date(1623621600000+0200)/",
           "id": 33,
           "name": "Assegnato alla Commissione per l’esame preliminare"
+        },
+        {
+          "date": "/Date(1677711600000+0100)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -149,9 +194,10 @@
   ],
   "shortId": "21.3294",
   "state": {
-    "id": 33,
-    "name": "Assegnato alla Commissione per l’esame preliminare",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [

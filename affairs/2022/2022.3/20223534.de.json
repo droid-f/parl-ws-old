@@ -1,6 +1,6 @@
 {
   "id": 20223534,
-  "updated": "2022-09-27T16:08:37Z",
+  "updated": "2023-03-09T13:19:57Z",
   "additionalIndexing": "08;44;15;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2022-09-27T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-03-09T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
           }
         ]
       },
@@ -68,7 +83,96 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "APK-NR",
+            "id": 4,
+            "name": "Aussenpolitische Kommission NR",
+            "abbreviation1": "APK-NR",
+            "abbreviation2": "APK",
+            "committeeNumber": 4,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-06-01T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2748,
+                    "gender": "f",
+                    "id": 4040,
+                    "name": "Schneider-Schneiter Elisabeth",
+                    "officialDenomination": "Schneider-Schneiter"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                },
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3100,
+                    "gender": "m",
+                    "id": 4194,
+                    "name": "Wehrli Laurent",
+                    "officialDenomination": "Wehrli"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5118"
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "APK-SR",
+            "id": 17,
+            "name": "Aussenpolitische Kommission SR",
+            "abbreviation1": "APK-SR",
+            "abbreviation2": "APK",
+            "committeeNumber": 17,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-06-01T00:00:00Z",
+          "registrations": [
 
+          ]
+        }
       ],
       "references": [
 
@@ -91,6 +195,11 @@
           "date": "/Date(1664229600000+0200)/",
           "id": 11,
           "name": "Motion an 2. Rat"
+        },
+        {
+          "date": "/Date(1678316400000+0100)/",
+          "id": 26,
+          "name": "Angenommen"
         }
       ],
       "texts": [
@@ -98,6 +207,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-03-09T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5118"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -181,9 +295,9 @@
   ],
   "shortId": "22.3534",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
-    "doneKey": "0",
+    "id": 26,
+    "name": "Angenommen",
+    "doneKey": "3",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },

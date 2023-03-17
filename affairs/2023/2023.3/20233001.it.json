@@ -1,6 +1,6 @@
 {
   "id": 20233001,
-  "updated": "2023-01-17T13:54:27Z",
+  "updated": "2023-03-01T12:19:38Z",
   "additionalIndexing": "09;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-03-01T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-02-22T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -137,6 +154,11 @@
           "date": "/Date(1673478000000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1677625200000+0100)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -179,12 +201,20 @@
   ],
   "shortId": "23.3001",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale condivide la richiesta della Commissione sulla politica di sicurezza del Consiglio degli Stati di migliorare l'effetto protettivo nel settore PIC e propone quindi di accogliere la mozione.</p><p>Nell'ambito della strategia nazionale PIC 2018-2022, l'UFPP ha verificato le basi legali per 27 sottosettori. È emerso che le basi vigenti variano molto da un sottosettore all'altro. Ciò è riconducibile soprattutto al fatto che la Confederazione non dispone di competenze normative generali, che si dovrebbero innanzitutto creare nel quadro di una revisione parziale della Costituzione federale. In questo contesto va precisato che non c'è spazio per una centralizzazione che, vista la necessità di contenere le finanze federali nei prossimi anni, comporterebbe probabilmente un ulteriore carico finanziario per la Confederazione. In alternativa si potrebbero adattare solo singole leggi nei settori in cui urge intervenire. Ciò sarebbe però possibile solo nei settori in cui la Confederazione ha potere normativo.</p>"
+    },
     {
       "type": {
         "id": 5,

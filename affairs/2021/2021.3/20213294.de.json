@@ -1,6 +1,6 @@
 {
   "id": 20213294,
-  "updated": "2021-06-14T19:55:02Z",
+  "updated": "2023-03-02T12:09:12Z",
   "additionalIndexing": "2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2021-06-14T00:00:00Z",
             "text": "Zuweisung an die zuständige Kommission zur Vorberatung",
             "type": 66
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-03-02T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
           }
         ]
       },
@@ -86,7 +101,33 @@
           },
           "date": "2021-03-18T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2647,
+                    "gender": "m",
+                    "id": 1267,
+                    "name": "Stöckli Hans",
+                    "officialDenomination": "Stöckli"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion S",
+                    "code": "S",
+                    "id": 2,
+                    "name": "Sozialdemokratische Fraktion"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5118"
+            }
           ]
         }
       ],
@@ -111,6 +152,11 @@
           "date": "/Date(1623621600000+0200)/",
           "id": 33,
           "name": "An die Kommission zur Vorberatung zugewiesen"
+        },
+        {
+          "date": "/Date(1677711600000+0100)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -151,9 +197,10 @@
   ],
   "shortId": "21.3294",
   "state": {
-    "id": 33,
-    "name": "An die Kommission zur Vorberatung zugewiesen",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [

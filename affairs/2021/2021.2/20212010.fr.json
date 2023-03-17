@@ -1,6 +1,6 @@
 {
   "id": 20212010,
-  "updated": "2022-03-24T15:37:03Z",
+  "updated": "2023-03-02T08:55:36Z",
   "affairType": {
     "abbreviation": "Pét.",
     "id": 10,
@@ -22,7 +22,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-03-01T00:00:00Z",
+            "text": "Il est pris acte de la pétition selon les discussions des objets 20.437 Améliorer la capacité d'action du Parlement en situation de crise et 20.438 Utilisation des compétences en matière de droit de nécessité et contrôle du droit de nécessité édicté par le Conseil fédéral en temps de crise (voir art. 126 al. 2 LParl)",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -78,9 +92,29 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2775,
+                    "gender": "m",
+                    "id": 4075,
+                    "name": "Caroni Andrea",
+                    "officialDenomination": "Caroni"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe RL",
+                    "id": 1,
+                    "name": "Groupe libéral-radical"
+                  },
+                  "language": "de"
+                }
               ],
-              "sessionId": "5115"
+              "sessionId": "5116"
             }
           ]
         }
@@ -101,6 +135,11 @@
           "date": "/Date(1619042400000+0200)/",
           "id": 9,
           "name": "Déposé"
+        },
+        {
+          "date": "/Date(1677625200000+0100)/",
+          "id": 3,
+          "name": "Traité par le Conseil des Etats"
         }
       ],
       "texts": [
@@ -110,7 +149,16 @@
   ],
   "language": "fr",
   "relatedAffairs": [
-
+    {
+      "id": 20200437,
+      "priorityCode": "N",
+      "shortId": "20.437"
+    },
+    {
+      "id": 20200438,
+      "priorityCode": "N",
+      "shortId": "20.438"
+    }
   ],
   "roles": [
     {
@@ -120,8 +168,8 @@
   ],
   "shortId": "21.2010",
   "state": {
-    "id": 9,
-    "name": "Déposé",
+    "id": 3,
+    "name": "Traité par le Conseil des Etats",
     "doneKey": "0",
     "newKey": 0
   },

@@ -1,6 +1,6 @@
 {
   "id": 20224260,
-  "updated": "2022-10-20T14:23:59Z",
+  "updated": "2023-03-09T12:53:38Z",
   "additionalIndexing": "08;0421;12",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-03-09T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-11-16T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -146,13 +163,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFAE",
+          "id": 3,
+          "name": "Département des affaires étrangères",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1666044000000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1678316400000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -195,10 +222,11 @@
   ],
   "shortId": "22.4260",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -207,6 +235,13 @@
         "name": "Développement"
       },
       "value": "<p>Afin d'analyser s'il est nécessaire de légiférer dans le domaine du droit souple (soft law), les Commissions de politique extérieure du Conseil national et du Conseil des Etats ont institué une sous-commission commune. Dans le cadre de ses travaux, cette sous-commission a demandé au Contrôle parlementaire de l'administration (CPA) d'évaluer la participation du Parlement dans le domaine du droit souple. Le CPA est parvenu à la conclusion que la pratique des unités admi-nistratives concernées est hétérogène et globalement peu systématique. En raison du manque de cohérence constaté dans l'application des procédures relatives au droit souple par l'administration, un groupe de travail interne a été mis en place afin de sensibiliser les différents départements à la problématique. En outre, un aide-mémoire sur le droit souple est en cours d'élaboration. Les Commissions de politique extérieure ont salué ces efforts.</p><p>Afin de garantir le respect total du droit à l'information et du droit à la consultation dont jouissent les commissions compétentes en matière de politique extérieure en vertu de l'art. 152 LParl, il convient d'intensifier les efforts visant à garantir l'uniformité et l'application systématique des processus de sélection concernant les évènements importants survenus dans le domaine de la politique extérieure et les orientations définies en la matière. Indépendamment du type de droit, le Conseil fédéral doit garantir l'uniformité et la mise en oeuvre systématique des procédures administratives s'agissant de l'information et de la consultation des commissions parlementaires compétentes en matière de politique extérieure. Ce devoir ne vaut donc pas uniquement pour le droit souple.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La participation du Parlement à la politique extérieure fait l'objet, depuis plusieurs années, d'une discussion soutenue entre le Parlement et le Conseil fédéral dans le domaine de la politique extérieure. En complément d'un aide-mémoire relatif au droit souple ayant pour objectif de renforcer la cohérence au sein de l'administration fédérale, le Conseil fédéral a décidé le 30 septembre 2022 d'introduire plusieurs mesures supplémentaires visant à renforcer l'exercice des droits de participation du Parlement dans le domaine de la politique extérieure. Ces mesures visent à clarifier la procédure applicable à la consultation et à améliorer l'information destinée au Parlement. Le Conseil fédéral est disposé à garantir, par le biais de directives, une application uniforme des procédures administratives existantes, qui incluent les mesures supplémentaires susmentionnées.</p>"
     },
     {
       "type": {
@@ -220,8 +255,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Information et consultation en matière de politique extérieure – procédures administratives uniformes systématiques"
+      "value": "Information et consultation en matière de politique extérieure. Procédures administratives uniformes systématiques"
     }
   ],
-  "title": "Information et consultation en matière de politique extérieure – procédures administratives uniformes systématiques"
+  "title": "Information et consultation en matière de politique extérieure. Procédures administratives uniformes systématiques"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20214142,
-  "updated": "2021-12-07T07:32:49Z",
+  "updated": "2023-03-15T14:34:38Z",
   "additionalIndexing": "2836;44;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2021-12-06T00:00:00Z",
             "text": "Zuweisung an die zuständige Kommission zur Vorberatung",
             "type": 66
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-03-15T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
           }
         ]
       },
@@ -68,7 +83,74 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "SGK-NR",
+            "id": 6,
+            "name": "Kommission für soziale Sicherheit und Gesundheit NR",
+            "abbreviation1": "SGK-NR",
+            "abbreviation2": "SGK",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-09-29T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-SR",
+            "id": 19,
+            "name": "Kommission für soziale Sicherheit und Gesundheit SR",
+            "abbreviation1": "SGK-SR",
+            "abbreviation2": "SGK",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-09-29T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3052,
+                    "gender": "m",
+                    "id": 4151,
+                    "name": "Dittli Josef",
+                    "officialDenomination": "Dittli"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5118"
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -91,6 +173,11 @@
           "date": "/Date(1638745200000+0100)/",
           "id": 33,
           "name": "An die Kommission zur Vorberatung zugewiesen"
+        },
+        {
+          "date": "/Date(1678834800000+0100)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -151,9 +238,10 @@
   ],
   "shortId": "21.4142",
   "state": {
-    "id": 33,
-    "name": "An die Kommission zur Vorberatung zugewiesen",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -183,8 +271,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Altersguthaben schützen bei einem Austritt aus einem 1e Plan"
+      "value": "Altersguthaben schützen bei einem Austritt aus einem 1e-Plan"
     }
   ],
-  "title": "Altersguthaben schützen bei einem Austritt aus einem 1e Plan"
+  "title": "Altersguthaben schützen bei einem Austritt aus einem 1e-Plan"
 }

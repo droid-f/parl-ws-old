@@ -1,6 +1,6 @@
 {
   "id": 20220432,
-  "updated": "2022-06-09T08:09:01Z",
+  "updated": "2023-03-07T12:51:55Z",
   "additionalIndexing": "2841;28;1216",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -40,7 +40,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-03-07T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,7 +64,94 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CAG-CN",
+            "id": 12,
+            "name": "Commissione degli affari giuridici CN",
+            "abbreviation1": "CAG-CN",
+            "abbreviation2": "CAG",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-06-02T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3131,
+                    "gender": "m",
+                    "id": 4230,
+                    "name": "Bregy Philipp Matthias",
+                    "officialDenomination": "Bregy"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo M-E",
+                    "id": 3,
+                    "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
+                  },
+                  "language": "de"
+                },
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2701,
+                    "gender": "m",
+                    "id": 3898,
+                    "name": "Nidegger Yves",
+                    "officialDenomination": "Nidegger"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo V",
+                    "id": 4,
+                    "name": "Gruppo dell'Unione democratica di Centro"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5118"
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAG-CS",
+            "id": 25,
+            "name": "Commissione degli affari giuridici CS",
+            "abbreviation1": "CAG-CS",
+            "abbreviation2": "CAG",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-06-02T00:00:00Z",
+          "registrations": [
 
+          ]
+        }
       ],
       "references": [
 
@@ -68,6 +169,11 @@
           "date": "/Date(1654120800000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1678143600000+0100)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -75,6 +181,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-03-07T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5118"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -327,10 +438,10 @@
   ],
   "shortId": "22.432",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
     {
@@ -345,15 +456,15 @@
         "id": 5,
         "name": "Testo depositato"
       },
-      "value": "<p>Gli articoli del Codice penale concernenti l'interruzione della gravidanza (Libro secondo, Titolo primo) sono abrogati. Il principio del regime dei termini è integrato in una legge specifica o in una legge relativa alla salute sessuale in senso lato o che rientra nell'ambito della salute pubblica. L'obiettivo di questa legge è, in particolare, quello di favorire l'autodeterminazione delle persone nell'ambito della loro salute e di eliminare gli ostacoli al suo esercizio. </p><p>L'infrazione prevista nell'articolo 118 capoverso 2 è mantenuta nel Codice penale. </p>"
+      "value": "<p>Gli articoli del Codice penale concernenti l'interruzione della gravidanza (libro secondo, titolo primo, titolo marginale 2) sono abrogati. Il principio del regime dei termini è integrato in una legge specifica o in una legge relativa alla salute sessuale in senso lato o che rientra nell'ambito della salute pubblica. L'obiettivo di questa legge è, in particolare, quello di favorire l'autodeterminazione delle persone nell'ambito della loro salute e di eliminare gli ostacoli al suo esercizio. </p><p>L'infrazione prevista nell'articolo 118 capoverso 2 è mantenuta nel Codice penale. </p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Affinché l’aborto sia considerato in primo luogo una questione concernente la salute e non una fattispecie penale"
+      "value": "Affinché l'aborto sia considerato in primo luogo una questione concernente la salute e non una fattispecie penale"
     }
   ],
-  "title": "Affinché l’aborto sia considerato in primo luogo una questione concernente la salute e non una fattispecie penale"
+  "title": "Affinché l'aborto sia considerato in primo luogo una questione concernente la salute e non una fattispecie penale"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20210083,
-  "updated": "2023-01-19T12:28:42Z",
+  "updated": "2023-03-06T18:23:18Z",
   "additionalIndexing": "1211;34",
   "affairType": {
     "abbreviation": "BRG",
@@ -113,6 +113,11 @@
           "date": "/Date(1671058800000+0100)/",
           "id": 3,
           "name": "Behandelt vom Ständerat"
+        },
+        {
+          "date": "/Date(1678057200000+0100)/",
+          "id": 4,
+          "name": "Von beiden Räten behandelt"
         }
       ],
       "texts": [
@@ -142,6 +147,21 @@
             "date": "2022-12-15T00:00:00Z",
             "text": "Beschluss abweichend vom Entwurf",
             "type": 52
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-03-06T00:00:00Z",
+            "text": "Abweichung",
+            "type": 37
           }
         ]
       },
@@ -172,7 +192,50 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3163,
+                    "gender": "m",
+                    "id": 4271,
+                    "name": "Kamerzin Sidney",
+                    "officialDenomination": "Kamerzin"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "fr"
+                },
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2765,
+                    "gender": "m",
+                    "id": 4059,
+                    "name": "Flach Beat",
+                    "officialDenomination": "Flach"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion GL",
+                    "code": "GL",
+                    "id": 137,
+                    "name": "Grünliberale Fraktion"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5118"
             }
@@ -267,6 +330,11 @@
           "date": "/Date(1671058800000+0100)/",
           "id": 3,
           "name": "Behandelt vom Ständerat"
+        },
+        {
+          "date": "/Date(1678057200000+0100)/",
+          "id": 4,
+          "name": "Von beiden Räten behandelt"
         }
       ],
       "texts": [
@@ -298,8 +366,8 @@
   ],
   "shortId": "21.083",
   "state": {
-    "id": 3,
-    "name": "Behandelt vom Ständerat",
+    "id": 4,
+    "name": "Von beiden Räten behandelt",
     "doneKey": "0",
     "newKey": 0
   },

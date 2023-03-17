@@ -1,6 +1,6 @@
 {
   "id": 20224322,
-  "updated": "2022-12-08T09:19:53Z",
+  "updated": "2023-03-17T08:38:18Z",
   "additionalIndexing": "55;66;2846;36",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,10 +41,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-03-17T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-02-15T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -57,13 +74,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1670281200000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1679007600000+0100)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -184,10 +211,11 @@
   ],
   "shortId": "22.4322",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -209,8 +237,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Beseitigung bürokratischer Hürden für die Entwicklung der Agri-Photovoltaik"
+      "value": "Beseitigung bürokratischer Hürden für die Entwicklung der Agri-Fotovoltaik"
     }
   ],
-  "title": "Beseitigung bürokratischer Hürden für die Entwicklung der Agri-Photovoltaik"
+  "title": "Beseitigung bürokratischer Hürden für die Entwicklung der Agri-Fotovoltaik"
 }

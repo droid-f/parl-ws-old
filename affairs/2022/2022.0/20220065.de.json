@@ -1,6 +1,6 @@
 {
   "id": 20220065,
-  "updated": "2023-01-26T16:26:35Z",
+  "updated": "2023-03-07T11:40:42Z",
   "additionalIndexing": "2831;09;28;1216;04;1236",
   "affairType": {
     "abbreviation": "BRG",
@@ -108,6 +108,11 @@
           "date": "/Date(1665525600000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1678143600000+0100)/",
+          "id": 3,
+          "name": "Behandelt vom Ständerat"
         }
       ],
       "texts": [
@@ -123,7 +128,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-03-07T00:00:00Z",
+            "text": "Eintreten",
+            "type": 68
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -175,7 +194,28 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3199,
+                    "gender": "m",
+                    "id": 4244,
+                    "name": "Zopfi Mathias",
+                    "officialDenomination": "Zopfi"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion G",
+                    "code": "G",
+                    "id": 6,
+                    "name": "Grüne Fraktion"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5118"
             }
@@ -217,6 +257,11 @@
           "date": "/Date(1665525600000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1678143600000+0100)/",
+          "id": 3,
+          "name": "Behandelt vom Ständerat"
         }
       ],
       "texts": [
@@ -248,8 +293,8 @@
   ],
   "shortId": "22.065",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 3,
+    "name": "Behandelt vom Ständerat",
     "doneKey": "0",
     "newKey": 0
   },

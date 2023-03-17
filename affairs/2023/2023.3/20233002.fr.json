@@ -1,6 +1,6 @@
 {
   "id": 20233002,
-  "updated": "2023-01-17T13:54:41Z",
+  "updated": "2023-03-01T08:36:28Z",
   "additionalIndexing": "1236;34;32;09;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-02-28T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-02-15T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -137,6 +154,11 @@
           "date": "/Date(1673478000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1677538800000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -179,12 +201,20 @@
   ],
   "shortId": "23.3002",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral accorde une grande importance au renforcement de la sécurité des données et des informations numériques. Outre la loi sur la protection des données (LPD; RS 235.1), c'est notamment la nouvelle loi sur la sécurité de l'information (LSI; RS 128) entrée en vigueur cette année qui régit la classification et la sécurité des informations. Les cantons sont assujettis à la LSI seulement lorsqu'ils traitent des informations classifiées de la Confédération ou utilisent des moyens informatiques de la Confédération et qu'ils ne disposent pas de règles de sécurité équivalentes dans leur législation (art. 3 LSI). Les prescriptions de la LSI ne s'appliquent pas aux exploitants d'infrastructures critiques qui ne relèvent pas de la Confédération.</p><p>Pour atteindre l'objectif de la motion, il convient de clarifier à quels autorités et exploitants d'infrastructures critiques la Confédération a le pouvoir constitutionnel de donner les instructions prévues. Le Conseil fédéral soumettra au Parlement un projet qui s'appliquera aux domaines auxquels il est habilité à fixer des exigences. Dans les domaines ne relevant pas de sa compétence législative, il montrera les solutions possibles pour la suite de la procédure.</p>"
+    },
     {
       "type": {
         "id": 5,

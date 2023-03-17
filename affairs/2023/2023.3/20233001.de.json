@@ -1,6 +1,6 @@
 {
   "id": 20233001,
-  "updated": "2023-01-17T13:54:27Z",
+  "updated": "2023-03-01T12:19:38Z",
   "additionalIndexing": "09;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-03-01T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-02-22T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -138,6 +155,11 @@
           "date": "/Date(1673478000000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1677625200000+0100)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -180,12 +202,20 @@
   ],
   "shortId": "23.3001",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat teilt das Anliegen der Sicherheitspolitischen Kommission des Ständerats, die Schutzwirkung im Bereich SKI zu verbessern und beantragt deshalb die Annahme der Motion.</p><p>Im Rahmen der nationalen SKI-Strategie 2018-2022 überprüfte das BABS die rechtlichen Grundlagen in 27 Teilsektoren (Branchen). Dabei zeigte sich, dass die bestehenden Rechtsgrundlagen je nach Teilsektor sehr unterschiedlich sind. Dies ist insbesondere darauf zurückzuführen, dass der Bund keine umfassende Regulierungskompetenz besitzt. Diese müsste zuerst im Rahmen einer Teilrevision der Bundesverfassung geschaffen werden. Zu beachten ist in diesem Zusammenhang, dass für Zentralisierungen, die wahrscheinlich eine zusätzliche Finanzierungsverantwortung für den Bund brächten, angesichts des Bereinigungsbedarfs im Bundeshaushalt in den kommenden Jahren kein Spielraum besteht. Alternativ könnten in Bereichen, wo besonderer Handlungsbedarf besteht, die einzelnen sektoriellen Gesetze angepasst werden. Dies ist aber nur dort möglich, wo die Regulierungskompetenz beim Bund liegt.</p>"
+    },
     {
       "type": {
         "id": 5,

@@ -1,6 +1,6 @@
 {
   "id": 20174126,
-  "updated": "2019-06-12T12:40:43Z",
+  "updated": "2023-03-01T08:29:23Z",
   "additionalIndexing": "2446",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2019-06-12T00:00:00Z",
             "text": "Adoption",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-02-28T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
           }
         ]
       },
@@ -108,8 +123,24 @@
           "registrations": [
             {
               "correspondents": [
-
-              ]
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3107,
+                    "gender": "m",
+                    "id": 4206,
+                    "name": "Ettlin Erich",
+                    "officialDenomination": "Ettlin Erich"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5118"
             }
           ]
         }
@@ -135,6 +166,11 @@
           "date": "/Date(1560290400000+0200)/",
           "id": 11,
           "name": "Motion au 2e conseil"
+        },
+        {
+          "date": "/Date(1677538800000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -142,6 +178,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-02-28T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5118"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -304,9 +345,9 @@
   ],
   "shortId": "17.4126",
   "state": {
-    "id": 11,
-    "name": "Motion au 2e conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },

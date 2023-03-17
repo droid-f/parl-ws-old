@@ -1,6 +1,6 @@
 {
   "id": 20224114,
-  "updated": "2022-10-06T15:10:07Z",
+  "updated": "2023-03-17T11:05:51Z",
   "additionalIndexing": "66;52;2846",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,26 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-03-17T00:00:00Z",
+            "text": "Liquidé",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "b",
+        "date": "2022-11-16T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +72,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1664402400000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1679007600000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -70,6 +96,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-03-17T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5118"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -122,12 +153,19 @@
   ],
   "shortId": "22.4114",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>1. Le Conseil fédéral partage le point de vue de l'interpellante. Il estime donc que le Parlement a eu raison d'exclure formellement certaines zones dans le cadre de la récente révision de la loi sur l'énergie (Mesures urgentes visant à assurer rapidement l'approvisionnement en électricité pendant l'hiver).</p><p>2. Des bases de décision servant à déterminer les surfaces appropriées doivent être élaborées en collaboration avec les parties prenantes. Un premier atelier consacré aux installations photovoltaïques isolées a eu lieu le 7 septembre 2022. Les cantons y étaient représentés par la secrétaire générale de la Conférence suisse des directeurs cantonaux des travaux publics de l'aménagement du territoire et de l'environnement (DTAP), les secrétaires généraux de la Conférence des directeurs cantonaux de l'énergie (EnDK) et de la Conférence des directeurs cantonaux de l'agriculture (CDCA), ainsi que par certains services spécialisés cantonaux. L'Association des communes suisses et l'Union des villes suisses y ont également participé. Le 25 octobre 2022 a eu lieu un deuxième atelier, auquel ont participé en outre des représentants et représentantes de la branche et des organisations de défense de l'environnement.</p><p>3. Le DETEC a prévu une analyse du potentiel basée sur les données SIG de swisstopo (DDPS) et en coordination avec les activités mentionnées au point 2. Cette analyse apportera un soutien aux cantons à l'identification des surfaces appropriées pour des installations photovoltaïques isolées.</p>"
+    },
     {
       "type": {
         "id": 5,

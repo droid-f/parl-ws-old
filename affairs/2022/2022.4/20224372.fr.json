@@ -1,6 +1,6 @@
 {
   "id": 20224372,
-  "updated": "2022-12-19T10:18:29Z",
+  "updated": "2023-03-09T11:25:08Z",
   "additionalIndexing": "48;2846",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-03-09T00:00:00Z",
+            "text": "Liquidé",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2023-02-01T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +71,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1670886000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1678316400000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -70,6 +95,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-03-09T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5118"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -102,12 +132,19 @@
   ],
   "shortId": "22.4372",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>1./2. Conformément à l'arrêté fédéral sur l'étape d'aménagement 2035, la réalisation de la gare de passage de Lucerne est examinée dans le cadre de l'élaboration du message 2026. Les travaux de l'avant-projet sont en grande partie achevés. L'étude sur l'ordre chronologique des réalisations est en cours, afin de pouvoir soumettre au Parlement une proposition finançable et réalisable dans le message 2026. Les questions relatives à la stabilité de l'horaire seront également examinées. Les résultats de cette étude seront disponibles vers la fin de 2023.</p><p>3. L'étude en cours sur l'ordre chronologique des réalisations permet d'approfondir ces questions. Il en résultera, d'ici à fin 2023, une vue d'ensemble des options envisageables afin de concevoir un ordre chronologique adéquat des étapes de l'offre et des mesures infrastructurelles nécessaires qui en découlent. Ces réflexions tiennent compte de l'utilisation du matériel roulant et des conceptions de production pour les différentes phases. La période de réalisation pourra alors être indiqué concrètement.</p><p>4. La décision concernant les mesures d'aménagement à réaliser revient au Parlement. Dans son message, le Conseil fédéral proposera les projets qui présentent la plus grande utilité et qui peuvent être financés dans le cadre des possibilités du fonds d'infrastructure ferroviaire.</p>"
+    },
     {
       "type": {
         "id": 5,
@@ -120,8 +157,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Gare de passage de Lucerne et stabilité de l’horaire"
+      "value": "Gare de passage de Lucerne et stabilité de l'horaire"
     }
   ],
-  "title": "Gare de passage de Lucerne et stabilité de l’horaire"
+  "title": "Gare de passage de Lucerne et stabilité de l'horaire"
 }

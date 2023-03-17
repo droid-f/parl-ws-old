@@ -1,6 +1,6 @@
 {
   "id": 20224264,
-  "updated": "2022-11-01T09:56:40Z",
+  "updated": "2023-03-16T14:13:35Z",
   "additionalIndexing": "08;04;12",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-03-16T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-11-16T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -125,13 +142,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFAE",
+          "id": 3,
+          "name": "Dipartimento degli affari esteri",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1666908000000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1678921200000+0100)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -174,10 +201,11 @@
   ],
   "shortId": "22.4264",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -186,6 +214,13 @@
         "name": "Motivazione"
       },
       "value": "<p>Per analizzare la necessità di legiferare nell'ambito della soft law le Commissioni della politica estera del Consiglio nazionale e del Consiglio degli Stati hanno istituito una sottocommissione congiunta. Nel contesto dei suoi lavori questa sottocommissione ha incaricato il Controllo parlamentare dell'amministrazione di procedere a una valutazione in merito al coinvolgimento del Parlamento nell'ambito della soft law. Da tale valutazione è emerso che la prassi delle unità amministrative coinvolte non è uniforme e in generale poco sistematica al riguardo. A causa dell'assenza di uniformità nell'applicazione delle procedure di soft law all'interno dell'Amministrazione è stato istituito un gruppo di lavoro interno per sensibilizzare i vari dipartimenti su questo aspetto. Inoltre, è in fase di elaborazione una guida (promemoria) sulla soft law che fungerà da ausilio per la prassi amministrativa. Questi sforzi sono stati elogiati dalle Commissioni della politica estera.</p><p>Per garantire che sia pienamente rispettato il diritto delle commissioni competenti per la politica estera a essere informate e consultate secondo l'articolo 152 della legge sul Parlamento, occorre intensificare gli sforzi per rendere uniformi e sistematici i processi di selezione degli sviluppi e dei progetti di politica estera rilevanti. Indipendentemente dalla forma giuridica, ossia non soltanto per la soft law, il Consiglio federale deve garantire l'uniformità e l'impiego sistematico delle procedure amministrative relative all'informazione e alla consultazione delle commissioni parlamentari competenti per la politica estera. </p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Da diversi anni la partecipazione del Parlamento alla politica estera è oggetto di un intenso dibattito, che vede coinvolti lo stesso Parlamento e il Consiglio federale. In aggiunta a un promemoria sulla soft law volto a rafforzare l'uniformità all'interno dell'Amministrazione federale, il 30 settembre 2022 il Consiglio federale ha deciso di introdurre una serie di misure aggiuntive tese a rafforzare l'esercizio dei diritti di partecipazione del Parlamento nel settore della politica estera. Questi provvedimenti mirano a chiarire quale sia la procedura di consultazione da applicare e a migliorare le informazioni destinate al Parlamento. Il Consiglio federale è pronto a garantire, mediante direttive, l'applicazione uniforme delle procedure amministrative esistenti, che comprendono le misure aggiuntive sopra menzionate.</p>"
     },
     {
       "type": {
@@ -199,8 +234,8 @@
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Informazione e consultazione nell’ambito della politica estera – procedure amministrative uniformi e sistematiche"
+      "value": "Informazione e consultazione nell'ambito della politica estera. Procedure amministrative uniformi e sistematiche"
     }
   ],
-  "title": "Informazione e consultazione nell’ambito della politica estera – procedure amministrative uniformi e sistematiche"
+  "title": "Informazione e consultazione nell'ambito della politica estera. Procedure amministrative uniformi e sistematiche"
 }

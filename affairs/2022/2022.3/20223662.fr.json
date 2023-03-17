@@ -1,6 +1,6 @@
 {
   "id": 20223662,
-  "updated": "2022-06-16T15:51:32Z",
+  "updated": "2023-03-16T12:06:41Z",
   "additionalIndexing": "09;2846;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-03-16T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-24T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DDPS",
+          "id": 6,
+          "name": "Département de la défense, de la protection de la population et des sports",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1655330400000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1678921200000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -252,19 +279,41 @@
   ],
   "shortId": "22.3662",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>La guerre entre la Russie et l'Ukraine inquiète de plus en plus les citoyens. Pourtant, on est souvent étonné d'entendre un grand nombre de personnes admettre ouvertement qu'elles ne savent pas où se trouve l'abri qui leur est attribué en cas de nécessité.</p><p>Pour être efficace, les organes chargés de la gestion des risques et des crises doivent donner régulièrement des informations et des explications.</p><p>En outre, les milieux très bien renseignés de la protection civile critiquent la qualité et l'équipement insuffisants de certains abris.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Les cantons sont responsables de la gestion de la construction d'abris ainsi que de la répartition de la population dans les abris (planification de l'attribution des places protégées) (art. 62, al. 1, de la loi sur la protection de la population et sur la protection civile [LPPCi], art. 74 de l'ordonnance sur la protection civile [OPCi]). La planification de l'attribution des places protégées est réalisée dans la perspective d'un conflit armé. L'élaboration et la mise à jour de cette planification relèvent de la compétence des cantons ou des communes. L'Office fédéral de la protection de la population (OFPP) peut demander aux cantons de lui transmettre leur planification d'attribution (art. 74, al. 5, OPCi). En raison des arrivées et des départs, des naissances et des décès, de la construction ou de la désaffectation d'abris et d'autres changements, les bases de la planification d'attribution évoluent constamment. Afin d'éviter que des informations obsolètes ne circulent, la planification de l'attribution des places protégées est communiquée officiellement uniquement lorsque la situation en matière de politique de sécurité l'exige afin que la population puisse se préparer en vue d'un éventuel séjour dans un abri. Les communes sont libres d'indiquer, sur demande, l'attribution personnelle des places protégées.</p><p>Conformément à l'art. 81, al. 1, OPCi, les cantons veillent à assurer le contrôle périodique de la disponibilité opérationnelle et de l'entretien des abris. Le contrôle périodique des abris doit être effectué tous les 10 ans au moins (art. 81, al. 2, OPCi). Sur demande de l'OFPP, les cantons doivent lui communiquer le nombre d'abris contrôlés ainsi que le nombre d'abris opérationnels (art. 81, al. 4, OPCi).</p><p>Il n'y a donc en principe pas lieu d'adapter les bases juridiques. Toutefois, au vu de la situation actuelle et des attentes de la population, l'OFPP demandera à l'avenir plus régulièrement aux cantons de lui fournir les données relatives aux abris contrôlés et opérationnels afin de s'assurer de la qualité des abris et de leur équipement.</p><p>Il convient également de mentionner qu'un plan pour les ouvrages de protection a été élaboré en collaboration avec les cantons avant même le début de la guerre en Ukraine. Il a pour objectif de garantir le maintien de la valeur de l'infrastructure des ouvrages de protection (et donc des abris destinés à la population) pour les décennies à venir. Il s'agit essentiellement de procéder régulièrement aux contrôles des abris et, le cas échéant, d'éliminer les défauts constatés, de compléter l'équipement, de rénover les abris et de combler les déficits en places protégées.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé d'obliger toutes les communes de Suisse à mieux informer leurs habitants afin qu'ils sachent où se trouve l'abri PC le plus proche en cas de catastrophe. On peut souvent rassurer les gens en levant les incertitudes quant à l'attitude à adopter en cas d'urgence, de façon simple et pragmatique. Il faudra aussi faire en sorte que la qualité et les équipements des abris soient contrôlés.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Gestion des risques. Savoir où se trouve l'abri PC le plus proche et contrôler la qualité et les équipements"
     }
   ],
-  "title": "Titre suit"
+  "title": "Gestion des risques. Savoir où se trouve l'abri PC le plus proche et contrôler la qualité et les équipements"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20224436,
-  "updated": "2022-12-23T11:02:11Z",
+  "updated": "2023-03-17T12:44:19Z",
   "additionalIndexing": "52;15;55",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,26 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-03-17T00:00:00Z",
+            "text": "Liquidato",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "b",
+        "date": "2023-02-01T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +72,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Dipartimento dell'economia, della formazione e della ricerca",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1671058800000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1679007600000+0100)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -70,6 +96,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-03-17T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5118"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -102,12 +133,19 @@
   ],
   "shortId": "22.4436",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>1./2. L'ammoniaca viene utilizzata prevalentemente per fabbricare concimi azotati, ma è anche una materia prima importante per molte altre applicazioni industriali. Attraverso un processo di stripping membranale è possibile recuperare azoto dal centrato dei fanghi di depurazione, estraendolo sotto forma di ammoniaca e legandolo con acido solforico. In questo modo si ricava una soluzione di solfato di ammonio che in agricoltura può essere utilizzata come concime minerale ottenuto dal riciclaggio. Con questo processo è possibile recuperare il 10-20 per cento dell'azoto in circolo negli impianti di depurazione delle acque (IDA) da utilizzare come concime ottenuto dal riciclaggio. Attualmente viene svolto negli impianti di depurazione delle acque di Yverdon-les-Bains, Opfikon e Altenrhein. Lo spandimento avviene principalmente con la cosiddetta procedura CULTAN (\"Controlled Uptake Long Term Ammonium Nutrition\"), svolta perlopiù da un imprenditore di lavori agricoli. Il Consiglio federale sostiene questo processo nel senso che il concime che ne deriva viene autorizzato dall'Ufficio federale dell'agricoltura come concime ottenuto dal riciclaggio. Non è previsto un sostegno finanziario per il recupero dell'azoto. I concimi a base di solfato di ammonio sono esposti, come peraltro tutti gli altri concimi, alla concorrenza del mercato e con l'aumentare dei prezzi dei concimi minerali azotati diventano economicamente più interessanti.</p><p>3. L'utilizzo della denominazione \"bio\" è protetto sul piano del diritto pubblico in virtù dell'articolo 2 dell'ordinanza sull'agricoltura biologica (RS 910.18). Il DEFR è incaricato di disciplinare le esigenze minime per i concimi autorizzati e il rispettivo utilizzo nell'agricoltura biologica tramite tale ordinanza. Sono fatte salve le disposizioni dell'ordinanza sui concimi (RS 916.171) e dell'ordinanza del DEFR sul libro dei concimi (RS 916.171.1).</p><p>Per garantire l'equivalenza delle disposizioni in materia di prodotti biologici tra la Svizzera e l'UE, nell'elaborare proposte legislative sui concimi il DEFR si basa sulle raccomandazioni del gruppo di esperti incaricato della consulenza tecnica sulla produzione biologica della Commissione europea. Finora questo gruppo non ha emesso alcuna raccomandazione relativa all'utilizzo di concimi a base di solfato di ammonio ottenuto dalla depurazione delle acque di scarico nell'agricoltura biologica.</p><p>Le organizzazioni private come \"Bio Suisse\" possono emanare disposizioni di diritto privato che vanno oltre le esigenze dell'ordinanza sull'agricoltura biologica. Tuttavia, siccome quest'ultima non autorizza l'utilizzo di concimi a base di solfato di ammonio ottenuto dalla depurazione delle acque di scarico, nemmeno \"Bio Suisse\" può concedere un'autorizzazione in tal senso.</p>"
+    },
     {
       "type": {
         "id": 5,
@@ -120,8 +158,8 @@
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Ammoniaca bio: dovrebbe essere data per scontata!"
+      "value": "Ammoniaca bio. Dovrebbe essere data per scontata!"
     }
   ],
-  "title": "Ammoniaca bio: dovrebbe essere data per scontata!"
+  "title": "Ammoniaca bio. Dovrebbe essere data per scontata!"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20220071,
-  "updated": "2023-01-26T16:44:45Z",
+  "updated": "2023-03-13T17:54:51Z",
   "additionalIndexing": "1216;28",
   "affairType": {
     "abbreviation": "BRG",
@@ -108,6 +108,11 @@
           "date": "/Date(1667343600000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1678662000000+0100)/",
+          "id": 3,
+          "name": "Behandelt vom Ständerat"
         }
       ],
       "texts": [
@@ -177,7 +182,7 @@
               "correspondents": [
 
               ],
-              "sessionId": "5118"
+              "sessionId": "5120"
             }
           ]
         }
@@ -232,7 +237,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-03-13T00:00:00Z",
+            "text": "Eintreten",
+            "type": 68
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -284,7 +303,28 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3086,
+                    "gender": "f",
+                    "id": 4186,
+                    "name": "Mazzone Lisa",
+                    "officialDenomination": "Mazzone"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion G",
+                    "code": "G",
+                    "id": 6,
+                    "name": "Grüne Fraktion"
+                  },
+                  "language": "fr"
+                }
               ],
               "sessionId": "5118"
             }
@@ -326,6 +366,11 @@
           "date": "/Date(1667343600000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1678662000000+0100)/",
+          "id": 3,
+          "name": "Behandelt vom Ständerat"
         }
       ],
       "texts": [
@@ -357,8 +402,8 @@
   ],
   "shortId": "22.071",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 3,
+    "name": "Behandelt vom Ständerat",
     "doneKey": "0",
     "newKey": 0
   },

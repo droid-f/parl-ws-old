@@ -1,6 +1,6 @@
 {
   "id": 20233002,
-  "updated": "2023-01-17T13:54:41Z",
+  "updated": "2023-03-01T08:36:28Z",
   "additionalIndexing": "1236;34;32;09;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-02-28T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-02-15T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -138,6 +155,11 @@
           "date": "/Date(1673478000000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1677538800000+0100)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -180,12 +202,20 @@
   ],
   "shortId": "23.3002",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Die Stärkung der Sicherheit von digitalen Daten und Informationen ist ein wichtiges Anliegen des Bundesrats. Neben dem Datenschutzgesetz (DSG; SR 235.1) enthält insbesondere das in diesem Jahr in Kraft tretende Informationssicherheitsgesetz (ISG; SR 128) Vorgaben zur Klassifizierung und zur Gewährleistung der Sicherheit von Informationen. Die Vorgaben des ISG verpflichten die Kantone jedoch nur dann, wenn sie klassifizierte Informationen des Bundes bearbeiten oder auf Informatikmittel des Bundes zugreifen - und keine gleichwertigen Vorschriften haben (Artikel 3 ISG). Für Betreiberinnen kritischer Infrastrukturen, die nicht dem Bund zuzurechnen sind, gelten diese Vorgaben des ISG nicht.</p><p>Um den Anliegen der Motion zu entsprechen, ist zu klären, für welche Behörden und Betreiberinnen kritischer Infrastrukturen der Bund die verfassungsrechtliche Kompetenz hat, die geforderten Vorgaben zu erlassen. Der Bundesrat wird dem Parlament für diejenigen Bereiche Vorgaben vorschlagen, in welchen er über die nötigen Kompetenzen verfügt. Für jene Bereiche, in welchen der Bund nicht über die entsprechende Rechtssetzungskompetenz verfügt, wird der Bundesrat Möglichkeiten für das weitere Vorgehen aufzeigen.</p>"
+    },
     {
       "type": {
         "id": 5,

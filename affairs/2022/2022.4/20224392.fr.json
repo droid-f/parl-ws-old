@@ -1,6 +1,6 @@
 {
   "id": 20224392,
-  "updated": "2022-12-19T10:10:31Z",
+  "updated": "2023-03-17T11:29:17Z",
   "additionalIndexing": "09;04;12",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,26 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-03-17T00:00:00Z",
+            "text": "Liquidé",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "n",
+        "date": "2023-02-15T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +72,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DDPS",
+          "id": 6,
+          "name": "Département de la défense, de la protection de la population et des sports",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1670972400000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1679007600000+0100)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -70,6 +96,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-03-17T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5118"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -122,12 +153,19 @@
   ],
   "shortId": "22.4392",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>1. Le SRC a informé la cheffe du DDPS dès mai 2021 des événements survenus dans le domaine Cyber. Il a également ouvert une enquête interne. L'Autorité de surveillance indépendante des activités de renseignement (AS-Rens) a suivi de près les investigations et a régulièrement reçu des informations sur leur état d'avancement. Elle continue de contrôler la collecte de données par le domaine Cyber. La cheffe du DDPS reçoit tous les rapports d'inspection et entretient des contacts directs avec la direction de l'AS-Rens.</p><p>Le Conseil fédéral estime que la surveillance des activités de renseignement ne présente aucun dysfonctionnement.</p><p>2. Le Conseil fédéral n'a pas modifié sa position, telle qu'exprimée dans la réponse à l'interpellation 22.3266, depuis la publication des résultats de l'enquête administrative. Comme l'indique Niklaus Oberholzer dans son rapport, l'AS-Rens a considéré qu'un certain flou juridique entourait la transmission et la réception volontaires de données du trafic réseau. L'enquête interne du SRC a justement permis de clarifier cette question dès avril 2021, et l'enquête administrative dès janvier 2022.</p><p>3. Les activités du SRC sont soumises à différentes formes de contrôle et de surveillance; des contrôles effectués par le DDPS, le Conseil fédéral, la Délégation des commissions de gestion du Parlement, le Contrôle fédéral des finances et l'AS-Rens viennent ainsi compléter les mesures internes du SRC. L'exploration radio fait l'objet d'un contrôle technique supplémentaire par un organe de contrôle indépendant. Conformément à l'art. 78 de la loi fédérale sur le renseignement (RS 121), entré en vigueur le 1er septembre 2017, l'AS-Rens exerce sa fonction en toute indépendance, sans être liée par des instructions. Rattachée au DDPS sur le plan purement administratif, elle dispose de son propre budget et engage son personnel. Elle se constitue elle-même et fixe son organisation et ses méthodes de travail dans un règlement interne. Le Conseil fédéral n'a pas l'intention de modifier le régime de la surveillance.</p>"
+    },
     {
       "type": {
         "id": 5,
@@ -140,8 +178,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Enquête administrative du SRC. Collecte illégale d’informations"
+      "value": "Enquête administrative au SRC. Collecte illégale d'informations"
     }
   ],
-  "title": "Enquête administrative du SRC. Collecte illégale d’informations"
+  "title": "Enquête administrative au SRC. Collecte illégale d'informations"
 }

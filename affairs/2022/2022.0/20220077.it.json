@@ -1,6 +1,6 @@
 {
   "id": 20220077,
-  "updated": "2023-01-26T16:46:51Z",
+  "updated": "2023-03-01T08:33:35Z",
   "additionalIndexing": "08;2446",
   "affairType": {
     "abbreviation": "OCF",
@@ -128,6 +128,11 @@
           "date": "/Date(1668553200000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1677538800000+0100)/",
+          "id": 3,
+          "name": "Trattato dal Consiglio degli Stati"
         }
       ],
       "texts": [
@@ -143,7 +148,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-02-28T00:00:00Z",
+            "text": "Decisione secondo il disegno (progetto)",
+            "type": 62
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -171,7 +190,12 @@
           },
           "date": "2022-11-10T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ],
+              "sessionId": "5119"
+            }
           ],
           "treatmentCategory": "IV"
         },
@@ -195,7 +219,27 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2641,
+                    "gender": "m",
+                    "id": 1162,
+                    "name": "Kuprecht Alex",
+                    "officialDenomination": "Kuprecht"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo V",
+                    "id": 4,
+                    "name": "Gruppo dell'Unione democratica di Centro"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5118"
             }
@@ -237,6 +281,11 @@
           "date": "/Date(1668553200000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1677538800000+0100)/",
+          "id": 3,
+          "name": "Trattato dal Consiglio degli Stati"
         }
       ],
       "texts": [
@@ -268,8 +317,8 @@
   ],
   "shortId": "22.077",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 3,
+    "name": "Trattato dal Consiglio degli Stati",
     "doneKey": "0",
     "newKey": 0
   },

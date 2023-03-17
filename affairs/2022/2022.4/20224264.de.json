@@ -1,6 +1,6 @@
 {
   "id": 20224264,
-  "updated": "2022-11-01T09:56:40Z",
+  "updated": "2023-03-16T14:13:35Z",
   "additionalIndexing": "08;04;12",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-03-16T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-11-16T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -126,13 +143,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDA",
+          "id": 3,
+          "name": "Departement für auswärtige Angelegenheiten",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1666908000000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1678921200000+0100)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -175,10 +202,11 @@
   ],
   "shortId": "22.4264",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -187,6 +215,13 @@
         "name": "Begründung"
       },
       "value": "<p>Um den gesetzgeberischen Handlungsbedarf im Bereich von Soft Law zu analysieren, haben die Aussenpolitischen Kommissionen von National- und Ständerat eine gemeinsame Subkommission eingesetzt. Im Rahmen ihrer Arbeiten hat diese Subkommission eine Evaluation der Parlamentarischen Verwaltungskontrolle zur Mitwirkung des Parlaments im Bereich von Soft Law in Auftrag gegeben. Diese Evaluation kam zur Erkenntnis, dass die Praxis der betroffenen Verwaltungseinheiten in Bezug auf Soft Law uneinheitlich sowie insgesamt wenig systematisch ist. Aufgrund der uneinheitlichen Anwendung der Soft-Law-Verfahren innerhalb der Verwaltung wurde verwaltungsintern eine Arbeitsgruppe eingesetzt, um die verschiedenen Departemente zu sensibilisieren. Zudem wird als Hilfsmittel für die Verwaltungspraxis ein Leitfaden (Aide-mémoire) zu Soft Law erarbeitet. Diese Bemühungen wurden von den Aussenpolitischen Kommissionen positiv gewürdigt.</p><p>Um die vollumfängliche Wahrung der Informations- und Konsultationsrechte der für die Aussenpolitik zuständigen Kommissionen gemäss Artikel 152 des Parlamentsgesetzes sicherzustellen, sind die Bemühungen um einheitliche und systematische Auswahlprozesse bezüglich der relevanten aussenpolitischen Entwicklungen und Vorhaben zu verstärken. Unabhängig von der Rechtsform - d.h. nicht nur beschränkt auf Soft Law - soll der Bundesrat einheitliche und systematische Verwaltungsverfahren in Bezug auf die Information und Konsultation der parlamentarischen Kommissionen im Bereich der Aussenpolitik sicherstellen. </p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Die Mitwirkung des Parlaments an der Aussenpolitik ist seit mehreren Jahren Gegenstand einer anhaltenden Diskussion zwischen dem Parlament und dem Bundesrat. Ergänzend zum Merkblatt zu Soft Law, mit welchem die Kohärenz innerhalb der Bundesverwaltung in diesem Bereich gestärkt werden soll, hat der Bundesrat am 30. September 2022 beschlossen, mehrere zusätzliche Massnahmen einzuführen, um die Ausübung der Mitwirkungsrechte des Parlaments im Bereich der Aussenpolitik zu stärken. Diese Massnahmen zielen darauf ab, das für Konsultationen geltende Verfahren zu klären und die Informationen für das Parlament zu verbessern. Der Bundesrat ist bereit, via den Erlass von Richtlinien die einheitliche Anwendung der bestehenden Verwaltungsverfahren sicherzustellen, welche auch die oben genannten zusätzlichen Massnahmen miteinschliessen.</p>"
     },
     {
       "type": {
@@ -200,8 +235,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Information und Konsultation im Bereich der Aussenpolitik – Einheitliche und systematische Verwaltungsverfahren"
+      "value": "Information und Konsultation im Bereich der Aussenpolitik. Einheitliche und systematische Verwaltungsverfahren"
     }
   ],
-  "title": "Information und Konsultation im Bereich der Aussenpolitik – Einheitliche und systematische Verwaltungsverfahren"
+  "title": "Information und Konsultation im Bereich der Aussenpolitik. Einheitliche und systematische Verwaltungsverfahren"
 }

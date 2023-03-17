@@ -1,6 +1,6 @@
 {
   "id": 20224273,
-  "updated": "2022-11-17T08:57:20Z",
+  "updated": "2023-03-01T08:35:56Z",
   "additionalIndexing": "24;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-02-28T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-02-15T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -71,7 +88,32 @@
           },
           "date": "2022-11-15T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3183,
+                    "gender": "f",
+                    "id": 4306,
+                    "name": "Gapany Johanna",
+                    "officialDenomination": "Gapany"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe RL",
+                    "id": 1,
+                    "name": "Groupe libéral-radical"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5118"
+            }
           ]
         },
         {
@@ -100,13 +142,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Département des finances",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1668466800000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1677538800000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -149,10 +201,11 @@
   ],
   "shortId": "22.4273",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -161,6 +214,13 @@
         "name": "Développement"
       },
       "value": "<p>Comme le frein à l'endettement autorise dans le budget ordinaire un déficit de financement conjoncturel plus important, il est encore respecté en 2023.</p><p>Durant les années 2024-2026 du plan financier, cela ne devrait plus être le cas. Ce déséquilibre structurel s'explique par la forte augmentation des dépenses, notamment pour l'armée, les mesures prises pour pallier la non-association au programme Horizon Europe et les contre-projets indirects à l'initiative pour les glaciers et à l'initiative d'allègement des primes. Le montant de la correction budgétaire nécessaire augmente rapidement : il dépasse les 3 milliards de francs.</p><p>Le Conseil fédéral et le Parlement sont tenus de respecter le frein à l'endettement. Le Conseil fédéral doit procéder à un examen de toutes les tâches liées et de toutes les tâches non liées, afin d'identifier le potentiel d'économies.</p><p>Lors de son examen, le Conseil fédéral devra notamment procéder à une évaluation complète des tâches de l'administration. Il s'agira de déterminer si la Confédération fournit les bonnes prestations et si l'exécution des tâches et la fourniture des prestations sont optimales ou s'il serait opportun de réduire les prestations ou de les fournir sous une autre forme. Parallèlement à cette évaluation des tâches, le Conseil fédéral examinera également l'affectation du personnel et les charges de personnel.</p><p>Ces différents examens et évaluations visent à garantir que les bonnes tâches continuent d'être fournies à l'avenir et que le frein à l'endettement pourra être respecté sans que le Parlement ne doive prendre des mesures à la va-vite lors de la procédure d'examen du budget.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral doit définir son plan d'allégement pour le budget 2024 et les années du plan financier d'ici au printemps 2023. Pour éliminer les déficits structurels, il est indispensable de procéder à un réexamen des tâches et des prestations de l'Etat ainsi que de fixer des priorités. Les travaux du Conseil fédéral vont donc dans le sens des exigences de la motion. Il est de ce fait prêt à l'accepter.</p><p>Le Conseil fédéral attend également du Parlement qu'il le soutienne dans le cadre de ses travaux visant à mettre sur pied un plan financier conforme aux règles du frein à l'endettement et qu'il fasse preuve de retenue dans ses décisions en matière de dépenses. A court terme, les déficits ne pourront être résorbés qu'à l'aide d'ajustements du côté des dépenses, c'est-à-dire en abandonnant ou en reportant les nouveaux projets, ou encore en réduisant certaines dépenses existantes. Il faut donc aussi éviter autant que possible l'ajout ou l'extension de tâches de la Confédération ou prendre des mesures permettant d'en garantir le financement.</p>"
     },
     {
       "type": {
@@ -174,8 +234,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Examen des tâches et des prestations de l’État"
+      "value": "Examen des tâches et des prestations de l'État"
     }
   ],
-  "title": "Examen des tâches et des prestations de l’État"
+  "title": "Examen des tâches et des prestations de l'État"
 }

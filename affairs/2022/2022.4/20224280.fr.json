@@ -1,6 +1,6 @@
 {
   "id": 20224280,
-  "updated": "2022-11-25T11:56:28Z",
+  "updated": "2023-03-14T09:41:57Z",
   "additionalIndexing": "08;52;1236",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-03-14T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-22T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
@@ -81,6 +98,27 @@
                     "type": "N"
                   },
                   "councillor": {
+                    "code": 3017,
+                    "gender": "f",
+                    "id": 4101,
+                    "name": "Bulliard-Marbach Christine",
+                    "officialDenomination": "Bulliard"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe M-E",
+                    "id": 3,
+                    "name": "Le Groupe du Centre. Le Centre. PEV."
+                  },
+                  "language": "fr"
+                },
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
                     "code": 3035,
                     "gender": "f",
                     "id": 4131,
@@ -93,27 +131,6 @@
                     "name": "Groupe socialiste"
                   },
                   "language": "de"
-                },
-                {
-                  "council": {
-                    "abbreviation": "CN",
-                    "id": 1,
-                    "name": "Conseil national",
-                    "type": "N"
-                  },
-                  "councillor": {
-                    "code": 3100,
-                    "gender": "m",
-                    "id": 4194,
-                    "name": "Wehrli Laurent",
-                    "officialDenomination": "Wehrli"
-                  },
-                  "faction": {
-                    "abbreviation": "Groupe RL",
-                    "id": 1,
-                    "name": "Groupe libéral-radical"
-                  },
-                  "language": "fr"
                 }
               ],
               "sessionId": "5118"
@@ -158,6 +175,11 @@
           "date": "/Date(1669071600000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1678748400000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -200,10 +222,11 @@
   ],
   "shortId": "22.4280",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -212,6 +235,13 @@
         "name": "Développement"
       },
       "value": "<p>Le rapport national sur la mise en oeuvre de l'Agenda 2030 pour le développement durable établi à l'attention de l'ONU, qui vient d'être présenté, montre que la Suisse fait des efforts pour atteindre les objectifs. En la matière, nous en sommes pratiquement à la mi-temps, mais encore loin d'être sur la bonne voie. Il faut reconnaître que le processus est complexe, car il touche pratiquement à tous les champs politiques. En plus de devoir impliquer les cantons, les communes, la société civile ou l'économie, il s'agit également de prendre en compte le savoir des spécialistes. On est en droit de se demander si la mise en oeuvre des objectifs d'ici 2030 est possible avec les structures et les ressources actuelles.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Les défis liés à la mise en oeuvre de l'Agenda 2030 pour le développement durable restent importants à l'échelle mondiale, mais aussi nationale. Concrètement, il existe différentes lacunes concernant les 17 objectifs de développement durable et les 169 cibles (sous-objectifs) qui doivent être comblées d'ici à 2030. Le rapport national 2022 présente ces lacunes de manière transparente et la Stratégie pour le développement durable 2030 (SDD 2030) indique la direction à suivre. Des efforts supplémentaires sont notamment nécessaires dans les trois thèmes prioritaires \" Consommation et production durable \", \" Climat, biodiversité et énergie \" et \" Egalité des chances et cohésion sociale \", mais aussi, de manière générale, au niveau international. La Suisse apporte ici une contribution importante, surtout avec la stratégie de coopération internationale 2021-2024. La nouvelle stratégie est en cours d'élaboration et s'oriente vers les objectifs de l'Agenda 2030.</p><p>En 2018, le Conseil fédéral a délibérément choisi une nouvelle structure organisationnelle pour une mise en oeuvre politiquement cohérente de l'Agenda 2030 en Suisse, avec deux délégués au DFAE et au DETEC, un comité directeur et un groupe d'accompagnement de l'Agenda 2030 au niveau fédéral. Dans le même temps, il a opté pour une mise en oeuvre décentralisée de l'Agenda 2030 par les différents offices spécialisés au niveau fédéral d'une part, et par les cantons, les communes, la société civile, les milieux économiques et scientifiques d'autre part. Il a ainsi mis en place une structure qui tient compte de l'ampleur de la thématique et des différentes dimensions de l'Agenda 2030 (économie, environnement, social).</p><p>Un réexamen de la structure organisationnelle pour la mise en oeuvre en Suisse, prévu dans la décision de 2018, est en cours. Le Conseil fédéral déterminera la marche à suivre sur la base de cet examen.</p>"
     },
     {
       "type": {
@@ -225,8 +255,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Renforcer les structures organisationnelles afin que la mise en œuvre de l’Agenda 2030 soit cohérente sur le plan politiqueTitre suit"
+      "value": "Renforcer les structures organisationnelles afin que la mise en œuvre de l'Agenda 2030 soit cohérente sur le plan politique"
     }
   ],
-  "title": "Renforcer les structures organisationnelles afin que la mise en œuvre de l’Agenda 2030 soit cohérente sur le plan politiqueTitre suit"
+  "title": "Renforcer les structures organisationnelles afin que la mise en œuvre de l'Agenda 2030 soit cohérente sur le plan politique"
 }

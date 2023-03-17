@@ -1,6 +1,6 @@
 {
   "id": 20224114,
-  "updated": "2022-10-06T15:10:07Z",
+  "updated": "2023-03-17T11:05:51Z",
   "additionalIndexing": "66;52;2846",
   "affairType": {
     "abbreviation": "Ip.",
@@ -41,10 +41,26 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-03-17T00:00:00Z",
+            "text": "Erledigt",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "b",
+        "date": "2022-11-16T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -57,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1664402400000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1679007600000+0100)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -71,6 +97,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-03-17T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5118"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -124,12 +155,19 @@
   ],
   "shortId": "22.4114",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>1. Der Bundesrat teilt die Meinung der Interpellantin. Er begrüsst es deshalb, dass das Parlament bei der jüngsten Revision des Energiegesetzes (Dringliche Massnahmen zur kurzfristigen Bereitstellung einer sicheren Stromversorgung im Winter) verschiedene Gebiete ausdrücklich von der Nutzung ausgenommen hat.</p><p>2. Entscheidungsgrundlagen für die Bezeichnung von geeigneten Flächen sollen in Zusammenarbeit mit den Stakeholdern erarbeitet werden. Ein erster Workshop zum Thema freistehende Photovoltaik-Anlagen hat am 7. September 2022 stattgefunden. Die Kantone waren durch die Generalsekretärin der Bau-, Planungs- und Umweltdirektoren-Konferenz (BPUK), die Generalsekretäre der Konferenz Kantonaler Energiedirektoren (EnDK) und der Konferenz der kantonalen Landwirtschaftsdirektoren (LDK) sowie durch einzelne kantonale Fachstellen vertreten. Der Gemeinde- und der Städteverband haben ebenfalls teilgenommen. Ein zweiter Workshop hat am 25. Oktober 2022 stattgefunden, an dem zusätzlich auch Vertreterinnen und Vertreter der Branche und der Umweltorganisationen teilgenommen haben.</p><p>3. Das UVEK plant auf Basis von GIS-Daten der swisstopo (VBS) eine GIS-basierte Potentialanalyse im Zusammenspiel mit den Aktivitäten unter Punkt 2. Die Potentialanalyse unterstützt die Kantone, die geeigneten Flächen für freistehende Photovoltaik Anlagen zu identifizieren.</p>"
+    },
     {
       "type": {
         "id": 5,
@@ -142,8 +180,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Flächenpotential von Solaranlagen im hochalpinen Raum in bereits stark genutzten Gebieten"
+      "value": "Flächenpotenzial von Solaranlagen im hochalpinen Raum in bereits stark genutzten Gebieten"
     }
   ],
-  "title": "Flächenpotential von Solaranlagen im hochalpinen Raum in bereits stark genutzten Gebieten"
+  "title": "Flächenpotenzial von Solaranlagen im hochalpinen Raum in bereits stark genutzten Gebieten"
 }

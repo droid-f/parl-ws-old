@@ -1,6 +1,6 @@
 {
   "id": 20223891,
-  "updated": "2022-08-24T13:59:25Z",
+  "updated": "2023-03-09T13:18:53Z",
   "additionalIndexing": "10;15;36",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-03-09T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-16T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
@@ -116,7 +133,7 @@
                   "language": "de"
                 }
               ],
-              "sessionId": "5117"
+              "sessionId": "5118"
             }
           ]
         },
@@ -146,13 +163,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFAE",
+          "id": 3,
+          "name": "Dipartimento degli affari esteri",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1661205600000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1678316400000+0100)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -195,10 +222,11 @@
   ],
   "shortId": "22.3891",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -207,6 +235,13 @@
         "name": "Motivazione"
       },
       "value": "<p>Dall'interruzione dei negoziati sull'accordo quadro istituzionale l'Assemblea federale non ha mai preso formalmente posizione sulle prossime tappe della politica europea. Nel frattempo le misure a favore della piazza economica e di ricerca svizzera sono diventate urgenti e, nel contempo, l'obiettivo di legislatura 12 \"La Svizzera ha relazioni regolamentate con l'UE\" rimane valido e deve essere concretizzato.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Entro la fine del 2022 sarà presentato al Consiglio federale un rapporto aggiornato sulla situazione delle relazioni tra la Svizzera e l'UE, che conterrà una retrospettiva, farà il punto sui colloqui esplorativi e fornirà prospettive. Per garantire uno stretto coinvolgimento del Parlamento nella preparazione del rapporto, in seguito il Consiglio federale consulterà le due Commissioni della politica estera ai sensi dell'articolo 152 della legge sul Parlamento (LParl; RS 171.10).</p><p>Il Consiglio federale ritiene tuttavia che, dal punto di vista dell'obiettivo generale della politica europea della Svizzera, non sia utile sottoporre all'Assemblea federale una proposta di decreto federale semplice (art. 163 cpv. 2 Cost. e art 29 cpv. 1 LParl) contenente le conclusioni del rapporto. Questo perché ciò potrebbe comportare il rischio di ritardare nel suo insieme il processo con l'UE. Infatti, nel caso in cui i colloqui esplorativi in corso offrissero una base sufficiente per l'avvio di nuovi negoziati, i dibattiti relativi alla proposta di decreto federale semplice posticiperebbero notevolmente l'adozione di un mandato negoziale, il quale dovrebbe essere parimenti consultato con le commissioni competenti.</p>"
     },
     {
       "type": {
@@ -220,8 +255,8 @@
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Decreto federale semplice concernente il rapporto del Consiglio federale sulle relazioni tra la Svizzera e l’UE"
+      "value": "Decreto federale semplice concernente il rapporto del Consiglio federale sulle relazioni tra la Svizzera e l'UE"
     }
   ],
-  "title": "Decreto federale semplice concernente il rapporto del Consiglio federale sulle relazioni tra la Svizzera e l’UE"
+  "title": "Decreto federale semplice concernente il rapporto del Consiglio federale sulle relazioni tra la Svizzera e l'UE"
 }

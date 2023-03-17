@@ -1,6 +1,6 @@
 {
   "id": 20223022,
-  "updated": "2022-06-09T12:10:32Z",
+  "updated": "2023-03-07T08:30:11Z",
   "additionalIndexing": "55;15;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -57,6 +57,21 @@
             "date": "2022-06-09T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-03-06T00:00:00Z",
+            "text": "Rinvio alla Commissione",
+            "type": 33
           }
         ]
       },
@@ -156,7 +171,32 @@
           },
           "date": "2022-02-22T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2546,
+                    "gender": "m",
+                    "id": 525,
+                    "name": "Zanetti Roberto",
+                    "officialDenomination": "Zanetti Roberto"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo S",
+                    "id": 2,
+                    "name": "Gruppo socialista"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5118"
+            }
           ]
         }
       ],
@@ -181,6 +221,11 @@
           "date": "/Date(1654725600000+0200)/",
           "id": 11,
           "name": "Mozione alla seconda Camera"
+        },
+        {
+          "date": "/Date(1678057200000+0100)/",
+          "id": 33,
+          "name": "Assegnato alla Commissione per l’esame preliminare"
         }
       ],
       "texts": [
@@ -223,8 +268,8 @@
   ],
   "shortId": "22.3022",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 33,
+    "name": "Assegnato alla Commissione per l’esame preliminare",
     "doneKey": "0",
     "isMotionInSecondCouncil": true,
     "newKey": 0

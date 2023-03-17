@@ -1,6 +1,6 @@
 {
   "id": 20220054,
-  "updated": "2023-01-26T15:51:18Z",
+  "updated": "2023-03-15T13:57:30Z",
   "additionalIndexing": "2836;28;44",
   "affairType": {
     "abbreviation": "OCF",
@@ -108,6 +108,11 @@
           "date": "/Date(1655848800000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1678834800000+0100)/",
+          "id": 3,
+          "name": "Trattato dal Consiglio degli Stati"
         }
       ],
       "texts": [
@@ -123,7 +128,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-03-15T00:00:00Z",
+            "text": "Decisione secondo il disegno (progetto)",
+            "type": 62
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -175,7 +194,27 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2674,
+                    "gender": "m",
+                    "id": 3871,
+                    "name": "Bischof Pirmin",
+                    "officialDenomination": "Bischof"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo M-E",
+                    "id": 3,
+                    "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5118"
             }
@@ -217,6 +256,11 @@
           "date": "/Date(1655848800000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1678834800000+0100)/",
+          "id": 3,
+          "name": "Trattato dal Consiglio degli Stati"
         }
       ],
       "texts": [
@@ -248,8 +292,8 @@
   ],
   "shortId": "22.054",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 3,
+    "name": "Trattato dal Consiglio degli Stati",
     "doneKey": "0",
     "newKey": 0
   },

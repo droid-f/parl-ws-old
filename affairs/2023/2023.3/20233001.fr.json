@@ -1,6 +1,6 @@
 {
   "id": 20233001,
-  "updated": "2023-01-17T13:54:27Z",
+  "updated": "2023-03-01T12:19:38Z",
   "additionalIndexing": "09;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-03-01T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-02-22T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -137,6 +154,11 @@
           "date": "/Date(1673478000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1677625200000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -179,12 +201,20 @@
   ],
   "shortId": "23.3001",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral partage la préoccupation de la Commission de la politique de sécurité du Conseil des Etats d'améliorer l'effet protecteur dans le domaine de la PIC et propose donc d'accepter la motion.</p><p>L'OFPP a passé en revue les bases légales de 27 sous-secteurs (branches) d'infrastructures critiques dans le cadre de la Stratégie nationale PIC 2018-2022. Cet examen a fait ressortir d'importantes différences d'un sous-secteur à l'autre. La situation est due notamment au fait que la Confédération n'a pas de compétence globale de régulation en la matière. Une telle compétence devrait être créée dans le cadre d'une révision partielle de la Constitution fédérale. Dans ce contexte, et compte tenu des besoins d'assainissement du budget fédéral dans les années à venir, il convient de noter qu'il n'y a pas de marge de manoeuvre pour des centralisations qui entraîneraient probablement une responsabilité financière supplémentaire pour la Confédération. Une alternative consisterait à modifier les lois relatives aux différents secteurs dans les domaines où des mesures s'avèrent nécessaires, mais ce ne serait possible que dans les cas où les compétences de régulation appartiennent à la Confédération.</p>"
+    },
     {
       "type": {
         "id": 5,

@@ -1,6 +1,6 @@
 {
   "id": 20224272,
-  "updated": "2022-11-17T08:57:09Z",
+  "updated": "2023-02-27T15:37:27Z",
   "additionalIndexing": "34;24;1216;1236",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-02-27T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-02-01T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -71,7 +88,55 @@
           },
           "date": "2022-11-14T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3114,
+                    "gender": "m",
+                    "id": 4213,
+                    "name": "Bendahan Samuel",
+                    "officialDenomination": "Bendahan"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion S",
+                    "code": "S",
+                    "id": 2,
+                    "name": "Sozialdemokratische Fraktion"
+                  },
+                  "language": "fr"
+                },
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3016,
+                    "gender": "f",
+                    "id": 4102,
+                    "name": "Bertschy Kathrin",
+                    "officialDenomination": "Bertschy"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion GL",
+                    "code": "GL",
+                    "id": 137,
+                    "name": "Grünliberale Fraktion"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5118"
+            }
           ]
         },
         {
@@ -112,6 +177,11 @@
           "date": "/Date(1668380400000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1677452400000+0100)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -154,12 +224,20 @@
   ],
   "shortId": "22.4272",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Basierend auf der parlamentarischen Initiative 10.450 \"Den Verkauf von Bankkundendaten hart bestrafen\" wurde Artikel 47 des Bankengesetzes gemeinsam mit analogen Bestimmungen in weiteren Finanzmarktgesetzen durch das Bundesgesetz über die Ausweitung der Strafbarkeit der Verletzung des Berufsgeheimnisses auf den 1. Juli 2015 geändert. Die Änderungen sehen unter anderem vor, dass die in den Gesetzen enthaltenen Straftatbestände der Verletzung des Berufsgeheimnisses auf Personen ausgedehnt werden, welche ihnen unter Verletzung des Berufsgeheimnisses offenbarte Geheimnisse weiteren Personen offenbaren oder für sich oder einen anderen ausnützen.</p><p>Am 5. Mai 2022 hörte die Kommission für Wirtschaft und Abgaben des Nationalrats (WAK-N) zum Thema \"Suisse Secrets\" und Pressefreiheit in Finanzplatzfragen eine Expertin und einen Experten für Wirtschaftskriminalistik bzw. Medienrecht sowie eine Vertretung der Schweizerischen Bankiervereinigung an. Dabei kamen auch die Auswirkungen der auf den 1. Juli 2015 in Kraft getretenen Gesetzesänderungen auf Medienschaffende zur Sprache. Für die Mehrheit der WAK-N bestand damals kein gesetzgeberischer Handlungsbedarf. Am 14. November 2022 sprach sich - im Rahmen der Beratung der parlamentarische Initiativen 22.421 und 22.408 - eine Kommissionsmehrheit aber dafür aus, den Bundesrat mit der vorliegenden Motion zu beauftragen, eine Änderung der einschlägigen Gesetze zur Wahrung der Pressefreiheit in Finanzplatzfragen zu prüfen und gegebenenfalls dem Parlament eine Vorlage zu unterbreiten. Gestützt darauf wurden die beiden parlamentarischen Initiativen zurückgezogen.</p><p>Der Bundesrat anerkennt den Stellenwert der verfassungsrechtlich garantierten Medienfreiheit und ist bereit, die verlangte Prüfung vorzunehmen und bei einem positiven Ergebnis eine Vorlage zu erarbeiten.</p>"
+    },
     {
       "type": {
         "id": 5,

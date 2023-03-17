@@ -1,6 +1,6 @@
 {
   "id": 20210047,
-  "updated": "2023-01-19T12:26:19Z",
+  "updated": "2023-03-15T12:03:12Z",
   "additionalIndexing": "66;10;15",
   "affairType": {
     "abbreviation": "OCF",
@@ -113,6 +113,11 @@
           "date": "/Date(1664402400000+0200)/",
           "id": 3,
           "name": "Trattato dal Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1678834800000+0100)/",
+          "id": 4,
+          "name": "Trattato dalle due Camere"
         }
       ],
       "texts": [
@@ -157,6 +162,51 @@
             "date": "2022-09-29T00:00:00Z",
             "text": "Decisione in deroga al disegno (progetto)",
             "type": 52
+          },
+          {
+            "category": {
+              "id": 8,
+              "name": "Descrizione"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-03-13T00:00:00Z",
+            "text": "Inizio del dibattito",
+            "type": 91
+          },
+          {
+            "category": {
+              "id": 8,
+              "name": "Descrizione"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-03-14T00:00:00Z",
+            "text": "Continuazione",
+            "type": 53
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-03-15T00:00:00Z",
+            "text": "Deroga",
+            "type": 37
           }
         ]
       },
@@ -187,11 +237,53 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3109,
+                    "gender": "m",
+                    "id": 4208,
+                    "name": "Jauslin Matthias Samuel",
+                    "officialDenomination": "Jauslin"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo RL",
+                    "id": 1,
+                    "name": "Gruppo liberale radicale"
+                  },
+                  "language": "de"
+                },
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2648,
+                    "gender": "m",
+                    "id": 1279,
+                    "name": "Nordmann Roger",
+                    "officialDenomination": "Nordmann"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo S",
+                    "id": 2,
+                    "name": "Gruppo socialista"
+                  },
+                  "language": "fr"
+                }
               ],
               "sessionId": "5118"
             }
-          ]
+          ],
+          "treatmentCategory": "IIIa/IV"
         },
         {
           "committee": {
@@ -280,6 +372,11 @@
           "date": "/Date(1664402400000+0200)/",
           "id": 3,
           "name": "Trattato dal Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1678834800000+0100)/",
+          "id": 4,
+          "name": "Trattato dalle due Camere"
         }
       ],
       "texts": [
@@ -311,8 +408,8 @@
   ],
   "shortId": "21.047",
   "state": {
-    "id": 3,
-    "name": "Trattato dal Consiglio degli Stati",
+    "id": 4,
+    "name": "Trattato dalle due Camere",
     "doneKey": "0",
     "newKey": 0
   },

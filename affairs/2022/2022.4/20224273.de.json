@@ -1,6 +1,6 @@
 {
   "id": 20224273,
-  "updated": "2022-11-17T08:57:20Z",
+  "updated": "2023-03-01T08:35:56Z",
   "additionalIndexing": "24;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-02-28T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-02-15T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -71,7 +88,33 @@
           },
           "date": "2022-11-15T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3183,
+                    "gender": "f",
+                    "id": 4306,
+                    "name": "Gapany Johanna",
+                    "officialDenomination": "Gapany"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5118"
+            }
           ]
         },
         {
@@ -100,13 +143,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EFD",
+          "id": 7,
+          "name": "Finanzdepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1668466800000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1677538800000+0100)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -149,10 +202,11 @@
   ],
   "shortId": "22.4273",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -161,6 +215,13 @@
         "name": "Begründung"
       },
       "value": "<p>Da die Schuldenbremse im ordentlichen Haushalt ein grösseres konjunkturbedingtes Finanzierungsdefizit zulässt, bleibt sie im Jahre 2023 noch eingehalten. </p><p>In den Finanzplanjahren 2024-2026 wird die Schuldenbremse aus heutiger Sicht nicht mehr eingehalten. Der Grund für das strukturelle Ungleichgewicht sind die stark steigenden Ausgaben, unter anderem für die Armee, die Überbrückung der fehlenden Assoziierung an Horizon Europe sowie für die indirekten Gegenvorschläge zur Gletscherinitiative und zur Prämienentlastungsinitiative. Der Bereinigungsbedarf steigt rasch auf über 3 Milliarden Franken an. </p><p>Der Bundesrat und das Parlament sind gehalten die Schuldenbremse einzuhalten. Mit einer Überprüfung aller gebundenen und ungebundenen Aufgaben soll der Bundesrat Sparpotential ausloten. </p><p>Im Zentrum der Aufgabe steht eine umfassende Überprüfung der Aufgaben der Verwaltung. Im Zentrum steht die Frage, ob der Bund die richtigen Leistungen erbringt und ob die Aufgabenerfüllung und die Leistungserbringung optimal erfolgen oder ob ein Leistungsabbau oder eine andere Form der Leistungserbringung angebracht wäre. Parallel zu den Aufgabenüberprüfungen sind auch der Personaleinsatz und -aufwand überprüft werden. </p><p>Mit diesen Überprüfungen soll sichergestellt werden, dass auch zukünftig die richtigen Aufgaben erbracht werden und die Schuldenbremse eingehalten werden kann, ohne dass das Parlament in der Budgetphase zu Hau-Ruck Übungen greifen muss.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat legt sein Bereinigungskonzept für den Voranschlag 2024 und die Finanzplanjahre bis im Frühjahr 2023 fest. Für die Beseitigung der strukturellen Defizite sind eine Überprüfung der staatlichen Aufgaben und Leistungen sowie eine Prioritätensetzung unabdingbar. Die Arbeiten des Bundesrats entsprechen daher der Stossrichtung der Motion. In diesem Sinne ist der Bundesrat bereit, die Motion entgegenzunehmen.</p><p>Der Bundesrat erwartet auch vom Parlament, dass es ihn bei seinen Arbeiten für einen schuldenbremsenkonformen Finanzplan unterstützt und dass es bei Ausgabenbeschlüssen entsprechend Zurückhaltung zeigt. Kurzfristig können die Defizite nur durch Anpassungen auf der Ausgabenseite beseitigt werden, das heisst durch Verzicht auf oder Verschiebung neuer Vorhaben sowie Kürzungen bei den bestehenden Ausgaben. Deshalb gilt es auch, die Schaffung oder Ausdehnung von Bundesaufgaben wenn immer möglich zu vermeiden oder mit einer Gegenfinanzierung zu verknüpfen.</p>"
     },
     {
       "type": {

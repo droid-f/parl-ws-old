@@ -1,6 +1,6 @@
 {
   "id": 20223891,
-  "updated": "2022-08-24T13:59:25Z",
+  "updated": "2023-03-09T13:18:53Z",
   "additionalIndexing": "10;15;36",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-03-09T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-16T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
@@ -116,7 +133,7 @@
                   "language": "de"
                 }
               ],
-              "sessionId": "5117"
+              "sessionId": "5118"
             }
           ]
         },
@@ -146,13 +163,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFAE",
+          "id": 3,
+          "name": "Département des affaires étrangères",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1661205600000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1678316400000+0100)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -195,10 +222,11 @@
   ],
   "shortId": "22.3891",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -207,6 +235,13 @@
         "name": "Développement"
       },
       "value": "<p>Depuis la rupture des négociations avec l'Union européenne sur l'accord-cadre institutionnel, l'Assemblée fédérale n'a toujours pas pris formellement position sur les prochaines étapes de sa politique européenne. Entre-temps, il est devenu urgent de prendre des mesures en faveur de la place économique suisse et du pôle de recherche suisse. En outre, il faut rappeler que l'objectif 12 du programme de la législature (\" La Suisse dispose d'un cadre réglant ses relations avec l'UE \") reste d'actualité et doit être réalisé.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Un rapport actualisé sur l'état des relations Suisse-UE sera présenté au Conseil fédéral d'ici fin 2022. Ce rapport comprend une rétrospective, une évaluation de la situation des sondages et des perspectives. Ensuite et afin d'assurer une association étroite du Parlement dans l'élaboration du rapport, le Conseil fédéral consultera les commissions de politique extérieure des deux Chambres sur la base de l'art 152 Loi sur le Parlement (LParl ; RS 171.10).</p><p>En revanche, le Conseil fédéral est de l'avis que présenter à l'Assemblée fédérale un projet d'arrêté fédéral simple (art. 163 al. 2 Constitution fédérale; art. 29 al. 1 Loi sur le Parlement) contenant les conclusions de son rapport sur l'état des relations avec l'UE ne servirait pas l'objectif général de la politique européenne de la Suisse. Une telle initiative risquerait de retarder le processus global avec l'UE. En effet, dans l'hypothèse où les sondages en cours offriraient une base suffisante pour lancer de nouvelles négociations, les débats relatifs au projet d'arrêté fédéral simple retarderaient largement l'adoption d'un mandat de négociation, pour lequel les commissions compétentes seraient consultées.</p>"
     },
     {
       "type": {
@@ -220,8 +255,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Arrêté fédéral simple concernant le rapport du Conseil fédéral relatif aux relations entre la Suisse et l’UE"
+      "value": "Arrêté fédéral simple concernant le rapport du Conseil fédéral relatif aux relations entre la Suisse et l'UE"
     }
   ],
-  "title": "Arrêté fédéral simple concernant le rapport du Conseil fédéral relatif aux relations entre la Suisse et l’UE"
+  "title": "Arrêté fédéral simple concernant le rapport du Conseil fédéral relatif aux relations entre la Suisse et l'UE"
 }
