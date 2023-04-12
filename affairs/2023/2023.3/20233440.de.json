@@ -1,6 +1,6 @@
 {
   "id": 20233440,
-  "updated": "2023-03-28T13:51:18Z",
+  "updated": "2023-04-12T00:42:00Z",
   "additionalIndexing": "24;15",
   "affairType": {
     "abbreviation": "Po.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-04-12T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-04-05T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme des Postulates."
       },
       "index": 0,
       "links": [
@@ -105,13 +122,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EFD",
+          "id": 7,
+          "name": "Finanzdepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1679612400000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1681250400000+0200)/",
+          "id": 26,
+          "name": "Angenommen"
         }
       ],
       "texts": [
@@ -119,6 +146,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-04-12T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5119"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -154,12 +186,19 @@
   ],
   "shortId": "23.3440",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 26,
+    "name": "Angenommen",
+    "doneKey": "3",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat teilt das Anliegen der Kommission, dass die Ereignisse, welche zur Übernahme der Credit Suisse durch die UBS und den ergriffenen staatlichen Massnahmen führten, gründlich aufzuarbeiten sowie das bestehende \"Too-big-to-fail\" Regelwerk umfassend zu evaluieren sind. Diese Analyse wird externe Gutachten einbeziehen und auch die Eignung der Notfallplanung einschliessen. Die Ergebnisse sollen dem Parlament innert Jahresfrist im Rahmen des nächsten Berichts des Bundesrates zu den systemrelevanten Banken gemäss Artikel 52 Bankengesetz unterbreitet werden.</p>"
+    },
     {
       "type": {
         "id": 5,
@@ -172,8 +211,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Faktische Anwendbarkeit der too-big-to-fail Regulierung auf internationale Grossbanken"
+      "value": "Faktische Anwendbarkeit der Too-big-to-fail-Regulierung auf internationale Grossbanken"
     }
   ],
-  "title": "Faktische Anwendbarkeit der too-big-to-fail Regulierung auf internationale Grossbanken"
+  "title": "Faktische Anwendbarkeit der Too-big-to-fail-Regulierung auf internationale Grossbanken"
 }
