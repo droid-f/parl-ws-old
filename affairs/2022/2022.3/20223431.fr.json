@@ -1,6 +1,6 @@
 {
   "id": 20223431,
-  "updated": "2022-05-12T14:34:44Z",
+  "updated": "2023-05-03T08:47:14Z",
   "additionalIndexing": "24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-05-02T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-17T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Département des finances",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1652133600000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1682978400000+0200)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -70,6 +97,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-05-02T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5120"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -102,9 +134,9 @@
   ],
   "shortId": "22.3431",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 0
   },
   "texts": [
@@ -114,6 +146,13 @@
         "name": "Développement"
       },
       "value": "<p>L'initiative populaire \" Sauvez l'or de la Suisse (Initiative sur l'or) \" a été rejetée par le peuple et les cantons le 30 novembre 2014. Depuis lors, près de 8 ans se sont écoulés sans que l'emplacement de l'or de la BNS fasse l'objet d'un débat politique en Suisse.</p><p>La BNS détient 1040 tonnes d'or. Cette réserve figure parmi les plus importantes dans l'absolu. A la fin des années 90, elle s'élevait même à 2590 tonnes.</p><p>Le Conseil fédéral s'est toujours montré réticent à révéler où l'or de la BNS était stocké à l'étranger (v. ses réponses aux interventions parlementaires déposées au fil des ans). Dans le contexte de la votation de 2014, on a appris qu'un peu plus de la moitié de cet or était stocké en Suisse et le reste à l'étranger, en particulier en Grande-Bretagne et au Canada.</p><p>Plusieurs Etats européens ont récemment rapatrié leurs réserves d'or. De toute évidence, l'or souverain joue un rôle clef pour les Etats et les marchés lorsque l'incertitude règne et aujourd'hui plus que jamais, dans le contexte de la pandémie et de la guerre. L'issue du conflit que l'Europe connaît actuellement est incertaine, aussi est-il imprudent de laisser les réserves d'or de la Suisse à la merci de pays qui pourraient décider de les bloquer. En 2019, la Grande-Bretagne a par exemple refusé de restituer au Venezuela l'or déposé dans ses coffres.</p><p>En conclusion, on ne peut guère trouver d'endroit plus sûr que la Suisse pour stocker l'or de la BNS.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le stockage des réserves d'or relève de la seule responsabilité de la BNS. Partie intégrante des réserves monétaires, ces réserves d'or sont utilisées à des fins de politique monétaire. En sa qualité de banque centrale indépendante, la BNS mène une politique monétaire servant les intérêts généraux du pays (art. 99 Cst.). L'une de ses tâches principales consiste à gérer les réserves monétaires, conformément à l'art. 5 de la loi sur la Banque nationale.</p><p>Selon le rapport de gestion 2021 de la BNS, environ 70 % des 1040 tonnes d'or continuent d'être stockées en Suisse, tandis que quelque 20 % le sont à la Banque d'Angleterre et près de 10 % à la Banque du Canada. Ces réserves sont donc conservées en majeure partie en Suisse. Un stockage décentralisé permet de mieux répartir les risques (diversification géographique) et offre, si nécessaire, un accès rapide au marché à partir de différents sites (pour effectuer des achats et des ventes). En principe, seuls des pays jouissant d'une grande stabilité politique et économique entrent en ligne de compte pour le stockage de réserves d'or.</p><p>La situation juridique actuelle permet à la BNS de se fonder sur différents critères, notamment celui de la sécurité, pour choisir les lieux appropriés. Elle seule est compétente pour définir les conditions concrètes de stockage, et le Conseil fédéral n'est en aucune manière habilité à édicter des prescriptions, ni à participer aux décisions à ce sujet.</p>"
     },
     {
       "type": {
@@ -127,8 +166,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Rapatrier l’or de la Banque nationale"
+      "value": "Rapatrier l'or de la Banque nationale"
     }
   ],
-  "title": "Rapatrier l’or de la Banque nationale"
+  "title": "Rapatrier l'or de la Banque nationale"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20224259,
-  "updated": "2022-10-20T14:24:07Z",
+  "updated": "2023-05-03T14:35:08Z",
   "additionalIndexing": "0421;08;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-05-02T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2022-11-28T00:00:00Z",
+        "text": "Le Bureau propose d'accepter la motion. Une minorité (Aeschi, Büchel, Cottier) propose de la rejeter."
       },
       "index": 0,
       "links": [
@@ -116,7 +133,7 @@
                   "language": "de"
                 }
               ],
-              "sessionId": "5117"
+              "sessionId": "5120"
             }
           ]
         }
@@ -125,20 +142,38 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "Parl",
+          "id": 1,
+          "name": "Parlement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1665957600000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1682978400000+0200)/",
+          "id": 26,
+          "name": "Adopté"
         }
       ],
       "texts": [
-
+        {
+          "type": null,
+          "value": "Le Bureau propose d'accepter la motion. Une minorité (Aeschi, Büchel, Cottier) propose de la rejeter."
+        }
       ]
     }
   ],
+  "handling": {
+    "date": "2023-05-02T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5120"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -174,18 +209,25 @@
   ],
   "shortId": "22.4259",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 26,
+    "name": "Adopté",
+    "doneKey": "3",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>En adoptant le postulat <a  href=\"https://www.parlament.ch/fr/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20213967\">21.3967</a> (Améliorer les relations avec Taïwan), le Conseil national a confirmé l'attachement qu'il porte aux relations entre la Suisse et Taïwan (Taipei chinois). La recherche d'une collaboration avec le Yuan législatif constituerait pour le bureau un moyen de concrétiser cet intérêt et de soutenir les échanges existant entre la Suisse et Taïwan.</p><p>Le renforcement de la démocratie, de la promotion de la paix et de la stabilité sont des notions fondamentales de la politique étrangère de la Suisse. Il est donc légitime que le Conseil national veuille chercher à les promouvoir au moyen de la diplomatie parlementaire. Ce faisant, le Bureau tient à rappeler que cette démarche ne remet pas en cause la position constante de la Suisse en ce qui concerne la Chine unique.</p><p>Conformément à l'art. 1, al. 1, de l'ordonnance de l'Assemblée fédérale sur les relations internationales du Parlement (ORInt ; RS 171.117), la responsabilité en matière de politique extérieure incombe, au premier chef, aux Commissions de politique extérieure (CPE). Si le Conseil national devait adopter la motion, le bureau reprendrait le mandat visant au renforcement des relations avec le Yuan législatif, après consultation des organes parlementaires compétents.</p>"
+    },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Le bureau est chargé de renforcer les relations du Conseil national avec le Yuan législatif (Taïwan). La collaboration doit notamment contribuer au renforcement de la démocratie, à la promotion de la paix et de la stabilité dans la région et à l'approfondissement des échanges économiques, politiques, scientifiques et culturels entre la Suisse et Taïwan.</p><p> </p><p> </p><p>Une minorité de la commission (Portmann, Aebi, Büchel, Estermann, Grüter, Nidegger, Schneider-Schneiter, Tuena, von Falkenstein, Wasserfallen, Wehrli) propose de rejeter la motion.</p>"
+      "value": "<p>Le bureau est chargé de renforcer les relations du Conseil national avec le Yuan législatif (Taïwan). La collaboration doit notamment contribuer au renforcement de la démocratie, à la promotion de la paix et de la stabilité dans la région et à l'approfondissement des échanges économiques, politiques, scientifiques et culturels entre la Suisse et Taïwan.</p><p> </p><p> </p><p>Une minorité de la commission (Portmann, Aebi, Büchel, Estermann, Grüter, Nidegger, Schneider-Schneiter, Tuena, von Falkenstein, Wasserfallen Christian, Wehrli) propose de rejeter la motion.</p>"
     },
     {
       "type": {

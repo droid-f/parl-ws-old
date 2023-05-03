@@ -1,6 +1,6 @@
 {
   "id": 20223689,
-  "updated": "2022-06-16T13:10:03Z",
+  "updated": "2023-05-03T08:49:39Z",
   "affairType": {
     "abbreviation": "Mo.",
     "id": 5,
@@ -39,10 +39,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-05-02T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-24T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
@@ -55,13 +72,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Dipartimento delle Finanze",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1655330400000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1682978400000+0200)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -69,6 +96,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-05-02T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5120"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -101,19 +133,40 @@
   ],
   "shortId": "22.3689",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Secondo l'articolo 7 della legge sulla vigilanza dei mercati finanziari (LFINMA), la FINMA può disciplinare per il tramite di ordinanze e circolari, ma soltanto se necessario in considerazione del raggiungimento e dell'attuazione degli obiettivi di vigilanza legali. L'articolo 16 dell'ordinanza concernente la legge sulla vigilanza dei mercati finanziari stabilisce inoltre che la FINMA deve verificare che le regolamentazioni rispettino la gerarchia normativa e procedere ai necessari adeguamenti di sua competenza. </p><p>Tra le attività di vigilanza della FINMA rientra anche la \"good governance\". È quindi fondamentale che lei stessa osservi i principi del buon governo. </p><p>Attualmente ciò non è garantito, dato che è proprio la FINMA stessa che decide se e come emanare norme e che verifica il rispetto della gerarchia normativa delle proprie regolamentazioni. Tale compito dovrebbe dunque essere assegnato a un'altra istanza neutrale, come ad esempio all'Autorità federale di sorveglianza dei revisori.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Ai sensi dell'articolo 7 capoverso 1 LFINMA, la FINMA ha a disposizione due strumenti di regolamentazione: le ordinanze e le circolari, ma solo le ordinanze hanno efficacia normativa. Sono comunque indispensabili una base legale nel diritto federale superiore e l'osservanza dei relativi principi (cfr. in particolare l'art. 7 cpv. 2 LFINMA), cosicché la FINMA non può decidere autonomamente se e come emanare norme. A differenza delle ordinanze, le circolari servono esclusivamente a fornire informazioni e a creare trasparenza riguardo all'applicazione della legislazione sui mercati finanziari e non rivestono il carattere di un atto normativo che, in forma direttamente vincolante e in termini generali e astratti, impone obblighi agli assoggettati alla vigilanza, conferisce loro diritti o determina competenze.</p><p>Se non altrimenti previsto in maniera esplicita dal legislatore, le competenze legislative della FINMA si limitano sostanzialmente all'emanazione di disposizioni tecniche d'importanza secondaria. Ciò è conforme ai principi del Consiglio federale in materia di governo d'impresa delle unità rese autonome della Confederazione. Nel febbraio 2020 è inoltre entrata in vigore la nuova ordinanza concernente la legge sulla vigilanza dei mercati finanziari (RS 956.11). Essa concretizza le competenze di disciplinamento della FINMA e stabilisce i principi e i processi della sua attività di regolamentazione.</p><p>L'attività di regolamentazione della FINMA è in linea con le prescrizioni sovraordinate della LFINMA, dell'ordinanza concernente la legge sulla vigilanza dei mercati finanziari e delle leggi e ordinanze sui mercati finanziari. Inoltre, viene svolta con il coinvolgimento degli interessati, delle unità amministrative cointeressate (tra cui l'Ufficio federale di giustizia) e previa consultazione pubblica. Gli assoggettati alla vigilanza possono impugnare davanti al giudice, nel caso concreto, una decisione basata sulle regolamentazioni della FINMA se ritengono che la decisione o la regolamentazione sia illegale o inadeguata.</p><p>La verifica del rispetto della gerarchia normativa da parte delle regolamentazioni della FINMA entro cinque anni dall'entrata in vigore dell'ordinanza concernente la legge sulla vigilanza dei mercati finanziari (art. 16 dell'ordinanza) avviene secondo le prescrizioni specifiche della LFINMA e della nuova ordinanza nonché d'intesa con il Dipartimento federale delle finanze (DFF), che è responsabile del livello normativo superiore. Il Consiglio federale non reputa necessario coinvolgere un'altra autorità esterna per tali verifiche.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di creare le basi legali affinché l'Autorità federale di sorveglianza dei revisori, ad esempio, debba verificare che le regolamentazioni della FINMA rispettino la gerarchia normativa. L'autorità incaricata deve anche accertare che le regolamentazioni proposte dispongano di una sufficiente base legale e che siano adeguate. </p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "La good governance della Finma è garantita?"
     }
   ],
-  "title": "Titolo segue"
+  "title": "La good governance della Finma è garantita?"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20214628,
-  "updated": "2021-12-20T15:01:56Z",
+  "updated": "2023-05-03T08:45:21Z",
   "additionalIndexing": "24;1216",
   "affairType": {
     "abbreviation": "Po.",
@@ -41,10 +41,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-05-02T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung des Postulates."
       },
       "index": 0,
       "links": [
@@ -57,13 +74,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EFD",
+          "id": 7,
+          "name": "Finanzdepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639695600000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1682978400000+0200)/",
+          "id": 26,
+          "name": "Angenommen"
         }
       ],
       "texts": [
@@ -71,6 +98,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-05-02T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5120"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -234,19 +266,33 @@
   ],
   "shortId": "21.4628",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 26,
+    "name": "Angenommen",
+    "doneKey": "3",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Wie der Bundesrat schon in seiner seinerzeitigen Antwort auf das Postulat Stadler 13.4106 \"Aufgabengemässe Kompetenzen der FINMA\" ausgeführt hat, wurde beim Erlass des FINMAG namentlich aus verfahrensrechtlichen Überlegungen bewusst darauf verzichtet, die FINMA mit strafrechtlichen Kompetenzen auszustatten. Die FINMA verfügt zur Erfüllung ihrer Aufgabe über eine Bandbreite an möglichen effizienten Verwaltungssanktionen (darunter etwa das Berufsverbot oder die Einziehung von Gewinn). Strafrechtlich relevante Sachverhalte kann sie dem EFD als der für die Ahndung von Verletzung von Finanzmarktgesetzen zuständigen Strafbehörde anzeigen. Aus der Enforcementstatistik ergibt sich, dass die FINMA in den Jahren 2014 bis 2020 jährlich im Durchschnitt 82 Enforcementverfügungen erlassen und rund 140 Strafanzeigen erstattet hat, weshalb man nicht von einer seltenen Anwendung des FINMA-Instrumentariums sprechen kann. Der Bundesrat sieht deshalb keinen Grund für die Einführung einer strafrechtlichen oder verwaltungsstrafrechtlichen Sanktionskompetenz für die FINMA und er lehnt aus diesem Grund das vorliegende Postulat ab. Es kann aber darauf hingewiesen werden, dass der Bundesrat in seinem Bericht zum Postulat 18.4100 \"Instrument der pekuniären Verwaltungssanktionen\" in allgemeiner Weise aufzeigt, welche Ausgestaltung von finanziellen Verwaltungssanktionen gegenüber beaufsichtigten Unternehmen im Rahmen eines Verwaltungsverfahrens möglich ist und welche Vorkehrungen zu ihrer Realisierung zu treffen wären. Vor diesem Hintergrund könnte eine vertiefte Betrachtung einer allfälligen Kompetenz der FINMA für die Verhängung von pekuniären Verwaltungssanktionen angezeigt sein. Dies und ob die Massnahmen der FINMA allenfalls stärker auf Einzelpersonen und deren Verantwortlichkeit zu fokussieren sind, könnte im Rahmen eines Berichts zum derzeit im Parlament behandelten Postulat 21.3893 Andrey \"Schlanke Werkzeuge, um höchste Finanzmarktkader besser in die Pflicht zu nehmen\" geprüft werden.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, zu prüfen und Bericht zu erstatten, wie der FINMA ermöglicht werden kann, zusätzlich zu den bestehenden Aufsichtsinstrumenten Bussen und/oder weitere Sanktionen gegen fehlbare Finanzinstitute und verantwortliche Personen zu verhängen. </p><p>Fehlbare Finanzinstitute fügen ihrer Kundschaft, dem Wirtschaftsstandort Schweiz und der gesamten Gesellschaft erheblichen Schaden zu. Um dies zu verhindern, braucht die Aufsichtsbehörde FINMA ein griffiges Instrumentarium, damit Verstösse wirksam geahndet werden können. Zwar stehen der FINMA bereits heute Aufsichtsinstrumente wie ein Berufs- oder Tätigkeitsverbot oder die Einziehung von Vermögenswerten zur Verfügung. Es zeigt sich jedoch, dass diese Instrumente gegen fehlbare Finanzinstitute respektive verantwortliche Personen selten zur Anwendung kommen. Es ist deshalb sinnvoll und nötig zu prüfen, wie das Instrumentarium der FINMA wirkungsvoll und kohärent um Bussen und/oder weitere Sanktionen gegen fehlbare Finanzinstitute und/oder verantwortliche Personen ergänzt werden kann, so wie dies die meisten ausländischen Finanzmarktaufsichtsbehörden und in der Schweiz die Wettbewerbskommission bereits kennen.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Wirksame Sanktionen der FINMA gegen fehlbare Finanzinstitute"
+      "value": "Wirksame Sanktionen der Finma gegen fehlbare Finanzinstitute"
     }
   ],
-  "title": "Wirksame Sanktionen der FINMA gegen fehlbare Finanzinstitute"
+  "title": "Wirksame Sanktionen der Finma gegen fehlbare Finanzinstitute"
 }

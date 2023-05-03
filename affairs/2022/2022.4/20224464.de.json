@@ -1,6 +1,6 @@
 {
   "id": 20224464,
-  "updated": "2022-12-23T10:52:28Z",
+  "updated": "2023-05-03T08:02:57Z",
   "additionalIndexing": "2831;0421",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,17 +41,81 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-05-02T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-10T00:00:00Z",
+        "text": "Das Büro beantragt, die Motion abzulehnen.\r\nEine Minderheit (Aeschi Thomas, Büchel Roland) beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
-
+        {
+          "committee": {
+            "abbreviation": "Bü-NR",
+            "id": 1,
+            "name": "Büro NR",
+            "abbreviation1": "Bü-NR",
+            "abbreviation2": "Bü",
+            "committeeNumber": 1,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-15T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3131,
+                    "gender": "m",
+                    "id": 4230,
+                    "name": "Bregy Philipp Matthias",
+                    "officialDenomination": "Bregy"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5120"
+            }
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
@@ -69,13 +133,26 @@
           "date": "/Date(1671058800000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1682978400000+0200)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
-
+        {
+          "type": null,
+          "value": "Das Büro beantragt, die Motion abzulehnen.\r\nEine Minderheit (Aeschi Thomas, Büchel Roland) beantragt die Annahme der Motion."
+        }
       ]
     }
   ],
+  "handling": {
+    "date": "2023-05-02T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5120"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -109,10 +186,10 @@
   ],
   "shortId": "22.4464",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
     {
@@ -121,6 +198,13 @@
         "name": "Begründung"
       },
       "value": "<p>Dialekte prägen den Charakter und sind Symbol und Ausdruck der Schweiz. Nichts drückt besser die Vielfalt unseres Landes aus. </p><p>Wir erleben einen nachhaltigen Umschwung im Verhältnis zu den schweizerdeutschen Dialekten als Schlüsselmerkmal der Deutschschweizer Identität. Der Dialekt gilt als schützens- und pflegenswert. Die Verwendung des Dialekts breitet sich aus, weil die Mundart Nähe und Vertrautheit signalisiert. Eine volksnahe Politik sollte auch Nähe und Vertrautheit signalisieren und die Mundart durch eigene Anwendung stärken. </p><p>Die Pflege der Mundart findet nicht nur bei der Jugend und in den Sozialen Medien grossen Zuspruch, sondern erlebt eine eigentliche kulturelle Blüte. Ein Schweizer Konzern hat seinen Jahresbericht in Schweizerdeutsch abgefasst und eine Gratis-Abendzeitung veröffentlichte mehrmals ihre Ausgabe ausschliesslich in Dialekt, was auf grosses Interesse und Zustimmung gestossen ist. In den Kantonsparlamenten ist die Frage der Verhandlungssprache unterschiedlich geregelt. In den Kantonen AR, BE, BL, GL, SH, SO und SZ sehen die Geschäftsreglemente vor, dass Parlamentsmitglieder für ihre Beratungen neben der Schriftsprache auch die Mundart verwenden können, wobei letztere in AR, BL, SO und SZ vorgeschrieben ist. Es steht dem Nationalrat gut an, den Dialekt vermehrt zu pflegen und zur Unterstreichung der kulturellen Identität soll im Geschäftsreglement des Nationalrates ausdrücklich erwähnt werden, dass die Beratungen im Nationalrat sowohl in der Schriftsprache, als auch in Mundart geführt werden können. </p><p>Dialekt gehört für Schweizerinnen und -schweizer (auch für Westschweizer, die Dialekt sprechen im Parlament) zu ihrem Selbstverständnis. Ob Sanggalätütsch, Baseldytsch, Züritütsch oder Bärndütsch: Auch im digitalen 21. Jahrhundert hat Dialekt Zukunft. </p><p>Ein Dialekt ist zu pflegen und weiterzuentwickeln. Solche Pflege findet einerseits im Alltag statt. Andererseits ist gerade das Parlament ein geeigneter Ort, um lokale Dialekte zu pflegen, zu fördern und zu fordern, um auch für die Zukunft eine lokale Sprachidentität zu erhalten.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Die vom Motionär beantragte Ergänzung der Verhandlungssprachen könnte nicht einzig mit einer Anpassung des Geschäftsreglements des Nationalrates (GRN; SR 171.13) umgesetzt werden, sondern würde vorgängig eine Revision des Bundesgesetzes über die Landessprachen und die Verständigung zwischen den Sprachgemeinschaften (<a  href=\"https://www.fedlex.admin.ch/eli/cc/2009/821/de\">Sprachengesetz</a>, SpG; SR 441.1) bedingen.</p><p>Im SpG wird der Gebrauch der Amtssprachen (<a  href=\"https://www.fedlex.admin.ch/eli/cc/2009/821/de\">Art. 5 SpG</a>) durch die Bundesbehörden geregelt: Gemäss <a  href=\"https://www.fedlex.admin.ch/eli/cc/2009/821/de\">Artikel 8 Absatz 1 </a>äussert sich jedes Mitglied in den Beratungen der eidgenössischen Räte und in ihren Kommissionen in einer Landessprache seiner Wahl. Landessprachen sind gemäss <a  href=\"https://www.fedlex.admin.ch/eli/cc/1999/404/de\">Artikel 4 der Bundesverfassung (BV</a>; SR 101) Deutsch, Französisch, Italienisch und Rätoromanisch.</p><p>Die Verständigung und der Austausch zwischen den Sprachgemeinschaften würde durch das Verwenden der Mundart in der Bundesversammlung erschwert.</p><p>Nebst diesen juristischen und sprachpolitischen Aspekten würde die Umsetzung der Motion zu Problemen und Fragen bei der Simultanübersetzung und der schriftlichen Publikation der Voten im Amtlichen Bulletin führen:</p><p>Einerseits wäre die Simultanübersetzung im Nationalrat aus einer Deutschschweizer Mundart ins Französische, resp. Italienische aus folgenden Gründen nicht machbar:</p><p>- An den Dolmetscherschulen wird ausschliesslich Hochdeutsch gelehrt/trainiert.</p><p>- Im Unterschied zu kantonalen Parlamenten - wie z.B. Grosser Rat Bern, wo hauptsächlich Berndeutsch gesprochen wird - sind im Nationalrat verschiedenste Deutschschweizer Dialekte vertreten, die aufgrund der terminologischen Unterschiede einzeln erlernt werden müssten.</p><p>Es gilt zu beachten, dass in den beiden Kantonsparlamenten Freiburg und Wallis, die nebst Bern auch über eine Simultanübersetzung der Plenarverhandlungen verfügen, Hochdeutsch und nicht Mundart gesprochen wird. In den anderen, vom Motionär aufgeführten Kantonen (AR, BL, GL, SH, SO, SZ) wird nicht simultan gedolmetscht.</p><p>Andererseits gilt es in Bezug auf die schriftliche Publikation der Voten festzuhalten, dass die Umsetzung des Vorstosses einen beträchtlichen Mehraufwand bedeuten würde, selbst wenn die Motion so zu verstehen wäre, dass die auf Dialekt gehaltenen Voten im Amtlichen Bulletin weiterhin auf Hochdeutsch wiedergegeben werden. Man könnte Reden auf Schweizerdeutsch nicht mehr so zeitnah publizieren wie bisher. Je mehr Rednerinnen und Redner Mundart sprechen würden, desto länger würde die Wartezeit, bis das Votum online gestellt wäre.</p><p>Wäre die Motion so zu verstehen, dass die Voten der Ratsmitglieder in Schweizerdeutsch verschriftlicht werden, dann würde sich der Zeitaufwand um ein Mehrfaches erhöhen. Auch müssten wohl Spezialistinnen und Spezialisten der verschiedenen Dialekte beigezogen werden.</p><p>Aus all diesen Gründen kommt das Büro zum Schluss, die Verhandlungen in der Bundesversammlung weiterhin in den Landessprachen zu führen und die Mundart bei anderen Gelegenheiten zu pflegen.</p>"
     },
     {
       "type": {
@@ -134,8 +218,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Sprachenvielfalt der Schweiz stärken - auch im Nationalrat"
+      "value": "Sprachenvielfalt der Schweiz stärken. Auch im Nationalrat"
     }
   ],
-  "title": "Sprachenvielfalt der Schweiz stärken - auch im Nationalrat"
+  "title": "Sprachenvielfalt der Schweiz stärken. Auch im Nationalrat"
 }

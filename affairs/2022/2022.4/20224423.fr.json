@@ -1,6 +1,6 @@
 {
   "id": 20224423,
-  "updated": "2022-12-19T09:59:59Z",
+  "updated": "2023-05-03T21:34:26Z",
   "additionalIndexing": "2841;34",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,42 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Combattu"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-03-17T00:00:00Z",
+            "text": "Combattu. Discussion reportée",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-05-03T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-02-22T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -68,6 +100,11 @@
           "date": "/Date(1670972400000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1683064800000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -161,6 +198,16 @@
     },
     {
       "councillor": {
+        "code": 2740,
+        "gender": "m",
+        "id": 4025,
+        "name": "Büchel Roland Rino",
+        "officialDenomination": "Büchel Roland"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
         "code": 3070,
         "gender": "m",
         "id": 4190,
@@ -177,10 +224,11 @@
   ],
   "shortId": "22.4423",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -189,6 +237,13 @@
         "name": "Développement"
       },
       "value": "<p>Dans sa réponse à l'interpellation 22.4005, le Conseil fédéral indique que l'utilisation de codes QR renvoyant à des informations professionnelles sur les médicaments a donné lieu à des expériences positives. Il souligne qu'elle permet d'améliorer la sécurité des patients en proposant des informations dans davantage de versions linguistiques ou sous des formes accessibles à des personnes analphabètes ou malvoyantes. Des versions numériques de ces informations peuvent en effet être mises à disposition sur le site <a  href=\"http://www.swissmedicinfo.ch\">www.swissmedicinfo.ch</a>, où elles peuvent être lues à voix haute par les principaux navigateurs Internet. </p><p>Les informations mises à disposition par voie électronique seront complémentaires aux informations papier et ne viseront jusqu'à nouvel ordre pas à les remplacer.</p><p>Les bases légales actuelles suffisent pour permettre l'utilisation de codes QR à titre complémentaire. Au premier trimestre 2023, Swissmedic publiera un guide détaillant les règles régissant l'utilisation de ces codes QR, en s'appuyant sur les directives de l'Agence européenne des médicaments. </p><p>L'objectif de la présente motion est d'améliorer la sécurité des patients en tirant parti de la transformation numérique, tout en prévoyant une période transitoire suffisamment longue. </p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>A l'instar de ce qu'il expliquait dans sa réponse à l'interpellation 22.4005 de Marcel Dobler \" Codes QR sur les médicaments. Notices en ligne en davantage de langues et renforcement de la sécurité des patients \", le Conseil fédéral reconnaît que la mise à disposition des textes d'information sur les médicaments sous forme numérique renforce la sécurité des patients, et notamment de ceux qui sont malvoyants ou qui lisent difficilement. Aussi soutient-il la requête exposée dans la motion, dont l'objectif est de créer les bases légales pour rendre obligatoire, moyennant le respect de délais transitoires appropriés, l'impression de codes matriciels (codes QR) qui permettent d'accéder aux textes approuvés de l'information sur le médicament, et de garantir ainsi que tout un chacun puisse consulter les informations électroniques sur les médicaments.</p><p>Il faudra également identifier, dans le cadre de la mise en oeuvre, les adaptations auxquelles il y aura lieu de procéder afin que les textes d'information au format numérique soient accessibles pour le plus grand nombre en application de la norme eCH 0059.</p>"
     },
     {
       "type": {
@@ -202,8 +257,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Des codes QR sur les médicaments et les notices d’emballage pour augmenter la sécurité des patients"
+      "value": "Des codes QR sur les médicaments et les notices d'emballage pour augmenter la sécurité des patients"
     }
   ],
-  "title": "Des codes QR sur les médicaments et les notices d’emballage pour augmenter la sécurité des patients"
+  "title": "Des codes QR sur les médicaments et les notices d'emballage pour augmenter la sécurité des patients"
 }

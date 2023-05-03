@@ -1,6 +1,6 @@
 {
   "id": 20223480,
-  "updated": "2022-05-12T14:22:40Z",
+  "updated": "2023-05-03T08:49:05Z",
   "additionalIndexing": "04;2846;48",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-05-02T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-17T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Département des finances",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1652220000000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1682978400000+0200)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -70,6 +97,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-05-02T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5120"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -202,19 +234,40 @@
   ],
   "shortId": "22.3480",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Les prix des loyers augmentent en Suisse. Or certaines entreprises publiques, comme les CFF ou La Poste, ont un portefeuille immobilier non négligeable. En Suisse, le principe du loyer basé sur les coûts prime celui du loyer basé sur le marché. Si un locataire soupçonne que son loyer est abusif, il doit en apporter la preuve, ce qui, dans la pratique, n'est pas aisé. C'est pourquoi il existe une obligation de collaboration du bailleur, qui doit divulguer les bases de calcul. Cette obligation ne s'applique toutefois pas aux biens immobiliers dont le propriétaire n'a pas changé depuis 30 ans, ce qui est souvent le cas des biens immobiliers appartenant à l'Etat ou à des entreprises publiques. Dans la pratique, les entreprises publiques prétextent cette exception pour refuser de fournir leurs bases de calcul. Alors qu'on peut tout à fait supposer qu'elles disposent d'un service comptable professionnel et savent donc très bien quel est le rendement de leurs biens immobiliers.</p><p>La réglementation proposée permettra en outre de créer un pool d'objets comparables qui servira de base à l'évaluation des loyers usuels dans la localité ou dans le quartier.</p><p>Comme l'ont révélé les médias, une entreprise au moins appartenant à la Confédération a fait fi des normes légales dans le but de maximiser ses profits.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le problème soulevé par l'auteur de la motion concerne tous les bailleurs, qu'ils soient professionnels de l'immobilier, institutionnels comme les caisses de pension, proches de l'Etat ou privés. Le Tribunal fédéral notamment a publié plusieurs arrêts sur la question des loyers initiaux jugés abusifs (selon art. 269a, let. a, CO [RS 220]). Conformément à la jurisprudence, un calcul de rendement peut être difficile pour des immeubles anciens, c'est pourquoi le critère des loyers usuels de la localité ou du quartier l'emporte sur le critère du rendement net pour déterminer si un loyer initial est abusif ou non (cf. ATF 139 III 13, consid. 3.1.2). En effet, pour des immeubles détenus par un même bailleur depuis plus de 30 ans, le Tribunal fédéral précise que \"les chiffres de l'année d'acquisition ne sont en règle générale plus en rapport avec la réalité économique actuelle\" (ATF 144 III 514, consid. 3.4). La qualité du propriétaire - institutionnel, professionnel de l'immobilier ou privé - ne justifie pas de différence de traitement: l'ancienneté de l'immeuble est le critère déterminant (ATF 144 III 514, consid. 3.3).</p><p>Le fait que le critère des loyers usuels de la localité ou du quartier pourrait être difficile à appliquer pour définir si un loyer initial est abusif fait actuellement l'objet de discussions au Parlement (cf. iv. pa. 17.493 Egloff \"Loyers usuels dans la localité ou dans le quartier. Instaurer des critères à valeur probante\" et iv. pa. 16.451 Egloff \"Bonne foi dans le droit du bail. Contestation du loyer initial limitée aux cas dans lesquels le locataire a conclu le bail par nécessité\"). Le Conseil fédéral estime qu'il n'est pas nécessaire de soumettre à d'autres règles les entreprises proches de l'Etat ou les organes institutionnels. Le cadre légal en vigueur est valable pour tout bailleur.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé d'obliger par la loi toutes les entreprises détenues à 50,01 % au moins par la Confédération ainsi que toutes les personnes morales de la Confédération qui louent des biens immobiliers à des entreprises et/ou à des particuliers à publier périodiquement les calculs des loyers pour chaque objet loué, rendement du bien compris.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Entreprises publiques et transparence des loyers"
     }
   ],
-  "title": "Titre suit"
+  "title": "Entreprises publiques et transparence des loyers"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20223414,
-  "updated": "2022-05-10T11:22:37Z",
+  "updated": "2023-05-03T08:46:59Z",
   "additionalIndexing": "34;15;1236",
   "affairType": {
     "abbreviation": "Mo.",
@@ -33,10 +33,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-05-02T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-17T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
@@ -49,13 +66,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Département des finances",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1652047200000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1682978400000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -98,9 +125,10 @@
   ],
   "shortId": "22.3414",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -110,6 +138,13 @@
         "name": "Développement"
       },
       "value": "<p>La Suisse a besoin de bases légales qui régissent avec précision les circonstances dans lesquelles les équipementiers en télécommunications ou autres fournisseurs de solutions dans le domaine des TIC peuvent apporter leur contribution aux infrastructures critiques de la Suisse. Chaque fournisseur, par exemple dans le domaine des réseaux de téléphonie mobile 5G, devrait au préalable garantir la fiabilité de ses produits et prouver qu'il n'est pas sous le contrôle direct ou indirect d'un Etat. Un équipementier de réseau comme Huawei, dont les relations avec le régime autocratique de la République populaire de Chine ne sont pas encore clarifiées à ce jour, devrait à l'avenir garantir la fiabilité de ses composants et son indépendance vis-à-vis de l'Etat chinois, faute de quoi il pourrait être exclu de la participation au fonctionnement des infrastructures critiques de la Suisse.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Les systèmes informatiques modernes sont constitués d'une multitude de composants distincts, dont la production et la programmation sont hautement globalisées. Il est vrai qu'un grand nombre de ces composants sont fournis par des entreprises qui sont sous le contrôle plus ou moins strict de leur gouvernement. Le Conseil fédéral est conscient que cette réalité engendre des risques en ce qui concerne la fiabilité des produits en question.</p><p>Afin de réduire ces risques, il est possible d'exiger la fourniture de preuves de fiabilité, notamment par le biais de directives visant à garantir la certification des produits informatiques et le respect des principes de sécurité de l'information lors de leur utilisation. Par exemple, le Conseil fédéral prévoit d'ores et déjà d'imposer des mesures de ce type aux exploitants de réseaux de téléphonie mobile 5G avec la modification de l'ordonnance sur les services de télécommunication (OST).</p><p>Compte tenu de l'interconnexion à l'échelle mondiale des infrastructures numériques, interdire les produits de certains fournisseurs en Suisse ne peut avoir qu'une efficacité relative en matière de sécurité. Certes, le risque qu'un autre Etat accède aux systèmes informatiques suisses en serait réduit, mais des mesures locales ne suffiraient pas à éliminer ce danger dès lors que les systèmes informatiques concernés sont connectés au réseau mondial.</p><p>En outre, il existe des alternatives aux interdictions. De nombreux risques peuvent être réduits à un niveau acceptable au moyen de mesures en matière de technique, de processus ou d'organisation. Dans un premier temps, il convient toutefois d'identifier et d'évaluer correctement ces risques. Nous développons nos capacités d'analyse dans ce domaine en permanence. C'est dans cette optique que le Centre national pour la cybersécurité collabore avec des organisations partenaires telles que l'Institut national de test pour la cybersécurité de Zoug.</p><p>Avant d'envisager l'interdiction des produits de certains fournisseurs, il faudra mener une évaluation globale des risques auxquels nous faisons face et des mesures à notre disposition pour les écarter.</p><p>Le Parlement a déjà confié un mandat en ce sens au Conseil fédéral avec le postulat Pult (20.3984) \"Infrastructure numérique. Réduire les risques géopolitiques\". L'élaboration des bases légales correspondantes fera l'objet de discussions une fois cette analyse réalisée.</p>"
     },
     {
       "type": {
@@ -123,8 +158,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Protection des infrastructure critiques de la Suisse contre l’influence d’autres États"
+      "value": "Protection des infrastructures critiques de la Suisse contre l'influence d'autres États"
     }
   ],
-  "title": "Protection des infrastructure critiques de la Suisse contre l’influence d’autres États"
+  "title": "Protection des infrastructures critiques de la Suisse contre l'influence d'autres États"
 }

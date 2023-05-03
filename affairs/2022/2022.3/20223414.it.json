@@ -1,6 +1,6 @@
 {
   "id": 20223414,
-  "updated": "2022-05-10T11:22:37Z",
+  "updated": "2023-05-03T08:46:59Z",
   "additionalIndexing": "34;15;1236",
   "affairType": {
     "abbreviation": "Mo.",
@@ -33,10 +33,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-05-02T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-17T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
@@ -49,13 +66,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Dipartimento delle Finanze",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1652047200000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1682978400000+0200)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -98,9 +125,10 @@
   ],
   "shortId": "22.3414",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -110,6 +138,13 @@
         "name": "Motivazione"
       },
       "value": "<p>La Svizzera necessita di basi legali che disciplinino in modo preciso a quali condizioni i fornitori di servizi di telecomunicazione o altri fornitori di prodotti nel settore delle TIC possono offrire i loro componenti diventando parte attiva dell'infrastruttura critica della Svizzera. Ciascun fornitore, ad esempio nel settore delle reti mobili 5G, dovrebbe innanzitutto garantire l'affidabilità dei suoi prodotti e dimostrare di non essere controllato da un altro Stato, né direttamente né indirettamente. In futuro, un fornitore di attrezzature di rete come Huawei, il cui rapporto con il regime autocratico della Repubblica popolare Cinese è ad oggi ancora poco chiaro, dovrebbe garantire l'affidabilità dei suoi componenti e la sua indipendenza dallo Stato cinese per non essere escluso dall'infrastruttura critica della Svizzera.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Gli attuali sistemi TIC sono costituiti da una moltitudine di singoli componenti la cui produzione e programmazione è fortemente globalizzata. È un dato di fatto che molti di questi componenti vengono prodotti da imprese che sono controllate dai loro governi in maniera più o meno marcata. Il Consiglio federale è consapevole del fatto che ciò comporta dei rischi in merito all'affidabilità dei prodotti in questione.</p><p>Al fine di ridurre simili rischi è possibile richiedere delle prove di confidenzialità mediante prescrizioni in materia di certificazione di prodotti TIC nonché di attuazione dei principi di sicurezza informatica durante il loro utilizzo. Con le modifiche dell'ordinanza del 9 marzo 2007 sui servizi di telecomunicazione (OST), il Consiglio federale ha già previsto l'introduzione di misure di questo genere, ad esempio per i gestori di reti mobili 5G.</p><p>Dal momento che le infrastrutture digitali sono interconnesse a livello globale, occorre relativizzare l'effetto che un divieto di singoli produttori in Svizzera potrebbe avere sulla sicurezza. Anche se permetterebbe di ridurre il rischio che altri Stati accedano a sistemi TIC in Svizzera, un divieto limitato a livello locale non è sufficiente per eliminare questo pericolo nel caso di sistemi TIC interconnessi globalmente.</p><p>Inoltre, ai divieti esistono delle alternative. Grazie a misure sul piano tecnico, processuale od organizzativo è possibile ridurre molti rischi a un livello sostenibile, a condizione che questi ultimi vengano individuati e valutati correttamente. Le capacità per effettuare tali analisi vengono costantemente potenziate. A tal fine, il Centro nazionale per la cibersicurezza (NCSC) collabora con organizzazioni partner, come l'istituto nazionale di test per la cibersicurezza di Zugo.</p><p>Prima di esaminare la possibilità di un divieto, occorre effettuare una valutazione globale dei rischi esistenti e delle possibili contromisure.</p><p>Con il postulato 20.3984 \"Infrastruttura digitale. Minimizzare i rischi geopolitici\", depositato da Pult, il Parlamento ha già conferito il corrispondente incarico al Consiglio federale. L'istituzione di basi legali dovrebbe essere discussa solo al termine di tale analisi.</p>"
     },
     {
       "type": {
@@ -123,8 +158,8 @@
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Protezione dell’infrastruttura critica della Svizzera dall’influenza di altri Stati"
+      "value": "Protezione dell'infrastruttura critica della Svizzera dall'influenza di altri Stati"
     }
   ],
-  "title": "Protezione dell’infrastruttura critica della Svizzera dall’influenza di altri Stati"
+  "title": "Protezione dell'infrastruttura critica della Svizzera dall'influenza di altri Stati"
 }

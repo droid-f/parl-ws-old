@@ -1,6 +1,6 @@
 {
   "id": 20213680,
-  "updated": "2021-06-11T11:37:40Z",
+  "updated": "2023-05-03T15:11:45Z",
   "additionalIndexing": "15;55",
   "affairType": {
     "abbreviation": "Mo.",
@@ -16,9 +16,9 @@
       "officialDenomination": "Regazzi"
     },
     "faction": {
-      "abbreviation": "M-E",
+      "abbreviation": "Fraktion M-E",
       "code": "M-E",
-      "id": 139,
+      "id": 3,
       "name": "Die Mitte-Fraktion. Die Mitte. EVP."
     },
     "type": "author"
@@ -41,7 +41,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-05-02T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -72,6 +86,11 @@
           "date": "/Date(1623276000000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1682978400000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -502,9 +521,9 @@
         "officialDenomination": "Regazzi"
       },
       "faction": {
-        "abbreviation": "M-E",
+        "abbreviation": "Fraktion M-E",
         "code": "M-E",
-        "id": 139,
+        "id": 3,
         "name": "Die Mitte-Fraktion. Die Mitte. EVP."
       },
       "type": "author"
@@ -512,9 +531,10 @@
   ],
   "shortId": "21.3680",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
