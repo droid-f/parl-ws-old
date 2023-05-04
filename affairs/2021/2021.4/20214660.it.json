@@ -1,6 +1,6 @@
 {
   "id": 20214660,
-  "updated": "2021-12-20T14:44:39Z",
+  "updated": "2023-05-04T17:42:03Z",
   "additionalIndexing": "34;28;09;1236",
   "affairType": {
     "abbreviation": "Po.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-05-04T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-02-23T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere il postulato."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639695600000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1683151200000+0200)/",
+          "id": 26,
+          "name": "Adottato"
         }
       ],
       "texts": [
@@ -70,6 +97,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-05-04T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5120"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -272,19 +304,40 @@
   ],
   "shortId": "21.4660",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 26,
+    "name": "Adottato",
+    "doneKey": "3",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>È evidente che non è facile limitare l'impiego inappropriato di tecnologie senza ostacolare gli aspetti positivi del progresso. È tuttavia chiaro che all'estero appaiono determinate derive che non si dovrebbero vedere in Svizzera. Alcune reti, come ad esempio il prodotto \"Ring\" di Amazon, permettono di creare una sorta di massiccia rete di sorveglianza privata e sono talmente problematiche che persino uno degli ingegneri di Amazon le ha definite semplicemente incompatibili con una società libera. </p><p>Se le società che li producono e li distribuiscono mantengono un elevato livello di controllo sui sistemi di sicurezza intelligenti e gestiscono anche il relativo software, si apre la strada a numerosi abusi. Questo è particolarmente vero nel caso di tecnologie di riconoscimento. È quindi evidente che i problemi legati alla sorveglianza di massa non si limitano alla questione della sorveglianza della popolazione da parte dello Stato, ma riguardano anche la possibilità che potenti attori privati organizzino reti di sorveglianza di massa. Occorre agire prima che questa tecnologia diventi troppo dominante.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale è consapevole che dispositivi elettronici di uso domestico che si avvalgono di tecnologie quali la geolocalizzazione o videocamere con o senza riconoscimento biometrico (p. es. videocitofono con modalità di registrazione) possono essere distolti dal loro uso corrente a fini di sorveglianza di terzi. Indipendentemente dall'utilità di tali dispositivi, la loro diffusione potrebbe porre nuove sfide in una società come la nostra che attribuisce grande importanza alle libertà fondamentali.</p><p>Il Consiglio federale ritiene tuttavia prematuro stilare un rapporto sulla questione. Da un lato, il quadro normativo esistente pone già determinati limiti all'utilizzo di tali dispositivi, come in particolare nella legge federale sulla protezione dei dati (LPD; RS 235.1), riveduta di recente (FF 2020 6695), e negli articoli 179bis e seguenti del Codice penale (CP; RS 311). La registrazione di dati tramite tali dispositivi o la loro condivisione con terzi può quindi costituire una lesione illecita della personalità se non è giustificata dal consenso dell'interessato, da un interesse pubblico o privato preponderante o dalla legge. L'interessato può chiedere al giudice di vietare il trattamento o la comunicazione a terzi nonché la cancellazione o la distruzione dei dati (art. 13-15 LPD; art. 31 e 32 cpv. 2 della riveduta LPD). Oltre a ciò, chiunque ascolta, con un apparecchio di intercettazione, o registra, su un supporto del suono, una conversazione estranea non pubblica o chiunque, senza l'assenso degli altri interlocutori, registra su un supporto del suono, una conversazione estranea non pubblica a cui ha preso parte è punibile secondo gli articoli 179bis e 179ter CP. L'Incaricato federale della protezione dei dati e della trasparenza può inoltre pubblicare promemoria destinati ai privati, come ha fatto, ad esempio, per la videosorveglianza o i droni. Dopo l'entrata in vigore della nuova legge potrà pure emanare decisioni che vietano un trattamento di dati contrario alla legge (art. 51 della riveduta LPD).</p><p>Il Consiglio federale desidera attendere gli effetti della nuova legge sulla protezione dei dati nonché i risultati dei lavori del Consiglio d'Europa e dell'Unione europea nel settore dell'intelligenza artificiale prima di esaminare l'opportunità di adottare provvedimenti. Seguirà comunque attentamente l'evolversi della situazione.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Sul mercato sono immesse sempre più tecnologie il cui utilizzo può nuocere alla vita privata della popolazione e che possono essere impiegate in maniera relativamente semplice da chiunque. Ad esempio, alcune videocamere specializzate nel riconoscimento sono in grado di seguire persone o oggetti specifici. Se abbinati a software specifici, questi strumenti possono costituire una grave minaccia per la vita privata della popolazione. </p><p>Anche oggetti non sviluppati specificamente per il riconoscimento facciale possono essere utilizzati con software che mettono in pericolo la vita privata della popolazione. Alcuni Stati esteri impiegano tecnologie di questo tipo per instaurare una sorveglianza della popolazione. Il sistema giuridico attuale non permette tuttavia di garantire in Svizzera che attori privati non usino queste tecnologie in maniera inappropriata. </p><p>Il Consiglio federale è invitato a presentare un rapporto che stabilisca i rischi legati alle tecnologie di sorveglianza e di riconoscimento accessibili ai privati, e a proporre misure in grado di tutelare la popolazione da un'inaccettabile invasione della vita privata. Questo può essere fatto in particolare limitando la possibilità di acquisire determinati oggetti o software oppure limitandone l'utilizzo in maniera più severa rispetto ad oggi.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Regolamentazione per i prodotti che ledono gravemente la protezione della sfera privata"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Regolamentazione per i prodotti che ledono gravemente la protezione della sfera privata"
 }
