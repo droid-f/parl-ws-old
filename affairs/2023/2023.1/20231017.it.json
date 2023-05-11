@@ -1,6 +1,6 @@
 {
   "id": 20231017,
-  "updated": "2023-03-21T14:17:07Z",
+  "updated": "2023-05-11T06:49:07Z",
   "additionalIndexing": "04;34;1236",
   "affairType": {
     "abbreviation": "I",
@@ -44,6 +44,7 @@
         ]
       },
       "federalCouncilProposal": {
+        "date": "2023-05-10T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +57,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1678921200000+0100)/",
           "id": 9,
           "name": "Depositato"
+        },
+        {
+          "date": "/Date(1683669600000+0200)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -70,6 +81,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-05-10T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5121"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -102,12 +118,19 @@
   ],
   "shortId": "23.1017",
   "state": {
-    "id": 9,
-    "name": "Depositato",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>1. Non resta da chiarire nulla di fondamentale, ma soltanto questioni cui possono essere fornite risposte differenti a seconda delle considerazioni politiche o tecniche sulle quali ci si basa. Tali questioni saranno integrate nel messaggio che il Consiglio federale prevede di adottare nell'autunno 2023.</p><p>2. La decisione di principio del Consiglio federale del 17 dicembre 2021 (\"self sovereign identity\", \"privacy by design\", principio della minimizzazione dei dati) si fonda su determinate scelte in materia di architettura del sistema che devono essere disciplinate a livello di legge e sono già contenute nell'avamprogetto. Tuttavia, sistemi complessi esigono sempre decisioni architetturali a diversi gradi di astrazione. L'obiettivo è quindi emanare disposizioni legali essenzialmente neutre dal punto di vista architetturale e tecnologico.</p><p>3./4. Per rispondere alla domanda concernente l'architettura del futuro sistema, prendiamo ad esempio l'Id-e, poiché le altre prove elettroniche sono rette da principi simili. L'emittente (fedpol) emette l'Id-e nei suoi sistemi e la trasmette al titolare tramite un canale di comunicazione sicuro. Il titolare conserva la sua Id-e nel suo portafoglio elettronico, verosimilmente in un'applicazione per smartphone. Un'applicazione idonea dovrebbe essere fornita gratuitamente dalla Confederazione. Quando si presenta un'Id-e, le autorità o i privati possono verificarne l'autenticità e la validità presso un registro gestito dalla Confederazione. Questo registro non contiene nessun dato dell'Id-e e non permette di dedurre chi è il suo titolare, qual è il suo contenuto o come è utilizzata.</p><p>Come già previsto nell'avamprogetto inviato in consultazione, la memorizzazione decentralizzata dei dati sarà assicurata dalla conservazione dell'Id-e in portafogli elettronici individuali. La minimizzazione dei dati sarà garantita in quanto l'emittente dell'Id-e non riceverà alcuna informazione sulla modalità di utilizzo. Sarà inoltre possibile presentare, invece dell'Id-e completa, soltanto alcuni attributi o una semplice informazione dedotta logicamente da questi attributi (p. es. \"ha più di 18 anni\").</p><p>L'Id-e dovrà raggiungere un livello di sicurezza \"sostanziale\" per poter essere riconosciuta all'estero, in particolare nell'UE, o utilizzata nel quadro di applicazioni quali la cartella informatizzata del paziente. Dovrà inoltre menzionare il documento d'identità a partire dal quale è emessa. Le autorità o i privati potranno accordare autorizzazioni diverse a seconda del documento di cui si tratta. È ad esempio ipotizzabile che le banche rifiutino l'Id-e come documento per l'apertura di un conto se si fonda su una determinata categoria di permessi per stranieri.</p><p>5. In linea di principio, è il titolare che decide quando vuole utilizzare l'Id-e (\"self sovereign identity\"). Con il messaggio saranno tuttavia proposte disposizioni volte a prevenire il rischio di un eccesso di identificazione (richiesta di presentare un'Id-e senza motivo legittimo o più degli attributi dell'Id-e strettamente necessari).</p><p>Il Consiglio federale non si esprime in merito alle strategie commerciali di fornitori privati.</p><p>6. Se un'impresa parastatale deve identificare una persona in una procedura disciplinata dalla legge e offre la possibilità di identificarsi per via elettronica, dovrà riconoscere (anche) l'Id-e.</p><p>Per tutte le altre offerte, questo tipo d'impresa sarà libera di permettere l'utilizzo dell'Id-e, fintanto che ciò non comporti un eccesso di identificazione.</p>"
+    },
     {
       "type": {
         "id": 5,

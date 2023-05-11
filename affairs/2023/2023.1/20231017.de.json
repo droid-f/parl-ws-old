@@ -1,6 +1,6 @@
 {
   "id": 20231017,
-  "updated": "2023-03-21T14:17:07Z",
+  "updated": "2023-05-11T06:49:07Z",
   "additionalIndexing": "04;34;1236",
   "affairType": {
     "abbreviation": "A",
@@ -45,6 +45,7 @@
         ]
       },
       "federalCouncilProposal": {
+        "date": "2023-05-10T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -57,13 +58,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1678921200000+0100)/",
           "id": 9,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1683669600000+0200)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -71,6 +82,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-05-10T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5121"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -104,12 +120,19 @@
   ],
   "shortId": "23.1017",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>1. Es liegen keine grundsätzlichen Unklarheiten vor, sondern Fragen, die aufgrund von politischen und technischen Überlegungen unterschiedlich beantwortet werden können. Dies erfolgt mit der Botschaft, welche vom Bundesrat im Herbst 2023 verabschiedet werden soll.</p><p>2. Aus dem Richtungsentscheid des Bundesrats vom 17. Dezember 2021 (Self Sovereign Identity, Privacy by Design, Prinzip der Datensparsamkeit) können gewisse Architekturentscheide abgeleitet werden, die auf Gesetzesstufe geregelt werden müssen und die bereits im Vorentwurf enthalten sind. Allerdings erfordern komplexe Systeme immer architektonische Entscheide auf unterschiedlichen Abstraktionsebenen. Daher ist es Ziel, auf Gesetzesstufe Regelungen zu finden, die weitgehend neutral hinsichtlich Architektur und Technologie sind.</p><p>3./4. Die Frage bezüglich zukünftiger Architektur wird hier am Beispiel der E-ID beantwortet. Sie gilt sinngemäss auch für andere elektronische Nachweise. Die Ausstellerin (fedpol) stellt die E-ID in ihren eigenen Systemen aus und übermittelt diese via sicheren Kommunikationskanal der Inhaberin oder dem Inhaber. Die Inhaberin oder der Inhaber hält ihre/seine E-ID in einer elektronischen Brieftasche. Typischerweise handelt es sich hierbei um eine Applikation für Smartphones. Der Bund plant, eine solche Applikation kostenfrei zur Verfügung zu stellen. Beim Vorweisen der E-ID können Behörden oder Private die Authentizität und Gültigkeit der E-ID anhand von Registereinträgen überprüfen. Diese Register werden vom Bund betrieben. Die Registereinträge enthalten keine Inhalte der Nachweise und erlauben auch keine Rückschlüsse auf die Inhaberinnen und Inhaber, den Inhalt der Nachweise oder deren Verwendung.</p><p>Wie bereits mit dem Vernehmlassungsentwurf vorgeschlagen, wird die Dezentralität gesichert durch die Haltung der E-ID in individuellen elektronischen Brieftaschen. Die Datensparsamkeit wird gesichert durch den Umstand, dass die Ausstellerin keine Kenntnis hat, wie die Inhaberin oder der Inhaber der E-ID diese einsetzt. Zudem wird es möglich sein, anstelle aller Angaben der E-ID nur einzelne Attribute oder logische Ableitungen vorzuweisen (wie zum Beispiel \"ist älter als 18 Jahre alt\").</p><p>Die EID muss das Sicherheitsniveau \"substanziell\" erreichen, damit eine gegenseitige Anerkennung insbesondere mit der EU erlangt werden kann und Anwendungen wie das das elektronische Patientendossier die E-ID tatsächlich einsetzen können. Weiter soll bei der E-ID vermerkt werden, welcher amtliche Ausweis der Ausstellung zu Grunde lag. Behörden oder Private können davon unterschiedliche Berechtigungen ableiten. So ist denkbar, dass eine E-ID, die auf Basis einer gewissen Kategorie von Ausländerausweisen ausgestellt worden ist, nicht für die Eröffnung eines Bankkontos verwendet werden kann.</p><p>5. Grundsätzlich entscheidet die Inhaberin oder der Inhaber, wann sie oder er die EID einsetzen will (Self Sovereign Identity). Mit der Botschaft sollen jedoch Regelungen vorgeschlagen werden, welche der Gefahr der Überidentifikation (Verlangen der E-ID ohne legitimen Grund oder das Verlangen von mehr als den minimal erforderlichen Bestandteilen der E-ID) entgegenwirken sollen.</p><p>Bezüglich der Marktstrategien von privaten Anbieterinnen äussert sich der Bundesrat nicht.</p><p>6. Wenn ein bundesnaher Betrieb eine Person in einem gesetzlich geregelten Prozess identifiziert und er die Möglichkeit einer elektronischen Identifikation anbietet, muss er (auch) die E-ID anerkennen.</p><p>Bei allen anderen Angeboten sind bundesnahe Betriebe frei, die E-ID zum Einsatz zu bringen, soweit nicht Überidentifikation vorliegt.</p>"
+    },
     {
       "type": {
         "id": 5,

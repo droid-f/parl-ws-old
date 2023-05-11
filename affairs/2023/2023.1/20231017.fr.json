@@ -1,6 +1,6 @@
 {
   "id": 20231017,
-  "updated": "2023-03-21T14:17:07Z",
+  "updated": "2023-05-11T06:49:07Z",
   "additionalIndexing": "04;34;1236",
   "affairType": {
     "abbreviation": "Q",
@@ -44,6 +44,7 @@
         ]
       },
       "federalCouncilProposal": {
+        "date": "2023-05-10T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +57,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1678921200000+0100)/",
           "id": 9,
           "name": "Déposé"
+        },
+        {
+          "date": "/Date(1683669600000+0200)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -70,6 +81,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-05-10T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5121"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -102,12 +118,19 @@
   ],
   "shortId": "23.1017",
   "state": {
-    "id": 9,
-    "name": "Déposé",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>1. Il ne reste rien de fondamental à éclaircir ; ce sont plutôt des questions qui peuvent admettre différentes réponses selon l'éclairage politique ou technique. Les solutions choisies seront intégrées dans le message que le Conseil fédéral présentera à l'automne 2023.</p><p>2. La décision de principe du Conseil fédéral du 17 décembre 2021 (identité souveraine, protection des données dès la conception, minimisation des données) implique certains choix en matière d'architecture du système, qui doivent être transposés au niveau de la loi et qui sont déjà contenus dans l'avant-projet. Les décisions à prendre en la matière relèvent toutefois de divers degrés d'abstraction. Le but est donc d'édicter des dispositions légales qui restent essentiellement neutres concernant l'infrastructure et les technologies choisies.</p><p>3./4. Pour ce qui est de l'architecture du futur système, prenons ici pour exemple l'eID, les autres preuves électroniques étant régies selon des principes similaires. L'émetteur (fedpol) établit l'e-ID dans des systèmes informatiques qui lui sont propres avant de la transmettre à son titulaire par un canal sécurisé. Le ou la titulaire conserve son e-ID dans un portefeuille électronique, le plus vraisemblablement dans une application pour smartphone. Une application idoine devrait être fournie gratuitement par la Confédération. Lorsqu'on leur présente une e-ID, les autorités ou les entreprises par exemple peuvent vérifier qu'elle est authentique et valide auprès d'un registre géré par la Confédération. Ce registre ne contient aucune des données de l'e-ID et ne permet pas de déduire qui est son titulaire, quel est son contenu ou comment elle est utilisée.</p><p>Les exigences posées sont mises en oeuvre de la même manière que dans l'avant-projet mis en consultation. L'enregistrement est décentralisé du fait que l'e-ID est conservée dans un portefeuille électronique du titulaire. La minimisation des données est assurée premièrement en ce que l'émetteur de l'e-ID ne reçoit aucune information sur la façon dont elle est utilisée, deuxièmement parce qu'il est possible, au lieu de présenter son e-ID complète, de n'en présenter que quelques attributs, voire une simple information découlant logiquement de ces attributs (par exemple \" a plus de 18 ans \").</p><p>L'e-ID devra avoir un niveau de sécurité \" substantiel \" pour pouvoir être reconnue à l'étranger, notamment dans l'UE, ou pour être utilisée en lien avec le dossier électronique du patient. De plus, l'e-ID comprendra la mention du document d'identité à partir duquel elle est émise. Les autorités et les entreprises pourront accorder des droits différents selon le document dont il s'agit. Par exemple, on peut imaginer de voir les banques refuser l'e-ID comme pièce pour l'ouverture d'un compte si elle est fondée sur telle ou telle catégorie de titre de séjour pour étranger.</p><p>5. En principe, c'est le titulaire qui choisira quand et pour quoi il veut utiliser son e-ID (identité souveraine). Avec le message seront proposées des dispositions visant à prévenir le risque d'excès de formalisme (demande abusive de présenter une e-ID sans raison légitime ou de présenter plus que les attributs strictement nécessaires d'une e-ID).</p><p>Par ailleurs, le Conseil fédéral ne saurait se prononcer sur la stratégie commerciale de fournisseurs privés.</p><p>6. Si une entreprise parapublique doit identifier une personne dans un processus réglé par la loi et qu'elle offre la possibilité de s'identifier par la voie numérique, elle devra accepter l'e-ID.</p><p>Pour toutes les autres démarches, ce type d'entreprise sera libre de permettre l'utilisation de l'e-ID, tant que cela ne mène pas à un abus de formalisme.</p>"
+    },
     {
       "type": {
         "id": 5,
