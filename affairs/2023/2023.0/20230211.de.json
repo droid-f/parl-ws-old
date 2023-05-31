@@ -1,6 +1,6 @@
 {
   "id": 20230211,
-  "updated": "2023-05-24T13:41:18Z",
+  "updated": "2023-05-31T07:34:08Z",
   "affairType": {
     "abbreviation": "PAG",
     "id": 2,
@@ -18,7 +18,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-05-30T00:00:00Z",
+            "text": "Der Ständerat nimmt von der Mitteilung Kenntnis.",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -74,13 +88,23 @@
         }
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "Parl",
+          "id": 1,
+          "name": "Parlament",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1684274400000+0200)/",
           "id": 9,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1685397600000+0200)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -94,6 +118,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-05-30T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5121"
+  },
   "language": "de",
   "relatedAffairs": [
 
@@ -103,10 +132,10 @@
   ],
   "shortId": "23.211",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
     {

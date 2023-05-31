@@ -1,6 +1,6 @@
 {
   "id": 20230211,
-  "updated": "2023-05-24T13:41:18Z",
+  "updated": "2023-05-31T07:34:08Z",
   "affairType": {
     "abbreviation": "OP",
     "id": 2,
@@ -18,7 +18,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-05-30T00:00:00Z",
+            "text": "Le Conseil des Etats prend acte de la communication.",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -74,13 +88,23 @@
         }
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "Parl",
+          "id": 1,
+          "name": "Parlement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1684274400000+0200)/",
           "id": 9,
           "name": "Déposé"
+        },
+        {
+          "date": "/Date(1685397600000+0200)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -94,6 +118,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-05-30T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5121"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -103,10 +132,10 @@
   ],
   "shortId": "23.211",
   "state": {
-    "id": 9,
-    "name": "Déposé",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
     {

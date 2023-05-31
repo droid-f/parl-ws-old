@@ -1,6 +1,6 @@
 {
   "id": 20203770,
-  "updated": "2022-06-01T12:49:00Z",
+  "updated": "2023-05-31T09:42:48Z",
   "additionalIndexing": "2841;34;1236",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2022-06-01T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-05-30T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
           }
         ]
       },
@@ -67,7 +82,73 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSS-CN",
+            "id": 6,
+            "name": "Commissione della sicurezza sociale e della sanità",
+            "abbreviation1": "CSSS-CN",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2020-06-18T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSS-CS",
+            "id": 19,
+            "name": "Commissione della sicurezza sociale e della sanità CS",
+            "abbreviation1": "CSSS-CS",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2020-06-18T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2647,
+                    "gender": "m",
+                    "id": 1267,
+                    "name": "Stöckli Hans",
+                    "officialDenomination": "Stöckli"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo S",
+                    "id": 2,
+                    "name": "Gruppo socialista"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5121"
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -90,6 +171,11 @@
           "date": "/Date(1654034400000+0200)/",
           "id": 11,
           "name": "Mozione alla seconda Camera"
+        },
+        {
+          "date": "/Date(1685397600000+0200)/",
+          "id": 26,
+          "name": "Adottato"
         }
       ],
       "texts": [
@@ -97,6 +183,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-05-30T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5121"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -199,9 +290,9 @@
   ],
   "shortId": "20.3770",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
-    "doneKey": "0",
+    "id": 26,
+    "name": "Adottato",
+    "doneKey": "3",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },

@@ -1,6 +1,6 @@
 {
   "id": 20230001,
-  "updated": "2023-05-08T12:48:54Z",
+  "updated": "2023-05-31T12:26:57Z",
   "additionalIndexing": "04",
   "affairType": {
     "abbreviation": "OCF",
@@ -19,7 +19,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-05-30T00:00:00Z",
+            "text": "Presa d’atto",
+            "type": 43
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -309,6 +323,16 @@
           "date": "/Date(1676415600000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1685397600000+0200)/",
+          "id": 3,
+          "name": "Trattato dal Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1685484000000+0200)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -320,8 +344,152 @@
           "value": "Rapporto del Consiglio federale sulla sua gestione nel 2022 del 15 febbraio 2023"
         }
       ]
+    },
+    {
+      "consultation": {
+        "resolutions": [
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-05-30T00:00:00Z",
+            "text": "Decisione secondo il disegno (progetto)",
+            "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-05-31T00:00:00Z",
+            "text": "Adesione",
+            "type": 3
+          }
+        ]
+      },
+      "federalCouncilProposal": {
+      },
+      "index": 1,
+      "links": [
+
+      ],
+      "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CdG-CN",
+            "id": 3,
+            "name": "Commissione della gestione CN",
+            "abbreviation1": "CdG-CN",
+            "abbreviation2": "CdG",
+            "committeeNumber": 3,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-07T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IIIa/IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CdG-CS",
+            "id": 16,
+            "name": "Commissione della gestione CS",
+            "abbreviation1": "CdG-CS",
+            "abbreviation2": "CdG",
+            "committeeNumber": 16,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-07T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
+      ],
+      "references": [
+        {
+          "date": "/Date(1676415600000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "type": {
+              "id": 1,
+              "name": "Foglio federale",
+              "shortName": "FF"
+            }
+          },
+          "title": "Decreto federale sul rapporto di gestione 2022 del Consiglio federale",
+          "type": {
+            "id": 1,
+            "name": "Oggetto in deliberazione / progetto"
+          }
+        }
+      ],
+      "relatedDepartments": [
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Dipartimento dell'interno",
+          "leading": true
+        }
+      ],
+      "states": [
+        {
+          "date": "/Date(1676415600000+0100)/",
+          "id": 24,
+          "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1685397600000+0200)/",
+          "id": 3,
+          "name": "Trattato dal Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1685484000000+0200)/",
+          "id": 27,
+          "name": "Liquidato"
+        }
+      ],
+      "texts": [
+        {
+          "type": {
+            "id": 2,
+            "name": "Titolo del progetto"
+          },
+          "value": "Decreto federale sul rapporto di gestione 2022 del Consiglio federale"
+        }
+      ]
     }
   ],
+  "handling": {
+    "date": "2023-05-31T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5121"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -347,9 +515,9 @@
   ],
   "shortId": "23.001",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
     "newKey": 0
   },
   "texts": [

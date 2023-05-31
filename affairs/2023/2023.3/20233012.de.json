@@ -1,6 +1,6 @@
 {
   "id": 20233012,
-  "updated": "2023-02-17T11:09:52Z",
+  "updated": "2023-05-31T12:48:02Z",
   "additionalIndexing": "2446;34;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -43,10 +43,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-05-31T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-05-10T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -96,7 +113,7 @@
                   "language": "de"
                 }
               ],
-              "sessionId": "5120"
+              "sessionId": "5121"
             }
           ]
         },
@@ -138,6 +155,11 @@
           "date": "/Date(1676242800000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1685484000000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -180,9 +202,10 @@
   ],
   "shortId": "23.3012",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -192,6 +215,13 @@
         "name": "Begründung"
       },
       "value": "<p>Mit der Botschaft zur Änderung des Mehrwertsteuergesetzes vom 24. September 2021 hat der Bundesrat dem Parlament die Plattformbesteuerung für den Versandhandel vorgeschlagen. Für Plattformen, die Dienstleistungen erbringen, ist hingegen bloss eine Auskunftspflicht vorgesehen. Bei der Beratung der Vorlage kam die WAK-S zu Schluss, dass die Plattformbesteuerung wohl auch auf elektronische Dienstleistungen ausgedehnt werden sollte, jedoch nicht ohne Konsultation der betroffenen Kreise. Bei elektronischen Dienstleistungen handelt es sich vor allem um den Download und das Streaming von Software, Apps, Filmen und Musik. Nicht der Anbieter oder die Anbieterin soll diese elektronischen Dienstleistungen versteuern, sondern die Plattform, über die sie erbracht werden. Diese soll deshalb mittels einer gesetzlichen Fiktion als Erbringerin der elektronischen Dienstleistungen bezeichnet werden. Dadurch kann die Anzahl potenziell steuerpflichtiger Personen reduziert werden, was den Vollzug erleichtert. Durch die umfassendere Besteuerung werden zudem mehrwertsteuerbedingte Wettbewerbsverzerrungen reduziert.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Mit der Umsetzung der Motion würde die steuerliche Gleichbehandlung der elektronischen Dienstleistungen verbessert. Es ist allerdings festzuhalten, dass der Handlungsbedarf aus Sicht des Vollzugs der Mehrwertsteuer bei den elektronischen Dienstleistungen im Vergleich zu den Warenlieferungen der ausländischen Versandhändler deutlich geringer ist. Auch wäre die Umsetzung der Plattformbesteuerung für elektronische Dienstleistungen in der Praxis nicht problemlos. Insbesondere dann, wenn die Plattform ihren Sitz im Ausland hat, wäre es schwierig festzustellen, ob sie die Erbringung elektronischer Dienstleistungen an Kunden oder Kundinnen in der Schweiz ermöglicht und ob es sich dabei um Steuerpflichtige handelt oder nicht. Auch aus Sicht der WAK-S sollte eine Ausdehnung der Plattformbesteuerung nicht ohne Konsultation der betroffenen Kreise erfolgen. Der Bundesrat ist bereit, die Umsetzbarkeit einer Ausdehnung in der Praxis zu prüfen, und darauf gestützt eine Vernehmlassungsvorlage zu erarbeiten.</p>"
     },
     {
       "type": {
@@ -205,8 +235,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Mehrwertsteuer. Mehrwertsteuerpflicht für Online-Plattformen bei elektronischen Dienstleistungen"
+      "value": "Mehrwertsteuerpflicht für Online-Plattformen bei elektronischen Dienstleistungen"
     }
   ],
-  "title": "Mehrwertsteuer. Mehrwertsteuerpflicht für Online-Plattformen bei elektronischen Dienstleistungen"
+  "title": "Mehrwertsteuerpflicht für Online-Plattformen bei elektronischen Dienstleistungen"
 }

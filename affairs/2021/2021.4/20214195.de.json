@@ -1,6 +1,6 @@
 {
   "id": 20214195,
-  "updated": "2022-09-27T15:00:52Z",
+  "updated": "2023-05-31T12:49:46Z",
   "additionalIndexing": "12;04;2831",
   "affairType": {
     "abbreviation": "Mo.",
@@ -70,6 +70,21 @@
             "date": "2022-03-15T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-05-31T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -124,9 +139,30 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2767,
+                    "gender": "m",
+                    "id": 4056,
+                    "name": "Fässler Daniel",
+                    "officialDenomination": "Fässler Daniel"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                }
               ],
-              "sessionId": "5117"
+              "sessionId": "5121"
             }
           ]
         }
@@ -152,6 +188,11 @@
           "date": "/Date(1647298800000+0100)/",
           "id": 11,
           "name": "Motion an 2. Rat"
+        },
+        {
+          "date": "/Date(1685484000000+0200)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -159,6 +200,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-05-31T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5121"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -322,9 +368,9 @@
   ],
   "shortId": "21.4195",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Erledigt",
+    "doneKey": "1",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },
