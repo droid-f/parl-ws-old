@@ -1,6 +1,6 @@
 {
   "id": 20230007,
-  "updated": "2023-05-08T12:49:47Z",
+  "updated": "2023-06-01T16:54:05Z",
   "additionalIndexing": "24;2841;15;44",
   "affairType": {
     "abbreviation": "BRG",
@@ -635,7 +635,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-05-31T00:00:00Z",
+            "text": "Beschluss abweichend vom Entwurf",
+            "type": 52
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-06-01T00:00:00Z",
+            "text": "Abweichung",
+            "type": 37
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -665,7 +694,50 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2798,
+                    "gender": "m",
+                    "id": 4087,
+                    "name": "Gschwind Jean-Paul",
+                    "officialDenomination": "Gschwind"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "fr"
+                },
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3214,
+                    "gender": "f",
+                    "id": 4318,
+                    "name": "Wyss Sarah",
+                    "officialDenomination": "Wyss"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion S",
+                    "code": "S",
+                    "id": 2,
+                    "name": "Sozialdemokratische Fraktion"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5121"
             }
@@ -751,6 +823,16 @@
           "date": "/Date(1680040800000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1685484000000+0200)/",
+          "id": 3,
+          "name": "Behandelt vom Ständerat"
+        },
+        {
+          "date": "/Date(1685570400000+0200)/",
+          "id": 4,
+          "name": "Von beiden Räten behandelt"
         }
       ],
       "texts": [
@@ -766,7 +848,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-05-31T00:00:00Z",
+            "text": "Beschluss abweichend vom Entwurf",
+            "type": 52
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-06-01T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -882,6 +993,16 @@
           "date": "/Date(1680040800000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1685484000000+0200)/",
+          "id": 3,
+          "name": "Behandelt vom Ständerat"
+        },
+        {
+          "date": "/Date(1685570400000+0200)/",
+          "id": 27,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -923,7 +1044,7 @@
     "id": 4,
     "name": "Von beiden Räten behandelt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
