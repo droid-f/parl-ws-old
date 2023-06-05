@@ -1,6 +1,7 @@
 {
   "id": 20237293,
-  "updated": "2023-05-31T10:35:02Z",
+  "updated": "2023-06-05T15:47:36Z",
+  "additionalIndexing": "0421;24",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +40,35 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "Bu-CN",
+              "id": 1,
+              "name": "Bureau CN",
+              "abbreviation1": "Bu-CN",
+              "abbreviation2": "Bu",
+              "committeeNumber": 1,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Conseil national",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-06-05T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2023-06-05T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -67,6 +93,11 @@
           "date": "/Date(1685397600000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1685916000000+0200)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -74,6 +105,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-06-05T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5121"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -97,12 +133,19 @@
   ],
   "shortId": "23.7293",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le bureau a demandé à la Délégation des finances de prendre position sur la question du conseiller national Manfred Bühler. Elle répond comme suit :</p><p>\" Selon une pratique établie de longue date, la Délégation des finances ne publie pas le résultat des votes auxquels elle procède. Elle fonde cette pratique sur l'art. 20, al. 2, du règlement du Conseil national (RCN, RS 171.13) et sur l'art. 15, al. 2, du règlement du Conseil des Etats (RCE, RS 171.14), qui disposent que, sauf exception, les principales décisions prises, les résultats des votes et les arguments majeurs présentés au cours des délibérations sont communiqués aux médias. Il n'existe pas d'obligation légale de publier le résultat d'un vote.</p><p>Au cours de la présente législature, la Délégation des finances a débattu de sa pratique à plusieurs reprises - lors de l'approbation de crédits urgents pendant la pandémie de COVID (2020-2021) et la crise énergétique (2022), et lors de l'approbation de garanties pour la Banque nationale suisse et UBS (2023). Elle a à chaque fois décidé de maintenir celle-ci.</p><p>La pratique consistant à ne pas publier le résultat des votes permet aux membres de la délégation de débattre et de voter de manière politiquement indépendante, en se fondant sur des critères objectifs. \"</p>"
+    },
     {
       "type": {
         "id": 5,
