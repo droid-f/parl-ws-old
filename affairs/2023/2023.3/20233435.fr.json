@@ -1,6 +1,6 @@
 {
   "id": 20233435,
-  "updated": "2023-03-20T10:25:07Z",
+  "updated": "2023-06-06T14:17:25Z",
   "additionalIndexing": "2846;2831;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-06-06T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-05-17T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1679007600000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1686002400000+0200)/",
+          "id": 11,
+          "name": "Motion au 2e conseil"
         }
       ],
       "texts": [
@@ -86,6 +113,16 @@
   "roles": [
     {
       "councillor": {
+        "code": 3092,
+        "gender": "m",
+        "id": 4172,
+        "name": "Salzmann Werner",
+        "officialDenomination": "Salzmann"
+      },
+      "type": "cosign"
+    },
+    {
+      "councillor": {
         "code": 3196,
         "gender": "m",
         "id": 4241,
@@ -102,19 +139,41 @@
   ],
   "shortId": "23.3435",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 11,
+    "name": "Motion au 2e conseil",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>L'Inventaire fédéral des sites construits d'importance nationale à protéger en Suisse (ISOS) a été créé par le Conseil fédéral sur la base de l'art. 5 LPN en tant qu'inventaire d'importance nationale et offre indéniablement une excellente documentation sur de nombreux beaux sites de Suisse qu'il est important de conserver.</p><p>Toutefois, l'ISOS est aujourd'hui bien plus qu'un simple inventaire. Il est devenu, notamment grâce à la jurisprudence du Tribunal fédéral et à la pratique administrative, une sorte d'axiome immuable et intouchable qui s'impose dans tous les processus de planification. Au vu des bases légales actuelles, cet état de fait peut se comprendre dans une certaine mesure, car on a du mal à imaginer que des planifications communales ou cantonales puissent prévaloir sur un constat d'inventaire reposant sur un intérêt national.</p><p>Il est donc nécessaire d'adapter la LPN, de sorte que l'intérêt national d'un site soit relativisé et que l'intérêt public avéré des communes, des villes et des cantons soit considéré comme tout aussi important, afin qu'une pesée des intérêts puisse être effectuée d'égal à égal et que des compromis judicieux permettant de réaliser les projets de développement communaux ou cantonaux souhaités puissent être trouvés. Ces projets concernent en particulier le développement vers l'intérieur et la densification nécessaires dans les villes et les villages, mais aussi d'autres préoccupations dans divers domaines tels que les espaces verts publics, l'espace réservé aux eaux, la protection contre le bruit, la production d'énergie renouvelable, les dangers naturels ou encore la mobilité douce.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Les inventaires fédéraux au sens de l'art. 5, al. 1, de la loi sur la protection de la nature et du paysage (LPN ; RS 451) sont des inventaires qui, lors de toute pesée d'intérêts, doivent être pris en compte en tant que manifestation d'un intérêt public national. Cela ne signifie toutefois pas qu'il faut leur donner plus de poids qu'à d'autres intérêts. Il est possible de s'écarter de l'obligation de conserver intact un objet si d'autres intérêts, y compris cantonaux ou même locaux, prévalent et que les intérêts en présence sont correctement déterminés et pris en considération dans une pesée globale, conformément à l'art. 3 de l'ordonnance du 28 juin 2000 sur l'aménagement du territoire (OAT ; RS 700.1).</p><p>Pour renforcer la sécurité du droit dans ce domaine, le Conseil fédéral a, dans le cadre du message relatif à l'initiative populaire \" Pour l'avenir de notre nature et de notre paysage (Initiative biodiversité) \" et au contre-projet indirect (modification de la loi fédérale sur la protection de la nature et du paysage), repris dans la loi (art. 12h P-LPN, FF 2022 737) la réglementation déjà introduite au niveau de l'ordonnance (art. 10 de l'ordonnance du 13 novembre 2019 concernant l'Inventaire fédéral des sites construits à protéger en Suisse,; RS 451.12). Il tient donc déjà compte des préoccupations des motionnaires.</p><p>L'art. 5, al. 2, LPN dispose déjà que les cantons peuvent demander, de leur chef, le réexamen des inventaires fédéraux.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé de soumettre au Parlement un message relatif à l'adaptation de la loi fédérale sur la protection de la nature et du paysage (LPN) prévoyant l'adaptation des dispositions relatives aux inventaires d'objets d'importance nationale de manière à ce qu'une dérogation à la conservation intacte visée par les inventaires puisse être envisagée lorsqu'il s'agit de l'accomplissement d'une tâche cantonale ou communale. Cette dérogation devra ensuite être autorisée si après une pesée des intérêts l'intérêt public est avéré. Les inventaires doivent en outre pouvoir être vérifiés à la demande d'une autorité de planification.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "L'Isos doit guider le développement de l'urbanisation et de la densification, mais sans l'entraver"
     }
   ],
-  "title": "Titre suit"
+  "title": "L'Isos doit guider le développement de l'urbanisation et de la densification, mais sans l'entraver"
 }

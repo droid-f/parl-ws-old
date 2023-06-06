@@ -1,6 +1,6 @@
 {
   "id": 20233435,
-  "updated": "2023-03-20T10:25:07Z",
+  "updated": "2023-06-06T14:17:25Z",
   "additionalIndexing": "2846;2831;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,10 +41,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-06-06T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-05-17T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
@@ -57,13 +74,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1679007600000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1686002400000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -87,6 +114,16 @@
   "roles": [
     {
       "councillor": {
+        "code": 3092,
+        "gender": "m",
+        "id": 4172,
+        "name": "Salzmann Werner",
+        "officialDenomination": "Salzmann"
+      },
+      "type": "cosign"
+    },
+    {
+      "councillor": {
         "code": 3196,
         "gender": "m",
         "id": 4241,
@@ -104,19 +141,41 @@
   ],
   "shortId": "23.3435",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Das Bundesinventar der schützenswerten Ortsbilder der Schweiz (ISOS) wurde auf der Grundlage von Artikel 5 vom Bundesrat als Inventar von nationaler Bedeutung ins Leben gerufen und stellt zweifellos eine ausgezeichnete Dokumentation vieler schöner Ortsbilder der Schweiz dar, deren Erhaltung wichtig ist.</p><p>Allerdings ist das ISOS heute viel mehr als ein Inventar. Es ist, nicht zuletzt auch durch die Bundesgerichtsrechtsprechung und die Verwaltungspraxis, sozusagen zum unverrückbaren Axiom geworden, das in sämtlichen Planungsprozessen als gegeben und unantastbar vorgegeben wird. Aufgrund der heutigen rechtlichen Grundlagen ist das auch ein Stück weit nachvollziehbar, denn wie sollten kommunale oder kantonale Planungen vor Ort einem Inventarbefund vorgehen, der auf einem nationalen Interesse beruht? </p><p>Nötig ist deshalb eine Anpassung des NHG, welches das nationale Interesse an einem Ortsbild insofern relativiert, als dass das ausgewiesene öffentliche Interesse von Gemeinden, Städten und Kantonen als ebenso bedeutend taxiert wird, sodass eine Interessenabwägung auf \"Augenhöhe\" erfolgen kann mit sinnvollen Kompromissen, welche erwünschte kommunale oder kantonale Entwicklungsprojekte ermöglichen. Hierbei sei insbesondere verwiesen auf die nötige bauliche Innenentwicklung und Verdichtung in den Städten und Dörfern, aber auch andere Anliegen in diversen Bereichen wie zum Beispiel beim öffentlichen Grünraum, beim Gewässerraum, beim Lärmschutz, bei der Produktion erneuerbarer Energie, bezüglich Naturgefahren oder auch beim Langsamverkehr.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Die Bundesinventare nach Artikel 5 Absatz 1 des Natur- und Heimatschutzgesetzes (NHG; SR 451) sind Fachinventare, die bei Interessenabwägungen als Manifestation eines öffentlichen nationalen Interesses zu berücksichtigen sind. Dies bedeutet aber nicht, dass sie per se höher zu gewichten sind als andere Interessen. Von der ungeschmälerten Erhaltung eines Objekts kann bei kantonalen und kommunalen Aufgaben abgewichen werden, wenn andere, auch kantonale oder gar lokale Interessen überwiegen und dies in einer umfassenden Interessenabwägung gemäss Artikel 3 der Raumplanungsverordnung (RPV; SR 700.1) korrekt ermittelt und dargelegt wird.</p><p>Um die Rechtssicherheit in diesem Bereich zu stärken, hat der Bundesrat im Rahmen der Botschaft zur Volksinitiative \"Für die Zukunft unserer Natur und Landschaft\" (Biodiversitätsinitiative) und zum indirekten Gegenvorschlag (Revision des Natur- und Heimatschutzgesetzes) die entsprechende Regelung von der Verordnungsebene (Art. 10 der Verordnung vom 13. November 2019 über das Bundesinventar der schützenswerten Ortsbilder der Schweiz; SR 451.12) auf die Gesetzesebene angehoben (Artikel 12h E-NHG, BBl 2022 737). Den grundsätzlichen Anliegen der Motion trägt der Bundesrat somit schon Rechnung.</p><p>Artikel 5 Absatz 2 NHG hält schliesslich bereits fest, dass die Kantone von sich aus eine Überprüfung der Bundesinventare verlangen können.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, dem Parlament eine Botschaft zur Anpassung des Natur- und Heimatschutzgesetzes (NHG) zu unterbreiten, das die Bestimmungen über die Inventare von Objekten von nationaler Bedeutung so anpasst, dass ein Abweichen von der ungeschmälerten Erhaltung im Sinne der Inventare bei der Erfüllung einer kantonalen oder kommunalen Aufgabe in Erwägung gezogen und nach erfolgter Interessenabwägung bei ausgewiesenem öffentlichen Interesse auch bewilligt werden kann. Die Inventare sollen zudem auch auf Begehren einer Planungsbehörde überprüft werden können.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "ISOS soll bauliche Entwicklung und Verdichtung lenken, aber nicht verhindern"
+      "value": "Isos soll bauliche Entwicklung und Verdichtung lenken, aber nicht verhindern"
     }
   ],
-  "title": "ISOS soll bauliche Entwicklung und Verdichtung lenken, aber nicht verhindern"
+  "title": "Isos soll bauliche Entwicklung und Verdichtung lenken, aber nicht verhindern"
 }

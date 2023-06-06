@@ -1,6 +1,6 @@
 {
   "id": 20233435,
-  "updated": "2023-03-20T10:25:07Z",
+  "updated": "2023-06-06T14:17:25Z",
   "additionalIndexing": "2846;2831;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-06-06T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-05-17T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Dipartimento dell'interno",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1679007600000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1686002400000+0200)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -86,6 +113,16 @@
   "roles": [
     {
       "councillor": {
+        "code": 3092,
+        "gender": "m",
+        "id": 4172,
+        "name": "Salzmann Werner",
+        "officialDenomination": "Salzmann"
+      },
+      "type": "cosign"
+    },
+    {
+      "councillor": {
         "code": 3196,
         "gender": "m",
         "id": 4241,
@@ -102,19 +139,41 @@
   ],
   "shortId": "23.3435",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Istituito in virtù dell'articolo 5 LPN, l'Inventario federale degli insediamenti svizzeri da proteggere d'importanza nazionale (ISOS) rappresenta senz'altro un'eccellente documentazione di molti begli insediamenti svizzeri che è importante conservare.</p><p>Tuttavia, l'ISOS è oggi molto di più di un inventario. Non da ultimo in virtù della giurisprudenza del Tribunale federale e della prassi amministrativa è infatti diventato, per così dire, un assioma inamovibile premesso come dato intoccabile a tutti i processi di pianificazione. Considerate le basi legali vigenti, questo si può anche, almeno in parte, capire: è infatti un po' difficile che pianificazioni locali comunali o cantonali possano avere la precedenza sulle indicazioni di un inventario fondato su un interesse nazionale.</p><p>È dunque necessario un adeguamento della LPN che relativizzi l'interesse nazionale di un insediamento in modo che un comprovato interesse pubblico di Comuni, Città e Cantoni venga considerato di uguale importanza e possa così avere luogo una ponderazione degli interessi \"ad armi pari\" che non escluda compromessi ragionevoli e consenta la realizzazione di progetti di sviluppo auspicati da Comuni e Cantoni. Si pensi in particolare allo sviluppo centripeto e alla densificazione necessari in Città e villaggi, ma anche ad altre esigenze in diversi settori, per esempio gli spazi verdi pubblici, gli spazi riservati alle acque, la protezione dall'inquinamento fonico, la produzione di energia rinnovabile, la protezione dai pericoli naturali o anche la mobilità lenta.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Gli inventari federali ai sensi dell'articolo 5 capoverso 1 della legge federale sulla protezione della natura e del paesaggio (LPN; RS 451) sono inventari specialistici di cui tenere conto nella ponderazione degli interessi in quanto manifestazione di un interesse pubblico nazionale. Ma ciò non significa di per sé che va attribuito loro un peso maggiore rispetto ad altri interessi. Nello svolgimento dei compiti cantonali e comunali è possibile derogare al principio secondo il quale l'oggetto deve essere conservato intatto nelle condizioni stabilite nell'inventario se prevalgono altri interessi, anche cantonali o addirittura locali, e se questo è stato correttamente verificato ed esposto in una ponderazione completa degli interessi secondo l'articolo 3 dell'ordinanza sulla pianificazione del territorio (RS 700.1).</p><p>Per rafforzare la certezza del diritto in questo ambito, con il messaggio concernente l'iniziativa popolare \"Per il futuro della nostra natura e del nostro paesaggio\" (Iniziativa biodiversità) e il controprogetto indiretto (Revisione della legge federale sulla protezione della natura e del paesaggio), il Consiglio federale ha elevato la pertinente disposizione (art. 10 dell'ordinanza riguardante l'inventario federale degli insediamenti svizzeri da proteggere; RS 451.12) dal livello di ordinanza al livello di legge (art. 12h D-LPN; FF 2022 737). Il Consiglio federale tiene quindi già conto delle richieste di fondo della mozione.</p><p>Infine, l'articolo 5 capoverso 2 LPN stabilisce già che i Cantoni possono proporre un riesame degli inventari federali.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di sottoporre al Parlamento un disegno di modifica della legge federale sulla protezione della natura e del paesaggio (LPN) che adegui le disposizioni sugli inventari degli oggetti d'importanza nazionale in modo che nell'adempimento di un compito cantonale o comunale possano, in presenza di un interesse pubblico, essere considerate e, previa ponderazione degli interessi, autorizzate deroghe alla conservazione integrale prevista dagli inventari. Su richiesta di un'autorità pianificatoria, gli inventari dovranno inoltre poter essere riesaminati.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "L'Isos deve guidare, non impedire lo sviluppo edilizio e la densificazione"
     }
   ],
-  "title": "Titolo segue"
+  "title": "L'Isos deve guidare, non impedire lo sviluppo edilizio e la densificazione"
 }
