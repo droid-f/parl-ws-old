@@ -1,6 +1,6 @@
 {
   "id": 20223330,
-  "updated": "2022-03-22T11:04:28Z",
+  "updated": "2023-06-07T11:50:05Z",
   "additionalIndexing": "04;2811;28;32",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-06-07T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647558000000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1686088800000+0200)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -70,6 +97,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-06-07T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5121"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -272,19 +304,40 @@
   ],
   "shortId": "22.3330",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Si nous sommes convaincus de la force de notre école publique, nous pouvons partir du principe que les personnes qui l'ont fréquentée sont suffisamment intégrées et qu'elles sont familiarisées avec les conditions de vie en Suisse.</p><p>En raison du droit en vigueur, près d'un demi-million de personnes qui ont passé pratiquement toute leur enfance en Suisse ne peuvent pas participer à la démocratie. Cela est en contradiction avec notre ouverture et notre culture de la participation. Alors que beaucoup d'importance est accordée à la démocratie directe, la part de la population qui ne peut y participer continue d'augmenter. Les personnes qui grandissent ici ont leur place dans la société.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Outre la présente motion, trois interventions parlementaires portant aussi le titre général \" Règles de naturalisation équitables \" (motions 22.3329 Gredig, 22.3335 Christ et 22.3337 Christ) ont été déposées afin de modifier la loi sur la nationalité suisse (LN ; RS 141.0). Ces interventions visent à modifier les conditions et la procédure relatives à la naturalisation ordinaire.</p><p>La révision totale de la LN est entrée en vigueur le 1er janvier 2018. Elle a permis d'établir une large cohérence avec la législation sur les étrangers s'agissant des exigences relatives au degré d'intégration et des connaissances linguistiques. Une intégration réussie au sens de l'art. 11, let. a, LN se manifeste en particulier par le respect de la sécurité et de l'ordre publics, le respect des valeurs de la Constitution, l'aptitude à communiquer au quotidien dans une langue nationale, la participation à la vie économique ou l'acquisition d'une formation et l'encouragement et le soutien de l'intégration de la famille (art. 12 LN). Le Conseil fédéral a souligné à maintes reprises que seuls les étrangers bien intégrés pouvaient obtenir la nationalité suisse. Outre la réussite de l'intégration, la familiarisation avec les conditions de vie en Suisse (art. 11, let. b, LN) fait également partie des conditions requises pour une naturalisation. Cette condition est remplie lorsque le candidat à la naturalisation entretient des contacts réguliers avec des Suisses, oeuvre au sein d'une association locale ou participe à la vie du quartier et entretient des contacts sociaux.</p><p>Le Conseil fédéral estime qu'il n'y a pas lieu de modifier les conditions de la naturalisation ordinaire quelques années seulement après la révision totale de la LN.</p><p>Par contre, il voit d'un bon oeil les éventuelles simplifications que les cantons peuvent apporter à leurs procédures de naturalisation, dans le cadre de leurs compétences. Dès 1994, une partie des cantons a ainsi trouvé sa propre voie pour simplifier les procédures au profit des jeunes candidats à la naturalisation. Dans le cadre d'un concordat, les cantons de Berne, de Fribourg, de Genève, du Jura, de Neuchâtel, de Vaud et de Zurich se sont engagés mutuellement à prévoir une procédure de naturalisation facilitée pour les jeunes de 16 à 25 ans qui ont suivi l'école obligatoire pendant au moins cinq ans dans un desdits cantons. Le séjour dans ces cantons est alors pleinement pris en compte dans la durée de résidence et les émoluments sont réduits au minimum.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Les enfants de ressortissants étrangers qui ont grandi en Suisse, c'est-à-dire qui ont fréquenté l'école obligatoire pendant au moins cinq ans, sont intégrés et familiarisés avec les conditions de vie en Suisse au sens de l'art. 11, let. a et b, de la loi sur la nationalité suisse. Le Conseil fédéral est chargé de soumettre aux Chambres fédérales un projet prévoyant que ces conditions n'ont plus à être examinées pour ces personnes.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Règles de naturalisation équitables. La faiseuse de Suisses"
     }
   ],
-  "title": "Titre suit"
+  "title": "Règles de naturalisation équitables. La faiseuse de Suisses"
 }

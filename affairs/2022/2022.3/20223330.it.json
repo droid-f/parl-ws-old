@@ -1,6 +1,6 @@
 {
   "id": 20223330,
-  "updated": "2022-03-22T11:04:28Z",
+  "updated": "2023-06-07T11:50:05Z",
   "additionalIndexing": "04;2811;28;32",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-06-07T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647558000000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1686088800000+0200)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -70,6 +97,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-06-07T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5121"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -272,19 +304,40 @@
   ],
   "shortId": "22.3330",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Se siamo convinti della forza della nostra scuola dell'obbligo, dovremmo dare per scontato che chi l'ha frequentata è sufficientemente integrato e familiarizzato con le condizioni di vita svizzere. </p><p>Il vigente diritto in materia di cittadinanza implica che circa mezzo milione di persone che hanno trascorso praticamente tutta la loro infanzia in Svizzera non ha nessun diritto di codecisione. Questo non è degno della Svizzera, un Paese aperto con una spiccata cultura partecipativa. Il diritto di ognuno di partecipare alla democrazia diretta della Svizzera e la crescente quota della popolazione che non può farlo sono in contraddizione. Le persone che crescono nel nostro Paese fanno parte della Svizzera.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Oltre alla presente mozione, sono stati presentati altri tre interventi parlamentari intitolati \"Regole del gioco eque in materia di naturalizzazione\" (Mo. Gredig 22.3329, Mo. Christ 22.3335, Mo. Christ 22.3337) per modificare la legge federale sulla cittadinanza (LCit; RS 141.0). Questi interventi mirano a modificare le condizioni e la procedura per la naturalizzazione ordinaria.</p><p>Il 1° gennaio 2018 è entrata in vigore la revisione totale della LCit, che ha permesso di stabilire un'ampia coerenza con la legislazione in materia di stranieri per quanto riguarda le condizioni relative al grado di integrazione e alle conoscenze linguistiche. Secondo l'articolo 11 lettera a LCit si è integrato con successo chi rispetta la sicurezza e l'ordine pubblici, i valori della Costituzione federale, è capace di esprimersi in una lingua nazionale, manifesta la volontà di partecipare alla vita economica o di acquisire una formazione nonché sostiene e incoraggia l'integrazione della sua famiglia (art. 12 LCit). Il Consiglio federale ha ribadito a più riprese che soltanto gli stranieri ben integrati devono ottenere la cittadinanza svizzera. Oltre all'integrazione riuscita, la familiarità con le condizioni di vita svizzera secondo l'articolo 11 lettera b LCit costituisce un altro requisito per la naturalizzazione. Questa condizione è adempiuta ad esempio se un candidato alla naturalizzazione intrattiene contatti regolari con Svizzeri, s'impegna a favore di un'associazione locale o partecipa alla vita di quartiere e cura contatti sociali.</p><p>Il Consiglio federale ritiene non vi sia motivo di modificare le condizioni per la naturalizzazione ordinaria soltanto pochi anni dopo la revisione totale della LCit.</p><p>È per contro favorevole a eventuali semplificazioni procedurali che i Cantoni possono prevedere nel quadro delle loro competenze in materia di naturalizzazione. Alcuni Cantoni hanno così imboccato già nel 1994 una propria via per semplificare le procedure a favore dei giovani candidati alla naturalizzazione. Nel quadro di un concordato, i Cantoni di Berna, Friburgo, Ginevra, Giura, Neuchâtel, Vaud e Zurigo si sono impegnati reciprocamente a prevedere una procedura agevolata di naturalizzazione per i giovani tra i 16 e i 25 anni che per almeno cinque anni hanno frequentato la scuola dell'obbligo in questi Cantoni. Un soggiorno di questo tipo è computato integralmente alla durata necessaria di residenza e gli emolumenti sono ridotti al minimo.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>I figli di cittadini stranieri che sono cresciuti in Svizzera e hanno quindi frequentato per almeno cinque anni la scuola dell'obbligo sono integrati e si sono familiarizzati con le condizioni di vita svizzere ai sensi dell'articolo 11 lettere a e b della legge sulla cittadinanza. Il Consiglio federale è incaricato di presentare alle Camere federali un disegno secondo cui per queste persone non è più necessario un esame dei suddetti requisiti.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Regole del gioco eque in materia di naturalizzazione. La scuola è una fabbricasvizzeri"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Regole del gioco eque in materia di naturalizzazione. La scuola è una fabbricasvizzeri"
 }
