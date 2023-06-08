@@ -1,6 +1,6 @@
 {
   "id": 20220081,
-  "updated": "2023-04-18T10:48:46Z",
+  "updated": "2023-06-08T12:57:46Z",
   "additionalIndexing": "08;24",
   "affairType": {
     "abbreviation": "BRG",
@@ -107,6 +107,11 @@
           "date": "/Date(1669935600000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1686175200000+0200)/",
+          "id": 2,
+          "name": "Behandelt vom Nationalrat"
         }
       ],
       "texts": [
@@ -122,7 +127,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-06-08T00:00:00Z",
+            "text": "Beschluss gemäss Entwurf",
+            "type": 62
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -152,12 +171,55 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3152,
+                    "gender": "m",
+                    "id": 4260,
+                    "name": "Fivaz Fabien",
+                    "officialDenomination": "Fivaz Fabien"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion G",
+                    "code": "G",
+                    "id": 6,
+                    "name": "Grüne Fraktion"
+                  },
+                  "language": "fr"
+                },
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2680,
+                    "gender": "f",
+                    "id": 3877,
+                    "name": "Fiala Doris",
+                    "officialDenomination": "Fiala"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5121"
             }
           ],
-          "treatmentCategory": "IIIb/IV"
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
@@ -216,6 +278,11 @@
           "date": "/Date(1669935600000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1686175200000+0200)/",
+          "id": 2,
+          "name": "Behandelt vom Nationalrat"
         }
       ],
       "texts": [
@@ -247,8 +314,8 @@
   ],
   "shortId": "22.081",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 2,
+    "name": "Behandelt vom Nationalrat",
     "doneKey": "0",
     "newKey": 0
   },
