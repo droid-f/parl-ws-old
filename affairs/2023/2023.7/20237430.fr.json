@@ -1,6 +1,6 @@
 {
   "id": 20237430,
-  "updated": "2023-06-08T09:38:36Z",
+  "updated": "2023-06-12T17:14:03Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-06-12T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2023-06-12T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -67,6 +82,11 @@
           "date": "/Date(1686088800000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1686520800000+0200)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -74,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-06-12T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5121"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -97,12 +122,19 @@
   ],
   "shortId": "23.7430",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>En Italie, le corridor quatre mètres sera aménagé dans les années à venir entre Domodossola et Milan. La Suisse y a tout intérêt, car cet aménagement sert à transférer le fret transalpin de la route au rail, ce qu'elle souhaite. Comme toujours lors d'aménagements, créer des capacités supplémentaires implique dans un premier temps des restrictions en raison des travaux de construction. C'est le gestionnaire d'infrastructure italien (RFI) qui est le maître d'ouvrage. RFI prévoit une \"fenêtre de travaux de jour\" d'environ cinq heures du lundi au vendredi toute l'année. Cela entraîne une certaine réduction de l'offre sur l'axe du Simplon jusqu'à la fin des travaux (du lundi au vendredi, un train de moins par sens entre Bâle-Berne-Milan et Genève-Brigue-Milan). Le week-end, l'offre reste inchangée avec huit trains. Du 9 juin au 8 septembre 2024, la ligne entre Arona et Stresa sera complètement fermée à la circulation des trains. Tous les trains Eurocity entre Domodossola et Milan seront donc supprimés. Des bus de remplacement circuleront, mais leur temps de parcours sera plus long et leur capacité plus faible.</p>"
+    },
     {
       "type": {
         "id": 5,

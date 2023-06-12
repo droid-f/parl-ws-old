@@ -1,6 +1,6 @@
 {
   "id": 20237444,
-  "updated": "2023-06-08T10:36:07Z",
+  "updated": "2023-06-12T17:30:21Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-06-12T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2023-06-12T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -67,6 +82,11 @@
           "date": "/Date(1686088800000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1686520800000+0200)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -74,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-06-12T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5121"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -97,12 +122,19 @@
   ],
   "shortId": "23.7444",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le travail d'évaluation des surcoûts découlant de la replanification du projet de modernisation de la gare de Lausanne est en cours aux CFF. En tant que financeur principal du projet, la Confédération assumera la part la plus importante de ces coûts dans le cadre du financement de l'étape d'aménagement ZEB. Ce dernier étant assuré par le fonds d'infrastructure ferroviaire (FIF), les surcoûts n'auront pas d'incidence sur le financement fédéral des projets d'agglomération assuré par le fonds pour les routes nationales et le trafic d'agglomération (FORTA).</p>"
+    },
     {
       "type": {
         "id": 5,

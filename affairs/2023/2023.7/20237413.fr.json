@@ -1,6 +1,6 @@
 {
   "id": 20237413,
-  "updated": "2023-06-07T16:43:47Z",
+  "updated": "2023-06-12T16:47:10Z",
   "affairType": {
     "abbreviation": "Qst.",
     "id": 14,
@@ -39,10 +39,25 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-06-12T00:00:00Z",
+            "text": "Réponse donnée par écrit",
+            "type": 83
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2023-06-12T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -67,6 +82,11 @@
           "date": "/Date(1686088800000+0200)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1686520800000+0200)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -74,6 +94,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-06-12T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5121"
+  },
   "language": "fr",
   "relatedAffairs": [
 
@@ -97,12 +122,19 @@
   ],
   "shortId": "23.7413",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 1
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Les normes sur les gaz d'échappement applicables aux véhicules demeurent inchangées. Cependant, les méthodes de mesure appliquées jusqu'à fin 2022 n'étaient pas assez sensibles pour détecter les filtres à particules diesel défectueux. C'est pourquoi, depuis le ler janvier 2023, une méthode de mesure plus précise est utilisée lors des contrôles officiels subséquents (contrôle technique des véhicules à moteur) au moyen de nouveaux appareils soumis à vérification. Cette procédure est également utilisée dans d'autres pays européens, notamment en Belgique. L'augmentation du taux d'irrégularités s'explique par l'introduction de cette nouvelle méthode de mesure. Les relevés effectués par les services des automobiles (asa) chargés de l'exécution montrent que ce taux est inférieur à 15 pour cent. Les véhicules dont les filtres à particules sont défectueux sont remis en état et peuvent ensuite continuer de circuler. Il n'est donc pas nécessaire que le Conseil fédéral procède à une évaluation supplémentaire.</p>"
+    },
     {
       "type": {
         "id": 5,
