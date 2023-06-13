@@ -1,6 +1,6 @@
 {
   "id": 20213770,
-  "updated": "2021-06-17T15:15:14Z",
+  "updated": "2023-06-13T10:22:30Z",
   "additionalIndexing": "55;15;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,7 +41,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-06-13T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -61,9 +75,9 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "WBF",
-          "id": 8,
-          "name": "Departement für Wirtschaft, Bildung und Forschung",
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
           "leading": true
         }
       ],
@@ -72,6 +86,11 @@
           "date": "/Date(1623880800000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1686607200000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -472,9 +491,10 @@
   ],
   "shortId": "21.3770",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
