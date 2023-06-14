@@ -1,6 +1,6 @@
 {
   "id": 20214302,
-  "updated": "2021-10-05T09:25:40Z",
+  "updated": "2023-06-14T07:57:43Z",
   "additionalIndexing": "55;15;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,7 +41,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-06-13T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -72,6 +86,11 @@
           "date": "/Date(1633039200000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1686607200000+0200)/",
+          "id": 11,
+          "name": "Motion an 2. Rat"
         }
       ],
       "texts": [
@@ -192,9 +211,10 @@
   ],
   "shortId": "21.4302",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 11,
+    "name": "Motion an 2. Rat",
     "doneKey": "0",
+    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [

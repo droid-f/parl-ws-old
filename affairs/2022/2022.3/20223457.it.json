@@ -1,6 +1,6 @@
 {
   "id": 20223457,
-  "updated": "2022-05-13T08:58:33Z",
+  "updated": "2023-06-14T16:25:12Z",
   "additionalIndexing": "09;34;1236;04;2841",
   "affairType": {
     "abbreviation": "Po.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-06-14T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-17T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere il postulato."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Dipartimento delle Finanze",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1652220000000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1686693600000+0200)/",
+          "id": 26,
+          "name": "Adottato"
         }
       ],
       "texts": [
@@ -70,6 +97,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-06-14T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5121"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -169,7 +201,7 @@
         "code": 3123,
         "gender": "m",
         "id": 4222,
-        "name": "Paganini Nicolo",
+        "name": "Paganini Nicolò",
         "officialDenomination": "Paganini"
       },
       "type": "cosign"
@@ -222,9 +254,9 @@
   ],
   "shortId": "22.3457",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
+    "id": 26,
+    "name": "Adottato",
+    "doneKey": "3",
     "newKey": 0
   },
   "texts": [
@@ -234,6 +266,13 @@
         "name": "Motivazione"
       },
       "value": "<p>All'inizio della crisi pandemica, nei mesi di febbraio e marzo del 2020, è emerso che bande di truffatori attive a livello internazionale sfruttavano spudoratamente la situazione di emergenza e ingannavano i consumatori offrendo merce di bassa qualità a prezzi esorbitanti o tramite negozi online fasulli (che esigevano il pagamento anticipato ma non fornivano la merce ordinata). Benché diversi canali avessero avvertito i consumatori di non acquistare prodotti su questi siti Internet, i truffatori sono riusciti a realizzare importanti cifre d'affari, poiché era impossibile che gli avvisi raggiungessero tutti gli utenti. Il blocco dei siti incriminati, anche solo per un periodo limitato, costituirebbe una misura più incisiva. Questo modo di procedere è già adottato in taluni casi, ad esempio dalla polizia cantonale di Zurigo. A questo punto però appaiono necessari un coordinamento a livello nazionale e una gestione armonizzata.</p><p>L'ordinanza del 5 novembre 2014 sui domini Internet (ODIn), che disciplina i domini \".ch\" e \".swiss\", autorizza i gestori del registro a ordinare, in caso di sospetto di abuso, il blocco o la deviazione del traffico di dati dei domini. Secondo la risposta alla domanda dell'ora delle domande 21.7471 \"Koordiniertes nationales Vorgehen im Bereich Internetbetrug?\" (Procedura coordinata a livello nazionale nell'ambito delle truffe su Internet?), l'NCSC gestisce un servizio di contatto volto a individuare e segnalare siti fraudolenti grazie alle segnalazioni dei privati e delle aziende. In collaborazione con diversi organi (ad es. con i corpi di polizia cantonali), l'NCSC coordina poi il blocco di tali siti. Una base legale e una prassi armonizzata potrebbero essere sviluppate a partire dalla base esistente.</p><p>In primo luogo si dovrà svolgere un'analisi sul numero di siti Internet e domini che sono stati bloccati e deviati, rispettivamente secondo l'articolo 15 e l'articolo 15a ODIn, in ogni Cantone negli ultimi anni. In secondo luogo si dovrà verificare quanti siti Internet o nomi di dominio sono stati revocati negli ultimi anni dai titolari entro 30 giorni su richiesta dell'Ufficio federale delle comunicazioni (UFCOM) in applicazione dell'articolo 15c capoverso 1 ODIn.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Le condizioni per il blocco di nomi di dominio sono stabilite all'articolo 15 ODIn. È possibile bloccare i nomi di dominio se questi ultimi sono stati sfruttati per tentativi di phishing, per diffondere o utilizzare software dannosi (\"malware\") o per favoreggiare tali attività. In questi casi, il blocco rapido è necessario su richiesta di un ente per la lotta contro la cibercriminalità riconosciuto, poiché solo così si possono evitare danni ingenti per la sicurezza di molti utenti e, più in generale, per la cibersicurezza della Svizzera. Il gestore del registro per il dominio \".ch\" è soggetto agli obblighi di documentazione e di presentazione di un rapporto previsti dalla legge. Inoltre, comunica ogni anno il numero di nomi di dominio che sono stati bloccati (798 nel 2021).</p><p>Nell'eventualità che i siti web vengano attivati per commettere truffe commerciali, senza che soddisfino i criteri sopra elencati, si applica l'articolo 25 capoverso 1bis ODIn, che impone al gestore del registro di impedire l'attivazione del nome di dominio se un'autorità competente presenta motivi fondati che gli permettono di supporre che il dominio sarà utilizzato a scopo illecito. Considerato che, spesso, tali incidenti possono essere rilevati solo una volta che il dominio è attivo, l'articolo 30 capoverso 2 lettera g ODIn stabilisce che il gestore del registro è tenuto a revocare l'attribuzione di un nome di dominio se un'autorità competente lo ordina. Inoltre, secondo l'articolo 30 capoverso 4 lettera b ODIn il gestore del registro può bloccare a breve termine un nome di dominio o deviare il traffico Internet che rinvia a quest'ultimo se vi sono motivi fondati di supporre che il titolare utilizzi il nome di dominio a scopo illecito o in modo illecito e se è urgente prevenire un pregiudizio imminente e difficilmente riparabile.</p><p>Sulla base di tali disposizioni è possibile, ad esempio, impedire ai truffatori di gestire siti web che simulano un collegamento ufficiale, sempre che l'effetto di protezione delle possibilità legali menzionate rimanga sempre limitato ai nomi di dominio, la cui amministrazione è responsabilità della Svizzera.</p><p>Secondo il Consiglio federale, le basi legali per un intervento rapido in caso di siti truffa non mancano. Poiché, in un'epoca di economia digitalizzata, il blocco preventivo di nomi di dominio rappresenta un'ingerenza notevole nell'attività economica degli interessati, l'ODIn definisce criteri chiari per la sua ammissibilità. Questo consente altresì l'attuazione armonizzata dei blocchi.</p><p>A tale proposito, il coordinamento fra tutti gli organi implicati è fondamentale. Finora diversi corpi di polizia cantonali, fedpol, swissmedic e l'NCSC sono stati riconosciuti dall'UFCOM come organi per la lotta contro la cibercriminalità informatica i quali, conformemente all'articolo 15 capoverso 3 ODIn, possono esigere il blocco di nomi di dominio. Il loro coordinamento è di buona qualità ed è stato rafforzato grazie al passaggio dell'NCSC a servizio nazionale. Questo permette infatti di segnalare in modo più semplice e rapido i siti sospetti alle autorità. Dal momento che tutti gli organi implicati indirizzano le loro richieste di blocco al gestore del registro, il rischio di una dispersione è esiguo. Se le richieste fossero coordinate dapprima tramite un organo centrale, questo non apporterebbe alcun valore aggiunto ravvisabile. Il Consiglio federale ritiene che la verifica della necessità di elaborare un atto normativo volto a coordinare tali organi non sia necessaria.</p>"
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20224500,
-  "updated": "2022-12-22T11:06:18Z",
+  "updated": "2023-06-14T19:13:37Z",
   "additionalIndexing": "44;28;1236",
   "affairType": {
     "abbreviation": "Po.",
@@ -41,10 +41,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-06-14T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-15T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung des Postulates."
       },
       "index": 0,
       "links": [
@@ -69,6 +86,11 @@
           "date": "/Date(1671145200000+0100)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1686693600000+0200)/",
+          "id": 26,
+          "name": "Angenommen"
         }
       ],
       "texts": [
@@ -76,6 +98,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-06-14T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5121"
+  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -289,12 +316,19 @@
   ],
   "shortId": "22.4500",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 26,
+    "name": "Angenommen",
+    "doneKey": "3",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Das Bundesamt für Statistik liefert alle zwei Jahre Referenzindikatoren zu den Lohnunterschieden zwischen Frauen und Männern. Die Faktoren, die zur spezifischen Berechnung des erklärten bzw. unerklärten Anteils der Lohnunterschiede zwischen Frauen und Männern berücksichtigt wurden, entsprechen einerseits den international anerkannten und validierten theoretischen Anforderungen (ILO, OECD, Eurostat) und andererseits den unmittelbar aus den Unternehmensbuchhaltungen verfügbaren Daten. Die Analyse auf der Grundlage der Schweizerischen Lohnstrukturerhebung (LSE) enthält bereits nach Zivilstand und Altersgruppe aufgeschlüsselte Statistiken.</p><p>Das Postulat Dobler greift grossenteils den Inhalt des Postulats Noser 14.3388 auf, das 2015 Gegenstand eines detaillierten bundesrätlichen Berichts war. Dieser basierte auf einer Studie, mit der die Universität St. Gallen beauftragt wurde (Felfe, Ch.; Trageser, J.; Iten, R. 2015: Studie zu den statistischen Analysen der Eidgenossenschaft betreffend die Lohngleichheit von Frau und Mann. Schlussbericht).</p><p>Die Sekundärdaten, die untersucht wurden, um den Variablenkatalog gegebenenfalls vervollständigen zu können (AHV-Register, Arbeitslosenregister, Bevölkerungsstatistik), ermöglichen keine systematische und vollständige Erfassung der effektiven Abwesenheiten (Unterbrüche aufgrund von Kinderbetreuung, Arbeitslosigkeit, Langzeitkrankheit usw.) von Personen auf dem Arbeitsmarkt. Dazu müsste man die Erwerbsbiografie jeder einzelnen Person nachverfolgen können. Diese biografischen Daten werden in den Unternehmensbuchhaltungen nicht erfasst und ihre Erhebung würde für die Unternehmen einen erheblichen Zusatzaufwand bedeuten. Darüber hinaus gibt es kein einheitliches, wissenschaftlich anerkanntes Modell, das die individuellen Lebens- und Erwerbsverläufe nach finanziellen Kriterien beurteilt.</p><p>Zudem ist zu berücksichtigen, dass bestimmte Variablen zwar einen informativen Mehrwert bieten können, um bestehende Lohnunterschiede zu beschreiben, aber nicht als Rechtfertigung von Lohnunterschieden verwendet werden dürfen. Gemäss dem Gleichstellungsgesetz (GlG; SR 151.1) ist jegliche Lohndiskriminierung zwischen den Geschlechtern unter Berufung auf den Zivilstand oder auf die familiäre Situation verboten.</p>"
+    },
     {
       "type": {
         "id": 5,

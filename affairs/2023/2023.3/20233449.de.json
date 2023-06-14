@@ -1,6 +1,6 @@
 {
   "id": 20233449,
-  "updated": "2023-04-17T15:43:21Z",
+  "updated": "2023-06-14T15:29:22Z",
   "additionalIndexing": "24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,10 +41,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-06-13T00:00:00Z",
+            "text": "Zuweisung an die zuständige Kommission zur Vorberatung",
+            "type": 66
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-05-24T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
@@ -57,13 +74,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EFD",
+          "id": 7,
+          "name": "Finanzdepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1681164000000+0200)/",
           "id": 24,
           "name": "Im Rat noch nicht behandelt"
+        },
+        {
+          "date": "/Date(1686607200000+0200)/",
+          "id": 33,
+          "name": "An die Kommission zur Vorberatung zugewiesen"
         }
       ],
       "texts": [
@@ -108,10 +135,10 @@
   ],
   "shortId": "23.3449",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 33,
+    "name": "An die Kommission zur Vorberatung zugewiesen",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -120,6 +147,13 @@
         "name": "Begründung"
       },
       "value": "<p>Es liegt im Gesamtinteresse der Schweiz, dass keine Bank mehr so gross ist, dass sie der Staat und somit der Steuerzahler aufgrund ihrer Systemrelevanz im Krisenfall retten muss. \"Too big to fail\"-Banken müssen zukünftig auf eine Grösse redimensioniert werden, bei denen die betroffenen Banken nicht mehr die internationalen Finanzmärkte und die Stabilität der Schweiz als solches gefährden. Zukünftig können Banken, welche in Schieflage geraten, durch andere Akteure im freien Markt gerettet werden, ohne dass dafür Steuergelder oder Staatsgarantien aufzuwenden sind.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Das EFD wird - unter Einbezug externer Gutachten - einerseits die Umstände gründlich analysieren, die das Massnahmenpaket vom 16. und 19.3.2023 nötig machten, und andererseits auch die Too-big-to-fail-Regulierung umfassend evaluieren. Die Ergebnisse sollen dem Parlament innert Jahresfrist im Rahmen des nächsten Berichts des Bundesrats zu den systemrelevanten Banken gemäss Artikel 52 Bankengesetz unterbreitet werden.</p><p>Dieser Bericht wird sich auch vertieft mit der Frage auseinandersetzen, welche Massnahmen angezeigt sind, um das TBTF-Risiko von systemrelevanten Banken zu minimieren. Daher kann sich der Bundesrat zum aktuellen Zeitpunkt nicht zu konkreten Massnahmen in diesen Bereichen verpflichten.</p>"
     },
     {
       "type": {
@@ -133,8 +167,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Keine Schweizer \"Too big to fail\"-Banken mehr"
+      "value": "Keine Schweizer Too-big-to-fail-Banken mehr"
     }
   ],
-  "title": "Keine Schweizer \"Too big to fail\"-Banken mehr"
+  "title": "Keine Schweizer Too-big-to-fail-Banken mehr"
 }

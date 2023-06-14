@@ -1,6 +1,6 @@
 {
   "id": 20223236,
-  "updated": "2022-06-14T14:31:16Z",
+  "updated": "2023-06-14T13:58:05Z",
   "additionalIndexing": "08;24;10;04;1221",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2022-06-14T00:00:00Z",
             "text": "Trasmissione per esame alla commissione competente",
             "type": 66
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Amm."
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-06-14T00:00:00Z",
+            "text": "Ritirato",
+            "type": 17
           }
         ]
       },
@@ -67,7 +82,73 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CAG-CN",
+            "id": 12,
+            "name": "Commissione degli affari giuridici CN",
+            "abbreviation1": "CAG-CN",
+            "abbreviation2": "CAG",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-17T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAG-CS",
+            "id": 25,
+            "name": "Commissione degli affari giuridici CS",
+            "abbreviation1": "CAG-CS",
+            "abbreviation2": "CAG",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-17T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3059,
+                    "gender": "m",
+                    "id": 4187,
+                    "name": "Bauer Philippe",
+                    "officialDenomination": "Bauer"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo RL",
+                    "id": 1,
+                    "name": "Gruppo liberale radicale"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5121"
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -90,6 +171,11 @@
           "date": "/Date(1655157600000+0200)/",
           "id": 33,
           "name": "Assegnato alla Commissione per l’esame preliminare"
+        },
+        {
+          "date": "/Date(1686693600000+0200)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -97,6 +183,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-06-14T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5121"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -169,9 +260,9 @@
   ],
   "shortId": "22.3236",
   "state": {
-    "id": 33,
-    "name": "Assegnato alla Commissione per l’esame preliminare",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
     "newKey": 0
   },
   "texts": [
