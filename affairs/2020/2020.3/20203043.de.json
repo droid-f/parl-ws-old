@@ -1,6 +1,6 @@
 {
   "id": 20203043,
-  "updated": "2022-01-12T17:10:20Z",
+  "updated": "2023-06-15T11:07:21Z",
   "additionalIndexing": "08;09",
   "affairType": {
     "abbreviation": "Po.",
@@ -55,6 +55,36 @@
             "date": "2020-06-19T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-06-12T00:00:00Z",
+            "text": "Abschreibung",
+            "type": 15
+          },
+          {
+            "category": {
+              "id": 4,
+              "name": "Ergänzung"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-06-12T00:00:00Z",
+            "text": "Im Zusammenhang mit der Beratung des Geschäfts 23.006.",
+            "type": 0
           }
         ]
       },
@@ -68,7 +98,48 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "SiK-NR",
+            "id": 8,
+            "name": "Sicherheitspolitische Kommission NR",
+            "abbreviation1": "SiK-NR",
+            "abbreviation2": "SiK",
+            "committeeNumber": 8,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2020-03-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SiK-SR",
+            "id": 21,
+            "name": "Sicherheitspolitische Kommission SR",
+            "abbreviation1": "SiK-SR",
+            "abbreviation2": "SiK",
+            "committeeNumber": 21,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2020-03-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -91,6 +162,11 @@
           "date": "/Date(1592517600000+0200)/",
           "id": 26,
           "name": "Angenommen"
+        },
+        {
+          "date": "/Date(1686520800000+0200)/",
+          "id": 25,
+          "name": "Abgeschrieben"
         }
       ],
       "texts": [
@@ -332,7 +408,7 @@
         "code": 3123,
         "gender": "m",
         "id": 4222,
-        "name": "Paganini Nicolo",
+        "name": "Paganini Nicolò",
         "officialDenomination": "Paganini"
       },
       "type": "cosign"
@@ -496,9 +572,9 @@
   ],
   "shortId": "20.3043",
   "state": {
-    "id": 26,
-    "name": "Angenommen",
-    "doneKey": "3",
+    "id": 25,
+    "name": "Abgeschrieben",
+    "doneKey": "0",
     "newKey": 0
   },
   "texts": [

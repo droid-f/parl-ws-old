@@ -1,6 +1,6 @@
 {
   "id": 20233096,
-  "updated": "2023-03-10T11:29:06Z",
+  "updated": "2023-06-15T15:29:26Z",
   "additionalIndexing": "2811;10;2846;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-06-15T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-05-17T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1678316400000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1686780000000+0200)/",
+          "id": 11,
+          "name": "Mozione alla seconda Camera"
         }
       ],
       "texts": [
@@ -146,10 +173,11 @@
   ],
   "shortId": "23.3096",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 11,
+    "name": "Mozione alla seconda Camera",
     "doneKey": "0",
-    "newKey": 1
+    "isMotionInSecondCouncil": true,
+    "newKey": 0
   },
   "texts": [
     {
@@ -158,6 +186,13 @@
         "name": "Motivazione"
       },
       "value": "<p>Non solo la Svizzera, ma tutta l'Europa stanno vivendo la maggiore crisi di rifugiati e migratoria dalla seconda guerra mondiale. Soltanto nel 2022, 100 000 persone sono giunte in Svizzera nel quadro dell'asilo. Lo statuto di protezione S resterà in vigore almeno fino a marzo 2024. Il sistema Dublino è di fatto abolito. Due Cantoni hanno già dichiarato l'emergenza asilo. Le infrastrutture sono allo stremo. Diversi Comuni hanno dovuto dare la disdetta a inquilini svizzeri per far posto ai migranti.</p><p>È dunque anche nell'interesse dei Cantoni porre fine al programma di reinsediamento attuale. Tali programmi devono essere autorizzati soltanto se la Svizzera dispone delle capacità necessarie.</p><p>Nel 2024-2025 i Cantoni e i Comuni saranno occupati quasi esclusivamente a garantire l'integrazione delle persone giunte nel 2022 e nel 2023. Due rapporti di valutazione mostrano che le persone giunte nel quadro di programmi di reinsediamento richiedono molto più tempo alle autorità coinvolte, in quanto presentano problematiche multiple. Il sovraccarico del sistema generato da un nuovo programma di reinsediamento nuocerebbe in primo luogo ai rifugiati e alle persone in cerca di protezione già presenti, in quanto le risorse (infrastrutture, assistenza, integrazione, scuole) sono limitate.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il 29 maggio 2019 il Consiglio federale ha adottato le modalità di attuazione della strategia di ammissione di gruppi di rifugiati riconosciuti (strategia di attuazione Reinsediamento) rendendo in tal modo permanente la partecipazione della Svizzera alle attività di reinsediamento dell'Alto Commissariato dell'ONU per i rifugiati (ACNUR). Il Consiglio federale ha incaricato il Dipartimento federale di giustizia e polizia (DFGP) di sottoporgli per approvazione, ogni due anni, un programma biennale di reinsediamento, fondato sulla strategia di attuazione Reinsediamento, che preveda di ammettere un contingente di al massimo 1500-2000 rifugiati. Come previsto nella suddetta strategia di attuazione, ogni proposta di programma biennale di reinsediamento è discussa con il competente gruppo di accompagnamento, composto da rappresentanti dei Cantoni, delle città e dei Comuni, della Confederazione (DFGP/DFAE), della Commissione federale della migrazione (CFM), dell'Organizzazione svizzera di aiuto ai rifugiati (OSAR) e dell'ACNUR. Inoltre il DFGP informa le Commissioni delle istituzioni politiche del Consiglio nazionale e del Consiglio degli Stati in merito alla proposta al Consiglio federale.</p><p>Il DFGP, responsabile dell'attuazione, considera costantemente la situazione nel settore dell'asilo e all'occorrenza può temporaneamente sospendere le entrate di rifugiati da reinsediare. L'ultima sospensione di questo tipo è stata decisa dal DFGP il 30 novembre 2022, su raccomandazione dello Stato maggiore speciale Asilo (SONAS). In tal modo il DFGP ha quindi tenuto conto della difficile situazione nel settore dell'asilo. Questa sospensione è ancora oggi in vigore e lo resterà finché la situazione in materia di asilo e alloggio lo esigerà.</p><p>È previsto che il Consiglio federale renderà prossimamente la sua decisione sulla proposta del DFGP relativa al programma di reinsediamento 2024/2025. Nella decisione terrà conto della situazione nel settore dell'asilo.</p>"
     },
     {
       "type": {
@@ -171,8 +206,8 @@
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Sospendere il programma di reinsediamento 2024/2025"
+      "value": "Sospendere il programma di reinsediamento 2024/25"
     }
   ],
-  "title": "Sospendere il programma di reinsediamento 2024/2025"
+  "title": "Sospendere il programma di reinsediamento 2024/25"
 }

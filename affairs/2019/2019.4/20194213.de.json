@@ -1,6 +1,6 @@
 {
   "id": 20194213,
-  "updated": "2022-08-17T17:06:51Z",
+  "updated": "2023-06-15T11:26:55Z",
   "additionalIndexing": "04;15;44",
   "affairType": {
     "abbreviation": "Po.",
@@ -55,6 +55,36 @@
             "date": "2019-12-20T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-06-12T00:00:00Z",
+            "text": "Abschreibung",
+            "type": 15
+          },
+          {
+            "category": {
+              "id": 4,
+              "name": "Ergänzung"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-06-12T00:00:00Z",
+            "text": "Im Zusammenhang mit der Beratung des Geschäfts 23.006.",
+            "type": 0
           }
         ]
       },
@@ -68,7 +98,27 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-NR",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2019-09-26T00:00:00Z",
+          "registrations": [
 
+          ]
+        }
       ],
       "references": [
 
@@ -91,6 +141,11 @@
           "date": "/Date(1576796400000+0100)/",
           "id": 26,
           "name": "Angenommen"
+        },
+        {
+          "date": "/Date(1686520800000+0200)/",
+          "id": 25,
+          "name": "Abgeschrieben"
         }
       ],
       "texts": [
@@ -206,9 +261,9 @@
   ],
   "shortId": "19.4213",
   "state": {
-    "id": 26,
-    "name": "Angenommen",
-    "doneKey": "3",
+    "id": 25,
+    "name": "Abgeschrieben",
+    "doneKey": "0",
     "newKey": 0
   },
   "texts": [
