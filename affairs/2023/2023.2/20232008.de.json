@@ -1,6 +1,6 @@
 {
   "id": 20232008,
-  "updated": "2023-02-27T16:06:00Z",
+  "updated": "2023-06-16T08:48:55Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-06-15T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,7 +64,11 @@
           },
           "date": "2023-02-24T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
           ]
         },
         {
@@ -71,7 +89,33 @@
           },
           "date": "2023-02-24T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3195,
+                    "gender": "m",
+                    "id": 4240,
+                    "name": "Juillard Charles",
+                    "officialDenomination": "Juillard"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5121"
+            }
           ]
         }
       ],
@@ -91,6 +135,11 @@
           "date": "/Date(1677193200000+0100)/",
           "id": 9,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1686780000000+0200)/",
+          "id": 3,
+          "name": "Behandelt vom Ständerat"
         }
       ],
       "texts": [
@@ -110,8 +159,8 @@
   ],
   "shortId": "23.2008",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
+    "id": 3,
+    "name": "Behandelt vom Ständerat",
     "doneKey": "0",
     "newKey": 0
   },

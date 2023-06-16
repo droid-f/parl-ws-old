@@ -1,6 +1,6 @@
 {
   "id": 20233467,
-  "updated": "2023-04-17T15:39:32Z",
+  "updated": "2023-06-16T10:53:41Z",
   "additionalIndexing": "24;04",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,26 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-06-16T00:00:00Z",
+            "text": "Liquidato",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "n",
+        "date": "2023-05-24T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +72,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Dipartimento delle Finanze",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1681164000000+0200)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1686866400000+0200)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -70,6 +96,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-06-16T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5121"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -102,12 +133,19 @@
   ],
   "shortId": "23.3467",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Ad domande 1 e 3</p><p>la FINMA e la BNS hanno deciso di rilasciare una dichiarazione congiunta in seguito alle forti distorsioni del mercato avvenute il 15 marzo 2023. Le affermazioni ivi contenute circa l'adempimento delle esigenze particolari in materia di capitale e di liquidità poste alle banche di rilevanza sistemica poggiavano sui dati relativi a Credit Suisse disponibili in tale momento. Inoltre, sebbene i mercati finanziari si trovassero di fronte a grandi incertezze provocate indirettamente dalle distorsioni sul mercato bancario statunitense, nulla lasciava supporre che gli istituti svizzeri fossero esposti a un rischio diretto di contagio.</p><p>Ad domanda 2</p><p>Vedi la risposta alla domanda 1: sono determinanti le esigenze in materia di liquidità emanate dalla FINMA nell'ambito della vigilanza (cfr. art. 31c ordinanza del 30.11.2012 sulla liquidità). In situazioni straordinarie, la liquidità così accumulata può essere impiegata per coprire elevati deflussi di liquidità.</p>"
+    },
     {
       "type": {
         "id": 5,

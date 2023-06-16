@@ -1,6 +1,6 @@
 {
   "id": 20192016,
-  "updated": "2020-06-18T17:10:16Z",
+  "updated": "2023-06-16T08:17:29Z",
   "affairType": {
     "abbreviation": "Pét.",
     "id": 10,
@@ -36,6 +36,21 @@
             "date": "2020-06-18T00:00:00Z",
             "text": "Refusé de donner suite",
             "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-06-16T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
           }
         ]
       },
@@ -64,8 +79,29 @@
           },
           "date": "2019-05-24T00:00:00Z",
           "registrations": [
-
-          ]
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3152,
+                    "gender": "m",
+                    "id": 4260,
+                    "name": "Fivaz Fabien",
+                    "officialDenomination": "Fivaz Fabien"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5121"
+            }
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
@@ -115,6 +151,11 @@
           "date": "/Date(1592431200000+0200)/",
           "id": 3,
           "name": "Traité par le Conseil des Etats"
+        },
+        {
+          "date": "/Date(1686866400000+0200)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -122,6 +163,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-06-16T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5121"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -143,9 +189,9 @@
   ],
   "shortId": "19.2016",
   "state": {
-    "id": 3,
-    "name": "Traité par le Conseil des Etats",
-    "doneKey": "0",
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
     "newKey": 0
   },
   "texts": [

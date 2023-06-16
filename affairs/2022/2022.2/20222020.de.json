@@ -1,6 +1,6 @@
 {
   "id": 20222020,
-  "updated": "2022-09-06T16:49:15Z",
+  "updated": "2023-06-16T08:54:07Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-06-15T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -71,7 +85,33 @@
           },
           "date": "2022-09-06T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3136,
+                    "gender": "m",
+                    "id": 4237,
+                    "name": "Würth Benedikt",
+                    "officialDenomination": "Würth"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5121"
+            }
           ]
         }
       ],
@@ -91,6 +131,11 @@
           "date": "/Date(1662415200000+0200)/",
           "id": 9,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1686780000000+0200)/",
+          "id": 3,
+          "name": "Behandelt vom Ständerat"
         }
       ],
       "texts": [
@@ -110,10 +155,10 @@
   ],
   "shortId": "22.2020",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
+    "id": 3,
+    "name": "Behandelt vom Ständerat",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

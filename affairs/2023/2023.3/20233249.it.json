@@ -1,6 +1,6 @@
 {
   "id": 20233249,
-  "updated": "2023-03-21T15:08:10Z",
+  "updated": "2023-06-16T10:40:40Z",
   "additionalIndexing": "34;15;04",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,26 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-06-16T00:00:00Z",
+            "text": "Liquidato",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "n",
+        "date": "2023-05-10T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +72,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1678921200000+0100)/",
           "id": 24,
           "name": "Non ancora trattato dalla Camera"
+        },
+        {
+          "date": "/Date(1686866400000+0200)/",
+          "id": 27,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -70,6 +96,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-06-16T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5121"
+  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -102,12 +133,19 @@
   ],
   "shortId": "23.3249",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidato",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>La Posta Svizzera è tenuta per legge a garantire, su tutto il territorio e con mezzi finanziari propri, il servizio universale nei settori dei servizi postali e del traffico dei pagamenti. Conformemente alla legge sulle poste, la Posta deve fissare i prezzi in base a principi economici. Nel settore della logistica, deve far fronte a sfide importanti. Il continuo calo dei volumi, insieme a un numero sempre maggiore di economie domestiche da servire, tende ad aumentare i costi medi della consegna delle lettere. La Posta risponde a questi sviluppi con la strategia \"La Posta di domani\". Oltre ai progetti di trasformazione (stabilizzazione e apertura della rete) e alle misure di efficienza (fusione dell'attività lettere e pacchi), la Posta prevede anche adeguamenti di prezzo, questi vengono attualmente analizzati dal Sorvegliante dei prezzi e sono oggetto di discussioni.</p><p>La Posta è responsabile di definire autonomamente la propria strategia imprenditoriale. Nel fare ciò, deve ovviamente rispettare le disposizioni della legislazione postale in vigore e attenersi agli obiettivi strategici fissati dal Consiglio federale.</p><p>Il Consiglio federale non vede quindi alcun motivo per intervenire presso il consiglio d'amministrazione della Posta.</p>"
+    },
     {
       "type": {
         "id": 5,
@@ -120,8 +158,8 @@
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "La Posta pensa ad un nuovo aumento dei prezzi: il Consiglio federale intende intervenire per impedirlo?"
+      "value": "La Posta pensa ad un nuovo aumento dei prezzi. Il Consiglio federale intende intervenire per impedirlo?"
     }
   ],
-  "title": "La Posta pensa ad un nuovo aumento dei prezzi: il Consiglio federale intende intervenire per impedirlo?"
+  "title": "La Posta pensa ad un nuovo aumento dei prezzi. Il Consiglio federale intende intervenire per impedirlo?"
 }

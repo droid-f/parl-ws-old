@@ -1,6 +1,6 @@
 {
   "id": 20222036,
-  "updated": "2022-11-25T09:46:02Z",
+  "updated": "2023-06-16T08:09:15Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-06-16T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,8 +64,35 @@
           },
           "date": "2022-11-24T00:00:00Z",
           "registrations": [
-
-          ]
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3152,
+                    "gender": "m",
+                    "id": 4260,
+                    "name": "Fivaz Fabien",
+                    "officialDenomination": "Fivaz Fabien"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion G",
+                    "code": "G",
+                    "id": 6,
+                    "name": "Grüne Fraktion"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5121"
+            }
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
@@ -91,6 +132,11 @@
           "date": "/Date(1669244400000+0100)/",
           "id": 9,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1686866400000+0200)/",
+          "id": 2,
+          "name": "Behandelt vom Nationalrat"
         }
       ],
       "texts": [
@@ -110,10 +156,10 @@
   ],
   "shortId": "22.2036",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
+    "id": 2,
+    "name": "Behandelt vom Nationalrat",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

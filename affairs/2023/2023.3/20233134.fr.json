@@ -1,6 +1,6 @@
 {
   "id": 20233134,
-  "updated": "2023-03-16T10:32:12Z",
+  "updated": "2023-06-16T10:32:14Z",
   "additionalIndexing": "48;04",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,26 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-06-16T00:00:00Z",
+            "text": "Liquidé",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "n",
+        "date": "2023-05-10T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +72,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1678748400000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1686866400000+0200)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -70,6 +96,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-06-16T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5121"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -172,12 +203,19 @@
   ],
   "shortId": "23.3134",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Question 1 :</p><p>Le dimensionnement d'un P+R n'est pas du ressort de la Confédération. La Confédération planifie effectivement les infrastructures ferroviaires, mais ce sont les cantons et les communes qui sont en charge de l'organisation et de la commande de la mobilité régionale et locale. Les CFF sont impliqués dans les discussions pour les abords des gares.</p><p>La Confédération a évalué le projet d'agglomération Chablais de 4e génération. Dans son message sur les crédits d'engagement alloués à partir de 2024 pour les contributions aux mesures prises dans le cadre du programme en faveur du trafic d'agglomération, le Conseil fédéral propose au Parlement prendre en charge 40% des coûts du projet d'agglomération Chablais de 4e génération. La requalification de la gare de Bex fait partie des mesures cofinancées. Lors de l'évaluation du projet d'agglomération l'étude de Chablais Région sur les P+R n'était pas encore disponible.</p><p>Question 2 :</p><p>Dans le cadre de la \" déclaration d'Emmenbrücke \", la Confédération, les cantons, les villes et les communes ont souligné l'importance des interfaces multimodales. Conformément aux directives du programme en faveur du trafic d'agglomération, la Confédération salue l'approche de gérer les flux de trafic à travers le stationnement et de coordonner l'offre du stationnement à l'échelle de l'agglomération. Cependant, la modification du nombre des places de parc doit se faire en coordination avec l'offre de transport multimodal, pour assurer une bonne accessibilité pour tous les voyageurs.</p><p>Question 3 :</p><p>Le dimensionnement des P+R et l'organisation du rabattement sur les gares incombent aux communes concernées et aux cantons. En effet, ils sont responsables de la planification et de la mise en oeuvre de la mobilité locale et régionale. Dans le cadre du projet d'agglomération, la Confédération a cofinancé un système de bus \" sur demande \", ce qui a permis d'améliorer entre autres l'accessibilité des haltes et gares ferroviaires dans la région. La Confédération soutient également le développement du réseau de mobilité douce offrant ainsi une meilleure accessibilité.</p>"
+    },
     {
       "type": {
         "id": 5,
@@ -190,8 +228,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "P+R dans le Chablais. Quelle est la position du Conseil fédéral ?"
+      "value": "Park and Ride dans le Chablais. Quelle est la position du Conseil fédéral?"
     }
   ],
-  "title": "P+R dans le Chablais. Quelle est la position du Conseil fédéral ?"
+  "title": "Park and Ride dans le Chablais. Quelle est la position du Conseil fédéral?"
 }

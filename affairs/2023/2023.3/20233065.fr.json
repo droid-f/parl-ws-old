@@ -1,6 +1,6 @@
 {
   "id": 20233065,
-  "updated": "2023-03-07T16:45:08Z",
+  "updated": "2023-06-16T10:16:02Z",
   "additionalIndexing": "2836",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,26 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-06-16T00:00:00Z",
+            "text": "Liquidé",
+            "type": 30
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "b",
+        "date": "2023-05-10T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +72,23 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1678143600000+0100)/",
           "id": 24,
           "name": "Non encore traité au conseil"
+        },
+        {
+          "date": "/Date(1686866400000+0200)/",
+          "id": 27,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -70,6 +96,11 @@
       ]
     }
   ],
+  "handling": {
+    "date": "2023-06-16T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5121"
+  },
   "language": "fr",
   "priorityCouncils": [
     {
@@ -102,12 +133,19 @@
   ],
   "shortId": "23.3065",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
-    "doneKey": "0",
-    "newKey": 1
+    "id": 27,
+    "name": "Liquidé",
+    "doneKey": "1",
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>1 et 3. Les frais administratifs des caisses de compensation AVS ne figurent pas intégralement dans les comptes annuels de l'assurance-vieillesse et survivants (AVS) établis par compenswiss, car la plus grande partie de ces frais sont couverts par les cotisants (employeurs et salariés) affiliés aux caisses de compensation AVS respectives et figurent donc dans les comptes d'exploitation de ces caisses. Les comptes annuels de l'AVS ne comprennent que les contributions et subsides aux frais d'administration, qui sont financés par le fonds de compensation de l'AVS, ainsi que les frais de gestion de compenswiss. Dans les comptes annuels de l'AVS ne figure donc que la partie des charges administratives financées par le fonds de compensation de l'AVS. L'Office fédéral des assurances sociales (OFAS) établit toutefois chaque année une synthèse comptable de l'ensemble des charges administratives liées à la mise en oeuvre de l'AVS. Par souci de transparence, il publiera dès le second semestre 2023 l'ensemble des frais d'administration liés à l'AVS dans le rapport annuel sur les assurances sociales, ainsi que dans la Statistique des assurances sociales suisses.</p><p>2. Pour l'année 2021, l'ensemble des frais d'administration de l'AVS se sont montés à 551,5 millions de francs. Ces coûts incluent 206,1 millions de francs financés par le fonds de compensation AVS (dont 38,2 millions pour la gestion des actifs), 21,2 millions de francs d'indemnités attribuées aux agences communales et 324,2 millions couverts par les contributions aux frais d'administration des cotisants.</p><p>4. La base de données de l'AVS et de la prévoyance professionnelle est suffisamment solide pour que des évaluations et des comparaisons correctes puissent être effectuées. Comme mentionné plus haut, les coûts totaux de mise en oeuvre de l'AVS et du 1er pilier seront en outre publiés dans le rapport annuel sur les assurances sociales ainsi que dans la Statistique des assurances sociales suisses, ce qui devrait faciliter le débat politique. Le Conseil fédéral estime toutefois qu'il n'est pas utile de comparer les frais d'administration du 1er et du 2e pilier, car ces assurances sociales diffèrent trop l'une de l'autre au niveau de leur fonctionnement et toute affirmation devrait toujours être faite avec de nombreuses réserves.</p>"
+    },
     {
       "type": {
         "id": 5,
