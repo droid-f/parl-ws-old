@@ -1,6 +1,6 @@
 {
   "id": 20214584,
-  "updated": "2021-12-20T15:19:47Z",
+  "updated": "2025-04-24T19:32:39Z",
   "additionalIndexing": "48",
   "affairType": {
     "abbreviation": "Mo.",
@@ -17,7 +17,7 @@
     },
     "faction": {
       "abbreviation": "Groupe M-E",
-      "id": 139,
+      "id": 3,
       "name": "Le Groupe du Centre. Le Centre. PEV."
     },
     "type": "author"
@@ -40,29 +40,172 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-18T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-03-06T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CTT-CN",
+            "id": 9,
+            "name": "Commission des transports et des télécommunications CN",
+            "abbreviation1": "CTT-N",
+            "abbreviation2": "CTT",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CTT-CE",
+            "id": 22,
+            "name": "Commission des transports et des télécommunications CE",
+            "abbreviation1": "CTT-E",
+            "abbreviation2": "CTT",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-12T12:50:05Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2600,
+                    "gender": "f",
+                    "id": 1106,
+                    "name": "Häberli-Koller Brigitte",
+                    "officialDenomination": "Häberli-Koller"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639609200000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1644966000000+0100)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1694988000000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1707778800000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1709679600000+0100)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
         }
       ],
       "texts": [
@@ -110,7 +253,7 @@
         "gender": "m",
         "id": 4070,
         "name": "Candinas Martin",
-        "officialDenomination": "Candinas"
+        "officialDenomination": "Candinas Martin"
       },
       "type": "cosign"
     },
@@ -159,7 +302,7 @@
         "code": 3123,
         "gender": "m",
         "id": 4222,
-        "name": "Paganini Nicolo",
+        "name": "Paganini Nicolò",
         "officialDenomination": "Paganini"
       },
       "type": "cosign"
@@ -184,7 +327,7 @@
       },
       "faction": {
         "abbreviation": "Groupe M-E",
-        "id": 139,
+        "id": 3,
         "name": "Le Groupe du Centre. Le Centre. PEV."
       },
       "type": "author"
@@ -192,19 +335,40 @@
   ],
   "shortId": "21.4584",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 209,
+    "name": "Transmis au Conseil fédéral",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Selon les perspectives \" RAIL 2050 \" de l'Office fédéral des transports, la part des transports publics devra doubler d'ici à 2050. On peut douter que cet objectif soit encore tenable après la pandémie de coronavirus. Et il existe un risque sérieux de voir l'effort se concentrer sur les grands axes de transit qui relient les centres, au détriment de régions rurales souvent peu peuplées et mal desservies. Dans sa réponse à ma question 21.7780 (Rail 2050. Discrimination des régions rurales), le Conseil fédéral affirme certes qu'une bonne desserte des régions périphériques continue de faire partie des objectifs de la politique suisse des transports et qu'une limitation du trafic individuel motorisé ne figure pas au programme des perspectives RAIL 2050. Il n'en doit pas moins faire preuve ici d'un engagement accru pour faire en sorte que les investissements nécessaires soient également effectués dans les régions périphériques. Ainsi, un renforcement de l'axe Zurich - St-Margarethen devra aussi se traduire par des mesures d'amélioration du trafic régional, par exemple du réseau des Appenzeller Bahnen. Il faut éviter en outre d'opposer transports publics et trafic privé, et au contraire mieux les coordonner afin qu'ils se complètent aussi bien que possible. Rappelons que c'est justement dans les régions à habitat dispersé, comme l'Appenzell, que la voiture reste indispensable. Aussi serait-il envisageable d'aménager des places de stationnement dans les gares ou de mettre en place un réseau de taxis ou de minibus à la demande afin d'améliorer les liaisons avec les transports publics et de renforcer finalement ceux-ci. Pour le dire autrement, il s'agit de mieux exploiter les potentiels que recèle la combinaison des différentes formes de mobilité.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La perspective RAIL 2050 définit l'orientation stratégique pour le développement ferroviaire à long terme au-delà de 2050 et la concrétise au niveau des corridors. La perspective RAIL 2050 ne vise pas un doublement de la répartition modale des transports publics. Ce doublement n'est qu'une simple hypothèse de travail qui sert à vérifier quelle contribution le système ferroviaire peut apporter aux stratégies de la Confédération, notamment à la stratégie climatique 2050 et à la partie Programme du Plan sectoriel des transports \" Mobilité et territoire 2050 \". La perspective RAIL 2050 doit également apporter une réponse au postulat 17.3262 \" Croix fédérale de la mobilité et vision du réseau ferroviaire \". Enfin, la perspective RAIL 2050 doit répondre aux questions relatives à une meilleure interconnexion des modes de transport et aux gains d'efficience du système ferroviaire dans les domaines de l'énergie et des émissions de gaz à effet de serre.</p><p>Les travaux de planification de la perspective RAIL 2050 se déroulent dans le cadre d'un processus largement soutenu impliquant les cantons, le secteur du transport de marchandises, les entreprises ferroviaires et des associations telles que Economiesuisse ou l'Association des communes suisses. Le message relatif au rapport intermédiaire sur les étapes d'aménagement en cours, dans lequel seront intégrées les conclusions de la perspective RAIL 2050, sera soumis au Parlement en 2023. Cela permettra notamment de définir les orientations de la prochaine étape d'aménagement.</p><p>La perspective RAIL 2050 s'inscrit dans le cadre du mandat légal. Dans la partie Programme du Plan sectoriel des transports \" Mobilité et territoire 2050 \", le Conseil fédéral a défini des qualités de desserte pour différentes régions. Les objectifs de l'aménagement de l'infrastructure ferroviaire sont ancrés dans l'art. 48a de la loi du 20 décembre 1957 sur les chemins de fer (LCdF). L'aménagement du trafic régional et d'agglomération ainsi que l'amélioration de la desserte des régions de montagne et des régions touristiques y sont déjà explicitement prescrits comme objectifs. Par conséquent, l'adaptation d'une meilleure desserte des régions rurales aux agglomérations en vue d'un futur aménagement de l'infrastructure ferroviaire est déjà inscrite dans la loi. Il n'est donc pas nécessaire d'adapter la loi pour atteindre cet objectif.</p><p>En outre, le Conseil fédéral est conscient qu'une combinaison de différentes formes de mobilité présente un potentiel pour de meilleures dessertes, y compris dans les zones rurales, ainsi que pour un système de mobilité plus efficient dans son ensemble. Le programme \" pour les interfaces de transports \" de la Confédération doit notamment servir à mieux relier les différentes offres de mobilité entre les espaces ruraux et urbains. Par ailleurs, le Conseil fédéral a ouvert début février 2022 une consultation sur une loi fédérale concernant l'infrastructure de données sur la mobilité, qui doit précisément permettre d'exploiter ce potentiel.</p>  Le Conseil fédéral propose de rejeter la motion."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé de modifier le droit en vigueur de façon à garantir que le raccordement des régions rurales aux agglomérations soit systématiquement pris en compte et amélioré lors du développement des infrastructures ferroviaires qui interviendra dans le cadre du projet RAIL 2050. De même, chacune des étapes d'aménagement qui seront réalisées sur les axes de transport principaux qui relient les centres devra s'accompagner d'améliorations de la desserte fine dans les régions rurales voisines, soit directement par les transports publics, soit par un meilleur raccordement des transports publics aux infrastructures du trafic privé.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Rail 2050. Assurer le raccordement des régions rurales"
     }
   ],
-  "title": "Titre suit"
+  "title": "Rail 2050. Assurer le raccordement des régions rurales"
 }

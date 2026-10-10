@@ -1,6 +1,6 @@
 {
   "id": 20213910,
-  "updated": "2023-05-03T08:42:44Z",
+  "updated": "2025-06-17T11:26:22Z",
   "additionalIndexing": "24;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,36 @@
             "date": "2023-05-02T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-03-10T00:00:00Z",
+            "text": "Sospensione",
+            "type": 65
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2025-06-16T00:00:00Z",
+            "text": "Sospensione",
+            "type": 65
           }
         ]
       },
@@ -67,7 +97,93 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CET-CN",
+            "id": 10,
+            "name": "Commissione dell'economia e dei tributi CN",
+            "abbreviation1": "CET-N",
+            "abbreviation2": "CET",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-18T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CS",
+            "id": 23,
+            "name": "Commissione dell'economia e dei tributi CS",
+            "abbreviation1": "CET-S",
+            "abbreviation2": "CET",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-18T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-02-25T11:13:54Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3107,
+                    "gender": "m",
+                    "id": 4206,
+                    "name": "Ettlin Erich",
+                    "officialDenomination": "Ettlin Erich"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +204,33 @@
         },
         {
           "date": "/Date(1682978400000+0200)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1688680800000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1741561200000+0100)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1741647600000+0100)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1743544800000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1750024800000+0200)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
         }
       ],
       "texts": [
@@ -219,10 +360,9 @@
   ],
   "shortId": "21.3910",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 207,
+    "name": "Pianificato nel Consiglio degli Stati",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -238,7 +378,7 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>Dopo la crisi finanziaria la Svizzera ha aumentato notevolmente le esigenze in materia di fondi propri per le banche di rilevanza sistemica attive a livello globale. Nel quadro del regime \"too big to fail\" (regime TBTF), ha tra l'altro attuato le prescrizioni del Financial Stability Board relative alla capacità di assorbimento delle perdite (\"total loss absorbing capacity\", TLAC). Lo standard TLAC comprende i fondi propri necessari alla continuazione dell'attività ordinaria della banca (fondi propri \"going concern\") e i fondi supplementari in grado di assorbire le perdite (fondi \"gone concern\"). Questo standard minimo internazionale, applicabile dal 1° gennaio 2022, esige dalle banche di rilevanza sistemica attive a livello globale una quota di capitale non ponderata in funzione del rischio (indice di leva finanziaria, rapporto di indebitamento o leverage ratio) di almeno il 6,75 per cento. Non comprende eventuali esigenze più severe relative al cuscinetto di fondi propri.</p><p>Oltre alle esigenze relative a questo cuscinetto, la normativa svizzera impone alle due grandi banche nazionali attive a livello globale un leverage ratio pari a quasi il 9 per cento. Il rapporto del Consiglio federale del 4 giugno 2021 (FF 2021 1487) sulle banche di rilevanza sistemica indica che anche le altre piazze finanziarie internazionali fanno in parte valere esigenze altrettanto elevate. Alla luce di quanto esposto, la richiesta dell'autrice della mozione di aumentare le esigenze in materia di fondi propri al 15 per cento corrisponde a un incremento notevole, ben al di sopra dello standard internazionale e delle esigenze imposte da altri ordinamenti giuridici (USA, Regno Unito, UE).</p><p>L'aumento richiesto sarebbe inoltre in contraddizione con l'articolo 9 capoverso 1 della legge sulle banche. Queste prescrizioni del legislatore in riferimento alla proporzionalità, alla presa in considerazione delle ripercussioni sulla banca interessata e sulla concorrenza verrebbero chiaramente violate e gli standard internazionali ignorati.</p><p>Di conseguenza, e in considerazione delle misure adottate dopo la crisi finanziaria per rafforzare la resilienza delle banche di rilevanza sistemica, il Consiglio federale ritiene che per il momento non sia necessario aumentare notevolmente le vigenti esigenze in materia di fondi propri delle banche di rilevanza sistemica. Per un esame più approfondito della normativa TBTF si rinvia al rapporto del Consiglio federale sopra citato.</p>"
+      "value": "<p>Dopo la crisi finanziaria la Svizzera ha aumentato notevolmente le esigenze in materia di fondi propri per le banche di rilevanza sistemica attive a livello globale. Nel quadro del regime \"too big to fail\" (regime TBTF), ha tra l'altro attuato le prescrizioni del Financial Stability Board relative alla capacità di assorbimento delle perdite (\"total loss absorbing capacity\", TLAC). Lo standard TLAC comprende i fondi propri necessari alla continuazione dell'attività ordinaria della banca (fondi propri \"going concern\") e i fondi supplementari in grado di assorbire le perdite (fondi \"gone concern\"). Questo standard minimo internazionale, applicabile dal 1° gennaio 2022, esige dalle banche di rilevanza sistemica attive a livello globale una quota di capitale non ponderata in funzione del rischio (indice di leva finanziaria, rapporto di indebitamento o leverage ratio) di almeno il 6,75 per cento. Non comprende eventuali esigenze più severe relative al cuscinetto di fondi propri.</p><p>Oltre alle esigenze relative a questo cuscinetto, la normativa svizzera impone alle due grandi banche nazionali attive a livello globale un leverage ratio pari a quasi il 9 per cento. Il rapporto del Consiglio federale del 4 giugno 2021 (FF 2021 1487) sulle banche di rilevanza sistemica indica che anche le altre piazze finanziarie internazionali fanno in parte valere esigenze altrettanto elevate. Alla luce di quanto esposto, la richiesta dell'autrice della mozione di aumentare le esigenze in materia di fondi propri al 15 per cento corrisponde a un incremento notevole, ben al di sopra dello standard internazionale e delle esigenze imposte da altri ordinamenti giuridici (USA, Regno Unito, UE).</p><p>L'aumento richiesto sarebbe inoltre in contraddizione con l'articolo 9 capoverso 1 della legge sulle banche. Queste prescrizioni del legislatore in riferimento alla proporzionalità, alla presa in considerazione delle ripercussioni sulla banca interessata e sulla concorrenza verrebbero chiaramente violate e gli standard internazionali ignorati.</p><p>Di conseguenza, e in considerazione delle misure adottate dopo la crisi finanziaria per rafforzare la resilienza delle banche di rilevanza sistemica, il Consiglio federale ritiene che per il momento non sia necessario aumentare notevolmente le vigenti esigenze in materia di fondi propri delle banche di rilevanza sistemica. Per un esame più approfondito della normativa TBTF si rinvia al rapporto del Consiglio federale sopra citato.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

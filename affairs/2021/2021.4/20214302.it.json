@@ -1,6 +1,6 @@
 {
   "id": 20214302,
-  "updated": "2023-06-14T07:57:43Z",
+  "updated": "2024-05-14T08:27:17Z",
   "additionalIndexing": "55;15;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -14,11 +14,6 @@
       "id": 4289,
       "name": "Schneider Meret",
       "officialDenomination": "Schneider Meret"
-    },
-    "faction": {
-      "abbreviation": "Gruppo G",
-      "id": 6,
-      "name": "Gruppo dei Verdi"
     },
     "type": "author"
   },
@@ -54,6 +49,21 @@
             "date": "2023-06-13T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-03-04T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
           }
         ]
       },
@@ -67,7 +77,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-20T15:33:31Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3053,
+                    "gender": "m",
+                    "id": 4153,
+                    "name": "Hegglin Peter",
+                    "officialDenomination": "Hegglin Peter"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CN",
+            "id": 10,
+            "name": "Commissione dell'economia e dei tributi CN",
+            "abbreviation1": "CET-N",
+            "abbreviation2": "CET",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-10-01T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CS",
+            "id": 23,
+            "name": "Commissione dell'economia e dei tributi CS",
+            "abbreviation1": "CET-S",
+            "abbreviation2": "CET",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-10-01T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +179,18 @@
         },
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1707433200000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1709506800000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -199,20 +300,14 @@
         "name": "Schneider Meret",
         "officialDenomination": "Schneider Meret"
       },
-      "faction": {
-        "abbreviation": "Gruppo G",
-        "id": 6,
-        "name": "Gruppo dei Verdi"
-      },
       "type": "author"
     }
   ],
   "shortId": "21.4302",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -228,7 +323,7 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>La Confederazione accorda un supplemento per il latte commerciale trasformato in formaggio, conformemente all'articolo 38 capoverso 1 della legge sull'agricoltura (LAgr; RS 910.1).</p><p>Esso viene versato ai valorizzatori del latte che sono tenuti a trasmetterlo ai produttori entro il termine di un mese (cfr. art. 1c e 6 dell'ordinanza sul sostegno del prezzo del latte [OSL; RS 916.350.2]). Per il latte estero importato in Svizzera nel quadro del traffico di perfezionamento, ivi trasformato in formaggio e successivamente riesportato, già oggi non vi è alcun diritto al supplemento per il latte trasformato in formaggio. Di conseguenza, il supplemento per il latte trasformato in formaggio non ha alcun nesso diretto con il traffico di perfezionamento. Inoltre, secondo le norme Swissness i latticini fabbricati con materie prime di provenienza estera non possono essere considerati svizzeri. L'autrice della mozione auspica che i valorizzatori del latte, che depositano una domanda d'importazione di latte per il traffico di perfezionamento, non ricevano più il supplemento per il latte trasformato in formaggio nemmeno per il latte svizzero e rinuncino quindi al traffico di perfezionamento.</p><p>Il vigente articolo 38 capoverso 2 LAgr non offre una base legale sufficiente per negare il versamento del supplemento per il latte trasformato in formaggio ai valorizzatori del latte che trasformano latte svizzero in formaggio e che, parallelamente, depositano una domanda d'importazione di latte per il traffico di perfezionamento. Inoltre va sottolineato che il supplemento per il latte trasformato in formaggio è versato ai produttori di latte a sostegno dei loro prezzi per il latte. La modifica del diritto ai supplementi richiesta dall'autrice della mozione penalizzerebbe i produttori di latte che forniscono il proprio latte ai valorizzatori addetti alla sua trasformazione in formaggio.</p>"
+      "value": "<p>La Confederazione accorda un supplemento per il latte commerciale trasformato in formaggio, conformemente all'articolo 38 capoverso 1 della legge sull'agricoltura (LAgr; RS 910.1).</p><p>Esso viene versato ai valorizzatori del latte che sono tenuti a trasmetterlo ai produttori entro il termine di un mese (cfr. art. 1c e 6 dell'ordinanza sul sostegno del prezzo del latte [OSL; RS 916.350.2]). Per il latte estero importato in Svizzera nel quadro del traffico di perfezionamento, ivi trasformato in formaggio e successivamente riesportato, già oggi non vi è alcun diritto al supplemento per il latte trasformato in formaggio. Di conseguenza, il supplemento per il latte trasformato in formaggio non ha alcun nesso diretto con il traffico di perfezionamento. Inoltre, secondo le norme Swissness i latticini fabbricati con materie prime di provenienza estera non possono essere considerati svizzeri. L'autrice della mozione auspica che i valorizzatori del latte, che depositano una domanda d'importazione di latte per il traffico di perfezionamento, non ricevano più il supplemento per il latte trasformato in formaggio nemmeno per il latte svizzero e rinuncino quindi al traffico di perfezionamento.</p><p>Il vigente articolo 38 capoverso 2 LAgr non offre una base legale sufficiente per negare il versamento del supplemento per il latte trasformato in formaggio ai valorizzatori del latte che trasformano latte svizzero in formaggio e che, parallelamente, depositano una domanda d'importazione di latte per il traffico di perfezionamento. Inoltre va sottolineato che il supplemento per il latte trasformato in formaggio è versato ai produttori di latte a sostegno dei loro prezzi per il latte. La modifica del diritto ai supplementi richiesta dall'autrice della mozione penalizzerebbe i produttori di latte che forniscono il proprio latte ai valorizzatori addetti alla sua trasformazione in formaggio.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

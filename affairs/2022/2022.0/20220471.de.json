@@ -1,6 +1,6 @@
 {
   "id": 20220471,
-  "updated": "2022-10-06T15:42:38Z",
+  "updated": "2024-10-17T11:23:16Z",
   "additionalIndexing": "04;15",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -41,7 +41,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-26T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -51,7 +65,98 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "SPK-NR",
+            "id": 11,
+            "name": "Staatspolitische Kommission NR",
+            "abbreviation1": "SPK-N",
+            "abbreviation2": "SPK",
+            "committeeNumber": 11,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-09-29T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2594,
+                    "gender": "m",
+                    "id": 1122,
+                    "name": "Fluri Kurt",
+                    "officialDenomination": "Fluri"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "de"
+                },
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3025,
+                    "gender": "m",
+                    "id": 4120,
+                    "name": "Romano Marco",
+                    "officialDenomination": "Romano"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5122"
+            }
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "SPK-SR",
+            "id": 24,
+            "name": "Staatspolitische Kommission SR",
+            "abbreviation1": "SPK-S",
+            "abbreviation2": "SPK",
+            "committeeNumber": 24,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-09-29T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
@@ -67,8 +172,18 @@
       "states": [
         {
           "date": "/Date(1664402400000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1695679200000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -219,10 +334,10 @@
   ],
   "shortId": "22.471",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

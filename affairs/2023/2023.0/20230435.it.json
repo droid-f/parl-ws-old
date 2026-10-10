@@ -1,6 +1,6 @@
 {
   "id": 20230435,
-  "updated": "2023-06-09T09:30:28Z",
+  "updated": "2024-05-30T13:03:53Z",
   "additionalIndexing": "2846;1211",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -40,7 +40,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-05-30T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,24 +64,177 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CAG-CS",
+            "id": 25,
+            "name": "Commissione degli affari giuridici CS",
+            "abbreviation1": "CAG-S",
+            "abbreviation2": "CAG",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CAG-CN",
+            "id": 12,
+            "name": "Commissione degli affari giuridici CN",
+            "abbreviation1": "CAG-N",
+            "abbreviation2": "CAG",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-17T13:59:13Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3167,
+                    "gender": "m",
+                    "id": 4275,
+                    "name": "Maitre Vincent",
+                    "officialDenomination": "Maitre"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo M-E",
+                    "id": 3,
+                    "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-17T13:59:26Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2765,
+                    "gender": "m",
+                    "id": 4059,
+                    "name": "Flach Beat",
+                    "officialDenomination": "Flach"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo GL",
+                    "id": 137,
+                    "name": "Gruppo verde liberale"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlamento",
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Dipartimento dell'economia, della formazione e della ricerca",
           "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1686088800000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1692914400000+0200)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1696370400000+0200)/",
+          "id": 223,
+          "name": "Esame preliminare - nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1700175600000+0100)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1717020000000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -217,19 +384,33 @@
   ],
   "shortId": "23.435",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Nelle ultime settimane il fatto che in caso di risanamento, ristrutturazione o trasformazione di un alloggio i contratti di locazione vengano disdetti e che i locatari debbano quindi cercarsi un nuovo appartamento è stato giustamente criticato. I locatari, segnatamente i locatari di lunga durata e quelli più anziani, a seguito di una disdetta del contratto di locazione sono privati non solo del loro domicilio ma in generale anche della propria rete di relazioni sociali.&nbsp;</p><p>Il Cantone di Basilea Città ha istituito un corrispondente diritto al ritorno nell’ambito della sua legislazione sulla protezione dell’alloggio (Gesetz über die Wohnraumförderung) in vigore dal 28 maggio 2021. Il Tribunale federale nella decisione 1C_759/2021 ha tuttavia annullato la relativa disposizione precisando che la legislazione federale disciplina in modo esaustivo i rapporti tra locatari e locatori. In questo settore, l’emanazione di disposizioni giuridiche sul piano cantonale presuppone che il diritto civile federale contempli una riserva corrispondente (art. 5 cpv. 1 CC). Al momento però la legge non prevede tale riserva.&nbsp;</p><p>In considerazione della scarsità di alloggi a prezzi accessibili che sussiste soprattutto nelle aree urbane e sulla scia del caso problematico venuto alla luce a Windisch, è necessario procedere a un adeguamento della legislazione sul piano federale. Bisogna consentire ai Cantoni di agire per rispondere in modo adeguato alle sfide che si pongono nell’ambito della politica dell’alloggio e della politica sociale. Devono quindi poter disporre anch’essi di uno strumento che contempla il diritto al ritorno in analogia a quanto previsto dalla legge basilese menzionata.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Le disposizioni in materia di locazione (art. 253 segg. CO) devono essere completate ai sensi dell’articolo&nbsp;5 CC con l’introduzione di una riserva che consenta ai Cantoni di emanare disposizioni di natura civile concernenti il diritto al ritorno dei locatari. In particolare, in tempi di penuria di alloggi i Cantoni dovrebbero poter condizionare il rilascio di un’autorizzazione per la trasformazione, la ristrutturazione o il risanamento di un immobile al fatto che i locatari precedenti possano beneficiare di un diritto al ritorno.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Diritto al ritorno dei locatari dopo il risanamento e la trasformazione di un immobile"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Diritto al ritorno dei locatari dopo il risanamento e la trasformazione di un immobile"
 }

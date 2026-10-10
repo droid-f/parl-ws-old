@@ -1,6 +1,6 @@
 {
   "id": 20230447,
-  "updated": "2023-06-21T16:24:56Z",
+  "updated": "2024-09-26T17:16:59Z",
   "additionalIndexing": "52;66;55",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -41,7 +41,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-09-26T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -51,7 +65,130 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-08-13T12:05:47Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 10836,
+                    "gender": "m",
+                    "id": 10836,
+                    "name": "Kolly Nicolas",
+                    "officialDenomination": "Kolly"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "UREK-NR",
+            "id": 7,
+            "name": "Kommission für Umwelt, Raumplanung und Energie NR",
+            "abbreviation1": "UREK-N",
+            "abbreviation2": "UREK",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-08-13T12:05:28Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3216,
+                    "gender": "m",
+                    "id": 4319,
+                    "name": "Graber Michael",
+                    "officialDenomination": "Graber"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "UREK-SR",
+            "id": 20,
+            "name": "Kommission für Umwelt, Raumplanung und Energie SR",
+            "abbreviation1": "UREK-S",
+            "abbreviation2": "UREK",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
@@ -61,14 +198,40 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
+          "leading": false
+        },
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
           "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1686866400000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1692914400000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1700607600000+0100)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1723500000000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1727301600000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -219,19 +382,33 @@
   ],
   "shortId": "23.447",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Die Schweiz wird oft als das Wasserschloss Europas angesehen. Wir sind uns gewohnt, dass in unserem Land reichlich Wasser vorhanden ist. Aufgrund steigender Temperaturen und immer häufiger auftretender Trockenzeiten wird das landesweite Wasserressourcenmanagement jedoch immer anspruchsvoller. In Trockenzeiten herrscht in manchen Regionen Wassermangel, was Massnahmen erfordert, die vor einigen Jahren noch undenkbar waren. Es ist uns zum Beispiel noch präsent, dass Wasser per Helikopter transportiert wurde, um im Sommer 2022 dem Wassermangel auf einigen Alpen des Landes entgegenzuwirken.</p><p>Das Wasserressourcenmanagement in der Schweiz liegt in der Zuständigkeit unterschiedlichster Beteiligter: Der Bund hat im erwähnten Bereich beschränkte gesetzgeberische Kompetenzen; die Kantone verfügen selbst über die Wasserressourcen und vergeben Konzessionen für die Wassernutzung. Der Grundsatz, dass die Kantone für das Wassermanagement zuständig sind, soll nicht in Frage gestellt werden. Dennoch müssen im Bundesrecht Instrumente für die regionale oder nationale Ressourcenplanung sowie Instrumente und Mindestanforderungen für die Vorbeugung und Bekämpfung von Wassermangel vorgesehen werden. Dies erfordert eine Verfassungsänderung.</p><p>Bereits im Bericht zum Postulat 18.3610 Rieder machte der Bundesrat darauf aufmerksam, dass es aufgrund der erwähnten verteilten Zuständigkeiten schwierig sei, den Verfassungsauftrag nach Artikel 76 BV hinreichend zu erfüllen: «Aktuell kann der Bund seinem Verfassungsauftrag zur Sicherstellung der haushälterischen Wassernutzung (Art. 76 Abs. 1 BV) nicht zufriedenstellend nachkommen, da er nur ungenügende Informationen aus den Kantonen bezüglich deren eingeleiteten Massnahmen während Trockenperioden hat.» (S.&nbsp;17) Weiter gibt es kantonsübergreifend noch keine oder ungenügende Planungsmassnahmen: «In der Bundesgesetzgebung besteht hingegen keine Verpflichtung, dass der Bund nationale oder die Kantone regionale Wasserressourcenplanungen erstellen bzw. ein nationales oder regionales Wassermanagement einführen müssen. Dies bedeutet insbesondere: Der Bund kann den Kantonen nur empfehlen, ein regionales Wassermanagement einzuführen, um schwerwiegende Nutzungskonflikte bei Trockenheit zu vermeiden. Weitergehende aufsichtsrechtliche Anordnungen sind gestützt auf der aktuellen Bundesgesetzgebung nicht möglich“. (S.&nbsp;5)</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Wir beantragen mit der vorliegenden Initiative, Artikel 76 der Bundesverfassung wie folgt anzupassen:&nbsp;</p><p>Artikel 76 Wasser</p><p>1. Der Bund sorgt im Rahmen seiner Zuständigkeiten für die haushälterische Nutzung und den Schutz der Wasservorkommen sowie für die landesweit faire Verteilung derselben bei Wassermangel oder in Trockenzeiten und für die Abwehr schädigender Einwirkungen des Wassers.</p><p>2. Er legt Grundsätze fest über die Erhaltung und die Erschliessung der Wasservorkommen, über die Nutzung der Gewässer zur Energieerzeugung und für Kühlzwecke sowie über andere Eingriffe in den Wasserkreislauf. Er berücksichtigt die Risiken des Klimawandels.&nbsp;</p><p>3. Er erlässt Vorschriften über den Gewässerschutz, vorbeugende Massnahmen bei Wassermangel oder in Trockenzeiten, die Sicherung angemessener Restwassermengen, den Wasserbau, die Sicherheit der Stauanlagen und die Beeinflussung der Niederschläge.</p><p>4. Über die Wasservorkommen verfügen die Kantone. Sie können für die Wassernutzung in den Schranken der Bundesgesetzgebung Abgaben erheben. Der Bund hat das Recht, die Gewässer für seine Verkehrsbetriebe zu nutzen; er entrichtet dafür eine Abgabe und eine Entschädigung.</p><p>5. Über Rechte an internationalen Wasservorkommen und damit verbundene Abgaben entscheidet der Bund unter Beizug der betroffenen Kantone. Können sich Kantone über Rechte an interkantonalen Wasservorkommen nicht einigen, so entscheidet der Bund.</p><p>6. Der Bund berücksichtigt bei der Erfüllung seiner Aufgaben die Anliegen der Kantone, aus denen das Wasser stammt.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Der Umgang mit dem blauen Gold in der Schweiz und der Wassermangel. Mit einer Verfassungsänderung vorausschauend handeln, statt zu reagieren"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Der Umgang mit dem blauen Gold in der Schweiz und der Wassermangel. Mit einer Verfassungsänderung vorausschauend handeln, statt zu reagieren"
 }

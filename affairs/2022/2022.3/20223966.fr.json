@@ -1,6 +1,6 @@
 {
   "id": 20223966,
-  "updated": "2022-09-22T11:30:45Z",
+  "updated": "2025-04-24T19:20:09Z",
   "additionalIndexing": "24;04;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -33,17 +33,135 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-19T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-12-14T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-09T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CdF-CN",
+            "id": 2,
+            "name": "Commission des finances CN",
+            "abbreviation1": "CdF-N",
+            "abbreviation2": "CdF",
+            "committeeNumber": 2,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CdF-CE",
+            "id": 15,
+            "name": "Commission des finances CE",
+            "abbreviation1": "CdF-E",
+            "abbreviation2": "CdF",
+            "committeeNumber": 15,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-16T11:42:09Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3183,
+                    "gender": "f",
+                    "id": 4306,
+                    "name": "Gapany Johanna",
+                    "officialDenomination": "Gapany"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe RL",
+                    "id": 1,
+                    "name": "Groupe libéral-radical"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -59,8 +177,23 @@
       "states": [
         {
           "date": "/Date(1663711200000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1667948400000+0100)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1695074400000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1702508400000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -103,10 +236,10 @@
   ],
   "shortId": "22.3966",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -114,7 +247,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Le rapport sur les subventions a été publié pour la dernière fois en 2008. Depuis 2014, les départements de l'administration fédérale réexaminent eux-mêmes les subventions de leur ressort et publient ensuite leurs conclusions dans le compte d'Etat. Pour l'UDC, cette façon de faire est trop laxiste : non seulement elle empêche toute vraie vue d'ensemble, mais le sujet des subventions versées par la Confédération est ainsi tenu à l'écart des préoccupations des élus et du public. Pourtant, l'augmentation constante des dépenses de la Confédération impose un contrôle plus rigoureux qu'aujourd'hui. C'est pourquoi il faut réintroduire le rapport quadriennal sur les subventions, seul à même de fournir une base de comparaison et de discussion panoramique.</p>"
+      "value": "<p>Le rapport sur les subventions a été publié pour la dernière fois en 2008. Depuis 2014, les départements de l'administration fédérale réexaminent eux-mêmes les subventions de leur ressort et publient ensuite leurs conclusions dans le compte d'État. Pour l'UDC, cette façon de faire est trop laxiste : non seulement elle empêche toute vraie vue d'ensemble, mais le sujet des subventions versées par la Confédération est ainsi tenu à l'écart des préoccupations des élus et du public. Pourtant, l'augmentation constante des dépenses de la Confédération impose un contrôle plus rigoureux qu'aujourd'hui. C'est pourquoi il faut réintroduire le rapport quadriennal sur les subventions, seul à même de fournir une base de comparaison et de discussion panoramique.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le budget annuel assorti d'un plan intégré des tâches et des finances ainsi que la banque de données des subventions fédérales permettent au Conseil fédéral de faire toute la transparence sur les subventions versées par la Confédération. L'examen de ces dernières et les comptes rendus à ce sujet restent donc garantis. Par ailleurs, le Contrôle fédéral des finances procède régulièrement à des évaluations et des audits des subventions allouées.</p><p>Aux termes de la loi sur les subventions (LSu ; RS 616.1), le Conseil fédéral est tenu d'examiner l'ensemble des subventions tous les six ans au moins et de faire rapport au Parlement sur les conclusions de cet examen. En principe, toutes les subventions sont examinées et font l'objet d'un rapport notamment dans le message concernant le compte d'État et dans les messages au moyen desquels le Conseil fédéral soumet au Parlement des arrêtés financiers pluriannuels ou la modification de dispositions relatives aux subventions.</p><p>Près d'un tiers des subventions sont sollicitées dans le cadre de messages concernant des arrêtés financiers pluriannuels. Ainsi, le Parlement peut remplir son rôle de pilotage et de contrôle tous les quatre ans.</p><p>L'examen des subventions réalisé dans le cadre du compte d'État se focalise sur les subventions qui n'ont pas déjà été examinées dans d'autres messages. Chaque année, un ou deux départements vérifient si les subventions de leur ressort sont conformes à la LSu. L'examen est effectué à l'aide d'un questionnaire standard, qui permet d'abord au département concerné, puis à l'Administration fédérale des finances d'analyser notamment le motif de la subvention, son montant, ses modalités et son pilotage, ainsi que la procédure d'octroi. Le rapport qui résulte de cet examen dans le compte d'État comprend, pour chaque subvention, un résumé des principales caractéristiques, une évaluation critique et, le cas échéant, un exposé des mesures à prendre. Les conclusions de l'examen des subventions sont présentées et discutées au sein des Commissions des finances. Le controlling de la mise en oeuvre des mesures préconisées est effectué tous les trois ans, également dans le cadre du compte d'État.</p><p>Au vu des déficits structurels qui se profilent, le Conseil fédéral considère qu'il est extrêmement important de procéder à un examen des tâches actuelles. Il pense toutefois qu'il n'est pas opportun à cet effet de réintroduire le rapport sur les subventions, car celui-ci entraîne une charge administrative importante. En outre, le cycle d'examen actuel (un à deux départements par an, tous les six ans) est plus facile à gérer pour le Conseil fédéral et le Parlement. Les charges liées à l'établissement d'un rapport sur l'ensemble des subventions allouées, qui devrait être publié à un rythme quadriennal au lieu de tous les six ans, augmenteraient encore considérablement, sans que l'on puisse en attendre une quelconque plus-value. Si le Parlement souhaite réaliser des économies, il est plus efficace de passer par un examen ciblé des tâches ou de proposer des mesures d'économie dans des motions ou des mandats relatifs au plan financier.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {

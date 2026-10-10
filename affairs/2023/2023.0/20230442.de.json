@@ -1,6 +1,6 @@
 {
   "id": 20230442,
-  "updated": "2023-06-21T16:25:47Z",
+  "updated": "2024-05-30T13:04:26Z",
   "additionalIndexing": "2836;2446",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -41,7 +41,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-05-30T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -51,24 +65,139 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-24T09:09:58Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2766,
+                    "gender": "f",
+                    "id": 4060,
+                    "name": "Schneeberger Daniela",
+                    "officialDenomination": "Schneeberger"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "EFD",
+          "id": 7,
+          "name": "Finanzdepartement",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1686866400000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1692914400000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1694469600000+0200)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1700607600000+0100)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1717020000000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -92,31 +221,11 @@
   "roles": [
     {
       "councillor": {
-        "code": 2732,
-        "gender": "f",
-        "id": 3999,
-        "name": "Prelicz-Huber Katharina",
-        "officialDenomination": "Prelicz-Huber"
-      },
-      "type": "cosign"
-    },
-    {
-      "councillor": {
         "code": 3138,
         "gender": "f",
         "id": 4246,
         "name": "Badertscher Christine",
         "officialDenomination": "Badertscher"
-      },
-      "type": "cosign"
-    },
-    {
-      "councillor": {
-        "code": 3139,
-        "gender": "m",
-        "id": 4247,
-        "name": "Baumann Kilian",
-        "officialDenomination": "Baumann"
       },
       "type": "cosign"
     },
@@ -172,16 +281,6 @@
     },
     {
       "councillor": {
-        "code": 3180,
-        "gender": "f",
-        "id": 4288,
-        "name": "Schlatter Marionna",
-        "officialDenomination": "Schlatter"
-      },
-      "type": "cosign"
-    },
-    {
-      "councillor": {
         "code": 3185,
         "gender": "m",
         "id": 4293,
@@ -226,7 +325,7 @@
         "gender": "m",
         "id": 4053,
         "name": "Aeschi Thomas",
-        "officialDenomination": "Aeschi Thomas"
+        "officialDenomination": "Aeschi"
       },
       "type": "cosign"
     },
@@ -426,7 +525,7 @@
         "gender": "m",
         "id": 4141,
         "name": "Portmann Hans-Peter",
-        "officialDenomination": "Portmann"
+        "officialDenomination": "Portmann Hans-Peter"
       },
       "type": "cosign"
     },
@@ -566,7 +665,7 @@
         "gender": "f",
         "id": 4234,
         "name": "Schläpfer Therese",
-        "officialDenomination": "Schläpfer"
+        "officialDenomination": "Schläpfer Therese"
       },
       "type": "cosign"
     },
@@ -679,10 +778,10 @@
   ],
   "shortId": "23.442",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -697,7 +796,7 @@
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Das Bundesgesetz über die Harmonisierung der direkten Steuern der Kantone und Gemeinden (StHG; SR</p><p>642.14) wird wie folgt geändert: Artikel 7 (Grundsatz), Absatz 4 (Steuerfrei sind nur)</p><p>o. (neu) Renten der Alters- und Hinterbliebenenversicherung (AHV).</p>"
+      "value": "<p>Das Bundesgesetz über die Harmonisierung der direkten Steuern der Kantone und Gemeinden (StHG; SR</p><p>642.14) wird wie folgt geändert: Artikel&nbsp;7 (Grundsatz), Absatz&nbsp;4 (Steuerfrei sind nur), Buchstabe o. (neu) Renten der Alters- und Hinterbliebenenversicherung (AHV).</p>"
     },
     {
       "type": {

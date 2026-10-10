@@ -1,6 +1,6 @@
 {
   "id": 20223727,
-  "updated": "2022-06-20T14:19:07Z",
+  "updated": "2025-04-24T19:25:08Z",
   "additionalIndexing": "28;48",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,172 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-06-11T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-03-11T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-17T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CTT-CN",
+            "id": 9,
+            "name": "Commission des transports et des télécommunications CN",
+            "abbreviation1": "CTT-N",
+            "abbreviation2": "CTT",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CTT-CE",
+            "id": 22,
+            "name": "Commission des transports et des télécommunications CE",
+            "abbreviation1": "CTT-E",
+            "abbreviation2": "CTT",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-10-25T14:40:01Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3196,
+                    "gender": "m",
+                    "id": 4241,
+                    "name": "Stark Jakob",
+                    "officialDenomination": "Stark"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1655330400000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1660687200000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1718143200000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1729807200000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1739487600000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1741647600000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -120,7 +263,7 @@
         "gender": "m",
         "id": 4070,
         "name": "Candinas Martin",
-        "officialDenomination": "Candinas"
+        "officialDenomination": "Candinas Martin"
       },
       "type": "cosign"
     },
@@ -222,19 +365,40 @@
   ],
   "shortId": "22.3727",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Les personnes à mobilité réduite peuvent déjà stationner gratuitement dans de nombreux cantons et communes. Cela est cohérent dans la mesure où elles sont de toute manière autorisées à se parquer sur des places interdites au stationnement ou en dehors des cases prévues (art. 20a, al. 1, let. a, OCR), où, par essence, aucune taxe n'est prélevée. Le fait que la réglementation varie d'un endroit à l'autre est cependant source d'incertitudes et pousse certaines personnes handicapées à s'acquitter des taxes de stationnement même lorsque cela n'est pas nécessaire, par mesure de sécurité. A noter par ailleurs que les transports publics accordent des réductions aux personnes handicapées sur présentation d'une carte de légitimation pour voyageurs avec un handicap (carte d'accompagnement). La modification proposée ci-dessus permettra donc de garantir l'égalité de traitement entre les personnes à mobilité réduite qui se parquent sur les cases de stationnement et celles qui ne le font pas, tout en se rapprochant de la pratique des transports publics.</p><p>Comme le prévoit l'art. 20a, al. 3, OCR, les facilités de parcage ne s'appliquent pas sur les aires de stationnement exploitées à titre privé. L'exemption du paiement des taxes de stationnement constituant une facilité de parcage, elle ne s'appliquera que sur les places de parc publiques.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Pour le Conseil fédéral, il est essentiel de garantir et de promouvoir la mobilité des personnes à mobilité réduite. La mise en oeuvre de la loi du 13 décembre 2002 sur l'égalité pour les handicapés (LHand ; RS 151.3) dans le domaine des transports a déjà permis la réalisation de nombreux progrès. Ainsi, la modification de l'ordonnance du 13 novembre 1962 sur les règles de la circulation routière (OCR ; RS 741.11) entrée en vigueur le 1er mars 2006 a élargi les possibilités d'utilisation des fauteuils roulants motorisés sur la voie publique (art. 43a OCR). Depuis, les personnes à mobilité réduite ont en particulier le droit de circuler avec lesdits fauteuils roulants également sur les aires de circulation accessibles aux piétons. Comme le Conseil fédéral l'a expliqué dans son avis en réponse à la motion Gysi 13.3790 \" Simplifier les possibilités de parcage pour personnes à mobilité réduite \", la perception de taxes dans le domaine de la circulation routière relève de la compétence des cantons en vertu de la Constitution. Ce principe est aussi inscrit explicitement à l'art. 105, al. 1, de la loi fédérale du 19 décembre 1958 sur la circulation routière (LCR ; RS 741.01). La Confédération ne peut donc pas imposer aux cantons et aux communes de renoncer à des taxes de stationnement. C'est également pour cette raison que le Parlement n'a pas donné suite à une initiative déposée par le canton de Zurich en vue d'une exemption générale des taxes de stationnement pour les personnes à mobilité réduite (09.331, \" LCR. Dispositions relatives au parcage des véhicules. Ne pas discriminer les personnes à mobilité réduite. \").</p>  Le Conseil fédéral propose de rejeter la motion."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé d'exempter les personnes handicapées du paiement de taxes de stationnement sur les places de parc publiques. Il modifiera pour ce faire l'art. 20a, al. 1, let. b, OCR (\" stationner sur les places de parc gratuitement et pendant une durée illimitée \").</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Exempter les personnes handicapées des taxes de stationnement (art. 20a al. 1 let. b OCR)"
     }
   ],
-  "title": "Titre suit"
+  "title": "Exempter les personnes handicapées des taxes de stationnement (art. 20a al. 1 let. b OCR)"
 }

@@ -1,7 +1,7 @@
 {
   "id": 20210431,
-  "updated": "2023-02-27T18:42:57Z",
-  "additionalIndexing": "2841;04;0421",
+  "updated": "2025-02-27T08:50:26Z",
+  "additionalIndexing": "2841;04;421",
   "affairType": {
     "abbreviation": "Iv. pa.",
     "id": 4,
@@ -49,7 +49,7 @@
               "abbreviation": "CIP-CN",
               "id": 11,
               "name": "Commission des institutions politiques CN",
-              "abbreviation1": "CIP-CN",
+              "abbreviation1": "CIP-N",
               "abbreviation2": "CIP",
               "committeeNumber": 11,
               "council": {
@@ -62,7 +62,7 @@
             },
             "council": null,
             "date": "2022-01-27T00:00:00Z",
-            "text": "Donné suite",
+            "text": "Donner suite (conseil prioritaire)",
             "type": 16
           },
           {
@@ -74,7 +74,7 @@
               "abbreviation": "CIP-CE",
               "id": 24,
               "name": "Commission des institutions politiques CE",
-              "abbreviation1": "CIP-CE",
+              "abbreviation1": "CIP-E",
               "abbreviation2": "CIP",
               "committeeNumber": 24,
               "council": {
@@ -104,6 +104,21 @@
             "date": "2023-02-27T00:00:00Z",
             "text": "Donné suite",
             "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-09-21T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
           }
         ]
       },
@@ -116,10 +131,31 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-07-10T11:51:17Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CIP-CN",
             "id": 11,
             "name": "Commission des institutions politiques CN",
-            "abbreviation1": "CIP-CN",
+            "abbreviation1": "CIP-N",
             "abbreviation2": "CIP",
             "committeeNumber": 11,
             "council": {
@@ -192,7 +228,7 @@
             "abbreviation": "CIP-CE",
             "id": 24,
             "name": "Commission des institutions politiques CE",
-            "abbreviation1": "CIP-CE",
+            "abbreviation1": "CIP-E",
             "abbreviation2": "CIP",
             "committeeNumber": 24,
             "council": {
@@ -210,7 +246,8 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
@@ -232,8 +269,23 @@
         },
         {
           "date": "/Date(1677452400000+0100)/",
-          "id": 28,
-          "name": "Examen préalable par le Conseil national"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1688680800000+0200)/",
+          "id": 225,
+          "name": "Examen préalable - en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -301,7 +353,7 @@
         "gender": "m",
         "id": 4053,
         "name": "Aeschi Thomas",
-        "officialDenomination": "Aeschi Thomas"
+        "officialDenomination": "Aeschi"
       },
       "type": "cosign"
     },
@@ -361,7 +413,7 @@
         "gender": "m",
         "id": 4190,
         "name": "Dobler Marcel",
-        "officialDenomination": "Dobler"
+        "officialDenomination": "Dobler Marcel"
       },
       "type": "cosign"
     },
@@ -523,8 +575,8 @@
   ],
   "shortId": "21.431",
   "state": {
-    "id": 28,
-    "name": "Examen préalable par le Conseil national",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
@@ -534,14 +586,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Les discussions passées sur l'opportunité d'introduire un droit de veto contre les ordonnances du Conseil fédéral ont montré qu'un contrôle efficace de l'exécutif est important pour le bon fonctionnement de l'Etat. Parmi les différentes approches proposées, l'introduction d'un droit général de veto en matière d'ordonnance (cf. initiative parlementaire no 14.422) auquel les Chambres fédérales pourraient toujours recourir lorsqu'une ordonnance est contraire à l'esprit de la loi est celle qui recueille le plus grand soutien.</p><p>Ces derniers mois, la crise du coronavirus a clairement montré à quel point les relations entre l'exécutif et le législatif peuvent être fragiles et qu'un contrôle efficace de l'exécutif par le législatif est essentiel pour le bon fonctionnement de l'Etat.</p><p>L'obstacle élevé d'une majorité d'un conseil garantit par ailleurs que le droit de veto ne pourra pas être utilisé abusivement.</p>"
+      "value": "<p>Les discussions passées sur l'opportunité d'introduire un droit de veto contre les ordonnances du Conseil fédéral ont montré qu'un contrôle efficace de l'exécutif est important pour le bon fonctionnement de l'État. Parmi les différentes approches proposées, l'introduction d'un droit général de veto en matière d'ordonnance (cf. initiative parlementaire no 14.422) auquel les Chambres fédérales pourraient toujours recourir lorsqu'une ordonnance est contraire à l'esprit de la loi est celle qui recueille le plus grand soutien.</p><p>Ces derniers mois, la crise du coronavirus a clairement montré à quel point les relations entre l'exécutif et le législatif peuvent être fragiles et qu'un contrôle efficace de l'exécutif par le législatif est essentiel pour le bon fonctionnement de l'État.</p><p>L'obstacle élevé d'une majorité d'un conseil garantit par ailleurs que le droit de veto ne pourra pas être utilisé abusivement.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Les lois pertinentes sont modifiées de telle sorte que les Chambres fédérales puissent opposer un veto aux ordonnances du Conseil fédéral fixant des règles de droit, sans avoir la possibilité de les amender. Les principes suivants seront applicables :</p><p>1. toutes les ordonnances fixant des règles de droit et toutes les modifications de telles ordonnances, à l'exception des ordonnances visées aux art. 184, al. 3, et 185, al. 3, de la Constitution, doivent être soumises à l'Assemblée fédérale avant leur entrée en vigueur ;</p><p>2. si, dans les 14 jours, la moitié au moins des membres d'un conseil propose d'opposer un veto à l'ordonnance ou à la modification de l'ordonnance, le conseil traite la proposition en règle générale au cours de la session ordinaire qui suit ;</p><p>3. si le conseil adopte la proposition, le dossier est transmis à l'autre conseil, à moins qu'une proposition identique y ait été déposée ; ce dernier le traite en règle générale au cours de la même session ;</p><p>4. si aucune proposition de veto n'a été déposée à l'échéance du délai visé à l'al. 2 ou si l'un des conseils l'a rejetée, l'ordonnance ou la modification d'ordonnance peut être mise en vigueur.</p>"
+      "value": "<p>Les lois pertinentes sont modifiées de telle sorte que les Chambres fédérales puissent opposer un veto aux ordonnances du Conseil fédéral fixant des règles de droit, sans avoir la possibilité de les amender. Les principes suivants seront applicables :</p><p>1. toutes les ordonnances fixant des règles de droit et toutes les modifications de telles ordonnances, à l'exception des ordonnances visées aux art. 184, al. 3, et 185, al. 3, de la Constitution, doivent être soumises à l'Assemblée fédérale avant leur entrée en vigueur ;</p><p>2. si, dans les 14 jours, la moitié au moins des membres d'un conseil propose d'opposer un veto à l'ordonnance ou à la modification de l'ordonnance, le conseil traite la proposition en règle générale au cours de la session ordinaire qui suit ;</p><p>3. si le conseil adopte la proposition, le dossier est transmis à l'autre conseil, à moins qu'une proposition identique y ait été déposée ; ce dernier le traite en règle générale au cours de la même session ;</p><p>4. si aucune proposition de veto n'a été déposée à l'échéance du délai visé à l'al. 2 ou si l'un des conseils l'a rejetée, l'ordonnance ou la modification d'ordonnance peut être mise en vigueur.</p>"
     },
     {
       "type": {

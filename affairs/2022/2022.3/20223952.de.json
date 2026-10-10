@@ -1,6 +1,6 @@
 {
   "id": 20223952,
-  "updated": "2023-03-01T18:28:08Z",
+  "updated": "2024-09-16T19:01:06Z",
   "additionalIndexing": "52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -70,6 +70,21 @@
             "date": "2023-03-01T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-09-16T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -83,7 +98,92 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-06-18T06:50:55Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2569,
+                    "gender": "f",
+                    "id": 806,
+                    "name": "Graf Maya",
+                    "officialDenomination": "Graf Maya"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WBK-NR",
+            "id": 5,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
+            "abbreviation1": "WBK-N",
+            "abbreviation2": "WBK",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-09-21T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WBK-SR",
+            "id": 18,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
+            "abbreviation1": "WBK-S",
+            "abbreviation2": "WBK",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-09-21T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -104,8 +204,23 @@
         },
         {
           "date": "/Date(1677625200000+0100)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1701385200000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1718575200000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1726437600000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -226,10 +341,9 @@
   ],
   "shortId": "22.3952",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -238,21 +352,21 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Equiden sind soziale Tiere, die sich in ihrer Herde am wohlsten fühlen. Die natürlichen Bedürfnisse eines Equiden werden demnach nicht erfüllt, wenn es alleine gehalten wird. Gemäss aktuell gültigem Tierschutzrecht muss deshalb zumindest Sicht-, Hör- und Geruchkontakt zu einem anderen Pferd, Esel, Maultier oder Maulesel gegeben sein. Der Esel (Equus asinus) gehört einer anderen Species an als das Pferd (Equus caballus). Ein Maultier ist eine Kreuzung einer Pferdestute mit einem Eselhengst und ein Maulesel ist eine Kreuzung einer Eselstute und einem Pferdehengst. Es ist unbestritten, dass sich Esel und Pferde sowohl optisch als auch in Physiologie und insbesondere im Verhalten unterscheiden. Pferde können deshalb keinen Sozialpartner für Esel, Maultiere und Maulesel ersetzen und umgekehrt, worauf TschV Artikel 59 nicht eingeht und alle Equiden grundsätzlich gleichstellt.</p><p>In der Schweiz leben gemäss Tierstatistik etwa 11 000 Esel, Maultiere und Maulesel. Sie benötigen besondere Haltungsvorschriften: Weil das Fell anders als bei Pferden nicht wasserabweisend ist, sind Esel sehr empfindlich auf kalte Nässe. Esel benötigen deshalb einen permanenten Zugang zu einem Unterstand, unabhängig von der Zeitdauer ihres Aufenthalts im Freien. Esel, Maultiere und Maulesel benötigen energie- und proteinarme aber faserreiche Nahrung. Auf unseren reichhaltigen Weiden können sie durch Grasen ihren Nährstoffbedarf innerhalb von nur ca. zwei Stunden decken. Entsprechend ist der Zugang zur Weide den Jahreszeiten und der Qualität des Graslandes anzupassen und viel alternative Bewegungsmöglichkeiten auf Trockenplätzen mit Beschäftigungsmöglichkeiten anzubieten. Ausserdem ist dem Umstand, dass Esel keine Weide-, sondern ursprünglich Wüstentiere sind, in unseren Klimazonen und Vegetation indem Sinne Rechnung zu tragen, dass regelmässige Gesundheitskontrollen vorzunehmen sind. Unterstände, Trockenplätze und Gesundheitskontrollen sind insbesondere bei der Alpsömmerung eine besondere Herausforderung, was zu tierschutzrelevanten Problematiken führen kann.</p>"
+      "value": "<p>Equiden sind soziale Tiere, die sich in ihrer Herde am wohlsten fühlen. Die natürlichen Bedürfnisse eines Equiden werden demnach nicht erfüllt, wenn es alleine gehalten wird. Gemäss aktuell gültigem Tierschutzrecht muss deshalb zumindest Sicht-, Hör- und Geruchkontakt zu einem anderen Pferd, Esel, Maultier oder Maulesel gegeben sein. Der Esel (Equus asinus) gehört einer anderen Species an als das Pferd (Equus caballus). Ein Maultier ist eine Kreuzung einer Pferdestute mit einem Eselhengst und ein Maulesel ist eine Kreuzung einer Eselstute und einem Pferdehengst. Es ist unbestritten, dass sich Esel und Pferde sowohl optisch als auch in Physiologie und insbesondere im Verhalten unterscheiden. Pferde können deshalb keinen Sozialpartner für Esel, Maultiere und Maulesel ersetzen und umgekehrt, worauf TschV Artikel 59 nicht eingeht und alle Equiden grundsätzlich gleichstellt.</p><p>In der Schweiz leben gemäss Tierstatistik etwa 11 000 Esel, Maultiere und Maulesel. Sie benötigen besondere Haltungsvorschriften: Weil das Fell anders als bei Pferden nicht wasserabweisend ist, sind Esel sehr empfindlich auf kalte Nässe. Esel benötigen deshalb einen permanenten Zugang zu einem Unterstand, unabhängig von der Zeitdauer ihres Aufenthalts im Freien. Esel, Maultiere und Maulesel benötigen energie- und proteinarme aber faserreiche Nahrung. Auf unseren reichhaltigen Weiden können sie durch Grasen ihren Nährstoffbedarf innerhalb von nur ca. zwei Stunden decken. Entsprechend ist der Zugang zur Weide den Jahreszeiten und der Qualität des Graslandes anzupassen und viel alternative Bewegungsmöglichkeiten auf Trockenplätzen mit Beschäftigungsmöglichkeiten anzubieten. Ausserdem ist dem Umstand, dass Esel keine Weide-, sondern ursprünglich Wüstentiere sind, in unseren Klimazonen und Vegetation indem Sinne Rechnung zu tragen, dass regelmässige Gesundheitskontrollen vorzunehmen sind. Unterstände, Trockenplätze und Gesundheitskontrollen sind insbesondere bei der Alpsömmerung eine besondere Herausforderung, was zu tierschutzrelevanten Problematiken führen kann.</p>"
     },
     {
       "type": {
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Es wird vorgeschlagen, die Motion in Bezug auf den Sozialkontakt von Eseln, Maultieren und Mauleseln mit ihren Artgenossen anzunehmen. Die übrigen Anforderungen (permanenter Zugang zu einem Unterstand/Trockenplatz / regelmässige Gesundheitskontrollen) sind bereits durch die Bestimmungen für Haustiere in der Tierschutzverordnung (TSchV; SR 455.1, Art. 3-7 und 36 Abs. 1-2) und in der Verordnung des BLV über die Haltung von Nutztieren und Haustieren (SR 455.110.1, Art. 6-7) abgedeckt.</p>"
+      "value": "<p>Es wird vorgeschlagen, die Motion in Bezug auf den Sozialkontakt von Eseln, Maultieren und Mauleseln mit ihren Artgenossen anzunehmen. Die übrigen Anforderungen (permanenter Zugang zu einem Unterstand/Trockenplatz / regelmässige Gesundheitskontrollen) sind bereits durch die Bestimmungen für Haustiere in der Tierschutzverordnung (TSchV; SR 455.1, Art. 3-7 und 36 Abs. 1-2) und in der Verordnung des BLV über die Haltung von Nutztieren und Haustieren (SR 455.110.1, Art. 6-7) abgedeckt.</p>  Der Bundesrat beantragt die Annahme der Motion."
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Der Bundesrat wird beauftragt, im Rahmen der Revision der Tierschutzverordnung die gesetzlichen Grundlagen in Artikel 59 ff. so anzupassen, dass den besonderen Eigenschaften von Eseln und Maultieren/Mauleseln Rechnung getragen wird.</p>"
+      "value": "<p>Der Bundesrat wird beauftragt, im Rahmen der Revision der Tierschutzverordnung die gesetzlichen Grundlagen in Artikel 59 ff. so anzupassen, dass den besonderen Eigenschaften von Eseln und Maultieren/Mauleseln Rechnung getragen wird.</p>"
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20230423,
-  "updated": "2023-03-21T15:13:22Z",
+  "updated": "2025-04-08T23:41:41Z",
   "additionalIndexing": "1211;2846",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -41,7 +41,31 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-12-04T00:00:00Z",
+            "text": "Wird übernommen",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-12-19T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -51,24 +75,179 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-17T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-17T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-27T18:10:16Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3163,
+                    "gender": "m",
+                    "id": 4271,
+                    "name": "Kamerzin Sidney",
+                    "officialDenomination": "Kamerzin"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-27T18:10:03Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3063,
+                    "gender": "m",
+                    "id": 4157,
+                    "name": "Bühler Manfred",
+                    "officialDenomination": "Bühler"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion V",
+                    "code": "V",
+                    "id": 4,
+                    "name": "Fraktion der Schweizerischen Volkspartei"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlament",
+          "abbreviation": "WBF",
+          "id": 8,
+          "name": "Departement für Wirtschaft, Bildung und Forschung",
           "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1679007600000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1696543200000+0200)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1698357600000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1702594800000+0100)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1702940400000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -315,23 +494,47 @@
         "name": "Sozialdemokratische Fraktion"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3147,
+        "gender": "m",
+        "id": 4255,
+        "name": "Dandrès Christian",
+        "officialDenomination": "Dandrès"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "23.423",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Die Covid-19-Krise hat es gezeigt: Es kann vorkommen, dass eine Behörde aus zwingenden Gründen beispielsweise Geschäfte und öffentliche Einrichtungen schliesst. Die Covid-19-Krise hat ebenfalls gezeigt, dass hier eine rechtliche Lücke besteht, denn diese Situation ist nicht geregelt. Handelt es sich um einen Fall von höherer Gewalt oder um einen Mangel der Mietsache, was für die Mieterin oder den Mieter bedeutet, dass sie oder er eine Mietzinsreduktion erhält? Oder handelt es sich um einen anderen Fall und die geschuldete Miete muss bezahlt werden? Die Frage liegt zum Zeitpunkt der Einreichung dieser parlamentarischen Initiative beim Bundesgericht; der Entscheid steht noch aus.</p><p>Weist ein Wohn- oder ein Geschäftsraum einen Mangel der Mietsache auf, beispielsweise eine Grossbaustelle in der Nachbarschaft, die mit erheblichen Unannehmlichkeiten verbunden ist, hat die Mieterin oder der Mieter heute Anspruch auf einer Herabsetzung des Mietzinses; die Vermieterin oder der Vermieter, die oder der die Herabsetzung gewähren muss, kann jedoch die Auftraggeberin oder den Auftraggeber zur Rechenschaft ziehen, so dass schliesslich die Person, die für die Situation verantwortlich ist, die gewährte Mietzinsreduktion bezahlt. </p><p>Handelt es sich jedoch um eine rechtmässige Verfügung einer Behörde, ist die Situation unabhängig davon, ob der Mieterin oder dem Mieter demnächst und infolge eines Bundesgerichtsentscheids eine Herabsetzung gewährt wird oder nicht, unbefriedigend. Denn es ist nicht akzeptabel, dass in unserer Rechtsordnung eine Partei, der man keinen Fehler und auch keine mangelnde Sorgfalt vorwerfen kann, vollständig unterliegt.</p><p>Aus diesem Grund braucht es für solche Situationen eine Anpassung des Obligationenrechts, wobei der einfache Grundsatz verfolgt werden soll, dass in solchen Fällen die verfügende Behörde - unabhängig davon, ob die Verfügung zulässig war oder nicht - verpflichtet ist, die wirtschaftliche Einbusse ganz oder teilweise auszugleichen. </p><p>Diese Regelung ist umso wichtiger, als wir zwar hoffen, dass wir in den nächsten hundert Jahren keine Pandemie mehr erleben werden, sich jedoch andere Situationen ergeben können, die rechtlich ähnlich gelagert sind. Denn wenn die Schwierigkeiten bei der Energieversorgung andauern sollten und man als letztes Mittel den Zugang zum Strom rationieren müsste, indem der Strom sektorenweise und für eine bestimmte Dauer abgeschaltet wird, wären die Mieterinnen und Mieter - namentlich von Geschäftsräumen - in der genau gleichen Situation: Sie könnten die Mietsache nicht mehr nutzen, ohne dass ihnen oder der Vermieterin oder dem Vermieter ein Verschulden vorgeworfen werden kann.</p><p>Die Einzelheiten müssen allerdings noch geregelt werden, denn es ist klar, dass diese Bestimmung ausgewogen und differenziert formuliert sein muss. Es geht nicht darum, dass jede Verfügung einer Behörde betroffen sein soll. Insbesondere kurze Unterhaltsarbeiten an öffentlichen Infrastrukturen und hoheitliche raumplanerische Massnahmen der Gemeinwesen sollen vom Geltungsbereich ausgenommen sein. Das Konzept sieht vor, diese Anpassung strikt auf Situationen zu begrenzen, in denen der Verlust so gross und unerwartet ist, dass der heutige Mechanismus aus Gründen der Gleichbehandlung angepasst werden muss.</p><p>Die vorgeschlagene Lösung stützt sich nicht nur auf den gesunden Menschenverstand, sondern auch auf die Gleichbehandlung und die geltende Praxis. Während der Covid-19-Krise haben nämlich zahlreiche Kantone tripartite Vereinbarungen mit den Vertreterinnen und Vertretern der Mieter- und der Vermieterschaft abgeschlossen, in denen sie sich auf Systeme geeinigt haben, bei denen der Kanton 30 Prozent der Miete übernommen hat.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Im Obligationsrecht soll ein neuer Artikel eingefügt werden, der für Wohn- und Geschäftsräume den Mangel einer Mietsache aufgrund einer behördlichen Verfügung und ohne Verschulden der Mieterin oder des Mieters oder der Vermieterin oder des Vermieters regelt. Der neue Artikel soll den folgenden Wortlaut haben:</p><p>Absatz 1 Hat eine behördliche Verfügung zur Folge, dass die Tauglichkeit einer Mietsache zum vorausgesetzten Gebrauch ohne Verschulden der Vertragsparteien erheblich beeinträchtigt oder ausgeschlossen wird, so hat der Mieter Anspruch auf eine angemessene Herabsetzung des Mietzinses. </p><p>Absatz 2 Die verfügende Behörde muss den Schaden ganz oder teilweise ausgleichen.</p><p>Absatz 3 Der Bundesrat regelt die Umsetzung auf dem Verordnungsweg.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Für eine faire Verteilung der Schadenskosten bei einem Mangel der Mietsache ohne Verschulden der Vertragsparteien"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Für eine faire Verteilung der Schadenskosten bei einem Mangel der Mietsache ohne Verschulden der Vertragsparteien"
 }

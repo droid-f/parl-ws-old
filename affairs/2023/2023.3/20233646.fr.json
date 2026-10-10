@@ -1,6 +1,6 @@
 {
   "id": 20233646,
-  "updated": "2023-06-13T12:11:58Z",
+  "updated": "2025-06-20T08:42:35Z",
   "additionalIndexing": "44;28",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,35 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 2,
+              "name": "Discussion"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Discussion reportée",
+            "type": 29
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2025-06-20T00:00:00Z",
+            "text": "Classé car le conseil n’a pas achevé son examen dans un délai de deux ans",
+            "type": 32
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2023-08-23T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +81,28 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686520800000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1692741600000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1750370400000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -102,19 +142,40 @@
   ],
   "shortId": "23.3646",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Les chiffres de l'Office fédéral de la statistique montrent que l'inégalité salariale dont sont victimes les femmes est liée au fait d'avoir des enfants. Il semble que l'écart salarial ne sépare pas simplement les hommes et les femmes, mais surtout les mères de famille et le reste de la population : les femmes mariées ont un revenu inférieur de 24 % en moyenne à celui des hommes mariés. </p><p></p><p>La Suisse est l'un des deux seuls pays européens dans lesquels la discrimination salariale a progressé au cours des dix dernières années. Bien que cela soit interdit par la loi, les femmes continuent souvent de percevoir un salaire moins élevé que celui des hommes pour le même travail. Les métiers majoritairement féminins sont nettement moins bien payés, et les femmes consacrent 50 % de temps en plus que les hommes au ménage et à la famille (cf. enquête suisse sur la population active). Il s'agit d'un problème structurel, qui appelle des réponses structurelles, indispensables pour permettre à la Suisse de rattraper l'énorme retard qu'elle a accumulé par rapport à ses voisins européens. Parmi les solutions possibles figurent l'amélioration du financement et l'étoffement des structures d'accueil extrafamilial de jour, ou encore le congé parental paritaire. En parallèle, il faut aussi miser sur d'autres approches innovantes ciblant spécifiquement les inégalités dont sont victimes les mères de famille. Mais pour cela, il est essentiel de disposer de statistiques appropriées. La collecte de données relatives à l'inégalité salariale n'a pas évolué depuis 2015 (postulat 14.3388). Il serait donc grand temps de la moderniser en mettant à profit les dernières avancées scientifiques. </p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>1 à 3. La thématique que constitue l’écart salarial entre femmes et hommes fait l’objet d’une attention particulière. En effet, des analyses ciblées sont régulièrement réalisées dans ce domaine à partir des données de l’enquête suisse sur la structure des salaires (ESS), sur mandat de l’Office fédéral de la statistique (OFS). Ce monitorage de l’égalité des salaires respecte les critères scientifiques actuels de même que les exigences reconnues et validées au niveau international (OIT, OCDE, Eurostat).</p><p>Pour compléter les instruments existants, d’autres méthodes permettant d’analyser les écarts salariaux sont actuellement à l’étude (14.3388 Postulat Noser). Un rapport à ce sujet sera soumis au Conseil fédéral durant l’année&nbsp;2024.&nbsp;</p><p>4. Les différences entre personnes actives occupées à plein temps et à temps partiel font d’ores et déjà l’objet d’analyses descriptives. Celles-ci ne spécifient toutefois pas si les personnes considérées ont ou non des enfants. Ceci pourrait se faire via un appariement des données d’enquêtes (ESS) et de registres (AVS). Le postulat Dobler (22.4500) demande que la part inexpliquée des écarts salariaux soit étudiée. Les causes potentielles de l’écart salarial entre femmes et hommes (maternité, interruptions de l’activité professionnelle) pourraient être prises en compte et permettre ainsi d’analyser le «handicap de la maternité» <i>(child penalty).</i> Il ne faut pas oublier par ailleurs que si certaines variables fournissent certes une plus-value informative pour décrire les différences salariales existantes, elles ne doivent pas servir à les justifier. En effet, selon la loi sur l’égalité (LEg; RS&nbsp;151.1), toute discrimination salariale entre femmes et hommes se fondant sur l’état civil ou la situation familiale est interdite.&nbsp;</p><p>Compte tenu de la situation précaire des finances fédérales et des déficits attendus à partir de 2025, toute nouvelle étude fera l’objet d’une analyse coûts-bénéfices approfondie.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>1. Le Conseil fédéral estime-t-il que les données statistiques dont on dispose actuellement sont suffisantes pour mettre en oeuvre des mesures efficaces pour lutter contre l'inégalité salariale ? </p><p>2. Est-il disposé à demander un nouvel examen des méthodes statistiques de la Confédération en matière d'inégalité salariale entre hommes et femmes (postulat 14.3388) ?</p><p>3. D'après lui, comment les données statistiques à disposition peuvent-elles être améliorées ?</p><p>4. Prévoit-il des études portant spécifiquement sur la manière dont les mères de famille travaillant à temps partiel et celles qui travaillent à temps plein sont touchées par cette inégalité ?</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Différences salariales. Étudier les inégalités dont sont victimes les mères de famille"
     }
   ],
-  "title": "Titre suit"
+  "title": "Différences salariales. Étudier les inégalités dont sont victimes les mères de famille"
 }

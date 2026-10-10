@@ -1,6 +1,6 @@
 {
   "id": 20210018,
-  "updated": "2023-01-11T09:19:20Z",
+  "updated": "2025-04-09T00:42:54Z",
   "additionalIndexing": "08;2811",
   "affairType": {
     "abbreviation": "OCF",
@@ -34,7 +34,7 @@
             "abbreviation": "CPE-CS",
             "id": 17,
             "name": "Commissione della politica estera CS",
-            "abbreviation1": "CPE-CS",
+            "abbreviation1": "CPE-S",
             "abbreviation2": "CPE",
             "committeeNumber": 17,
             "council": {
@@ -55,7 +55,7 @@
             "abbreviation": "CIP-CN",
             "id": 11,
             "name": "Commissione delle istituzioni politiche CN",
-            "abbreviation1": "CIP-CN",
+            "abbreviation1": "CIP-N",
             "abbreviation2": "CIP",
             "committeeNumber": 11,
             "council": {
@@ -105,8 +105,28 @@
       "states": [
         {
           "date": "/Date(1612306800000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1724968800000+0200)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1726524000000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1729807200000+0200)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1733958000000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -151,6 +171,36 @@
             "date": "2021-09-14T00:00:00Z",
             "text": "Sospensione",
             "type": 65
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-09-17T00:00:00Z",
+            "text": "Decisione in deroga al disegno (progetto)",
+            "type": 52
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-12-12T00:00:00Z",
+            "text": "Adesione",
+            "type": 3
           }
         ]
       },
@@ -163,10 +213,130 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-07-17T10:19:20Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3136,
+                    "gender": "m",
+                    "id": 4237,
+                    "name": "Würth Benedikt",
+                    "officialDenomination": "Würth"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-10-25T15:49:17Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 11505,
+                    "gender": "m",
+                    "id": 11505,
+                    "name": "Fonio Giorgio",
+                    "officialDenomination": "Fonio"
+                  },
+                  "language": "it"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-10-25T15:49:19Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2715,
+                    "gender": "m",
+                    "id": 3912,
+                    "name": "Wasserfallen Christian",
+                    "officialDenomination": "Wasserfallen Christian"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CPE-CS",
             "id": 17,
             "name": "Commissione della politica estera CS",
-            "abbreviation1": "CPE-CS",
+            "abbreviation1": "CPE-S",
             "abbreviation2": "CPE",
             "committeeNumber": 17,
             "council": {
@@ -181,38 +351,19 @@
           "registrations": [
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "CS",
-                    "id": 2,
-                    "name": "Consiglio degli Stati",
-                    "type": "S"
-                  },
-                  "councillor": {
-                    "code": 3067,
-                    "gender": "m",
-                    "id": 4159,
-                    "name": "Chiesa Marco",
-                    "officialDenomination": "Chiesa"
-                  },
-                  "faction": {
-                    "abbreviation": "Gruppo V",
-                    "id": 4,
-                    "name": "Gruppo dell'Unione democratica di Centro"
-                  },
-                  "language": "fr"
-                }
+
               ],
-              "sessionId": "5120"
+              "sessionId": "5202"
             }
-          ]
+          ],
+          "treatmentCategory": "IIIa/IV"
         },
         {
           "committee": {
             "abbreviation": "CIP-CN",
             "id": 11,
             "name": "Commissione delle istituzioni politiche CN",
-            "abbreviation1": "CIP-CN",
+            "abbreviation1": "CIP-N",
             "abbreviation2": "CIP",
             "committeeNumber": 11,
             "council": {
@@ -227,53 +378,12 @@
           "registrations": [
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "CN",
-                    "id": 1,
-                    "name": "Consiglio nazionale",
-                    "type": "N"
-                  },
-                  "councillor": {
-                    "code": 2594,
-                    "gender": "m",
-                    "id": 1122,
-                    "name": "Fluri Kurt",
-                    "officialDenomination": "Fluri"
-                  },
-                  "faction": {
-                    "abbreviation": "Gruppo RL",
-                    "id": 1,
-                    "name": "Gruppo liberale radicale"
-                  },
-                  "language": "de"
-                },
-                {
-                  "council": {
-                    "abbreviation": "CN",
-                    "id": 1,
-                    "name": "Consiglio nazionale",
-                    "type": "N"
-                  },
-                  "councillor": {
-                    "code": 3025,
-                    "gender": "m",
-                    "id": 4120,
-                    "name": "Romano Marco",
-                    "officialDenomination": "Romano"
-                  },
-                  "faction": {
-                    "abbreviation": "Gruppo M-E",
-                    "id": 3,
-                    "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
-                  },
-                  "language": "de"
-                }
+
               ],
               "sessionId": "5111"
             }
           ],
-          "treatmentCategory": "IV"
+          "treatmentCategory": "IIIa/IV"
         }
       ],
       "references": [
@@ -296,6 +406,25 @@
             "id": 1,
             "name": "Oggetto in deliberazione / progetto"
           }
+        },
+        {
+          "date": "/Date(1734994800000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "3221",
+            "source": "FF 2024 3221",
+            "type": {
+              "id": 1,
+              "name": "Foglio federale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/it/federal-gazette/2024/3221.pdf",
+            "year": "2024"
+          },
+          "type": {
+            "id": 4,
+            "name": "Atto normativo"
+          }
         }
       ],
       "relatedDepartments": [
@@ -309,8 +438,28 @@
       "states": [
         {
           "date": "/Date(1612306800000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1724968800000+0200)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1726524000000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1729807200000+0200)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1733958000000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -342,8 +491,8 @@
   ],
   "shortId": "21.018",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
     "newKey": 0
   },

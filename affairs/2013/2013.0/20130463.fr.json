@@ -1,7 +1,7 @@
 {
   "id": 20130463,
-  "updated": "2021-10-01T08:36:28Z",
-  "additionalIndexing": "12",
+  "updated": "2025-04-09T12:10:10Z",
+  "additionalIndexing": "12;Verbrechen gegen Personen;Verwahrung;Straftäter/in;Eindämmung der Kriminalität;soziale Wiedereingliederung;Häftling;Gewalt",
   "affairType": {
     "abbreviation": "Iv. pa.",
     "id": 4,
@@ -83,7 +83,7 @@
               "abbreviation": "CAJ-CN",
               "id": 12,
               "name": "Commission des affaires juridiques CN",
-              "abbreviation1": "CAJ-CN",
+              "abbreviation1": "CAJ-N",
               "abbreviation2": "CAJ",
               "committeeNumber": 12,
               "council": {
@@ -96,7 +96,7 @@
             },
             "council": null,
             "date": "2014-10-16T00:00:00Z",
-            "text": "Donné suite",
+            "text": "Donner suite (conseil prioritaire)",
             "type": 16
           },
           {
@@ -108,7 +108,7 @@
               "abbreviation": "CAJ-CE",
               "id": 25,
               "name": "Commission des affaires juridiques CE",
-              "abbreviation1": "CAJ-CE",
+              "abbreviation1": "CAJ-E",
               "abbreviation2": "CAJ",
               "committeeNumber": 25,
               "council": {
@@ -156,8 +156,8 @@
           },
           {
             "category": {
-              "id": 4,
-              "name": "Complément"
+              "id": 3,
+              "name": "Normal"
             },
             "council": {
               "abbreviation": "CN",
@@ -186,8 +186,8 @@
           },
           {
             "category": {
-              "id": 4,
-              "name": "Complément"
+              "id": 3,
+              "name": "Normal"
             },
             "council": {
               "abbreviation": "CN",
@@ -198,6 +198,21 @@
             "date": "2021-10-01T00:00:00Z",
             "text": "Jusqu'à la Session d'automne 2023.",
             "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-28T00:00:00Z",
+            "text": "Classement",
+            "type": 15
           }
         ]
       },
@@ -213,7 +228,7 @@
             "abbreviation": "CAJ-CN",
             "id": 12,
             "name": "Commission des affaires juridiques CN",
-            "abbreviation1": "CAJ-CN",
+            "abbreviation1": "CAJ-N",
             "abbreviation2": "CAJ",
             "committeeNumber": 12,
             "council": {
@@ -241,16 +256,22 @@
 
               ],
               "sessionId": "5111"
+            },
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
             }
           ],
-          "treatmentCategory": "V"
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "CAJ-CE",
             "id": 25,
             "name": "Commission des affaires juridiques CE",
-            "abbreviation1": "CAJ-CE",
+            "abbreviation1": "CAJ-E",
             "abbreviation2": "CAJ",
             "committeeNumber": 25,
             "council": {
@@ -268,6 +289,47 @@
 
               ]
             }
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-08-31T13:57:48Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3058,
+                    "gender": "f",
+                    "id": 4184,
+                    "name": "Arslan Sibel",
+                    "officialDenomination": "Arslan"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -276,9 +338,9 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlement",
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
           "leading": true
         }
       ],
@@ -295,8 +357,23 @@
         },
         {
           "date": "/Date(1633039200000+0200)/",
-          "id": 2,
-          "name": "Traité par le Conseil national"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1688421600000+0200)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1688421600000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -321,7 +398,7 @@
             "abbreviation": "CAJ-CN",
             "id": 12,
             "name": "Commission des affaires juridiques CN",
-            "abbreviation1": "CAJ-CN",
+            "abbreviation1": "CAJ-N",
             "abbreviation2": "CAJ",
             "committeeNumber": 12,
             "council": {
@@ -339,15 +416,14 @@
 
               ]
             }
-          ],
-          "treatmentCategory": "V"
+          ]
         },
         {
           "committee": {
             "abbreviation": "CAJ-CE",
             "id": 25,
             "name": "Commission des affaires juridiques CE",
-            "abbreviation1": "CAJ-CE",
+            "abbreviation1": "CAJ-E",
             "abbreviation2": "CAJ",
             "committeeNumber": 25,
             "council": {
@@ -369,9 +445,9 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlement",
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
           "leading": true
         }
       ],
@@ -383,8 +459,23 @@
         },
         {
           "date": "/Date(1633039200000+0200)/",
-          "id": 2,
-          "name": "Traité par le Conseil national"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -425,8 +516,8 @@
   "sequentialNumber": 393,
   "shortId": "13.463",
   "state": {
-    "id": 2,
-    "name": "Traité par le Conseil national",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
@@ -436,14 +527,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Les assassinats de Lucie, de Marie et d'Adeline ont un point commun: leurs auteurs sont des récidivistes. Il y aura toujours des criminels sans antécédents, mais le monde politique, la justice et les autorités doivent veiller à ce que personne ne soit victime d'un récidiviste. Malheureusement, toutes ces affaires montrent de manière exemplaire qu'on donne plus de poids à la resocialisation des criminels qu'à la sécurité de la population. Les criminels reçoivent une deuxième, puis une troisième, puis une quatrième chance, voire davantage, comme pour le violeur en série Markus Wenger: interné pour avoir abusé de 24 femmes, cet individu a été libéré de l'internement et a obtenu des allègements dans l'exécution de sa peine sous la forme d'un logement hors de prison. Malgré un bracelet électronique, il a abusé de trois nouvelles femmes. Il vient seulement d'être condamné à l'internement à vie (la condamnation n'est pas encore entrée en force).</p><p>Les autorités et la justice doivent avoir la possibilité de donner une seconde chance: si l'auteur a suivi une thérapie et qu'il est pratiquement certain qu'il ne récidivera pas, il doit pouvoir bénéficier d'allègements dans l'exécution de la peine et d'une libération conditionnelle. Toutefois, s'il commet une nouvelle infraction grave (assassinat, meurtre, lésion corporelle grave ou viol, par ex.), il doit être interné en vertu de l'article 64 du Code pénal sans autres conditions. En récidivant, en effet, il montre qu'il commettra encore d'autres infractions.</p><p>Un récidiviste n'a pas su saisir sa seconde chance et doit répondre d'un nouveau viol ou d'un nouvel assassinat. Il n'est pas juste qu'un tel individu bénéficie d'une nouvelle chance. La sécurité de la population doit avoir la priorité. Il faut donc interner les récidivistes, ce qui n'exclut pas le cas échéant un traitement thérapeutique (cf. initiative parlementaire 13.461, \"Pour que l'internement prime la thérapie\").</p>"
+      "value": "<p>Les assassinats de Lucie, de Marie et d'Adeline ont un point commun : leurs auteurs sont des récidivistes. Il y aura toujours des criminels sans antécédents, mais le monde politique, la justice et les autorités doivent veiller à ce que personne ne soit victime d'un récidiviste. Malheureusement, toutes ces affaires montrent de manière exemplaire qu'on donne plus de poids à la resocialisation des criminels qu'à la sécurité de la population. Les criminels reçoivent une deuxième, puis une troisième, puis une quatrième chance, voire davantage, comme pour le violeur en série Markus Wenger : interné pour avoir abusé de 24 femmes, cet individu a été libéré de l'internement et a obtenu des allègements dans l'exécution de sa peine sous la forme d'un logement hors de prison. Malgré un bracelet électronique, il a abusé de trois nouvelles femmes. Il vient seulement d'être condamné à l'internement à vie (la condamnation n'est pas encore entrée en force).</p><p>Les autorités et la justice doivent avoir la possibilité de donner une seconde chance : si l'auteur a suivi une thérapie et qu'il est pratiquement certain qu'il ne récidivera pas, il doit pouvoir bénéficier d'allègements dans l'exécution de la peine et d'une libération conditionnelle. Toutefois, s'il commet une nouvelle infraction grave (assassinat, meurtre, lésion corporelle grave ou viol, par ex.), il doit être interné en vertu de l'article 64 du Code pénal sans autres conditions. En récidivant, en effet, il montre qu'il commettra encore d'autres infractions.</p><p>Un récidiviste n'a pas su saisir sa seconde chance et doit répondre d'un nouveau viol ou d'un nouvel assassinat. Il n'est pas juste qu'un tel individu bénéficie d'une nouvelle chance. La sécurité de la population doit avoir la priorité. Il faut donc interner les récidivistes, ce qui n'exclut pas le cas échéant un traitement thérapeutique (cf. initiative parlementaire 13.461, \"Pour que l'internement prime la thérapie\").</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Conformément à l'article 160 alinéa 1 de la Constitution et à l'article 107 de la loi sur le Parlement, je dépose l'initiative parlementaire suivante:</p><p>L'article 64 alinéa 1 du Code pénal est complété comme suit:</p><p>Le juge ordonne l'internement si l'auteur a commis ... et si:</p><p>L'auteur a déjà été condamné par un jugement entré en force pour assassinat, meurtre, lésion corporelle grave ou viol.</p>"
+      "value": "<p>Conformément à l'art. 160, al. 1, de la Constitution et à l'article 107 de la loi sur le Parlement, je dépose l'initiative parlementaire suivante :</p><p>L'art. 64, al. 1, du Code pénal est complété comme suit :</p><p>Le juge ordonne l'internement si l'auteur a commis ... et si :</p><p>L'auteur a déjà été condamné par un jugement entré en force pour assassinat, meurtre, lésion corporelle grave ou viol.</p>"
     },
     {
       "type": {

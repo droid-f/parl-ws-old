@@ -1,6 +1,6 @@
 {
   "id": 20233109,
-  "updated": "2023-03-10T11:25:47Z",
+  "updated": "2025-06-04T15:37:44Z",
   "additionalIndexing": "2841;15;52;28",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-06-12T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-06-04T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-05-24T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSS-CN",
+            "id": 6,
+            "name": "Commissione della sicurezza sociale e della sanità",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-04-08T10:14:39Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3125,
+                    "gender": "f",
+                    "id": 4224,
+                    "name": "Wasserfallen Flavia",
+                    "officialDenomination": "Wasserfallen Flavia"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSS-CS",
+            "id": 19,
+            "name": "Commissione della sicurezza sociale e della sanità CS",
+            "abbreviation1": "CSSS-S",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +179,38 @@
       "states": [
         {
           "date": "/Date(1678316400000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1684879200000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1718143200000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1725228000000+0200)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1742943600000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1743631200000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1748988000000+0200)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
         }
       ],
       "texts": [
@@ -357,8 +500,8 @@
   ],
   "shortId": "23.3109",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 209,
+    "name": "Trasmesso al Consiglio federale",
     "doneKey": "0",
     "newKey": 0
   },
@@ -369,6 +512,13 @@
         "name": "Motivazione"
       },
       "value": "<p>Giunte sul mercato svizzero nel 2020, le nuove sigarette usa e getta stanno vivendo da due anni una fase di boom, soprattutto tra gli adolescenti e i preadolescenti. Questi prodotti monouso, tuttavia, possono contenere quantità elevate di nicotina, a volte addirittura superiori al limite legale di 20 mg/ml, corrispondente a diverse centinaia di tiri da sigarette convenzionali, ossia a più di un pacchetto.</p><p>Le \"puff\" attualmente sul mercato contengono sempre aromi e spesso nicotina sotto forma di sali. I sali di nicotina non sono più pericolosi della nicotina, ma rendono dipendenti con maggior facilità. Gli ambienti della prevenzione del tabagismo sono preoccupati dall'aumento del rischio di dipendenza da questa sostanza, soprattutto tra i giovani, il cui cervello è ancora in formazione.</p><p>Inoltre, questi prodotti colorati che somigliano a grandi penne stilografiche contengono aromi zuccherati al sapore di frutta e sono promossi ossessivamente sui social media con il chiaro intento di far breccia tra bambini e adolescenti.</p><p>Dal punto di vista ecologico, le sigarette elettroniche monouso sono molto problematiche, in quanto finiscono perlopiù nella pattumiera, quando non nell'ambiente, nonostante contengano componenti plastiche, elettroniche e chimiche.</p><p>Uno studio recentemente condotto a Losanna da Unisanté in collaborazione con Promozione salute Vallese conferma la diffusione delle sigarette elettroniche monouso tra i giovani romandi: il 59 per cento nella fascia di età tra i 14 e i 25 anni ne ha già consumate e il 12 per cento ne consuma spesso (in 10 o più giorni negli ultimi 30 giorni), compreso il 9 per cento nella fascia di età tra i 14 e i 17 anni.</p><p>Di fronte a questa constatazione, in un parere pubblicato il 1° febbraio 2023 dalla Rivista medica svizzera un gruppo di esperti raccomanda di vietare la vendita di sigarette elettroniche usa e getta.</p><p>È urgente che il mondo della politica affronti seriamente la situazione e agisca di conseguenza. Considerati la rapida diffusione di questi prodotti particolarmente nocivi per la salute dei (pre)adolescenti e il reale problema ecologico che rappresentano, è opportuno adeguare la legge federale sui prodotti del tabacco e le sigarette elettroniche vietando la vendita delle \"puff\".</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Con il loro costo contenuto e la loro varietà di aromi e accessibilità, le sigarette elettroniche monouso sono attrattive per i giovani, e molti di loro le fumano. Tuttavia, la maggior parte di questi prodotti contiene nicotina, che presenta un elevato potenziale di dipendenza. Per quel che concerne il loro possibile contributo alla lotta al tabagismo, anche se possono costituire un'alternativa meno nociva per i fumatori, questi prodotti non sono di interesse poiché sul mercato sono disponibili altre sigarette elettroniche ricaricabili.</p><p>Inoltre, questi prodotti sollevano questioni ambientali (Hendlin YH. Alert: Public Health Implications of Electronic Cigarette Waste. Am J Public Health. 2018 Nov;108(11):1489-1490). Per come sono progettate, infatti, le sigarette elettroniche monouso non possono essere ricaricate e non è possibile sostituirne la batteria, il che le rende problematiche dal punto di vista dell'economia circolare e della conservazione delle risorse. Ognuno di questi prodotti è dotato di una batteria agli ioni di litio della capacità di diversi milliamperora.</p><p>Il Consiglio federale propone tuttavia di respingere la mozione per i seguenti motivi:</p><p>Un divieto del genere per ora non esiste nell'Unione europea, anche se diversi Paesi stanno lavorando per introdurlo. Vietare la vendita di sigarette elettroniche monouso soltanto in Svizzera creerebbe dunque un nuovo ostacolo tecnico al commercio. Al riguardo, occorre tenere conto della legge federale sugli ostacoli tecnici al commercio (RS 946.51), che all'articolo 4 prescrive la compatibilità delle prescrizioni tecniche con quelle dei principali partner commerciali della Svizzera.</p><p>In materia di politica sanitaria, sono in corso diverse modifiche di legge che consentiranno di rafforzare la protezione della popolazione, in particolare dei giovani. La legge federale sui prodotti del tabacco e sulle sigarette elettroniche (LPTab, FF 2021 2327), la cui entrata in vigore è prevista per il 2024, vieta la vendita di questi prodotti ai minorenni. Prevede inoltre restrizioni alla loro pubblicità e limita il tenore di nicotina a 20 mg/ml. Le restrizioni alla pubblicità saranno ulteriormente rafforzate con la revisione della LPTab, il cui messaggio sarà trasmesso al Parlamento a metà del 2023. Infine, il 26 ottobre 2022 il Consiglio federale ha adottato il messaggio relativo alla modifica della legge federale sull'imposizione del tabacco (RS 641.31), che reintroduce un'imposta sulle sigarette elettroniche e prevede un'imposta più elevata per quelle monouso. L'imposta più elevata sulle sigarette elettroniche monouso ha lo scopo di impedire che gli adolescenti e i giovani adulti inizino a consumare questi prodotti e, con il suo effetto dissuasivo sui giovani, le cui risorse finanziarie sono limitate, contribuirebbe a proteggere la loro salute (cfr. art. 118 cpv. 1 Cost.).</p><p>Per quel che riguarda l'impatto ambientale, l'ordinanza concernente la restituzione, la ripresa e lo smaltimento degli apparecchi elettrici ed elettronici (RS 814.620) si applica già alle sigarette elettroniche, che devono quindi essere restituite dai consumatori e riprese gratuitamente dai fabbricanti. Questi ultimi hanno l'obbligo di garantirne lo smaltimento nel rispetto dell'ambiente e dello stato della tecnica. Inoltre la fondazione SENS (www.erecycling.ch), esperta nel riciclaggio sostenibile di apparecchi elettrici ed elettronici usati, sta realizzando una soluzione settoriale che permetterebbe di migliorarne la raccolta e il riciclaggio.</p><p>Peraltro, come aveva già menzionato nella sua risposta all'interpellanza Gugger 22.3848 \"Regolamentare lo smaltimento dei rifiuti tossici delle sigarette elettroniche\", con l'articolo 30a della legge federale sulla protezione dell'ambiente (RS 814.01), il Consiglio federale dispone già di una base legale per vietare i prodotti destinati a un unico impiego, se i vantaggi del loro impiego non giustificano il carico che ne deriva per l'ambiente. La giustificabilità o meno di un tale divieto richiederebbe un esame approfondito, nel quale andrebbero ponderate mettendole a confronto l'utilità e la nocività per l'ambiente delle sigarette elettroniche monouso. Inoltre occorrerebbe esaminare la possibilità di adottare provvedimenti meno drastici.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

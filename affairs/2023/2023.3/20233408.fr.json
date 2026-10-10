@@ -1,6 +1,6 @@
 {
   "id": 20233408,
-  "updated": "2023-03-20T10:16:31Z",
+  "updated": "2024-06-11T12:42:08Z",
   "additionalIndexing": "2841;15;55",
   "affairType": {
     "abbreviation": "Mo.",
@@ -14,11 +14,6 @@
       "id": 4289,
       "name": "Schneider Meret",
       "officialDenomination": "Schneider Meret"
-    },
-    "faction": {
-      "abbreviation": "Groupe G",
-      "id": 6,
-      "name": "Groupe des VERT-E-S"
     },
     "type": "author"
   },
@@ -40,29 +35,187 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Combattu"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-06-16T00:00:00Z",
+            "text": "Combattu. Discussion reportée",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-14T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-02-27T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-04-26T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSEC-CE",
+            "id": 18,
+            "name": "Commission de la science, de l'éducation et de la culture CE",
+            "abbreviation1": "CSEC-E",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-16T10:13:43Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3075,
+                    "gender": "f",
+                    "id": 4181,
+                    "name": "Gmür-Schönenberger Andrea",
+                    "officialDenomination": "Gmür-Schönenberger"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CN",
+            "id": 5,
+            "name": "Commission de la science, de l'éducation et de la culture CN",
+            "abbreviation1": "CSEC-N",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1679007600000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1694642400000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1702940400000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1707951600000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1708038000000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1708988400000+0100)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
         }
       ],
       "texts": [
@@ -206,35 +359,61 @@
     },
     {
       "councillor": {
+        "code": 3213,
+        "gender": "m",
+        "id": 4317,
+        "name": "Huber Alois",
+        "officialDenomination": "Huber"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
         "code": 3181,
         "gender": "f",
         "id": 4289,
         "name": "Schneider Meret",
         "officialDenomination": "Schneider Meret"
       },
-      "faction": {
-        "abbreviation": "Groupe G",
-        "id": 6,
-        "name": "Groupe des VERT-E-S"
-      },
       "type": "author"
     }
   ],
   "shortId": "23.3408",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 209,
+    "name": "Transmis au Conseil fédéral",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Il faut renforcer et promouvoir le pôle d'innovation de la Suisse, tout en assurant le niveau de sécurité actuel. Pour que les investissements des entreprises dans de nouveaux produits soient rentables, les nouvelles sortes de denrées alimentaires (novel foods) doivent pouvoir être testées en garantissant la sécurité juridique.</p><p>Or celles-ci ne peuvent actuellement être mises sur le marché que si la Commission européenne ou l'OSAV les a autorisées (art. 15 et 17 ODAlOUs ; RS 817.02).</p><p>La mise sur le marché englobe également les tests de précommercialisation, qui sont nécessaires à la recherche et au développement de nouvelles sortes de produits afin d'évaluer et de réduire certains risques liés à leur acceptation. Le processus d'autorisation des nouvelles sortes de denrées alimentaires est long et coûteux, et comporte un risque élevé si l'on ne peut pas évaluer le potentiel du marché. Il faut revenir en arrière à ce sujet. Avant l'introduction de la législation sur les denrées alimentaires en vigueur depuis 2017, les tests de marché étaient prévus et expressément inscrits dans l'ODAlOUs : l'OSAV pouvait autoriser des tests de marché pour des denrées alimentaires non encore autorisées et fixait les conditions et charges correspondantes (cf. ancien art. 7 ODAlOUs).</p><p>Dans le but de promouvoir l'innovation en Suisse et une offre davantage axée sur la durabilité, il est donc nécessaire d'adapter la législation sur les denrées alimentaires de manière à ce que les tests de marché puissent à nouveau être autorisés par l'OSAV dans un cadre strictement contrôlé.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "Le Conseil fédéral propose d'accepter la motion."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé d'adapter l'ordonnance sur les denrées alimentaires et les objets usuels de sorte à introduire la possibilité de tests pour les nouvelles sortes de denrées alimentaires, afin de pouvoir évaluer à temps leur potentiel d'innovation. Il faudra en premier lieu tenir compte de la protection de la santé et de la sécurité alimentaire.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Tester et approuver de nouveaux aliments. Promouvoir l'innovation en Suisse"
     }
   ],
-  "title": "Titre suit"
+  "title": "Tester et approuver de nouveaux aliments. Promouvoir l'innovation en Suisse"
 }

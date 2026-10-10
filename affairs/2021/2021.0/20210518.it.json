@@ -1,6 +1,6 @@
 {
   "id": 20210518,
-  "updated": "2021-12-23T15:49:53Z",
+  "updated": "2025-06-17T08:16:49Z",
   "additionalIndexing": "1216;2841;28",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -40,7 +40,86 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "committee": {
+              "abbreviation": "CAG-CN",
+              "id": 12,
+              "name": "Commissione degli affari giuridici CN",
+              "abbreviation1": "CAG-N",
+              "abbreviation2": "CAG",
+              "committeeNumber": 12,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Consiglio nazionale",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2022-10-20T00:00:00Z",
+            "text": "Dare seguito (Camera prioritaria)",
+            "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "committee": {
+              "abbreviation": "CAG-CS",
+              "id": 25,
+              "name": "Commissione degli affari giuridici CS",
+              "abbreviation1": "CAG-S",
+              "abbreviation2": "CAG",
+              "committeeNumber": 25,
+              "council": {
+                "abbreviation": "CS",
+                "id": 2,
+                "name": "Consiglio degli Stati",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-10-12T00:00:00Z",
+            "text": "Non approvazione della decisione della commissione della Camera prioritaria (seconda Camera)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-05-27T00:00:00Z",
+            "text": "È dato seguito",
+            "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-06-16T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -55,7 +134,7 @@
             "abbreviation": "CAG-CN",
             "id": 12,
             "name": "Commissione degli affari giuridici CN",
-            "abbreviation1": "CAG-CN",
+            "abbreviation1": "CAG-N",
             "abbreviation2": "CAG",
             "committeeNumber": 12,
             "council": {
@@ -68,15 +147,20 @@
           },
           "date": "2021-12-15T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
-          ]
+              ]
+            }
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CAG-CS",
             "id": 25,
             "name": "Commissione degli affari giuridici CS",
-            "abbreviation1": "CAG-CS",
+            "abbreviation1": "CAG-S",
             "abbreviation2": "CAG",
             "committeeNumber": 25,
             "council": {
@@ -90,6 +174,47 @@
           "date": "2021-12-15T00:00:00Z",
           "registrations": [
 
+          ],
+          "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-04-04T13:48:45Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3105,
+                    "gender": "m",
+                    "id": 4204,
+                    "name": "Rieder Beat",
+                    "officialDenomination": "Rieder"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -97,13 +222,53 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639522800000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1696543200000+0200)/",
+          "id": 225,
+          "name": "Esame preliminare - nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1697148000000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1700694000000+0100)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1708642800000+0100)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1716760800000+0200)/",
+          "id": 225,
+          "name": "Esame preliminare - nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1743717600000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1750024800000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -333,8 +498,8 @@
   ],
   "shortId": "21.518",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
     "newKey": 0
   },

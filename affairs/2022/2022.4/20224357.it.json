@@ -1,6 +1,6 @@
 {
   "id": 20224357,
-  "updated": "2022-12-19T10:22:13Z",
+  "updated": "2025-04-24T19:33:54Z",
   "additionalIndexing": "2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-05-30T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-03-19T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-22T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSS-CS",
+            "id": 19,
+            "name": "Commissione della sicurezza sociale e della sanità CS",
+            "abbreviation1": "CSSS-S",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSS-CN",
+            "id": 6,
+            "name": "Commissione della sicurezza sociale e della sanità",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-01-28T17:42:40Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2575,
+                    "gender": "m",
+                    "id": 825,
+                    "name": "Germann Hannes",
+                    "officialDenomination": "Germann"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +179,38 @@
       "states": [
         {
           "date": "/Date(1670886000000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1677020400000+0100)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1717020000000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1725228000000+0200)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1735686000000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1738018800000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1742338800000+0100)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
         }
       ],
       "texts": [
@@ -95,7 +238,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -125,7 +268,7 @@
         "gender": "m",
         "id": 4053,
         "name": "Aeschi Thomas",
-        "officialDenomination": "Aeschi Thomas"
+        "officialDenomination": "Aeschi"
       },
       "type": "cosign"
     },
@@ -277,10 +420,10 @@
   ],
   "shortId": "22.4357",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 209,
+    "name": "Trasmesso al Consiglio federale",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -289,6 +432,13 @@
         "name": "Motivazione"
       },
       "value": "<p>Le cure mediche di base sono generalmente meno costose e presentano il vantaggio che il medico di famiglia spesso conosce bene il proprio paziente, il che permette di evitare trattamenti multipli e inutili. Tuttavia, in Svizzera si registra regolarmente una carenza di medici di base. Ciò nonostante, la rivalorizzazione della medicina di base nell'ambito tariffale è essenziale, in quanto costituisce una condizione importante affinché un maggior numero di futuri medici scelga questa disciplina piuttosto che le specializzazioni. Un aumento del numero di futuri medici di base è importante per garantire una migliore assistenza medica decentrata. Anche le regioni rurali, talvolta isolate, devono avere maggiori possibilità di disporre di una copertura sanitaria di base vicina al paziente, a maggior ragione in considerazione dell'invecchiamento della popolazione, che è spesso meno mobile. Si tratta pertanto di trovare un miglior equilibrio finanziario tra le specializzazioni mediche. Diversi rapporti, segnatamente quello del Controllo federale delle finanze, auspicano una rivalorizzazione delle cure di base e puntano il dito contro le tariffe eccessive degli interventi dei medici specialisti, ma le associazioni dei medici difficilmente sono in grado di attuare questo necessario riequilibrio senza creare dissensi interni tra le loro fila. In questo ambito devono essere formulate e applicate dal Consiglio federale, se necessario in via sussidiaria, norme legali vincolanti per i partner tariffali. Le misure adottate finora dal Consiglio federale (interventi tariffari nel 2014 e nel 2018) sono apprezzabili, ma non sufficienti a ristabilire un equilibrio soddisfacente. Complessivamente, occorre assicurarsi che la rivalorizzazione finanziaria dei medici di base sia neutra in termini di costi per chi paga i premi. Deve essere garantita la neutralità dinamica dei costi di questa misura.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>La promozione della medicina di famiglia è stata già oggetto di numerosi interventi parlamentari dopo l'adozione, da parte del Popolo, del decreto federale concernente le cure mediche di base (controprogetto diretto all'iniziativa popolare \"Sì alla medicina di famiglia\") il 18 maggio 2014 e l'integrazione nella Costituzione federale dell'articolo 117a sulle cure mediche di base.</p><p>Come dichiarato nella sua risposta del 23 novembre 2022 all'interpellanza Falkenstein 22.4187 \"Misure per promuovere la medicina di famiglia\", il Consiglio federale approva l'obiettivo di rivalorizzare la medicina di base. Condivide inoltre la volontà dell'autore della mozione di aumentare la remunerazione della medicina di base, nel rispetto della neutralità dei costi. Non è tuttavia necessaria una revisione della legge federale sull'assicurazione malattie (LAMal; RS 832.10) in tal senso. Spetta in primo luogo ai partner tariffali elaborare e adeguare le tariffe. Qualora i partner tariffali non riescano a trovare un accordo su una struttura uniforme per le tariffe per singole prestazioni, il Consiglio federale dispone, conformemente al quadro legale, della competenza sussidiaria di stabilirla. Nel quadro del sistema tariffale TARMED, il Consiglio federale si è già avvalso di tale competenza in due occasioni, nel 2014 e nel 2018, per procedere ad adeguamenti. In entrambi i casi sono state adottate misure nell'interesse dei medici di base.</p><p>Al momento ci si attende che i partner tariffali collaborino nell'intento di sottoporre una soluzione comune al Consiglio federale per l'approvazione. Per questo motivo, nel contesto delle discussioni relative a TARDOC, il Consiglio federale ha chiesto ai partner tariffali di presentare una nuova versione di questa struttura tariffale entro la fine del 2023.</p><p>Infine, va sottolineato che la copertura delle cure mediche di base non è soltanto una questione di tariffe. È necessario anche formare un numero sufficiente di medici di famiglia. A tal fine, il programma speciale \"Aumentare il numero di diplomati in medicina umana\", approvato dalla Confederazione e dai Cantoni nel 2017, deve permettere di incrementare il numero annuo di diplomati in medicina umana dai 900 del 2016 ad almeno 1300 entro il 2025. La Confederazione ha stanziato a tale scopo 100 milioni di franchi sotto forma di sussidi vincolati a progetti nel quadro del messaggio sulla promozione dell'educazione, della ricerca e dell'innovazione per gli anni dal 2017 al 2020. In un rapporto pubblicato il 2 dicembre 2021, la Conferenza svizzera delle scuole universitarie ha confermato l'impatto positivo del programma, che, entro la sua scadenza, dovrebbe permettere alle scuole universitarie di aumentare il numero di posti di formazione in misura sufficiente per raggiungere l'obiettivo di circa 1300 diplomi di medicina umana (disponibile in francese e tedesco su <a href=\"http://www.shk.ch\">www.shk.ch</a> Documentazione Archivio delle notizie Rapport final de swissuniversities concernant le programme spécial \" Augmentation du nombre de diplômes délivrés en médecine humaine \").</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {
@@ -302,8 +452,8 @@
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "LAMal. Rafforzare la copertura di base migliorando l’offerta di medici di famiglia"
+      "value": "LAMal. Rafforzare la copertura di base migliorando l'offerta di medici di famiglia"
     }
   ],
-  "title": "LAMal. Rafforzare la copertura di base migliorando l’offerta di medici di famiglia"
+  "title": "LAMal. Rafforzare la copertura di base migliorando l'offerta di medici di famiglia"
 }

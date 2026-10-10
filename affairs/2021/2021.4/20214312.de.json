@@ -1,6 +1,6 @@
 {
   "id": 20214312,
-  "updated": "2023-05-04T17:32:17Z",
+  "updated": "2025-03-05T15:15:32Z",
   "additionalIndexing": "15;1211",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,31 @@
             "date": "2023-05-04T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "Wird übernommen",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-03-05T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -68,7 +93,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-10-01T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-10-01T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-01-28T10:58:12Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3227,
+                    "gender": "f",
+                    "id": 4332,
+                    "name": "Crevoisier Crelier Mathilde",
+                    "officialDenomination": "Crevoisier Crelier"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +195,23 @@
         },
         {
           "date": "/Date(1683151200000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1734476400000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1738018800000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1741129200000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -297,14 +418,23 @@
         "name": "Sozialdemokratische Fraktion"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3034,
+        "gender": "f",
+        "id": 4130,
+        "name": "Masshardt Nadine",
+        "officialDenomination": "Masshardt"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "21.4312",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -320,7 +450,7 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Im Schweizer Privatrecht gilt der Grundsatz der Formfreiheit. Dazu gehört auch, dass die Vertragsparteien die Form der Kündigung frei vereinbaren können, soweit das Gesetz nicht ausnahmsweise eine besondere Form vorschreibt (wie z.B. bei der Kündigung von Mietverträgen über Wohn- oder Geschäftsräume nach Art. 266l des Obligationenrechts [OR, SR 220]). Bei solchen Einschränkungen ist im Interesse der Privatautonomie grosse Zurückhaltung geboten.</p><p>Die in der Motion kritisierten Regelungen über die Form der Kündigung enthalten offensichtlich ein gewisses Missbrauchspotential, wenn sie in Allgemeinen Geschäftsbedingungen (AGB) gegenüber Konsumentinnen und Konsumenten enthalten sind und der Verwender der AGB dabei die Form der Kündigung so festlegt, dass in der praktischen Umsetzung die Kündigung durch die Gegenseite faktisch erschwert werden soll. Das gilt insbesondere, wenn solche AGB-Bestimmungen im Rahmen bestehender Vertragsverhältnisse nachträglich angepasst bzw. eingefügt werden. Gleichzeitig ist zu bedenken, dass solche Regelungen an sich weniger strenge Formvorschriften enthalten und daher im Einzelfall auch zugunsten der Konsumentinnen und Konsumenten wirken können.</p><p>Die Verwendung missbräuchlicher Vertragsbestimmungen in AGB ist im geltenden Recht bereits geregelt. So handelt nach Artikel 8 des Bundesgesetzes gegen den unlauteren Wettbewerb (UWG, SR 241) unlauter, wer AGB verwendet, die in Treu und Glauben verletzender Weise zum Nachteil der Konsumentinnen und Konsumenten ein erhebliches und ungerechtfertigtes Missverhältnis zwischen den vertraglichen Rechten und Pflichten vorsehen. Entsprechende Vertragsbestimmungen sind nichtig, falls Artikel 8 UWG verletzt sein sollte. Anstatt neue gesetzliche Regelungen zu schaffen, sind allfällige Probleme soweit möglich über die heutigen Rechtsgrundlagen zu lösen. Zuständig für die Beurteilung solcher Vertragsbestimmungen und ihrer allfälligen Unlauterkeit sind die Zivilgerichte, gegebenenfalls auch auf Zivilklage von Konsumentenschutzorganisationen. Die Konsumentinnen und Konsumenten haben aber auch die Möglichkeit, sich an entsprechende Ombudsstellen zu wenden (bspw. die Schlichtungsstelle Telekommunikation ombudscom) oder beim Staatssekretariat für Wirtschaft SECO eine Beschwerde wegen unlauterer Geschäftspraktiken zu machen.</p><p>Auch wenn der Bundesrat der in der Motion kritisierten Praxis gewisser Anbieter ebenfalls kritisch gegenübersteht, erscheint es insgesamt unklar, wie gross die negativen Auswirkungen solcher Vertragsbestimmungen heute sind. Zudem ist fraglich, ob und wie mit gesetzgeberischen Massnahmen überhaupt ein angemessener Interessenausgleich erzielt werden könnte, ohne dadurch umgekehrt nicht auch berechtigte Kündigungsformen zu verunmöglichen und damit die Formfreiheit unnötig einzuschränken, namentlich wenn dazu die allgemeinen Formvorschriften des Obligationenrechts angepasst werden sollten. Falls daher die Motion im Erstrat angenommen wird, wird der Bundesrat im Zweitrat Abänderung in einen Prüfauftrag beantragen.</p>"
+      "value": "<p>Im Schweizer Privatrecht gilt der Grundsatz der Formfreiheit. Dazu gehört auch, dass die Vertragsparteien die Form der Kündigung frei vereinbaren können, soweit das Gesetz nicht ausnahmsweise eine besondere Form vorschreibt (wie z.B. bei der Kündigung von Mietverträgen über Wohn- oder Geschäftsräume nach Art. 266l des Obligationenrechts [OR, SR 220]). Bei solchen Einschränkungen ist im Interesse der Privatautonomie grosse Zurückhaltung geboten.</p><p>Die in der Motion kritisierten Regelungen über die Form der Kündigung enthalten offensichtlich ein gewisses Missbrauchspotential, wenn sie in Allgemeinen Geschäftsbedingungen (AGB) gegenüber Konsumentinnen und Konsumenten enthalten sind und der Verwender der AGB dabei die Form der Kündigung so festlegt, dass in der praktischen Umsetzung die Kündigung durch die Gegenseite faktisch erschwert werden soll. Das gilt insbesondere, wenn solche AGB-Bestimmungen im Rahmen bestehender Vertragsverhältnisse nachträglich angepasst bzw. eingefügt werden. Gleichzeitig ist zu bedenken, dass solche Regelungen an sich weniger strenge Formvorschriften enthalten und daher im Einzelfall auch zugunsten der Konsumentinnen und Konsumenten wirken können.</p><p>Die Verwendung missbräuchlicher Vertragsbestimmungen in AGB ist im geltenden Recht bereits geregelt. So handelt nach Artikel 8 des Bundesgesetzes gegen den unlauteren Wettbewerb (UWG, SR 241) unlauter, wer AGB verwendet, die in Treu und Glauben verletzender Weise zum Nachteil der Konsumentinnen und Konsumenten ein erhebliches und ungerechtfertigtes Missverhältnis zwischen den vertraglichen Rechten und Pflichten vorsehen. Entsprechende Vertragsbestimmungen sind nichtig, falls Artikel 8 UWG verletzt sein sollte. Anstatt neue gesetzliche Regelungen zu schaffen, sind allfällige Probleme soweit möglich über die heutigen Rechtsgrundlagen zu lösen. Zuständig für die Beurteilung solcher Vertragsbestimmungen und ihrer allfälligen Unlauterkeit sind die Zivilgerichte, gegebenenfalls auch auf Zivilklage von Konsumentenschutzorganisationen. Die Konsumentinnen und Konsumenten haben aber auch die Möglichkeit, sich an entsprechende Ombudsstellen zu wenden (bspw. die Schlichtungsstelle Telekommunikation ombudscom) oder beim Staatssekretariat für Wirtschaft SECO eine Beschwerde wegen unlauterer Geschäftspraktiken zu machen.</p><p>Auch wenn der Bundesrat der in der Motion kritisierten Praxis gewisser Anbieter ebenfalls kritisch gegenübersteht, erscheint es insgesamt unklar, wie gross die negativen Auswirkungen solcher Vertragsbestimmungen heute sind. Zudem ist fraglich, ob und wie mit gesetzgeberischen Massnahmen überhaupt ein angemessener Interessenausgleich erzielt werden könnte, ohne dadurch umgekehrt nicht auch berechtigte Kündigungsformen zu verunmöglichen und damit die Formfreiheit unnötig einzuschränken, namentlich wenn dazu die allgemeinen Formvorschriften des Obligationenrechts angepasst werden sollten. Falls daher die Motion im Erstrat angenommen wird, wird der Bundesrat im Zweitrat Abänderung in einen Prüfauftrag beantragen.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

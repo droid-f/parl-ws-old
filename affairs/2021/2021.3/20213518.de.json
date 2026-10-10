@@ -1,6 +1,6 @@
 {
   "id": 20213518,
-  "updated": "2021-10-01T11:04:21Z",
+  "updated": "2025-06-19T09:07:44Z",
   "additionalIndexing": "2846;66;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2021-10-01T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-06-18T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -73,7 +88,7 @@
             "abbreviation": "UREK-NR",
             "id": 7,
             "name": "Kommission für Umwelt, Raumplanung und Energie NR",
-            "abbreviation1": "UREK-NR",
+            "abbreviation1": "UREK-N",
             "abbreviation2": "UREK",
             "committeeNumber": 7,
             "council": {
@@ -94,7 +109,7 @@
             "abbreviation": "UREK-SR",
             "id": 20,
             "name": "Kommission für Umwelt, Raumplanung und Energie SR",
-            "abbreviation1": "UREK-SR",
+            "abbreviation1": "UREK-S",
             "abbreviation2": "UREK",
             "committeeNumber": 20,
             "council": {
@@ -107,7 +122,51 @@
           },
           "date": "2021-05-04T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-03-31T16:41:44Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3105,
+                    "gender": "m",
+                    "id": 4204,
+                    "name": "Rieder Beat",
+                    "officialDenomination": "Rieder"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -130,8 +189,18 @@
         },
         {
           "date": "/Date(1633039200000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1743372000000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1750197600000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -302,10 +371,9 @@
   ],
   "shortId": "21.3518",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -314,14 +382,21 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Seit 2014 ist nach Artikel 18a RPG für \"genügend angepasste\" Solaranlagen auf Dächern in Bau- und in Landwirtschaftszonen kein klassisches Baubewilligungsverfahren mehr erforderlich; solche Anlagen müssen nur noch der zuständigen Behörde gemeldet werden, gewöhnlich mit einer Meldefrist von einem Monat vor Beginn der Arbeiten. Artikel 32a der Raumplanungsverordnung (RPV) legt fest, unter welchen Bedingungen eine Solaranlage als \"genügend angepasst\" gilt. Unter anderem darf sie die Dachfläche im rechten Winkel um höchstens 20 cm überragen und muss als kompakte Fläche zusammenhängen. Diese Bedingungen eignen sich im Allgemeinen für Wohnzonen; in Industrie- und Gewerbezonen stellen sie jedoch ein übertriebenes Hindernis dar. In diesen Zonen sind Flachdächer üblich, auf denen die Solaranlagen auf Trägern montiert werden, was bedeutet, dass sie den oben genannten Bedingungen oft nicht entsprechen können. Zudem sind Solaranlagen an Fassaden vom heutigen Meldeverfahren ausgeschlossen, obwohl sie im Normalfall keine speziellen Probleme bereiten. </p><p>Es muss auf folgende Punkte hingewiesen werden:</p><p>1. Diese Gebäudetypen haben ein grosses Potenzial, wenn es darum geht, die Ziele der Energiestrategie 2050 zu erreichen. Gemäss einer Studie von Swissolar, könnten auf den Dächern von Industrie- und Gewerbegebäuden rund 13 Terawattstunden und an den Fassaden rund 2 Terawattstunden Strom pro Jahr produziert werden. </p><p>2. In vielen Fällen verbrauchen diese Gebäude einen grossen Teil des Stroms, der mit den installierten Solaranlagen produziert wird, selber. Dieser Aspekt ist nicht unerheblich. </p><p>Einige Kantone haben das Meldeverfahren in der Zwischenzeit auf Anlagen auf Gebäuden in Industrie- und Gewerbezonen ausgeweitet, die die Dachfläche um mehr als 20 cm überragen oder an der Fassade installiert werden. Dadurch reduziert sich der administrative Aufwand beträchtlich. Damit der Zubau von Solarenergie rasch und günstiger vonstattengeht, sollte dies Regelung für die ganze Schweiz gelten.</p>"
+      "value": "<p>Seit 2014 ist nach Artikel 18a RPG für \"genügend angepasste\" Solaranlagen auf Dächern in Bau- und in Landwirtschaftszonen kein klassisches Baubewilligungsverfahren mehr erforderlich; solche Anlagen müssen nur noch der zuständigen Behörde gemeldet werden, gewöhnlich mit einer Meldefrist von einem Monat vor Beginn der Arbeiten. Artikel 32a der Raumplanungsverordnung (RPV) legt fest, unter welchen Bedingungen eine Solaranlage als \"genügend angepasst\" gilt. Unter anderem darf sie die Dachfläche im rechten Winkel um höchstens 20 cm überragen und muss als kompakte Fläche zusammenhängen. Diese Bedingungen eignen sich im Allgemeinen für Wohnzonen; in Industrie- und Gewerbezonen stellen sie jedoch ein übertriebenes Hindernis dar. In diesen Zonen sind Flachdächer üblich, auf denen die Solaranlagen auf Trägern montiert werden, was bedeutet, dass sie den oben genannten Bedingungen oft nicht entsprechen können. Zudem sind Solaranlagen an Fassaden vom heutigen Meldeverfahren ausgeschlossen, obwohl sie im Normalfall keine speziellen Probleme bereiten. </p><p>Es muss auf folgende Punkte hingewiesen werden:</p><p>1. Diese Gebäudetypen haben ein grosses Potenzial, wenn es darum geht, die Ziele der Energiestrategie 2050 zu erreichen. Gemäss einer Studie von Swissolar, könnten auf den Dächern von Industrie- und Gewerbegebäuden rund 13 Terawattstunden und an den Fassaden rund 2 Terawattstunden Strom pro Jahr produziert werden. </p><p>2. In vielen Fällen verbrauchen diese Gebäude einen grossen Teil des Stroms, der mit den installierten Solaranlagen produziert wird, selber. Dieser Aspekt ist nicht unerheblich. </p><p>Einige Kantone haben das Meldeverfahren in der Zwischenzeit auf Anlagen auf Gebäuden in Industrie- und Gewerbezonen ausgeweitet, die die Dachfläche um mehr als 20 cm überragen oder an der Fassade installiert werden. Dadurch reduziert sich der administrative Aufwand beträchtlich. Damit der Zubau von Solarenergie rasch und günstiger vonstattengeht, sollte dies Regelung für die ganze Schweiz gelten.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "Der Bundesrat beantragt die Annahme der Motion."
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Der Bundesrat wird beauftragt, eine Änderung des Raumplanungsgesetzes (RPG) auszuarbeiten, damit das Meldeverfahrens nach Artikel 18a RPG auf sämtliche Solaranlagen auf Hausdächern und an Hausfassaden in allen Industrie- und Gewerbezonen angewendet werden kann. So kann vermieden werden, dass ein Baubewilligungsverfahren durchgeführt werden muss.</p>"
+      "value": "<p>Der Bundesrat wird beauftragt, eine Änderung des Raumplanungsgesetzes (RPG) auszuarbeiten, damit das Meldeverfahrens nach Artikel 18a RPG auf sämtliche Solaranlagen auf Hausdächern und an Hausfassaden in allen Industrie- und Gewerbezonen angewendet werden kann. So kann vermieden werden, dass ein Baubewilligungsverfahren durchgeführt werden muss.</p>"
     },
     {
       "type": {

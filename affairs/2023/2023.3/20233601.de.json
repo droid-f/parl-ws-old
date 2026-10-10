@@ -1,6 +1,6 @@
 {
   "id": 20233601,
-  "updated": "2023-06-09T09:25:56Z",
+  "updated": "2024-09-26T11:16:11Z",
   "additionalIndexing": "2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -34,29 +34,192 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Bekämpft"
+            },
+            "council": null,
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Bekämpft. Diskussion verschoben",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-03-14T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-09-26T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-08-23T00:00:00Z",
+        "text": "Annahme"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "SGK-NR",
+            "id": 6,
+            "name": "Kommission für soziale Sicherheit und Gesundheit NR",
+            "abbreviation1": "SGK-N",
+            "abbreviation2": "SGK",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-SR",
+            "id": 19,
+            "name": "Kommission für soziale Sicherheit und Gesundheit SR",
+            "abbreviation1": "SGK-S",
+            "abbreviation2": "SGK",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-07-05T14:43:13Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3108,
+                    "gender": "m",
+                    "id": 4207,
+                    "name": "Müller Damian",
+                    "officialDenomination": "Müller Damian"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1685570400000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1692741600000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1710370800000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1710975600000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1711922400000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1719525600000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1724968800000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1727301600000+0200)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -79,6 +242,16 @@
   ],
   "roles": [
     {
+      "councillor": {
+        "code": 2758,
+        "gender": "m",
+        "id": 4053,
+        "name": "Aeschi Thomas",
+        "officialDenomination": "Aeschi"
+      },
+      "type": "controvert"
+    },
+    {
       "faction": {
         "abbreviation": "Fraktion RL",
         "code": "RL",
@@ -93,17 +266,17 @@
         "gender": "m",
         "id": 4190,
         "name": "Dobler Marcel",
-        "officialDenomination": "Dobler"
+        "officialDenomination": "Dobler Marcel"
       },
       "type": "speaker"
     }
   ],
   "shortId": "23.3601",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -112,6 +285,13 @@
         "name": "Begründung"
       },
       "value": "<p>Heute müssen Spitalbetriebe, Arztpraxen, Heime, Labore etc. die zum Teil identischen Daten über verschiedene Plattformen an unterschiedlichen Akteuren liefern. Die nicht abgestimmten Prozesse binden Ressourcen und verursachen Kosten, die vermeidbar wären. In Zukunft sollen die gleichen Daten nur noch einmal erfasst und geliefert werden müssen. Mit der vorliegenden Motion sollen die rechtlichen Rahmenbedingungen geschaffen werden und Massnahmen getroffen werden, damit die Möglichkeiten der Digitalisierung optimal genutzt werden können. Es sind die relevanten Stakeholder (Kantone, Verbände etc.) miteinzubeziehen.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat hat bereits verschiedene Schritte zur Umsetzung des Once-Only-Prinzipes unternommen. Zu nennen sind hier insbesondere die Arbeiten zur Förderung der Mehr­fachnutzung von Daten und zur Entlastung von Unternehmen mittels des Programms Nationale Datenbewirtschaftung (NaDB).&nbsp;</p><p>Weiter hat der Bundesrat das EDI (BAG und BFS) beauftragt, bis Ende 2023 ein Programm zur Förderung der digitalen Transformation im Gesundheitswesen (DigiSanté) zu erarbeiten. Die Verankerung des Once-Only-Prinzips wird ein Kernelement dieses Programms sein.&nbsp;</p><p>Der Bundesrat wird die bereits laufenden Arbeiten unter Einhaltung der datenschutzrecht­lichen Grundsätze konsequent weiterführen und die erforderlichen rechtlichen Anpassungen dem Parlament unterbreiten. Er koordiniert dabei die Arbeiten zur Mehrfachnutzung von Gesundheitsdaten mit denjenigen zur Sekundärnutzung von Daten (Motion 22.3890).</p>"
     },
     {
       "type": {
@@ -125,8 +305,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Schluss mit teuren Doppelspurigkeiten bei Gesundheitsdaten: Mehrfachnutzung jetzt anpacken!"
+      "value": "Schluss mit teuren Doppelspurigkeiten bei Gesundheitsdaten. Mehrfachnutzung jetzt anpacken!"
     }
   ],
-  "title": "Schluss mit teuren Doppelspurigkeiten bei Gesundheitsdaten: Mehrfachnutzung jetzt anpacken!"
+  "title": "Schluss mit teuren Doppelspurigkeiten bei Gesundheitsdaten. Mehrfachnutzung jetzt anpacken!"
 }

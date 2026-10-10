@@ -1,6 +1,6 @@
 {
   "id": 20230411,
-  "updated": "2023-03-21T14:15:36Z",
+  "updated": "2024-04-18T07:29:41Z",
   "additionalIndexing": "24;52",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -40,7 +40,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-04-17T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,24 +64,178 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-24T08:50:16Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2796,
+                    "gender": "f",
+                    "id": 4090,
+                    "name": "Amaudruz Céline",
+                    "officialDenomination": "Amaudruz"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe V",
+                    "id": 4,
+                    "name": "Groupe de l'Union démocratique du Centre"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-24T08:50:14Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2789,
+                    "gender": "m",
+                    "id": 4077,
+                    "name": "Feller Olivier",
+                    "officialDenomination": "Feller"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe RL",
+                    "id": 1,
+                    "name": "Groupe libéral-radical"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CN",
+            "id": 10,
+            "name": "Commission de l'économie et des redevances CN",
+            "abbreviation1": "CER-N",
+            "abbreviation2": "CER",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-16T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CE",
+            "id": 23,
+            "name": "Commission de l'économie et des redevances CE",
+            "abbreviation1": "CER-E",
+            "abbreviation2": "CER",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-16T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Département des finances",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1678921200000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1694469600000+0200)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1700694000000+0100)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1713304800000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -126,19 +294,33 @@
   ],
   "shortId": "23.411",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>L'article 5 LBN définit le mandat de la BNS. Il prévoit que la BNS conduit la politique monétaire dans l'intérêt général du pays, assure la stabilité des prix et tient compte de l'évolution de la conjoncture.</p><p>Ces dernières années, la BNS a indiqué à plusieurs reprises qu'elle avait déjà pris diverses mesures pour prendre en compte les risques climatiques dans le cadre de son mandat. Le discours tenu par Andréa Maechler et Thomas Moser le 14 novembre 2019 et intitulé \" Risques climatiques et banques centrales : une perspective de la BNS \" en est un exemple. Parallèlement - et alors que d'autres banques centrales dans le monde vont nettement plus loin que la BNS à cet égard -, celle-ci a réaffirmé à plusieurs reprises que son mandat ne lui conférait pas une marge de manoeuvre suffisante pour prendre pleinement en compte les risques climatiques dans ses décisions et ses instruments de politique monétaire.</p><p>La présente initiative parlementaire vise à garantir cette marge de manoeuvre et à établir clairement que la BNS doit tenir compte des risques climatiques dans la conduite de sa politique monétaire. Elle reflète le fait que les risques climatiques sont considérés dans le monde entier comme des risques financiers significatifs susceptibles de menacer la stabilité financière et la stabilité des prix. Les banques centrales ne se posent pas la question de savoir si elles doivent faire face à ces risques, mais comment elles doivent en tenir compte. Il est dans l'intérêt général de la Suisse que la BNS aborde ces questions de manière proactive.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>L'art. 5, al. 1, de la loi sur la Banque nationale (LBN) est complété de manière à ce que la Banque nationale suisse (BNS) tienne également compte des risques climatiques et environnementaux dans la conduite de sa politique monétaire.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Banque nationale suisse. Une politique monétaire stable grâce à la prise en compte des risques climatiques"
     }
   ],
-  "title": "Titre suit"
+  "title": "Banque nationale suisse. Une politique monétaire stable grâce à la prise en compte des risques climatiques"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20223321,
-  "updated": "2022-09-21T18:28:04Z",
+  "updated": "2025-03-11T14:26:53Z",
   "additionalIndexing": "66;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2022-09-21T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-03-11T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
           }
         ]
       },
@@ -67,7 +82,92 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CAPTE-CN",
+            "id": 7,
+            "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CN",
+            "abbreviation1": "CAPTE-N",
+            "abbreviation2": "CAPTE",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-18T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAPTE-CS",
+            "id": 20,
+            "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CS",
+            "abbreviation1": "CAPTE-S",
+            "abbreviation2": "CAPTE",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-18T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-01-09T17:27:01Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3105,
+                    "gender": "m",
+                    "id": 4204,
+                    "name": "Rieder Beat",
+                    "officialDenomination": "Rieder"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +188,23 @@
         },
         {
           "date": "/Date(1663711200000+0200)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1736290800000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1736377200000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1741647600000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -386,7 +501,7 @@
         "code": 3123,
         "gender": "m",
         "id": 4222,
-        "name": "Paganini Nicolo",
+        "name": "Paganini Nicolò",
         "officialDenomination": "Paganini"
       },
       "type": "cosign"
@@ -449,10 +564,9 @@
   ],
   "shortId": "22.3321",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -468,7 +582,7 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>Visto il potenziamento delle energie rinnovabili, si può partire dal presupposto che occorrerà una maggiore flessibilità del futuro sistema elettrico. Nel progetto di legge federale su un approvvigionamento sicuro con le energie rinnovabili, attualmente dibattuto in Parlamento, il Consiglio federale ha pertanto previsto anche una disposizione di flessibilizzazione. Il diritto di sfruttare le flessibilizzazioni spetterà ai produttori, ai gestori degli impianti di stoccaggio e ai consumatori finali. Soggetti terzi, quali ad esempio i gestori della rete di distribuzione, intenzionati a usare la flessibilità devono acquisirla in linea di principio tramite un contratto. Se, come sinora, i gestori della rete di distribuzione intendono sfruttare le flessibilità al servizio della rete, sono tenuti a offrire ai titolari di tali flessibilità condizioni contrattuali non discriminatorie.</p><p>Conformemente all'articolo 20 capoverso 2 lettera b della legge sull'approvvigionamento elettrico (LAEl; RS 734.7), in Svizzera la responsabilità del mercato dell'energia elettrica incombe alla società di rete Swissgrid. Sulla base di requisiti tecnici risultanti dall'interconnessione con l'Europa, Swissgrid definisce tipo e quantità dei prodotti di energia di regolazione necessari per garantire la sicurezza della gestione della rete. Nel configurare il mercato dell'energia di regolazione, Swissgrid deve far sì che esso si adegui costantemente all'evoluzione tecnica in corso, così da poterne assicurare per quanto possibile la liquidità; ciò significa nel contempo che un numero possibilmente elevato di offerenti può partecipare al mercato e che lo stesso diventa più efficiente. Affinché anche i fornitori della flessibilità più piccoli possano partecipare al mercato dell'energia di regolazione, già nel 2013 Swissgrid aveva introdotto l'opzione del pooling (v. la raccomandazione per il mercato elettrico svizzero, Anbindung von Regelpools an den Schweizer SDL-Markt, non disponibile in italiano). È così garantito che anche gli attori più piccoli possano partecipare al mercato dell'energia di regolazione. Per ragioni tecniche e logistiche una partecipazione diretta non è attualmente possibile.</p><p>Inoltre, a intervalli regolari vengono discussi e introdotti nuovi adeguamenti dei prodotti del mercato dell'energia di regolazione allo scopo, tra l'altro, di promuovere la partecipazione anche degli attori più piccoli. L'esempio più recente è costituito dalla partecipazione di Swissgrid al progetto pilota Equigy, che analizza gli ostacoli di natura tecnico-logistica a una partecipazione diretta degli attori più piccoli.</p>"
+      "value": "<p>Visto il potenziamento delle energie rinnovabili, si può partire dal presupposto che occorrerà una maggiore flessibilità del futuro sistema elettrico. Nel progetto di legge federale su un approvvigionamento sicuro con le energie rinnovabili, attualmente dibattuto in Parlamento, il Consiglio federale ha pertanto previsto anche una disposizione di flessibilizzazione. Il diritto di sfruttare le flessibilizzazioni spetterà ai produttori, ai gestori degli impianti di stoccaggio e ai consumatori finali. Soggetti terzi, quali ad esempio i gestori della rete di distribuzione, intenzionati a usare la flessibilità devono acquisirla in linea di principio tramite un contratto. Se, come sinora, i gestori della rete di distribuzione intendono sfruttare le flessibilità al servizio della rete, sono tenuti a offrire ai titolari di tali flessibilità condizioni contrattuali non discriminatorie.</p><p>Conformemente all'articolo 20 capoverso 2 lettera b della legge sull'approvvigionamento elettrico (LAEl; RS 734.7), in Svizzera la responsabilità del mercato dell'energia elettrica incombe alla società di rete Swissgrid. Sulla base di requisiti tecnici risultanti dall'interconnessione con l'Europa, Swissgrid definisce tipo e quantità dei prodotti di energia di regolazione necessari per garantire la sicurezza della gestione della rete. Nel configurare il mercato dell'energia di regolazione, Swissgrid deve far sì che esso si adegui costantemente all'evoluzione tecnica in corso, così da poterne assicurare per quanto possibile la liquidità; ciò significa nel contempo che un numero possibilmente elevato di offerenti può partecipare al mercato e che lo stesso diventa più efficiente. Affinché anche i fornitori della flessibilità più piccoli possano partecipare al mercato dell'energia di regolazione, già nel 2013 Swissgrid aveva introdotto l'opzione del pooling (v. la raccomandazione per il mercato elettrico svizzero, Anbindung von Regelpools an den Schweizer SDL-Markt, non disponibile in italiano). È così garantito che anche gli attori più piccoli possano partecipare al mercato dell'energia di regolazione. Per ragioni tecniche e logistiche una partecipazione diretta non è attualmente possibile.</p><p>Inoltre, a intervalli regolari vengono discussi e introdotti nuovi adeguamenti dei prodotti del mercato dell'energia di regolazione allo scopo, tra l'altro, di promuovere la partecipazione anche degli attori più piccoli. L'esempio più recente è costituito dalla partecipazione di Swissgrid al progetto pilota Equigy, che analizza gli ostacoli di natura tecnico-logistica a una partecipazione diretta degli attori più piccoli.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

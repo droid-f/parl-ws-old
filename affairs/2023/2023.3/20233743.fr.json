@@ -1,6 +1,6 @@
 {
   "id": 20233743,
-  "updated": "2023-06-20T11:14:22Z",
+  "updated": "2025-06-17T13:37:28Z",
   "additionalIndexing": "2446;1211",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,172 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-03-13T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-06-17T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-23T00:00:00Z",
+        "text": "Rejet"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CER-CN",
+            "id": 10,
+            "name": "Commission de l'économie et des redevances CN",
+            "abbreviation1": "CER-N",
+            "abbreviation2": "CER",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CE",
+            "id": 23,
+            "name": "Commission de l'économie et des redevances CE",
+            "abbreviation1": "CER-E",
+            "abbreviation2": "CER",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-03-25T17:44:27Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3054,
+                    "gender": "m",
+                    "id": 4152,
+                    "name": "Wicki Hans",
+                    "officialDenomination": "Wicki"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Département des finances",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686780000000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1692741600000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1710284400000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1742857200000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1750111200000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -222,10 +365,10 @@
   ],
   "shortId": "23.3743",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -233,7 +376,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>En cas de séparation ou de divorce, les contributions d'entretien versées pour des enfants mineurs sont déduites du revenu du parent débitrentier. Les montants en jeu sont souvent importants et permettent de tenir compte de la réalité financière réelle des personnes physiques.</p><p>Malheureusement, lorsque les enfants atteignent la majorité, la déduction des contributions d'entretien n'est plus possible dès lors qu'elles sont versées à l'enfant et non plus à l'autre parent; seule la déduction forfaitaire très faible au regard des coûts réels d'un enfant en formation est retenue.</p><p>Cette situation n'est pas acceptable du point de vue de la justice. Les parents contributeurs voient leurs revenus gonflés artificiellement de montants dont ils n'ont pas la libre disposition, sur décision de justice. </p><p>La déduction proposée ne concerne pas uniquement les parents divorcés, mais l'ensemble des parents qui doivent contribuer à l'entretien d'un enfant majeur en formation, situation très fréquente. L'art. 277 CC prévoit d'ailleurs l'obligation pour les parents de contribuer à l'entretien d'un enfant majeur jusqu'à la fin de sa formation. Pour bénéficier de la déduction en dehors d'une décision judiciaire, le contribuable pourrait être amené à apporter la preuve de l'existence d'une convention d'entretien et le paiement effectif des contributions. </p><p>La déduction pourra aussi être plafonnée à montant forfaitaire s'agissant des contributions convenues entre les parties (cas hors séparation ou divorce), et au montant retenu par le juge en cas de contribution fixée judiciairement (cas de séparation ou de divorce). </p><p>Enfin, le montant versé à l'enfant majeur en formation doit être ajouté à ses revenus, comme le sont les contributions versées au conjoint crédirentier.</p>"
+      "value": "<p>En cas de séparation ou de divorce, les contributions d'entretien versées pour des enfants mineurs sont déduites du revenu du parent débitrentier. Les montants en jeu sont souvent importants et permettent de tenir compte de la réalité financière réelle des personnes physiques.</p><p>Malheureusement, lorsque les enfants atteignent la majorité, la déduction des contributions d'entretien n'est plus possible dès lors qu'elles sont versées à l'enfant et non plus à l'autre parent&nbsp;; seule la déduction forfaitaire très faible au regard des coûts réels d'un enfant en formation est retenue.</p><p>Cette situation n'est pas acceptable du point de vue de la justice. Les parents contributeurs voient leurs revenus gonflés artificiellement de montants dont ils n'ont pas la libre disposition, sur décision de justice.</p><p>La déduction proposée ne concerne pas uniquement les parents divorcés, mais l'ensemble des parents qui doivent contribuer à l'entretien d'un enfant majeur en formation, situation très fréquente. L'article 277 CC prévoit d'ailleurs l'obligation pour les parents de contribuer à l'entretien d'un enfant majeur jusqu'à la fin de sa formation. Pour bénéficier de la déduction en dehors d'une décision judiciaire, le contribuable pourrait être amené à apporter la preuve de l'existence d'une convention d'entretien et le paiement effectif des contributions.</p><p>La déduction pourra aussi être plafonnée à montant forfaitaire s'agissant des contributions convenues entre les parties (cas hors séparation ou divorce), et au montant retenu par le juge en cas de contribution fixée judiciairement (cas de séparation ou de divorce).</p><p>Enfin, le montant versé à l'enfant majeur en formation doit être ajouté à ses revenus, comme le sont les contributions versées au conjoint crédirentier.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Tant dans la LIFD que dans la LHID, les frais versés pour l’entretien d’un membre de la famille constituent une utilisation du revenu et ne sont de ce fait généralement pas déductibles. Il existe actuellement une seule exception concernant les frais d’entretien versés à l’époux divorcé ou séparé ou à l’époux vivant séparément avec un enfant mineur. Le parent qui reçoit des contributions d’entretien pour les enfants sur lesquels il détient l’autorité parentale est en effet pleinement imposé sur ces contributions, tandis que le parent qui les verse peut les déduire entièrement de son revenu imposable. Cette exception ne s’applique toutefois plus à partir du moment où les enfants atteignent leur majorité.</p><p>Les contributions versées à l’enfant majeur en formation sont considérées comme des revenus exonérés pour l’enfant. Dans le cas d’époux divorcés ou séparés, le parent qui verse les contributions d’entretien à un enfant majeur en formation peut demander, dans le cadre de l’impôt fédéral direct, la déduction pour enfant de 6600&nbsp;francs. Si les deux parents fournissent des contributions d’entretien, le parent dont les prestations financières sont les plus élevées est en droit de demander la déduction pour enfants, tandis que l’autre parent peut faire valoir son droit à la déduction pour personne à charge de 6600&nbsp;francs, à condition que sa prestation atteigne au moins le montant de cette déduction. Dans un tel cas, les parents séparés ou divorcés d’enfants majeurs ont donc droit à une déduction supplémentaire, contrairement aux personnes mariées, qui ne peuvent faire valoir que la déduction pour enfants. Cette réglementation pour les parents séparés ou divorcés d’enfants majeurs tient compte de la situation financière difficile dans laquelle ils peuvent se trouver et de l’augmentation des dépenses à laquelle ils doivent faire face en raison de leur séparation (par&nbsp;ex. du fait d’un loyer supplémentaire).</p><p>Faute de données (en particulier sur le nombre de ménages imposés concernés, leur revenu et le montant de la déduction), il n’est pas possible de quantifier les conséquences financières d’une déduction des contributions d’entretien versées aux enfants adultes. Une telle réglementation entraînerait toutefois une diminution des recettes pour la Confédération, les cantons et les communes.</p><p>Dans plusieurs interventions sur ce sujet, le Conseil fédéral a indiqué qu’il considérait le régime actuel d’imposition des pensions alimentaires comme globalement équitable (par&nbsp;ex. postulat 19.3900). Il n’y a donc pas lieu, à son sens, de légiférer dans ce domaine, d’autant que les Chambres fédérales ont récemment refusé de donner suite à une initiative parlementaire (21.424) et à une initiative cantonale (20.321) poursuivant le même objectif.</p>"
     },
     {
       "type": {

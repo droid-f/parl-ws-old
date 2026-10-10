@@ -1,6 +1,6 @@
 {
   "id": 20210518,
-  "updated": "2021-12-23T15:49:53Z",
+  "updated": "2025-06-17T08:16:49Z",
   "additionalIndexing": "1216;2841;28",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -41,7 +41,86 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "RK-NR",
+              "id": 12,
+              "name": "Kommission für Rechtsfragen NR",
+              "abbreviation1": "RK-N",
+              "abbreviation2": "RK",
+              "committeeNumber": 12,
+              "council": {
+                "abbreviation": "NR",
+                "id": 1,
+                "name": "Nationalrat",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2022-10-20T00:00:00Z",
+            "text": "Folge geben (Erstrat)",
+            "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "RK-SR",
+              "id": 25,
+              "name": "Kommission für Rechtsfragen SR",
+              "abbreviation1": "RK-S",
+              "abbreviation2": "RK",
+              "committeeNumber": 25,
+              "council": {
+                "abbreviation": "SR",
+                "id": 2,
+                "name": "Ständerat",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-10-12T00:00:00Z",
+            "text": "Keine Zustimmung zum Beschluss der Kommission des Erstrates (Zweitrat)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-05-27T00:00:00Z",
+            "text": "Folge gegeben",
+            "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-06-16T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -56,7 +135,7 @@
             "abbreviation": "RK-NR",
             "id": 12,
             "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
+            "abbreviation1": "RK-N",
             "abbreviation2": "RK",
             "committeeNumber": 12,
             "council": {
@@ -69,15 +148,20 @@
           },
           "date": "2021-12-15T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
-          ]
+              ]
+            }
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -91,6 +175,47 @@
           "date": "2021-12-15T00:00:00Z",
           "registrations": [
 
+          ],
+          "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-04-04T13:48:45Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3105,
+                    "gender": "m",
+                    "id": 4204,
+                    "name": "Rieder Beat",
+                    "officialDenomination": "Rieder"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -98,13 +223,53 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639522800000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1696543200000+0200)/",
+          "id": 225,
+          "name": "Vorprüfung - in Kommission des Ständerates"
+        },
+        {
+          "date": "/Date(1697148000000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1700694000000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1708642800000+0100)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1716760800000+0200)/",
+          "id": 225,
+          "name": "Vorprüfung - in Kommission des Ständerates"
+        },
+        {
+          "date": "/Date(1743717600000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1750024800000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -335,8 +500,8 @@
   ],
   "shortId": "21.518",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },
@@ -353,7 +518,7 @@
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Artikel 128 StGB wird wie folgt geändert:</p><p>Wer einem Menschen, den er verletzt hat, oder einem Menschen, für den eine unmittelbare Lebensgefahr oder einer erkennbaren unmittelbaren Gefahr der schweren Verletzung seiner physischen oder sexuellen Integrität besteht, nicht hilft, obwohl es ihm den Umständen nach zugemutet werden könnte,</p><p>wer andere davon abhält, Nothilfe zu leisten, oder sie dabei behindert,</p><p>wird mit Freiheitsstrafe bis zu drei Jahren oder Geldstrafe bestraft.</p>"
+      "value": "<p>Artikel 128 StGB wird wie folgt geändert:</p><p>Wer einem Menschen, den er verletzt hat, oder einem Menschen, für den eine unmittelbare Lebensgefahr oder einer erkennbaren unmittelbaren Gefahr der schweren Verletzung seiner physischen oder sexuellen Integrität besteht, nicht hilft, obwohl es ihm den Umständen nach zugemutet werden könnte,</p><p>wer andere davon abhält, Nothilfe zu leisten, oder sie dabei behindert,</p><p>wird mit Freiheitsstrafe bis zu drei Jahren oder Geldstrafe bestraft.</p>"
     },
     {
       "type": {

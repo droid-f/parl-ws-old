@@ -1,7 +1,7 @@
 {
   "id": 20230424,
-  "updated": "2023-03-21T15:13:06Z",
-  "additionalIndexing": "04;0421",
+  "updated": "2024-05-30T08:25:50Z",
+  "additionalIndexing": "04;421",
   "affairType": {
     "abbreviation": "Pa. Iv.",
     "id": 4,
@@ -41,7 +41,46 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "SPK-NR",
+              "id": 11,
+              "name": "Staatspolitische Kommission NR",
+              "abbreviation1": "SPK-N",
+              "abbreviation2": "SPK",
+              "committeeNumber": 11,
+              "council": {
+                "abbreviation": "NR",
+                "id": 1,
+                "name": "Nationalrat",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2024-02-02T00:00:00Z",
+            "text": "Keine Folge geben (Erstrat)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-05-29T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -51,24 +90,168 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-05T15:32:31Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 11505,
+                    "gender": "m",
+                    "id": 11505,
+                    "name": "Fonio Giorgio",
+                    "officialDenomination": "Fonio"
+                  },
+                  "language": "it"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SPK-NR",
+            "id": 11,
+            "name": "Staatspolitische Kommission NR",
+            "abbreviation1": "SPK-N",
+            "abbreviation2": "SPK",
+            "committeeNumber": 11,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-17T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "SPK-SR",
+            "id": 24,
+            "name": "Staatspolitische Kommission SR",
+            "abbreviation1": "SPK-S",
+            "abbreviation2": "SPK",
+            "committeeNumber": 24,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-17T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-05T15:32:29Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 10826,
+                    "gender": "f",
+                    "id": 10826,
+                    "name": "Schläfli Nina",
+                    "officialDenomination": "Schläfli Nina"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1679007600000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1703199600000+0100)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1707087600000+0100)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1716933600000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -109,12 +292,26 @@
   ],
   "shortId": "23.424",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Volk und Stände entscheiden innert 100 Tagen über dringlich erklärte Bundesgesetze.</p><p>Es kann vorkommen und kommt immer häufiger vor, dass die Bundesversammlung glaubt, ein von ihr verabschiedetes Bundesgesetz dringlich erklären zu müssen. Daran ist grundsätzlich nichts auszusetzen. Jedoch kann dann der Souverän (d.h. Volk und Stände) seine verfassungsrechtliche Prärogative des Referendums nur unter erschwerten Bedingungen ausüben.</p><p>De facto wird dabei der Stimmbürger entmachtet.</p><p>Die pa. iv. schafft Abhilfe: ein dringlich erklärtes Bundesgesetz muss innert 100 Tagen vom Souverän angenommen werden. Bei einem \"Nein\" bei der Referendumsabstimmung tritt dieses Gesetz sofort ausser Kraft. Damit werden die demokratischen Rechte der Bevölkerung auch bei dringlichen Bundesgesetzen sichergestellt.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Die Bundesverfassung wird wie folgt geändert:</p><p>Artikel 140, Absatz 1 Buchstabe c und d</p><p>1 Volk und Ständen werden zur Abstimmung unterbreitet:</p><p>c. Aufgehoben</p><p>d. die dringlich erklärten Bundesgesetze; diese Bundesgesetze müssen innerhalb von 100 Tagen nach Annahme durch die Bundesversammlung zur Abstimmung unterbreitet werden.</p><p>Artikel 141 Absatz 1 Buchstabe b</p><p>Aufgehoben</p><p>Artikel 165 Absatz 2-3bis</p><p>2 Aufgehoben</p><p>3 Aufgehoben</p><p>3bis Ein dringlich erklärtes Bundesgesetz tritt 100 Tage nach Annahme durch die Bundesversammlung ausser Kraft, wenn es nicht innerhalb dieser Frist von Volk und Ständen angenommen wird.</p>"
+    },
     {
       "type": {
         "id": 1,

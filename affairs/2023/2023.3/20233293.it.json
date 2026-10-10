@@ -1,6 +1,6 @@
 {
   "id": 20233293,
-  "updated": "2023-03-21T09:13:42Z",
+  "updated": "2025-04-24T19:29:18Z",
   "additionalIndexing": "32;2841;2811",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-03-12T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-09-23T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-05-10T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-06-18T06:56:53Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3205,
+                    "gender": "m",
+                    "id": 4309,
+                    "name": "Michel Matthias",
+                    "officialDenomination": "Michel Matthias"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CS",
+            "id": 18,
+            "name": "Commissione della scienza, dell'educazione e della cultura CS",
+            "abbreviation1": "CSEC-S",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CN",
+            "id": 5,
+            "name": "Commissione della scienza, dell'educazione e della cultura CN",
+            "abbreviation1": "CSEC-N",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +179,38 @@
       "states": [
         {
           "date": "/Date(1678921200000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1683669600000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1710198000000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1717365600000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1718661600000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1727042400000+0200)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
         }
       ],
       "texts": [
@@ -95,7 +238,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -217,10 +360,10 @@
   ],
   "shortId": "23.3293",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 209,
+    "name": "Trasmesso al Consiglio federale",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -229,6 +372,13 @@
         "name": "Motivazione"
       },
       "value": "<p>In risposta all'interrogazione 22.7629 il Consiglio federale aveva ammesso che, nonostante l'aumento dei posti di studio in medicina, la domanda oltrepassa le capacità delle università essendo di gran lunga superiore ai posti di studio e di stage disponibili. Le università prevedono pertanto dei test attitudinali scritti altamente selettivi oppure operano una selezione alla fine del primo anno. In effetti molti studenti (nel 2022 6147 persone si sono candidate per 2172 posti di studio) si ritrovano così esclusi da una formazione in medicina a causa di un processo di selezione che non è basato su criteri qualitativi. Peggio ancora: molti studenti lamentano regolarmente una concorrenza spietata. La stampa ha già riferito di casi di studenti competenti, ma bocciati, che hanno conseguito all'estero (p. es. in Romania) il loro master in medicina secondo i criteri di Bologna prima di tornare in Svizzera ad esercitare la loro professione.</p><p>Secondo il rapporto Obsan 04/2022, il \"programma speciale medicina umana (2016-2025)\" lanciato dalla Confederazione per aumentare in questa disciplina il numero di lauree rilasciate dalle università svizzere da 850 nel 2014 ad almeno 1350 nel 2025, non sarà in grado, da solo, di ridurre la dipendenza dall'estero. Al momento quasi la metà dei medici con una qualifica post-universitaria svizzera ha studiato medicina all'estero. La Confederazione e i Cantoni dovranno quindi adottare ulteriori misure per aumentare il numero dei laureati in medicina umana.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale concorda con l'autore della mozione sul fatto che la formazione di un numero sufficiente di medici in Svizzera è una questione importante. Grazie ai notevoli sforzi profusi dai Cantoni - che sono i principali responsabili delle formazioni universitarie - e al programma speciale \"Aumento del numero di diplomi in medicina umana\" (SPHM), sostenuto dalla Confederazione con 100 milioni di franchi, è stato possibile aumentare le capacità negli istituti esistenti e creare nuovi cicli di formazione e collaborazioni presso il Politecnico di Zurigo e le università di Friburgo, Lucerna, San Gallo e del Ticino.</p><p>L'obiettivo di queste misure è aumentare in modo durevole il numero dei master in medicina umana (da circa 900 nel 2016 a oltre 1300 nel 2025) e ridurre così la dipendenza della Svizzera da medici titolari di un diploma straniero. L'attuazione del programma speciale sta procedendo come previsto. Nel 2021 sono stati rilasciati 1088 master in medicina umana. Nel contempo sono state notevolmente rafforzate con misure speciali anche la medicina di base e l'interprofessionalità negli studi. La valutazione della SEFRI del 2022 e il rapporto finale di swissuniversities del 2021 sullo SPHM hanno confermato l'attuale raggiungimento degli obiettivi e hanno assegnato buoni voti al pacchetto di misure. Nel 2025 la Confederazione e i Cantoni verificheranno se gli obiettivi saranno effettivamente stati raggiunti.</p><p>Poiché il numero delle iscrizioni continua a superare di gran lunga la capacità delle università, queste ultime vincolano di propria iniziativa l'accesso agli studi in medicina al superamento di un test attitudinale (test EMS) e a un numerus clausus (Università di Basilea, Berna, Friburgo, del Ticino, di Zurigo e Politecnico di Zurigo) o attraverso un processo di selezione dopo il primo anno (Università di Ginevra, Losanna e Neuchâtel). Basandosi sul rapporto \"Procedura di ammissione agli studi universitari di medicina con numero chiuso\" del Consiglio svizzero della scienza CSS (<a href=\"http://www.sbfi.admin.ch\">www.sbfi.admin.ch</a> &gt; Pubblicazioni e servizi &gt; Pubblicazioni &gt; Banca dati pubblicazioni), la Conferenza svizzera delle scuole universitarie (CSSU) - massimo organo politico delle università svizzere - ha confermato nel 2017 che il test di idoneità agli studi di medicina (test EMS) è uno strumento di selezione adeguato. Sono stati esaminati anche i pro e i contro dei diversi sistemi (stage, valutazione delle conoscenze, ecc.) e il risultato ha confermato che per determinare le capacità accademiche dei candidati il suddetto test è equo, efficace sotto il profilo dei costi e valido dal punto di vista del genere, e che potrebbe persino ridurre la selezione sociale. L'opzione di selezionare gli studenti al termine del primo anno di studio consente sì il libero accesso al primo anno, ma comporta elevati costi e requisiti per quanto concerne le infrastrutture. Entrambi i metodi di selezione sono comunque basati in ampia misura su criteri di competenza e qualità.</p><p>Quanto alla formazione post-laurea va ricordato che, come per la formazione in generale, la Confederazione non ha la facoltà di obbligare gli istituti di formazione post-laurea a offrire un determinato numero di posti di studio. Compete alle associazioni specialistiche e all'Istituto svizzero per la formazione medica (ISFM) definire i contenuti e le tipologie d'insegnamento. In appositi gruppi di lavoro la Confederazione partecipa alle discussioni con i portatori d'interesse del settore sanitario in merito a qualità e tipologie di formazione continua innovative.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

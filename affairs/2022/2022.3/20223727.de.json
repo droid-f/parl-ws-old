@@ -1,6 +1,6 @@
 {
   "id": 20223727,
-  "updated": "2022-06-20T14:19:07Z",
+  "updated": "2025-04-24T19:25:08Z",
   "additionalIndexing": "28;48",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,172 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-06-11T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-03-11T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-17T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "KVF-NR",
+            "id": 9,
+            "name": "Kommission für Verkehr und Fernmeldewesen NR",
+            "abbreviation1": "KVF-N",
+            "abbreviation2": "KVF",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "KVF-SR",
+            "id": 22,
+            "name": "Kommission für Verkehr und Fernmeldewesen SR",
+            "abbreviation1": "KVF-S",
+            "abbreviation2": "KVF",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-10-25T14:40:01Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3196,
+                    "gender": "m",
+                    "id": 4241,
+                    "name": "Stark Jakob",
+                    "officialDenomination": "Stark"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1655330400000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1660687200000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1718143200000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1729807200000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1739487600000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1741647600000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -121,7 +264,7 @@
         "gender": "m",
         "id": 4070,
         "name": "Candinas Martin",
-        "officialDenomination": "Candinas"
+        "officialDenomination": "Candinas Martin"
       },
       "type": "cosign"
     },
@@ -224,12 +367,33 @@
   ],
   "shortId": "22.3727",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>In vielen Kantonen, Gemeinden dürfen gehbehinderte Personen bereits heute kostenlos parkieren. Dies ist insofern konsequent als dass gehbehinderte Personen gemäss Artikel 20a Absatz 1 Bst. a VRV auch im Parkverbot oder ausserhalb der markierten Parkplätze parkieren dürfen, wo per se keine Gebühren erhoben wird. Die regional unterschiedlichen Regelungen sorgen aber für Verunsicherungen und führen in der Tendenz dazu, dass sicherheitshalber Parkgebühren bezahlt werden, obwohl zum Beispiel eine Befreiung gegeben wäre. Zudem kennt der öffentliche Verkehr mit der Ausweiskarte für Reisende mit einer Behinderung, der sogenannten Begleiterkarte, eine Kostenvergünstigung. Mit der vorgeschlagenen Änderung erfolgt zum einen eine Gleichbehandlung zwischen denjenigen gehbehinderten Personen, die auf einem Parkfeld respektive eben nicht auf einem Parkfeld parkieren und es erfolgt eine Annäherung an den öffentlichen Verkehr.</p><p>Gemäss Artikel 20a Absatz 4 VRV gelten die Parkierungserleichterungen nicht auf privat bewirtschafteten Parkflächen. Bei der Befreiung von den Parkgebühren handelt es sich ebenfalls um eine Parkierungserleichterung, die daher nur auf öffentlichen Parkplätzen angewendet wird.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Dem Bundesrat ist es ein wichtiges Anliegen, die Mobilität von Personen mit einer Gehbehinderung zu gewährleisten und zu fördern. Bei der Umsetzung des Behindertengleichstellungsgesetzes vom 13. Dezember 2002 (BehiG; SR 151.3) im Verkehr wurde bereits viel erreicht. So wurden mit der per 1. März 2006 in Kraft getretenen Änderung der Verkehrsregelnverordnung vom 13. November 1962 (VRV; SR 741.11) erweiterte Verwendungsmöglichkeiten für motorisierte Rollstühle auf öffentlichen Strassen eingeführt (Art. 43a VRV). Insbesondere dürfen seither auch die für den Fussverkehr zugänglichen Verkehrsflächen durch gehbehinderte Personen mit motorisierten Rollstühlen benutzt werden. Wie der Bundesrat in seiner Stellungnahme auf die Motion 13.3790 Gysi \"Vereinfachung der Parkierungsmöglichkeiten für Menschen mit einer Mobilitätsbehinderung\" ausgeführt hat, liegt die Kompetenz des Gebührenwesens im Strassenverkehr gemäss Verfassung bei den Kantonen. Dies ist auch in Artikel 105 Absatz 1 des Strassenverkehrsgesetzes vom 19. Dezember 1958 (SVG; SR 741.01) ausdrücklich verankert. Der Bund kann den Kantonen und Gemeinden nicht vorschreiben, auf Parkgebühren zu verzichten. Aus diesem Grund hat das Parlament auch ein entsprechendes Begehren der Standesinitiative 09.331 Zürich \"SVG. Keine Benachteiligung von Menschen mit Mobilitätsbehinderung bei Parkierungsvorschriften\", welches eine generelle Gebührenfreiheit beim Parkieren für gehbehinderte Menschen verlangte, nicht realisiert.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, gehbehinderte Personen auf öffentlichen Parkplätzen von der Entrichtung von Parkgebühren zu befreien und zwar durch eine Änderung von Artikel 20a Absatz 1 Bst. b VRV (\"auf Parkplätzen zeitlich unbeschränkt und kostenlos parkieren\").</p>"
+    },
     {
       "type": {
         "id": 1,

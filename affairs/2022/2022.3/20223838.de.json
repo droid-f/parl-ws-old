@@ -1,6 +1,6 @@
 {
   "id": 20223838,
-  "updated": "2022-06-20T13:51:05Z",
+  "updated": "2025-04-24T19:29:26Z",
   "additionalIndexing": "15;48",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,182 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-02-28T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-03-19T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-09-07T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-11-15T14:32:25Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3054,
+                    "gender": "m",
+                    "id": 4152,
+                    "name": "Wicki Hans",
+                    "officialDenomination": "Wicki"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "WBF",
+          "id": 8,
+          "name": "Departement für Wirtschaft, Bildung und Forschung",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1655416800000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1662501600000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1709074800000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1726524000000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1731625200000+0100)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1732662000000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1742338800000+0100)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -384,12 +537,33 @@
   ],
   "shortId": "22.3838",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Internationale Kfz-Hersteller beabsichtigen, ihr Vertriebsmodell so zu ändern, dass sie den nationalen und grenzüberschreitenden Intrabrand-Wettbewerb unter den Händlern unterbinden können (\"Umgehung Art. 5 Abs. 4 KG\"). Gleichzeitig wollen die Kfz-Hersteller die unternehmerische Freiheit der über 5000 Schweizer Kfz-Händler (KMU) beseitigen, indem bewährte Vertriebsmodelle gegen den Willen der Schweizer Händler durch Agenturverträge ersetzt werden. Dies kommt einem missbräuchlichen Abbruch einer Geschäftsbeziehung nach Artikel&nbsp;7 KG gleich.</p><p>Die Kfz-Hersteller erreichen ihr Ziel durch die Einführung eines Agentur- oder Direktvertriebsmodells im Kfz-Vertrieb. Das Schweizer Kartellgesetz findet auf das Geschäftsverhältnis zwischen Herstellern/Importeuren und Kfz-Händlern alsdann keine Anwendung mehr und stehen der Marktmacht der Kfz-Hersteller ungeschützt gegenüber.</p><p>Für die Schweizer Volkswirtschaft ist diese Entwicklung bedenklich: (i) Der gesetzgeberische Wille, den Intrabrand-Wettbewerb zu schützen, wird unterlaufen. Die Hochpreisinsel Schweiz kann somit auf heute \"legale\" Weise zementiert werden. (ii) Mehr als 5000 Schweizer Garagen verlieren ihre unternehmerische Freiheit, das Netz wird künstlich ausgedünnt und die übrig gebliebenen Garagen werden zu einem \"verlängerten Arm\" der Hersteller. Im Ergebnis wird die in der Schweiz erzielte Marge des Handels in den ausländischen Konzern verschoben.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Jedem Unternehmen steht die Wahl und die Ausgestaltung seines Vertriebssystems grundsätzlich frei, sofern hiermit kein Verstoss gegen Artikel 5 oder 7 Kartellgesetz (KG; SR 251) einhergeht. Die Pflicht, ein bestehendes Vertriebssystem beizubehalten, liefe auf einen weitreichenden Kontrahierungszwang hinaus. Eine solche Regelung hätte nicht nur einen ausserordentlich starken Eingriff in die verfassungsmässig garantierte Wirtschafts- und Vertragsfreiheit zur Folge, sondern auch eine wesentliche Behinderung der Innovation. Zudem würde sie aufgrund des Kündigungsverbots den Anreiz setzen, beim Aufbau eines neuen Vertriebssystems auf die Zusammenarbeit mit unabhängigen Händlern zu verzichten. Somit würde eine solche Regelung nicht nur den Grundsätzen des Privatrechts, sondern auch des Wettbewerbsrechts diametral zuwiderlaufen. Daher lehnt der Bundesrat die Einführung einer solchen Regelung sowohl branchenübergreifend als auch branchenspezifisch ab.</p><p>Das Kartellrecht ist grundsätzlich für sämtliche Arten von Vertriebsmodellen anwendbar. Auch bei der Einführung des Agenturmodells sowie des Direktvertriebs gelten die kartellrechtlichen Regelungen weiterhin. Gemäss der Praxis der Wettbewerbskommission (WEKO) und ihres Sekretariats geht bei Agenturverträgen aufgrund der damit verbundenen Tragung der wesentlichen Geschäftsrisiken durch den Geschäftsherrn grundsätzlich die Befugnis einher, dass dieser die Geschäftsstrategie und damit auch die Tätigkeiten des Agenten in Bezug auf die Vertragswaren bzw. -dienstleistungen festlegen darf (vgl. RPW 2013/4, 476, Vorabklärung i.S. Costa Kreuzfahrten und RPW 2017/4, 696, Gutachten Vertrieb ausländischer Zeitschriften in der Schweiz). Diese kartellrechtliche Bewertung nimmt im Grundsatz auch das europäische Kartellrecht unter dem Institut des Handelsvertreterprivilegs vor, welches allerdings an die Einhaltung strenger Kriterien gebunden ist. Im Unterschied zum Agenturmodell vertreibt ein Hersteller beim Direktvertrieb seine Waren bzw. Dienstleistungen selbst ohne die Einschaltung von Händlern. In diesen Fällen bestehen regelmässig keine Verträge zwischen Herstellern und Garagen. Dennoch gelten auch hier unterschiedslos die bestehenden kartellrechtlichen Leitplanken. Überdies sind neben den allgemeinen kartellrechtlichen Regelungen in Verfahren vor der WEKO die Grundsätze in ihrer Vertikalbekanntmachung vom 28. Juni 2010 (VertBek) sowie für den KFZ-Markt jene der KFZ-Bekanntmachung vom 29. Juni 2015 (KFZ-Bek) zu berücksichtigen. Während erstere zurzeit revidiert wird, beauftragt die überwiesenen Motion 18.3898 Pfister Gerhard den Bundesrat, die KFZ-Bek in eine KFZ-Verordnung gemäss Artikel 6 KG zu überführen.</p><p>Darüber hinaus kann die Kündigung einer Geschäftsbeziehung im Einzelfall auch einen Missbrauch einer relativ marktmächtigen Stellung im Sinne von Artikel 7 KG darstellen. Das geltende Kartellrecht trägt somit allfälligen unzulässigen Wettbewerbsbeschränkungen durch KFZ-Hersteller und -Importeure ausreichend Rechnung. Zusammenfassend sieht der Bundesrat vorliegend keinerlei Handlungsbedarf. Dies insbesondere, da dies der Innovationskraft der Schweiz abträglich wäre und der durch die Verfassung garantierte Wirtschafts- und Vertragsfreiheit diametral zuwiderläuft.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Das Kartellgesetz ist so zu ergänzen, dass erstens die Kündigung der Händler- und Werkstattverträge für das ganze oder einen grossen Teil des Netzes unzulässig ist, wenn der Hersteller nicht nachweisen kann, dass das neue Vertriebsmodell signifikant effizienter ist als das bisherige Vertriebsmodell, und zweitens auch nach Einführung des Agenturmodells oder des Direktvertriebs das Kartellgesetz auf das Verhältnis zwischen den Kfz-Herstellern/Importeure sowie den zu reinen Auslieferungsstellen degradierten Schweizer Garagen anwendbar bleibt.</p>"
+    },
     {
       "type": {
         "id": 1,

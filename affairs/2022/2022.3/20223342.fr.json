@@ -1,6 +1,6 @@
 {
   "id": 20223342,
-  "updated": "2022-03-22T10:52:46Z",
+  "updated": "2025-04-24T19:27:18Z",
   "additionalIndexing": "66;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,167 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-20T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-03-19T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CEATE-CE",
+            "id": 20,
+            "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CE",
+            "abbreviation1": "CEATE-E",
+            "abbreviation2": "CEATE",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-02-14T09:26:37Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3105,
+                    "gender": "m",
+                    "id": 4204,
+                    "name": "Rieder Beat",
+                    "officialDenomination": "Rieder"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CEATE-CN",
+            "id": 7,
+            "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CN",
+            "abbreviation1": "CEATE-N",
+            "abbreviation2": "CEATE",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647558000000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1652824800000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1695160800000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1739487600000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1742338800000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -362,19 +500,40 @@
   ],
   "shortId": "22.3342",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>La pénurie d'électricité est l'un des risques les plus importants et les plus graves auxquels la Suisse se verra confrontée ces prochaines années. Elle peut coûter jusqu'à 3 milliards de francs par jour et doit donc être évitée par tous les moyens.</p><p>La Suisse dispose encore d'un important potentiel d'efficacité énergétique qui peut être exploité. Différentes études l'estiment entre 5 et 15 TWh, mais il est nettement plus important si l'on y inclut les économies faites en renonçant systématiquement à une consommation inutile. Or des économies à hauteur d'environ 1 TWh en hiver suffiraient déjà à éviter toute pénurie d'électricité dans les années à venir.</p><p>Il s'ensuit que des mesures d'économie d'énergie n'ayant d'impact ni sur les capacités de production, ni sur la qualité de la production, ni sur la qualité de vie de la population suffiraient à elles seules à éviter toute pénurie d'électricité au moins jusqu'en 2030. Les mesures existantes incitant aux économies d'énergie ne sont pas suffisantes. La menace d'un contingentement en cas de pénurie constitue par ailleurs une incitation potentiellement erronée à ne pas réduire sa consommation actuelle, voire à l'augmenter, afin de disposer de réserves ultérieures.</p><p>En exemptant d'un éventuel contingentement les entreprises qui ont déjà réduit leurs besoins en énergie de manière précoce et durable, preuves à l'appui, on supprime d'une part cette mauvaise incitation et on crée d'autre part une incitation supplémentaire à mettre en oeuvre rapidement des mesures d'économie d'énergie. Les entreprises qui contribuent à la réduction du risque de pénurie d'électricité sont ainsi récompensées.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral partage l'avis selon lequel une grave pénurie d'électricité aurait de lourdes conséquences pour la population et l'économie, et estime par conséquent qu'il faut à tout prix l'éviter. Il rejoint également la demande formulée par l'auteur de la motion d'encourager une consommation efficace de l'électricité. L'efficacité énergétique contribue à la sécurité de l'approvisionnement à long terme, raison pour laquelle elle est aussi une des pierres angulaires de la Stratégie énergétique 2050 du Conseil fédéral.</p><p>Il n'en reste pas moins qu'un déficit de l'offre en électricité, par exemple, peut entraîner une pénurie d'électricité grave, à laquelle les milieux économiques ne seraient pas en mesure de faire face par leurs propres moyens. En pareil cas, le Conseil fédéral peut intervenir par l'application de plusieurs mesures de l'Approvisionnement économique du pays (AEP), en vertu de la loi sur l'approvisionnement du pays (RS 531), pour maintenir un approvisionnement du pays en électricité, même si c'est à niveau réduit. Outre des appels à réduire volontairement la consommation, d'autres mesures d'intervention sont prévues pour infléchir la consommation d'électricité, comme des restrictions de la consommation, des contingentements et, en dernier recours, des délestages électriques. Les mesures sont appliquées de manière circonstanciée, en fonction de la crise qui se présente, et toujours selon le principe de proportionnalité.</p><p>Afin de surmonter une telle crise, il faut que tous les consommateurs participent à l'effort commun. Lors d'une pénurie d'électricité, l'offre disponible ne permet pas de répondre à la demande, quels que soient les efforts consentis jusque-là en matière d'efficacité énergétique. Des régimes dérogatoires applicables à des groupes de consommateurs entiers, soit à certains secteurs ou à certains types d'entreprises, réduiraient l'efficacité des mesures d'intervention (contingentement de l'électricité, p. ex). L'acceptation de la motion rendrait une des principales mesures d'intervention de l'AEP totalement obsolète, dans l'hypothèse où l'ensemble des entreprises auraient pris les mesures visant à améliorer l'efficacité énergétique reconnues par la Confédération ou les cantons - ce qui serait bien sûr souhaitable. Au pire, cela conduirait à effectuer inutilement des délestages électriques à la seule fin d'assurer la stabilité de l'exploitation du réseau. Or cette intervention massive aurait de lourdes conséquences pour la population et l'économie.</p><p>De plus, les exceptions proposées dans la motion impliqueraient une complexité et une charge administrative accrues, impossibles à gérer avec la rapidité requise en cas de crise, vu le nombre de gestionnaires de réseau de distribution et d'entreprises impliqués.</p>  Le Conseil fédéral propose de rejeter la motion."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé de modifier la législation de manière à ce que les entreprises qui, au cours des dernières années, ont adopté des mesures d'efficacité énergétique reconnues par la Confédération ou les cantons et qui ont en conséquence réduit leur consommation d'électricité de manière permanente et avérée soient exemptées d'éventuels contingentements ordonnés par l'Organisation pour l'approvisionnement en électricité en cas de crise (OSTRAL).</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Ostral 1. Récompenser les mesures d'efficacité énergétique, qui servent à nous prémunir contre un éventuel contingentement de l'électricité"
     }
   ],
-  "title": "Titre suit"
+  "title": "Ostral 1. Récompenser les mesures d'efficacité énergétique, qui servent à nous prémunir contre un éventuel contingentement de l'électricité"
 }

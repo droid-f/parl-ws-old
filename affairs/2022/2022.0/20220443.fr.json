@@ -1,6 +1,6 @@
 {
   "id": 20220443,
-  "updated": "2022-06-20T14:30:32Z",
+  "updated": "2025-03-28T15:53:17Z",
   "additionalIndexing": "2836;15;66;2846",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -40,7 +40,71 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CSSS-CN",
+              "id": 6,
+              "name": "Commission de la sécurité sociale et de la santé publique CN",
+              "abbreviation1": "CSSS-N",
+              "abbreviation2": "CSSS",
+              "committeeNumber": 6,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Conseil national",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-07-04T00:00:00Z",
+            "text": "Donner suite (conseil prioritaire)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CSSS-CE",
+              "id": 19,
+              "name": "Commission de la sécurité sociale et de la santé publique CE",
+              "abbreviation1": "CSSS-E",
+              "abbreviation2": "CSSS",
+              "committeeNumber": 19,
+              "council": {
+                "abbreviation": "CE",
+                "id": 2,
+                "name": "Conseil des Etats",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-10-13T00:00:00Z",
+            "text": "Ne pas approuver la décision de la commission du conseil prioritaire (second conseil)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-05-27T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,24 +114,147 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-05-02T17:23:57Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3024,
+                    "gender": "m",
+                    "id": 4118,
+                    "name": "Lohr Christian",
+                    "officialDenomination": "Lohr"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSSS-CN",
+            "id": 6,
+            "name": "Commission de la sécurité sociale et de la santé publique CN",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-06-16T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CSSS-CE",
+            "id": 19,
+            "name": "Commission de la sécurité sociale et de la santé publique CE",
+            "abbreviation1": "CSSS-E",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-06-16T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1655330400000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1689458400000+0200)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1689458400000+0200)/",
+          "id": 225,
+          "name": "Examen préalable - en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1697148000000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1711580400000+0100)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1714600800000+0200)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1716760800000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -217,10 +404,10 @@
   ],
   "shortId": "22.443",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -228,7 +415,7 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Selon la législation actuelle, seuls les acomptes sont pris en compte dans le calcul des prestations complémentaires (PC). Par contre, les paiements complémentaires consécutifs à un décompte final ne le sont pas.</p><p>Si, au cours des prochains mois, les prix de l'énergie se maintiennent au niveau qu'ils ont atteint depuis février 2022, les personnes habitant des bâtiments mal isolés pourront être confrontées à des augmentations des frais de chauffage de l'ordre de mille francs par an, voire davantage. Pour les locataires, ces augmentations se répercuteront sur le décompte des charges 2022/2023 et donneront lieu à des paiements complémentaires. Une modification des bases légales est nécessaire pour résoudre ce problème.</p><p>Le Conseil fédéral a reconnu le problème dans plusieurs réponses à des interventions parlementaires ; toutefois, la solution qu'il envisage consiste à adapter le montant des PC au renchérissement du coût de la vie à l'automne 2022 ou à l'automne 2023. Cette mesure ne résoudra pas le problème : cette adaptation, qui est nécessaire, permettra certes de compenser les coûts supplémentaires entraînés par le renchérissement, mais elle ne couvrira pas les paiements complémentaires élevés. Actuellement, les dépenses reconnues pour une personne seule s'élèvent à 19 610 francs par an. Si l'on augmente ce montant de 3 %, par exemple, le bénéficiaire des PC recevra 588 francs de plus par an. Cette augmentation suffira à peine pour compenser le renchérissement de la vie et s'avérera largement insuffisante pour couvrir l'augmentation des frais accessoires. Pour compenser intégralement le renchérissement, un soutien ciblé aux personnes qui sont confrontées à des demandes de paiement complémentaire s'impose.</p>"
+      "value": "<p>Selon la législation actuelle, seuls les acomptes sont pris en compte dans le calcul des prestations complémentaires (PC). Par contre, les paiements complémentaires consécutifs à un décompte final ne le sont pas.</p><p>Si, au cours des prochains mois, les prix de l'énergie se maintiennent au niveau qu'ils ont atteint depuis février 2022, les personnes habitant des bâtiments mal isolés pourront être confrontées à des augmentations des frais de chauffage de l'ordre de mille francs par an, voire davantage. Pour les locataires, ces augmentations se répercuteront sur le décompte des charges 2022/2023 et donneront lieu à des paiements complémentaires. Une modification des bases légales est nécessaire pour résoudre ce problème.</p><p>Le Conseil fédéral a reconnu le problème dans plusieurs réponses à des interventions parlementaires ; toutefois, la solution qu'il envisage consiste à adapter le montant des PC au renchérissement du coût de la vie à l'automne 2022 ou à l'automne 2023. Cette mesure ne résoudra pas le problème : cette adaptation, qui est nécessaire, permettra certes de compenser les coûts supplémentaires entraînés par le renchérissement, mais elle ne couvrira pas les paiements complémentaires élevés. Actuellement, les dépenses reconnues pour une personne seule s'élèvent à 19 610 francs par an. Si l'on augmente ce montant de 3 %, par exemple, le bénéficiaire des PC recevra 588 francs de plus par an. Cette augmentation suffira à peine pour compenser le renchérissement de la vie et s'avérera largement insuffisante pour couvrir l'augmentation des frais accessoires. Pour compenser intégralement le renchérissement, un soutien ciblé aux personnes qui sont confrontées à des demandes de paiement complémentaire s'impose.</p>"
     },
     {
       "type": {

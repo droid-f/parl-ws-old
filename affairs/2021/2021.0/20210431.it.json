@@ -1,7 +1,7 @@
 {
   "id": 20210431,
-  "updated": "2023-02-27T18:42:57Z",
-  "additionalIndexing": "2841;04;0421",
+  "updated": "2025-02-27T08:50:26Z",
+  "additionalIndexing": "2841;04;421",
   "affairType": {
     "abbreviation": "Iv. pa.",
     "id": 4,
@@ -49,7 +49,7 @@
               "abbreviation": "CIP-CN",
               "id": 11,
               "name": "Commissione delle istituzioni politiche CN",
-              "abbreviation1": "CIP-CN",
+              "abbreviation1": "CIP-N",
               "abbreviation2": "CIP",
               "committeeNumber": 11,
               "council": {
@@ -62,7 +62,7 @@
             },
             "council": null,
             "date": "2022-01-27T00:00:00Z",
-            "text": "È dato seguito",
+            "text": "Dare seguito (Camera prioritaria)",
             "type": 16
           },
           {
@@ -74,7 +74,7 @@
               "abbreviation": "CIP-CS",
               "id": 24,
               "name": "Commissione delle istituzioni politiche CS",
-              "abbreviation1": "CIP-CS",
+              "abbreviation1": "CIP-S",
               "abbreviation2": "CIP",
               "committeeNumber": 24,
               "council": {
@@ -104,6 +104,21 @@
             "date": "2023-02-27T00:00:00Z",
             "text": "È dato seguito",
             "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-09-21T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
           }
         ]
       },
@@ -116,10 +131,31 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-07-10T11:51:17Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CIP-CN",
             "id": 11,
             "name": "Commissione delle istituzioni politiche CN",
-            "abbreviation1": "CIP-CN",
+            "abbreviation1": "CIP-N",
             "abbreviation2": "CIP",
             "committeeNumber": 11,
             "council": {
@@ -192,7 +228,7 @@
             "abbreviation": "CIP-CS",
             "id": 24,
             "name": "Commissione delle istituzioni politiche CS",
-            "abbreviation1": "CIP-CS",
+            "abbreviation1": "CIP-S",
             "abbreviation2": "CIP",
             "committeeNumber": 24,
             "council": {
@@ -210,7 +246,8 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
@@ -232,8 +269,23 @@
         },
         {
           "date": "/Date(1677452400000+0100)/",
-          "id": 28,
-          "name": "Esame preliminare. Trattato dal Consiglio nazionale"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1688680800000+0200)/",
+          "id": 225,
+          "name": "Esame preliminare - nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -301,7 +353,7 @@
         "gender": "m",
         "id": 4053,
         "name": "Aeschi Thomas",
-        "officialDenomination": "Aeschi Thomas"
+        "officialDenomination": "Aeschi"
       },
       "type": "cosign"
     },
@@ -361,7 +413,7 @@
         "gender": "m",
         "id": 4190,
         "name": "Dobler Marcel",
-        "officialDenomination": "Dobler"
+        "officialDenomination": "Dobler Marcel"
       },
       "type": "cosign"
     },
@@ -523,8 +575,8 @@
   ],
   "shortId": "21.431",
   "state": {
-    "id": 28,
-    "name": "Esame preliminare. Trattato dal Consiglio nazionale",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
     "newKey": 0
   },

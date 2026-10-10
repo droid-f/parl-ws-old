@@ -1,6 +1,6 @@
 {
   "id": 20210518,
-  "updated": "2021-12-23T15:49:53Z",
+  "updated": "2025-06-17T08:16:49Z",
   "additionalIndexing": "1216;2841;28",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -40,7 +40,86 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CAJ-CN",
+              "id": 12,
+              "name": "Commission des affaires juridiques CN",
+              "abbreviation1": "CAJ-N",
+              "abbreviation2": "CAJ",
+              "committeeNumber": 12,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Conseil national",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2022-10-20T00:00:00Z",
+            "text": "Donner suite (conseil prioritaire)",
+            "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CAJ-CE",
+              "id": 25,
+              "name": "Commission des affaires juridiques CE",
+              "abbreviation1": "CAJ-E",
+              "abbreviation2": "CAJ",
+              "committeeNumber": 25,
+              "council": {
+                "abbreviation": "CE",
+                "id": 2,
+                "name": "Conseil des Etats",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-10-12T00:00:00Z",
+            "text": "Ne pas approuver la décision de la commission du conseil prioritaire (second conseil)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-05-27T00:00:00Z",
+            "text": "Donné suite",
+            "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-06-16T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -55,7 +134,7 @@
             "abbreviation": "CAJ-CN",
             "id": 12,
             "name": "Commission des affaires juridiques CN",
-            "abbreviation1": "CAJ-CN",
+            "abbreviation1": "CAJ-N",
             "abbreviation2": "CAJ",
             "committeeNumber": 12,
             "council": {
@@ -68,15 +147,20 @@
           },
           "date": "2021-12-15T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
-          ]
+              ]
+            }
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CAJ-CE",
             "id": 25,
             "name": "Commission des affaires juridiques CE",
-            "abbreviation1": "CAJ-CE",
+            "abbreviation1": "CAJ-E",
             "abbreviation2": "CAJ",
             "committeeNumber": 25,
             "council": {
@@ -90,6 +174,47 @@
           "date": "2021-12-15T00:00:00Z",
           "registrations": [
 
+          ],
+          "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-04-04T13:48:45Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3105,
+                    "gender": "m",
+                    "id": 4204,
+                    "name": "Rieder Beat",
+                    "officialDenomination": "Rieder"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -97,13 +222,53 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639522800000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1696543200000+0200)/",
+          "id": 225,
+          "name": "Examen préalable - en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1697148000000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1700694000000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1708642800000+0100)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1716760800000+0200)/",
+          "id": 225,
+          "name": "Examen préalable - en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1743717600000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1750024800000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -333,8 +498,8 @@
   ],
   "shortId": "21.518",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
@@ -344,14 +509,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>La présente initiative vise à rendre punissable le fait de ne pas porter secours à une personne victime d'une grave atteinte à son intégrité physique ou sexuelle. Actuellement, ne pas aider une personne en danger de mort imminent est punissable, mais pas le fait de ne pas porter secours à une personne en train d'être violée dans la pièce d'à côté, alors qu'on pourrait raisonnablement exiger un tel secours.</p><p>Un arrêt du Tribunal fédéral du 22 septembre 2021 montre de manière flagrante cette lacune juridique : le Tribunal fédéral a acquitté un homme qui avait quitté la pièce dans laquelle une personne qu'il connaissait se faisait violer. Alors même qu'il savait qu'elle était dans une grande détresse, il n'a rien fait pour empêcher le viol et avait même laissé lui-même entrer le violeur dans la pièce.</p><p>Le comportement de l'homme acquitté ne doit pas seulement être répréhensible sur le plan moral : il faut aussi qu'il le soit sur le plan pénal sauf à mépriser la solidarité entre les êtres humains. La société a changé tout comme le sentiment de justice au sein de celle-ci.</p>"
+      "value": "<p>La présente initiative vise à rendre punissable le fait de ne pas porter secours à une personne victime d'une grave atteinte à son intégrité physique ou sexuelle. Actuellement, ne pas aider une personne en danger de mort imminent est punissable, mais pas le fait de ne pas porter secours à une personne en train d'être violée dans la pièce d'à côté, alors qu'on pourrait raisonnablement exiger un tel secours.</p><p>Un arrêt du Tribunal fédéral du 22 septembre 2021 montre de manière flagrante cette lacune juridique : le Tribunal fédéral a acquitté un homme qui avait quitté la pièce dans laquelle une personne qu'il connaissait se faisait violer. Alors même qu'il savait qu'elle était dans une grande détresse, il n'a rien fait pour empêcher le viol et avait même laissé lui-même entrer le violeur dans la pièce.</p><p>Le comportement de l'homme acquitté ne doit pas seulement être répréhensible sur le plan moral : il faut aussi qu'il le soit sur le plan pénal sauf à mépriser la solidarité entre les êtres humains. La société a changé tout comme le sentiment de justice au sein de celle-ci.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>L'art. 128 du code pénal est modifié comme suit : </p><p>Celui qui n'aura pas prêté secours à une personne qu'il a blessée, à une personne en danger de mort imminent ou à une personne qui court un risque identifiable et imminent d'une grave atteinte à son intégrité physique ou sexuelle, alors qu'on pouvait raisonnablement l'exiger de lui étant donné les circonstances,</p><p>celui qui aura empêché un tiers de prêter secours ou l'aura entravé dans l'accomplissement de ce devoir,</p><p>sera puni d'une peine privative de liberté de trois ans au plus ou d'une peine pécuniaire.</p>"
+      "value": "<p>L'art. 128 du code pénal est modifié comme suit : </p><p>Celui qui n'aura pas prêté secours à une personne qu'il a blessée, à une personne en danger de mort imminent ou à une personne qui court un risque identifiable et imminent d'une grave atteinte à son intégrité physique ou sexuelle, alors qu'on pouvait raisonnablement l'exiger de lui étant donné les circonstances,</p><p>celui qui aura empêché un tiers de prêter secours ou l'aura entravé dans l'accomplissement de ce devoir,</p><p>sera puni d'une peine privative de liberté de trois ans au plus ou d'une peine pécuniaire.</p>"
     },
     {
       "type": {

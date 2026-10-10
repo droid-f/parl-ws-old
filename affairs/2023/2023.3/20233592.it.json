@@ -1,6 +1,6 @@
 {
   "id": 20233592,
-  "updated": "2023-06-09T09:29:07Z",
+  "updated": "2024-06-11T09:08:17Z",
   "additionalIndexing": "04;2831",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,172 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-06-11T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-08-23T00:00:00Z",
+        "text": "Accogliere"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CIP-CN",
+            "id": 11,
+            "name": "Commissione delle istituzioni politiche CN",
+            "abbreviation1": "CIP-N",
+            "abbreviation2": "CIP",
+            "committeeNumber": 11,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CIP-CS",
+            "id": 24,
+            "name": "Commissione delle istituzioni politiche CS",
+            "abbreviation1": "CIP-S",
+            "abbreviation2": "CIP",
+            "committeeNumber": 24,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-04-10T08:39:16Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2768,
+                    "gender": "m",
+                    "id": 4055,
+                    "name": "Engler Stefan",
+                    "officialDenomination": "Engler"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "CaF",
+          "id": 10,
+          "name": "Cancelleria federale",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1685397600000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1692741600000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1695938400000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1712527200000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1714687200000+0200)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1718056800000+0200)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
         }
       ],
       "texts": [
@@ -102,10 +245,10 @@
   ],
   "shortId": "23.3592",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 209,
+    "name": "Trasmesso al Consiglio federale",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -114,6 +257,13 @@
         "name": "Motivazione"
       },
       "value": "<p>È ormai normale che qualsiasi rapporto presenti un riassunto, normalmente di 1 o 2 pagine, che ne vada a spiegare gli aspetti più importanti in maniera sintetica.</p><p>Attualmente questo riassunto viene tuttavia presentato solo in 1 o 2 lingue ufficiali e si chiede quindi che in futuro sia presente sempre la traduzione nelle 3 lingue ufficiali.</p><p>Il modello da seguire potrebbe essere quello dei rapporti del Controllo federale delle finanze che presentano sempre una versione estesa in una lingua e una versione riassuntiva anche nelle altre lingue (cui normalmente si aggiunge l'inglese che tuttavia, si precisa, non viene ritenuto sia necessario introdurre regolarmente).</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale considera che i rapporti a cui si fa riferimento nella mozione siano i rapporti del Consiglio federale e dell'Amministrazione federale pubblicati sui siti web dei dipartimenti.</p>"
     },
     {
       "type": {
@@ -127,8 +277,8 @@
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Tutti i rapporti devono almeno presentare un riassunto nelle 3 lingue ufficiali"
+      "value": "Tutti i rapporti devono almeno presentare un riassunto nelle tre lingue ufficiali"
     }
   ],
-  "title": "Tutti i rapporti devono almeno presentare un riassunto nelle 3 lingue ufficiali"
+  "title": "Tutti i rapporti devono almeno presentare un riassunto nelle tre lingue ufficiali"
 }

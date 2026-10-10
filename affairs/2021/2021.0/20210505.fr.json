@@ -1,6 +1,6 @@
 {
   "id": 20210505,
-  "updated": "2021-12-07T09:54:07Z",
+  "updated": "2025-03-13T10:19:42Z",
   "additionalIndexing": "34;15;04",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -40,7 +40,71 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CTT-CN",
+              "id": 9,
+              "name": "Commission des transports et des télécommunications CN",
+              "abbreviation1": "CTT-N",
+              "abbreviation2": "CTT",
+              "committeeNumber": 9,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Conseil national",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-01-16T00:00:00Z",
+            "text": "Donner suite (conseil prioritaire)",
+            "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CTT-CE",
+              "id": 22,
+              "name": "Commission des transports et des télécommunications CE",
+              "abbreviation1": "CTT-E",
+              "abbreviation2": "CTT",
+              "committeeNumber": 22,
+              "council": {
+                "abbreviation": "CE",
+                "id": 2,
+                "name": "Conseil des Etats",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2024-02-12T00:00:00Z",
+            "text": "Ne pas approuver la décision de la commission du conseil prioritaire (second conseil)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2025-03-12T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -52,10 +116,90 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-02-10T14:29:14Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2752,
+                    "gender": "m",
+                    "id": 4046,
+                    "name": "Quadri Lorenzo",
+                    "officialDenomination": "Quadri"
+                  },
+                  "language": "it"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-02-10T14:28:49Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3179,
+                    "gender": "f",
+                    "id": 4287,
+                    "name": "Schaffner Barbara",
+                    "officialDenomination": "Schaffner"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CTT-CN",
             "id": 9,
             "name": "Commission des transports et des télécommunications CN",
-            "abbreviation1": "CTT-CN",
+            "abbreviation1": "CTT-N",
             "abbreviation2": "CTT",
             "committeeNumber": 9,
             "council": {
@@ -68,15 +212,20 @@
           },
           "date": "2021-12-02T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
-          ]
+              ]
+            }
+          ],
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "CTT-CE",
             "id": 22,
             "name": "Commission des transports et des télécommunications CE",
-            "abbreviation1": "CTT-CE",
+            "abbreviation1": "CTT-E",
             "abbreviation2": "CTT",
             "committeeNumber": 22,
             "council": {
@@ -89,8 +238,13 @@
           },
           "date": "2021-12-02T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
-          ]
+              ]
+            }
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
@@ -98,17 +252,42 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlement",
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
           "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1638399600000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1686088800000+0200)/",
+          "id": 225,
+          "name": "Examen préalable - en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1707778800000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1708988400000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1739142000000+0100)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1741734000000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -176,7 +355,7 @@
         "gender": "m",
         "id": 4053,
         "name": "Aeschi Thomas",
-        "officialDenomination": "Aeschi Thomas"
+        "officialDenomination": "Aeschi"
       },
       "type": "cosign"
     },
@@ -196,7 +375,7 @@
         "gender": "m",
         "id": 4190,
         "name": "Dobler Marcel",
-        "officialDenomination": "Dobler"
+        "officialDenomination": "Dobler Marcel"
       },
       "type": "cosign"
     },
@@ -358,8 +537,8 @@
   ],
   "shortId": "21.505",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
@@ -369,7 +548,7 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>L'art. 92 de la Constitution dispose que la Confédération veille à ce qu'un service universel suffisant en matière de services postaux et de télécommunications soit assuré à des prix raisonnables dans toutes les régions du pays. De son côté, la loi sur la poste est censée créer les conditions propices à une concurrence efficace en matière de services postaux, de façon que la Poste puisse se défendre contre toute concurrence déloyale et remplir son mandat de service universel. C'est pourquoi elle prévoit que les prestataires de services postaux sont soumis à l'obligation d'annoncer leur activité à la PostCom, ce qui met la Poste et les prestataires privés sur un pied d'égalité s'agissant des prestations qui relèvent du mandat de service universel.</p><p>Or, actuellement, la loi n'exclut pas expressément de son champ d'application les services de livraison de produits périssables tels que les livraisons de repas, de denrées alimentaires ou de fleurs. Aussi la PostCom estime-t-elle qu'elle s'applique à ces services et aux services de coursier, et même aux plates-formes qui mettent en relation les fournisseurs et les coursiers. Il faut mettre fin à cette interprétation maximaliste : l'ordonnance sur la poste dispose elle-même à l'art. 29, al. 8, que les envois exprès ne font justement pas partie de l'offre du service universel. L'interprétation extrême de la PostCom porte atteinte à la liberté économique d'acteurs du marché qui ne font pas concurrence à la Poste en sa qualité de prestataire de service universel. Les services de coursier ou de livraison de produits périssables ne sont pas des services postaux classiques et, à l'évidence, ils ne relèvent pas du mandat de service universel de la Poste. En un mot, les prestataires privés ne sont pas ici en concurrence avec la Poste.</p><p>Il y a donc lieu de préciser la loi en ce sens.</p>"
+      "value": "<p>L'art. 92 de la Constitution dispose que la Confédération veille à ce qu'un service universel suffisant en matière de services postaux et de télécommunications soit assuré à des prix raisonnables dans toutes les régions du pays. De son côté, la loi sur la poste est censée créer les conditions propices à une concurrence efficace en matière de services postaux, de façon que la Poste puisse se défendre contre toute concurrence déloyale et remplir son mandat de service universel. C'est pourquoi elle prévoit que les prestataires de services postaux sont soumis à l'obligation d'annoncer leur activité à la PostCom, ce qui met la Poste et les prestataires privés sur un pied d'égalité s'agissant des prestations qui relèvent du mandat de service universel.</p><p>Or, actuellement, la loi n'exclut pas expressément de son champ d'application les services de livraison de produits périssables tels que les livraisons de repas, de denrées alimentaires ou de fleurs. Aussi la PostCom estime-t-elle qu'elle s'applique à ces services et aux services de coursier, et même aux plates-formes qui mettent en relation les fournisseurs et les coursiers. Il faut mettre fin à cette interprétation maximaliste : l'ordonnance sur la poste dispose elle-même à l'art. 29, al. 8, que les envois exprès ne font justement pas partie de l'offre du service universel. L'interprétation extrême de la PostCom porte atteinte à la liberté économique d'acteurs du marché qui ne font pas concurrence à la Poste en sa qualité de prestataire de service universel. Les services de coursier ou de livraison de produits périssables ne sont pas des services postaux classiques et, à l'évidence, ils ne relèvent pas du mandat de service universel de la Poste. En un mot, les prestataires privés ne sont pas ici en concurrence avec la Poste.</p><p>Il y a donc lieu de préciser la loi en ce sens.</p>"
     },
     {
       "type": {

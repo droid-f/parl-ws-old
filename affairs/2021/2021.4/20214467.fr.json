@@ -1,6 +1,6 @@
 {
   "id": 20214467,
-  "updated": "2021-12-23T15:33:31Z",
+  "updated": "2025-04-24T19:35:31Z",
   "additionalIndexing": "55;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,7 +40,51 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-13T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-03-11T00:00:00Z",
+            "text": "Adoption avec modification",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-05-30T00:00:00Z",
+            "text": "Adhésion",
+            "type": 3
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -53,7 +97,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CER-CN",
+            "id": 10,
+            "name": "Commission de l'économie et des redevances CN",
+            "abbreviation1": "CER-N",
+            "abbreviation2": "CER",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-20T10:07:38Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3107,
+                    "gender": "m",
+                    "id": 4206,
+                    "name": "Ettlin Erich",
+                    "officialDenomination": "Ettlin Erich"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CE",
+            "id": 23,
+            "name": "Commission de l'économie et des redevances CE",
+            "abbreviation1": "CER-E",
+            "abbreviation2": "CER",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -69,8 +194,53 @@
       "states": [
         {
           "date": "/Date(1639522800000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1644966000000+0100)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1694556000000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1708383600000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1710111600000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1711148400000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1713823200000+0200)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1717020000000+0200)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
         }
       ],
       "texts": [
@@ -320,8 +490,8 @@
   ],
   "shortId": "21.4467",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 209,
+    "name": "Transmis au Conseil fédéral",
     "doneKey": "0",
     "newKey": 0
   },
@@ -331,14 +501,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>L'héliciculture (élevage d'escargots) est une nouvelle activité agricole qui se développe dans le monde mais n'est pas reconnue en tant que telle en Suisse parce que les escargots ne sont pas considérés comme des animaux de rente.</p><p>Les art. 3, al. 1, let. a, de la loi sur l'agriculture (LAgr) et 27 de l'ordonnance sur la terminologie agricole (OTerm) excluent l'élevage d'escargots des activités agricoles, ce qui a pour effet d'empêcher l'octroi de permis de construction pour l'élevage de ces animaux en zone agricole.</p><p>Le potentiel de ce nouveau secteur agricole, propre et durable, est considérable comme le montre l'exemple de l'Italie où le nombre d'élevages a triplé en 5 ans. Le secteur occupe 9000 personnes et son chiffre d'affaires a augmenté de 350 millions d'euros (Linkiesta.it).</p><p>A l'heure actuelle, la Roumanie, la Turquie et l'Indonésie sont les principaux producteurs d'escargots.</p><p>Les escargots font partie de la tradition culinaire dans plusieurs régions suisses, en particulier au Tessin, aussi leur exclusion de la liste des animaux de rente semble-t-elle injustifiée.</p><p>Alors qu'on attend de l'agriculture qu'elle se diversifie et qu'elle développe de nouvelles sources de revenus, le droit fédéral s'oppose à cet objectif en empêchant l'élevage d'escargots : il freine le développement de l'agriculture et, au surplus, empêche la production nationale d'une denrée alimentaire recherchée et inscrite dans la tradition culinaire du pays.</p><p>Du point de vue de l'impact sur l'environnement et sur le territoire, l'élevage d'escargots n'est pas problématique : il ne demande pas la construction de structures importantes, de petits enclos mobiles suffisent. Le fourrage nécessaire peut facilement être produit sur place, sur de petites surfaces et il est même possible de recycler des déchets végétaux de l'agriculture.</p>"
+      "value": "<p>L'héliciculture (élevage d'escargots) est une nouvelle activité agricole qui se développe dans le monde mais n'est pas reconnue en tant que telle en Suisse parce que les escargots ne sont pas considérés comme des animaux de rente.</p><p>Les art. 3, al. 1, let. a, de la loi sur l'agriculture (LAgr) et 27 de l'ordonnance sur la terminologie agricole (OTerm) excluent l'élevage d'escargots des activités agricoles, ce qui a pour effet d'empêcher l'octroi de permis de construction pour l'élevage de ces animaux en zone agricole.</p><p>Le potentiel de ce nouveau secteur agricole, propre et durable, est considérable comme le montre l'exemple de l'Italie où le nombre d'élevages a triplé en 5 ans. Le secteur occupe 9000 personnes et son chiffre d'affaires a augmenté de 350 millions d'euros (Linkiesta.it).</p><p>À l'heure actuelle, la Roumanie, la Turquie et l'Indonésie sont les principaux producteurs d'escargots.</p><p>Les escargots font partie de la tradition culinaire dans plusieurs régions suisses, en particulier au Tessin, aussi leur exclusion de la liste des animaux de rente semble-t-elle injustifiée.</p><p>Alors qu'on attend de l'agriculture qu'elle se diversifie et qu'elle développe de nouvelles sources de revenus, le droit fédéral s'oppose à cet objectif en empêchant l'élevage d'escargots : il freine le développement de l'agriculture et, au surplus, empêche la production nationale d'une denrée alimentaire recherchée et inscrite dans la tradition culinaire du pays.</p><p>Du point de vue de l'impact sur l'environnement et sur le territoire, l'élevage d'escargots n'est pas problématique : il ne demande pas la construction de structures importantes, de petits enclos mobiles suffisent. Le fourrage nécessaire peut facilement être produit sur place, sur de petites surfaces et il est même possible de recycler des déchets végétaux de l'agriculture.</p>"
     },
     {
       "type": {
         "id": 14,
         "name": "Réponse CF / Bureau"
       },
-      "value": "<p>L'agriculture comprend la production de denrées se prêtant à la consommation et à la transformation et provenant de la culture de végétaux et de la garde d'animaux de rente (art. 3, al. 1, let. a, LAgr ; RS 910.1). Bien que la législation sur les denrées alimentaires reconnaisse les escargots comme des denrées alimentaires d'origine animale, leur production n'entre pas dans le champ d'application de l'agriculture. C'est pourquoi les escargots, comme les insectes et les poissons, ne sont pas des animaux de rente au sens de la législation sur l'agriculture (art. 27 de l'ordonnance sur la terminologie agricole ; RS 910.91).</p><p>Dans son Message relatif à l'évolution future de la Politique agricole à partir de 2022 (FF 2020 3851), le Conseil fédéral a proposé une extension du champ d'application de la loi sur l'agriculture. Certaines mesures de la loi sur l'agriculture (notamment dans les domaines de la promotion des ventes et des améliorations structurelles) doivent pouvoir s'appliquer aux produits de l'aquaculture (poissons, crabes, mollusques), aux algues, aux insectes et aux autres organismes vivants qui ne sont pas des denrées se prêtant à la consommation et à la transformation provenant de la production végétale et de la garde d'animaux de rente. Les escargots comptent au nombre des \" autres organismes vivants \". Le Conseil fédéral entend ainsi renforcer la promotion de la production d'organismes non assimilés à des animaux de rente agricoles. En cas de production exotique d'escargots, cette dernière doit être réalisée de manière à ne pas mettre en danger l'être humain, les animaux ou l'environnement et à ne pas porter atteinte à la diversité biologique ni à l'utilisation durable de ses éléments (ordonnance sur l'utilisation confinée [OUC] ; RS 814.912, et ordonnance sur la dissémination dans l'environnement [ODE] ; RS 814.911).</p><p>En ce qui concerne les animaux de rente agricoles, le droit de l'aménagement du territoire s'en remet par principe à la législation agricole. C'est pourquoi, du point de vue du Conseil fédéral non plus, il n'existe pas de base soumettant à autorisation l'installation de petits enclos en plein champ afin d'y détenir des escargots. Si ce cadre devait changer, il importe au Conseil fédéral que les prescriptions menant à la mise en oeuvre de cette modification soient aussi limitées que possible. Si la motion était adoptée par le conseil prioritaire, le Conseil fédéral se réserve le droit de proposer au sein de la commission du second conseil de modifier la motion comme suit (art. 121, al. 3, let. b, LParl ; RS 171.10) : \" Le Conseil fédéral est chargé de procéder aux adaptations nécessaires des lois et/ou des ordonnances afin que les petites installations requises pour la production d'escargots dans une exploitation agricole puissent être autorisées. \"</p>"
+      "value": "<p>L'agriculture comprend la production de denrées se prêtant à la consommation et à la transformation et provenant de la culture de végétaux et de la garde d'animaux de rente (art. 3, al. 1, let. a, LAgr ; RS 910.1). Bien que la législation sur les denrées alimentaires reconnaisse les escargots comme des denrées alimentaires d'origine animale, leur production n'entre pas dans le champ d'application de l'agriculture. C'est pourquoi les escargots, comme les insectes et les poissons, ne sont pas des animaux de rente au sens de la législation sur l'agriculture (art. 27 de l'ordonnance sur la terminologie agricole ; RS 910.91).</p><p>Dans son Message relatif à l'évolution future de la Politique agricole à partir de 2022 (FF 2020 3851), le Conseil fédéral a proposé une extension du champ d'application de la loi sur l'agriculture. Certaines mesures de la loi sur l'agriculture (notamment dans les domaines de la promotion des ventes et des améliorations structurelles) doivent pouvoir s'appliquer aux produits de l'aquaculture (poissons, crabes, mollusques), aux algues, aux insectes et aux autres organismes vivants qui ne sont pas des denrées se prêtant à la consommation et à la transformation provenant de la production végétale et de la garde d'animaux de rente. Les escargots comptent au nombre des \" autres organismes vivants \". Le Conseil fédéral entend ainsi renforcer la promotion de la production d'organismes non assimilés à des animaux de rente agricoles. En cas de production exotique d'escargots, cette dernière doit être réalisée de manière à ne pas mettre en danger l'être humain, les animaux ou l'environnement et à ne pas porter atteinte à la diversité biologique ni à l'utilisation durable de ses éléments (ordonnance sur l'utilisation confinée [OUC] ; RS 814.912, et ordonnance sur la dissémination dans l'environnement [ODE] ; RS 814.911).</p><p>En ce qui concerne les animaux de rente agricoles, le droit de l'aménagement du territoire s'en remet par principe à la législation agricole. C'est pourquoi, du point de vue du Conseil fédéral non plus, il n'existe pas de base soumettant à autorisation l'installation de petits enclos en plein champ afin d'y détenir des escargots. Si ce cadre devait changer, il importe au Conseil fédéral que les prescriptions menant à la mise en oeuvre de cette modification soient aussi limitées que possible. Si la motion était adoptée par le conseil prioritaire, le Conseil fédéral se réserve le droit de proposer au sein de la commission du second conseil de modifier la motion comme suit (art. 121, al. 3, let. b, LParl ; RS 171.10) : \" Le Conseil fédéral est chargé de procéder aux adaptations nécessaires des lois et/ou des ordonnances afin que les petites installations requises pour la production d'escargots dans une exploitation agricole puissent être autorisées. \"</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {

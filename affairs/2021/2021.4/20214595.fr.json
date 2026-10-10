@@ -1,6 +1,6 @@
 {
   "id": 20214595,
-  "updated": "2021-12-20T15:15:29Z",
+  "updated": "2025-04-24T19:28:18Z",
   "additionalIndexing": "34;04;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -17,7 +17,7 @@
     },
     "faction": {
       "abbreviation": "Groupe M-E",
-      "id": 139,
+      "id": 3,
       "name": "Le Groupe du Centre. Le Centre. PEV."
     },
     "type": "author"
@@ -40,29 +40,172 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-18T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-03-05T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CTT-CE",
+            "id": 22,
+            "name": "Commission des transports et des télécommunications CE",
+            "abbreviation1": "CTT-E",
+            "abbreviation2": "CTT",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CTT-CN",
+            "id": 9,
+            "name": "Commission des transports et des télécommunications CN",
+            "abbreviation1": "CTT-N",
+            "abbreviation2": "CTT",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-15T16:05:22Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3200,
+                    "gender": "f",
+                    "id": 4303,
+                    "name": "Maret Marianne",
+                    "officialDenomination": "Maret Marianne"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639609200000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1644966000000+0100)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1694988000000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1705359600000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1707433200000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1709593200000+0100)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
         }
       ],
       "texts": [
@@ -110,7 +253,7 @@
         "gender": "m",
         "id": 4053,
         "name": "Aeschi Thomas",
-        "officialDenomination": "Aeschi Thomas"
+        "officialDenomination": "Aeschi"
       },
       "type": "cosign"
     },
@@ -224,7 +367,7 @@
       },
       "faction": {
         "abbreviation": "Groupe M-E",
-        "id": 139,
+        "id": 3,
         "name": "Le Groupe du Centre. Le Centre. PEV."
       },
       "type": "author"
@@ -232,19 +375,40 @@
   ],
   "shortId": "21.4595",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 209,
+    "name": "Transmis au Conseil fédéral",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>La Poste veut investir d'ici à 2030 environ 1,5 milliard de francs dans des acquisitions dans le domaine numérique. Rien que pour 2021, elle a procédé à des acquisitions en la matière pour un montant de 230 millions de francs. Elle évolue ainsi désormais sur des marchés qui comportent parfois un risque très élevé. Selon les médias, la Poste a actuellement 22 acquisitions en ligne de mire ; 10 d'entre elles, qui sont en phase d'étude préalable, pourraient être réalisées dans un délai de un à trois mois. Bien que la Poste s'aventure ainsi financièrement dans de nouveaux espaces et sur des marchés déjà bien desservis, elle jouit d'une grande liberté dans le cadre des objectifs stratégiques vagues que lui a fixés le Conseil fédéral. La loi sur la poste dispose que ce dernier évalue périodiquement l'opportunité, l'efficacité et le caractère économique des services postaux et des services de paiement relevant du service universel. Les domaines visés par la Poste, comme la publicité extérieure et les logiciels de bureau, ne font pas partie de ce service public.</p><p>Compte tenu des nouvelles dimensions financières et des risques accrus qui pèsent sur la fortune publique, le contrôle ex-post exercé jusqu'ici par le Conseil fédéral ne suffit plus. En effet, une fois que le préjudice a eu lieu, la responsabilité n'incombe pas seulement au conseil d'administration de la Poste, mais aussi au Conseil fédéral et, en fin de compte, au Parlement. Il est donc indiqué que la Poste demande désormais l'approbation du Conseil fédéral avant de procéder à des acquisitions en dehors de son mandat principal si elles revêtent une certaine portée financière et si elles se situent dans une certaine classe de risques. Par conséquent, les opportunités et les risques inhérents au marché devraient être documentés de manière compréhensible. Le Parlement doit être informé au moins une fois par an. Dans le souci de mettre en oeuvre la motion 20.4328, intitulée \" Renforcer le service public \", qui a été transmise par le Conseil national et le Conseil des États, il faut donc charger le Conseil fédéral de lancer les travaux législatifs nécessaires pour que l'autorité de surveillance accompagne plus étroitement la politique d'acquisition de la Poste.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Conformément à la stratégie de la Confédération en matière de gouvernement d'entreprise, le Conseil fédéral assure le pilotage des entreprises liées à la Confédération telles que la Poste en leur assignant des objectifs stratégiques. Il n'exerce en principe pas d'influence sur les affaires opérationnelles. Le développement et la mise en oeuvre de la stratégie d'entreprise incombent au conseil d'administration. Cependant, les objectifs stratégiques présentent certaines lignes directrices, notamment concernant le système de gestion des risques de l'entreprise, ainsi que des critères à remplir pour les prises de participation et les acquisitions. Selon les objectifs stratégiques assignés pour les années 2021 à 2024, le Conseil fédéral attend aussi de la Poste qu'elle informe le propriétaire rapidement et régulièrement quant à l'évolution stratégique (notamment concernant les coopérations et ventes d'envergure).</p><p>Le conseil d'administration de la Poste établit chaque année, après la clôture de l'exercice, un rapport sur la réalisation des objectifs stratégiques à l'intention du Conseil fédéral.</p><p>Dans le cadre de sa surveillance de l'activité gouvernementale, l'Assemblée fédérale participe au pilotage des entités de la Confédération devenues autonomes (art. 28, al. 1 et 1bis, LParl). Les commissions thématiques du Parlement compétentes en la matière sont donc également consultées lors de l'élaboration des objectifs stratégiques, et les commissions de surveillance parlementaires sont informées chaque année de la réalisation des objectifs stratégiques.</p><p>La Poste est confrontée à d'importants défis, tels que le recul des volumes des lettres et des opérations au guichet ainsi que le bas niveau des taux d'intérêt et le modèle d'affaires restreint de PostFinance (interdiction d'accorder des crédits et des hypothèques). La capacité de rendement de la Poste et de PostFinance diminue rapidement. La Poste a élaboré sa stratégie pour les années 2021 à 2024 en tenant compte de ces circonstances. Cette stratégie prévoit notamment des investissements dans les secteurs de la communication et de la logistique, des mesures d'efficacité et tarifaires ainsi que l'utilisation conjointe d'offices de poste avec des tiers.</p><p>Outre les prestations relevant du service universel, la Poste peut fournir d'autres prestations, pour autant que ces dernières soient conformes au but de l'entreprise, défini à l'art. 3 de la loi sur l'organisation de la Poste.</p><p>Compte tenu de ce qui précède, la Conseil fédéral estime que les objectifs stratégiques assignés à la Poste comprennent des critères déterminants pour les acquisitions. Il serait contraire aux principes de gouvernement d'entreprise de la Confédération d'introduire une disposition légale selon laquelle les acquisitions de la Poste qui ne relèvent pas de son mandat de prestations soient soumises à l'approbation du Conseil fédéral. De plus, une telle disposition créerait une confusion au niveau des responsabilités entre d'une part la direction de l'entreprise et d'autre part la Confédération en tant qu'actionnaire unique.</p>  Le Conseil fédéral propose de rejeter la motion."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé de proposer les modifications législatives nécessaires pour que les acquisitions de la Poste qui ne relèvent pas de son mandat de prestations soient soumises à l'approbation du Conseil fédéral et que leur bien-fondé soit présenté à la commission parlementaire responsable. La stratégie de propriétaire doit être adaptée en conséquence.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Maintenir les acquisitions dans le cadre du mandat de prestations"
     }
   ],
-  "title": "Titre suit"
+  "title": "Maintenir les acquisitions dans le cadre du mandat de prestations"
 }

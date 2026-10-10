@@ -1,6 +1,6 @@
 {
   "id": 20233511,
-  "updated": "2023-05-09T15:37:01Z",
+  "updated": "2025-06-12T14:09:39Z",
   "additionalIndexing": "2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,172 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-09-11T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-06-12T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-16T00:00:00Z",
+        "text": "Rejet"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-05-15T19:12:13Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2575,
+                    "gender": "m",
+                    "id": 825,
+                    "name": "Germann Hannes",
+                    "officialDenomination": "Germann"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSSS-CE",
+            "id": 19,
+            "name": "Commission de la sécurité sociale et de la santé publique CE",
+            "abbreviation1": "CSSS-E",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSSS-CN",
+            "id": 6,
+            "name": "Commission de la sécurité sociale et de la santé publique CN",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1682978400000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1692136800000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1726005600000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1727820000000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1742770800000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1749679200000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -102,8 +245,8 @@
   ],
   "shortId": "23.3511",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
@@ -113,7 +256,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Le peuple a majoritairement accepté la prise en charge des médecines alternatives par l'assurance obligatoire des soins, lors de la votation en 2009. Pour mettre en oeuvre cet article constitutionnel, le Conseil fédéral a prévu le remboursement de cinq \" médecines \" complémentaires, soit l'acupuncture, la médecine anthroposophique, la pharmacothérapie de la médecine traditionnelle chinoise (MTC), l'homéopathie et la phytothérapie.</p><p>Depuis, il apparaît que de nombreuses thérapies complémentaires ne reposent pas sur les critères légaux d'efficacité, d'adéquation et d'économicité (EAE). Dans son avis en réponse au postulat 21.4445, le Conseil fédéral a expressément reconnu que dès lors qu'il n'avait pas été possible de reconnaître l'efficacité des \" médecines \" complémentaires selon des méthodes scientifiques, c'est un \" principe de confiance \" qui est appliqué. </p><p>Si de nombreux citoyens croient à l'efficacité de ces thérapies, ce n'est pas le cas de l'entier de la population. Or, il est difficilement justifiable d'imposer à l'ensemble des assurés l'obligation de cotiser pour financer des prestations qui reposent pour l'essentiel sur l'intime conviction de certains praticiens et patients, et non sur des données scientifiques objectives. </p><p>A l'image de l'option de l'assurance contre les accidents qui existe avec l'assurance obligatoire des soins, la présente motion propose d'introduire une option supplémentaire, permettant aux citoyens qui le désirent de ne plus bénéficier du remboursement des thérapies alternatives et, en contrepartie, de ne plus participer à leur financement.</p>"
+      "value": "<p>Le peuple a majoritairement accepté la prise en charge des médecines alternatives par l'assurance obligatoire des soins, lors de la votation en 2009. Pour mettre en oeuvre cet article constitutionnel, le Conseil fédéral a prévu le remboursement de cinq \" médecines \" complémentaires, soit l'acupuncture, la médecine anthroposophique, la pharmacothérapie de la médecine traditionnelle chinoise (MTC), l'homéopathie et la phytothérapie.</p><p>Depuis, il apparaît que de nombreuses thérapies complémentaires ne reposent pas sur les critères légaux d'efficacité, d'adéquation et d'économicité (EAE). Dans son avis en réponse au postulat 21.4445, le Conseil fédéral a expressément reconnu que dès lors qu'il n'avait pas été possible de reconnaître l'efficacité des \" médecines \" complémentaires selon des méthodes scientifiques, c'est un \" principe de confiance \" qui est appliqué. </p><p>Si de nombreux citoyens croient à l'efficacité de ces thérapies, ce n'est pas le cas de l'entier de la population. Or, il est difficilement justifiable d'imposer à l'ensemble des assurés l'obligation de cotiser pour financer des prestations qui reposent pour l'essentiel sur l'intime conviction de certains praticiens et patients, et non sur des données scientifiques objectives. </p><p>À l'image de l'option de l'assurance contre les accidents qui existe avec l'assurance obligatoire des soins, la présente motion propose d'introduire une option supplémentaire, permettant aux citoyens qui le désirent de ne plus bénéficier du remboursement des thérapies alternatives et, en contrepartie, de ne plus participer à leur financement.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>L’obligation de s’assurer fixée par le législateur dans la&nbsp;loi fédérale sur l’assurance-maladie (LAMal&nbsp;; RS&nbsp;<i>832.10</i>) vise à renforcer la solidarité en matière d’assurance-maladie entre toutes les personnes habitant en Suisse et, de ce fait, à leur garantir un accès équitable à des soins médicaux de qualité. Le système d’assurance complémentaire prévu par la loi sur le contrat d’assurance (LCA&nbsp;; RS&nbsp;<i>221.229.1</i>) permet, lui, de souscrire des assurances individuelles dans divers domaines. Introduire une exception ou une possibilité de choix pour certains de ces domaines serait contraire à l’obligation de s’assurer. En effet, les prestations optionnelles ne seraient plus obligatoires ni, partant, supportées solidairement par toute la population.</p><p>Le fait de pouvoir suspendre la couverture des accidents conformément à la LAMal n’est pas comparable à la possibilité de choix que l’auteur de la motion souhaite introduire pour les prestations de médecine complémentaire. En effet, cette possibilité de suspension est à la disposition des seuls assurés qui bénéficient déjà d’une couverture complète du risque d’accident (accidents professionnels et non professionnels) en vertu de la loi fédérale sur l’assurance-accidents (LAA&nbsp;; RS&nbsp;<i>832.20</i>). Elle permet ainsi d’éviter que les mêmes risques soient couverts par plusieurs assurances sociales obligatoires.&nbsp;En outre, l’introduction d’une option serait extrêmement complexe sur le plan technique et ne serait pas non plus proportionnée compte tenu du montant des coûts des prestations de médecine complémentaire pris en charge par l’AOS, qui s’élève à environ 18&nbsp;millions de francs par année.</p><p>Comme l’a exposé le Conseil fédéral dans son avis sur le postulat Nantermod&nbsp;21.4445 («&nbsp;Évaluation de la médecine complémentaire. Où en sommes-nous dix ans après l’introduction des méthodes de traitement de la médecine complémentaire&nbsp;?&nbsp;»), dans le cadre de l’article constitutionnel sur la prise en compte des médecines complémentaires, largement accepté par le peuple et les cantons en 2009, cinq spécialités ont été ainsi inscrites provisoirement en 2012 et définitivement en 2017 dans le catalogue des prestations prises en charge par l’AOS. À l’époque, l’évaluation avait conclu uniquement à une impossibilité de prouver l’efficacité de l’ensemble des prestations de médecine complémentaire. Il est possible de soumettre en tout temps des demandes en vue de l’examen des critères d’efficacité, d’adéquation et d’économicité pour certaines prestations de médecine complémentaire.</p>"
     },
     {
       "type": {

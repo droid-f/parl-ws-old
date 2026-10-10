@@ -1,6 +1,6 @@
 {
   "id": 20223216,
-  "updated": "2022-03-22T12:03:21Z",
+  "updated": "2025-04-24T19:29:43Z",
   "additionalIndexing": "55;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,7 +40,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-20T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-05-28T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -53,7 +82,128 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CER-CE",
+            "id": 23,
+            "name": "Commission de l'économie et des redevances CE",
+            "abbreviation1": "CER-E",
+            "abbreviation2": "CER",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-03-26T14:35:11Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3092,
+                    "gender": "m",
+                    "id": 4172,
+                    "name": "Salzmann Werner",
+                    "officialDenomination": "Salzmann"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CN",
+            "id": 10,
+            "name": "Commission de l'économie et des redevances CN",
+            "abbreviation1": "CER-N",
+            "abbreviation2": "CER",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-03-26T14:35:19Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3092,
+                    "gender": "m",
+                    "id": 4172,
+                    "name": "Salzmann Werner",
+                    "officialDenomination": "Salzmann"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -69,8 +219,33 @@
       "states": [
         {
           "date": "/Date(1647471600000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1652824800000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1695160800000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1711407600000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1712700000000+0200)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1716847200000+0200)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
         }
       ],
       "texts": [
@@ -168,7 +343,7 @@
         "gender": "m",
         "id": 4070,
         "name": "Candinas Martin",
-        "officialDenomination": "Candinas"
+        "officialDenomination": "Candinas Martin"
       },
       "type": "cosign"
     },
@@ -260,8 +435,8 @@
   ],
   "shortId": "22.3216",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 209,
+    "name": "Transmis au Conseil fédéral",
     "doneKey": "0",
     "newKey": 0
   },
@@ -271,14 +446,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Il est évident que le printemps, et donc la possibilité de faire paître les vaches, ne commencent pas le même jour dans toute la Suisse et aux différentes altitudes. C'est pourquoi la réglementation actuelle prévoit une vaste période de pâturage à dates fixes pour toute la Suisse, à savoir du 1er mai au 31 octobre. Il est toutefois nécessaire, dans les zones de montagne, d'adapter cette réglementation concernant les sorties aux conditions météorologiques en hiver, au printemps et également en automne. </p><p>La flexibilité prévue à l'annexe 6, let. B, ch. 2.5, let. b, est insuffisante et entraîne une charge administrative disproportionnée en raison de l'autorisation d'exception que chaque exploitation concernée doit demander. Fixer la période en fonction du moment où l'on passe de l'affouragement d'hiver aux sorties en pâturage, et inversement, serait judicieux du point de vue agronomique et facile à mettre en oeuvre : le régime correspondant du programme SRPA s'appliquerait dès que les sorties au pâturage commencent. Un éventuel changement des conditions météorologiques, et donc de l'alimentation des animaux pour une courte période, n'entraîne ainsi aucune incertitude pour l'exploitation ni pour l'exécution des mesures. Le respect des conditions peut facilement être contrôlé sur place. </p><p>Etant donné que les sorties au pâturage constituent l'option la meilleur marché pour les exploitants, ceux-ci feront en sorte de fixer ce moment dès que cela s'avère judicieux du point de vue agronomique.</p><p>Cette modification permettra d'adapter enfin le programme SRPA aux conditions naturelles.</p>"
+      "value": "<p>Il est évident que le printemps, et donc la possibilité de faire paître les vaches, ne commencent pas le même jour dans toute la Suisse et aux différentes altitudes. C'est pourquoi la réglementation actuelle prévoit une vaste période de pâturage à dates fixes pour toute la Suisse, à savoir du 1er mai au 31 octobre. Il est toutefois nécessaire, dans les zones de montagne, d'adapter cette réglementation concernant les sorties aux conditions météorologiques en hiver, au printemps et également en automne. </p><p>La flexibilité prévue à l'annexe 6, let. B, ch. 2.5, let. b, est insuffisante et entraîne une charge administrative disproportionnée en raison de l'autorisation d'exception que chaque exploitation concernée doit demander. Fixer la période en fonction du moment où l'on passe de l'affouragement d'hiver aux sorties en pâturage, et inversement, serait judicieux du point de vue agronomique et facile à mettre en oeuvre : le régime correspondant du programme SRPA s'appliquerait dès que les sorties au pâturage commencent. Un éventuel changement des conditions météorologiques, et donc de l'alimentation des animaux pour une courte période, n'entraîne ainsi aucune incertitude pour l'exploitation ni pour l'exécution des mesures. Le respect des conditions peut facilement être contrôlé sur place. </p><p>Étant donné que les sorties au pâturage constituent l'option la meilleur marché pour les exploitants, ceux-ci feront en sorte de fixer ce moment dès que cela s'avère judicieux du point de vue agronomique.</p><p>Cette modification permettra d'adapter enfin le programme SRPA aux conditions naturelles.</p>"
     },
     {
       "type": {
         "id": 14,
         "name": "Réponse CF / Bureau"
       },
-      "value": "<p>La réglementation proposée par l'auteur de la motion, à savoir de fixer la période de végétation comme critère du nombre de jours de sortie au pâturage et de sortie dans une aire d'exercice correspond à celle qui était appliquée au début du programme SRPA en 2007. Son application a donné lieu à des ambiguïtés dans la mise en oeuvre et a suscité des incertitudes chez les exploitants, car la période de végétation devait être évaluée individuellement pour chaque exploitation.</p><p>Cette période varie en effet en fonction de la situation, de l'exposition et des caractéristiques du sol ; les périodes de sorties au pâturage varient donc dans la zone de montagne comme dans les régions de plus basse altitude.</p><p>C'est pour cette raison que la réglementation actuelle a été adoptée. Celle-ci prévoit mensuellement 13 sorties dans une aire d'exercice ou au pâturage de novembre à avril, et 26 sorties au pâturage ou dans une aire d'exercice de mai à octobre. Il convient de préciser qu'en cas de retard de la végétation ou d'hiver précoce, les sorties ne doivent pas obligatoirement avoir lieu dans un pâturage. Il suffit d'une aire d'exercice dont le sol est en dur ou couvert d'un revêtement adéquat. De cette façon, toutes les exploitations sont soumises aux mêmes conditions et doivent assumer la même charge de travail à toutes les altitudes. Cette charge de travail est rétribuée à raison de 190 francs par an et par unité de gros bétail.</p><p>La période d'affouragement d'hiver définie dans le Manuel de contrôle Protection des animaux - Bovins court du 1er novembre au 30 avril. Les dispositions concernant la protection des animaux et les SRPA sont ainsi harmonisées, ce qui améliore la lisibilité de la réglementation pour les exploitants, l'égalité de traitement dans toute la Suisse, la simplicité de l'application de la réglementation et l'efficacité du contrôle.</p><p>La proposition émise par l'auteur de la motion, à savoir calculer au prorata le nombre de jours de sortie au pâturage et de jours de sortie dans une aire d'exercice rendrait le travail administratif plus lourd et plus compliqué. Par exemple, dans une exploitation où la période de végétation commencerait le 12 mai, il faudrait que les animaux sortent dans une aire d'exercice pendant 4,6 jours (11/31 x 13) avant le 11 mai, puis sortent au pâturage pendant 16,8 jours (20/31 x 26) à partir du 12 mai.</p><p>Pour les exploitations en région de montagne, qui ne disposent pas, au mois de mai, d'une aire d'exercice, il existe depuis plusieurs années une solution simple sur le plan administratif et qui tient compte de l'infrastructure particulière de ces exploitations. Cette solution consiste en une autorisation à caractère exceptionnel, qui peut être accordée pour cinq ans. Dans la pratique, il n'y a dans tout le pays que de rares exploitations qui ont besoin d'une telle autorisation exceptionnelle. Si le Parlement devait adopter la motion, il faudrait envisager de diminuer les contributions SRPA proportionnellement à la réduction du nombre de jours de sortie entre mai et octobre dans la région de montagne, puisque cette réduction se traduira par un moindre travail pour le bien-être des animaux.</p>"
+      "value": "<p>La réglementation proposée par l'auteur de la motion, à savoir de fixer la période de végétation comme critère du nombre de jours de sortie au pâturage et de sortie dans une aire d'exercice correspond à celle qui était appliquée au début du programme SRPA en 2007. Son application a donné lieu à des ambiguïtés dans la mise en oeuvre et a suscité des incertitudes chez les exploitants, car la période de végétation devait être évaluée individuellement pour chaque exploitation.</p><p>Cette période varie en effet en fonction de la situation, de l'exposition et des caractéristiques du sol ; les périodes de sorties au pâturage varient donc dans la zone de montagne comme dans les régions de plus basse altitude.</p><p>C'est pour cette raison que la réglementation actuelle a été adoptée. Celle-ci prévoit mensuellement 13 sorties dans une aire d'exercice ou au pâturage de novembre à avril, et 26 sorties au pâturage ou dans une aire d'exercice de mai à octobre. Il convient de préciser qu'en cas de retard de la végétation ou d'hiver précoce, les sorties ne doivent pas obligatoirement avoir lieu dans un pâturage. Il suffit d'une aire d'exercice dont le sol est en dur ou couvert d'un revêtement adéquat. De cette façon, toutes les exploitations sont soumises aux mêmes conditions et doivent assumer la même charge de travail à toutes les altitudes. Cette charge de travail est rétribuée à raison de 190 francs par an et par unité de gros bétail.</p><p>La période d'affouragement d'hiver définie dans le Manuel de contrôle Protection des animaux - Bovins court du 1er novembre au 30 avril. Les dispositions concernant la protection des animaux et les SRPA sont ainsi harmonisées, ce qui améliore la lisibilité de la réglementation pour les exploitants, l'égalité de traitement dans toute la Suisse, la simplicité de l'application de la réglementation et l'efficacité du contrôle.</p><p>La proposition émise par l'auteur de la motion, à savoir calculer au prorata le nombre de jours de sortie au pâturage et de jours de sortie dans une aire d'exercice rendrait le travail administratif plus lourd et plus compliqué. Par exemple, dans une exploitation où la période de végétation commencerait le 12 mai, il faudrait que les animaux sortent dans une aire d'exercice pendant 4,6 jours (11/31 x 13) avant le 11 mai, puis sortent au pâturage pendant 16,8 jours (20/31 x 26) à partir du 12 mai.</p><p>Pour les exploitations en région de montagne, qui ne disposent pas, au mois de mai, d'une aire d'exercice, il existe depuis plusieurs années une solution simple sur le plan administratif et qui tient compte de l'infrastructure particulière de ces exploitations. Cette solution consiste en une autorisation à caractère exceptionnel, qui peut être accordée pour cinq ans. Dans la pratique, il n'y a dans tout le pays que de rares exploitations qui ont besoin d'une telle autorisation exceptionnelle. Si le Parlement devait adopter la motion, il faudrait envisager de diminuer les contributions SRPA proportionnellement à la réduction du nombre de jours de sortie entre mai et octobre dans la région de montagne, puisque cette réduction se traduira par un moindre travail pour le bien-être des animaux.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20190456,
-  "updated": "2021-11-12T11:30:58Z",
+  "updated": "2025-04-09T00:42:10Z",
   "additionalIndexing": "28;2836;1211",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -50,7 +50,7 @@
               "abbreviation": "SGK-NR",
               "id": 6,
               "name": "Kommission für soziale Sicherheit und Gesundheit NR",
-              "abbreviation1": "SGK-NR",
+              "abbreviation1": "SGK-N",
               "abbreviation2": "SGK",
               "committeeNumber": 6,
               "council": {
@@ -63,7 +63,7 @@
             },
             "council": null,
             "date": "2021-01-14T00:00:00Z",
-            "text": "Folge gegeben",
+            "text": "Folge geben (Erstrat)",
             "type": 16
           },
           {
@@ -75,7 +75,7 @@
               "abbreviation": "SGK-SR",
               "id": 19,
               "name": "Kommission für soziale Sicherheit und Gesundheit SR",
-              "abbreviation1": "SGK-SR",
+              "abbreviation1": "SGK-S",
               "abbreviation2": "SGK",
               "committeeNumber": 19,
               "council": {
@@ -97,7 +97,11 @@
       },
       "index": 0,
       "links": [
-
+        {
+          "date": "/Date(1676847600000+0100)/",
+          "title": "Vernehmlassung",
+          "url": "https://www.parlament.ch/de/organe/kommissionen/sachbereichskommissionen/kommissionen-sgk/berichte-vernehmlassungen-sgk/vernehmlassung-sgk-19-456"
+        }
       ],
       "preConsultations": [
         {
@@ -105,7 +109,7 @@
             "abbreviation": "SGK-SR",
             "id": 19,
             "name": "Kommission für soziale Sicherheit und Gesundheit SR",
-            "abbreviation1": "SGK-SR",
+            "abbreviation1": "SGK-S",
             "abbreviation2": "SGK",
             "committeeNumber": 19,
             "council": {
@@ -123,14 +127,15 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "IIIb/IV"
         },
         {
           "committee": {
             "abbreviation": "SGK-NR",
             "id": 6,
             "name": "Kommission für soziale Sicherheit und Gesundheit NR",
-            "abbreviation1": "SGK-NR",
+            "abbreviation1": "SGK-N",
             "abbreviation2": "SGK",
             "committeeNumber": 6,
             "council": {
@@ -148,18 +153,62 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "IIIb/IV"
         }
       ],
       "references": [
-
+        {
+          "date": "/Date(1693432800000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2077",
+            "source": "BBl 2023 2077",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2023/2077.pdf",
+            "year": "2023"
+          },
+          "type": {
+            "id": 6,
+            "name": "Bericht"
+          }
+        },
+        {
+          "date": "/Date(1698793200000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2481",
+            "source": "BBl 2023 2481",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2023/2481.pdf",
+            "year": "2023"
+          },
+          "type": {
+            "id": 2,
+            "name": "Stellungnahme des Bundesrates"
+          }
+        }
       ],
       "relatedDepartments": [
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        },
         {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -170,8 +219,43 @@
         },
         {
           "date": "/Date(1636498800000+0100)/",
-          "id": 1,
-          "name": "Folge gegeben"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1689458400000+0200)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1689458400000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1700175600000+0100)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1709766000000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1710975600000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1716933600000+0200)/",
+          "id": 219,
+          "name": "Geplant für die Schlussabstimmung"
+        },
+        {
+          "date": "/Date(1718316000000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -181,22 +265,125 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-03-07T00:00:00Z",
+            "text": "Beschluss gemäss Entwurf",
+            "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-05-29T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-06-14T00:00:00Z",
+            "text": "Annahme in der Schlussabstimmung",
+            "type": 36
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-06-14T00:00:00Z",
+            "text": "Annahme in der Schlussabstimmung",
+            "type": 36
+          }
         ]
       },
       "federalCouncilProposal": {
       },
       "index": 1,
       "links": [
-
+        {
+          "date": "/Date(1700694000000+0100)/",
+          "title": "Vernehmlassung",
+          "url": "https://www.parlament.ch/de/organe/kommissionen/sachbereichskommissionen/kommissionen-sgk/berichte-vernehmlassungen-sgk/vernehmlassung-sgk-19-456"
+        }
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-03-21T14:42:17Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3107,
+                    "gender": "m",
+                    "id": 4206,
+                    "name": "Ettlin Erich",
+                    "officialDenomination": "Ettlin Erich"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
         {
           "committee": {
             "abbreviation": "SGK-NR",
             "id": 6,
             "name": "Kommission für soziale Sicherheit und Gesundheit NR",
-            "abbreviation1": "SGK-NR",
+            "abbreviation1": "SGK-N",
             "abbreviation2": "SGK",
             "committeeNumber": 6,
             "council": {
@@ -207,17 +394,22 @@
             },
             "typeCode": 1
           },
-          "date": "2019-06-20T00:00:00Z",
+          "date": "2023-08-31T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
-          ]
+              ]
+            }
+          ],
+          "treatmentCategory": "IIIb/IV"
         },
         {
           "committee": {
             "abbreviation": "SGK-SR",
             "id": 19,
             "name": "Kommission für soziale Sicherheit und Gesundheit SR",
-            "abbreviation1": "SGK-SR",
+            "abbreviation1": "SGK-S",
             "abbreviation2": "SGK",
             "committeeNumber": 19,
             "council": {
@@ -228,32 +420,242 @@
             },
             "typeCode": 1
           },
-          "date": "2019-06-20T00:00:00Z",
+          "date": "2023-08-31T00:00:00Z",
           "registrations": [
 
+          ],
+          "treatmentCategory": "IIIb/IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-09-06T12:14:19Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3121,
+                    "gender": "m",
+                    "id": 4220,
+                    "name": "Roduit Benjamin",
+                    "officialDenomination": "Roduit"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-09-06T12:14:03Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2757,
+                    "gender": "m",
+                    "id": 4051,
+                    "name": "de Courten Thomas",
+                    "officialDenomination": "de Courten"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
       "references": [
-
+        {
+          "date": "/Date(1693432800000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2078",
+            "source": "BBl 2023 2078",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2023/2078.pdf",
+            "year": "2023"
+          },
+          "title": "Schweizerisches Zivilgesetzbuch (Leistungen von patronalen Wohlfahrtsfonds)",
+          "type": {
+            "id": 1,
+            "name": "Beratungsgegenstand / Entwurf"
+          }
+        },
+        {
+          "date": "/Date(1693432800000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2077",
+            "source": "BBl 2023 2077",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2023/2077.pdf",
+            "year": "2023"
+          },
+          "type": {
+            "id": 6,
+            "name": "Bericht"
+          }
+        },
+        {
+          "date": "/Date(1698793200000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2481",
+            "source": "BBl 2023 2481",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2023/2481.pdf",
+            "year": "2023"
+          },
+          "type": {
+            "id": 2,
+            "name": "Stellungnahme des Bundesrates"
+          }
+        },
+        {
+          "date": "/Date(1719266400000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "1450",
+            "source": "BBl 2024 1450",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2024/1450.pdf",
+            "year": "2024"
+          },
+          "referendumDeadline": "2024-10-03T00:00:00Z",
+          "type": {
+            "id": 3,
+            "name": "Schlussabstimmungstext"
+          }
+        }
       ],
       "relatedDepartments": [
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        },
         {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1560981600000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1689458400000+0200)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1689458400000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1700175600000+0100)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1709766000000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1710975600000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1716760800000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1716933600000+0200)/",
+          "id": 219,
+          "name": "Geplant für die Schlussabstimmung"
+        },
+        {
+          "date": "/Date(1718316000000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
-
+        {
+          "type": {
+            "id": 2,
+            "name": "Titel der Vorlage"
+          },
+          "value": "Schweizerisches Zivilgesetzbuch (Leistungen von patronalen Wohlfahrtsfonds)"
+        }
       ]
     }
   ],
@@ -430,8 +832,8 @@
   ],
   "shortId": "19.456",
   "state": {
-    "id": 1,
-    "name": "Folge gegeben",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },
@@ -441,14 +843,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Die sozialpolitische Bedeutung von Wohlfahrtsfonds mit Ermessensleistungen ist spätestens seit der Revision von Artikel 89a Absatz 6 ZGB (in Kraft seit dem 1. April 2016) unbestritten. Wohlfahrtsfonds entlasten die staatlichen Sozialversicherungen und helfen auf freiwilliger Ebene, Not- und Härtefälle bei einzelnen Arbeitnehmenden, Rentnerinnen und Rentnern sowie Hinterbliebenen im Falle von Alter, Tod und Invalidität sowie bei Krankheit, Unfall oder Arbeitslosigkeit zu lindern. </p><p>Der sozialen Verantwortung und der Zweckbestimmung der Wohlfahrtsfonds in einer sich wandelnden Gesellschaft wird in der Praxis noch immer zu wenig Rechnung getragen. So führen Leistungen von Wohlfahrtsfonds zur Prävention von Not- oder Härtefällen bzw. zur Vermeidung von Arbeitslosigkeit immer wieder zu Diskussionen mit den Behörden, obwohl solche Leistungen definitionsgemäss per se eingeschlossen sind. Eine gesetzliche Präzisierung schafft gegenüber den unterschiedlichen Rechtsauffassungen der verschiedenen Behörden Klarheit.</p><p>Es geht dabei um Leistungen, zu denen der Arbeitgeber nicht verpflichtet ist, die aber einen positiven gesellschaftlichen Nutzen haben. Beispielsweise kann damit ein Beitrag an die Reduktion der Gesundheitskosten geleistet werden. Auch allgemein geforderten Massnahmen zur besseren Vereinbarkeit von Familie und Beruf (Betreuungsressourcen) kann dabei Rechnung getragen werden. Präventive, an soziale Kriterien gekoppelte Leistungen tragen dem Prinzip der Gleichbehandlung und der Angemessenheit Rechnung und sind daher im Sinne der jüngsten Gesetzgebung (Art. 89a Abs. 8 Ziff. 3 ZGB). Unter Leistungen zur Prävention sind soziale Massnahmen im Rahmen der konkreten Zwecksetzung des Wohlfahrtsfonds (Alter, Tod, Invalidität, Krankheit, Unfall, Arbeitslosigkeit) für die Destinatäre zu verstehen, wie beispielsweise:</p><p>1. Mandatierung einer externen Anlaufstelle für Mitarbeiter mit finanziellen oder psychischen Problemen zur Vermeidung oder Abfederung von Härtefällen (niederschwelliges, anonymisiertes Angebot);</p><p>2. Unterstützung von Massnahmen zur Integration von kranken oder invaliden Arbeitnehmern (z. B. Lohnfortzahlung über die KTG-Versicherung hinaus zulasten des Wohlfahrtsfonds bei Aussichten auf Reintegration);</p><p>3. Finanzierung eines freiwilligen Gesundheitschecks ab einem definierten Alter;</p><p>4. Unterstützung bei der Betreuung von Kindern oder der Pflege Angehöriger für Arbeitnehmende (insbesondere bei kleinen Einkommen);</p><p>Die beantragte Änderung des ZGB führt nicht zu einer Beeinträchtigung des Steuer- bzw. AHV-Substrats.</p><p>Gemäss dem Bundesamt für Statistik hat die Zahl der Wohlfahrtsfonds mit Ermessensleistungen zwischen 2010 und 2015 um rund 20 Prozent abgenommen. Weitere Verbesserungen der Rahmenbedingungen sind wichtig, um diesen Trend zu stoppen. Die Stiftungsräte von Wohlfahrtsfonds mit Ermessensleistungen sind darauf angewiesen, dass sie im heutigen gesellschaftlichen Umfeld auch präventiv und ohne bürokratische Hindernisse ihre sozialpolitischen Aufgaben für ihre Belegschaft, ihre Rentnerinnen und Rentner und Hinterbliebenen im Rahmen ihres Stiftungszwecks wahrnehmen können.</p>"
+      "value": "<p>Die sozialpolitische Bedeutung von Wohlfahrtsfonds mit Ermessensleistungen ist spätestens seit der Revision von Artikel 89a Absatz 6 ZGB (in Kraft seit dem 1. April 2016) unbestritten. Wohlfahrtsfonds entlasten die staatlichen Sozialversicherungen und helfen auf freiwilliger Ebene, Not- und Härtefälle bei einzelnen Arbeitnehmenden, Rentnerinnen und Rentnern sowie Hinterbliebenen im Falle von Alter, Tod und Invalidität sowie bei Krankheit, Unfall oder Arbeitslosigkeit zu lindern. </p><p>Der sozialen Verantwortung und der Zweckbestimmung der Wohlfahrtsfonds in einer sich wandelnden Gesellschaft wird in der Praxis noch immer zu wenig Rechnung getragen. So führen Leistungen von Wohlfahrtsfonds zur Prävention von Not- oder Härtefällen bzw. zur Vermeidung von Arbeitslosigkeit immer wieder zu Diskussionen mit den Behörden, obwohl solche Leistungen definitionsgemäss per se eingeschlossen sind. Eine gesetzliche Präzisierung schafft gegenüber den unterschiedlichen Rechtsauffassungen der verschiedenen Behörden Klarheit.</p><p>Es geht dabei um Leistungen, zu denen der Arbeitgeber nicht verpflichtet ist, die aber einen positiven gesellschaftlichen Nutzen haben. Beispielsweise kann damit ein Beitrag an die Reduktion der Gesundheitskosten geleistet werden. Auch allgemein geforderten Massnahmen zur besseren Vereinbarkeit von Familie und Beruf (Betreuungsressourcen) kann dabei Rechnung getragen werden. Präventive, an soziale Kriterien gekoppelte Leistungen tragen dem Prinzip der Gleichbehandlung und der Angemessenheit Rechnung und sind daher im Sinne der jüngsten Gesetzgebung (Art. 89a Abs. 8 Ziff. 3 ZGB). Unter Leistungen zur Prävention sind soziale Massnahmen im Rahmen der konkreten Zwecksetzung des Wohlfahrtsfonds (Alter, Tod, Invalidität, Krankheit, Unfall, Arbeitslosigkeit) für die Destinatäre zu verstehen, wie beispielsweise:</p><p>1. Mandatierung einer externen Anlaufstelle für Mitarbeiter mit finanziellen oder psychischen Problemen zur Vermeidung oder Abfederung von Härtefällen (niederschwelliges, anonymisiertes Angebot);</p><p>2. Unterstützung von Massnahmen zur Integration von kranken oder invaliden Arbeitnehmern (z. B. Lohnfortzahlung über die KTG-Versicherung hinaus zulasten des Wohlfahrtsfonds bei Aussichten auf Reintegration);</p><p>3. Finanzierung eines freiwilligen Gesundheitschecks ab einem definierten Alter;</p><p>4. Unterstützung bei der Betreuung von Kindern oder der Pflege Angehöriger für Arbeitnehmende (insbesondere bei kleinen Einkommen);</p><p>Die beantragte Änderung des ZGB führt nicht zu einer Beeinträchtigung des Steuer- bzw. AHV-Substrats.</p><p>Gemäss dem Bundesamt für Statistik hat die Zahl der Wohlfahrtsfonds mit Ermessensleistungen zwischen 2010 und 2015 um rund 20 Prozent abgenommen. Weitere Verbesserungen der Rahmenbedingungen sind wichtig, um diesen Trend zu stoppen. Die Stiftungsräte von Wohlfahrtsfonds mit Ermessensleistungen sind darauf angewiesen, dass sie im heutigen gesellschaftlichen Umfeld auch präventiv und ohne bürokratische Hindernisse ihre sozialpolitischen Aufgaben für ihre Belegschaft, ihre Rentnerinnen und Rentner und Hinterbliebenen im Rahmen ihres Stiftungszwecks wahrnehmen können.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>National- und Ständerat werden ersucht, Artikel 89a Absatz 8 ZGB unter besonderer Berücksichtigung des Zwecks und der Bedeutung von Wohlfahrtsfonds mit Ermessensleistungen in der Gesellschaft und der beruflichen Vorsorge um folgenden Punkt zu ergänzen: Es ist sicherzustellen, dass Wohlfahrtsfonds im Rahmen ihrer Zwecksetzung auch Leistungen zur Prävention bei Krankheit, Unfall und Arbeitslosigkeit (und nicht nur in Notlagen einzelner Destinatäre) bzw. bei Alter, Tod und Invalidität ausrichten können.</p>"
+      "value": "<p>National- und Ständerat werden ersucht, Artikel 89a Absatz 8 ZGB unter besonderer Berücksichtigung des Zwecks und der Bedeutung von Wohlfahrtsfonds mit Ermessensleistungen in der Gesellschaft und der beruflichen Vorsorge um folgenden Punkt zu ergänzen: Es ist sicherzustellen, dass Wohlfahrtsfonds im Rahmen ihrer Zwecksetzung auch Leistungen zur Prävention bei Krankheit, Unfall und Arbeitslosigkeit (und nicht nur in Notlagen einzelner Destinatäre) bzw. bei Alter, Tod und Invalidität ausrichten können.</p>"
     },
     {
       "type": {

@@ -1,7 +1,7 @@
 {
   "id": 20230422,
-  "updated": "2023-03-21T15:13:37Z",
-  "additionalIndexing": "04;0421",
+  "updated": "2024-05-30T08:26:26Z",
+  "additionalIndexing": "04;421",
   "affairType": {
     "abbreviation": "Iv. pa.",
     "id": 4,
@@ -40,7 +40,46 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CIP-CN",
+              "id": 11,
+              "name": "Commission des institutions politiques CN",
+              "abbreviation1": "CIP-N",
+              "abbreviation2": "CIP",
+              "committeeNumber": 11,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Conseil national",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2024-04-26T00:00:00Z",
+            "text": "Ne pas donner suite (conseil prioritaire)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-05-29T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,24 +89,128 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-04-26T16:27:06Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 10801,
+                    "gender": "m",
+                    "id": 10801,
+                    "name": "Riner Christoph",
+                    "officialDenomination": "Riner"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CIP-CN",
+            "id": 11,
+            "name": "Commission des institutions politiques CN",
+            "abbreviation1": "CIP-N",
+            "abbreviation2": "CIP",
+            "committeeNumber": 11,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-17T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CIP-CE",
+            "id": 24,
+            "name": "Commission des institutions politiques CE",
+            "abbreviation1": "CIP-E",
+            "abbreviation2": "CIP",
+            "committeeNumber": 24,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-17T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1679007600000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1710975600000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1714082400000+0200)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1716933600000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -297,19 +440,33 @@
   ],
   "shortId": "23.422",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>La nouvelle ordonnance sur la transparence du financement de la vie politique est en vigueur depuis octobre 2022. L'obligation de déclarer le financement d'une campagne en vue d'une élection au Conseil national ou d'une votation fédérale s'appliquera pour la première fois à l'occasion de l'élection du Conseil national de 2023. Les personnes qui font campagne en vue d'une élection au Conseil national ou d'une votation et qui engagent plus de 50 000 francs pour ce faire doivent déclarer le financement de la campagne. Les libéralités anonymes et les libéralités provenant de l'étranger sont désormais interdites. Ces règles ne s'appliquent toutefois pas aux récoltes de signatures à l'appui d'un référendum ou d'une initiative, lesquelles précèdent la votation. La présente initiative vise à y remédier.</p><p>Les comités d'initiative et les comités référendaires doivent se procurer des fonds pour la récolte des signatures. Or le succès de cette récolte peut dépendre des moyens dont ils disposent. À ce stade déjà, le public à donc un intérêt à savoir qui sont les grands donateurs de la campagne et qui est derrière une initiative ou un référedum. Pour le citoyen, c'est un droit. Il est donc logique et judicieux de soumettre les récoltes de signatures à l'obligation de déclarer leur financement et de leur appliquer par analogie les règles de l'ordonnance sur la transparence du financement de la vie politique.</p><p>La présente initiative reprend une proposition faite par la CIP-E dans son premier projet de contre-projet indirect à l'initiative sur la transparence 19.400 \" Plus de transparence dans le financement de la vie politique \".</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>La loi fédérale sur les droits politiques doit être complétée de telle sorte que les récoltes de signatures à l'appui de référendums et d'initiatives au niveau fédéral soient aussi soumises à l'obligation de déclarer le financement. Les libéralités anonymes et les libéralités provenant de l'étranger doivent être interdites aussi pour la récolte de signatures à l'appui d'un référendum ou d'une initiative au niveau national.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Plus de transparence aussi pour la récolte de signatures au niveau fédéral"
     }
   ],
-  "title": "Titre suit"
+  "title": "Plus de transparence aussi pour la récolte de signatures au niveau fédéral"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20224569,
-  "updated": "2022-12-22T10:45:15Z",
+  "updated": "2025-04-24T19:26:24Z",
   "additionalIndexing": "55;52;2846",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,182 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-03-12T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-06-11T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-15T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CER-CN",
+            "id": 10,
+            "name": "Commission de l'économie et des redevances CN",
+            "abbreviation1": "CER-N",
+            "abbreviation2": "CER",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-05-03T14:39:29Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3153,
+                    "gender": "f",
+                    "id": 4261,
+                    "name": "Friedli Esther",
+                    "officialDenomination": "Friedli Esther"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CE",
+            "id": 23,
+            "name": "Commission de l'économie et des redevances CE",
+            "abbreviation1": "CER-E",
+            "abbreviation2": "CER",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-19T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1671145200000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1676415600000+0100)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1710198000000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1711148400000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1714687200000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1714946400000+0200)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1718056800000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -102,10 +255,10 @@
   ],
   "shortId": "22.4569",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -113,14 +266,21 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Le catalogue proposé d'éléments SPB à prendre en compte pour les 3,5 % de SPB exigés sur les terres assolées comprend différents éléments de cultures des champs. Les deux éléments importants que sont la prairie extensive de qualité II et la haie de qualité II n'y figurent toutefois pas. Dans l'agriculture, de nombreuses prairies extensives et haies de qualité II ont été créées, souvent avec le soutien de programmes cantonaux de biodiversité. Ces surfaces fournissent une prestation importante en faveur de la biodiversité, notamment dans les zones de grandes cultures.</p><p>Les 3,5 % de SPB actuellement exigés sur les terres assolées selon le catalogue de surfaces proposé entraînent une réduction des SPB sur les herbages, car les exploitants les optimisent pour ne pas perdre de surface de production et n'augmenteront pas forcément la part de SPB totale de l'exploitation. Cette évolution ne permet pas d'atteindre l'objectif visé, car même des surfaces de grande qualité, situées à proximité directe ou sur d'anciennes terres assolées, sont à nouveau labourées et transformées en SPB sur des terres assolées.</p><p>Les agriculteurs biologiques, en particulier, sont très soucieux de continuer à exploiter les éléments de cultures SPB qui ont fait leur temps (jachères florales, etc.). Malgré un entretien adéquat, les mauvaises herbes pérennes se développent et peuvent difficilement être éradiquées faute de pouvoir utiliser des herbicides. Les prairies extensives de qualité II constituent à cet égard une alternative judicieuse et précieuse.</p>"
+      "value": "<p>Le catalogue proposé d'éléments SPB à prendre en compte pour les 3,5 % de SPB exigés sur les terres assolées comprend différents éléments de cultures des champs. Les deux éléments importants que sont la prairie extensive de qualité II et la haie de qualité II n'y figurent toutefois pas. Dans l'agriculture, de nombreuses prairies extensives et haies de qualité II ont été créées, souvent avec le soutien de programmes cantonaux de biodiversité. Ces surfaces fournissent une prestation importante en faveur de la biodiversité, notamment dans les zones de grandes cultures.</p><p>Les 3,5 % de SPB actuellement exigés sur les terres assolées selon le catalogue de surfaces proposé entraînent une réduction des SPB sur les herbages, car les exploitants les optimisent pour ne pas perdre de surface de production et n'augmenteront pas forcément la part de SPB totale de l'exploitation. Cette évolution ne permet pas d'atteindre l'objectif visé, car même des surfaces de grande qualité, situées à proximité directe ou sur d'anciennes terres assolées, sont à nouveau labourées et transformées en SPB sur des terres assolées.</p><p>Les agriculteurs biologiques, en particulier, sont très soucieux de continuer à exploiter les éléments de cultures SPB qui ont fait leur temps (jachères florales, etc.). Malgré un entretien adéquat, les mauvaises herbes pérennes se développent et peuvent difficilement être éradiquées faute de pouvoir utiliser des herbicides. Les prairies extensives de qualité II constituent à cet égard une alternative judicieuse et précieuse.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le 13 avril 2022, le Conseil fédéral a adopté le premier \" train d'ordonnances pour une eau potable propre et une agriculture plus durable \". Une première partie de l'initiative parlementaire (Iv. pa.) 19.475 \" Réduire le risque de l'utilisation de pesticides \" a par conséquent été mise en oeuvre. La nouvelle exigence concernant les prestations écologiques requises (PER) qui requiert une proportion de 3,5 % de surfaces de promotion de la biodiversité sur terres ouvertes fait partie de ce train d'ordonnances. Cette exigence entre en vigueur au 1er janvier 2024.</p><p>Peuvent être imputés aux 3,5 % de SPB, tous les types de SPB qui peuvent être aménagés sur les terres ouvertes. Cela permet une mise en oeuvre à la fois efficace et simple du point de vue administratif. En raison des résultats de la consultation sur le \" train d'ordonnances pour une eau potable propre et une agriculture plus durable \", le Conseil fédéral a par ailleurs entériné la prise en compte des SPB spécifiques à la région. Ces SPB peuvent elles aussi être aménagées sur les terres ouvertes et sont faciles à gérer dans les systèmes d'information sur la politique agricole. Par ailleurs, les SPB productives \" Céréales en lignes de semis espacées \" peuvent être prises en compte à concurrence de 50 %.</p><p>La prise en compte supplémentaire des haies et des prairies extensives demandée dans cette motion engendrait d'une part un surcroît de travail administratif. D'autre part, elle aurait indubitablement pour conséquence de freiner la création de nouvelles SPB sur terres ouvertes. Cela compromettrait les objectifs des trajectoires de réduction du recours aux produits phytosanitaires et aux engrais car il y aurait moins de surfaces sur terres ouvertes où l'on devrait renoncer à leur utilisation et où l'on pourrait promouvoir les organismes utiles. En outre, le Conseil fédéral ne partage pas la crainte que des SPB de qualité déjà existantes soient labourées afin d'aménager à leur place des SPB sur terres ouvertes : les paiements directs versés pour ces surfaces atteignent des montants si élevés que tout labourage serait synonyme de pertes financières.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Le Conseil fédéral est chargé d'adapter l'ordonnance et les prescriptions légales relatives aux 3,5 % de surfaces de promotion de la biodiversité (SPB) sur les terres ouvertes de manière à ce que les prairies et les haies de qualité II situées sur ces terres et directement adjacentes à celles-ci puissent être prises en compte en plus des éléments de culture des champs SPB proposés. Ces prairies et haies de qualité II offrent des fleurs et de la nourriture aux insectes pendant presque toute la période de végétation et leur servent de refuge. Grâce aux fauches possibles, les mauvaises herbes problématiques et leur propagation peuvent en outre être évitées.</p>"
+      "value": "<p>Le Conseil fédéral est chargé d'adapter l'ordonnance et les prescriptions légales relatives aux 3,5 % de surfaces de promotion de la biodiversité (SPB) sur les terres ouvertes de manière à ce que les prairies et les haies de qualité II situées sur ces terres et directement adjacentes à celles-ci puissent être prises en compte en plus des éléments de culture des champs SPB proposés. Ces prairies et haies de qualité II offrent des fleurs et de la nourriture aux insectes pendant presque toute la période de végétation et leur servent de refuge. Grâce aux fauches possibles, les mauvaises herbes problématiques et leur propagation peuvent en outre être évitées.</p>"
     },
     {
       "type": {

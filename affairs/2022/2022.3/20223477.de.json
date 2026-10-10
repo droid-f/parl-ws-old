@@ -1,6 +1,6 @@
 {
   "id": 20223477,
-  "updated": "2022-05-12T14:23:25Z",
+  "updated": "2025-04-24T19:32:31Z",
   "additionalIndexing": "52;04;55",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,182 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "Wird übernommen",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-04-17T00:00:00Z",
+            "text": "Annahme (teilweise) : Punkt 1 zurückgezogen; Punkte 2 und 3 angenommen.",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-12-03T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-17T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "UREK-NR",
+            "id": 7,
+            "name": "Kommission für Umwelt, Raumplanung und Energie NR",
+            "abbreviation1": "UREK-N",
+            "abbreviation2": "UREK",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "UREK-SR",
+            "id": 20,
+            "name": "Kommission für Umwelt, Raumplanung und Energie SR",
+            "abbreviation1": "UREK-S",
+            "abbreviation2": "UREK",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-10-11T16:48:29Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3136,
+                    "gender": "m",
+                    "id": 4237,
+                    "name": "Würth Benedikt",
+                    "officialDenomination": "Würth"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1652220000000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1660687200000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1713304800000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1728597600000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1731625200000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1733180400000+0100)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -230,23 +383,54 @@
         "name": "Die Mitte-Fraktion. Die Mitte. EVP."
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3121,
+        "gender": "m",
+        "id": 4220,
+        "name": "Roduit Benjamin",
+        "officialDenomination": "Roduit"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "22.3477",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Am 26. April 2022 haben die Tierhalterinnen und Tierhalter im Kanton Tessin mit einer aufsehenerregenden Aktion das Thema Wolf in der Schweiz wieder in den Fokus gerückt (Link auf den Artikel: <a href=\"https://www.laregione.ch/cantone/ticino/1579685/allevatori-scaricano-le-pecore-uccise-dal-lupo-in-piazza-governo\">https://www.laregione.ch/cantone/ticino/1579685/allevatori-scaricano-le-pecore-uccise-dal-lupo-in-piazza-governo</a>). </p><p>Die Wolfspopulation in der Schweiz ist in den letzten 10 Jahren exponentiell gewachsen, von einem Anfangsbestand von rund 10 Exemplaren auf über 150 Tiere Ende 2021. Im gleichen Zeitraum ist die Anzahl Rudel von einem auf mindestens 16 - zu finden hauptsächlich in den Gebirgskantonen - gestiegen. Als Folge sehen sich die Bergbäuerinnen und Bergbauern mit immer grösseren Schäden konfrontiert, die von den Wölfen am Nutztierbestand (Schafe und Ziegen, aber auch Kühe) verursacht werden, was für diese Bäuerinnen und Bauern selber, aber auch in Bezug auf die gesellschaftliche und wirtschaftliche Entwicklung der Randgebiete schwerwiegende Folgen hat. Die Wut wächst, und mit ihr die Frustration eines Berufszweigs, der das Gefühl hat, er werde von den Behörden seinem Schicksal überlassen. So kommt es, dass immer mehr Bergbauernbetriebe aufgegeben werden und in anderen über eine Betriebsaufgabe nachgedacht wird. Die Alpwirtschaft und mit ihr auch ein Teil der Talbevölkerung sind so zu einem langsamen, aber unaufhaltsamen Sterben verurteilt, was zu einem schwerwiegenden Verlust an bewirtschaftetem Land und entsprechend zu Verbuschung führt - dies auf Kosten der viel gepriesenen Biodiversität, die gerade von jenen Kreisen, die einen absoluten Wolfsschutz wollen, immer wieder beschworen wird. </p><p>Es braucht daher den Mut, diese Problematik auf realistische und pragmatische Art anzugehen, bevor es zu spät ist, und in der Jagdverordnung des Bundes müssen Korrekturen vorgenommen werden, wie es die vorliegende Motion verlangt.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>1. Auf den Alpsommer 2021 hin hat der Bundesrat innert kürzester Frist die Jagdverordnung angepasst. Zurzeit arbeitet die Kommission für Umwelt, Raumplanung und Energie des Ständerates intensiv an einer Jagdgesetzesrevision (Pa.Iv. 21.502 Parlamentarische Initiative \"Wachsende Wolfsbestände geraten ausser Kontrolle und gefährden ohne die Möglichkeit zur Regulierung die Landwirtschaft\"). Zur Überbrückung bis zur allfälligen Inkraftsetzung des revidierten Jagdgesetzes prüft der Bundesrat derzeit, die Verordnungsbestimmungen auf die Alpsaison 2023 weiter zu flexibilisieren, beispielsweise durch die Vereinfachung des Abschusses von schadenstiftenden Einzelwölfen. Die Möglichkeiten im Rahmen des heute gültigen Gesetzes sind allerdings weitgehend ausgeschöpft.</p><p>2. Aufgrund der Weiterentwicklung der Analysemethodik des Labors an der Universität in Lausanne, der Anpassung des Vertrags zwischen dem Bundesamt für Umwelt (BAFU) und diesem Genetiklabor können ab der Saison 2022 doppelt so viele Proben in halb so langer Zeit wie bisher analysiert werden.</p><p>3. Der Kredit für Herdenschutzmassnahmen wurde 2021 erhöht (von 2,9 Millionen auf 3,7 Millionen Franken), jedoch nicht ausgeschöpft. Für die Alpsaison 2022 wurde der Kredit verdreifacht - für 2022 stehen insgesamt 9,4 Mio. Franken zur Verfügung -, um zusätzliche Sofortmassnahmen mitzufinanzieren. Diese Sofortmassnahmen wurden vom zuständigen Bundesamt für Umwelt umgehend und im Einvernehmen mit den Kantonen und den involvierten Verbänden erarbeitet. Herdenschutzmassnahmen sind bereits heute nicht auf die Sömmerungsperiode beschränkt.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, die geltende Jagdverordnung dahingehend zu ändern, dass:</p><p>1. die Kriterien für den Abschuss von Wölfen gelockert und flexibilisiert werden und die Kantone mehr Handlungsspielraum bekommen; </p><p>2. die Verfahren der genetischen Analyse beschleunigt werden (prioritäre Behandlung bei Wolfsrissen) und bei Problemwölfen das Einholen der Abschussbewilligung schneller von sich geht, dies durch einen drastischen Bürokratieabbau; </p><p>3. die Unterstützungsmöglichkeiten und Finanzhilfen, die für Herdenschutzmassnahmen und für Schadenersatzzahlungen an die betroffenen Tierhalterinnen und Tierhalter zur Verfügung stehen, ausgebaut und vereinfacht werden, dies auch ausserhalb der Sömmerungszeit. </p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Weniger Bürokratie und wirksamere Massnahmen zum Schutz vor Wolfsschäden in der Schweiz"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Weniger Bürokratie und wirksamere Massnahmen zum Schutz vor Wolfsschäden in der Schweiz"
 }

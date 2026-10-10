@@ -1,6 +1,6 @@
 {
   "id": 20230409,
-  "updated": "2023-03-21T14:16:00Z",
+  "updated": "2024-04-18T07:35:01Z",
   "additionalIndexing": "24;52",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -40,7 +40,31 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Amm."
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "Sarà ripreso",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-04-17T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,24 +74,178 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-24T08:45:16Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2789,
+                    "gender": "m",
+                    "id": 4077,
+                    "name": "Feller Olivier",
+                    "officialDenomination": "Feller"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo RL",
+                    "id": 1,
+                    "name": "Gruppo liberale radicale"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-24T08:45:04Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2796,
+                    "gender": "f",
+                    "id": 4090,
+                    "name": "Amaudruz Céline",
+                    "officialDenomination": "Amaudruz"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo V",
+                    "id": 4,
+                    "name": "Gruppo dell'Unione democratica di Centro"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CN",
+            "id": 10,
+            "name": "Commissione dell'economia e dei tributi CN",
+            "abbreviation1": "CET-N",
+            "abbreviation2": "CET",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-16T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CS",
+            "id": 23,
+            "name": "Commissione dell'economia e dei tributi CS",
+            "abbreviation1": "CET-S",
+            "abbreviation2": "CET",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-16T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Dipartimento delle Finanze",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1678921200000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1694469600000+0200)/",
+          "id": 223,
+          "name": "Esame preliminare - nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1700694000000+0100)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1713304800000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -162,23 +340,47 @@
         "name": "Gruppo verde liberale"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3016,
+        "gender": "f",
+        "id": 4102,
+        "name": "Bertschy Kathrin",
+        "officialDenomination": "Bertschy"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "23.409",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>L'articolo 5 della legge sulla Banca nazionale definisce il mandato della BNS. Esso sancisce che la BNS svolge la politica monetaria nell'interesse generale del Paese, garantisce la stabilità dei prezzi e tiene conto dell'evoluzione congiunturale.</p><p>Negli ultimi anni la Banca nazionale ha sottolineato a più riprese di aver già adottato diverse misure che le permettono di tenere conto dei rischi climatici nell'ambito del suo mandato. Il discorso di Andréa Maechler e di Thomas Moser sui rischi climatici e le banche centrali dal punto di vista della BNS, tenuto il 14 novembre 2019, ne è un esempio. Allo stesso tempo - e mentre a livello mondiale altre banche centrali vanno ben oltre i passi compiuti dalla BNS in questo senso - la Banca nazionale ha ribadito in varie occasioni che il suo mandato non le conferisce un margine di manovra sufficiente per fare in modo che nelle sue decisioni e nei suoi strumenti di politica monetaria tenga pienamente conto dei rischi climatici.</p><p>La presente iniziativa parlamentare intende garantire questo margine di manovra e precisare che nello svolgimento della sua politica monetaria la BNS deve tenere conto dei rischi climatici. Essa rispecchia il fatto che i rischi climatici sono considerati nel mondo intero come rischi finanziari significativi che possono mettere a repentaglio la stabilità finanziaria e dei prezzi. Le banche centrali si chiedono quindi non tanto se devono affrontare o meno questi rischi, ma come tenerne conto. È quindi nell'interesse generale della Svizzera che la BNS tratti queste questioni in modo proattivo.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>L'articolo 5 capoverso 1 della legge federale sulla Banca nazionale svizzera (LBN) deve essere completato in modo tale che nello svolgimento della sua politica monetaria la Banca nazionale svizzera tenga conto anche dei rischi climatici e ambientali.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Banca nazionale svizzera. Una politica monetaria stabile grazie alla valutazione dei rischi climatici"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Banca nazionale svizzera. Una politica monetaria stabile grazie alla valutazione dei rischi climatici"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20230438,
-  "updated": "2023-06-21T16:26:33Z",
+  "updated": "2024-09-09T18:46:54Z",
   "additionalIndexing": "34;1236;12",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -8,12 +8,6 @@
     "name": "Parlamentarische Initiative"
   },
   "author": {
-    "faction": {
-      "abbreviation": "Fraktion G",
-      "code": "G",
-      "id": 6,
-      "name": "Grüne Fraktion"
-    },
     "type": "author"
   },
   "deposit": {
@@ -34,7 +28,46 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "SPK-NR",
+              "id": 11,
+              "name": "Staatspolitische Kommission NR",
+              "abbreviation1": "SPK-N",
+              "abbreviation2": "SPK",
+              "committeeNumber": 11,
+              "council": {
+                "abbreviation": "NR",
+                "id": 1,
+                "name": "Nationalrat",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2024-05-16T00:00:00Z",
+            "text": "Keine Folge geben (Erstrat)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-09-09T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -44,24 +77,138 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-05-17T17:47:06Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2715,
+                    "gender": "m",
+                    "id": 3912,
+                    "name": "Wasserfallen Christian",
+                    "officialDenomination": "Wasserfallen Christian"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SPK-SR",
+            "id": 24,
+            "name": "Staatspolitische Kommission SR",
+            "abbreviation1": "SPK-S",
+            "abbreviation2": "SPK",
+            "committeeNumber": 24,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "SPK-NR",
+            "id": 11,
+            "name": "Staatspolitische Kommission NR",
+            "abbreviation1": "SPK-N",
+            "abbreviation2": "SPK",
+            "committeeNumber": 11,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1686780000000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1692914400000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1710975600000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1715896800000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1725573600000+0200)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1725832800000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -84,31 +231,25 @@
   ],
   "roles": [
     {
-      "faction": {
-        "abbreviation": "Fraktion G",
-        "code": "G",
-        "id": 6,
-        "name": "Grüne Fraktion"
-      },
       "type": "author"
     },
     {
       "councillor": {
-        "code": 3223,
-        "gender": "f",
-        "id": 4328,
-        "name": "Imboden Natalie",
-        "officialDenomination": "Imboden"
+        "code": 3003,
+        "gender": "m",
+        "id": 4093,
+        "name": "Glättli Balthasar",
+        "officialDenomination": "Glättli"
       },
       "type": "speaker"
     }
   ],
   "shortId": "23.438",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -123,15 +264,15 @@
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Das Datenschutzgesetzes vom 25. September 2020 ist in Artikel 21bis wie folgt zu ändern:</p><p>Artikel 21bis Informationspflicht beim Einsatz künstlicher Intelligenz</p><p>1 Der Verantwortliche informiert die betroffene Person über eine Entscheidung, die massgeblich auf künstlicher Intelligenz beruht und die für sie mit einer Rechtsfolge verbunden ist oder sie erheblich beeinträchtigt (KI-gestützte Einzelentscheidung).</p><p>2 Er gibt der betroffenen Person auf Antrag die Möglichkeit, ihren Standpunkt darzulegen. Die betroffene Person kann verlangen, dass die KI-gestützte Einzelentscheidung von einer natürlichen Person überprüft wird.</p><p>3 Die Absätze 1 und 2 gelten nicht, wenn: </p><p>a. die KI-gestützte Einzelentscheidung in unmittelbarem Zusammenhang mit dem Abschluss oder der Abwicklung eines Vertrags zwischen dem Verantwortlichen und der betroffenen Person steht und ihrem Begehren stattgegeben wird; oder </p><p>b. die betroffene Person ausdrücklich eingewilligt hat, dass die Entscheidung KI-gestützt erfolgt. </p><p>4 Ergeht die KI-gestützte Einzelentscheidung durch ein Bundesorgan, so muss es die Entscheidung entsprechend kennzeichnen. Absatz 2 ist nicht anwendbar, wenn die betroffene Person nach Artikel 30 Absatz 2 des Verwaltungsverfahrensgesetzes vom 20. Dezember 19686 (VwVG) oder nach einem anderen Bundesgesetz vor dem Entscheid nicht angehört werden muss.</p>"
+      "value": "<p>Das Datenschutzgesetzes vom 25. September 2020 ist in Artikel&nbsp;21bis wie folgt zu ändern:</p><p>Artikel&nbsp;21bis Informationspflicht beim Einsatz künstlicher Intelligenz</p><p>1. Der Verantwortliche informiert die betroffene Person über eine Entscheidung, die massgeblich auf künstlicher Intelligenz beruht und die für sie mit einer Rechtsfolge verbunden ist oder sie erheblich beeinträchtigt (KI-gestützte Einzelentscheidung).</p><p>2. Er gibt der betroffenen Person auf Antrag die Möglichkeit, ihren Standpunkt darzulegen. Die betroffene Person kann verlangen, dass die KI-gestützte Einzelentscheidung von einer natürlichen Person überprüft wird.</p><p>3. Die Absätze 1 und 2 gelten nicht, wenn:</p><p>a. die KI-gestützte Einzelentscheidung in unmittelbarem Zusammenhang mit dem Abschluss oder der Abwicklung eines Vertrags zwischen dem Verantwortlichen und der betroffenen Person steht und ihrem Begehren stattgegeben wird; oder</p><p>b. die betroffene Person ausdrücklich eingewilligt hat, dass die Entscheidung KI-gestützt erfolgt.</p><p>4. Ergeht die KI-gestützte Einzelentscheidung durch ein Bundesorgan, so muss es die Entscheidung entsprechend kennzeichnen. Absatz&nbsp;2 ist nicht anwendbar, wenn die betroffene Person nach Artikel&nbsp;30 Absatz&nbsp;2 des Verwaltungsverfahrensgesetzes vom 20. Dezember 19686 (VwVG) oder nach einem anderen Bundesgesetz vor dem Entscheid nicht angehört werden muss.</p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Datenschutzgesetzgebung anpassen und teilautomatisierte Entscheide aufgrund künstlicher Intelligenz (KI) ergänzen"
+      "value": "Datenschutzgesetzgebung anpassen und um teilautomatisierte Entscheide aufgrund künstlicher Intelligenz ergänzen "
     }
   ],
-  "title": "Datenschutzgesetzgebung anpassen und teilautomatisierte Entscheide aufgrund künstlicher Intelligenz (KI) ergänzen"
+  "title": "Datenschutzgesetzgebung anpassen und um teilautomatisierte Entscheide aufgrund künstlicher Intelligenz ergänzen "
 }

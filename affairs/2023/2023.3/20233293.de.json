@@ -1,6 +1,6 @@
 {
   "id": 20233293,
-  "updated": "2023-03-21T09:13:42Z",
+  "updated": "2025-04-24T19:29:18Z",
   "additionalIndexing": "32;2841;2811",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,17 +41,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-03-12T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-09-23T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-05-10T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-06-18T06:56:53Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3205,
+                    "gender": "m",
+                    "id": 4309,
+                    "name": "Michel Matthias",
+                    "officialDenomination": "Michel Matthias"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WBK-SR",
+            "id": 18,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
+            "abbreviation1": "WBK-S",
+            "abbreviation2": "WBK",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WBK-NR",
+            "id": 5,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
+            "abbreviation1": "WBK-N",
+            "abbreviation2": "WBK",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -67,8 +180,38 @@
       "states": [
         {
           "date": "/Date(1678921200000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1683669600000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1710198000000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1717365600000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1718661600000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1727042400000+0200)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -96,7 +239,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -219,10 +362,10 @@
   ],
   "shortId": "23.3293",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -231,6 +374,13 @@
         "name": "Begründung"
       },
       "value": "<p>In seiner Antwort auf die Frage 22.7629 räumt der Bundesrat ein, dass trotz der Erhöhung der Anzahl Studienplätze in der Medizin die Nachfrage die Kapazität der Universitäten übertrifft und dass bei weitem weder genügend Studienplätze noch genügend klinische Praktika vorhanden sind. Dies hat zur Folge, dass an den Universitäten sehr selektive schriftliche Eignungstests durchgeführt werden oder die Selektion nach dem ersten Studienjahr stattfindet. In der Tat werden dadurch viele Studierende (2022 haben sich auf 2172 Studienplätze 6147 Personen eingeschrieben) vom Studium abgehalten, ohne dass qualitative Kriterien vorhanden wären. Schlimmer noch: Die Studierenden beschweren sich regelmässig über einen unerbittlichen Konkurrenzkampf. Die Medien berichten ebenfalls von kompetenten abgewiesenen Studierenden, die im Ausland (z. B. in Rumänien) ein nach Bologna zertifiziertes Diplom erwerben, bevor sie in die Schweiz zurückkehren und hier ihren Beruf ausüben.</p><p>Gemäss dem Bericht 4/2022 des Gesundheitsobservatoriums Obsan wird das Sonderprogramm Humanmedizin (2016-2025) des Bundes zur Erhöhung der Abschlüsse in Humanmedizin an Schweizer Universitäten von 850 im Jahr 2014 auf mindestens 1350 im Jahr 2025 allein nicht ausreichen, um die Auslandabhängigkeit der Schweiz genügend zu senken. Derzeit hat fast die Hälfte der Ärztinnen und Ärzte mit einem schweizerischen Weiterbildungstitel ihr Medizinstudium im Ausland absolviert. Daher müssen der Bund und die Kantone weitere Massnahmen ergreifen, um die Zahl der Absolventinnen und Absolventen in der Humanmedizin zu erhöhen.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat geht mit dem Motionär einig, dass die Ausbildung von genügend Ärztinnen und Ärzten in der Schweiz ein wichtiges Anliegen ist. Dank den grossen Anstrengungen der Kantone, welche hauptsächlich für die universitären Ausbildungen zuständig sind und des vom Bund mit 100 Millionen Franken unterstützten Sonderprogramms \"Erhöhung der Anzahl Abschlüsse in Humanmedizin\" (SPHM) konnten die Studienplatzkapazitäten an den bestehenden Standorten weiter ausgebaut sowie neue Studiengänge und Kooperationen an der ETH Zürich, den Universitäten Freiburg, Luzern, St. Gallen und Tessin aufgebaut werden. Diese Massnahmen sollen dazu führen, dass sich die Anzahl der Master-Diplome in Humanmedizin von knapp 900 im Jahr 2016 nachhaltig auf über 1300 im Jahr 2025 erhöhen und damit die Abhängigkeit der Schweiz von Ärztinnen und Ärzten mit ausländischem Diplom verringern wird. Die Umsetzung des Sonderprogramms verläuft plangemäss. 2021 konnten bereits 1'088 Masterdiplome in Humanmedizin vergeben werden. Gleichzeitig wurden auch die Hausarztmedizin und die Interprofessionalität im Medizinstudium mit besonderen Massnahmen wesentlich verstärkt. Die vom SBFI 2022 durchgeführte Evaluation und das Schlussreporting 2021 von swissuniversities zum SPHM haben die aktuelle Zielerreichung bestätigt und geben dem Massnahmenpaket gute Noten. 2025 werden Bund und Kantone die abschliessende Zielerreichung prüfen.</p><p>Da die Anzahl Anmeldungen die Kapazitäten der universitären Hochschulen weiterhin deutlich übersteigen, beschränken diese in eigener Kompetenz den Zugang zum Medizinstudium mittels Eignungstest (EMS) und Numerus Clausus (Universitäten Basel, Bern, Freiburg, Tessin, Zürich und ETHZ) oder mittels Selektion nach dem ersten Studienjahr (Universitäten Genf, Lausanne und Neuenburg). Die Schweizerische Hochschulkonferenz (SHK), das höchste hochschulpolitische Organ der Schweiz, hat 2017, gestützt auf den Bericht des Schweizerischen Wissenschaftsrats (SWR, <a href=\"http://www.sbfi.admin.ch\">www.sbfi.admin.ch</a> =&gt; Publikationen =&gt; Publikationsdatenbank =&gt; Zulassungsverfahren für das Medizinstudium an den Universitäten mit Numerus clausus), den kognitiv orientierten Eignungstest (EMS) als geeignetes Instrument zur Selektion der Medizinstudierenden untersucht und bestätigt. Die Vor- und Nachteile verschiedener Selektionsmethoden (Praktika, Wissenstests, etc.) wurden untersucht und im Ergebnis bekräftigt, dass es sich beim EMS um einen für beide Geschlechter fairen, kosteneffizienten und validen Test zur Ermittlung der Studieneignung handelt, der zudem möglicherweise die soziale Selektivität verringert. Die Methode der Selektion nach dem ersten Studienjahr öffnet zwar den freien Zugang zum ersten Studienjahr, birgt aber u.a. hohe Kosten und Anforderungen bezüglich der notwendigen Infrastruktur. Beide Zulassungsarten orientieren sich damit weitgehend an den Kriterien von Kompetenz und Qualität.</p><p>Im Bereich der Weiterbildung ist festzuhalten, dass der Bund, wie auch im Ausbildungsbereich, über keine Kompetenzen verfügt, Weiterbildungsstätten zu verpflichten, eine bestimmte Anzahl an Weiterbildungsstellen festzulegen. Die Ausgestaltung der Lerninhalte und -formate der Weiterbildung erfolgt durch die Fachgesellschaften und das Schweizerische Institut für Weiter- und Fortbildung (SIWF). Der Bund beteiligt sich in spezifischen Arbeitsgruppen mit Stakeholdern des Gesundheitswesens an der Diskussion zur Qualität und zu innovativen Formaten der Weiterbildung.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

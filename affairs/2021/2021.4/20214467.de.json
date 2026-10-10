@@ -1,6 +1,6 @@
 {
   "id": 20214467,
-  "updated": "2021-12-23T15:33:31Z",
+  "updated": "2025-04-24T19:35:31Z",
   "additionalIndexing": "55;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,7 +41,51 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-13T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-03-11T00:00:00Z",
+            "text": "Annahme mit Änderung",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-05-30T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -54,7 +98,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-20T10:07:38Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3107,
+                    "gender": "m",
+                    "id": 4206,
+                    "name": "Ettlin Erich",
+                    "officialDenomination": "Ettlin Erich"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -70,8 +195,53 @@
       "states": [
         {
           "date": "/Date(1639522800000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1644966000000+0100)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1694556000000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1708383600000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1710111600000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1711148400000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1713823200000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1717020000000+0200)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -322,8 +492,8 @@
   ],
   "shortId": "21.4467",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
     "newKey": 0
   },
@@ -333,14 +503,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Die Schneckenzucht bildet einen neuen Zweig in der Landwirtschaft, der weltweit einen Aufschwung erlebt, in der Schweiz aber in der Landwirtschaftszone nicht erlaubt ist, weil Schnecken nicht als landwirtschaftliche Nutztiere gelten.</p><p>Artikel 3 Absatz 1 Buchstabe a des Landwirtschaftsgesetzes (LwG) und Artikel 27 der Landwirtschaftlichen Begriffsverordnung (LBV) nehmen die Schneckenproduktion von der Landwirtschaft aus, womit ja der Erhalt einer Baubewilligung für die Zucht dieser Tiere in der Landwirtschaftszone verunmöglicht wird.</p><p>Dieser neue Landwirtschaftszweig, der sauber und ökologisch nachhaltig ist, hat grosses Potenzial. Dies zeigt die Entwicklung in Italien: Die Produktion hat sich in nur fünf Jahren verdreifacht, die Branche beschäftigt mehr als 9000 Personen und der Umsatz ist um 350 Millionen Euro gestiegen (Linkiesta.it).</p><p>Momentan befinden sich die grossen Produktionsbetriebe in Rumänien, der Türkei und Indonesien. </p><p>Schnecken sind eine Tierart, die in verschiedenen Regionen der Schweiz seit Langem auf der Speisekarte steht, insbesondere im Tessin. Es ist daher nicht nachvollziehbar, warum sie nicht zu den Tieren gezählt werden, die gezüchtet werden können, um ein Einkommen zu erzielen.</p><p>Von der Landwirtschaft wird heute verlangt, dass sie sich diversifiziert und auch alternative Einkommensquellen entwickelt. Dass das Bundesrecht gleichzeitig die Schneckenzucht verhindert, steht dazu im Widerspruch: Nicht nur wird eine solche Weiterentwicklung behindert, sondern man verunmöglicht schlichtweg die Produktion eines köstlichen Lebensmittels mit langer kulinarischer Tradition.</p><p>In Bezug auf die Umwelt, die Raumplanung und die Landschaft ist die Schneckenzucht unproblematisch, da keine grossen Anlagen errichtet werden müssen; kleine mobile Gehege reichen aus. Das Schneckenfutter kann einfach vor Ort produziert werden; auch dafür braucht es nur wenig Platz und zu einem kleinen Teil können auch Pflanzenabfälle der Landwirtschaft genutzt werden.</p>"
+      "value": "<p>Die Schneckenzucht bildet einen neuen Zweig in der Landwirtschaft, der weltweit einen Aufschwung erlebt, in der Schweiz aber in der Landwirtschaftszone nicht erlaubt ist, weil Schnecken nicht als landwirtschaftliche Nutztiere gelten.</p><p>Artikel 3 Absatz 1 Buchstabe a des Landwirtschaftsgesetzes (LwG) und Artikel 27 der Landwirtschaftlichen Begriffsverordnung (LBV) nehmen die Schneckenproduktion von der Landwirtschaft aus, womit ja der Erhalt einer Baubewilligung für die Zucht dieser Tiere in der Landwirtschaftszone verunmöglicht wird.</p><p>Dieser neue Landwirtschaftszweig, der sauber und ökologisch nachhaltig ist, hat grosses Potenzial. Dies zeigt die Entwicklung in Italien: Die Produktion hat sich in nur fünf Jahren verdreifacht, die Branche beschäftigt mehr als 9000 Personen und der Umsatz ist um 350 Millionen Euro gestiegen (Linkiesta.it).</p><p>Momentan befinden sich die grossen Produktionsbetriebe in Rumänien, der Türkei und Indonesien. </p><p>Schnecken sind eine Tierart, die in verschiedenen Regionen der Schweiz seit Langem auf der Speisekarte steht, insbesondere im Tessin. Es ist daher nicht nachvollziehbar, warum sie nicht zu den Tieren gezählt werden, die gezüchtet werden können, um ein Einkommen zu erzielen.</p><p>Von der Landwirtschaft wird heute verlangt, dass sie sich diversifiziert und auch alternative Einkommensquellen entwickelt. Dass das Bundesrecht gleichzeitig die Schneckenzucht verhindert, steht dazu im Widerspruch: Nicht nur wird eine solche Weiterentwicklung behindert, sondern man verunmöglicht schlichtweg die Produktion eines köstlichen Lebensmittels mit langer kulinarischer Tradition.</p><p>In Bezug auf die Umwelt, die Raumplanung und die Landschaft ist die Schneckenzucht unproblematisch, da keine grossen Anlagen errichtet werden müssen; kleine mobile Gehege reichen aus. Das Schneckenfutter kann einfach vor Ort produziert werden; auch dafür braucht es nur wenig Platz und zu einem kleinen Teil können auch Pflanzenabfälle der Landwirtschaft genutzt werden.</p>"
     },
     {
       "type": {
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Die Landwirtschaft umfasst die Produktion verwertbarer Erzeugnisse aus Pflanzenbau und Nutztierhaltung (Art. 3 Abs. 1 Bst. a LwG; SR 910.1). Obwohl Schnecken in der Lebensmittelgesetzgebung als Lebensmittel tierischer Herkunft anerkannt werden, zählt deren Produktion nicht zur Landwirtschaft. Schnecken sind deshalb wie Insekten und Fische keine landwirtschaftlichen Nutztiere nach der Landwirtschaftsgesetzgebung (Art. 27 Landwirtschaftliche Begriffsverordnung; SR 910.91).</p><p>Der Bundesrat hat in der Botschaft zur Weiterentwicklung der Agrarpolitik ab 2022 (BBl 2020 3955) eine Erweiterung des Geltungsbereichs des Landwirtschaftsgesetzes vorgeschlagen. Für Erzeugnisse der Aquakultur (Fische, Krebse, Weichtiere), Algen, Insekten und weitere lebende Organismen, die keine verwertbaren Erzeugnisse aus Pflanzenbau und Nutztierhaltung sind, sollen bestimmte Massnahmen des Landwirtschaftsgesetzes (u.a. Strukturverbesserungs- und Absatzförderungsmassnahmen) angewendet werden können. Zu den \"weiteren lebenden Organismen\" gehören Schnecken. Der Bundesrat will damit die Produktion von nicht landwirtschaftlichen Nutztieren stärker fördern. Im Fall der Produktion von gebietsfremden Schnecken hat diese so zu erfolgen, dass dadurch weder Menschen, Tier und Umwelt gefährdet noch die biologische Vielfalt und deren nachhaltige Nutzung beeinträchtigt werden (Einschliessungsverordnung [ESV]; SR 814.912 und Freisetzungsverordnung [FrSV]; SR 814.911).</p><p>Das Raumplanungsrecht stellt hinsichtlich der landwirtschaftlichen Nutztiere grundsätzlich auf die Landwirtschaftsgesetzgebung ab. Raumplanungsrechtlich besteht daher auch aus Sicht des Bundesrats heute keine Grundlage für die Bewilligung kleiner Zäune auf freiem Feld, um dort Schnecken halten zu können. Soll dies geändert werden, so erscheint dem Bundesrat wichtig, möglichst wenig Vorgaben zu machen, auf welchem Weg diese Änderung erfolgen soll. Würde die Motion im Erstrat angenommen, behält sich der Bundesrat daher vor, in der Kommission des Zweitrats eine Änderung der Motion wie folgt zu beantragen (Art. 121 Abs. 3 Bst. b ParlG; SR 171.10): \"Der Bundesrat wird beauftragt, die notwendigen Gesetzes- und/oder Verordnungsanpassungen vorzunehmen, damit kleinere Anlagen, die für die Schneckenproduktion auf einem Landwirtschaftsbetrieb notwendig sind, bewilligt werden können. \"</p>"
+      "value": "<p>Die Landwirtschaft umfasst die Produktion verwertbarer Erzeugnisse aus Pflanzenbau und Nutztierhaltung (Art. 3 Abs. 1 Bst. a LwG; SR 910.1). Obwohl Schnecken in der Lebensmittelgesetzgebung als Lebensmittel tierischer Herkunft anerkannt werden, zählt deren Produktion nicht zur Landwirtschaft. Schnecken sind deshalb wie Insekten und Fische keine landwirtschaftlichen Nutztiere nach der Landwirtschaftsgesetzgebung (Art. 27 Landwirtschaftliche Begriffsverordnung; SR 910.91).</p><p>Der Bundesrat hat in der Botschaft zur Weiterentwicklung der Agrarpolitik ab 2022 (BBl 2020 3955) eine Erweiterung des Geltungsbereichs des Landwirtschaftsgesetzes vorgeschlagen. Für Erzeugnisse der Aquakultur (Fische, Krebse, Weichtiere), Algen, Insekten und weitere lebende Organismen, die keine verwertbaren Erzeugnisse aus Pflanzenbau und Nutztierhaltung sind, sollen bestimmte Massnahmen des Landwirtschaftsgesetzes (u.a. Strukturverbesserungs- und Absatzförderungsmassnahmen) angewendet werden können. Zu den \"weiteren lebenden Organismen\" gehören Schnecken. Der Bundesrat will damit die Produktion von nicht landwirtschaftlichen Nutztieren stärker fördern. Im Fall der Produktion von gebietsfremden Schnecken hat diese so zu erfolgen, dass dadurch weder Menschen, Tier und Umwelt gefährdet noch die biologische Vielfalt und deren nachhaltige Nutzung beeinträchtigt werden (Einschliessungsverordnung [ESV]; SR 814.912 und Freisetzungsverordnung [FrSV]; SR 814.911).</p><p>Das Raumplanungsrecht stellt hinsichtlich der landwirtschaftlichen Nutztiere grundsätzlich auf die Landwirtschaftsgesetzgebung ab. Raumplanungsrechtlich besteht daher auch aus Sicht des Bundesrats heute keine Grundlage für die Bewilligung kleiner Zäune auf freiem Feld, um dort Schnecken halten zu können. Soll dies geändert werden, so erscheint dem Bundesrat wichtig, möglichst wenig Vorgaben zu machen, auf welchem Weg diese Änderung erfolgen soll. Würde die Motion im Erstrat angenommen, behält sich der Bundesrat daher vor, in der Kommission des Zweitrats eine Änderung der Motion wie folgt zu beantragen (Art. 121 Abs. 3 Bst. b ParlG; SR 171.10): \"Der Bundesrat wird beauftragt, die notwendigen Gesetzes- und/oder Verordnungsanpassungen vorzunehmen, damit kleinere Anlagen, die für die Schneckenproduktion auf einem Landwirtschaftsbetrieb notwendig sind, bewilligt werden können. \"</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

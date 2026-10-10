@@ -1,6 +1,6 @@
 {
   "id": 20224278,
-  "updated": "2023-03-09T12:59:05Z",
+  "updated": "2025-02-16T13:30:54Z",
   "additionalIndexing": "08;1236;28",
   "affairType": {
     "abbreviation": "Mo.",
@@ -12,7 +12,7 @@
       "abbreviation": "CPE-CN",
       "id": 4,
       "name": "Commissione della politica estera CN",
-      "abbreviation1": "CPE-CN",
+      "abbreviation1": "CPE-N",
       "abbreviation2": "CPE",
       "committeeNumber": 4,
       "council": {
@@ -57,6 +57,36 @@
             "date": "2023-03-09T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-09-28T00:00:00Z",
+            "text": "La mozione è adottata con la modifica seguente: Il Consiglio federale è incaricato di adottare misure ragionevoli e appropriate per sostenere la società civile iraniana nella lotta per i diritti delle donne e i diritti umani.",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-06-04T00:00:00Z",
+            "text": "Adesione",
+            "type": 3
           }
         ]
       },
@@ -72,10 +102,50 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-05-14T15:15:29Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3017,
+                    "gender": "f",
+                    "id": 4101,
+                    "name": "Bulliard-Marbach Christine",
+                    "officialDenomination": "Bulliard"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CPE-CN",
             "id": 4,
             "name": "Commissione della politica estera CN",
-            "abbreviation1": "CPE-CN",
+            "abbreviation1": "CPE-N",
             "abbreviation2": "CPE",
             "committeeNumber": 4,
             "council": {
@@ -98,37 +168,11 @@
                     "type": "N"
                   },
                   "councillor": {
-                    "code": 3189,
-                    "gender": "m",
-                    "id": 4297,
-                    "name": "Walder Nicolas",
-                    "officialDenomination": "Walder"
-                  },
-                  "faction": {
-                    "abbreviation": "Gruppo G",
-                    "id": 6,
-                    "name": "Gruppo dei Verdi"
-                  },
-                  "language": "fr"
-                },
-                {
-                  "council": {
-                    "abbreviation": "CN",
-                    "id": 1,
-                    "name": "Consiglio nazionale",
-                    "type": "N"
-                  },
-                  "councillor": {
                     "code": 3124,
                     "gender": "m",
                     "id": 4223,
                     "name": "Molina Fabian",
                     "officialDenomination": "Molina"
-                  },
-                  "faction": {
-                    "abbreviation": "Gruppo S",
-                    "id": 2,
-                    "name": "Gruppo socialista"
                   },
                   "language": "de"
                 }
@@ -142,7 +186,7 @@
             "abbreviation": "CPE-CS",
             "id": 17,
             "name": "Commissione della politica estera CS",
-            "abbreviation1": "CPE-CS",
+            "abbreviation1": "CPE-S",
             "abbreviation2": "CPE",
             "committeeNumber": 17,
             "council": {
@@ -155,7 +199,32 @@
           },
           "date": "2022-11-22T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2694,
+                    "gender": "m",
+                    "id": 3891,
+                    "name": "Jositsch Daniel",
+                    "officialDenomination": "Jositsch"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo S",
+                    "id": 2,
+                    "name": "Gruppo socialista"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5122"
+            }
           ]
         }
       ],
@@ -178,8 +247,23 @@
         },
         {
           "date": "/Date(1678316400000+0100)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1717452000000+0200)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
         }
       ],
       "texts": [
@@ -206,7 +290,7 @@
         "abbreviation": "CPE-CN",
         "id": 4,
         "name": "Commissione della politica estera CN",
-        "abbreviation1": "CPE-CN",
+        "abbreviation1": "CPE-N",
         "abbreviation2": "CPE",
         "committeeNumber": 4,
         "council": {
@@ -222,10 +306,9 @@
   ],
   "shortId": "22.4278",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 209,
+    "name": "Trasmesso al Consiglio federale",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -234,7 +317,7 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>Il Consiglio federale condanna l'uso della forza da parte delle forze di sicurezza iraniane nel quadro delle proteste. La Svizzera ha reagito ai recenti sviluppi in Iran con diversi interventi diplomatici a livello bilaterale e multilaterale. Il Dipartimento federale degli affari esteri (DFAE) ha condannato più volte l'uso sproporzionato della forza da parte delle forze di sicurezza iraniane e in diverse occasioni ha sollecitato l'Iran a rispettare i diritti umani, in particolare i diritti delle donne e delle bambine e il diritto alla vita e alla libertà di espressione. Nel 2022, l'allora presidente della Confederazione Ignazio Cassis è intervenuto personalmente due volte presso il presidente Raisi. Viste le gravi e persistenti violazioni dei diritti umani nel quadro delle proteste, la Svizzera ha sostenuto una risoluzione sull'Iran che è stata adottata in occasione della sessione straordinaria del Consiglio dei diritti umani dell'ONU il 24 novembre 2022. Tale risoluzione prevede l'istituzione di una missione d'inchiesta incaricata di documentare le violazioni dei diritti umani e raccogliere prove.</p><p>Il DFAE porta inoltre avanti un dialogo sui diritti umani con l'Iran, sfruttando i suoi contatti con le autorità iraniane. Nel quadro di questo dialogo vengono discussi apertamente i singoli casi, in particolare riguardanti i difensori dei diritti umani e le persone condannate a morte nonostante fossero minorenni al momento della perpetrazione del reato, che vengono affrontati anche in occasione di incontri bilaterali di alto livello.</p><p>Il sostegno diretto a organizzazioni della società civile che si battono per i diritti umani comporta attualmente un rischio elevato a causa delle possibili ritorsioni. La Svizzera si attiene al principio di precauzione, pertanto porta avanti il suo impegno per i diritti umani in Iran in collaborazione con le organizzazioni internazionali. In Iran il DFAE sostiene concretamente progetti dell'UNICEF e dell'Alto Commissariato dell'ONU per i diritti umani nel settore della giustizia minorile finalizzati tra le altre cose a migliorare l'accesso alla giustizia per i minorenni, comprese le ragazze, e a ottenere una moratoria sull'esecuzione di persone che al momento della perpetrazione del reato erano minorenni. L'Ambasciata di Svizzera a Teheran sostiene anche progetti di ONG nei settori dello sviluppo, dell'aiuto umanitario e della sicurezza umana a beneficio della popolazione iraniana.</p><p>D'intesa con il DFAE, il Dipartimento federale dell'economia, della formazione e della ricerca (DEFR), che è responsabile delle sanzioni, a inizio novembre ha deciso di adottare le ultime sanzioni dell'UE a carico dell'Iran riguardanti la fornitura di droni alla Russia, ma non quelle connesse alle proteste in Iran. La decisione di non aderire a queste sanzioni è stata presa tenendo conto di tutti gli interessi di politica interna ed estera della Svizzera, tra cui rientrano anche i buoni uffici del nostro Paese in Iran. La Svizzera intende portare avanti un dialogo critico con il Governo iraniano. Il Consiglio federale ritiene che la Svizzera possa impegnarsi in maniera diretta e credibile in favore dei diritti umani e della stabilità nella regione sulla base dei suoi mandati in qualità di potenza protettrice e del ruolo particolare che assume in questa veste nei confronti dell'Iran. Il Consiglio federale è del parere che, nell'attuale difficile situazione, questo ruolo abbia un maggiore peso rispetto al possibile effetto di ulteriori sanzioni, tanto più che sull'Iran gravano già pesanti sanzioni e la Svizzera le ha già adottate quasi interamente. Soppesare i vantaggi e gli svantaggi di questa politica è uno dei compiti fondamentali della politica estera che va puntualmente rifatto.</p>"
+      "value": "<p>Il Consiglio federale condanna l'uso della forza da parte delle forze di sicurezza iraniane nel quadro delle proteste. La Svizzera ha reagito ai recenti sviluppi in Iran con diversi interventi diplomatici a livello bilaterale e multilaterale. Il Dipartimento federale degli affari esteri (DFAE) ha condannato più volte l'uso sproporzionato della forza da parte delle forze di sicurezza iraniane e in diverse occasioni ha sollecitato l'Iran a rispettare i diritti umani, in particolare i diritti delle donne e delle bambine e il diritto alla vita e alla libertà di espressione. Nel 2022, l'allora presidente della Confederazione Ignazio Cassis è intervenuto personalmente due volte presso il presidente Raisi. Viste le gravi e persistenti violazioni dei diritti umani nel quadro delle proteste, la Svizzera ha sostenuto una risoluzione sull'Iran che è stata adottata in occasione della sessione straordinaria del Consiglio dei diritti umani dell'ONU il 24 novembre 2022. Tale risoluzione prevede l'istituzione di una missione d'inchiesta incaricata di documentare le violazioni dei diritti umani e raccogliere prove.</p><p>Il DFAE porta inoltre avanti un dialogo sui diritti umani con l'Iran, sfruttando i suoi contatti con le autorità iraniane. Nel quadro di questo dialogo vengono discussi apertamente i singoli casi, in particolare riguardanti i difensori dei diritti umani e le persone condannate a morte nonostante fossero minorenni al momento della perpetrazione del reato, che vengono affrontati anche in occasione di incontri bilaterali di alto livello.</p><p>Il sostegno diretto a organizzazioni della società civile che si battono per i diritti umani comporta attualmente un rischio elevato a causa delle possibili ritorsioni. La Svizzera si attiene al principio di precauzione, pertanto porta avanti il suo impegno per i diritti umani in Iran in collaborazione con le organizzazioni internazionali. In Iran il DFAE sostiene concretamente progetti dell'UNICEF e dell'Alto Commissariato dell'ONU per i diritti umani nel settore della giustizia minorile finalizzati tra le altre cose a migliorare l'accesso alla giustizia per i minorenni, comprese le ragazze, e a ottenere una moratoria sull'esecuzione di persone che al momento della perpetrazione del reato erano minorenni. L'Ambasciata di Svizzera a Teheran sostiene anche progetti di ONG nei settori dello sviluppo, dell'aiuto umanitario e della sicurezza umana a beneficio della popolazione iraniana.</p><p>D'intesa con il DFAE, il Dipartimento federale dell'economia, della formazione e della ricerca (DEFR), che è responsabile delle sanzioni, a inizio novembre ha deciso di adottare le ultime sanzioni dell'UE a carico dell'Iran riguardanti la fornitura di droni alla Russia, ma non quelle connesse alle proteste in Iran. La decisione di non aderire a queste sanzioni è stata presa tenendo conto di tutti gli interessi di politica interna ed estera della Svizzera, tra cui rientrano anche i buoni uffici del nostro Paese in Iran. La Svizzera intende portare avanti un dialogo critico con il Governo iraniano. Il Consiglio federale ritiene che la Svizzera possa impegnarsi in maniera diretta e credibile in favore dei diritti umani e della stabilità nella regione sulla base dei suoi mandati in qualità di potenza protettrice e del ruolo particolare che assume in questa veste nei confronti dell'Iran. Il Consiglio federale è del parere che, nell'attuale difficile situazione, questo ruolo abbia un maggiore peso rispetto al possibile effetto di ulteriori sanzioni, tanto più che sull'Iran gravano già pesanti sanzioni e la Svizzera le ha già adottate quasi interamente. Soppesare i vantaggi e gli svantaggi di questa politica è uno dei compiti fondamentali della politica estera che va puntualmente rifatto.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

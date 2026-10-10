@@ -1,6 +1,6 @@
 {
   "id": 20230438,
-  "updated": "2023-06-21T16:26:33Z",
+  "updated": "2024-09-09T18:46:54Z",
   "additionalIndexing": "34;1236;12",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -8,11 +8,6 @@
     "name": "Iniziativa parlamentare"
   },
   "author": {
-    "faction": {
-      "abbreviation": "Gruppo G",
-      "id": 6,
-      "name": "Gruppo dei Verdi"
-    },
     "type": "author"
   },
   "deposit": {
@@ -33,7 +28,46 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "committee": {
+              "abbreviation": "CIP-CN",
+              "id": 11,
+              "name": "Commissione delle istituzioni politiche CN",
+              "abbreviation1": "CIP-N",
+              "abbreviation2": "CIP",
+              "committeeNumber": 11,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Consiglio nazionale",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2024-05-16T00:00:00Z",
+            "text": "Non dare seguito (Camera prioritaria)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-09-09T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -43,24 +77,138 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-05-17T17:47:06Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2715,
+                    "gender": "m",
+                    "id": 3912,
+                    "name": "Wasserfallen Christian",
+                    "officialDenomination": "Wasserfallen Christian"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CIP-CS",
+            "id": 24,
+            "name": "Commissione delle istituzioni politiche CS",
+            "abbreviation1": "CIP-S",
+            "abbreviation2": "CIP",
+            "committeeNumber": 24,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CIP-CN",
+            "id": 11,
+            "name": "Commissione delle istituzioni politiche CN",
+            "abbreviation1": "CIP-N",
+            "abbreviation2": "CIP",
+            "committeeNumber": 11,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1686780000000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1692914400000+0200)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1710975600000+0100)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1715896800000+0200)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1725573600000+0200)/",
+          "id": 205,
+          "name": "Pianificato nel Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1725832800000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -83,39 +231,48 @@
   ],
   "roles": [
     {
-      "faction": {
-        "abbreviation": "Gruppo G",
-        "id": 6,
-        "name": "Gruppo dei Verdi"
-      },
       "type": "author"
     },
     {
       "councillor": {
-        "code": 3223,
-        "gender": "f",
-        "id": 4328,
-        "name": "Imboden Natalie",
-        "officialDenomination": "Imboden"
+        "code": 3003,
+        "gender": "m",
+        "id": 4093,
+        "name": "Glättli Balthasar",
+        "officialDenomination": "Glättli"
       },
       "type": "speaker"
     }
   ],
   "shortId": "23.438",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>A seguito della digitalizzazione e in particolare dell’automatizzazione di processi e procedure, le decisioni umane si fondano in misura crescente su sistemi di algoritmi. In questo contesto si distinguono diversi livelli di automatizzazione:</p><p>a. i sistemi completamente automatizzati eseguono tutte le fasi fino alla decisione senza alcun intervento umano;</p><p>b. i sistemi parzialmente automatizzati possono invece agevolare la decisione e l’accertamento dei fatti. Un sistema di questo tipo è ad esempio in grado di raccogliere informazioni, compilarle e/o valutarle. A questo punto la persona che prende la decisione può, ma non deve necessariamente, tenere conto dei risultati così generati. La decisione finale è quindi presa da un essere umano.</p><p>L’impiego dell’IA è (teoricamente) immaginabile sia nei sistemi completamente automatizzati sia in quelli parzialmente automatizzati. È tuttavia verosimile che l’IA sarà più spesso impiegata nelle procedure parzialmente automatizzate (in particolare come aiuto decisionale) che in quelle senza alcun intervento umano.</p><p>Per la persona interessata le conseguenze di una decisione parzialmente automatizzata basata sull’IA possono però essere serie quanto quelle di una decisione completamente automatizzata.</p><p>La nuova legge del 25&nbsp;settembre 2020 sulla protezione dei dati prevede l’obbligo di designazione specifico e conferisce determinati diritti alla persona interessata solo in relazione alle decisioni completamente automatizzate (art.&nbsp;21 nLPD), una situazione insoddisfacente alla luce delle sfide poste dall’IA. L’introduzione di un nuovo articolo 21bis è quindi opportuna. Il concetto di «intelligenza artificiale» non è ancora chiaramente definito, ma lo sarà presto nel quadro di una proposta di regolamento sull’IA dell’Unione europea e di una convenzione sull’IA del Consiglio d’Europa.&nbsp;</p><p>&nbsp;</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>La legge federale del 25&nbsp;settembre&nbsp;2020 sulla protezione dei dati è completata dall’articolo&nbsp;21bis, che ha il tenore seguente:&nbsp;</p><p>Articolo&nbsp;21bis Obbligo di informare sull’impiego dell’intelligenza artificiale (IA)&nbsp;</p><p>1. Il titolare del trattamento informa la persona interessata di ogni decisione basata in misura determinante sull’intelligenza artificiale che abbia per lei effetti giuridici o conseguenze significative (decisione individuale basata sull’IA).</p><p>2. Il titolare del trattamento dà su richiesta della persona interessata la possibilità di esprimere un parere. Se la persona interessata lo esige, la decisione individuale basata sull’IA va riesaminata da una persona fisica.</p><p>3. I capoversi&nbsp;1 e 2 non si applicano se:</p><p>a. la decisione individuale basata sull’IA è in relazione diretta con la conclusione o l’esecuzione di un contratto tra il titolare del trattamento e la persona interessata e la richiesta di quest’ultima è soddisfatta; o&nbsp;</p><p>b. la persona interessata ha dato il suo espresso consenso a che la decisione sia presa impiegando l’IA.</p><p>4. Se la decisione individuale basata sull’IA è presa da un organo federale, questi la designa come tale. Il capoverso&nbsp;2 non si applica nei casi in cui in virtù dell’articolo&nbsp;30 capoverso&nbsp;2 della legge federale del 20&nbsp;dicembre&nbsp;1968&nbsp;sulla procedura amministrativa (PA) o di un’altra legge federale l’organo federale non è tenuto a sentire la persona interessata prima di prendere la decisione.&nbsp;</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Adeguare la legislazione in materia di protezione dei dati prevedendo un disciplinamento per le decisioni parzialmente automatizzate basate sull'intelligenza artificiale "
     }
   ],
-  "title": "Titolo segue"
+  "title": "Adeguare la legislazione in materia di protezione dei dati prevedendo un disciplinamento per le decisioni parzialmente automatizzate basate sull'intelligenza artificiale "
 }

@@ -1,6 +1,6 @@
 {
   "id": 20223977,
-  "updated": "2022-09-23T07:25:02Z",
+  "updated": "2025-04-24T19:29:28Z",
   "additionalIndexing": "24;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,177 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-02-28T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-03-17T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-23T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CET-CN",
+            "id": 10,
+            "name": "Commissione dell'economia e dei tributi CN",
+            "abbreviation1": "CET-N",
+            "abbreviation2": "CET",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-01-31T17:20:04Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3107,
+                    "gender": "m",
+                    "id": 4206,
+                    "name": "Ettlin Erich",
+                    "officialDenomination": "Ettlin Erich"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CS",
+            "id": 23,
+            "name": "Commissione dell'economia e dei tributi CS",
+            "abbreviation1": "CET-S",
+            "abbreviation2": "CET",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Dipartimento dell'economia, della formazione e della ricerca",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1663797600000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1669158000000+0100)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1709074800000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1726524000000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1738278000000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1742166000000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -85,6 +233,11 @@
       "id": 20223976,
       "priorityCode": "N",
       "shortId": "22.3976"
+    },
+    {
+      "id": 20253020,
+      "priorityCode": "S",
+      "shortId": "25.3020"
     }
   ],
   "roles": [
@@ -94,7 +247,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -184,7 +337,7 @@
         "gender": "m",
         "id": 4190,
         "name": "Dobler Marcel",
-        "officialDenomination": "Dobler"
+        "officialDenomination": "Dobler Marcel"
       },
       "type": "cosign"
     },
@@ -316,10 +469,10 @@
   ],
   "shortId": "22.3977",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -328,6 +481,13 @@
         "name": "Motivazione"
       },
       "value": "<p>Con le nuove carte di debito VISA e Mastercard, le imprese che utilizzano questo mezzo di pagamento (negozi, ristoranti, alberghi, società di servizi, ecc.) dovranno pagare commissioni più elevate rispetto a quelle attualmente in vigore per le carte Maestro. Mentre quest'ultima preleva circa 26 centesimi per transazione, le carte di debito VISA e Mastercard addebitano un importo di base e aggiungono una percentuale di commissione sulla transazione.</p><p>Dopo l'intervento di Mister Prezzi questi importi sono stati limitati rispettivamente a 3,50 franchi e 2 franchi; rimangono tuttavia ancora troppo elevati per molte PMI che si trovano a dover affrontare situazioni critiche quali inflazione, aumento dei prezzi dell'elettricità, difficoltà di approvvigionamento ecc. La loro disponibilità economica è infatti sempre più ridotta.</p><p>Inoltre, gli importi relativi a commissioni interbancarie recentemente introdotti riguardano VISA e Mastercard, ma non le carte maestro. Si tratta di spese che vengono pagate all'emittente della carta di debito (issuer) dal cosiddetto acquirer, che finisce tuttavia per trasferirle ai suoi clienti (i commercianti).</p><p>La COMCO aveva autorizzato l'introduzione di tali commissioni per un periodo di tre anni e cioè fintanto che le carte non avessero coperto il 15 % del mercato. Tuttavia, è chiaro che sono state distribuite ben oltre questo limite. Per far sì che vengano verificate e rispettate le regole stabilite dalla COMCO è quindi necessario richiedere la pubblicazione delle cifre relative alle quote di mercato.</p><p>A titolo di confronto, nell'Unione Europea le commissioni interbancarie sono soggette a una rigida regolamentazione (art. 3 par. 1 regolamento [UE] 2015/751) che prevede un limite massimo dello 0,2 % del valore della transazione.</p><p>In questo contesto, la presente mozione invita il Consiglio federale a proporre un disegno di atto normativo per l'abolizione delle commissioni interbancarie con l'obiettivo di limitare i tassi di commissione delle singole carte di debito.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Per commissioni interbancarie (interchange fees) si intendono le commissioni pagate dalla banca del commerciante (acquirer) alla banca dell'emittente (issuer). La forma di questo rapporto contrattuale viene definita dalle parti. Se il contratto limita la concorrenza efficace, si applica il diritto svizzero in materia di concorrenza, in particolare la legge sui cartelli (LCart; RS 251) e la legge federale sulla sorveglianza dei prezzi (LSPr; RS 942.20). La Commissione della concorrenza (COMCO), la sua segreteria e la Sorveglianza dei prezzi (SPr) sono i principali responsabili dell'applicazione delle disposizioni in materia.</p><p>Come affermato nella risposta all'interpellanza De Quattro <a href=\"https://www.parlament.ch/it/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20213570\">21.3570</a> (\"Le nuove carte di debito penalizzano consumatori e piccoli commercianti\") e nel parere alla mozione Hurni <a href=\"https://www.parlament.ch/it/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20213637\">21.3637</a> (\"Emittenti di carte di pagamento. Limitarne i ricavati a carico delle PMI\"), il Consiglio federale ritiene che le attuali disposizioni del diritto in materia di concorrenza permettano già di contrastare le commissioni interbancarie abusive applicate ai pagamenti con carte di debito. Sottolinea inoltre che la COMCO e la SPr sono già intervenute in diverse occasioni nel settore del traffico dei pagamenti con carta e monitorano costantemente l'evoluzione della situazione del mercato. Si tratta di un approccio in grado di garantire che i complessi rapporti di diritto privato possano essere analizzati caso per caso - come in questa fattispecie - e che vengano tenuti in considerazione diversi interessi e incentivi. A ottobre 2022 la COMCO, in collaborazione con la sua segreteria, ha aperto un'inchiesta preliminare sulle interchange fees per le carte di debito con l'obiettivo di trovare una regolamentazione che subentri alle tariffe finora in vigore, introdotte nella fase di introduzione sul mercato. Ha inoltre permesso di rimarcare il fatto che, a seconda della situazione contingente, le autorità competenti possono intervenire in qualsiasi momento e in modo mirato.</p><p>Per tutti questi motivi, il Consiglio federale ritiene che le possibilità di intervento previste dal diritto in materia di concorrenza siano sufficienti e che non sia quindi necessario un disegno di atto normativo che vieti le commissioni interbancarie per le carte di debito.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

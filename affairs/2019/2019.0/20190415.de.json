@@ -1,6 +1,6 @@
 {
   "id": 20190415,
-  "updated": "2023-04-18T10:12:08Z",
+  "updated": "2025-04-09T00:02:36Z",
   "additionalIndexing": "04;28",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -65,7 +65,7 @@
               "abbreviation": "SPK-SR",
               "id": 24,
               "name": "Staatspolitische Kommission SR",
-              "abbreviation1": "SPK-SR",
+              "abbreviation1": "SPK-S",
               "abbreviation2": "SPK",
               "committeeNumber": 24,
               "council": {
@@ -99,7 +99,7 @@
             "abbreviation": "SPK-NR",
             "id": 11,
             "name": "Staatspolitische Kommission NR",
-            "abbreviation1": "SPK-NR",
+            "abbreviation1": "SPK-N",
             "abbreviation2": "SPK",
             "committeeNumber": 11,
             "council": {
@@ -157,7 +157,7 @@
             "abbreviation": "SPK-SR",
             "id": 24,
             "name": "Staatspolitische Kommission SR",
-            "abbreviation1": "SPK-SR",
+            "abbreviation1": "SPK-S",
             "abbreviation2": "SPK",
             "committeeNumber": 24,
             "council": {
@@ -175,14 +175,20 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
@@ -197,8 +203,28 @@
         },
         {
           "date": "/Date(1612134000000+0100)/",
-          "id": 1,
-          "name": "Folge gegeben"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1612220400000+0100)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1612306800000+0100)/",
+          "id": 225,
+          "name": "Vorprüfung - in Kommission des Ständerates"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1709074800000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -220,8 +246,38 @@
               "type": "N"
             },
             "date": "2022-03-16T00:00:00Z",
-            "text": "Rückweisung an die Kommission",
-            "type": 33
+            "text": "Keine Abschreibung",
+            "type": 59
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-06-12T00:00:00Z",
+            "text": "Keine Abschreibung",
+            "type": 59
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-02-28T00:00:00Z",
+            "text": "Abschreibung",
+            "type": 15
           }
         ]
       },
@@ -229,15 +285,59 @@
       },
       "index": 1,
       "links": [
-
+        {
+          "date": "/Date(1693346400000+0200)/",
+          "title": "Vernehmlassung",
+          "url": "https://www.parlament.ch/de/organe/kommissionen/sachbereichskommissionen/kommissionen-spk/berichte-vernehmlassungen-spk/vernehmlassung-spk-19-415"
+        }
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-12T17:23:28Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2715,
+                    "gender": "m",
+                    "id": 3912,
+                    "name": "Wasserfallen Christian",
+                    "officialDenomination": "Wasserfallen Christian"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
         {
           "committee": {
             "abbreviation": "SPK-NR",
             "id": 11,
             "name": "Staatspolitische Kommission NR",
-            "abbreviation1": "SPK-NR",
+            "abbreviation1": "SPK-N",
             "abbreviation2": "SPK",
             "committeeNumber": 11,
             "council": {
@@ -252,22 +352,12 @@
           "registrations": [
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "NR",
-                    "id": 1,
-                    "name": "Nationalrat",
-                    "type": "N"
-                  },
-                  "councillor": {
-                    "code": 3055,
-                    "gender": "m",
-                    "id": 4154,
-                    "name": "Addor Jean-Luc",
-                    "officialDenomination": "Addor"
-                  },
-                  "language": "fr"
-                },
+
+              ],
+              "sessionId": "5112"
+            },
+            {
+              "correspondents": [
                 {
                   "council": {
                     "abbreviation": "NR",
@@ -283,13 +373,23 @@
                     "officialDenomination": "Fluri"
                   },
                   "language": "de"
+                },
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3207,
+                    "gender": "m",
+                    "id": 4311,
+                    "name": "Marchesi Piero",
+                    "officialDenomination": "Marchesi"
+                  },
+                  "language": "it"
                 }
-              ],
-              "sessionId": "5112"
-            },
-            {
-              "correspondents": [
-
               ],
               "sessionId": "5121"
             }
@@ -301,7 +401,7 @@
             "abbreviation": "SPK-SR",
             "id": 24,
             "name": "Staatspolitische Kommission SR",
-            "abbreviation1": "SPK-SR",
+            "abbreviation1": "SPK-S",
             "abbreviation2": "SPK",
             "committeeNumber": 24,
             "council": {
@@ -315,7 +415,8 @@
           "date": "2019-03-21T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "IIIb/IV"
         }
       ],
       "references": [
@@ -323,9 +424,9 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlament",
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
           "leading": true
         }
       ],
@@ -337,8 +438,28 @@
         },
         {
           "date": "/Date(1647385200000+0100)/",
-          "id": 2,
-          "name": "Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1647471600000+0100)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1647558000000+0100)/",
+          "id": 225,
+          "name": "Vorprüfung - in Kommission des Ständerates"
+        },
+        {
+          "date": "/Date(1696975200000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1709074800000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -452,22 +573,6 @@
     },
     {
       "councillor": {
-        "code": 3058,
-        "gender": "f",
-        "id": 4184,
-        "name": "Arslan Sibel",
-        "officialDenomination": "Arslan"
-      },
-      "faction": {
-        "abbreviation": "Fraktion G",
-        "code": "G",
-        "id": 6,
-        "name": "Grüne Fraktion"
-      },
-      "type": "author"
-    },
-    {
-      "councillor": {
         "code": 3086,
         "gender": "f",
         "id": 4186,
@@ -505,12 +610,28 @@
         "officialDenomination": "Marti Samira"
       },
       "type": "cosign"
+    },
+    {
+      "councillor": {
+        "code": 3058,
+        "gender": "f",
+        "id": 4184,
+        "name": "Arslan Sibel",
+        "officialDenomination": "Arslan"
+      },
+      "faction": {
+        "abbreviation": "Fraktion G",
+        "code": "G",
+        "id": 6,
+        "name": "Grüne Fraktion"
+      },
+      "type": "author"
     }
   ],
   "shortId": "19.415",
   "state": {
-    "id": 1,
-    "name": "Folge gegeben",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },

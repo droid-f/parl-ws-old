@@ -1,6 +1,6 @@
 {
   "id": 20223037,
-  "updated": "2022-03-01T15:39:36Z",
+  "updated": "2025-04-24T19:24:14Z",
   "additionalIndexing": "15;55",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,7 +40,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-20T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-09-23T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -53,7 +82,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CET-CN",
+            "id": 10,
+            "name": "Commissione dell'economia e dei tributi CN",
+            "abbreviation1": "CET-N",
+            "abbreviation2": "CET",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CS",
+            "id": 23,
+            "name": "Commissione dell'economia e dei tributi CS",
+            "abbreviation1": "CET-S",
+            "abbreviation2": "CET",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-07-01T12:25:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2632,
+                    "gender": "m",
+                    "id": 1120,
+                    "name": "Sommaruga Carlo",
+                    "officialDenomination": "Sommaruga Carlo"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -69,8 +179,28 @@
       "states": [
         {
           "date": "/Date(1646089200000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1652824800000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1719784800000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1727042400000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -89,7 +219,11 @@
     }
   ],
   "relatedAffairs": [
-
+    {
+      "id": 20243814,
+      "priorityCode": "S",
+      "shortId": "24.3814"
+    }
   ],
   "roles": [
     {
@@ -98,7 +232,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -350,8 +484,8 @@
   ],
   "shortId": "22.3037",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
     "newKey": 0
   },
@@ -361,7 +495,7 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>L'uso della denominazione Gruyère negli Stati Uniti è oggetto di procedimenti da molti anni. Da un lato, oltreoceano non esiste un sistema equivalente a quelli svizzero ed europeo delle denominazioni d'origine protette (DOP) e delle indicazioni geografiche protette (IGP), per cui si applica il diritto sui marchi. Dall'altro, gli attori che si fregiano della denominazione per formaggi prodotti negli Stati Uniti o importati da Paesi diversi dalla Svizzera e dalla Francia si rifiutano di porre fine a questo uso.</p><p>Il Consiglio federale comprende quindi pienamente la preoccupazione espressa nella mozione e si impegna da decenni per una migliore protezione delle indicazioni geografiche (IG) svizzere all'estero. Per questo motivo, la Svizzera ha aderito all'Atto di Ginevra dell'Accordo di Lisbona entrato in vigore il 1° dicembre 2021.</p><p>La partecipazione del nostro Paese a questo sistema internazionale di registrazione e protezione delle IG permette ai beneficiari delle DOP e IGP elvetiche di ottenere la protezione delle loro denominazioni attraverso una procedura unica, semplice e poco costosa presso l'Organizzazione mondiale della proprietà intellettuale (OMPI). Inoltre, la Svizzera punta costantemente alla protezione reciproca delle IG nell'ambito dei negoziati su accordi bilaterali e commerciali, sulla base di liste di IG, con Paesi che non hanno ancora aderito all'Atto di Ginevra, come i membri del Mercosur o la Moldavia. Questa strategia è in linea con il testo della mozione 12.3642 \"Il Consiglio federale è incaricato di regolamentare d'ora in poi l'utilizzo delle denominazioni di provenienza geografica al momento della firma degli accordi commerciali ed economici bilaterali e di quelli di libero scambio\".</p><p>Va ricordato, tuttavia, che il risultato dei negoziati dipende sempre dalle ambizioni di tutte le parti, compresi i partner della Svizzera in seno all'Associazione europea di libero scambio (AELS), nonché da tutti gli aspetti considerati in un accordo commerciale.</p><p>Infine, è importante rilevare che la Svizzera non dispone di un accordo commerciale preferenziale con gli Stati Uniti né ha intavolato negoziati con questo Paese per concluderne uno. Pertanto, in assenza di una protezione della DOP Gruyère attraverso un accordo internazionale, la questione se la DOP debba essere considerata una IG degna di protezione o generica negli Stati Uniti è lasciata alla discrezione dei tribunali americani, conformemente al principio di territorialità.</p><p>Sulla base della mozione 12.3642, accolta dal Parlamento, il Consiglio federale ritiene che l'obiettivo della presente mozione sia già stato raggiunto.</p>"
+      "value": "<p>L'uso della denominazione Gruyère negli Stati Uniti è oggetto di procedimenti da molti anni. Da un lato, oltreoceano non esiste un sistema equivalente a quelli svizzero ed europeo delle denominazioni d'origine protette (DOP) e delle indicazioni geografiche protette (IGP), per cui si applica il diritto sui marchi. Dall'altro, gli attori che si fregiano della denominazione per formaggi prodotti negli Stati Uniti o importati da Paesi diversi dalla Svizzera e dalla Francia si rifiutano di porre fine a questo uso.</p><p>Il Consiglio federale comprende quindi pienamente la preoccupazione espressa nella mozione e si impegna da decenni per una migliore protezione delle indicazioni geografiche (IG) svizzere all'estero. Per questo motivo, la Svizzera ha aderito all'Atto di Ginevra dell'Accordo di Lisbona entrato in vigore il 1° dicembre 2021.</p><p>La partecipazione del nostro Paese a questo sistema internazionale di registrazione e protezione delle IG permette ai beneficiari delle DOP e IGP elvetiche di ottenere la protezione delle loro denominazioni attraverso una procedura unica, semplice e poco costosa presso l'Organizzazione mondiale della proprietà intellettuale (OMPI). Inoltre, la Svizzera punta costantemente alla protezione reciproca delle IG nell'ambito dei negoziati su accordi bilaterali e commerciali, sulla base di liste di IG, con Paesi che non hanno ancora aderito all'Atto di Ginevra, come i membri del Mercosur o la Moldavia. Questa strategia è in linea con il testo della mozione 12.3642 \"Il Consiglio federale è incaricato di regolamentare d'ora in poi l'utilizzo delle denominazioni di provenienza geografica al momento della firma degli accordi commerciali ed economici bilaterali e di quelli di libero scambio\".</p><p>Va ricordato, tuttavia, che il risultato dei negoziati dipende sempre dalle ambizioni di tutte le parti, compresi i partner della Svizzera in seno all'Associazione europea di libero scambio (AELS), nonché da tutti gli aspetti considerati in un accordo commerciale.</p><p>Infine, è importante rilevare che la Svizzera non dispone di un accordo commerciale preferenziale con gli Stati Uniti né ha intavolato negoziati con questo Paese per concluderne uno. Pertanto, in assenza di una protezione della DOP Gruyère attraverso un accordo internazionale, la questione se la DOP debba essere considerata una IG degna di protezione o generica negli Stati Uniti è lasciata alla discrezione dei tribunali americani, conformemente al principio di territorialità.</p><p>Sulla base della mozione 12.3642, accolta dal Parlamento, il Consiglio federale ritiene che l'obiettivo della presente mozione sia già stato raggiunto.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

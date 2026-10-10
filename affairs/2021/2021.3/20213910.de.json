@@ -1,6 +1,6 @@
 {
   "id": 20213910,
-  "updated": "2023-05-03T08:42:44Z",
+  "updated": "2025-06-17T11:26:22Z",
   "additionalIndexing": "24;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,36 @@
             "date": "2023-05-02T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-03-10T00:00:00Z",
+            "text": "Sistierung",
+            "type": 65
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2025-06-16T00:00:00Z",
+            "text": "Sistierung",
+            "type": 65
           }
         ]
       },
@@ -68,7 +98,93 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-18T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-18T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-02-25T11:13:54Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3107,
+                    "gender": "m",
+                    "id": 4206,
+                    "name": "Ettlin Erich",
+                    "officialDenomination": "Ettlin Erich"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +205,33 @@
         },
         {
           "date": "/Date(1682978400000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1688680800000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1741561200000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1741647600000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1743544800000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1750024800000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
         }
       ],
       "texts": [
@@ -221,10 +362,9 @@
   ],
   "shortId": "21.3910",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 207,
+    "name": "In Ständerat geplant",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -240,7 +380,7 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Die Schweiz hat seit der Finanzkrise die Eigenmittelanforderungen an global tätige systemrelevante Banken deutlich erhöht. Dabei hat sie u.a. auch die Vorgaben des Financial Stability Board zu den gesamthaften verlustabsorbierenden Mitteln (\"total loss absorbing capacity\", TLAC) im Rahmen des \"Too-big-to-fail\"-Regimes (TBTF-Regime) umgesetzt. TLAC besteht aus Eigenmitteln zur ordentlichen Weiterführung der Bank (Going-concern-Eigenmittel) und zusätzlichen verlustabsorbierenden Mitteln (Gone-concern-Mittel). Dieser internationale Mindeststandard verlangt von global tätigen systemrelevanten Banken eine ungewichtete Kapitalquote (Verschuldungsquote oder Leverage Ratio) von mindestens 6.75% (gültig ab dem 1. Januar 2022). Nicht eingeschlossen sind allfällige über die Mindestanforderungen hinausgehende Pufferanforderungen.</p><p>Aus den Schweizer Anforderungen ergibt sich für die beiden global tätigen Schweizer Grossbanken - unter Einbezug der Pufferanforderungen - eine Verschuldungsquote von derzeit knapp 9%. Im Bericht des Bundesrates zu den systemrelevanten Banken vom 4. Juni 2021 (BBl 2021 1487) wird aufgezeigt, dass andere internationale Finanzplätze teilweise ähnlich hohe Anforderungen haben. Vor diesem Hintergrund wäre die von der Motionärin verlangte Anforderung von 15% eine signifikante Erhöhung und läge weit über dem internationalen Standard sowie den Anforderungen in anderen Rechtsordnungen (USA, Vereinigtes Königreich, EU).</p><p>Die verlangte Erhöhung stünde zudem im Widerspruch mit Art. 9 Abs. 1 BankG. Die vom Gesetzgeber dort festgelegten Vorgaben bezüglich Verhältnismässigkeit, Berücksichtigung der Auswirkungen auf die Banken und den Wettbewerb würden dadurch offensichtlich verletzt und den internationalen Standards würde nicht Rechnung getragen.</p><p>Vor diesem Hintergrund und mit Blick auf die seit der Finanzkrise ergriffenen Massnahmen zur Stärkung der Widerstandskraft systemrelevanter Banken sieht der Bundesrat derzeit keinen Anlass, die geltenden Eigenmittelanforderungen für systemrelevante Banken massiv zu erhöhen. Eine weiterführende Evaluation des TBTF-Regelwerks findet sich im obengenannten Bericht des Bundesrates.</p>"
+      "value": "<p>Die Schweiz hat seit der Finanzkrise die Eigenmittelanforderungen an global tätige systemrelevante Banken deutlich erhöht. Dabei hat sie u.a. auch die Vorgaben des Financial Stability Board zu den gesamthaften verlustabsorbierenden Mitteln (\"total loss absorbing capacity\", TLAC) im Rahmen des \"Too-big-to-fail\"-Regimes (TBTF-Regime) umgesetzt. TLAC besteht aus Eigenmitteln zur ordentlichen Weiterführung der Bank (Going-concern-Eigenmittel) und zusätzlichen verlustabsorbierenden Mitteln (Gone-concern-Mittel). Dieser internationale Mindeststandard verlangt von global tätigen systemrelevanten Banken eine ungewichtete Kapitalquote (Verschuldungsquote oder Leverage Ratio) von mindestens 6.75 Prozent (gültig ab dem 1. Januar 2022). Nicht eingeschlossen sind allfällige über die Mindestanforderungen hinausgehende Pufferanforderungen.</p><p>Aus den Schweizer Anforderungen ergibt sich für die beiden global tätigen Schweizer Grossbanken - unter Einbezug der Pufferanforderungen - eine Verschuldungsquote von derzeit knapp 9 Prozent. Im Bericht des Bundesrates zu den systemrelevanten Banken vom 4. Juni 2021 (BBl 2021 1487) wird aufgezeigt, dass andere internationale Finanzplätze teilweise ähnlich hohe Anforderungen haben. Vor diesem Hintergrund wäre die von der Motionärin verlangte Anforderung von 15 Prozent eine signifikante Erhöhung und läge weit über dem internationalen Standard sowie den Anforderungen in anderen Rechtsordnungen (USA, Vereinigtes Königreich, EU).</p><p>Die verlangte Erhöhung stünde zudem im Widerspruch mit Art. 9 Abs. 1 BankG. Die vom Gesetzgeber dort festgelegten Vorgaben bezüglich Verhältnismässigkeit, Berücksichtigung der Auswirkungen auf die Banken und den Wettbewerb würden dadurch offensichtlich verletzt und den internationalen Standards würde nicht Rechnung getragen.</p><p>Vor diesem Hintergrund und mit Blick auf die seit der Finanzkrise ergriffenen Massnahmen zur Stärkung der Widerstandskraft systemrelevanter Banken sieht der Bundesrat derzeit keinen Anlass, die geltenden Eigenmittelanforderungen für systemrelevante Banken massiv zu erhöhen. Eine weiterführende Evaluation des TBTF-Regelwerks findet sich im obengenannten Bericht des Bundesrates.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20214596,
-  "updated": "2021-12-20T15:15:14Z",
+  "updated": "2025-04-24T19:26:41Z",
   "additionalIndexing": "66;52;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,167 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-18T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-03-11T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "UREK-NR",
+            "id": 7,
+            "name": "Kommission für Umwelt, Raumplanung und Energie NR",
+            "abbreviation1": "UREK-N",
+            "abbreviation2": "UREK",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "UREK-SR",
+            "id": 20,
+            "name": "Kommission für Umwelt, Raumplanung und Energie SR",
+            "abbreviation1": "UREK-S",
+            "abbreviation2": "UREK",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-01-10T14:13:57Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3196,
+                    "gender": "m",
+                    "id": 4241,
+                    "name": "Stark Jakob",
+                    "officialDenomination": "Stark"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639609200000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1644966000000+0100)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1700607600000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1736463600000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1741647600000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -434,19 +572,40 @@
   ],
   "shortId": "21.4596",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Die Schweiz hat sich mit dem Pariser Klimaabkommen dazu verpflichtet, ihren CO2-Ausstoss bis 2030 gegenüber 1990 zu halbieren, wobei 60 Prozent der CO2-Reduktion im Inland erfolgen soll. Weiterhin soll die Schweiz gemäss dem Bundesrat bis 2050 Klimaneutralität erreichen. Dieses Ziel erfordert den fast vollständigen Abbau der Treibhausgasemissionen im Inland. Die verbleibenden Emissionen müssen mit Negativ-Emissionstechnologien (NET) kompensiert werden. </p><p>Die Treibhausgasemissionen der Bundesverwaltung werden heute teilweise im Ausland kompensiert. Eine Kompensation im Inland würde deshalb einen deutlich wirksameren Beitrag der Bundesverwaltung zur Umsetzung des Pariser Klimaabkommens und der Reduktionsziele des Bundesrats leisten. Einerseits ist die Inlandskompensation generell zu bevorzugen, weil damit tatsächliche Einsparungen realisiert und durch Innovation CO2-Emissionen im Inland effektiv verringert werden. Auslandskompensationen verhindern hingegen eigene Anstrengungen zur Emissionsreduktion. Andererseits sollte die Bundesverwaltung mit guten Beispiel vorangehen und zeigen, dass eine vollständige Kompensation im Inland möglich ist, anstatt sich dieser Verantwortung durch den Kauf von internationalen Zertifikaten zu entziehen. Mit der Möglichkeit einer Kompensation im Ausland verschiebt der Bundesrat die inländischen Einsparungen unnötig in die Zukunft und verschärft so den Handlungsdruck auf künftige Generationen.</p><p>Trotz grosser Anstrengungen werden Treibhausgasemissionen nicht vollständig vermieden werden können. Im Hinblick auf das Netto-Null-Ziel sind deshalb Investitionen in NET entscheidend. Diese sind jedoch im Moment noch sehr kostenintensiv. Investitionen des Bundes in NET haben deshalb eine positive Signalwirkung und würden die Weiterentwicklung der Technologien fördern.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Um seine Vorbildfunktion wahrzunehmen, hat der Bundesrat am 3. Juli und 13. Dezember 2019 ein Klimapaket für die Bundesverwaltung beschlossen. Es sollen Massnahmen in den Verwaltungseinheiten ergriffen werden, so dass bis 2030 die Treibhausgasemissionen im Departement für Verteidigung und Bevölkerungsschutz (VBS) um mindestens 40 Prozent gegenüber 2001 und in den übrigen Verwaltungseinheiten um mindestens 50 Prozent gegenüber 2006 sinken. Die verbleibenden Emissionen sollen bereits ab 2021 vollständig kompensiert werden.</p><p>Mit Massnahmen im Ausland leistet der Bund als Wegbereiter für die Privatwirtschaft Pionierarbeit bei der Umsetzung des Übereinkommens von Paris und der von der Vertragsparteienkonferenz im November 2021 in Glasgow gefassten Beschlüsse. Der Bundesrat will aber auch prüfen, ob ein Teil der Kompensation über Negativemissionstechnologien im Sinne der Motion 21.4333 der Kommission für Umwelt, Raumplanung und Energie des Nationalrats (UREK-N) \"Forschung und Entwicklung von Negativemissionstechnologien fördern\" geleistet werden kann.</p><p>Der Bundesrat ist ebenfalls der Meinung, dass Verminderungen im Inland Vorrang haben sollten. Das Potenzial für zusätzliche Kompensationsprojekte im Inland ist jedoch aufgrund der Vielzahl von klima- und energiepolitischen Massnahmen von Bund und Kantonen beschränkt und sollte in erster Linie privatwirtschaftlich über die gesetzliche CO2-Kompensationspflicht erschlossen werden. Vor diesem Hintergrund erachtet der Bundesrat es nicht als angebracht, mit dem Klimapaket für die Bundesverwaltung die gesetzliche CO2-Kompensationspflicht der Treibstoffimporteure im Inland zu konkurrieren.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, die Treibhausgasemissionen der Bundesverwaltung vollständig im Inland zu kompensieren. Die Kompensation mit Negativ-Emissionstechnologien soll weiterhin auch im Ausland möglich sein.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Ausrichtung der Kompensation der Treibhausgasemissionen der Bundesverwaltung auf das Netto-Null-Ziel"
+      "value": "Ausrichtung der Kompensation der Treibhausgasemissionen der Bundesverwaltung auf das Netto-null-Ziel"
     }
   ],
-  "title": "Ausrichtung der Kompensation der Treibhausgasemissionen der Bundesverwaltung auf das Netto-Null-Ziel"
+  "title": "Ausrichtung der Kompensation der Treibhausgasemissionen der Bundesverwaltung auf das Netto-null-Ziel"
 }

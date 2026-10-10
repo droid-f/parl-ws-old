@@ -1,6 +1,6 @@
 {
   "id": 20203011,
-  "updated": "2020-06-18T19:06:25Z",
+  "updated": "2024-09-10T17:26:46Z",
   "additionalIndexing": "28;1211;2811",
   "affairType": {
     "abbreviation": "Mo.",
@@ -12,7 +12,7 @@
       "abbreviation": "RK-NR",
       "id": 12,
       "name": "Kommission für Rechtsfragen NR",
-      "abbreviation1": "RK-NR",
+      "abbreviation1": "RK-N",
       "abbreviation2": "RK",
       "committeeNumber": 12,
       "council": {
@@ -57,6 +57,21 @@
             "date": "2020-06-18T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-09-10T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -72,10 +87,50 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-06-28T15:58:12Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2694,
+                    "gender": "m",
+                    "id": 3891,
+                    "name": "Jositsch Daniel",
+                    "officialDenomination": "Jositsch"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "RK-NR",
             "id": 12,
             "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
+            "abbreviation1": "RK-N",
             "abbreviation2": "RK",
             "committeeNumber": 12,
             "council": {
@@ -105,9 +160,9 @@
                     "officialDenomination": "Kamerzin"
                   },
                   "faction": {
-                    "abbreviation": "M-E",
+                    "abbreviation": "Fraktion M-E",
                     "code": "M-E",
-                    "id": 139,
+                    "id": 3,
                     "name": "Die Mitte-Fraktion. Die Mitte. EVP."
                   },
                   "language": "fr"
@@ -127,7 +182,7 @@
                     "officialDenomination": "Arslan"
                   },
                   "faction": {
-                    "abbreviation": "G",
+                    "abbreviation": "Fraktion G",
                     "code": "G",
                     "id": 6,
                     "name": "Grüne Fraktion"
@@ -144,7 +199,7 @@
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -161,7 +216,7 @@
               "correspondents": [
 
               ],
-              "sessionId": "5117"
+              "sessionId": "5202"
             }
           ]
         }
@@ -185,8 +240,23 @@
         },
         {
           "date": "/Date(1592431200000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1719525600000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1724968800000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1725919200000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -213,7 +283,7 @@
         "abbreviation": "RK-NR",
         "id": 12,
         "name": "Kommission für Rechtsfragen NR",
-        "abbreviation1": "RK-NR",
+        "abbreviation1": "RK-N",
         "abbreviation2": "RK",
         "committeeNumber": 12,
         "council": {
@@ -229,10 +299,9 @@
   ],
   "shortId": "20.3011",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -248,7 +317,7 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Auch für den Bundesrat ist die Bekämpfung von Minderjährigenheiraten ein zentrales Anliegen. In seinem Bericht \"Evaluation der Bestimmungen im Zivilgesetzbuch zu Zwangsheiraten und Minderjährigenheiraten\" vom 29. Januar 2020 hat er Handlungsbedarf festgestellt und das EJPD beauftragt, bis Ende Jahr eine Vernehmlassungsvorlage im Sinne des darin skizzierten Lösungsvorschlags auszuarbeiten.</p><p>Zielsetzung der Motion ist es, das Alter im Zeitpunkt der Eheschliessung für die Eheungültigkeit als massgebend zu erklären. Auch der im Bericht des Bundesrats skizzierte Lösungsvorschlag (Ziff. 4.3.5) will genau dieses Anliegen umsetzen: Wenn im Zeitpunkt des Eheschlusses einer der Ehegatten minderjährig war, soll die Ehe nicht mehr - wie gemäss geltendem Recht - mit Erreichen des 18. Altersjahres automatisch geheilt werden. Der Bundesrat hat aber vorgeschlagen, dass der Ungültigkeitsgrund der Minderjährigkeit nach Ablauf einer gewissen Zeit - zur Diskussion gestellt wird das Erreichen des 25. Altersjahres - geheilt werden kann. Wichtig ist zudem, im Einzelfall den Willen der volljährig gewordenen Betroffenen berücksichtigen zu können. In diesem Sinne sehen auch die Niederlande eine Regelung vor, bei der die Ehe anerkannt werden kann, wenn die Ehegatten zum Zeitpunkt der Eheschliessung zwar noch minderjährig waren, zum Zeitpunkt des Antrags auf Aufenthalt aber volljährig sind. Auch in Deutschland kann eine mit 16 oder 17 Jahren im Ausland verheiratete Person nach Erreichen der Volljährigkeit die Ehe bestätigen. Weiter kann in verschiedenen Staaten der Europäischen Union (insbesondere in Österreich, Spanien, Belgien, Frankreich und Italien) die Verheiratung einer Person ab 16 Jahren ausnahmsweise bewilligt werden. Die Notwendigkeit einer Einzelfallprüfung der Gültigkeit solcher Ehen kann sich daher auch gestützt auf das Freizügigkeitsabkommen (FZA; SR 0.142.112.681) ergeben, soweit Personen aus den EU-Mitgliedstaaten oder ihre Familienangehörigen betroffen sind. Zu erinnern ist schliesslich daran, dass immer dann, wenn die Voraussetzungen einer Zwangsheirat im Sinne von Artikel 105 Ziffer 5 des Zivilgesetzbuches (ZGB; SR 210) erfüllt sind, bereits heute ein unheilbarer und absoluter Eheungültigkeitsgrund gegeben ist.</p><p>Die Motion verlangt hingegen eine unheilbare und absolute Ungültigkeit der Ehe, sobald im Rahmen der Anerkennung einer im Ausland geschlossenen Ehe festgestellt wird, dass im Zeitpunkt der Eheschliessung einer der Ehegatten minderjährig gewesen ist. Die Ehe müsste in jedem Fall rückwirkend und von Amtes wegen für ungültig erklärt werden. Für den Bundesrat ginge dies zu weit, da eine solche Lösung mit gravierenden Nachteilen verbunden wäre. So entstünde die Gefahr, dass die Ehe Jahrzehnte später von Amtes wegen für ungültig erklärt werden müsste, und dies auch gegen den Willen der betroffenen Personen. Mit Blick auf die verfassungsmässigen Rechte der betroffenen Personen, namentlich die Ehefreiheit, erscheint dies aber als höchst problematisch. Ebenfalls zu weit ginge dem Bundesrat eine Umsetzung der Motion in dem Sinne, dass alle in der Schweiz im jetzigen Zeitpunkt von den Behörden bereits als gültig angesehenen Ehen nachträglich ausnahmslos für ungültig erklärt werden müssten, wenn mindestens ein Ehegatte im Zeitpunkt des Eheschlusses minderjährig war. Das würde tausende Ehen betreffen, die seit Jahren bestehen.</p>"
+      "value": "<p>Auch für den Bundesrat ist die Bekämpfung von Minderjährigenheiraten ein zentrales Anliegen. In seinem Bericht \"Evaluation der Bestimmungen im Zivilgesetzbuch zu Zwangsheiraten und Minderjährigenheiraten\" vom 29. Januar 2020 hat er Handlungsbedarf festgestellt und das EJPD beauftragt, bis Ende Jahr eine Vernehmlassungsvorlage im Sinne des darin skizzierten Lösungsvorschlags auszuarbeiten.</p><p>Zielsetzung der Motion ist es, das Alter im Zeitpunkt der Eheschliessung für die Eheungültigkeit als massgebend zu erklären. Auch der im Bericht des Bundesrats skizzierte Lösungsvorschlag (Ziff. 4.3.5) will genau dieses Anliegen umsetzen: Wenn im Zeitpunkt des Eheschlusses einer der Ehegatten minderjährig war, soll die Ehe nicht mehr - wie gemäss geltendem Recht - mit Erreichen des 18. Altersjahres automatisch geheilt werden. Der Bundesrat hat aber vorgeschlagen, dass der Ungültigkeitsgrund der Minderjährigkeit nach Ablauf einer gewissen Zeit - zur Diskussion gestellt wird das Erreichen des 25. Altersjahres - geheilt werden kann. Wichtig ist zudem, im Einzelfall den Willen der volljährig gewordenen Betroffenen berücksichtigen zu können. In diesem Sinne sehen auch die Niederlande eine Regelung vor, bei der die Ehe anerkannt werden kann, wenn die Ehegatten zum Zeitpunkt der Eheschliessung zwar noch minderjährig waren, zum Zeitpunkt des Antrags auf Aufenthalt aber volljährig sind. Auch in Deutschland kann eine mit 16 oder 17 Jahren im Ausland verheiratete Person nach Erreichen der Volljährigkeit die Ehe bestätigen. Weiter kann in verschiedenen Staaten der Europäischen Union (insbesondere in Österreich, Spanien, Belgien, Frankreich und Italien) die Verheiratung einer Person ab 16 Jahren ausnahmsweise bewilligt werden. Die Notwendigkeit einer Einzelfallprüfung der Gültigkeit solcher Ehen kann sich daher auch gestützt auf das Freizügigkeitsabkommen (FZA; SR 0.142.112.681) ergeben, soweit Personen aus den EU-Mitgliedstaaten oder ihre Familienangehörigen betroffen sind. Zu erinnern ist schliesslich daran, dass immer dann, wenn die Voraussetzungen einer Zwangsheirat im Sinne von Artikel 105 Ziffer 5 des Zivilgesetzbuches (ZGB; SR 210) erfüllt sind, bereits heute ein unheilbarer und absoluter Eheungültigkeitsgrund gegeben ist.</p><p>Die Motion verlangt hingegen eine unheilbare und absolute Ungültigkeit der Ehe, sobald im Rahmen der Anerkennung einer im Ausland geschlossenen Ehe festgestellt wird, dass im Zeitpunkt der Eheschliessung einer der Ehegatten minderjährig gewesen ist. Die Ehe müsste in jedem Fall rückwirkend und von Amtes wegen für ungültig erklärt werden. Für den Bundesrat ginge dies zu weit, da eine solche Lösung mit gravierenden Nachteilen verbunden wäre. So entstünde die Gefahr, dass die Ehe Jahrzehnte später von Amtes wegen für ungültig erklärt werden müsste, und dies auch gegen den Willen der betroffenen Personen. Mit Blick auf die verfassungsmässigen Rechte der betroffenen Personen, namentlich die Ehefreiheit, erscheint dies aber als höchst problematisch. Ebenfalls zu weit ginge dem Bundesrat eine Umsetzung der Motion in dem Sinne, dass alle in der Schweiz im jetzigen Zeitpunkt von den Behörden bereits als gültig angesehenen Ehen nachträglich ausnahmslos für ungültig erklärt werden müssten, wenn mindestens ein Ehegatte im Zeitpunkt des Eheschlusses minderjährig war. Das würde tausende Ehen betreffen, die seit Jahren bestehen.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

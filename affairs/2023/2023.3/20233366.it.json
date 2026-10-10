@@ -1,6 +1,6 @@
 {
   "id": 20233366,
-  "updated": "2023-03-20T10:28:35Z",
+  "updated": "2025-06-12T14:19:16Z",
   "additionalIndexing": "28;2846",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,177 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-09-11T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-06-12T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-05-24T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSS-CS",
+            "id": 19,
+            "name": "Commissione della sicurezza sociale e della sanità CS",
+            "abbreviation1": "CSSS-S",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-05-15T19:28:05Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3153,
+                    "gender": "f",
+                    "id": 4261,
+                    "name": "Friedli Esther",
+                    "officialDenomination": "Friedli Esther"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSS-CN",
+            "id": 6,
+            "name": "Commissione della sicurezza sociale e della sanità",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Dipartimento dell'interno",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1679007600000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1684879200000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1726005600000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1727820000000+0200)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1742943600000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1747260000000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1749679200000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -94,7 +242,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -291,7 +439,7 @@
     {
       "councillor": {
         "code": 3228,
-        "gender": "f",
+        "gender": "m",
         "id": 4333,
         "name": "Meier Andreas",
         "officialDenomination": "Meier Andreas"
@@ -316,19 +464,40 @@
   ],
   "shortId": "23.3366",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>L'evoluzione demografica, gli sviluppi dell'assistenza alle persone anziane e a quelle con disabilità, le spese di cura e sostegno in istituto o a domicilio e le aspettative delle persone (diritto all'autonomia) conferiscono all'alloggio e all'accompagnamento a domicilio un'importanza cruciale. Diverse organizzazioni attive negli ambiti della vecchiaia e della disabilità si preoccupano di tali questioni e cercano di trovare soluzioni concrete, esigendo un rafforzamento dell'assistenza a domicilio affinché si possa offrire ai diretti interessati una vera possibilità di scelta. È quanto chiede anche la Convenzione dell'ONU sui diritti delle persone con disabilità, cui la Svizzera ha aderito nel 2014.</p><p>Diversi oggetti parlamentari fanno riferimento all'assistenza a domicilio e all'alloggio (iniziativa parlamentare Lohr 12.409 sul contributo per l'assistenza dell'AI, mozione 18.3716 concernente le prestazioni complementari per le forme di alloggio con assistenza). Gli assegni per grandi invalidi sono attualmente oggetto di dibattito. I Cantoni (CDOS) hanno avviato lavori in materia. La politica in favore delle persone disabili 2023-2026, approvata dal Consiglio federale nel marzo del 2023, annovera l'alloggio tra i suoi programmi prioritari, con un accento sulla collaborazione tra Confederazione e Cantoni.</p><p>Data la molteplicità delle riflessioni e iniziative in corso (sia del mondo politico che delle organizzazioni private), è importante avere una visione d'insieme per poi elaborare interventi coordinati e coerenti. Occorre dunque fare un punto della situazione, analizzare la ripartizione delle competenze e individuare i flussi finanziari, considerando le varie legislazioni sociali e sanitarie, a livello federale e cantonale. In questo contesto complesso, è indispensabile una strategia nazionale, che dovrà essere gestita dalla Confederazione.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale condivide il parere che l'assistenza e l'alloggio negli ambiti della vecchiaia e della disabilità siano aspetti destinati nei prossimi decenni ad assumere sempre maggiore importanza e a essere influenzati dall'evoluzione demografica, in particolare dall'invecchiamento della popolazione. Non ritiene però necessaria una nuova strategia nazionale coordinata dalla Confederazione tesa ad affrontare questa problematica. I lavori in corso e le attuali istituzioni permettono già di farlo. Il Consiglio federale intende ad esempio elaborare un programma prioritario sul tema dell'alloggio nell'ambito della politica in favore delle persone disabili 2023-2026, volto a promuovere la libera scelta dell'alloggio da parte delle persone con disabilità e a offrire loro un sostegno abitativo adeguato ai bisogni e scelto individualmente. Il programma contribuisce al coordinamento delle misure federali e cantonali e pone le basi per uno sviluppo coerente dei temi dell'alloggio e della vita autodeterminata. Inoltre, nell'ambito del trattamento della mozione 18.3716 \"Prestazioni complementari per le forme di alloggio con assistenza\" sono state fornite risposte concrete alla questione posta con la presente mozione. Anche i Cantoni, attraverso l'iniziativa della Conferenza delle direttrici e dei direttori cantonali delle opere sociali (CDOS), sono impegnati su questo fronte. Nel 2018 la CDOS ha lanciato un progetto teso a promuovere l'accompagnamento a domicilio e l'alloggio con assistenza. L'introduzione di un'ulteriore strategia comporterebbe il rischio di aumentare la confusione in un ambito già molto complesso, generando eventualmente anche spese supplementari. La questione della permanenza a casa propria concerne esclusivamente il diritto cantonale. Secondo l'articolo 112c della Costituzione federale (RS 101), i Cantoni provvedono all'aiuto e alle cure a domicilio per gli anziani e i disabili. Considerata la responsabilità primaria dei Cantoni in questo ambito, una strategia nazionale sotto la direzione della Confederazione non è dunque giustificata. Il Consiglio federale ha messo nettamente in evidenza questo aspetto nei suoi pareri relativi a diversi interventi (tra cui la mozione 18.3716 \"Prestazioni complementari per le forme di alloggio con assistenza\" e il postulato 22.4262 \"Preferire le cure ambulatoriali alle stazionarie per le persone disabili in età AVS mediante accesso a contributi di assistenza\"). Considerata la chiara ripartizione delle competenze e le numerose misure già adottate in questo ambito, l'Esecutivo non ritiene necessario sviluppare una strategia nazionale.</p>  Il Consiglio federale propone di respingere la mozione."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di elaborare, in collaborazione con i Cantoni e gli attori della società civile (organizzazioni sovvenzionate), una strategia nazionale in materia di accompagnamento e alloggio negli ambiti della vecchiaia e della disabilità che includa le dimensioni della politica sociale e della politica sanitaria.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Strategia nazionale in materia di accompagnamento e alloggio negli ambiti della vecchiaia e della disabilità"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Strategia nazionale in materia di accompagnamento e alloggio negli ambiti della vecchiaia e della disabilità"
 }

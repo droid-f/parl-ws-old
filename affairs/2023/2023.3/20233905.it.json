@@ -1,6 +1,6 @@
 {
   "id": 20233905,
-  "updated": "2023-06-21T15:32:24Z",
+  "updated": "2025-06-20T09:25:02Z",
   "additionalIndexing": "34;52;2841",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,35 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 2,
+              "name": "Discussione"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Discussione rinviata",
+            "type": 29
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Amm."
+            },
+            "council": null,
+            "date": "2025-06-20T00:00:00Z",
+            "text": "Tolto dal ruolo poiché la trattazione nella Camera non si è conclusa entro due anni",
+            "type": 32
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2023-08-23T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +81,28 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686866400000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1692741600000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1750370400000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -152,19 +192,33 @@
   ],
   "shortId": "23.3905",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Nel febbraio 2020, il Consiglio federale ha risposto all'interpellanza Munz 19.4496 (Telefoni cellulari. Rischi per la salute derivanti dal mancato rispetto dei valori SAR). Il Consiglio federale ha incaricato il DFI, insieme al DATEC, di chiarire tramite un gruppo di lavoro interdipartimentale quali autorità sono responsabili della sorveglianza del mercato dei prodotti che emettono radiazioni non ionizzanti RNI (come ad es. i cellulari, le lampade UVC, i laser cosmetici per uso domestico) per quanto riguarda gli aspetti relativi alle RNI e sanitari, nonché di proporre eventuali modifiche necessarie agli atti normativi esistenti. Il DFI sottoporrà i risultati di questa verifica al Consiglio federale.&nbsp;</p><p>1. Le analisi del gruppo di lavoro interdipartimentale non sono ancora concluse. I risultati finora ottenuti rilevano che secondo lo stato attuale della legislazione, nessuna autorità di sorveglianza del mercato in Svizzera è responsabile degli aspetti sanitari dei prodotti RNI (tra cui il controllo della conformità ai valori limite RNI). Al termine dei lavori il Consiglio federale deciderà come procedere.</p><p>2. Gli impianti di radiocomunicazione e il materiale elettrico sono regolamentati nell'Accordo tra la Confederazione Svizzera e la Comunità europea sul reciproco riconoscimento in materia di valutazione della conformità (RS 0.946.526.81). L'obiettivo è di evitare ostacoli tecnici al commercio tra la Svizzera e l'UE. In questi due settori, la Svizzera riprende le norme armonizzate pubblicate dall'UE di volta in volta senza adattamenti tramite un riferimento nel Foglio federale.</p><p>Poiché in questi settori non esiste l’omologazione, il controllo della conformità spetta principalmente ai produttori e secondariamente agli importatori.</p><p>3./4. Attualmente nessun organo ufficiale esercita una sorveglianza del mercato per quanto riguarda il rispetto degli standard in materia di radiazioni (valori SAR) per i cellulari e altri dispositivi terminali utilizzati in prossimità del corpo.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Nel 2018, lo \"scandalo Phonegate\" in Francia ha rivelato che i produttori di cellulari avevano dichiarato valori troppo bassi ricorrendo a trucchi nella misurazione del valore delle radiazioni SAR emesse dal dispositivo. Il valore SAR indica il tasso di assorbimento, ovvero la dimensione impiegata per misurare come l'energia elettromagnetica viene assorbita dal corpo. Questo valore viene utilizzato per valutare i potenziali effetti sulla salute dell'esposizione ai cellulari e ad altri dispositivi utilizzati in prossimità del corpo. Per determinare questo valore si eseguono test con fantocci. Esistono norme internazionali per il valore SAR, che sono state adattate in seguito allo \"scandalo Phonegate\". Sono state quindi introdotte nuove e migliori disposizioni relative a controllo, valutazione e dichiarazione e, in particolare, sono state precisate le ambiguità relative al processo di misurazione.</p><p>In questo contesto, chiedo al Consiglio federale di rispondere alle seguenti domande:&nbsp;</p><p>1. Qual è l'autorità ufficiale responsabile del controllo e del rispetto delle norme sulle radiazioni dei terminali (smartphone, tablet, notebook, orologi intelligenti, dispositivi medici, giocattoli, cuffie, dispositivi WLAN, ecc.)?&nbsp;</p><p>2. Come vengono adattate dalla Svizzera le relative norme UE e come viene verificata la conformità dei dispositivi?</p><p>3. Quale organismo amministrativo effettua i controlli tecnici di immissione sul mercato e i controlli a campione?</p><p>4. Negli ultimi due anni, quanti modelli di cellulari o altri dispositivi utilizzati in prossimità del corpo hanno richiesto un intervento da parte delle autorità a causa del mancato rispetto delle norme di sicurezza (superamento dei valori SAR)?</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Chi controlla il rispetto delle norme sulle radiazioni (valori SAR) per i cellulari e altri terminali?"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Chi controlla il rispetto delle norme sulle radiazioni (valori SAR) per i cellulari e altri terminali?"
 }

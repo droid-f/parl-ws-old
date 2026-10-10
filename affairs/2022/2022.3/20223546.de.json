@@ -1,7 +1,7 @@
 {
   "id": 20223546,
-  "updated": "2022-06-09T08:07:47Z",
-  "additionalIndexing": "08;0421;1231;2841",
+  "updated": "2025-04-24T19:16:12Z",
+  "additionalIndexing": "08;421;1231;2841",
   "affairType": {
     "abbreviation": "Mo.",
     "id": 5,
@@ -34,17 +34,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-04-17T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-09-26T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-31T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "SGK-NR",
+            "id": 6,
+            "name": "Kommission für soziale Sicherheit und Gesundheit NR",
+            "abbreviation1": "SGK-N",
+            "abbreviation2": "SGK",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-07-05T14:14:19Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3153,
+                    "gender": "f",
+                    "id": 4261,
+                    "name": "Friedli Esther",
+                    "officialDenomination": "Friedli Esther"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-SR",
+            "id": 19,
+            "name": "Kommission für soziale Sicherheit und Gesundheit SR",
+            "abbreviation1": "SGK-S",
+            "abbreviation2": "SGK",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -60,8 +173,28 @@
       "states": [
         {
           "date": "/Date(1654552800000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1661896800000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1713304800000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1724968800000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1727301600000+0200)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -80,7 +213,14 @@
     }
   ],
   "relatedAffairs": [
-
+    {
+      "id": 20242006,
+      "shortId": "24.2006"
+    },
+    {
+      "id": 20242012,
+      "shortId": "24.2012"
+    }
   ],
   "roles": [
     {
@@ -105,10 +245,10 @@
   ],
   "shortId": "22.3546",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -117,6 +257,13 @@
         "name": "Begründung"
       },
       "value": "<p>An der Sondersitzung der Weltgesundheitsorganisation (WHO) vom November/Dezember 2021 verabschiedeten die WHO-Mitgliedstaaten eine Empfehlung zur Erarbeitung eines WHO-Übereinkommens, Abkommens oder anderen internationalen Instruments zur Vorsorge und Bereitschaft auf Pandemien und zur Stärkung der Internationalen Gesundheitsvorschriften (IGV). Das BAG scheint diesen Prozess zu unterstützen. Aktuell laufen durch ein von der WHO eingesetztes zwischenstaatliches Verhandlungsgremium, dem Intergovernmental Negotiating Body (INB), koordinierte Bestrebungen, der WHO bis im Mai 2023 einen Bericht und einen Antrag auf ein internationales \"Instrument\" - vorzulegen. Für die Schweiz besteht das Risiko, dass - wie die Diskussion um den UNO-Migrationspakt gezeigt hat - dieses internationale \"Instrument\" bindende Rechtskraft entwickeln könnte. Um diesem Risiko im Bereich des Soft Laws Rechnung zu tragen, ist ein solches internationales \"Instrument\" zwingend dem Parlament zu unterbreiten.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Verhandlungsprozess für ein mögliches WHO-Abkommen, Übereinkommen oder ein anderes internationales Instrument zur globalen Pandemievorbereitung wurde erst im Frühjahr 2022 lanciert. Zu diesem frühen Zeitpunkt der Verhandlungen sind weder die Rechtsnatur noch der Inhalt dieses Instruments bekannt. Erst nach Abschluss der Verhandlungen kann geklärt werden, ob die Schweiz dem Resultat zustimmen wird, und ob die Entscheidungskompetenz dazu beim Bundesrat oder beim Parlament liegt. Dies entspricht der ständigen Praxis des Bundesrates, gestützt auf die massgeblichenen Bestimmungen der Bundesverfassung (Art. 184 Abs. 1 BV, Art. 166 Abs. 2 BV; SR 101) sowie des Parlamentsgesetzes (Art. 24 ParlG; SR 171.10) und des Regierungs- und Verwaltungsorganisationsgesetzes (Art. 7a RVOG; SR 172.010). So wird bei jedem neuen völkerrechtlichen Vertrag sorgfältig geprüft, ob dieser dem Parlament zur Genehmigung zu unterbreiten ist. Zudem verfügt das Parlament in aussenpolitischen Belangen über verschiedene Informations- und Konsultationsrechte (Art. 152 ParlG). Diese rechtlichen Grundlagen gelten für alle neuen internationalen Instrumente, einschliesslich derjenigen der Weltgesundheitsorganisation (WHO).</p><p>In Bezug auf die Qualifizierung eines internationalen Instruments als Soft Law, weist der Bundesrat zudem auf seinen Bericht vom 26. Juni 2019 in Erfüllung des Postulats 18.4104 \"Konsultation und Mitwirkung des Parlaments im Bereich von Soft Law\" der aussenpolitischen Kommission des Ständerats hin. Dieses Thema wurde im Rahmen einer Subkommission vertieft analysiert. Das Kernanliegen der Motion ist damit bereits Teil der aktuellen Diskussionen im Parlament. Der Bundesrat ist der Ansicht, dass diesen Beratungen nicht vorgegriffen werden sollte.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

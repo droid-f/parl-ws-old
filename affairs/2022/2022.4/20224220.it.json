@@ -1,6 +1,6 @@
 {
   "id": 20224220,
-  "updated": "2022-10-04T09:44:04Z",
+  "updated": "2025-04-24T19:20:05Z",
   "additionalIndexing": "24;15",
   "affairType": {
     "abbreviation": "Po.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-19T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-16T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere il postulato."
       },
       "index": 0,
       "links": [
@@ -56,13 +73,28 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Dipartimento delle Finanze",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1664488800000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1668553200000+0100)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1695074400000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -252,19 +284,40 @@
   ],
   "shortId": "22.4220",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Il pagamento elettronico, soprattutto tramite smartphone, offre molti vantaggi, motivo per cui il suo utilizzo aumenta di anno in anno. Rispetto al pagamento in contanti, ha però tuttora lo svantaggio di non poter essere anonimo, poiché ogni singola transazione viene registrata dal fornitore di servizi finanziari corrispondente. Questo è contrario al desiderio di molte persone di lasciare meno tracce dei propri dati. Soprattutto per quanto riguarda i piccoli importi (bevande al chiosco), la memorizzazione di tutti i dettagli del pagamento è sproporzionata ma, attualmente, è una realtà.</p><p>In un documento di lavoro la BNS ha dimostrato la fattibilità tecnica di un sistema di pagamento anonimo utilizzando l'esempio di GNU Taler (working papers 3/2021: <a href=\"https://www.snb.ch/n/mmr/reference/working_paper_2021_03/source/working_paper_2021_03.n.pdf\">https://www.snb.ch/n/mmr/reference/working_paper_2021_03/source/working_paper_2021_03.n.pdf</a>). La Banca Nazionale d'Austria è giunta alla stessa conclusione nel 2022 (<a href=\"https://www.oenb.at/dam/jcr:0e3c00d6-2e0a-4089-b23c-5604e60ebde5/07_Mop_Q1-2_22_A-digital-euro-and-the-future-of-cash.pdf\">https://www.oenb.at/dam/jcr:0e3c00d6-2e0a-4089-b23c-5604e60ebde5/07_Mop_Q1-2_22_A-digital-euro-and-the-future-of-cash.pdf</a>). GNU Taler non è una (cripto)valuta indipendente, ma potrebbe essere un'immagine elettronica del franco svizzero e, quindi, essere emessa dalla BNS. La tecnologia crittografica utilizzata serve esclusivamente a garantire la sicurezza e la privacy di chi paga. Non si serve di processi ad alta intensità di calcolo come quelli di Bitcoin e di altre blockchain. Al contrario, le transazioni possono essere elaborate con pochissima potenza di calcolo, rapidamente, tempestivamente e in grande quantità.</p><p>GNU Taler è stato concepito per limitare l'anonimato a chi paga, facendo sì che i destinatari del pagamento, per lo più aziende, debbano dichiarare correttamente le proprie entrate. In tal modo si può evitare su larga scala che il pagamento anonimo venga utilizzato abusivamente, ad esempio a scopo di evasione fiscale o corruzione, due argomenti che spesso adduce chi è contrario all'utilizzo di questo genere di pagamento.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>I sistemi di pagamento digitali o elettronici sono oggetto di discussione nel mondo della ricerca e, sempre più spesso, anche nell'opinione pubblica, poiché sollevano una serie di questioni, in particolare sotto il profilo economico, giuridico, tecnico e sociale. Le idee e gli approcci proposti per i sistemi di pagamento digitali sono molto ampi, spaziando da modelli meramente privati, come le criptovalute private, a sistemi di pagamento statali, come la moneta digitale della banca centrale.</p><p>Nel suo rapporto del 13 dicembre 2019 sulla moneta digitale della banca centrale in adempimento del postulato 18.3159, il Consiglio federale ha esaminato, tra le altre cose, gli aspetti legali di una moneta digitale della banca centrale accessibile al grande pubblico. Il rapporto giunge alla conclusione che l'introduzione di una moneta digitale di questo tipo richiederebbe adeguamenti legislativi sia sul piano del diritto pubblico sia sul piano del diritto civile. La portata di questi adeguamenti legislativi varia notevolmente a seconda della moneta digitale scelta, ovvero se è basata sul conto o sul valore.</p><p>Il sistema di GNU Taler, citato dall'autore del postulato, sarebbe una forma di moneta digitale della banca centrale. Gli adeguamenti legislativi necessari per introdurre un simile sistema di pagamento elettronico dipendono, in ultima analisi, dalle sue caratteristiche specifiche (ad es. importo di acquisto limitato, tasso d'interesse, accessibilità, gestione dell'infrastruttura ecc.).</p><p>Il Consiglio federale ritiene che attualmente sia prematuro stabilire quali adeguamenti legislativi sarebbero necessari per determinati modelli. Nel suo rapporto sulla moneta digitale della banca centrale, l'Esecutivo ha già esposto le considerazioni di fondo in merito a eventuali adeguamenti legislativi nel caso dell'introduzione di un franco digitale emesso dalla banca centrale. Il rapporto giunge alla conclusione che attualmente l'introduzione di una moneta digitale della banca centrale accessibile a tutti non apporterebbe alcun valore aggiunto alla Svizzera. Tuttavia, il rapido sviluppo tecnologico, le abitudini e le esigenze di pagamento in continua evoluzione come pure le esperienze di altri Paesi potrebbero comportare una futura rivalutazione delle opportunità e dei rischi derivanti dall'introduzione di una moneta digitale della banca centrale accessibile al grande pubblico.</p><p>Il Consiglio federale continuerà pertanto a seguire attentamente gli sviluppi nel settore dei sistemi di pagamento digitali e della moneta digitale della banca centrale. L'Esecutivo è in stretto contatto con la Banca nazionale svizzera per seguire da vicino gli sviluppi delle modalità di pagamento in contanti e in forma digitale nonché le nuove forme di pagamento e il contesto internazionale. All'occorrenza, avvierà gli adeguamenti legislativi opportuni.</p>  Il Consiglio federale propone di respingere il postulato."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è invitato a indicare quali basi legali sono necessarie affinché la Banca nazionale svizzera (BNS) introduca un sistema di pagamento elettronico anonimo in Svizzera e in quali tempi potrebbe farlo. In particolare, occorre prestare attenzione alle preoccupazioni relative alla sicurezza, all'affidabilità, alla scalabilità e anche al furto e alla frode (fiscale).</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "GNU Taler. Pagamento elettronico, sicuro e anonimo"
     }
   ],
-  "title": "Titolo segue"
+  "title": "GNU Taler. Pagamento elettronico, sicuro e anonimo"
 }

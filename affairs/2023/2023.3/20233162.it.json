@@ -1,6 +1,6 @@
 {
   "id": 20233162,
-  "updated": "2023-03-16T15:04:39Z",
+  "updated": "2025-04-24T19:33:37Z",
   "additionalIndexing": "2446;04;2846;66;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,145 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-27T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-06-06T00:00:00Z",
+            "text": "Adozione con modificazione",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-12-18T00:00:00Z",
+            "text": "Adesione",
+            "type": 3
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-05-17T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CET-CN",
+            "id": 10,
+            "name": "Commissione dell'economia e dei tributi CN",
+            "abbreviation1": "CET-N",
+            "abbreviation2": "CET",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CS",
+            "id": 23,
+            "name": "Commissione dell'economia e dei tributi CS",
+            "abbreviation1": "CET-S",
+            "abbreviation2": "CET",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-03-26T14:21:59Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2632,
+                    "gender": "m",
+                    "id": 1120,
+                    "name": "Sommaruga Carlo",
+                    "officialDenomination": "Sommaruga Carlo"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +194,38 @@
       "states": [
         {
           "date": "/Date(1678834800000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1684274400000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1695765600000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1711407600000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1717624800000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1728424800000+0200)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1734476400000+0100)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
         }
       ],
       "texts": [
@@ -177,10 +335,10 @@
   ],
   "shortId": "23.3162",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 209,
+    "name": "Trasmesso al Consiglio federale",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -188,14 +346,21 @@
         "id": 6,
         "name": "Motivazione"
       },
-      "value": "<p>La necessitä di adeguarsi ai mutamenti climatici è ampiamente e largamente riconosciuta. Tra le misure possibili, sensate e di facile attuazione, c'e l'inverdimento di tetti e facciate. Questo in particolare nelle zone urbane, in cui i diversi benefici dei tetti e delle facciate verdi assumono una grande importanza. Infatti tetti e facciate verdi portano ad una riduzione l'inquinamento atmosferico e sonoro, ad una riduzione della velocità di deflusso delle acque, ad un miglioramento della biodiversità nelle città e ad una riduzione della temperatura dell'ambiente esterno. Oltre a ciò contribuiscono alla regolazione della temperatura interna degli stabili, contribuendo al risparmio energetico. </p><p>L'inverdimento dei tetti è quindi particolarmente prezioso in zone urbane toccate ricorrentemente da eventi canicolari e precipitazioni di grande intensità. Tra queste regioni conta chiaramente anche il Ticino. </p><p>I Cantoni possono prevedere deduzioni per la protezione dell'ambiente e per provvedimenti di risparmio energetico, nella misura stabilita dal Dipartimento federale delle finanze in collaborazione con i Cantoni (art. 9 cpv. 3 Legge armonizzazione delle imposte dirette dei Cantoni e dei Comuni, LAID; RS 642.14). Nonostante i riconosciuti benefici dell'inverdimento dei tetti e la loro importanza dell'ambito dell'adattamento ai cambiamenti climatici, ai Cantoni non è data oggi la possibilità di incoraggiare gli investimenti di questo tipo tramite lo strumento delle deduzioni fiscali. Questa possibilità è invece data esplicitamente nel caso di altri investimenti destinati al risparmio energetico. </p><p>Difatti, l'Ordinanza sui costi di immobili (RS 642.116) limita gli investimenti destinati al risparmio di energia e alla protezione dell'ambiente alle spese sostenute per provvedimenti che contribuiscono a razionalizzare il consumo di energia o a far uso di energie rinnovabili. L'Ordinanza concernente i provvedimenti per un'utilizzazione razionale dell'energia e per l'impiego di energie rinnovabili (RS 643.116.1) si limita ad elencare i \"provvedimenti per limitare la perdita di energia dall'involucro dell'edificio\" ed i \"provvedimenti per un'utilizzazione razionale dell'energia degli impianti domestici\".</p>"
+      "value": "<p>La necessità di adeguarsi ai mutamenti climatici è ampiamente e largamente riconosciuta. Tra le misure possibili, sensate e di facile attuazione, c'è l'inverdimento di tetti e facciate. Questo in particolare nelle zone urbane, in cui i diversi benefici dei tetti e delle facciate verdi assumono una grande importanza. Infatti tetti e facciate verdi portano ad una riduzione l'inquinamento atmosferico e sonoro, ad una riduzione della velocità di deflusso delle acque, ad un miglioramento della biodiversità nelle città e ad una riduzione della temperatura dell'ambiente esterno. Oltre a ciò contribuiscono alla regolazione della temperatura interna degli stabili, contribuendo al risparmio energetico.</p><p>L'inverdimento dei tetti è quindi particolarmente prezioso in zone urbane toccate ricorrentemente da eventi canicolari e precipitazioni di grande intensità. Tra queste regioni conta chiaramente anche il Ticino.</p><p>I Cantoni possono prevedere deduzioni per la protezione dell'ambiente e per provvedimenti di risparmio energetico, nella misura stabilita dal Dipartimento federale delle finanze in collaborazione con i Cantoni (art. 9 cpv. 3 Legge armonizzazione delle imposte dirette dei Cantoni e dei Comuni, LAID; RS 642.14). Nonostante i riconosciuti benefici dell'inverdimento dei tetti e la loro importanza dell'ambito dell'adattamento ai cambiamenti climatici, ai Cantoni non è data oggi la possibilità di incoraggiare gli investimenti di questo tipo tramite lo strumento delle deduzioni fiscali. Questa possibilità è invece data esplicitamente nel caso di altri investimenti destinati al risparmio energetico.</p><p>Difatti, l'Ordinanza sui costi di immobili (RS 642.116) limita gli investimenti destinati al risparmio di energia e alla protezione dell'ambiente alle spese sostenute per provvedimenti che contribuiscono a razionalizzare il consumo di energia o a far uso di energie rinnovabili. L'Ordinanza concernente i provvedimenti per un'utilizzazione razionale dell'energia e per l'impiego di energie rinnovabili (RS 643.116.1) si limita ad elencare i \"provvedimenti per limitare la perdita di energia dall'involucro dell'edificio\" ed i \"provvedimenti per un'utilizzazione razionale dell'energia degli impianti domestici\".</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Nella legge federale sull'imposta federale diretta (LIFD; RS 642.11), il legislatore ha stabilito, nel caso degli immobili privati di proprietà del contribuente, che gli investimenti destinati al risparmio di energia e alla protezione dell'ambiente sono assimilati alle spese di manutenzione (art. 32 cpv. 2 secondo periodo LIFD). Questo principio viene precisato in due ordinanze esecutive: l'ordinanza sui costi di immobili e l'ordinanza concernente i provvedimenti per un'utilizzazione razionale dell'energia e per l'impiego di energie rinnovabili. I provvedimenti che danno diritto a deduzioni fiscali riguardano l'installazione di nuovi elementi di costruzione o di impianti nonché la sostituzione di quelli vecchi in edifici esistenti. L'elenco non è esaustivo, tuttavia l'ordinanza non cita esplicitamente i lavori di inverdimento di tetti e facciate.</p><p>Nella LAID, la regolamentazione speciale che consente di applicare deduzioni fiscali per gli investimenti destinati al risparmio energetico e alla protezione dell'ambiente è formulata quale disposizione potestativa (art. 9 cpv. 3 lett. a LAID). Ormai tutti i Cantoni offrono questa possibilità. Se l'incentivo fiscale per il risparmio energetico e la protezione dell'ambiente è disciplinato anche nel diritto cantonale, sono determinanti le disposizioni previste dal diritto federale.</p><p>Non esiste ancora una prassi fiscale consolidata in merito alla fattispecie esposta dall'autrice della mozione. La valutazione sulla deducibilità fiscale dipende da quanto l'inverdimento di tetti e facciate possa contribuire in modo soddisfacente al risparmio energetico o alla protezione dell'ambiente.</p><p>Il Dipartimento federale delle finanze (DFF) è quindi disposto, in collaborazione con i Cantoni e con il Dipartimento federale dell'ambiente, dei trasporti, dell'energia e delle comunicazioni, a esaminare la questione e, se del caso, a modificare l'ordinanza del DFF summenzionata. Il Consiglio federale si riserva la possibilità di presentare una relativa modifica alla seconda Camera, nel caso in cui il Consiglio nazionale accolga la mozione.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {
         "id": 5,
         "name": "Testo depositato"
       },
-      "value": "<p>Il Consiglio federale è incaricato di modificare l'Ordinanza concernente la deduzione dei costi di immobili della sostanza privata nel quadro dell'imposta federale diretta (Ordinanza sui costi immobili, RS 642.116.1) nonché l'Ordinanza concernente i provvedimenti per un'utilizzazione razionale dell'energia e per l'impiego delle energie rinnovabili (RS 543.116.1) come e dove necessario, affinché ai Cantoni sia data la possibilità di introdurre deduzioni fiscali riferite a lavori sli inverdimento di tetti e facciate.</p>"
+      "value": "<p>Il Consiglio federale è incaricato di modificare l'Ordinanza concernente la deduzione dei costi di immobili della sostanza privata nel quadro dell'imposta federale diretta (Ordinanza sui costi immobili, RS 642.116.1) nonché l'Ordinanza concernente i provvedimenti per un'utilizzazione razionale dell'energia e per l'impiego delle energie rinnovabili (RS 543.116.1) come e dove necessario, affinché ai Cantoni sia data la possibilità di introdurre deduzioni fiscali riferite a lavori di inverdimento di tetti e facciate.</p>"
     },
     {
       "type": {

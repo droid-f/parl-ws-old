@@ -1,6 +1,6 @@
 {
   "id": 20223966,
-  "updated": "2022-09-22T11:30:45Z",
+  "updated": "2025-04-24T19:20:09Z",
   "additionalIndexing": "24;04;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -33,17 +33,135 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-19T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-12-14T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-09T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CdF-CN",
+            "id": 2,
+            "name": "Commissione delle finanze CN",
+            "abbreviation1": "CdF-N",
+            "abbreviation2": "CdF",
+            "committeeNumber": 2,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CdF-CS",
+            "id": 15,
+            "name": "Commissione delle finanze CS",
+            "abbreviation1": "CdF-S",
+            "abbreviation2": "CdF",
+            "committeeNumber": 15,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-16T11:42:09Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3183,
+                    "gender": "f",
+                    "id": 4306,
+                    "name": "Gapany Johanna",
+                    "officialDenomination": "Gapany"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo RL",
+                    "id": 1,
+                    "name": "Gruppo liberale radicale"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -59,8 +177,23 @@
       "states": [
         {
           "date": "/Date(1663711200000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1667948400000+0100)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1695074400000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1702508400000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -103,10 +236,10 @@
   ],
   "shortId": "22.3966",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -114,14 +247,21 @@
         "id": 6,
         "name": "Motivazione"
       },
-      "value": "<p  align=\"left\">Il rapporto sui sussidi è stato pubblicato per l'ultima volta nel 2008. Dal 2014 i dipartimenti dell'Amministrazione federale verificano da sé i propri sussidi e ne presentano i risultati nel consuntivo. L'UDC ritiene che questa procedura sia troppo blanda. Oltre a impedire di analizzare oggettivamente i sussidi federali nel loro complesso, sottrae la problematica all'attenzione della sfera politica e dell'opinione pubblica. Il crescente aumento delle uscite della Confederazione impone una verifica più stringente. C'è nuovamente bisogno di un rapporto sui sussidi completo che venga pubblicato ogni quadriennio e presenti una base solida per le comparazioni e la discussione.</p>"
+      "value": "<p align=\"left\">Il rapporto sui sussidi è stato pubblicato per l'ultima volta nel 2008. Dal 2014 i dipartimenti dell'Amministrazione federale verificano da sé i propri sussidi e ne presentano i risultati nel consuntivo. L'UDC ritiene che questa procedura sia troppo blanda. Oltre a impedire di analizzare oggettivamente i sussidi federali nel loro complesso, sottrae la problematica all'attenzione della sfera politica e dell'opinione pubblica. Il crescente aumento delle uscite della Confederazione impone una verifica più stringente. C'è nuovamente bisogno di un rapporto sui sussidi completo che venga pubblicato ogni quadriennio e presenti una base solida per le comparazioni e la discussione.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Mediante il preventivo con piano integrato dei compiti e delle finanze (PICF) e la banca dati dei sussidi, ogni anno il Consiglio federale garantisce la trasparenza totale in merito ai sussidi della Confederazione. Si continua inoltre a svolgere le verifiche dei sussidi e a presentare i relativi rapporti. Per giunta, il Controllo federale delle finanze (CDF) effettua regolarmente valutazioni e verifiche riguardanti i sussidi versati.</p><p>Secondo l'articolo 5 della legge sui sussidi (LSu), il Consiglio federale è tenuto a riesaminare i sussidi erogati almeno ogni sei anni e a presentare al Parlamento un rapporto sui risultati del riesame. Di massima vengono riesaminati tutti i sussidi. I rapporti possono essere presentati sia nel quadro di messaggi, con i quali il Consiglio federale sottopone al Parlamento decisioni finanziarie pluriennali o modifiche di disposizioni vigenti in materia di sussidi, sia nell'ambito del consuntivo.</p><p>Circa un terzo dei sussidi è chiesto nel quadro di messaggi concernenti le decisioni finanziarie pluriennali. Ogni quattro anni, il Parlamento ha quindi la possibilità di assumere la sua funzione di gestione e di controllo.</p><p>La verifica nel quadro del consuntivo è incentrata sui sussidi che non sono già stati riesaminati in altri messaggi. Ogni anno uno o due dipartimenti verificano se i sussidi erogati sono conformi alla LSu. Il riesame avviene in base a un questionario standardizzato, che permette al dipartimento e all'Amministrazione federale delle finanze di analizzare in particolare la motivazione, il volume, l'impostazione e la gestione del sussidio, così come la procedura di erogazione. Il conseguente rapporto contenuto nel consuntivo comprende per ogni sussidio la descrizione delle principali caratteristiche, la valutazione critica e la necessità di intervento che ne risulta. I risultati della verifica dei sussidi vengono presentati e discussi all'interno delle Commissioni delle finanze. Il controlling di attuazione è effettuato a ritmo triennale sempre nel quadro del consuntivo.</p><p>Alla luce dei deficit strutturali che si stanno delineando, secondo il Consiglio federale è fondamentale eseguire un'analisi dei compiti esistenti. Reintrodurre il rapporto sui sussidi non è pero la strada giusta da intraprendere. Esso comporta infatti oneri amministrativi importanti. Inoltre, l'attuale ciclo di verifica sessennale svolto ogni anno da uno o due dipartimenti è più semplice da gestire sia per il Consiglio federale che per il Parlamento. Il dispendio legato a un rapporto che comprende la totalità dei sussidi e che deve essere pubblicato ogni quattro anni, anziché ogni sei, sarebbe ancora più elevato e in contropartita non si creerebbe alcun valore aggiunto. Se il Parlamento intende conseguire risparmi, è più efficace procedere a una verifica mirata dei compiti o prevedere misure di risparmio sotto forma di mozioni o mandati riguardanti il piano finanziario.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {
         "id": 5,
         "name": "Testo depositato"
       },
-      "value": "<p  align=\"left\">Il Consiglio federale è incaricato di pubblicare un rapporto sui sussidi con cadenza quadriennale (conformemente alla prassi seguita fino al 2008). Il rapporto deve contenere soprattutto un riesame dell'efficienza dei sussidi e proposte volte ad abolire o a dissociare determinati settori di compiti in cui l'efficienza non è più garantita.</p>"
+      "value": "<p align=\"left\">Il Consiglio federale è incaricato di pubblicare un rapporto sui sussidi con cadenza quadriennale (conformemente alla prassi seguita fino al 2008). Il rapporto deve contenere soprattutto un riesame dell'efficienza dei sussidi e proposte volte ad abolire o a dissociare determinati settori di compiti in cui l'efficienza non è più garantita.</p>"
     },
     {
       "type": {

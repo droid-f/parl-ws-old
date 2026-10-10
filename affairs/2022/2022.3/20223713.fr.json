@@ -1,6 +1,6 @@
 {
   "id": 20223713,
-  "updated": "2022-06-20T14:23:00Z",
+  "updated": "2025-04-24T19:29:57Z",
   "additionalIndexing": "08;36;2831;15;32",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,187 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "L’objet est repris",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-02-28T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-09-23T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-31T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSEC-CN",
+            "id": 5,
+            "name": "Commission de la science, de l'éducation et de la culture CN",
+            "abbreviation1": "CSEC-N",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-06-18T07:06:25Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3136,
+                    "gender": "m",
+                    "id": 4237,
+                    "name": "Würth Benedikt",
+                    "officialDenomination": "Würth"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CE",
+            "id": 18,
+            "name": "Commission de la science, de l'éducation et de la culture CE",
+            "abbreviation1": "CSEC-E",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1655330400000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1661896800000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1709074800000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1717365600000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1718575200000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1727042400000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -198,23 +356,54 @@
         "name": "Groupe socialiste"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3124,
+        "gender": "m",
+        "id": 4223,
+        "name": "Molina Fabian",
+        "officialDenomination": "Molina"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "22.3713",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Dans son avis relatif au postulat 21.3967, le Conseil fédéral a indiqué qu'il existait déjà de multiples liens entre les hautes écoles suisses et les établissements de recherche, les institutions culturelles et les organismes d'encouragement. Mais aucune mise en réseau n'a vraiment eu lieu à ce jour. Seul un cadre institutionnel solide, sous la forme d'un partenariat institutionnalisé, permettra d'exploiter pleinement le potentiel important qui existe en Suisse comme à Taïwan dans les domaines de la culture, de la science, de la technologie et de l'innovation, et ce, dans l'intérêt des deux parties.</p><p>La guerre d'agression lancée par la Russie contre l'Ukraine nous a rappelé l'importance de bonnes relations avec les pays et les régions qui ont les mêmes valeurs que nous (démocratie, droits de l'homme, État de droit). Un approfondissement de la collaboration entre la Suisse et Taïwan dans les domaines de la culture, de la formation, de la recherche et de l'innovation peut contribuer à davantage de paix et de stabilité dans le monde. Cette collaboration peut encore être fortement renforcée ; elle est, dans tous les cas, peu développée par rapport aux relations que nous entretenons avec des institutions chinoises du continent. Mais de telles relations comportent aussi des risques, comme le souligne le Conseil fédéral dans sa réponse à la question 22.7349 de l'heure des questions.</p><p>La diplomatie scientifique peut nous aider à relever les défis du 21e siècle. La collaboration avec l'UE dans les domaines de la recherche et de la formation est certes prioritaire, mais il convient aussi de développer en permanence le réseau mondial suisse chargé de tisser des liens dans les domaines de la formation, de la recherche et de l'innovation. Taïwan dispose du potentiel nécessaire pour devenir l'un des nouveaux grands sites de ce réseau. Une simple poursuite des relations actuelles sur un plan technique ne permettra pas d'exploiter pleinement le potentiel existant.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>La Suisse suit sa politique d'une seule Chine et ne reconnaît pas Taïwan (Taipei chinois) comme un État indépendant. Cela signifie que la Suisse n'entretient pas de relations officielles ni ne conclut d'accords bilatéraux avec Taïwan. S'il existe un intérêt prépondérant pour la Suisse à une réglementation, les institutions de droit privé que sont le Trade Office of Swiss Industries (TOSI) et la Délégation culturelle et économique de Taipei concluent les accords nécessaires. Indépendamment d'éventuels accords de droit privé, des partenariats actifs entre des institutions de recherche et de culture suisses, ainsi que les hautes écoles suisses, pourraient être mis en place avec leurs pendants taïwanais, selon les intérêts des institutions concernées.</p><p>Les relations avec Taïwan dans le domaine de la recherche sont très bonnes. Les hautes écoles suisses collaborent directement avec des institutions partenaires à Taïwan en fonction de leurs intérêts propres. Dans le cadre des programmes de coopération bilatéraux de la Confédération, l'ETH Zürich, dans son rôle de Leading House Asia pour la région de l'Asie de l'Est et de l'Asie du Sud-Est, soutient des collaborations scientifiques en offrant des instruments de financement de projets de recherche entre des chercheurs et chercheuses d'hautes écoles et d'instituts de recherche publics suisses et leurs partenaires affiliés à des hautes écoles et instituts de recherche publics à Taïwan. Le FNS dispose aussi de plusieurs instruments de financement auxquels les chercheurs et chercheuses taïwanais peuvent participer en tant que requérants principaux ou partenaires de projet pour autant qu'ils répondent aux critères d'éligibilité.</p><p>Afin d'encourager les échanges internationaux dans les domaines de la recherche et des arts, des bourses d'excellence de la Confédération sont proposées depuis 2018 aux jeunes chercheurs et chercheuses basés à Taïwan. En matière d'innovation, un échange informel et technique a eu lieu en 2021 entre Innosuisse et des représentants de la Délégation culturelle et économique de Taipei afin d'explorer les possibilités de collaboration. Au niveau culturel, les artistes suisses peuvent demander à Pro Helvetia un soutien financier pour des présentations et des tournées à Taïwan. Il est aussi possible pour des artistes suisses de demander un soutien financier pour des voyages de recherche à Taïwan.</p><p>La Suisse poursuit une approche de collaboration pragmatique avec Taïwan, qui passe par le maintien d'échanges économiques, scientifiques et culturels sur le plan technique. L'objectif de la Confédération est de créer en permanence des conditions-cadres favorisant les activités autonomes et les coopérations \" bottom-up \" établies librement par les acteurs suisses sur la scène internationale. Compte tenu du contexte et des instruments déjà existants, un accord entre le Trade Office of Swiss Industries et la Délégation culturelle et économique de Taipei n'apporterait pas de valeur ajoutée substantielle.</p><p>Le Conseil fédéral estime que les échanges et instruments existants permettent d'atteindre les objectifs fixés et rejette donc la demande des auteurs de la motion.</p><p>Au travers du postulat 21.3967, le Conseil fédéral a été chargé de présenter un rapport indiquant dans quels domaines les relations avec Taïwan pourraient être progressivement approfondies, y compris dans l'intérêt de la science et de la culture. Ce rapport sera publié en 2023.</p>  Le Conseil fédéral propose de rejeter la motion."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé, en vue d'encourager et de renforcer les relations amicales et étroites entre la Suisse et Taïwan, de développer et d'approfondir la collaboration existante dans les domaines de la culture, de la formation, de la recherche et de l'innovation. Une convention visant la mise en place d'un partenariat sera signée à cet effet par les deux organismes privés que sont le \" Trade Office of Swiss Industries, Taipei \" et la Délégation culturelle et économique de Taipei en Suisse.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Asseoir et approfondir notre collaboration avec Taïwan dans les domaines de la science, de la technologie, de l'innovation et de la culture "
     }
   ],
-  "title": "Titre suit"
+  "title": "Asseoir et approfondir notre collaboration avec Taïwan dans les domaines de la science, de la technologie, de l'innovation et de la culture "
 }

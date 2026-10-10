@@ -1,6 +1,6 @@
 {
   "id": 20224331,
-  "updated": "2022-12-19T10:29:03Z",
+  "updated": "2025-04-24T19:25:13Z",
   "additionalIndexing": "44;1211;15;28",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,17 +41,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-03-12T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-03-17T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-22T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-10-22T15:49:39Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2700,
+                    "gender": "f",
+                    "id": 3897,
+                    "name": "Moser Tiana Angelina",
+                    "officialDenomination": "Moser"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -67,8 +180,38 @@
       "states": [
         {
           "date": "/Date(1670799600000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1677020400000+0100)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1710198000000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1726437600000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1729548000000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1742166000000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -106,7 +249,7 @@
         "gender": "m",
         "id": 4190,
         "name": "Dobler Marcel",
-        "officialDenomination": "Dobler"
+        "officialDenomination": "Dobler Marcel"
       },
       "type": "cosign"
     },
@@ -139,10 +282,10 @@
   ],
   "shortId": "22.4331",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -151,6 +294,13 @@
         "name": "Begründung"
       },
       "value": "<p>Technische und gesellschaftliche Entwicklungen haben dazu geführt, dass die Sonntagsarbeit weitgehend akzeptiert ist. Heute ist es selbstverständlich geworden, dass eine gewisse Anzahl an Geschäften sonntags geöffnet sind und dass die Konsumentinnen und Konsumenten an Bahnhöfen und Flughäfen sowie in Tankstellenshops und Tourismusgebieten problemlos einkaufen können. Die Stadtbewohnerinnen und -bewohner sind mittlerweile daran gewöhnt, dass sie sich an sieben Tage in der Woche mit dem Nötigsten eindecken können.</p><p>In einigen suburbanen Gebieten, die über keine dieser Infrastrukturen verfügen, fehlt es jedoch an einer Reihe von Dienstleistungen, die in unserer Zeit unverzichtbar geworden sind. Es ist kaum zu rechtfertigen, dass Dorfbewohnerinnen und Dorfbewohner sonntags nicht einkaufen können, nur weil es in ihrer Nähe keinen Tankstellenshop oder Bahnhof gibt oder weil sie nicht in einem Tourismusgebiet leben. Personen mit eingeschränkter Mobilität und solche, für die jeder Weg schwierig ist, sind besonders von dieser Ungleichbehandlung betroffen.</p><p>Ausserdem hat die Automatisierung der letzten Jahre dazu geführt, dass der Bedarf an Arbeitskräften für Nacht- und Wochenendarbeiten zurückging, wodurch die negativen Auswirkungen, welche für die Aufrechterhaltung der heutigen Beschränkungen jeweils angeführt wurden, reduziert wurden.</p><p>Zudem können in vielen Dörfern bestimmte Basisdienstleistungen, wie das schlichte Geldabheben, nur im einzigen vorhandenen Dorfladen in Anspruch genommen werden. Ist dieser am Sonntag zu, führt das für die Menschen zu realen Schwierigkeiten.</p><p>Aus diesen Gründen wird vorgeschlagen, dass das Arbeitsrecht so geändert wird, dass lokale Geschäfte im ganzen Land sonntags öffnen dürfen. Es wird Aufgabe der Gesetzgebung sein, den Begriff des lokalen Geschäfts zu definieren, sodass Supermärkte und Geschäfte ohne entsprechendes Sortiment davon ausgeschlossen sind. Ausserdem bleiben die Gewerbepolizei und die Ladenöffnungszeiten in jedem Fall in der Kompetenz der Kantone.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Es gilt anzumerken, dass bereits zahlreiche Unternehmen von der in der Verordnung 2 zum Arbeitsgesetz (ArGV 2; SR 822.112) vorgesehenen Möglichkeit zur Beschäftigung von Mitarbeitenden an Sonntagen profitieren. So gelten beispielsweise für Gastbetriebe (Art. 23 ArGV 2), Bäckereien, Konditoreien und Confiserien (Art. 27 ArGV 2) sowie Kioske (Art. 26 ArGV 2) Sonderregelungen. Auch Familienbetriebe, um die es sich bei solchen kleinen Geschäften mit dem Sortiment eines Lebensmittelladens häufig handelt, können ihre Arbeitnehmenden am Sonntag beschäftigen, sofern diese zur Familie des Arbeitgebers gehören (Art. 4 Arbeitsgesetz, ArG; SR 822.11). Diese Ausnahmen sind geografisch nicht begrenzt und gelten somit auch für suburbane Gebiete.</p><p>Es trifft zwar zu, dass sich andere Ausnahmen stärker an städtische Gebiete richten, insbesondere diejenigen für sogenannte \"Betriebe für Reisende\", also Verkaufsstellen an Bahnhöfen, Flughäfen, anderen Terminals des öffentlichen Verkehrs und in Grenzorten. Dennoch bieten die geltenden Bestimmungen bereits die nötige Flexibilität, um den Grundbedürfnissen Rechnung zu tragen. Hinzu kommen noch die für die Tourismusgebiete vorgesehenen Ausnahmen, die hauptsächlich in nicht städtischen Gebieten zur Anwendung gelangen.</p><p>Eine zusätzliche Lockerung würde dem allgemeinen Grundsatz des Sonntagsarbeitsverbots zuwiderlaufen, der vor allem auf gesellschaftlichen, kulturellen und religiösen Überlegungen fusst, die für einen Grossteil der Bevölkerung nach wie vor von Bedeutung sind. Die Erweiterung der Arbeitszeit des Verkaufspersonals ist ferner ein sehr sensibles Thema, wie die negativen Abstimmungsresultate der letzten Jahre in mehreren Kantonen gezeigt haben.</p><p>Vor diesem Hintergrund ist es nach Ansicht des Bundesrates weder notwendig noch angezeigt, eine Änderung des Arbeitsgesetzes vorzuschlagen, um zusätzlich zu den bereits geltenden Ausnahmen die Sonntagsarbeit in kleinen Läden zu erlauben.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

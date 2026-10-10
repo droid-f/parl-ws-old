@@ -1,6 +1,6 @@
 {
   "id": 20160488,
-  "updated": "2019-02-18T19:03:06Z",
+  "updated": "2025-04-09T00:43:00Z",
   "additionalIndexing": "1211",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -49,7 +49,7 @@
               "abbreviation": "CAJ-CN",
               "id": 12,
               "name": "Commission des affaires juridiques CN",
-              "abbreviation1": "CAJ-CN",
+              "abbreviation1": "CAJ-N",
               "abbreviation2": "CAJ",
               "committeeNumber": 12,
               "council": {
@@ -62,7 +62,7 @@
             },
             "council": null,
             "date": "2017-10-20T00:00:00Z",
-            "text": "Donné suite",
+            "text": "Donner suite (conseil prioritaire)",
             "type": 16
           },
           {
@@ -74,7 +74,7 @@
               "abbreviation": "CAJ-CE",
               "id": 25,
               "name": "Commission des affaires juridiques CE",
-              "abbreviation1": "CAJ-CE",
+              "abbreviation1": "CAJ-E",
               "abbreviation2": "CAJ",
               "committeeNumber": 25,
               "council": {
@@ -102,7 +102,22 @@
               "type": "N"
             },
             "date": "2020-06-19T00:00:00Z",
-            "text": "Prolongation de délai",
+            "text": "Prolongation du délai jusqu'à la session de printemps 2022.",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Jusqu'à la session de printemps 2024.",
             "type": 50
           },
           {
@@ -110,10 +125,30 @@
               "id": 4,
               "name": "Complément"
             },
-            "council": null,
-            "date": "2020-06-19T00:00:00Z",
-            "text": "Jusqu'à la session de printemps 2022.",
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Jusqu'à la session de printemps 2024.",
             "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-03-15T00:00:00Z",
+            "text": "Classement",
+            "type": 15
           }
         ]
       },
@@ -129,7 +164,7 @@
             "abbreviation": "CAJ-CN",
             "id": 12,
             "name": "Commission des affaires juridiques CN",
-            "abbreviation1": "CAJ-CN",
+            "abbreviation1": "CAJ-N",
             "abbreviation2": "CAJ",
             "committeeNumber": 12,
             "council": {
@@ -157,6 +192,12 @@
 
               ],
               "sessionId": "5104"
+            },
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5113"
             }
           ],
           "treatmentCategory": "V"
@@ -166,7 +207,7 @@
             "abbreviation": "CAJ-CE",
             "id": 25,
             "name": "Commission des affaires juridiques CE",
-            "abbreviation1": "CAJ-CE",
+            "abbreviation1": "CAJ-E",
             "abbreviation2": "CAJ",
             "committeeNumber": 25,
             "council": {
@@ -184,7 +225,8 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -192,10 +234,10 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlement",
-          "leading": false
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
         }
       ],
       "states": [
@@ -206,8 +248,23 @@
         },
         {
           "date": "/Date(1524693600000+0200)/",
-          "id": 1,
-          "name": "Donné suite"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1705618800000+0100)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1705705200000+0100)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1710457200000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -232,7 +289,7 @@
             "abbreviation": "CAJ-CN",
             "id": 12,
             "name": "Commission des affaires juridiques CN",
-            "abbreviation1": "CAJ-CN",
+            "abbreviation1": "CAJ-N",
             "abbreviation2": "CAJ",
             "committeeNumber": 12,
             "council": {
@@ -258,7 +315,7 @@
             "abbreviation": "CAJ-CE",
             "id": 25,
             "name": "Commission des affaires juridiques CE",
-            "abbreviation1": "CAJ-CE",
+            "abbreviation1": "CAJ-E",
             "abbreviation2": "CAJ",
             "committeeNumber": 25,
             "council": {
@@ -272,7 +329,8 @@
           "date": "2017-10-20T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -280,17 +338,22 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlement",
-          "leading": false
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1481583600000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1710457200000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -408,7 +471,7 @@
         "gender": "m",
         "id": 4053,
         "name": "Aeschi Thomas",
-        "officialDenomination": "Aeschi Thomas"
+        "officialDenomination": "Aeschi"
       },
       "type": "cosign"
     },
@@ -568,7 +631,7 @@
         "gender": "m",
         "id": 4141,
         "name": "Portmann Hans-Peter",
-        "officialDenomination": "Portmann"
+        "officialDenomination": "Portmann Hans-Peter"
       },
       "type": "cosign"
     },
@@ -688,7 +751,7 @@
         "gender": "m",
         "id": 4190,
         "name": "Dobler Marcel",
-        "officialDenomination": "Dobler"
+        "officialDenomination": "Dobler Marcel"
       },
       "type": "cosign"
     },
@@ -730,8 +793,8 @@
   ],
   "shortId": "16.488",
   "state": {
-    "id": 1,
-    "name": "Donné suite",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
@@ -741,7 +804,7 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Le trust (littéralement \"confiance\", traduisible par fiducie) est un acte juridique du système anglo-saxon (Common Law), qui se fonde donc davantage sur la jurisprudence que sur la loi. Le terme trust vise les relations juridiques créées par une personne, le constituant (settlor) - par acte entre vifs ou à cause de mort - lorsque des biens ont été placés sous le contrôle d'un trustee dans l'intérêt d'un bénéficiaire ou dans un but déterminé. Le constituant peut désigner un protecteur (protector) pour surveiller le travail du trustee.</p><p>Le constituant transfère, sur la base d'un document de constitution (trust deed), des biens au trustee qui, sans en devenir le propriétaire, les gère dans l'intérêt du bénéficiaire, conformément au document de constitution. A la différence de la fondation, le trust n'est pas doté de la personnalité juridique. Les biens du trust constituent une masse distincte et ne font pas partie du patrimoine du trustee.</p><p>Le fait que le constituant conserve certaines prérogatives ne s'oppose pas nécessairement à l'existence d'un trust. Le document de constitution prévoit généralement un contrat en forme écrite simple, signé par le constituant et le plus souvent par le trustee. En fonction des exigences formelles, le document peut être authentifié par un notaire ou revêtir la forme d'un acte authentique.</p><p>Le contrat comprend généralement le nom du constituant, du trustee et le cas échéant du protecteur, le nom du trust, la loi applicable, les bénéficiaires, les obligations du trustee et du protecteur, le but et les biens du trust et des indications quant à la dissolution de celui-ci. Le constituant peut spécifier ses souhaits et ses dispositions dans une lettre d'intention (la Letter of Wishes) dont le trustee devra tenir compte, bien qu'elle ne le lie pas juridiquement.</p><p>Le trust n'obéit pas à un modèle unique et rigide mais peut revêtir une multitude de formes en fonction de son but et de son domaine. Il peut donc être révocable, irrévocable discrétionnaire, irrévocable à intérêt fixe, autodéclaré, commercial, immobilier, créé dans un but déterminé, testamentaire, créé à cause de mort ou familial, etc.</p><p>Le trust peut notamment être utilisé aux fins suivantes:</p><p>1. protection des biens contre des événements préjudiciables liés aux personnes (par ex. séparation du patrimoine personnel du patrimoine de l'entreprise, protection financière en cas d'addiction au jeu ou à la drogue, etc.);</p><p>2. discrétion: les dispositions peuvent être accessibles uniquement à un nombre limité de personnes;</p><p>3. protection des mineurs et des personnes handicapées;</p><p>4. protection du patrimoine au moment du changement de génération;</p><p>5. bienfaisance;</p><p>6. investissements et retraite.</p><p>Dans certains Etats (Nouvelle-Zélande, Bermudes, Antigua, etc.), les trusts sont des instruments d'optimisation fiscale ouverts aux étrangers qui peuvent bénéficier de la législation locale particulière.</p><p>A l'heure actuelle, les trusts ne sont pas codifiés dans notre législation, ils sont donc utilisés en Suisse en vertu de dispositions de droit civil d'autres Etats. L'Assemblée fédérale a approuvé la Convention relative à la loi applicable au trust et à sa reconnaissance, conclue à La Haye le 1er juillet 1985 (RS 0.221.371), qui est entrée en vigueur le 1er juillet 2007 pour la Suisse. La convention permet de reconnaître au plan civil les trusts étrangers sur la base de normes approuvées au niveau international et prévoit qu'ils soient régis par la loi choisie par le constituant. Si un citoyen suisse souhaite placer ses biens dans un trust, il devra donc se référer à un droit étranger, peut-être peu accessible ou difficilement compréhensible.</p><p>C'est principalement le droit civil qui est lacunaire en Suisse, la question des trusts ayant été réglée dans les autres domaines. L'Administration fédérale des contributions applique les règles claires établies par la circulaire no 30 du 22 août 2007 sur l'imposition des trusts de la Conférence suisse des impôts. L'imposition des trusts respecte le droit fiscal suisse, aussi ceux-ci ne peuvent-ils être considérés comme un moyen d'optimisation fiscale.</p><p>Les trusts sont un produit d'exportation intéressant des pays anglo-saxons. Dans de nombreux pays, tels que l'Italie, l'Allemagne, l'Autriche et le Liechtenstein, ils ont été adoptés par adhésion à la Convention de La Haye, sans qu'il ait été nécessaire de créer des dispositions particulières dans le droit civil interne. Leur imposition a généralement été réglée par la taxation par transparence ou par analogie avec celle des fondations.</p><p>D'autres pays ont quant à eux profité de la ratification de la convention pour modifier leur droit interne. C'est notamment le cas des Pays-Bas (qui ont édicté les Dutch Conflicts Rules on Trust), qui prévoient la possibilité de créer des trusts de droit national, et du Luxembourg, qui a modifié les dispositions régissant le contrat fiduciaire en 2003 afin de codifier le trust en droit interne.</p><p>Le Code civil français définit et règle le trust (sous le terme de fiducie) à ses articles 2011 à 2028, depuis 2007. Ces dispositions pourraient être intégrées dans le CO parmi les différents types de contrat. Le Registre national des fiducies, auquel les trusts doivent obligatoirement être inscrits, est un instrument de contrôle efficace, y compris du point de vue fiscal.</p><p>En synthèse, la codification du trust dans le droit civil suisse se justifie pour différentes raisons.</p><p>Les modifications pertinentes du CO et du CC permettraient en effet:</p><p>1. de mettre à disposition des citoyens un instrument conforme à notre ordre juridique, plus accessible et compréhensible;</p><p>2. de déterminer les types de trusts autorisés dans notre pays, au bénéfice de la transparence et de la sécurité du droit;</p><p>3. d'ouvrir de nouvelles perspectives de travail aux professionnels suisses, qui pourraient conseiller les constituants, créer les trusts et gérer leur patrimoine.</p><p>La présente initiative est formulée en termes généraux. Si on accepte de lui donner suite, la commission du Conseil national sera chargée par la suite d'élaborer un projet de modification de la loi visant à codifier le trust, en s'assurant éventuellement le concours du département compétent.</p>"
+      "value": "<p>Le trust (littéralement \"confiance\", traduisible par fiducie) est un acte juridique du système anglo-saxon (Common Law), qui se fonde donc davantage sur la jurisprudence que sur la loi. Le terme trust vise les relations juridiques créées par une personne, le constituant (settlor) - par acte entre vifs ou à cause de mort - lorsque des biens ont été placés sous le contrôle d'un trustee dans l'intérêt d'un bénéficiaire ou dans un but déterminé. Le constituant peut désigner un protecteur (protector) pour surveiller le travail du trustee.</p><p>Le constituant transfère, sur la base d'un document de constitution (trust deed), des biens au trustee qui, sans en devenir le propriétaire, les gère dans l'intérêt du bénéficiaire, conformément au document de constitution. À la différence de la fondation, le trust n'est pas doté de la personnalité juridique. Les biens du trust constituent une masse distincte et ne font pas partie du patrimoine du trustee.</p><p>Le fait que le constituant conserve certaines prérogatives ne s'oppose pas nécessairement à l'existence d'un trust. Le document de constitution prévoit généralement un contrat en forme écrite simple, signé par le constituant et le plus souvent par le trustee. En fonction des exigences formelles, le document peut être authentifié par un notaire ou revêtir la forme d'un acte authentique.</p><p>Le contrat comprend généralement le nom du constituant, du trustee et le cas échéant du protecteur, le nom du trust, la loi applicable, les bénéficiaires, les obligations du trustee et du protecteur, le but et les biens du trust et des indications quant à la dissolution de celui-ci. Le constituant peut spécifier ses souhaits et ses dispositions dans une lettre d'intention (la Letter of Wishes) dont le trustee devra tenir compte, bien qu'elle ne le lie pas juridiquement.</p><p>Le trust n'obéit pas à un modèle unique et rigide mais peut revêtir une multitude de formes en fonction de son but et de son domaine. Il peut donc être révocable, irrévocable discrétionnaire, irrévocable à intérêt fixe, autodéclaré, commercial, immobilier, créé dans un but déterminé, testamentaire, créé à cause de mort ou familial, etc.</p><p>Le trust peut notamment être utilisé aux fins suivantes :</p><p>1. protection des biens contre des événements préjudiciables liés aux personnes (par ex. séparation du patrimoine personnel du patrimoine de l'entreprise, protection financière en cas d'addiction au jeu ou à la drogue, etc.);</p><p>2. discrétion : les dispositions peuvent être accessibles uniquement à un nombre limité de personnes ;</p><p>3. protection des mineurs et des personnes handicapées ;</p><p>4. protection du patrimoine au moment du changement de génération ;</p><p>5. bienfaisance ;</p><p>6. investissements et retraite.</p><p>Dans certains États (Nouvelle-Zélande, Bermudes, Antigua, etc.), les trusts sont des instruments d'optimisation fiscale ouverts aux étrangers qui peuvent bénéficier de la législation locale particulière.</p><p>À l'heure actuelle, les trusts ne sont pas codifiés dans notre législation, ils sont donc utilisés en Suisse en vertu de dispositions de droit civil d'autres États. L'Assemblée fédérale a approuvé la Convention relative à la loi applicable au trust et à sa reconnaissance, conclue à La Haye le 1er juillet 1985 (RS 0.221.371), qui est entrée en vigueur le 1er juillet 2007 pour la Suisse. La convention permet de reconnaître au plan civil les trusts étrangers sur la base de normes approuvées au niveau international et prévoit qu'ils soient régis par la loi choisie par le constituant. Si un citoyen suisse souhaite placer ses biens dans un trust, il devra donc se référer à un droit étranger, peut-être peu accessible ou difficilement compréhensible.</p><p>C'est principalement le droit civil qui est lacunaire en Suisse, la question des trusts ayant été réglée dans les autres domaines. L'Administration fédérale des contributions applique les règles claires établies par la circulaire no 30 du 22 août 2007 sur l'imposition des trusts de la Conférence suisse des impôts. L'imposition des trusts respecte le droit fiscal suisse, aussi ceux-ci ne peuvent-ils être considérés comme un moyen d'optimisation fiscale.</p><p>Les trusts sont un produit d'exportation intéressant des pays anglo-saxons. Dans de nombreux pays, tels que l'Italie, l'Allemagne, l'Autriche et le Liechtenstein, ils ont été adoptés par adhésion à la Convention de La Haye, sans qu'il ait été nécessaire de créer des dispositions particulières dans le droit civil interne. Leur imposition a généralement été réglée par la taxation par transparence ou par analogie avec celle des fondations.</p><p>D'autres pays ont quant à eux profité de la ratification de la convention pour modifier leur droit interne. C'est notamment le cas des Pays-Bas (qui ont édicté les Dutch Conflicts Rules on Trust), qui prévoient la possibilité de créer des trusts de droit national, et du Luxembourg, qui a modifié les dispositions régissant le contrat fiduciaire en 2003 afin de codifier le trust en droit interne.</p><p>Le Code civil français définit et règle le trust (sous le terme de fiducie) à ses articles 2011 à 2028, depuis 2007. Ces dispositions pourraient être intégrées dans le CO parmi les différents types de contrat. Le Registre national des fiducies, auquel les trusts doivent obligatoirement être inscrits, est un instrument de contrôle efficace, y compris du point de vue fiscal.</p><p>En synthèse, la codification du trust dans le droit civil suisse se justifie pour différentes raisons.</p><p>Les modifications pertinentes du CO et du CC permettraient en effet :</p><p>1. de mettre à disposition des citoyens un instrument conforme à notre ordre juridique, plus accessible et compréhensible ;</p><p>2. de déterminer les types de trusts autorisés dans notre pays, au bénéfice de la transparence et de la sécurité du droit ;</p><p>3. d'ouvrir de nouvelles perspectives de travail aux professionnels suisses, qui pourraient conseiller les constituants, créer les trusts et gérer leur patrimoine.</p><p>La présente initiative est formulée en termes généraux. Si on accepte de lui donner suite, la commission du Conseil national sera chargée par la suite d'élaborer un projet de modification de la loi visant à codifier le trust, en s'assurant éventuellement le concours du département compétent.</p>"
     },
     {
       "type": {

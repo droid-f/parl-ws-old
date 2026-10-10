@@ -1,6 +1,6 @@
 {
   "id": 20223643,
-  "updated": "2022-09-30T09:40:29Z",
+  "updated": "2024-09-10T10:13:13Z",
   "additionalIndexing": "04;1236;34",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2022-09-30T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-09-10T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -68,7 +83,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-06-28T16:31:19Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3205,
+                    "gender": "m",
+                    "id": 4309,
+                    "name": "Michel Matthias",
+                    "officialDenomination": "Michel Matthias"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-06-15T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-06-15T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +185,23 @@
         },
         {
           "date": "/Date(1664488800000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1719525600000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1724968800000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1725919200000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -128,7 +239,7 @@
         "gender": "m",
         "id": 4190,
         "name": "Dobler Marcel",
-        "officialDenomination": "Dobler"
+        "officialDenomination": "Dobler Marcel"
       },
       "type": "cosign"
     },
@@ -151,10 +262,9 @@
   ],
   "shortId": "22.3643",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -170,7 +280,7 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Der Bundesrat hat am 29. Juni 2022 die Vernehmlassung zum Vorentwurf des E-ID-Gesetzes eröffnet. Dieser Vorentwurf enthält die notwendigen gesetzlichen Grundlagen für eine staatliche Vertrauensinfrastruktur, die es ermöglicht, die E-ID und andere elektronische Nachweise auszustellen und zu verwenden. Die Vorlage sieht vor, dass der Bund eine staatliche elektronische Brieftasche bereitstellt, die die E-ID und weitere elektronische Nachweise enthalten kann. Die Inhaberinnen und Inhaber der Brieftasche können ihre E-ID und andere elektronische Nachweise sicher und transparent beantragen, beziehen und vorweisen. Ein im Rahmen dieser Arbeiten gemeinsam mit dem Bundesamt für Strassen durchgeführtes Pilotprojekt prüft die Möglichkeit, einen digitalen Führerausweis auszustellen. Der Vorentwurf und die Motion verfolgen also das gleiche Ziel.</p>"
+      "value": "<p>Der Bundesrat hat am 29. Juni 2022 die Vernehmlassung zum Vorentwurf des E-ID-Gesetzes eröffnet. Dieser Vorentwurf enthält die notwendigen gesetzlichen Grundlagen für eine staatliche Vertrauensinfrastruktur, die es ermöglicht, die E-ID und andere elektronische Nachweise auszustellen und zu verwenden. Die Vorlage sieht vor, dass der Bund eine staatliche elektronische Brieftasche bereitstellt, die die E-ID und weitere elektronische Nachweise enthalten kann. Die Inhaberinnen und Inhaber der Brieftasche können ihre E-ID und andere elektronische Nachweise sicher und transparent beantragen, beziehen und vorweisen. Ein im Rahmen dieser Arbeiten gemeinsam mit dem Bundesamt für Strassen durchgeführtes Pilotprojekt prüft die Möglichkeit, einen digitalen Führerausweis auszustellen. Der Vorentwurf und die Motion verfolgen also das gleiche Ziel.</p>  Der Bundesrat beantragt die Annahme der Motion."
     },
     {
       "type": {

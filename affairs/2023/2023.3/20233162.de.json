@@ -1,6 +1,6 @@
 {
   "id": 20233162,
-  "updated": "2023-03-16T15:04:39Z",
+  "updated": "2025-04-24T19:33:37Z",
   "additionalIndexing": "2446;04;2846;66;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,17 +41,145 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-27T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-06-06T00:00:00Z",
+            "text": "Annahme mit Änderung",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-12-18T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-05-17T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-03-26T14:21:59Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2632,
+                    "gender": "m",
+                    "id": 1120,
+                    "name": "Sommaruga Carlo",
+                    "officialDenomination": "Sommaruga Carlo"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -67,8 +195,38 @@
       "states": [
         {
           "date": "/Date(1678834800000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1684274400000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1695765600000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1711407600000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1717624800000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1728424800000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1734476400000+0100)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -179,10 +337,10 @@
   ],
   "shortId": "23.3162",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -191,6 +349,13 @@
         "name": "Begründung"
       },
       "value": "<p>Die Notwendigkeit, sich an den Klimawandel anzupassen, ist weithin anerkannt. Eine der möglichen, sinnvollen und einfach umzusetzenden Massnahmen ist die Begrünung von Dächern und Fassaden. Dies insbesondere in den städtischen Gebieten, in denen die verschiedenen Vorteile begrünter Dächer und Fassaden von grosser Bedeutung sind. Begrünte Dächer und Fassaden tragen nämlich zur Reduktion der Luftverschmutzung und der Lärmbelastung bei, zur Verringerung der Abflussgeschwindigkeit des Wassers, zur Verbesserung der Biodiversität in den Städten und zur Senkung der Umgebungstemperatur. Darüber hinaus helfen sie bei der Regulierung der Innentemperatur der Gebäude und tragen so zum Energiesparen bei.</p><p>In städtischen Gebieten, die häufig von Hitzewellen und starken Regenfällen betroffen sind, ist die Begrünung von Dächern daher besonders wertvoll. Zu den betroffenen Regionen gehört eindeutig auch das Tessin.</p><p>Die Kantone können Abzüge für Umweltschutz und Energiesparmassnahmen vorsehen, soweit das Eidgenössische Finanzdepartement dies in Zusammenarbeit mit den Kantonen festlegt (Art. 9 Abs. 3 des Bundesgesetzes über die Harmonisierung der direkten Steuern der Kantone und Gemeinden, StHG; SR 642.14). Trotz der anerkannten Vorteile von Dachbegrünungen und ihrer Bedeutung für die Anpassung an den Klimawandel haben die Kantone derzeit nicht die Möglichkeit, solche Investitionen durch Steuerabzüge zu fördern. Bei anderen energiesparenden Investitionen ist diese Möglichkeit jedoch ausdrücklich gegeben.</p><p>So schränkt die Liegenschaftskostenverordnung (SR 642.116) die dem Energiesparen und dem Umweltschutz dienenden Investitionen auf Aufwendungen für Massnahmen ein, die zur rationellen Energieverwendung oder zur Nutzung erneuerbarer Energien beitragen. Die Verordnung über die Massnahmen zur rationellen Energieverwendung und zur Nutzung erneuerbarer Energien (SR 642.116.1) beschränkt sich auf eine Auflistung der \"Massnahmen zur Verminderung der Energieverluste der Gebäudehülle\" und der \"Massnahmen zur rationellen Energienutzung bei haustechnischen Anlagen\".</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Gesetzgeber hat im Bundesgesetz über die direkte Bundessteuer (DBG; SR 642.11) Investitionen bei Liegenschaften im Privatvermögen, die dem Energiesparen und dem Umweltschutz dienen, den Unterhaltskosten gleichgestellt (Art. 32 Abs. 2 zweiter Satz DBG). Konkretisiert wird dieser Grundsatz in zwei Ausführungserlassen: in der Liegenschaftskostenverordnung des Bundesrates (SR 642.116) und in der Verordnung des EFD über die Massnahmen zur rationellen Energieverwendung und zur Nutzung erneuerbarer Energien (SR 642.116.1). Die zum Abzug berechtigten Massnahmen beziehen sich auf den Ersatz von veralteten und die erstmalige Anbringung von neuen Bauteilen oder Installationen in bestehenden Gebäuden. Die Auflistung ist nicht abschliessend. Die Begrünung von Dächern und Fassaden wird nicht explizit erwähnt.</p><p>Im Steuerharmonisierungsgesetz (StHG; SR 642.14) ist die Sonderregelung als Kann-Vorschrift formuliert (Art. 9 Abs. 3 Bst. a StHG). Inzwischen machen hiervon sämtliche Kantone Gebrauch. Wird die steuerliche Förderung des Energiesparens und des Umweltschutzes auch im kantonalen Recht verankert, sind die bundesrechtlichen Vorgaben massgebend.</p><p>Zu dem von der Motionärin geschilderten Sachverhalt gibt es noch keine gefestigte Steuerpraxis. Die Beurteilung hängt davon ab, inwieweit die Begrünung von Dächern und Fassaden ausreichende Energiespar- oder Umweltschutzeffekte aufweist.</p><p>Das EFD ist daher bereit, in Zusammenarbeit mit den Kantonen und dem UVEK eine Prüfung vorzunehmen und die oben genannte EFD-Verordnung zu revidieren, sollte das Ergebnis dieser Prüfung positiv ausfallen. Der Bundesrat würde im Zweitrat eine entsprechende Änderung beantragen, falls der Nationalrat die Motion annimmt.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

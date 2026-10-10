@@ -1,6 +1,6 @@
 {
   "id": 20220439,
-  "updated": "2023-03-15T17:54:24Z",
+  "updated": "2025-04-11T14:35:05Z",
   "additionalIndexing": "2446;04;44",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -54,6 +54,21 @@
             "date": "2023-03-15T00:00:00Z",
             "text": "È dato seguito",
             "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-03-14T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
           }
         ]
       },
@@ -66,10 +81,50 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-25T19:12:06Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2775,
+                    "gender": "m",
+                    "id": 4075,
+                    "name": "Caroni Andrea",
+                    "officialDenomination": "Caroni"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CET-CN",
             "id": 10,
             "name": "Commissione dell'economia e dei tributi CN",
-            "abbreviation1": "CET-CN",
+            "abbreviation1": "CET-N",
             "abbreviation2": "CET",
             "committeeNumber": 10,
             "council": {
@@ -116,7 +171,7 @@
             "abbreviation": "CET-CS",
             "id": 23,
             "name": "Commissione dell'economia e dei tributi CS",
-            "abbreviation1": "CET-CS",
+            "abbreviation1": "CET-S",
             "abbreviation2": "CET",
             "committeeNumber": 23,
             "council": {
@@ -130,7 +185,8 @@
           "date": "2022-06-16T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
@@ -141,7 +197,7 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -152,8 +208,33 @@
         },
         {
           "date": "/Date(1678834800000+0100)/",
-          "id": 28,
-          "name": "Esame preliminare. Trattato dal Consiglio nazionale"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1688940000000+0200)/",
+          "id": 225,
+          "name": "Esame preliminare - nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1706137200000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1706223600000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1707433200000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1710370800000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -191,7 +272,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -1043,8 +1124,8 @@
   ],
   "shortId": "22.439",
   "state": {
-    "id": 28,
-    "name": "Esame preliminare. Trattato dal Consiglio nazionale",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
     "newKey": 0
   },

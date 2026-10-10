@@ -1,6 +1,6 @@
 {
   "id": 20223456,
-  "updated": "2023-05-03T08:47:30Z",
+  "updated": "2024-12-18T17:53:21Z",
   "additionalIndexing": "09;15;2446;1216;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2023-05-02T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-12-18T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -68,7 +83,92 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-10-29T14:40:16Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2694,
+                    "gender": "m",
+                    "id": 3891,
+                    "name": "Jositsch Daniel",
+                    "officialDenomination": "Jositsch"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-05-11T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-05-11T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +189,23 @@
         },
         {
           "date": "/Date(1682978400000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1714514400000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1730156400000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1734476400000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -211,10 +326,9 @@
   ],
   "shortId": "22.3456",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -230,7 +344,7 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Das Schweizer Rechtssystem sieht bereits verschiedene Regeln zur Feststellung der wirtschaftlich Berechtigten einer Gesellschaft vor. Die Gesellschaft muss ein Verzeichnis über die wirtschaftlich Berechtigten führen (Art. 697l OR, SR 220). Finanzintermediäre müssen bei Geschäftsbeziehungen mit Gesellschaften deren wirtschaftlich berechtigte Personen mit der nach den Umständen gebotenen Sorgfalt feststellen (vgl. Art. 4 GwG, SR 955.0). Die zuständigen Straf- und Verwaltungsbehörden können im Rahmen ihrer gesetzlichen Aufgaben auf diese Informationen zugreifen. Einige der in der Motion angesprochenen Fragen lassen sich somit bereits im Rahmen des geltenden Rechts beantworten.</p><p>Des Weiteren wird gegenwärtig eine Stärkung des bestehenden Dispositivs zur Förderung der Transparenz juristischer Personen geprüft. Am 4. März 2022 hat die Financial Action Task Force (FATF) ihre Empfehlung 24 revidiert und damit den Standard zur Feststellung der wirtschaftlich Berechtigten von juristischer Personen und den Zugang der Behörden zu diesbezüglichen Informationen gestärkt. Das Eidgenössische Finanzdepartement (EFD) analysiert nun in enger Zusammenarbeit mit den zuständigen Departementen und Behörden die Situation, die sich aus dieser Revision ergibt. Die Analyse berücksichtigt die nationalen wie auch die internationalen Umstände. Gestützt darauf wird das EFD dem Bundesrat im dritten Quartal 2022 Optionen zur Umsetzung unterbreiten. Die Schaffung eines Registers über die wirtschaftliche Berechtigung, das auch die Transparenz über ausländische Beteiligungen an Schweizer Gesellschaften erhöhen würde, ist eine der Hauptoptionen.</p><p>Schliesslich gilt es zwischen der Frage ausländischer Investitionsflüsse und der Feststellung der wirtschaftlichen Berechtigung juristischer Personen zu unterscheiden. Ausländische Anlegerinnen und Anleger werden nicht zwingend zu wirtschaftlich berechtigten Personen einer Gesellschaft, wenn sie keine beherrschende Beteiligung erwerben. Der Bundesrat verfügt über Zahlenmaterial zu den ausländischen Direktinvestitionen in der Schweiz und deren Aufschlüsselung nach Herkunftsländern, das von der Schweizerischen Nationalbank regelmässig erhoben und als Bericht veröffentlicht wird. Gemäss der letzten Ausgabe des Berichts (2020) stammen die letztlich an den Investitionen Berechtigten in 50 Prozent der Fälle (602,3 Mrd. CHF) aus den USA und in 39 Prozent der Fälle (472,5 Mrd. CHF) aus Europa, während sich der Rest der Investitionen auf andere Länder verteilt.</p><p>Angesichts der bereits laufenden Arbeiten, die den bestehenden gesetzlichen Rahmen stärken werden, erscheint die Annahme der Motion nicht notwendig.</p>"
+      "value": "<p>Das Schweizer Rechtssystem sieht bereits verschiedene Regeln zur Feststellung der wirtschaftlich Berechtigten einer Gesellschaft vor. Die Gesellschaft muss ein Verzeichnis über die wirtschaftlich Berechtigten führen (Art. 697l OR, SR 220). Finanzintermediäre müssen bei Geschäftsbeziehungen mit Gesellschaften deren wirtschaftlich berechtigte Personen mit der nach den Umständen gebotenen Sorgfalt feststellen (vgl. Art. 4 GwG, SR 955.0). Die zuständigen Straf- und Verwaltungsbehörden können im Rahmen ihrer gesetzlichen Aufgaben auf diese Informationen zugreifen. Einige der in der Motion angesprochenen Fragen lassen sich somit bereits im Rahmen des geltenden Rechts beantworten.</p><p>Des Weiteren wird gegenwärtig eine Stärkung des bestehenden Dispositivs zur Förderung der Transparenz juristischer Personen geprüft. Am 4. März 2022 hat die Financial Action Task Force (FATF) ihre Empfehlung 24 revidiert und damit den Standard zur Feststellung der wirtschaftlich Berechtigten von juristischer Personen und den Zugang der Behörden zu diesbezüglichen Informationen gestärkt. Das Eidgenössische Finanzdepartement (EFD) analysiert nun in enger Zusammenarbeit mit den zuständigen Departementen und Behörden die Situation, die sich aus dieser Revision ergibt. Die Analyse berücksichtigt die nationalen wie auch die internationalen Umstände. Gestützt darauf wird das EFD dem Bundesrat im dritten Quartal 2022 Optionen zur Umsetzung unterbreiten. Die Schaffung eines Registers über die wirtschaftliche Berechtigung, das auch die Transparenz über ausländische Beteiligungen an Schweizer Gesellschaften erhöhen würde, ist eine der Hauptoptionen.</p><p>Schliesslich gilt es zwischen der Frage ausländischer Investitionsflüsse und der Feststellung der wirtschaftlichen Berechtigung juristischer Personen zu unterscheiden. Ausländische Anlegerinnen und Anleger werden nicht zwingend zu wirtschaftlich berechtigten Personen einer Gesellschaft, wenn sie keine beherrschende Beteiligung erwerben. Der Bundesrat verfügt über Zahlenmaterial zu den ausländischen Direktinvestitionen in der Schweiz und deren Aufschlüsselung nach Herkunftsländern, das von der Schweizerischen Nationalbank regelmässig erhoben und als Bericht veröffentlicht wird. Gemäss der letzten Ausgabe des Berichts (2020) stammen die letztlich an den Investitionen Berechtigten in 50 Prozent der Fälle (602,3 Mrd. CHF) aus den USA und in 39 Prozent der Fälle (472,5 Mrd. CHF) aus Europa, während sich der Rest der Investitionen auf andere Länder verteilt.</p><p>Angesichts der bereits laufenden Arbeiten, die den bestehenden gesetzlichen Rahmen stärken werden, erscheint die Annahme der Motion nicht notwendig.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

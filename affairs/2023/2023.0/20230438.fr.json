@@ -1,6 +1,6 @@
 {
   "id": 20230438,
-  "updated": "2023-06-21T16:26:33Z",
+  "updated": "2024-09-09T18:46:54Z",
   "additionalIndexing": "34;1236;12",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -8,11 +8,6 @@
     "name": "Initiative parlementaire"
   },
   "author": {
-    "faction": {
-      "abbreviation": "Groupe G",
-      "id": 6,
-      "name": "Groupe des VERT-E-S"
-    },
     "type": "author"
   },
   "deposit": {
@@ -33,7 +28,46 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CIP-CN",
+              "id": 11,
+              "name": "Commission des institutions politiques CN",
+              "abbreviation1": "CIP-N",
+              "abbreviation2": "CIP",
+              "committeeNumber": 11,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Conseil national",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2024-05-16T00:00:00Z",
+            "text": "Ne pas donner suite (conseil prioritaire)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-09-09T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -43,24 +77,138 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-05-17T17:47:06Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2715,
+                    "gender": "m",
+                    "id": 3912,
+                    "name": "Wasserfallen Christian",
+                    "officialDenomination": "Wasserfallen Christian"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CIP-CE",
+            "id": 24,
+            "name": "Commission des institutions politiques CE",
+            "abbreviation1": "CIP-E",
+            "abbreviation2": "CIP",
+            "committeeNumber": 24,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CIP-CN",
+            "id": 11,
+            "name": "Commission des institutions politiques CN",
+            "abbreviation1": "CIP-N",
+            "abbreviation2": "CIP",
+            "committeeNumber": 11,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1686780000000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1692914400000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1710975600000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1715896800000+0200)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1725573600000+0200)/",
+          "id": 205,
+          "name": "Planifié au Conseil national"
+        },
+        {
+          "date": "/Date(1725832800000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -83,39 +231,48 @@
   ],
   "roles": [
     {
-      "faction": {
-        "abbreviation": "Groupe G",
-        "id": 6,
-        "name": "Groupe des VERT-E-S"
-      },
       "type": "author"
     },
     {
       "councillor": {
-        "code": 3223,
-        "gender": "f",
-        "id": 4328,
-        "name": "Imboden Natalie",
-        "officialDenomination": "Imboden"
+        "code": 3003,
+        "gender": "m",
+        "id": 4093,
+        "name": "Glättli Balthasar",
+        "officialDenomination": "Glättli"
       },
       "type": "speaker"
     }
   ],
   "shortId": "23.438",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>La numérisation, et en particulier l’automatisation des processus et des procédures, a pour conséquence que les décisions humaines reposent de plus en plus souvent sur des systèmes algorithmiques. Il convient de distinguer différents niveaux d’automatisation&nbsp;:</p><p>a. les systèmes entièrement automatisés exécutent eux-mêmes, c’est-à-dire sans intervention humaine, chaque étape jusqu’à la décision&nbsp;;</p><p>b. les systèmes partiellement automatisés peuvent quant à eux fournir une aide décisionnelle ou aider à l’établissement des faits.&nbsp;Ainsi, un système peut par exemple chercher des informations, les rassembler et les évaluer. Et les résultats ainsi obtenus peuvent, mais ne doivent pas obligatoirement, être pris en compte par la personne physique qui prend la décision.&nbsp;La décision définitive appartient donc à un humain.</p><p>Il est (théoriquement) imaginable d’utiliser l’intelligence artificielle (IA) pour les systèmes automatisés et semi-automatisés. Toutefois, l’IA est bien plus souvent utilisée dans les procédures semi-automatisées (en particulier comme aide décisionnelle) que dans les procédures qui ne nécessitent aucune intervention humaine.</p><p>Or, pour la personne concernée, une décision semi-automatisée reposant sur l’IA peut justement avoir des conséquences aussi graves qu’une décision entièrement automatisée.</p><p>La version actuelle de la loi sur la protection des données prévoit une qualification spécifique et certains droits pour la personne concernée uniquement en cas de décision automatisée (art. 21 nLPD), ce qui n’est pas suffisant compte tenu des défis posés par l’IA. C’est pourquoi il est judicieux d’ajouter un article 21bis à la loi. La notion d’IA n’est pas encore clairement définie, mais elle le sera bientôt dans une ordonnance sur l’IA que l’Union européenne s’apprête à édicter et dans une convention du Conseil de l’Europe sur l’IA.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>L’article&nbsp;21bis est ajouté à la loi du 25 septembre 2020 sur la protection des données. Il a la teneur suivante&nbsp;:</p><p>Artikel 21bis Devoir d’informer en cas d’utilisation d’intelligence artificielle</p><p>1. Le responsable du traitement informe la personne concernée de toute décision qui repose principalement sur l’intelligence artificielle et qui a des effets juridiques pour elle ou l’affecte de manière significative&nbsp;(décision individuelle reposant sur l’IA).</p><p>2. Si la personne concernée le demande, le responsable du traitement lui donne la possibilité de faire valoir son point de vue.&nbsp;La personne concernée peut exiger que la décision individuelle reposant sur l’IA soit revue par une personne physique.</p><p>3. Les alinéa&nbsp;1 et 2 ne s’appliquent pas dans les cas suivants :</p><p>a. la décision individuelle reposant sur l’IA est en relation directe avec la conclusion ou l’exécution d’un contrat entre le responsable du traitement et la personne concernée et la demande de cette dernière est satisfaite&nbsp;;</p><p>b. la personne concernée a expressément consenti à ce que la décision repose sur l’IA.</p><p>4.&nbsp;Si la décision individuelle reposant sur l’IA émane d’un organe fédéral, ce dernier doit la qualifier comme telle. L’alinéa&nbsp;2 ne s’applique pas lorsque la personne concernée ne doit pas être entendue avant la décision conformément à l’article 30, alinéa 2, de la loi fédérale du 20 décembre 1968 sur la procédure administrative (PA) ou en vertu d’une autre loi fédérale.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Loi sur la protection des données. Ajouter une disposition sur les décisions automatisées qui se fondent sur l'intelligence artificielle"
     }
   ],
-  "title": "Titre suit"
+  "title": "Loi sur la protection des données. Ajouter une disposition sur les décisions automatisées qui se fondent sur l'intelligence artificielle"
 }

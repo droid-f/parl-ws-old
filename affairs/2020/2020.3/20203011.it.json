@@ -1,6 +1,6 @@
 {
   "id": 20203011,
-  "updated": "2020-06-18T19:06:25Z",
+  "updated": "2024-09-10T17:26:46Z",
   "additionalIndexing": "28;1211;2811",
   "affairType": {
     "abbreviation": "Mo.",
@@ -12,7 +12,7 @@
       "abbreviation": "CAG-CN",
       "id": 12,
       "name": "Commissione degli affari giuridici CN",
-      "abbreviation1": "CAG-CN",
+      "abbreviation1": "CAG-N",
       "abbreviation2": "CAG",
       "committeeNumber": 12,
       "council": {
@@ -57,6 +57,21 @@
             "date": "2020-06-18T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-09-10T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
           }
         ]
       },
@@ -72,10 +87,50 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-06-28T15:58:12Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2694,
+                    "gender": "m",
+                    "id": 3891,
+                    "name": "Jositsch Daniel",
+                    "officialDenomination": "Jositsch"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CAG-CN",
             "id": 12,
             "name": "Commissione degli affari giuridici CN",
-            "abbreviation1": "CAG-CN",
+            "abbreviation1": "CAG-N",
             "abbreviation2": "CAG",
             "committeeNumber": 12,
             "council": {
@@ -105,8 +160,8 @@
                     "officialDenomination": "Kamerzin"
                   },
                   "faction": {
-                    "abbreviation": "M-E",
-                    "id": 139,
+                    "abbreviation": "Gruppo M-E",
+                    "id": 3,
                     "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
                   },
                   "language": "fr"
@@ -126,7 +181,7 @@
                     "officialDenomination": "Arslan"
                   },
                   "faction": {
-                    "abbreviation": "G",
+                    "abbreviation": "Gruppo G",
                     "id": 6,
                     "name": "Gruppo dei Verdi"
                   },
@@ -142,7 +197,7 @@
             "abbreviation": "CAG-CS",
             "id": 25,
             "name": "Commissione degli affari giuridici CS",
-            "abbreviation1": "CAG-CS",
+            "abbreviation1": "CAG-S",
             "abbreviation2": "CAG",
             "committeeNumber": 25,
             "council": {
@@ -159,7 +214,7 @@
               "correspondents": [
 
               ],
-              "sessionId": "5117"
+              "sessionId": "5202"
             }
           ]
         }
@@ -183,8 +238,23 @@
         },
         {
           "date": "/Date(1592431200000+0200)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1719525600000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1724968800000+0200)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1725919200000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -211,7 +281,7 @@
         "abbreviation": "CAG-CN",
         "id": 12,
         "name": "Commissione degli affari giuridici CN",
-        "abbreviation1": "CAG-CN",
+        "abbreviation1": "CAG-N",
         "abbreviation2": "CAG",
         "committeeNumber": 12,
         "council": {
@@ -227,10 +297,9 @@
   ],
   "shortId": "20.3011",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -246,7 +315,7 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>Anche il Consiglio federale attribuisce grande importanza alla lotta contro i matrimoni di minorenni. Nel suo rapporto del 29 gennaio 2020 in cui valuta le disposizioni del Codice civile sui matrimoni forzati e di minorenni, ha constatato la necessità di un intervento e incaricato il Dipartimento federale di giustizia e polizia di elaborare entro fine anno un avamprogetto ai sensi della soluzione in esso proposta.</p><p>L'obiettivo principale della mozione è dichiarare l'età al momento della celebrazione del matrimonio determinante per la nullità del matrimonio. È proprio questa intenzione che il Consiglio federale intende concretizzare grazie alla soluzione abbozzata nel suo rapporto (n. 4.3.5): se uno dei coniugi era minorenne al momento della celebrazione del matrimonio, questo vizio non potrà essere sanato automaticamente - come previsto dal diritto vigente - al compimento dei 18 anni. Il Consiglio federale ha tuttavia proposto che il motivo di nullità della minore età possa essere sanato una volta trascorso un determinato periodo di tempo (p. es. 25 anni). È inoltre importante poter considerare nella fattispecie la volontà delle persone interessate ormai maggiorenni. Anche i Paesi Bassi prevedono una normativa in tal senso nel caso in cui i coniugi, pur avendo contratto il matrimonio da minorenni, sono ormai maggiorenni quando richiedono un permesso di soggiorno. Pure in Germania una persona che si è sposata a 16 o 17 anni all'estero può richiedere la conferma del matrimonio una volta raggiunta la maggiore età. Inoltre, in vari Paesi dell'Unione europea (in particolare l'Austria, la Spagna, il Belgio, la Francia e l'Italia), il matrimonio di un minore a partire da 16 anni può essere autorizzato in via eccezionale. La necessità di un esame individuale della validità di tali matrimoni può pertanto risultare anche dall'Accordo sulla libera circolazione delle persone (RS 0.142.112.681) nel caso di cittadini degli Stati membri o di loro famigliari. Occorre infine rammentare che un motivo di nullità assoluta e insanabile del matrimonio è sempre dato se sono adempiute le condizioni di un matrimonio forzato ai sensi dell'articolo 105 numero 5 del Codice civile (CC; RS 210).</p><p>La mozione chiede invece una nullità assoluta e insanabile del matrimonio: non appena nel quadro del riconoscimento di un matrimonio contratto all'estero si constata che al momento della celebrazione uno dei coniugi era minorenne, l'unione andrebbe dichiarata nulla d'ufficio e con effetto retroattivo. Il Consiglio federale ritiene eccessiva questa soluzione, che comporterebbe gravi svantaggi. Vi sarebbe ad esempio il rischio di dover dichiarare d'ufficio nullo il matrimonio dopo decenni, anche contro la volontà degli interessati. Ciò appare tuttavia alquanto problematico in considerazione dei diritti costituzionali degli interessati, in particolare la libertà di matrimonio. Inoltre, i matrimoni attualmente considerati validi dalle autorità in Svizzera dovrebbero tutti, senza eccezioni, essere dichiarati a posteriori nulli se almeno uno dei coniugi era minorenne al momento della celebrazione dell'unione. Ciò riguarderebbe migliaia di matrimoni che sussistono da anni.</p>"
+      "value": "<p>Anche il Consiglio federale attribuisce grande importanza alla lotta contro i matrimoni di minorenni. Nel suo rapporto del 29 gennaio 2020 in cui valuta le disposizioni del Codice civile sui matrimoni forzati e di minorenni, ha constatato la necessità di un intervento e incaricato il Dipartimento federale di giustizia e polizia di elaborare entro fine anno un avamprogetto ai sensi della soluzione in esso proposta.</p><p>L'obiettivo principale della mozione è dichiarare l'età al momento della celebrazione del matrimonio determinante per la nullità del matrimonio. È proprio questa intenzione che il Consiglio federale intende concretizzare grazie alla soluzione abbozzata nel suo rapporto (n. 4.3.5): se uno dei coniugi era minorenne al momento della celebrazione del matrimonio, questo vizio non potrà essere sanato automaticamente - come previsto dal diritto vigente - al compimento dei 18 anni. Il Consiglio federale ha tuttavia proposto che il motivo di nullità della minore età possa essere sanato una volta trascorso un determinato periodo di tempo (p. es. 25 anni). È inoltre importante poter considerare nella fattispecie la volontà delle persone interessate ormai maggiorenni. Anche i Paesi Bassi prevedono una normativa in tal senso nel caso in cui i coniugi, pur avendo contratto il matrimonio da minorenni, sono ormai maggiorenni quando richiedono un permesso di soggiorno. Pure in Germania una persona che si è sposata a 16 o 17 anni all'estero può richiedere la conferma del matrimonio una volta raggiunta la maggiore età. Inoltre, in vari Paesi dell'Unione europea (in particolare l'Austria, la Spagna, il Belgio, la Francia e l'Italia), il matrimonio di un minore a partire da 16 anni può essere autorizzato in via eccezionale. La necessità di un esame individuale della validità di tali matrimoni può pertanto risultare anche dall'Accordo sulla libera circolazione delle persone (RS 0.142.112.681) nel caso di cittadini degli Stati membri o di loro famigliari. Occorre infine rammentare che un motivo di nullità assoluta e insanabile del matrimonio è sempre dato se sono adempiute le condizioni di un matrimonio forzato ai sensi dell'articolo 105 numero 5 del Codice civile (CC; RS 210).</p><p>La mozione chiede invece una nullità assoluta e insanabile del matrimonio: non appena nel quadro del riconoscimento di un matrimonio contratto all'estero si constata che al momento della celebrazione uno dei coniugi era minorenne, l'unione andrebbe dichiarata nulla d'ufficio e con effetto retroattivo. Il Consiglio federale ritiene eccessiva questa soluzione, che comporterebbe gravi svantaggi. Vi sarebbe ad esempio il rischio di dover dichiarare d'ufficio nullo il matrimonio dopo decenni, anche contro la volontà degli interessati. Ciò appare tuttavia alquanto problematico in considerazione dei diritti costituzionali degli interessati, in particolare la libertà di matrimonio. Inoltre, i matrimoni attualmente considerati validi dalle autorità in Svizzera dovrebbero tutti, senza eccezioni, essere dichiarati a posteriori nulli se almeno uno dei coniugi era minorenne al momento della celebrazione dell'unione. Ciò riguarderebbe migliaia di matrimoni che sussistono da anni.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

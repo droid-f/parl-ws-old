@@ -1,6 +1,6 @@
 {
   "id": 20233511,
-  "updated": "2023-05-09T15:37:01Z",
+  "updated": "2025-06-12T14:09:39Z",
   "additionalIndexing": "2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,172 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-09-11T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-06-12T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-16T00:00:00Z",
+        "text": "Ablehnung"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-05-15T19:12:13Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2575,
+                    "gender": "m",
+                    "id": 825,
+                    "name": "Germann Hannes",
+                    "officialDenomination": "Germann"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-SR",
+            "id": 19,
+            "name": "Kommission für soziale Sicherheit und Gesundheit SR",
+            "abbreviation1": "SGK-S",
+            "abbreviation2": "SGK",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-NR",
+            "id": 6,
+            "name": "Kommission für soziale Sicherheit und Gesundheit NR",
+            "abbreviation1": "SGK-N",
+            "abbreviation2": "SGK",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1682978400000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1692136800000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1726005600000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1727820000000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1742770800000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1749679200000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -104,8 +247,8 @@
   ],
   "shortId": "23.3511",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },
@@ -116,6 +259,13 @@
         "name": "Begründung"
       },
       "value": "<p>Die Stimmberechtigten haben 2009 die Übernahme der Kosten von alternativmedizinischen Leistungen durch die OKP klar angenommen. Zur Umsetzung des Verfassungsartikels hat der Bundesrat fünf komplementärmedizinische Fachrichtungen in den Leistungskatalog der OKP aufgenommen: die Akupunktur, die anthroposophische Medizin, die Arzneimitteltherapie der traditionellen chinesischen Medizin (TCM), die klassische Homöopathie und die Phytotherapie.</p><p>Es hat sich mittlerweile herausgestellt, dass zahlreiche komplementärmedizinische Behandlungsmethoden die Kriterien der Wirksamkeit, der Zweckmässigkeit und der Wirtschaftlichkeit (WZW-Kriterien) nicht erfüllen. Der Bundesrat hat in seiner Stellungnahme zum Postulat 21.4445 ausdrücklich anerkannt, dass der Nachweis der Wirksamkeit der komplementärmedizinischen Leistungen nach wissenschaftlichen Methoden nicht möglich ist, sondern dass das \"Vertrauensprinzip\"\" angewendet wird. </p><p>Viele glauben an die Wirksamkeit dieser Behandlungen, aber längst nicht die gesamte Bevölkerung. Es lässt sich schwer rechtfertigen, dass alle Versicherten gezwungen werden, Leistungen mitzufinanzieren, die im Wesentlichen auf der inneren Überzeugung einiger Ärztinnen und Ärzte und einiger Versicherten beruhen, nicht aber auf objektiven wissenschaftlichen Daten. </p><p>Analog zur Deckung von Unfällen über die Krankenversicherung, die sistiert werden kann, wenn die Unfälle über die Unfallversicherung gedeckt sind, verlangt diese Motion, dass eine zusätzliche Wahlmöglichkeit im KVG aufgenommen wird: Den Versicherten, die dies wünschen, soll es möglich sein, sich alternativmedizinische Behandlungen nicht mehr rückerstatten zu lassen. Im Gegenzug müssten sie sich auch nicht mehr an der Finanzierung dieser Methoden beteiligen.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Die vom Gesetzgeber festgelegte Versicherungspflicht (Obligatorium) im Bundesgesetz über die Krankenversicherung (KVG; SR 832.10) bezweckt, die Solidarität unter allen in der Schweiz wohnhaften Personen im Bereich der sozialen Krankenversicherung zu stärken und damit allen einen gleichberechtigten Zugang zu einer guten medizinischen Versorgung zu gewährleisten. Für die individuelle Versicherung einzelner Leistungsbereiche ist das System der Zusatzversicherungen nach Versicherungsvertragsgesetzt (VVG; SR 221.229.1) vorgesehen. Eine Ausnahme oder Wahlmöglichkeit für bestimmte Leistungsbereiche widerspricht dem Prinzip des Versicherungsobligatoriums. Wahlleistungen wären nicht mehr obligatorisch und nicht mehr solidarisch durch alle getragen.</p><p>Die Sistierung der Unfalldeckung nach dem Bundesgesetz über die Krankenversicherung (KVG; SR 832.10) kann&nbsp;nicht mit der Wahlmöglichkeit, wie sie der Motionär für die komplementärmedizinischen Leistungen einführen möchte, verglichen werden. Diese Möglichkeit steht lediglich Versicherten offen, die bereits über eine volle Deckung für das Unfallrisiko (Berufs- und Nichtberufsunfälle) nach&nbsp;dem Bundesgesetz über die Unfallversicherung (UVG; SR 832.20) verfügen. Damit kann eine mehrfache Deckung desselben Risikos von unterschiedlichen obligatorischen Sozialversicherungen vermieden werden.&nbsp;Auch wäre die Schaffung einer Wahlleistung technisch äusserst komplex und auch angesichts des Kostenrahmens von rund jährlich 18 Mio. Franken der von der OKP übernommenen komplementärmedizinischen Leistungen nicht verhältnismässig.&nbsp;</p><p>Wie der Bundesrat in seiner Stellungnahme zum Postulat 21.4445 Nantermod (Evaluation der Komplementärmedizin. Wo stehen wir zehn Jahre nach der Aufnahme der komplementärmedizinischen Behandlungsmethoden in den Leistungskatalog der OKP?)&nbsp;dargelegt hat, wurde im Rahmen des im Jahr 2009 von Volk und Ständen deutlich angenommenen Verfassungsartikels zur Berücksichtigung der Komplementärmedizin 5 Fachrichtungen im Jahre 2012 provisorisch und ab 2017 definitiv in die Leistungspflicht der obligatorischen Krankenpflegeversicherung aufgenommen. Im Rahmen der damaligen Evaluation wurde nur der Nachweis der Wirksamkeit für die Gesamtheit der komplementärmedizinischen Leistungen als nicht möglich beurteilt. Anträge zur Überprüfung einzelner komplementärmedizinischen Leistungen hinsichtlich Erfüllung der Kriterien der Wirksamkeit, Zweckmässigkeit und Wirtschaftlichkeit können jederzeit eingereicht werden.</p>"
     },
     {
       "type": {

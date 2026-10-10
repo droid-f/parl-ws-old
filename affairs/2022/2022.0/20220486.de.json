@@ -1,6 +1,6 @@
 {
   "id": 20220486,
-  "updated": "2022-12-02T08:58:10Z",
+  "updated": "2024-10-15T09:03:47Z",
   "additionalIndexing": "2846;1211",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -41,7 +41,31 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-12-04T00:00:00Z",
+            "text": "Wird übernommen",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-12-12T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -51,19 +75,128 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-27T18:07:14Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3131,
+                    "gender": "m",
+                    "id": 4230,
+                    "name": "Bregy Philipp Matthias",
+                    "officialDenomination": "Bregy"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-01T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-01T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "WBF",
+          "id": 8,
+          "name": "Departement für Wirtschaft, Bildung und Forschung",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1669849200000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1696543200000+0200)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1698357600000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1702335600000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -160,14 +293,24 @@
         "name": "Grüne Fraktion"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3122,
+        "gender": "m",
+        "id": 4221,
+        "name": "Töngi Michael",
+        "officialDenomination": "Töngi"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "22.486",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -175,7 +318,7 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Die landesweite Leerwohnungsziffer ist seit Jahresbeginn 2022 von 1,54 auf 1,31 Prozent gefallen. Sie dürfte weiter fallen und möglicherweise gar schweizweit die 1-Prozent-Marke unterschreiten. Heute kennen bereits viele grössere Städte und auch grössere Gemeinden (auch gewisse Tourismusgemeinden) tiefe Leerwohnungsziffern und damit latente Wohnungsnot. Die Verbesserung der Transparenz ist einerseits präventiv, andererseits ist sie ein erprobtes Instrument, damit sich Mieterinnen und Mieter einfacher gegen missbräuchliche Mieten wehren können. </p><p>Heute kennen neun Kantone eine Formularpflicht für die Mitteilung des Anfangsmietzinses (Artikel 270 Absatz 2 OR). Die in einzelnen Kantonen geltenden Bestimmungen nehmen jeweils Bezug auf die Leerwohnungsziffer (Leerwohnungsbestand). </p><p>Seit der Ablehnung im Jahr 2016 der Vorlage des Bundesrates für die \"Transparenz der Vormiete\" gescheitert. (BBl 2015 4111) Obligationenrecht: Schutz vor missbräuchlichen Mietzinsen haben weitere Kantone eine kantonale Formularplicht eingeführt (neu Kantone Basel-Stadt und Luzern). Das Instrument bewährt sich. Für eine geografische Ausdehnung der Formularpflicht auf die ganze Schweiz spricht die Rechtssicherheit und auch eine administrative Vereinfachung, wonach die Formulare für die Mitteilung des Vormietzinses oder von Mietzinserhöhungen sowie für die Kündigung von Mietverhältnissen künftig nicht mehr durch die Kantone, sondern durch den Bund zur Verfügung gestellt beziehungsweise genehmigt würden.</p>"
+      "value": "<p>Die landesweite Leerwohnungsziffer ist seit Jahresbeginn 2022 von 1,54 auf 1,31 Prozent gefallen. Sie dürfte weiter fallen und möglicherweise gar schweizweit die 1-Prozent-Marke unterschreiten. Heute kennen bereits viele grössere Städte und auch grössere Gemeinden (auch gewisse Tourismusgemeinden) tiefe Leerwohnungsziffern und damit latente Wohnungsnot. Die Verbesserung der Transparenz ist einerseits präventiv, andererseits ist sie ein erprobtes Instrument, damit sich Mieterinnen und Mieter einfacher gegen missbräuchliche Mieten wehren können. </p><p>Heute kennen neun Kantone eine Formularpflicht für die Mitteilung des Anfangsmietzinses (Artikel 270 Absatz 2 OR). Die in einzelnen Kantonen geltenden Bestimmungen nehmen jeweils Bezug auf die Leerwohnungsziffer (Leerwohnungsbestand). </p><p>Seit der Ablehnung im Jahr 2016 der Vorlage des Bundesrates für die \"Transparenz der Vormiete\" gescheitert. (BBl 2015 4111) Obligationenrecht: Schutz vor missbräuchlichen Mietzinsen haben weitere Kantone eine kantonale Formularplicht eingeführt (neu Kantone Basel-Stadt und Luzern). Das Instrument bewährt sich. Für eine geografische Ausdehnung der Formularpflicht auf die ganze Schweiz spricht die Rechtssicherheit und auch eine administrative Vereinfachung, wonach die Formulare für die Mitteilung des Vormietzinses oder von Mietzinserhöhungen sowie für die Kündigung von Mietverhältnissen künftig nicht mehr durch die Kantone, sondern durch den Bund zur Verfügung gestellt beziehungsweise genehmigt würden.</p>"
     },
     {
       "type": {

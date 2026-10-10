@@ -1,6 +1,6 @@
 {
   "id": 20223321,
-  "updated": "2022-09-21T18:28:04Z",
+  "updated": "2025-03-11T14:26:53Z",
   "additionalIndexing": "66;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2022-09-21T00:00:00Z",
             "text": "Adoption",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-03-11T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
           }
         ]
       },
@@ -67,7 +82,92 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CEATE-CN",
+            "id": 7,
+            "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CN",
+            "abbreviation1": "CEATE-N",
+            "abbreviation2": "CEATE",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-18T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CEATE-CE",
+            "id": 20,
+            "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CE",
+            "abbreviation1": "CEATE-E",
+            "abbreviation2": "CEATE",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-18T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-01-09T17:27:01Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3105,
+                    "gender": "m",
+                    "id": 4204,
+                    "name": "Rieder Beat",
+                    "officialDenomination": "Rieder"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +188,23 @@
         },
         {
           "date": "/Date(1663711200000+0200)/",
-          "id": 11,
-          "name": "Motion au 2e conseil"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1736290800000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1736377200000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1741647600000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -386,7 +501,7 @@
         "code": 3123,
         "gender": "m",
         "id": 4222,
-        "name": "Paganini Nicolo",
+        "name": "Paganini Nicolò",
         "officialDenomination": "Paganini"
       },
       "type": "cosign"
@@ -449,10 +564,9 @@
   ],
   "shortId": "22.3321",
   "state": {
-    "id": 11,
-    "name": "Motion au 2e conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -461,14 +575,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Les exigences en matière de flexibilité du réseau électrique vont augmenter au cours des années à venir pour deux raisons principales : la décentralisation du système électrique (photovoltaïque, électromobilité) et la non-signature de l'accord sur le marché de l'électricité entre la Suisse et l'Europe.</p><p>Le marché actuel de l'énergie de réglage en Suisse a été créé et dimensionné pour l'énergie hydraulique. La régulation repose sur l'activation et la désactivation des producteurs et des consommateurs d'énergie. La plus petite unité doit permettre d'injecter une puissance de plus ou moins 1 MW pendant 4 heures ou de plus ou moins 5 MW pendant une semaine. Ces conditions générales empêchent de facto les acteurs de taille petite ou moyenne et les consommateurs d'énergie tels que les batteries, l'électromobilité ou les charges intelligentes, de participer à ce marché.</p><p>La participation de ces acteurs est pourtant indispensable à la flexibilisation du système. En effet, contrairement aux centrales hydroélectriques, ils peuvent être réglés - ou alors activés et désactivés - de manière flexible et quasiment sans coûts marginaux, par paliers ou en continu. Par ailleurs, il s'avère que la construction de centrales hydroélectriques supplémentaires se heurte à des obstacles de taille. Il ne faut donc guère s'attendre à davantage de flexibilité dans le secteur de l'énergie hydraulique.</p><p>Le surcroît de flexibilité présente d'autres avantages : il augmente la stabilité du réseau lors de la compensation des charges non planifiables et il accroît la liquidité du marché. De plus, il ménage les réserves de stockage.</p><p>Le Conseil fédéral peut s'inspirer des bonnes expériences faites à l'étranger, par exemple en Finlande, pour établir les nouvelles règles du marché. Dans son avis relatif au postulat 16.3890, il montre qu'il existe en Suisse un potentiel considérable à exploiter dans l'extension du marché de l'énergie de réglage aux petits producteurs et consommateurs (environ 750 MW). Le potentiel inutilisé, qui est de plus en plus important, correspond au moins à la flexibilité dont on a besoin actuellement. Il est donc nécessaire de créer un accès plus fin et non discriminatoire au marché de l'énergie de réglage afin que cette énergie reste bon marché et fiable et que l'on puisse garantir à long terme la stabilité du réseau.</p>"
+      "value": "<p>Les exigences en matière de flexibilité du réseau électrique vont augmenter au cours des années à venir pour deux raisons principales : la décentralisation du système électrique (photovoltaïque, électromobilité) et la non-signature de l'accord sur le marché de l'électricité entre la Suisse et l'Europe.</p><p>Le marché actuel de l'énergie de réglage en Suisse a été créé et dimensionné pour l'énergie hydraulique. La régulation repose sur l'activation et la désactivation des producteurs et des consommateurs d'énergie. La plus petite unité doit permettre d'injecter une puissance de plus ou moins 1 MW pendant 4 heures ou de plus ou moins 5 MW pendant une semaine. Ces conditions générales empêchent de facto les acteurs de taille petite ou moyenne et les consommateurs d'énergie tels que les batteries, l'électromobilité ou les charges intelligentes, de participer à ce marché.</p><p>La participation de ces acteurs est pourtant indispensable à la flexibilisation du système. En effet, contrairement aux centrales hydroélectriques, ils peuvent être réglés - ou alors activés et désactivés - de manière flexible et quasiment sans coûts marginaux, par paliers ou en continu. Par ailleurs, il s'avère que la construction de centrales hydroélectriques supplémentaires se heurte à des obstacles de taille. Il ne faut donc guère s'attendre à davantage de flexibilité dans le secteur de l'énergie hydraulique.</p><p>Le surcroît de flexibilité présente d'autres avantages : il augmente la stabilité du réseau lors de la compensation des charges non planifiables et il accroît la liquidité du marché. De plus, il ménage les réserves de stockage.</p><p>Le Conseil fédéral peut s'inspirer des bonnes expériences faites à l'étranger, par exemple en Finlande, pour établir les nouvelles règles du marché. Dans son avis relatif au postulat 16.3890, il montre qu'il existe en Suisse un potentiel considérable à exploiter dans l'extension du marché de l'énergie de réglage aux petits producteurs et consommateurs (environ 750 MW). Le potentiel inutilisé, qui est de plus en plus important, correspond au moins à la flexibilité dont on a besoin actuellement. Il est donc nécessaire de créer un accès plus fin et non discriminatoire au marché de l'énergie de réglage afin que cette énergie reste bon marché et fiable et que l'on puisse garantir à long terme la stabilité du réseau.</p>"
     },
     {
       "type": {
         "id": 14,
         "name": "Réponse CF / Bureau"
       },
-      "value": "<p>Le développement des énergies renouvelables devrait entraîner l'augmentation des besoins de flexibilité dans le futur système électrique. C'est pourquoi le Conseil fédéral a prévu une régulation de la flexibilité dans son projet de loi relative à un approvisionnement en électricité sûr reposant sur des énergies renouvelables, actuellement débattu au Parlement. Les producteurs, exploitants de stockage ou consommateurs finaux concernés doivent avoir le droit d'utiliser leurs propres flexibilités. Si des tiers, gestionnaires d'un réseau de distribution compris, veulent utiliser les flexibilités, ils doivent en principe fixer les modalités d'utilisation dans un contrat. Si les gestionnaires de réseau de distribution veulent, comme jusqu'ici, utiliser la flexibilité au service du réseau, ils doivent proposer aux détenteurs de flexibilité des conditions contractuelles uniformes et non discriminatoires.</p><p>Conformément à l'art. 20, al. 2, let. b, de la loi sur l'approvisionnement en énergie (LApEl, RS 734.7), le marché suisse de l'énergie de réglage relève de la compétence de la société nationale du réseau de transport Swissgrid. Celle-ci définit sur la base d'exigences techniques découlant de l'exploitation du réseau européen interconnecté quels types et quelles quantités de produits d'énergie de réglage sont nécessaires pour assurer la sécurité du réseau. Dans la mise en place du marché de l'énergie de réglage, Swissgrid doit veiller à ce que ce marché s'adapte continuellement aux derniers développements technologiques, l'objectif étant un maximum de liquidité, au sens d'une participation du plus grand nombre possible de fournisseurs et d'une plus grande efficacité du marché. Swissgrid a introduit en 2013 déjà la possibilité du pooling de manière à permettre aux prestataires de flexibilité moins importants de participer au marché de l'énergie de réglage (voir Recommandation de la branche pour le marché suisse de l'électricité, Attachement de pools de réglage au marché suisse des services système). La participation des petits acteurs est dès lors garantie. Une participation directe n'est pas possible pour des raisons techniques et logistiques.</p><p>De nouvelles adaptations des produits proposés sur le marché du réglage de l'énergie seront discutés et introduits par la suite afin notamment d'encourager la participation des petits acteurs. L'exemple le plus récent est la participation de Swissgrid au projet pilote Equigy, qui examine les obstacles techniques d'une participation directe des acteurs moins importants.</p>"
+      "value": "<p>Le développement des énergies renouvelables devrait entraîner l'augmentation des besoins de flexibilité dans le futur système électrique. C'est pourquoi le Conseil fédéral a prévu une régulation de la flexibilité dans son projet de loi relative à un approvisionnement en électricité sûr reposant sur des énergies renouvelables, actuellement débattu au Parlement. Les producteurs, exploitants de stockage ou consommateurs finaux concernés doivent avoir le droit d'utiliser leurs propres flexibilités. Si des tiers, gestionnaires d'un réseau de distribution compris, veulent utiliser les flexibilités, ils doivent en principe fixer les modalités d'utilisation dans un contrat. Si les gestionnaires de réseau de distribution veulent, comme jusqu'ici, utiliser la flexibilité au service du réseau, ils doivent proposer aux détenteurs de flexibilité des conditions contractuelles uniformes et non discriminatoires.</p><p>Conformément à l'art. 20, al. 2, let. b, de la loi sur l'approvisionnement en énergie (LApEl, RS 734.7), le marché suisse de l'énergie de réglage relève de la compétence de la société nationale du réseau de transport Swissgrid. Celle-ci définit sur la base d'exigences techniques découlant de l'exploitation du réseau européen interconnecté quels types et quelles quantités de produits d'énergie de réglage sont nécessaires pour assurer la sécurité du réseau. Dans la mise en place du marché de l'énergie de réglage, Swissgrid doit veiller à ce que ce marché s'adapte continuellement aux derniers développements technologiques, l'objectif étant un maximum de liquidité, au sens d'une participation du plus grand nombre possible de fournisseurs et d'une plus grande efficacité du marché. Swissgrid a introduit en 2013 déjà la possibilité du pooling de manière à permettre aux prestataires de flexibilité moins importants de participer au marché de l'énergie de réglage (voir Recommandation de la branche pour le marché suisse de l'électricité, Attachement de pools de réglage au marché suisse des services système). La participation des petits acteurs est dès lors garantie. Une participation directe n'est pas possible pour des raisons techniques et logistiques.</p><p>De nouvelles adaptations des produits proposés sur le marché du réglage de l'énergie seront discutés et introduits par la suite afin notamment d'encourager la participation des petits acteurs. L'exemple le plus récent est la participation de Swissgrid au projet pilote Equigy, qui examine les obstacles techniques d'une participation directe des acteurs moins importants.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {

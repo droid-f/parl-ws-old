@@ -1,6 +1,6 @@
 {
   "id": 20224567,
-  "updated": "2022-12-22T10:45:44Z",
+  "updated": "2025-04-24T19:25:40Z",
   "additionalIndexing": "55;52;2846",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-03-12T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-06-11T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-15T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CER-CE",
+            "id": 23,
+            "name": "Commission de l'économie et des redevances CE",
+            "abbreviation1": "CER-E",
+            "abbreviation2": "CER",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-13T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CN",
+            "id": 10,
+            "name": "Commission de l'économie et des redevances CN",
+            "abbreviation1": "CER-N",
+            "abbreviation2": "CER",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-05-03T14:37:57Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3153,
+                    "gender": "f",
+                    "id": 4261,
+                    "name": "Friedli Esther",
+                    "officialDenomination": "Friedli Esther"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +179,38 @@
       "states": [
         {
           "date": "/Date(1671145200000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1676415600000+0100)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1710198000000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1711148400000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1714687200000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1718056800000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -107,10 +250,10 @@
   ],
   "shortId": "22.4567",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -118,22 +261,29 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Les 3,5 pour cent de SPB actuellement exigés sur les terres assolées entraînent une réduction des SPB sur les surfaces herbagères, car les chefs d'exploitation sont contraints d'optimiser ces dernières.</p><p>Par une gestion habile, il est possible de valoriser les terres assolées et leurs abords immédiats en recourant à de nouveaux systèmes de culture qui intègrent les sous-semis, les cultures intercalaires fleuries, les bandes fleuries pour organismes utiles, les couloirs de passage fleuris, mais aussi et surtout en aménageant et en entretenant dans ce but les lisières des surfaces assolées (ensemencement de mélanges extensifs comprenant des fleurs des champs), les tournières et les couloirs de passage des machines agricoles. Ces surfaces annexes offrent un potentiel de sources de nourriture et d'habitats en nombre suffisant aux espèces dont les terres assolées constituent le milieu naturel.</p><p>Les surfaces SPB et les surfaces de production sont moins en concurrence et ce système peut créer une incitation à élargir les lisières. Par conséquent, ces éléments permettent une utilisation judicieuse des surfaces en lisière de parcelles, des surfaces de circulation et des surfaces de travail. De nos jours, les produits phytosanitaires peuvent être épandus avec une précision telle que ces surfaces annexes sont pratiquement épargnées.</p><p>La nuisance engendrée par la circulation intermittente sur ces surfaces annexes peut être compensée par la qualité élevée des surfaces non concernées d'une part, et par l'utilisation de mélanges de semences qui supportent le tassement d'autre part. D'une manière générale, la mosaïque d'habitats naturels et, en particulier, leur mise en réseau sur ces surfaces sont favorisées, car ces éléments s'intègrent généralement dans le paysage sous forme de bandes.</p><p>L'idée n'est pas de comptabiliser ces surfaces annexes et ces structures au titre de surfaces donnant droit à une indemnisation, mais la variété des espèces présentes sur les terres assolées doit être attestée par un système de points et prise en compte sous une forme appropriée dans les 3,5 pour cent de SPB exigés.</p>"
+      "value": "<p>Les 3,5 % de SPB actuellement exigés sur les terres assolées entraînent une réduction des SPB sur les surfaces herbagères, car les chefs d'exploitation sont contraints d'optimiser ces dernières.</p><p>Par une gestion habile, il est possible de valoriser les terres assolées et leurs abords immédiats en recourant à de nouveaux systèmes de culture qui intègrent les sous-semis, les cultures intercalaires fleuries, les bandes fleuries pour organismes utiles, les couloirs de passage fleuris, mais aussi et surtout en aménageant et en entretenant dans ce but les lisières des surfaces assolées (ensemencement de mélanges extensifs comprenant des fleurs des champs), les tournières et les couloirs de passage des machines agricoles. Ces surfaces annexes offrent un potentiel de sources de nourriture et d'habitats en nombre suffisant aux espèces dont les terres assolées constituent le milieu naturel.</p><p>Les surfaces SPB et les surfaces de production sont moins en concurrence et ce système peut créer une incitation à élargir les lisières. Par conséquent, ces éléments permettent une utilisation judicieuse des surfaces en lisière de parcelles, des surfaces de circulation et des surfaces de travail. De nos jours, les produits phytosanitaires peuvent être épandus avec une précision telle que ces surfaces annexes sont pratiquement épargnées.</p><p>La nuisance engendrée par la circulation intermittente sur ces surfaces annexes peut être compensée par la qualité élevée des surfaces non concernées d'une part, et par l'utilisation de mélanges de semences qui supportent le tassement d'autre part. D'une manière générale, la mosaïque d'habitats naturels et, en particulier, leur mise en réseau sur ces surfaces sont favorisées, car ces éléments s'intègrent généralement dans le paysage sous forme de bandes.</p><p>L'idée n'est pas de comptabiliser ces surfaces annexes et ces structures au titre de surfaces donnant droit à une indemnisation, mais la variété des espèces présentes sur les terres assolées doit être attestée par un système de points et prise en compte sous une forme appropriée dans les 3,5 % de SPB exigés.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le 13 avril 2022, le Conseil fédéral a adopté le premier \" train d'ordonnances pour une eau potable propre et une agriculture plus durable \". Une première partie de l'initiative parlementaire (Iv. Pa.) 19.475 \" Réduire le risque de l'utilisation de pesticides \" a par conséquent été mise en oeuvre. La nouvelle exigence concernant les prestations écologiques requises (PER) qui requiert une proportion de 3,5 % de surfaces de promotion de la biodiversité sur les terres assolées fait partie de ce train d'ordonnances. Cette exigence entre en vigueur au 1er janvier 2024.</p><p>Peuvent être imputés aux 3,5 % de SPB, tous les types de SPB qui peuvent être aménagés sur terres ouvertes. Les instruments existants (types de SPB sur terres assolées et projets de mise en réseau) laissent suffisamment de marge de manoeuvre aux exploitations ayant plus de 3 ha de terres assolées pour qu'elles réussissent à aménager 3,5 % de SPB sur ces dernières. Cela permet une mise en oeuvre à la fois efficace et simple sur le plan administratif. La proposition suggérée dans la motion obligerait à définir des exigences encadrant la mise en oeuvre des éléments supplémentaires pour obtenir l'effet voulu, ce qui compliquerait le système. Une prise en compte d'éléments supplémentaires, déjà existants, dans les 3,5 % de SPB amoindrirait l'effet visé par les objectifs de l'initiative parlementaire et entraînerait un surcroît de travail administratif pour l'agriculture et l'exécution.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Le Conseil fédéral est chargé d'adapter les dispositions légales et les ordonnances afin que d'autres prestations en faveur de la biodiversité des terres assolées soient reconnues par le biais d'un système de points ou d'une autre manière et qu'elles soient prises en compte sous une forme appropriée dans les 3,5 pour cent de surfaces de promotion de la biodiversité (SPB) sur terres assolées qui deviendront la règle à partir de 2024. Ces prestations peuvent être fournies en lisière de parcelles, dans les couloirs de passage des machines agricoles, sous forme de sous-semis ou à proximité immédiate des terres assolées. Les structures et la mosaïque d'habitats présentes dans l'exploitation doivent également être prises en compte dans le système d'évaluation.</p>"
+      "value": "<p>Le Conseil fédéral est chargé d'adapter les dispositions légales et les ordonnances afin que d'autres prestations en faveur de la biodiversité des terres assolées soient reconnues par le biais d'un système de points ou d'une autre manière et qu'elles soient prises en compte sous une forme appropriée dans les 3,5 % de surfaces de promotion de la biodiversité (SPB) sur terres assolées qui deviendront la règle à partir de 2024. Ces prestations peuvent être fournies en lisière de parcelles, dans les couloirs de passage des machines agricoles, sous forme de sous-semis ou à proximité immédiate des terres assolées. Les structures et la mosaïque d'habitats présentes dans l'exploitation doivent également être prises en compte dans le système d'évaluation.</p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Mise en œuvre judicieuse de l’exigence supplémentaire concernant les 3,5 pour cent de surfaces de promotion de la biodiversité sur terres assolées"
+      "value": "Mise en oeuvre judicieuse de l'exigence supplémentaire concernant les 3,5 pour cent de surfaces de promotion de la biodiversité sur terres assolées"
     }
   ],
-  "title": "Mise en œuvre judicieuse de l’exigence supplémentaire concernant les 3,5 pour cent de surfaces de promotion de la biodiversité sur terres assolées"
+  "title": "Mise en oeuvre judicieuse de l'exigence supplémentaire concernant les 3,5 pour cent de surfaces de promotion de la biodiversité sur terres assolées"
 }

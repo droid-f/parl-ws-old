@@ -1,6 +1,6 @@
 {
   "id": 20214627,
-  "updated": "2021-12-20T15:02:07Z",
+  "updated": "2025-04-24T19:34:40Z",
   "additionalIndexing": "34;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,172 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-26T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-03-06T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CTT-CN",
+            "id": 9,
+            "name": "Commission des transports et des télécommunications CN",
+            "abbreviation1": "CTT-N",
+            "abbreviation2": "CTT",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CTT-CE",
+            "id": 22,
+            "name": "Commission des transports et des télécommunications CE",
+            "abbreviation1": "CTT-E",
+            "abbreviation2": "CTT",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-15T12:11:34Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3052,
+                    "gender": "m",
+                    "id": 4151,
+                    "name": "Dittli Josef",
+                    "officialDenomination": "Dittli"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639695600000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1644966000000+0100)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1695679200000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1705273200000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1709679600000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -209,7 +352,7 @@
         "code": 3123,
         "gender": "m",
         "id": 4222,
-        "name": "Paganini Nicolo",
+        "name": "Paganini Nicolò",
         "officialDenomination": "Paganini"
       },
       "type": "cosign"
@@ -262,19 +405,40 @@
   ],
   "shortId": "21.4627",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Le marché de l'itinérance internationale, qui ne fonctionne pas depuis des années, permet aux opérateurs de dégager des marges totalement excessives. L'opérateur Salt, par exemple, facture à ses clients un prix standard de 2,95 francs pour 1 MB de données dans les pays de l'UE. Or, le prix d'achat moyen devrait être inférieur à 1 centime par MB. Par ailleurs, d'autres opérateurs pratiquent également des prix et des marges parfois excessifs.</p><p>Le secteur du tourisme et celui des voyages d'affaires souffrent également des tarifs d'itinérance élevés que les clients étrangers doivent payer en Suisse. Aux coûts comparativement élevés d'un séjour en Suisse s'ajoutent des frais d'itinérance inutilement élevés.</p><p>La fixation de prix plafonds pour les clients de Suisse aurait un effet modérateur sur les prix de l'itinérance pour les clients étrangers. Lors des négociations entre les opérateurs suisses de téléphonie mobile et les opérateurs étrangers, les prix de gros sont habituellement fixés aussi bien pour les clients suisses qui se trouvent à l'étranger que pour les clients de l'opérateur étranger qui se rendent en Suisse. La fixation de prix plafonds pour les tarifs de détail serait un bon argument pour les opérateurs suisses de téléphonie mobile afin de se défendre contre les prétentions tarifaires excessives pour l'utilisation des réseaux mobiles étrangers. Parallèlement, les opérateurs suisses devraient également réduire les tarifs excessifs pour l'utilisation de leur réseau en Suisse par les personnes qui ont un abonnement de téléphonie mobile étranger. En résumé, les coûts de l'itinérance pourraient ainsi être ramenés à un niveau raisonnable tant pour les clients suisses que pour les clients étrangers.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>L'itinérance internationale repose sur des contrats qui réglementent les prix de gros entre les entreprises impliquées. Les tarifs négociés dépendent des volumes concernés et du pouvoir de négociation des entreprises. La fixation par l'État des prix de détail ne tiendrait pas compte de ces éléments et entraînerait de facto une inégalité de traitement entre les différents fournisseurs de services de radiocommunication mobile. Dans l'UE, une limitation par l'État des tarifs d'itinérance pour les clients finaux suppose que des accords fixant les prix de gros ont été conclus entre les pays concernés. Cette condition permet de garantir que tous les fournisseurs de services de radiocommunication mobile sont sur un pied d'égalité.</p><p>Dans le cadre de la dernière révision partielle de la loi sur les télécommunications (RS 784.10), le Parlement s'est opposé à une réglementation unilatérale des prix et a fait de l'existence d'un accord international une condition à la possibilité de fixer des prix plafonds en matière d'itinérance.</p><p>La fixation des tarifs d'itinérance applicables en Suisse aux touristes et au personnel d'affaires étrangers relève du domaine de compétence des fournisseurs de services de radiocommunication mobile du pays de domicile. Certaines entreprises facturent à leurs clients voyageant en Suisse les mêmes tarifs que dans l'UE ou dans les pays de l'EEE. D'autres prélèvent des taxes plus élevées pour le trafic d'itinérance avec la Suisse. Le Conseil fédéral n'a aucune influence sur ces tarifs. Ils pourraient être réglementés uniquement dans le cadre d'un accord d'itinérance avec l'État ou les États concernés.</p><p>Les prix plafonds demandés dans la motion ne pourraient s'appliquer à l'étranger qu'aux seuls clients des fournisseurs suisses de services de radiocommunication mobile. De plus, les prix de détail fixés par l'État risqueraient de ne pas tenir suffisamment compte des tarifs de gros négociés par les fournisseurs de services de radiocommunication mobile. Les petits fournisseurs pourraient ainsi être contraints de se retirer de l'activité d'itinérance, car ils ne pourraient plus réaliser une marge suffisante. Le choix des clients suisses en matière de services de radiocommunication mobile s'en trouverait restreint.</p><p>En adoptant de nouvelles dispositions dans l'ordonnance sur les services de télécommunication (RS 784.101), le Conseil fédéral a introduit plusieurs nouvelles obligations pour les fournisseurs de services d'itinérance. Désormais, ceux-ci sont notamment tenus de proposer des options d'itinérance d'une durée de validité de douze mois, de facturer les prestations à la seconde ou au kilo-octet près et de permettre à leurs clients de fixer des limites de coûts individuelles. Les dispositions sont entrées en vigueur le 1er juillet 2021. Elles doivent permettre en particulier d'éviter les mauvaises surprises à la réception des factures. Avant d'envisager d'autres mesures de réglementation, l'Office fédéral de la communication est chargé d'analyser d'ici fin 2022 l'efficacité des nouvelles dispositions.</p>  Le Conseil fédéral propose de rejeter la motion."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé de fixer, par le biais d'une modification de la loi sur les télécommunications, des prix plafonds pour les tarifs de détail de l'itinérance internationale.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Des prix plafonds pour l'itinérance internationale"
     }
   ],
-  "title": "Titre suit"
+  "title": "Des prix plafonds pour l'itinérance internationale"
 }

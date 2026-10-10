@@ -1,6 +1,6 @@
 {
   "id": 20224278,
-  "updated": "2023-03-09T12:59:05Z",
+  "updated": "2025-02-16T13:30:54Z",
   "additionalIndexing": "08;1236;28",
   "affairType": {
     "abbreviation": "Mo.",
@@ -12,7 +12,7 @@
       "abbreviation": "APK-NR",
       "id": 4,
       "name": "Aussenpolitische Kommission NR",
-      "abbreviation1": "APK-NR",
+      "abbreviation1": "APK-N",
       "abbreviation2": "APK",
       "committeeNumber": 4,
       "council": {
@@ -57,6 +57,36 @@
             "date": "2023-03-09T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-28T00:00:00Z",
+            "text": "Die Motion wird mit folgender Änderung angenommen: Der Bundesrat wird beauftragt, Massnahmen soweit sinnvoll und angemessen zu ergreifen, um die iranische Zivilgesellschaft in ihrem Kampf für Frauen- und Menschenrechte zu unterstützen.",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-06-04T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
           }
         ]
       },
@@ -72,10 +102,50 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-05-14T15:15:29Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3017,
+                    "gender": "f",
+                    "id": 4101,
+                    "name": "Bulliard-Marbach Christine",
+                    "officialDenomination": "Bulliard"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "APK-NR",
             "id": 4,
             "name": "Aussenpolitische Kommission NR",
-            "abbreviation1": "APK-NR",
+            "abbreviation1": "APK-N",
             "abbreviation2": "APK",
             "committeeNumber": 4,
             "council": {
@@ -98,39 +168,11 @@
                     "type": "N"
                   },
                   "councillor": {
-                    "code": 3189,
-                    "gender": "m",
-                    "id": 4297,
-                    "name": "Walder Nicolas",
-                    "officialDenomination": "Walder"
-                  },
-                  "faction": {
-                    "abbreviation": "Fraktion G",
-                    "code": "G",
-                    "id": 6,
-                    "name": "Grüne Fraktion"
-                  },
-                  "language": "fr"
-                },
-                {
-                  "council": {
-                    "abbreviation": "NR",
-                    "id": 1,
-                    "name": "Nationalrat",
-                    "type": "N"
-                  },
-                  "councillor": {
                     "code": 3124,
                     "gender": "m",
                     "id": 4223,
                     "name": "Molina Fabian",
                     "officialDenomination": "Molina"
-                  },
-                  "faction": {
-                    "abbreviation": "Fraktion S",
-                    "code": "S",
-                    "id": 2,
-                    "name": "Sozialdemokratische Fraktion"
                   },
                   "language": "de"
                 }
@@ -144,7 +186,7 @@
             "abbreviation": "APK-SR",
             "id": 17,
             "name": "Aussenpolitische Kommission SR",
-            "abbreviation1": "APK-SR",
+            "abbreviation1": "APK-S",
             "abbreviation2": "APK",
             "committeeNumber": 17,
             "council": {
@@ -157,7 +199,33 @@
           },
           "date": "2022-11-22T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2694,
+                    "gender": "m",
+                    "id": 3891,
+                    "name": "Jositsch Daniel",
+                    "officialDenomination": "Jositsch"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion S",
+                    "code": "S",
+                    "id": 2,
+                    "name": "Sozialdemokratische Fraktion"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5122"
+            }
           ]
         }
       ],
@@ -180,8 +248,23 @@
         },
         {
           "date": "/Date(1678316400000+0100)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1717452000000+0200)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -208,7 +291,7 @@
         "abbreviation": "APK-NR",
         "id": 4,
         "name": "Aussenpolitische Kommission NR",
-        "abbreviation1": "APK-NR",
+        "abbreviation1": "APK-N",
         "abbreviation2": "APK",
         "committeeNumber": 4,
         "council": {
@@ -224,26 +307,32 @@
   ],
   "shortId": "22.4278",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
     {
       "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>XXX</p>"
+    },
+    {
+      "type": {
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Der Bundesrat verurteilt die Gewaltanwendung der iranischen Sicherheitskräfte im Zusammenhang mit den Protesten. Auf die jüngsten Entwicklungen im Iran hat die Schweiz mit mehreren diplomatischen Interventionen auf bilateraler und multilateraler Ebene reagiert. Das EDA hat die unverhältnismässige Gewaltanwendung der iranischen Sicherheitskräfte mehrfach verurteilt. Es hat den Iran verschiedentlich aufgerufen, die Menschenrechte zu achten, insbesondere die Rechte von Frauen und Mädchen sowie das Recht auf Leben und auf Meinungsfreiheit. Im Jahr 2022 intervenierte der damalige Bundespräsident Ignazio Cassis zweimal persönlich bei Präsident Raisi. Angesichts der schweren, anhaltenden Menschenrechtsverletzungen im Zusammenhang mit den Demonstrationen unterstützte die Schweiz eine Resolution zum Iran, die am 24. November 2022 an der ausserordentlichen Tagung des Menschenrechtsrates verabschiedet wurde. Sie sieht die Einsetzung einer Ermittlungsmission vor, die die Menschenrechtsverletzungen dokumentieren und Beweise dafür sammeln soll.</p><p>Zudem führt das EDA einen Menschenrechtsdialog mit dem Iran. Es nutzt dazu den guten Zugang zu den iranischen Behörden. Im Rahmen dieses Dialogs werden Einzelfälle, insbesondere von Menschenrechtsverteidigerinnen und Menschenrechtsverteidigern und von Personen, die zum Tod verurteilt wurden, obwohl sie zum Tatzeitpunkt minderjährig waren, offen diskutiert und auch bei hochrangigen bilateralen Treffen angesprochen.</p><p>Die direkte Unterstützung von zivilgesellschaftlichen Organisationen, die sich für die Menschenrechte einsetzen, ist derzeit mit erheblichen Risiken verbunden, da Vergeltungsmassnahmen gegen sie ergriffen werden könnten. Die Schweiz hält sich an das Vorsorgeprinzip und arbeitet bei ihrem Menschenrechtsengagement im Iran mit internationalen Organisationen zusammen. Konkret unterstützt das EDA im Iran Projekte der UNICEF und des Hochkommissariats für Menschenrechte im Bereich der Jugendjustiz. Diese zielen unter anderem darauf ab, den Zugang zur Justiz für Minderjährige, einschliesslich Mädchen, zu verbessern und ein Hinrichtungsmoratorium für Personen zu erreichen, die zum Tatzeitpunkt minderjährig waren. Die Schweizer Botschaft in Teheran unterstützt zudem NGO-Projekte in den Bereichen Entwicklung, humanitäre Hilfe und menschliche Sicherheit, die der Bevölkerung im Iran zugutekommen.</p><p>Das für Sanktionen zuständige WBF hat in Absprache mit dem EDA Anfang November 2022 entschieden, die neuesten Sanktionen der EU gegen den Iran in Bezug auf die Lieferung von Drohnen nach Russland zu übernehmen, nicht aber diejenigen im Zusammenhang mit den aktuellen Protesten. Der Entscheid wurde unter Einbezug aller innen- und aussenpolitischen Interessen der Schweiz gefällt, darunter auch die guten Dienste der Schweiz im Iran. Die Schweiz ist bestrebt, den kritischen Dialog mit der iranischen Regierung weiterzuführen. Der Bundesrat ist der Ansicht, dass sich die Schweiz auf der Basis ihrer Schutzmachtmandate und der damit verbundenen besonderen Rolle im Verhältnis zum Iran direkt und glaubhaft für die Menschenrechte und die Stabilität in der Region einsetzen kann. Der Bundesrat ist der Meinung, dass diese Rolle gerade in der aktuellen schwierigen Lage höher zu gewichten ist als der mögliche Effekt zusätzlicher Sanktionen, zumal der Iran bereits stark sanktioniert ist und die Schweiz diese Sanktionen fast vollständig übernommen hat. Die Abwägung der Vor- und Nachteile dieser Politik gehört zu den Grundaufgaben der Aussenpolitik und ist immer wieder von neuem vorzunehmen.</p>"
+      "value": "<p>Der Bundesrat verurteilt die Gewaltanwendung der iranischen Sicherheitskräfte im Zusammenhang mit den Protesten. Auf die jüngsten Entwicklungen im Iran hat die Schweiz mit mehreren diplomatischen Interventionen auf bilateraler und multilateraler Ebene reagiert. Das EDA hat die unverhältnismässige Gewaltanwendung der iranischen Sicherheitskräfte mehrfach verurteilt. Es hat den Iran verschiedentlich aufgerufen, die Menschenrechte zu achten, insbesondere die Rechte von Frauen und Mädchen sowie das Recht auf Leben und auf Meinungsfreiheit. Im Jahr 2022 intervenierte der damalige Bundespräsident Ignazio Cassis zweimal persönlich bei Präsident Raisi. Angesichts der schweren, anhaltenden Menschenrechtsverletzungen im Zusammenhang mit den Demonstrationen unterstützte die Schweiz eine Resolution zum Iran, die am 24. November 2022 an der ausserordentlichen Tagung des Menschenrechtsrates verabschiedet wurde. Sie sieht die Einsetzung einer Ermittlungsmission vor, die die Menschenrechtsverletzungen dokumentieren und Beweise dafür sammeln soll.</p><p>Zudem führt das EDA einen Menschenrechtsdialog mit dem Iran. Es nutzt dazu den guten Zugang zu den iranischen Behörden. Im Rahmen dieses Dialogs werden Einzelfälle, insbesondere von Menschenrechtsverteidigerinnen und Menschenrechtsverteidigern und von Personen, die zum Tod verurteilt wurden, obwohl sie zum Tatzeitpunkt minderjährig waren, offen diskutiert und auch bei hochrangigen bilateralen Treffen angesprochen.</p><p>Die direkte Unterstützung von zivilgesellschaftlichen Organisationen, die sich für die Menschenrechte einsetzen, ist derzeit mit erheblichen Risiken verbunden, da Vergeltungsmassnahmen gegen sie ergriffen werden könnten. Die Schweiz hält sich an das Vorsorgeprinzip und arbeitet bei ihrem Menschenrechtsengagement im Iran mit internationalen Organisationen zusammen. Konkret unterstützt das EDA im Iran Projekte der UNICEF und des Hochkommissariats für Menschenrechte im Bereich der Jugendjustiz. Diese zielen unter anderem darauf ab, den Zugang zur Justiz für Minderjährige, einschliesslich Mädchen, zu verbessern und ein Hinrichtungsmoratorium für Personen zu erreichen, die zum Tatzeitpunkt minderjährig waren. Die Schweizer Botschaft in Teheran unterstützt zudem NGO-Projekte in den Bereichen Entwicklung, humanitäre Hilfe und menschliche Sicherheit, die der Bevölkerung im Iran zugutekommen.</p><p>Das für Sanktionen zuständige WBF hat in Absprache mit dem EDA Anfang November 2022 entschieden, die neuesten Sanktionen der EU gegen den Iran in Bezug auf die Lieferung von Drohnen nach Russland zu übernehmen, nicht aber diejenigen im Zusammenhang mit den aktuellen Protesten. Der Entscheid wurde unter Einbezug aller innen- und aussenpolitischen Interessen der Schweiz gefällt, darunter auch die guten Dienste der Schweiz im Iran. Die Schweiz ist bestrebt, den kritischen Dialog mit der iranischen Regierung weiterzuführen. Der Bundesrat ist der Ansicht, dass sich die Schweiz auf der Basis ihrer Schutzmachtmandate und der damit verbundenen besonderen Rolle im Verhältnis zum Iran direkt und glaubhaft für die Menschenrechte und die Stabilität in der Region einsetzen kann. Der Bundesrat ist der Meinung, dass diese Rolle gerade in der aktuellen schwierigen Lage höher zu gewichten ist als der mögliche Effekt zusätzlicher Sanktionen, zumal der Iran bereits stark sanktioniert ist und die Schweiz diese Sanktionen fast vollständig übernommen hat. Die Abwägung der Vor- und Nachteile dieser Politik gehört zu den Grundaufgaben der Aussenpolitik und ist immer wieder von neuem vorzunehmen.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Der Bundesrat wird beauftragt, Massnahmen soweit sinnvoll und angemessen zu ergreifen, um die iranische Zivilgesellschaft in ihrem Kampf für Frauen- und Menschenrechte zu unterstützen.</p><p>Zudem wird der Bundesrat beauftragt, die aufgrund der Menschenrechtsverletzungen im Iran von der EU beschlossenen Sanktionen gegen Mitglieder des iranischen Regimes vollständig zu übernehmen.</p><p> </p><p>Eine Minderheit der Kommission (Nidegger, Büchel, Estermann, Grüter, Köppel) beantragt, die Motion abzulehnen.</p>"
+      "value": "<p>Der Bundesrat wird beauftragt, Massnahmen soweit sinnvoll und angemessen zu ergreifen, um die iranische Zivilgesellschaft in ihrem Kampf für Frauen- und Menschenrechte zu unterstützen.</p><p>Zudem wird der Bundesrat beauftragt, die aufgrund der Menschenrechtsverletzungen im Iran von der EU beschlossenen Sanktionen gegen Mitglieder des iranischen Regimes vollständig zu übernehmen.</p><p></p><p>Eine Minderheit der Kommission (Nidegger, Büchel, Estermann, Grüter, Köppel) beantragt, die Motion abzulehnen.</p>"
     },
     {
       "type": {

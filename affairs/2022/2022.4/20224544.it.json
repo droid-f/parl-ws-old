@@ -1,6 +1,6 @@
 {
   "id": 20224544,
-  "updated": "2022-12-22T10:50:59Z",
+  "updated": "2025-04-24T19:33:13Z",
   "additionalIndexing": "15;24;48",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-03-12T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-03-19T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-15T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CAG-CS",
+            "id": 25,
+            "name": "Commissione degli affari giuridici CS",
+            "abbreviation1": "CAG-S",
+            "abbreviation2": "CAG",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-10-08T14:32:58Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 10839,
+                    "gender": "m",
+                    "id": 10839,
+                    "name": "Poggia Mauro",
+                    "officialDenomination": "Poggia"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAG-CN",
+            "id": 12,
+            "name": "Commissione degli affari giuridici CN",
+            "abbreviation1": "CAG-N",
+            "abbreviation2": "CAG",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +179,33 @@
       "states": [
         {
           "date": "/Date(1671145200000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1676415600000+0100)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1710198000000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1728338400000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1742338800000+0100)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
         }
       ],
       "texts": [
@@ -107,10 +245,10 @@
   ],
   "shortId": "22.4544",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 209,
+    "name": "Trasmesso al Consiglio federale",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -119,6 +257,13 @@
         "name": "Motivazione"
       },
       "value": "<p>Si stima che il mercato svizzero del leasing ammonti a circa 24 miliardi di franchi. Quasi due terzi dei veicoli presi in leasing sono nuovi. Buona parte degli offerenti di prodotti finanziari sono società di leasing associate a produttori o importatori generali di veicoli a motore (cosiddette \"captive\"). Questi operatori possono offrire leasing a prezzi inferiori ai costi primari (\"leasing allo 0%\") dato che la differenza viene assunta dal produttore o dall'importatore generale. I costi effettivi per il fornitore del leasing sono tuttavia del tre per cento circa. Ne risulta che questi costi primari apparentemente scoperti (stimati in media a circa 4000 franchi per ogni contratto di leasing pluriennale) vengono sovvenzionati trasversalmente dal produttore o dall'importatore generale. I consumatori non ne sono informati, dato che il diritto svizzero non contiene norme in merito alla trasparenza dei prezzi. I fornitori di leasing indipendenti (p. es. le banche) non beneficiano di sovvenzioni trasversali da parte dei produttori o degli importatori generali e per questo, seppur conformi al mercato, le loro condizioni di leasing sono più care e meno attrattive. Queste sovvenzioni trasversali portano alla distorsione della concorrenza fra società di leasing associate e non associate, visto che le prime non sono tenute a indicare chiaramente questo tipo di sovvenzione. Ne conseguono svantaggi per i consumatori: infatti, le sovvenzioni occulte vengono trasferite al cliente finale nel prezzo del veicolo. La distorsione della concorrenza va anche a discapito dei concessionari indipendenti, dato che gli interessi di leasing assenti o molto bassi portano gli acquirenti verso le società di leasing associate e, quindi, verso i veicoli del sistema di distribuzione appartenente alla marca stessa. I concessionari indipendenti non possono beneficiare di questo tipo di sovvenzioni trasversali. Per eliminare la distorsione della concorrenza va creata trasparenza e devono essere adeguate le norme sui prezzi.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>La concorrenza trasparente e inalterata è garantita dalla legge federale contro la concorrenza sleale (cfr. art. 1 LCSl; RS 241). Agisce in modo sleale segnatamente chi offre reiteratamente sottocosto una scelta di merci, di opere o di prestazioni ed evidenzia particolarmente quest'offerta nella pubblicità, ingannando così la clientela sulle proprie capacità o su quelle dei propri concorrenti (art. 3 cpv. 1 lett. f LCSl). Un'offerta ripetuta per un leasing automobilistico sottocosto è sleale se sono soddisfatte anche le altre due condizioni (particolare evidenza dell'offerta nella pubblicità, inganno sulle capacità).</p><p>Se sono riunite tutte le condizioni poste dalla legge, i contratti di leasing per un'automobile valgono come contratti di credito al consumo (art. 1 cpv. 2 lett. a della legge federale sul credito al consumo, LCC; RS 221.214.1). Chi offre contratti di credito al consumo sottostà, già oggi, a un obbligo informativo di ampia portata. In caso di annunci pubblici concernenti il credito al consumo volto a finanziare beni o servizi occorre designare inequivocabilmente la propria ditta e indicare chiaramente il prezzo in contanti, il prezzo previsto dal contratto di credito e il tasso annuo effettivo (art. 3 cpv. 1 lett. l LCSl). Deve essere indicato solamente il prezzo finale da pagare, senza elencarne le singole voci. Al tempo stesso la LCC definisce le indicazioni che un contratto di leasing rientrante nel campo d'applicazione della legge deve obbligatoriamente contenere (art. 11 cpv. 2 LCC). Deve ad esempio indicare il prezzo d'acquisto in contanti al momento della conclusione del contratto, il numero, l'ammontare e la data di scadenza delle rate del leasing nonché il tasso annuo effettivo (art. 11 cpv. 2 lett. a, b ed e LCC). Da sottolineare che le offerte di leasing sottostanno anche alle disposizioni dell'ordinanza sull'indicazione dei prezzi (OIP, RS 942.211).</p><p>I contratti di leasing e le offerte di ritiro vincolate ad acquisto (negozi giuridici analoghi alla compera) rientrano nel campo d'applicazione dell'OIP (art. 2 cpv. 1 lett. b OIP). Nelle offerte di leasing per un'automobile occorre indicare il prezzo effettivamente da pagare in franchi svizzeri (art. 3 cpv. 1, art. 4 cpv. 1, art. 10 cpv. 1 lett. h e cpv. 2 OIP). Nel complesso, le disposizioni giuridiche pertinenti non contemplano l'obbligo di comunicare ai consumatori i finanziamenti incrociati che portano a una determinata riduzione del prezzo finale (cfr. parere del 28 agosto 2019 del Consiglio federale all'interpellanza 19.3751 Zanetti Roberto Trasparenza e concorrenza nel leasing dei veicoli a motore). Le offerte ingannevoli e la violazione degli obblighi d'informazione sono invece già vietate dalla legislazione in vigore.</p><p>Per i consumatori è determinante che le condizioni di leasing siano indicate in modo trasparente sia negli annunci pubblici che nel contratto, così come è importante sapere il costo periodico del leasing. In questo modo dispongono di tutte le informazioni rilevanti prima di firmare il contratto e possono confrontare le offerte di diversi fornitori di leasing e decidere con cognizione di causa quale offerta sia per loro più conveniente e a quale fornitore dare preferenza. Dal punto di vista della protezione dei consumatori non è necessario un obbligo di rendere noti i costi primari e i costi di finanziamento o eventuali \"sovvenzionamenti trasversali\", e ciò andrebbe oltre al senso e alla finalità di LCSl, LCC e OIP.</p><p>L'obbligo di trasparenza auspicato dall'autore della mozione potrebbe risultare problematico anche dal punto di vista del diritto dell'offerente di proteggere il segreto commerciale. Inoltre, nel quadro di una concorrenza leale, richiedere trasparenza nei costi solamente da parte dei fornitori di leasing associati andrebbe contro la parità di trattamento degli operatori di mercato.</p><p>Da ultimo, nell'ottica della protezione della concorrenza efficace il sovvenzionamento trasversale menzionato non appare problematico.</p><p>Potrebbero esservi casi critici se un'azienda avesse una posizione dominante sul mercato o una posizione dominante relativa, o se risultasse un accordo fra più aziende indipendenti. In entrambi i casi sarebbe applicabile già oggi la legge sui cartelli (LCart, RS 251; cfr. anche il parere del Consiglio federale all'interpellanza Zanetti Roberto).</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

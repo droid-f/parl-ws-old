@@ -1,7 +1,7 @@
 {
   "id": 20230424,
-  "updated": "2023-03-21T15:13:06Z",
-  "additionalIndexing": "04;0421",
+  "updated": "2024-05-30T08:25:50Z",
+  "additionalIndexing": "04;421",
   "affairType": {
     "abbreviation": "Iv. pa.",
     "id": 4,
@@ -40,7 +40,46 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CIP-CN",
+              "id": 11,
+              "name": "Commission des institutions politiques CN",
+              "abbreviation1": "CIP-N",
+              "abbreviation2": "CIP",
+              "committeeNumber": 11,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Conseil national",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2024-02-02T00:00:00Z",
+            "text": "Ne pas donner suite (conseil prioritaire)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-05-29T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,24 +89,168 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-05T15:32:31Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 11505,
+                    "gender": "m",
+                    "id": 11505,
+                    "name": "Fonio Giorgio",
+                    "officialDenomination": "Fonio"
+                  },
+                  "language": "it"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CIP-CN",
+            "id": 11,
+            "name": "Commission des institutions politiques CN",
+            "abbreviation1": "CIP-N",
+            "abbreviation2": "CIP",
+            "committeeNumber": 11,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-17T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CIP-CE",
+            "id": 24,
+            "name": "Commission des institutions politiques CE",
+            "abbreviation1": "CIP-E",
+            "abbreviation2": "CIP",
+            "committeeNumber": 24,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-17T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-05T15:32:29Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 10826,
+                    "gender": "f",
+                    "id": 10826,
+                    "name": "Schläfli Nina",
+                    "officialDenomination": "Schläfli Nina"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1679007600000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1703199600000+0100)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1707087600000+0100)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1716933600000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -107,19 +290,33 @@
   ],
   "shortId": "23.424",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Le peuple et les cantons doivent se prononcer dans un délai de 100 jours sur les lois déclarées urgentes. </p><p>Il peut arriver, et c'est de plus en plus fréquent, que l'Assemblée fédérale estime nécessaire de déclarer urgente une loi fédérale qu'elle a adoptée. Il n'y a rien à redire à cela. Il n'en demeure pas moins que le Souverain, soit le peuple et les cantons, ne peut alors exercer que difficilement son droit de référendum consacré par la Constitution.</p><p>De fait, le Souverain est détrôné. La présente initiative y remédie : une loi fédérale déclarée urgente doit être adoptée par le Souverain dans un délai de 100 jours. Si elle est rejetée en votation, elle est immédiatement abrogée. Les droits populaires sont ainsi garantis, même pour les lois fédérales urgentes.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>La Constitution est modifiée comme suit :</p><p>Article 140, alinéa 1, lettre c et d</p><p>1 Sont soumises au vote du peuple et des cantons :</p><p>c. abrogée</p><p>d. les lois fédérales déclarées urgentes ; elles doivent être soumises au vote dans un délai de 100 jours à compter de leur adoption par l'Assemblée fédérale.</p><p>Article 141, alinéa 1, lettre b</p><p>Abrogée</p><p>Article 165, alinéa 2 à 3bis</p><p>2 Abrogé</p><p>3 Abrogé</p><p>3bis Une loi fédérale déclarée urgente cesse de produire effet 100 jours après son adoption par l'Assemblée fédérale si elle n'a pas été acceptée dans ce délai par le peuple et les cantons.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Le peuple et les cantons doivent se prononcer sur les lois déclarées urgentes"
     }
   ],
-  "title": "Titre suit"
+  "title": "Le peuple et les cantons doivent se prononcer sur les lois déclarées urgentes"
 }

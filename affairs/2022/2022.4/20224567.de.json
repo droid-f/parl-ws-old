@@ -1,6 +1,6 @@
 {
   "id": 20224567,
-  "updated": "2022-12-22T10:45:44Z",
+  "updated": "2025-04-24T19:25:40Z",
   "additionalIndexing": "55;52;2846",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,17 +41,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-03-12T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-06-11T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-15T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-13T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-05-03T14:37:57Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3153,
+                    "gender": "f",
+                    "id": 4261,
+                    "name": "Friedli Esther",
+                    "officialDenomination": "Friedli Esther"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -67,8 +180,38 @@
       "states": [
         {
           "date": "/Date(1671145200000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1676415600000+0100)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1710198000000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1711148400000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1714687200000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1718056800000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -109,10 +252,10 @@
   ],
   "shortId": "22.4567",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -120,7 +263,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Die aktuell geforderten 3,5 Prozent BFF auf Ackerflächen führen zu einer Reduktion der BFF auf Grünland, da die Betriebsleiter und Betriebsleiterinnen gezwungen sind, diese zu optimieren.</p><p>Ackerflächen und deren nahe Umgebung lassen sich durch geschicktes Management, neue Anbausysteme mit Untersaaten, blühende Zwischenkulturen, Blühstreifen für Nützlinge, blühende Fahrgassen, aber vor allem auch durch gezielte Pflege und Gestaltung in den Randbereichen (Einsaat von extensiven Mischungen mit Ackerkräutern), Vorhaupten und Fahrgassen der Ackerflächen aufwerten. Diese Bereiche bieten reichlich Potential als Nahrungsangebote und Lebensräume für Individuen, die auf Ackerlebensräume ausgerichtet sind.</p><p>Die Flächenkonkurrenzzwischen BFF und Produktionsflächen wird reduziert, und ein solches System kann dazu animieren, die Randbereichen zu verbreitern. Somit bilden solche Elemente eine sinnvolle Nutzungsmöglichkeit von Rand-, Rest- und Arbeitsflächen. Durch die heutige exakte Ausbringung von Hilfsstoffen werden diese Randbereiche kaum belastet.</p><p>Das teilweise Befahren führt zu Störung, die einerseits durch hohe Qualität der nicht betroffenen Bereiche, andererseits aber auch durch eine angepasste Saatgutzusammensetzung, die ein Befahren erträgt, kompensiert werden kann. Über alles gesehen wird das Mosaik an Lebensräumen und speziell auch die Vernetzung auf den Flächen gefördert, da sich diese Elemente meist streifenförmig in die Landschaft einfügen.</p><p>Diese Randbereiche und Strukturen sollen nicht als neue, flächenentschädigte Elemente aufgenommen werden, sondern die Vielfalt auf den Ackerflächen soll über ein Punktesystem aufgezeigt und in passender Form zu den geforderten 3,5 Prozent BFF angerechnet werden.</p>"
+      "value": "<p>Die aktuell geforderten 3,5 Prozent BFF auf Ackerflächen führen zu einer Reduktion der BFF auf Grünland, da die Betriebsleiter und Betriebsleiterinnen gezwungen sind, diese zu optimieren.</p><p>Ackerflächen und deren nahe Umgebung lassen sich durch geschicktes Management, neue Anbausysteme mit Untersaaten, blühende Zwischenkulturen, Blühstreifen für Nützlinge, blühende Fahrgassen, aber vor allem auch durch gezielte Pflege und Gestaltung in den Randbereichen (Einsaat von extensiven Mischungen mit Ackerkräutern), Vorhaupten und Fahrgassen der Ackerflächen aufwerten. Diese Bereiche bieten reichlich Potential als Nahrungsangebote und Lebensräume für Individuen, die auf Ackerlebensräume ausgerichtet sind.</p><p>Die Flächenkonkurrenz zwischen BFF und Produktionsflächen wird reduziert, und ein solches System kann dazu animieren, die Randbereichen zu verbreitern. Somit bilden solche Elemente eine sinnvolle Nutzungsmöglichkeit von Rand-, Rest- und Arbeitsflächen. Durch die heutige exakte Ausbringung von Hilfsstoffen werden diese Randbereiche kaum belastet.</p><p>Das teilweise Befahren führt zu Störung, die einerseits durch hohe Qualität der nicht betroffenen Bereiche, andererseits aber auch durch eine angepasste Saatgutzusammensetzung, die ein Befahren erträgt, kompensiert werden kann. Über alles gesehen wird das Mosaik an Lebensräumen und speziell auch die Vernetzung auf den Flächen gefördert, da sich diese Elemente meist streifenförmig in die Landschaft einfügen.</p><p>Diese Randbereiche und Strukturen sollen nicht als neue, flächenentschädigte Elemente aufgenommen werden, sondern die Vielfalt auf den Ackerflächen soll über ein Punktesystem aufgezeigt und in passender Form zu den geforderten 3,5 Prozent BFF angerechnet werden.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat hat am 13. April 2022 das erste \"Verordnungspaket für sauberes Trinkwasser und eine nachhaltigere Landwirtschaft\" verabschiedet. Damit wurde ein erster Teil der parlamentarischen Initiative (Pa. Iv.) 19.475 \"Das Risiko beim Einsatz von Pestiziden reduzieren\" umgesetzt. Im Verordnungspaket enthalten ist die neue Anforderung an den ökologischen Leistungsnachweis (ÖLN) eines Anteils von 3,5 Prozent an Biodiversitätsförderflächen (BFF) auf der Ackerfläche. Diese Anforderung tritt auf den 1.1.2024 in Kraft.</p><p>An die 3,5 Prozent BFF angerechnet werden können alle BFF-Typen, die auf der Ackerfläche angelegt werden. Die bestehenden Instrumente (BFF-Typen auf Ackerfläche und die Vernetzungsprojekte) lassen genügend Spielraum, um die 3,5 Prozent auf Betrieben mit mehr als 3 ha offener Ackerfläche zu erreichen. Dies ermöglicht eine administrativ einfache und wirkungsvolle Umsetzung. Der Vorschlag der Motion würde das System verkomplizieren, da Anforderungen an die Umsetzung der betroffenen zusätzlichen Elemente festgelegt werden müssten, um eine Wirkung zu erzielen. Eine Anrechnung von zusätzlichen, bereits bestehenden Elementen an die 3,5 Prozent BFF würde zu einer verminderten Wirkung in Bezug auf die Ziele der parlamentarischen Initiative und zu einem administrativen Mehraufwand für Landwirtschaft und Vollzug führen.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

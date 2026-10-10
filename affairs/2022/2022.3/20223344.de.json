@@ -1,6 +1,6 @@
 {
   "id": 20223344,
-  "updated": "2022-03-24T08:46:22Z",
+  "updated": "2025-04-24T19:25:30Z",
   "additionalIndexing": "66;2846;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,10 +41,32 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "Wird übernommen",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2024-03-15T00:00:00Z",
+            "text": "Abgeschrieben, weil nicht innert zwei Jahren abschliessend im Rat behandelt",
+            "type": 32
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-05-18T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
@@ -57,13 +79,28 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1647558000000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1652824800000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1710457200000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -160,23 +197,54 @@
         "name": "Grüne Fraktion"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3180,
+        "gender": "f",
+        "id": 4288,
+        "name": "Schlatter Marionna",
+        "officialDenomination": "Schlatter"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "22.3344",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Elektrische Widerstandsheizungen sind grosse Stromverbraucher, welche sich gut ersetzen lassen. Elektroheizungen in Wohnungen verbrauchen in der Schweiz über 3 TWh Strom. Werden diese Heizungen durch erneuerbare Heizsysteme ersetzt, lassen sich mindestens 2 TWh Strom einsparen. Dazu kommen die Gebäudeheizungen in Dienstleistungs- und Gewerbebauten. Da der Strom vor allem im Winter verbraucht wird, kann ein Ersatz der Elektroheizungen einen grossen Beitrag an die Versorgungssicherheit im Winter leisten.</p><p>Bei zentralen Elektroheizungen in Erstwohnungen ist ein Umbau auf ein erneuerbares System in den meisten Fällen technisch sehr einfach und lohnt sich wirtschaftlich. Dies betrifft den weitaus grössten Teil der Wohnungen. Technisch aufwändig und teurer ist der nachträgliche Einbau eines Wärmeverteilsystems für dezentrale Elektroheizungen in Wohnungen. </p><p>Grundsätzlich liegt der Gebäudebereich in der Kompetenz der Kantone. Die bestehenden kantonalen Vorschriften führen bereits dazu, dass in Neubauten und bei der Sanierung von zentralen Elektroheizungen kaum mehr neue zentrale Elektroheizungen installiert werden. </p><p>Die meisten Kantone haben jedoch keine Sanierungspflicht eingeführt oder eine Sanierungspflicht, die auf einen eher späten Zeitpunkt terminiert ist (häufig ca. 2035). Der BFE-Bericht \"Beschleunigung des Ersatzes von Elektroheizungen\" stellt fest, dass die die Wirkung der Sanierungspflicht angesichts des langen Zeithorizonts offen ist und dass zusätzliche Massnahmen auf Bundesebene zielführend wären.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat unterstützt das Anliegen, den Ersatz von Elektroheizungen durch erneuerbare Heizsysteme zu beschleunigen. Er hat deshalb das UVEK beauftragt, die in seinem Bericht über die \"Beschleunigung des Ersatzes von Elektroheizungen\" (abrufbar auf der Webseite des Bundesamtes für Energie: www.bfe.admin.ch &gt; Medienmitteilung vom 17. Februar 2022 \"Versorgungssicherheit: Bundesrat richtet ab dem nächsten Winter eine Wasserkraftreserve ein und plant Reserve-Kraftwerke\") empfohlenen Massnahmen mit den Kantonen zu konkretisieren. Das UVEK bereitet dazu derzeit u.a. strengere Effizienzanforderungen an neue Elektroheizungen vor sowie prüft zusammen mit den Kantonen, ob die finanziellen Fördermittel für die Sanierung erhöht werden können.</p><p>Der Bund hat hingegen keine verfassungsmässige Kompetenz, eine generelle Sanierungspflicht aller Elektroheizungen innert fünf Jahren vorzuschreiben. Gemäss Artikel 89 der Bundesverfassung sind für Massnahmen, die den Verbrauch von Energie in Gebäuden betreffen, vor allem die Kantone zuständig. Zudem ist es fraglich, ob der Markt an Heizungsinstallateurinnen und Heizungsinstallateuren das zusätzliche Volumen innert fünf Jahren bewältigen könnte.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, die gesetzlichen Grundlagen zu schaffen, dass elektrische Widerstandsheizungen für die Beheizung von Gebäuden innert 5 Jahren ersetzt werden. Der Bund stellt zusätzliche finanzielle Fördermittel (z.B. Subventionen, vergünstigte Hypotheken, Darlehen) zur Verfügung.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Ersatz Elektroheizungen"
+      "value": "Ersatz der Elektroheizungen"
     }
   ],
-  "title": "Ersatz Elektroheizungen"
+  "title": "Ersatz der Elektroheizungen"
 }

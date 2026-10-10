@@ -1,6 +1,6 @@
 {
   "id": 20230415,
-  "updated": "2023-03-21T15:15:03Z",
+  "updated": "2024-05-30T08:27:22Z",
   "additionalIndexing": "2836;2841;44",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -40,7 +40,31 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Amm."
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "Sarà ripreso",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-05-29T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,24 +74,133 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-05-02T19:07:58Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3174,
+                    "gender": "m",
+                    "id": 4282,
+                    "name": "Rechsteiner Thomas",
+                    "officialDenomination": "Rechsteiner Thomas"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSS-CN",
+            "id": 6,
+            "name": "Commissione della sicurezza sociale e della sanità",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-16T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CSS-CS",
+            "id": 19,
+            "name": "Commissione della sicurezza sociale e della sanità CS",
+            "abbreviation1": "CSSS-S",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-16T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Dipartimento dell'interno",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1678921200000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1685397600000+0200)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1712008800000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1714600800000+0200)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1716933600000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -95,7 +228,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -293,23 +426,47 @@
         "name": "Gruppo socialista"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3147,
+        "gender": "m",
+        "id": 4255,
+        "name": "Dandrès Christian",
+        "officialDenomination": "Dandrès"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "23.415",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>La distinzione contenuta nella LAINF tra l'onere della prova di cui all'articolo 9 capoverso 1 (per le malattie professionali che figurano nell'elenco delle malattie professionali) e quello di cui all'articolo 9 capoverso 2 (per le altre malattie professionali possibili) non è più adatta ai nostri tempi e complica il riconoscimento di nuove sindromi connesse a una professione. Le malattie legate allo stress non sono quindi praticamente mai riconosciute come malattie professionali. Secondo la giurisprudenza, per le malattie professionali che non figurano nell'elenco dell'ordinanza sull'assicurazione contro gli infortuni (OAINF) occorre provare che siano per oltre il 75 per cento dovute all'attività professionale. Quest'esigenza costituisce un grosso ostacolo, in particolare per i medici che presentano la richiesta, e ha quindi un effetto dissuasivo. </p><p>La disparità di trattamento tra malattie professionali che figurano nell'elenco delle malattie professionali e malattie professionali possibili non corrisponde più alle attuali conoscenze della medicina del lavoro e della scienza del lavoro, secondo le quali i problemi di salute associati all'attività professionale, generalmente legati allo stress, sono in forte aumento a causa dei cambiamenti in atto nel mondo del lavoro (densificazione, pressione delle scadenze, separazione sempre meno netta tra vita privata e lavoro, crescita del settore dei servizi). Un'equiparazione alle malattie professionali che figurano nell'elenco tiene conto di queste evoluzioni. Si favorisce così anche un approccio più dinamico dell'evoluzione delle malattie professionali. Le \"altre\" malattie riconosciute in virtù del capoverso 2 potranno quindi più facilmente trovare posto nell'elenco delle malattie professionali allegato all'OAINF. </p><p>Nel 2000 la SECO ha pubblicato il rapporto sui costi dello stress in Svizzera (\"Les coûts du stress en Suisse\", disponibile soltanto in francese)(1). Il costo finanziario dello stress ammontava a circa 4,2 miliardi di franchi per la popolazione attiva ossia all'1,2 per cento circa del PIL. Questa cifra raddoppia se ai costi direttamente dovuti allo stress si aggiungono quelli degli infortuni sul lavoro e delle malattie professionali. Purtroppo questo studio non è stato ancora riproposto in tempi più recenti. Un altro studio(2) commissionato dalla SECO nel 2014 indica tuttavia che, secondo studi internazionali, i costi economici delle malattie professionali ammontano almeno al 3 per cento del PIL nelle economie sviluppate. Per la Svizzera ciò corrisponde a 22 miliardi di franchi nel 2022.</p><p>Gran parte dei costi delle malattie legate allo stress è sostenuto dalla collettività e non dai datori di lavoro. Tenuto conto dell'esplosione dei premi di cassa malati è necessario rafforzare il principio di causalità, offrire ai lavoratori una migliore copertura assicurativa e istituire incentivi più incisivi per lo sviluppo della prevenzione sul posto di lavoro. </p><p>Il Parlamento è invitato a contribuire a un migliore riconoscimento dei problemi di salute associati al lavoro e delle malattie dovute allo stress professionale quali malattie professionali. Se le malattie associate al lavoro vengono maggiormente riconosciute come malattie professionali e di conseguenza sottoposte alla LAINF, la copertura assicurativa delle persone in questione risulta migliore. I costi della salute non sono più addossati ai singoli lavoratori, gravati da premi di cassa malati sempre più onerosi, ma sono sempre più assunti laddove vengono generati. I datori di lavoro vengono quindi resi più responsabili rispetto al loro dovere di assistenza e la prevenzione viene rafforzata.</p><p>(1) Spese mediche: 1,4 miliardi di franchi; automedicazione contro lo stress: 348 milioni di franchi; costi legati all'assenteismo e alla perdita di produzione: 2,4 miliardi di franchi.</p><p>(2) Thomas Läubli (SECO). Costi sanitari di condizioni lavorative gravose, 2014 (disponibile soltanto in tedesco, sintesi in italiano).</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>L'articolo 9 capoverso 2 LAINF è modificato come segue:</p><p>Sono considerate professionali anche altre malattie di cui è provato siano state causate esclusivamente o in modo preponderante dall'esercizio dell'attività professionale. (eliminazione dell'avverbio \"affatto\")</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Per un migliore riconoscimento delle malattie legate allo stress come malattie professionali"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Per un migliore riconoscimento delle malattie legate allo stress come malattie professionali"
 }

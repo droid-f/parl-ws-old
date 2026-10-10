@@ -1,6 +1,6 @@
 {
   "id": 20223321,
-  "updated": "2022-09-21T18:28:04Z",
+  "updated": "2025-03-11T14:26:53Z",
   "additionalIndexing": "66;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2022-09-21T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-03-11T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -68,7 +83,92 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "UREK-NR",
+            "id": 7,
+            "name": "Kommission für Umwelt, Raumplanung und Energie NR",
+            "abbreviation1": "UREK-N",
+            "abbreviation2": "UREK",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-18T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "UREK-SR",
+            "id": 20,
+            "name": "Kommission für Umwelt, Raumplanung und Energie SR",
+            "abbreviation1": "UREK-S",
+            "abbreviation2": "UREK",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-18T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-01-09T17:27:01Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3105,
+                    "gender": "m",
+                    "id": 4204,
+                    "name": "Rieder Beat",
+                    "officialDenomination": "Rieder"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +189,23 @@
         },
         {
           "date": "/Date(1663711200000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1736290800000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1736377200000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1741647600000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -387,7 +502,7 @@
         "code": 3123,
         "gender": "m",
         "id": 4222,
-        "name": "Paganini Nicolo",
+        "name": "Paganini Nicolò",
         "officialDenomination": "Paganini"
       },
       "type": "cosign"
@@ -451,10 +566,9 @@
   ],
   "shortId": "22.3321",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -470,7 +584,7 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Aufgrund des Zubaus an erneuerbaren Energien kann von einem steigenden Flexibilitätsbedarf im künftigen Stromsystem ausgegangen werden. Der Bundesrat hat deswegen im Entwurf zum Bundesgesetz über einer sicheren Stromversorgung mit erneuerbaren Energien, welche derzeit im Parlament beraten wird, auch eine Flexibilitätsregulierung vorgesehen. Das Recht, die Flexibilitäten zu nutzen, soll den jeweiligen Erzeugern, Speicherbetreibern oder Endverbraucherinnen und Endverbrauchern zustehen. Wenn Dritte, auch Verteilnetzbetreiber, die Flexibilitäten nutzen wollen, müssen sie sich diese grundsätzlich vertraglich sichern. Wollen Verteilnetzbetreiber Flexibilität, wie bis anhin, netzdienlich nutzen, so müssen sie den Flexibilitätsinhabern diskriminierungsfreie Vertragskonditionen anbieten.</p><p>Für den Regelenergiemarkt in der Schweiz ist die Swissgrid gemäss Stromversorgungsgesetz (StromVG, SR 734.7) Art. 20 Abs. 2 Bst. b zuständig. Sie definiert aufgrund technischer Anforderungen, die sich auch aus dem Verbundbetrieb mit Europa ergeben, die Art und Menge der Regelenergieprodukte, um die Netzsicherheit gewährleisten zu können. Swissgrid hat bei der Ausgestaltung des Regelenergiemarktes darauf zu achten, dass dieser sich laufend an den Stand der technischen Entwicklungen anpasst; mit dem Ziel, dass er möglichst liquide ist - was auch bedeutet, dass möglichst viele Anbieter teilnehmen können und der Markt effizienter wird. Damit auch kleinere Flexibilitätsanbieter am Regelenergiemarkt teilnehmen können, hat Swissgrid bereits im Jahr 2013 die Möglichkeit des Poolings eingeführt (siehe Branchenempfehlung Strommarkt Schweiz, Anbindung von Regelpools an den Schweizer SDL-Markt). Damit ist gewährleistet, dass kleinere Akteure am Regelenergiemarkt teilnehmen können. Eine direkte Teilnahme ist aus technischen und logistischen Gründen zurzeit nicht möglich.</p><p>Weiter werden regelmässig neue Anpassungen der Produkte im Regelenergiemarkt diskutiert und eingeführt, um u.a. auch die Teilnahme kleinerer Akteure zu fördern. Jüngstes Beispiel ist die Beteiligung der Swissgrid am Pilotprojekt Equigy, das die technischen und logistischen Hürden einer direkten Beteiligung von kleineren Akteuren untersucht.</p>"
+      "value": "<p>Aufgrund des Zubaus an erneuerbaren Energien kann von einem steigenden Flexibilitätsbedarf im künftigen Stromsystem ausgegangen werden. Der Bundesrat hat deswegen im Entwurf zum Bundesgesetz über einer sicheren Stromversorgung mit erneuerbaren Energien, welche derzeit im Parlament beraten wird, auch eine Flexibilitätsregulierung vorgesehen. Das Recht, die Flexibilitäten zu nutzen, soll den jeweiligen Erzeugern, Speicherbetreibern oder Endverbraucherinnen und Endverbrauchern zustehen. Wenn Dritte, auch Verteilnetzbetreiber, die Flexibilitäten nutzen wollen, müssen sie sich diese grundsätzlich vertraglich sichern. Wollen Verteilnetzbetreiber Flexibilität, wie bis anhin, netzdienlich nutzen, so müssen sie den Flexibilitätsinhabern diskriminierungsfreie Vertragskonditionen anbieten.</p><p>Für den Regelenergiemarkt in der Schweiz ist die Swissgrid gemäss Stromversorgungsgesetz (StromVG, SR 734.7) Art. 20 Abs. 2 Bst. b zuständig. Sie definiert aufgrund technischer Anforderungen, die sich auch aus dem Verbundbetrieb mit Europa ergeben, die Art und Menge der Regelenergieprodukte, um die Netzsicherheit gewährleisten zu können. Swissgrid hat bei der Ausgestaltung des Regelenergiemarktes darauf zu achten, dass dieser sich laufend an den Stand der technischen Entwicklungen anpasst; mit dem Ziel, dass er möglichst liquide ist - was auch bedeutet, dass möglichst viele Anbieter teilnehmen können und der Markt effizienter wird. Damit auch kleinere Flexibilitätsanbieter am Regelenergiemarkt teilnehmen können, hat Swissgrid bereits im Jahr 2013 die Möglichkeit des Poolings eingeführt (siehe Branchenempfehlung Strommarkt Schweiz, Anbindung von Regelpools an den Schweizer SDL-Markt). Damit ist gewährleistet, dass kleinere Akteure am Regelenergiemarkt teilnehmen können. Eine direkte Teilnahme ist aus technischen und logistischen Gründen zurzeit nicht möglich.</p><p>Weiter werden regelmässig neue Anpassungen der Produkte im Regelenergiemarkt diskutiert und eingeführt, um u.a. auch die Teilnahme kleinerer Akteure zu fördern. Jüngstes Beispiel ist die Beteiligung der Swissgrid am Pilotprojekt Equigy, das die technischen und logistischen Hürden einer direkten Beteiligung von kleineren Akteuren untersucht.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

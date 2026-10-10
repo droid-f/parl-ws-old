@@ -1,6 +1,6 @@
 {
   "id": 20230418,
-  "updated": "2023-03-21T15:14:24Z",
+  "updated": "2024-04-18T07:21:39Z",
   "additionalIndexing": "24",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -40,7 +40,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-04-17T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,7 +64,50 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CdF-CN",
+            "id": 2,
+            "name": "Commission des finances CN",
+            "abbreviation1": "CdF-N",
+            "abbreviation2": "CdF",
+            "committeeNumber": 2,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-16T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "CdF-CE",
+            "id": 15,
+            "name": "Commission des finances CE",
+            "abbreviation1": "CdF-E",
+            "abbreviation2": "CdF",
+            "committeeNumber": 15,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-16T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "V"
+        }
       ],
       "references": [
 
@@ -66,8 +123,13 @@
       "states": [
         {
           "date": "/Date(1678921200000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1713304800000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -107,19 +169,33 @@
   ],
   "shortId": "23.418",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Les bénéfices de la BNS ne peuvent être considérés comme allant de soi. La part revenant à la Confédération ne devra donc plus être versée directement dans la caisse fédérale, mais être utilisée pour réduire la dette. Cette règle permettra d'éviter que des montants trop importants soient inscrits au budget en partant de l'idée que les bénéfices de la BNS arriveront providentiellement. La mise en oeuvre de la présente initiative permettra d'éviter des déficits et d'autres mauvaises surprises. En 2002, la perte de 132 milliards de francs essuyée par la BNS a rendu impossible toute distribution à la Confédération et aux cantons, ce qui a alarmé de nombreux acteurs. En 2023, il n'y aura sans doute pas non plus de distribution. Nous n'avons plus le droit de compter sur cette manne. Si la BNS devait néanmoins procéder à une distribution, la part revenant à la Confédération devra servir à réduire la dette, au profit des générations futures. Cette mesure renforcera aussi la liberté d'action de la Suisse lors de crises et d'autres événements imprévus.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Les bases légales concernées seront modifiées de telle sorte que la part du bénéfice de la Banque nationale suisse (BNS) revenant à la Confédération soit affectée dans son intégralité à la réduction de la dette. Les exceptions seront définies dans la loi.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Affectation du bénéfice de la Banque nationale suisse à la réduction de la dette"
     }
   ],
-  "title": "Titre suit"
+  "title": "Affectation du bénéfice de la Banque nationale suisse à la réduction de la dette"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20230417,
-  "updated": "2023-03-21T15:14:34Z",
+  "updated": "2024-05-30T08:28:04Z",
   "additionalIndexing": "66;52",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -33,7 +33,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-05-29T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -43,24 +57,168 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-04-09T15:15:27Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 10836,
+                    "gender": "m",
+                    "id": 10836,
+                    "name": "Kolly Nicolas",
+                    "officialDenomination": "Kolly"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-04-09T15:15:08Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3123,
+                    "gender": "m",
+                    "id": 4222,
+                    "name": "Paganini Nicolò",
+                    "officialDenomination": "Paganini"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CEATE-CN",
+            "id": 7,
+            "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CN",
+            "abbreviation1": "CEATE-N",
+            "abbreviation2": "CEATE",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-16T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CEATE-CE",
+            "id": 20,
+            "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CE",
+            "abbreviation1": "CEATE-E",
+            "abbreviation2": "CEATE",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-16T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1678921200000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1679007600000+0100)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1712613600000+0200)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1716933600000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -103,19 +261,33 @@
   ],
   "shortId": "23.417",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Avec la modification de la loi sur l'énergie, l'\" offensive solaire \" et le futur projet Windexpress, le Conseil national et le Conseil des États ont tous deux décidé d'employer les grands moyens pour promouvoir les énergies renouvelables. Le paquet énergétique permettra en outre de développer l'énergie hydraulique.</p><p>Les grandes installations d'intérêt national pourront être autorisées de manière simplifiée et accélérée, ce qui signifie que de nouvelles installations d'énergie renouvelable seront construites dans les années à venir, notamment en dehors des zones à bâtir. Or, les réseaux électriques sont aujourd'hui souvent insuffisamment dimensionnés pour permettre la montée en puissance des énergies renouvelables, et leur développement ne suit pas celui des centrales, avec des problèmes de congestion synonymes d'inefficacité économique et de production d'électricité réduite. Sans accélération des procédures relatives aux infrastructures d'approvisionnement énergétique, les objectifs de la stratégie énergétique et climatique seront très difficiles à tenir. S'il est nécessaire d'améliorer et d'accélérer rapidement la capacité et le rythme d'autorisation pour l'extension des installations de production, il n'en faut pas moins améliorer dans les meilleurs délais les procédures d'autorisation qui concernent les réseaux. On s'attachera à l'avenir à éviter les affaires qui s'éternisent, comme les cas bien connus des lignes Chamoson-Chippis (plus de vingt ans jusqu'à la décision d'approbation des plans), Chippis-Bickigen (sept ans jusqu'à la décision d'approbation des plans), Chippis-Mörel (en suspens depuis plus de vingt ans) ou Niederwil-Obfelden (en suspens depuis 2013).</p><p>Il faut bien voir que chaque installation de production d'énergie renouvelable autorisée en procédure accélérée complique davantage la situation du côté du réseau, et la même chose vaut pour l'essor de l'électrification (mobilité électrique, utilisation de pompes à chaleur, etc.) en raison de l'augmentation de la consommation d'électricité sur laquelle elle repose.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Les bases légales seront modifiées de manière à accélérer le développement des réseaux électriques. Cette accélération concernera notamment les projets d'intérêt national nécessaires à la mise en oeuvre de la Stratégie énergétique 2050. Les aménagements concernés devront autant que possible permettre en outre une revalorisation du paysage, du patrimoine bâti et des terres cultivables ou servir la protection de la biodiversité. Les lignes aériennes devront si possible être enterrées.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Développement des réseaux électriques. Accélérer les procédures"
     }
   ],
-  "title": "Titre suit"
+  "title": "Développement des réseaux électriques. Accélérer les procédures"
 }

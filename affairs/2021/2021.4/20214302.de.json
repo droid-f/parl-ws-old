@@ -1,6 +1,6 @@
 {
   "id": 20214302,
-  "updated": "2023-06-14T07:57:43Z",
+  "updated": "2024-05-14T08:27:17Z",
   "additionalIndexing": "55;15;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -14,12 +14,6 @@
       "id": 4289,
       "name": "Schneider Meret",
       "officialDenomination": "Schneider Meret"
-    },
-    "faction": {
-      "abbreviation": "Fraktion G",
-      "code": "G",
-      "id": 6,
-      "name": "Grüne Fraktion"
     },
     "type": "author"
   },
@@ -55,6 +49,21 @@
             "date": "2023-06-13T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-03-04T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -68,7 +77,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-20T15:33:31Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3053,
+                    "gender": "m",
+                    "id": 4153,
+                    "name": "Hegglin Peter",
+                    "officialDenomination": "Hegglin Peter"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-10-01T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-10-01T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +179,18 @@
         },
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1707433200000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1709506800000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -200,21 +300,14 @@
         "name": "Schneider Meret",
         "officialDenomination": "Schneider Meret"
       },
-      "faction": {
-        "abbreviation": "Fraktion G",
-        "code": "G",
-        "id": 6,
-        "name": "Grüne Fraktion"
-      },
       "type": "author"
     }
   ],
   "shortId": "21.4302",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -230,14 +323,14 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Für die Verkehrsmilch, die zu Käse verarbeitet wird, richtet der Bund gestützt auf Artikel 38 Absatz 1 des Landwirtschaftsgesetzes (LwG; SR 910.1) eine Zulage aus. Diese Zulage für verkäste Milch wird an die Milchverwerterinnen und -verwerter ausbezahlt, die sie innert Monatsfrist an die Milchproduzentinnen und -produzenten weiterleiten müssen (vgl. Art. 1c und 6 der Milchpreisstützungsverordnung [SR 916.350.2]). Für ausländische Milch, die im Rahmen des Veredelungsverkehrs in die Schweiz eingeführt, zu Käse verarbeitet und wieder ausgeführt wird, besteht bereits heute kein Anspruch auf die Zulage für verkäste Milch. Entsprechend hat die Verkäsungszulage keinen direkten Zusammenhang mit dem Veredelungsverkehr.</p><p>Zudem dürfen Milchprodukte, die aus Rohstoffen ausländischer Herkunft hergestellt werden, gemäss den Swissness-Regelungen nicht als schweizerisch gekennzeichnet werden. Die Motionärin möchte nun, dass die Milchverwerterinnen und -verwerter, die ein Importgesuch für Milch für den Veredelungsverkehr stellen, auch für die verkäste Schweizer Milch die Zulage nicht mehr erhalten und sich dadurch vom Veredelungsverkehr abwenden.</p><p>Mit dem geltenden Artikel 38 Absatz 2 LwG besteht keine ausreichende rechtliche Grundlage, um die Auszahlung der Zulage für verkäste Milch an Milchverwerterinnen und -verwerter zu verweigern, die Schweizer Milch verkäsen und zusätzlich ein Gesuch für den Import von Milch im Veredelungsverkehr stellen. Es kommt hinzu, dass die Zulage für verkäste Milch an die Milchproduzentinnen und -produzenten zur Stützung ihres Milchpreises ausgerichtet wird. Mit der von der Motionärin geforderten Änderung der Zulagenberechtigung würden somit die Schweizer Milchproduzentinnen und -produzenten benachteiligt, die ihre Milch an die betroffenen Milchverwerterinnen und -verwerter zur Verkäsung liefern.</p>"
+      "value": "<p>Für die Verkehrsmilch, die zu Käse verarbeitet wird, richtet der Bund gestützt auf Artikel 38 Absatz 1 des Landwirtschaftsgesetzes (LwG; SR 910.1) eine Zulage aus. Diese Zulage für verkäste Milch wird an die Milchverwerterinnen und -verwerter ausbezahlt, die sie innert Monatsfrist an die Milchproduzentinnen und -produzenten weiterleiten müssen (vgl. Art. 1c und 6 der Milchpreisstützungsverordnung [SR 916.350.2]). Für ausländische Milch, die im Rahmen des Veredelungsverkehrs in die Schweiz eingeführt, zu Käse verarbeitet und wieder ausgeführt wird, besteht bereits heute kein Anspruch auf die Zulage für verkäste Milch. Entsprechend hat die Verkäsungszulage keinen direkten Zusammenhang mit dem Veredelungsverkehr.</p><p>Zudem dürfen Milchprodukte, die aus Rohstoffen ausländischer Herkunft hergestellt werden, gemäss den Swissness-Regelungen nicht als schweizerisch gekennzeichnet werden. Die Motionärin möchte nun, dass die Milchverwerterinnen und -verwerter, die ein Importgesuch für Milch für den Veredelungsverkehr stellen, auch für die verkäste Schweizer Milch die Zulage nicht mehr erhalten und sich dadurch vom Veredelungsverkehr abwenden.</p><p>Mit dem geltenden Artikel 38 Absatz 2 LwG besteht keine ausreichende rechtliche Grundlage, um die Auszahlung der Zulage für verkäste Milch an Milchverwerterinnen und -verwerter zu verweigern, die Schweizer Milch verkäsen und zusätzlich ein Gesuch für den Import von Milch im Veredelungsverkehr stellen. Es kommt hinzu, dass die Zulage für verkäste Milch an die Milchproduzentinnen und -produzenten zur Stützung ihres Milchpreises ausgerichtet wird. Mit der von der Motionärin geforderten Änderung der Zulagenberechtigung würden somit die Schweizer Milchproduzentinnen und -produzenten benachteiligt, die ihre Milch an die betroffenen Milchverwerterinnen und -verwerter zur Verkäsung liefern.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Der Bund wird beauftragt, auf Grundlage von Artikel 38 Absatz 2 des Landwirtschaftsgesetzes die Bedingungen für die Vergabe der Verkäsungszulage so zu ändern, dass Käsereien, die ein Importgesuch für Milch für den Veredelungsverkehr stellen, keinen Anspruch mehr auf die Verkäsungszulage haben. Dies gilt auch dann, wenn diese Käsereien neben der Verarbeitung von Importmilch auch aus Schweizer Milch Käse für den Binnenmarkt produzieren.</p>"
+      "value": "<p>Der Bund wird beauftragt, auf Grundlage von Artikel 38 Absatz 2 des Landwirtschaftsgesetzes die Bedingungen für die Vergabe der Verkäsungszulage so zu ändern, dass Käsereien, die ein Importgesuch für Milch für den Veredelungsverkehr stellen, keinen Anspruch mehr auf die Verkäsungszulage haben. Dies gilt auch dann, wenn diese Käsereien neben der Verarbeitung von Importmilch auch aus Schweizer Milch Käse für den Binnenmarkt produzieren.</p>"
     },
     {
       "type": {

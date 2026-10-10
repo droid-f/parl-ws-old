@@ -1,6 +1,6 @@
 {
   "id": 20184263,
-  "updated": "2019-04-10T13:32:27Z",
+  "updated": "2024-06-06T11:27:31Z",
   "additionalIndexing": "1211;2446;28",
   "affairType": {
     "abbreviation": "Po.",
@@ -55,6 +55,21 @@
             "date": "2019-03-22T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-06-05T00:00:00Z",
+            "text": "Abschreibung im Zusammenhang mit der Beratung des Geschäfts 24.006",
+            "type": 0
           }
         ]
       },
@@ -68,7 +83,48 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-11-17T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-11-17T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +145,23 @@
         },
         {
           "date": "/Date(1553209200000+0100)/",
-          "id": 26,
-          "name": "Angenommen"
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
+        },
+        {
+          "date": "/Date(1698793200000+0100)/",
+          "id": 218,
+          "name": "Bericht in Erfüllung des Vorstosses liegt vor"
+        },
+        {
+          "date": "/Date(1712872800000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1717538400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -98,11 +169,6 @@
       ]
     }
   ],
-  "handling": {
-    "date": "2019-03-22T00:00:00Z",
-    "legislativePeriod": 50,
-    "session": "5016"
-  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -123,7 +189,7 @@
         "gender": "m",
         "id": 4053,
         "name": "Aeschi Thomas",
-        "officialDenomination": "Aeschi Thomas"
+        "officialDenomination": "Aeschi"
       },
       "type": "cosign"
     },
@@ -286,9 +352,9 @@
   ],
   "shortId": "18.4263",
   "state": {
-    "id": 26,
-    "name": "Angenommen",
-    "doneKey": "3",
+    "id": 229,
+    "name": "Erledigt",
+    "doneKey": "0",
     "newKey": 0
   },
   "texts": [
@@ -298,6 +364,13 @@
         "name": "Begründung"
       },
       "value": "<p>In seiner Stellungnahme zur Motion Gutjahr 18.3872, \"Einbezug der Steuern in die Berechnung des Existenzminimums\", äusserte der Bundesrat zwar Verständnis für das Anliegen, empfahl die Motion aber dennoch zur Ablehnung. </p><p>Nach Ansicht des Bundesrates sollte die Problematik zuerst genauer untersucht und mögliche Lösungsansätze evaluiert werden. Das vorliegende Postulat beauftragt den Bundesrat entsprechend, diese Arbeiten an die Hand zu nehmen und dem Parlament Bericht zu erstatten.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "Der Bundesrat beantragt die Annahme des Postulates."
     },
     {
       "type": {

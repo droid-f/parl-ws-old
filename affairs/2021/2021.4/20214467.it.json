@@ -1,6 +1,6 @@
 {
   "id": 20214467,
-  "updated": "2021-12-23T15:33:31Z",
+  "updated": "2025-04-24T19:35:31Z",
   "additionalIndexing": "55;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,7 +40,51 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-13T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-03-11T00:00:00Z",
+            "text": "Adozione con modificazione",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-05-30T00:00:00Z",
+            "text": "Adesione",
+            "type": 3
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -53,7 +97,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CET-CN",
+            "id": 10,
+            "name": "Commissione dell'economia e dei tributi CN",
+            "abbreviation1": "CET-N",
+            "abbreviation2": "CET",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-20T10:07:38Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3107,
+                    "gender": "m",
+                    "id": 4206,
+                    "name": "Ettlin Erich",
+                    "officialDenomination": "Ettlin Erich"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CS",
+            "id": 23,
+            "name": "Commissione dell'economia e dei tributi CS",
+            "abbreviation1": "CET-S",
+            "abbreviation2": "CET",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -69,8 +194,53 @@
       "states": [
         {
           "date": "/Date(1639522800000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1644966000000+0100)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1694556000000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1708383600000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1710111600000+0100)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1711148400000+0100)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1713823200000+0200)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1717020000000+0200)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
         }
       ],
       "texts": [
@@ -320,8 +490,8 @@
   ],
   "shortId": "21.4467",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 209,
+    "name": "Trasmesso al Consiglio federale",
     "doneKey": "0",
     "newKey": 0
   },
@@ -338,14 +508,14 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>L'agricoltura comprende la produzione di prodotti valorizzabili derivanti dalla coltivazione vegetale e dalla tenuta di animali da reddito (art. 3 cpv. 1 lett. a LAgr; RS 910.1). Anche se la legislazione alimentare riconosce le chiocciole come una derrata alimentare di origine animale, l'elicicoltura non rientra nell'ambito agricolo. Di conseguenza, al pari degli insetti e dei pesci, nemmeno le chiocciole sono animali da reddito agricoli secondo la legislazione agricola (art. 27 ordinanza sulla terminologia agricola; RS 910.91).</p><p>Nel Messaggio concernente l'evoluzione della politica agricola a partire dal 2022 (FF 2020 3567), il Consiglio federale ha proposto di estendere il campo d'applicazione della legge sull'agricoltura affinché sia possibile applicare determinate misure della stessa (tra cui i provvedimenti per i miglioramenti strutturali e per la promozione dello smercio) anche a prodotti d'acquacoltura (pesci, crostacei, molluschi), alghe, insetti e altri organismi viventi che non sono prodotti valorizzabili derivanti dalla coltivazione vegetale e dalla tenuta di animali da reddito. Le chiocciole rientrano nella categoria \"altri organismi viventi\". Il Consiglio federale intende quindi promuovere maggiormente la produzione di animali non considerati animali da reddito agricoli. La produzione di chiocciole alloctone deve però avvenire in modo da non mettere in pericolo l'uomo, gli animali e l'ambiente e da non pregiudicare la diversità biologica e la sua utilizzazione sostenibile (ordinanza sull'impiego confinato [OIConf]; RS 814.912 e ordinanza sull'emissione deliberata nell'ambiente [OEDA]; RS 814.911).</p><p>Per quanto riguarda gli animali da reddito agricoli, il diritto pianificatorio fa riferimento principalmente alla legislazione agricola. Da questo punto di vista dunque, secondo il Consiglio federale attualmente non vi è la base legale per autorizzare piccoli recinti in pieno campo destinati all'allevamento di chiocciole. Nel caso in cui ciò dovesse cambiare, il Consiglio federale ritiene fondamentale fornire il minor numero di indicazioni possibili su come farlo. Se la mozione fosse accolta dalla Camera prioritaria, il Consiglio federale si riserva il diritto di proporre alla Commissione della seconda Camera di modificarla come segue (art. 121 cpv. 3 lett. b LParl, RS 171.10): \"Il Consiglio federale è incaricato di procedere alle debite modifiche di legge e/o di ordinanza affinché possano essere autorizzate le piccole strutture necessarie per l'allevamento di chiocciole in un'azienda agricola.\".</p>"
+      "value": "<p>L'agricoltura comprende la produzione di prodotti valorizzabili derivanti dalla coltivazione vegetale e dalla tenuta di animali da reddito (art. 3 cpv. 1 lett. a LAgr; RS 910.1). Anche se la legislazione alimentare riconosce le chiocciole come una derrata alimentare di origine animale, l'elicicoltura non rientra nell'ambito agricolo. Di conseguenza, al pari degli insetti e dei pesci, nemmeno le chiocciole sono animali da reddito agricoli secondo la legislazione agricola (art. 27 ordinanza sulla terminologia agricola; RS 910.91).</p><p>Nel Messaggio concernente l'evoluzione della politica agricola a partire dal 2022 (FF 2020 3567), il Consiglio federale ha proposto di estendere il campo d'applicazione della legge sull'agricoltura affinché sia possibile applicare determinate misure della stessa (tra cui i provvedimenti per i miglioramenti strutturali e per la promozione dello smercio) anche a prodotti d'acquacoltura (pesci, crostacei, molluschi), alghe, insetti e altri organismi viventi che non sono prodotti valorizzabili derivanti dalla coltivazione vegetale e dalla tenuta di animali da reddito. Le chiocciole rientrano nella categoria \"altri organismi viventi\". Il Consiglio federale intende quindi promuovere maggiormente la produzione di animali non considerati animali da reddito agricoli. La produzione di chiocciole alloctone deve però avvenire in modo da non mettere in pericolo l'uomo, gli animali e l'ambiente e da non pregiudicare la diversità biologica e la sua utilizzazione sostenibile (ordinanza sull'impiego confinato [OIConf]; RS 814.912 e ordinanza sull'emissione deliberata nell'ambiente [OEDA]; RS 814.911).</p><p>Per quanto riguarda gli animali da reddito agricoli, il diritto pianificatorio fa riferimento principalmente alla legislazione agricola. Da questo punto di vista dunque, secondo il Consiglio federale attualmente non vi è la base legale per autorizzare piccoli recinti in pieno campo destinati all'allevamento di chiocciole. Nel caso in cui ciò dovesse cambiare, il Consiglio federale ritiene fondamentale fornire il minor numero di indicazioni possibili su come farlo. Se la mozione fosse accolta dalla Camera prioritaria, il Consiglio federale si riserva il diritto di proporre alla Commissione della seconda Camera di modificarla come segue (art. 121 cpv. 3 lett. b LParl, RS 171.10): \"Il Consiglio federale è incaricato di procedere alle debite modifiche di legge e/o di ordinanza affinché possano essere autorizzate le piccole strutture necessarie per l'allevamento di chiocciole in un'azienda agricola.\".</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {
         "id": 5,
         "name": "Testo depositato"
       },
-      "value": "<p>Il Consiglio federale è incaricato di procedere ai necessari adeguamenti di Leggi e/o Ordinanze affinché l'elicicoltura venga considerata attività agricola, animali da reddito.</p>"
+      "value": "<p>Il Consiglio federale è incaricato di procedere ai necessari adeguamenti di Leggi e/o Ordinanze affinché l'elicicoltura venga considerata attività agricola e le chiocciole vengano considerate&nbsp;animali da reddito.</p>"
     },
     {
       "type": {

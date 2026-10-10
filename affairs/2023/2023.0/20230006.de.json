@@ -1,7 +1,7 @@
 {
   "id": 20230006,
-  "updated": "2023-06-12T18:31:31Z",
-  "additionalIndexing": "0421",
+  "updated": "2024-07-23T19:17:20Z",
+  "additionalIndexing": "421",
   "affairType": {
     "abbreviation": "BRG",
     "id": 1,
@@ -78,6 +78,36 @@
             "date": "2023-06-12T00:00:00Z",
             "text": "Abweichung",
             "type": 37
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-27T00:00:00Z",
+            "text": "Abweichung",
+            "type": 37
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-28T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
           }
         ]
       },
@@ -94,10 +124,102 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-08-16T11:53:32Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3107,
+                    "gender": "m",
+                    "id": 4206,
+                    "name": "Ettlin Erich",
+                    "officialDenomination": "Ettlin Erich"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-08-21T12:23:07Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3220,
+                    "gender": "f",
+                    "id": 4325,
+                    "name": "Chassot Isabelle",
+                    "officialDenomination": "Chassot"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "APK-SR",
             "id": 17,
             "name": "Aussenpolitische Kommission SR",
-            "abbreviation1": "APK-SR",
+            "abbreviation1": "APK-S",
             "abbreviation2": "APK",
             "committeeNumber": 17,
             "council": {
@@ -108,7 +230,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -136,15 +258,22 @@
                 }
               ],
               "sessionId": "5121"
+            },
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "APK-NR",
             "id": 4,
             "name": "Aussenpolitische Kommission NR",
-            "abbreviation1": "APK-NR",
+            "abbreviation1": "APK-N",
             "abbreviation2": "APK",
             "committeeNumber": 4,
             "council": {
@@ -155,7 +284,40 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5121"
+            },
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
+            }
+          ],
+          "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "FK-SR",
+            "id": 15,
+            "name": "Finanzkommission SR",
+            "abbreviation1": "FK-S",
+            "abbreviation2": "FK",
+            "committeeNumber": 15,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -168,36 +330,10 @@
         },
         {
           "committee": {
-            "abbreviation": "FK-SR",
-            "id": 15,
-            "name": "Finanzkommission SR",
-            "abbreviation1": "FK-SR",
-            "abbreviation2": "FK",
-            "committeeNumber": 15,
-            "council": {
-              "abbreviation": "SR",
-              "id": 2,
-              "name": "Ständerat",
-              "type": "S"
-            },
-            "typeCode": 1
-          },
-          "date": "2022-10-12T00:00:00Z",
-          "registrations": [
-            {
-              "correspondents": [
-
-              ],
-              "sessionId": "5121"
-            }
-          ]
-        },
-        {
-          "committee": {
             "abbreviation": "FK-NR",
             "id": 2,
             "name": "Finanzkommission NR",
-            "abbreviation1": "FK-NR",
+            "abbreviation1": "FK-N",
             "abbreviation2": "FK",
             "committeeNumber": 2,
             "council": {
@@ -208,7 +344,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -224,7 +360,7 @@
             "abbreviation": "GPK-SR",
             "id": 16,
             "name": "Geschäftsprüfungskommission SR",
-            "abbreviation1": "GPK-SR",
+            "abbreviation1": "GPK-S",
             "abbreviation2": "GPK",
             "committeeNumber": 16,
             "council": {
@@ -235,7 +371,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -251,7 +387,7 @@
                     "gender": "m",
                     "id": 4309,
                     "name": "Michel Matthias",
-                    "officialDenomination": "Michel"
+                    "officialDenomination": "Michel Matthias"
                   },
                   "faction": {
                     "abbreviation": "Fraktion RL",
@@ -264,14 +400,15 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "GPK-NR",
             "id": 3,
             "name": "Geschäftsprüfungskommission NR",
-            "abbreviation1": "GPK-NR",
+            "abbreviation1": "GPK-N",
             "abbreviation2": "GPK",
             "committeeNumber": 3,
             "council": {
@@ -282,7 +419,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -298,7 +435,7 @@
             "abbreviation": "KVF-SR",
             "id": 22,
             "name": "Kommission für Verkehr und Fernmeldewesen SR",
-            "abbreviation1": "KVF-SR",
+            "abbreviation1": "KVF-S",
             "abbreviation2": "KVF",
             "committeeNumber": 22,
             "council": {
@@ -309,7 +446,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -317,14 +454,15 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "KVF-NR",
             "id": 9,
             "name": "Kommission für Verkehr und Fernmeldewesen NR",
-            "abbreviation1": "KVF-NR",
+            "abbreviation1": "KVF-N",
             "abbreviation2": "KVF",
             "committeeNumber": 9,
             "council": {
@@ -335,7 +473,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -351,7 +489,7 @@
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -362,7 +500,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -370,14 +508,15 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "RK-NR",
             "id": 12,
             "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
+            "abbreviation1": "RK-N",
             "abbreviation2": "RK",
             "committeeNumber": 12,
             "council": {
@@ -388,7 +527,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -404,7 +543,7 @@
             "abbreviation": "SGK-SR",
             "id": 19,
             "name": "Kommission für soziale Sicherheit und Gesundheit SR",
-            "abbreviation1": "SGK-SR",
+            "abbreviation1": "SGK-S",
             "abbreviation2": "SGK",
             "committeeNumber": 19,
             "council": {
@@ -415,7 +554,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -423,14 +562,15 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "SGK-NR",
             "id": 6,
             "name": "Kommission für soziale Sicherheit und Gesundheit NR",
-            "abbreviation1": "SGK-NR",
+            "abbreviation1": "SGK-N",
             "abbreviation2": "SGK",
             "committeeNumber": 6,
             "council": {
@@ -441,7 +581,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -457,7 +597,7 @@
             "abbreviation": "SiK-SR",
             "id": 21,
             "name": "Sicherheitspolitische Kommission SR",
-            "abbreviation1": "SiK-SR",
+            "abbreviation1": "SiK-S",
             "abbreviation2": "SiK",
             "committeeNumber": 21,
             "council": {
@@ -468,7 +608,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -497,14 +637,15 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "SiK-NR",
             "id": 8,
             "name": "Sicherheitspolitische Kommission NR",
-            "abbreviation1": "SiK-NR",
+            "abbreviation1": "SiK-N",
             "abbreviation2": "SiK",
             "committeeNumber": 8,
             "council": {
@@ -515,7 +656,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -531,7 +672,7 @@
             "abbreviation": "SPK-SR",
             "id": 24,
             "name": "Staatspolitische Kommission SR",
-            "abbreviation1": "SPK-SR",
+            "abbreviation1": "SPK-S",
             "abbreviation2": "SPK",
             "committeeNumber": 24,
             "council": {
@@ -542,7 +683,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -550,14 +691,15 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "SPK-NR",
             "id": 11,
             "name": "Staatspolitische Kommission NR",
-            "abbreviation1": "SPK-NR",
+            "abbreviation1": "SPK-N",
             "abbreviation2": "SPK",
             "committeeNumber": 11,
             "council": {
@@ -568,7 +710,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -584,7 +726,7 @@
             "abbreviation": "UREK-SR",
             "id": 20,
             "name": "Kommission für Umwelt, Raumplanung und Energie SR",
-            "abbreviation1": "UREK-SR",
+            "abbreviation1": "UREK-S",
             "abbreviation2": "UREK",
             "committeeNumber": 20,
             "council": {
@@ -595,7 +737,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -603,14 +745,15 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "UREK-NR",
             "id": 7,
             "name": "Kommission für Umwelt, Raumplanung und Energie NR",
-            "abbreviation1": "UREK-NR",
+            "abbreviation1": "UREK-N",
             "abbreviation2": "UREK",
             "committeeNumber": 7,
             "council": {
@@ -621,7 +764,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -637,7 +780,7 @@
             "abbreviation": "WAK-SR",
             "id": 23,
             "name": "Kommission für Wirtschaft und Abgaben SR",
-            "abbreviation1": "WAK-SR",
+            "abbreviation1": "WAK-S",
             "abbreviation2": "WAK",
             "committeeNumber": 23,
             "council": {
@@ -648,22 +791,29 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
 
               ],
               "sessionId": "5121"
+            },
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "WAK-NR",
             "id": 10,
             "name": "Kommission für Wirtschaft und Abgaben NR",
-            "abbreviation1": "WAK-NR",
+            "abbreviation1": "WAK-N",
             "abbreviation2": "WAK",
             "committeeNumber": 10,
             "council": {
@@ -674,7 +824,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -690,7 +840,7 @@
             "abbreviation": "WBK-SR",
             "id": 18,
             "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
-            "abbreviation1": "WBK-SR",
+            "abbreviation1": "WBK-S",
             "abbreviation2": "WBK",
             "committeeNumber": 18,
             "council": {
@@ -701,7 +851,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -730,14 +880,15 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "WBK-NR",
             "id": 5,
             "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
-            "abbreviation1": "WBK-NR",
+            "abbreviation1": "WBK-N",
             "abbreviation2": "WBK",
             "committeeNumber": 5,
             "council": {
@@ -748,7 +899,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -758,6 +909,52 @@
             }
           ],
           "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-09-21T16:15:02Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2641,
+                    "gender": "m",
+                    "id": 1162,
+                    "name": "Kuprecht Alex",
+                    "officialDenomination": "Kuprecht"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion V",
+                    "code": "V",
+                    "id": 4,
+                    "name": "Fraktion der Schweizerischen Volkspartei"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
         }
       ],
       "references": [
@@ -782,7 +979,7 @@
           }
         },
         {
-          "date": "/Date(1680732000000+0200)/",
+          "date": "/Date(1677798000000+0100)/",
           "publication": {
             "isOldFormat": false,
             "page": "870",
@@ -823,8 +1020,18 @@
         },
         {
           "date": "/Date(1686520800000+0200)/",
-          "id": 4,
-          "name": "Von beiden Räten behandelt"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1688940000000+0200)/",
+          "id": 227,
+          "name": "In beiden Kommissionen"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -846,13 +1053,6 @@
       "name": "Ständerat",
       "type": "S",
       "priority": 1
-    },
-    {
-      "abbreviation": "NR",
-      "id": 1,
-      "name": "Nationalrat",
-      "type": "N",
-      "priority": 2
     }
   ],
   "relatedAffairs": [
@@ -863,8 +1063,8 @@
   ],
   "shortId": "23.006",
   "state": {
-    "id": 4,
-    "name": "Von beiden Räten behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },

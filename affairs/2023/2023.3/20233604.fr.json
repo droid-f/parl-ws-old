@@ -1,6 +1,6 @@
 {
   "id": 20233604,
-  "updated": "2023-06-09T09:25:20Z",
+  "updated": "2024-12-06T08:51:16Z",
   "additionalIndexing": "2836;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,167 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-09-11T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-03-06T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-09-06T00:00:00Z",
+        "text": "Rejet"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-16T08:59:54Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3012,
+                    "gender": "m",
+                    "id": 4097,
+                    "name": "Müller Leo",
+                    "officialDenomination": "Müller Leo"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CN",
+            "id": 10,
+            "name": "Commission de l'économie et des redevances CN",
+            "abbreviation1": "CER-N",
+            "abbreviation2": "CER",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-05T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CE",
+            "id": 23,
+            "name": "Commission de l'économie et des redevances CE",
+            "abbreviation1": "CER-E",
+            "abbreviation2": "CER",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-05T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Département des finances",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1685570400000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1693951200000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1705359600000+0100)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1709679600000+0100)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
         }
       ],
       "texts": [
@@ -152,10 +290,10 @@
   ],
   "shortId": "23.3604",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 209,
+    "name": "Transmis au Conseil fédéral",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -163,7 +301,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Les preneurs de prévoyance détiennent des avoirs auprès de fondations de libre passage ou de fondations du pilier 3a. Selon la statistique des assurances sociales suisses 2022, la somme des avoirs de prévoyance s'élève à environ 35 milliards de francs auprès des fondations de libre passage et d'environ 91 milliards de francs (dont 32 milliards sous forme de titres) auprès des fondations du pilier 3a. Les fondations de prévoyance placent ces avoirs auprès des banques sous leur propre nom pour le compte des preneurs de prévoyance. Ces placements s'effectuent sous forme de capital (solution de compte) ou de titres en dépôt (solution de titres).</p><p>En cas de faillite de la banque où la fondation de prévoyance a effectué des placements, les titres en dépôt sont distraits au profit de cette dernière (art. 37d LB). En revanche, les fonds placés sous forme de capital sont inclus dans la masse en faillite de la banque. Toutefois, le montant maximal de la créance privilégiée prévue par le droit des faillites est limité à 100 000 francs (créance de deuxième classe) par preneur de prévoyance et par fondation (art. 37a, al. 5, LB en relation avec art. 42d, al. 3, ordonnance sur les banques). Tous les fonds privilégiés par le droit des faillites de la fondation doivent être couverts à hauteur de 125 % par des actifs situés en Suisse (art. 37a, al. 6, LB). Grâce à cette réglementation, les fonds de prévoyance privilégiés bénéficient d'une garantie solide. Cependant, le remboursement de ces fonds dure longtemps, car il s'effectue au terme de la longue procédure de collocation. Ainsi, la fondation de prévoyance et par conséquent le preneur de prévoyance doivent attendre, dans le pire des cas, plusieurs années avant que les fonds soient remboursés par la banque en faillite. Cette situation entraîne également des problèmes de liquidités pour la fondation de prévoyance (assainissement ou liquidation), raison pour laquelle les preneurs de prévoyance qui ont effectué des placements sous forme d'épargne-titres sont également touchés. En ce qui concerne les fonds non priviliégiés (créances de troisième classe), la fondation et donc les preneurs de prévoyance doivent attendre dans le pire des cas une dizaine d'année. Le montant maximal de la garantie, qui est fixé à 100 000 francs, est objectivement trop bas. Il s'agit de fonds de prévoyance liés qui doivent être préservés, étant donné que les preneurs en auront besoin durant leur retraite. Pour des raisons fiscales, le fractionnement des placements, par exemple, n'est possible que de manière limitée et ne l'est pas du tout a posterori.</p><p>Si une caisse de pension fait faillite à la suite de la défaillance d'une banque, le Fonds de garantie LPP intervient. Cependant, ce dernier n'intervient pas pour les avoirs de libre passage et du pilier 3a.</p><p>Dans le rapport qu'il a présenté le 9 décembre 2019 en réponse au postulat 17.3634, le Conseil fédéral a proposé d'abroger la limite du privilège de créance en cas de faillite, qui est actuellement de 100 000 francs. Malheureusement, cette demande a été classée sans qu'aucune mesure n'ait été prise.</p>"
+      "value": "<p>Les preneurs de prévoyance détiennent des avoirs auprès de fondations de libre passage ou de fondations du pilier 3a. Selon la statistique des assurances sociales suisses 2022, la somme des avoirs de prévoyance s'élève à environ 35 milliards de francs auprès des fondations de libre passage et d'environ 91 milliards de francs (dont 32 milliards sous forme de titres) auprès des fondations du pilier 3a. Les fondations de prévoyance placent ces avoirs auprès des banques sous leur propre nom pour le compte des preneurs de prévoyance. Ces placements s'effectuent sous forme de capital (solution de compte) ou de titres en dépôt (solution de titres).</p><p>En cas de faillite de la banque où la fondation de prévoyance a effectué des placements, les titres en dépôt sont distraits au profit de cette dernière (art. 37d LB). En revanche, les fonds placés sous forme de capital sont inclus dans la masse en faillite de la banque. Toutefois, le montant maximal de la créance privilégiée prévue par le droit des faillites est limité à 100 000 francs (créance de deuxième classe) par preneur de prévoyance et par fondation (art. 37a, al. 5, LB en relation avec l'art. 42d, al. 3, ordonnance sur les banques). Tous les fonds privilégiés par le droit des faillites de la fondation doivent être couverts à hauteur de 125&nbsp;% par des actifs situés en Suisse (art. 37a, al. 6, LB). Grâce à cette réglementation, les fonds de prévoyance privilégiés bénéficient d'une garantie solide. Cependant, le remboursement de ces fonds dure longtemps, car il s'effectue au terme de la longue procédure de collocation. Ainsi, la fondation de prévoyance et par conséquent le preneur de prévoyance doivent attendre, dans le pire des cas, plusieurs années avant que les fonds soient remboursés par la banque en faillite. Cette situation entraîne également des problèmes de liquidités pour la fondation de prévoyance (assainissement ou liquidation), raison pour laquelle les preneurs de prévoyance qui ont effectué des placements sous forme d'épargne-titres sont également touchés. En ce qui concerne les fonds non privilégiés (créances de troisième classe), la fondation et donc les preneurs de prévoyance doivent attendre dans le pire des cas une dizaine d'années. Le montant maximal de la garantie, qui est fixé à 100 000 francs, est objectivement trop bas. Il s'agit de fonds de prévoyance liés qui doivent être préservés, étant donné que les preneurs en auront besoin durant leur retraite. Pour des raisons fiscales, le fractionnement des placements, par exemple, n'est possible que de manière limitée et ne l'est pas du tout a posterori.</p><p>Si une caisse de pension fait faillite à la suite de la défaillance d'une banque, le Fonds de garantie LPP intervient. Cependant, ce dernier n'intervient pas pour les avoirs de libre passage et du pilier 3a.</p><p>Dans le rapport qu'il a présenté le 9 décembre 2019 en réponse au postulat 17.3634, le Conseil fédéral a proposé d'abroger la limite du privilège de créance en cas de faillite, qui est actuellement de 100 000 francs. Malheureusement, cette demande a été classée sans qu'aucune mesure n'ait été prise.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Dans le cadre de l’examen des événements qui ont conduit à l’adoption, les 16 et 19&nbsp;mars&nbsp;2023, du train de mesures spécial du Conseil fédéral et à l’acquisition de Credit Suisse par UBS, le Département fédéral des finances avec l’aide de spécialistes externes analyse actuellement les circonstances entourant cette situation et évalue l’ensemble de la réglementation <i>too big to fail</i>. Les conclusions de ces analyses seront présentées au Parlement dans un délai d’un an, dans le rapport du Conseil fédéral sur les banques d’importance systémique visé à l’art.&nbsp;52 de la loi sur les banques.</p><p>&nbsp;</p><p>Malgré la révision de la garantie des dépôts que le Parlement vient d’adopter, ce rapport traitera également la question de savoir quelles mesures il y a lieu de prendre dans ce domaine ainsi que dans celui du privilège de créance. C’est pourquoi, à ce stade, le Conseil fédéral ne peut pas arrêter de mesures concrètes dans ces domaines.</p>"
     },
     {
       "type": {

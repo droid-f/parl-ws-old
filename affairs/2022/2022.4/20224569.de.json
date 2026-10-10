@@ -1,6 +1,6 @@
 {
   "id": 20224569,
-  "updated": "2022-12-22T10:45:15Z",
+  "updated": "2025-04-24T19:26:24Z",
   "additionalIndexing": "55;52;2846",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,182 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-03-12T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-06-11T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-15T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-05-03T14:39:29Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3153,
+                    "gender": "f",
+                    "id": 4261,
+                    "name": "Friedli Esther",
+                    "officialDenomination": "Friedli Esther"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-19T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "WBF",
+          "id": 8,
+          "name": "Departement für Wirtschaft, Bildung und Forschung",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1671145200000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1676415600000+0100)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1710198000000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1711148400000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1714687200000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1714946400000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1718056800000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -104,10 +257,10 @@
   ],
   "shortId": "22.4569",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -115,22 +268,29 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Der vorgeschlagene Katalog an anrechenbaren BFF Elementen für die geforderten 3,5 Prozent BFF auf Ackerfläche beinhaltet verschiedene Ackerbauelemente. Jedoch fehlen darin die zwei wichtigen Elemente der extensiven Wiese Q2 und der Hecke Q2. In der Landwirtschaft wurden, vielfach unterstützt durch kantonale Biodiversitätsprogramme, viele extensive Wiesen und Hecken mit Q2 Standard geschaffen. Dies Flächen erbringen gerade auch im Ackerbaugebiet eine hohe Biodiversitätsleistung. </p><p>Die aktuell geforderten 3,5 Prozent BFF auf Ackerflächen mit dem vorgeschlagenen Flächenkatalog, führen zu einer Reduktion der BFF Flächen auf Grünland, da die Betriebsleiter und Betriebsleiterinnen diese optimieren um keine Produktionsfläche zu verlieren und den gesamtbetrieblichen Flächenanteil an BFF nicht zwingend erhöhen werden. Diese Entwicklung ist nicht zielführend, da auch Flächen mit hoher Qualität, welche direkt neben oder auf ehemaligen Ackerflächen liegen, wieder gepflügt und zu BFF auf Ackerflächen umgewandelt werden. </p><p>Speziell im Biolandbau ist der Respekt vor der weiterführenden Nutzung von BFF Ackerelementen (Buntbrachen usw.), nach deren zeitlichen Ablauf, sehr gross. Denn trotz guter Pflege breiten sich darin Wurzelunkräuter aus, welche aufgrund der fehlenden Möglichkeit eines Herbizideinsatzes, kaum noch bekämpft werden können. Extensive Wiesen Q2 bilden dazu eine sinn- und wertvolle Alternative.</p>"
+      "value": "<p>Der vorgeschlagene Katalog an anrechenbaren BFF Elementen für die geforderten 3,5 Prozent BFF auf Ackerfläche beinhaltet verschiedene Ackerbauelemente. Jedoch fehlen darin die zwei wichtigen Elemente der extensiven Wiese QII und der Hecke QII. In der Landwirtschaft wurden, vielfach unterstützt durch kantonale Biodiversitätsprogramme, viele extensive Wiesen und Hecken mit QII Standard geschaffen. Dies Flächen erbringen gerade auch im Ackerbaugebiet eine hohe Biodiversitätsleistung.</p><p>Die aktuell geforderten 3,5 Prozent BFF auf Ackerflächen mit dem vorgeschlagenen Flächenkatalog, führen zu einer Reduktion der BFF Flächen auf Grünland, da die Betriebsleiter und Betriebsleiterinnen diese optimieren um keine Produktionsfläche zu verlieren und den gesamtbetrieblichen Flächenanteil an BFF nicht zwingend erhöhen werden. Diese Entwicklung ist nicht zielführend, da auch Flächen mit hoher Qualität, welche direkt neben oder auf ehemaligen Ackerflächen liegen, wieder gepflügt und zu BFF auf Ackerflächen umgewandelt werden.</p><p>Speziell im Biolandbau ist der Respekt vor der weiterführenden Nutzung von BFF Ackerelementen (Buntbrachen usw.), nach deren zeitlichen Ablauf, sehr gross. Denn trotz guter Pflege breiten sich darin Wurzelunkräuter aus, welche aufgrund der fehlenden Möglichkeit eines Herbizideinsatzes, kaum noch bekämpft werden können. Extensive Wiesen QII bilden dazu eine sinn- und wertvolle Alternative.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat hat am 13. April 2022 das erste \"Verordnungspaket für sauberes Trinkwasser und eine nachhaltigere Landwirtschaft\" verabschiedet. Damit wurde ein erster Teil der parlamentarischen Initiative (Pa. Iv.) 19.475 \"Das Risiko beim Einsatz von Pestiziden reduzieren\" umgesetzt. Im Verordnungspaket enthalten ist die neue Anforderung an den ökologischen Leistungsnachweis (ÖLN) eines Anteils von 3,5 Prozent an Biodiversitätsförderflächen (BFF) auf der Ackerfläche. Diese Anforderung tritt auf den 1. Januar 2024 in Kraft.</p><p>An die 3,5 Prozent BFF angerechnet werden können alle BFF-Typen, die auf der Ackerfläche angelegt werden. Dies ermöglicht eine administrativ einfache und wirkungsvolle Umsetzung. Aufgrund der Ergebnisse der Vernehmlassung zum \"Verordnungspaket für sauberes Trinkwasser und eine nachhaltigere Landwirtschaft\" hat der Bundesrat weiter die Anrechnung der regionsspezifischen BFF auf Ackerfläche aufgenommen. Auch diese BFF werden auf der Ackerfläche angelegt und können in den Agrarinformationssystemen einfach gehandhabt werden. Zusätzlich können die produzierenden BFF \"Getreide in weiter Reihen\" zu 50 Prozent angerechnet werden.</p><p>Die mit der Motion geforderte zusätzliche Berücksichtigung von Hecken und extensiven Wiesen würde einerseits zu zusätzlichem administrativem Aufwand führen. Andererseits hätte sie unweigerlich weniger neue BFF auf Ackerflächen zur Folge. Dies würde die Zielerreichung der Absenkpfade schmälern, weil insgesamt auf weniger Fläche im Ackerland auf den Einsatz von Pflanzenschutzmittel und Düngern verzichtet werden müsste und weniger Nützlinge gefördert würden. Der Bundesrat teilt zudem die Befürchtung nicht, bestehende BFF mit Qualität würden umgebrochen, um an deren Stelle Acker-BFF anzulegen: Die ausgerichteten Direktzahlungen sind auf solchen Flächen in der Summe derart hoch, dass der Umbruch wirtschaftliche Verluste zur Folge hätte.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Der Bundesrat wird beauftragt, die Verordnung und gesetzlichen Vorschriften zu den 3,5 Prozent BFF auf offenen Ackerflächen so anzupassen, dass die Q2 Wiesen und Hecken, welche auf und direkt angrenzend an die Ackerflächen stehen, zusätzlich zu den vorgeschlagenen BFF Ackerbauelementen angerechnet werden können. Diese Wiesen und Hecken mit Q2 Qualität bieten fast über die gesamte Vegetationszeit ein Blüten und Nahrungsangebot für Insekten und dienen als Rückzugsort. Zudem können dank der möglichen Schnittnutzung Problemunkräuter und deren Verbreitung verhindert werden.</p>"
+      "value": "<p>Der Bundesrat wird beauftragt, die Verordnung und gesetzlichen Vorschriften zu den 3,5 Prozent BFF auf offenen Ackerflächen so anzupassen, dass die QII-Wiesen und -Hecken, welche auf und direkt angrenzend an die Ackerflächen stehen, zusätzlich zu den vorgeschlagenen BFF Ackerbauelementen angerechnet werden können. Diese Wiesen und Hecken mit QII-Qualität bieten fast über die gesamte Vegetationszeit ein Blüten und Nahrungsangebot für Insekten und dienen als Rückzugsort. Zudem können dank der möglichen Schnittnutzung Problemunkräuter und deren Verbreitung verhindert werden.</p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Anrechnung von Q2 Wiesen und Hecken an die zusätzlichen 3,5 Prozent BFF auf offenen Ackerflächen"
+      "value": "Anrechnung von QII-Wiesen und -Hecken an die zusätzlichen 3,5 Prozent BFF auf offenen Ackerflächen"
     }
   ],
-  "title": "Anrechnung von Q2 Wiesen und Hecken an die zusätzlichen 3,5 Prozent BFF auf offenen Ackerflächen"
+  "title": "Anrechnung von QII-Wiesen und -Hecken an die zusätzlichen 3,5 Prozent BFF auf offenen Ackerflächen"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20224105,
-  "updated": "2022-10-06T15:12:18Z",
+  "updated": "2025-04-24T19:16:44Z",
   "additionalIndexing": "44;32;2811;15;10",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,172 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-25T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-03-13T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-16T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-23T16:40:43Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3199,
+                    "gender": "m",
+                    "id": 4244,
+                    "name": "Zopfi Mathias",
+                    "officialDenomination": "Zopfi"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CIP-CE",
+            "id": 24,
+            "name": "Commission des institutions politiques CE",
+            "abbreviation1": "CIP-E",
+            "abbreviation2": "CIP",
+            "committeeNumber": 24,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CIP-CN",
+            "id": 11,
+            "name": "Commission des institutions politiques CN",
+            "abbreviation1": "CIP-N",
+            "abbreviation2": "CIP",
+            "committeeNumber": 11,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1664402400000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1668553200000+0100)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1695592800000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1705964400000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1707433200000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1710284400000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -292,10 +435,10 @@
   ],
   "shortId": "22.4105",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -303,14 +446,21 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Les personnes provenant d'Etats tiers ne sont admises sur le marché du travail suisse que dans certaines limites et uniquement si aucun ressortissant de l'UE/AELE ne peut être engagé à leur place. Les dispositions du droit des étrangers sont telles que les ressortissants d'Etats tiers qui obtiennent un diplôme du tertiaire A ou B dans notre pays n'ont souvent pas la possibilité de se faire engager à la fin de leur formation. Autrement dit, ces spécialistes formés en Suisse sont contraints de quitter notre pays pour chercher un premier emploi et sont perdus pour notre marché du travail à moyen et long terme. Cette situation est particulièrement choquante dans les secteurs confrontés à une pénurie avérée de personnel qualifié. </p><p>A l'heure actuelle, la Suisse ne prévoit d'exception que pour les ressortissants d'Etats tiers titulaires d'un diplôme d'une haute école suisse (tertiaire A), qui peuvent bénéficier d'une admission facilitée si leur activité lucrative revêt un intérêt scientifique ou économique prépondérant, indépendamment de la priorité normalement accordée aux travailleurs présents en Suisse (art. 21, al. 3, LEI). Cette exception ne trouve cependant pas d'application dans les PME, même lorsqu'il est établi qu'elles manquent de personnel qualifié et ne parviennent pas à engager de personnes disposant d'une formation professionnelle supérieure solide, obtenue dans une école supérieure ou attestée par un examen professionnel fédéral ou fédéral supérieur (tertiaire B). Cette différence de traitement entre titulaires de diplômes du tertiaire A ou du tertiaire B est non seulement choquante, mais aussi contraire à l'art. 61a de la Constitution, lequel prévoit que les filières de formation générale et les voies de formation professionnelle trouvent une reconnaissance sociale équivalente. Elle est également en porte-à-faux avec l'objectif de renforcer la formation professionnelle supérieure qui sous-tend le système de formation suisse. Rappelons, s'il en est besoin, que les spécialistes disposant de connaissances approfondies dans leur domaine sont d'une importance économique capitale pour le marché du travail, en particulier pour les PME. </p><p>Il faut donc créer de nouvelles exceptions au système des contingents en prévoyant également des dérogations pour les titulaires d'un diplôme de la formation professionnelle supérieure (tertiaire B).</p>"
+      "value": "<p>Les personnes provenant d'États tiers ne sont admises sur le marché du travail suisse que dans certaines limites et uniquement si aucun ressortissant de l'UE/AELE ne peut être engagé à leur place. Les dispositions du droit des étrangers sont telles que les ressortissants d'États tiers qui obtiennent un diplôme du tertiaire A ou B dans notre pays n'ont souvent pas la possibilité de se faire engager à la fin de leur formation. Autrement dit, ces spécialistes formés en Suisse sont contraints de quitter notre pays pour chercher un premier emploi et sont perdus pour notre marché du travail à moyen et long terme. Cette situation est particulièrement choquante dans les secteurs confrontés à une pénurie avérée de personnel qualifié. </p><p>À l'heure actuelle, la Suisse ne prévoit d'exception que pour les ressortissants d'États tiers titulaires d'un diplôme d'une haute école suisse (tertiaire A), qui peuvent bénéficier d'une admission facilitée si leur activité lucrative revêt un intérêt scientifique ou économique prépondérant, indépendamment de la priorité normalement accordée aux travailleurs présents en Suisse (art. 21, al. 3, LEI). Cette exception ne trouve cependant pas d'application dans les PME, même lorsqu'il est établi qu'elles manquent de personnel qualifié et ne parviennent pas à engager de personnes disposant d'une formation professionnelle supérieure solide, obtenue dans une école supérieure ou attestée par un examen professionnel fédéral ou fédéral supérieur (tertiaire B). Cette différence de traitement entre titulaires de diplômes du tertiaire A ou du tertiaire B est non seulement choquante, mais aussi contraire à l'art. 61a de la Constitution, lequel prévoit que les filières de formation générale et les voies de formation professionnelle trouvent une reconnaissance sociale équivalente. Elle est également en porte-à-faux avec l'objectif de renforcer la formation professionnelle supérieure qui sous-tend le système de formation suisse. Rappelons, s'il en est besoin, que les spécialistes disposant de connaissances approfondies dans leur domaine sont d'une importance économique capitale pour le marché du travail, en particulier pour les PME. </p><p>Il faut donc créer de nouvelles exceptions au système des contingents en prévoyant également des dérogations pour les titulaires d'un diplôme de la formation professionnelle supérieure (tertiaire B).</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>L'admission de travailleurs étrangers est régie par le système d'admission binaire prévu par le législateur. La main-d'oeuvre qualifiée en provenance d'États tiers est uniquement admise sur le marché du travail de manière limitée et en complément des ressortissants des États de l'UE/AELE.</p><p>Exempter les diplômés du niveau tertiaire B des nombres maximums des autorisations de séjour délivrées aux étrangers qui entrent en Suisse, comme le demandait déjà la motion Dobler 17.3067, serait contraire à l'art. 121a, al. 2, Cst., qui dispose que le nombre de ces autorisations doit être limité par des plafonds et des contingents annuels. Par conséquent, introduire une exception aux nombres maximums fixés annuellement en faveur des diplômés du niveau tertiaire B ne serait pas conforme au droit et réduirait encore les possibilités de pilotage du Conseil fédéral. Depuis 2019, les contingents destinés aux ressortissants d'États tiers ne sont plus entièrement utilisés. Lorsqu'un diplômé du niveau tertiaire B ne parvient pas à obtenir un emploi en Suisse, ce n'est pas tant à cause du contingentement, que du fait qu'il faut d'abord mettre à profit le potentiel de main-d'oeuvre en Suisse et dans les pays de l'UE/AELE. Cest aussi de fait la conception des cantons. À cela s'ajoutent des critères d'admission qualitatifs au sens de la loi fédérale sur les étrangers et l'intégration, qui ne sont souvent pas remplis (absence d'expérience professionnelle, profil ne répondant pas aux intérêts économiques).</p><p>Le 4 mars 2022, parallèlement à l'adoption du rapport en réponse au postulat Nantermod 19.3651 (\" Pour une gestion migratoire répondant aux besoins de la Suisse \"), le Conseil fédéral a pris une série de mesures pour faciliter l'accès des travailleurs en provenance d'États tiers, notamment dans les domaines qui souffrent d'une pénurie avérée de main-d'oeuvre qualifiée. Ces mesures doivent, entre autres, permettre de renoncer, dans certains cas, au contrôle de la priorité des travailleurs indigènes dans les professions touchées par ce manque de spécialistes. Par ailleurs, les personnes sans formation académique qui exercent des activités spécialisées pour lesquelles existe une pénurie avérée de main-d'oeuvre qualifiée pourront, elles aussi, à l'avenir obtenir un permis de séjour si cette démarche sert les intérêts économiques du pays. Le DFJP mettra en oeuvre ces facilités - dont peuvent également bénéficier les diplômés du niveau tertiaire B - d'ici au début de 2023, directement par voie de directives et en collaboration avec le DEFR et les cantons.</p><p>Les décisions prises par le Conseil fédéral le 4 mars 2022 prennent largement en compte les exigences formulées par l'auteur de la motion. Des modifications législatives supplémentaires ne s'imposent donc pas.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Le Conseil fédéral est chargé de créer les conditions nécessaires pour que les ressortissants d'Etats tiers qui ont suivi une formation professionnelle supérieure (tertiaire B) dans des secteurs connaissant une pénurie avérée de personnel qualifié puissent rester en Suisse facilement et sans démarches bureaucratiques inutiles pour y travailler, à l'instar de ceux qui ont obtenu un titre d'une haute école suisse (tertiaire A). L'objectif sera d'éviter que ces jeunes spécialistes ne doivent quitter notre pays après y avoir été formés à grands frais parce que l'épuisement des contingents les empêche de se faire engager directement après l'obtention de leur diplôme.</p>"
+      "value": "<p>Le Conseil fédéral est chargé de créer les conditions nécessaires pour que les ressortissants d'États tiers qui ont suivi une formation professionnelle supérieure (tertiaire B) dans des secteurs connaissant une pénurie avérée de personnel qualifié puissent rester en Suisse facilement et sans démarches bureaucratiques inutiles pour y travailler, à l'instar de ceux qui ont obtenu un titre d'une haute école suisse (tertiaire A). L'objectif sera d'éviter que ces jeunes spécialistes ne doivent quitter notre pays après y avoir été formés à grands frais parce que l'épuisement des contingents les empêche de se faire engager directement après l'obtention de leur diplôme.</p>"
     },
     {
       "type": {

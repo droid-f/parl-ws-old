@@ -1,6 +1,6 @@
 {
   "id": 20223477,
-  "updated": "2022-05-12T14:23:25Z",
+  "updated": "2025-04-24T19:32:31Z",
   "additionalIndexing": "52;04;55",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,182 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Amm."
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "Sarà ripreso",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-04-17T00:00:00Z",
+            "text": "Adozione parziale : Punto 1 Ritirato; Punti 2 e 3 adottati.",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-12-03T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-17T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CAPTE-CN",
+            "id": 7,
+            "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CN",
+            "abbreviation1": "CAPTE-N",
+            "abbreviation2": "CAPTE",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAPTE-CS",
+            "id": 20,
+            "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CS",
+            "abbreviation1": "CAPTE-S",
+            "abbreviation2": "CAPTE",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-10-11T16:48:29Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3136,
+                    "gender": "m",
+                    "id": 4237,
+                    "name": "Würth Benedikt",
+                    "officialDenomination": "Würth"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1652220000000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1660687200000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1713304800000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1728597600000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1731625200000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1733180400000+0100)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
         }
       ],
       "texts": [
@@ -228,16 +381,47 @@
         "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3121,
+        "gender": "m",
+        "id": 4220,
+        "name": "Roduit Benjamin",
+        "officialDenomination": "Roduit"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "22.3477",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 209,
+    "name": "Trasmesso al Consiglio federale",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Lo scorso 26 aprile 2022, gli allevatori del Canton Ticino, attraverso un'azione che ha suscitato grande clamore, hanno riportato l'attenzione sulla tematica del lupo in Svizzera (link all'articolo: <a href=\"https://www.laregione.ch/cantone/ticino/1579685/allevatori-scaricano-le-pecore-uccise-dal-lupo-in-piazza-governo\">https://www.laregione.ch/cantone/ticino/1579685/allevatori-scaricano-le-pecore-uccise-dal-lupo-in-piazza-governo</a>.</p><p>La popolazione di lupi presenti in Svizzera è aumentata esponenzialmente negli ultimi 10 anni da un effettivo di una decina di esemplari agli oltre 150 censiti a fine 2021. Nel medesimo periodo i branchi sono passati da 1 ad almeno 16 presenti soprattutto nei Cantoni dell'arco alpino. Una delle conseguenze è che i danni causati dal lupo al bestiame domestico (ovini e caprini ma anche bovini) si fanno sempre più ingenti per gli agricoltori di montagna, con gravi conseguenze sia per gli stessi contadini, sia per lo sviluppo socio-economico delle zone periferiche. L'esasperazione sta tracimando e con essa la frustrazione di un settore che si sente abbandonato dalle istituzioni, tanto che sempre più aziende hanno deciso o stanno decidendo di non proseguire la propria attività e di chiudere, condannando così l'agricoltura di montagna - e dunque anche una parte della popolazione residente nelle valli - ad una lenta ma inesorabile sparizione, con una grave perdita di territorio gestito e conseguente imboschimento, a scapito della tanto declamata biodiversità che gli ambienti che vorrebbero una protezione totale del lupo continuano ad invocare. Prima che sia troppo tardi occorre quindi avere il coraggio di affrontare questo tema con realismo e pragmatismo adottando dei correttivi a livello dell'Ordinanza federale nel senso proposto dalla presente mozione.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Riguardo il punto 1: il Consiglio federale ha adeguato l'ordinanza sulla caccia per l'estate alpestre 2021. Al momento la Commissione dell'ambiente, della pianificazione del territorio e dell'energia del Consiglio degli Stati sta lavorando intensamente a una revisione della legge sulla caccia (Iv. Pa. 21.502, iniziativa parlamentare \"L'aumento delle popolazioni di lupi diventa incontrollabile e senza la possibilità di regolamentarlo minaccia l'agricoltura\"). Nell'attesa dell'eventuale entrata in vigore della revisione della legge sulla caccia, il Consiglio federale sta attualmente valutando se rendere ancora più flessibili le disposizioni dell'ordinanza per la stagione alpestre 2023, ad esempio semplificando l'abbattimento di singoli esemplari responsabili di danni. Tuttavia, le possibilità nel quadro della legge attualmente in vigore sono state ampiamente esaurite.</p><p>Riguardo il punto 2: l'ulteriore sviluppo del metodo di analisi del laboratorio dell'Università di Losanna e l'adeguamento del contratto tra l'Ufficio federale dell'ambiente (UFAM) e questo laboratorio di genetica consentiranno a partire dalla stagione 2022 di raddoppiare le analisi dei campioni dimezzando il tempo impiegato finora.</p><p>Riguardo il punto 3: nel 2021 è stato aumentato il credito per le misure di protezione delle greggi (da 2,9 a 3,7 milioni di franchi), che tuttavia non è stato esaurito. Per la stagione alpestre 2022 il credito è stato triplicato (per il 2022 sono disponibili in totale 9,4 milioni di franchi) per un finanziamento congiunto delle misure immediate aggiuntive. L'Ufficio federale dell'ambiente, competente in materia, ha elaborato queste misure immediate tempestivamente e in accordo con i Cantoni e le associazioni coinvolte. Già ad oggi le misure di protezione delle greggi non sono limitate al periodo estivo.</p>  Il Consiglio federale propone di respingere la mozione."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>ll Consiglio federale è incaricato di adottare delle modifiche all'ordinanza sulla caccia in vigore che:</p><p>1. portino ad un allentamento e alla flessibilizzazione dei criteri di abbattimento del lupo, concedendo maggiore margine di manovra ai Cantoni;</p><p>2. accelerino le procedure di analisi dei campioni genetici (principio di priorità per i casi di predazione) e velocizzino l'ottenimento dell'autorizzazione all'abbattimento di esemplari di lupo problematici, diminuendo drasticamente la burocrazia;</p><p>3. rafforzino e semplifichino le modalità di sostegno e gli aiuti finanziari per le misure di protezione delle greggi e per il risarcimento dei danni agli allevatori colpiti, anche al di fuori del periodo di alpeggio.</p>"
+    },
     {
       "type": {
         "id": 1,

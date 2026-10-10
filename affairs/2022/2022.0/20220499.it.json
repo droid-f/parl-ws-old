@@ -1,7 +1,7 @@
 {
   "id": 20220499,
-  "updated": "2022-12-19T15:17:57Z",
-  "additionalIndexing": "2836;28;15;08",
+  "updated": "2025-04-08T23:38:04Z",
+  "additionalIndexing": "2836;28;15",
   "affairType": {
     "abbreviation": "Iv. pa.",
     "id": 4,
@@ -40,7 +40,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-04-15T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,7 +64,90 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-27T17:31:35Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3117,
+                    "gender": "f",
+                    "id": 4216,
+                    "name": "Gutjahr Diana",
+                    "officialDenomination": "Gutjahr"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSS-CN",
+            "id": 6,
+            "name": "Commissione della sicurezza sociale e della sanità",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-16T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CSS-CS",
+            "id": 19,
+            "name": "Commissione della sicurezza sociale e della sanità CS",
+            "abbreviation1": "CSSS-S",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-16T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
@@ -66,8 +163,23 @@
       "states": [
         {
           "date": "/Date(1671145200000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1701298800000+0100)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1708988400000+0100)/",
+          "id": 205,
+          "name": "Pianificato nel Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1713132000000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -267,19 +379,33 @@
   ],
   "shortId": "22.499",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Dall'inizio della guerra in Ucraina a febbraio, la popolazione deve far fronte a costi in crescita vorticosa - dal prezzo della benzina alle bollette del gas e dell'elettricità - per non parlare dei premi dell'assicurazione malattia, che l'anno prossimo subiranno un aumento in media del 6,6 per cento. La Svizzera non è stata risparmiata dall'ondata di rincari che sta incidendo seriamente sui portafogli delle famiglie e sul loro potere d'acquisto e al momento non si profila un'inversione di tendenza.</p><p>Da diversi anni le organizzazioni che si occupano di politiche familiari chiedono di innalzare l'importo minimo degli assegni familiari. I figli possono essere fonte di felicità, ma comportano immancabilmente spese considerevoli. Dal 2009 il sistema degli assegni familiari è disciplinato da una legge federale che fissa la prestazione minima a 200 franchi per ogni figlio fino a 16 anni e a 250 franchi per i giovani in formazione fino a 25 anni. In questi ultimi 13 anni l'importo non è mai stato adeguato, anche se i costi diretti per i figli sono nettamente aumentati.</p><p>La presente iniziativa parlamentare mira a rafforzare il potere d'acquisto delle famiglie della classe media e a combattere la povertà delle famiglie a basso reddito. Un supplemento generale di 100 franchi risulta ragionevole alla luce del rapido aumento del costo della vita e amplierebbe il margine di manovra finanziario delle famiglie. Non sembra sproporzionato, visto che 19 Cantoni pagano importi superiori al minimo federale. I cittadini del Canton Vallese hanno appena deciso di aumentare l'assegno da 275 a 305 franchi mensili, un'ulteriore dimostrazione che gli importi fissati nel 2009 sono inadeguati.</p><p>Per quanto riguarda il supplemento per i bassi redditi previsto dal nuovo capoverso 3, esso consentirebbe ai figli provenienti da contesti svantaggiati di accedere a una formazione migliore, essenziale per affrancarsi dalla povertà. Così formulata, l'iniziativa permetterebbe di alleviare le famiglie a basso reddito e quindi di raggiungere l'obiettivo.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Conformemente all'articolo 160 capoverso 1 Cost. e all'articolo 107 LParl presento l'iniziativa parlamentare seguente, volta a modificare l'articolo 5 della legge sugli assegni famigliari:</p><p>Capoverso 1: L'assegno per i figli ammonta ad almeno 300 franchi mensili.</p><p>Capoverso 2: L'assegno di formazione ammonta ad almeno 350 franchi mensili.</p><p>Capoverso 3 (nuovo): Le famiglie a basso reddito hanno diritto a un supplemento per l'assegno familiare di 50 franchi mensili per ogni figlio. </p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Rafforzare il potere d'acquisto delle famiglie"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Rafforzare il potere d'acquisto delle famiglie"
 }

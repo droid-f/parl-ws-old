@@ -1,6 +1,6 @@
 {
   "id": 20223718,
-  "updated": "2023-06-07T11:55:13Z",
+  "updated": "2025-03-20T14:19:52Z",
   "additionalIndexing": "15;66;1236",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2023-06-07T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-03-20T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
           }
         ]
       },
@@ -67,7 +82,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-01-14T14:52:50Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3196,
+                    "gender": "m",
+                    "id": 4241,
+                    "name": "Stark Jakob",
+                    "officialDenomination": "Stark"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CN",
+            "id": 5,
+            "name": "Commissione della scienza, dell'educazione e della cultura CN",
+            "abbreviation1": "CSEC-N",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-06-16T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CS",
+            "id": 18,
+            "name": "Commissione della scienza, dell'educazione e della cultura CS",
+            "abbreviation1": "CSEC-S",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-06-16T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +184,23 @@
         },
         {
           "date": "/Date(1686088800000+0200)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1733353200000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1736809200000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1742425200000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -199,10 +310,9 @@
   ],
   "shortId": "22.3718",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -218,7 +328,7 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>Nella pratica, la corretta etichettatura dei prodotti solleva regolarmente interrogativi. L'indicazione di provenienza è spesso confusa o assimilata a torto con l'indicazione del Paese di produzione. Tuttavia, queste due nozioni non si equivalgono e devono essere distinte l'una dall'altra.</p><p>L'indicazione di provenienza di un prodotto indica che esso proviene da un determinato territorio geografico. Non si limita quindi semplicemente al luogo di produzione. L'indicazione di provenienza serve a contrassegnare in modo facoltativo un prodotto a fini pubblicitari o di marketing. La legge federale sulla protezione dei marchi e delle indicazioni di provenienza (legge sulla protezione dei marchi, LPM; RS 232.11) disciplina il corretto utilizzo delle indicazioni di provenienza. L'articolo 48c LPM, citato dall'autore della mozione, precisa a quali condizioni è ad esempio possibile apporre la croce svizzera su un prodotto industriale. La LPM regolamenta anche l'utilizzo di un'indicazione di provenienza per i prodotti naturali (art. 48a LPM) e per le derrate alimentari (art. 48b LPM). In questi casi, si tratta sempre della provenienza geografica nel suo complesso e non di singole componenti del prodotto.</p><p>La dichiarazione del Paese di produzione, che non è disciplinata nella LPM, ha una finalità differente da quella dell'indicazione di provenienza. La dichiarazione si limita a un'informazione neutra sul luogo in cui il prodotto o componenti di esso sono stati fabbricati. Può essere integrata con altre informazioni, ad esempio con l'indicazione di una produzione rispettosa delle risorse o, di particolare interesse nel presente contesto, con un riferimento a componenti problematiche. In Svizzera, l'indicazione del Paese di produzione è in linea di massima facoltativa, a meno che un disciplinamento speciale la dichiari obbligatoria. Il diritto in materia di derrate alimentari, citato dall'autore della mozione, prescrive ad esempio che il Paese di produzione di una derrata alimentare sia indicato sull'imballaggio (non tanto come messaggio pubblicitario, ma come indicazione generale) affinché i consumatori possano prendere una decisione di acquisto consapevole. In questo modo si tiene parimenti conto della protezione dall'inganno. Anche determinati prodotti in legno sottostanno a un obbligo di dichiarazione conformemente all'ordinanza sulla dichiarazione concernente il legno e i prodotti del legno (RS 944.021). Lo stesso vale per le pellicce (ordinanza sulla dichiarazione delle pellicce; RS 944.022), mentre per i vestiti il Paese di produzione non deve essere indicato. Il Paese di produzione è indicato in caratteri piccoli sul prodotto stesso o sul suo imballaggio; si tratta di un'informazione neutra (non pubblicitaria).</p><p>Non è pertanto possibile inserire nella legge sulla protezione dei marchi una disposizione che obblighi i fabbricanti di impianti fotovoltaici a indicare il Paese di produzione delle celle solari. Una regolamentazione di questo tipo va respinta anche per ragioni di parità di trattamento: non vi è infatti motivo perché tale normativa si applichi agli impianti fotovoltaici e non ad altri beni industriali. I fabbricanti sono per contro liberi di indicare il Paese di produzione.</p>"
+      "value": "<p>Nella pratica, la corretta etichettatura dei prodotti solleva regolarmente interrogativi. L'indicazione di provenienza è spesso confusa o assimilata a torto con l'indicazione del Paese di produzione. Tuttavia, queste due nozioni non si equivalgono e devono essere distinte l'una dall'altra.</p><p>L'indicazione di provenienza di un prodotto indica che esso proviene da un determinato territorio geografico. Non si limita quindi semplicemente al luogo di produzione. L'indicazione di provenienza serve a contrassegnare in modo facoltativo un prodotto a fini pubblicitari o di marketing. La legge federale sulla protezione dei marchi e delle indicazioni di provenienza (legge sulla protezione dei marchi, LPM; RS 232.11) disciplina il corretto utilizzo delle indicazioni di provenienza. L'articolo 48c LPM, citato dall'autore della mozione, precisa a quali condizioni è ad esempio possibile apporre la croce svizzera su un prodotto industriale. La LPM regolamenta anche l'utilizzo di un'indicazione di provenienza per i prodotti naturali (art. 48a LPM) e per le derrate alimentari (art. 48b LPM). In questi casi, si tratta sempre della provenienza geografica nel suo complesso e non di singole componenti del prodotto.</p><p>La dichiarazione del Paese di produzione, che non è disciplinata nella LPM, ha una finalità differente da quella dell'indicazione di provenienza. La dichiarazione si limita a un'informazione neutra sul luogo in cui il prodotto o componenti di esso sono stati fabbricati. Può essere integrata con altre informazioni, ad esempio con l'indicazione di una produzione rispettosa delle risorse o, di particolare interesse nel presente contesto, con un riferimento a componenti problematiche. In Svizzera, l'indicazione del Paese di produzione è in linea di massima facoltativa, a meno che un disciplinamento speciale la dichiari obbligatoria. Il diritto in materia di derrate alimentari, citato dall'autore della mozione, prescrive ad esempio che il Paese di produzione di una derrata alimentare sia indicato sull'imballaggio (non tanto come messaggio pubblicitario, ma come indicazione generale) affinché i consumatori possano prendere una decisione di acquisto consapevole. In questo modo si tiene parimenti conto della protezione dall'inganno. Anche determinati prodotti in legno sottostanno a un obbligo di dichiarazione conformemente all'ordinanza sulla dichiarazione concernente il legno e i prodotti del legno (RS 944.021). Lo stesso vale per le pellicce (ordinanza sulla dichiarazione delle pellicce; RS 944.022), mentre per i vestiti il Paese di produzione non deve essere indicato. Il Paese di produzione è indicato in caratteri piccoli sul prodotto stesso o sul suo imballaggio; si tratta di un'informazione neutra (non pubblicitaria).</p><p>Non è pertanto possibile inserire nella legge sulla protezione dei marchi una disposizione che obblighi i fabbricanti di impianti fotovoltaici a indicare il Paese di produzione delle celle solari. Una regolamentazione di questo tipo va respinta anche per ragioni di parità di trattamento: non vi è infatti motivo perché tale normativa si applichi agli impianti fotovoltaici e non ad altri beni industriali. I fabbricanti sono per contro liberi di indicare il Paese di produzione.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

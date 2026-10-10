@@ -1,6 +1,6 @@
 {
   "id": 20223440,
-  "updated": "2022-09-30T09:33:53Z",
+  "updated": "2025-06-19T09:06:45Z",
   "additionalIndexing": "66;2846;52;55",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2022-09-30T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-06-18T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
           }
         ]
       },
@@ -67,7 +82,92 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CAPTE-CN",
+            "id": 7,
+            "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CN",
+            "abbreviation1": "CAPTE-N",
+            "abbreviation2": "CAPTE",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-05-11T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAPTE-CS",
+            "id": 20,
+            "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CS",
+            "abbreviation1": "CAPTE-S",
+            "abbreviation2": "CAPTE",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-05-11T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-03-31T16:43:41Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3105,
+                    "gender": "m",
+                    "id": 4204,
+                    "name": "Rieder Beat",
+                    "officialDenomination": "Rieder"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +188,18 @@
         },
         {
           "date": "/Date(1664488800000+0200)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1743372000000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1750197600000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -199,10 +309,9 @@
   ],
   "shortId": "22.3440",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -211,7 +320,14 @@
         "id": 6,
         "name": "Motivazione"
       },
-      "value": "<p>Le discariche comportano modifiche del paesaggio create dall'uomo la cui formazione ha impattato per la collettività sia a livello finanziario che a livello ambientale e paesaggistico. Le discariche una volta terminate non producono altro che erbacce e non sono buone né per l'agricoltura, né per la forestazione. In molti di questi siti, ci sarebbe dunque la grande opportunità di creare valore aggiunto: produrre energia solare. I pannelli fotovoltaici, se posati con criterio, sono infatti compatibili con la protezione del paesaggio e con gli aspetti ecologi. E in più potrebbero pure comportare una fonte di reddito duratura ai comuni in cui si trovano. </p><p>Questa opportunità di investire nel territorio in progetti di produzione di energia pulita e indigena potrebbe accelerare il processo, ancora (troppo!) lento, di sostituzione delle fonti inquinanti, care e importate. </p><p>In Svizzera abbiamo un esempio ben riuscito a Felsberg nei Grigioni <a  href=\"https://www.felsberg.ch/_docn/618235/Solarkraftwerk_Energie_statt_Wii.pdf\">https://www.felsberg.ch/_docn/618235/Solarkraftwerk_Energie_statt_Wii.pdf</a> e pure nella vicina Italia vi sono già diversi esempi di progetti realizzati su discariche con successo.</p>"
+      "value": "<p>Le discariche comportano modifiche del paesaggio create dall'uomo la cui formazione ha impattato per la collettività sia a livello finanziario che a livello ambientale e paesaggistico. Le discariche una volta terminate non producono altro che erbacce e non sono buone né per l'agricoltura, né per la forestazione. In molti di questi siti, ci sarebbe dunque la grande opportunità di creare valore aggiunto: produrre energia solare. I pannelli fotovoltaici, se posati con criterio, sono infatti compatibili con la protezione del paesaggio e con gli aspetti ecologi. E in più potrebbero pure comportare una fonte di reddito duratura ai comuni in cui si trovano. </p><p>Questa opportunità di investire nel territorio in progetti di produzione di energia pulita e indigena potrebbe accelerare il processo, ancora (troppo!) lento, di sostituzione delle fonti inquinanti, care e importate. </p><p>In Svizzera abbiamo un esempio ben riuscito a Felsberg nei Grigioni <a href=\"https://www.felsberg.ch/_docn/618235/Solarkraftwerk_Energie_statt_Wii.pdf\">https://www.felsberg.ch/_docn/618235/Solarkraftwerk_Energie_statt_Wii.pdf</a> e pure nella vicina Italia vi sono già diversi esempi di progetti realizzati su discariche con successo.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "Il Consiglio federale propone di accogliere la mozione."
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20214019,
-  "updated": "2021-09-16T16:29:58Z",
+  "updated": "2025-04-24T19:35:01Z",
   "additionalIndexing": "04;15;66;34;1236",
   "affairType": {
     "abbreviation": "Ip.",
@@ -16,7 +16,7 @@
       "officialDenomination": "Andrey"
     },
     "faction": {
-      "abbreviation": "G",
+      "abbreviation": "Fraktion G",
       "code": "G",
       "id": 6,
       "name": "Grüne Fraktion"
@@ -41,10 +41,35 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 2,
+              "name": "Diskussion"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2021-12-17T00:00:00Z",
+            "text": "Diskussion verschoben",
+            "type": 29
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Abgeschrieben, weil nicht innert zwei Jahren abschliessend im Rat behandelt",
+            "type": 32
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2021-11-17T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -67,8 +92,18 @@
       "states": [
         {
           "date": "/Date(1631743200000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1637103600000+0100)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1695938400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -109,7 +144,7 @@
         "officialDenomination": "Andrey"
       },
       "faction": {
-        "abbreviation": "G",
+        "abbreviation": "Fraktion G",
         "code": "G",
         "id": 6,
         "name": "Grüne Fraktion"
@@ -119,12 +154,19 @@
   ],
   "shortId": "21.4019",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>1. Falls Daten in den Public Clouds bearbeitet werden, müssen wo nötig basierend auf der Schutzbedarf- und Risikoanalyse entsprechende technische, organisatorische und rechtliche Massnahmen ergriffen werden. Darunter fällt z.B. die Verschlüsselung der Daten oder die Anonymisierung und Pseudonymisierung von personenbezogenen Daten. Zudem gibt es eine rasante Entwicklung in der sicheren Datenverarbeitung, zu nennen sind an dieser Stelle beispielsweise \"Confidential Computing\", bei dem sensible Daten während der Verarbeitung in geschützten Prozessoren isoliert werden.</p><p>2. Wenn durch das treuhänderische Betreiben die Funktionalität, die Innovations-geschwindigkeit und das Preisgefüge nicht relevant schlechter werden, könnte dies ein durchaus anwendbares Modell sein. Der Bundesrat hat dieses Modell bis anhin nicht vertieft untersucht.</p><p>3. Wird die Bearbeitung von Personendaten Dritten übertragen, so muss sich der Auftraggeber vergewissern, dass diese die Datensicherheit gewährleisten (Art. 10a Abs. 2 DSG). Die sich daraus ergebenden Anforderungen werden vertraglich geregelt, insbesondere technische und organisatorische Massnahmen; diese können auch Zertifizierungen (wie z.B. ISO27001) oder die Verpflichtung zur Durchführung von Audits (z.B. SOC-2 Typ II) umfassen. In der Ausschreibung musste von den Anbietern der Nachweis erbracht werden, dass sie über solche Zertifikate und Auditergebnisse verfügen. Weiterführende Anforderungen werden in den noch zu erstellenden Rahmenverträgen aufgenommen.</p><p>4. Aktuell werden aus den Public Clouds Dienste genutzt, damit z.B. die swisstopo ihr Kartenmaterial für die Publikation via App und Web aufbereiten und publizieren kann.</p><p>Welche Anwendungen künftig auf den Public Clouds betrieben werden, wird fallweise festzulegen sein; dabei ist jeweils zu prüfen, ob die nötigen Voraussetzungen insb. in rechtlicher Hinsicht gegeben sind. Zu berücksichtigen ist, dass namhafte Hersteller ihre Standardsoftware zunehmend nur noch aus der Public Cloud anbieten. Die Beschaffung von Public Cloud Leistungen ist daher eine Voraussetzung, damit die Bundesverwaltung solche Standardsoftware nutzen kann.</p><p>5. Die Zuschlagssumme von 110 Millionen CHF (mit Kostendach) basiert auf den Erfahrungswerten des Bezugs von bisherigen externen Public- und internen Private Cloud-Leistungen, sowie auf Schätzungen der Departemente und der Bundeskanzlei und zusätzlichen 10 Prozent für den allfälligen Bedarf der dezentralen Bundesverwaltung. Dies bei einer Laufzeit von 5 Jahren. Alle Leistungen sind dabei optional. Es besteht keine Bezugspflicht.</p><p>6. Dies wurde bei der Ausschreibung nicht berücksichtigt. Viele Public Cloud Anbieter haben sich als Ziel gesteckt, bis 2025 ihre Rechenzentren zu 100 Prozent mit erneuerbarer Energie zu betreiben. Darunter auch jene, die im Rahmen der Ausschreibung einen Zuschlag erhalten haben.</p>  Antwort des Bundesrates."
+    },
     {
       "type": {
         "id": 5,
@@ -137,8 +179,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Vergabe von Public Cloud Diensten an amerikanische und chinesische Unternehmen"
+      "value": "Vergabe von Public-Cloud-Diensten an amerikanische und chinesische Unternehmen"
     }
   ],
-  "title": "Vergabe von Public Cloud Diensten an amerikanische und chinesische Unternehmen"
+  "title": "Vergabe von Public-Cloud-Diensten an amerikanische und chinesische Unternehmen"
 }

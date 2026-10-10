@@ -1,6 +1,6 @@
 {
   "id": 20230423,
-  "updated": "2023-03-21T15:13:22Z",
+  "updated": "2025-04-08T23:41:41Z",
   "additionalIndexing": "1211;2846",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -40,7 +40,31 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Amm."
+            },
+            "council": null,
+            "date": "2023-12-04T00:00:00Z",
+            "text": "Sarà ripreso",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-12-19T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,24 +74,177 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CAG-CN",
+            "id": 12,
+            "name": "Commissione degli affari giuridici CN",
+            "abbreviation1": "CAG-N",
+            "abbreviation2": "CAG",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-17T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CAG-CS",
+            "id": 25,
+            "name": "Commissione degli affari giuridici CS",
+            "abbreviation1": "CAG-S",
+            "abbreviation2": "CAG",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-17T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-27T18:10:16Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3163,
+                    "gender": "m",
+                    "id": 4271,
+                    "name": "Kamerzin Sidney",
+                    "officialDenomination": "Kamerzin"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo M-E",
+                    "id": 3,
+                    "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-27T18:10:03Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3063,
+                    "gender": "m",
+                    "id": 4157,
+                    "name": "Bühler Manfred",
+                    "officialDenomination": "Bühler"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo V",
+                    "id": 4,
+                    "name": "Gruppo dell'Unione democratica di Centro"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlamento",
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Dipartimento dell'economia, della formazione e della ricerca",
           "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1679007600000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1696543200000+0200)/",
+          "id": 223,
+          "name": "Esame preliminare - nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1698357600000+0200)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1702594800000+0100)/",
+          "id": 205,
+          "name": "Pianificato nel Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1702940400000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -313,23 +490,47 @@
         "name": "Gruppo socialista"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3147,
+        "gender": "m",
+        "id": 4255,
+        "name": "Dandrès Christian",
+        "officialDenomination": "Dandrès"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "23.423",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>La crisi legata al Covid-19 lo ha dimostrato: può succedere che un'autorità sia indotta da motivi imperativi a chiudere, per esempio, degli esercizi o delle strutture pubbliche. La crisi pandemica ha anche evidenziato che in questi casi il nostro diritto è lacunoso, nella misura in cui una tale situazione non è disciplinata. La questione è sapere se si è in presenza di un caso di forza maggiore oppure di un difetto della cosa locata, circostanza che darebbe diritto al locatario di ottenere una riduzione della pigione; oppure non si tratta di questo e la pigione deve essere versata? Spetta al Tribunale federale statuire sulla questione: al momento in cui è stato depositato il presente testo, ciò non era ancora avvenuto.</p><p>Oggi, quando un'abitazione o un locale commerciale presenta un difetto della cosa locata - ad esempio quando vi è un grande cantiere nelle sue vicinanze che causa molti disagi - il locatario ha diritto a una riduzione della pigione; il proprietario chiamato a concederla può però rifarsi sul costruttore, affinché sia quest'ultimo, che è responsabile della situazione, a pagare la riduzione concessa.</p><p>In presenza di una decisione legittima di un'autorità, indipendentemente dal fatto che al locatario venga prossimamente concessa o meno, a seguito della decisione del Tribunale federale, la riduzione della pigione, una tale situazione non è soddisfacente. È infatti inammissibile, nel nostro ordinamento giuridico, che una parte risulti interamente perdente quando invece non le si può imputare alcuna colpa e nemmeno una mancanza di diligenza.</p><p>È dunque necessario che il Codice delle obbligazioni venga adeguato in modo tale che vi siano contemplate queste situazioni, con il principio, relativamente istintivo, che in questi casi l'autorità che ha preso la decisione - per quanto giustificata - sia obbligata a risarcire integralmente o in parte la perdita economica.</p><p>L'importanza di un tale disciplinamento è innegabile, anche perché situazioni giuridicamente comparabili a quelle vissute durante la pandemia (dalla quale speriamo di essere risparmiati per almeno un secolo) potrebbero comunque verificarsi. Infatti, se le difficoltà di approvvigionamento energetico dovessero protrarsi e si arrivasse, quale ultima ratio, a dover limitare l'accesso all'elettricità, razionandola per settore e per un determinato periodo di tempo, i locatari - in particolare quelli commerciali - verrebbero a trovarsi esattamente nella stessa situazione: essi non potrebbero più usare la cosa locata, e questo pur non essendo loro imputabile alcuna colpa, così come nessuna colpa potrebbe essere imputata al locatore.</p><p>È necessario comunque che vengano disciplinati alcuni dettagli, in modo da rendere la normativa proporzionata e differenziata. Quest'ultima non dovrà contemplare ogni e qualsivoglia decisione presa da un'autorità. Dal suo campo di applicazione dovrebbero essere esclusi in particolare i lavori di manutenzione delle infrastrutture pubbliche di breve durata, nonché le misure di pertinenza statale destinate alla collettività riguardanti la pianificazione del territorio. L'idea è che la modifica proposta venga strettamente circoscritta a situazioni in cui la perdita risulta tanto importante e improvvisa da rendere necessaria, per ragioni di equità, la revisione dell'attuale meccanismo.</p><p>La soluzione proposta non si giustifica, a nostro avviso, soltanto da una questione di buon senso, ma anche da ragioni di equità e dalla prassi. Infatti, durante la crisi da Covid-19 numerosi Cantoni hanno istituito delle convenzioni tripartite con i rappresentanti dei locatori e dei locatari, concordando dei sistemi in cui il Cantone contribuiva alle pigioni nella misura del 30 per cento.</p><p>Riteniamo che il principio su cui poggia questo sistema - il quale prevede che sia chiamata in causa l'autorità che prende la decisione - dovrebbe essere concretizzato nella legge.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Con la presente iniziativa chiediamo che il Codice delle obbligazioni venga completato con un articolo concernente il difetto della cosa locata per gli alloggi e i locali commerciali consecutivo alla decisione di un'autorità e senza che vi sia colpa da parte del locatario o del locatore, il cui tenore dovrebbe essere il seguente:</p><p>Capoverso 1 Quando una decisione di un'autorità ha per conseguenza che la cosa locata non può più essere usata conformemente a ciò per cui è stata locata, o che il locatario è impossibilitato a usare la cosa conformemente al contratto, e questo senza che vi sia colpa delle parti contraenti, il locatario ha diritto a un'adeguata riduzione della pigione.</p><p>Capoverso 2 L'autorità che ha preso la decisione deve risarcire integralmente o in parte il danno.</p><p>Capoverso 3 Il Consiglio federale disciplina l'esecuzione mediante ordinanza.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Per un'equa ripartizione del danno in caso di difetto della cosa locata senza colpa delle parti contrattuali"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Per un'equa ripartizione del danno in caso di difetto della cosa locata senza colpa delle parti contrattuali"
 }

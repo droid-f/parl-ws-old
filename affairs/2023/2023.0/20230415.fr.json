@@ -1,6 +1,6 @@
 {
   "id": 20230415,
-  "updated": "2023-03-21T15:15:03Z",
+  "updated": "2024-05-30T08:27:22Z",
   "additionalIndexing": "2836;2841;44",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -40,7 +40,31 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "L’objet est repris",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-05-29T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,24 +74,133 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-05-02T19:07:58Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3174,
+                    "gender": "m",
+                    "id": 4282,
+                    "name": "Rechsteiner Thomas",
+                    "officialDenomination": "Rechsteiner Thomas"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSSS-CN",
+            "id": 6,
+            "name": "Commission de la sécurité sociale et de la santé publique CN",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-16T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CSSS-CE",
+            "id": 19,
+            "name": "Commission de la sécurité sociale et de la santé publique CE",
+            "abbreviation1": "CSSS-E",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-16T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1678921200000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1685397600000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1712008800000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1714600800000+0200)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1716933600000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -95,7 +228,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -293,16 +426,40 @@
         "name": "Groupe socialiste"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3147,
+        "gender": "m",
+        "id": 4255,
+        "name": "Dandrès Christian",
+        "officialDenomination": "Dandrès"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "23.415",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Actuellement, la différence entre la charge de la preuve figurant à l'art. 9, al. 1, (pour les maladies professionnelles figurant sur la liste des maladies professionnelles) et à l'art. 9, al. 2, (pour les autres maladies professionnelles possibles) de la LAA n'est plus adaptée à notre époque. Elle complique la reconnaissance de nouveaux syndromes en rapport avec la profession. Les maladies liées au stress ne sont ainsi pratiquement jamais reconnues comme des maladies professionnelles. Pour les maladies professionnelles qui ne figurent pas sur la liste de l'ordonnance sur l'assurance-accidents, il faut prouver qu'elles sont imputables à plus de 75 % à l'activité professionnelle selon la jurisprudence. Cela représente un obstacle très important, notamment pour les médecins qui font la demande, et a donc un effet dissuasif. </p><p>Or, l'inégalité de traitement entre maladies professionnelles figurant sur la liste des maladies professionnelles et les maladies professionnelles possibles ne correspond plus aux connaissances actuelles de la médecine du travail et des sciences du travail, selon lesquelles les troubles de la santé dits associés à l'activité professionnelle, généralement liés au stress, augmentent fortement en raison des changements dans le monde du travail (densification, pression des délais, décloisonnement croissant entre vie privée et travail, secteur des services croissant). Une assimilation aux maladies professionnelles figurant sur la liste tient compte de ces évolutions. Cela favorise également une approche plus dynamique de l'évolution des maladies professionnelles. Les \" autres \" maladies reconnues en vertu de l'alinéa 2 pourront alors plus facilement trouver leur place dans la liste des maladies professionnelles annexée à l'ordonnance LAA.</p><p>Le SECO a publié en 2000 le rapport \" Les coûts du stress en Suisse \" (1). Le coût financier du stress s'élevait à environ 4,2 milliards de francs pour la population active, soit environ 1,2 % du PIB. Ce chiffre est doublé si l'on ajoute aux coûts directement imputés au stress ceux des accidents du travail et des maladies professionnelles. Malheureusement, cette étude n'a pas encore été rééditée. Dans une autre étude commandée par le SECO en 2014 (2), il est toutefois indiqué que les coûts économiques des maladies professionnelles s'élèvent, selon des études internationales, à au moins 3 % du produit intérieur brut dans les économies développées. Pour la Suisse, cela correspond à 22 milliards de francs en 2022. </p><p>Une grande partie des coûts des maladies liées au stress est supportée par la collectivité et non par l'employeur. Compte tenu de l'explosion des primes d'assurance-maladie, il est nécessaire de renforcer le principe de causalité, d'offrir aux travailleurs et travailleuses une meilleure couverture d'assurance et de mettre en place des incitations plus fortes pour le développement de la prévention sur le lieu de travail.</p><p>Le Parlement est invité à contribuer à une meilleure reconnaissance des troubles de la santé associés au travail et des maladies dues au stress professionnel en tant que maladies professionnelles. Si les maladies associées au travail sont davantage reconnues comme des maladies professionnelles et relèvent donc de la loi sur l'assurance-accidents, la couverture d'assurance des personnes concernées s'en trouvera améliorée. Les coûts de santé ne sont plus imputés aux travailleurs individuels, qui croulent sous le poids croissant des primes d'assurance maladie, mais sont de plus en plus supportés là où ils sont générés. Les employeurs sont ainsi davantage responsabilisés quant à leur devoir d'assistance et la prévention est renforcée. </p><p>(1) Frais médicaux : 1,4 milliard de francs, automédication contre le stress : 348 millions de francs, coûts liés à l'absentéisme et à la perte de production : 2,4 milliards de francs.</p><p>(2) Thomas Läubli (Seco). Gesundheitskosten hoher Arbeitsbelastungen. 2014.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>L'art. 9, al. 2, LAA est modifié de la manière suivante : </p><p>Sont aussi réputées maladies professionnelles les autres maladies dont il est prouvé qu'elles ont été causées exclusivement ou de manière prépondérante par l'exercice de l'activité professionnelle. (suppression de l'adverbe \"nettement\")</p>"
+    },
     {
       "type": {
         "id": 1,

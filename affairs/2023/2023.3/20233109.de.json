@@ -1,6 +1,6 @@
 {
   "id": 20233109,
-  "updated": "2023-03-10T11:25:47Z",
+  "updated": "2025-06-04T15:37:44Z",
   "additionalIndexing": "2841;15;52;28",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,17 +41,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-06-12T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-06-04T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-05-24T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "SGK-NR",
+            "id": 6,
+            "name": "Kommission für soziale Sicherheit und Gesundheit NR",
+            "abbreviation1": "SGK-N",
+            "abbreviation2": "SGK",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-04-08T10:14:39Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3125,
+                    "gender": "f",
+                    "id": 4224,
+                    "name": "Wasserfallen Flavia",
+                    "officialDenomination": "Wasserfallen Flavia"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-SR",
+            "id": 19,
+            "name": "Kommission für soziale Sicherheit und Gesundheit SR",
+            "abbreviation1": "SGK-S",
+            "abbreviation2": "SGK",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -67,8 +180,38 @@
       "states": [
         {
           "date": "/Date(1678316400000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1684879200000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1718143200000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1725228000000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1742943600000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1743631200000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1748988000000+0200)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -359,8 +502,8 @@
   ],
   "shortId": "23.3109",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
     "newKey": 0
   },
@@ -374,6 +517,13 @@
     },
     {
       "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Da elektronische Einwegzigaretten wenig kosten, verschiedene Aromastoffe enthalten und leicht erhältlich sind, sind sie für Jugendliche attraktiv und werden von vielen konsumiert. Die meisten dieser Produkte enthalten jedoch Nikotin, das ein hohes Suchtpotenzial aufweist. Auch wenn diese Produkte eine weniger schädliche Alternative für Rauchende darstellen können, sind sie für die Bekämpfung des Tabakkonsums uninteressant, da andere, wiederaufladbare elektronische Zigaretten auf dem Markt erhältlich sind.</p><p>Zudem werfen diese Produkte Umweltfragen auf (Hendlin YH. Alert: Public Health Implications of Electronic Cigarette Waste. Am J Public Health. 2018 Nov;108(11):1489-1490). Eine elektronische Einwegzigarette ist so konzipiert, dass sie nicht wieder aufgeladen und ihre Batterie nicht ausgetauscht werden kann, was sie im Hinblick auf die Kreislaufwirtschaft und die Ressourcenschonung zu einem kritischen Produkt macht. Jedes dieser Erzeugnisse ist mit einer Lithium-Ionen-Batterie mit einer Kapazität von mehreren hundert Milliamperestunden ausgestattet.</p><p>Der Bundesrat beantragt dennoch aus folgenden Gründen die Ablehnung der Motion:</p><p>Auch wenn in mehreren Ländern entsprechende Schritte eingeleitet wurden, gibt es derzeit kein solches Verbot in der Europäischen Union. Ein auf die Schweiz beschränktes Verkaufsverbot für elektronische Einwegzigaretten würde daher ein neues technisches Handelshemmnis schaffen. Diesbezüglich ist das Bundesgesetz über die technischen Handelshemmnisse (THG) zu berücksichtigen, wonach die technischen Vorschriften auf diejenigen der wichtigsten Handelspartner der Schweiz abgestimmt werden müssen (Art. 4 THG).</p><p>Im Bereich der Gesundheitspolitik sind mehrere Gesetzesänderungen im Gange, die bereits einen besseren Schutz der Bevölkerung und insbesondere der Jugendlichen ermöglichen sollen. Das Bundesgesetz über Tabakprodukte und elektronische Zigaretten (TabPG, BBl 2021 2327), das 2024 in Kraft treten soll, untersagt den Verkauf dieser Produkte an Minderjährige. Es sieht auch Einschränkungen der Werbung für diese Produkte vor und beschränkt ihren Nikotingehalt auf 20 mg/ml. Die Werbeeinschränkungen werden mit der Revision des TabPG, zu der Mitte 2023 eine Botschaft an das Parlament überwiesen wird, noch verschärft. Schliesslich hat der Bundesrat am 26. Oktober 2022 die Botschaft zur Änderung des Tabaksteuergesetzes (TStG; SR 641.31) verabschiedet, die eine Steuer für elektronische Zigaretten wiedereinführt und eine höhere Besteuerung der Einweg-E-Zigaretten vorsieht. Die höhere Steuer auf elektronischen Einwegzigaretten soll verhindern, dass Jugendliche und junge Erwachsene mit dem Konsum dieser Produkte anfangen, da sie eine abschreckende Wirkung auf Jugendliche mit ihren begrenzten finanziellen Mitteln hat. Sie würde somit zum Schutz ihrer Gesundheit beitragen (siehe Art. 118 Abs. 1 BV).</p><p>In Bezug auf die Umweltproblematik gilt die Verordnung über die Rückgabe, die Rücknahme und die Entsorgung elektrischer und elektronischer Geräte (VREG, SR 814.620) bereits für elektronische Zigaretten. Diese müssen somit von den Konsumierenden zurückgegeben und von den Herstellern kostenlos zurückgenommen werden. Letztere sind verpflichtet, eine umweltgerechte und dem Stand der Technik entsprechende Entsorgung sicherzustellen. Ausserdem arbeitet die Stiftung SENS (<a href=\"http://www.erecycling.ch\">www.erecycling.ch</a>) als Expertin für die nachhaltige Wiederverwertung von ausgedienten Elektro- und Elektronikgeräten derzeit an einer Branchenlösung, um die Sammlung und das Recycling dieser Geräte zu verbessern.</p><p>Wie der Bundesrat in seiner Stellungnahme zur Ip. 22.3848 Gugger \"Entsorgung von giftigem E-Zigarettenabfall regeln\" festgehalten hat, verfügt der Bundesrat zudem mit Artikel 30a des Bundesgesetzes über den Umweltschutz (USG; SR 814.01) bereits über eine gesetzliche Grundlage, um Einwegprodukte zu verbieten, wenn deren Nutzen die durch sie verursachte Umweltbelastung nicht rechtfertigt. Ob sich ein solches Verbot rechtfertigen liesse, bedürfte einer vertieften Prüfung, bei welcher der Nutzen und die Umweltschädlichkeit von elektronischen Einwegzigaretten gegeneinander abzuwägen wären. Auch wären mildere Mittel zu prüfen.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
+    },
+    {
+      "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
@@ -384,8 +534,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Für ein Verbot von elektronischen Einwegzigaretten («Puff Bars»)"
+      "value": "Für ein Verbot von elektronischen Einwegzigaretten (Puff Bars)"
     }
   ],
-  "title": "Für ein Verbot von elektronischen Einwegzigaretten («Puff Bars»)"
+  "title": "Für ein Verbot von elektronischen Einwegzigaretten (Puff Bars)"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20223977,
-  "updated": "2022-09-23T07:25:02Z",
+  "updated": "2025-04-24T19:29:28Z",
   "additionalIndexing": "24;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,177 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-02-28T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-03-17T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-23T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-01-31T17:20:04Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3107,
+                    "gender": "m",
+                    "id": 4206,
+                    "name": "Ettlin Erich",
+                    "officialDenomination": "Ettlin Erich"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "WBF",
+          "id": 8,
+          "name": "Departement für Wirtschaft, Bildung und Forschung",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1663797600000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1669158000000+0100)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1709074800000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1726524000000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1738278000000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1742166000000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -86,6 +234,11 @@
       "id": 20223976,
       "priorityCode": "N",
       "shortId": "22.3976"
+    },
+    {
+      "id": 20253020,
+      "priorityCode": "S",
+      "shortId": "25.3020"
     }
   ],
   "roles": [
@@ -95,7 +248,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -185,7 +338,7 @@
         "gender": "m",
         "id": 4190,
         "name": "Dobler Marcel",
-        "officialDenomination": "Dobler"
+        "officialDenomination": "Dobler Marcel"
       },
       "type": "cosign"
     },
@@ -318,10 +471,10 @@
   ],
   "shortId": "22.3977",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -329,7 +482,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Die neuen Debitkarten von VISA und Mastercard verursachen den Unternehmen, die dieses Zahlungsmittel akzeptieren (Händler, Restaurants, Hotels, Dienstleistungsunternehmen usw.), höhere Entgelte als die heutige Maestro Karte. Während bei Zahlungen mit der Maestro-Karte ein Betrag von 26 Rappen pro Zahlung anfällt, wird bei Zahlungen mit den Debitkarten von VISA und Mastercard neben einem Fixbetrag zusätzlich noch ein Entgelt von einem gewissen Prozentsatz der Transaktion abgebucht.</p><p>Nach der Intervention des Preisüberwachers wurden die Maximalbeiträge pro Transaktion zwar auf 3,50 Franken respektive 2 Franken beschränkt, dies ist aber nach wie vor zu hoch für viele KMU, die bereits mit zahlreichen Problemen zu kämpfen haben (Inflation, Stromkosten, Lieferengpässe usw.). Ihre Marge schrumpft immer mehr.</p><p>Darüber hinaus wurde für Debitkarten, beispielsweise für diejenigen von VISA und Mastercard, ein Interbankenentgelt (\"Interchange Fee\") eingeführt, das bei der Bezahlung mit Maestro Karten nicht anfällt. Dieses Entgelt wird zwar vom Händlerbetreuer (\"Acquirer\") an den Kreditkartenherausgeber (\"Issuer\") entrichtet, aber schliesslich vom Acquirer auf seine Kunden (die Händler) abgewälzt.</p><p>Die WEKO hatte die Einführung solcher Entgelte zwar erlaubt, aber nur während drei Jahren und nur, bis der Marktanteil dieser Karten 15 Prozent erreicht. Diese Karten sind aber schon heute wesentlich weiter verbreitet. Daher muss eine Veröffentlichung der Marktanteile verlangt werden, damit die von der WEKO festgelegten Bestimmungen überprüft und eingehalten werden können.</p><p>Zum Vergleich: Die Interchange Fees sind Gegenstand einer strengen Verordnung der Europäischen Union (Artikel 3 Absatz 1 der Verordnung EU 2015/751), die dafür eine Obergrenze von 0,2 % der Transaktionssumme vorsieht.</p><p>Vor diesem Hintergrund wird der Bundesrat mit der vorliegenden Motion beauftragt, einen Erlassentwurf vorzulegen, welcher diese Interchange Fees verbietet, damit die Entgeltsätze der verschiedenen Debitkarten begrenzt werden.</p>"
+      "value": "<p>Die neuen Debitkarten von VISA und Mastercard verursachen den Unternehmen, die dieses Zahlungsmittel akzeptieren (Händler, Restaurants, Hotels, Dienstleistungsunternehmen usw.), höhere Entgelte als die heutige Maestro Karte. Während bei Zahlungen mit der Maestro-Karte ein Betrag von 26 Rappen pro Zahlung anfällt, wird bei Zahlungen mit den Debitkarten von VISA und Mastercard neben einem Fixbetrag zusätzlich noch ein Entgelt von einem gewissen Prozentsatz der Transaktion abgebucht.</p><p>Nach der Intervention des Preisüberwachers wurden die Maximalbeiträge pro Transaktion zwar auf 3,50 Franken respektive 2 Franken beschränkt, dies ist aber nach wie vor zu hoch für viele KMU, die bereits mit zahlreichen Problemen zu kämpfen haben (Inflation, Stromkosten, Lieferengpässe usw.). Ihre Marge schrumpft immer mehr.</p><p>Darüber hinaus wurde für Debitkarten, beispielsweise für diejenigen von VISA und Mastercard, ein Interbankenentgelt (\"Interchange Fee\") eingeführt, das bei der Bezahlung mit Maestro Karten nicht anfällt. Dieses Entgelt wird zwar vom Händlerbetreuer (\"Acquirer\") an den Kreditkartenherausgeber (\"Issuer\") entrichtet, aber schliesslich vom Acquirer auf seine Kunden (die Händler) abgewälzt.</p><p>Die WEKO hatte die Einführung solcher Entgelte zwar erlaubt, aber nur während drei Jahren und nur, bis der Marktanteil dieser Karten 15 Prozent erreicht. Diese Karten sind aber schon heute wesentlich weiter verbreitet. Daher muss eine Veröffentlichung der Marktanteile verlangt werden, damit die von der WEKO festgelegten Bestimmungen überprüft und eingehalten werden können.</p><p>Zum Vergleich: Die Interchange Fees sind Gegenstand einer strengen Verordnung der Europäischen Union (Artikel 3 Absatz 1 der Verordnung EU 2015/751), die dafür eine Obergrenze von 0,2 Prozent der Transaktionssumme vorsieht.</p><p>Vor diesem Hintergrund wird der Bundesrat mit der vorliegenden Motion beauftragt, einen Erlassentwurf vorzulegen, welcher diese Interchange Fees verbietet, damit die Entgeltsätze der verschiedenen Debitkarten begrenzt werden.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Bei den Interbankenentgelten (Interchange Fees) handelt es sich um eine Gebühr, welche von der Bank der Händlerin oder des Händlers (Acquirer) an die Bank der Kundin oder des Kunden (Issuer) gezahlt wird. Die Ausgestaltung des zugrundliegenden Vertrages ist Sache der Vertragsparteien. Beschränkt ein solcher Vertrag den wirksamen Wettbewerb, ist grundsätzlich die Schweizer Wettbewerbsgesetzgebung anwendbar, namentlich das Kartell- (KG; SR 251) und das Preisüberwachungsgesetz (PüG; SR 942.20). Für deren Durchsetzung sind primär die Wettbewerbskommission (WEKO) und ihr Sekretariat sowie die Preisüberwachung (PUE) zuständig.</p><p>Wie der Bundesrat in seiner Antwort auf die Interpellation <a href=\"https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20213570\">21.3570</a> de Quattro \"Die neuen Debitkarten benachteiligen Konsumentinnen und Konsumenten sowie kleine Geschäfte\" sowie in seiner Stellungnahme auf die Motion <a href=\"https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20213637\">21.3637</a> Hurni \"Begrenzung des Ertrags von Zahlungsdienstleistern, der auf Kosten von KMU erzielt wird\" festgehalten hat, hält er die geltenden wettbewerbsrechtlichen Bestimmungen für ausreichend, um gegen missbräuchliche Interbankenentgelte für Debitkarten vorzugehen. Wie in den Antworten des Bundesrates zu den erwähnten Vorstössen dargelegt, haben beide Behörden im Bereich des Kartenzahlungsverkehrs bereits mehrfach erfolgreich interveniert und beobachten laufend die Marktverhältnisse. Damit ist auch eine einzelfallgerechte und der Verhältnismässigkeit Rechnung tragende Analyse von - wie hier vorliegend - komplexen privatrechtlichen Austauschverhältnissen mit unterschiedlichen Interessen und Anreizen gewährleistet. Die kompetenten Behörden können je nach Marktentwicklung jederzeit und zielgerichtet eingreifen, wie dies auch die im Oktober 2022 eröffnete Vorabklärung \"Debitkarten Interchange Fees\" des WEKO-Sekretariats zeigt. Mit dieser Vorabklärung soll nach Angaben des WEKO-Sekretariats eine Nachfolgeregelung für die bisherigen für die Markteinführungsphase vorgesehenen Sätze getroffen werden.</p><p>Daher erachtet der Bundesrat die im geltenden Recht vorgesehenen wettbewerbsrechtlichen Interventionsmöglichkeiten nach wie vor für ausreichend und sieht somit keine Notwendigkeit, eine Vorlage für ein Verbot von Interbankenentgelten bei Debitkarten vorzubereiten.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

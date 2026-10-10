@@ -1,6 +1,6 @@
 {
   "id": 20193265,
-  "updated": "2020-12-10T08:59:17Z",
+  "updated": "2024-09-10T17:25:03Z",
   "additionalIndexing": "08;15;1236;44;1216",
   "affairType": {
     "abbreviation": "Mo.",
@@ -17,7 +17,7 @@
     },
     "faction": {
       "abbreviation": "Fraktion C",
-      "code": "C",
+      "code": "M-E",
       "id": 3,
       "name": "CVP-Fraktion"
     },
@@ -55,6 +55,21 @@
             "date": "2020-12-09T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-09-10T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -70,10 +85,50 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-06-28T15:56:12Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3220,
+                    "gender": "f",
+                    "id": 4325,
+                    "name": "Chassot Isabelle",
+                    "officialDenomination": "Chassot"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "RK-NR",
             "id": 12,
             "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
+            "abbreviation1": "RK-N",
             "abbreviation2": "RK",
             "committeeNumber": 12,
             "council": {
@@ -94,7 +149,7 @@
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -110,8 +165,7 @@
             {
               "correspondents": [
 
-              ],
-              "sessionId": "5113"
+              ]
             }
           ]
         }
@@ -135,8 +189,23 @@
         },
         {
           "date": "/Date(1607468400000+0100)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1719525600000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1724968800000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1725919200000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -304,7 +373,7 @@
         "gender": "m",
         "id": 4070,
         "name": "Candinas Martin",
-        "officialDenomination": "Candinas"
+        "officialDenomination": "Candinas Martin"
       },
       "type": "cosign"
     },
@@ -688,7 +757,7 @@
       },
       "faction": {
         "abbreviation": "Fraktion C",
-        "code": "C",
+        "code": "M-E",
         "id": 3,
         "name": "CVP-Fraktion"
       },
@@ -697,10 +766,9 @@
   ],
   "shortId": "19.3265",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -716,7 +784,7 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Der Bundesrat teilt die Auffassung der Motionärin, dass auch die Schweiz von Menschenhandel betroffen ist und dass entschieden gegen diese Straftat vorzugehen ist. Die Zuständigkeiten für die Bekämpfung von Menschenhandel ergeben sich aus der föderalen Ordnung der Schweiz: Gemäss Bundesverfassung und einschlägiger Gesetzgebung sind - mit Ausnahme von Fällen organisierter Kriminalität im Sinne von Artikel 260ter StGB - grundsätzlich die Kantone für die operative Bekämpfung von Menschenhandel zuständig, also für die Identifizierung von Menschenhandelsfällen, die Strafverfolgung der Täter, den Opferschutz und die Aufenthaltsregelung der Opfer. Der Bund ist zuständig für die interkantonale Koordination der Strafverfolgung sowie bei Bezügen zum Ausland, für die Erstellung von Analyse- und Lagebildern sowie für die strategische Arbeit wie die Entwicklung von neuen Instrumenten und Massnahmen. Aus den geltenden verfassungs- und gesetzmässigen Zuständigkeiten ergibt sich, wer für die Bewältigung der Aufgaben die notwendigen personellen und finanziellen Ressourcen bereitzustellen hat. Diese Kompetenzordnung ist einzuhalten.</p><p>Gestützt auf das Bundesgesetz über die kriminalpolizeilichen Zentralstellen des Bundes und gemeinsame Zentren für Polizei- und Zollzusammenarbeit mit anderen Staaten (ZentG; SR 360) werden die Kantone bereits heute von Fedpol auf verschiedene Weise in der Strafverfolgung unterstützt. Die Bekämpfung von Menschenhandel ist komplex und erfordert deshalb ein interdisziplinäres Vorgehen: Dabei stellt Fedpol den polizeilichen Informationsaustausch über Menschenhandelsfälle zwischen den Kantonen und zum Ausland sicher und koordiniert die Ermittlungen, fördert aber auch den Austausch unter Fachleuten, zum Beispiel über die kantonalen runden Tische. Gerade weil Menschenhandelsfälle oft in mehreren Kantonen stattfinden und die Opfer aus dem Ausland in die Schweiz gebracht werden, ist diese Leistung für die Kantone sehr nützlich. Von den Lage- und Bedrohungsberichten von Fedpol profitieren die Kantone, indem sie auf neue Entwicklungen aufmerksam gemacht werden. Dies erleichtert die Identifizierung von Menschenhandelsfällen.</p><p>Die Kantone können für die Strafverfolgung Unterstützung beantragen. Die Formen der Unterstützung sind vielfältig und beinhalten unter anderem auch die Ermittlungsunterstützung, namentlich durch Beratung sowie durch personelle, materielle, fachliche und technische Unterstützung. Weitere Unterstützungsleistungen beinhalten die Analyse mit dem Ziel, Taten und Tatzusammenhänge sowie Tätergruppierungen zu erkennen und Ermittlungsansätze zu generieren, und die Koordination. Die Kantone haben lediglich, sofern sie die Unterstützung beanspruchen wollen, ein konkretes Leistungsbegehren an Fedpol zu stellen. </p><p>Die kantonalen runden Tische gegen Menschenhandel werden durch die Fachstelle Menschenhandel Menschenschmuggel (FSMM) von Fedpol in ihrer Arbeit unterstützt. Die FSMM nimmt auf Wunsch der kantonalen runden Tische an den Sitzungen teil und berät sie in der Ausgestaltung der innerkantonalen Kooperation und in praktischen Fragen der Bekämpfung des Menschenhandels. Zudem stellt die FSMM den Austausch der Erfahrungen aus anderen Kantonen sicher. Die von Fedpol organisierten Tagungen und Workshops unterstützen die Kantone im fachlichen Austausch über Menschenhandel und dienen der Entwicklung der fachlichen Kompetenzen der Kantone.</p><p>Fedpol koordiniert und organisiert für die Kantone regelmässig die sogenannten Joint Action Days. Damit werden an bestimmten Tagen koordinierte Aktionen in Zusammenarbeit mit den Kantonen durchgeführt, um Fälle von Menschenhandel zu identifizieren. </p><p>Schliesslich gestattet die Verordnung über Massnahmen zur Verhütung von Straftaten im Zusammenhang mit Menschenhandel (Verordnung gegen Menschenhandel; SR 311.039.3) dem Bund (Fedpol), Organisationen und Projekte, die sich für die Bekämpfung von Menschenhandel engagieren - beispielsweise in der Opferhilfe -, finanziell zu unterstützen. Dafür stehen jährlich 400 000 Franken zur Verfügung.</p><p>Aus Sicht des Bundesrates stellt der Bund genügend Mittel zur Bekämpfung von Menschenhandel zur Verfügung. Für einen weiteren Ausbau der Ressourcen durch den Bund besteht kein Anlass. </p>"
+      "value": "<p>Der Bundesrat teilt die Auffassung der Motionärin, dass auch die Schweiz von Menschenhandel betroffen ist und dass entschieden gegen diese Straftat vorzugehen ist. Die Zuständigkeiten für die Bekämpfung von Menschenhandel ergeben sich aus der föderalen Ordnung der Schweiz: Gemäss Bundesverfassung und einschlägiger Gesetzgebung sind - mit Ausnahme von Fällen organisierter Kriminalität im Sinne von Artikel 260ter StGB - grundsätzlich die Kantone für die operative Bekämpfung von Menschenhandel zuständig, also für die Identifizierung von Menschenhandelsfällen, die Strafverfolgung der Täter, den Opferschutz und die Aufenthaltsregelung der Opfer. Der Bund ist zuständig für die interkantonale Koordination der Strafverfolgung sowie bei Bezügen zum Ausland, für die Erstellung von Analyse- und Lagebildern sowie für die strategische Arbeit wie die Entwicklung von neuen Instrumenten und Massnahmen. Aus den geltenden verfassungs- und gesetzmässigen Zuständigkeiten ergibt sich, wer für die Bewältigung der Aufgaben die notwendigen personellen und finanziellen Ressourcen bereitzustellen hat. Diese Kompetenzordnung ist einzuhalten.</p><p>Gestützt auf das Bundesgesetz über die kriminalpolizeilichen Zentralstellen des Bundes und gemeinsame Zentren für Polizei- und Zollzusammenarbeit mit anderen Staaten (ZentG; SR 360) werden die Kantone bereits heute von Fedpol auf verschiedene Weise in der Strafverfolgung unterstützt. Die Bekämpfung von Menschenhandel ist komplex und erfordert deshalb ein interdisziplinäres Vorgehen: Dabei stellt Fedpol den polizeilichen Informationsaustausch über Menschenhandelsfälle zwischen den Kantonen und zum Ausland sicher und koordiniert die Ermittlungen, fördert aber auch den Austausch unter Fachleuten, zum Beispiel über die kantonalen runden Tische. Gerade weil Menschenhandelsfälle oft in mehreren Kantonen stattfinden und die Opfer aus dem Ausland in die Schweiz gebracht werden, ist diese Leistung für die Kantone sehr nützlich. Von den Lage- und Bedrohungsberichten von Fedpol profitieren die Kantone, indem sie auf neue Entwicklungen aufmerksam gemacht werden. Dies erleichtert die Identifizierung von Menschenhandelsfällen.</p><p>Die Kantone können für die Strafverfolgung Unterstützung beantragen. Die Formen der Unterstützung sind vielfältig und beinhalten unter anderem auch die Ermittlungsunterstützung, namentlich durch Beratung sowie durch personelle, materielle, fachliche und technische Unterstützung. Weitere Unterstützungsleistungen beinhalten die Analyse mit dem Ziel, Taten und Tatzusammenhänge sowie Tätergruppierungen zu erkennen und Ermittlungsansätze zu generieren, und die Koordination. Die Kantone haben lediglich, sofern sie die Unterstützung beanspruchen wollen, ein konkretes Leistungsbegehren an Fedpol zu stellen. </p><p>Die kantonalen runden Tische gegen Menschenhandel werden durch die Fachstelle Menschenhandel Menschenschmuggel (FSMM) von Fedpol in ihrer Arbeit unterstützt. Die FSMM nimmt auf Wunsch der kantonalen runden Tische an den Sitzungen teil und berät sie in der Ausgestaltung der innerkantonalen Kooperation und in praktischen Fragen der Bekämpfung des Menschenhandels. Zudem stellt die FSMM den Austausch der Erfahrungen aus anderen Kantonen sicher. Die von Fedpol organisierten Tagungen und Workshops unterstützen die Kantone im fachlichen Austausch über Menschenhandel und dienen der Entwicklung der fachlichen Kompetenzen der Kantone.</p><p>Fedpol koordiniert und organisiert für die Kantone regelmässig die sogenannten Joint Action Days. Damit werden an bestimmten Tagen koordinierte Aktionen in Zusammenarbeit mit den Kantonen durchgeführt, um Fälle von Menschenhandel zu identifizieren. </p><p>Schliesslich gestattet die Verordnung über Massnahmen zur Verhütung von Straftaten im Zusammenhang mit Menschenhandel (Verordnung gegen Menschenhandel; SR 311.039.3) dem Bund (Fedpol), Organisationen und Projekte, die sich für die Bekämpfung von Menschenhandel engagieren - beispielsweise in der Opferhilfe -, finanziell zu unterstützen. Dafür stehen jährlich 400 000 Franken zur Verfügung.</p><p>Aus Sicht des Bundesrates stellt der Bund genügend Mittel zur Bekämpfung von Menschenhandel zur Verfügung. Für einen weiteren Ausbau der Ressourcen durch den Bund besteht kein Anlass. </p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20213154,
-  "updated": "2023-03-01T18:34:31Z",
+  "updated": "2024-07-23T19:00:45Z",
   "additionalIndexing": "2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2023-03-01T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-09-26T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
           }
         ]
       },
@@ -67,7 +82,73 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSS-CN",
+            "id": 6,
+            "name": "Commissione della sicurezza sociale e della sanità",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-03-15T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSS-CS",
+            "id": 19,
+            "name": "Commissione della sicurezza sociale e della sanità CS",
+            "abbreviation1": "CSSS-S",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-03-15T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3107,
+                    "gender": "m",
+                    "id": 4206,
+                    "name": "Ettlin Erich",
+                    "officialDenomination": "Ettlin Erich"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo M-E",
+                    "id": 3,
+                    "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5122"
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +169,28 @@
         },
         {
           "date": "/Date(1677625200000+0100)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1688594400000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1688594400000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1695679200000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -129,10 +230,9 @@
   ],
   "shortId": "21.3154",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -148,7 +248,7 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>Come il Consiglio federale ha già avuto modo di illustrare nelle sue risposte a precedenti interventi parlamentari (mozione Humbel 20.4721 \"Applicare effettivamente i risultati degli studi HTA\", interpellanza Nantermod 20.4081 \"Snellire e accelerare le procedure di valutazione delle tecnologie mediche\"), per snellire e ottimizzare la stesura dei rapporti HTA (assessment) vengono considerate e attuate, oltre alle misure già realizzate, anche le raccomandazioni del Controllo federale delle finanze (CDF; cfr. rapporto del 19 maggio 2020 sull'efficienza delle procedure degli Health Technology Assessment).</p><p>Dopo la stesura del rapporto HTA (assessment) su una prestazione, le commissioni federali competenti esaminano le possibilità di regolamentazione ed elaborano raccomandazioni (appraisal) in base alle quali il Dipartimento federale dell'interno o, nel caso dei medicamenti, l'Ufficio federale della sanità pubblica prendono una decisione definitiva (decision). Nel caso dei medicamenti, la possibilità dei titolari delle omologazioni di esercitare i propri diritti di parte in virtù della legge federale sulla procedura amministrativa (PA; RS 172.021) può comportare ritardi.</p><p>Conclusa la fase pilota preparatoria, sarà ora possibile adottare ogni anno diverse decisioni visto che saranno pubblicati regolarmente nuovi rapporti HTA (nel 2021 ne sono previsti 13). Gli adeguamenti già introdotti e le misure di ottimizzazione raccomandate dal CDF permetteranno di accelerare le procedure. Poiché il CDF non ha proposto di adeguare le basi legali, il Consiglio federale ritiene che attualmente non siano indicate ulteriori misure.</p>"
+      "value": "<p>Come il Consiglio federale ha già avuto modo di illustrare nelle sue risposte a precedenti interventi parlamentari (mozione Humbel 20.4721 \"Applicare effettivamente i risultati degli studi HTA\", interpellanza Nantermod 20.4081 \"Snellire e accelerare le procedure di valutazione delle tecnologie mediche\"), per snellire e ottimizzare la stesura dei rapporti HTA (assessment) vengono considerate e attuate, oltre alle misure già realizzate, anche le raccomandazioni del Controllo federale delle finanze (CDF; cfr. rapporto del 19 maggio 2020 sull'efficienza delle procedure degli Health Technology Assessment).</p><p>Dopo la stesura del rapporto HTA (assessment) su una prestazione, le commissioni federali competenti esaminano le possibilità di regolamentazione ed elaborano raccomandazioni (appraisal) in base alle quali il Dipartimento federale dell'interno o, nel caso dei medicamenti, l'Ufficio federale della sanità pubblica prendono una decisione definitiva (decision). Nel caso dei medicamenti, la possibilità dei titolari delle omologazioni di esercitare i propri diritti di parte in virtù della legge federale sulla procedura amministrativa (PA; RS 172.021) può comportare ritardi.</p><p>Conclusa la fase pilota preparatoria, sarà ora possibile adottare ogni anno diverse decisioni visto che saranno pubblicati regolarmente nuovi rapporti HTA (nel 2021 ne sono previsti 13). Gli adeguamenti già introdotti e le misure di ottimizzazione raccomandate dal CDF permetteranno di accelerare le procedure. Poiché il CDF non ha proposto di adeguare le basi legali, il Consiglio federale ritiene che attualmente non siano indicate ulteriori misure.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

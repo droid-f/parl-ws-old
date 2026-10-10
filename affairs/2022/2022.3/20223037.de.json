@@ -1,6 +1,6 @@
 {
   "id": 20223037,
-  "updated": "2022-03-01T15:39:36Z",
+  "updated": "2025-04-24T19:24:14Z",
   "additionalIndexing": "15;55",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,7 +41,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-20T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-09-23T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -54,7 +83,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-07-01T12:25:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2632,
+                    "gender": "m",
+                    "id": 1120,
+                    "name": "Sommaruga Carlo",
+                    "officialDenomination": "Sommaruga Carlo"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -70,8 +180,28 @@
       "states": [
         {
           "date": "/Date(1646089200000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1652824800000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1719784800000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1727042400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -90,7 +220,11 @@
     }
   ],
   "relatedAffairs": [
-
+    {
+      "id": 20243814,
+      "priorityCode": "S",
+      "shortId": "24.3814"
+    }
   ],
   "roles": [
     {
@@ -99,7 +233,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -352,8 +486,8 @@
   ],
   "shortId": "22.3037",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },
@@ -363,7 +497,7 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Die Verwendung der Bezeichnung \"Gruyère\" ist in den Vereinigten Staaten von Amerika seit mehreren Jahren Gegenstand von Verfahren. Einerseits existiert in den Vereinigten Staaten kein System, das dem schweizerischen und europäischen System der geschützten Ursprungsbezeichnungen GUB) und geschützten geografischen Angaben (GGA) entspricht. Folglich ist dort dieser Bereich Gegenstand des Markenrechts. Andererseits weigern sich die Verwenderinnen und Verwender dieser Bezeichnung, auf deren Gebrauch für in den Vereinigten Staaten oder nicht aus der Schweiz und Frankreich stammenden Käse zu verzichten.</p><p>Der Bundesrat versteht deswegen das in der Motion geäusserte Anliegen sehr gut, und er setzt sich bereits seit Jahrzehnten für einen besseren Schutz der schweizerischen geografischen Angaben (GA) im Ausland ein. Aus diesem Grund ist die Schweiz der Genfer Akte des Lissabonner Abkommens beigetreten. Dieser Vertrag ist seit dem 1. Dezember 2021 in Kraft. Die Teilnahme der Schweiz an diesem internationalen System zur Eintragung und zum Schutz von GA ermöglicht es den Begünstigten von Schweizer GUB und GGA, den Schutz ihrer Bezeichnung durch ein einziges, einfaches und kostengünstiges Verfahren bei der Weltorganisation für geistiges Eigentum (WIPO) zu erlangen. Darüber hinaus versucht die Schweiz kontinuierlich, im Rahmen der Verhandlungen über bilaterale Abkommen und Handelsabkommen mit Ländern, die noch nicht der Genfer Akte beigetreten sind, wie z. B. mit den Mercosur-Staaten oder der Republik Moldova, den gegenseitigen Schutz von GA zu erreichen, und zwar auf der Grundlage von GA-Listen. Diese Strategie steht im Einklang mit der Motion 12.3642, die verlangt, dass der Bundesrat beauftragt wird, \"beim Abschluss aller zukünftigen Freihandelsabkommen sowie bilateralen Handels- und Wirtschaftsverträgen die Verwendung von geografischen Herkunftsbezeichnungen nach Möglichkeit zu regeln\".</p><p>Allerdings gilt es darauf hinzuweisen, dass das Ergebnis von Verhandlungen immer von den Ambitionen aller Parteien, einschliesslich der Partner der Schweiz innerhalb der Europäischen Freihandelsassoziation (EFTA), sowie von der Gesamtheit der in einem Handelsabkommen berücksichtigten Aspekte abhängt.</p><p>Abschliessend ist es wichtig zu erwähnen, dass die Schweiz nicht über ein präferenzielles Handelsabkommen mit den Vereinigten Staaten verfügt, und dass sie gegenwärtig auch nicht über ein solches verhandelt. Da also die GUB \"Gruyère\" nicht durch ein internationales Abkommen geschützt ist, obliegt die Beurteilung, ob die GUB in den Vereinigten Staaten als schutzwürdige GA oder jedoch als allgemeine Gattungsbezeichnung angesehen wird, gemäss dem Territorialitätsprinzip den amerikanischen Gerichten.</p><p>Auf der Grundlage der vom Parlament angenommenen Motion 12.3642 ist der Bundesrat der Ansicht, dass das Motionsanliegen bereits erfüllt ist.</p>"
+      "value": "<p>Die Verwendung der Bezeichnung \"Gruyère\" ist in den Vereinigten Staaten von Amerika seit mehreren Jahren Gegenstand von Verfahren. Einerseits existiert in den Vereinigten Staaten kein System, das dem schweizerischen und europäischen System der geschützten Ursprungsbezeichnungen GUB) und geschützten geografischen Angaben (GGA) entspricht. Folglich ist dort dieser Bereich Gegenstand des Markenrechts. Andererseits weigern sich die Verwenderinnen und Verwender dieser Bezeichnung, auf deren Gebrauch für in den Vereinigten Staaten oder nicht aus der Schweiz und Frankreich stammenden Käse zu verzichten.</p><p>Der Bundesrat versteht deswegen das in der Motion geäusserte Anliegen sehr gut, und er setzt sich bereits seit Jahrzehnten für einen besseren Schutz der schweizerischen geografischen Angaben (GA) im Ausland ein. Aus diesem Grund ist die Schweiz der Genfer Akte des Lissabonner Abkommens beigetreten. Dieser Vertrag ist seit dem 1. Dezember 2021 in Kraft. Die Teilnahme der Schweiz an diesem internationalen System zur Eintragung und zum Schutz von GA ermöglicht es den Begünstigten von Schweizer GUB und GGA, den Schutz ihrer Bezeichnung durch ein einziges, einfaches und kostengünstiges Verfahren bei der Weltorganisation für geistiges Eigentum (WIPO) zu erlangen. Darüber hinaus versucht die Schweiz kontinuierlich, im Rahmen der Verhandlungen über bilaterale Abkommen und Handelsabkommen mit Ländern, die noch nicht der Genfer Akte beigetreten sind, wie z. B. mit den Mercosur-Staaten oder der Republik Moldova, den gegenseitigen Schutz von GA zu erreichen, und zwar auf der Grundlage von GA-Listen. Diese Strategie steht im Einklang mit der Motion 12.3642, die verlangt, dass der Bundesrat beauftragt wird, \"beim Abschluss aller zukünftigen Freihandelsabkommen sowie bilateralen Handels- und Wirtschaftsverträgen die Verwendung von geografischen Herkunftsbezeichnungen nach Möglichkeit zu regeln\".</p><p>Allerdings gilt es darauf hinzuweisen, dass das Ergebnis von Verhandlungen immer von den Ambitionen aller Parteien, einschliesslich der Partner der Schweiz innerhalb der Europäischen Freihandelsassoziation (EFTA), sowie von der Gesamtheit der in einem Handelsabkommen berücksichtigten Aspekte abhängt.</p><p>Abschliessend ist es wichtig zu erwähnen, dass die Schweiz nicht über ein präferenzielles Handelsabkommen mit den Vereinigten Staaten verfügt, und dass sie gegenwärtig auch nicht über ein solches verhandelt. Da also die GUB \"Gruyère\" nicht durch ein internationales Abkommen geschützt ist, obliegt die Beurteilung, ob die GUB in den Vereinigten Staaten als schutzwürdige GA oder jedoch als allgemeine Gattungsbezeichnung angesehen wird, gemäss dem Territorialitätsprinzip den amerikanischen Gerichten.</p><p>Auf der Grundlage der vom Parlament angenommenen Motion 12.3642 ist der Bundesrat der Ansicht, dass das Motionsanliegen bereits erfüllt ist.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

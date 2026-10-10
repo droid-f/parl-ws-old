@@ -1,6 +1,6 @@
 {
   "id": 20220440,
-  "updated": "2022-06-20T14:31:30Z",
+  "updated": "2025-04-08T23:42:17Z",
   "additionalIndexing": "09;08;28;1216",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -40,7 +40,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-03-05T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,7 +64,134 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-29T09:48:06Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 10811,
+                    "gender": "m",
+                    "id": 10811,
+                    "name": "Nause Reto",
+                    "officialDenomination": "Nause"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-29T09:48:04Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3055,
+                    "gender": "m",
+                    "id": 4154,
+                    "name": "Addor Jean-Luc",
+                    "officialDenomination": "Addor"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CPS-CN",
+            "id": 8,
+            "name": "Commission de la politique de sécurité CN",
+            "abbreviation1": "CPS-N",
+            "abbreviation2": "CPS",
+            "committeeNumber": 8,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-06-16T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CPS-CE",
+            "id": 21,
+            "name": "Commission de la politique de sécurité CE",
+            "abbreviation1": "CPS-E",
+            "abbreviation2": "CPS",
+            "committeeNumber": 21,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-06-16T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
@@ -66,8 +207,38 @@
       "states": [
         {
           "date": "/Date(1655330400000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1687125600000+0200)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1687212000000+0200)/",
+          "id": 225,
+          "name": "Examen préalable - en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1700089200000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1701298800000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1705964400000+0100)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1709593200000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -287,10 +458,10 @@
   ],
   "shortId": "22.440",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -298,7 +469,7 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Depuis le début de la guerre en Ukraine, certains cantons font état d'une très forte hausse des demandes de permis d'acquisition d'armes, demandes dont on ne connaît pas les raisons, puisqu'il n'existe aucun registre national. Cette situation s'inscrit dans un contexte où, selon des estimations de 2018 (Small Arms Survey), les ménages suisses détiennent quelque 2,3 millions d'armes, ce qui fait de la Suisse l'un des pays occidentaux où la densité d'armes est la plus élevée. Au niveau mondial, elle occupe la quatrième place pour ce qui est de la possession d'armes à titre privé, derrière les Etats-Unis, le Yémen et la Serbie. En l'absence d'un registre central, il n'est pas possible de chiffrer exactement le nombre d'armes se trouvant aujourd'hui dans les ménages privés suisses. Dans un entretien avec les journaux de Tamedia, la directrice de fedpol, Nicoletta della Valle, met en garde contre une augmentation de la propension à la violence depuis la pandémie, d'autant que parmi les personnes enclines à la violence, certaines sont armées. Si l'on veut contrôler les armes et les armements au niveau national, il faut savoir quelle est leur diffusion. Un registre central des armes crée la transparence et la sécurité nécessaires.</p>"
+      "value": "<p>Depuis le début de la guerre en Ukraine, certains cantons font état d'une très forte hausse des demandes de permis d'acquisition d'armes, demandes dont on ne connaît pas les raisons, puisqu'il n'existe aucun registre national. Cette situation s'inscrit dans un contexte où, selon des estimations de 2018 (Small Arms Survey), les ménages suisses détiennent quelque 2,3 millions d'armes, ce qui fait de la Suisse l'un des pays occidentaux où la densité d'armes est la plus élevée. Au niveau mondial, elle occupe la quatrième place pour ce qui est de la possession d'armes à titre privé, derrière les États-Unis, le Yémen et la Serbie. En l'absence d'un registre central, il n'est pas possible de chiffrer exactement le nombre d'armes se trouvant aujourd'hui dans les ménages privés suisses. Dans un entretien avec les journaux de Tamedia, la directrice de fedpol, Nicoletta della Valle, met en garde contre une augmentation de la propension à la violence depuis la pandémie, d'autant que parmi les personnes enclines à la violence, certaines sont armées. Si l'on veut contrôler les armes et les armements au niveau national, il faut savoir quelle est leur diffusion. Un registre central des armes crée la transparence et la sécurité nécessaires.</p>"
     },
     {
       "type": {
@@ -312,8 +483,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Hausse de la propension à la violence et possession d’armes par des particuliers. Pour un registre central des armes !"
+      "value": "Hausse de la propension à la violence et possession d'armes par des particuliers. Pour un registre central des armes! "
     }
   ],
-  "title": "Hausse de la propension à la violence et possession d’armes par des particuliers. Pour un registre central des armes !"
+  "title": "Hausse de la propension à la violence et possession d'armes par des particuliers. Pour un registre central des armes! "
 }

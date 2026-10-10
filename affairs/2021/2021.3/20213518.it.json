@@ -1,6 +1,6 @@
 {
   "id": 20213518,
-  "updated": "2021-10-01T11:04:21Z",
+  "updated": "2025-06-19T09:07:44Z",
   "additionalIndexing": "2846;66;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2021-10-01T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-06-18T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
           }
         ]
       },
@@ -72,7 +87,7 @@
             "abbreviation": "CAPTE-CN",
             "id": 7,
             "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CN",
-            "abbreviation1": "CAPTE-CN",
+            "abbreviation1": "CAPTE-N",
             "abbreviation2": "CAPTE",
             "committeeNumber": 7,
             "council": {
@@ -93,7 +108,7 @@
             "abbreviation": "CAPTE-CS",
             "id": 20,
             "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CS",
-            "abbreviation1": "CAPTE-CS",
+            "abbreviation1": "CAPTE-S",
             "abbreviation2": "CAPTE",
             "committeeNumber": 20,
             "council": {
@@ -106,7 +121,51 @@
           },
           "date": "2021-05-04T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-03-31T16:41:44Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3105,
+                    "gender": "m",
+                    "id": 4204,
+                    "name": "Rieder Beat",
+                    "officialDenomination": "Rieder"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -129,8 +188,18 @@
         },
         {
           "date": "/Date(1633039200000+0200)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1743372000000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1750197600000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -300,10 +369,9 @@
   ],
   "shortId": "21.3518",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -313,6 +381,13 @@
         "name": "Motivazione"
       },
       "value": "<p>Dal 2014, gli impianti solari \"sufficientemente adattati\" ai tetti nelle zone edificabili e nelle zone agricole non sono più soggetti alla classica procedura di autorizzazione edilizia secondo l'art. 18a LPT, ma devono essere unicamente annunciati all'autorità competente, di solito con un termine di preavviso di un mese dall'inizio dei lavori. L'art. 32a OPT (Ordinanza sulla pianificazione del territorio) specifica le condizioni secondo cui un impianto solare è considerato \"sufficientemente adattato\". Tra le altre cose, può sporgere oltre la superficie del tetto ad angolo retto di non più di 20 cm e deve essere realizzato come una superficie compatta. Queste condizioni sono generalmente appropriate per le zone residenziali, ma rappresentano un ostacolo eccessivo per le zone industriali, artigianali e commerciali. In questi casi gli edifici hanno spesso tetti piatti dove gli impianti solari sono montati su supporti e quindi non possono sovente soddisfare le condizioni di cui sopra. Anche i sistemi solari di facciata pur non presentando problemi particolari sono esclusi dalla attuale procedura di annuncio.</p><p>Occorre rilevare che:</p><p>1. Questi tipi di edifici hanno un grande potenziale per raggiungere gli obiettivi della Strategia energetica 2050. Secondo uno studio di Swissolar, circa 13 terawattora di elettricità potrebbero essere generati annualmente sulle superfici adatte dei tetti degli edifici industriali, artigianali e commerciali, e circa 2 terawattora sulle facciate.</p><p>2. In molti casi questi edifici hanno un alto grado di autoconsumo di elettricità prodotta dagli impianti solari installati. Aspetto quest'ultimo non trascurabile.</p><p>Nel frattempo, alcuni cantoni hanno esteso la procedura di annuncio agli impianti su edifici in zone industriali, artigianali o commerciali che sporgono dal tetto per più di 20 cm o sono installati su facciata, riducendo così notevolmente l'onere amministrativo. Nell'interesse di una rapida e più conveniente espansione dell'energia solare, questo dovrebbe però valere per tutta la Svizzera.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "Il Consiglio federale propone di accogliere la mozione."
     },
     {
       "type": {

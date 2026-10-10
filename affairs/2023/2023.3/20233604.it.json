@@ -1,6 +1,6 @@
 {
   "id": 20233604,
-  "updated": "2023-06-09T09:25:20Z",
+  "updated": "2024-12-06T08:51:16Z",
   "additionalIndexing": "2836;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,167 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-09-11T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-03-06T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-09-06T00:00:00Z",
+        "text": "Respingere"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-16T08:59:54Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3012,
+                    "gender": "m",
+                    "id": 4097,
+                    "name": "Müller Leo",
+                    "officialDenomination": "Müller Leo"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CN",
+            "id": 10,
+            "name": "Commissione dell'economia e dei tributi CN",
+            "abbreviation1": "CET-N",
+            "abbreviation2": "CET",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-05T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CS",
+            "id": 23,
+            "name": "Commissione dell'economia e dei tributi CS",
+            "abbreviation1": "CET-S",
+            "abbreviation2": "CET",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-05T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Dipartimento delle Finanze",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1685570400000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1693951200000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1705359600000+0100)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1709679600000+0100)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
         }
       ],
       "texts": [
@@ -152,19 +290,40 @@
   ],
   "shortId": "23.3604",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 209,
+    "name": "Trasmesso al Consiglio federale",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Gli intestatari della previdenza detengono averi presso fondazioni di libero passaggio e fondazioni del pilastro&nbsp;3a. Secondo la statistica delle assicurazioni sociali svizzere, nel 2022 la somma degli averi di previdenza presso le fondazioni di libero passaggio ammonta a circa 35&nbsp;miliardi di franchi e a circa 91&nbsp;miliardi presso le fondazioni del pilastro&nbsp;3a (di cui 32&nbsp;mia. fr. in titoli).</p><p>Queste fondazioni depositano gli averi presso una banca su mandato degli intestatari della previdenza, ma a nome proprio, sotto forma di denaro su un conto oppure sotto forma di titoli in deposito.</p><p>Se la banca presso la quale la fondazione di previdenza ha effettuato l’investimento andasse in fallimento, i titoli depositati verrebbero separati dalla massa a favore della fondazione. Tuttavia i fondi investiti sotto forma di denaro rientrano nella massa fallimentare della banca. Secondo l’articolo&nbsp;37a capoverso&nbsp;5 LBCR in combinato disposto con l’articolo&nbsp;42d capoverso&nbsp;3 dell’ordinanza del 30&nbsp;aprile 2014 sulle banche (OBCR; RS&nbsp;952.02), sono però privilegiati secondo il diritto fallimentare al massimo 100&nbsp;000&nbsp;franchi per intestatario della previdenza e fondazione (2a classe). Tutti i depositi della fondazione privilegiati secondo il diritto fallimentare devono essere garantiti in ragione del 125&nbsp;per cento con attivi situati in Svizzera (art.&nbsp;37<i>a</i> cpv.&nbsp;6 LBCR). Ciò significa che nella sostanza essi sono ben protetti. Vengono infine restituiti alla fondazione di previdenza nel quadro di una lunga procedura relativa alla graduatoria. Per cui, nel peggiore dei casi, la fondazione e quindi anche l’intestatario della previdenza devono aspettare anni fino a che la banca fallita versi i fondi. Ciò causa anche problemi di liquidità alla fondazione (risanamento o liquidazione), motivo per cui ne sono toccati anche gli intestatari che hanno investito i risparmi sotto forma di titoli. Per i fondi non privilegiati (3a&nbsp;classe), nel peggiore dei casi la fondazione e quindi anche l’intestatario devono aspettare un decennio. Oggettivamente, il limite della garanzia fissato a 100&nbsp;000&nbsp;franchi svizzeri è troppo basso. Si tratta di averi della previdenza vincolata che sono necessari per affrontare le varie necessità legate alla vecchiaia e vanno preservati. Per ragioni fiscali uno splitting degli investimenti, ad esempio, è possibile soltanto in maniera limitata e non a posteriori.</p><p>Mentre una cassa pensioni deve farsi carico dell’insolvenza della banca, in caso di fallimento della cassa pensioni interverrebbe in parte il Fondo di garanzia LPP, ma non per gli averi di libero passaggio e del pilastro&nbsp;3a.</p><p>In un rapporto del 9&nbsp;dicembre 2019 in adempimento del postulato 17.3634 presentato dalla Commissione della sicurezza sociale e della sanità del Consiglio nazionale, il Consiglio federale ha proposto di abolire la limitazione a 100&nbsp;000&nbsp;franchi fissata per il privilegio nel fallimento. Purtroppo l’intervento è stato stralciato senza che sia stato intrapreso qualcosa.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Nel contesto dell’analisi degli eventi che hanno reso necessario il pacchetto di misure del 16 e del 19&nbsp;marzo 2023 e portato all’acquisizione di Credit Suisse da parte di UBS, il Dipartimento federale delle finanze, avvalendosi di perizie esterne, sta attualmente analizzando nel dettaglio le circostanze e valutando in modo esaustivo la regolamentazione «too big to fail». I risultati saranno presentati al Parlamento entro un anno nel quadro del prossimo rapporto sulla valutazione delle banche di rilevanza sistemica secondo l’articolo&nbsp;52 della legge sulle banche.</p><p>&nbsp;</p><p>Sebbene il Parlamento abbia da poco approvato la riforma della garanzia dei depositi, tale rapporto tratterà anche la questione di quali misure si impongano nell’ambito della garanzia e del privilegio dei depositi. In questo momento il Consiglio federale non può pertanto impegnarsi ad attuare misure concrete in tali ambiti.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di elaborare una modifica di legge che abolisca l’importo massimo di 100&nbsp;000&nbsp;franchi svizzeri fissato per i depositi privilegiati nel fallimento di cui all’articolo&nbsp;37a capoverso&nbsp;5 della legge dell’8&nbsp;novembre 1934 sulle banche (LBCR; RS&nbsp;952.0). La modifica deve anche prevedere che il pagamento degli averi di previdenza alle pertinenti fondazioni venga effettuato fuori dalla graduatoria, una volta assicurata la possibilità di versare tutti i depositi garantiti. Inoltre deve essere previsto un meccanismo per l’assunzione o la ripartizione dei costi di risanamento o di liquidazione delle fondazioni di previdenza interessate.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Migliorare la protezione degli averi di libero passaggio e del pilastro 3a"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Migliorare la protezione degli averi di libero passaggio e del pilastro 3a"
 }

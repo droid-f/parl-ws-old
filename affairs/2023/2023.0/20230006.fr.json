@@ -1,7 +1,7 @@
 {
   "id": 20230006,
-  "updated": "2023-06-12T18:31:31Z",
-  "additionalIndexing": "0421",
+  "updated": "2024-07-23T19:17:20Z",
+  "additionalIndexing": "421",
   "affairType": {
     "abbreviation": "OCF",
     "id": 1,
@@ -78,6 +78,36 @@
             "date": "2023-06-12T00:00:00Z",
             "text": "Divergences",
             "type": 37
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-09-27T00:00:00Z",
+            "text": "Divergences",
+            "type": 37
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-28T00:00:00Z",
+            "text": "Adhésion",
+            "type": 3
           }
         ]
       },
@@ -94,10 +124,100 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-08-16T11:53:32Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3107,
+                    "gender": "m",
+                    "id": 4206,
+                    "name": "Ettlin Erich",
+                    "officialDenomination": "Ettlin Erich"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe M-E",
+                    "id": 3,
+                    "name": "Le Groupe du Centre. Le Centre. PEV."
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-08-21T12:23:07Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3220,
+                    "gender": "f",
+                    "id": 4325,
+                    "name": "Chassot Isabelle",
+                    "officialDenomination": "Chassot"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe M-E",
+                    "id": 3,
+                    "name": "Le Groupe du Centre. Le Centre. PEV."
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CPE-CE",
             "id": 17,
             "name": "Commission de politique extérieure CE",
-            "abbreviation1": "CPE-CE",
+            "abbreviation1": "CPE-E",
             "abbreviation2": "CPE",
             "committeeNumber": 17,
             "council": {
@@ -108,7 +228,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -135,15 +255,22 @@
                 }
               ],
               "sessionId": "5121"
+            },
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CPE-CN",
             "id": 4,
             "name": "Commission de politique extérieure CN",
-            "abbreviation1": "CPE-CN",
+            "abbreviation1": "CPE-N",
             "abbreviation2": "CPE",
             "committeeNumber": 4,
             "council": {
@@ -154,7 +281,40 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5121"
+            },
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
+            }
+          ],
+          "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "CdF-CE",
+            "id": 15,
+            "name": "Commission des finances CE",
+            "abbreviation1": "CdF-E",
+            "abbreviation2": "CdF",
+            "committeeNumber": 15,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -167,36 +327,10 @@
         },
         {
           "committee": {
-            "abbreviation": "CdF-CE",
-            "id": 15,
-            "name": "Commission des finances CE",
-            "abbreviation1": "CdF-CE",
-            "abbreviation2": "CdF",
-            "committeeNumber": 15,
-            "council": {
-              "abbreviation": "CE",
-              "id": 2,
-              "name": "Conseil des Etats",
-              "type": "S"
-            },
-            "typeCode": 1
-          },
-          "date": "2022-10-12T00:00:00Z",
-          "registrations": [
-            {
-              "correspondents": [
-
-              ],
-              "sessionId": "5121"
-            }
-          ]
-        },
-        {
-          "committee": {
             "abbreviation": "CdF-CN",
             "id": 2,
             "name": "Commission des finances CN",
-            "abbreviation1": "CdF-CN",
+            "abbreviation1": "CdF-N",
             "abbreviation2": "CdF",
             "committeeNumber": 2,
             "council": {
@@ -207,7 +341,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -223,7 +357,7 @@
             "abbreviation": "CdG-CE",
             "id": 16,
             "name": "Commission de gestion CE",
-            "abbreviation1": "CdG-CE",
+            "abbreviation1": "CdG-E",
             "abbreviation2": "CdG",
             "committeeNumber": 16,
             "council": {
@@ -234,7 +368,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -250,7 +384,7 @@
                     "gender": "m",
                     "id": 4309,
                     "name": "Michel Matthias",
-                    "officialDenomination": "Michel"
+                    "officialDenomination": "Michel Matthias"
                   },
                   "faction": {
                     "abbreviation": "Groupe RL",
@@ -262,14 +396,15 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CdG-CN",
             "id": 3,
             "name": "Commission de gestion CN",
-            "abbreviation1": "CdG-CN",
+            "abbreviation1": "CdG-N",
             "abbreviation2": "CdG",
             "committeeNumber": 3,
             "council": {
@@ -280,7 +415,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -296,7 +431,7 @@
             "abbreviation": "CTT-CE",
             "id": 22,
             "name": "Commission des transports et des télécommunications CE",
-            "abbreviation1": "CTT-CE",
+            "abbreviation1": "CTT-E",
             "abbreviation2": "CTT",
             "committeeNumber": 22,
             "council": {
@@ -307,7 +442,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -315,14 +450,15 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CTT-CN",
             "id": 9,
             "name": "Commission des transports et des télécommunications CN",
-            "abbreviation1": "CTT-CN",
+            "abbreviation1": "CTT-N",
             "abbreviation2": "CTT",
             "committeeNumber": 9,
             "council": {
@@ -333,7 +469,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -349,7 +485,7 @@
             "abbreviation": "CAJ-CE",
             "id": 25,
             "name": "Commission des affaires juridiques CE",
-            "abbreviation1": "CAJ-CE",
+            "abbreviation1": "CAJ-E",
             "abbreviation2": "CAJ",
             "committeeNumber": 25,
             "council": {
@@ -360,7 +496,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -368,14 +504,15 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CAJ-CN",
             "id": 12,
             "name": "Commission des affaires juridiques CN",
-            "abbreviation1": "CAJ-CN",
+            "abbreviation1": "CAJ-N",
             "abbreviation2": "CAJ",
             "committeeNumber": 12,
             "council": {
@@ -386,7 +523,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -402,7 +539,7 @@
             "abbreviation": "CSSS-CE",
             "id": 19,
             "name": "Commission de la sécurité sociale et de la santé publique CE",
-            "abbreviation1": "CSSS-CE",
+            "abbreviation1": "CSSS-E",
             "abbreviation2": "CSSS",
             "committeeNumber": 19,
             "council": {
@@ -413,7 +550,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -421,14 +558,15 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CSSS-CN",
             "id": 6,
             "name": "Commission de la sécurité sociale et de la santé publique CN",
-            "abbreviation1": "CSSS-CN",
+            "abbreviation1": "CSSS-N",
             "abbreviation2": "CSSS",
             "committeeNumber": 6,
             "council": {
@@ -439,7 +577,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -455,7 +593,7 @@
             "abbreviation": "CPS-CE",
             "id": 21,
             "name": "Commission de la politique de sécurité CE",
-            "abbreviation1": "CPS-CE",
+            "abbreviation1": "CPS-E",
             "abbreviation2": "CPS",
             "committeeNumber": 21,
             "council": {
@@ -466,7 +604,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -494,14 +632,15 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CPS-CN",
             "id": 8,
             "name": "Commission de la politique de sécurité CN",
-            "abbreviation1": "CPS-CN",
+            "abbreviation1": "CPS-N",
             "abbreviation2": "CPS",
             "committeeNumber": 8,
             "council": {
@@ -512,7 +651,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -528,7 +667,7 @@
             "abbreviation": "CIP-CE",
             "id": 24,
             "name": "Commission des institutions politiques CE",
-            "abbreviation1": "CIP-CE",
+            "abbreviation1": "CIP-E",
             "abbreviation2": "CIP",
             "committeeNumber": 24,
             "council": {
@@ -539,7 +678,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -547,14 +686,15 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CIP-CN",
             "id": 11,
             "name": "Commission des institutions politiques CN",
-            "abbreviation1": "CIP-CN",
+            "abbreviation1": "CIP-N",
             "abbreviation2": "CIP",
             "committeeNumber": 11,
             "council": {
@@ -565,7 +705,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -581,7 +721,7 @@
             "abbreviation": "CEATE-CE",
             "id": 20,
             "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CE",
-            "abbreviation1": "CEATE-CE",
+            "abbreviation1": "CEATE-E",
             "abbreviation2": "CEATE",
             "committeeNumber": 20,
             "council": {
@@ -592,7 +732,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -600,14 +740,15 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CEATE-CN",
             "id": 7,
             "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CN",
-            "abbreviation1": "CEATE-CN",
+            "abbreviation1": "CEATE-N",
             "abbreviation2": "CEATE",
             "committeeNumber": 7,
             "council": {
@@ -618,7 +759,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -634,7 +775,7 @@
             "abbreviation": "CER-CE",
             "id": 23,
             "name": "Commission de l'économie et des redevances CE",
-            "abbreviation1": "CER-CE",
+            "abbreviation1": "CER-E",
             "abbreviation2": "CER",
             "committeeNumber": 23,
             "council": {
@@ -645,22 +786,29 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
 
               ],
               "sessionId": "5121"
+            },
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CER-CN",
             "id": 10,
             "name": "Commission de l'économie et des redevances CN",
-            "abbreviation1": "CER-CN",
+            "abbreviation1": "CER-N",
             "abbreviation2": "CER",
             "committeeNumber": 10,
             "council": {
@@ -671,7 +819,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -687,7 +835,7 @@
             "abbreviation": "CSEC-CE",
             "id": 18,
             "name": "Commission de la science, de l'éducation et de la culture CE",
-            "abbreviation1": "CSEC-CE",
+            "abbreviation1": "CSEC-E",
             "abbreviation2": "CSEC",
             "committeeNumber": 18,
             "council": {
@@ -698,7 +846,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -726,14 +874,15 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CSEC-CN",
             "id": 5,
             "name": "Commission de la science, de l'éducation et de la culture CN",
-            "abbreviation1": "CSEC-CN",
+            "abbreviation1": "CSEC-N",
             "abbreviation2": "CSEC",
             "committeeNumber": 5,
             "council": {
@@ -744,7 +893,7 @@
             },
             "typeCode": 1
           },
-          "date": "2022-10-12T00:00:00Z",
+          "date": "2023-03-03T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -754,6 +903,51 @@
             }
           ],
           "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-09-21T16:15:02Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2641,
+                    "gender": "m",
+                    "id": 1162,
+                    "name": "Kuprecht Alex",
+                    "officialDenomination": "Kuprecht"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe V",
+                    "id": 4,
+                    "name": "Groupe de l'Union démocratique du Centre"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
         }
       ],
       "references": [
@@ -778,7 +972,7 @@
           }
         },
         {
-          "date": "/Date(1680732000000+0200)/",
+          "date": "/Date(1677798000000+0100)/",
           "publication": {
             "isOldFormat": false,
             "page": "870",
@@ -819,8 +1013,18 @@
         },
         {
           "date": "/Date(1686520800000+0200)/",
-          "id": 4,
-          "name": "Traité par les deux conseils"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1688940000000+0200)/",
+          "id": 227,
+          "name": "Dans les deux commissions"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -842,13 +1046,6 @@
       "name": "Conseil des Etats",
       "type": "S",
       "priority": 1
-    },
-    {
-      "abbreviation": "CN",
-      "id": 1,
-      "name": "Conseil national",
-      "type": "N",
-      "priority": 2
     }
   ],
   "relatedAffairs": [
@@ -859,8 +1056,8 @@
   ],
   "shortId": "23.006",
   "state": {
-    "id": 4,
-    "name": "Traité par les deux conseils",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },

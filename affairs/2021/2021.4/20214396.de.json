@@ -1,6 +1,6 @@
 {
   "id": 20214396,
-  "updated": "2023-05-03T08:43:40Z",
+  "updated": "2024-12-18T17:52:19Z",
   "additionalIndexing": "1216;24;15;1211",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2023-05-02T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-12-18T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -68,7 +83,92 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-10-29T14:38:49Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2694,
+                    "gender": "m",
+                    "id": 3891,
+                    "name": "Jositsch Daniel",
+                    "officialDenomination": "Jositsch"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-12-08T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-12-08T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +189,18 @@
         },
         {
           "date": "/Date(1682978400000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1714514400000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1734476400000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -221,10 +331,9 @@
   ],
   "shortId": "21.4396",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -240,7 +349,7 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Der Bundesrat hat in seinem Bericht 2020 zur Finanzmarktpolitik hervorgehoben, dass er hohen Wert auf die Integrität der Finanzmärkte legt und strenge Anforderungen an diesen Bereich stellt. In den letzten Jahren hat er mehrmals die Gesetzgebung auf dem Gebiet der Transparenz und der Identifikation der wirtschaftlich Berechtigten an juristischen Personen angepasst, um die Effektivität des Dispositivs zu verbessern, namentlich im Bereich der Bekämpfung von Geldwäscherei und Terrorismusfinanzierung. Der Bundesrat hat am 3. Dezember 2021 in Erfüllung des Postulates 19.3634 einen Bericht zur \"Umsetzung des Bundesgesetzes zur Umsetzung der Empfehlungen des Globalen Forums über Transparenz und Informationsaustausch für Steuerzwecke\" veröffentlicht. Dabei muss die Einhaltung der internationalen Standards gewährleistet sein, die von der Financial Action Task Force (FATF) und dem Global Forum zur Transparenz und dem Informationsaustausch zu Steuerzwecken herausgegeben werden.</p><p>Seit Februar 2020 arbeitet die FATF an der Revision ihrer Empfehlung 24, dem Standard zur Transparenz und zur Feststellung der wirtschaftlich Berechtigten an juristischen Personen. Die FATF hat vor kurzem eine öffentliche Konsultation zum Entwurf des revidierten Standards durchgeführt (<a  href=\"http://www.fatf-gafi.org/publications/fatfrecommendations/documents/public-consultation-r24.html\">http://www.fatf-gafi.org/publications/fatfrecommendations/documents/public-consultation-r24.html</a>); der Entwurf dürfte im März 2022 verabschiedet werden. Unter den Massnahmen, die für die Revision zur Diskussion stehen, plant die FATF eine Verschärfung ihres Standards betreffend die Effektivität des Zugangs der zuständigen Behörden zu qualitativ hochstehenden Informationen über die wirtschaftlich berechtigten Personen. Um dieses Ziel zu erreichen, werden mehrere Umsetzungsmassnahmen in Betracht gezogen: Schaffung eines Registers, das von einer Behörde oder einer öffentlichen Einrichtung geführt wird, oder Errichtung eines effizienten alternativen Mechanismus.</p><p>Der Bundesrat will sich weder zu einer bestimmten Lösung äussern noch sich auf eine solche beschränken, bevor er nicht eine umfassende Situationsanalyse vorgenommen hat. Unter der Leitung des EFD sind die entsprechenden Vorarbeiten zur Analyse einer Verstärkung des Rechtsdispositivs im Bereich der Transparenz und der wirtschaftlich Berechtigten von juristischen Personen begonnen worden. Der Bundesrat wird bis Mitte 2022 Handlungsoptionen prüfen und das Parlament über die Folgearbeiten informieren.</p><p>Parallel dazu erwägt die FATF auch eine Revision der Empfehlung 25 über die Transparenz und die Feststellung der wirtschaftlich berechtigten Personen von Trusts und anderen Rechtsvereinbarungen. Der Bundesrat verfolgt diese Entwicklungen und informiert das Parlament fortlaufend.</p>"
+      "value": "<p>Der Bundesrat hat in seinem Bericht 2020 zur Finanzmarktpolitik hervorgehoben, dass er hohen Wert auf die Integrität der Finanzmärkte legt und strenge Anforderungen an diesen Bereich stellt. In den letzten Jahren hat er mehrmals die Gesetzgebung auf dem Gebiet der Transparenz und der Identifikation der wirtschaftlich Berechtigten an juristischen Personen angepasst, um die Effektivität des Dispositivs zu verbessern, namentlich im Bereich der Bekämpfung von Geldwäscherei und Terrorismusfinanzierung. Der Bundesrat hat am 3. Dezember 2021 in Erfüllung des Postulates 19.3634 einen Bericht zur \"Umsetzung des Bundesgesetzes zur Umsetzung der Empfehlungen des Globalen Forums über Transparenz und Informationsaustausch für Steuerzwecke\" veröffentlicht. Dabei muss die Einhaltung der internationalen Standards gewährleistet sein, die von der Financial Action Task Force (FATF) und dem Global Forum zur Transparenz und dem Informationsaustausch zu Steuerzwecken herausgegeben werden.</p><p>Seit Februar 2020 arbeitet die FATF an der Revision ihrer Empfehlung 24, dem Standard zur Transparenz und zur Feststellung der wirtschaftlich Berechtigten an juristischen Personen. Die FATF hat vor kurzem eine öffentliche Konsultation zum Entwurf des revidierten Standards durchgeführt (<a href=\"http://www.fatf-gafi.org/publications/fatfrecommendations/documents/public-consultation-r24.html\">http://www.fatf-gafi.org/publications/fatfrecommendations/documents/public-consultation-r24.html</a>); der Entwurf dürfte im März 2022 verabschiedet werden. Unter den Massnahmen, die für die Revision zur Diskussion stehen, plant die FATF eine Verschärfung ihres Standards betreffend die Effektivität des Zugangs der zuständigen Behörden zu qualitativ hochstehenden Informationen über die wirtschaftlich berechtigten Personen. Um dieses Ziel zu erreichen, werden mehrere Umsetzungsmassnahmen in Betracht gezogen: Schaffung eines Registers, das von einer Behörde oder einer öffentlichen Einrichtung geführt wird, oder Errichtung eines effizienten alternativen Mechanismus.</p><p>Der Bundesrat will sich weder zu einer bestimmten Lösung äussern noch sich auf eine solche beschränken, bevor er nicht eine umfassende Situationsanalyse vorgenommen hat. Unter der Leitung des EFD sind die entsprechenden Vorarbeiten zur Analyse einer Verstärkung des Rechtsdispositivs im Bereich der Transparenz und der wirtschaftlich Berechtigten von juristischen Personen begonnen worden. Der Bundesrat wird bis Mitte 2022 Handlungsoptionen prüfen und das Parlament über die Folgearbeiten informieren.</p><p>Parallel dazu erwägt die FATF auch eine Revision der Empfehlung 25 über die Transparenz und die Feststellung der wirtschaftlich berechtigten Personen von Trusts und anderen Rechtsvereinbarungen. Der Bundesrat verfolgt diese Entwicklungen und informiert das Parlament fortlaufend.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20233462,
-  "updated": "2023-04-17T15:40:39Z",
+  "updated": "2025-06-17T11:26:54Z",
   "additionalIndexing": "24;44",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,202 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-03-13T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-03-10T00:00:00Z",
+            "text": "Suspension",
+            "type": 65
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2025-06-16T00:00:00Z",
+            "text": "Suspension",
+            "type": 65
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-05-24T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CER-CE",
+            "id": 23,
+            "name": "Commission de l'économie et des redevances CE",
+            "abbreviation1": "CER-E",
+            "abbreviation2": "CER",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-02-25T11:10:06Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3107,
+                    "gender": "m",
+                    "id": 4206,
+                    "name": "Ettlin Erich",
+                    "officialDenomination": "Ettlin Erich"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CN",
+            "id": 10,
+            "name": "Commission de l'économie et des redevances CN",
+            "abbreviation1": "CER-N",
+            "abbreviation2": "CER",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Département des finances",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1681164000000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1684879200000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1710284400000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1736377200000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1741561200000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1741647600000+0100)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1743544800000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1750024800000+0200)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
         }
       ],
       "texts": [
@@ -102,10 +275,10 @@
   ],
   "shortId": "23.3462",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 207,
+    "name": "Planifié au Conseil des Etats",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -113,14 +286,21 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>En 2008, la Confédération a sauvé UBS. Rebelote en 2023 : la Confédération et la BNS ont mis 250 milliards de francs de liquidités sur la table pour une autre banque d'importance systémique, Credit Suisse.</p><p>Si la Confédération n'avait pas volé au secours d'UBS en 2008 et de Credit Suisse en 2023, ces deux banques d'importance systémiques auraient risqué la faillite.</p><p>Il faut prévenir de telles crises bancaires en responsabilisant davantage les cadres supérieurs.</p><p>Tant à UBS qu'à Credit Suisse, des dirigeants inspirés par la culture bancaire américaine ont effectué des opérations très risquées avec l'argent d'autrui et ainsi conduit leur entreprise au bord de la ruine.</p><p>Entre 2007 et 2021, les membres du conseil d'administration et de la direction du groupe Credit Suisse, qui traversait crise sur crise, ont perçu 1,6 milliard de francs de salaires et de bonus. Parallèlement le cours de l'action a chuté de 91 % entre mi-mai 2007 et fin 2021.</p><p>Il est incompréhensible que de telles rémunérations soient possibles avec de tels résultats.</p><p>Au sein des PME, la situation est tout autre étant donné que les entrepreneurs sont responsables de chaque franc qu'ils investissent dans leur entreprise. Ils agissent par conséquent de manière prudente et responsable.</p><p>La transposition de cette éthique commerciale aux banques d'importance systémique</p><p>aurait des effets positifs.</p>"
+      "value": "<p>En 2008, la Confédération a sauvé UBS. Rebelote en 2023 : la Confédération et la BNS ont mis 250 milliards de francs de liquidités sur la table pour une autre banque d'importance systémique, Credit Suisse.</p><p>Si la Confédération n'avait pas volé au secours d'UBS en 2008 et de Credit Suisse en 2023, ces deux banques d'importance systémiques auraient risqué la faillite.</p><p>Il faut prévenir de telles crises bancaires en responsabilisant davantage les cadres supérieurs.</p><p>Tant à UBS qu'à Credit Suisse, des dirigeants inspirés par la culture bancaire américaine ont effectué des opérations très risquées avec l'argent d'autrui et ainsi conduit leur entreprise au bord de la ruine.</p><p>Entre 2007 et 2021, les membres du conseil d'administration et de la direction du groupe Credit Suisse, qui traversait crise sur crise, ont perçu 1,6 milliard de francs de salaires et de bonus. Parallèlement le cours de l'action a chuté de 91 % entre mi-mai 2007 et fin 2021.</p><p>Il est incompréhensible que de telles rémunérations soient possibles avec de tels résultats.</p><p>Au sein des PME, la situation est tout autre étant donné que les entrepreneurs sont responsables de chaque franc qu'ils investissent dans leur entreprise. Ils agissent par conséquent de manière prudente et responsable.</p><p>La transposition de cette éthique commerciale aux banques d'importance systémique</p><p>aurait des effets positifs.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Pour la partie de la motion qui concerne la responsabilité des cadres supérieurs des banques d'importance systémique, le Conseil fédéral renvoie à l'avis qu'il a rendu sur le postulat <a href=\"https://www.parlament.ch/fr/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20213893\">21.3893</a>, \"Responsabiliser davantage les cadres supérieurs des marchés financiers avec des outils allégés\". Le Département fédéral des finances est en train d'élaborer le rapport en exécution de ce postulat. Le Conseil fédéral en soumettra les conclusions au Parlement dans le rapport sur les banques d'importance systémique qu'il fera en vertu de l'art. 52 de la loi sur les banques.</p><p>Ce rapport traitera également en profondeur la question de savoir quelles mesures s'imposent en lien avec le système de rémunération des banques d'importance systémique. C'est pourquoi, à ce stade, le Conseil fédéral ne peut pas arrêter de mesures concrètes dans ce domaine.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Le Conseil fédéral est chargé de prendre des mesures pour responsabiliser davantage les cadres supérieurs des banques d'importance systémique.</p><p>Si une banque d'importance systémique est menée à la ruine si bien que la Confédération doive la sauver avec des fonds publics, comme UBS en 2008 et Credit Suisse en 2023, les cadres supérieurs devront rembourser à la banque 50 % de leur revenu total (salaire ordinaire plus les bonus) des dix dernières années.</p>"
+      "value": "<p>Le Conseil fédéral est chargé de prendre des mesures pour responsabiliser davantage les cadres supérieurs des banques d'importance systémique.</p><p>Si une banque d'importance systémique est menée à la ruine si bien que la Confédération doive la sauver avec des fonds publics, comme UBS en 2008 et Credit Suisse en 2023, les cadres supérieurs devront rembourser à la banque 50 % de leur revenu total (salaire ordinaire plus les bonus) des dix dernières années.</p>"
     },
     {
       "type": {

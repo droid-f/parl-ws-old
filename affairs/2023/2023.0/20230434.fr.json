@@ -1,6 +1,6 @@
 {
   "id": 20230434,
-  "updated": "2023-06-12T11:05:53Z",
+  "updated": "2024-05-30T08:24:45Z",
   "additionalIndexing": "15;2841;36;55",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -40,7 +40,46 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CSEC-CN",
+              "id": 5,
+              "name": "Commission de la science, de l'éducation et de la culture CN",
+              "abbreviation1": "CSEC-N",
+              "abbreviation2": "CSEC",
+              "committeeNumber": 5,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Conseil national",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-11-09T00:00:00Z",
+            "text": "Ne pas donner suite (conseil prioritaire)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-05-29T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,24 +89,183 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-13T09:08:25Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3088,
+                    "gender": "m",
+                    "id": 4193,
+                    "name": "Nantermod Philippe",
+                    "officialDenomination": "Nantermod"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe RL",
+                    "id": 1,
+                    "name": "Groupe libéral-radical"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CN",
+            "id": 5,
+            "name": "Commission de la science, de l'éducation et de la culture CN",
+            "abbreviation1": "CSEC-N",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-13T09:07:54Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3202,
+                    "gender": "f",
+                    "id": 4305,
+                    "name": "Wismer-Felder Priska",
+                    "officialDenomination": "Wismer Priska"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe M-E",
+                    "id": 3,
+                    "name": "Le Groupe du Centre. Le Centre. PEV."
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CE",
+            "id": 18,
+            "name": "Commission de la science, de l'éducation et de la culture CE",
+            "abbreviation1": "CSEC-E",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1686088800000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1692914400000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1699484400000+0100)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1701385200000+0100)/",
+          "id": 205,
+          "name": "Planifié au Conseil national"
+        },
+        {
+          "date": "/Date(1716933600000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -275,7 +473,7 @@
         "gender": "m",
         "id": 4334,
         "name": "Bläsi Thomas",
-        "officialDenomination": "Bläsi"
+        "officialDenomination": "Bläsi Thomas"
       },
       "type": "cosign"
     },
@@ -297,10 +495,10 @@
   ],
   "shortId": "23.434",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -308,7 +506,7 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Déjà très inspiré, le film \" L'aile ou la cuisse \" tourné en 1976, dans lequel Louis de Funès produisait de la nourriture artificielle, nous a fait rire aux larmes alors qu'aujourd'hui c'est une inquiétante réalité.</p><p>Viandes, légumes, oeufs, fruits, lait.. La liste des denrées alimentaires de synthèse ou produites à base de cellules souches progresse régulièrement et appelle à une sérieuse réflexion sur la production du contenu de nos assiettes.</p><p>Alors que les consommateurs Suisses appellent à des denrées alimentaires naturelles, saines et de proximité, de nombreux acteurs de l'industrie alimentaire s'activent à mettre dans nos assiettes des denrées alimentaires produites exclusivement en laboratoire. </p><p>Dans sa réponse à l'Interpellation 23.3470 sur l'interdiction de la production de viande artificielle, le Conseil fédéral évoque que ces nouvelles denrées alimentaires ne font encore pas partie de notre alimentation habituelle et seront soumises à autorisation afin de garantir la sécurité des consommateurs. </p><p>Le Conseil fédéral précise qu'une interdiction n'est pas nécessaire et qu'aucune demande d'autorisation pour la production de ces alternatives à la viande n'a été déposée.</p><p>Pourtant, une récente édition du journal Le Matin titrait \" Le génie génétique pourrait remplacer les vaches \". L'article mentionne que la multinationale Nestlé a lancé à titre d'essai sur le marché américain un lait génétiquement modifié. </p><p>Son concurrent Unilever, annonçait son intention de vendre sur le marché européen cette année encore de la crème glacée à base de protéines cultivées en laboratoire. Avec le tourisme d'achat ces denrées alimentaires vont se retrouver demain dans nos assiettes.</p><p>Un entrepreneur Suisse établi à Berlin est prêt à lancer une alternative au fromage fabriqué à l'aide du génie génétique. Au niveau indigène, c'est Fenaco qui étudie le potentiel de la viande synthétique qui pourrait être, selon eux, une alternative de diversification pour l'agriculture.</p><p>Les agriculteurs et les acteurs de la filière alimentaire s'inquiètent de cette situation.</p>"
+      "value": "<p>Déjà très inspiré, le film \" L'aile ou la cuisse \" tourné en 1976, dans lequel Louis de Funès produisait de la nourriture artificielle, nous a fait rire aux larmes alors qu'aujourd'hui c'est une inquiétante réalité.</p><p>Viandes, légumes, oeufs, fruits, lait. La liste des denrées alimentaires de synthèse ou produites à base de cellules souches progresse régulièrement et appelle à une sérieuse réflexion sur la production du contenu de nos assiettes.</p><p>Alors que les consommateurs Suisses appellent à des denrées alimentaires naturelles, saines et de proximité, de nombreux acteurs de l'industrie alimentaire s'activent à mettre dans nos assiettes des denrées alimentaires produites exclusivement en laboratoire. </p><p>Dans sa réponse à l'Interpellation 23.3470 sur l'interdiction de la production de viande artificielle, le Conseil fédéral évoque que ces nouvelles denrées alimentaires ne font encore pas partie de notre alimentation habituelle et seront soumises à autorisation afin de garantir la sécurité des consommateurs. </p><p>Le Conseil fédéral précise qu'une interdiction n'est pas nécessaire et qu'aucune demande d'autorisation pour la production de ces alternatives à la viande n'a été déposée.</p><p>Pourtant, une récente édition du journal Le Matin titrait \" Le génie génétique pourrait remplacer les vaches \". L'article mentionne que la multinationale Nestlé a lancé à titre d'essai sur le marché américain un lait génétiquement modifié. </p><p>Son concurrent Unilever, annonçait son intention de vendre sur le marché européen cette année encore de la crème glacée à base de protéines cultivées en laboratoire. Avec le tourisme d'achat ces denrées alimentaires vont se retrouver demain dans nos assiettes.</p><p>Un entrepreneur Suisse établi à Berlin est prêt à lancer une alternative au fromage fabriqué à l'aide du génie génétique. Au niveau indigène, c'est Fenaco qui étudie le potentiel de la viande synthétique qui pourrait être, selon eux, une alternative de diversification pour l'agriculture.</p><p>Les agriculteurs et les acteurs de la filière alimentaire s'inquiètent de cette situation.</p>"
     },
     {
       "type": {
@@ -322,8 +520,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Denrées alimentaires de synthèse ou produites à partir de cellules souches, un encadrement rigoureux est nécessaire"
+      "value": "Denrées alimentaires de synthèse ou produites à partir de cellules souches. Un encadrement rigoureux est nécessaire"
     }
   ],
-  "title": "Denrées alimentaires de synthèse ou produites à partir de cellules souches, un encadrement rigoureux est nécessaire"
+  "title": "Denrées alimentaires de synthèse ou produites à partir de cellules souches. Un encadrement rigoureux est nécessaire"
 }

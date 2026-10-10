@@ -1,6 +1,6 @@
 {
   "id": 20233699,
-  "updated": "2023-06-20T21:16:06Z",
+  "updated": "2024-05-30T10:23:17Z",
   "additionalIndexing": "32;44",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,212 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-28T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-05-30T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-30T00:00:00Z",
+        "text": "Ablehnung"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WBK-SR",
+            "id": 18,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
+            "abbreviation1": "WBK-S",
+            "abbreviation2": "WBK",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-05T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-02T15:51:04Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3218,
+                    "gender": "f",
+                    "id": 4323,
+                    "name": "Weber Céline",
+                    "officialDenomination": "Weber"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WBK-NR",
+            "id": 5,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
+            "abbreviation1": "WBK-N",
+            "abbreviation2": "WBK",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-05T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-02T15:50:46Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 10815,
+                    "gender": "f",
+                    "id": 10815,
+                    "name": "Durrer-Knobel Regina",
+                    "officialDenomination": "Durrer"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "WBF",
+          "id": 8,
+          "name": "Departement für Wirtschaft, Bildung und Forschung",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686693600000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1693346400000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1706828400000+0100)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1717020000000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -82,7 +265,11 @@
     }
   ],
   "relatedAffairs": [
-
+    {
+      "id": 20243010,
+      "priorityCode": "N",
+      "shortId": "24.3010"
+    }
   ],
   "roles": [
     {
@@ -194,19 +381,40 @@
   ],
   "shortId": "23.3699",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Die Weiterbildung ist ein wesentlicher Pfeiler für die Entwicklung von Kompetenzen und für eine funktionierende Wirtschaft. Die bereits vorhandenen Förderinstrumente, die den Zugang zu diesen Weiterbildungen gewährleisten sollen, reichen jedoch nicht aus, um eine echte Chancengleichheit zu gewährleisten – ein Prinzip, das im Bundesgesetz über die Weiterbildung verankert ist. Für Personen, die freiwillig ihre Arbeit aufgeben, z.&nbsp;B. um sich der Kindererziehung zu widmen, die aber beispielsweise bei einer beruflichen Neuorientierung nicht unter die arbeitsmarktlichen Massnahmen der Arbeitslosenversicherung fallen, wird eine Weiterbildung oft gar nicht erst zum Thema.</p><p>Wenn solche Personen versuchen, wieder eine Erwerbstätigkeit aufzunehmen, kommt es sehr oft vor, dass sie nicht mehr über die nötigen Kompetenzen verfügen, um ihren früheren Beruf auszuüben, oder dass ihr Beruf sogar nicht mehr den Bedürfnissen der Wirtschaft entspricht. Wenn diese Menschen zusätzlich von Armut betroffen sind, liegt ihr Fokus natürlich umso mehr darauf, ihren Lebensunterhalt zu sichern, und nicht darauf, sich weiterzubilden. Das ist jedenfalls das Ergebnis einer kürzlich vom BSV in Auftrag gegebenen Studie [1], die hervorhebt, dass finanzielle Schwierigkeiten in Kombination mit dem fehlenden Zugang zur Finanzierung von Bildungsangeboten die geringe Bereitschaft zur Weiterbildung erklären. Die Studie empfiehlt daher, mehr und effektivere Finanzierungsmöglichkeiten zu schaffen.</p><p>Der Bundesrat hat in seinem Bericht über die Auswirkungen der Digitalisierung auf die Beschäftigung [2] zudem die wichtige Rolle der Weiterbildung und des lebenslangen Lernens hervorgehoben, die es ermöglichen, sich an die sich verändernden Kompetenzanforderungen anzupassen – eine Notwendigkeit, die durch die Digitalisierung, die Automatisierung oder die strukturellen Veränderungen, die beispielsweise mit dem Energie- und Klimawandel einhergehen, noch verstärkt wird. Um mit diesen Veränderungen Schritt zu halten, sind berufliche Umschulungen unvermeidlich, und es ist im Interesse des Staats, sicherzustellen, dass die Arbeitnehmerinnen und Arbeitnehmer rasch und effizient die erforderlichen neuen Kompetenzen entwickeln.</p><p>Abgesehen von diesen Überlegungen zur Chancengleichheit und zum Strukturwandel wäre eine höhere staatliche Finanzierung von Umschulungen auch eine Möglichkeit, auf den grossen branchenübergreifenden Arbeitskräftemangel zu reagieren. Im Jahr 2022 zählte die Schweizer Wirtschaft somit zum ersten Mal mehr als 100&nbsp;000 offene Stellen. Das stellt eine echte Gefahr für den Wohlstand des Landes dar.</p><p>Einige Kantone haben bereits Instrumente eingeführt, um Weiterbildungen oder Umschulungen stärker zu unterstützen. So hat zum Beispiel der Kanton Genf Umschulungsstipendien in sein Stipendien- und Studiendarlehenwesen aufgenommen. Solche zusätzlichen Finanzierungen sind Lösungen, die sowohl eine gewisse Chancengleichheit beim Zugang zu Weiterbildungen gewährleisten als auch die Wiedereingliederung von Betroffenen in den Arbeitsmarkt ermöglichen. Um diesen Herausforderungen zu begegnen und die Wirksamkeit verschiedener Lösungen zu bewerten, wird der Bundesrat aufgefordert, in Zusammenarbeit mit einem oder mehreren Kantonen auf freiwilliger Basis ein Pilotprojekt zu starten, wobei die Aufgabenverteilung von Bund und Kantonen zu berücksichtigen ist.</p><p>[1] Forschungsbericht: Förderung der Qualifizierung Erwachsener: armutsgefährdete und -betroffene Personen in ihren Lebenswelten erreichen (2023)</p><p>[2] Auswirkungen der Digitalisierung auf Beschäftigung und Arbeitsbedingungen – Chancen und Risiken (2017)</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>In der Berufs- und Weiterbildung verbessert der Bund zusammen mit den Kantonen und Organisationen der Arbeitswelt die Rahmenbedingungen für Wiedereinstieg, Neuorientierungen und Umschulungen laufend. Die Berufsbildung zeichnet sich dabei durch eine Vielzahl unterschiedlicher Bildungsangebote aus und ist von einer hohen Durchlässigkeit geprägt: Der Besuch weiterführender Bildungsangebote und ein Tätigkeitswechsel im Verlauf des Arbeitslebens sind ohne Umwege möglich. Auf allen Ebenen ist ein vielfältiges Weiterbildungsangebot vorhanden.&nbsp;</p><p>&nbsp;</p><p>Bund und Kantone tragen in Ergänzung zur individuellen Verantwortung und zum Angebot Privater dazu bei, dass sich Personen ihren Fähigkeiten entsprechend weiterbilden können. Die kantonalen Berufs-, Studien- und Laufbahnberatungsstellen richten sich auch an Erwachsene. In allen Kantonen steht zudem mit «viamia» eine kostenlose berufliche Standortbestimmung für über 40-Jährige zur Verfügung. Der Bund unterstützt das Programm in den Jahren 2020-2024 mit rund 37 Millionen Franken. Weiter fördert der Bund gemeinsam mit den Kantonen die Weiterbildung von Erwachsenen mit Bedarf an Grundkompetenzen. 2021-2024 stehen dafür bundesseitig knapp 43 Millionen Franken zur Verfügung. Die Kantone beteiligen sich dabei in mindestens gleichem Umfang. Seit 2018 unterstützt der Bund ferner kantonale Förderprogramme für den Wiedereinstieg in den Pflegeberuf. Ausserdem werden die Teilnehmenden vorbereitender Kurse für eidgenössische Berufs- und höhere Fachprüfungen finanziell entlastet. Der Bund wendete dazu im Jahr 2022 rund 108 Millionen Franken auf. Über 17'000 Personen haben ein entsprechendes Gesuch eingereicht. Von dieser subjektorientierten Finanzierung profitieren auch Wiedereinsteigerinnen. Der Bundesrat hat im Juni 2023 zudem den «Bericht zu den Erwerbsverläufen von Frauen mit Kindern» in Erfüllung des Postulats 20.4327 Arslan verabschiedet. Dieser zeigt, dass das Thema «Verbleib von Frauen in der Erwerbstätigkeit und Wiedereinstieg» in der Bundespolitik strategisch gut eingebettet ist und zahlreiche Massnahmen bereits in Kraft sind.</p><p>&nbsp;</p><p>Angesichts der Arbeits- und Fachkräfteknappheit ist davon auszugehen, dass Unternehmen ein Eigeninteresse haben, familienfreundliche Arbeitsbedingungen anzubieten und sich so gegenüber potenziellen Arbeitnehmenden vorteilhaft zu positionieren. Die Arbeitgeber begünstigen zudem die Weiterbildung ihrer Mitarbeitenden. In vielen Branchen stehen überdies Fonds für Weiterbildungen und Umschulungen zur Verfügung, die von der Wirtschaft finanziert werden. Zudem können die Kantone Stipendien und Darlehen gewähren, wobei der Bund die Kantone mit Beiträgen unterstützt.&nbsp;</p><p>&nbsp;</p><p>Das Absolvieren einer beruflichen Grundbildung geht für Erwachsene oft mit Lohneinbussen einher. Im Rahmen der Initiative «Berufsbildung 2030» wurde unter Federführung der Schweizerischen Berufsbildungsämter-Konferenz (SBBK) die Finanzierungspraxis in den Kantonen analysiert. Es zeigt sich, dass die Finanzierung in der Zuständigkeit verschiedener Institutionen, auch ausserhalb der Berufsbildung, liegt. Um die verschiedenen Zielgruppen zu erreichen, kommt der Koordination und Zusammenarbeit deshalb eine hohe Bedeutung zu. Diese erfolgt im Rahmen der Interinstitutionellen Zusammenarbeit, für die auf Bundes- und auf Kantonsebene entsprechende Strukturen bestehen. Um die Kantone zu unterstützen, hat die SBBK 2022 ein Commitment zur Finanzierung von Berufsabschlüssen Erwachsener verabschiedet und ein Monitoring der Massnahmen eingeführt.</p><p>&nbsp;</p><p>Der Bundesrat sieht aufgrund der ergriffenen Massnahmen aktuell keinen Bedarf für ein Pilotprojekt. Sollte sich Handlungsbedarf abzeichnen, stehen einerseits Koordinationsgremien auf nationaler und interkantonaler Ebene zur Verfügung. Andererseits kann der Bund gestützt auf das Berufsbildungsgesetz Projekte von Kantonen und Dritten finanziell unterstützen.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, mit einem oder mehreren Kantonen ein Pilotprojekt durchzuführen, das darauf abzielt, Personen stärker zu unterstützen, die zu Umschulungszwecken finanzielle Unterstützung für eine Weiterbildung oder eine neue Berufsausbildung benötigen. Diese finanzielle Unterstützung soll insbesondere Personen zugutekommen, die ihre Arbeit freiwillig aufgeben, z.&nbsp;B. um sich um ihre Kinder zu kümmern, die aber nicht unter die arbeitsmarktlichen Massnahmen der Arbeitslosenversicherung fallen.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Verstärkte Unterstützung für Weiterbildungen und berufliche Umschulungen, um die Rückkehr in die Arbeitswelt zu erleichtern"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Verstärkte Unterstützung für Weiterbildungen und berufliche Umschulungen, um die Rückkehr in die Arbeitswelt zu erleichtern"
 }

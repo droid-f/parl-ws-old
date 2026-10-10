@@ -1,6 +1,6 @@
 {
   "id": 20160470,
-  "updated": "2023-06-07T09:09:42Z",
+  "updated": "2025-04-09T00:13:18Z",
   "additionalIndexing": "24;1211",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -49,7 +49,7 @@
               "abbreviation": "CAJ-CN",
               "id": 12,
               "name": "Commission des affaires juridiques CN",
-              "abbreviation1": "CAJ-CN",
+              "abbreviation1": "CAJ-N",
               "abbreviation2": "CAJ",
               "committeeNumber": 12,
               "council": {
@@ -62,7 +62,7 @@
             },
             "council": null,
             "date": "2017-10-19T00:00:00Z",
-            "text": "Donné suite",
+            "text": "Donner suite (conseil prioritaire)",
             "type": 16
           },
           {
@@ -74,7 +74,7 @@
               "abbreviation": "CAJ-CE",
               "id": 25,
               "name": "Commission des affaires juridiques CE",
-              "abbreviation1": "CAJ-CE",
+              "abbreviation1": "CAJ-E",
               "abbreviation2": "CAJ",
               "committeeNumber": 25,
               "council": {
@@ -107,8 +107,8 @@
           },
           {
             "category": {
-              "id": 4,
-              "name": "Complément"
+              "id": 3,
+              "name": "Normal"
             },
             "council": null,
             "date": "2020-06-19T00:00:00Z",
@@ -132,8 +132,8 @@
           },
           {
             "category": {
-              "id": 4,
-              "name": "Complément"
+              "id": 3,
+              "name": "Normal"
             },
             "council": {
               "abbreviation": "CN",
@@ -163,7 +163,7 @@
             "abbreviation": "CAJ-CN",
             "id": 12,
             "name": "Commission des affaires juridiques CN",
-            "abbreviation1": "CAJ-CN",
+            "abbreviation1": "CAJ-N",
             "abbreviation2": "CAJ",
             "committeeNumber": 12,
             "council": {
@@ -196,8 +196,7 @@
             {
               "correspondents": [
 
-              ],
-              "sessionId": "5121"
+              ]
             }
           ],
           "treatmentCategory": "IV"
@@ -207,7 +206,7 @@
             "abbreviation": "CAJ-CE",
             "id": 25,
             "name": "Commission des affaires juridiques CE",
-            "abbreviation1": "CAJ-CE",
+            "abbreviation1": "CAJ-E",
             "abbreviation2": "CAJ",
             "committeeNumber": 25,
             "council": {
@@ -225,26 +224,12 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
         {
-          "committee": {
-            "abbreviation": "CAJ-CN",
-            "id": 12,
-            "name": "Commission des affaires juridiques CN",
-            "abbreviation1": "CAJ-CN",
-            "abbreviation2": "CAJ",
-            "committeeNumber": 12,
-            "council": {
-              "abbreviation": "CN",
-              "id": 1,
-              "name": "Conseil national",
-              "type": "N"
-            },
-            "typeCode": 1
-          },
           "date": "/Date(1682632800000+0200)/",
           "publication": {
             "isOldFormat": false,
@@ -262,13 +247,32 @@
             "id": 6,
             "name": "Rapport"
           }
+        },
+        {
+          "date": "/Date(1692136800000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2044",
+            "source": "FF 2023 2044",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2023/2044.pdf",
+            "year": "2023"
+          },
+          "type": {
+            "id": 2,
+            "name": "Avis du Conseil fédéral"
+          }
         }
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlement",
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
           "leading": true
         }
       ],
@@ -280,8 +284,48 @@
         },
         {
           "date": "/Date(1524693600000+0200)/",
-          "id": 1,
-          "name": "Donné suite"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1693519200000+0200)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1695679200000+0200)/",
+          "id": 205,
+          "name": "Planifié au Conseil national"
+        },
+        {
+          "date": "/Date(1695765600000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1700175600000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1702335600000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1709074800000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -291,22 +335,135 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-27T00:00:00Z",
+            "text": "Décision conforme au projet",
+            "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-12-12T00:00:00Z",
+            "text": "Ne pas entrer en matière",
+            "type": 67
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-02-28T00:00:00Z",
+            "text": "Ne pas entrer en matière",
+            "type": 67
+          }
         ]
       },
       "federalCouncilProposal": {
       },
       "index": 1,
       "links": [
-
+        {
+          "date": "/Date(1709161200000+0100)/",
+          "title": "Consultation",
+          "url": "https://www.parlament.ch/fr/organe/commissions/commissions-thematiques/commissions-caj/consultation-caj-n-16-470"
+        }
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-19T15:47:22Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3055,
+                    "gender": "m",
+                    "id": 4154,
+                    "name": "Addor Jean-Luc",
+                    "officialDenomination": "Addor"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-16T09:23:48Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ]
+            }
+          ]
+        },
         {
           "committee": {
             "abbreviation": "CAJ-CN",
             "id": 12,
             "name": "Commission des affaires juridiques CN",
-            "abbreviation1": "CAJ-CN",
+            "abbreviation1": "CAJ-N",
             "abbreviation2": "CAJ",
             "committeeNumber": 12,
             "council": {
@@ -341,22 +498,6 @@
                     "officialDenomination": "Bregy"
                   },
                   "language": "de"
-                },
-                {
-                  "council": {
-                    "abbreviation": "CN",
-                    "id": 1,
-                    "name": "Conseil national",
-                    "type": "N"
-                  },
-                  "councillor": {
-                    "code": 3222,
-                    "gender": "m",
-                    "id": 4327,
-                    "name": "Mahaim Raphaël",
-                    "officialDenomination": "Mahaim"
-                  },
-                  "language": "fr"
                 }
               ],
               "sessionId": "5122"
@@ -369,7 +510,7 @@
             "abbreviation": "CAJ-CE",
             "id": 25,
             "name": "Commission des affaires juridiques CE",
-            "abbreviation1": "CAJ-CE",
+            "abbreviation1": "CAJ-E",
             "abbreviation2": "CAJ",
             "committeeNumber": 25,
             "council": {
@@ -383,10 +524,70 @@
           "date": "2016-09-29T00:00:00Z",
           "registrations": [
 
+          ],
+          "treatmentCategory": "IIIb/IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-12-07T08:11:33Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2632,
+                    "gender": "m",
+                    "id": 1120,
+                    "name": "Sommaruga Carlo",
+                    "officialDenomination": "Sommaruga Carlo"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
           ]
         }
       ],
       "references": [
+        {
+          "date": "/Date(1682632800000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "1335",
+            "source": "FF 2023 1335",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2023/1335.pdf",
+            "year": "2023"
+          },
+          "type": {
+            "id": 6,
+            "name": "Rapport"
+          }
+        },
         {
           "date": "/Date(1682632800000+0200)/",
           "publication": {
@@ -409,13 +610,58 @@
         }
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1682632800000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1695765600000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1697148000000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1700175600000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1702335600000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1705618800000+0100)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1709074800000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -661,8 +907,8 @@
   ],
   "shortId": "16.470",
   "state": {
-    "id": 1,
-    "name": "Donné suite",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
@@ -672,14 +918,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>L'économie suisse, notamment les PME, connaît une période difficile en raison de la détérioration de la situation conjoncturelle en Suisse et en Europe, du franc fort et des taux d'intérêt négatifs appliqués par certaines banques. Dans ce contexte, un intérêt moratoire fixé à 5 pour cent ou bien au-dessus des taux du marché, équivaut à une charge financière supplémentaire pour de nombreuses entreprises, notamment pour celles dont la situation est déjà critique. Il est par ailleurs prévisible que ces coûts supplémentaires soient répercutés sur le consommateur.</p><p>La marge de fluctuation du Libor à trois mois de la BNS est actuellement comprise entre moins 1,25 et moins 0,25 pour cent. D'autres taux d'intérêt de référence sont fixés à une valeur minimale, voire sont négatifs, c'est-à-dire bien au-dessous du taux de 5 pour cent fixé à l'article 104 CO en vigueur. Il semble donc judicieux d'adapter les intérêts moratoires appliqués par la Confédération aux taux du marché.</p><p>Il est par ailleurs douteux qu'un intérêt moratoire aussi élevé ait un effet dissuasif sur les mauvais payeurs. L'intérêt moratoire appliqué par l'Administration fédérale des contributions, excessif par rapport aux taux du marché, peut en fin de compte apparaître comme un comportement inéquitable, en particulier si on le compare aux taux fixés par les gouvernements cantonaux.</p>"
+      "value": "<p>L'économie suisse, notamment les PME, connaît une période difficile en raison de la détérioration de la situation conjoncturelle en Suisse et en Europe, du franc fort et des taux d'intérêt négatifs appliqués par certaines banques. Dans ce contexte, un intérêt moratoire fixé à 5 % ou bien au-dessus des taux du marché, équivaut à une charge financière supplémentaire pour de nombreuses entreprises, notamment pour celles dont la situation est déjà critique. Il est par ailleurs prévisible que ces coûts supplémentaires soient répercutés sur le consommateur.</p><p>La marge de fluctuation du Libor à trois mois de la BNS est actuellement comprise entre moins 1,25 et moins 0,25 %. D'autres taux d'intérêt de référence sont fixés à une valeur minimale, voire sont négatifs, c'est-à-dire bien au-dessous du taux de 5 % fixé à l'article 104 CO en vigueur. Il semble donc judicieux d'adapter les intérêts moratoires appliqués par la Confédération aux taux du marché.</p><p>Il est par ailleurs douteux qu'un intérêt moratoire aussi élevé ait un effet dissuasif sur les mauvais payeurs. L'intérêt moratoire appliqué par l'Administration fédérale des contributions, excessif par rapport aux taux du marché, peut en fin de compte apparaître comme un comportement inéquitable, en particulier si on le compare aux taux fixés par les gouvernements cantonaux.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Me fondant sur les articles 160 alinéa 1 de la Constitution et 107 de la loi sur le Parlement, je dépose l'initiative parlementaire suivante:</p><p>L'article 104 CO doit être modifié de sorte que l'intérêt moratoire de 5 pour cent en vigueur soit remplacé par une disposition qui le lie à la tendance générale des taux d'intérêt du marché. Il faut également adapter l'ordonnance sur l'intérêt moratoire en matière d'impôt anticipé, le règlement sur l'assurance-vieillesse et survivants (RAVS) et toutes les autres lois, ordonnances, circulaires et dispositions fédérales concernant les intérêts moratoires.</p>"
+      "value": "<p>Me fondant sur les articles 160 alinéa 1 de la Constitution et 107 de la loi sur le Parlement, je dépose l'initiative parlementaire suivante :</p><p>L'article 104 CO doit être modifié de sorte que l'intérêt moratoire de 5 % en vigueur soit remplacé par une disposition qui le lie à la tendance générale des taux d'intérêt du marché. Il faut également adapter l'ordonnance sur l'intérêt moratoire en matière d'impôt anticipé, le règlement sur l'assurance-vieillesse et survivants (RAVS) et toutes les autres lois, ordonnances, circulaires et dispositions fédérales concernant les intérêts moratoires.</p>"
     },
     {
       "type": {

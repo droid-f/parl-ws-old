@@ -1,6 +1,6 @@
 {
   "id": 20220065,
-  "updated": "2023-04-03T07:46:03Z",
+  "updated": "2025-05-15T13:52:36Z",
   "additionalIndexing": "2831;09;28;1216;04;1236",
   "affairType": {
     "abbreviation": "OCF",
@@ -34,7 +34,7 @@
             "abbreviation": "CIP-CN",
             "id": 11,
             "name": "Commissione delle istituzioni politiche CN",
-            "abbreviation1": "CIP-CN",
+            "abbreviation1": "CIP-N",
             "abbreviation2": "CIP",
             "committeeNumber": 11,
             "council": {
@@ -56,7 +56,7 @@
             "abbreviation": "CIP-CS",
             "id": 24,
             "name": "Commissione delle istituzioni politiche CS",
-            "abbreviation1": "CIP-CS",
+            "abbreviation1": "CIP-S",
             "abbreviation2": "CIP",
             "committeeNumber": 24,
             "council": {
@@ -70,7 +70,8 @@
           "date": "2022-10-12T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "IIIb/IV"
         }
       ],
       "references": [
@@ -111,8 +112,23 @@
         },
         {
           "date": "/Date(1678143600000+0100)/",
-          "id": 3,
-          "name": "Trattato dal Consiglio degli Stati"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1695160800000+0200)/",
+          "id": 219,
+          "name": "Pianificato per il voto finale"
+        },
+        {
+          "date": "/Date(1695333600000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -142,6 +158,66 @@
             "date": "2023-03-07T00:00:00Z",
             "text": "Entrata in materia",
             "type": 68
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-06-05T00:00:00Z",
+            "text": "Decisione secondo il disegno (progetto)",
+            "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-20T00:00:00Z",
+            "text": "Adesione",
+            "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Adozione nella votazione finale",
+            "type": 36
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Adozione nella votazione finale",
+            "type": 36
           }
         ]
       },
@@ -157,7 +233,7 @@
             "abbreviation": "CIP-CN",
             "id": 11,
             "name": "Commissione delle istituzioni politiche CN",
-            "abbreviation1": "CIP-CN",
+            "abbreviation1": "CIP-N",
             "abbreviation2": "CIP",
             "committeeNumber": 11,
             "council": {
@@ -170,7 +246,53 @@
           },
           "date": "2022-10-12T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3141,
+                    "gender": "f",
+                    "id": 4249,
+                    "name": "Binder-Keller Marianne",
+                    "officialDenomination": "Binder"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo M-E",
+                    "id": 3,
+                    "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
+                  },
+                  "language": "de"
+                },
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3062,
+                    "gender": "m",
+                    "id": 4156,
+                    "name": "Buffat Michaël",
+                    "officialDenomination": "Buffat"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo V",
+                    "id": 4,
+                    "name": "Gruppo dell'Unione democratica di Centro"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5122"
+            }
           ],
           "treatmentCategory": "IIIb/IV"
         },
@@ -179,7 +301,7 @@
             "abbreviation": "CIP-CS",
             "id": 24,
             "name": "Commissione delle istituzioni politiche CS",
-            "abbreviation1": "CIP-CS",
+            "abbreviation1": "CIP-S",
             "abbreviation2": "CIP",
             "committeeNumber": 24,
             "council": {
@@ -244,7 +366,8 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "IIIb/IV"
         }
       ],
       "references": [
@@ -267,6 +390,45 @@
             "id": 1,
             "name": "Oggetto in deliberazione / progetto"
           }
+        },
+        {
+          "date": "/Date(1696888800000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2295",
+            "source": "FF 2023 2295",
+            "type": {
+              "id": 1,
+              "name": "Foglio federale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/it/federal-gazette/2023/2295.pdf",
+            "year": "2023"
+          },
+          "referendumDeadline": "2024-01-18T00:00:00Z",
+          "type": {
+            "id": 3,
+            "name": "Testo per la votazione finale"
+          }
+        },
+        {
+          "date": "/Date(1747260000000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "620",
+            "source": "RU 2024 620",
+            "type": {
+              "id": 2,
+              "name": "Raccolta ufficiale",
+              "shortName": "RU"
+            },
+            "url": "http://www.admin.ch/opc/it/official-compilation/2024/620.pdf",
+            "year": "2024"
+          },
+          "type": {
+            "id": 5,
+            "name": "Raccolta ufficiale"
+          }
         }
       ],
       "relatedDepartments": [
@@ -285,8 +447,23 @@
         },
         {
           "date": "/Date(1678143600000+0100)/",
-          "id": 3,
-          "name": "Trattato dal Consiglio degli Stati"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1695160800000+0200)/",
+          "id": 219,
+          "name": "Pianificato per il voto finale"
+        },
+        {
+          "date": "/Date(1695938400000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -318,8 +495,8 @@
   ],
   "shortId": "22.065",
   "state": {
-    "id": 3,
-    "name": "Trattato dal Consiglio degli Stati",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
     "newKey": 0
   },

@@ -1,6 +1,6 @@
 {
   "id": 20173748,
-  "updated": "2019-09-16T11:04:22Z",
+  "updated": "2024-09-24T10:42:29Z",
   "additionalIndexing": "48",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2019-09-12T00:00:00Z",
             "text": "Adoption",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-09-24T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
           }
         ]
       },
@@ -67,7 +82,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CTT-CN",
+            "id": 9,
+            "name": "Commission des transports et des télécommunications CN",
+            "abbreviation1": "CTT-N",
+            "abbreviation2": "CTT",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-12-27T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-06-21T12:45:04Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3200,
+                    "gender": "f",
+                    "id": 4303,
+                    "name": "Maret Marianne",
+                    "officialDenomination": "Maret Marianne"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CTT-CE",
+            "id": 22,
+            "name": "Commission des transports et des télécommunications CE",
+            "abbreviation1": "CTT-E",
+            "abbreviation2": "CTT",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-12-27T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +184,28 @@
         },
         {
           "date": "/Date(1568239200000+0200)/",
-          "id": 11,
-          "name": "Motion au 2e conseil"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1710111600000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1718920800000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1724968800000+0200)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1727128800000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -297,7 +413,7 @@
         "gender": "m",
         "id": 4137,
         "name": "Golay Roger",
-        "officialDenomination": "Golay"
+        "officialDenomination": "Golay Roger"
       },
       "type": "cosign"
     },
@@ -559,10 +675,9 @@
   ],
   "shortId": "17.3748",
   "state": {
-    "id": 11,
-    "name": "Motion au 2e conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -571,14 +686,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Etant donné que, par le passé, l'aménagement réglementaire de tronçons autoroutiers très fréquentés n'a pas été réalisé dans le cadre adéquat, le réseau suisse des routes nationales affiche aujourd'hui de nombreux goulets d'étranglement. On réfléchit donc ici et là à la possibilité de réaffecter les bandes d'arrêt d'urgence. Celles-ci ont l'avantage, par rapport aux mesures d'aménagement réglementaires, de permettre d'éliminer à moindre frais les goulets d'étranglement. Il ne faut par exemple pas élargir de ponts ni utiliser des surfaces beaucoup plus grandes. Dans la pratique, on voit aussi que, lors de l'aménagement complet des voies sur les autoroutes, les procédures ordinaires d'approbation des plans sont utilisées par des associations pour formuler des exigences disproportionnées dans le seul but de bloquer l'aménagement pendant des décennies.</p><p>Or, ces réaffectations de la bande d'arrêt d'urgence sont soumises aux mêmes procédures ordinaires d'approbation des plans que dans le cadre de l'aménagement complet des voies d'une autoroute. Cette charge de travail énorme se justifie toutefois difficilement. Les mesures de construction nécessaires pour effectuer une réaffectation de la bande d'arrêt d'urgence sont nettement moindres qu'en cas d'aménagement complet d'un tronçon autoroutier et ne changent pas considérablement la situation en termes de place ni le caractère du tronçon existant. Il serait par conséquent indiqué, en pareils cas, de pouvoir appliquer uniquement la procédure simplifiée d'approbation des plans. Des goulets d'étranglement chroniques pourraient ainsi être éliminés de manière efficace sur les autoroutes suisses.</p>"
+      "value": "<p>Étant donné que, par le passé, l'aménagement réglementaire de tronçons autoroutiers très fréquentés n'a pas été réalisé dans le cadre adéquat, le réseau suisse des routes nationales affiche aujourd'hui de nombreux goulets d'étranglement. On réfléchit donc ici et là à la possibilité de réaffecter les bandes d'arrêt d'urgence. Celles-ci ont l'avantage, par rapport aux mesures d'aménagement réglementaires, de permettre d'éliminer à moindre frais les goulets d'étranglement. Il ne faut par exemple pas élargir de ponts ni utiliser des surfaces beaucoup plus grandes. Dans la pratique, on voit aussi que, lors de l'aménagement complet des voies sur les autoroutes, les procédures ordinaires d'approbation des plans sont utilisées par des associations pour formuler des exigences disproportionnées dans le seul but de bloquer l'aménagement pendant des décennies.</p><p>Or, ces réaffectations de la bande d'arrêt d'urgence sont soumises aux mêmes procédures ordinaires d'approbation des plans que dans le cadre de l'aménagement complet des voies d'une autoroute. Cette charge de travail énorme se justifie toutefois difficilement. Les mesures de construction nécessaires pour effectuer une réaffectation de la bande d'arrêt d'urgence sont nettement moindres qu'en cas d'aménagement complet d'un tronçon autoroutier et ne changent pas considérablement la situation en termes de place ni le caractère du tronçon existant. Il serait par conséquent indiqué, en pareils cas, de pouvoir appliquer uniquement la procédure simplifiée d'approbation des plans. Des goulets d'étranglement chroniques pourraient ainsi être éliminés de manière efficace sur les autoroutes suisses.</p>"
     },
     {
       "type": {
         "id": 14,
         "name": "Réponse CF / Bureau"
       },
-      "value": "<p>Le Conseil fédéral a déjà fait remarquer, dans sa réponse à la question Imark 17.5330, \"Procédure simplifiée pour la réaffectation de la bande d'arrêt d'urgence\", que la réaffectation de la bande d'arrêt d'urgence entre deux jonctions existantes ou sur plusieurs jonctions successives nécessite généralement des travaux de construction plus importants que ceux requis dans les cas mentionnés à l'article 28a de la loi fédérale du 8 mars 1960 sur les routes nationales (RS 725.11), lesquels sont soumis à une procédure d'approbation des plans simplifiée. En effet, les travaux liés à une réaffectation de la bande d'arrêt d'urgence donnent souvent lieu à d'autres travaux comme la mise en place de mesures de protection contre le bruit. Dans ces cas, il est nécessaire d'appliquer une procédure d'approbation des plans ordinaire. Le but de cette dernière est de veiller à ce que les droits des personnes concernées restent suffisamment préservés.</p><p>Le Conseil fédéral rejette donc l'idée exprimée dans la motion, d'autant plus que l'application d'une procédure simplifiée pour la réaffectation de la bande d'arrêt d'urgence constituerait une exception par rapport aux autres projets de construction ayant des effets comparables (par ex. dans le domaine des chemins de fer ou de l'électricité).</p><p>Enfin, il convient de tenir compte du fait que les mesures locales de gestion du trafic, telles que la réaffectation de la bande d'arrêt d'urgence en guise de prolongement de la sortie autoroutière ou entre deux jonctions sur une courte distance et sans gros travaux de construction, ne sont de toute façon pas soumises à la procédure d'approbation des plans relevant du droit sur les routes nationales.</p>"
+      "value": "<p>Le Conseil fédéral a déjà fait remarquer, dans sa réponse à la question Imark 17.5330, \"Procédure simplifiée pour la réaffectation de la bande d'arrêt d'urgence\", que la réaffectation de la bande d'arrêt d'urgence entre deux jonctions existantes ou sur plusieurs jonctions successives nécessite généralement des travaux de construction plus importants que ceux requis dans les cas mentionnés à l'article 28a de la loi fédérale du 8 mars 1960 sur les routes nationales (RS 725.11), lesquels sont soumis à une procédure d'approbation des plans simplifiée. En effet, les travaux liés à une réaffectation de la bande d'arrêt d'urgence donnent souvent lieu à d'autres travaux comme la mise en place de mesures de protection contre le bruit. Dans ces cas, il est nécessaire d'appliquer une procédure d'approbation des plans ordinaire. Le but de cette dernière est de veiller à ce que les droits des personnes concernées restent suffisamment préservés.</p><p>Le Conseil fédéral rejette donc l'idée exprimée dans la motion, d'autant plus que l'application d'une procédure simplifiée pour la réaffectation de la bande d'arrêt d'urgence constituerait une exception par rapport aux autres projets de construction ayant des effets comparables (par ex. dans le domaine des chemins de fer ou de l'électricité).</p><p>Enfin, il convient de tenir compte du fait que les mesures locales de gestion du trafic, telles que la réaffectation de la bande d'arrêt d'urgence en guise de prolongement de la sortie autoroutière ou entre deux jonctions sur une courte distance et sans gros travaux de construction, ne sont de toute façon pas soumises à la procédure d'approbation des plans relevant du droit sur les routes nationales.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {

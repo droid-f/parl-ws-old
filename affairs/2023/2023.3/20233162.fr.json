@@ -1,6 +1,6 @@
 {
   "id": 20233162,
-  "updated": "2023-03-16T15:04:39Z",
+  "updated": "2025-04-24T19:33:37Z",
   "additionalIndexing": "2446;04;2846;66;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,145 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-27T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-06-06T00:00:00Z",
+            "text": "Adoption avec modification",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-12-18T00:00:00Z",
+            "text": "Adhésion",
+            "type": 3
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-05-17T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CER-CN",
+            "id": 10,
+            "name": "Commission de l'économie et des redevances CN",
+            "abbreviation1": "CER-N",
+            "abbreviation2": "CER",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CE",
+            "id": 23,
+            "name": "Commission de l'économie et des redevances CE",
+            "abbreviation1": "CER-E",
+            "abbreviation2": "CER",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-03-26T14:21:59Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2632,
+                    "gender": "m",
+                    "id": 1120,
+                    "name": "Sommaruga Carlo",
+                    "officialDenomination": "Sommaruga Carlo"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +194,38 @@
       "states": [
         {
           "date": "/Date(1678834800000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1684274400000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1695765600000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1711407600000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1717624800000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1728424800000+0200)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1734476400000+0100)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
         }
       ],
       "texts": [
@@ -177,10 +335,10 @@
   ],
   "shortId": "23.3162",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 209,
+    "name": "Transmis au Conseil fédéral",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -188,7 +346,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>La nécessité d'une adaptation aux changements climatiques n'est guère contestée. Or, la végétalisation des toits et des façades est une mesure judicieuse et facile à mettre en oeuvre dans les zones urbaines en particulier, où la végétalisation des toits et des façades est d'une grande importance. Les toits et les façades végétalisés réduisent la pollution atmosphérique et sonore, ralentissent l'écoulement des eaux, accroissent la biodiversité dans les villes et font baisser les températures externes. Ils contribuent en outre à réguler la température à l'intérieur des bâtiments, ce qui permet d'économiser de l'énergie.</p><p>La végétalisation des toits est donc une mesure particulièrement utile dans les zones urbaines régulièrement touchées par des canicules et de fortes précipitations, telles que le Tessin.</p><p>Les cantons peuvent prévoir des déductions pour la protection de l'environnement et les mesures d'économie de l'énergie, dans les limites fixées par le Département fédéral des finances en collaboration avec les cantons (art. 9, al. 3, de la loi sur l'harmonisation des impôts directs des cantons et des communes, LHID; RS 642.14). Alors que les bienfaits de la végétalisation des toits et leur importance pour l'adaptation aux changements climatiques sont bien connus, les cantons n'ont aujourd'hui pas la possibilité de soutenir les investissements de ce type par le biais de déductions fiscales. Or, cette possibilité existe expressément pour d'autres investissements destinés à économiser de l'énergie.</p><p>L'ordonnance sur les frais relatifs aux immeubles (RS 642.116) ne considère comme investissements destinés à économiser de l'énergie et à protéger l'environnement que les dépenses effectuées pour rationaliser la consommation d'énergie ou recourir aux énergies renouvelables. L'ordonnance sur les mesures en faveur de l'utilisation rationnelle de l'énergie et du recours aux énergies renouvelables (RS 642.116.1) ne prend en compte, quant à elle, que les \" mesures tendant à réduire les déperditions énergétiques de l'enveloppe du bâtiment \" et les \" mesures en faveur de l'utilisation rationnelle de l'énergie dans les installations du bâtiment \".</p>"
+      "value": "<p>La nécessité d'une adaptation aux changements climatiques n'est guère contestée. Or, la végétalisation des toits et des façades est une mesure judicieuse et facile à mettre en oeuvre dans les zones urbaines en particulier, où la végétalisation des toits et des façades est d'une grande importance. Les toits et les façades végétalisés réduisent la pollution atmosphérique et sonore, ralentissent l'écoulement des eaux, accroissent la biodiversité dans les villes et font baisser les températures externes. Ils contribuent en outre à réguler la température à l'intérieur des bâtiments, ce qui permet d'économiser de l'énergie.</p><p>La végétalisation des toits est donc une mesure particulièrement utile dans les zones urbaines régulièrement touchées par des canicules et de fortes précipitations, telles que le Tessin.</p><p>Les cantons peuvent prévoir des déductions pour la protection de l'environnement et les mesures d'économie de l'énergie, dans les limites fixées par le Département fédéral des finances en collaboration avec les cantons (art. 9, al. 3, de la loi sur l'harmonisation des impôts directs des cantons et des communes, LHID ; RS 642.14). Alors que les bienfaits de la végétalisation des toits et leur importance pour l'adaptation aux changements climatiques sont bien connus, les cantons n'ont aujourd'hui pas la possibilité de soutenir les investissements de ce type par le biais de déductions fiscales. Or, cette possibilité existe expressément pour d'autres investissements destinés à économiser de l'énergie.</p><p>L'ordonnance sur les frais relatifs aux immeubles (RS 642.116) ne considère comme investissements destinés à économiser de l'énergie et à protéger l'environnement que les dépenses effectuées pour rationaliser la consommation d'énergie ou recourir aux énergies renouvelables. L'ordonnance sur les mesures en faveur de l'utilisation rationnelle de l'énergie et du recours aux énergies renouvelables (RS 642.116.1) ne prend en compte, quant à elle, que les \" mesures tendant à réduire les déperditions énergétiques de l'enveloppe du bâtiment \" et les \" mesures en faveur de l'utilisation rationnelle de l'énergie dans les installations du bâtiment \".</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>À l'art. 32, al. 2, 2e phrase, de la loi fédérale sur l'impôt fédéral direct (LIFD ; RS 642.11), le législateur a assimilé aux frais d'entretien les investissements réalisés sur des immeubles privés qui sont destinés à économiser l'énergie et à ménager l'environnement. Cette règle générale est précisée dans l'ordonnance du Conseil fédéral sur les frais relatifs aux immeubles (RS 642.116) et l'ordonnance du Département fédéral des finances (DFF) sur les mesures en faveur de l'utilisation rationnelle de l'énergie et du recours aux énergies renouvelables (RS 642.116.1). Les investissements déductibles concernent le remplacement ou l'ajout d'éléments de construction ou d'installations dans des bâtiments existants. La liste n'est pas exhaustive. La végétalisation des toits et des façades n'y est pas mentionnée expressément.</p><p>La réglementation spéciale figure sous la forme d'une disposition potestative à l'art. 9, al. 3, let. a, de la loi fédérale sur l'harmonisation des impôts directs des cantons et des communes (LHID ; RS 642.14). Elle est appliquée dans tous les cantons. Les prescriptions édictées à l'échelon fédéral sont déterminantes lorsque l'encouragement fiscal en faveur de mesures visant à économiser l'énergie et à ménager l'environnement est également inscrit dans le droit cantonal.</p><p>Aucune pratique fiscale n'a encore été établie en lien avec les faits décrits par l'autrice de la motion. Leur évaluation dépend de la mesure dans laquelle les effets de la végétalisation des toits et des façades sont réputés suffire pour économiser l'énergie ou ménager l'environnement.</p><p>C'est pourquoi le DFF est prêt à examiner la question en collaboration avec les cantons et le Département fédéral de l'environnement, des transports, de l'énergie et de la communication et à réviser l'ordonnance du DFF susmentionnée si le résultat de cet examen est positif. Si le Conseil national accepte la motion, le Conseil fédéral proposera une modification de l'ordonnance au Conseil des États.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {

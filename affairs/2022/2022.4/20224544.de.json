@@ -1,6 +1,6 @@
 {
   "id": 20224544,
-  "updated": "2022-12-22T10:50:59Z",
+  "updated": "2025-04-24T19:33:13Z",
   "additionalIndexing": "15;24;48",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,17 +41,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-03-12T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-03-19T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-15T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-10-08T14:32:58Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 10839,
+                    "gender": "m",
+                    "id": 10839,
+                    "name": "Poggia Mauro",
+                    "officialDenomination": "Poggia"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -67,8 +180,33 @@
       "states": [
         {
           "date": "/Date(1671145200000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1676415600000+0100)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1710198000000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1728338400000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1742338800000+0100)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -109,10 +247,10 @@
   ],
   "shortId": "22.4544",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -120,22 +258,29 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Der Schweizer Leasingmarkt verfügt über ein geschätztes Volumen von rund 24 Milliarden Schweizer Franken. Knapp 2/3 aller geleasten Fahrzeuge sind Neuwagen. Ein Grossteil der Anbieter von Finanzprodukten sind Leasinggesellschaften, die mit Fahrzeugherstellern oder mit Generalimporteuren verbunden sind (sog. \"captives\"). Solche Leasinggeber können Leasingkonditionen unter den Gestehungskosten anbieten (\"0 %-Leasing\"), weil der Hersteller oder der Generalimporteur die Differenz übernehmen Die tatsächlichen Kosten für einen Leasinggeber betragen jedoch rund 3 Prozent. Diese ungedeckten Gestehungskosten (geschätzt im Durchschnitt rund 4000 Schweizer Franken pro mehrjährigem Leasingvertrag) werden somit durch den Hersteller oder den Generalimporteur quersubventioniert, was die Konsumentinnen und Konsumenten jedoch nicht wissen, da es keine entsprechenden Vorschriften zur Preistransparenz im schweizerischen Recht gibt. Unabhängige Leasinggeber (z.B. Banken) erhalten von den Herstellern oder Generalimporteuren keine Quersubventionen. Deren Leasingkonditionen sind deshalb für die Konsumentinnen und Konsumenten teurer und wenig attraktiv, dafür marktkonform. Solche Quersubventionen führen zu einer Wettbewerbsverzerrung zwischen gebundenen und ungebundenen Leasinggebern, da Erstere nicht verpflichtet sind, solche Quersubventionen auszuweisen. Mit negativen Folgen für Konsumentinnen und Konsumenten: versteckte Quersubventionen werden nämlich über den Fahrzeugpreis wieder auf die Konsumentinnen und Konsumenten abgewälzt. Unter der Wettbewerbsverzerrung leiden aber auch die freien Händler: Konsumentinnen und Konsumenten entscheiden sich bei tiefen Leasingzinsen oder gar zinsfreien Produkten für die Angebote der gebundenen Leasinggesellschaften und damit für Fahrzeuge aus dem markeneigenen Vertriebssystem. Solche Quersubventionen sind für den freien Handel nicht möglich. Um die Wettbewerbsverzerrung aufzuheben, braucht es deshalb eine klare Transparenz und entsprechende Preisvorschriften.</p>"
+      "value": "<p>Der Schweizer Leasingmarkt verfügt über ein geschätztes Volumen von rund 24 Milliarden Schweizer Franken. Knapp 2/3 aller geleasten Fahrzeuge sind Neuwagen. Ein Grossteil der Anbieter von Finanzprodukten sind Leasinggesellschaften, die mit Fahrzeugherstellern oder mit Generalimporteuren verbunden sind (sog. \"captives\"). Solche Leasinggeber können Leasingkonditionen unter den Gestehungskosten anbieten (\"0 Prozent-Leasing\"), weil der Hersteller oder der Generalimporteur die Differenz übernehmen Die tatsächlichen Kosten für einen Leasinggeber betragen jedoch rund 3 Prozent. Diese ungedeckten Gestehungskosten (geschätzt im Durchschnitt rund 4000 Schweizer Franken pro mehrjährigem Leasingvertrag) werden somit durch den Hersteller oder den Generalimporteur quersubventioniert, was die Konsumentinnen und Konsumenten jedoch nicht wissen, da es keine entsprechenden Vorschriften zur Preistransparenz im schweizerischen Recht gibt. Unabhängige Leasinggeber (z.B. Banken) erhalten von den Herstellern oder Generalimporteuren keine Quersubventionen. Deren Leasingkonditionen sind deshalb für die Konsumentinnen und Konsumenten teurer und wenig attraktiv, dafür marktkonform. Solche Quersubventionen führen zu einer Wettbewerbsverzerrung zwischen gebundenen und ungebundenen Leasinggebern, da Erstere nicht verpflichtet sind, solche Quersubventionen auszuweisen. Mit negativen Folgen für Konsumentinnen und Konsumenten: versteckte Quersubventionen werden nämlich über den Fahrzeugpreis wieder auf die Konsumentinnen und Konsumenten abgewälzt. Unter der Wettbewerbsverzerrung leiden aber auch die freien Händler: Konsumentinnen und Konsumenten entscheiden sich bei tiefen Leasingzinsen oder gar zinsfreien Produkten für die Angebote der gebundenen Leasinggesellschaften und damit für Fahrzeuge aus dem markeneigenen Vertriebssystem. Solche Quersubventionen sind für den freien Handel nicht möglich. Um die Wettbewerbsverzerrung aufzuheben, braucht es deshalb eine klare Transparenz und entsprechende Preisvorschriften.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Ein transparenter und unverfälschter Wettbewerb wird durch das Bundesgesetz gegen den unlauteren Wettbewerb (UWG; SR 241) gewährleistet (vgl. Art. 1 UWG). Unlauter handelt insbesondere, wer ausgewählte Waren, Werke oder Leistungen wiederholt unter Einstandspreisen anbietet, diese Angebote in der Werbung besonders hervorhebt und damit den Kunden über die eigene oder die Leistungsfähigkeit von Mitbewerbern täuscht (Art. 3 Abs. 1 Bst. f UWG). Ein wiederholtes Anbieten von Automobilleasing unter dem Einstandspreis ist somit unlauter, soweit die anderen beiden Voraussetzungen erfüllt sind (Hervorhebung des Angebots in der Werbung, Täuschung über die Leistungsfähigkeit). Autoleasingverträge gelten - sofern alle gesetzlichen Voraussetzungen erfüllt sind - als Konsumkreditverträge (Art. 1 Abs. 2 Bst. a des Bundesgesetzes über den Konsumkredit, KKG; SR 221.214.1). Der Anbieter von Konsumkreditverträgen unterliegt bereits heute einer umfassenden Informationspflicht. Er hat bei öffentlichen Auskündigungen über einen Konsumkredit zur Finanzierung von Waren oder Dienstleistungen seine Firma eindeutig zu bezeichnen sowie den Barzahlungspreis, den Preis, der im Rahmen des Kreditvertrags zu bezahlen ist, und den effektiven Jahreszins deutlich anzugeben (Art. 3 Abs. 1 Bst. l UWG). Verlangt wird mithin nur die Angabe des tatsächlich zu bezahlenden Endpreises, nicht jedoch dessen Zustandekommen. Gleichzeitig ist im KKG der zwingende Inhalt eines ihm unterstehenden Leasingvertrages definiert (Art. 11 Abs. 2 KKG). Dazu zählt unter anderem die Angabe des Barkaufpreises im Zeitpunkt des Vertragsabschlusses, die Anzahl, die Höhe und die Fälligkeit der Leasingraten und der effektive Jahreszins (Art. 11 Abs. 2 Bst. a, b und e KKG). Überdies unterliegen die Autoleasingangebote den Vorgaben der Preisbekanntgabeverordnung (PBV, SR 942.211).</p><p>Denn Leasingverträge und mit Kaufgeschäften verbundene Eintauschaktionen (kaufähnliche Rechtsgeschäfte) fallen in den Geltungsbereich dieser Verordnung (Art. 2 Abs. 1 Bst. b PBV). Bei Autoleasingangeboten muss der tatsächlich zu bezahlende Gesamtpreis in Schweizerfranken bekanntgegeben werden (Art. 3 Abs. 1 und Art. 4 Abs. 1 PBV sowie Art. 10 Abs. 1 Bst. h und Abs. 2 PBV). Im Ergebnis führen die gesetzlichen Bestimmungen dazu, dass die zu einer Reduzierung des Endpreises führenden Querfinanzierungen gegenüber den Konsumentinnen und Konsumenten nicht kommuniziert werden müssen (vgl. die Antwort des Bundesrates vom 28.08.2019 auf die Interpellation 19.3751 Zanetti Roberto \"Transparenz und Wettbewerb beim Leasing von Kraftfahrzeugen\"). Hingegen sind täuschende Angebote und die Verletzung der Bekanntgabepflichten bereits gemäss den geltenden gesetzlichen Bestimmungen untersagt.</p><p>Für die Konsumentinnen und Konsumenten ist entscheidend, dass ihnen in öffentlichen Auskündigungen und im Leasingvertrag die Bedingungen des Leasings transparent bekanntgegeben werden und sie insbesondere wissen, was sie das Leasing (periodisch) kostet. Damit verfügen sie vor Vertragsabschluss über alle relevanten Informationen, um die Angebote verschiedener Leasinggeber zu vergleichen, irrtumsfrei zu entscheiden, welches Angebot ihnen am attraktivsten erscheint und welchen Leasinggeber sie berücksichtigen wollen. Eine Pflicht zur Offenlegung der Gestehungs- bzw. Finanzierungskosten oder allfälliger \"Quersubventionen\" ist aus Sicht des Konsumentenschutzes nicht erforderlich und ginge über den Sinn und Zweck von UWG, KKG und PBV hinaus.</p><p>Die vom Motionär beantragte Offenlegungspflicht könnte auch im Hinblick auf das Recht des Anbieters auf Wahrung seines Geschäftsgeheimnisses problematisch sein. Zudem wäre es im Sinne der Gleichbehandlung der Marktteilnehmer im Rahmen eines fairen Wettbewerbs kaum haltbar, wenn einzig gebundene Leasinggeber ihre Finanzierungskosten offenlegen müssten.</p><p>Auch mit Blick auf den Schutz des wirksamen Wettbewerbs ist die erwähnte Form der Quersubventionierung grundsätzlich unproblematisch. Kritische Fälle könnte es geben, wenn es sich bei einem oder mehrerer involvierten Unternehmen um ein marktbeherrschendes oder relativ marktmächtiges Unternehmen handelt, oder wenn eine Abrede mehrerer voneinander unabhängiger Unternehmen vorliegt. In beiden Fällen greift das Kartellgesetz (KG, SR 251) aber bereits heute (vgl. auch die Antwort des Bundesrates zur erwähnten Interpellation Zanetti Roberto).</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Die Gesetzgebung ist so anzupassen, dass bei Quersubventionen durch Fahrzeughersteller respektive Generalimporteure die Finanzierungskosten von Leasinggesellschaften, die mit Fahrzeugherstellern oder Generalimporteuren verbunden sind (sog. \"Captives\"), zwecks Preistransparenz und Verhinderung von Täuschungsangeboten (\"0%-Leasing\") für Leasingnehmerinnen und -nehmer offengelegt werden müssen.</p>"
+      "value": "<p>Die Gesetzgebung ist so anzupassen, dass bei Quersubventionen durch Fahrzeughersteller respektive Generalimporteure die Finanzierungskosten von Leasinggesellschaften, die mit Fahrzeugherstellern oder Generalimporteuren verbunden sind (sog. \"Captives\"), zwecks Preistransparenz und Verhinderung von Täuschungsangeboten (\"0 Prozent-Leasing\") für Leasingnehmerinnen und -nehmer offengelegt werden müssen.</p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Versteckte Quersubventionierungen beim Automobilleasing - fehlende Kostentransparenz"
+      "value": "Versteckte Quersubventionierungen beim Automobilleasing. Fehlende Kostentransparenz"
     }
   ],
-  "title": "Versteckte Quersubventionierungen beim Automobilleasing - fehlende Kostentransparenz"
+  "title": "Versteckte Quersubventionierungen beim Automobilleasing. Fehlende Kostentransparenz"
 }

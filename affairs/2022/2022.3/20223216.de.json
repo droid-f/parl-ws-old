@@ -1,6 +1,6 @@
 {
   "id": 20223216,
-  "updated": "2022-03-22T12:03:21Z",
+  "updated": "2025-04-24T19:29:43Z",
   "additionalIndexing": "55;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,7 +41,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-20T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-05-28T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -54,7 +83,128 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-03-26T14:35:11Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3092,
+                    "gender": "m",
+                    "id": 4172,
+                    "name": "Salzmann Werner",
+                    "officialDenomination": "Salzmann"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-03-26T14:35:19Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3092,
+                    "gender": "m",
+                    "id": 4172,
+                    "name": "Salzmann Werner",
+                    "officialDenomination": "Salzmann"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -70,8 +220,33 @@
       "states": [
         {
           "date": "/Date(1647471600000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1652824800000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1695160800000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1711407600000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1712700000000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1716847200000+0200)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -169,7 +344,7 @@
         "gender": "m",
         "id": 4070,
         "name": "Candinas Martin",
-        "officialDenomination": "Candinas"
+        "officialDenomination": "Candinas Martin"
       },
       "type": "cosign"
     },
@@ -262,8 +437,8 @@
   ],
   "shortId": "22.3216",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
     "newKey": 0
   },
@@ -280,7 +455,7 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Die vom Motionär vorgeschlagene Regelung, die Vegetationsperiode als Kriterium für e vom Motionär vorgeschlagene Regelung, die Vegetationsperiode als Kriterium für die Anzahl Weide- und Auslauftage festzulegen, entspricht der Regelung, wie sie seit Beginn des RAUS-Programms bis 2007 galt.</p><p>Sie führte zu unklaren Verhältnissen im Vollzug und zu Unsicherheiten bei den Bewirtschafterinnen und Bewirtschaftern, da die Vegetationsperiode eine einzelbetriebliche Beurteilung zur Folge hatte. Je nach Lage, Exposition und Bodenverhältnissen variiert der Vegetationsbeginn und damit die Weideperiode im Berggebiet, aber auch in tiefergelegenen Regionen.</p><p>Deshalb wurde 2008 auf die heutige Regelung umgestellt, welche von November bis April 13 Mal pro Monat Auslauf oder Weide und von Mai bis Oktober 26 Mal pro Monat Weide oder Auslauf verlangt. Dabei ist klarzustellen, dass der Auslauf im Mai und Oktober bei verspäteter Vegetation oder frühem Wintereinbruch nicht auf einer Weide stattfinden muss. Es reicht ein befestigter oder mit geeignetem Material ausreichend bedeckter Laufhof. Damit hat jeder Betrieb in allen Höhenlagen die gleiche Anforderung und den gleichen Aufwand. Dieser wird einheitlich mit 190 Franken je Grossvieheinheit und Jahr entschädigt.</p><p>Auch im Tierschutz-Kontrollhandbuch Rinder wird in Analogie zu den RAUS-Bestimmungen die Winterfütterungsperiode vom 1. November bis 30. April definiert. Damit ist der Vollzug bei Tierschutz und RAUS harmonisiert. Dies ermöglicht eine einfache Verständlichkeit für die Bewirtschafterinnen und Bewirtschafter, eine schweizweite Gleichbehandlung, einen administrativ einfachen Vollzug mit einer effizienten Kontrolle.</p><p>Der Vorschlag des Motionärs, die Anzahl Weide- und Auslauftage anteilmässig zu berechnen, würde die Komplexität und den administrativen Aufwand wesentlich erhöhen. Wenn beispielsweise auf einem Betrieb der erste Tag der Vegetationsperiode der 12. Mai wäre, hiesse dies, dass die Tiere bis zum 11. Mai 4,6 Auslauftage (11/31 x 13) auf einer Auslauffläche und ab dem 12. Mai 16,8 Weidetage (20/31 x 26) benötigen würden.</p><p>Für Betriebe im Berggebiet, welche im Mai keine geeignete Auslauffläche haben, besteht bereits seit mehreren Jahren die Möglichkeit einer administrativ einfachen Lösung mittels Ausnahmebewilligung durch den Kanton, die der Infrastruktur des Betriebs Rechnung trägt. Diese Bewilligung kann für bis zu fünf Jahre ausgestellt werden. Die Praxis zeigt, dass es schweizweit nur ganz wenige Betriebe gibt, welche eine derartige Ausnahmebewilligung benötigen. Sollte das Parlament die Motion annehmen, müsste eine Reduktion des RAUS-Beitrags im Verhältnis zur Reduktion der Auslauftage im Mai und Oktober im Berggebiet geprüft werden, da der Mehraufwand zugunsten des Tierwohls geringer wäre.</p>"
+      "value": "<p>Die vom Motionär vorgeschlagene Regelung, die Vegetationsperiode als Kriterium für e vom Motionär vorgeschlagene Regelung, die Vegetationsperiode als Kriterium für die Anzahl Weide- und Auslauftage festzulegen, entspricht der Regelung, wie sie seit Beginn des RAUS-Programms bis 2007 galt.</p><p>Sie führte zu unklaren Verhältnissen im Vollzug und zu Unsicherheiten bei den Bewirtschafterinnen und Bewirtschaftern, da die Vegetationsperiode eine einzelbetriebliche Beurteilung zur Folge hatte. Je nach Lage, Exposition und Bodenverhältnissen variiert der Vegetationsbeginn und damit die Weideperiode im Berggebiet, aber auch in tiefergelegenen Regionen.</p><p>Deshalb wurde 2008 auf die heutige Regelung umgestellt, welche von November bis April 13 Mal pro Monat Auslauf oder Weide und von Mai bis Oktober 26 Mal pro Monat Weide oder Auslauf verlangt. Dabei ist klarzustellen, dass der Auslauf im Mai und Oktober bei verspäteter Vegetation oder frühem Wintereinbruch nicht auf einer Weide stattfinden muss. Es reicht ein befestigter oder mit geeignetem Material ausreichend bedeckter Laufhof. Damit hat jeder Betrieb in allen Höhenlagen die gleiche Anforderung und den gleichen Aufwand. Dieser wird einheitlich mit 190 Franken je Grossvieheinheit und Jahr entschädigt.</p><p>Auch im Tierschutz-Kontrollhandbuch Rinder wird in Analogie zu den RAUS-Bestimmungen die Winterfütterungsperiode vom 1. November bis 30. April definiert. Damit ist der Vollzug bei Tierschutz und RAUS harmonisiert. Dies ermöglicht eine einfache Verständlichkeit für die Bewirtschafterinnen und Bewirtschafter, eine schweizweite Gleichbehandlung, einen administrativ einfachen Vollzug mit einer effizienten Kontrolle.</p><p>Der Vorschlag des Motionärs, die Anzahl Weide- und Auslauftage anteilmässig zu berechnen, würde die Komplexität und den administrativen Aufwand wesentlich erhöhen. Wenn beispielsweise auf einem Betrieb der erste Tag der Vegetationsperiode der 12. Mai wäre, hiesse dies, dass die Tiere bis zum 11. Mai 4,6 Auslauftage (11/31 x 13) auf einer Auslauffläche und ab dem 12. Mai 16,8 Weidetage (20/31 x 26) benötigen würden.</p><p>Für Betriebe im Berggebiet, welche im Mai keine geeignete Auslauffläche haben, besteht bereits seit mehreren Jahren die Möglichkeit einer administrativ einfachen Lösung mittels Ausnahmebewilligung durch den Kanton, die der Infrastruktur des Betriebs Rechnung trägt. Diese Bewilligung kann für bis zu fünf Jahre ausgestellt werden. Die Praxis zeigt, dass es schweizweit nur ganz wenige Betriebe gibt, welche eine derartige Ausnahmebewilligung benötigen. Sollte das Parlament die Motion annehmen, müsste eine Reduktion des RAUS-Beitrags im Verhältnis zur Reduktion der Auslauftage im Mai und Oktober im Berggebiet geprüft werden, da der Mehraufwand zugunsten des Tierwohls geringer wäre.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {
@@ -294,8 +469,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "RAUS-Programm. Weidezeitpunkt an Winterfütterung und damit der Realität anpassen"
+      "value": "RAUS-Programm. Weidezeitpunkt an die Winterfütterung und damit der Realität anpassen"
     }
   ],
-  "title": "RAUS-Programm. Weidezeitpunkt an Winterfütterung und damit der Realität anpassen"
+  "title": "RAUS-Programm. Weidezeitpunkt an die Winterfütterung und damit der Realität anpassen"
 }

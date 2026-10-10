@@ -1,6 +1,6 @@
 {
   "id": 20223727,
-  "updated": "2022-06-20T14:19:07Z",
+  "updated": "2025-04-24T19:25:08Z",
   "additionalIndexing": "28;48",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,172 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-06-11T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-03-11T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-17T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CTT-CN",
+            "id": 9,
+            "name": "Commissione dei trasporti e delle telecomunicazioni CN",
+            "abbreviation1": "CTT-N",
+            "abbreviation2": "CTT",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CTT-CS",
+            "id": 22,
+            "name": "Commissione dei trasporti e delle telecomunicazioni CS",
+            "abbreviation1": "CTT-S",
+            "abbreviation2": "CTT",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-10-25T14:40:01Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3196,
+                    "gender": "m",
+                    "id": 4241,
+                    "name": "Stark Jakob",
+                    "officialDenomination": "Stark"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1655330400000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1660687200000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1718143200000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1729807200000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1739487600000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1741647600000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -120,7 +263,7 @@
         "gender": "m",
         "id": 4070,
         "name": "Candinas Martin",
-        "officialDenomination": "Candinas"
+        "officialDenomination": "Candinas Martin"
       },
       "type": "cosign"
     },
@@ -222,19 +365,40 @@
   ],
   "shortId": "22.3727",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>La sosta gratuita per le persone disabili è consentita già oggi in molti Cantoni e Comuni, coerentemente a quanto prevede l'articolo 20a capoverso 1 lettera a ONC, che autorizza i portatori di handicap motorio a parcheggiare anche in zone con divieto di sosta o al di fuori delle apposite aree segnalate, dove di per sé non si riscuote alcuna tassa. Regolamentazioni diverse fra le regioni causano tuttavia incertezza, tanto che si tende a pagare la sosta in via precauzionale, sebbene per esempio sarebbe prevista un'esenzione. Peraltro i trasporti pubblici offrono tariffe ridotte ai passeggeri con handicap titolari di una \"carta di legittimazione per viaggiatori disabili\", la cosiddetta \"carta di accompagnamento\". La modifica proposta garantirebbe parità di trattamento fra le persone disabili che usano gli stalli segnalati e quelle che parcheggiano in altri spazi, e consentirebbe un allineamento alla prassi delle agevolazioni nei mezzi pubblici. </p><p>In conformità all'articolo 20a capoverso 4 ONC le agevolazioni di parcheggio non vigono nelle zone gestite da privati, al pari dell'esenzione proposta, che si applicherebbe pertanto soltanto nei posteggi pubblici. </p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Garantire e incentivare la mobilità dei portatori di handicap motorio è una questione rilevante per il Consiglio federale. Con l'attuazione della legge del 13 dicembre 2002 sui disabili (LDis; RS 151.3) sono stati conseguiti già importanti progressi in materia di trasporti. La modifica dell'ordinanza del 13 novembre 1962 sulle norme della circolazione stradale (ONC; RS 741.11), entrata in vigore il 1° marzo 2006, ha per esempio ampliato le possibilità di utilizzo di sedie a rotelle motorizzate sulle strade pubbliche (art. 43a ONC), in particolare consentendo alle persone disabili di circolare con questo tipo di ausilio anche nelle aree riservate ai pedoni. Come esposto dal Consiglio federale nel parere alla mozione 13.3790 Gysi \"Parcheggi agevolati per persone con difficoltà motorie\", la Costituzione prevede che la tassazione della circolazione stradale sia di competenza cantonale, come espressamente sancito peraltro dall'articolo 105 capoverso 1 della legge del 19 dicembre 1958 sulla circolazione stradale (LCStr; RS 741.01). La Confederazione non può imporre a Cantoni e Comuni di rinunciare alla riscossione del pagamento dei parcheggi, motivo per cui il Parlamento non ha soddisfatto nemmeno una richiesta analoga presentata dal Cantone di Zurigo con l'iniziativa 09.331 \"LCStr. Per disposizioni in materia di posteggio che non svantaggino le persone con difficoltà motorie\", che mirava alla gratuità generale della sosta per le persone disabili.</p>  Il Consiglio federale propone di respingere la mozione."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di esentare le persone disabili dal pagamento della sosta nei posteggi pubblici, adeguando così l'articolo 20a capoverso 1 lettera b ONC: \"parcheggiare per un tempo illimitato e gratuitamente nei parcheggi\".</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Esentare dal pagamento della sosta le persone disabili (art. 20a cpv. 1 lett. b ONC)"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Esentare dal pagamento della sosta le persone disabili (art. 20a cpv. 1 lett. b ONC)"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20233266,
-  "updated": "2023-03-21T15:04:00Z",
+  "updated": "2025-04-24T19:17:31Z",
   "additionalIndexing": "1236;24;08;09;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,145 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Opposizione"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-06-16T00:00:00Z",
+            "text": "Controverso. Discussione rinviata",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-28T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-03-07T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-05-24T00:00:00Z",
+        "text": "Il Consiglio federale propone di accogliere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CAG-CN",
+            "id": 12,
+            "name": "Commissione degli affari giuridici CN",
+            "abbreviation1": "CAG-N",
+            "abbreviation2": "CAG",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-09T16:11:19Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2631,
+                    "gender": "m",
+                    "id": 1159,
+                    "name": "Schwander Pirmin",
+                    "officialDenomination": "Schwander"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAG-CS",
+            "id": 25,
+            "name": "Commissione degli affari giuridici CS",
+            "abbreviation1": "CAG-S",
+            "abbreviation2": "CAG",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +194,33 @@
       "states": [
         {
           "date": "/Date(1678921200000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1684879200000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1704754800000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1704841200000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1709766000000+0100)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
         }
       ],
       "texts": [
@@ -250,6 +403,16 @@
     },
     {
       "councillor": {
+        "code": 2740,
+        "gender": "m",
+        "id": 4025,
+        "name": "Büchel Roland Rino",
+        "officialDenomination": "Büchel Roland"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
         "code": 3192,
         "gender": "f",
         "id": 4300,
@@ -266,8 +429,8 @@
   ],
   "shortId": "23.3266",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 209,
+    "name": "Trasmesso al Consiglio federale",
     "doneKey": "0",
     "newKey": 0
   },
@@ -281,6 +444,13 @@
     },
     {
       "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Sono attualmente in corso a livello internazionale fattive riflessioni sull'istituzione di un registro dei danni subiti dall'Ucraina a causa dell'aggressione russa nonché di un meccanismo internazionale di compensazione. La Svizzera segue da vicino tutte queste discussioni, che sono tutte interconnesse.</p><p>Il 15 febbraio 2023, il Consiglio federale ha preso atto delle analisi di un gruppo di lavoro posto sotto la guida dell'Ufficio federale di giustizia, che ha concluso che i beni privati russi non possono essere confiscati se non sono di origine illecita. Il Consiglio federale ha inoltre preso atto che l'eventuale confisca delle riserve monetarie della Banca nazionale russa e di altri beni statali russi a scopo di compensazione dell'Ucraina è pure oggetto di discussione a livello internazionale.</p><p>Su entrambe le questioni, la Svizzera intende avvalersi della sua riconosciuta esperienza nel campo del diritto internazionale per garantire che le varie discussioni in corso trovino soluzioni coerenti con il suo ordinamento giuridico interno, il diritto internazionale e gli obiettivi di politica estera.</p>  Il Consiglio federale propone di accogliere la mozione."
+    },
+    {
+      "type": {
         "id": 5,
         "name": "Testo depositato"
       },
@@ -291,8 +461,8 @@
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Base giuridica internazionale per i versamenti a titolo di riparazione all’Ucraina"
+      "value": "Base giuridica internazionale per i versamenti a titolo di riparazione all'Ucraina"
     }
   ],
-  "title": "Base giuridica internazionale per i versamenti a titolo di riparazione all’Ucraina"
+  "title": "Base giuridica internazionale per i versamenti a titolo di riparazione all'Ucraina"
 }

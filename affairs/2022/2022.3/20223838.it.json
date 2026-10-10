@@ -1,6 +1,6 @@
 {
   "id": 20223838,
-  "updated": "2022-06-20T13:51:05Z",
+  "updated": "2025-04-24T19:29:26Z",
   "additionalIndexing": "15;48",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,182 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-02-28T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-03-19T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-09-07T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CET-CS",
+            "id": 23,
+            "name": "Commissione dell'economia e dei tributi CS",
+            "abbreviation1": "CET-S",
+            "abbreviation2": "CET",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-11-15T14:32:25Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3054,
+                    "gender": "m",
+                    "id": 4152,
+                    "name": "Wicki Hans",
+                    "officialDenomination": "Wicki"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CN",
+            "id": 10,
+            "name": "Commissione dell'economia e dei tributi CN",
+            "abbreviation1": "CET-N",
+            "abbreviation2": "CET",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Dipartimento dell'economia, della formazione e della ricerca",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1655416800000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1662501600000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1709074800000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1726524000000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1731625200000+0100)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1732662000000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1742338800000+0100)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
         }
       ],
       "texts": [
@@ -382,19 +535,40 @@
   ],
   "shortId": "22.3838",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 209,
+    "name": "Trasmesso al Consiglio federale",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Le case automobilistiche internazionali intendono modificare il loro modello di distribuzione così da impedire la concorrenza intrabrand a livello nazionale e transfrontaliero tra i concessionari (elusione dell'art. 5 cpv. 4 LCart). Allo stesso tempo, vogliono eliminare la libertà imprenditoriale degli oltre 5000 concessionari svizzeri (PMI) sostituendo, contro la loro volontà, modelli di distribuzione comprovati con contratti di agenzia. Ciò equivale all'interruzione abusiva di una relazione commerciale secondo l'articolo 7 LCart.</p><p>I produttori raggiungono il loro obiettivo introducendo un modello di agenzia o di vendita diretta nella distribuzione degli autoveicoli. La legge svizzera sui cartelli, quindi, non si applica più alle relazioni commerciali tra produttori/importatori e concessionari di autoveicoli, i quali non sono più protetti dal potere di mercato delle case automobilistiche.</p><p>Per l'economia svizzera questo sviluppo è preoccupante. Innanzitutto, perché la volontà legislativa di proteggere la concorrenza intrabrand viene compromessa. L'isola svizzera dei prezzi elevati può così essere cementata in un modo oggi \"legale\". Più di 5000 garage svizzeri perdono inoltre la loro libertà imprenditoriale, la rete si assottiglia artificialmente e i garage rimanenti diventano il \"lungo braccio\" dei produttori. Il risultato è che il margine commerciale generato in Svizzera viene trasferito al gruppo estero.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Ogni azienda è libera di scegliere e strutturare il proprio sistema di distribuzione, purché non vìoli gli articoli 5 o 7 della legge sui cartelli (LCart; RS 251). Obbligare un'azienda a mantenere un sistema di distribuzione esistente equivale a introdurre un obbligo contrattuale di ampia portata. Una regolamentazione simile non solo costituirebbe una forte ingerenza nella libertà economica e contrattuale sancita dalla Costituzione, ma rappresenterebbe anche un notevole impedimento all'innovazione. Inoltre, visto il divieto di risoluzione dei contratti che comporterebbe, non favorirebbe la collaborazione con rivenditori indipendenti qualora si instaurasse un nuovo sistema di distribuzione. Di conseguenza, sarebbe diametralmente opposta ai principi del diritto privato e a quelli del diritto della concorrenza.</p><p>Il Consiglio federale si oppone pertanto all'introduzione di una tale regolamentazione sia a livello intersettoriale che all'interno di un settore specifico.</p><p>In linea di principio, le disposizioni del diritto dei cartelli sono applicabili a tutti i modelli di distribuzione, compresi quelli delle agenzie e della vendita diretta. Secondo la prassi della Commissione della concorrenza (COMCO) e del suo Segretariato, nel caso dei contratti di agenzia i titolari di un'azienda hanno in linea di principio la facoltà di stabilire la strategia commerciale e, quindi, le attività degli agenti per quanto riguarda i beni o i servizi contrattuali, dal momento che sostanzialmente se ne assumono i rischi commerciali (cfr. Vorabklärung i.S. Costa Kreuzfahrten, DPC 2013/4, pag. 476, e Gutachten Vertrieb ausländischer Zeitschriften in der Schweiz, DPC 2017/4, pag. 696). Questa valutazione si riflette anche nel diritto europeo dei cartelli, che a determinate condizioni (molto rigorose) prevede un particolare trattamento per i contratti di agenzia. A differenza di quanto avviene per il modello di agenzia, nella distribuzione diretta il produttore vende direttamente i propri beni o servizi senza ricorrere ai rivenditori. Molto spesso in questi casi non vengono stipulati contratti tra produttori e garage, ma si applicano comunque le disposizioni di protezione previste dalla legislazione sui cartelli. In più, oltre alle norme generali del diritto dei cartelli, nei procedimenti dinanzi alla COMCO vanno considerati i principi enunciati nella comunicazione del 28 giugno 2010 riguardante la valutazione degli accordi verticali (ComVert) e nella comunicazione del 29 giugno 2015 riguardante la valutazione degli accordi verticali nel settore del commercio di autoveicoli (ComAuto). Mentre la prima è attualmente in fase di revisione, la seconda è oggetto di una mozione (18.3898 Pfister Gerhard), già trasmessa, che incarica il Consiglio federale di trasporla in un'ordinanza in base all'articolo 6 LCart.</p><p>In aggiunta, la cessazione di un rapporto commerciale può talvolta costituire un abuso di posizione dominante relativa ai sensi dell'articolo 7 LCart. La legislazione sui cartelli vigente tiene quindi sufficientemente conto di eventuali limitazioni illecite della concorrenza da parte di produttori e importatori di autoveicoli. In sintesi, il Consiglio federale non ritiene necessario intervenire, tanto più che la misura proposta nuocerebbe all'innovazione in Svizzera e sarebbe diametralmente opposta alla libertà economica e contrattuale garantita dalla Costituzione.</p>  Il Consiglio federale propone di respingere la mozione."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>La legge sui cartelli va modificata in modo tale che, in primo luogo, la risoluzione dei contratti con i concessionari e le officine per l'intera rete o per gran parte di essa sia inammissibile se il produttore non è in grado di dimostrare che il nuovo modello di distribuzione è significativamente più efficiente di quello precedente e che, in secondo luogo, anche dopo l'introduzione del modello delle agenzie o della distribuzione diretta, la legge sui cartelli rimanga applicabile ai rapporti tra i produttori/importatori di autoveicoli e i garage svizzeri degradati a semplici punti di consegna.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Protezione dall'introduzione unilaterale del modello delle agenzie nel mercato automobilistico"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Protezione dall'introduzione unilaterale del modello delle agenzie nel mercato automobilistico"
 }

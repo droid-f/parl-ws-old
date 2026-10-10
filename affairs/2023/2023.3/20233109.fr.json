@@ -1,6 +1,6 @@
 {
   "id": 20233109,
-  "updated": "2023-03-10T11:25:47Z",
+  "updated": "2025-06-04T15:37:44Z",
   "additionalIndexing": "2841;15;52;28",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-06-12T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-06-04T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-05-24T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSSS-CN",
+            "id": 6,
+            "name": "Commission de la sécurité sociale et de la santé publique CN",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-04-08T10:14:39Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3125,
+                    "gender": "f",
+                    "id": 4224,
+                    "name": "Wasserfallen Flavia",
+                    "officialDenomination": "Wasserfallen Flavia"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSSS-CE",
+            "id": 19,
+            "name": "Commission de la sécurité sociale et de la santé publique CE",
+            "abbreviation1": "CSSS-E",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +179,38 @@
       "states": [
         {
           "date": "/Date(1678316400000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1684879200000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1718143200000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1725228000000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1742943600000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1743631200000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1748988000000+0200)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
         }
       ],
       "texts": [
@@ -357,8 +500,8 @@
   ],
   "shortId": "23.3109",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 209,
+    "name": "Transmis au Conseil fédéral",
     "doneKey": "0",
     "newKey": 0
   },
@@ -368,7 +511,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Depuis 2020, de nouvelles cigarettes électroniques jetables (\" puffs \") sont arrivées sur le marché suisse et connaissent depuis deux ans un essor important, en particulier auprès des adolescents et pré-adolescents. Or ces produits à usage unique peuvent contenir des quantités élevées de nicotine, surpassant même parfois le seuil légal de 20 mg/ml, quantité correspondant à plusieurs centaines de bouffées de cigarettes conventionnelles, soit plus d'un paquet.</p><p>Les puffs disponibles sur le marché actuellement contiennent tous des arômes, et souvent de la nicotine sous forme de sel de nicotine. Un sel de nicotine qui n'est pas plus dangereux que la nicotine mais qui possède un potentiel d'addiction plus élevé. Les milieux de la prévention du tabagisme s'inquiètent du risque accru de dépendance à cette substance chez les jeunes, dont le cerveau est encore en formation.</p><p>De plus, ces produits colorés ressemblant à de gros stylos contiennent des arômes sucrés et fruités et sont agressivement promus sur les réseaux sociaux, afin de cibler spécifiquement enfants et adolescents.</p><p>Au niveau écologique, les cigarettes électroniques à usage unique sont très problématiques puisqu'elles finissent le plus souvent à la poubelle, quand ce n'est pas dans la nature, alors même qu'elles contiennent des composants plastiques, électronique et chimiques.</p><p>Une étude récente réalisée par Unisanté à Lausanne en collaboration avec Promotion santé Valais confirme l'ampleur de cette problématique auprès des jeunes en Romandie: 59 % des jeunes de 14 à 25 ans en ont déjà consommé et 12 % en consomment fréquemment (10 jours ou plus au cours des 30 derniers jours), y compris 9 % des 14-17 ans.</p><p>Face à ce constat, un consensus d'experts publié le 1er février 2023 dans la Revue Médicale Suisse recommande une interdiction de vente de ces cigarettes électroniques jetables.</p><p>Il est urgent que le monde politique se saisisse de cette problématique et agisse en conséquence. Devant la rapide progression de ces produits particulièrement nocifs pour la santé des (pré-)adolescents et représentant un véritable problème écologique, il convient d'adapter la Loi sur les produits du tabac et les cigarettes électroniques afin d'interdire la vente des \" puffs \".</p>"
+      "value": "<p>Depuis 2020, de nouvelles cigarettes électroniques jetables (\" puffs \") sont arrivées sur le marché suisse et connaissent depuis deux ans un essor important, en particulier auprès des adolescents et pré-adolescents. Or ces produits à usage unique peuvent contenir des quantités élevées de nicotine, surpassant même parfois le seuil légal de 20 mg/ml, quantité correspondant à plusieurs centaines de bouffées de cigarettes conventionnelles, soit plus d'un paquet.</p><p>Les puffs disponibles sur le marché actuellement contiennent tous des arômes, et souvent de la nicotine sous forme de sel de nicotine. Un sel de nicotine qui n'est pas plus dangereux que la nicotine mais qui possède un potentiel d'addiction plus élevé. Les milieux de la prévention du tabagisme s'inquiètent du risque accru de dépendance à cette substance chez les jeunes, dont le cerveau est encore en formation.</p><p>De plus, ces produits colorés ressemblant à de gros stylos contiennent des arômes sucrés et fruités et sont agressivement promus sur les réseaux sociaux, afin de cibler spécifiquement enfants et adolescents.</p><p>Au niveau écologique, les cigarettes électroniques à usage unique sont très problématiques puisqu'elles finissent le plus souvent à la poubelle, quand ce n'est pas dans la nature, alors même qu'elles contiennent des composants plastiques, électronique et chimiques.</p><p>Une étude récente réalisée par Unisanté à Lausanne en collaboration avec Promotion santé Valais confirme l'ampleur de cette problématique auprès des jeunes en Romandie : 59 % des jeunes de 14 à 25 ans en ont déjà consommé et 12 % en consomment fréquemment (10 jours ou plus au cours des 30 derniers jours), y compris 9 % des 14-17 ans.</p><p>Face à ce constat, un consensus d'experts publié le 1er février 2023 dans la Revue Médicale Suisse recommande une interdiction de vente de ces cigarettes électroniques jetables.</p><p>Il est urgent que le monde politique se saisisse de cette problématique et agisse en conséquence. Devant la rapide progression de ces produits particulièrement nocifs pour la santé des (pré-)adolescents et représentant un véritable problème écologique, il convient d'adapter la Loi sur les produits du tabac et les cigarettes électroniques afin d'interdire la vente des \" puffs \".</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>De par leur faible coût, leurs arômes variés et leur accessibilité, les cigarettes électroniques à usage unique sont attractives pour les jeunes qui sont nombreux à les consommer. Or, la plupart de ces produits contiennent de la nicotine, dont le potentiel addictif est élevé. Concernant leur potentiel apport en matière de lutte antitabac, même si ces produits peuvent représenter une alternative moins nocive pour les fumeurs, ceux-ci ne présentent pas d'intérêt car d'autres cigarettes électroniques rechargeables sont disponibles sur le marché.</p><p>De plus, ces produits posent des questions environnementales (Hendlin YH. Alert : Public Health Implications of Electronic Cigarette Waste. Am J Public Health. 2018 Nov ;108(11):1489-1490). En effet, de par leur conception, les cigarettes électroniques à usage unique ne peuvent pas être rechargées et la batterie ne peut pas être remplacée, ce qui les rend critiques du point de vue de l'économie circulaire et de la préservation des ressources. Or, chacun de ces produits est doté d'une batterie au lithium-ion d'une capacité de plusieurs centaines de milliampères-heures.</p><p>Le Conseil fédéral propose toutefois le rejet de la motion pour les raisons suivantes :</p><p>Même si des démarches sont en cours dans plusieurs pays, une telle interdiction n'existe pour l'heure pas dans l'Union européenne. Une interdiction de vente de cigarettes électroniques à usage unique limitée à la Suisse créerait donc une nouvelle entrave technique au commerce. À cet égard, la loi fédérale sur les entraves techniques au commerce (LETC), qui prescrit la compatibilité des prescriptions techniques avec celles des principaux partenaires commerciaux de la Suisse (art. 4 LETC), doit être prise en compte.</p><p>En matière de politique de santé, plusieurs modifications de loi sont en cours et permettront déjà de renforcer la protection de la population et notamment des jeunes. La loi fédérale sur les produits du tabac et les cigarettes électroniques (LPTab, FF 2021<b></b>2327), dont l'entrée en vigueur est prévue pour 2024, interdit la vente de ces produits aux mineurs. Elle prévoit également des restrictions à la publicité pour ces produits et limite leur teneur en nicotine à 20 mg/ml. Les restrictions à la publicité seront encore renforcées avec la révision de la LPTab dont le message sera transmis au Parlement mi 2023. Enfin, le Conseil fédéral a adopté le 26 octobre 2022 le message relatif à la modification de la loi fédérale sur l'imposition du tabac (LTab, RS 641.31) qui réintroduit un impôt sur les cigarettes électroniques et prévoit un impôt plus élevé pour celles à usage unique. L'impôt plus élevé sur les cigarettes électronique à usage unique a pour but d'empêcher que les adolescents et les jeunes adultes commencent à consommer ces produits, en ayant un effet dissuasif auprès des jeunes dont les moyens financiers sont limités. Il contribuerait ainsi à protéger leur santé (cf. art. 118, al. 1 Cst.).</p><p>En ce qui concerne l'impact sur l'environnement, l'ordonnance sur la restitution, la reprise et l'élimination des appareils électriques et électroniques (OREA, RS 814.620) s'applique déjà aux cigarettes électroniques. Elles doivent ainsi être restituées par les consommateurs et être reprises gratuitement par les fabricants. Ces derniers ont l'obligation d'assurer l'élimination respectueuse de l'environnement et conforme à l'état de la technique. En outre, la fondation SENS (www.erecycling.ch), experte de la valorisation durable des appareils électriques et électroniques usagés, est actuellement en train de mettre en place une solution sectorielle qui permettrait d'améliorer la collecte et le recyclage de ces appareils.</p><p>Par ailleurs, comme mentionné dans sa réponse à l'Ip. 22.3848 Gugger \" Réglementer les déchets toxiques générés par les cigarettes électroniques \", avec l'art. 30a de la loi fédérale sur la protection de l'environnement (LPE, RS 814.01), le Conseil fédéral dispose déjà d'une base légale pour interdire des produits à usage unique si les atteintes à l'environnement qu'ils génèrent ne sont pas justifiés par les avantages qu'en procure leur usage. La question de savoir si une telle interdiction pourrait se justifier nécessiterait un examen approfondi, au cours duquel il faudrait mettre en balance l'utilité et la nocivité pour l'environnement des cigarettes électroniques à usage unique. Il conviendrait également d'examiner des moyens moins contraignants.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {
@@ -382,8 +532,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Pour une interdiction des cigarettes électroniques à usage unique ( \" puffs \" )"
+      "value": "Pour une interdiction des cigarettes électroniques à usage unique (puffs)"
     }
   ],
-  "title": "Pour une interdiction des cigarettes électroniques à usage unique ( \" puffs \" )"
+  "title": "Pour une interdiction des cigarettes électroniques à usage unique (puffs)"
 }

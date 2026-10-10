@@ -1,6 +1,6 @@
 {
   "id": 20214627,
-  "updated": "2021-12-20T15:02:07Z",
+  "updated": "2025-04-24T19:34:40Z",
   "additionalIndexing": "34;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,172 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-26T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-03-06T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CTT-CN",
+            "id": 9,
+            "name": "Commissione dei trasporti e delle telecomunicazioni CN",
+            "abbreviation1": "CTT-N",
+            "abbreviation2": "CTT",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CTT-CS",
+            "id": 22,
+            "name": "Commissione dei trasporti e delle telecomunicazioni CS",
+            "abbreviation1": "CTT-S",
+            "abbreviation2": "CTT",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-15T12:11:34Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3052,
+                    "gender": "m",
+                    "id": 4151,
+                    "name": "Dittli Josef",
+                    "officialDenomination": "Dittli"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639695600000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1644966000000+0100)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1695679200000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1705273200000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1709679600000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -209,7 +352,7 @@
         "code": 3123,
         "gender": "m",
         "id": 4222,
-        "name": "Paganini Nicolo",
+        "name": "Paganini Nicolò",
         "officialDenomination": "Paganini"
       },
       "type": "cosign"
@@ -262,19 +405,40 @@
   ],
   "shortId": "21.4627",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Il mercato del roaming internazionale non accetta compromessi da anni, tollerando margini di guadagno completamente esagerati. Ad esempio l'operatore Salt fa pagare ai suoi clienti un prezzo standard di 2.95 franchi per 1 MB di dati nei Paesi dell'UE. Il prezzo di acquisto medio è probabilmente meno di 1 centesimo per MB. Anche altri operatori hanno a volte prezzi e margini esorbitanti.</p><p>Il settore del turismo e i viaggi d'affari risentono delle elevate tariffe di roaming che gli ospiti esteri devono pagare in Svizzera. Ai costi già relativamente alti di un soggiorno in Svizzera, si aggiungono inutilmente costi di roaming elevati. </p><p>I limiti massimi di prezzo per i clienti provenienti dalla Svizzera avrebbero un effetto frenante sui prezzi di roaming per gli ospiti esteri. Nelle negoziazioni tra gli operatori mobili svizzeri e quelli esteri, di regola sono fissati i prezzi all'ingrosso sia per i clienti svizzeri che si trovano all'estero, sia per i clienti di un operatore estero che si recano in Svizzera. I limiti massimi per le tariffe al dettaglio sarebbero un buon argomento per gli operatori mobili svizzeri al fine di difendersi dai prezzi eccessivi legati all'uso di reti mobili estere. Allo stesso tempo, gli operatori svizzeri dovrebbero a loro volta ridurre le tariffe eccessive per l'uso della loro rete in Svizzera da parte di persone con abbonamenti di radiocomunicazione mobile esteri. Si tratterebbe quindi di ridurre i costi di roaming a un livello ragionevole sia per i clienti svizzeri che per quelli esteri.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il roaming internazionale si basa su contratti che disciplinano le tariffe all'ingrosso tra le aziende interessate. Le tariffe negoziate dipendono dal rispettivo volume e dal potere di negoziazione delle aziende. Una determinazione statale delle tariffe al dettaglio non terrebbe conto di questi fatti. Porterebbe a una reale disparità di trattamento fra i vari operatori mobili. Tuttavia, nell'UE una limitazione statale dei prezzi al dettaglio per il roaming presuppone che tra i Paesi interessati vi siano convenzioni volte a disciplinare i prezzi all'ingrosso. In questo modo, si possono garantire a tutti gli operatori mobili condizioni eque.</p><p>Nell'ambito dell'ultima revisione parziale della legge sulle telecomunicazioni (RS 784.10), il Parlamento ha deciso contro una regolamentazione unilaterale dei prezzi e ha vincolato la possibilità di fissare massimali di prezzo per il roaming all'esistenza di una convenzione internazionale.</p><p>I prezzi per il roaming fatturati ai turisti esteri o agli uomini d'affari in Svizzera rientrano nella responsabilità degli operatori mobili del loro Paese d'origine.</p><p>Per i viaggi in Svizzera, alcune imprese fatturano ai loro clienti le stesse tariffe come per i viaggi all'interno dell'UE o dello SEE. Altre invece per il traffico di roaming con la Svizzera riscuotono tariffe più elevate rispetto a quanto fatturato all'interno dell'UE o dello SEE. Il Consiglio federale non ha alcuna influenza su queste tariffe. Potrebbero essere regolate unicamente nel quadro di una convenzione di roaming con lo Stato o gli Stati interessati.</p><p>I massimali di prezzo richiesti potrebbero quindi esplicare il loro effetto solo sui clienti degli operatori mobili svizzeri all'estero. Questo comporta il rischio che i prezzi al dettaglio fissati dallo Stato non tengano in dovuta considerazione le tariffe all'ingrosso degli operatori mobili. Il che a sua volta potrebbe portare gli operatori più piccoli a ritirarsi dal mercato del roaming perché non potrebbero più raggiungere margini sufficienti. Ciò limiterebbe la scelta dei clienti svizzeri per quanto concerne i servizi mobili.</p><p>Con l'adozione di nuove disposizioni nell'ordinanza sui servizi di telecomunicazione (RS 784.101), il Consiglio federale ha introdotto diversi nuovi obblighi per i fornitori di roaming. Questi includono gli obblighi di offrire opzioni di roaming con un periodo di validità di 12 mesi, di fatturare i servizi al secondo o al kilobyte e di permettere ai clienti di fissare limiti di costo individuali. Le disposizioni sono entrate in vigore il 1° luglio 2021 e sono volte in particolare a evitare le cosiddette bollette da capogiro della radiocomunicazione mobile. Prima di esaminare ulteriori regolamentazioni, l'Ufficio federale delle comunicazioni ha ricevuto l'incarico di analizzare l'efficacia delle nuove disposizioni entro la fine del 2022.</p>  Il Consiglio federale propone di respingere la mozione."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di fissare prezzi massimi per le tariffe al dettaglio del roaming internazionale, modificando la legge sulle telecomunicazioni. </p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Limiti massimi di prezzo per il roaming internazionale"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Limiti massimi di prezzo per il roaming internazionale"
 }

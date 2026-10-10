@@ -1,6 +1,6 @@
 {
   "id": 20233895,
-  "updated": "2023-06-21T15:34:27Z",
+  "updated": "2025-06-20T09:41:40Z",
   "additionalIndexing": "24;2846",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,35 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 2,
+              "name": "Discussion"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Discussion reportée",
+            "type": 29
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2025-06-20T00:00:00Z",
+            "text": "Classé car le conseil n’a pas achevé son examen dans un délai de deux ans",
+            "type": 32
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2023-08-23T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +81,28 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686866400000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1692741600000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1750370400000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -122,19 +162,33 @@
   ],
   "shortId": "23.3895",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Lorsqu’un bien immobilier change de mains, l’acquéreur peut en principe recalculer le rendement. Il peut notamment le faire si la valeur immobilière s’en trouve modifiée. La fusion de Credit Suisse Group AG et de UBS Group AG s’est accompagnée d’un transfert de la totalité des actifs et des passifs de Credit Suisse à UBS, y&nbsp;compris l’intégralité du parc immobilier et des portefeuilles immobiliers. Il ne s’agit pas, en l’espèce, d’un transfert de propriété classique, où l’on convient individuellement d’un prix de vente, ce qui prive UBS d’une base essentielle pour demander un nouveau calcul des loyers en invoquant le rendement. Par ailleurs, le Conseil fédéral estime que le nouveau propriétaire n’a pas plus de raisons que Credit Suisse de résilier des baux. On peut donc s’attendre à ce que les baux soient reconduits aux mêmes conditions. Dans l’hypothèse où UBS aurait besoin d’une moins grande surface de bureaux que celle que les deux banques cumulaient auparavant, il se pourrait que l’offre tende à augmenter, du moins pour les locaux commerciaux.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Crédit suisse est l'un des principaux propriétaires immobiliers et bailleur de Suisse, directement ou indirectement par des fonds d'investissements. Le transfert de ce patrimoine immobilier à UBS pourrait-il se faire à des conditions permettant de justifier des hausses de loyers pour les futur.es locataires ou pour les locataires en place ?</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Quels sont les risques encourus par les locataires du fait du rachat de Crédit suisse par UBS ?"
+      "value": "Quels sont les risques encourus par les locataires du fait du rachat de Credit Suisse par UBS?"
     }
   ],
-  "title": "Quels sont les risques encourus par les locataires du fait du rachat de Crédit suisse par UBS ?"
+  "title": "Quels sont les risques encourus par les locataires du fait du rachat de Credit Suisse par UBS?"
 }

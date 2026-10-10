@@ -1,7 +1,7 @@
 {
   "id": 20230422,
-  "updated": "2023-03-21T15:13:37Z",
-  "additionalIndexing": "04;0421",
+  "updated": "2024-05-30T08:26:26Z",
+  "additionalIndexing": "04;421",
   "affairType": {
     "abbreviation": "Iv. pa.",
     "id": 4,
@@ -40,7 +40,46 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "committee": {
+              "abbreviation": "CIP-CN",
+              "id": 11,
+              "name": "Commissione delle istituzioni politiche CN",
+              "abbreviation1": "CIP-N",
+              "abbreviation2": "CIP",
+              "committeeNumber": 11,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Consiglio nazionale",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2024-04-26T00:00:00Z",
+            "text": "Non dare seguito (Camera prioritaria)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-05-29T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,24 +89,128 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-04-26T16:27:06Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 10801,
+                    "gender": "m",
+                    "id": 10801,
+                    "name": "Riner Christoph",
+                    "officialDenomination": "Riner"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CIP-CN",
+            "id": 11,
+            "name": "Commissione delle istituzioni politiche CN",
+            "abbreviation1": "CIP-N",
+            "abbreviation2": "CIP",
+            "committeeNumber": 11,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-17T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CIP-CS",
+            "id": 24,
+            "name": "Commissione delle istituzioni politiche CS",
+            "abbreviation1": "CIP-S",
+            "abbreviation2": "CIP",
+            "committeeNumber": 24,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-17T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1679007600000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1710975600000+0100)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1714082400000+0200)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1716933600000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -297,19 +440,33 @@
   ],
   "shortId": "23.422",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Il 23 ottobre 2022 è entrata in vigore la nuova ordinanza sulla trasparenza nel finanziamento della politica (OFiPo). In occasione delle elezioni del 2023 per il rinnovo del Consiglio nazionale si applicherà dunque per la prima volta l'obbligo di rendere pubbliche le fonti di finanziamento delle campagne in vista di votazioni o elezioni federali: gli addetti alle campagne dovranno in particolare rendere pubbliche le entrate preventivate se le spese per le campagne stesse superano i 50 000 franchi. Le liberalità anonime e le liberalità provenienti dall'estero sono ora vietate. Le suddette disposizioni dell'OFiPo non si applicano, tuttavia, alla raccolta di firme in occasione di referendum e di iniziative in vista di votazioni. Con la presente iniziativa si intende modificare questa situazione.</p><p>I comitati di iniziativa e di voto devono raccogliere fondi già per la raccolta delle firme e l'entità dei finanziamenti ricevuti può decretare la buona riuscita della raccolta stessa. Già in questa fase l'opinione pubblica ha pertanto un interesse particolare a conoscere i principali finanziatori di una campagna e dunque a sapere chi si cela dietro un'iniziativa o un referendum, e questo interesse diventa un diritto nel caso dei cittadini. Risulta perciò logico introdurre l'obbligo in oggetto anche in tale ambito. L'obbligo di rendere pubblico il finanziamento deve essere applicato analogamente alla normativa in materia di trasparenza.</p><p>L'iniziativa parlamentare prende spunto da un'iniziativa della Commissione delle istituzioni politiche del Consiglio degli Stati (CIP-S). Nella sua prima bozza di controprogetto indiretto all'Iniziativa sulla trasparenza, la CIP-S aveva infatti già proposto una normativa analoga (<a href=\"https://www.parlament.ch/it/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20190400\">19.400</a> Più trasparenza nel finanziamento politico).</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Fondandomi sull'articolo 160 capoverso 1 della Costituzione federale e sull'articolo 107 della legge sul Parlamento, presento la seguente iniziativa.</p><p>La legge federale sui diritti politici (LDP) deve essere modificata affinché l'obbligo di rendere pubblico il finanziamento sia introdotto anche per la raccolta di firme in vista di referendum e iniziative a livello federale. Occorre introdurre il divieto di accettare le liberalità anonime e quelle provenienti dall'estero anche nell'ambito della raccolta di firme in vista di referendum e iniziative.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Maggiore trasparenza anche nella raccolta delle firme a livello federale"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Maggiore trasparenza anche nella raccolta delle firme a livello federale"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20223966,
-  "updated": "2022-09-22T11:30:45Z",
+  "updated": "2025-04-24T19:20:09Z",
   "additionalIndexing": "24;04;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -34,17 +34,136 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-19T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-12-14T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-09T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "FK-NR",
+            "id": 2,
+            "name": "Finanzkommission NR",
+            "abbreviation1": "FK-N",
+            "abbreviation2": "FK",
+            "committeeNumber": 2,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "FK-SR",
+            "id": 15,
+            "name": "Finanzkommission SR",
+            "abbreviation1": "FK-S",
+            "abbreviation2": "FK",
+            "committeeNumber": 15,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-16T11:42:09Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3183,
+                    "gender": "f",
+                    "id": 4306,
+                    "name": "Gapany Johanna",
+                    "officialDenomination": "Gapany"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -60,8 +179,23 @@
       "states": [
         {
           "date": "/Date(1663711200000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1667948400000+0100)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1695074400000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1702508400000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -105,10 +239,10 @@
   ],
   "shortId": "22.3966",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -117,6 +251,13 @@
         "name": "Begründung"
       },
       "value": "<p>Im Jahre 2008 wurde der Subventionsbericht das letzte Mal veröffentlicht. Seit 2014 überprüfen die Departemente der Bundesverwaltung ihre Subventionen selbst und präsentieren ihre Ergebnisse anschliessend in der Staatsrechnung. Dieses Vorgehen ist der SVP zu lasch. Es verunmöglicht nicht nur einen sauberen Überblick, die Frage der Bundessubventionen wird somit weit weg vom breiten politischen und öffentlichen Interesse gehalten. Angesichts der stetig steigenden Bundesausgaben muss eine striktere Prüfung erfolgen. Es braucht wieder einen vollumfänglichen Subventionsbericht, der alle vier Jahre erscheint und der eine umfassende Vergleichs- und Diskussionsbasis bietet.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Im jährlichen Voranschlag mit integriertem Aufgaben- und Finanzplan sowie mit der Subventionsdatenbank schafft der Bundesrat jedes Jahr umfassende Transparenz über die Subventionen des Bundes. Die Subventionsüberprüfung und die Berichterstattung existieren zudem weiterhin. Daneben führt die EFK regelmässig Evaluationen und Prüfungen von Subventionen durch.</p><p>Das Subventionsgesetz (SuG; SR 616.1) verpflichtet den Bundesrat, sämtliche Subventionen mindestens alle sechs Jahre zu überprüfen und dem Parlament über die Ergebnisse dieser Prüfung Rechenschaft abzulegen. Überprüft werden grundsätzlich alle Subventionen. Die Rechenschaftsablage findet teils im Rahmen von Botschaften, mit welchen der Bundesrat dem Parlament mehrjährige Finanzbeschlüsse oder Änderungen bestehender Subventionsbestimmungen beantragt, teils in der Staatsrechnung statt.</p><p>Rund ein Drittel der Subventionen werden im Rahmen von Botschaften zu mehrjährigen Finanzbeschlüssen beantragt. Das Parlament hat hier alle vier Jahre die Möglichkeit seine Steuerungs- und Kontrollfunktion wahrzunehmen.</p><p>Bei der Subventionsüberprüfung im Rahmen der Staatsrechnung liegt der Fokus auf denjenigen Subventionen, welche nicht bereits in anderen Botschaften überprüft wurden. Jedes Jahr überprüfen ein bis zwei Departemente ihre Subventionen auf die Konformität mit dem Subventionsgesetz. Die Überprüfung erfolgt anhand eines standardisierten Fragebogens, mit welchem insbesondere die Begründung, der Umfang, die Ausgestaltung, die Steuerung sowie das Verfahren der Beitragsvergabe der Subventionen systematisch vom Departement und der Eidgenössischen Finanzverwaltung analysiert werden. Die darauf aufbauende Berichterstattung in der Staatsrechnung umfasst pro Subvention eine Zusammenfassung der wichtigsten Merkmale, eine Würdigung und den daraus abgeleiteten Handlungsbedarf. Die Ergebnisse der Subventionsüberprüfung werden in den Finanzkommissionen präsentiert und diskutiert. Das Umsetzungscontrolling erfolgt im Dreijahresrhythmus ebenfalls im Rahmen der Staatsrechnung.</p><p>Angesichts der sich abzeichnenden strukturellen Defizite erachtet es der Bundesrat als äusserst wichtig, bestehende Aufgaben zu überprüfen. Die Wiedereinführung des Subventionsberichts ist dafür aber nicht der richtige Weg. Der Subventionsbericht ist mit einem grossen Verwaltungsaufwand verbunden. Zudem ist der aktuelle 6-jährige Prüfzyklus mit 1-2 Departementen pro Jahr auch für den Bundesrat und das Parlament einfacher zu bewältigen. Der Aufwand für einen Subventionsbericht über sämtliche Subventionen, der zudem alle vier statt alle sechs Jahre erscheinen soll, wäre noch weit höher, ohne dass ein Zusatznutzen erwartet werden könnte. Will das Parlament Einsparungen erzielen, ist der Weg über eine gezielte Überprüfung der Aufgaben oder über Sparvorgaben in Form von Motionen oder Aufträgen zum Finanzplan effizienter.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {
@@ -130,8 +271,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Wiedereinführung Subventionsbericht"
+      "value": "Wiedereinführung des Subventionsberichtes"
     }
   ],
-  "title": "Wiedereinführung Subventionsbericht"
+  "title": "Wiedereinführung des Subventionsberichtes"
 }

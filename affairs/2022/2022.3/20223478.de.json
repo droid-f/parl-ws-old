@@ -1,6 +1,6 @@
 {
   "id": 20223478,
-  "updated": "2022-05-12T14:23:11Z",
+  "updated": "2025-04-24T19:33:10Z",
   "additionalIndexing": "52;2846;55;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,182 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "Wird übernommen",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-04-17T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-12-03T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-17T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "UREK-NR",
+            "id": 7,
+            "name": "Kommission für Umwelt, Raumplanung und Energie NR",
+            "abbreviation1": "UREK-N",
+            "abbreviation2": "UREK",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-10-11T16:51:27Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3136,
+                    "gender": "m",
+                    "id": 4237,
+                    "name": "Würth Benedikt",
+                    "officialDenomination": "Würth"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "UREK-SR",
+            "id": 20,
+            "name": "Kommission für Umwelt, Raumplanung und Energie SR",
+            "abbreviation1": "UREK-S",
+            "abbreviation2": "UREK",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1652220000000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1660687200000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1713304800000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1728597600000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1731625200000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1733180400000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -230,23 +383,54 @@
         "name": "Die Mitte-Fraktion. Die Mitte. EVP."
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3121,
+        "gender": "m",
+        "id": 4220,
+        "name": "Roduit Benjamin",
+        "officialDenomination": "Roduit"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "22.3478",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Was die Situation in Bezug auf die Präsenz des Wolfs in der Schweiz betrifft, dafür verweise ich auf die Ausführungen in meiner Motion 22.3477 \"Weniger Bürokratie und wirksamere Massnahmen zum Schutz vor Wolfsschäden in der Schweiz\". </p><p>Das exponentielle Wachstum der Wolfsbestände führt zu schwerwiegenden Problemen insbesondere für die Alpwirtschaft, und zwar in einem Ausmass, das die Schaf- und Ziegenhaltung in ihrer Existenz gefährdet, mit allen sich daraus ergebenden Folgen in gesellschaftlicher und wirtschaftlicher Hinsicht und in Bezug auf die Erhaltung der Biodiversität. Man kann nicht mehr länger untätig bleiben. Daher müssen rasch die nötigen Schritte unternommen werden, damit dieses Problem auf realistische und pragmatische Weise gelöst wird. </p><p>Es ist eine Tatsache, dass viele Schaf- und Ziegenherden im Alpenraum aufgrund der besonderen Beschaffenheit der Weideflächen nur mit unverhältnismässigen Massnahmen geschützt werden können. (Eine von Agridea 2017 durchgeführte Studie hat beispielsweise gezeigt, dass bei den 20 untersuchten Landwirtschaftsbetrieben im Tessin, die Wiederkäuer halten, nur für einen kleinen Teil der Herden zumutbare und praktikable Herdenschutzmassnahmen möglich sind. Weitere Studien aus anderen Kantonen wie dem Wallis, Glarus oder Graubünden kommen zu ähnlichen Ergebnissen.) </p><p>Angesichts dieser Situation und unter der Annahme, dass die Präsenz des Wolfs in bestimmten Gegenden der Schweiz nicht kompatibel ist mit der dort praktizierten Art der Weidehaltung, muss ein Grundsatzentscheid getroffen werden: Wenn wir die Alpwirtschaft retten wollen, müssen wir die Präsenz des Wolfs in den Alpen auf bestimme Gebiete einschränken, insbesondere dort, wo es Herden gibt, die nicht geschützt werden können, und in Siedlungsnähe. Eine Möglichkeit, dieses Ziel zu erreichen, würde darin bestehen, dass in Zusammenarbeit mit den Kantonen wolfsfreie Zonen geschaffen werden, in denen Regulierungseingriffe ohne übermässige Bürokratie bewilligt werden können.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Zurzeit arbeitet die Kommission für Umwelt, Raumplanung und Energie des Ständerates intensiv an einer Jagdgesetzesrevision (Pa.Iv. 21.502 Parlamentarische Initiative \"Wachsende Wolfsbestände geraten ausser Kontrolle und gefährden ohne die Möglichkeit zur Regulierung die Landwirtschaft\"), um die bestehenden Herausforderungen mit dem Wolf anzugehen.</p><p>Das Schweizer Recht (Natur- und Heimatschutzgesetz NHG, Bundesgesetz über die Jagd und den Schutz wildlebender Säugetiere und Vögel JSG, Bundesgesetz über die Fischerei BGF) sieht für keine einheimische Art \"freie Zonen\" vor, in denen diese keinen Schutz geniesst bzw. in denen alle Tiere dieser Art getötet werden können. Insbesondere für Arten wie der Wolf, die grosse Räume beanspruchen und weit wandern, wäre ein solches Zonenkonzept kaum umsetzbar. Die Umsetzung einer solchen Zone wäre für die kantonalen Vollzugsbehörden ferner sehr arbeitsintensiv und mit hohen Kosten verbunden. Wolfsfreie Zonen würden zudem die Betroffenen in einer falschen Sicherheit wiegen, schliesslich könnten auch in diesen Zonen weiterhin Schäden auftreten.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, die gesetzlichen Grundlagen dafür zu schaffen, dass die Kantone wolfsfreie Zonen ausscheiden können. In diesen Zonen sollen Eingriffe zur Regulierung der Wolfsbestände bewilligt werden können, soweit \"zumutbare Schutzmassnahmen\" nicht möglich sind, so wie es das Konzept Wolf Schweiz insbesondere in Anhang 6 vorsieht.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Gesetzliche Grundlagen dafür schaffen, dass die Kantone wolfsfreie Zonen ausscheiden können"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Gesetzliche Grundlagen dafür schaffen, dass die Kantone wolfsfreie Zonen ausscheiden können"
 }

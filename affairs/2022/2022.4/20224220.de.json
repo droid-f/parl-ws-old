@@ -1,6 +1,6 @@
 {
   "id": 20224220,
-  "updated": "2022-10-04T09:44:04Z",
+  "updated": "2025-04-24T19:20:05Z",
   "additionalIndexing": "24;15",
   "affairType": {
     "abbreviation": "Po.",
@@ -41,10 +41,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-19T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-16T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung des Postulates."
       },
       "index": 0,
       "links": [
@@ -57,13 +74,28 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EFD",
+          "id": 7,
+          "name": "Finanzdepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1664488800000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1668553200000+0100)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1695074400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -254,19 +286,40 @@
   ],
   "shortId": "22.4220",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Das elektronische Bezahlen, insbesondere mittels eines Smartphones, bietet viel Vorteile, weshalb sich die Nutzung Jahr um Jahr steigert. Zu den Nachteilen gegenüber der Barbezahlung gehört aber, dass eine anonyme Bezahlung bis jetzt nicht möglich ist, da jede einzelne Transaktion beim zugehörigen Finanzdienstleister registriert wird. Dies widerspricht dem Wunsch vieler Menschen weniger Datenspuren zu hinterlassen. Insbesondere bei kleineren Zahlungen (Getränk am Kiosk) ist die Speicherung aller Zahlungsdetails nicht verhältnismässig, momentan aber Realität.</p><p>Die technische Machbarkeit eines anonymen Bezahlsystems wurde von der Schweizerischen Nationalbank (SNB) in ihren Working Papers 3/2021 anhand des sogenannten GNU-Talers aufgezeigt (<a href=\"https://www.snb.ch/n/mmr/reference/working_paper_2021_03/source/working_paper_2021_03.n.pdf\">https://www.snb.ch/n/mmr/reference/working_paper_2021_03/source/working_paper_2021_03.n.pdf</a>). Zum selben Schluss kam 2022 die Österreichische Nationalbank (<a href=\"https://www.oenb.at/dam/jcr:0e3c00d6-2e0a-4089-b23c-5604e60ebde5/07_Mop_Q1-2_22_A-digital-euro-and-the-future-of-cash.pdf\">https://www.oenb.at/dam/jcr:0e3c00d6-2e0a-4089-b23c-5604e60ebde5/07_Mop_Q1-2_22_A-digital-euro-and-the-future-of-cash.pdf</a>)</p><p>Der GNU-Taler stellt dabei keine eigenständige (Krypto-) Währung dar, sondern wäre ein elektronisches Abbild des Schweizer Franken und könnten daher ebenso von der SNB herausgegeben werden. Die im Konzept verwendete Kryptotechnologie dient einzig der Sicherstellung der Sicherheit und Privatsphäre der Bezahlenden. Rechenintensive Prozesse, wie sie von Bitcoin und einigen anderen Blockchains bekannt sind, sind nicht notwendig. Im Gegenteil, die Transaktionen können mit sehr wenig Rechenleistung, schnell, zeitnah und in grosser Zahl verarbeitet werden.</p><p>Das Konzept des GNU-Talers beschränkt die Anonymität auf den Zahlenden, so dass die Empfänger, meist Firmen, ihre Einnahmen sauber deklarieren müssen. Damit ist der Missbrauch des anonymen Bezahlens, zum Beispiel zwecks Steuerhinterziehung und Bestechung, der oft als Gegenargument verwendet wird, weitestgehend verhindert.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Digitale, respektive elektronische Zahlungssysteme werden in der Forschung sowie zunehmend auch in der breiten Öffentlichkeit unter verschiedenen Aspekten, insbesondere ökonomischen, juristischen, technischen und gesellschaftlichen, diskutiert. Die Ideen und Ansätze für digitale Zahlungssysteme sind sehr breit, sie reichen von rein privaten Modellen, wie z.B. privaten Kryptowährungen, bis hin zu staatlichen Zahlungssystemen, wie digitalem Zentralbankgeld.</p><p>Der Bundesrat hat sich in seinem Bericht \"Digitales Zentralbankgeld\" in Erfüllung des Postulats 18.3159 vom 13.12.2019 unter anderem mit den rechtlichen Aspekten von digitalem Zentralbankgeld, welches für die breite Bevölkerung zugänglich sein soll, beschäftigt. Der Bericht kam zum Schluss, dass für die Einführung von digitalem Zentralbankgeld aus rechtlicher Sicht Anpassungen auf Gesetzesstufe sowohl im öffentlich-rechtlichen als auch im zivilrechtlichen Bereich nötig wären. Je nach Ausgestaltung - z.B. kontobasiert oder wertbasiert - des digitalen Zentralbankgeldes unterscheidet sich der rechtliche Anpassungsbedarf erheblich.</p><p>Der im Postulat erwähnte GNU-Taler wäre eine Form von digitalem Zentralbankgeld. Für die allenfalls erforderlichen gesetzlichen Anpassungen ist letztlich die konkrete Ausgestaltung (Begrenzung des Bezugs, Verzinsung, Zugang, Betreibung der Infrastruktur etc.) ausschlaggebend.</p><p>Derzeit erachtet es der Bundesrat als verfrüht, mögliche Gesetzesanpassungen für bestimmte Modelle auszuarbeiten. Die grundsätzlichen Überlegungen zu allfälligen rechtlichen Anpassungen für den Fall, dass ein durch die Zentralbank ausgegebener digitaler Franken eingeführt werden sollte, hat der Bundesrat bereits in seinem Bericht \"Digitales Zentralbankgeld\" dargelegt. In diesem Bericht kam er zum Schluss, dass allgemein zugängliches Zentralbankgeld für die Schweiz gegenwärtig keinen Zusatznutzen bringen würde. Die rasche technologische Entwicklung, sich ändernde Zahlungsverhalten und -bedürfnisse sowie die Erfahrungen anderer Länder könnten allerdings in Zukunft zu einer neuen Beurteilung von Chancen und Risiken von digitalem Zentralbankgeld für die breite Bevölkerung führen.</p><p>Der Bundesrat verfolgt daher die Entwicklung im Bereich der digitalen Zahlungssysteme respektive dem digitalen Zentralbankgeld intensiv. Bezüglich der Entwicklung im Bereich der Zahlungsmöglichkeiten in barer und digitaler Form und neuen Bezahlformen sowie dem internationalem Umfeld ist er in engem Austausch mit der Schweizerischen Nationalbank. Bei Bedarf wird er allfällige rechtliche Anpassungen in die Wege leiten.</p>  Der Bundesrat beantragt die Ablehnung des Postulates."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird gebeten aufzuzeigen, welche gesetzlichen Grundlagen nötig sind, um ein anonymes elektronisches Bezahlsystem in der Schweiz durch die Nationalbank einzuführen und in welchem Zeitraum dies möglich wäre. Dabei sollen insbesondere den Bedenken bezüglich Sicherheit Zuverlässigkeit, Skalierbarkeit aber auch Diebstahl und (Steuer-) Betrug Rechnung getragen werden.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "GNU-Taler - elektronisch Bezahlen, sicher und doch anonym"
+      "value": "GNU-Taler. Elektronisch bezahlen, sicher und doch anonym"
     }
   ],
-  "title": "GNU-Taler - elektronisch Bezahlen, sicher und doch anonym"
+  "title": "GNU-Taler. Elektronisch bezahlen, sicher und doch anonym"
 }

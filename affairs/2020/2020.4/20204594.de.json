@@ -1,6 +1,6 @@
 {
   "id": 20204594,
-  "updated": "2021-03-19T09:45:50Z",
+  "updated": "2024-06-06T10:26:47Z",
   "additionalIndexing": "24;09;34;04;1216",
   "affairType": {
     "abbreviation": "Po.",
@@ -55,6 +55,21 @@
             "date": "2021-03-19T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-06-05T00:00:00Z",
+            "text": "Abschreibung im Zusammenhang mit der Beratung des Geschäfts 24.006",
+            "type": 0
           }
         ]
       },
@@ -68,7 +83,27 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "SiK-NR",
+            "id": 8,
+            "name": "Sicherheitspolitische Kommission NR",
+            "abbreviation1": "SiK-N",
+            "abbreviation2": "SiK",
+            "committeeNumber": 8,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-12-27T00:00:00Z",
+          "registrations": [
 
+          ]
+        }
       ],
       "references": [
 
@@ -78,6 +113,12 @@
           "abbreviation": "EFD",
           "id": 7,
           "name": "Finanzdepartement",
+          "leading": false
+        },
+        {
+          "abbreviation": "VBS",
+          "id": 6,
+          "name": "Departement für Verteidigung, Bevölkerungsschutz und Sport",
           "leading": true
         }
       ],
@@ -89,8 +130,18 @@
         },
         {
           "date": "/Date(1616108400000+0100)/",
-          "id": 26,
-          "name": "Angenommen"
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
+        },
+        {
+          "date": "/Date(1701212400000+0100)/",
+          "id": 218,
+          "name": "Bericht in Erfüllung des Vorstosses liegt vor"
+        },
+        {
+          "date": "/Date(1717538400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -98,11 +149,6 @@
       ]
     }
   ],
-  "handling": {
-    "date": "2021-03-19T00:00:00Z",
-    "legislativePeriod": 51,
-    "session": "5108"
-  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -226,9 +272,9 @@
   ],
   "shortId": "20.4594",
   "state": {
-    "id": 26,
-    "name": "Angenommen",
-    "doneKey": "3",
+    "id": 229,
+    "name": "Erledigt",
+    "doneKey": "0",
     "newKey": 0
   },
   "texts": [
@@ -238,6 +284,13 @@
         "name": "Begründung"
       },
       "value": "<p>Eine nachhaltige Digitalisierung bedarf hoher Standards bei der Sicherheit. Ein konsequenter Schutz von IT Systemen hebt das allgemeine Sicherheitsniveau und die Reputation des Wirtschaftsstandorts als sicherer Datenhafen. Dazu gehört auch das systematische Aufdecken und Schliessen von Schwachstellen in IT Systemen. Hier spielen Ethische Hacker (oder auch Sicherheitsforscher) eine wichtige Rolle. Sie suchen nach Schwachstellen im System in der Absicht, die Sicherheit des Netzwerks zu verbessern, und die während des Tests festgestellten Sicherheitsanfälligkeiten zu beheben. In der Schweiz wird das Potential von Ethischem Hacking bislang zu wenig ausgeschöpft.</p><p>Offenlegungsrichtlinien geben Ethischen Hackern einen Rahmen, in welchem sie beim Auffinden einer Schwachstelle vorzugehen haben und so ihren Beitrag leisten können, eine Lücke zu schliessen. Die Richtlinien signalisieren Interesse an der Zusammenarbeit mit dem Ethischen Hacker, der ansonsten ein rechtliches Risiko auf sich nähme. Gemäss Schweizer Recht macht er sich nämlich beim Eindringen in ein Datenverarbeitungssystem potentiell strafbar.</p><p>Deshalb ist es unabdinglich, dass die Vulnerability Disclosure Guideline die Bedingungen für einen Ausschluss der Strafbarkeit klar regelt. Es liegt ausserdem sowohl im Interesse des Betriebes wie des Ethischen Hackers, dass eine koordinierte Offenlegung vereinbart wird, bei der die Öffentlichkeit informiert wird, nachdem die Lücke geschlossen ist. Insbesondere in den Niederlanden hat man mit den Vulnerability Disclosure Guidelines seit Jahren gute Erfahrungen gemacht. </p><p>Bug Bounty Programme dienen der systematischen Durchforschung eines Sicherheitssystems durch Ethische Hacker auf Aufforderung des Unternehmens, um so gezielt nach Schwachstellen zu suchen. </p><p>Staatsbetriebe und staatsnahe Betriebe haben eine wichtige Vorbildrolle gegenüber der Wirtschaft und Gesellschaft. Mit der Insitutionalisierung von Ethischem Hacking senden sie wichtige Signale in Bezug auf ihren kompromisslosen Willen zur Verteidigung ihrer IT-Systeme.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "Der Bundesrat beantragt die Annahme des Postulates."
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20220486,
-  "updated": "2022-12-02T08:58:10Z",
+  "updated": "2024-10-15T09:03:47Z",
   "additionalIndexing": "2846;1211",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -40,7 +40,31 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-12-04T00:00:00Z",
+            "text": "L’objet est repris",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-12-12T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,19 +74,127 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-27T18:07:14Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3131,
+                    "gender": "m",
+                    "id": 4230,
+                    "name": "Bregy Philipp Matthias",
+                    "officialDenomination": "Bregy"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe M-E",
+                    "id": 3,
+                    "name": "Le Groupe du Centre. Le Centre. PEV."
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAJ-CN",
+            "id": 12,
+            "name": "Commission des affaires juridiques CN",
+            "abbreviation1": "CAJ-N",
+            "abbreviation2": "CAJ",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-01T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CAJ-CE",
+            "id": 25,
+            "name": "Commission des affaires juridiques CE",
+            "abbreviation1": "CAJ-E",
+            "abbreviation2": "CAJ",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-01T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1669849200000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1696543200000+0200)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1698357600000+0200)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1702335600000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -158,14 +290,24 @@
         "name": "Groupe des VERT-E-S"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3122,
+        "gender": "m",
+        "id": 4221,
+        "name": "Töngi Michael",
+        "officialDenomination": "Töngi"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "22.486",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -173,7 +315,7 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Le taux de logements vacants à l'échelle nationale a chuté de 1,54 % à 1,31 % depuis début 2022, et devrait continuer de reculer. Il est même possible qu'il passe sous la barre de 1 %. De nombreuses grandes villes ou communes (de même que certaines communes touristiques) comptent très peu de logements vacants et sont donc confrontées à une pénurie latente. Le fait d'instaurer davantage de transparence dans les loyers a un effet préventif et permet aux locataires de se défendre plus facilement contre les loyers abusifs.</p><p>A l'heure actuelle, neuf cantons ont introduit l'obligation de recourir à une formule officielle pour communiquer le loyer initial (art. 270, al. 2, CO). Les dispositions en vigueur dans ces cantons se fondent toutes sur recensement du parc de logements vacants (taux de logements vacants).</p><p>En 2016, une modification du CO visant la protection contre les loyers abusifs proposée par le Conseil fédéral (FF 2015 3705) a été refusée. Depuis, deux nouveaux cantons (Bâle-Ville et Lucerne) ont rendu l'usage de la formule officielle obligatoire. L'efficacité de cet instrument est avérée. Son extension à toute la Suisse permettra d'assurer la sécurité du droit et entraînera une simplification administrative, puisque les formules permettant de communiquer le loyer du locataire précédent, l'augmentation du loyer ou la résiliation du bail seront fournies et approuvées non plus par les cantons, mais par la Confédération.</p>"
+      "value": "<p>Le taux de logements vacants à l'échelle nationale a chuté de 1,54 % à 1,31 % depuis début 2022, et devrait continuer de reculer. Il est même possible qu'il passe sous la barre de 1 %. De nombreuses grandes villes ou communes (de même que certaines communes touristiques) comptent très peu de logements vacants et sont donc confrontées à une pénurie latente. Le fait d'instaurer davantage de transparence dans les loyers a un effet préventif et permet aux locataires de se défendre plus facilement contre les loyers abusifs.</p><p>À l'heure actuelle, neuf cantons ont introduit l'obligation de recourir à une formule officielle pour communiquer le loyer initial (art. 270, al. 2, CO). Les dispositions en vigueur dans ces cantons se fondent toutes sur recensement du parc de logements vacants (taux de logements vacants).</p><p>En 2016, une modification du CO visant la protection contre les loyers abusifs proposée par le Conseil fédéral (FF 2015 3705) a été refusée. Depuis, deux nouveaux cantons (Bâle-Ville et Lucerne) ont rendu l'usage de la formule officielle obligatoire. L'efficacité de cet instrument est avérée. Son extension à toute la Suisse permettra d'assurer la sécurité du droit et entraînera une simplification administrative, puisque les formules permettant de communiquer le loyer du locataire précédent, l'augmentation du loyer ou la résiliation du bail seront fournies et approuvées non plus par les cantons, mais par la Confédération.</p>"
     },
     {
       "type": {

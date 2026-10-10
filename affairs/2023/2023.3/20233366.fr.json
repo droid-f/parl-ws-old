@@ -1,6 +1,6 @@
 {
   "id": 20233366,
-  "updated": "2023-03-20T10:28:35Z",
+  "updated": "2025-06-12T14:19:16Z",
   "additionalIndexing": "28;2846",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,177 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-09-11T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-06-12T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-05-24T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSSS-CE",
+            "id": 19,
+            "name": "Commission de la sécurité sociale et de la santé publique CE",
+            "abbreviation1": "CSSS-E",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-05-15T19:28:05Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3153,
+                    "gender": "f",
+                    "id": 4261,
+                    "name": "Friedli Esther",
+                    "officialDenomination": "Friedli Esther"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSSS-CN",
+            "id": 6,
+            "name": "Commission de la sécurité sociale et de la santé publique CN",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1679007600000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1684879200000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1726005600000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1727820000000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1742943600000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1747260000000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1749679200000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -94,7 +242,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -291,7 +439,7 @@
     {
       "councillor": {
         "code": 3228,
-        "gender": "f",
+        "gender": "m",
         "id": 4333,
         "name": "Meier Andreas",
         "officialDenomination": "Meier Andreas"
@@ -316,19 +464,40 @@
   ],
   "shortId": "23.3366",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Les évolutions démographiques, les développements de la prise en charge des personnes âgées et en situation de handicap, les coûts des soins et soutiens en institution ou à domicile et les attentes des personnes (droit à l'autonomie) confèrent au logement et à l'accompagnement à domicile une importance cruciale. Plusieurs organisations des domaines de la Vieillesse et du Handicap portent cette préoccupation et tentent de trouver des solutions concrètes. Elles exigent ainsi de renforcer la prise en charge à domicile et d'offrir aux personnes une réelle possibilité de choix. C'est aussi ce que demande la Convention de l'ONU relative aux droits des personnes handicapées, à laquelle la Suisse a adhéré en 2014. </p><p>Plusieurs interventions parlementaires renvoient à la prise en charge à domicile et au logement (initiative parlementaire Lohr 12.409 sur la contribution d'assistance AI ; motion Prestations complémentaires et logement protégé, 18.3716). Les allocations pour impotents sont l'objet de discussions en cours. Les cantons (CDAS) ont initié des travaux sur cette problématique. La politique du handicap 2023-2026, acceptée par le Conseil fédéral en mars 2023, fait du logement un des programmes prioritaires, avec un accent sur la collaboration entre Confédération et cantons.</p><p>Face à la pluralité des réflexions et des initiatives (politiques ou des organisations privées), il importe de disposer d'une vision d'ensemble pour ensuite élaborer des actions coordonnées et cohérentes. Il conviendra donc de procéder à un état des lieux, d'analyser la répartition des compétences et d'identifier les flux financiers, en considérant les différentes législations sociales et sanitaires, fédérales et cantonales. Dans ce contexte complexe, une stratégie nationale est nécessaire et doit être pilotée par la Confédération.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral est également d'avis que la prise en charge et le logement, dans les domaines de la vieillesse et du handicap, sont des aspects qui gagneront en importance au cours des prochaines décennies et qui seront influencés par l'évolution démographique, notamment par le vieillissement de la population. Par contre, le Conseil fédéral est d'avis qu'une nouvelle stratégie nationale coordonnée par la Confédération n'est pas nécessaire pour traiter cette problématique. Les travaux en cours et les institutions existantes le permettent déjà. Dans le cadre de la politique en faveur des personnes handicapées 2023-2026, le Conseil fédéral a par exemple l'intention de mettre en place un programme prioritaire sur le thème du logement. Il s'agit de promouvoir, pour les personnes handicapées, la liberté de choisir leur logement et de leur permettre de bénéficier d'un soutien au logement à domicile adapté à leurs besoins et déterminé individuellement. Le programme prioritaire \" Logement \" contribuera à la coordination des mesures de la Confédération et des cantons et posera les bases d'un développement cohérent dans la perspective d'une autonomie en matière de logement. En outre, la réponse à la motion 18.3716 \" Prestations complémentaires pour les personnes âgées en logement protégé \" apporte des éléments de réponse à la problématique évoquée ici. Par ailleurs, l'initiative de la Conférence des directrices et directeurs cantonaux des affaires sociales (CDAS) s'inscrit dans l'engagement des cantons dans ce domaine. En 2018, la CDAS a lancé un projet dans ce sens, visant à promouvoir le logement protégé et l'accompagnement à domicile. L'introduction d'une stratégie supplémentaire risquerait de créer davantage de confusion dans un domaine déjà très complexe, voire d'entraîner des dépenses supplémentaires. La question du maintien à domicile relève exclusivement du droit cantonal. L'art. 112c de la Constitution fédérale (RS 101) prévoit que les cantons pourvoient à l'aide à domicile et aux soins à domicile en faveur des personnes âgées et des personnes handicapées. La compétence principale revenant aux cantons dans ce domaine, rien ne justifie une stratégie nationale placée sous l'égide de la Confédération. Le Conseil fédéral a clairement souligné cet aspect en répondant à différentes interventions (notamment la motion 18.3716 \" Prestations complémentaires pour les personnes âgées en logement protégé \" et le postulat 22.4262 \" L'ambulatoire avant le stationnaire pour les personnes handicapées ayant atteint l'âge de la retraite, grâce à l'accès aux contributions d'assistance \"). Compte tenu de la répartition sans équivoque des compétences, mais aussi des nombreuses mesures déjà prises dans ce domaine, le Conseil fédéral estime qu'il n'y a pas lieu de développer une stratégie nationale.</p>  Le Conseil fédéral propose de rejeter la motion."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral, en collaboration avec les cantons et les acteurs de la société civile (organisations subventionnées), est chargé d'élaborer une stratégie nationale en matière d'accompagnement et de logement dans les domaines de la Vieillesse et du Handicap. Il intégrera les dimensions de politique sociale et de la santé.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Stratégie nationale en matière d'accompagnement et de logement dans les domaines de la Vieillesse et du Handicap"
+      "value": "Stratégie nationale en matière d'accompagnement et de logement dans les domaines de la vieillesse et du handicap"
     }
   ],
-  "title": "Stratégie nationale en matière d'accompagnement et de logement dans les domaines de la Vieillesse et du Handicap"
+  "title": "Stratégie nationale en matière d'accompagnement et de logement dans les domaines de la vieillesse et du handicap"
 }

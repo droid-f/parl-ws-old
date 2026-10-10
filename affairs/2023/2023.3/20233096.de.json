@@ -1,7 +1,7 @@
 {
   "id": 20233096,
-  "updated": "2023-06-15T15:29:26Z",
-  "additionalIndexing": "2811;10;2846;04",
+  "updated": "2025-04-08T23:37:21Z",
+  "additionalIndexing": "2811;08",
   "affairType": {
     "abbreviation": "Mo.",
     "id": 5,
@@ -55,6 +55,21 @@
             "date": "2023-06-15T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-12-19T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -68,7 +83,113 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-12-05T12:31:10Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2623,
+                    "gender": "m",
+                    "id": 1109,
+                    "name": "Pfister Gerhard",
+                    "officialDenomination": "Pfister Gerhard"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-16T10:56:30Z",
+          "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SPK-NR",
+            "id": 11,
+            "name": "Staatspolitische Kommission NR",
+            "abbreviation1": "SPK-N",
+            "abbreviation2": "SPK",
+            "committeeNumber": 11,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-09T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SPK-SR",
+            "id": 24,
+            "name": "Staatspolitische Kommission SR",
+            "abbreviation1": "SPK-S",
+            "abbreviation2": "SPK",
+            "committeeNumber": 24,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-09T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +210,28 @@
         },
         {
           "date": "/Date(1686780000000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1699484400000+0100)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1702594800000+0100)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1702940400000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -175,10 +316,9 @@
   ],
   "shortId": "23.3096",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -194,7 +334,7 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Am 29. Mai 2019 hat der Bundesrat das Konzept zur Planung und Steuerung der Aufnahme von anerkannten Flüchtlingsgruppen (Umsetzungskonzept Resettlement) verabschiedet und sich damit für eine Verstetigung der Schweizer Beteiligung an den Resettlement-Aktivitäten des UNO-Hochkommissariats für Flüchtlinge (UNHCR) ausgesprochen. Der Bundesrat beauftragte das Eidgenössische Justiz- und Polizeidepartement (EJPD), ihm gestützt auf das Umsetzungskonzept Resettlement alle zwei Jahre ein zweijähriges Resettlement-Programm zur Genehmigung vorzulegen, das eine Aufnahme innerhalb der Bandbreite von 1'500 bis maximal 2'000 Flüchtlingen umfasst. Wie im Umsetzungskonzept Resettlement vorgesehen, wird jeder Vorschlag für ein zweijähriges Resettlement-Programm mit der Begleitgruppe Resettlement konsultiert. Diese Begleitgruppe setzt sich aus Vertretern der Kantone, Städte und Gemeinden, des Bundes (EJPD/EDA), der Eidgenössischen Migrationskommission (EKM), der Schweizerischen Flüchtlingshilfe (SFH) und des UNHCR zusammen. Zusätzlich informiert das zuständige EJPD die Staatspolitischen Kommissionen des National- und Ständerates über den Vorschlag an den Bundesrat.</p><p>Das für die Umsetzung zuständige EJPD berücksichtigt die Situation im Asylbereich fortwährend und kann bei Bedarf die Resettlement-Einreisen temporär suspendieren. Zuletzt hat das EJPD am 30. November 2022 auf Empfehlung des Sonderstabs Asyl (SONAS) eine solche temporäre Suspendierung der Resettlement-Einreisen beschlossen und damit der schwierigen Situation im Asylbereich Rechnung getragen. Diese Suspendierung ist noch in heute in Kraft und wird es so lange bleiben, wie es die Situation im Asyl- und Unterbringungsbereich erfordert.</p><p>Der Bundesrat wird demnächst über den Antrag des EJPD für ein Resettlement-Programm 2024/2025 entscheiden. Bei diesem Entscheid wird der Bundesrat die Lage im Asylbereich berücksichtigen.</p>"
+      "value": "<p>Am 29. Mai 2019 hat der Bundesrat das Konzept zur Planung und Steuerung der Aufnahme von anerkannten Flüchtlingsgruppen (Umsetzungskonzept Resettlement) verabschiedet und sich damit für eine Verstetigung der Schweizer Beteiligung an den Resettlement-Aktivitäten des UNO-Hochkommissariats für Flüchtlinge (UNHCR) ausgesprochen. Der Bundesrat beauftragte das Eidgenössische Justiz- und Polizeidepartement (EJPD), ihm gestützt auf das Umsetzungskonzept Resettlement alle zwei Jahre ein zweijähriges Resettlement-Programm zur Genehmigung vorzulegen, das eine Aufnahme innerhalb der Bandbreite von 1'500 bis maximal 2'000 Flüchtlingen umfasst. Wie im Umsetzungskonzept Resettlement vorgesehen, wird jeder Vorschlag für ein zweijähriges Resettlement-Programm mit der Begleitgruppe Resettlement konsultiert. Diese Begleitgruppe setzt sich aus Vertretern der Kantone, Städte und Gemeinden, des Bundes (EJPD/EDA), der Eidgenössischen Migrationskommission (EKM), der Schweizerischen Flüchtlingshilfe (SFH) und des UNHCR zusammen. Zusätzlich informiert das zuständige EJPD die Staatspolitischen Kommissionen des National- und Ständerates über den Vorschlag an den Bundesrat.</p><p>Das für die Umsetzung zuständige EJPD berücksichtigt die Situation im Asylbereich fortwährend und kann bei Bedarf die Resettlement-Einreisen temporär suspendieren. Zuletzt hat das EJPD am 30. November 2022 auf Empfehlung des Sonderstabs Asyl (SONAS) eine solche temporäre Suspendierung der Resettlement-Einreisen beschlossen und damit der schwierigen Situation im Asylbereich Rechnung getragen. Diese Suspendierung ist noch in heute in Kraft und wird es so lange bleiben, wie es die Situation im Asyl- und Unterbringungsbereich erfordert.</p><p>Der Bundesrat wird demnächst über den Antrag des EJPD für ein Resettlement-Programm 2024/2025 entscheiden. Bei diesem Entscheid wird der Bundesrat die Lage im Asylbereich berücksichtigen.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

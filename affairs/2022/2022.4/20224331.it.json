@@ -1,6 +1,6 @@
 {
   "id": 20224331,
-  "updated": "2022-12-19T10:29:03Z",
+  "updated": "2025-04-24T19:25:13Z",
   "additionalIndexing": "44;1211;15;28",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-03-12T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-03-17T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-22T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CET-CN",
+            "id": 10,
+            "name": "Commissione dell'economia e dei tributi CN",
+            "abbreviation1": "CET-N",
+            "abbreviation2": "CET",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CS",
+            "id": 23,
+            "name": "Commissione dell'economia e dei tributi CS",
+            "abbreviation1": "CET-S",
+            "abbreviation2": "CET",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-10-22T15:49:39Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2700,
+                    "gender": "f",
+                    "id": 3897,
+                    "name": "Moser Tiana Angelina",
+                    "officialDenomination": "Moser"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +179,38 @@
       "states": [
         {
           "date": "/Date(1670799600000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1677020400000+0100)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1710198000000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1726437600000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1729548000000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1742166000000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -105,7 +248,7 @@
         "gender": "m",
         "id": 4190,
         "name": "Dobler Marcel",
-        "officialDenomination": "Dobler"
+        "officialDenomination": "Dobler Marcel"
       },
       "type": "cosign"
     },
@@ -137,10 +280,10 @@
   ],
   "shortId": "22.4331",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -149,6 +292,13 @@
         "name": "Motivazione"
       },
       "value": "<p>Gli sviluppi tecnici e sociali hanno portato a un'ampia accettazione del lavoro domenicale. Al giorno d'oggi è ammesso che un certo numero di negozi sia aperto la domenica e che i consumatori possano facilmente acquistare prodotti nelle stazioni ferroviarie, nelle stazioni di servizio, negli aeroporti e nelle regioni turistiche. Gli abitanti delle città sono ormai abituati a potersi rifornire sette giorni su sette.</p><p>Tuttavia, alcune regioni suburbane che non dispongono di queste infrastrutture non hanno al momento accesso a una serie di servizi ormai diventati indispensabili. Si può difficilmente rifiutare agli abitanti di un paesino la possibilità di fare acquisti la domenica soltanto perché non hanno né una stazione di servizio né una stazione ferroviaria o vivono in una zona non considerata turistica. Le persone con mobilità ridotta o difficoltà di spostamento subiscono in maniera particolare questa disparità di trattamento. </p><p>Va inoltre sottolineato che negli ultimi anni l'automazione ha permesso di limitare la necessità di manodopera per i servizi notturni e nei fine settimana, riducendo gli impatti negativi che sono sempre stati addotti per giustificare il mantenimento delle attuali restrizioni.</p><p>Infine, in molti paesini alcuni servizi di base, come il semplice prelievo di denaro, sono talvolta limitati all'unico negozio di prossimità esistente. La sua chiusura domenicale è fonte di vere e proprie difficoltà personali. </p><p>Per questi motivi si propone di modificare la legislazione sul lavoro per consentire a livello nazionale che i negozi di prossimità possano operare la domenica. Bisognerà definire a livello normativo cosa si intende per negozio di prossimità, in modo da escludere naturalmente i supermercati e i negozi che non offrono l'assortimento corrispondente. Infine, la competenza in materia di polizia del commercio e di orari di apertura dei negozi rimarrà in ogni caso ai Cantoni. </p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Va sottolineato che molte aziende beneficiano già della possibilità di occupare personale la domenica in virtù dell'ordinanza 2 concernente la legge sul lavoro (OLL 2; RS 822.112). Si applicano disposizioni speciali ad esempio agli alberghi, ristoranti e caffé (art. 23 OLL 2), alle panetterie, pasticcerie e confetterie (art. 27 OLL 2) e ai chioschi (art. 26 OLL 2). Inoltre le aziende familiari, che gestiscono abitualmente questo tipo di negozietti con un assortimento di prodotti simile a quello di un alimentari, possono occupare i loro lavoratori la domenica, a condizione che questi ultimi siano membri della famiglia del datore di lavoro (art. 4 Legge sul lavoro, LL; RS 822.11). Questa serie di eccezioni non è legata a limiti geografici e si applica quindi anche alle regioni suburbane.</p><p>Pertanto, anche se è vero che altri tipi di deroghe, in particolare quelle previste per le aziende \"al servizio dei viaggiatori\" - che sono punti vendita nelle stazioni, negli aeroporti, in altre grandi stazioni dei trasporti pubblici e nelle località di confine - riguardano principalmente le aree urbane, le norme in vigore offrono già la flessibilità necessaria per tenere conto dei bisogni primari. Va inoltre aggiunto che il sistema derogatorio previsto per le zone turistiche completa questa offerta e si applica essenzialmente nelle regioni suburbane.</p><p>Prevedere un ulteriore allentamento sarebbe in contrasto con il principio generale di divieto del lavoro domenicale, che si basa essenzialmente su considerazioni sociali, culturali e religiose a cui la maggioranza della popolazione ha finora dimostrato di essere legata. L'estensione degli orari di lavoro del personale di vendita è tra l'altro una questione molto delicata, come hanno dimostrato i risultati negativi di varie votazioni cantonali in questi ultimi anni.</p><p>Considerato quanto precede, il Consiglio federale non ritiene necessario né opportuno proporre una modifica della legislazione sul lavoro intesa a consentire il lavoro domenicale nei negozi di prossimità che vada oltre al sistema derogatorio in vigore.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {
@@ -162,8 +312,8 @@
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Legislazione sul lavoro: autorizzare l’apertura domenicale dei negozi di prossimità"
+      "value": "Legislazione sul lavoro. Autorizzare l'apertura domenicale dei negozi di prossimità"
     }
   ],
-  "title": "Legislazione sul lavoro: autorizzare l’apertura domenicale dei negozi di prossimità"
+  "title": "Legislazione sul lavoro. Autorizzare l'apertura domenicale dei negozi di prossimità"
 }

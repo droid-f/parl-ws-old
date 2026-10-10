@@ -1,6 +1,6 @@
 {
   "id": 20224105,
-  "updated": "2022-10-06T15:12:18Z",
+  "updated": "2025-04-24T19:16:44Z",
   "additionalIndexing": "44;32;2811;15;10",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,172 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-25T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-03-13T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-16T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-23T16:40:43Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3199,
+                    "gender": "m",
+                    "id": 4244,
+                    "name": "Zopfi Mathias",
+                    "officialDenomination": "Zopfi"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SPK-SR",
+            "id": 24,
+            "name": "Staatspolitische Kommission SR",
+            "abbreviation1": "SPK-S",
+            "abbreviation2": "SPK",
+            "committeeNumber": 24,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SPK-NR",
+            "id": 11,
+            "name": "Staatspolitische Kommission NR",
+            "abbreviation1": "SPK-N",
+            "abbreviation2": "SPK",
+            "committeeNumber": 11,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1664402400000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1668553200000+0100)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1695592800000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1705964400000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1707433200000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1710284400000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -294,10 +437,10 @@
   ],
   "shortId": "22.4105",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -305,7 +448,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Fachkräfte aus Drittstaaten werden nur begrenzt und komplementär zu EU/EFTA-Staatsangehörigen zu einer Erwerbstätigkeit zugelassen. Wer in der Schweiz einen Abschluss der Stufe Tertiär A oder B erlangt, kann aufgrund der ausländerrechtlichen Bestimmungen nach Beendigung der Ausbildung bei uns oft keine Stelle antreten. Die hier ausgebildeten Spezialistinnen und Spezialisten suchen stattdessen ihre Erstanstellung im Ausland und sind somit für den Schweizer Arbeitsmarkt mittel- und langfristig verloren. Dies ist in Branchen mit einem ausgewiesenen Fachkräftemangel stossend.</p><p>Ausnahmen gibt es bisher nur für Drittstaatenangehörige mit Schweizer Hochschulabschluss (Tertiär A). Sie können ohne Beachtung des Inländervorranges erleichtert zugelassen werden, wenn ihre Erwerbstätigkeit von hohem wissenschaftlichem oder wirtschaftlichem Interesse ist (Artikel 21 Absatz 3 AIG). In KMU-Branchen sind diese Ausnahmen jedoch nicht anwendbar, selbst wenn ihr Fachkräftemangel ausgewiesen ist und Personen mit einer soliden höheren Berufsausbildung fehlen, die sie sich an höheren Fachschulen oder im Rahmen von Berufs- oder höheren Fachprüfungen (Tertiär B) aneignet haben. Eine unterschiedliche Behandlung der Tertiärstufen A und B ist stossend. Sie widerspricht Artikel 61a der Bundesverfassung, der vorsieht, \"dass allgemein bildende und berufsbezogene Bildungswege eine gleichwertige gesellschaftliche Anerkennung finden\", und dem im schweizerischen Bildungssystem gepflegten Ziel, die höhere Berufsbildung insgesamt zu stärken. Berufsleute mit vertieftem Fachwissen sind für den schweizerischen Arbeitsmarkt und insbesondere für die KMU von essenzieller wirtschaftlicher Bedeutung. </p><p>Es ist deshalb angezeigt, weitere Ausnahmen vom Kontingentsystem auch für Absolventinnen und Absolventen der Tertiärstufe B (Höhere Berufsbildung) vorzusehen.</p>"
+      "value": "<p>Fachkräfte aus Drittstaaten werden nur begrenzt und komplementär zu EU/EFTA-Staatsangehörigen zu einer Erwerbstätigkeit zugelassen. Wer in der Schweiz einen Abschluss der Stufe Tertiär A oder B erlangt, kann aufgrund der ausländerrechtlichen Bestimmungen nach Beendigung der Ausbildung bei uns oft keine Stelle antreten. Die hier ausgebildeten Spezialistinnen und Spezialisten suchen stattdessen ihre Erstanstellung im Ausland und sind somit für den Schweizer Arbeitsmarkt mittel- und langfristig verloren. Dies ist in Branchen mit einem ausgewiesenen Fachkräftemangel stossend.</p><p>Ausnahmen gibt es bisher nur für Drittstaatenangehörige mit Schweizer Hochschulabschluss (Tertiär A). Sie können ohne Beachtung des Inländervorranges erleichtert zugelassen werden, wenn ihre Erwerbstätigkeit von hohem wissenschaftlichem oder wirtschaftlichem Interesse ist (Artikel 21 Absatz 3 AIG). In KMU-Branchen sind diese Ausnahmen jedoch nicht anwendbar, selbst wenn ihr Fachkräftemangel ausgewiesen ist und Personen mit einer soliden höheren Berufsausbildung fehlen, die sie sich an höheren Fachschulen oder im Rahmen von Berufs- oder höheren Fachprüfungen (Tertiär B) aneignet haben. Eine unterschiedliche Behandlung der Tertiärstufen A und B ist stossend. Sie widerspricht Artikel 61a der Bundesverfassung, der vorsieht, \"dass allgemein bildende und berufsbezogene Bildungswege eine gleichwertige gesellschaftliche Anerkennung finden\", und dem im schweizerischen Bildungssystem gepflegten Ziel, die höhere Berufsbildung insgesamt zu stärken. Berufsleute mit vertieftem Fachwissen sind für den schweizerischen Arbeitsmarkt und insbesondere für die KMU von essenzieller wirtschaftlicher Bedeutung. </p><p>Es ist deshalb angezeigt, weitere Ausnahmen vom Kontingentsystem auch für Absolventinnen und Absolventen der Tertiärstufe B (Höhere Berufsbildung) vorzusehen.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Die Zulassung ausländischer Arbeitskräfte erfolgt nach dem vom Gesetzgeber vorgesehenen dualen Zulassungssystem. Fachkräfte aus Drittstaaten werden komplementär zu Angehörigen der EU/EFTA-Staaten zu einer Erwerbstätigkeit zugelassen.</p><p>Absolventinnen und Absolventen der Tertiärstufe B von den Höchstzahlen der Bewilligungen für den Aufenthalt von Ausländerinnen und Ausländern, die in die Schweiz einwandern, auszunehmen - wie dies bereits von der Motion Dobler 17.3067 verlangt wurde -, stünde im Widerspruch zu Art. 121a Absatz 2 BV, nach welchem die Zahl dieser Bewilligungen durch jährliche Höchstzahlen und Kontingente zu begrenzen ist. Eine Ausnahme von den jährlichen Höchstzahlen für Absolventinnen und Absolventen der Tertiärstufe B wäre somit nicht rechtskonform, zudem würde die Steuerungsmöglichkeit des Bundesrates weiter reduziert. Die Drittstaatskontingente wurden seit 2019 nicht mehr vollständig ausgeschöpft. Wenn Absolventinnen und Absolventen der Tertiärstufe B im Anschluss an ihre Ausbildung in der Schweiz keine Stelle antreten können, liegt dies nicht an fehlenden Kontingenten, sondern vielmehr daran, dass zuerst das bereits bestehende Potenzial an Inländerinnen und Inländern sowie dasjenige in der EU/EFTA auszuschöpfen ist und die Kantone dies dementsprechend auch so beurteilen. Hinzu kommt, dass weitere qualitative Zulassungsvoraussetzungen im Sinne des Ausländer- und Integrationsgesetzes oftmals nicht erfüllt sind (keine vorhandene Berufserfahrung, fehlende gesamtwirtschaftliche Interessen).</p><p>Um den Zugang zu Arbeitskräften aus Drittstaaten namentlich in Bereichen mit einem ausgewiesenen Fachkräftemangel zu erleichtern, hat der Bundesrat am 4. März 2022 zeitgleich mit der Verabschiedung des Berichts in Erfüllung des Postulats Nantermod 19.3651 \"Für eine Zuwanderungsregelung, die den Bedürfnissen der Schweiz entspricht\" eine Reihe von Massnahmen beschlossen. Unter anderem soll bei Berufen mit nachweislich starkem Fachkräftemangel zukünftig auf eine Prüfung des Inländervorrangs im Einzelfall verzichtet werden können. Ausserdem sollen künftig auch Personen ohne akademische Bildung in qualifizierten Tätigkeiten mit ausgewiesenem Fachkräftemangel eine Aufenthaltsbewilligung erhalten können, wenn dies dem gesamtwirtschaftlichen Interesse entspricht. Diese Erleichterungen - von denen auch Absolventinnen und Absolventen der Tertiärstufe B profitieren können - werden vom EJPD in Zusammenarbeit mit dem WBF und den Kantonen bis Anfang 2023 direkt auf Weisungsstufe umgesetzt.</p><p>Mit den Beschlüssen des Bundesrats vom 4. März 2022 wird dem Anliegen des Motionärs weitgehend Rechnung getragen. Zusätzliche Anpassungen auf Gesetzesstufe sind nicht angezeigt.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {
@@ -319,8 +469,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Den Fachkräftemangel mit allen mildern, die einen Abschluss in der Höheren Berufsbildung haben"
+      "value": "Den Fachkräftemangel mit allen mildern, die einen Abschluss in der höheren Berufsbildung haben"
     }
   ],
-  "title": "Den Fachkräftemangel mit allen mildern, die einen Abschluss in der Höheren Berufsbildung haben"
+  "title": "Den Fachkräftemangel mit allen mildern, die einen Abschluss in der höheren Berufsbildung haben"
 }

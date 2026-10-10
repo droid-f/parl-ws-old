@@ -1,6 +1,6 @@
 {
   "id": 20233479,
-  "updated": "2023-04-17T15:28:41Z",
+  "updated": "2025-04-24T19:33:24Z",
   "additionalIndexing": "24;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -8,11 +8,6 @@
     "name": "Motion"
   },
   "author": {
-    "faction": {
-      "abbreviation": "Groupe G",
-      "id": 6,
-      "name": "Groupe des VERT-E-S"
-    },
     "type": "author"
   },
   "deposit": {
@@ -33,10 +28,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-03-13T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-05-24T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
@@ -49,13 +61,28 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Département des finances",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1681164000000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1684879200000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1710284400000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -78,11 +105,6 @@
   ],
   "roles": [
     {
-      "faction": {
-        "abbreviation": "Groupe G",
-        "id": 6,
-        "name": "Groupe des VERT-E-S"
-      },
       "type": "author"
     },
     {
@@ -98,10 +120,10 @@
   ],
   "shortId": "23.3479",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -109,22 +131,29 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Lorsque les banques d'importance systémique sont en difficulté, l'Etat est contraint d'intervenir, comme l'a montré le sauvetage d'UBS et de Credit Suisse. Ces banques bénéficient donc d'une garantie implicite de l'Etat, ce qui peut notamment les amener à prendre plus de risques. Aussi les banques d'importance systémique doivent-elles rémunérer cette garantie de l'Etat, à l'instar de ce qui se fait déjà en partie au niveau cantonal avec les banques cantonales.</p>"
+      "value": "<p>Lorsque les banques d'importance systémique sont en difficulté, l'État est contraint d'intervenir, comme l'a montré le sauvetage d'UBS et de Credit Suisse. Ces banques bénéficient donc d'une garantie implicite de l'État, ce qui peut notamment les amener à prendre plus de risques. Aussi les banques d'importance systémique doivent-elles rémunérer cette garantie de l'État, à l'instar de ce qui se fait déjà en partie au niveau cantonal avec les banques cantonales.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Avec l'aide de spécialistes externes, le Département fédéral des finances examinera en détail les circonstances qui ont conduit à l'adoption, les 16 et 19 mars 2023, d'un train de mesures spécial et évaluera l'ensemble de la réglementation too big too fail. Les conclusions de ces analyses seront présentées au Parlement dans un délai d'un an, dans le rapport du Conseil fédéral sur les banques d'importance systémique visé à l'art. 52 de la loi sur les banques.</p><p>Ce rapport traitera également en profondeur la question de savoir s'il y a lieu de prendre des mesures en lien avec la rémunération de la garantie implicite de l'État par les banques d'importance systémique. C'est pourquoi, à ce stade, le Conseil fédéral ne peut pas arrêter de mesures concrètes dans ce domaine.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Le Conseil fédéral est chargé de modifier les bases légales de sorte que la garantie implicite de l'Etat dont bénéficient les banques d'importance systémique soit désormais rémunérée. </p>"
+      "value": "<p>Le Conseil fédéral est chargé de modifier les bases légales de sorte que la garantie implicite de l'État dont bénéficient les banques d'importance systémique soit désormais rémunérée. </p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Rémunération de la garantie de l’État"
+      "value": "Rémunération de la garantie de l'Etat"
     }
   ],
-  "title": "Rémunération de la garantie de l’État"
+  "title": "Rémunération de la garantie de l'Etat"
 }

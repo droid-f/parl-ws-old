@@ -1,6 +1,6 @@
 {
   "id": 20233895,
-  "updated": "2023-06-21T15:34:27Z",
+  "updated": "2025-06-20T09:41:40Z",
   "additionalIndexing": "24;2846",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,35 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 2,
+              "name": "Discussione"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Discussione rinviata",
+            "type": 29
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Amm."
+            },
+            "council": null,
+            "date": "2025-06-20T00:00:00Z",
+            "text": "Tolto dal ruolo poiché la trattazione nella Camera non si è conclusa entro due anni",
+            "type": 32
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2023-08-23T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +81,28 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Dipartimento dell'economia, della formazione e della ricerca",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686866400000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1692741600000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1750370400000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -122,19 +162,33 @@
   ],
   "shortId": "23.3895",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Dopo un passaggio di proprietà, il nuovo proprietario può per principio ricalcolare il rendimento. Se nello specifico ne risulta un nuovo valore d’investimento, un tale ricalcolo sulla base del rendimento potrebbe essere giustificato. Tuttavia, a seguito della fusione di UBS AG e Credit Suisse Group AG, tutte le attività e le passività di CS sono state trasferite a UBS, compresi l’intero parco immobiliare e i portafogli immobiliari gestiti. Non c’è quindi stato un classico passaggio di proprietà con un determinato prezzo di vendita, per cui manca presumibilmente una base sufficientemente solida che consenta a UBS di ricalcolare gli affitti in base al rendimento. Il Consiglio federale presume inoltre che il nuovo proprietario non abbia un interesse maggiore, rispetto a quello di CS, a disdire contratti di locazione. È quindi probabile che tali contratti saranno mantenuti invariati. Se la nuova UBS necessiterà di meno superfici commerciali rispetto alle due banche precedenti, l’offerta potrebbe tendenzialmente aumentare perlomeno per i locatari commerciali.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Credit Suisse è uno dei principali proprietari e locatori di immobili in Svizzera, direttamente o, indirettamente, attraverso fondi d’investimento. Il trasferimento di questo portafoglio immobiliare a UBS potrebbe avvenire a condizioni tali da giustificare aumenti di affitto per gli inquilini attuali o futuri</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Quali rischi corrono gli inquilini a seguito dell'acquisizione di Credit Suisse da parte di UBS?"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Quali rischi corrono gli inquilini a seguito dell'acquisizione di Credit Suisse da parte di UBS?"
 }

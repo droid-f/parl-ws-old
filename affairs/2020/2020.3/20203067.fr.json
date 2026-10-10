@@ -1,6 +1,6 @@
 {
   "id": 20203067,
-  "updated": "2022-03-02T17:09:26Z",
+  "updated": "2025-06-19T18:48:59Z",
   "additionalIndexing": "15;1211;2446",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,36 @@
             "date": "2022-03-02T00:00:00Z",
             "text": "Adoption",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-03-05T00:00:00Z",
+            "text": "Adoption avec modification",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2025-06-19T00:00:00Z",
+            "text": "Adhésion",
+            "type": 3
           }
         ]
       },
@@ -67,7 +97,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-01-27T16:53:21Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3197,
+                    "gender": "f",
+                    "id": 4242,
+                    "name": "Vara Céline",
+                    "officialDenomination": "Vara"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAJ-CN",
+            "id": 12,
+            "name": "Commission des affaires juridiques CN",
+            "abbreviation1": "CAJ-N",
+            "abbreviation2": "CAJ",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2020-03-09T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAJ-CE",
+            "id": 25,
+            "name": "Commission des affaires juridiques CE",
+            "abbreviation1": "CAJ-E",
+            "abbreviation2": "CAJ",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2020-03-09T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +199,28 @@
         },
         {
           "date": "/Date(1646175600000+0100)/",
-          "id": 11,
-          "name": "Motion au 2e conseil"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1734476400000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1737932400000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1741129200000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1750284000000+0200)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
         }
       ],
       "texts": [
@@ -129,10 +260,9 @@
   ],
   "shortId": "20.3067",
   "state": {
-    "id": 11,
-    "name": "Motion au 2e conseil",
+    "id": 209,
+    "name": "Transmis au Conseil fédéral",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -148,7 +278,7 @@
         "id": 14,
         "name": "Réponse CF / Bureau"
       },
-      "value": "<p>Conformément à l'art. 16 de la loi fédérale du 11 avril 1889 sur la poursuite pour dettes et la faillite (LP, RS 281.1), le Conseil fédéral est compétent pour arrêter les tarifs en matière de poursuite et de faillite, ce qu'il a fait en édictant l'ordonnance du 23 septembre 1996 sur les émoluments perçus en application de la loi fédérale sur la poursuite pour dettes et la faillite (OELP; RS 281.35). Il est lié dans ce contexte par le principe de la couverture des frais et le principe d'équivalence.</p><p>Lors des travaux préparatoires en lien avec le postulat 18.3080 Nantermod \" Des émoluments trop chers en matière de poursuite et de faillite ? \", le Conseil fédéral a, à l'occasion d'une consultation sur l'OELP en juillet 2018, interrogé les cantons sur la couverture des frais dans le domaine des poursuites et des faillites. Le sondage a montré qu'il était difficile voire impossible de comparer la couverture des frais entre les cantons, et même au sein d'un même canton, en raison de structures et de spécificités trop hétérogènes. L'organisation du domaine des poursuites et des faillites diffère fortement d'un canton à l'autre - les offices des poursuites accomplissent parfois des tâches supplémentaires (par ex. gestion du registre foncier, notariat, services pour les communes ou pour le maire) - et les charges financières varient également d'un lieu à l'autre (notamment les loyers et les salaires). Les chiffres présentés par 13 cantons ont offert un tableau très disparate, pas uniquement entre les cantons eux-mêmes, mais souvent aussi au sein d'un même canton sur des périodes différentes. Si quelques cantons réalisent d'importants bénéfices en matière de poursuites, d'autres sont déficitaires dans ce domaine, si bien qu'on ne saurait dire que l'OELP génère automatiquement des gains. L'enquête a surtout révélé que le domaine des faillites est largement déficitaire et est souvent subventionné indirectement par les offices des poursuites.</p><p>Ces données ne permettent pas d'affirmer de façon définitive, à l'heure actuelle, que les tarifs en vigueur violent le principe de la couverture des frais et que les émoluments doivent être diminués. Au contraire, des clarifications complémentaires sont nécessaires pour cela et le rapport en réponse au postulat 18.3080 doit être finalisé. L'adoption de ce rapport est prévue pour le premier semestre de 2021. Il ne faut pas préjuger des résultats de ces travaux.</p>"
+      "value": "<p>Conformément à l'art. 16 de la loi fédérale du 11 avril 1889 sur la poursuite pour dettes et la faillite (LP, RS 281.1), le Conseil fédéral est compétent pour arrêter les tarifs en matière de poursuite et de faillite, ce qu'il a fait en édictant l'ordonnance du 23 septembre 1996 sur les émoluments perçus en application de la loi fédérale sur la poursuite pour dettes et la faillite (OELP ; RS 281.35). Il est lié dans ce contexte par le principe de la couverture des frais et le principe d'équivalence.</p><p>Lors des travaux préparatoires en lien avec le postulat 18.3080 Nantermod \" Des émoluments trop chers en matière de poursuite et de faillite ? \", le Conseil fédéral a, à l'occasion d'une consultation sur l'OELP en juillet 2018, interrogé les cantons sur la couverture des frais dans le domaine des poursuites et des faillites. Le sondage a montré qu'il était difficile voire impossible de comparer la couverture des frais entre les cantons, et même au sein d'un même canton, en raison de structures et de spécificités trop hétérogènes. L'organisation du domaine des poursuites et des faillites diffère fortement d'un canton à l'autre - les offices des poursuites accomplissent parfois des tâches supplémentaires (par ex. gestion du registre foncier, notariat, services pour les communes ou pour le maire) - et les charges financières varient également d'un lieu à l'autre (notamment les loyers et les salaires). Les chiffres présentés par 13 cantons ont offert un tableau très disparate, pas uniquement entre les cantons eux-mêmes, mais souvent aussi au sein d'un même canton sur des périodes différentes. Si quelques cantons réalisent d'importants bénéfices en matière de poursuites, d'autres sont déficitaires dans ce domaine, si bien qu'on ne saurait dire que l'OELP génère automatiquement des gains. L'enquête a surtout révélé que le domaine des faillites est largement déficitaire et est souvent subventionné indirectement par les offices des poursuites.</p><p>Ces données ne permettent pas d'affirmer de façon définitive, à l'heure actuelle, que les tarifs en vigueur violent le principe de la couverture des frais et que les émoluments doivent être diminués. Au contraire, des clarifications complémentaires sont nécessaires pour cela et le rapport en réponse au postulat 18.3080 doit être finalisé. L'adoption de ce rapport est prévue pour le premier semestre de 2021. Il ne faut pas préjuger des résultats de ces travaux.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {

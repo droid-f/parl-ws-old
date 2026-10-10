@@ -1,6 +1,6 @@
 {
   "id": 20160470,
-  "updated": "2023-06-07T09:09:42Z",
+  "updated": "2025-04-09T00:13:18Z",
   "additionalIndexing": "24;1211",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -17,7 +17,7 @@
     },
     "faction": {
       "abbreviation": "Fraktion C",
-      "code": "C",
+      "code": "M-E",
       "id": 3,
       "name": "CVP-Fraktion"
     },
@@ -50,7 +50,7 @@
               "abbreviation": "RK-NR",
               "id": 12,
               "name": "Kommission für Rechtsfragen NR",
-              "abbreviation1": "RK-NR",
+              "abbreviation1": "RK-N",
               "abbreviation2": "RK",
               "committeeNumber": 12,
               "council": {
@@ -63,7 +63,7 @@
             },
             "council": null,
             "date": "2017-10-19T00:00:00Z",
-            "text": "Folge gegeben",
+            "text": "Folge geben (Erstrat)",
             "type": 16
           },
           {
@@ -75,7 +75,7 @@
               "abbreviation": "RK-SR",
               "id": 25,
               "name": "Kommission für Rechtsfragen SR",
-              "abbreviation1": "RK-SR",
+              "abbreviation1": "RK-S",
               "abbreviation2": "RK",
               "committeeNumber": 25,
               "council": {
@@ -108,8 +108,8 @@
           },
           {
             "category": {
-              "id": 4,
-              "name": "Ergänzung"
+              "id": 3,
+              "name": "Normal"
             },
             "council": null,
             "date": "2020-06-19T00:00:00Z",
@@ -133,8 +133,8 @@
           },
           {
             "category": {
-              "id": 4,
-              "name": "Ergänzung"
+              "id": 3,
+              "name": "Normal"
             },
             "council": {
               "abbreviation": "NR",
@@ -164,7 +164,7 @@
             "abbreviation": "RK-NR",
             "id": 12,
             "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
+            "abbreviation1": "RK-N",
             "abbreviation2": "RK",
             "committeeNumber": 12,
             "council": {
@@ -197,8 +197,7 @@
             {
               "correspondents": [
 
-              ],
-              "sessionId": "5121"
+              ]
             }
           ],
           "treatmentCategory": "IV"
@@ -208,7 +207,7 @@
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -226,26 +225,12 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
         {
-          "committee": {
-            "abbreviation": "RK-NR",
-            "id": 12,
-            "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
-            "abbreviation2": "RK",
-            "committeeNumber": 12,
-            "council": {
-              "abbreviation": "NR",
-              "id": 1,
-              "name": "Nationalrat",
-              "type": "N"
-            },
-            "typeCode": 1
-          },
           "date": "/Date(1682632800000+0200)/",
           "publication": {
             "isOldFormat": false,
@@ -263,13 +248,32 @@
             "id": 6,
             "name": "Bericht"
           }
+        },
+        {
+          "date": "/Date(1692136800000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2044",
+            "source": "BBl 2023 2044",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2023/2044.pdf",
+            "year": "2023"
+          },
+          "type": {
+            "id": 2,
+            "name": "Stellungnahme des Bundesrates"
+          }
         }
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlament",
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
           "leading": true
         }
       ],
@@ -281,8 +285,48 @@
         },
         {
           "date": "/Date(1524693600000+0200)/",
-          "id": 1,
-          "name": "Folge gegeben"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1693519200000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1695679200000+0200)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1695765600000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1700175600000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1702335600000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1709074800000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -292,22 +336,135 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-27T00:00:00Z",
+            "text": "Beschluss gemäss Entwurf",
+            "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-12-12T00:00:00Z",
+            "text": "Nichteintreten",
+            "type": 67
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-02-28T00:00:00Z",
+            "text": "Nichteintreten",
+            "type": 67
+          }
         ]
       },
       "federalCouncilProposal": {
       },
       "index": 1,
       "links": [
-
+        {
+          "date": "/Date(1709161200000+0100)/",
+          "title": "Vernehmlassung",
+          "url": "https://www.parlament.ch/de/organe/kommissionen/sachbereichskommissionen/kommissionen-rk/vernehmlassung-rk-n-16-470"
+        }
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-19T15:47:22Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3055,
+                    "gender": "m",
+                    "id": 4154,
+                    "name": "Addor Jean-Luc",
+                    "officialDenomination": "Addor"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-16T09:23:48Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ]
+            }
+          ]
+        },
         {
           "committee": {
             "abbreviation": "RK-NR",
             "id": 12,
             "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
+            "abbreviation1": "RK-N",
             "abbreviation2": "RK",
             "committeeNumber": 12,
             "council": {
@@ -342,22 +499,6 @@
                     "officialDenomination": "Bregy"
                   },
                   "language": "de"
-                },
-                {
-                  "council": {
-                    "abbreviation": "NR",
-                    "id": 1,
-                    "name": "Nationalrat",
-                    "type": "N"
-                  },
-                  "councillor": {
-                    "code": 3222,
-                    "gender": "m",
-                    "id": 4327,
-                    "name": "Mahaim Raphaël",
-                    "officialDenomination": "Mahaim"
-                  },
-                  "language": "fr"
                 }
               ],
               "sessionId": "5122"
@@ -370,7 +511,7 @@
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -384,10 +525,70 @@
           "date": "2016-09-29T00:00:00Z",
           "registrations": [
 
+          ],
+          "treatmentCategory": "IIIb/IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-12-07T08:11:33Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2632,
+                    "gender": "m",
+                    "id": 1120,
+                    "name": "Sommaruga Carlo",
+                    "officialDenomination": "Sommaruga Carlo"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
           ]
         }
       ],
       "references": [
+        {
+          "date": "/Date(1682632800000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "1335",
+            "source": "BBl 2023 1335",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2023/1335.pdf",
+            "year": "2023"
+          },
+          "type": {
+            "id": 6,
+            "name": "Bericht"
+          }
+        },
         {
           "date": "/Date(1682632800000+0200)/",
           "publication": {
@@ -410,13 +611,58 @@
         }
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1682632800000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1695765600000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1697148000000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1700175600000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1702335600000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1705618800000+0100)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1709074800000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -654,7 +900,7 @@
       },
       "faction": {
         "abbreviation": "Fraktion C",
-        "code": "C",
+        "code": "M-E",
         "id": 3,
         "name": "CVP-Fraktion"
       },
@@ -663,8 +909,8 @@
   ],
   "shortId": "16.470",
   "state": {
-    "id": 1,
-    "name": "Folge gegeben",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },
@@ -674,14 +920,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Sowohl in der Schweiz als auch in Europa schwächelt die Konjunktur, der Schweizerfranken ist unverändert stark, und gewisse Bankeinlagen werden mit Negativzinsen belastet. Das hat zur Folge, dass die Schweizer Wirtschaft und speziell die kleinen und mittleren Unternehmen schwierige Zeiten durchlaufen. In diesem wirtschaftlichen Umfeld stellt ein Verzugszinssatz von 5 Prozent, der weit über den Marktzinsen liegt, für viele Unternehmen eine starke finanzielle Zusatzbelastung dar. Betroffen sind insbesondere Betriebe, die bereits in finanziellen Schwierigkeiten sind. Ausserdem kann man davon ausgehen, dass diese zusätzlichen Kosten letztlich auf die Konsumentinnen und Konsumenten überwälzt werden.</p><p>Gegenwärtig sieht die Nationalbank für den Dreimonats-Libor ein Zielband von -1,25 bis -0,25 Prozent vor. Andere Referenzzinssätze sind ebenfalls extrem tief oder gar negativ, liegen also weit unter den 5 Prozent, die der geltende Artikel 104 OR vorgibt. Unter diesen Umständen scheint es sinnvoll, alle vom Bund erhobenen Verzugszinsen dem Marktniveau anzupassen.</p><p>Es darf im Übrigen bezweifelt werden, dass ein Beibehalten des Verzugszinssatzes auf einem so hohen Niveau die Zahlungsmoral tatsächlich verbessert. Wendet die Eidgenössische Steuerverwaltung einen Verzugszinssatz an, der im Vergleich zu den marktüblichen Zinssätzen übertrieben hoch ist, so kann dies letztlich als Ungleichbehandlung aufgefasst werden, vor allem wenn man den Zinssatz mit den von den Kantonsregierungen beschlossenen Zinssätzen vergleicht.</p>"
+      "value": "<p>Sowohl in der Schweiz als auch in Europa schwächelt die Konjunktur, der Schweizerfranken ist unverändert stark, und gewisse Bankeinlagen werden mit Negativzinsen belastet. Das hat zur Folge, dass die Schweizer Wirtschaft und speziell die kleinen und mittleren Unternehmen schwierige Zeiten durchlaufen. In diesem wirtschaftlichen Umfeld stellt ein Verzugszinssatz von 5 Prozent, der weit über den Marktzinsen liegt, für viele Unternehmen eine starke finanzielle Zusatzbelastung dar. Betroffen sind insbesondere Betriebe, die bereits in finanziellen Schwierigkeiten sind. Ausserdem kann man davon ausgehen, dass diese zusätzlichen Kosten letztlich auf die Konsumentinnen und Konsumenten überwälzt werden.</p><p>Gegenwärtig sieht die Nationalbank für den Dreimonats-Libor ein Zielband von -1,25 bis -0,25 Prozent vor. Andere Referenzzinssätze sind ebenfalls extrem tief oder gar negativ, liegen also weit unter den 5 Prozent, die der geltende Artikel 104 OR vorgibt. Unter diesen Umständen scheint es sinnvoll, alle vom Bund erhobenen Verzugszinsen dem Marktniveau anzupassen.</p><p>Es darf im Übrigen bezweifelt werden, dass ein Beibehalten des Verzugszinssatzes auf einem so hohen Niveau die Zahlungsmoral tatsächlich verbessert. Wendet die Eidgenössische Steuerverwaltung einen Verzugszinssatz an, der im Vergleich zu den marktüblichen Zinssätzen übertrieben hoch ist, so kann dies letztlich als Ungleichbehandlung aufgefasst werden, vor allem wenn man den Zinssatz mit den von den Kantonsregierungen beschlossenen Zinssätzen vergleicht.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Gestützt auf Artikel 160 Absatz 1 der Bundesverfassung und auf Artikel 107 des Parlamentsgesetzes reiche ich folgende parlamentarische Initiative ein:</p><p>Artikel 104 des Obligationenrechts (OR) wird dahingehend angepasst, dass der aktuell geltende Verzugszinssatz (5 Prozent) durch eine Regelung ersetzt wird, die den Verzugszinssatz an die allgemeine Entwicklung der Marktzinssätze anbindet. Ebenfalls anzupassen sind die Verordnung über die Verzinsung ausstehender Verrechnungssteuern, die Verordnung über die Alters- und Hinterlassenenversicherung und sämtliche anderen Gesetze, Verordnungen, Kreisschreiben und weiteren Bundestexte, die Verzugszinsen regeln.</p>"
+      "value": "<p>Gestützt auf Artikel 160 Absatz 1 der Bundesverfassung und auf Artikel 107 des Parlamentsgesetzes reiche ich folgende parlamentarische Initiative ein:</p><p>Artikel 104 des Obligationenrechts (OR) wird dahingehend angepasst, dass der aktuell geltende Verzugszinssatz (5 Prozent) durch eine Regelung ersetzt wird, die den Verzugszinssatz an die allgemeine Entwicklung der Marktzinssätze anbindet. Ebenfalls anzupassen sind die Verordnung über die Verzinsung ausstehender Verrechnungssteuern, die Verordnung über die Alters- und Hinterlassenenversicherung und sämtliche anderen Gesetze, Verordnungen, Kreisschreiben und weiteren Bundestexte, die Verzugszinsen regeln.</p>"
     },
     {
       "type": {

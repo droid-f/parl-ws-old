@@ -1,6 +1,6 @@
 {
   "id": 20233267,
-  "updated": "2023-03-21T15:03:42Z",
+  "updated": "2025-04-24T19:15:18Z",
   "additionalIndexing": "1236;24;08;09;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,17 +41,145 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Bekämpft"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-06-16T00:00:00Z",
+            "text": "Bekämpft. Diskussion verschoben",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-28T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-03-07T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-05-24T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-09T16:47:05Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2631,
+                    "gender": "m",
+                    "id": 1159,
+                    "name": "Schwander Pirmin",
+                    "officialDenomination": "Schwander"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -67,8 +195,33 @@
       "states": [
         {
           "date": "/Date(1678921200000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1684879200000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1704754800000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1704841200000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1709766000000+0100)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -141,6 +294,16 @@
     },
     {
       "councillor": {
+        "code": 2740,
+        "gender": "m",
+        "id": 4025,
+        "name": "Büchel Roland Rino",
+        "officialDenomination": "Büchel Roland"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
         "code": 2794,
         "gender": "m",
         "id": 4089,
@@ -158,8 +321,8 @@
   ],
   "shortId": "23.3267",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
     "newKey": 0
   },
@@ -170,6 +333,13 @@
         "name": "Begründung"
       },
       "value": "<p>Die Zerstörung der Ukraine durch den völkerrechtswidrigen Angriffskrieg Russlands ist enorm. Die Schäden an der Infrastruktur des Landes werden von der Weltbank inzwischen auf 2 Billionen Dollar geschätzt. Die internationale Gemeinschaft steht vor der Herkulesaufgabe, der Ukraine die notwendigen Mittel für den Wiederaufbau zur Verfügung zu stellen. Die Koordination dafür hat bereits begonnen, die Schweiz ist mit einer diplomatischen Vertretung beteiligt.</p><p>Mit den Sanktionen des Westens wurden nicht nur private, sondern auch staatliche und staatsnahe Guthaben eingefroren. Bei Letzteren ist die Verbindung zwischen Aggressor und Eigentümer einfacher herzustellen: Eigentümer ist der russische Staat. Es liegt daher nahe, diese Gelder der Ukraine als Reparationszahlungen zukommen zu lassen.</p><p>Dabei stellen sich allerdings völkerrechtlich anspruchsvolle Fragen, die einer Antwort bedürfen. So stellt sich beispielsweise die Frage, ob Zentralbankgelder eines Staates, der einen völkerrechtswidrigen Angriffskrieg führt, noch in vollem Umfang von der Staatenimmunität geschützt sind oder ob es hier Einschränkungen gibt. In Bezug auf Zentralbankgelder ist überdies zu klären, wie allfälligen nachgelagerten negativen Folgen für die internationale Währungspolitik begegnet werden kann. </p><p>Die Schweiz kann einen substanziellen Beitrag leisten, um ein solch komplexes Vorhaben völkerrechtlich und technisch zum Erfolg zu führen.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Derzeit werden auf internationaler Ebene aktiv Überlegungen zur Einführung eines Registers für Schäden, die der Ukraine durch die russische Aggression entstanden sind, sowie eines internationalen Reparationsmechanismus vorangetrieben. Die Schweiz verfolgt diese miteinander verbundenen Diskussionen aufmerksam.</p><p>Am 15. Februar 2023 hat der Bundesrat Kenntnis von den Analysen einer Arbeitsgruppe unter Leitung des Bundesamtes für Justiz genommen, wonach private russische Vermögenswerte nicht eingezogen werden können, wenn sie nicht unrechtmässigen Ursprungs sind. Der Bundesrat stellte zudem fest, dass auch die mögliche Einziehung der Währungsreserven der russischen Zentralbank und anderer Vermögenswerte des russischen Staates zum Zweck der Entschädigung der Ukraine auf internationaler Ebene diskutiert wird.</p><p>Zu diesen beiden Themen will sich die Schweiz mit ihren anerkannten Kompetenzen im Bereich des Völkerrechts einbringen, damit in den verschiedenen laufenden Diskussionen Lösungen gefunden werden, die mit ihrer innerstaatlichen Rechtsordnung, dem Völkerrecht und ihren aussenpolitischen Zielen im Einklang stehen.</p>  Der Bundesrat beantragt die Annahme der Motion."
     },
     {
       "type": {

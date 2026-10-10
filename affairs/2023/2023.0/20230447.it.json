@@ -1,6 +1,6 @@
 {
   "id": 20230447,
-  "updated": "2023-06-21T16:24:56Z",
+  "updated": "2024-09-26T17:16:59Z",
   "additionalIndexing": "52;66;55",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -40,7 +40,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-09-26T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,24 +64,173 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-08-13T12:05:47Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 10836,
+                    "gender": "m",
+                    "id": 10836,
+                    "name": "Kolly Nicolas",
+                    "officialDenomination": "Kolly"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAPTE-CN",
+            "id": 7,
+            "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CN",
+            "abbreviation1": "CAPTE-N",
+            "abbreviation2": "CAPTE",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-08-13T12:05:28Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3216,
+                    "gender": "m",
+                    "id": 4319,
+                    "name": "Graber Michael",
+                    "officialDenomination": "Graber"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAPTE-CS",
+            "id": 20,
+            "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CS",
+            "abbreviation1": "CAPTE-S",
+            "abbreviation2": "CAPTE",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1686866400000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1692914400000+0200)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1700607600000+0100)/",
+          "id": 223,
+          "name": "Esame preliminare - nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1723500000000+0200)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1727301600000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -217,19 +380,33 @@
   ],
   "shortId": "23.447",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>La Svizzera è spesso considerata la riserva idrica d’Europa. Le risorse idriche del nostro Paese sono infatti tradizionalmente abbondanti. Tuttavia, a causa dell’aumento delle temperature e dei periodi di siccità sempre più frequenti, gestire questa risorsa sta diventando sempre più difficile in tutto il Paese. In tempi di siccità, in alcune regioni l’acqua scarseggia e si rendono quindi necessarie misure che sarebbero state impensabili fino a qualche anno fa. Si pensi ad esempio al trasporto di acqua in elicottero per combattere la penuria d’acqua in alcuni alpeggi del Paese durante l’estate del 2022.</p><p>In Svizzera la gestione delle risorse idriche è molto frammentata: la Confederazione possiede competenze legislative limitate in questo ambito, mentre i Cantoni dispongono delle risorse idriche e assegnano le concessioni per l’utilizzazione delle acque. Sebbene non si voglia mettere in discussione il principio della competenza cantonale in materia di gestione delle acque, è necessario prevedere, nella legislazione federale, strumenti di pianificazione regionale o nazionale delle risorse idriche, nonché strumenti e standard minimi per prevenire e combattere la penuria d’acqua. Questo implica una modifica del quadro costituzionale.</p><p>Nel rapporto in adempimento del postulato 18.3610&nbsp;Rieder (disponibile in tedesco e francese), il Consiglio federale aveva già lanciato l’allarme sulla difficoltà di adempiere in modo soddisfacente il mandato costituzionale dell’articolo&nbsp;76 Cost. a causa di questa frammentazione. Aveva infatti segnalato come la Confederazione non sia in grado di adempiere correttamente il mandato costituzionale di provvedere all’utilizzazione parsimoniosa delle risorse idriche (art.&nbsp;76 cpv.&nbsp;1 Cost.) a causa delle informazioni insufficienti fornite dai Cantoni sulle misure adottate in periodi di siccità (pag.&nbsp;17). Inoltre, nel medesimo rapporto rilevava che a livello sovracantonale le misure di pianificazione risultano inesistenti o insufficienti: infatti, la legislazione federale non obbliga in alcun modo la Confederazione e i Cantoni a elaborare piani nazionali o regionali per le risorse idriche né a introdurre una gestione nazionale o regionale delle acque con la conseguenza, in particolare, che la Confederazione può solo raccomandare ai Cantoni di introdurre una gestione regionale delle acque volta a evitare gravi conflitti di utilizzazione in caso di siccità. Segnalava inoltre che la legislazione federale non permette di adottare istruzioni specifiche in relazione al diritto di vigilanza (pag.&nbsp;5).</p><p>&nbsp;</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>La presente iniziativa chiede che l’articolo&nbsp;76 della Costituzione federale (Cost.) sia modificato come segue.</p><p>Articolo&nbsp;76 Acque</p><p>1. Nell’ambito delle sue competenze, la Confederazione provvede all’utilizzazione parsimoniosa delle risorse idriche, alla loro ripartizione equa sul territorio in caso di penuria o siccità, alla loro protezione nonché alla difesa dagli effetti dannosi delle acque.</p><p>2.&nbsp;Emana principi sulla conservazione e lo sfruttamento delle riserve idriche, sull’utilizzazione delle acque a scopi di produzione energetica e di raffreddamento e su altri interventi nel ciclo idrologico. Tiene conto dei rischi legati ai cambiamenti climatici.</p><p>3. Emana prescrizioni sulla protezione delle acque, sulla prevenzione e sulle misure da adottare in caso di penuria d’acqua o siccità, sulla garanzia di adeguati deflussi minimi, sulle opere idrauliche, sulla sicurezza dei bacini di accumulazione e sul modo di influire sulle precipitazioni atmosferiche.</p><p>4. I Cantoni dispongono delle risorse idriche. Entro i limiti della legislazione federale possono riscuotere canoni per l’utilizzazione delle acque. La Confederazione ha il diritto di utilizzare le acque per le sue aziende di trasporto; in corrispettivo versa un canone e un’indennità.</p><p>5. Per quanto riguarda i diritti e i canoni relativi a risorse idriche internazionali, la Confederazione decide d’intesa con i Cantoni interessati. Decide pure nel caso in cui i Cantoni non riescano ad accordarsi in merito ai diritti concernenti riserve idriche intercantonali.</p><p>6. Nell’adempimento dei suoi compiti, la Confederazione prende in considerazione gli interessi dei Cantoni da cui le acque provengono.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Gestione dell'oro blu in Svizzera e situazioni di penuria. Modificare la Costituzione per agire d'anticipo anziché limitarsi a reagire"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Gestione dell'oro blu in Svizzera e situazioni di penuria. Modificare la Costituzione per agire d'anticipo anziché limitarsi a reagire"
 }

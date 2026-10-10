@@ -1,7 +1,7 @@
 {
   "id": 20210431,
-  "updated": "2023-02-27T18:42:57Z",
-  "additionalIndexing": "2841;04;0421",
+  "updated": "2025-02-27T08:50:26Z",
+  "additionalIndexing": "2841;04;421",
   "affairType": {
     "abbreviation": "Pa. Iv.",
     "id": 4,
@@ -50,7 +50,7 @@
               "abbreviation": "SPK-NR",
               "id": 11,
               "name": "Staatspolitische Kommission NR",
-              "abbreviation1": "SPK-NR",
+              "abbreviation1": "SPK-N",
               "abbreviation2": "SPK",
               "committeeNumber": 11,
               "council": {
@@ -63,7 +63,7 @@
             },
             "council": null,
             "date": "2022-01-27T00:00:00Z",
-            "text": "Folge gegeben",
+            "text": "Folge geben (Erstrat)",
             "type": 16
           },
           {
@@ -75,7 +75,7 @@
               "abbreviation": "SPK-SR",
               "id": 24,
               "name": "Staatspolitische Kommission SR",
-              "abbreviation1": "SPK-SR",
+              "abbreviation1": "SPK-S",
               "abbreviation2": "SPK",
               "committeeNumber": 24,
               "council": {
@@ -105,6 +105,21 @@
             "date": "2023-02-27T00:00:00Z",
             "text": "Folge gegeben",
             "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-21T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
           }
         ]
       },
@@ -117,10 +132,31 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-07-10T11:51:17Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "SPK-NR",
             "id": 11,
             "name": "Staatspolitische Kommission NR",
-            "abbreviation1": "SPK-NR",
+            "abbreviation1": "SPK-N",
             "abbreviation2": "SPK",
             "committeeNumber": 11,
             "council": {
@@ -195,7 +231,7 @@
             "abbreviation": "SPK-SR",
             "id": 24,
             "name": "Staatspolitische Kommission SR",
-            "abbreviation1": "SPK-SR",
+            "abbreviation1": "SPK-S",
             "abbreviation2": "SPK",
             "committeeNumber": 24,
             "council": {
@@ -213,7 +249,8 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
@@ -235,8 +272,23 @@
         },
         {
           "date": "/Date(1677452400000+0100)/",
-          "id": 28,
-          "name": "Vorprüfung - Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1688680800000+0200)/",
+          "id": 225,
+          "name": "Vorprüfung - in Kommission des Ständerates"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -304,7 +356,7 @@
         "gender": "m",
         "id": 4053,
         "name": "Aeschi Thomas",
-        "officialDenomination": "Aeschi Thomas"
+        "officialDenomination": "Aeschi"
       },
       "type": "cosign"
     },
@@ -364,7 +416,7 @@
         "gender": "m",
         "id": 4190,
         "name": "Dobler Marcel",
-        "officialDenomination": "Dobler"
+        "officialDenomination": "Dobler Marcel"
       },
       "type": "cosign"
     },
@@ -527,8 +579,8 @@
   ],
   "shortId": "21.431",
   "state": {
-    "id": 28,
-    "name": "Vorprüfung - Behandelt vom Nationalrat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },
@@ -545,7 +597,7 @@
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Es seien die entsprechenden Gesetzesänderungen vorzunehmen, damit die eidgenössischen Räte zu rechtssetzenden Verordnungen des Bundesrates ein Veto ohne Möglichkeit auf Abänderung der Verordnung einlegen können. Das Verordnungsveto orientiert sich an den folgenden Grundsätzen:</p><p>1. Rechtsetzende Verordnungen und Änderungen an rechtssetzenden Verordnungen sind vor ihrer Inkraftsetzung der Bundesversammlung zu übermitteln; ausgenommen sind Verordnungen nach Artikel 184 Absatz 3 und Artikel 185 Absatz 3 der Bundesverfassung.</p><p>2. Stellt mindestens die Hälfte der Mitglieder eines Rates innerhalb von 14 Tagen den Antrag für ein Veto gegen die Verordnung oder die Verordnungsänderung, so behandelt ihn der Rat in der Regel in der auf die Einreichung folgenden ordentlichen Session.</p><p>3. Stimmt der Rat dem Antrag zu, geht dieser Beschluss an den anderen Rat, ausser wenn im anderen Rat derselbe Antrag eingereicht worden ist. Ist dies nicht der Fall, so behandelt der andere Rat das Veto des Erstrates in der Regel in der gleichen Session.</p><p>4. Eine Verordnung oder eine Verordnungsänderung kann in Kraft gesetzt werden, wenn die Frist nach Absatz 2 unbenutzt abgelaufen ist oder ein Rat das Veto abgelehnt hat.</p>"
+      "value": "<p>Es seien die entsprechenden Gesetzesänderungen vorzunehmen, damit die eidgenössischen Räte zu rechtssetzenden Verordnungen des Bundesrates ein Veto ohne Möglichkeit auf Abänderung der Verordnung einlegen können. Das Verordnungsveto orientiert sich an den folgenden Grundsätzen:</p><p>1. Rechtsetzende Verordnungen und Änderungen an rechtssetzenden Verordnungen sind vor ihrer Inkraftsetzung der Bundesversammlung zu übermitteln; ausgenommen sind Verordnungen nach Artikel&nbsp;184 Absatz&nbsp;3 und Artikel&nbsp;185 Absatz&nbsp;3 der Bundesverfassung.</p><p>2. Stellt mindestens die Hälfte der Mitglieder eines Rates innerhalb von 14 Tagen den Antrag für ein Veto gegen die Verordnung oder die Verordnungsänderung, so behandelt ihn der Rat in der Regel in der auf die Einreichung folgenden ordentlichen Session.</p><p>3. Stimmt der Rat dem Antrag zu, geht dieser Beschluss an den anderen Rat, ausser wenn im anderen Rat derselbe Antrag eingereicht worden ist. Ist dies nicht der Fall, so behandelt der andere Rat das Veto des Erstrates in der Regel in der gleichen Session.</p><p>4. Eine Verordnung oder eine Verordnungsänderung kann in Kraft gesetzt werden, wenn die Frist nach Absatz&nbsp;2 unbenutzt abgelaufen ist oder ein Rat das Veto abgelehnt hat.&nbsp;</p>"
     },
     {
       "type": {

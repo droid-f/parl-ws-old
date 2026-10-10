@@ -1,6 +1,6 @@
 {
   "id": 20233456,
-  "updated": "2023-04-17T15:42:01Z",
+  "updated": "2025-04-24T19:22:06Z",
   "additionalIndexing": "24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -34,29 +34,122 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-03-13T00:00:00Z",
+            "text": "Zuweisung an die zuständige Kommission zur Vorberatung",
+            "type": 66
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2025-02-17T00:00:00Z",
+            "text": "Zurückgezogen",
+            "type": 17
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-05-24T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EFD",
+          "id": 7,
+          "name": "Finanzdepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1681164000000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1684879200000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1710284400000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1733266800000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1739746800000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -97,19 +190,26 @@
         "gender": "m",
         "id": 4053,
         "name": "Aeschi Thomas",
-        "officialDenomination": "Aeschi Thomas"
+        "officialDenomination": "Aeschi"
       },
       "type": "speaker"
     }
   ],
   "shortId": "23.3456",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Das EFD wird - unter Einbezug externer Gutachten - einerseits die Umstände gründlich analysieren, die das Massnahmenpaket vom 16. und 19.3.2023 nötig machten, und andererseits auch die Too-big-to-fail-Regulierung umfassend evaluieren. Die Ergebnisse sollen dem Parlament innert Jahresfrist im Rahmen des nächsten Berichts des Bundesrats zu den systemrelevanten Banken gemäss Artikel 52 Bankengesetz unterbreitet werden.</p><p>Dieser Bericht wird sich auch vertieft mit der Frage auseinandersetzen, welche Massnahmen angezeigt sind, um das TBTF-Risikos von systemrelevanten Banken zu minimieren. Daher kann sich der Bundesrat zum aktuellen Zeitpunkt nicht zu konkreten Massnahmen in diesen Bereichen verpflichten.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
+    },
     {
       "type": {
         "id": 5,
@@ -122,8 +222,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Keine Schweizer \"Too big to fail\"-Banken mehr"
+      "value": "Keine Schweizer Too-big-to-fail-Banken mehr"
     }
   ],
-  "title": "Keine Schweizer \"Too big to fail\"-Banken mehr"
+  "title": "Keine Schweizer Too-big-to-fail-Banken mehr"
 }

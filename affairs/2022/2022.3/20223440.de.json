@@ -1,6 +1,6 @@
 {
   "id": 20223440,
-  "updated": "2022-09-30T09:33:53Z",
+  "updated": "2025-06-19T09:06:45Z",
   "additionalIndexing": "66;2846;52;55",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2022-09-30T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-06-18T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -68,7 +83,92 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "UREK-NR",
+            "id": 7,
+            "name": "Kommission für Umwelt, Raumplanung und Energie NR",
+            "abbreviation1": "UREK-N",
+            "abbreviation2": "UREK",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-05-11T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "UREK-SR",
+            "id": 20,
+            "name": "Kommission für Umwelt, Raumplanung und Energie SR",
+            "abbreviation1": "UREK-S",
+            "abbreviation2": "UREK",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-05-11T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-03-31T16:43:41Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3105,
+                    "gender": "m",
+                    "id": 4204,
+                    "name": "Rieder Beat",
+                    "officialDenomination": "Rieder"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +189,18 @@
         },
         {
           "date": "/Date(1664488800000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1743372000000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1750197600000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -201,10 +311,9 @@
   ],
   "shortId": "22.3440",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -213,7 +322,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Die Deponien führen zu menschengemachten Veränderungen in der Landschaft mir Auswirkungen auf die Allgemeinheit: Sie haben sowohl finanzielle Folgen als auch Auswirkungen auf Umwelt und Landschaft. Ist eine Deponie abgeschlossen, produziert sie nurmehr Unkraut und kann künftig weder für die Landwirtschaft noch für die Forstwirtschaft genutzt werden. Viele dieser Standorte würden sich daher ausgezeichnet für eine Wertschöpfung eignen: die Erzeugung von Solarenergie. Vernünftig installierte Photovoltaikanlagen sind nämlich mit dem Landschaftsschutz und mit den ökologischen Aspekten vereinbar. Für die Gemeinden, auf deren Boden sie stehen, wären sie zudem eine dauerhafte Einnahmequelle. </p><p>Diese Gelegenheit, auf dem eigenen Boden in Projekte zur Erzeugung von sauberer und einheimischer Energie zu investieren, könnte den heute noch (viel zu!) langsamen Prozess zur Substitution von umweltbelastenden, teuren und importierten Energiequellen beschleunigen. </p><p>In der Schweiz haben wir in Felsberg im Kanton Graubünden ein gelungenes Beispiel dafür </p><p>(<a  href=\"https://www.felsberg.cht_docn/618235/Solarkraftwerk_Energie_statt_Wii.pdf\">https://www.felsberg.cht_docn/618235/Solarkraftwerk_Energie_statt_Wii.pdf</a>), und im nahen Italien gibt es bereits verschiedene Beispiele für Projekte, die erfolgreich auf Deponien umgesetzt wurden.</p>"
+      "value": "<p>Die Deponien führen zu menschengemachten Veränderungen in der Landschaft mir Auswirkungen auf die Allgemeinheit: Sie haben sowohl finanzielle Folgen als auch Auswirkungen auf Umwelt und Landschaft. Ist eine Deponie abgeschlossen, produziert sie nurmehr Unkraut und kann künftig weder für die Landwirtschaft noch für die Forstwirtschaft genutzt werden. Viele dieser Standorte würden sich daher ausgezeichnet für eine Wertschöpfung eignen: die Erzeugung von Solarenergie. Vernünftig installierte Photovoltaikanlagen sind nämlich mit dem Landschaftsschutz und mit den ökologischen Aspekten vereinbar. Für die Gemeinden, auf deren Boden sie stehen, wären sie zudem eine dauerhafte Einnahmequelle. </p><p>Diese Gelegenheit, auf dem eigenen Boden in Projekte zur Erzeugung von sauberer und einheimischer Energie zu investieren, könnte den heute noch (viel zu!) langsamen Prozess zur Substitution von umweltbelastenden, teuren und importierten Energiequellen beschleunigen. </p><p>In der Schweiz haben wir in Felsberg im Kanton Graubünden ein gelungenes Beispiel dafür </p><p>(<a href=\"https://www.felsberg.cht_docn/618235/Solarkraftwerk_Energie_statt_Wii.pdf\">https://www.felsberg.cht_docn/618235/Solarkraftwerk_Energie_statt_Wii.pdf</a>), und im nahen Italien gibt es bereits verschiedene Beispiele für Projekte, die erfolgreich auf Deponien umgesetzt wurden.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "Der Bundesrat beantragt die Annahme der Motion."
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20224331,
-  "updated": "2022-12-19T10:29:03Z",
+  "updated": "2025-04-24T19:25:13Z",
   "additionalIndexing": "44;1211;15;28",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-03-12T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-03-17T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-22T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CER-CN",
+            "id": 10,
+            "name": "Commission de l'économie et des redevances CN",
+            "abbreviation1": "CER-N",
+            "abbreviation2": "CER",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CE",
+            "id": 23,
+            "name": "Commission de l'économie et des redevances CE",
+            "abbreviation1": "CER-E",
+            "abbreviation2": "CER",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-10-22T15:49:39Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2700,
+                    "gender": "f",
+                    "id": 3897,
+                    "name": "Moser Tiana Angelina",
+                    "officialDenomination": "Moser"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +179,38 @@
       "states": [
         {
           "date": "/Date(1670799600000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1677020400000+0100)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1710198000000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1726437600000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1729548000000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1742166000000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -105,7 +248,7 @@
         "gender": "m",
         "id": 4190,
         "name": "Dobler Marcel",
-        "officialDenomination": "Dobler"
+        "officialDenomination": "Dobler Marcel"
       },
       "type": "cosign"
     },
@@ -137,10 +280,10 @@
   ],
   "shortId": "22.4331",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -148,7 +291,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Les évolutions techniques et sociétales ont rendu le travail dominical largement accepté. Il est admis aujourd'hui qu'un certain nombre de commerces sont ouverts les dimanches et que les consommateurs peuvent s'approvisionner facilement dans les gares, les stations-service, les aéroports et dans les régions touristiques. Les citadins ont désormais l'habitude de pouvoir se \" dépanner \" facilement sept jours sur sept.</p><p>Or, certaines régions suburbaines qui ne disposent d'aucune de ces infrastructures se voient aujourd'hui privées d'une palette de services devenue indispensable à notre époque. Il est difficilement justifiable de refuser un commerce dominical aux habitants de villages sous prétexte qu'ils ne bénéficient ni d'une station-service, ni d'une gare, ou vivent dans une zone qui n'est pas jugée touristique. Les personnes à mobilité réduites ou pour lesquelles tout déplacement est compliqué sont particulièrement affectées par cette inégalité de traitement. </p><p>Par ailleurs, l'automatisation a permis au cours des dernières années de limiter les besoins en main d'oeuvre pour les services de nuit et du week-end, réduisant les impacts négatifs qui ont toujours été invoqués en faveur du maintien des restrictions actuelles.</p><p>Enfin, dans de nombreux villages, certains services de base, comme la simple distribution d'argent, est parfois limitée au seul commerce de proximité existant. Sa fermeture dominicale entraîne des complications personnelles bien réelles. </p><p>Pour ces motifs, il est proposé de modifier la législation sur le travail afin de permettre l'exploitation des commerces de proximité sur l'ensemble du territoire, le dimanche. Il appartiendra à la législation de définir le commerce de proximité, afin d'exclure naturellement les supermarchés ainsi que les magasins n'offrant pas l'assortiment correspondant. Enfin, les cantons resteront en tout état de cause compétents en matière de police du commerce et d'horaires d'ouverture des magasins. </p>"
+      "value": "<p>Les évolutions techniques et sociétales ont rendu le travail dominical largement accepté. Il est admis aujourd'hui qu'un certain nombre de commerces sont ouverts les dimanches et que les consommateurs peuvent s'approvisionner facilement dans les gares, les stations-service, les aéroports et dans les régions touristiques. Les citadins ont désormais l'habitude de pouvoir se «&nbsp;dépanner&nbsp;» facilement sept jours sur sept.</p><p>Or, certaines régions suburbaines qui ne disposent d'aucune de ces infrastructures se voient aujourd'hui privées d'une palette de services devenue indispensable à notre époque. Il est difficilement justifiable de refuser un commerce dominical aux habitants de villages sous prétexte qu'ils ne bénéficient ni d'une station-service ni d'une gare, ou vivent dans une zone qui n'est pas jugée touristique. Les personnes à mobilité réduite ou pour lesquelles tout déplacement est compliqué sont particulièrement affectées par cette inégalité de traitement.</p><p>Par ailleurs, l'automatisation a permis au cours des dernières années de limiter les besoins en main-d'oeuvre pour les services de nuit et du week-end, réduisant les impacts négatifs qui ont toujours été invoqués en faveur du maintien des restrictions actuelles.</p><p>Enfin, dans de nombreux villages, certains services de base, comme la simple distribution d'argent, sont parfois limités au seul commerce de proximité existant. Sa fermeture dominicale entraîne des complications personnelles bien réelles.</p><p>Pour ces motifs, il est proposé de modifier la législation sur le travail afin de permettre l'exploitation des commerces de proximité sur l'ensemble du territoire, le dimanche. Il appartiendra à la législation de définir le commerce de proximité, afin d'exclure naturellement les supermarchés ainsi que les magasins n'offrant pas l'assortiment correspondant. Enfin, les cantons resteront en tout état de cause compétents en matière de police du commerce et d'horaires d'ouverture des magasins.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Il convient de souligner que de nombreuses entreprises bénéficient déjà de la possibilité d'occuper du personnel le dimanche via l'OLT 2 (RS 822.112). Des dispositions spéciales s'appliquent par exemple aux hôtels, restaurants et cafés (art. 23 OLT 2), aux boulangeries, pâtisseries et confiseries (art. 27 OLT 2) ainsi qu'aux kiosques (art. 26 OLT 2). En outre, les entreprises familiales, accoutumées à tenir ce genre de commerces de petite taille et dont l'assortiment est celui d'une épicerie, peuvent occuper leurs travailleurs le dimanche, pour autant qu'ils soient des membres de la famille de l'employeur (art. 4 LTr&nbsp;; RS 822.11). Cette série d'exceptions n'est pas liée à des limitations géographiques et s'applique donc également aux régions suburbaines.</p><p>Dès lors, même s'il est vrai que d'autres types de dérogations, en particulier celles prévues pour les entreprises dites «&nbsp;de service aux voyageurs » - qui sont des points de vente situés dans le périmètre de gares, aéroports, d'autres grands centres de transports publics et dans les localités frontalières - s'adressent davantage aux zones urbaines, les règles en vigueur offrent donc déjà la souplesse nécessaire pour tenir compte des besoins de base. À cela s'ajoute que le régime d'exception prévu pour les zones touristiques complète encore cette offre et s'applique essentiellement dans les régions suburbaines.</p><p>Prévoir un assouplissement supplémentaire irait à l'encontre du principe général d'interdiction du travail du dimanche qui repose sur des motifs relevant avant tout de considérations d'ordre social, culturel et religieux auxquelles une majorité de la population s'est montrée attachée jusqu'à présent. Par ailleurs, l'extension des horaires de travail du personnel de vente est un thème très sensible comme l'ont montré les résultats négatifs de plusieurs votations cantonales ces dernières années.</p><p>Au vu de ce qui précède, le Conseil fédéral estime qu'il n'est pas nécessaire ni opportun de proposer une modification de la législation sur le travail permettant le travail dominical dans les commerces de proximité au-delà du régime d'exception actuellement en vigueur.</p><p>Le Conseil fédéral propose de rejeter la motion.</p>"
     },
     {
       "type": {

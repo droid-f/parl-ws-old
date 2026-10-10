@@ -1,7 +1,7 @@
 {
   "id": 20230422,
-  "updated": "2023-03-21T15:13:37Z",
-  "additionalIndexing": "04;0421",
+  "updated": "2024-05-30T08:26:26Z",
+  "additionalIndexing": "04;421",
   "affairType": {
     "abbreviation": "Pa. Iv.",
     "id": 4,
@@ -41,7 +41,46 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "SPK-NR",
+              "id": 11,
+              "name": "Staatspolitische Kommission NR",
+              "abbreviation1": "SPK-N",
+              "abbreviation2": "SPK",
+              "committeeNumber": 11,
+              "council": {
+                "abbreviation": "NR",
+                "id": 1,
+                "name": "Nationalrat",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2024-04-26T00:00:00Z",
+            "text": "Keine Folge geben (Erstrat)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-05-29T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -51,24 +90,128 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-04-26T16:27:06Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 10801,
+                    "gender": "m",
+                    "id": 10801,
+                    "name": "Riner Christoph",
+                    "officialDenomination": "Riner"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SPK-NR",
+            "id": 11,
+            "name": "Staatspolitische Kommission NR",
+            "abbreviation1": "SPK-N",
+            "abbreviation2": "SPK",
+            "committeeNumber": 11,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-17T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "SPK-SR",
+            "id": 24,
+            "name": "Staatspolitische Kommission SR",
+            "abbreviation1": "SPK-S",
+            "abbreviation2": "SPK",
+            "committeeNumber": 24,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-17T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1679007600000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1710975600000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1714082400000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1716933600000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -299,12 +442,26 @@
   ],
   "shortId": "23.422",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Seit Oktober 2022 ist das neue Transparenzgesetz in Kraft. Und bei den Nationalratswahlen 2023 gelten erstmals Offenlegungspflichten für Abstimmungs- und Wahlkampagnen auf Bundesebene: Die kampagnenführenden Akteurinnen und Akteure werden die Finanzierung ihrer Kampagnen vor der Abstimmung oder der Wahl offenlegen müssen, wenn sie dafür mehr als 50 000 Franken budgetiert haben. Anonyme Zuwendungen und Zuwendungen aus dem Ausland sind neu verboten. Unterschriftensammlungen bei Referenden und Initiativen, die einer Abstimmung vorangehen, sind von dieser Regelung jedoch ausgenommen. Vorliegende parlamentarische Initiative will dies ändern. </p><p>Initiativ- und Abstimmungskomitees müssen bereits für die Unterschriftensammlung Geld beschaffen. Deren finanzielle Möglichkeiten können den Erfolg einer Unterschriftensammlung beeinflussen. Die Öffentlichkeit hat also bereits in diesem Stadium ein Interesse, und die Bürger:innen ein Recht darauf, die grossen Geldgeber dieser Kampagnen zu kennen und damit zu wissen, wer hinter einer Initiative/ hinter einem Referendum steht. Es ist deswegen folgerichtig und konsequent, hier Offenlegungspflichten einzuführen. Die Offenlegungspflichten sollen analog zum Transparenzgesetz gelten.</p><p>Die parlamentarische Initiative nimmt eine Idee der SPK-S auf. In ihrem Erstentwurf zum indirekten Gegenvorschlag zur Transparenzinitiative 19.400 \"Mehr Transparenz bei der Politikfinanzierung\" schlug die SPK-S bereits eine solche Regelung vor.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Das Bundesgesetz über die politischen Rechte (BPR) soll so ergänzt werden, dass auch für Unterschriftensammlungen von Referenden und Initiativen auf Bundesebene Offenlegungspflichten gelten. Die Annahme anonymer Zuwendungen und Zuwendungen aus dem Ausland soll auch bei nationalen Unterschriftensammlungen von Initiativen und Referenden verboten sein.</p>"
+    },
     {
       "type": {
         "id": 1,

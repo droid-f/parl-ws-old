@@ -1,6 +1,6 @@
 {
   "id": 20233940,
-  "updated": "2023-06-21T15:22:40Z",
+  "updated": "2025-05-07T13:32:47Z",
   "additionalIndexing": "52;55",
   "affairType": {
     "abbreviation": "Po.",
@@ -14,12 +14,6 @@
       "id": 4289,
       "name": "Schneider Meret",
       "officialDenomination": "Schneider Meret"
-    },
-    "faction": {
-      "abbreviation": "Fraktion G",
-      "code": "G",
-      "id": 6,
-      "name": "Grüne Fraktion"
     },
     "type": "author"
   },
@@ -41,10 +35,37 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "Wird übernommen",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2025-05-07T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-23T00:00:00Z",
+        "text": "Ablehnung"
       },
       "index": 0,
       "links": [
@@ -57,13 +78,28 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686866400000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1692741600000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1746568800000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -153,21 +189,25 @@
         "name": "Schneider Meret",
         "officialDenomination": "Schneider Meret"
       },
-      "faction": {
-        "abbreviation": "Fraktion G",
-        "code": "G",
-        "id": 6,
-        "name": "Grüne Fraktion"
-      },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3119,
+        "gender": "f",
+        "id": 4218,
+        "name": "Kälin Irène",
+        "officialDenomination": "Kälin"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "23.3940",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -176,6 +216,13 @@
         "name": "Begründung"
       },
       "value": "<p>Im Tierschutzbericht von 2021 schreibt der Bund: \"Das Vorgehen für eine \"fachgerechte\" und damit angst- und schmerzfreie Tötung von Tieren ist gesetzlich geregelt. Die Methoden zur Betäubung und Tötung müssen neben Aspekten des Tierschutzes auch die Arbeitssicherheit und Wirtschaftlichkeit berücksichtigen. Eine der Methoden, die Begasung mit Kohlendioxid, wird weltweit bei sehr vielen Tieren angewendet und ist aus Sicht des Tierschutzes umstritten. Das BLV fördert deshalb die Suche nach schonenden Alternativen. CO2 reizt die Luftwege, wenn es in hohen Konzentrationen eingeatmet wird und löst bei den betroffenen Tieren sehr rasch Schmerzen, Atemnot und Angst aus. Die Bewusstlosigkeit tritt je nach Tierart erst nach mehreren Sekunden oder sogar erst nach Minuten ein. Der Auftrag lautet somit: Überall, wo Tieren Schmerzen, Leiden und Ängste zugefügt werden, muss der Bund danach streben, diese Belastungen aufzuheben oder wenigstens zu vermindern. Beim Betäuben und Töten von Tieren im Rahmen der Lebensmittelgewinnung und der Forschung mit Tieren sieht sich das BLV besonders in der Pflicht. Deshalb wurde die Optimierung von Methoden zum Töten von Tieren - und somit die Suche nach Alternativen zu CO2 - zu einem Forschungsschwerpunkt im Bereich Tierschutz erklärt.\"</p><p>Diese Stossrichtung des Bundesrates ist sehr zu begrüssen. Auf der Webseite des Bundes und in den entsprechenden Forschungsberichten finden sich aber keine zusammenfassenden Resultate, Forschungsergebnisse oder eine Strategie, inwiefern beispielsweise Stickstoff, das in den vom Bund genannten Studien als schonende Alternative genannt wird, Eingang in die Praxis finden könnte. Auch wird nicht klar, was in Bezug auf die Förderung von Alternativen und die konkrete Implementierung, die ja Ziel von Forschung und Austausch sein muss, geplant ist. Um den selbst auferlegten Auftrag wahrzunehmen, wäre es daher wichtig, eine Strategie und konkrete Schritte festzulegen, wie Erkenntnisse Eingang in die Praxis finden, damit die Förderung von Alternativen auch umgesetzt werden kann und nicht graue Theorie bleibt.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Seit 2018 werden regelmässig Symposien mit internationaler Beteiligung durchgeführt zu den 3R-Prinzipien (Replace, Reduce, Refine, d.h. Ersatz und Reduktion von Tierversuchen sowie Verringerung der Belastungen für Versuchstiere). Diese beinhalteten Alternativen zur CO2-Euthanasie von Labortieren.</p><p>CO2 wird jedoch nicht nur bei Labortieren angewendet, sondern beispielsweise auch bei der Betäubung von Tieren vor der Schlachtung. Das Bundesamt für Lebensmittelsicherheit und Veterinärwesen (BLV) ist Ende 2022 eine Zusammenarbeit mit der Universities Federation for Animal Welfare (UFAW) eingegangen, um bis 2027 drei weitere Symposien zum Thema Tötung von Tieren zu organisieren. Für die Symposien wählt ein Expertengremium aktuelle Themen unabhängig der Tierart aus. Dank dieses Austausches mit internationalen Expertinnen und Experten erhofft man sich, Lösungen für möglichst schonende Tötungsmethoden unabhängig der Tierart zu identifizieren und zu fördern.</p><p>Im Jahr 2021 wurde der Universität Zürich der Forschungsauftrag «Das Leben von Tieren humaner beenden» vergeben. Dabei werden mögliche CO2-Alternativen zur Euthanasie von Labortieren erforscht, die weniger (oder kein) Leiden hervorrufen. Umfassende Ergebnisse sind im Jahr 2025 zu erwarten. Im Jahr 2027 ist beabsichtigt, dass erste Ergebnisse aus Projekten des Nationalen Forschungsprogramms 79 «Advancing 3R - Tiere, Forschung und Gesellschaft» (NFP 79) publiziert werden. Das NFP 79 hat zum Ziel, die 3R in allen Bereichen zu fördern.</p><p>Zukünftige Erkenntnisse werden in Fachinformationen des BLV für die kantonalen Vollzugbehörden und die Forschenden einfliessen und in Zusammenarbeit mit den Vollzugsorganen verbindlich umgesetzt. Das BLV sorgt für die Umsetzung der Fachinformationen im Rahmen seiner Aufgabe, den einheitlichen Vollzug zu fördern und in Weiterbildungen für Vollzugsorgane, Tierversuchskommissionen und Tierschutzbeauftragte. Im Rahmen der Oberaufsicht des BLV im Tierversuchsbereich wird auch die Umsetzung der Fachinformationen überprüft.</p><p>Die detaillierte Umsetzungsplanung und die Festlegung des Ressourcenbedarfes hängen von den konkreten Erkenntnissen ab, welche die laufenden Forschungsaktivitäten liefern werden. Sie können somit erst erfolgen, wenn diese Erkenntnisse vorliegen.</p><p>Vor diesem Hintergrund würde ein Bericht zum aktuellen Zeitpunkt keinen Mehrwert bringen.</p>"
     },
     {
       "type": {
@@ -189,8 +236,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Alternativen zur CO2-Betäubung - Auftrag des BLV umsetzen!"
+      "value": "Alternativen zur CO2-Betäubung. Auftrag des BLV umsetzen!"
     }
   ],
-  "title": "Alternativen zur CO2-Betäubung - Auftrag des BLV umsetzen!"
+  "title": "Alternativen zur CO2-Betäubung. Auftrag des BLV umsetzen!"
 }

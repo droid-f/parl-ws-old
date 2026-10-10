@@ -1,7 +1,7 @@
 {
   "id": 20093089,
-  "updated": "2019-02-18T19:03:06Z",
-  "additionalIndexing": "2841",
+  "updated": "2024-10-17T15:29:35Z",
+  "additionalIndexing": "2841;Preisbildung;Arzneikosten;Entschädigung;Apotheker/in;Vertriebskosten;Preisspanne",
   "affairType": {
     "abbreviation": "Mo.",
     "id": 5,
@@ -17,7 +17,7 @@
     },
     "faction": {
       "abbreviation": "Fraktion CEG",
-      "code": "CEg",
+      "code": "M-E",
       "id": 3,
       "name": "Fraktion CVP/EVP/glp"
     },
@@ -99,6 +99,36 @@
             "date": "2009-12-10T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-06-05T00:00:00Z",
+            "text": "Abschreibung im Zusammenhang mit der Beratung des Geschäfts 24.006",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-06-11T00:00:00Z",
+            "text": "Abschreibung im Zusammenhang mit der Beratung des Geschäfts 24.006",
+            "type": 0
           }
         ]
       },
@@ -117,7 +147,7 @@
             "abbreviation": "SGK-NR",
             "id": 6,
             "name": "Kommission für soziale Sicherheit und Gesundheit NR",
-            "abbreviation1": "SGK-NR",
+            "abbreviation1": "SGK-N",
             "abbreviation2": "SGK",
             "committeeNumber": 6,
             "council": {
@@ -158,8 +188,13 @@
         },
         {
           "date": "/Date(1260399600000+0100)/",
-          "id": 26,
-          "name": "Angenommen"
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
+        },
+        {
+          "date": "/Date(1718056800000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -167,11 +202,6 @@
       ]
     }
   ],
-  "handling": {
-    "date": "2009-12-10T00:00:00Z",
-    "legislativePeriod": 48,
-    "session": "4812"
-  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -306,7 +336,7 @@
       },
       "faction": {
         "abbreviation": "Fraktion CEG",
-        "code": "CEg",
+        "code": "M-E",
         "id": 3,
         "name": "Fraktion CVP/EVP/glp"
       },
@@ -315,9 +345,9 @@
   ],
   "shortId": "09.3089",
   "state": {
-    "id": 26,
-    "name": "Angenommen",
-    "doneKey": "3",
+    "id": 229,
+    "name": "Erledigt",
+    "doneKey": "0",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },
@@ -334,7 +364,7 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Die vom Bundesamt für Gesundheit (BAG) herausgegebene Spezialitätenliste (SL) enthält die bei Abgabe durch Apotheker, Ärzte sowie Spitäler und Pflegeheime massgebenden Höchstpreise (Publikumspreise). Der Höchstpreis besteht dabei aus dem Fabrikabgabepreis und dem Vertriebsanteil. Der Fabrikabgabepreis gilt die Leistungen (inkl. Abgaben) der Herstellungs- und der Vertriebsfirma bis zur Ausgabe ab Lager in der Schweiz ab. Der Vertriebsanteil gilt die logistischen Leistungen ab, insbesondere die mit dem Transport, der Lagerhaltung, der Abgabe und dem Inkasso verbundenen Betriebs- und Investitionskosten. </p><p>Das BAG kann aufgrund des geltenden Rechts den Vertriebsanteil je nach Leistungserbringer und Abgabekategorie unterschiedlich bemessen. Es hat diese Kompetenz bis anhin aber nicht genutzt, um bezüglich der offiziellen Publikumspreise der SL keine Unsicherheit zu schaffen. Mit dem heutigen Höchstpreissystem ist es den Leistungserbringern möglich, tiefere Preise anzubieten und somit den Wettbewerb spielen zu lassen. Würde der Bund selbst differenzierte Höchstpreise festsetzen, würde er eine Gewichtung der Vertriebskanäle vornehmen und dabei massgeblichen Einfluss auf die Wettbewerbsgestaltung ausüben.</p><p>Der Bundesrat anerkennt einen gewissen Handlungsbedarf im Bereich des Vertriebsanteils und kann sich der Stossrichtung der Motion grundsätzlich anschliessen. Während er einer generellen Senkung des Vertriebsanteils eher positiv gegenübersteht, möchte er die mit der Motion verlangte Differenzierung des Vertriebsanteils nach Vertriebskanälen nicht losgelöst von den Fragen der Abgabekompetenz und der Selbstdispensation beurteilen. Da diese Fragen Gegenstand der 2. Etappe der Revision des Heilmittelgesetzes (HMG) bilden, welche noch vor der Sommerpause 2009 in die Vernehmlassung geschickt werden soll, möchte der Bundesrat die allfällige Differenzierung des Vertriebsanteils und deren Modalitäten erst in diesem Rahmen klären und regeln. Er lehnt die Motion deshalb ab. Sollte die Motion vom Erstrat angenommen werden, würde der Bundesrat im Zweitrat die Abänderung in einen Prüfungsauftrag beantragen.</p>"
+      "value": "<p>Die vom Bundesamt für Gesundheit (BAG) herausgegebene Spezialitätenliste (SL) enthält die bei Abgabe durch Apotheker, Ärzte sowie Spitäler und Pflegeheime massgebenden Höchstpreise (Publikumspreise). Der Höchstpreis besteht dabei aus dem Fabrikabgabepreis und dem Vertriebsanteil. Der Fabrikabgabepreis gilt die Leistungen (inkl. Abgaben) der Herstellungs- und der Vertriebsfirma bis zur Ausgabe ab Lager in der Schweiz ab. Der Vertriebsanteil gilt die logistischen Leistungen ab, insbesondere die mit dem Transport, der Lagerhaltung, der Abgabe und dem Inkasso verbundenen Betriebs- und Investitionskosten. </p><p>Das BAG kann aufgrund des geltenden Rechts den Vertriebsanteil je nach Leistungserbringer und Abgabekategorie unterschiedlich bemessen. Es hat diese Kompetenz bis anhin aber nicht genutzt, um bezüglich der offiziellen Publikumspreise der SL keine Unsicherheit zu schaffen. Mit dem heutigen Höchstpreissystem ist es den Leistungserbringern möglich, tiefere Preise anzubieten und somit den Wettbewerb spielen zu lassen. Würde der Bund selbst differenzierte Höchstpreise festsetzen, würde er eine Gewichtung der Vertriebskanäle vornehmen und dabei massgeblichen Einfluss auf die Wettbewerbsgestaltung ausüben.</p><p>Der Bundesrat anerkennt einen gewissen Handlungsbedarf im Bereich des Vertriebsanteils und kann sich der Stossrichtung der Motion grundsätzlich anschliessen. Während er einer generellen Senkung des Vertriebsanteils eher positiv gegenübersteht, möchte er die mit der Motion verlangte Differenzierung des Vertriebsanteils nach Vertriebskanälen nicht losgelöst von den Fragen der Abgabekompetenz und der Selbstdispensation beurteilen. Da diese Fragen Gegenstand der 2. Etappe der Revision des Heilmittelgesetzes (HMG) bilden, welche noch vor der Sommerpause 2009 in die Vernehmlassung geschickt werden soll, möchte der Bundesrat die allfällige Differenzierung des Vertriebsanteils und deren Modalitäten erst in diesem Rahmen klären und regeln. Er lehnt die Motion deshalb ab. Sollte die Motion vom Erstrat angenommen werden, würde der Bundesrat im Zweitrat die Abänderung in einen Prüfungsauftrag beantragen.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

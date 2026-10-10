@@ -1,6 +1,6 @@
 {
   "id": 20233566,
-  "updated": "2023-05-09T14:52:34Z",
+  "updated": "2024-09-12T10:22:05Z",
   "additionalIndexing": "04;34;1236;28",
   "affairType": {
     "abbreviation": "Po.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-09-11T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-16T00:00:00Z",
+        "text": "Respingere"
       },
       "index": 0,
       "links": [
@@ -56,13 +73,28 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Dipartimento dell'interno",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1683151200000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1692136800000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1726005600000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -132,19 +164,40 @@
   ],
   "shortId": "23.3566",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
     "newKey": 0
   },
   "texts": [
     {
       "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>I sistemi decisionali basati su algoritmi sono strumenti importanti per incrementare l’efficienza delle procedure dell’Amministrazione federale, sebbene celino rischi da affrontare attivamente. Nel rapporto sul futuro del trattamento e della sicurezza dei dati, il Consiglio federale afferma che occorre, tra l’altro, assicurare la trasparenza degli algoritmi (cfr. misura&nbsp;50). Questo vale soprattutto per l’IA, che utilizza algoritmi o metodi statistici particolarmente potenti, ma non sempre di immediata comprensione.</p><p>Nel suo parere in risposta alla mozione Schlatter 21.4508, il Consiglio federale sottolinea che sul sito web della CNAI (<a href=\"http://www.cnai.swiss\">www.cnai.swiss</a>) è disponibile un inventario degli impieghi dell’IA nei servizi federali nella versione ridotta di un elenco liberamente accessibile. Tuttavia non sussiste alcun obbligo di iscrivere in questo elenco tutti gli impieghi dell’IA nell’Amministrazione federale. Un altro problema, inoltre, è che al momento l’elenco è disponibile solo in formato PDF e non come banca dati pratica da consultare.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>1. Il Consiglio federale si adopera già da tempo a favore della trasparenza nel settore dell’intelligenza artificiale (IA). Nel 2018 ha preso atto del rapporto finale del gruppo di esperti per il futuro del trattamento e della sicurezza dei dati, il quale raccomanda che la Confederazione provveda a garantire la trasparenza necessaria nei processi digitali e negli algoritmi. Nel 2019 il Consiglio federale ha adottato le linee guida in materia di intelligenza artificiale e nel 2021 ha istituito la Rete di competenze per l’intelligenza artificiale (CNAI).</p><p>Uno dei mandati della CNAI è di gestire una banca dati dei progetti dell’Amministrazione federale che riguardano l’IA. L’annuncio dei progetti di IA alla CNAI avviene su base volontaria. Con l’elenco regolarmente aggiornato si garantisce la trasparenza nei confronti dell’opinione pubblica. Per ogni progetto che figura nell’elenco sono indicati scopo, contesto, uffici responsabili e componenti dell’apprendimento automatico. Come già spiegato dal Consiglio federale nel suo parere in risposta alla mozione Schlatter 21.4508, anche la nuova legge sulla protezione dei dati che entrerà in vigore il 1°&nbsp;settembre 2023 contribuirà a incrementare la trasparenza nell’elaborazione di dati personali.</p><p>Entro la fine di marzo del 2024 dovrà essere sottoposta al Consiglio federale una valutazione della CNAI, nell’ambito della quale sarà stilato un bilancio della registrazione dei progetti, in particolare per quanto riguarda la sua completezza, e valutato se sia opportuno introdurre un obbligo di notifica dei progetti di IA della Confederazione.</p><p>Come già esposto nel suo parere in risposta al postulato&nbsp;Dobler 23.3201, il Consiglio federale esaminerà nel contempo, entro la fine del 2024, se, tenendo conto della regolamentazione europea sull’IA (\"AI Act\"), siano necessarie ulteriori misure. L’approccio europeo prevede un obbligo di notifica per i sistemi di intelligenza artificiale ad alto rischio, utilizzati ad esempio nelle infrastrutture critiche. Questo strumento è appropriato, ma non limitato alla pubblica amministrazione.</p><p>Alla luce della situazione delle finanze federali e dei disavanzi previsti per gli anni 2025 e seguenti, ogni eventuale nuova misura sarà oggetto di un’approfondita analisi dei costi/benefici e di una contestualizzazione più estesa (riesame delle priorità e delle pianificazioni di altri progetti, ev. stralcio di compiti ecc.).</p><p>2. L’elenco dei progetti di IA regolarmente aggiornato è pubblicato sul sito web della CNAI sotto forma di catalogo in formato PDF. Presto sarà disponibile anche sulla piattaforma SAIROP in formato leggibile dalle macchine.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di studiare:</p><p>1. come può assicurare che un registro pubblico per la trasparenza dell’impiego dell’intelligenza artificiale (IA) nell’Amministrazione federale contenga in effetti tutti gli impieghi;</p><p>2. come possono essere messe a disposizione queste informazioni in una banca dati che sia anche leggibile dalle macchine.</p>"
+    },
+    {
+      "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Garantire la completezza del registro per la trasparenza dell'impiego dell'intelligenza artificiale nell'Amministrazione federale"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Garantire la completezza del registro per la trasparenza dell'impiego dell'intelligenza artificiale nell'Amministrazione federale"
 }

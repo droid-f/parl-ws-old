@@ -1,6 +1,6 @@
 {
   "id": 20224357,
-  "updated": "2022-12-19T10:22:13Z",
+  "updated": "2025-04-24T19:33:54Z",
   "additionalIndexing": "2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,17 +41,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-05-30T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-03-19T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-22T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "SGK-SR",
+            "id": 19,
+            "name": "Kommission für soziale Sicherheit und Gesundheit SR",
+            "abbreviation1": "SGK-S",
+            "abbreviation2": "SGK",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-NR",
+            "id": 6,
+            "name": "Kommission für soziale Sicherheit und Gesundheit NR",
+            "abbreviation1": "SGK-N",
+            "abbreviation2": "SGK",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-01-28T17:42:40Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2575,
+                    "gender": "m",
+                    "id": 825,
+                    "name": "Germann Hannes",
+                    "officialDenomination": "Germann"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -67,8 +180,38 @@
       "states": [
         {
           "date": "/Date(1670886000000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1677020400000+0100)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1717020000000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1725228000000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1735686000000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1738018800000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1742338800000+0100)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -96,7 +239,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -126,7 +269,7 @@
         "gender": "m",
         "id": 4053,
         "name": "Aeschi Thomas",
-        "officialDenomination": "Aeschi Thomas"
+        "officialDenomination": "Aeschi"
       },
       "type": "cosign"
     },
@@ -279,10 +422,10 @@
   ],
   "shortId": "22.4357",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -291,6 +434,13 @@
         "name": "Begründung"
       },
       "value": "<p>Die medizinische Grundversorgung ist in der Regel relativ günstig und hat den Vorteil, dass die Hausärztinnen und Hausärzte ihre Patientinnen und Patienten häufig gut kennen, wodurch Mehrfachbehandlungen und unnötige Behandlungen vermieden werden können. In der Schweiz gibt es aber einen permanenten Mangel an Ärztinnen und Ärzten in der Grundversorgung. Die Aufwertung der Hausarztmedizin im Bereich der Tarife ist von zentraler Bedeutung, da dies eine wichtige Voraussetzung dafür ist, dass künftige Ärztinnen und Ärzte sich für dieses Gebiet entscheiden, anstatt den Weg der Spezialisierung zu wählen. Nur mit mehr Hausärztinnen und Hausärzten in der Zukunft kann eine bessere und dezentralisierte medizinische Versorgung gewährleistet werden. Die ländlichen, teilweise abgelegenen Regionen müssen bessere Chancen auf eine patientennahe Grundversorgung haben, zumal die Bevölkerung immer älter und damit oft weniger mobil wird. Es braucht also ein besseres finanzielles Gleichgewicht zwischen den medizinischen Fachgebieten. Mehrere Berichte, namentlich ein Bericht der Eidgenössischen Finanzkontrolle, zeigen, dass eine Aufwertung der Grundversorgung angezeigt ist, und weisen auf eine Übertarifierung der Behandlungen durch Spezialistinnen und Spezialisten hin. Die Ärzteverbände sind aber kaum in der Lage, einen solchen - notwendigen - Ausgleich zu erreichen, ohne Streitigkeiten in den eigenen Reihen zu provozieren. Den Tarifpartnern müssen verbindliche gesetzliche Vorgaben in diesem Bereich gemacht werden und diese müssen wenn nötig vom Bundesrat subsidiär umgesetzt werden. Die bisher vom Bundesrat getroffenen Massnahmen (Tarifeingriffe 2014 und 2018) sind zwar zu begrüssen, genügen aber nicht, um ein zufriedenstellendes Gleichgewicht zu erreichen. Insgesamt muss sichergestellt werden, dass die finanzielle Aufwertung der Hausarztmedizin für die Prämienzahlerinnen und Prämienzahler kostenneutral ist: Die Kostenneutralität dieser Massnahme muss gewährleistet sein: dynamische Kostenneutralität.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Die Förderung der Hausarztmedizin war bereits Gegenstand zahlreicher Vorstösse im Parlament, seit das Volk am 18. Mai 2014 den Bundesbeschluss über die medizinische Grundversorgung (direkter Gegenentwurf zur Volksinitiative \"Ja zur Hausarztmedizin\") angenommen und damit Artikel 117a zur medizinischen Grundversorgung in der Bundesverfassung verankert hat.</p><p>Der Bundesrat unterstützt das Ziel der Aufwertung der Hausarztmedizin, wie er in seiner Stellungnahme vom 23. November 2022 zur Interpellation 22.4187 von Falkenstein \"Massnahmen zur Förderung der Hausarztmedizin\" festgehalten hat. Er teilt auch das Anliegen des Motionärs, die Vergütung der Hausarztmedizin unter Wahrung der Kostenneutralität zu erhöhen. Eine Revision des Bundesgesetzes über die Krankenversicherung (KVG; SR 832.10) ist dazu jedoch nicht notwendig. Vorrangig ist es Sache der Tarifpartner, die Tarife zu erarbeiten und anzupassen. Wenn sich die Tarifpartner nicht auf eine einheitliche Tarifstruktur für Einzelleistungstarife einigen können, verfügt der Bundesrat über eine gesetzliche subsidiäre Kompetenz zu deren Festlegung. Im Rahmen des Tarifsystems TARMED hat er von dieser Kompetenz bereits zweimal - 2014 und 2018 - Gebrauch gemacht, um Strukturanpassungen vorzunehmen. In beiden Fällen wurden Massnahmen im Interesse der Hausärztinnen und Hausärzte getroffen.</p><p>Gegenwärtig wird von den Tarifpartnern erwartet, dass sie zusammenarbeiten, um dem Bundesrat eine gemeinsame Lösung zur Genehmigung vorzulegen. Diesbezüglich hat der Bundesrat die Tarifpartner im Rahmen der Diskussionen um TARDOC aufgefordert, bis Ende 2023 eine neue Fassung dieser Tarifstruktur vorzulegen.</p><p>Schliesslich ist darauf hinzuweisen, dass die Frage der Abdeckung in der medizinischen Grundversorgung nicht nur mit der Tariffrage zusammenhängt. Es ist auch notwendig, dass eine ausreichende Anzahl von Hausärztinnen und Hausärzten ausgebildet werden kann. In dieser Hinsicht soll das von Bund und Kantonen 2017 genehmigte Sonderprogramm \"Erhöhung der Anzahl Abschlüsse in Humanmedizin\" bewirken, dass die Anzahl der jährlichen Abschlüsse in Humanmedizin von 900 im Jahr 2016 auf mindestens 1300 ab 2025 erhöht wird. Der Bund stellte zu diesem Zweck im Rahmen der Botschaft zur Förderung von Bildung, Forschung und Innovation in den Jahren 2017-2020 einen Kredit von 100 Millionen Franken in Form von projektgebundenen Beiträgen zur Verfügung. In einem am 2. Dezember 2021 publizierten Bericht bestätigte die Schweizerische Hochschulkonferenz die positive Wirkung dieses Programms, mit dem es bis zum Ende seiner Laufzeit möglich sein sollte, die Ausbildungskapazitäten der universitären Hochschulen ausreichend zu erhöhen, um das Ziel von rund 1300 Abschlüssen in Humanmedizin zu erreichen (verfügbar unter <a href=\"http://www.shk.ch\">www.shk.ch</a> Dokumentation Newsarchiv Schlussreporting von swissuniversities zum Sonderprogramm \"Erhöhung der Anzahl Abschlüsse in Humanmedizin\").</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

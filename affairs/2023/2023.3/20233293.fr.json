@@ -1,6 +1,6 @@
 {
   "id": 20233293,
-  "updated": "2023-03-21T09:13:42Z",
+  "updated": "2025-04-24T19:29:18Z",
   "additionalIndexing": "32;2841;2811",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-03-12T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-09-23T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-05-10T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-06-18T06:56:53Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3205,
+                    "gender": "m",
+                    "id": 4309,
+                    "name": "Michel Matthias",
+                    "officialDenomination": "Michel Matthias"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CE",
+            "id": 18,
+            "name": "Commission de la science, de l'éducation et de la culture CE",
+            "abbreviation1": "CSEC-E",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CN",
+            "id": 5,
+            "name": "Commission de la science, de l'éducation et de la culture CN",
+            "abbreviation1": "CSEC-N",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +179,38 @@
       "states": [
         {
           "date": "/Date(1678921200000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1683669600000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1710198000000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1717365600000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1718661600000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1727042400000+0200)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
         }
       ],
       "texts": [
@@ -95,7 +238,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -217,10 +360,10 @@
   ],
   "shortId": "23.3293",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 209,
+    "name": "Transmis au Conseil fédéral",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -232,10 +375,17 @@
     },
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral partage l'avis de l'auteur de la motion selon lequel la formation d'un nombre suffisant de médecins en Suisse est une préoccupation importante. Grâce aux efforts importants des cantons, qui sont principalement responsables des formations universitaires, et au programme spécial \" Augmentation du nombre de diplômes délivrés en médecine humaine \" (SPHM), soutenu par la Confédération à hauteur de 100 millions de francs, les capacités d'accueil des sites existants ont pu être augmentées et de nouvelles filières d'études et coopérations ont été mises en place à l'ETH Zurich ainsi que dans les universités de Fribourg, de Lucerne, de Saint-Gall et du Tessin. Ces mesures visent à augmenter durablement le nombre de diplômes de master en médecine humaine - de quelque 900 en 2016 à plus de 1300 en 2025 - et à réduire ainsi la dépendance de la Suisse vis-à-vis des médecins titulaires d'un diplôme étranger. La mise en oeuvre du programme spécial se déroule comme prévu. En 2021, 1088 diplômes de master en médecine humaine ont pu être délivrés. Dans le même temps, la médecine de premier recours et l'interprofessionnalité dans les études de médecine ont également été considérablement renforcées par des mesures particulières. L'évaluation réalisée en 2022 par le SEFRI et le rapport final de swissuniversities de 2021 concernant le programme spécial ont confirmé la réalisation actuelle des objectifs et attribuent de bonnes notes au paquet de mesures. La Confédération et les cantons vérifieront en 2025 que les objectifs ont été définitivement atteints.</p><p>Étant donné que le nombre d'inscriptions continue de dépasser largement les capacités des hautes écoles universitaires, celles-ci limitent de leur propre chef l'accès aux études de médecine au moyen d'un test d'aptitudes (test AMS) et d'un numerus clausus (universités de Bâle, Berne, Fribourg, Tessin, Zurich et ETH Zurich) ou par le biais d'un processus de sélection après la première année d'études (universités de Genève, Lausanne et Neuchâtel). En 2017, se fondant sur le rapport du Conseil suisse de la science (CSS, <a href=\"https://www.sbfi.admin.ch/sbfi/fr/home.html\">www.sbfi.admin.ch</a> &gt; Publications et services &gt; Publications &gt; Base de données des publications &gt; Procédure d'admission aux études de médecine dans les universités avec numerus clausus), la Conférence suisse des hautes écoles (CSHE), l'organe politique supérieur des hautes écoles en Suisse, a évalué le test d'aptitude à orientation cognitive (test AMS) et confirmé qu'il s'agissait d'un instrument approprié pour la sélection des étudiants en médecine. Les avantages et les inconvénients de différentes méthodes de sélection (stages, tests de connaissances, etc.) ont également été examinés et le résultat a confirmé que le test AMS est un test équitable, rentable et valide pour les deux sexes afin de déterminer l'aptitude aux études, et qu'il pourrait en outre réduire la sélectivité sociale. La méthode consistant à sélectionner les étudiants après la première année d'études permet certes un libre accès à la première année d'études, mais implique entre autres des coûts et des exigences élevés concernant l'infrastructure nécessaire. Les deux types d'accès se basent donc largement sur les critères de compétence et de qualité.</p><p>En ce qui concerne la formation postgraduée, il convient de noter que, comme dans le domaine de la formation, la Confédération ne dispose d'aucune compétence pour obliger les établissements de formation postgraduée à fixer un nombre de places précis. La conception des contenus et des formats d'enseignement est assurée par les sociétés de médecine et l'Institut suisse pour la formation médicale postgraduée et continue (ISFM). La Confédération participe aux discussions sur la qualité et les formes innovantes de formation postgrade dans le cadre de groupes de travail réunissant les parties prenantes du domaine de la santé.</p>  Le Conseil fédéral propose de rejeter la motion."
+    },
+    {
+      "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Dans le domaine de la formation médicale universitaire et postgrade, le Conseil fédéral est chargé, en concertation avec les cantons, de prendre des mesures pour que l'admission des étudiants repose principalement sur des critères de compétences et de qualité. A cet effet, il veillera à ce qu'il y ait une meilleure offre de places d'études et de stages cliniques, en particulier dans les soins de base et dans le domaine ambulatoire. Il s'agira d'allouer, avec les cantons, les moyens nécessaires.</p>"
+      "value": "<p>Dans le domaine de la formation médicale universitaire et postgrade, le Conseil fédéral est chargé, en concertation avec les cantons, de prendre des mesures pour que l'admission des étudiants repose principalement sur des critères de compétences et de qualité. À cet effet, il veillera à ce qu'il y ait une meilleure offre de places d'études et de stages cliniques, en particulier dans les soins de base et dans le domaine ambulatoire. Il s'agira d'allouer, avec les cantons, les moyens nécessaires.</p>"
     },
     {
       "type": {

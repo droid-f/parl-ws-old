@@ -1,6 +1,6 @@
 {
   "id": 20233601,
-  "updated": "2023-06-09T09:25:56Z",
+  "updated": "2024-09-26T11:16:11Z",
   "additionalIndexing": "2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -33,29 +33,192 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Opposizione"
+            },
+            "council": null,
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Controverso. Discussione rinviata",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-03-14T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-09-26T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-08-23T00:00:00Z",
+        "text": "Accogliere"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSS-CN",
+            "id": 6,
+            "name": "Commissione della sicurezza sociale e della sanità",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSS-CS",
+            "id": 19,
+            "name": "Commissione della sicurezza sociale e della sanità CS",
+            "abbreviation1": "CSSS-S",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-07-05T14:43:13Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3108,
+                    "gender": "m",
+                    "id": 4207,
+                    "name": "Müller Damian",
+                    "officialDenomination": "Müller Damian"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Dipartimento dell'interno",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1685570400000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1692741600000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1710370800000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1710975600000+0100)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1711922400000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1719525600000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1724968800000+0200)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1727301600000+0200)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
         }
       ],
       "texts": [
@@ -78,6 +241,16 @@
   ],
   "roles": [
     {
+      "councillor": {
+        "code": 2758,
+        "gender": "m",
+        "id": 4053,
+        "name": "Aeschi Thomas",
+        "officialDenomination": "Aeschi"
+      },
+      "type": "controvert"
+    },
+    {
       "faction": {
         "abbreviation": "Gruppo RL",
         "id": 1,
@@ -91,26 +264,47 @@
         "gender": "m",
         "id": 4190,
         "name": "Dobler Marcel",
-        "officialDenomination": "Dobler"
+        "officialDenomination": "Dobler Marcel"
       },
       "type": "speaker"
     }
   ],
   "shortId": "23.3601",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 209,
+    "name": "Trasmesso al Consiglio federale",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Gli ospedali, gli studi medici, le case di cura e per anziani, i laboratori ecc. devono oggi fornire ad attori diversi dati in parte identici tramite diverse piattaforme. Questi processi non coordinati bloccano risorse e causano costi evitabili. In futuro, gli stessi dati devono poter essere registrati e forniti una sola volta. Scopo della presente mozione è far sì che, con il coinvolgimento dei principali gruppi di interesse (Cantoni, associazioni ecc.), siano create le necessarie condizioni quadro legali e adottate misure che consentano di sfruttare al meglio le possibilità offerte dalla digitalizzazione.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale ha già adottato diverse misure per attuare il principio \"once only\". Sono da menzionare in particolare i lavori volti a promuovere l’utilizzo multiplo dei dati e a sgravare le imprese attraverso il programma Gestione dei dati a livello nazionale (NaDB).</p><p>Inoltre, il Consiglio federale ha incaricato il Dipartimento federale dell’interno (Ufficio federale della sanità pubblica e Ufficio federale di statistica) di elaborare il Programma per promuovere la trasformazione digitale nel settore sanitario (DigiSanté) entro la fine del 2023. Il consolidamento del principio \"once only\" sarà un elemento centrale di questo programma.</p><p>Il Consiglio federale porterà avanti opportunamente i lavori già in corso nel rispetto dei principi sanciti nel diritto sulla protezione dei dati e presenterà al Parlamento gli adeguamenti legislativi necessari. A tale scopo coordinerà i lavori sull’utilizzo multiplo di dati sanitari con quelli sull’utilizzo secondario di dati (mozione 22.3890).</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è pregato di sottoporre all’Assemblea federale un progetto in cui tutte le leggi e le ordinanze pertinenti siano modificate in modo da rendere possibile l’utilizzo multiplo dei dati sanitari e implementare così nella fornitura di dati il principio “once only” (una sola volta). Se dovesse reputare necessarie ulteriori misure per raggiungere questo obiettivo, il Consiglio federale è invitato a esporle nel progetto.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Stop a costosi doppioni. È ora di rendere possibile l'utilizzo multiplo dei dati sanitari"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Stop a costosi doppioni. È ora di rendere possibile l'utilizzo multiplo dei dati sanitari"
 }

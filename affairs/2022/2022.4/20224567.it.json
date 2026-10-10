@@ -1,6 +1,6 @@
 {
   "id": 20224567,
-  "updated": "2022-12-22T10:45:44Z",
+  "updated": "2025-04-24T19:25:40Z",
   "additionalIndexing": "55;52;2846",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-03-12T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-06-11T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-15T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CET-CS",
+            "id": 23,
+            "name": "Commissione dell'economia e dei tributi CS",
+            "abbreviation1": "CET-S",
+            "abbreviation2": "CET",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-13T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CN",
+            "id": 10,
+            "name": "Commissione dell'economia e dei tributi CN",
+            "abbreviation1": "CET-N",
+            "abbreviation2": "CET",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-05-03T14:37:57Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3153,
+                    "gender": "f",
+                    "id": 4261,
+                    "name": "Friedli Esther",
+                    "officialDenomination": "Friedli Esther"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +179,38 @@
       "states": [
         {
           "date": "/Date(1671145200000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1676415600000+0100)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1710198000000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1711148400000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1714687200000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1718056800000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -107,10 +250,10 @@
   ],
   "shortId": "22.4567",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -119,6 +262,13 @@
         "name": "Motivazione"
       },
       "value": "<p>La quota del 3,5 per cento di superfici per la promozione della biodiversità (SPB) sulla superficie coltiva attualmente richiesta comporta una riduzione delle SPB sui terreni inerbiti poiché i capiazienda sono costretti a ottimizzarla.</p><p>Sulle superfici coltive e nelle loro immediate vicinanze è possibile migliorare la qualità ecologica con una gestione mirata, applicando nuovi sistemi di coltivazione con sottosemine, colture intercalari fiorite, strisce per organismi utili, vie di passaggio fiorite, ma soprattutto anche con la valorizzazione nonché la cura e la gestione mirate delle aree marginali (semina di miscele con erbe di campo per un'agricoltura estensiva), delle testate dei campi e delle vie di passaggio sulle superfici coltive. Queste aree presentano un ampio potenziale in termini di offerta di cibo e habitat per gli individui che vivono sulle superfici campicole. </p><p>Applicando un sistema di questo tipo diminuisce la concorrenza tra le SPB e le superfici di produzione e si può incoraggiare l'ampliamento delle aree marginali. Tali elementi rappresentano quindi un'opzione efficace per utilizzare le superfici marginali, nonché quelle residue e di lavoro. Inoltre, grazie alle moderne tecniche di distribuzione precisa delle sostanze ausiliarie, il carico per le aree marginali è praticamente nullo.</p><p>Il passaggio su determinate porzioni di superficie comporta dei danni che possono essere compensati da un lato dall'elevata qualità delle aree sulle quali non transitano macchinari e dall'altro utilizzando miscele di sementi resistenti al passaggio delle macchine agricole. Nel complesso, sulle superfici si promuovono il mosaico di habitat e in particolare anche l'interconnessione, poiché i vari elementi si presentano generalmente come strisce nel paesaggio.</p><p>Queste aree marginali e strutture non vanno tuttavia considerate come nuovi elementi indennizzati in funzione della loro superficie. Si tratta piuttosto di rilevare la varietà presente sulle superfici coltive mediante un sistema a punti e di computarla opportunamente sulla quota del 3,5 per cento di SPB richiesta.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il 13 aprile 2022 il Consiglio federale ha varato il primo \"Pacchetto di ordinanze per un'acqua potabile pulita e un'agricoltura più sostenibile\" attuando così una prima parte dell'iniziativa parlamentare (Iv.Pa.) 19.475 \"Ridurre il rischio associato all'uso di pesticidi\". Nel pacchetto di ordinanze è presente la nuova condizione relativa alla prova che le esigenze ecologiche sono rispettate (PER) di una quota del 3,5 per cento di superfici per la promozione della biodiversità (SPB) sulla superficie coltiva. Questa condizione entra in vigore il 1° gennaio 2024.</p><p>Possono essere computati sul 3,5 per cento di SPB tutti i tipi di SPB predisposti sulla superficie coltiva. Gli strumenti esistenti (tipi di SPB sulla superficie coltiva e progetti d'interconnessione) lasciano un margine di manovra sufficiente per conseguire la quota del 3,5 per cento nelle aziende con più di 3 ettari di superficie coltiva aperta. Questo consente un'attuazione semplice ed efficace dal profilo amministrativo. La proposta della mozione complicherebbe il sistema poiché sarebbe necessario definire i requisiti per l'attuazione degli ulteriori elementi in questione al fine di ottenere dei risultati. Un computo di ulteriori elementi già esistenti sul 3,5 per cento di SPB si tradurrebbe in una minore efficacia in relazione agli obiettivi dell'iniziativa parlamentare e in un maggior dispendio amministrativo per l'agricoltura e l'esecuzione.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

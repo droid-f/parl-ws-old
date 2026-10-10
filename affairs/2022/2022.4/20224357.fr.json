@@ -1,6 +1,6 @@
 {
   "id": 20224357,
-  "updated": "2022-12-19T10:22:13Z",
+  "updated": "2025-04-24T19:33:54Z",
   "additionalIndexing": "2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-05-30T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-03-19T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-22T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSSS-CE",
+            "id": 19,
+            "name": "Commission de la sécurité sociale et de la santé publique CE",
+            "abbreviation1": "CSSS-E",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSSS-CN",
+            "id": 6,
+            "name": "Commission de la sécurité sociale et de la santé publique CN",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-01-28T17:42:40Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2575,
+                    "gender": "m",
+                    "id": 825,
+                    "name": "Germann Hannes",
+                    "officialDenomination": "Germann"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +179,38 @@
       "states": [
         {
           "date": "/Date(1670886000000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1677020400000+0100)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1717020000000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1725228000000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1735686000000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1738018800000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1742338800000+0100)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
         }
       ],
       "texts": [
@@ -95,7 +238,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -125,7 +268,7 @@
         "gender": "m",
         "id": 4053,
         "name": "Aeschi Thomas",
-        "officialDenomination": "Aeschi Thomas"
+        "officialDenomination": "Aeschi"
       },
       "type": "cosign"
     },
@@ -277,10 +420,10 @@
   ],
   "shortId": "22.4357",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 209,
+    "name": "Transmis au Conseil fédéral",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -288,7 +431,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Les soins médicaux de base sont généralement moins coûteux et présentent l'avantage que le patient est souvent bien connu par son médecin de famille, permettant d'éviter des traitements multiples et inutiles. Or, la Suisse manque régulièrement de médecins de premier recours. Pourtant la revalorisation de la médecine de premier recours dans le domaine tarifaire est essentielle, car elle constitue une condition importante pour que davantage de futurs médecins choisissent cette discipline plutôt que les spécialités. Un nombre plus important de futurs médecins de premier recours est une condition importante pour garantir une meilleure prise en charge médicale décentralisée. Les régions rurales, parfois isolées, doivent également avoir de meilleures chances de disposer d'une couverture en soins de base proches des patients, ce d'autant plus vu le vieillissement de la population qui est souvent moins mobile. Il faut donc un meilleur équilibre financier entre les spécialités médicales. Divers rapports, notamment du Contrôle fédéral des finances, font état d'une revalorisation souhaitée des soins de base et mettent le doigt sur une sur-tarification des interventions des médecins spécialistes, mais les associations de médecins ne sont guère en position de mettre en oeuvre de tels rééquilibrages, pourtant nécessaires, sans créer des dissensions internes dans leurs rangs. Des prescriptions légales contraignantes dans ce domaine doivent être formulées à l'attention des partenaires tarifaires et appliquées par le Conseil fédéral, si nécessaire de manière subsidiaire. Les mesures prises jusqu'à présent par le Conseil fédéral (intervention tarifaire en 2014, 2018) sont bienvenues, mais ne suffisent pas à rétablir un équilibre satisfaisant. Globalement, il faut s'assurer que la revalorisation financière des médecins de premier recours soit neutre en termes de coûts pour les payeurs de primes : le caractère neutre en termes de coûts de cette mesure doit être garantie : neutralité dynamique des coûts.</p>"
+      "value": "<p>Les soins médicaux de base sont généralement moins coûteux et présentent l'avantage que le patient est souvent bien connu par son médecin de famille, permettant d'éviter des traitements multiples et inutiles. Or, la Suisse manque régulièrement de médecins de premier recours. Pourtant la revalorisation de la médecine de premier recours dans le domaine tarifaire est essentielle, car elle constitue une condition importante pour que davantage de futurs médecins choisissent cette discipline plutôt que les spécialités. Un nombre plus important de futurs médecins de premier recours est une condition importante pour garantir une meilleure prise en charge médicale décentralisée. Les régions rurales, parfois isolées, doivent également avoir de meilleures chances de disposer d'une couverture en soins de base proches des patients, ce d'autant plus vu le vieillissement de la population qui est souvent moins mobile. Il faut donc un meilleur équilibre financier entre les spécialités médicales. Divers rapports, notamment du Contrôle fédéral des finances, font état d'une revalorisation souhaitée des soins de base et mettent le doigt sur une sur-tarification des interventions des médecins spécialistes, mais les associations de médecins ne sont guère en position de mettre en oeuvre de tels rééquilibrages, pourtant nécessaires, sans créer des dissensions internes dans leurs rangs. Des prescriptions légales contraignantes dans ce domaine doivent être formulées à l'attention des partenaires tarifaires et appliquées par le Conseil fédéral, si nécessaire de manière subsidiaire. Les mesures prises jusqu'à présent par le Conseil fédéral (intervention tarifaire en 2014, 2018) sont bienvenues, mais ne suffisent pas à rétablir un équilibre satisfaisant. Globalement, il faut s'assurer que la revalorisation financière des médecins de premier recours soit neutre en termes de coûts pour les payeurs de primes : le caractère neutre en termes de coûts de cette mesure doit être garantie : neutralité dynamique des coûts.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>L'encouragement de la médecine de famille a déjà fait l'objet de nombreuses interventions au Parlement depuis l'adoption par le peuple de l'arrêté fédéral concernant les soins médicaux de base (contre-projet direct à l'initiative populaire \" Oui à la médecine de famille \") le 18 mai 2014 et l'inscription dans la Constitution de l'art. 117a sur les soins médicaux de base.</p><p>Le Conseil fédéral souscrit à l'objectif de revaloriser la médecine de premier recours, ainsi qu'il l'a affirmé dans sa réponse du 23 novembre 2022 à l'interpellation 22.4187 von Falkenstein \" Mesures de promotion de la médecine de famille \". Il partage également le souhait du motionnaire de rehausser la rémunération de la médecine de premier recours, dans le respect de la neutralité des coûts. Une révision de la loi fédérale sur l'assurance-maladie (LAMal ; RS 832.10) en ce sens n'est toutefois pas nécessaire. Il revient en premier lieu aux partenaires tarifaires d'élaborer et d'adapter les tarifs. Lorsque les partenaires tarifaires ne peuvent s'entendre sur une structure tarifaire uniforme pour les tarifs à la prestation, le Conseil fédéral dispose, conformément au cadre légal, d'une compétence subsidiaire pour la fixer. Dans le cadre du système tarifaire TARMED, le Conseil fédéral a déjà usé à deux reprises de cette compétence, en 2014 et en 2018, pour procéder à des adaptations de la structure. Dans les deux cas, des mesures ont été prises dans l'intérêt des médecins de premier recours.</p><p>Il est pour l'heure attendu des partenaires tarifaires qu'ils travaillent ensemble afin de soumettre une solution commune au Conseil fédéral pour approbation. À ce titre, dans le cadre des discussions en lien avec TARDOC, le Conseil fédéral a demandé aux partenaires tarifaires de présenter une nouvelle version de cette structure tarifaire d'ici à la fin 2023.</p><p>Il convient finalement de préciser que la question de la couverture en soins de premier recours n'est pas uniquement liée à la question du tarif. Il est également nécessaire qu'un nombre suffisant de médecins de famille puissent être formés. À ce titre, le programme spécial \" Augmentation du nombre de diplômes délivrés en médecine humaine \", que la Confédération et les cantons ont approuvé en 2017, doit permettre d'augmenter le nombre de diplômes délivrés chaque année en médecine humaine de 900 en 2016 à au moins 1300 dès 2025. La Confédération a débloqué à cet effet un crédit de 100 millions de francs sous la forme de contributions liées à des projets dans le cadre du message relatif à l'encouragement de la formation, de la recherche et de l'innovation pendant les années 2017 à 2020. Dans un rapport publié le 2 décembre 2021, la Conférence suisse des hautes écoles a confirmé l'impact positif de ce programme, qui, à son échéance, devrait avoir rempli l'objectif de permettre aux hautes écoles universitaires d'augmenter suffisamment les capacités de formation pour atteindre environ 1300 diplômes en médecine humaine (disponible sur le site <a href=\"http://www.shk.ch\">www.shk.ch</a> Documentation Archive des nouvelles Rapport final de swissuniversities concernant le programme spécial \" Augmentation du nombre de diplômes délivrés en médecine humaine \").</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {

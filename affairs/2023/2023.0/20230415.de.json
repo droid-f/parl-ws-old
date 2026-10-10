@@ -1,6 +1,6 @@
 {
   "id": 20230415,
-  "updated": "2023-03-21T15:15:03Z",
+  "updated": "2024-05-30T08:27:22Z",
   "additionalIndexing": "2836;2841;44",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -41,7 +41,31 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "Wird übernommen",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-05-29T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -51,24 +75,133 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-05-02T19:07:58Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3174,
+                    "gender": "m",
+                    "id": 4282,
+                    "name": "Rechsteiner Thomas",
+                    "officialDenomination": "Rechsteiner Thomas"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-NR",
+            "id": 6,
+            "name": "Kommission für soziale Sicherheit und Gesundheit NR",
+            "abbreviation1": "SGK-N",
+            "abbreviation2": "SGK",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-16T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-SR",
+            "id": 19,
+            "name": "Kommission für soziale Sicherheit und Gesundheit SR",
+            "abbreviation1": "SGK-S",
+            "abbreviation2": "SGK",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-16T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1678921200000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1685397600000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1712008800000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1714600800000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1716933600000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -96,7 +229,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -295,23 +428,47 @@
         "name": "Sozialdemokratische Fraktion"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3147,
+        "gender": "m",
+        "id": 4255,
+        "name": "Dandrès Christian",
+        "officialDenomination": "Dandrès"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "23.415",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Die bestehende Differenz in der Beweislast nach Artikel 9 Absatz 1 des UVG (Berufskrankheiten, die auf der Liste der Berufskrankheiten stehen) und nach Artikel 9 Absatz 2 dieses Gesetzes (für andere mögliche Berufskrankheiten) ist nicht mehr zeitgemäss. Sie erschwert die Anerkennung neuer mit dem Beruf zusammenhängender Syndrome. Stressbedingte Erkrankungen werden deshalb kaum je als Berufskrankheiten anerkannt. Nach der Rechtsprechung muss für Berufskrankheiten, die nicht auf der Liste der Unfallversicherungsverordnung stehen, nachgewiesen werden, dass sie zu mehr als 75 Prozent auf die berufliche Tätigkeit zurückzuführen sind. Damit liegt die Latte sehr hoch, namentlich für Ärztinnen und Ärzte, die die Anerkennung beantragen, und dies hat eine abschreckende Wirkung. </p><p>Die Ungleichbehandlung der auf der Liste verzeichneten Berufskrankheiten und der anderen Berufskrankheiten entspricht nicht mehr dem Kenntnisstand von Arbeitsmedizin und Arbeitswissenschaft, wonach mit der beruflichen Tätigkeit verbundene, vor allem stressbedingte gesundheitliche Probleme wegen der Veränderungen in der Arbeitswelt (Intensivierung, Fristendruck, verschwimmende Grenzen zwischen Arbeits- und Privatleben, wachsender Dienstleistungssektor) stark zunehmen. Eine Angleichung dieser Krankheiten an diejenigen, die auf der Liste stehen, trüge dieser Entwicklung Rechnung. Zudem könnte damit die Entwicklung der Berufskrankheiten dynamischer angegangen werden. Die \"anderen\" aufgrund von Artikel 9 Absatz 2 UVG anerkannten Berufskrankheiten könnten damit leichter auf die im Anhang zur UVV figurierende Liste aufgenommen werden. </p><p>Das SECO hat im Jahr 2000 den Bericht \"Die Kosten des Stresses in der Schweiz\" (1) veröffentlicht. Die Kosten des Stresses beliefen sich für die erwerbstätige Bevölkerung auf rund 4,2 Milliarden Franken; das entsprach etwa 1,2 Prozent des BIP. Diese Zahl verdoppelt sich, wenn man zu den direkt durch Stress verursachten Kosten die Kosten von Arbeitsunfällen und Berufskrankheiten hinzuzählt. Leider wurde bisher noch keine neue solche Studie veröffentlicht. In einer anderen vom SECO 2014 in Auftrag gegebenen Studie (2) ist jedoch zu lesen, dass die Kosten für Berufskrankheiten in den entwickelten Volkswirtschaften gemäss internationalen Studien mindestens 3 Prozent des BIP ausmachen. Für die Schweiz entspricht dies für das Jahr 2022 22 Milliarden Franken. </p><p>Für einen Grossteil der Kosten stressbedingter Krankheiten kommt die Allgemeinheit und nicht die Arbeitgeberschaft auf. Angesichts der Explosion der Krankenkassenprämien ist es notwendig, das Verursacherprinzip zu verstärken, den Arbeitnehmerinnen und Arbeitnehmern einen besseren Versicherungsschutz anzubieten und stärkere Anreize für den Ausbau der Prävention am Arbeitsplatz zu schaffen. </p><p>Das Parlament wird ersucht, dazu beizutragen, dass arbeitsbedingte Gesundheitsprobleme und durch Stress im Beruf bedingte Krankheiten vermehrt als Berufskrankheiten anerkannt werden. Wenn arbeitsbedingte Krankheiten leichter als Berufskrankheiten anerkannt werden und damit unter das UVG fallen, verbessert sich der Versicherungsschutz der betroffenen Personen. Die Krankheitskosten fallen nicht mehr bei den einzelnen Arbeitnehmerinnen und Arbeitnehmern an, die unter der steigenden Last der Krankenkassenprämien ohnehin schon ächzen, sondern zunehmend dort, wo sie entstehen. Die Arbeitgeber werden damit mehr in ihre Unterstützungspflicht genommen, und die Prävention wird gestärkt.</p><p>(1) Arztkosten: 1,4 Milliarden Franken, Selbstmedikation gegen Stress: 348 Millionen Franken, Kosten aufgrund von Fehlzeiten und Produktionsausfall: 2,4 Milliarden Franken.</p><p>(2) Thomas Läubli (Seco). Gesundheitskosten hoher Arbeitsbelastungen. 2014.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Artikel 9 Absatz 2 des Unfallversicherungsgesetzes (UVG) wird wie folgt geändert:</p><p>Als Berufskrankheiten gelten auch andere Krankheiten, von denen nachgewiesen wird, dass sie ausschliesslich oder überwiegend durch berufliche Tätigkeit verursacht worden sind. (Streichung des Adverbs \"stark\").</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Für eine leichtere Anerkennung stressbedingter Krankheiten als Berufskrankheiten"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Für eine leichtere Anerkennung stressbedingter Krankheiten als Berufskrankheiten"
 }

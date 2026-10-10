@@ -1,6 +1,6 @@
 {
   "id": 20224569,
-  "updated": "2022-12-22T10:45:15Z",
+  "updated": "2025-04-24T19:26:24Z",
   "additionalIndexing": "55;52;2846",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,182 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-03-12T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-06-11T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-15T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CET-CN",
+            "id": 10,
+            "name": "Commissione dell'economia e dei tributi CN",
+            "abbreviation1": "CET-N",
+            "abbreviation2": "CET",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-05-03T14:39:29Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3153,
+                    "gender": "f",
+                    "id": 4261,
+                    "name": "Friedli Esther",
+                    "officialDenomination": "Friedli Esther"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CS",
+            "id": 23,
+            "name": "Commissione dell'economia e dei tributi CS",
+            "abbreviation1": "CET-S",
+            "abbreviation2": "CET",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-19T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Dipartimento dell'economia, della formazione e della ricerca",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1671145200000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1676415600000+0100)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1710198000000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1711148400000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1714687200000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1714946400000+0200)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1718056800000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -102,10 +255,10 @@
   ],
   "shortId": "22.4569",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -114,6 +267,13 @@
         "name": "Motivazione"
       },
       "value": "<p>Secondo quanto proposto, il catalogo di elementi SPB computabili sulla quota del 3,5 per cento di SPB richiesta sulla superficie coltiva comprende diversi elementi campicoli. Tuttavia ne mancano due importanti, ovvero i prati QII sfruttati in modo estensivo e le siepi QII. Nell'agricoltura, spesso con il sostegno di programmi cantonali sulla biodiversità, sono stati creati molti prati sfruttati in modo estensivo e siepi con standard QII. Anche nella regione campicola queste superfici forniscono un'elevata prestazione a favore della biodiversità.</p><p>Con il catalogo delle superfici proposto, la quota del 3,5 per cento di SPB attualmente richiesta sulle superfici coltive comporta una riduzione delle superfici SPB sui terreni inerbiti poiché i capoazienda sono costretti a ottimizzarla per non perdere superfici di produzione e non incrementare necessariamente la quota di superfici SPB dell'intera azienda. Tale evoluzione non è proficua in quanto anche le superfici con elevata qualità che si trovano nelle immediate vicinanze o su precedenti superfici coltive vengono nuovamente arate e convertite in SPB su superfici campicole.</p><p>Specialmente nell'agricoltura biologica vi è molta cautela riguardo alla continuazione dell'utilizzo degli elementi delle SPB (maggesi fioriti, ecc.) dopo la scadenza del periodo obbligatorio poiché, nonostante una buona cura, si diffondono malerbe che non possono essere contrastate a causa dell'impossibilità di impiegare erbicidi. I prati estensivi QII offrono un'efficace e preziosa alternativa in tal senso.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il 13 aprile 2022 il Consiglio federale ha varato il primo \"Pacchetto di ordinanze per un'acqua potabile pulita e un'agricoltura più sostenibile\" attuando così una prima parte dell'iniziativa parlamentare (Iv.Pa.) 19.475 \"Ridurre il rischio associato all'uso di pesticidi\". Nel pacchetto di ordinanze è presente la nuova condizione relativa alla prova che le esigenze ecologiche sono rispettate (PER) di una quota del 3,5 per cento di superfici per la promozione della biodiversità (SPB) sulla superficie coltiva. Questa condizione entra in vigore il 1° gennaio 2024.</p><p>Possono essere computati sul 3,5 per cento di SPB tutti i tipi di SPB predisposti sulla superficie coltiva. Questo consente un'attuazione semplice ed efficace dal profilo amministrativo. Sulla base dei risultati della consultazione sul \"Pacchetto di ordinanze per un'acqua potabile pulita e un'agricoltura più sostenibile\", il Consiglio federale ha inoltre incluso il computo delle SPB specifiche di una regione sulla superficie coltiva. Anche queste SPB sono predisposte sulla superficie coltiva e possono essere gestite semplicemente nei sistemi d'informazione agricoli. Inoltre, le SPB sulle quali vengono prodotti \"cereali in file distanziate\" possono essere computate nella misura del 50 per cento.</p><p>La considerazione, in via suppletiva, di siepi e prati sfruttati in modo estensivo richiesta con la mozione da un lato comporterebbe un ulteriore dispendio amministrativo, dall'altro determinerebbe inevitabilmente meno nuove SPB sulle superfici coltive. Questo inciderebbe sul conseguimento degli obiettivi secondo lo schema di riduzione poiché, nel complesso, si dovrebbe rinunciare all'impiego di prodotti fitosanitari e concimi su una superficie coltiva meno estesa e verrebbero promossi meno organismi utili. Il Consiglio federale non condivide nemmeno i timori secondo cui le SPB con qualità esistenti verrebbero arate e sostituite con SPB su superfici coltive; i pagamenti diretti versati per tali superfici sono talmente elevati che l'aratura comporterebbe una perdita economica.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {
@@ -127,8 +287,8 @@
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Computo di prati e siepi QII sull’ulteriore quota del 3,5 per cento di SPB sulle superfici coltive aperte"
+      "value": "Computo di prati e siepi QII sull'ulteriore quota del 3,5 per cento di SPB sulle superfici coltive aperte"
     }
   ],
-  "title": "Computo di prati e siepi QII sull’ulteriore quota del 3,5 per cento di SPB sulle superfici coltive aperte"
+  "title": "Computo di prati e siepi QII sull'ulteriore quota del 3,5 per cento di SPB sulle superfici coltive aperte"
 }

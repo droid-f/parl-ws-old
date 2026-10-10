@@ -1,6 +1,6 @@
 {
   "id": 20224404,
-  "updated": "2022-12-19T10:04:43Z",
+  "updated": "2025-04-24T19:20:42Z",
   "additionalIndexing": "15;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,17 +41,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-03-12T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-03-17T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-22T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-11-15T14:29:46Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2776,
+                    "gender": "m",
+                    "id": 4072,
+                    "name": "Regazzi Fabio",
+                    "officialDenomination": "Regazzi"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -67,8 +180,43 @@
       "states": [
         {
           "date": "/Date(1670972400000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1677020400000+0100)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1710198000000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1726524000000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1731625200000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1731625200000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1742166000000+0100)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -149,10 +297,10 @@
   ],
   "shortId": "22.4404",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -160,7 +308,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Die heutige Praxis in den Kartellverfahren besteht aus einer Untersuchungs- und einer Entscheid-Phase. In der ersten führt das Sekretariat, in der zweiten die Wettbewerbskommission. Für die Untersuchungsphase - wie im Übrigen für alle Phasen des Kartellverfahrens - gibt es keine Ordnungsfristen, d.h., sie kann unbestimmt lange dauern. </p><p>Das Ziel der Untersuchungsphase ist die Erarbeitung eines Antrags des Sekretariats an die Wettbewerbskommission. In dieser Phase muss das Sekretariat belastende und entlastende Sachverhalte erstellen, diese abwägen, sich mit involvierten kreisen austauschen und letztlich eine Rechtsschrift verfassen, welche einerseits den betroffenen Parteien zur Stellungnahme und der Wettbewerbskommission zum Entscheid unterbreitet werden. Die Kommission selber entscheidet auf der Grundlage des Rechts, des Antrags, der Stellungnahme der Parteien, sowie anderer nützlicher Informationsquellen. </p><p>Generell gelten die kartellverfahren als langwierig und deshalb rechtsunsicher und kostenintensiv. Das, weil das Sekretariat der Wettbewerbskommission ab Beginn der Untersuchung Öffentlichkeitsarbeit macht und damit die beteiligten Parteien als \"verdächtig\" einstuft. Es ist teuer, Weil betroffene Unternehmen an der Untersuchung mitwirken müssen. Zudem müssen sie sich von Anwälten begleiten lassen, was auch ein Kostenpunkt ist. </p><p>Eine lange dauernde Untersuchungsphase verunsichert generell den Markt. Unternehmen, die mit den betroffenen Parteien in Verbindung stehen, zum Beispiel als Kunden, Lieferanten oder Konkurrenten, wissen oft nicht, wie sie sich verhalten wollen. Es entstehen grosse lnformationsasymmetrien und damit volkswirtschaftliche Ineffizienzen. </p><p>Leider häufen sich die Fälle solcher langandauernden Untersuchungen. Z. B. eröffnete das Sekretariat der Wettbewerbskornmission am 3. September 2020 eine Untersuchung gegen Markant Handels- und Industriewaren-Vermittlungs AG. Bisher ist noch kein Antrag daraus entstanden. Das soll geändert werden.</p>"
+      "value": "<p>Die heutige Praxis in den Kartellverfahren besteht aus einer Untersuchungs- und einer Entscheid-Phase. In der ersten führt das Sekretariat, in der zweiten die Wettbewerbskommission. Für die Untersuchungsphase - wie im Übrigen für alle Phasen des Kartellverfahrens - gibt es keine Ordnungsfristen, d.h., sie kann unbestimmt lange dauern.</p><p>Das Ziel der Untersuchungsphase ist die Erarbeitung eines Antrags des Sekretariats an die Wettbewerbskommission. In dieser Phase muss das Sekretariat belastende und entlastende Sachverhalte erstellen, diese abwägen, sich mit involvierten kreisen austauschen und letztlich eine Rechtsschrift verfassen, welche einerseits den betroffenen Parteien zur Stellungnahme und der Wettbewerbskommission zum Entscheid unterbreitet werden. Die Kommission selber entscheidet auf der Grundlage des Rechts, des Antrags, der Stellungnahme der Parteien, sowie anderer nützlicher Informationsquellen.</p><p>Generell gelten die kartellverfahren als langwierig und deshalb rechtsunsicher und kostenintensiv. Das, weil das Sekretariat der Wettbewerbskommission ab Beginn der Untersuchung Öffentlichkeitsarbeit macht und damit die beteiligten Parteien als \"verdächtig\" einstuft. Es ist teuer, Weil betroffene Unternehmen an der Untersuchung mitwirken müssen. Zudem müssen sie sich von Anwälten begleiten lassen, was auch ein Kostenpunkt ist.</p><p>Eine lange dauernde Untersuchungsphase verunsichert generell den Markt. Unternehmen, die mit den betroffenen Parteien in Verbindung stehen, zum Beispiel als Kunden, Lieferanten oder Konkurrenten, wissen oft nicht, wie sie sich verhalten wollen. Es entstehen grosse lnformationsasymmetrien und damit volkswirtschaftliche Ineffizienzen.</p><p>Leider häufen sich die Fälle solcher langandauernden Untersuchungen. Z. B. eröffnete das Sekretariat der Wettbewerbskornmission am 3. September 2020 eine Untersuchung gegen Markant Handels- und Industriewaren-Vermittlungs AG. Bisher ist noch kein Antrag daraus entstanden. Das soll geändert werden.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Wie der Bundesrat bereits in seiner Stellungnahme zur Motion 16.4094 Fournier \"Verbesserung der Situation der KMU in Wettbewerbsverfahren\" hinsichtlich der Forderung von Fristen für die Behandlung kartellrechtlicher Verwaltungsverfahren festgehalten hat, ist er ebenfalls an einer raschen und einfachen Abwicklung von Kartellverfahren interessiert. Allerdings ist dabei der Komplexität der Materie, dem Umfang der notwendigen Sachverhaltsabklärungen, den Parteirechten, den Ressourcen der Wettbewerbsbehörden und Gerichte sowie deren Unabhängigkeit Rechnung zu tragen. Gerade weil es sich bei KG-Sanktionsverfahren um Verfahren im Anwendungsbereich der strafprozessualen Garantien der Bundesverfassung (BV) und der Europäischen Menschenrechtskonvention (EMRK) handelt, sind die Partei- und Verfahrensrechte (rechtliches Gehör usw.) stark ausgeprägt. Kompromisse bei der Rechtsstaatlichkeit dürfen keine gemacht werden. Neue Regelungen zu Fristen, welche die Verfahren der Behörden und Gerichte verkürzen, sollen dabei aber allerdings auch die notwendige Flexibilität bieten, um angemessen den Herausforderungen der Verfolgung von kartellrechtlichen Sachverhalten zu begegnen. Starre Fristen würden insbesondere die Qualität der Untersuchungen und Entscheide gefährden. Das Parlament hat zwei Punkte der Motion 16.4094 Fournier angenommen - darunter auch die Aufnahme von Fristen für kartellrechtliche Verwaltungsverfahren.</p><p>Zur Erfüllung dieses Auftrages des Parlaments hat der Bundesrat in seiner Vernehmlassungsvorlage zur laufenden Teilrevision des Kartellgesetzes (KG; SR 251) vorgeschlagen, Ordnungsfristen für die Durchführung von Verwaltungsverfahren bei den Wettbewerbsbehörden und vor den Gerichten in das KG aufzunehmen. Die Höchstdauer - gerechnet von der Eröffnung einer formellen Untersuchung bis zu einer rechtskräftigen Entscheidung über alle Instanzen - soll grundsätzlich auf total fünf Jahre beschränkt werden. Von der Gesamtfrist entfallen 30 Monate auf die Wettbewerbskommission (WEKO) und ihr Sekretariat, 18 Monate auf das Bundesverwaltungsgericht und 12 Monate auf das Bundesgericht. Der WEKO und ihrem Sekretariat wird eine längere Frist eingeräumt, da die Abklärung des Sachverhalts einen grösseren Arbeits- und Zeitaufwand mit sich bringt, gerade auch weil es sich dabei um eine vielschichtige Interaktion zwischen den Behörden, den Untersuchungsadressatinnen und den mutmasslich geschädigten Marktteilnehmern handelt. Viele kartellrechtliche Untersuchungen sind in Bezug auf den Aufwand, die Komplexität und die Anzahl Parteien mit der Strafverfolgung von grossen Wirtschaftsdelikten vergleichbar. Die Sachverhaltsermittlungen beinhalten regelmässig Hausdurchsuchungen bei mehreren Unternehmen, die Sichtung und Auswertung umfangreicher elektronischer Daten und physischer Unterlagen, umfassende Zeugen- und Parteieinvernahmen, empirische Datenanalysen und Marktbefragungen. Bei den Ermittlungen ist stets das rechtliche Gehör der Unternehmen zu wahren; sie können selbst auch (umfassende) Beweisbegehren stellen. Aufgrund der umfangreichen und komplexen Sachverhalts- und Rechtsfragen umfassen die Anträge des Sekretariats an die WEKO teils mehrere hundert Seiten. Vor diesem Hintergrund ist eine einheitliche verbindliche Frist für die Arbeit des Sekretariats der WEKO ab Untersuchungseröffnung bis zur Stellung des Antrages an die WEKO von zwölf Monaten - auch unter Berücksichtigung der vorgeschlagenen Verlängerungsoption um ein weiteres Jahr - unangemessen: Für komplexe Verfahren (mit vielen Parteien, umstrittenem Sachverhalt, hohen Sanktionen etc.) ist sie offensichtlich viel zu kurz.</p><p>Starre Fristen mit Verwirkungsfolge könnten sogar den unerwünschten Anreiz setzen, dass Unternehmen in der Hoffnung auf den Ablauf der Frist auf eine an sich sinnvolle Kooperation (z. B. Aufklärung des Sachverhalts, einvernehmliche Regelung) verzichten oder sogar das Verfahren verzögern (z. B. mit Anträgen auf Zwischenverfügungen, Fristerstreckungen, Ausstandsgesuchen etc.).</p><p>Weiter ist zu beachten, dass für die Unternehmen die gesamte Verfahrensdauer von der Eröffnung bis zum rechtskräftigen Entscheid durch das Bundesgericht massgebend ist. Oftmals dauern die Rechtsmittelverfahren vor den Gerichten deutlich länger als die Untersuchungen der WEKO. Die vorliegende Motion lässt diesen Aspekt gänzlich ausser Acht - dies im Gegensatz zur angenommenen Motion 16.4094 Fournier und dem entsprechenden Umsetzungsvorschlag des Bundesrats in der laufenden Teilrevision des KG.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {
@@ -174,8 +329,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Verfahren beschleunigen - Rechtssicherheit erhöhen"
+      "value": "Verfahren beschleunigen. Rechtssicherheit erhöhen"
     }
   ],
-  "title": "Verfahren beschleunigen - Rechtssicherheit erhöhen"
+  "title": "Verfahren beschleunigen. Rechtssicherheit erhöhen"
 }

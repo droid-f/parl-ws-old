@@ -1,7 +1,7 @@
 {
   "id": 20130463,
-  "updated": "2021-10-01T08:36:28Z",
-  "additionalIndexing": "12",
+  "updated": "2025-04-09T12:10:10Z",
+  "additionalIndexing": "12;Verbrechen gegen Personen;Verwahrung;Straftäter/in;Eindämmung der Kriminalität;soziale Wiedereingliederung;Häftling;Gewalt",
   "affairType": {
     "abbreviation": "Pa. Iv.",
     "id": 4,
@@ -84,7 +84,7 @@
               "abbreviation": "RK-NR",
               "id": 12,
               "name": "Kommission für Rechtsfragen NR",
-              "abbreviation1": "RK-NR",
+              "abbreviation1": "RK-N",
               "abbreviation2": "RK",
               "committeeNumber": 12,
               "council": {
@@ -97,7 +97,7 @@
             },
             "council": null,
             "date": "2014-10-16T00:00:00Z",
-            "text": "Folge gegeben",
+            "text": "Folge geben (Erstrat)",
             "type": 16
           },
           {
@@ -109,7 +109,7 @@
               "abbreviation": "RK-SR",
               "id": 25,
               "name": "Kommission für Rechtsfragen SR",
-              "abbreviation1": "RK-SR",
+              "abbreviation1": "RK-S",
               "abbreviation2": "RK",
               "committeeNumber": 25,
               "council": {
@@ -157,8 +157,8 @@
           },
           {
             "category": {
-              "id": 4,
-              "name": "Ergänzung"
+              "id": 3,
+              "name": "Normal"
             },
             "council": {
               "abbreviation": "NR",
@@ -187,8 +187,8 @@
           },
           {
             "category": {
-              "id": 4,
-              "name": "Ergänzung"
+              "id": 3,
+              "name": "Normal"
             },
             "council": {
               "abbreviation": "NR",
@@ -199,6 +199,21 @@
             "date": "2021-10-01T00:00:00Z",
             "text": "Bis zur Herbstsession 2023.",
             "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-28T00:00:00Z",
+            "text": "Abschreibung",
+            "type": 15
           }
         ]
       },
@@ -214,7 +229,7 @@
             "abbreviation": "RK-NR",
             "id": 12,
             "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
+            "abbreviation1": "RK-N",
             "abbreviation2": "RK",
             "committeeNumber": 12,
             "council": {
@@ -242,16 +257,22 @@
 
               ],
               "sessionId": "5111"
+            },
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
             }
           ],
-          "treatmentCategory": "V"
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -269,6 +290,47 @@
 
               ]
             }
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-08-31T13:57:48Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3058,
+                    "gender": "f",
+                    "id": 4184,
+                    "name": "Arslan Sibel",
+                    "officialDenomination": "Arslan"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -277,9 +339,9 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlament",
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
           "leading": true
         }
       ],
@@ -296,8 +358,23 @@
         },
         {
           "date": "/Date(1633039200000+0200)/",
-          "id": 2,
-          "name": "Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1688421600000+0200)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1688421600000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -322,7 +399,7 @@
             "abbreviation": "RK-NR",
             "id": 12,
             "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
+            "abbreviation1": "RK-N",
             "abbreviation2": "RK",
             "committeeNumber": 12,
             "council": {
@@ -340,15 +417,14 @@
 
               ]
             }
-          ],
-          "treatmentCategory": "V"
+          ]
         },
         {
           "committee": {
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -370,9 +446,9 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlament",
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
           "leading": true
         }
       ],
@@ -384,8 +460,23 @@
         },
         {
           "date": "/Date(1633039200000+0200)/",
-          "id": 2,
-          "name": "Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -427,8 +518,8 @@
   "sequentialNumber": 393,
   "shortId": "13.463",
   "state": {
-    "id": 2,
-    "name": "Behandelt vom Nationalrat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },
@@ -438,14 +529,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Die schrecklichen Morde an Lucie, Marie und an Adeline haben eines gemeinsam: Alle Täter sind Wiederholungstäter. Ersttäter wird es immer geben. Aber dafür, dass es keine Opfer von Wiederholungstätern gibt, tragen Politik, Justiz und die Behörden Verantwortung. Leider zeigen diese Fälle exemplarisch auf, dass die Resozialisierung der Täter höher gewichtet wird als die Sicherheit der Bevölkerung. Die Täter kriegen eine zweite, dritte, vierte Chance. Oder noch mehr, wie der Fall des Serienvergewaltigers Markus Wenger zeigt: Dieser war verwahrt, weil er 24 Frauen missbraucht hatte. Man entliess ihn aus der Verwahrung, gewährte ihm Strafvollzugslockerungen in Form eines Wohnexternats. Trotz Fussfessel missbrauchte er drei weitere Frauen. Erst jetzt wurde er lebenslänglich verwahrt; das Urteil ist noch nicht rechtskräftig.</p><p>Den Behörden und der Justiz soll es weiterhin möglich sein, einem Täter eine zweite Chance zu gewähren. Wenn mit einer Therapie praktisch sicher ist, dass der Täter nicht rückfällig wird, können diesem Strafvollzugslockerungen und die bedingte Entlassung ermöglicht werden. Sollte ein Täter aber erneut eine schwere Straftat wie Mord, vorsätzliche Tötung, schwere Körperverletzung oder Vergewaltigung begehen, ist er nach Artikel 64 StGB zu verwahren, ohne dass hierfür weitere Voraussetzungen erfüllt sein müssen. Denn mit der Rückfälligkeit zeigt der Täter, dass er auch in Zukunft weitere Straftaten begehen wird.</p><p>Ein rückfälliger Täter hat seine zweite Chance verwirkt. Er hat ein weiteres Vergewaltigungs- oder Mordopfer zu verantworten. Es ist nicht gerechtfertigt, dass ein solcher Täter eine dritte Chance erhält. Die Sicherheit der Bevölkerung muss im Zentrum stehen. Aus diesem Grund ist der Täter zu verwahren. Das schliesst nicht aus, dass er, wenn nötig, therapeutisch behandelt wird (vgl. meine parlamentarische Initiative 13.461, \"Verwahrung vor Therapie\", vom 27. September 2013).</p>"
+      "value": "<p>Die schrecklichen Morde an Lucie, Marie und an Adeline haben eines gemeinsam: Alle Täter sind Wiederholungstäter. Ersttäter wird es immer geben. Aber dafür, dass es keine Opfer von Wiederholungstätern gibt, tragen Politik, Justiz und die Behörden Verantwortung. Leider zeigen diese Fälle exemplarisch auf, dass die Resozialisierung der Täter höher gewichtet wird als die Sicherheit der Bevölkerung. Die Täter kriegen eine zweite, dritte, vierte Chance. Oder noch mehr, wie der Fall des Serienvergewaltigers Markus Wenger zeigt: Dieser war verwahrt, weil er 24 Frauen missbraucht hatte. Man entliess ihn aus der Verwahrung, gewährte ihm Strafvollzugslockerungen in Form eines Wohnexternats. Trotz Fussfessel missbrauchte er drei weitere Frauen. Erst jetzt wurde er lebenslänglich verwahrt; das Urteil ist noch nicht rechtskräftig.</p><p>Den Behörden und der Justiz soll es weiterhin möglich sein, einem Täter eine zweite Chance zu gewähren. Wenn mit einer Therapie praktisch sicher ist, dass der Täter nicht rückfällig wird, können diesem Strafvollzugslockerungen und die bedingte Entlassung ermöglicht werden. Sollte ein Täter aber erneut eine schwere Straftat wie Mord, vorsätzliche Tötung, schwere Körperverletzung oder Vergewaltigung begehen, ist er nach Artikel 64 StGB zu verwahren, ohne dass hierfür weitere Voraussetzungen erfüllt sein müssen. Denn mit der Rückfälligkeit zeigt der Täter, dass er auch in Zukunft weitere Straftaten begehen wird.</p><p>Ein rückfälliger Täter hat seine zweite Chance verwirkt. Er hat ein weiteres Vergewaltigungs- oder Mordopfer zu verantworten. Es ist nicht gerechtfertigt, dass ein solcher Täter eine dritte Chance erhält. Die Sicherheit der Bevölkerung muss im Zentrum stehen. Aus diesem Grund ist der Täter zu verwahren. Das schliesst nicht aus, dass er, wenn nötig, therapeutisch behandelt wird (vgl. meine parlamentarische Initiative 13.461, \"Verwahrung vor Therapie\", vom 27. September 2013).</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Gestützt auf Artikel 160 Absatz 1 der Bundesverfassung und Artikel 107 des Parlamentsgesetzes reiche ich folgende parlamentarische Initiative ein:</p><p>Es sei in Artikel 64 Absatz 1 des Strafgesetzbuches zu ergänzen, dass das Gericht die Verwahrung anordnet, wenn der Täter ... beeinträchtigen wollte, und wenn:</p><p>Der Täter bereits einmal wegen Mordes, vorsätzlicher Tötung, schwerer Körperverletzung oder Vergewaltigung rechtskräftig verurteilt worden ist.</p>"
+      "value": "<p>Gestützt auf Artikel 160 Absatz 1 der Bundesverfassung und Artikel 107 des Parlamentsgesetzes reiche ich folgende parlamentarische Initiative ein:</p><p>Es sei in Artikel 64 Absatz 1 des Strafgesetzbuches zu ergänzen, dass das Gericht die Verwahrung anordnet, wenn der Täter ... beeinträchtigen wollte, und wenn:</p><p>Der Täter bereits einmal wegen Mordes, vorsätzlicher Tötung, schwerer Körperverletzung oder Vergewaltigung rechtskräftig verurteilt worden ist.</p>"
     },
     {
       "type": {

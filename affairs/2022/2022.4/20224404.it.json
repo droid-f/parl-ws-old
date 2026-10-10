@@ -1,6 +1,6 @@
 {
   "id": 20224404,
-  "updated": "2022-12-19T10:04:43Z",
+  "updated": "2025-04-24T19:20:42Z",
   "additionalIndexing": "15;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-03-12T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-03-17T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-22T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CET-CN",
+            "id": 10,
+            "name": "Commissione dell'economia e dei tributi CN",
+            "abbreviation1": "CET-N",
+            "abbreviation2": "CET",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-11-15T14:29:46Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2776,
+                    "gender": "m",
+                    "id": 4072,
+                    "name": "Regazzi Fabio",
+                    "officialDenomination": "Regazzi"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CS",
+            "id": 23,
+            "name": "Commissione dell'economia e dei tributi CS",
+            "abbreviation1": "CET-S",
+            "abbreviation2": "CET",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +179,43 @@
       "states": [
         {
           "date": "/Date(1670972400000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1677020400000+0100)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1710198000000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1726524000000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1731625200000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1731625200000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1742166000000+0100)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
         }
       ],
       "texts": [
@@ -147,10 +295,10 @@
   ],
   "shortId": "22.4404",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 209,
+    "name": "Trasmesso al Consiglio federale",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -158,7 +306,14 @@
         "id": 6,
         "name": "Motivazione"
       },
-      "value": "<p>La prassi attuale per le procedure antitrust prevede una fase investigativa e una fase decisionale. La prima è condotta dalla Segreteria, la seconda dalla Commissione della concorrenza. Per la fase investigativa non ci sono scadenze, così come per tutte le altre fasi della procedura antitrust. La sua durata è pertanto indefinita. </p><p>Lo scopo della fase investigativa è la formulazione di una proposta da parte della Segreteria all'attenzione della Commissione della concorrenza. In questa fase la Segreteria deve stabilire e soppesare le prove a carico e quelle a discarico di un determinato soggetto e deve scambiare informazioni con le cerchie coinvolte. L'obiettivo è quello di redigere un documento legale da sottoporre alle parti interessate affinché queste forniscano le loro osservazioni e alla Commissione della concorrenza perché prenda una decisione sulla base delle norme, dell'inchiesta, del parere delle parti e di altre fonti di informazione utili. </p><p>In generale le procedure antitrust sono lunghe e quindi giuridicamente incerte e costose. Questo perché dall'inizio dell'investigazione la Segreteria della Commissione della concorrenza riporta pubblicamente il caso e le parti coinvolte vengono considerate \"sospette\". Inoltre, si tratta di procedure costose perché le aziende coinvolte devono collaborare all'investigazione e necessitano di un avvocato, il quale costituisce una spesa. </p><p>Una lunga fase investigativa in genere innervosisce i mercati. Le aziende che sono in contatto con le parti interessate, ad esempio in qualità di clienti, fornitori o concorrenti, spesso non sanno come comportarsi. Si creano così grandi asimmetrie informative e conseguenti inefficienze economiche. </p><p>Purtroppo i casi di investigazioni prolungate sono sempre più frequenti. Ad esempio, il 3 settembre 2020 la Segreteria della Commissione della concorrenza ha aperto un'inchiesta contro la Markant Handels- und Industriewaren-Vermittlungs AG. Finora, però, non ha ancora formulato alcuna proposta. È ora necessario un cambio di rotta.</p>"
+      "value": "<p>La prassi attuale per le procedure antitrust prevede una fase investigativa e una fase decisionale. La prima è condotta dalla Segreteria, la seconda dalla Commissione della concorrenza. Per la fase investigativa non ci sono scadenze, così come per tutte le altre fasi della procedura antitrust. La sua durata è pertanto indefinita.</p><p>Lo scopo della fase investigativa è la formulazione di una proposta da parte della Segreteria all'attenzione della Commissione della concorrenza. In questa fase la Segreteria deve stabilire e soppesare le prove a carico e quelle a discarico di un determinato soggetto e deve scambiare informazioni con le cerchie coinvolte. L'obiettivo è quello di redigere un documento legale da sottoporre alle parti interessate affinché queste forniscano le loro osservazioni e alla Commissione della concorrenza perché prenda una decisione sulla base delle norme, dell'inchiesta, del parere delle parti e di altre fonti di informazione utili.</p><p>In generale le procedure antitrust sono lunghe e quindi giuridicamente incerte e costose. Questo perché dall'inizio dell'investigazione la Segreteria della Commissione della concorrenza riporta pubblicamente il caso e le parti coinvolte vengono considerate \"sospette\". Inoltre, si tratta di procedure costose perché le aziende coinvolte devono collaborare all'investigazione e necessitano di un avvocato, il quale costituisce una spesa.</p><p>Una lunga fase investigativa in genere innervosisce i mercati. Le aziende che sono in contatto con le parti interessate, ad esempio in qualità di clienti, fornitori o concorrenti, spesso non sanno come comportarsi. Si creano così grandi asimmetrie informative e conseguenti inefficienze economiche.</p><p>Purtroppo i casi di investigazioni prolungate sono sempre più frequenti. Ad esempio, il 3 settembre 2020 la Segreteria della Commissione della concorrenza ha aperto un'inchiesta contro la Markant Handels- und Industriewaren-Vermittlungs AG. Finora, però, non ha ancora formulato alcuna proposta. È ora necessario un cambio di rotta.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Anche il Consiglio federale mira a una gestione rapida e semplice delle procedure antitrust, come espresso in risposta alla mozione 16.4094 Fournier \"Migliorare la situazione delle PMI nei procedimenti in materia di concorrenza\" in merito al requisito delle scadenze per la gestione delle procedure amministrative ai sensi della legge sui cartelli (LCart). Bisogna tuttavia considerare la complessità della materia, l'entità degli accertamenti necessari, i diritti delle parti, nonché le risorse e l'autonomia operativa dei tribunali e delle autorità preposte alla concorrenza. Questo in virtù del fatto che i diritti delle parti e i diritti procedurali (p. es. le udienze) rivestono un'importanza centrale, dal momento che le procedure sanzionatorie della LCart rientrano nell'ambito di applicazione delle garanzie procedurali penali della Costituzione federale e della Convenzione europea dei diritti dell'uomo (CEDU). Non si può scendere a compromessi sullo Stato di diritto. Tuttavia, le nuove norme sulle scadenze, che abbreviano le procedure delle autorità e dei tribunali, dovrebbero anche offrire la flessibilità necessaria per affrontare adeguatamente le sfide poste dal perseguimento di casi antitrust. Dotarsi di scadenze troppo rigide rischierebbe di compromettere la qualità delle investigazioni e delle decisioni. Il Parlamento ha adottato due punti della mozione 16.4094 Fournier, tra cui l'inclusione di scadenze per le procedure amministrative in materia di antitrust.</p><p>In adempimento al mandato parlamentare, il Consiglio federale ha proposto di inserire nella consultazione sull'attuale revisione parziale della legge sui cartelli (LCart; RS 251) delle scadenze ordinarie per lo svolgimento delle procedure amministrative davanti alle autorità della concorrenza e ai tribunali. La durata massima, calcolata dall'apertura formale di un'investigazione fino alla decisione finale in tutte le istanze, dovrebbe sostanzialmente essere limitata a un totale di cinque anni, di cui 30 mesi sono da assegnare alla Commissione della concorrenza (COMCO) e alla sua Segreteria, 18 mesi al Tribunale amministrativo federale e 12 mesi al Tribunale federale. Alla COMCO e alla sua Segreteria viene concesso un periodo di tempo più lungo, in quanto l'accertamento dei fatti richiede una maggiore quantità di lavoro e di tempo. In particolare, ciò comporta un'interazione a più livelli tra le autorità, i destinatari dell'investigazione e gli operatori di mercato potenzialmente lesi. In termini di impegno, complessità e numero di parti coinvolte, le investigazioni antitrust sono paragonabili al perseguimento di gravi reati economici. L'accertamento dei fatti comprende regolari perquisizioni presso diverse società, la revisione e la valutazione di numerosi dati elettronici e documenti fisici, lo svolgimento di udienze in presenza dei testimoni e delle parti coinvolte, nonché l'esecuzione di analisi empiriche di dati e di indagini di mercato. Nel corso delle investigazioni è inoltre necessario rispettare il diritto delle società di essere ascoltate. Queste ultime possono chiedere di propria iniziativa di poter presentare in autonomia delle prove (anche esaustive). A causa delle ampie e complesse questioni di fatto e di diritto, le proposte della Segreteria alla COMCO comprendono talvolta diverse centinaia di pagine. In questo contesto, risulta inappropriato imporre alla Segreteria una scadenza uniforme e vincolante di dodici mesi (dall'apertura dell'investigazione alla presentazione della proposta alla COMCO), anche tenendo conto dell'opzione di estenderla di un altro anno. Si tratta ovviamente di un periodo troppo breve per procedure complesse (p. es. con numerose parti, fatti contestati, sanzioni elevate).</p><p>Imporre rigide scadenze con eventuale rischio di perenzione potrebbe persino creare un effetto indesiderato: le imprese potrebbero astenersi dal cooperare (p. es. all'accertamento dei fatti o alla composizione amichevole) o addirittura ritardare la procedura (p. es. con domande di decisioni incidentali, di proroghe dei termini, di ricusazione, ecc.).</p><p>Si noti inoltre che per le società è determinante l'intera durata della procedura, dalla sua apertura alla decisione finale del Tribunale federale. I ricorsi dinanzi ai tribunali richiedono spesso molto più tempo delle investigazioni della COMCO. La presente mozione ignora completamente questo aspetto, a differenza della mozione 16.4094 Fournier, adottata, e della relativa proposta di attuazione del Consiglio federale, fatta confluire nell'attuale revisione parziale della LCart.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

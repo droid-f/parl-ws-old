@@ -1,6 +1,6 @@
 {
   "id": 20230442,
-  "updated": "2023-06-21T16:25:47Z",
+  "updated": "2024-05-30T13:04:26Z",
   "additionalIndexing": "2836;2446",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -40,7 +40,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-05-30T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,24 +64,138 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CER-CE",
+            "id": 23,
+            "name": "Commission de l'économie et des redevances CE",
+            "abbreviation1": "CER-E",
+            "abbreviation2": "CER",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CN",
+            "id": 10,
+            "name": "Commission de l'économie et des redevances CN",
+            "abbreviation1": "CER-N",
+            "abbreviation2": "CER",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-24T09:09:58Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2766,
+                    "gender": "f",
+                    "id": 4060,
+                    "name": "Schneeberger Daniela",
+                    "officialDenomination": "Schneeberger"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe RL",
+                    "id": 1,
+                    "name": "Groupe libéral-radical"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Département des finances",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1686866400000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1692914400000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1694469600000+0200)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1700607600000+0100)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1717020000000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -91,31 +219,11 @@
   "roles": [
     {
       "councillor": {
-        "code": 2732,
-        "gender": "f",
-        "id": 3999,
-        "name": "Prelicz-Huber Katharina",
-        "officialDenomination": "Prelicz-Huber"
-      },
-      "type": "cosign"
-    },
-    {
-      "councillor": {
         "code": 3138,
         "gender": "f",
         "id": 4246,
         "name": "Badertscher Christine",
         "officialDenomination": "Badertscher"
-      },
-      "type": "cosign"
-    },
-    {
-      "councillor": {
-        "code": 3139,
-        "gender": "m",
-        "id": 4247,
-        "name": "Baumann Kilian",
-        "officialDenomination": "Baumann"
       },
       "type": "cosign"
     },
@@ -171,16 +279,6 @@
     },
     {
       "councillor": {
-        "code": 3180,
-        "gender": "f",
-        "id": 4288,
-        "name": "Schlatter Marionna",
-        "officialDenomination": "Schlatter"
-      },
-      "type": "cosign"
-    },
-    {
-      "councillor": {
         "code": 3185,
         "gender": "m",
         "id": 4293,
@@ -225,7 +323,7 @@
         "gender": "m",
         "id": 4053,
         "name": "Aeschi Thomas",
-        "officialDenomination": "Aeschi Thomas"
+        "officialDenomination": "Aeschi"
       },
       "type": "cosign"
     },
@@ -425,7 +523,7 @@
         "gender": "m",
         "id": 4141,
         "name": "Portmann Hans-Peter",
-        "officialDenomination": "Portmann"
+        "officialDenomination": "Portmann Hans-Peter"
       },
       "type": "cosign"
     },
@@ -565,7 +663,7 @@
         "gender": "f",
         "id": 4234,
         "name": "Schläpfer Therese",
-        "officialDenomination": "Schläpfer"
+        "officialDenomination": "Schläpfer Therese"
       },
       "type": "cosign"
     },
@@ -677,19 +775,33 @@
   ],
   "shortId": "23.442",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Le système fiscal actuel pénalise les retraités sur le plan financier s'ils exercent une activité lucrative accessoire après leur départ à la retraite ou s'ils continuent de travailler à plein temps après l'âge de la retraite pendant quelques années. En effet, dans ces cas, la rente AVS s'ajoute au revenu de l'activité lucrative pour le calcul de l'impôt, ce qui fait passer le contribuable dans une tranche d'imposition plus élevée.</p><p>Ce système est absurde et contre-productif. En effet, les retraités qui souhaitent poursuivre une activité lucrative réduisent le risque de pauvreté des personnes âgées. Ils déchargent ainsi l'État, qui doit payer moins de prestations complémentaires, voire ne pas en payer du tout. En outre, les retraités actifs peuvent continuer de faire bénéficier leurs employeurs de leurs connaissances et de leurs compétences, ce qui constitue une contribution précieuse à la lutte contre la pénurie de main-d'œuvre qualifiée.</p><p>L'exonération fiscale de la rente AVS permettra d'alléger la charge financière des retraités, de renforcer la place industrielle suisse et d'employer plus efficacement l'aide sociale de l'État.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>La loi fédérale sur l'harmonisation des impôts directs des cantons et des communes (RS&nbsp;642.14) est modifiée comme suit&nbsp;:</p><p>Article&nbsp;7 (Principe), alinéa&nbsp;4, let.&nbsp;o&nbsp;:</p><p>Sont seuls exonérés de l'impôt&nbsp;: les rentes de l'assurance-vieillesse et survivants (AVS).</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Exonération fiscale des rentes AVS"
     }
   ],
-  "title": "Titre suit"
+  "title": "Exonération fiscale des rentes AVS"
 }

@@ -1,6 +1,7 @@
 {
   "id": 20233751,
-  "updated": "2023-06-15T12:02:00Z",
+  "updated": "2025-03-18T07:44:21Z",
+  "additionalIndexing": "04;12;2446",
   "affairType": {
     "abbreviation": "Mo.",
     "id": 5,
@@ -39,29 +40,177 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-03-13T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-03-17T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-23T00:00:00Z",
+        "text": "Respingere"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-11-12T15:21:32Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3054,
+                    "gender": "m",
+                    "id": 4152,
+                    "name": "Wicki Hans",
+                    "officialDenomination": "Wicki"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CS",
+            "id": 23,
+            "name": "Commissione dell'economia e dei tributi CS",
+            "abbreviation1": "CET-S",
+            "abbreviation2": "CET",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CN",
+            "id": 10,
+            "name": "Commissione dell'economia e dei tributi CN",
+            "abbreviation1": "CET-N",
+            "abbreviation2": "CET",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Dipartimento dell'economia, della formazione e della ricerca",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686780000000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1692741600000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1710284400000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1726524000000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1731366000000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1742166000000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -101,19 +250,40 @@
   ],
   "shortId": "23.3751",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Lo sviluppo della digitalizzazione consente agli enti pubblici di realizzare notevoli risparmi nella fornitura di prestazioni. Raramente, però, gli utenti (persone fisiche, imprese, ecc.) ne percepiscono gli effetti tangibili, in quanto le tasse e le imposte che devono pagare non sono quasi mai ridotte in proporzione ai risparmi ottenuti dagli enti pubblici. Capita anzi che i costi per gli utenti subiscano degli aumenti.</p><p>È dunque necessario correggere questa situazione. I progetti legislativi che comportano costi aggiuntivi per gli utenti devono indicarlo espressamente e dimostrare i nuovi vantaggi di cui gli utenti beneficiano in cambio. In assenza di vantaggi concreti, gli oneri a loro carico non devono aumentare, bensì diminuire, se le amministrazioni pubbliche realizzano dei risparmi.</p><p>L’articolo 1.3 capoverso 1 delle Direttive AIR potrebbe ad esempio essere riformulato come segue: «L’AIR è uno strumento che permette di esaminare e di presentare le ripercussioni economiche dei progetti legislativi della Confederazione. Tiene conto degli effetti di questi progetti sugli utenti e sui consumatori (persone fisiche e giuridiche). Prende in considerazione anche le ripercussioni ambientali e sociali. Le ripercussioni devono essere analizzate e presentate sotto il profilo economico (in particolare costi, benefici, effetti distributivi)».</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>L’analisi d’impatto della regolamentazione (AIR) è uno strumento che permette di esaminare e di presentare le ripercussioni economiche dei progetti legislativi della Confederazione. Il suo scopo è quello di esaminare sistematicamente la necessità normativa, le opzioni d’intervento alternative, le conseguenze previste nonché gli aspetti pratici dell’esecuzione. L’AIR esamina le conseguenze dei progetti legislativi per gli attori interessati e per l’insieme dell’economia, e i relativi risultati sono presentati nei rapporti esplicativi e nei messaggi.</p><p>Tra gli attori interessati rientrano in particolare le imprese, i consumatori, i lavoratori e il settore pubblico, oltre a gruppi specifici come pazienti, pensionati, proprietari di immobili, inquilini o contribuenti.</p><p>I gruppi della società da prendere in considerazione sono riportati in dettaglio nel manuale e nella lista di controllo AIR. Le analisi riguardano sia i vantaggi per i vari attori che i costi aggiuntivi, siano essi riconducibili a tasse o ad altri oneri.</p><p>Il Consiglio federale concorda con l’autore della mozione che anche gli utenti debbano poter beneficiare dei progetti di digitalizzazione. Ritiene inoltre fondamentale che nell’ambito dell’AIR vadano indicate tutte le conseguenze di un progetto legislativo, compresi i risparmi ottenuti e i costi aggiuntivi indotti dai progetti di digitalizzazione. Tutto questo è però già previsto dalle Direttive AIR. Poiché le conseguenze per gli utenti e i consumatori sono già contemplate al capitolo 2 capoverso 1 punto 3 delle Direttive AIR e precisate nel manuale AIR, l’obiettivo della mozione è già stato raggiunto.</p><p>Un’ulteriore specificazione degli attori o dei tipi di conseguenze al punto 1.3 delle Direttive AIR, che ha una portata generale, sarebbe inappropriata e non apporterebbe alcun valore aggiunto.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Le Direttive del Consiglio federale per l’analisi d’impatto della regolamentazione applicabile ai progetti legislativi della Confederazione (Direttive AIR) devono essere modificate, all’articolo 1.3 capoverso 1, in modo da menzionare espressamente che occorre tenere conto degli effetti dei progetti legislativi della Confederazione sugli utenti e sui consumatori (persone fisiche e giuridiche).</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Gli effetti dei progetti legislativi devono essere trasparenti per gli utenti"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Gli effetti dei progetti legislativi devono essere trasparenti per gli utenti"
 }

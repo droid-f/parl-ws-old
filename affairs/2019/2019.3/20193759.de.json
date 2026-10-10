@@ -1,6 +1,6 @@
 {
   "id": 20193759,
-  "updated": "2020-03-05T08:38:25Z",
+  "updated": "2025-01-08T09:40:19Z",
   "additionalIndexing": "15;24;34",
   "affairType": {
     "abbreviation": "Po.",
@@ -13,7 +13,7 @@
       "gender": "m",
       "id": 4190,
       "name": "Dobler Marcel",
-      "officialDenomination": "Dobler"
+      "officialDenomination": "Dobler Marcel"
     },
     "faction": {
       "abbreviation": "Fraktion RL",
@@ -70,6 +70,21 @@
             "date": "2020-03-04T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-06-05T00:00:00Z",
+            "text": "Abschreibung im Zusammenhang mit der Beratung des Geschäfts 24.006",
+            "type": 0
           }
         ]
       },
@@ -83,7 +98,27 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-05T00:00:00Z",
+          "registrations": [
 
+          ]
+        }
       ],
       "references": [
 
@@ -104,8 +139,13 @@
         },
         {
           "date": "/Date(1583276400000+0100)/",
-          "id": 26,
-          "name": "Angenommen"
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
+        },
+        {
+          "date": "/Date(1717538400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -113,11 +153,6 @@
       ]
     }
   ],
-  "handling": {
-    "date": "2020-03-04T00:00:00Z",
-    "legislativePeriod": 51,
-    "session": "5102"
-  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -148,7 +183,7 @@
         "gender": "m",
         "id": 4190,
         "name": "Dobler Marcel",
-        "officialDenomination": "Dobler"
+        "officialDenomination": "Dobler Marcel"
       },
       "faction": {
         "abbreviation": "Fraktion RL",
@@ -161,9 +196,9 @@
   ],
   "shortId": "19.3759",
   "state": {
-    "id": 26,
-    "name": "Angenommen",
-    "doneKey": "3",
+    "id": 229,
+    "name": "Erledigt",
+    "doneKey": "0",
     "newKey": 0
   },
   "texts": [
@@ -173,6 +208,13 @@
         "name": "Begründung"
       },
       "value": "<p>Das KKG verlangt für den Abschluss und den Widerruf des Kreditvertrages die Form der einfachen Schriftlichkeit. Dies setzt nach den Artikeln 13f. des Obligationenrechts im Normalfall eine eigenhändige Unterschrift der Parteien, insbesondere der Kreditnehmerinnen und Kreditnehmer (Kreditnehmende), voraus, sofern sie nicht über eine qualifizierte elektronische Signatur verfügen. Letzteres ist selten der Fall. Das Erfordernis der einfachen Schriftlichkeit führt dazu, dass der vollständig digitale Abschluss (online) von Konsumkreditverträgen und deren digitaler Widerruf in der Praxis nicht möglich sind. Auch bei einer Vertragsanbahnung per Internet müssen die nötigen Unterlagen von den Kreditnehmenden eigenhändig unterzeichnet werden. Ebenso müssen sie einen Widerruf innert 14 Tagen zur Post bringen und per Einschreiben versenden. Dies alles führt zu unnötigem Mehraufwand. Viele Konsumentinnen und Konsumenten wollen heute ihre Rechtsgeschäfte im Internet bzw. digital abschliessen und sind dies gewohnt. Die Finanzdienstleister ihrerseits müssen zur Erhaltung ihrer Wettbewerbsfähigkeit die Digitalisierung vorantreiben.</p><p>Unbestritten ist, dass bei einem vollständig digitalen Vertragsabschluss der Schutz der Kreditnehmenden vor einem voreiligen Vertragsabschluss zu wahren ist. Die diesbezüglich digital zur Verfügung stehenden Instrumente (z. B. aufklärende Informationsfenster oder Warnhinweise, die evtl. zu quittieren sind) sind zweckmässig zu nutzen. Sie dürften wirksamer sein als heutige Formvorschriften.</p><p>Das Schweizer Vertragsrecht geht vom Grundsatz der Formfreiheit aus und verlangt nur in Einzelfällen die Einhaltung einer besonderen Form. Der Bundesrat selbst hat das Schriftformerfordernis im Rahmen seiner Abklärungen zur Fintech-Vorlage als Hürde für Innovation erkannt (Erläuternder Bericht zur Fintech-Vorlage, S. 20f.). Mit dem Prüfauftrag für digital taugliche Alternativen zum Schriftformerfordernis im Konsumkreditbereich strebt das Postulat kundenfreundliche und kostengünstige Lösungen sowie eine Stärkung des Kundenschutzes an.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "Der Bundesrat beantragt die Annahme des Postulates."
     },
     {
       "type": {

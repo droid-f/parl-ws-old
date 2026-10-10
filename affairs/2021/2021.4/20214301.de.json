@@ -1,6 +1,6 @@
 {
   "id": 20214301,
-  "updated": "2023-06-14T07:57:22Z",
+  "updated": "2024-05-14T08:28:14Z",
   "additionalIndexing": "55;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -14,12 +14,6 @@
       "id": 4289,
       "name": "Schneider Meret",
       "officialDenomination": "Schneider Meret"
-    },
-    "faction": {
-      "abbreviation": "Fraktion G",
-      "code": "G",
-      "id": 6,
-      "name": "Grüne Fraktion"
     },
     "type": "author"
   },
@@ -55,6 +49,21 @@
             "date": "2023-06-13T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-03-04T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -68,7 +77,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-20T15:32:15Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3053,
+                    "gender": "m",
+                    "id": 4153,
+                    "name": "Hegglin Peter",
+                    "officialDenomination": "Hegglin Peter"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-10-01T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-10-01T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +179,23 @@
         },
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1708383600000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1708902000000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1709506800000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -220,21 +325,14 @@
         "name": "Schneider Meret",
         "officialDenomination": "Schneider Meret"
       },
-      "faction": {
-        "abbreviation": "Fraktion G",
-        "code": "G",
-        "id": 6,
-        "name": "Grüne Fraktion"
-      },
       "type": "author"
     }
   ],
   "shortId": "21.4301",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -250,7 +348,7 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>In der Agrareinfuhrverordnung (SR 916.01) wird die ordentliche Einfuhr von Butter geregelt. Gestützt auf diese wird jährlich ein Teilzollkontingent von 100 Tonnen zum Import freigegeben, was dem Bedarf der Schweiz von knapp einem Tag entspricht. Nach Artikel 36 der Agrareinfuhrverordnung kann das Bundesamt für Landwirtschaft (BLW) das Teilzollkontingent bei ungenügender Versorgung des inländischen Markts nach Anhörung der interessierten Kreise vorübergehend erhöhen. Das BLW hat für das laufende Jahr auf Antrag der Branchenorganisation Milch (BO Milch) das Teilzollkontingent auf Grund von drohenden Versorgungsengpässen um 2 500 Tonnen Butter erhöht.</p><p>Innerhalb der BO Milch ist die Kommission Butterimporte dafür zuständig, die aktuelle Situation bei der Butterversorgung regelmässig zu analysieren und bei einer sich abzeichnenden Unterversorgung dem BLW einen Antrag um Erhöhung des Teilzollkontingents zu stellen. Die Kommission ist paritätisch zusammengesetzt mit fünf Mitgliedern aus der Reihe der Produzenten und fünf Mitgliedern der Verarbeiter / Detailhandel. Der Prozess vom definitiven Antrag der Branche bis zur effektiven Freigabe eines zusätzlichen Kontingents durch das BLW dauert mindestens sechs Wochen.</p><p>Butterimporte nur noch zuzulassen, wenn A) einheimische Butter nicht mehr verfügbar ist oder B) kostendeckende Milchpreise bezahlt werden, ist in der Praxis nicht umsetzbar. Fall A) würde auf Grund der Fristen dazu führen, dass das Land für mehrere Wochen mit Butter unterversorgt ist. Für Fall B) müsste die gesamte Milchmarktordnung geändert werden.</p><p>Milchproduktionsbetriebe weisen sehr unterschiedliche Produktionskosten aus. Um diese Bandbreite abzudecken, müsste der Staat auf Grund der geforderten Verknüpfung einen sehr hohen Milchpreis garantieren. Der garantierte, einheitliche Milchgrundpreis wurde 1999 aufgehoben und die staatliche Milchkontingentierung ist 2009 ausgelaufen. Die produktgebundene Milchmarktstützung wurde schrittweise reduziert und in Direktzahlungen zugunsten der Milchproduzenten (Flächenzahlungen) umgelagert. Dabei wurden die Berggebiete stärker berücksichtigt, um die erwähnten Standortnachteile auszugleichen. Die von der Motionärin geforderte Verknüpfung zwischen kostendeckenden Milchpreisen und der Erhöhung des Teilzollkontingents Butter würde klar den bisherigen Entwicklungen im Schweizer Milchmarkt und in der Agrarpolitik entgegenlaufen. Überproduktion und hohe Kosten für die Allgemeinheit wären die Folge. Die Milchpreise und Milchmengen sollen daher nicht vom Staat festgelegt werden.</p><p>Der Import von 900 Tonnen Butter im Fall Mondelez wurde im Rahmen des aktiven Veredelungsverkehrs bewilligt. Der aktive Veredelungsverkehr ist im Zollgesetz (SR 631.0) geregelt. Eine Kompetenz des Bundesrates, die Agrareinfuhrverordnung im Sinne der Motion anzupassen, fehlt im geltenden Recht.</p>"
+      "value": "<p>In der Agrareinfuhrverordnung (SR 916.01) wird die ordentliche Einfuhr von Butter geregelt. Gestützt auf diese wird jährlich ein Teilzollkontingent von 100 Tonnen zum Import freigegeben, was dem Bedarf der Schweiz von knapp einem Tag entspricht. Nach Artikel 36 der Agrareinfuhrverordnung kann das Bundesamt für Landwirtschaft (BLW) das Teilzollkontingent bei ungenügender Versorgung des inländischen Markts nach Anhörung der interessierten Kreise vorübergehend erhöhen. Das BLW hat für das laufende Jahr auf Antrag der Branchenorganisation Milch (BO Milch) das Teilzollkontingent auf Grund von drohenden Versorgungsengpässen um 2 500 Tonnen Butter erhöht.</p><p>Innerhalb der BO Milch ist die Kommission Butterimporte dafür zuständig, die aktuelle Situation bei der Butterversorgung regelmässig zu analysieren und bei einer sich abzeichnenden Unterversorgung dem BLW einen Antrag um Erhöhung des Teilzollkontingents zu stellen. Die Kommission ist paritätisch zusammengesetzt mit fünf Mitgliedern aus der Reihe der Produzenten und fünf Mitgliedern der Verarbeiter / Detailhandel. Der Prozess vom definitiven Antrag der Branche bis zur effektiven Freigabe eines zusätzlichen Kontingents durch das BLW dauert mindestens sechs Wochen.</p><p>Butterimporte nur noch zuzulassen, wenn A) einheimische Butter nicht mehr verfügbar ist oder B) kostendeckende Milchpreise bezahlt werden, ist in der Praxis nicht umsetzbar. Fall A) würde auf Grund der Fristen dazu führen, dass das Land für mehrere Wochen mit Butter unterversorgt ist. Für Fall B) müsste die gesamte Milchmarktordnung geändert werden.</p><p>Milchproduktionsbetriebe weisen sehr unterschiedliche Produktionskosten aus. Um diese Bandbreite abzudecken, müsste der Staat auf Grund der geforderten Verknüpfung einen sehr hohen Milchpreis garantieren. Der garantierte, einheitliche Milchgrundpreis wurde 1999 aufgehoben und die staatliche Milchkontingentierung ist 2009 ausgelaufen. Die produktgebundene Milchmarktstützung wurde schrittweise reduziert und in Direktzahlungen zugunsten der Milchproduzenten (Flächenzahlungen) umgelagert. Dabei wurden die Berggebiete stärker berücksichtigt, um die erwähnten Standortnachteile auszugleichen. Die von der Motionärin geforderte Verknüpfung zwischen kostendeckenden Milchpreisen und der Erhöhung des Teilzollkontingents Butter würde klar den bisherigen Entwicklungen im Schweizer Milchmarkt und in der Agrarpolitik entgegenlaufen. Überproduktion und hohe Kosten für die Allgemeinheit wären die Folge. Die Milchpreise und Milchmengen sollen daher nicht vom Staat festgelegt werden.</p><p>Der Import von 900 Tonnen Butter im Fall Mondelez wurde im Rahmen des aktiven Veredelungsverkehrs bewilligt. Der aktive Veredelungsverkehr ist im Zollgesetz (SR 631.0) geregelt. Eine Kompetenz des Bundesrates, die Agrareinfuhrverordnung im Sinne der Motion anzupassen, fehlt im geltenden Recht.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

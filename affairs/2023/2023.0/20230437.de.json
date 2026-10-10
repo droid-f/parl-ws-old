@@ -1,6 +1,6 @@
 {
   "id": 20230437,
-  "updated": "2023-06-21T16:26:42Z",
+  "updated": "2024-09-09T18:51:26Z",
   "additionalIndexing": "2841",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -41,7 +41,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-09-09T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -51,7 +65,130 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "SGK-SR",
+            "id": 19,
+            "name": "Kommission für soziale Sicherheit und Gesundheit SR",
+            "abbreviation1": "SGK-S",
+            "abbreviation2": "SGK",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-NR",
+            "id": 6,
+            "name": "Kommission für soziale Sicherheit und Gesundheit NR",
+            "abbreviation1": "SGK-N",
+            "abbreviation2": "SGK",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-06-24T08:32:04Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3009,
+                    "gender": "f",
+                    "id": 4109,
+                    "name": "Piller Carrard Valérie",
+                    "officialDenomination": "Piller Carrard"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-06-24T08:31:53Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2799,
+                    "gender": "m",
+                    "id": 4094,
+                    "name": "Hess Lorenz",
+                    "officialDenomination": "Hess Lorenz"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -67,8 +204,28 @@
       "states": [
         {
           "date": "/Date(1686780000000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1692914400000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1719180000000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1725228000000+0200)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1725832800000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -166,7 +323,7 @@
         "gender": "m",
         "id": 4334,
         "name": "Bläsi Thomas",
-        "officialDenomination": "Bläsi"
+        "officialDenomination": "Bläsi Thomas"
       },
       "type": "cosign"
     },
@@ -189,19 +346,33 @@
   ],
   "shortId": "23.437",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Jedes Privatunternehmen und jede Familie weiss, dass der Gürtel enger geschnallt werden muss, wenn die Einnahmen nicht mehr reichen, um die Ausgaben zu decken. Für die Krankenversicherung gilt dies nicht; deren Kosten wachsen munter weiter. Für die Erbringung der Leistungen müssen die Prämien- und die Steuerzahlerinnen und -zahler immer mehr Mittel aufwenden, auch wenn ihre Prämien bereits jetzt besonders hoch sind.</p><p>Es ist darum höchste Zeit, ein klares Zeichen zu setzen für einen sparsamen Umgang mit den medizinischen Leistungen zulasten der OKP. Dabei soll es nicht um eine Mengenbegrenzung gehen, denn dies könnte zu einer unerwünschten Rationierung führen. Vielmehr sollen die Leistungserbringer gezwungen werden, effizienter und kostenbewusster zu arbeiten. Die Tatsache, dass die Prämien jedes Jahr automatisch steigen, soll nicht länger dazu verleiten zu meinen, dass medizinisch unbegründete oder überflüssige Eingriffe sowieso und ausnahmslos von der OKP vergütet werden. Es muss die Botschaft vermittelt werden, dass ein problematisches Verhalten und die ungenügende Koordination im Gesundheitswesen nicht mehr einfach mit einer automatischen Erhöhung der Tarife und Preise «belohnt» werden.</p><p>Die OKP ist kein Selbstbedienungsladen, und das Konsumverhalten einiger Akteure im Gesundheitswesen darf nicht mehr toleriert werden, denn es geht zulasten der Prämien- und der Steuerzahlerinnen und -zahler.</p><p>Verschiedene Studien haben in den letzten Jahren auf das Problem hingewiesen, dass überflüssige und nicht medizinisch indizierte Leistungen leider gang und gäbe sind, auch in der Schweiz. Damit einher gehen gesundheitliche Risiken für die betroffenen Patientinnen und Patienten und eine unnötige finanzielle Belastung der Direktbetroffenen wie auch der Bürgerinnen und Bürger und der Allgemeinheit. Diese Missbräuche bestrafen die Prämienzahlerinnen und -zahler, die Steuerzahlerinnen und -zahler wegen des Anstiegs der Kosten für die individuelle Prämienverbilligung, die Arbeitgeber wegen der Abwesenheiten ihrer Angestellten und nicht zuletzt auch die Familien, weil Aufgaben im Haushalt nicht übernommen werden usw. Alle Aufrufe zu einem sparsameren Umgang mit einer unserer wichtigsten sozialen Einrichtungen scheinen zu verpuffen angesichts der wirtschaftlichen Interessen derer, die die – fast oder ganz unnötigen – medizinischen Eingriffe vornehmen und daran gut verdienen.</p><p>Auch die Kantone verursachen unnötigen Kosten für die Steuer- und die Prämienzahlerinnen und -zahler, da sie es immer noch nicht geschafft haben, ihre Spitalleistungen genügend zu koordinieren, was zu überflüssigen Leistungen und aufgrund der zu geringen Fallzahlen zu Eingriffen von ungenügender Qualität führt. Der Bundesrat wiederholt angesichts dieser Situation nur immer wieder sein Mantra, wonach ihm die Leistungserbringer nicht unterstellt seien und die Gesundheitsversorgung und die Spitalplanung sowieso Sache der Kantone seien. Es braucht deshalb klare Massnahmen auf Bundesebene, um die kantonalen Akteure dazu zu bringen, endlich ein sparsames Verhalten an den Tag zu legen, was letztlich allen zugutekommen wird.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Im Bereich der obligatorischen Krankenpflegeversicherung (OKP) sind alle Tarife und Preise während drei Jahren einzufrieren. Anpassungen nach unten zur Verbesserung der Wirtschaftlichkeit und der Chancengerechtigkeit sollen weiterhin möglich sein.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "KVG. Der Erhöhung der Tarife den Riegel vorschieben, die Kostenexplosion bremsen, die Bevölkerung beschützen"
     }
   ],
-  "title": "Titel folgt"
+  "title": "KVG. Der Erhöhung der Tarife den Riegel vorschieben, die Kostenexplosion bremsen, die Bevölkerung beschützen"
 }

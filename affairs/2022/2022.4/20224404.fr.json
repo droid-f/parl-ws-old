@@ -1,6 +1,6 @@
 {
   "id": 20224404,
-  "updated": "2022-12-19T10:04:43Z",
+  "updated": "2025-04-24T19:20:42Z",
   "additionalIndexing": "15;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-03-12T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-03-17T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-22T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CER-CN",
+            "id": 10,
+            "name": "Commission de l'économie et des redevances CN",
+            "abbreviation1": "CER-N",
+            "abbreviation2": "CER",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-11-15T14:29:46Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2776,
+                    "gender": "m",
+                    "id": 4072,
+                    "name": "Regazzi Fabio",
+                    "officialDenomination": "Regazzi"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CE",
+            "id": 23,
+            "name": "Commission de l'économie et des redevances CE",
+            "abbreviation1": "CER-E",
+            "abbreviation2": "CER",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +179,43 @@
       "states": [
         {
           "date": "/Date(1670972400000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1677020400000+0100)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1710198000000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1726524000000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1731625200000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1731625200000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1742166000000+0100)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
         }
       ],
       "texts": [
@@ -147,10 +295,10 @@
   ],
   "shortId": "22.4404",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 209,
+    "name": "Transmis au Conseil fédéral",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -158,14 +306,21 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Selon la pratique actuelle, les procédures cartellaires comprennent une phase d'enquête et une phase de décision. Dans la première, c'est le secrétariat de la COMCO qui dirige, dans la seconde, la COMCO elle-même. Pour la phase d'enquête, il n'y a pas de délais d'ordre, ce qui signifie qu'elle peut durer indéfiniment.</p><p>La phase d'enquête vise à l'élaboration d'une proposition du secrétariat destinée à la COMCO. Au cours de cette phase, le secrétariat doit établir les faits à charge et à décharge, les peser, échanger avec les acteurs impliqués et, enfin, rédiger un mémoire qui sera soumis d'une part aux parties concernées pour avis, d'autre part à la COMCO pour décision. La COMCO elle-même prend une décision sur la base du droit applicable, de la requête déposée, de l'avis des parties et d'autres sources d'information utiles.</p><p>De manière générale, les procédures cartellaires sont considérées comme longues et, par voie de conséquence, coûteuses et incertaines quant à leur issue juridique. La cause en est que le secrétariat de la COMCO monte dès le début de l'enquête une opération de relations publiques en affirmant considérer les parties impliquées comme suspectes. L'affaire est coûteuse pour les entreprises concernées, qui doivent participer à l'enquête et engager des avocats.</p><p>Une phase d'enquête longue trouble généralement le marché. Souvent, les entreprises qui sont en relation avec les parties concernées, par exemple en tant que clients, fournisseurs ou concurrents, ne savent plus sur quel pied danser. Il en résulte de grandes asymétries d'information génératrices d'inefficacités économiques.</p><p>Malheureusement, ces enquêtes longues se multiplient. Par exemple, le secrétariat de la COMCO a ouvert le 3 septembre 2020 une enquête contre Markant Handels- und Industriewaren-Vermittlungs AG. A ce jour, il n'a toujours pas soumis de proposition à la COMCO. Cette situation doit changer.</p>"
+      "value": "<p>Selon la pratique actuelle, les procédures cartellaires comprennent une phase d'enquête et une phase de décision. Dans la première, c'est le secrétariat de la COMCO qui dirige, dans la seconde, la COMCO elle-même. Pour la phase d'enquête, il n'y a pas de délais d'ordre, ce qui signifie qu'elle peut durer indéfiniment.</p><p>La phase d'enquête vise à l'élaboration d'une proposition du secrétariat destinée à la COMCO. Au cours de cette phase, le secrétariat doit établir les faits à charge et à décharge, les peser, échanger avec les acteurs impliqués et, enfin, rédiger un mémoire qui sera soumis d'une part aux parties concernées pour avis, d'autre part à la COMCO pour décision. La COMCO elle-même prend une décision sur la base du droit applicable, de la requête déposée, de l'avis des parties et d'autres sources d'information utiles.</p><p>De manière générale, les procédures cartellaires sont considérées comme longues et, par voie de conséquence, coûteuses et incertaines quant à leur issue juridique. La cause en est que le secrétariat de la COMCO monte dès le début de l'enquête une opération de relations publiques en affirmant considérer les parties impliquées comme suspectes. L'affaire est coûteuse pour les entreprises concernées, qui doivent participer à l'enquête et engager des avocats.</p><p>Une phase d'enquête longue trouble généralement le marché. Souvent, les entreprises qui sont en relation avec les parties concernées, par exemple en tant que clients, fournisseurs ou concurrents, ne savent plus sur quel pied danser. Il en résulte de grandes asymétries d'information génératrices d'inefficacités économiques.</p><p>Malheureusement, ces enquêtes longues se multiplient. Par exemple, le secrétariat de la COMCO a ouvert le 3 septembre 2020 une enquête contre Markant Handels- und Industriewaren-Vermittlungs AG. À ce jour, il n'a toujours pas soumis de proposition à la COMCO. Cette situation doit changer.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Comme il l'a retenu dans son avis relatif à la motion 16.4094 Fournier \" Améliorer la situation des PME dans les procédures de concurrence \" concernant la fixation des délais applicables au traitement des procédures administratives au titre de la loi sur les cartels (LCart ; RS 251), le Conseil fédéral souhaite lui aussi que les procédures cartellaires se déroulent rapidement et simplement. Il faut néanmoins qu'elles tiennent compte de la complexité de la matière, de l'ampleur des travaux pour déterminer les faits, des droits de partie, ainsi que des ressources et de l'indépendance des autorités de la concurrence et des tribunaux. Comme les procédures de sanction prévues par la LCart entrent dans le champ d'application des garanties de procédure pénale de la Constitution fédérale (Cst.) et de la Convention européenne des droits de l'homme (CEDH), les droits de partie et de procédure (droit d'être entendu, etc.) revêtent une grande importance. Il ne faut en aucun cas faire de compromis quant à l'État de droit. Toute nouvelle réglementation des délais visant à raccourcir la durée des procédures devant les autorités et les tribunaux doit cependant offrir la souplesse nécessaire pour relever les défis liés à la poursuite des faits au titre de la LCart. Des délais immuables risquent en particulier de compromettre la qualité des enquêtes et des décisions. Le Parlement a adopté deux des points de la motion 16.4094 Fournier, dont celui portant sur la fixation de délais pour les procédures administratives au titre de la LCart.</p><p>Afin de remplir ce mandat du Parlement, le Conseil fédéral a proposé, dans son projet soumis à consultation concernant la révision partielle en cours de la LCart, d'introduire dans celle-ci des délais d'ordre pour les procédures administratives devant les autorités de la concurrence et les tribunaux. La durée maximale d'une procédure au titre de la LCart ne doit pas excéder 5 ans, depuis l'ouverture de l'enquête formelle jusqu'à la décision exécutoire de toutes les instances. Sur ces 60 mois au total, 30 sont dévolus à la Commission de la concurrence (COMCO) et à son secrétariat, 18 au Tribunal administratif fédéral et 12 au Tribunal fédéral. La COMCO et son secrétariat bénéficient d'un délai plus long, étant donné le travail et le temps considérable requis pour l'établissement des faits, et la grande diversité d'interactions nécessaires entre les autorités, les entreprises visées par l'enquête et les acteurs du marché supposément lésés. Il n'est pas rare que les enquêtes au titre de la LCart soient comparables aux poursuites pénales menées dans le cadre de délits économiques majeurs, tant du point de vue de l'investissement nécessaire que de la complexité des cas ou du nombre de parties impliquées. L'établissement des faits nécessite souvent des perquisitions auprès de plusieurs entreprises, l'examen et l'analyse de grands volumes de documents tant électroniques que physiques, l'interrogation de nombreux témoins et parties, sans oublier les analyses de données empiriques et les analyses de marché. Il faut toujours veiller, dans le cadre des enquêtes, à respecter le droit des entreprises d'être entendues, qui peuvent de plus, elles-mêmes déposer des demandes d'administration de preuves (complètes). Etant données les nombreuses et complexes questions de fait et de droit se posant dans ce type de procédures, les propositions du secrétariat à la COMCO peuvent compter plusieurs centaines de pages. Dans ce contexte, il n'est pas judicieux d'imposer pour les travaux du secrétariat de la COMCO un délai immuable uniforme de 12 mois entre l'ouverture de l'enquête et la remise de la proposition à la COMCO, même si l'on tient compte de l'option de prolongation d'un an qui est envisagée. Pour les procédures complexes impliquant un grand nombre de parties, portant sur des faits sujets à controverse et pouvant entraîner des sanctions sévères, un délai d'un an est manifestement trop court. Des délais rigides couplés avec des conséquences d'inexécutions pourraient même inciter les entreprises à ne pas coopérer adéquatement à l'établissement des faits et à la recherche d'un accord amiable, voire à freiner la procédure par des demandes de décision incidente, de prolongation de délais ou de récusation, dans l'espoir que le délai imparti arrive à échéance.</p><p>Il faut par ailleurs considérer que, pour les entreprises, l'élément déterminant est la durée totale de la procédure, de son ouverture à la décision exécutoire du Tribunal fédéral. De plus, il est fréquent que les procédures de recours devant les tribunaux durent sensiblement plus longtemps que les enquêtes de la COMCO. La motion laisse entièrement de côté cet aspect, contrairement à la motion 16.4094 Fournier, adoptée par le Parlement, et à la proposition de mise en oeuvre du Conseil fédéral émise dans le cadre de la révision partielle en cours de la LCart.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Le Conseil fédéral est chargé d'adapter le droit actuel pour faire en sorte que les enquêtes menées dans les procédures de droit cartellaire ne durent pas plus d'un an, c.-à-d. que la phase de décision de la Commission de la concurrence (COMCO) doit débuter un an au plus tard après la date à laquelle son secrétariat a ouvert l'enquête. A la demande du Secrétariat, la COMCO peut prolonger cette durée d'une année supplémentaire au plus.</p>"
+      "value": "<p>Le Conseil fédéral est chargé d'adapter le droit actuel pour faire en sorte que les enquêtes menées dans les procédures de droit cartellaire ne durent pas plus d'un an, c.-à-d. que la phase de décision de la Commission de la concurrence (COMCO) doit débuter un an au plus tard après la date à laquelle son secrétariat a ouvert l'enquête. À la demande du Secrétariat, la COMCO peut prolonger cette durée d'une année supplémentaire au plus.</p>"
     },
     {
       "type": {

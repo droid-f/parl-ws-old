@@ -1,6 +1,6 @@
 {
   "id": 20214595,
-  "updated": "2021-12-20T15:15:29Z",
+  "updated": "2025-04-24T19:28:18Z",
   "additionalIndexing": "34;04;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -17,7 +17,7 @@
     },
     "faction": {
       "abbreviation": "Gruppo M-E",
-      "id": 139,
+      "id": 3,
       "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
     },
     "type": "author"
@@ -40,29 +40,172 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-18T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-03-05T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CTT-CS",
+            "id": 22,
+            "name": "Commissione dei trasporti e delle telecomunicazioni CS",
+            "abbreviation1": "CTT-S",
+            "abbreviation2": "CTT",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CTT-CN",
+            "id": 9,
+            "name": "Commissione dei trasporti e delle telecomunicazioni CN",
+            "abbreviation1": "CTT-N",
+            "abbreviation2": "CTT",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-15T16:05:22Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3200,
+                    "gender": "f",
+                    "id": 4303,
+                    "name": "Maret Marianne",
+                    "officialDenomination": "Maret Marianne"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639609200000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1644966000000+0100)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1694988000000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1705359600000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1707433200000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1709593200000+0100)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
         }
       ],
       "texts": [
@@ -110,7 +253,7 @@
         "gender": "m",
         "id": 4053,
         "name": "Aeschi Thomas",
-        "officialDenomination": "Aeschi Thomas"
+        "officialDenomination": "Aeschi"
       },
       "type": "cosign"
     },
@@ -224,7 +367,7 @@
       },
       "faction": {
         "abbreviation": "Gruppo M-E",
-        "id": 139,
+        "id": 3,
         "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
       },
       "type": "author"
@@ -232,19 +375,40 @@
   ],
   "shortId": "21.4595",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 209,
+    "name": "Trasmesso al Consiglio federale",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Entro il 2030 la Posta investirà circa 1,5 miliardi di franchi per acquisizioni nel settore digitale. Nel solo 2021 l'impresa ha investito 230 milioni di franchi in simili operazioni. Da qualche tempo la Posta opera pertanto in mercati in parte caratterizzati da un rischio molto elevato. Stando a quanto riportato dai media, le acquisizioni attualmente previste dall'azienda sono 22; 10 di queste si trovano in fase di \"analisi preliminare\" e potrebbero essere realizzate nei prossimi 1 - 3 mesi. Nonostante la Posta si muova ora in una nuova dimensione finanziaria ed operi su mercati praticamente già saturi, nel quadro dei vaghi obiettivi strategici fissati dal Consiglio federale gode di libertà pressoché illimitate. Conformemente alla legge sulle poste, il Collegio si limita periodicamente a verficare l'opportunità, l'efficacia e la redditività dei servizi postali nell'ambito del servizio universale e delle prestazioni del traffico dei pagamenti. Settori quali la pubblicità esterna e le soluzioni software per uffici, attualmente nel mirino della Posta, esulano dal servizio pubblico.</p><p>Alla luce di queste nuove operazioni finanziarie e degli elevati rischi a cui la Posta espone il patrimonio nazionale, il controllo ex-post finora messo in atto dal Consiglio federale si rivela insufficiente. Infatti, una volta che il danno si sarà verificato, a doverne rispondere non sarà più soltanto il Consiglio di amministrazione della Posta, ma anche il Consiglio federale e, in ultima analisi, il Parlamento. È pertanto necessario che in futuro la Posta sottoponga acquisizioni finanziariamente importanti e rischiose da effettuare al di fuori del suo core business all'autorizzazione del Consiglio federale. In particolare, dovrebbero essere documentati adeguatamente le opportunità e i rischi di mercato. Il Parlamento andrebbe informato almeno una volta all'anno. </p><p>Per adempiere la mozione 20.4328 \"Rafforzare il servizio pubblico\", trasmessa dal Consiglio nazionale e dal Consiglio degli Stati, si incarica pertanto il Consiglio federale di avviare un emendamento legislativo volto a sottoporre a un controllo più stretto la politica di acquisizione della Posta da parte dell'autorità di sorveglianza.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Conformemente alla strategia della Confederazione sul governo d'impresa, il Consiglio federale dirige le imprese parastatali come la Posta fissandone gli obiettivi strategici. In linea di massima non interferisce nell'attività operativa. Lo sviluppo e l'attuazione della strategia aziendale spetta al consiglio di amministrazione dell'impresa. Gli obiettivi strategici fissano tuttavia determinati principi guida, tra cui anche i requisiti per il sistema di gestione del rischio dell'azienda e i criteri per le partecipazioni e le acquisizioni. Conformemente agli obiettivi strategici 2021-2024, il Consiglio federale si aspetta che anche la Posta informi tempestivamente e regolarmente il proprietario sui suoi sviluppi strategici (incluse importanti cooperazioni e alienazioni).</p><p>Ogni anno, dopo la chiusura dell'esercizio, il consiglio di amministrazione della Posta deve fornire al Consiglio federale la prova del raggiungimento di tali obiettivi.</p><p>Nell'ambito della sua vigilanza sull'attività del governo, l'Assemblea federale coopera nella guida delle unità autonome della Confederazione (art. 28 cpv. 1 e 1bis LParl). Le commissioni parlamentari settoriali responsabili vengono quindi consultate in ogni caso al momento dell'elaborazione degli obiettivi strategici le commissioni parlamentari di vigilanza vengono informate annualmente sul raggiungimento di tali obiettivi.</p><p>La Posta deve affrontare grandi sfide come il calo del volume delle lettere e delle operazioni allo sportello, il contesto di bassi tassi d'interesse e il modello commerciale limitato di PostFinance (divieto di concedere prestiti e ipoteche). La redditività della Posta e di PostFinance sta diminuendo rapidamente. In questo contesto la Posta ha sviluppato la sua strategia per il periodo 2021-2024. Gli elementi principali di tale strategia sono gli investimenti nei settori della comunicazione e della logistica, le misure di efficienza e di rimodulazione dei prezzi nonché l'uso da parte di terzi degli uffici postali.</p><p>La Posta può erogare servizi che esulano dalle prestazioni del servizio universale, purché siano compatibili con lo scopo dell'azienda di cui all'articolo 3 della legge sull'organizzazione della Posta.</p><p>Sulla base di queste spiegazioni, il Consiglio federale ritiene che gli obiettivi strategici della Posta contengano criteri determinanti ai fini delle acquisizioni. Una prescrizione di legge che obblighi la Posta a sottoporre all'approvazione del Consiglio federale le acquisizioni che non rientrano nel suo mandato di prestazioni sarebbe in contraddizione con i principi di governo d'impresa della Confederazione. Inoltre, si creerebbe una confusione di responsabilità tra la direzione dell'azienda e la Confederazione quale unico azionista della Posta.</p>  Il Consiglio federale propone di respingere la mozione."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di proporre i necessari emendamenti legislativi affinché le acquisizioni effettuate dalla Posta al di fuori del mandato di prestazioni debbano essere sottoposte alla sua approvazione e motivate all'attenzione della competente commissione parlamentare. Contestualmente va adeguata anche la strategia del proprietario.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Effettuare acquisizioni entro i limiti del mandato di prestazioni"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Effettuare acquisizioni entro i limiti del mandato di prestazioni"
 }

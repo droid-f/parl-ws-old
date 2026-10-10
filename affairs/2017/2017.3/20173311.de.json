@@ -1,6 +1,6 @@
 {
   "id": 20173311,
-  "updated": "2019-02-18T19:03:06Z",
+  "updated": "2025-01-28T07:33:19Z",
   "additionalIndexing": "2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -70,6 +70,36 @@
             "date": "2018-03-15T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-12-14T00:00:00Z",
+            "text": "Abschreibung im Zusammenhang mit der Beratung des Geschäfts 23.048",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-02-27T00:00:00Z",
+            "text": "Abschreibung im Zusammenhang mit der Beratung des Geschäfts 23.048",
+            "type": 0
           }
         ]
       },
@@ -88,7 +118,7 @@
             "abbreviation": "SGK-SR",
             "id": 19,
             "name": "Kommission für soziale Sicherheit und Gesundheit SR",
-            "abbreviation1": "SGK-SR",
+            "abbreviation1": "SGK-S",
             "abbreviation2": "SGK",
             "committeeNumber": 19,
             "council": {
@@ -155,8 +185,13 @@
         },
         {
           "date": "/Date(1521068400000+0100)/",
-          "id": 26,
-          "name": "Angenommen"
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
+        },
+        {
+          "date": "/Date(1708988400000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -164,11 +199,6 @@
       ]
     }
   ],
-  "handling": {
-    "date": "2018-03-15T00:00:00Z",
-    "legislativePeriod": 50,
-    "session": "5012"
-  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -332,9 +362,9 @@
   ],
   "shortId": "17.3311",
   "state": {
-    "id": 26,
-    "name": "Angenommen",
-    "doneKey": "3",
+    "id": 229,
+    "name": "Erledigt",
+    "doneKey": "0",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },
@@ -344,14 +374,21 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Es kommt vor, dass Krankenversicherer Prämien und ausstehende Kostenbeteiligungen bei Versicherten nicht einfordern können, weil sie nach unbekannt verzogen sind. Es handelt sich meist um Personen, mit schweizerischem oder europäischem Pass, die ohne korrekte Abmeldung bei den Wohngemeinden ins Ausland abreisen.</p><p>Nach Artikel 5 Absatz 3 KVG endet die obligatorische Krankenversicherung erst, wenn eine Person nicht mehr der Versicherungspflicht untersteht. Bei Abmeldung müssen sich die Gemeinden vergewissern, dass ein Versicherter im Ausland einen neuen Wohnsitz begründet hat, bevor sie dem Krankenversicherer eine Austrittsbescheinigung zustellen. Oft liegt keine Abmeldung vor. Vor diesem Hintergrund ist es den Gemeinden oft nicht möglich, den Krankenversicherern die gesetzlich vorgesehenen Austrittsbescheinigungen zu erteilen, selbst wenn nach unbekannt verzogene Personen über Jahre nicht mehr auffindbar sind.</p><p>Da das KVG keine zeitliche Limiten vorsieht, müssten die Personen zuerst für tot erklärt werden, bevor sie aus den Listen gestrichen werden können. Wer infolge Reise nach unbekannt nicht mehr kontaktiert werden kann, wird selten für tot erklärt. So wachsen die Listen solcher Personen bei den einzelnen Krankenversicherern stetig an. Allenfalls müssen solche Personen sogar weitergeführt werden, wenn sie nach Jahren im Ausland in einem anderen Kanton und bei einem anderen Krankenversicherer wieder auftauchen. Das \"Phantom\" und die Person figurieren dann beide im Krankenversicherungsbestand des KVG.</p><p>Da nicht mehr auffindbare Versicherte weiterhin im Risikoausgleich aufgeführt werden müssen, sind die Krankenversicherer gezwungen, zeitlich unlimitiert entsprechende Beiträge zu leisten, ohne Prämien einkassieren zu können. Auch die üblichen Entschädigungen der Kantone für nicht bezahlte Prämien gemäss Artikel 64a KVG kommen in diesem Fall nicht zur Anwendung.</p><p>Es ist angezeigt, diese \"Phantome\" nach einer definierten Abfolge von Kontaktversuchen aus dem Risikoausgleichbestand zu entfernen, solange sie sich eine betroffene Person nicht zurückgemeldet und die fälligen Prämien nicht beglichen hat.</p>"
+      "value": "<p>Es kommt vor, dass Krankenversicherer Prämien und ausstehende Kostenbeteiligungen bei Versicherten nicht einfordern können, weil sie nach unbekannt verzogen sind. Es handelt sich meist um Personen, mit schweizerischem oder europäischem Pass, die ohne korrekte Abmeldung bei den Wohngemeinden ins Ausland abreisen.</p><p>Nach Artikel 5 Absatz 3 KVG endet die obligatorische Krankenversicherung erst, wenn eine Person nicht mehr der Versicherungspflicht untersteht. Bei Abmeldung müssen sich die Gemeinden vergewissern, dass ein Versicherter im Ausland einen neuen Wohnsitz begründet hat, bevor sie dem Krankenversicherer eine Austrittsbescheinigung zustellen. Oft liegt keine Abmeldung vor. Vor diesem Hintergrund ist es den Gemeinden oft nicht möglich, den Krankenversicherern die gesetzlich vorgesehenen Austrittsbescheinigungen zu erteilen, selbst wenn nach unbekannt verzogene Personen über Jahre nicht mehr auffindbar sind.</p><p>Da das KVG keine zeitliche Limiten vorsieht, müssten die Personen zuerst für tot erklärt werden, bevor sie aus den Listen gestrichen werden können. Wer infolge Reise nach unbekannt nicht mehr kontaktiert werden kann, wird selten für tot erklärt. So wachsen die Listen solcher Personen bei den einzelnen Krankenversicherern stetig an. Allenfalls müssen solche Personen sogar weitergeführt werden, wenn sie nach Jahren im Ausland in einem anderen Kanton und bei einem anderen Krankenversicherer wieder auftauchen. Das \"Phantom\" und die Person figurieren dann beide im Krankenversicherungsbestand des KVG.</p><p>Da nicht mehr auffindbare Versicherte weiterhin im Risikoausgleich aufgeführt werden müssen, sind die Krankenversicherer gezwungen, zeitlich unlimitiert entsprechende Beiträge zu leisten, ohne Prämien einkassieren zu können. Auch die üblichen Entschädigungen der Kantone für nicht bezahlte Prämien gemäss Artikel 64a KVG kommen in diesem Fall nicht zur Anwendung.</p><p>Es ist angezeigt, diese \"Phantome\" nach einer definierten Abfolge von Kontaktversuchen aus dem Risikoausgleichbestand zu entfernen, solange sie sich eine betroffene Person nicht zurückgemeldet und die fälligen Prämien nicht beglichen hat.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "Der Bundesrat beantragt die Annahme der Motion."
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Der Bundesrat wird beauftragt, eine Änderung von Artikel 105a KVG vorzulegen, um mittels Rechtsetzungsdelegation sicherzustellen, dass KVG-Versicherte, die nach unbekannt verzogen sind und nicht mehr kontaktiert werden können, vom Risikoausgleich ausgenommen werden.</p>"
+      "value": "<p>Der Bundesrat wird beauftragt, eine Änderung von Artikel 105a KVG vorzulegen, um mittels Rechtsetzungsdelegation sicherzustellen, dass KVG-Versicherte, die nach unbekannt verzogen sind und nicht mehr kontaktiert werden können, vom Risikoausgleich ausgenommen werden.</p>"
     },
     {
       "type": {

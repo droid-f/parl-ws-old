@@ -1,6 +1,6 @@
 {
   "id": 20233743,
-  "updated": "2023-06-20T11:14:22Z",
+  "updated": "2025-06-17T13:37:28Z",
   "additionalIndexing": "2446;1211",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,172 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-03-13T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-06-17T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-23T00:00:00Z",
+        "text": "Ablehnung"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-03-25T17:44:27Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3054,
+                    "gender": "m",
+                    "id": 4152,
+                    "name": "Wicki Hans",
+                    "officialDenomination": "Wicki"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EFD",
+          "id": 7,
+          "name": "Finanzdepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686780000000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1692741600000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1710284400000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1742857200000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1750111200000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -224,19 +367,40 @@
   ],
   "shortId": "23.3743",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Bei einer Trennung oder Scheidung werden Unterhaltsbeiträge für minderjährige Kinder vom Einkommen des unterhaltspflichtigen Elternteils abgezogen. Dabei geht es oft um wichtige Beiträge, welche die tatsächliche finanzielle Realität der natürlichen Personen berücksichtigen.</p><p>Bei Erreichen der Volljährigkeit ist der Abzug der Unterhaltsbeiträge leider nicht mehr möglich, da diese statt an den anderen Elternteil an das Kind gezahlt werden. Nur noch der im Vergleich zu den tatsächlichen Kosten eines Kindes in Ausbildung sehr geringe Pauschalabzug bleibt bestehen.</p><p>Diese Situation ist ungerecht und deshalb inakzeptabel. Die beitragszahlenden Eltern müssen mitansehen, wie ihr Einkommen künstlich um Beträge erhöht wird, über die sie aufgrund eines Gerichtsentscheids nicht frei verfügen können.</p><p>Der vorgeschlagene Abzug betrifft nicht nur geschiedene Eltern, sondern alle Eltern, die zum Unterhalt eines volljährigen Kindes in Ausbildung beitragen müssen – eine Situation, die sehr häufig vorkommt. Artikel&nbsp;277 des Zivilgesetzbuches sieht ausserdem die Unterhaltspflicht der Eltern bis zum Abschluss der Ausbildung des volljährigen Kindes vor. Um den Abzug ausserhalb eines Gerichtsentscheids in Anspruch nehmen zu können, müssten die Steuerpflichtigen möglicherweise den Nachweis erbringen, dass es einen Unterhaltsvertrag gibt und die Beiträge tatsächlich gezahlt werden.</p><p>Der Abzug kann auch auf einen Pauschalbetrag begrenzt werden, wenn es sich um einen zwischen den Elternteilen vereinbarten Beitrag handelt (in Fällen ohne Trennung oder Scheidung), und auf den von der Richterin oder vom Richter festgelegten Betrag, wenn es sich um einen gerichtlich festgelegten Beitrag handelt (in Fällen von Trennung oder Scheidung).</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Sowohl bei der direkten Bundessteuer als auch gemäss Steuerharmonisierungsgesetz stellen Aufwendungen für den Unterhalt von Familienangehörigen eine Einkommensverwendung dar und sind daher grundsätzlich nicht zum Abzug zugelassen. Eine Ausnahmeregelung besteht heute einzig bei Unterhaltszahlungen an den geschiedenen oder getrennt lebenden Ehegatten und bei getrennt lebenden Eltern mit minderjährigen Kindern. Unterhaltsbeiträge, die ein Elternteil für die unter seiner elterlichen Sorge stehenden Kinder erhält, sind einerseits vom Empfänger vollständig zu versteuern. Andererseits können diese Leistungen von der leistungspflichtigen Person vollumfänglich in Abzug gebracht werden. Sobald die Kinder volljährig werden, kommt die Ausnahmeregelung jedoch nicht mehr zum Tragen.</p><p>Zahlungen an das volljährige Kind in Ausbildung gelten beim Kind als steuerfreie Einkünfte. Bei der direkten Bundessteuer kann im Fall von getrennt lebenden oder geschiedenen Ehegatten der Elternteil, der die Unterhaltszahlungen für ein sich noch in Ausbildung befindendes volljähriges Kind leistet, den Kinderabzug von 6600 Franken geltend machen. Leisten beide Elternteile Unterhaltszahlungen, kann der Elternteil mit den höheren finanziellen Leistungen den Kinderabzug geltend machen. Dem anderen Elternteil steht der Unterstützungsabzug von 6600 Franken zu, sofern seine Leistungen mindestens in der Höhe des Abzuges erfolgen. Getrennt lebende oder geschiedene Eltern von volljährigen Kindern&nbsp;haben somit gegebenenfalls Anspruch auf einen zusätzlichen Abzug. Verheiratete können lediglich den Kinderabzug geltend machen. Mit dieser Regelung für getrennt lebende oder geschiedene Eltern von volljährigen Kindern kann einerseits einer schwierigen finanziellen Situation Rechnung getragen werden, in welcher sich getrennt lebende Eltern befinden können. Andererseits werden die mit der Trennungssituation einhergehenden höheren Ausgaben (beispielsweise bei den Wohnkosten) berücksichtigt.</p><p>Die finanziellen Auswirkungen eines Abzugs für Unterhaltsbeiträge an erwachsene Kinder lassen sich mangels Daten (insbesondere bestehen keine Informationen zur Anzahl der betroffenen steuerpflichtigen Haushalte, zu deren Einkommenshöhe sowie zur Höhe des Abzugs) nicht quantifizieren. Eine solche Regelung würde aber zu Mindereinnahmen für Bund, Kantone und Gemeinden führen.</p><p>Der Bundesrat hat sich bei einer Reihe von zur gleichen Thematik eingereichten Vorstössen dahingehend geäussert, dass er die geltende Alimentenbesteuerung als insgesamt gerechte Lösung betrachtet (z.B. Postulat 19.3900). Er sieht weiterhin keinen Handlungsbedarf. Dies umso weniger, als die Eidgenössischen Räte jüngst einer parlamentarischen Initiative (21.424) wie auch einer Standesinitiative (20.321) mit dem gleichen Anliegen keine Folge gegeben haben.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, das Steuerharmonisierungsgesetz und das Bundesgesetz über die direkte Bundessteuer dahingehend zu ändern, dass Unterhaltsbeiträge, die in Erfüllung einer familienrechtlichen Unterhalts- oder Unterstützungspflicht an ein volljähriges Kind unter 25 Jahren in Ausbildung gezahlt werden, vom Einkommen abgezogen werden können.</p><p><span style=\"background-color:white;\">Der Höchstbetrag des Abzugs kann entweder durch kantonales Recht und Bundesrecht oder durch Gerichtsentscheide</span> festgelegt werden</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "StHG und DBG. Unterhaltsbeiträge an volljährige Kinder in Ausbildung vom Einkommen abziehen"
     }
   ],
-  "title": "Titel folgt"
+  "title": "StHG und DBG. Unterhaltsbeiträge an volljährige Kinder in Ausbildung vom Einkommen abziehen"
 }
