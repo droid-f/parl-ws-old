@@ -1,6 +1,6 @@
 {
   "id": 4263,
-  "updated": "2019-10-30T15:12:36Z",
+  "updated": "2026-06-03T13:35:56Z",
   "canton": "Bern",
   "cantonName": "BE",
   "council": "N",
@@ -23,12 +23,13 @@
   "committeeMemberships": [
     {
       "id": 0,
-      "updated": "2019-12-12T12:05:56Z",
+      "updated": "2026-06-03T13:35:56Z",
       "entryDate": "2019-12-02T00:00:00Z",
+      "leavingDate": "2023-12-03T00:00:00Z",
       "committee": {
         "id": 5,
-        "updated": "2020-07-15T11:59:55Z",
-        "abbreviation": "WBK",
+        "updated": "2025-11-13T20:30:09Z",
+        "abbreviation": null,
         "code": "KOM_5_",
         "committeeNumber": 5,
         "council": {
@@ -39,18 +40,76 @@
           "name": "Nationalrat",
           "type": "N"
         },
-        "name": "Kommission für Wissenschaft, Bildung und Kultur NR"
+        "name": "Kommission für Wissenschaft, Bildung und Kultur Nationalrat"
+      },
+      "function": null
+    },
+    {
+      "id": 1,
+      "updated": "2026-06-03T13:35:56Z",
+      "entryDate": "2023-12-04T00:00:00Z",
+      "committee": {
+        "id": 5,
+        "updated": "2025-11-13T20:30:09Z",
+        "abbreviation": null,
+        "code": "KOM_5_",
+        "committeeNumber": 5,
+        "council": {
+          "id": 1,
+          "updated": "2010-12-26T13:07:49Z",
+          "abbreviation": "NR",
+          "code": "RAT_1_",
+          "name": "Nationalrat",
+          "type": "N"
+        },
+        "name": "Kommission für Wissenschaft, Bildung und Kultur Nationalrat"
+      },
+      "function": null
+    },
+    {
+      "id": 2,
+      "updated": "2026-06-03T13:35:56Z",
+      "entryDate": "2023-12-15T00:00:00Z",
+      "committee": {
+        "id": 2,
+        "updated": "2025-11-13T22:13:40Z",
+        "abbreviation": null,
+        "code": "KOM_2_",
+        "committeeNumber": 2,
+        "council": {
+          "id": 1,
+          "updated": "2010-12-26T13:07:49Z",
+          "abbreviation": "NR",
+          "code": "RAT_1_",
+          "name": "Nationalrat",
+          "type": "N"
+        },
+        "name": "Finanzkommission Nationalrat"
       },
       "function": null
     }
   ],
   "concerns": [
     {
+      "agency": "T",
+      "function": "M",
+      "name": "Aniterra AG",
+      "organizationType": "VR",
+      "type": "AG"
+    },
+    {
       "agency": "F",
       "function": "M",
       "name": "Skilift Rossberg AG, Oberwil im Simmental",
       "organizationType": "VR",
       "type": "AG"
+    },
+    {
+      "agency": "F",
+      "function": "P",
+      "name": "Kreiskommission Berner Oberland",
+      "organizationType": "V",
+      "type": "EG"
     },
     {
       "agency": "F",
@@ -61,6 +120,13 @@
     },
     {
       "agency": "F",
+      "function": "M",
+      "name": "Berner Bauernsverband, Milchstrasse, Ostermundigen",
+      "organizationType": "V",
+      "type": "Ve."
+    },
+    {
+      "agency": "F",
       "function": "P",
       "name": "Gospelchor Oberwil",
       "organizationType": "-",
@@ -68,14 +134,21 @@
     },
     {
       "agency": "F",
-      "function": "M",
+      "function": "VP",
       "name": "Kontrollkommission für umweltschonende und tierfreundliche Landwirtschaft",
       "organizationType": "V",
       "type": "Ve."
     },
     {
       "agency": "F",
-      "function": "M",
+      "function": "Del.",
+      "name": "Landwirtschaftskammer SBV",
+      "organizationType": "-",
+      "type": "Ve."
+    },
+    {
+      "agency": "F",
+      "function": "VP",
       "name": "Verband Berner Waldbesitzer",
       "organizationType": "V",
       "type": "Ve."
@@ -88,16 +161,32 @@
     "faxWork": null,
     "homepagePrivate": null,
     "homepageWork": null,
-    "phoneMobilePrivate": "+41 79 363 80 94",
-    "phoneMobileWork": null,
+    "phoneMobilePrivate": null,
+    "phoneMobileWork": "+41 79 363 80 94",
     "phonePrivate": null,
     "phoneWork": null
   },
   "councilMemberships": [
     {
       "id": 0,
-      "updated": "2019-11-19T14:41:52Z",
+      "updated": "2026-06-03T13:35:56Z",
       "entryDate": "2019-12-02T00:00:00Z",
+      "leavingDate": "2023-12-03T00:00:00Z",
+      "canton": "BE",
+      "cantonName": "Bern",
+      "council": {
+        "id": 1,
+        "updated": "2010-12-26T13:07:49Z",
+        "abbreviation": "NR",
+        "code": "RAT_1_",
+        "name": "Nationalrat",
+        "type": "N"
+      }
+    },
+    {
+      "id": 1,
+      "updated": "2026-06-03T13:35:56Z",
+      "entryDate": "2023-12-04T00:00:00Z",
       "canton": "BE",
       "cantonName": "Bern",
       "council": {
@@ -112,9 +201,11 @@
   ],
   "displayLanguage": "de",
   "domicile": {
-    "canton": "BE",
+    "canton": "--",
     "city": "Oberwil im Simmental",
     "addressLine": "Egg 406",
+    "company": "",
+    "extraAddressLine": "",
     "zip": "3765"
   },
   "factionId": 4,
@@ -136,7 +227,7 @@
     "zip": "0"
   },
   "professions": [
-    "Landwirt"
+    "Landwirt/in"
   ],
   "salutationLetter": "Herr Nationalrat",
   "salutationTitle": null,
