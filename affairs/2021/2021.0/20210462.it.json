@@ -1,6 +1,6 @@
 {
   "id": 20210462,
-  "updated": "2022-12-05T08:51:48Z",
+  "updated": "2024-03-26T21:45:00Z",
   "additionalIndexing": "66;52;24",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -49,7 +49,7 @@
               "abbreviation": "CAPTE-CN",
               "id": 7,
               "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CN",
-              "abbreviation1": "CAPTE-CN",
+              "abbreviation1": "CAPTE-N",
               "abbreviation2": "CAPTE",
               "committeeNumber": 7,
               "council": {
@@ -62,7 +62,7 @@
             },
             "council": null,
             "date": "2022-08-29T00:00:00Z",
-            "text": "È dato seguito",
+            "text": "Dare seguito (Camera prioritaria)",
             "type": 16
           },
           {
@@ -74,7 +74,7 @@
               "abbreviation": "CAPTE-CS",
               "id": 20,
               "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CS",
-              "abbreviation1": "CAPTE-CS",
+              "abbreviation1": "CAPTE-S",
               "abbreviation2": "CAPTE",
               "committeeNumber": 20,
               "council": {
@@ -87,8 +87,43 @@
             },
             "council": null,
             "date": "2022-10-24T00:00:00Z",
-            "text": "Nessuna adesione",
-            "type": 49
+            "text": "Non approvazione della decisione della commissione della Camera prioritaria (seconda Camera)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "committee": {
+              "abbreviation": "CAPTE-CN",
+              "id": 7,
+              "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CN",
+              "abbreviation1": "CAPTE-N",
+              "abbreviation2": "CAPTE",
+              "committeeNumber": 7,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Consiglio nazionale",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-10-09T00:00:00Z",
+            "text": "Non dare seguito (appianamento delle divergenze)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Amm."
+            },
+            "council": null,
+            "date": "2023-10-09T00:00:00Z",
+            "text": "Ritirato",
+            "type": 17
           }
         ]
       },
@@ -104,7 +139,7 @@
             "abbreviation": "CAPTE-CN",
             "id": 7,
             "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CN",
-            "abbreviation1": "CAPTE-CN",
+            "abbreviation1": "CAPTE-N",
             "abbreviation2": "CAPTE",
             "committeeNumber": 7,
             "council": {
@@ -121,6 +156,11 @@
               "correspondents": [
 
               ]
+            },
+            {
+              "correspondents": [
+
+              ]
             }
           ]
         },
@@ -129,7 +169,7 @@
             "abbreviation": "CAPTE-CS",
             "id": 20,
             "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CS",
-            "abbreviation1": "CAPTE-CS",
+            "abbreviation1": "CAPTE-S",
             "abbreviation2": "CAPTE",
             "committeeNumber": 20,
             "council": {
@@ -155,17 +195,33 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1623794400000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1693951200000+0200)/",
+          "id": 223,
+          "name": "Esame preliminare - nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1696802400000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -315,8 +371,8 @@
   ],
   "shortId": "21.462",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
     "newKey": 0
   },

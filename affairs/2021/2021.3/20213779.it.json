@@ -1,7 +1,7 @@
 {
   "id": 20213779,
-  "updated": "2023-06-13T10:23:15Z",
-  "additionalIndexing": "2441;04",
+  "updated": "2024-03-26T21:29:06Z",
+  "additionalIndexing": "04",
   "affairType": {
     "abbreviation": "Mo.",
     "id": 5,
@@ -54,6 +54,21 @@
             "date": "2023-06-13T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-12-18T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
           }
         ]
       },
@@ -67,7 +82,93 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-13T10:24:22Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2575,
+                    "gender": "m",
+                    "id": 825,
+                    "name": "Germann Hannes",
+                    "officialDenomination": "Germann"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo V",
+                    "id": 4,
+                    "name": "Gruppo dell'Unione democratica di Centro"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSS-CS",
+            "id": 19,
+            "name": "Commissione della sicurezza sociale e della sanità CS",
+            "abbreviation1": "CSSS-S",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-17T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSS-CN",
+            "id": 6,
+            "name": "Commissione della sicurezza sociale e della sanità",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-17T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +189,23 @@
         },
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1696197600000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1697148000000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1702854000000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -139,10 +255,9 @@
   ],
   "shortId": "21.3779",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -158,7 +273,7 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>Il Consiglio federale concorda con l'autore della mozione sul fatto che gli assicuratori-malattie debbano garantire la fornitura dei dati necessari affinché l'Ufficio federale della sanità pubblica (UFSP) possa adempiere i propri compiti. In virtù dell'articolo 35 della legge sulla sorveglianza sull'assicurazione malattie (LVAMal; RS 832.12) e dell'articolo 28 dell'ordinanza sull'assicurazione malattie (OAMal; RS 832.102), l'UFSP provvede già a raccogliere presso gli assicuratori dati anonimizzati su tutti gli assicurati dell'assicurazione obbligatoria delle cure medico-sanitarie (AOMS). L'UFSP utilizza questi dati per svolgere i compiti assegnatigli in virtù della LVAMal, nonché per monitorare l'evoluzione generale dei costi dell'AOMS. Gli assicuratori sono pertanto tenuti già oggi a fornire i dati delle loro attività amministrative e del calcolo dei premi in modo esatto, completo e gratuito.</p><p>Con la legge federale del 19 marzo 2021 sulla trasmissione di dati degli assicuratori nell'assicurazione obbligatoria delle cure medico-sanitarie (FF 2021 664), le Camere federali hanno precisato le basi legali per la trasmissione dei dati. Gli assicuratori sono tenuti a trasmettere all'UFSP i dati di cui ha bisogno per sorvegliare l'evoluzione dei costi, per analizzare gli effetti della legge e, infine, per valutare la compensazione dei rischi. I dati sono di norma raccolti in forma aggregata e, se necessario ai fini dell'adempimento dei compiti, in forma individuale. La raccolta di dati individuali anonimizzati che permetterebbero un'analisi approfondita degli effetti della LAMal e un esame più dettagliato della qualità e dell'economicità delle prestazioni è quindi limitata ai tre temi menzionati nel nuovo articolo di legge. Non permette dunque di coprire tutte le necessità in materia di analisi. I dati trasmessi da SASIS SA costituiscono pertanto ancora un complemento importante da cui l'UFSP continua a dipendere, come esposto anche nella risposta all'interpellanza Maître 21.3070. Nel parere del 21 agosto 2019 (FF 2019 4883, pag. 4888) sull'iniziativa parlamentare Eder 16.411, il Consiglio federale rende noto che si riserva di rivolgersi nuovamente al Parlamento e richiedere di ampliare ulteriormente le sue competenze in quest'ambito. Attualmente, tuttavia, la soluzione concordata con SASIS SA è ragionevole ed efficiente.</p>"
+      "value": "<p>Il Consiglio federale concorda con l'autore della mozione sul fatto che gli assicuratori-malattie debbano garantire la fornitura dei dati necessari affinché l'Ufficio federale della sanità pubblica (UFSP) possa adempiere i propri compiti. In virtù dell'articolo 35 della legge sulla sorveglianza sull'assicurazione malattie (LVAMal; RS 832.12) e dell'articolo 28 dell'ordinanza sull'assicurazione malattie (OAMal; RS 832.102), l'UFSP provvede già a raccogliere presso gli assicuratori dati anonimizzati su tutti gli assicurati dell'assicurazione obbligatoria delle cure medico-sanitarie (AOMS). L'UFSP utilizza questi dati per svolgere i compiti assegnatigli in virtù della LVAMal, nonché per monitorare l'evoluzione generale dei costi dell'AOMS. Gli assicuratori sono pertanto tenuti già oggi a fornire i dati delle loro attività amministrative e del calcolo dei premi in modo esatto, completo e gratuito.</p><p>Con la legge federale del 19 marzo 2021 sulla trasmissione di dati degli assicuratori nell'assicurazione obbligatoria delle cure medico-sanitarie (FF 2021 664), le Camere federali hanno precisato le basi legali per la trasmissione dei dati. Gli assicuratori sono tenuti a trasmettere all'UFSP i dati di cui ha bisogno per sorvegliare l'evoluzione dei costi, per analizzare gli effetti della legge e, infine, per valutare la compensazione dei rischi. I dati sono di norma raccolti in forma aggregata e, se necessario ai fini dell'adempimento dei compiti, in forma individuale. La raccolta di dati individuali anonimizzati che permetterebbero un'analisi approfondita degli effetti della LAMal e un esame più dettagliato della qualità e dell'economicità delle prestazioni è quindi limitata ai tre temi menzionati nel nuovo articolo di legge. Non permette dunque di coprire tutte le necessità in materia di analisi. I dati trasmessi da SASIS SA costituiscono pertanto ancora un complemento importante da cui l'UFSP continua a dipendere, come esposto anche nella risposta all'interpellanza Maître 21.3070. Nel parere del 21 agosto 2019 (FF 2019 4883, pag. 4888) sull'iniziativa parlamentare Eder 16.411, il Consiglio federale rende noto che si riserva di rivolgersi nuovamente al Parlamento e richiedere di ampliare ulteriormente le sue competenze in quest'ambito. Attualmente, tuttavia, la soluzione concordata con SASIS SA è ragionevole ed efficiente.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

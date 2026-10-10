@@ -1,7 +1,7 @@
 {
   "id": 20100043,
-  "updated": "2019-02-18T19:03:06Z",
-  "additionalIndexing": "24",
+  "updated": "2024-04-10T08:32:33Z",
+  "additionalIndexing": "24;Bericht;Finanzplanung",
   "affairType": {
     "abbreviation": "BRG",
     "id": 1,
@@ -117,7 +117,7 @@
             "abbreviation": "FK-NR",
             "id": 2,
             "name": "Finanzkommission NR",
-            "abbreviation1": "FK-NR",
+            "abbreviation1": "FK-N",
             "abbreviation2": "FK",
             "committeeNumber": 2,
             "council": {
@@ -187,7 +187,7 @@
             "abbreviation": "FK-SR",
             "id": 15,
             "name": "Finanzkommission SR",
-            "abbreviation1": "FK-SR",
+            "abbreviation1": "FK-S",
             "abbreviation2": "FK",
             "committeeNumber": 15,
             "council": {
@@ -227,7 +227,8 @@
               ],
               "sessionId": "4816"
             }
-          ]
+          ],
+          "treatmentCategory": "IIIb"
         }
       ],
       "references": [
@@ -235,11 +236,15 @@
           "date": "/Date(1282082400000+0200)/",
           "publication": {
             "isOldFormat": false,
+            "page": "null",
+            "source": "BBl null null",
             "type": {
               "id": 1,
               "name": "Bundesblatt",
               "shortName": "BBl"
-            }
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/null/null.pdf",
+            "year": "null"
           },
           "title": "Bericht des Bundesrates vom 18. August 2010 zum Finanzplan 2012-2014",
           "type": {
@@ -274,7 +279,7 @@
         },
         {
           "date": "/Date(1291676400000+0100)/",
-          "id": 27,
+          "id": 229,
           "name": "Erledigt"
         }
       ],
@@ -289,11 +294,6 @@
       ]
     }
   ],
-  "handling": {
-    "date": "2010-12-07T00:00:00Z",
-    "legislativePeriod": 48,
-    "session": "4816"
-  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -302,19 +302,12 @@
       "name": "Nationalrat",
       "type": "N",
       "priority": 1
-    },
-    {
-      "abbreviation": "SR",
-      "id": 2,
-      "name": "Ständerat",
-      "type": "S",
-      "priority": 2
     }
   ],
   "relatedAffairs": [
     {
       "id": 20100041,
-      "priorityCode": "NS",
+      "priorityCode": "N",
       "shortId": "10.041"
     }
   ],
@@ -324,9 +317,9 @@
   "sequentialNumber": 74,
   "shortId": "10.043",
   "state": {
-    "id": 27,
+    "id": 229,
     "name": "Erledigt",
-    "doneKey": "1",
+    "doneKey": "0",
     "newKey": 0
   },
   "texts": [

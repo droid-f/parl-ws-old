@@ -1,6 +1,6 @@
 {
   "id": 20213036,
-  "updated": "2023-03-02T12:56:36Z",
+  "updated": "2024-03-26T22:19:30Z",
   "additionalIndexing": "15;44",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2023-03-02T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-09-18T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
           }
         ]
       },
@@ -69,12 +84,33 @@
       "preConsultations": [
         {
           "committee": {
-            "abbreviation": "CSEC-CS",
-            "id": 18,
-            "name": "Commissione della scienza, dell'educazione e della cultura CS",
-            "abbreviation1": "CSEC-CS",
-            "abbreviation2": "CSEC",
-            "committeeNumber": 18,
+            "abbreviation": "CET-CN",
+            "id": 10,
+            "name": "Commissione dell'economia e dei tributi CN",
+            "abbreviation1": "CET-N",
+            "abbreviation2": "CET",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-03-02T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CS",
+            "id": 23,
+            "name": "Commissione dell'economia e dei tributi CS",
+            "abbreviation1": "CET-S",
+            "abbreviation2": "CET",
+            "committeeNumber": 23,
             "council": {
               "abbreviation": "CS",
               "id": 2,
@@ -85,7 +121,32 @@
           },
           "date": "2021-03-02T00:00:00Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2619,
+                    "gender": "m",
+                    "id": 1153,
+                    "name": "Noser Ruedi",
+                    "officialDenomination": "Noser"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo RL",
+                    "id": 1,
+                    "name": "Gruppo liberale radicale"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5122"
+            }
           ]
         }
       ],
@@ -108,8 +169,18 @@
         },
         {
           "date": "/Date(1677711600000+0100)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1693778400000+0200)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1694988000000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -149,10 +220,9 @@
   ],
   "shortId": "21.3036",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -168,14 +238,14 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>Il 24 settembre 2020 il Consiglio degli Stati ha accolto il postulato 20.3544 Rafforzare la resilienza delle aziende svizzere, depositato dal consigliere Ruedi Noser, in cui il Consiglio federale è incaricato di esaminare soluzioni per rafforzare la resilienza delle aziende svizzere e di presentarle in un rapporto. Il postulato si concentra sulla costituzione di riserve non soggette a tassazione e propone come soluzione di rifarsi al regime delle riserve di crisi. I vantaggi e gli svantaggi - comprese le conseguenze di politica della concorrenza per le aziende e la piazza imprenditoriale svizzera - vanno valutati accuratamente.</p><p>Le questioni esposte nella presente mozione vengono quindi già esaminate nel quadro del postulato Noser: è dunque opportuno attendere l'esito dei lavori.</p>"
+      "value": "<p>Il 24 settembre 2020 il Consiglio degli Stati ha accolto il postulato 20.3544 Rafforzare la resilienza delle aziende svizzere, depositato dal consigliere Ruedi Noser, in cui il Consiglio federale è incaricato di esaminare soluzioni per rafforzare la resilienza delle aziende svizzere e di presentarle in un rapporto. Il postulato si concentra sulla costituzione di riserve non soggette a tassazione e propone come soluzione di rifarsi al regime delle riserve di crisi. I vantaggi e gli svantaggi - comprese le conseguenze di politica della concorrenza per le aziende e la piazza imprenditoriale svizzera - vanno valutati accuratamente.</p><p>Le questioni esposte nella presente mozione vengono quindi già esaminate nel quadro del postulato Noser: è dunque opportuno attendere l'esito dei lavori.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {
         "id": 5,
         "name": "Testo depositato"
       },
-      "value": "<p>Il Consiglio federale è incaricato di elaborare un avamprogetto di legge che stimoli le imprese a costituire riserve di crisi sulla base della normativa che è stata in vigore fino al 31 dicembre 2015.</p>"
+      "value": "<p>Il Consiglio federale è incaricato di elaborare un progetto di legge che stimoli le imprese a costituire riserve di crisi sulla base della normativa che è stata in vigore fino al 31 dicembre 2015.</p>"
     },
     {
       "type": {

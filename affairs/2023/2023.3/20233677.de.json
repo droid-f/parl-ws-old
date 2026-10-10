@@ -1,6 +1,6 @@
 {
   "id": 20233677,
-  "updated": "2023-06-20T21:24:35Z",
+  "updated": "2024-03-26T22:02:26Z",
   "additionalIndexing": "48;28",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,192 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-20T00:00:00Z",
+            "text": "Zuweisung an die zuständige Kommission zur Vorberatung",
+            "type": 66
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-12-04T00:00:00Z",
+            "text": "Wird übernommen",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-03-06T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-23T00:00:00Z",
+        "text": "Ablehnung"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "KVF-NR",
+            "id": 9,
+            "name": "Kommission für Verkehr und Fernmeldewesen NR",
+            "abbreviation1": "KVF-N",
+            "abbreviation2": "KVF",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-16T11:43:31Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3195,
+                    "gender": "m",
+                    "id": 4240,
+                    "name": "Juillard Charles",
+                    "officialDenomination": "Juillard"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "KVF-SR",
+            "id": 22,
+            "name": "Kommission für Verkehr und Fernmeldewesen SR",
+            "abbreviation1": "KVF-S",
+            "abbreviation2": "KVF",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1692741600000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1695160800000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1704841200000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1705359600000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1709679600000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -140,23 +303,54 @@
         "name": "FDP-Liberale Fraktion"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3108,
+        "gender": "m",
+        "id": 4207,
+        "name": "Müller Damian",
+        "officialDenomination": "Müller Damian"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "23.3677",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Der Automobilsektor ist ein wichtiger Wirtschaftszweig, der direkt von der Umweltpolitik beeinflusst wird. Dennoch weiss man derzeit nicht, wie gross der aktuelle Schweizer Fahrzeugbestand ist. Es werden nämlich nur jene Fahrzeuge offiziell statistisch erhoben, die zugelassen sind; nicht zugelassene Fahrzeuge fehlen in den Statistiken.&nbsp;</p><p>Es ist für uns somit derzeit nicht möglich:</p><p>- die genaue Gesamtzahl der Motorfahrzeuge in der Schweiz zu kennen;</p><p>- den Bestand an gebrauchten Motorfahrzeugen zu kennen;</p><p>- die Entwicklung des Bestands an gebrauchten Motorfahrzeugen zu kennen;</p><p>- den finanziellen Wert abzuschätzen, den der Bestand an gebrauchten Motorfahrzeugen für die Autowerkstätten darstellt, die ihn finanzieren müssen;</p><p>- zu wissen, wo die Fahrzeuge enden, die auf den Schweizer Markt gekommen sind;</p><p>- herauszufinden, ob wir unsere Fahrzeuge zu früh verschrotten und dadurch wertvolle Ressourcen verschwenden.</p><p>Nach der Erfahrung einiger Autohändler scheint ein Teil der Fahrzeuge nämlich zu früh entsorgt zu werden. Dies deutet darauf hin, dass es einerseits in der Schweiz im Vergleich zum Marktbedarf zu viele Autos gibt, sodass Platz geschaffen werden muss, und dass wir andererseits eine beträchtliche Menge an grauer Energie und natürlichen Ressourcen verschwenden, selbst wenn die Fahrzeuge wiederverwertet werden. Einen Gegenstand zu früh zu entsorgen, ist nicht umweltfreundlich, selbst wenn dieser wiederverwertet wird.</p><p>Weiter verliert die Schweiz auch Rohstoffe durch Fahrzeuge, die jährlich in der «freien Wildbahn» verschwinden, insbesondere im Ausland. Ein solcher Verlust an Rohstoffen verhindert die Versorgung und Beschleunigung der Kreislaufwirtschaft, die von der Regierung gefordert und vom Parlament unterstützt wird.</p><p>Es ist ausserdem unbestritten, dass der Sektor der Autowerkstätten die nicht zugelassenen und statistisch nicht erfassten Fahrzeuge übernehmen muss. Diese machen einen Grossteil des Bestandes der gebrauchten Fahrzeuge unseres Landes aus. Immer mehr KMU geraten in finanzielle Schwierigkeiten, weil das im Bestand gebrauchter Fahrzeuge eingefrorene Kapital verzinst werden muss und die gebrauchten Fahrzeuge täglich an Wert einbüssen. Die stagnierende Liquidität entzieht den KMU somit einen Teil der Substanz, die für eine gute Unternehmensentwicklung unerlässlich ist.&nbsp;</p><p>Je grösser der Bestand an Gebrauchtwagen wird, desto mehr gefährden dessen Kosten somit die wirtschaftliche Gesundheit des Sektors. Es stellt sich also die Frage, wie gross der Bestand an gebrauchten Fahrzeugen ist und ob er wächst.&nbsp;</p><p>Hätte man Kenntnis vom Bestand der gebrauchten Fahrzeuge und der Anzahl nicht zugelassener Fahrzeuge, so könnte man einerseits die tatsächliche Entwicklung des Marktes für gebrauchte Fahrzeuge verfolgen und andererseits die Geldsumme erfassen, die dieser Bestand ausmacht. Diese Informationen würden im Falle eines erwiesenen Ungleichgewichts auch die Suche nach Lösungen ermöglichen, um das eingefrorene Kapital wieder freizusetzen.&nbsp;</p><p>Laut den Autoverschrottungs- und -verwertungsunternehmen (Stiftung Auto Recycling Schweiz) sind 2019 in der Schweiz mehr als 64&nbsp;000 Autos vom Radar verschwunden und irgendwo in der Schweiz oder anderswo gelandet, was einen beachtlichen Verlust an Rohstoffen und Einnahmen für die erwähnten Unternehmen bedeutet. Es ist übrigens wahrscheinlich, dass ein Teil dieser Fahrzeuge in wilden Deponien am Strassenrand oder in den Wäldern geendet hat, was nicht tragbar ist.</p><p>Es ist somit unerlässlich zu wissen, wie viele Fahrzeuge es in der Schweiz insgesamt gibt und dass die Rückverfolgbarkeit derselben gewährleistet ist. Nur so lassen sich ein so wesentliches Element der schweizerischen Umweltpolitik in den Griff bekommen und eine gesunde Entwicklung in diesem wichtigen Wirtschaftssektor sicherstellen.</p><p>Daher sollten auch alle nicht zugelassenen Autos erhoben und in die offiziellen Statistiken aufgenommen werden; was nach der Einschätzung von Expertinnen und Experten zu keinem administrativen Mehraufwand für die Fahrzeughalterinnen und -halter und die kantonalen Strassenverkehrsämter führt.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Um die umweltverträgliche Entsorgung von Altfahrzeugen zu fördern, setzt der Bundesrat auf das Verursacherprinzip. Die Stiftung Autorecycling Schweiz (SARS) erhält von den Mitgliedern von Auto-Schweiz auf privatrechtlicher Basis pro neu zugelassenes Fahrzeug einen Entsorgungsbeitrag mit dem Ziel, die umweltgerechte Entsorgung von Motorfahrzeugen in der Schweiz zu fördern.</p><p>Mit den geforderten Rechtsanpassungen lässt sich das Ziel, die skizzierte Informationslücke zu schliessen, nicht erreichen. In der Schweiz gelten Altfahrzeuge, also Fahrzeuge, die zur Entsorgung bestimmt sind, bereits heute als «andere kontrollpflichtige Abfälle». Entsorgungsunternehmen müssen die Entgegennahme und die Weiterleitung von solchen Abfällen regelmässig melden (Art. 12 Abs. 3 der Verordnung über den Verkehr mit Abfällen [VeVA; SR&nbsp;814.610]). Die zuständigen kantonalen Umweltämter und das BAFU haben somit Kenntnis über die Menge an entsorgten Fahrzeugen in der Schweiz.</p><p>Der Export von Altfahrzeugen ist nur mit einer Bewilligung des BAFU möglich. Jeder bewilligungspflichtige Export muss beim BAFU angemeldet werden, so dass die exportierte Menge ebenfalls bekannt ist. Die entsprechenden Zahlen werden in der schweizerischen Abfallstatistik veröffentlicht. Hingegen gelten Occasionsfahrzeuge als «Produkt» und dürfen sowohl im Inland sowie auch beim grenzüberschreitenden Verkehr frei gehandelt werden.</p><p>Weiter ist im grenzüberschreitenden Verkehr die Schliessung der Informationslücke zudem nur in der Theorie möglich. Ein Grenzübertritt kann auch ohne förmliche Zollanmeldung erfolgen. Das Fahrzeug wird dabei nicht systematisch erfasst. Verbleibt ein solches Strassenfahrzeug definitiv im Ausland (z.B. wegen Verkauf oder Verschrottung), bleibt dies unbemerkt. Praktisch liesse sich eine solche nachträgliche Zollanmeldung weder um- noch durchsetzen, da das BAZG weder Kenntnis davon hat, dass sich das Strassenfahrzeug im Zollausland befindet, noch die Kompetenz hat, im Ausland Kontrollen durchzuführen.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, die Verordnung über das Informationssystem Verkehrszulassung zu ändern und Folgendes hinzuzufügen:</p><p>- in Artikel 4 einen Buchstaben d «Daten von ausser Verkehr gesetzten Fahrzeugen, die von den Schweizer Behörden zugelassen wurden. Diese Fahrzeuge werden aus dem Informationssystem Verkehrszulassung (IVZ) gelöscht, wenn sie exportiert oder entsorgt werden»;&nbsp;</p><p>- in Artikel 5 einen Absatz 7 «Das BAZG sowie die Autoverschrottungs- und -verwertungsunternehmen übermitteln dem IVZ Daten über Fahrzeuge, die exportiert oder entsorgt werden».</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Endlich wissen, wie viele (zugelassene oder nicht zugelassene) Motorfahrzeuge sich in der Schweiz befinden!"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Endlich wissen, wie viele (zugelassene oder nicht zugelassene) Motorfahrzeuge sich in der Schweiz befinden!"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20220488,
-  "updated": "2022-12-09T11:52:18Z",
+  "updated": "2024-03-26T21:26:48Z",
   "additionalIndexing": "2846;1236;1211;28;15",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -40,7 +40,31 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "L’objet est repris",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-03-05T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,19 +74,167 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-17T13:56:11Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3063,
+                    "gender": "m",
+                    "id": 4157,
+                    "name": "Bühler Manfred",
+                    "officialDenomination": "Bühler"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-17T13:55:52Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3131,
+                    "gender": "m",
+                    "id": 4230,
+                    "name": "Bregy Philipp Matthias",
+                    "officialDenomination": "Bregy"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe M-E",
+                    "id": 3,
+                    "name": "Le Groupe du Centre. Le Centre. PEV."
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAJ-CN",
+            "id": 12,
+            "name": "Commission des affaires juridiques CN",
+            "abbreviation1": "CAJ-N",
+            "abbreviation2": "CAJ",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-08T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CAJ-CE",
+            "id": 25,
+            "name": "Commission des affaires juridiques CE",
+            "abbreviation1": "CAJ-E",
+            "abbreviation2": "CAJ",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-08T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1670454000000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1696543200000+0200)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1700175600000+0100)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1709593200000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -228,14 +400,24 @@
         "name": "Groupe socialiste"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3147,
+        "gender": "m",
+        "id": 4255,
+        "name": "Dandrès Christian",
+        "officialDenomination": "Dandrès"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "22.488",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -243,22 +425,22 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Le constat est simple: le rapport de force entre les locataires et les bâilleurs est inégal et les textes juridiques en faveur de ces derniers. Plusieurs tentatives ont été faites pour infléchir ces textes avec plus ou moins de succès. En ce qui concerne les expulsions d'appartement, même lors de la période COVID 2020-2021, elles ont eu lieu alors même que la perte de revenus des locataires était dues aux décisions prises par les autorités. Le 80 % des fonds obtenus de la chaîne du bonheur par les oeuvres d'entre-aides pendant le Covid ont été attribuées pour des aides au loyer. Cela démontre la pression du loyer sur le budget des familles, la crainte à juste titre de perdre leur toit face à des textes de loi et trop de bâilleurs rigides, et enfin à quel point il y a un besoin de s'atteler à cette problématique. Ce sont quelques centaines de personnes qui chaque année se voient expulsées de leur appartement, et ce, indépendamment de leur situation familiale, leur état de vulnérabilité et de la période. Mon initiative de demande pourtant pas un changement législatif au niveau des procédures même iniques, puisque celles-ci ne seraient pas changées. Elle tente de parer au plus pressé lors de la phase finale: ne pas expulser de fait les gens durant la période d'hiver. La France connaît un tel régime. Ainsi, du 1er novembre au 31 mars, il ne peut y avoir d'expulsion. Suite à l'appel de l'abbé Pierre, l'Assemblée avait légiférer en ce sens. Les années à venir vont être difficiles pour chacun.e d'entre nous avec la guerre sur notre continent. Toutes les régies ont prévenu que les charges allaient augmenter de manière importante. Les prix de l'électricité aussi, etc... Le pouvoir économique des gens va baisser. Pour les classes moyennes et les bas revenus de manière plus forte. C'est aussi cela une crise. Il n'est pas à exclure qu'il y ait une augmentation de personnes n'arrivant pas à payer à temps leur loyer ou les arriérés des charges qui vont tomber mi-2023. Et si la justice doit être rendue, celle-ci doit être juste. Or, il n'est pas juste de mettre à la rue des gens en plein hiver alors même que nous ne sommes pas sûr.e.s si elles un endroit où aller. En temps de crise ou non. Cette initiative demande de corriger cet état de fait.</p>"
+      "value": "<p>Le constat est simple&nbsp;: le rapport de force entre les locataires et les bailleurs est inégal et les textes juridiques en faveur de ces derniers. Plusieurs tentatives ont été faites pour infléchir ces textes avec plus ou moins de succès. En ce qui concerne les expulsions d'appartement, même lors de la période COVID 2020-2021, elles ont eu lieu alors même que la perte de revenus des locataires était due aux décisions prises par les autorités. Les 80&nbsp;% des fonds obtenus de la Chaîne du Bonheur par les oeuvres d'entraide pendant le COVID ont été attribués à des aides au loyer. Cela démontre la pression exercée par le budget des familles, la crainte à juste titre qu'elles ont de perdre leur toit face à des textes de loi et à trop de bailleurs rigides, et enfin à quel point il y a un besoin de s'atteler à cette problématique. Ce sont quelques centaines de personnes qui chaque année se voient expulsées de leur appartement, et ce, indépendamment de leur situation familiale, de leur état de vulnérabilité et de la période. Mon initiative ne demande pourtant pas un changement législatif au niveau des procédures même iniques, puisque celles-ci ne seraient pas changées. Elle tente de parer au plus pressé lors de la phase finale&nbsp;: ne pas expulser de fait les gens durant la période d'hiver. La France connaît un tel régime. Ainsi, du 1<sup>er</sup> novembre au 31 mars, il ne peut y avoir d'expulsion. À la suite de l'appel de l'abbé Pierre, l'Assemblée nationale avait légiféré en ce sens. Les années à venir vont être difficiles pour chacun.e d'entre nous avec la guerre sur notre continent. Toutes les régies ont prévenu que les charges allaient augmenter de manière importante. Les prix de l'électricité aussi, etc... Le pouvoir économique des gens va baisser. Pour les classes moyennes et les personnes avec de bas revenus de manière plus forte. C'est aussi cela une crise. Il n'est pas à exclure qu'il y ait une augmentation de personnes n'arrivant pas à payer à temps leur loyer ou les arriérés des charges qui vont tomber mi-2023. Et si la justice doit être rendue, celle-ci doit être juste. Or, il n'est pas juste de mettre à la rue des gens en plein hiver alors même que nous ne sommes pas sûr.e.s qu'ils aient un endroit où aller. En temps de crise ou non. Cette initiative demande de corriger cet état de fait.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Je dépose la présente initiative parlementaire visant à introduire une trêve hivernale pour les expulsions d'appartements entre le 1er novembre et le 31 mars. Durant ce laps de temps les procédures civiles, administratives et judiciaires ne sont pas empêchées, mais l'expulsion en tant que telle ne peut pas avoir lieu. </p>"
+      "value": "<p>Je dépose la présente initiative parlementaire visant à introduire une trêve hivernale pour les expulsions d'appartements entre le 1<sup>er</sup> novembre et le 31 mars. Durant ce laps de temps, les procédures civiles, administratives et judiciaires ne sont pas empêchées, mais l'expulsion en tant que telle ne peut pas avoir lieu.</p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Introduction d'une trêve hivernale. Personne ne devrait dormir hors d'un chez soi l'hiver"
+      "value": "Introduction d'une trêve hivernale. Personne ne devrait dormir hors d'un chez-soi l'hiver"
     }
   ],
-  "title": "Introduction d'une trêve hivernale. Personne ne devrait dormir hors d'un chez soi l'hiver"
+  "title": "Introduction d'une trêve hivernale. Personne ne devrait dormir hors d'un chez-soi l'hiver"
 }

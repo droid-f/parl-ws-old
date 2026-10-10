@@ -1,6 +1,6 @@
 {
   "id": 20223573,
-  "updated": "2023-06-07T11:53:12Z",
+  "updated": "2024-03-26T21:19:27Z",
   "additionalIndexing": "2846;1211;66",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2023-06-07T00:00:00Z",
             "text": "Adoption",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-12-20T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
           }
         ]
       },
@@ -67,7 +82,118 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-13T16:53:29Z",
+          "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAJ-CN",
+            "id": 12,
+            "name": "Commission des affaires juridiques CN",
+            "abbreviation1": "CAJ-N",
+            "abbreviation2": "CAJ",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-06-09T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAJ-CE",
+            "id": 25,
+            "name": "Commission des affaires juridiques CE",
+            "abbreviation1": "CAJ-E",
+            "abbreviation2": "CAJ",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-06-09T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-07T15:42:05Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2767,
+                    "gender": "m",
+                    "id": 4056,
+                    "name": "Fässler Daniel",
+                    "officialDenomination": "Fässler Daniel"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe M-E",
+                    "id": 3,
+                    "name": "Le Groupe du Centre. Le Centre. PEV."
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +214,23 @@
         },
         {
           "date": "/Date(1686088800000+0200)/",
-          "id": 11,
-          "name": "Motion au 2e conseil"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1696543200000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1697148000000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1703026800000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -117,7 +258,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -439,10 +580,9 @@
   ],
   "shortId": "22.3573",
   "state": {
-    "id": 11,
-    "name": "Motion au 2e conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -458,7 +598,7 @@
         "id": 14,
         "name": "Réponse CF / Bureau"
       },
-      "value": "<p>Il est dans l'ordre des choses que des attentes différentes et des intérêts divergents soient représentés au sein des communautés de copropriétaires d'étages, en particulier lorsque celles-ci comptent beaucoup de membres. Il est donc parfois difficile de trouver un terrain d'entente sur les projets de rénovation ou de transformation complexes et coûteux. Dans certains cas, un propriétaire seul peut même bloquer tout un projet. Chaque propriétaire a néanmoins droit à une certaine protection, car il ne devrait pas devoir assumer et cofinancer contre son gré des mesures de grande ampleur.Les dispositions en vigueur en matière de prise de décision sont nuancées et équitables : elles tiennent compte de la portée des différents travaux et permettent de concilier les intérêts contradictoires des différents copropriétaires d'étages. Même si l'assainissement énergétique d'un immeuble en propriété par étages s'avère judicieux, les droits réels, qui visent à concilier les intérêts de chacun, doivent également tenir compte de la capacité de chaque propriétaire à supporter de telles mesures. Il convient de laisser les copropriétaires décider, au titre de l'autonomie privée et dans le respect des règles éprouvées, des suites à donner aux projets de rénovation et de transformation. Or, la motion ne permettrait plus de concilier équitablement les intérêts en présence et doit donc être rejetée.D'après une étude du 24 janvier 2022 commandée par l'Office fédéral de l'énergie (\" Hemmnisse für energetische Gebäudesanierungen. Schlussbericht \", en allemand), les principaux obstacles à l'assainissement énergétique sont le manque de solutions de financement (aucun fonds de rénovation), de mesures d'incitation financières (par ex. de subventions ou d'allègements fiscaux), de planification, de majorités et d'information sur les possibilités. Ces obstacles ne peuvent guère être levés par des instruments relevant du droit privé. Si des mesures d'assainissement sont jugées urgentes en termes d'écologie et de politique énergétique, elles devront être prescrites par le droit public.</p>"
+      "value": "<p>Il est dans l'ordre des choses que des attentes différentes et des intérêts divergents soient représentés au sein des communautés de copropriétaires d'étages, en particulier lorsque celles-ci comptent beaucoup de membres. Il est donc parfois difficile de trouver un terrain d'entente sur les projets de rénovation ou de transformation complexes et coûteux. Dans certains cas, un propriétaire seul peut même bloquer tout un projet. Chaque propriétaire a néanmoins droit à une certaine protection, car il ne devrait pas devoir assumer et cofinancer contre son gré des mesures de grande ampleur.Les dispositions en vigueur en matière de prise de décision sont nuancées et équitables : elles tiennent compte de la portée des différents travaux et permettent de concilier les intérêts contradictoires des différents copropriétaires d'étages. Même si l'assainissement énergétique d'un immeuble en propriété par étages s'avère judicieux, les droits réels, qui visent à concilier les intérêts de chacun, doivent également tenir compte de la capacité de chaque propriétaire à supporter de telles mesures. Il convient de laisser les copropriétaires décider, au titre de l'autonomie privée et dans le respect des règles éprouvées, des suites à donner aux projets de rénovation et de transformation. Or, la motion ne permettrait plus de concilier équitablement les intérêts en présence et doit donc être rejetée.D'après une étude du 24 janvier 2022 commandée par l'Office fédéral de l'énergie (\" Hemmnisse für energetische Gebäudesanierungen. Schlussbericht \", en allemand), les principaux obstacles à l'assainissement énergétique sont le manque de solutions de financement (aucun fonds de rénovation), de mesures d'incitation financières (par ex. de subventions ou d'allègements fiscaux), de planification, de majorités et d'information sur les possibilités. Ces obstacles ne peuvent guère être levés par des instruments relevant du droit privé. Si des mesures d'assainissement sont jugées urgentes en termes d'écologie et de politique énergétique, elles devront être prescrites par le droit public.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {

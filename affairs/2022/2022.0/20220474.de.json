@@ -1,7 +1,7 @@
 {
   "id": 20220474,
-  "updated": "2023-03-15T18:00:51Z",
-  "additionalIndexing": "0421;2841",
+  "updated": "2024-03-26T21:31:55Z",
+  "additionalIndexing": "421;2841",
   "affairType": {
     "abbreviation": "Pa. Iv.",
     "id": 4,
@@ -55,6 +55,46 @@
             "date": "2023-03-15T00:00:00Z",
             "text": "Folge gegeben",
             "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "SPK-SR",
+              "id": 24,
+              "name": "Staatspolitische Kommission SR",
+              "abbreviation1": "SPK-S",
+              "abbreviation2": "SPK",
+              "committeeNumber": 24,
+              "council": {
+                "abbreviation": "SR",
+                "id": 2,
+                "name": "Ständerat",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-10-19T00:00:00Z",
+            "text": "Keine Zustimmung zum Beschluss des Nationalrates",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-12-21T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
           }
         ]
       },
@@ -67,10 +107,35 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-20T11:22:55Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "SPK-NR",
             "id": 11,
             "name": "Staatspolitische Kommission NR",
-            "abbreviation1": "SPK-NR",
+            "abbreviation1": "SPK-N",
             "abbreviation2": "SPK",
             "committeeNumber": 11,
             "council": {
@@ -118,7 +183,7 @@
             "abbreviation": "SPK-SR",
             "id": 24,
             "name": "Staatspolitische Kommission SR",
-            "abbreviation1": "SPK-SR",
+            "abbreviation1": "SPK-S",
             "abbreviation2": "SPK",
             "committeeNumber": 24,
             "council": {
@@ -131,7 +196,59 @@
           },
           "date": "2022-09-29T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ],
+              "sessionId": "5122"
+            }
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-21T09:06:35Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3199,
+                    "gender": "m",
+                    "id": 4244,
+                    "name": "Zopfi Mathias",
+                    "officialDenomination": "Zopfi"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion G",
+                    "code": "G",
+                    "id": 6,
+                    "name": "Grüne Fraktion"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -154,8 +271,23 @@
         },
         {
           "date": "/Date(1678834800000+0100)/",
-          "id": 28,
-          "name": "Vorprüfung - Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 225,
+          "name": "Vorprüfung - in Kommission des Ständerates"
+        },
+        {
+          "date": "/Date(1697752800000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1703113200000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -174,7 +306,10 @@
     }
   ],
   "relatedAffairs": [
-
+    {
+      "id": 20232013,
+      "shortId": "23.2013"
+    }
   ],
   "roles": [
     {
@@ -196,8 +331,8 @@
   ],
   "shortId": "22.474",
   "state": {
-    "id": 28,
-    "name": "Vorprüfung - Behandelt vom Nationalrat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },

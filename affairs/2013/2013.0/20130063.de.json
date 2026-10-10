@@ -1,7 +1,7 @@
 {
   "id": 20130063,
-  "updated": "2019-02-18T19:03:06Z",
-  "additionalIndexing": "24",
+  "updated": "2024-04-10T11:22:24Z",
+  "additionalIndexing": "24;Bericht;Finanzplanung",
   "affairType": {
     "abbreviation": "BRG",
     "id": 1,
@@ -87,7 +87,7 @@
             "abbreviation": "FK-NR",
             "id": 2,
             "name": "Finanzkommission NR",
-            "abbreviation1": "FK-NR",
+            "abbreviation1": "FK-N",
             "abbreviation2": "FK",
             "committeeNumber": 2,
             "council": {
@@ -114,7 +114,7 @@
             "abbreviation": "FK-SR",
             "id": 15,
             "name": "Finanzkommission SR",
-            "abbreviation1": "FK-SR",
+            "abbreviation1": "FK-S",
             "abbreviation2": "FK",
             "committeeNumber": 15,
             "council": {
@@ -145,7 +145,7 @@
                   },
                   "faction": {
                     "abbreviation": "Fraktion CE",
-                    "code": "CE",
+                    "code": "M-E",
                     "id": 3,
                     "name": "Fraktion CVP-EVP"
                   },
@@ -154,7 +154,8 @@
               ],
               "sessionId": "4911"
             }
-          ]
+          ],
+          "treatmentCategory": "IIIb"
         }
       ],
       "references": [
@@ -162,11 +163,15 @@
           "date": "/Date(1377036000000+0200)/",
           "publication": {
             "isOldFormat": false,
+            "page": "null",
+            "source": "BBl null null",
             "type": {
               "id": 1,
               "name": "Bundesblatt",
               "shortName": "BBl"
-            }
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/null/null.pdf",
+            "year": "null"
           },
           "title": "Bericht des Bundesrates vom 21. August 2013 zum Finanzplan 2015-2017",
           "type": {
@@ -196,7 +201,7 @@
         },
         {
           "date": "/Date(1386025200000+0100)/",
-          "id": 27,
+          "id": 229,
           "name": "Erledigt"
         }
       ],
@@ -211,11 +216,6 @@
       ]
     }
   ],
-  "handling": {
-    "date": "2013-12-03T00:00:00Z",
-    "legislativePeriod": 49,
-    "session": "4911"
-  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -224,19 +224,12 @@
       "name": "Ständerat",
       "type": "S",
       "priority": 1
-    },
-    {
-      "abbreviation": "NR",
-      "id": 1,
-      "name": "Nationalrat",
-      "type": "N",
-      "priority": 2
     }
   ],
   "relatedAffairs": [
     {
       "id": 20130041,
-      "priorityCode": "SN",
+      "priorityCode": "S",
       "shortId": "13.041"
     }
   ],
@@ -246,9 +239,9 @@
   "sequentialNumber": 75,
   "shortId": "13.063",
   "state": {
-    "id": 27,
+    "id": 229,
     "name": "Erledigt",
-    "doneKey": "1",
+    "doneKey": "0",
     "newKey": 0
   },
   "texts": [

@@ -1,6 +1,6 @@
 {
   "id": 20214124,
-  "updated": "2023-06-14T07:42:45Z",
+  "updated": "2024-03-26T20:55:41Z",
   "additionalIndexing": "55;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2023-06-13T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-03-04T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
           }
         ]
       },
@@ -67,7 +82,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-20T15:31:19Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3053,
+                    "gender": "m",
+                    "id": 4153,
+                    "name": "Hegglin Peter",
+                    "officialDenomination": "Hegglin Peter"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CN",
+            "id": 10,
+            "name": "Commissione dell'economia e dei tributi CN",
+            "abbreviation1": "CET-N",
+            "abbreviation2": "CET",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-09-29T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CS",
+            "id": 23,
+            "name": "Commissione dell'economia e dei tributi CS",
+            "abbreviation1": "CET-S",
+            "abbreviation2": "CET",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-09-29T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +184,23 @@
         },
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1708383600000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1708470000000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1709506800000+0100)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
         }
       ],
       "texts": [
@@ -117,7 +228,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -439,10 +550,9 @@
   ],
   "shortId": "21.4124",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 209,
+    "name": "Trasmesso al Consiglio federale",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -451,7 +561,7 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>Le organizzazioni di categoria e dei produttori possono pubblicare a livello regionale o nazionale prezzi indicativi concordati tra fornitori e acquirenti conformemente all'articolo 8a della legge sull'agricoltura (LAgr; RS 910.1). Questi prezzi indicativi servono come punto di riferimento per le trattative sui prezzi tra i livelli del mercato, tuttavia le singole imprese non possono essere obbligate a rispettarli.</p><p>La presente mozione incarica il Consiglio federale di adeguare la legge sull'agricoltura in modo che i produttori di latte debbano spuntare un prezzo soglia per il latte trasformato in formaggio, affinché possa venir versato il rispettivo supplemento. Questi prezzi soglia vanno stabiliti in maniera differente in base al tipo di formaggio e al rispettivo mercato. La Confederazione si assumerebbe la responsabilità di controllare se i prezzi soglia vengono rispettati.</p><p>Con la Politica agricola 2002 sono state abolite tutte le garanzie di prezzo e di smercio nel mercato del latte. Il sostegno al mercato lattiero vincolato ai prodotti è stato ridotto gradualmente, trasformandolo in pagamenti diretti a favore dei produttori di latte (pagamenti per superficie). Quale strumento importante del nuovo disciplinamento del mercato lattiero è stato introdotto il supplemento per il latte trasformato in formaggio. Per gli addetti alla trasformazione tale supplemento riduce i costi della materia prima \"latte\", cosicché il formaggio da essi fabbricato è competitivo nel mercato caseario liberalizzato. L'autore della mozione chiede che lo Stato ripristini il suo intervento diretto nel mercato del latte e vincoli il supplemento per il latte trasformato in formaggio a prezzi soglia per i produttori di latte. Ciò implicherebbe un controllo statale dei caseifici. Ogni caseificio dovrebbe registrare dettagliatamente quali quantità di latte sono state utilizzate per la produzione di quali tipi di formaggio. Nel conteggio ciascuna voce dovrebbe essere indicata singolarmente e controllata in base a un valore soglia. Sul piano amministrativo ciò sarebbe estremamente oneroso. Va inoltre sottolineato che le rilevazioni dei prezzi vengono sempre pubblicate a distanza di diversi mesi e pertanto non forniscono una panoramica attuale del mercato.</p><p>Nel mercato caseario liberalizzato, un intervento statale così oneroso metterebbe ancora più sotto pressione la competitività del formaggio svizzero e a medio termine andrebbe contro gli interessi dei produttori di latte. Di conseguenza non spetta allo Stato stabilire le quantità di latte e i rispettivi prezzi.</p>"
+      "value": "<p>Le organizzazioni di categoria e dei produttori possono pubblicare a livello regionale o nazionale prezzi indicativi concordati tra fornitori e acquirenti conformemente all'articolo 8a della legge sull'agricoltura (LAgr; RS 910.1). Questi prezzi indicativi servono come punto di riferimento per le trattative sui prezzi tra i livelli del mercato, tuttavia le singole imprese non possono essere obbligate a rispettarli.</p><p>La presente mozione incarica il Consiglio federale di adeguare la legge sull'agricoltura in modo che i produttori di latte debbano spuntare un prezzo soglia per il latte trasformato in formaggio, affinché possa venir versato il rispettivo supplemento. Questi prezzi soglia vanno stabiliti in maniera differente in base al tipo di formaggio e al rispettivo mercato. La Confederazione si assumerebbe la responsabilità di controllare se i prezzi soglia vengono rispettati.</p><p>Con la Politica agricola 2002 sono state abolite tutte le garanzie di prezzo e di smercio nel mercato del latte. Il sostegno al mercato lattiero vincolato ai prodotti è stato ridotto gradualmente, trasformandolo in pagamenti diretti a favore dei produttori di latte (pagamenti per superficie). Quale strumento importante del nuovo disciplinamento del mercato lattiero è stato introdotto il supplemento per il latte trasformato in formaggio. Per gli addetti alla trasformazione tale supplemento riduce i costi della materia prima \"latte\", cosicché il formaggio da essi fabbricato è competitivo nel mercato caseario liberalizzato. L'autore della mozione chiede che lo Stato ripristini il suo intervento diretto nel mercato del latte e vincoli il supplemento per il latte trasformato in formaggio a prezzi soglia per i produttori di latte. Ciò implicherebbe un controllo statale dei caseifici. Ogni caseificio dovrebbe registrare dettagliatamente quali quantità di latte sono state utilizzate per la produzione di quali tipi di formaggio. Nel conteggio ciascuna voce dovrebbe essere indicata singolarmente e controllata in base a un valore soglia. Sul piano amministrativo ciò sarebbe estremamente oneroso. Va inoltre sottolineato che le rilevazioni dei prezzi vengono sempre pubblicate a distanza di diversi mesi e pertanto non forniscono una panoramica attuale del mercato.</p><p>Nel mercato caseario liberalizzato, un intervento statale così oneroso metterebbe ancora più sotto pressione la competitività del formaggio svizzero e a medio termine andrebbe contro gli interessi dei produttori di latte. Di conseguenza non spetta allo Stato stabilire le quantità di latte e i rispettivi prezzi.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

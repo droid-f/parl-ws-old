@@ -1,6 +1,6 @@
 {
   "id": 20214124,
-  "updated": "2023-06-14T07:42:45Z",
+  "updated": "2024-03-26T20:55:41Z",
   "additionalIndexing": "55;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2023-06-13T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-03-04T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
           }
         ]
       },
@@ -68,7 +83,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-20T15:31:19Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3053,
+                    "gender": "m",
+                    "id": 4153,
+                    "name": "Hegglin Peter",
+                    "officialDenomination": "Hegglin Peter"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-09-29T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-09-29T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +185,23 @@
         },
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1708383600000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1708470000000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1709506800000+0100)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -118,7 +229,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -441,10 +552,9 @@
   ],
   "shortId": "21.4124",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -453,14 +563,14 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Die Branchen- und Produzentenorganisationen können gestützt auf Artikel 8a des Landwirtschaftsgesetzes (LwG; SR 910.1) auf nationaler oder regionaler Ebene Richtpreise herausgeben, auf die sich die Lieferanten und die Abnehmer geeinigt haben. Diese Richtpreise sollen als Anhaltspunkt für die Preisverhandlungen zwischen den Marktstufen dienen. Die einzelnen Unternehmen können aber nicht dazu gezwungen werden, die Richtpreise einzuhalten.</p><p>Die vorliegende Motion beauftragt den Bundesrat das LwG so anzupassen, dass die Milchproduzenten für die verkäste Milch einen Mindestpreis erhalten müssen, damit die Zulage für verkäste Milch ausgerichtet werden kann. Diese Mindestpreise sollen je nach Käsesorte, respektive Absatzmarkt unterschiedlich festgelegt werden. Für die Kontrolle, ob die Mindestpreise eingehalten werden, wäre der Bund verantwortlich.</p><p>Mit der Agrarpolitik 2002 wurden sämtliche Preis- und Absatzgarantien im Milchmarkt aufgehoben. Die produktgebundene Milchmarktstützung wurde schrittweise reduziert und in Direktzahlungen zugunsten der Milchproduzenten (Flächenzahlungen) umgelagert. Als wichtiges Instrument der neuen Milchmarktordnung wurde die Zulage für verkäste Milch eingeführt. Für die Verarbeiter verbilligt sie den Rohstoff Milch, so dass der hergestellte Käse im offenen Käsemarkt wettbewerbsfähig ist. Der Motionär fordert, dass der Staat wieder direkt in den Milchmarkt eingreift und die Zulage für verkäste Milch an Mindestpreise für die Milchproduzenten geknüpft wird. Dies würde eine staatliche Kontrolle der Käsereien mit sich ziehen. Jede Käserei müsste genau Buch führen, wie viel Milch in welche Käseproduktion fliesst. Entsprechend müsste jede Position einzeln in der Abrechnung aufgeführt und mit einem Schwellenwert kontrolliert werden, was administrativ extrem aufwändig wäre. Kommt hinzu, dass Preiserhebungen immer mehrere Monate nachlaufend sind und entsprechend nicht das aktuelle Geschehen auf dem Markt abbilden. Im offenen Käsemarkt dürfte eine solch aufwändige staatliche Intervention die Wettbewerbsfähigkeit von Schweizer Käse zusätzlich unter Druck setzen und mittelfristig gegen die Interessen der Milchproduzenten wirken. Die Milchpreise und Milchmengen sollen daher nicht vom Staat festgelegt werden.</p>"
+      "value": "<p>Die Branchen- und Produzentenorganisationen können gestützt auf Artikel 8a des Landwirtschaftsgesetzes (LwG; SR 910.1) auf nationaler oder regionaler Ebene Richtpreise herausgeben, auf die sich die Lieferanten und die Abnehmer geeinigt haben. Diese Richtpreise sollen als Anhaltspunkt für die Preisverhandlungen zwischen den Marktstufen dienen. Die einzelnen Unternehmen können aber nicht dazu gezwungen werden, die Richtpreise einzuhalten.</p><p>Die vorliegende Motion beauftragt den Bundesrat das LwG so anzupassen, dass die Milchproduzenten für die verkäste Milch einen Mindestpreis erhalten müssen, damit die Zulage für verkäste Milch ausgerichtet werden kann. Diese Mindestpreise sollen je nach Käsesorte, respektive Absatzmarkt unterschiedlich festgelegt werden. Für die Kontrolle, ob die Mindestpreise eingehalten werden, wäre der Bund verantwortlich.</p><p>Mit der Agrarpolitik 2002 wurden sämtliche Preis- und Absatzgarantien im Milchmarkt aufgehoben. Die produktgebundene Milchmarktstützung wurde schrittweise reduziert und in Direktzahlungen zugunsten der Milchproduzenten (Flächenzahlungen) umgelagert. Als wichtiges Instrument der neuen Milchmarktordnung wurde die Zulage für verkäste Milch eingeführt. Für die Verarbeiter verbilligt sie den Rohstoff Milch, so dass der hergestellte Käse im offenen Käsemarkt wettbewerbsfähig ist. Der Motionär fordert, dass der Staat wieder direkt in den Milchmarkt eingreift und die Zulage für verkäste Milch an Mindestpreise für die Milchproduzenten geknüpft wird. Dies würde eine staatliche Kontrolle der Käsereien mit sich ziehen. Jede Käserei müsste genau Buch führen, wie viel Milch in welche Käseproduktion fliesst. Entsprechend müsste jede Position einzeln in der Abrechnung aufgeführt und mit einem Schwellenwert kontrolliert werden, was administrativ extrem aufwändig wäre. Kommt hinzu, dass Preiserhebungen immer mehrere Monate nachlaufend sind und entsprechend nicht das aktuelle Geschehen auf dem Markt abbilden. Im offenen Käsemarkt dürfte eine solch aufwändige staatliche Intervention die Wettbewerbsfähigkeit von Schweizer Käse zusätzlich unter Druck setzen und mittelfristig gegen die Interessen der Milchproduzenten wirken. Die Milchpreise und Milchmengen sollen daher nicht vom Staat festgelegt werden.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>In der Medienmitteilung vom 25. Februar 2021 geht die Branchenorganisation Milch (BO Milch) auf meine Motion 20.3945 ein. Sie hält die \"Idee, die Zulage für verkäste Milch an einen Mindestpreis zu koppeln, für prüfenswert\".</p><p>Zugegebenermassen schränkt der Preis für das A-Segment die Wettbewerbsfähigkeit von Käse aus Molkereimilch bei der Ausfuhr ein. Aber es ist unhaltbar, dass der europäische Durchschnittspreis mit dem Zuschlag von 15 Rappen der einzige Mindestpreis für verkäste Milch darstellen soll.</p><p>Um sicherzustellen, dass der 15-Rappen-Zuschlag für verkäste Milch nach Artikel 38 des Landwirtschaftsgesetzes (LWG) den Milchproduzentinnen und -produzenten zufliesst, beauftrage ich den Bundesrat mit dieser Motion: </p><p>a. Artikel 8a LWG mit einem Absatz 5 zu ergänzen und die Richtpreise als Voraussetzung für die Zulage nach Artikel 38 aufzunehmen;</p><p>b. das LWG mit einem System von an die einzelnen Milchproduzentinnen und -produzenten bezahlten Milchmindestpreisen zu ergänzen; dieses System soll Voraussetzung für die Gewährung der Zulage nach Artikel 38 LWG sein und folgenden Voraussetzungen unterliegen:</p><p>1. Für Molkereimilch, die zu Käse für den inländischen Markt verarbeitet wird, muss der Preis, einschliesslich der Zulage nach Artikel 38 LWG, demjenigen des A-Segments der BO Milch entsprechen.</p><p>2. Für Molkereimilch, die zu Käse für die Ausfuhr verarbeitet wird, muss der Preis dem Durchschnittspreis des Observatoriums für den europäischen Markt entsprechen, zuzüglich der Zulage nach Artikel 38 LWG.</p><p>3. Für Milch, die zu Käse verarbeitet wird und aus einer Produktion ohne Silagefütterung stammt und für die die Zulage von 3 Rappen nach Artikel 39 LWG beansprucht werden kann, muss der Mindestpreis den Milchpreisempfehlungen der Branchenorganisationen, einschliesslich der Zulagen nach den Artikeln 38 und 39 LWG, entsprechen.</p><p>4. Für Milch, die zu Käse verarbeitet wird, aus einer Produktion ohne Silagefütterung stammt und für die die Zulage von 3 Rappen nach Artikel 39 LWG beansprucht werden kann, muss, wenn es keine Empfehlungen der Branchenorganisationen gibt, der Mindestpreis, einschliesslich der Zulage nach Artikel 38, dem Preis des A-Segments der BO Milch entsprechen, zuzüglich der Zulage nach Artikel 39.</p><p>5. Fehlen Richtpreise und Empfehlungen, so legt der Bundesrat den Mindestpreis für die entsprechende Milch fest.</p><p>Der Bundesrat stellt sicher, dass den Produzentinnen und Produzenten jedes Jahr der Preis für die gesamte Menge an verkäster Milch und für jeden Abnehmer ausbezahlt wird.</p>"
+      "value": "<p>In der Medienmitteilung vom 25. Februar 2021 geht die Branchenorganisation Milch (BO Milch) auf meine Motion 20.3945 ein. Sie hält die \"Idee, die Zulage für verkäste Milch an einen Mindestpreis zu koppeln, für prüfenswert\".</p><p>Zugegebenermassen schränkt der Preis für das A-Segment die Wettbewerbsfähigkeit von Käse aus Molkereimilch bei der Ausfuhr ein. Aber es ist unhaltbar, dass der europäische Durchschnittspreis mit dem Zuschlag von 15 Rappen der einzige Mindestpreis für verkäste Milch darstellen soll.</p><p>Um sicherzustellen, dass der 15-Rappen-Zuschlag für verkäste Milch nach Artikel 38 des Landwirtschaftsgesetzes (LWG) den Milchproduzentinnen und -produzenten zufliesst, beauftrage ich den Bundesrat mit dieser Motion: </p><p>a. Artikel 8a LWG mit einem Absatz 5 zu ergänzen und die Richtpreise als Voraussetzung für die Zulage nach Artikel 38 aufzunehmen;</p><p>b. das LWG mit einem System von an die einzelnen Milchproduzentinnen und -produzenten bezahlten Milchmindestpreisen zu ergänzen; dieses System soll Voraussetzung für die Gewährung der Zulage nach Artikel 38 LWG sein und folgenden Voraussetzungen unterliegen:</p><p>1. Für Molkereimilch, die zu Käse für den inländischen Markt verarbeitet wird, muss der Preis, einschliesslich der Zulage nach Artikel 38 LWG, demjenigen des A-Segments der BO Milch entsprechen.</p><p>2. Für Molkereimilch, die zu Käse für die Ausfuhr verarbeitet wird, muss der Preis dem Durchschnittspreis des Observatoriums für den europäischen Markt entsprechen, zuzüglich der Zulage nach Artikel 38 LWG.</p><p>3. Für Milch, die zu Käse verarbeitet wird und aus einer Produktion ohne Silagefütterung stammt und für die die Zulage von 3 Rappen nach Artikel 39 LWG beansprucht werden kann, muss der Mindestpreis den Milchpreisempfehlungen der Branchenorganisationen, einschliesslich der Zulagen nach den Artikeln 38 und 39 LWG, entsprechen.</p><p>4. Für Milch, die zu Käse verarbeitet wird, aus einer Produktion ohne Silagefütterung stammt und für die die Zulage von 3 Rappen nach Artikel 39 LWG beansprucht werden kann, muss, wenn es keine Empfehlungen der Branchenorganisationen gibt, der Mindestpreis, einschliesslich der Zulage nach Artikel 38, dem Preis des A-Segments der BO Milch entsprechen, zuzüglich der Zulage nach Artikel 39.</p><p>5. Fehlen Richtpreise und Empfehlungen, so legt der Bundesrat den Mindestpreis für die entsprechende Milch fest.</p><p>Der Bundesrat stellt sicher, dass den Produzentinnen und Produzenten jedes Jahr der Preis für die gesamte Menge an verkäster Milch und für jeden Abnehmer ausbezahlt wird.</p>"
     },
     {
       "type": {

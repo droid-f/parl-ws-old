@@ -1,6 +1,6 @@
 {
   "id": 20200441,
-  "updated": "2020-06-26T07:13:30Z",
+  "updated": "2024-03-26T22:17:43Z",
   "additionalIndexing": "66",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -16,8 +16,8 @@
       "officialDenomination": "Kamerzin"
     },
     "faction": {
-      "abbreviation": "M-E",
-      "id": 139,
+      "abbreviation": "Gruppo M-E",
+      "id": 3,
       "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
     },
     "type": "author"
@@ -49,7 +49,7 @@
               "abbreviation": "CAPTE-CN",
               "id": 7,
               "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CN",
-              "abbreviation1": "CAPTE-CN",
+              "abbreviation1": "CAPTE-N",
               "abbreviation2": "CAPTE",
               "committeeNumber": 7,
               "council": {
@@ -62,8 +62,68 @@
             },
             "council": null,
             "date": "2021-08-23T00:00:00Z",
-            "text": "È dato seguito",
+            "text": "Dare seguito (Camera prioritaria)",
             "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "committee": {
+              "abbreviation": "CAPTE-CS",
+              "id": 20,
+              "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CS",
+              "abbreviation1": "CAPTE-S",
+              "abbreviation2": "CAPTE",
+              "committeeNumber": 20,
+              "council": {
+                "abbreviation": "CS",
+                "id": 2,
+                "name": "Consiglio degli Stati",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2022-09-07T00:00:00Z",
+            "text": "Non approvazione della decisione della commissione della Camera prioritaria (seconda Camera)",
+            "type": 49
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "committee": {
+              "abbreviation": "CAPTE-CN",
+              "id": 7,
+              "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CN",
+              "abbreviation1": "CAPTE-N",
+              "abbreviation2": "CAPTE",
+              "committeeNumber": 7,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Consiglio nazionale",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-08-21T00:00:00Z",
+            "text": "Non dare seguito (appianamento delle divergenze)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Amm."
+            },
+            "council": null,
+            "date": "2023-08-23T00:00:00Z",
+            "text": "Ritirato",
+            "type": 17
           }
         ]
       },
@@ -76,10 +136,55 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-08-23T10:08:15Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3145,
+                    "gender": "m",
+                    "id": 4253,
+                    "name": "Clivaz Christophe",
+                    "officialDenomination": "Clivaz Christophe"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo G",
+                    "id": 6,
+                    "name": "Gruppo dei Verdi"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CAPTE-CN",
             "id": 7,
             "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CN",
-            "abbreviation1": "CAPTE-CN",
+            "abbreviation1": "CAPTE-N",
             "abbreviation2": "CAPTE",
             "committeeNumber": 7,
             "council": {
@@ -96,6 +201,11 @@
               "correspondents": [
 
               ]
+            },
+            {
+              "correspondents": [
+
+              ]
             }
           ]
         },
@@ -104,7 +214,7 @@
             "abbreviation": "CAPTE-CS",
             "id": 20,
             "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CS",
-            "abbreviation1": "CAPTE-CS",
+            "abbreviation1": "CAPTE-S",
             "abbreviation2": "CAPTE",
             "committeeNumber": 20,
             "council": {
@@ -130,17 +240,38 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1591740000000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1662674400000+0200)/",
+          "id": 223,
+          "name": "Esame preliminare - nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1662760800000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1692741600000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -178,7 +309,7 @@
         "gender": "m",
         "id": 4070,
         "name": "Candinas Martin",
-        "officialDenomination": "Candinas"
+        "officialDenomination": "Candinas Martin"
       },
       "type": "cosign"
     },
@@ -291,8 +422,8 @@
         "officialDenomination": "Kamerzin"
       },
       "faction": {
-        "abbreviation": "M-E",
-        "id": 139,
+        "abbreviation": "Gruppo M-E",
+        "id": 3,
         "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
       },
       "type": "author"
@@ -300,8 +431,8 @@
   ],
   "shortId": "20.441",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
     "newKey": 0
   },
@@ -311,7 +442,7 @@
         "id": 6,
         "name": "Motivazione"
       },
-      "value": "<p>Con la sua accettazione nel 2017 in votazione popolare, la Strategia energetica 2050 pone fine in modo programmato all'energia nucleare. Per sostituire questa modalità di produzione energetica, che attualmente rappresenta in Svizzera il 36 per cento dell'elettricità prodotta e il 17 per cento dell'elettricità consumata, occorrerà trovare a medio termine soluzioni che consentano di aumentare drasticamente la produzione di energie rinnovabili indigene, fra cui l'energia idrica, eolica e solare.</p><p>La Commissione federale dell'energia elettrica (ElCom) ha peraltro raccomandato al Consiglio federale di aumentare la produzione di elettricità indigena in inverno per tener conto della futura riduzione delle capacità esportatrici dei Paesi vicini. Le importazioni nette invernali non dovrebbero superare 10 TWh (cfr. conferenza stampa dell'ElCom: <a  href=\"https://www.elcom.admin.ch/elcom/it/home/documentazione/medienmitteilungen.msg-id-79322.html\">https://www.elcom.admin.ch/elcom/it/home/documentazione/medienmitteilungen.msg-id-79322.html</a></p><p>Attualmente, numerosi di questi progetti subiscono, nello scenario migliore, ritardi di anni o, in quello peggiore, vengono abbandonati in seguito all'accoglimento di un ricorso. È il caso ad esempio del progetto idrico Lugnez nei Grigioni (<a  href=\"http://www.kwz.ch/projekte/projekt-lugnez/\">http://www.kwz.ch/projekte/projekt-lugnez/</a>) bloccato da procedure in corso (cfr. decisione del Tribunale federale del 12 ottobre 2016 pubblicata in DTF 142 II 517) o del progetto di innalzamento della diga del Grimsel (cfr. segnatamente la decisione del Tribunale federale DTF 143 II 241), ecc.</p><p>Di conseguenza, al fine di agevolare l'attuazione di questi progetti - ad esempio nel settore idrico - entro termini ragionevoli, l'interesse nazionale alla loro realizzazione deve essere considerato come preponderante rispetto ad altri interessi nazionali, qualora un'autorità competente proceda a soppesare gli interessi in gioco, sia nella fase di approvazione del progetto sia in quella di un'eventuale procedura di ricorso.</p><p>L'articolo 12 capoverso 3 LEne dev'essere pertanto modificato come segue: \"Quando un'autorità decide sull'autorizzazione di un progetto di costruzione, ampliamento o rinnovamento di impianti o centrali di pompaggio di cui al capoverso 2 oppure sul rilascio di concessioni per tali impianti o centrali, nella ponderazione degli interessi l'interesse nazionale alla realizzazione di detti progetti è considerato come preponderante rispetto ad altri interessi nazionali.\"</p>"
+      "value": "<p>Con la sua accettazione nel 2017 in votazione popolare, la Strategia energetica 2050 pone fine in modo programmato all'energia nucleare. Per sostituire questa modalità di produzione energetica, che attualmente rappresenta in Svizzera il 36 per cento dell'elettricità prodotta e il 17 per cento dell'elettricità consumata, occorrerà trovare a medio termine soluzioni che consentano di aumentare drasticamente la produzione di energie rinnovabili indigene, fra cui l'energia idrica, eolica e solare.</p><p>La Commissione federale dell'energia elettrica (ElCom) ha peraltro raccomandato al Consiglio federale di aumentare la produzione di elettricità indigena in inverno per tener conto della futura riduzione delle capacità esportatrici dei Paesi vicini. Le importazioni nette invernali non dovrebbero superare 10 TWh (cfr. conferenza stampa dell'ElCom: <a href=\"https://www.elcom.admin.ch/elcom/it/home/documentazione/medienmitteilungen.msg-id-79322.html\">https://www.elcom.admin.ch/elcom/it/home/documentazione/medienmitteilungen.msg-id-79322.html</a></p><p>Attualmente, numerosi di questi progetti subiscono, nello scenario migliore, ritardi di anni o, in quello peggiore, vengono abbandonati in seguito all'accoglimento di un ricorso. È il caso ad esempio del progetto idrico Lugnez nei Grigioni (<a href=\"http://www.kwz.ch/projekte/projekt-lugnez/\">http://www.kwz.ch/projekte/projekt-lugnez/</a>) bloccato da procedure in corso (cfr. decisione del Tribunale federale del 12 ottobre 2016 pubblicata in DTF 142 II 517) o del progetto di innalzamento della diga del Grimsel (cfr. segnatamente la decisione del Tribunale federale DTF 143 II 241), ecc.</p><p>Di conseguenza, al fine di agevolare l'attuazione di questi progetti - ad esempio nel settore idrico - entro termini ragionevoli, l'interesse nazionale alla loro realizzazione deve essere considerato come preponderante rispetto ad altri interessi nazionali, qualora un'autorità competente proceda a soppesare gli interessi in gioco, sia nella fase di approvazione del progetto sia in quella di un'eventuale procedura di ricorso.</p><p>L'articolo 12 capoverso 3 LEne dev'essere pertanto modificato come segue: \"Quando un'autorità decide sull'autorizzazione di un progetto di costruzione, ampliamento o rinnovamento di impianti o centrali di pompaggio di cui al capoverso 2 oppure sul rilascio di concessioni per tali impianti o centrali, nella ponderazione degli interessi l'interesse nazionale alla realizzazione di detti progetti è considerato come preponderante rispetto ad altri interessi nazionali.\"</p>"
     },
     {
       "type": {

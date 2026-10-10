@@ -1,6 +1,6 @@
 {
   "id": 20194594,
-  "updated": "2021-09-30T16:10:01Z",
+  "updated": "2024-03-26T21:37:07Z",
   "additionalIndexing": "15;52;10",
   "affairType": {
     "abbreviation": "Mo.",
@@ -16,8 +16,8 @@
       "officialDenomination": "Streiff"
     },
     "faction": {
-      "abbreviation": "M-E",
-      "id": 139,
+      "abbreviation": "Groupe M-E",
+      "id": 3,
       "name": "Le Groupe du Centre. Le Centre. PEV."
     },
     "type": "author"
@@ -54,6 +54,21 @@
             "date": "2021-09-30T00:00:00Z",
             "text": "Adoption",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-12-20T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
           }
         ]
       },
@@ -69,10 +84,55 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-16T09:15:32Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3197,
+                    "gender": "f",
+                    "id": 4242,
+                    "name": "Vara Céline",
+                    "officialDenomination": "Vara"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe G",
+                    "id": 6,
+                    "name": "Groupe des VERT-E-S"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CAJ-CN",
             "id": 12,
             "name": "Commission des affaires juridiques CN",
-            "abbreviation1": "CAJ-CN",
+            "abbreviation1": "CAJ-N",
             "abbreviation2": "CAJ",
             "committeeNumber": 12,
             "council": {
@@ -93,7 +153,7 @@
             "abbreviation": "CAJ-CE",
             "id": 25,
             "name": "Commission des affaires juridiques CE",
-            "abbreviation1": "CAJ-CE",
+            "abbreviation1": "CAJ-E",
             "abbreviation2": "CAJ",
             "committeeNumber": 25,
             "council": {
@@ -106,7 +166,11 @@
           },
           "date": "2019-12-20T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
           ]
         }
       ],
@@ -129,8 +193,23 @@
         },
         {
           "date": "/Date(1632952800000+0200)/",
-          "id": 11,
-          "name": "Motion au 2e conseil"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1696543200000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1697148000000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1703026800000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -321,8 +400,8 @@
         "officialDenomination": "Streiff"
       },
       "faction": {
-        "abbreviation": "M-E",
-        "id": 139,
+        "abbreviation": "Groupe M-E",
+        "id": 3,
         "name": "Le Groupe du Centre. Le Centre. PEV."
       },
       "type": "author"
@@ -330,10 +409,9 @@
   ],
   "shortId": "19.4594",
   "state": {
-    "id": 11,
-    "name": "Motion au 2e conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -342,14 +420,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Les produits destinés aux consommateurs finaux sont aujourd'hui souvent conçus de manière à devenir trop rapidement défectueux, ce qui explique qu'ils tombent en panne peu après la fin du délai de garantie, actuellement de deux ans, obligeant à les racheter. A cela s'ajoute que le droit actuel ne donne au consommateur aucun moyen de faire en sorte que le produit qu'il a acquis offre effectivement les performances garanties par contrat. Aussi porter à cinq ans le délai de garantie applicable aux produits inciterait-il les entreprises à modifier la conception de leurs produits de façon à allonger leur durée de vie.</p><p>De nombreux pays d'Europe ont déjà adopté des délais de garantie plus longs. Ils sont ainsi de cinq ans en Islande et en Norvège (pour les produits à durée de vie moyenne relativement longue) et généralement de six ans en Irlande, le Royaume-Uni connaissant deux délais différents : de six ans en Angleterre, au Pays de Galles et en Irlande du Nord, et de cinq ans en Ecosse.</p><p>Comme les délais de garantie sont souvent nettement plus longs dans l'UE qu'en Suisse, la vente de produits de moins bonne qualité ou d'une durée de vie moindre n'y est plus commercialement rentable : ils sont donc importés dans des pays où les délais de garantie sont plus courts, notamment en Suisse.</p><p>Allonger la durée de vie des produits serait bon pour l'environnement, en préservant les ressources naturelles et le climat, et en réduisant les déchets. En outre, des produits qui fonctionnent plus longtemps sont synonymes de pouvoir d'achat accru pour le consommateur.</p>"
+      "value": "<p>Les produits destinés aux consommateurs finaux sont aujourd'hui souvent conçus de manière à devenir trop rapidement défectueux, ce qui explique qu'ils tombent en panne peu après la fin du délai de garantie, actuellement de deux ans, obligeant à les racheter. À cela s'ajoute que le droit actuel ne donne au consommateur aucun moyen de faire en sorte que le produit qu'il a acquis offre effectivement les performances garanties par contrat. Aussi porter à cinq ans le délai de garantie applicable aux produits inciterait-il les entreprises à modifier la conception de leurs produits de façon à allonger leur durée de vie.</p><p>De nombreux pays d'Europe ont déjà adopté des délais de garantie plus longs. Ils sont ainsi de cinq ans en Islande et en Norvège (pour les produits à durée de vie moyenne relativement longue) et généralement de six ans en Irlande, le Royaume-Uni connaissant deux délais différents : de six ans en Angleterre, au Pays de Galles et en Irlande du Nord, et de cinq ans en Écosse.</p><p>Comme les délais de garantie sont souvent nettement plus longs dans l'UE qu'en Suisse, la vente de produits de moins bonne qualité ou d'une durée de vie moindre n'y est plus commercialement rentable : ils sont donc importés dans des pays où les délais de garantie sont plus courts, notamment en Suisse.</p><p>Allonger la durée de vie des produits serait bon pour l'environnement, en préservant les ressources naturelles et le climat, et en réduisant les déchets. En outre, des produits qui fonctionnent plus longtemps sont synonymes de pouvoir d'achat accru pour le consommateur.</p>"
     },
     {
       "type": {
         "id": 14,
         "name": "Réponse CF / Bureau"
       },
-      "value": "<p>L'art. 210, al. 1, du code des obligations (CO ; RS 220) fixe à deux ans le délai de prescription de l'action en garantie pour les défauts de la chose. Ce délai correspond à celui qui est prévu par la directive 1999/44/CE sur certains aspects de la vente et des garanties des biens de consommation. La prolongation à cinq ans que demande l'auteur de la motion dépasse de loin les prescriptions de la directive européenne. Le Conseil fédéral s'y oppose, confirmant ainsi l'avis qu'il a exprimé en réponse à la motion 17.3178 Streiff, intitulée \" Accroître la satisfaction des consommateurs tout en renforçant la protection de l'environnement \", qui poursuivait le même but que la présente motion. Nous nous permettons de rappeler qu'une forte majorité des Etats membres de l'UE, et notamment les pays limitrophes de la Suisse, prévoient également un délai de prescription de deux ans. Ce même délai a en outre été repris dans la nouvelle directive (UE) 2019/771 du 20 mai 2019 relative à certains aspects concernant les contrats de vente de biens, modifiant le règlement (UE) 2017/2394 et la directive 2009/22/CE et abrogeant la directive 1999/44/CE. Dans ces circonstances, la motion doit être rejetée, car elle impliquerait des désavantages pour les vendeurs suisses, qui devraient dans la plupart des cas supporter seuls les conséquences financières de la prolongation de la garantie.</p><p>Le Conseil fédéral a au demeurant été chargé par le postulat 18.3248 Marchand-Balet \" Obsolescence programmée. Protéger les consommateurs helvétiques \" d'établir un rapport sur la situation légale qui encadre l'obsolescence programmée en Suisse et de dresser un comparatif au niveau international. Les délais de garantie font en outre également l'objet d'un examen mené en lien avec l'élaboration du rapport du Conseil fédéral en réponse au postulat 17.3505 Vonlanthen \" Etudier les incitations fiscales et autres mesures susceptibles de stimuler l'économie circulaire afin de saisir ses opportunités \". Il est important de ne pas anticiper les résultats de ces travaux, qui pourraient apporter des solutions moins incisives s'agissant de la durée de vie des produits.</p>"
+      "value": "<p>L'art. 210, al. 1, du code des obligations (CO ; RS 220) fixe à deux ans le délai de prescription de l'action en garantie pour les défauts de la chose. Ce délai correspond à celui qui est prévu par la directive 1999/44/CE sur certains aspects de la vente et des garanties des biens de consommation. La prolongation à cinq ans que demande l'auteur de la motion dépasse de loin les prescriptions de la directive européenne. Le Conseil fédéral s'y oppose, confirmant ainsi l'avis qu'il a exprimé en réponse à la motion 17.3178 Streiff, intitulée \" Accroître la satisfaction des consommateurs tout en renforçant la protection de l'environnement \", qui poursuivait le même but que la présente motion. Nous nous permettons de rappeler qu'une forte majorité des États membres de l'UE, et notamment les pays limitrophes de la Suisse, prévoient également un délai de prescription de deux ans. Ce même délai a en outre été repris dans la nouvelle directive (UE) 2019/771 du 20 mai 2019 relative à certains aspects concernant les contrats de vente de biens, modifiant le règlement (UE) 2017/2394 et la directive 2009/22/CE et abrogeant la directive 1999/44/CE. Dans ces circonstances, la motion doit être rejetée, car elle impliquerait des désavantages pour les vendeurs suisses, qui devraient dans la plupart des cas supporter seuls les conséquences financières de la prolongation de la garantie.</p><p>Le Conseil fédéral a au demeurant été chargé par le postulat 18.3248 Marchand-Balet \" Obsolescence programmée. Protéger les consommateurs helvétiques \" d'établir un rapport sur la situation légale qui encadre l'obsolescence programmée en Suisse et de dresser un comparatif au niveau international. Les délais de garantie font en outre également l'objet d'un examen mené en lien avec l'élaboration du rapport du Conseil fédéral en réponse au postulat 17.3505 Vonlanthen \" Etudier les incitations fiscales et autres mesures susceptibles de stimuler l'économie circulaire afin de saisir ses opportunités \". Il est important de ne pas anticiper les résultats de ces travaux, qui pourraient apporter des solutions moins incisives s'agissant de la durée de vie des produits.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {

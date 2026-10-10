@@ -1,6 +1,6 @@
 {
   "id": 20224282,
-  "updated": "2023-05-03T17:23:16Z",
+  "updated": "2024-03-26T22:11:29Z",
   "additionalIndexing": "2846;66",
   "affairType": {
     "abbreviation": "Mo.",
@@ -69,6 +69,21 @@
             "date": "2023-05-03T00:00:00Z",
             "text": "Adoption",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-09-14T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
           }
         ]
       },
@@ -82,7 +97,97 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CEATE-CN",
+            "id": 7,
+            "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CN",
+            "abbreviation1": "CEATE-N",
+            "abbreviation2": "CEATE",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-11-28T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CEATE-CE",
+            "id": 20,
+            "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CE",
+            "abbreviation1": "CEATE-E",
+            "abbreviation2": "CEATE",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-11-28T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-09-04T09:49:17Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3196,
+                    "gender": "m",
+                    "id": 4241,
+                    "name": "Stark Jakob",
+                    "officialDenomination": "Stark"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe V",
+                    "id": 4,
+                    "name": "Groupe de l'Union démocratique du Centre"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -103,8 +208,23 @@
         },
         {
           "date": "/Date(1683064800000+0200)/",
-          "id": 11,
-          "name": "Motion au 2e conseil"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1688162400000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1693778400000+0200)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1694642400000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -154,19 +274,25 @@
   ],
   "shortId": "22.4282",
   "state": {
-    "id": 11,
-    "name": "Motion au 2e conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "Le Conseil fédéral propose d'accepter la motion."
+    },
+    {
+      "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Le Conseil fédéral est chargé de modifier l'article 18a de la LAT afin que dans les zones à bâtir et dans les zones agricoles, les travaux d'assainissement énergétiques ne nécessitent plus d'autorisation selon l'article 22 alinéa 1, au même titre que les installations solaires. De tels projets doivent être annoncés à l'autorité compétente. </p><p>La rénovation des bâtiments est un défi pour tous les propriétaires d'immeubles. Il s'agit de conjuguer les mesures d'isolation permettant d'économiser le maximum d'énergie et l'installation de nouveaux systèmes de production d'énergie, que ce soit par la pose de panneaux solaires ou tout autre système qui ne recourent plus aux énergies fossiles. Les solutions techniques existent. Des subventions sont proposées et les coûts sont attractifs. Malheureusement, les lois et procédures ont souvent du retard face aux besoins de la population.</p><p>La LAT à l'article 18a et l'OAT article 32a autorisent l'installation de panneaux solaires dans les zones à bâtir et les zones agricoles sans procédure d'autorisation. Mais les isolations périphériques des bâtiments sont considérées comme des transformations soumises à permis de construire au sens de l'article 22 alinéa 1 LAT.  </p><p>Si cette qualification n'empêche pas la rénovation des bâtiments existants avant 1972 et bénéficiant de la garantie de la situation acquise, ce pour autant que l'on admette que l'identité du bâtiment est respectée, l'isolation doit rester dans le cadre des augmentations de surfaces permises par l'article 42 OAT. De plus, cette qualification rend impossible l'isolation périphérique des constructions qui entrent dans le champ d'application de l'article 24a ou 24d alinéa 1 LAT.  Ces articles renvoient à l'article 22 alinéa 1 LAT pour définir la limite des travaux non soumis à autorisation. Ainsi, seul un crépi isolant pourrait être réalisé à titre de travaux d'entretien. Insuffisant pour une isolation efficiente.</p><p>Or les travaux d'assainissement énergétiques qui passent par l'installation de systèmes de chauffages plus écologiques, l'isolation thermique, la production d'énergie renouvelable (installations solaires, éoliennes de petite taille, pompes à chaleurs etc.) et les vitrages pour capter l'énergie solaire (chauffage passif) et une isolation périphérique efficiente sont nécessaire pour garantir une économie d'énergie. Il est urgent de faciliter les démarches à leur autorisation.</p>"
+      "value": "<p>Le Conseil fédéral est chargé de modifier l'article 18a de la LAT afin que dans les zones à bâtir et dans les zones agricoles, les travaux d'assainissement énergétiques ne nécessitent plus d'autorisation selon l'art.&nbsp;22, al.&nbsp;1, au même titre que les installations solaires. De tels projets doivent être annoncés à l'autorité compétente.</p><p>La rénovation des bâtiments est un défi pour tous les propriétaires d'immeubles. Il s'agit de conjuguer les mesures d'isolation permettant d'économiser le maximum d'énergie et l'installation de nouveaux systèmes de production d'énergie, que ce soit par la pose de panneaux solaires ou tout autre système qui ne recourent plus aux énergies fossiles. Les solutions techniques existent. Des subventions sont proposées et les coûts sont attractifs. Malheureusement, les lois et procédures ont souvent du retard face aux besoins de la population.</p><p>La LAT à l'article 18a et l'OAT article 32a autorisent l'installation de panneaux solaires dans les zones à bâtir et les zones agricoles sans procédure d'autorisation. Mais les isolations périphériques des bâtiments sont considérées comme des transformations soumises à permis de construire au sens de l'art.&nbsp;22, al.&nbsp;1, LAT.</p><p>Si cette qualification n'empêche pas la rénovation des bâtiments existants avant 1972 et bénéficiant de la garantie de la situation acquise, ce pour autant que l'on admette que l'identité du bâtiment est respectée, l'isolation doit rester dans le cadre des augmentations de surfaces permises par l'article 42 OAT. De plus, cette qualification rend impossible l'isolation périphérique des constructions qui entrent dans le champ d'application de l'article 24a ou 24d alinéa 1 LAT. Ces articles renvoient à l'art.&nbsp;22, al.&nbsp;1, LAT pour définir la limite des travaux non soumis à autorisation. Ainsi, seul un crépi isolant pourrait être réalisé à titre de travaux d'entretien. Insuffisant pour une isolation efficiente.</p><p>Or les travaux d'assainissement énergétiques qui passent par l'installation de systèmes de chauffages plus écologiques, l'isolation thermique, la production d'énergie renouvelable (installations solaires, éoliennes de petite taille, pompes à chaleurs etc.) et les vitrages pour capter l'énergie solaire (chauffage passif) et une isolation périphérique efficiente sont nécessaires pour garantir une économie d'énergie. Il est urgent de faciliter les démarches à leur autorisation.</p>"
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20214533,
-  "updated": "2023-05-04T17:35:13Z",
+  "updated": "2024-03-26T22:22:41Z",
   "additionalIndexing": "09;24;1216;04;28",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2023-05-04T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-12T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -68,7 +83,99 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-08-18T11:20:37Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2632,
+                    "gender": "m",
+                    "id": 1120,
+                    "name": "Sommaruga Carlo",
+                    "officialDenomination": "Sommaruga Carlo"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion S",
+                    "code": "S",
+                    "id": 2,
+                    "name": "Sozialdemokratische Fraktion"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-12-16T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-12-16T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +196,23 @@
         },
         {
           "date": "/Date(1683151200000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1692309600000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1694469600000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -470,10 +592,9 @@
   ],
   "shortId": "21.4533",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -489,7 +610,7 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Die Anwendung des Opferhilfegesetzes (OHG; SR 312.5) auf Opfer von im Ausland begangenen Straftaten gibt regelmässig Anlass zu Diskussionen. Letztere drehen sich grundsätzlich um zwei verschiedene Themen: einerseits um die fehlende Entschädigung oder Genugtuung für Opfer, die ihren Wohnsitz zum Zeitpunkt der Tat in der Schweiz hatten, andererseits um den Umfang des Zugangs zu Unterstützungsleistungen für Opfer, die zum Zeitpunkt der Tat keinen Wohnsitz in der Schweiz hatten. Die vorliegende Motion betrifft die erste Problematik. Sie verlangt, dass die Schweiz Personen mit Wohnsitz in der Schweiz entschädigt, wenn diese im Ausland Opfer von Gewalt wurden. Bereits im Jahr 2020 wurden die Interpellation 20.4536 und in der Folge das Postulat 21.3144 eingereicht mit der Forderung, einen Fonds zu errichten, damit die Opfer terroristischer Gewalt im Ausland besser unterstützt werden können. Der Nationalrat hat das Postulat am 18. Juni 2021 entsprechend dem Antrag des Bundesrates abgelehnt.</p><p>Wie der Bundesrat in seinen Stellungnahmen zur Interpellation de Quattro 20.4536 und zum Postulat de Quattro 21.3144 dargelegt hat, ist er der Ansicht, dass die 2007 vom Bundesgesetzgeber bei der Revision des OHG berücksichtigten Argumente gegen das Anliegen der vorliegenden Motion nach wie vor gültig sind. Er betont, dass die Opfer von Straftaten im Ausland, die ihren Wohnsitz zum Zeitpunkt der Tat in der Schweiz hatten, heute nach den Artikeln 3 und 17 OHG Anspruch auf die Leistungen der Beratungsstellen haben. Es obliegt hingegen nicht der Schweiz, eine Entschädigung oder Genugtuung für eine Straftat auszurichten, die nicht auf ihrem Hoheitsgebiet verübt wurde. Aus Sicht des Bundesrates liegt es in der Verantwortung desjenigen Staates, in dem die Taten verübt wurden, den durch die Straftat verursachten Schaden wiedergutzumachen. Diese Lösung entspricht der Lösung gemäss dem Europäischen Übereinkommen vom 24. November 1983 über die Entschädigung für Opfer von Gewalttaten (SR 0.312.5). Damit wird ausserdem berücksichtigt, dass die Schweiz weder auf die wirksame Verhütung der Kriminalität im Ausland noch auf die dortige Strafverfolgung Einfluss nehmen kann.</p><p>In Bezug auf den Garantiefonds für die Opfer von Terrorakten und anderen schweren Straftaten (FGTI) in Frankreich verweist der Bundesrat auf Ziffer 4 der Stellungnahme vom 17. Februar 2021 zur Interpellation 20.4536. Darüber hinaus bezweifelt er, dass die Errichtung eines besonderen Fonds für die Opfer bestimmter Straftaten in der Schweiz gegenüber den Opfern anderer Straftaten, die nicht davon profitieren könnten, eine angemessene und gerechte Lösung darstellt. Es stellt sich ferner die Frage, auf Grundlage welches Kriteriums die zuständige Behörde entscheiden soll, dass die Person Opfer einer Straftat war, die als \"schwere Gewalttat\" qualifiziert werden kann. Schliesslich hält der Bundesrat fest, dass der FGTI durch die Versicherten finanziert wird und nicht durch den französischen Staat.</p>"
+      "value": "<p>Die Anwendung des Opferhilfegesetzes (OHG; SR 312.5) auf Opfer von im Ausland begangenen Straftaten gibt regelmässig Anlass zu Diskussionen. Letztere drehen sich grundsätzlich um zwei verschiedene Themen: einerseits um die fehlende Entschädigung oder Genugtuung für Opfer, die ihren Wohnsitz zum Zeitpunkt der Tat in der Schweiz hatten, andererseits um den Umfang des Zugangs zu Unterstützungsleistungen für Opfer, die zum Zeitpunkt der Tat keinen Wohnsitz in der Schweiz hatten. Die vorliegende Motion betrifft die erste Problematik. Sie verlangt, dass die Schweiz Personen mit Wohnsitz in der Schweiz entschädigt, wenn diese im Ausland Opfer von Gewalt wurden. Bereits im Jahr 2020 wurden die Interpellation 20.4536 und in der Folge das Postulat 21.3144 eingereicht mit der Forderung, einen Fonds zu errichten, damit die Opfer terroristischer Gewalt im Ausland besser unterstützt werden können. Der Nationalrat hat das Postulat am 18. Juni 2021 entsprechend dem Antrag des Bundesrates abgelehnt.</p><p>Wie der Bundesrat in seinen Stellungnahmen zur Interpellation de Quattro 20.4536 und zum Postulat de Quattro 21.3144 dargelegt hat, ist er der Ansicht, dass die 2007 vom Bundesgesetzgeber bei der Revision des OHG berücksichtigten Argumente gegen das Anliegen der vorliegenden Motion nach wie vor gültig sind. Er betont, dass die Opfer von Straftaten im Ausland, die ihren Wohnsitz zum Zeitpunkt der Tat in der Schweiz hatten, heute nach den Artikeln 3 und 17 OHG Anspruch auf die Leistungen der Beratungsstellen haben. Es obliegt hingegen nicht der Schweiz, eine Entschädigung oder Genugtuung für eine Straftat auszurichten, die nicht auf ihrem Hoheitsgebiet verübt wurde. Aus Sicht des Bundesrates liegt es in der Verantwortung desjenigen Staates, in dem die Taten verübt wurden, den durch die Straftat verursachten Schaden wiedergutzumachen. Diese Lösung entspricht der Lösung gemäss dem Europäischen Übereinkommen vom 24. November 1983 über die Entschädigung für Opfer von Gewalttaten (SR 0.312.5). Damit wird ausserdem berücksichtigt, dass die Schweiz weder auf die wirksame Verhütung der Kriminalität im Ausland noch auf die dortige Strafverfolgung Einfluss nehmen kann.</p><p>In Bezug auf den Garantiefonds für die Opfer von Terrorakten und anderen schweren Straftaten (FGTI) in Frankreich verweist der Bundesrat auf Ziffer 4 der Stellungnahme vom 17. Februar 2021 zur Interpellation 20.4536. Darüber hinaus bezweifelt er, dass die Errichtung eines besonderen Fonds für die Opfer bestimmter Straftaten in der Schweiz gegenüber den Opfern anderer Straftaten, die nicht davon profitieren könnten, eine angemessene und gerechte Lösung darstellt. Es stellt sich ferner die Frage, auf Grundlage welches Kriteriums die zuständige Behörde entscheiden soll, dass die Person Opfer einer Straftat war, die als \"schwere Gewalttat\" qualifiziert werden kann. Schliesslich hält der Bundesrat fest, dass der FGTI durch die Versicherten finanziert wird und nicht durch den französischen Staat.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

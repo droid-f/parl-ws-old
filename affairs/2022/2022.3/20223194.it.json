@@ -1,6 +1,6 @@
 {
   "id": 20223194,
-  "updated": "2023-06-07T11:49:01Z",
+  "updated": "2024-03-26T22:07:12Z",
   "additionalIndexing": "1216;24;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2023-06-07T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-09-12T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
           }
         ]
       },
@@ -67,7 +82,93 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CAG-CN",
+            "id": 12,
+            "name": "Commissione degli affari giuridici CN",
+            "abbreviation1": "CAG-N",
+            "abbreviation2": "CAG",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-17T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAG-CS",
+            "id": 25,
+            "name": "Commissione degli affari giuridici CS",
+            "abbreviation1": "CAG-S",
+            "abbreviation2": "CAG",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-17T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-08-18T09:32:11Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2632,
+                    "gender": "m",
+                    "id": 1120,
+                    "name": "Sommaruga Carlo",
+                    "officialDenomination": "Sommaruga Carlo"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo S",
+                    "id": 2,
+                    "name": "Gruppo socialista"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +189,23 @@
         },
         {
           "date": "/Date(1686088800000+0200)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1692309600000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1694469600000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -129,10 +245,9 @@
   ],
   "shortId": "22.3194",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -148,7 +263,7 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>Il tetto posto alla riparazione morale era uno dei punti essenziali dell'ultima revisione totale della legge federale concernente l'aiuto alle vittime di reati (LAV; RS 312.5). Questa revisione mirava in particolare ad attuare una richiesta urgente dei Cantoni di ridurre i costi da essi sopportati nel settore della riparazione morale (FF 2005 6351, 6368 segg.). Nel suo messaggio, il Consiglio federale fa inoltre riferimento, in relazione al tetto massimo della riparazione, al principio di sussidiarietà e indica che in base a questo principio è legittimo che lo Stato non copra necessariamente i danni subiti nella loro integrità (FF 2005 6351, 6369). La natura giuridica della riparazione morale ai sensi della LAV si fonda sul diritto pubblico e si distingue quindi da quella prevista dal diritto civile. La riparazione morale ai sensi della LAV non è l'espressione della responsabilità dell'autore, ma della solidarietà della collettività pubblica a titolo sussidiario. Il messaggio del Consiglio federale pone inoltre l'accento sulla parità di trattamento tra le vittime nonché sull'unificazione della concessione di riparazioni morali (FF 2005 6351, 6385, 6407 e 6411). In quest'ottica, l'Ufficio federale di giustizia ha pubblicato una guida per stabilire l'importo della riparazione morale secondo la LAV. Questa guida è stata rielaborata completamente nel 2019 per migliorare la situazione delle vittime.</p><p>Prevedere che il diritto cantonale possa stabilire limiti superiori quando l'importo della riparazione morale è fissato dal giudice sarebbe contrario agli obiettivi perseguiti in occasione di questa revisione e alla volontà del legislatore. Una tale disposizione comporterebbe in particolare un aumento dei costi sostenuti dai Cantoni. Rimetterebbe peraltro in discussione la natura della riparazione morale ai sensi della LAV e creerebbe disparità di trattamento tra le vittime che dispongono di una sentenza riguardante le loro pretese fondate sul diritto civile e quelle che non possono far valere una tale decisione.</p><p>La possibilità per i Cantoni di fissare limiti diversi comporterebbe differenze importanti a livello cantonale. Se esistesse una volontà politica in tal senso, occorrerebbe piuttosto aumentare l'importo massimo previsto dalla LAV. Va tuttavia segnalato che i Cantoni raramente esauriscono gli importi massimi. Potrebbero pertanto già oggi esercitare il loro margine di apprezzamento in maniera più generosa a favore delle vittime.</p><p>Inoltre il Consiglio nazionale ha di recente negato la necessità di rivedere la LAV respingendo il 30 ottobre 2020, con 111 voti contro 63, la mozione del Gruppo socialista 19.3040 \"Attuazione delle raccomandazioni della valutazione della LAV. Migliorare la posizione delle vittime\", che domandava, tra le altre cose, di rafforzare i diritti della vittima a ottenere una riparazione morale.</p><p>Il Consiglio federale osserva infine che sebbene la vigente legislazione federale non permetta ai Cantoni di prevedere limiti più elevati, essi possono, nel quadro delle loro competenze, adottare una legge cantonale con uno scopo diverso da quello perseguito dalla LAV al fine di sostenere maggiormente le vittime (p. es. il reinserimento professionale o la lotta contro la povertà). In questo caso non è necessaria una modifica della legge federale.</p>"
+      "value": "<p>Il tetto posto alla riparazione morale era uno dei punti essenziali dell'ultima revisione totale della legge federale concernente l'aiuto alle vittime di reati (LAV; RS 312.5). Questa revisione mirava in particolare ad attuare una richiesta urgente dei Cantoni di ridurre i costi da essi sopportati nel settore della riparazione morale (FF 2005 6351, 6368 segg.). Nel suo messaggio, il Consiglio federale fa inoltre riferimento, in relazione al tetto massimo della riparazione, al principio di sussidiarietà e indica che in base a questo principio è legittimo che lo Stato non copra necessariamente i danni subiti nella loro integrità (FF 2005 6351, 6369). La natura giuridica della riparazione morale ai sensi della LAV si fonda sul diritto pubblico e si distingue quindi da quella prevista dal diritto civile. La riparazione morale ai sensi della LAV non è l'espressione della responsabilità dell'autore, ma della solidarietà della collettività pubblica a titolo sussidiario. Il messaggio del Consiglio federale pone inoltre l'accento sulla parità di trattamento tra le vittime nonché sull'unificazione della concessione di riparazioni morali (FF 2005 6351, 6385, 6407 e 6411). In quest'ottica, l'Ufficio federale di giustizia ha pubblicato una guida per stabilire l'importo della riparazione morale secondo la LAV. Questa guida è stata rielaborata completamente nel 2019 per migliorare la situazione delle vittime.</p><p>Prevedere che il diritto cantonale possa stabilire limiti superiori quando l'importo della riparazione morale è fissato dal giudice sarebbe contrario agli obiettivi perseguiti in occasione di questa revisione e alla volontà del legislatore. Una tale disposizione comporterebbe in particolare un aumento dei costi sostenuti dai Cantoni. Rimetterebbe peraltro in discussione la natura della riparazione morale ai sensi della LAV e creerebbe disparità di trattamento tra le vittime che dispongono di una sentenza riguardante le loro pretese fondate sul diritto civile e quelle che non possono far valere una tale decisione.</p><p>La possibilità per i Cantoni di fissare limiti diversi comporterebbe differenze importanti a livello cantonale. Se esistesse una volontà politica in tal senso, occorrerebbe piuttosto aumentare l'importo massimo previsto dalla LAV. Va tuttavia segnalato che i Cantoni raramente esauriscono gli importi massimi. Potrebbero pertanto già oggi esercitare il loro margine di apprezzamento in maniera più generosa a favore delle vittime.</p><p>Inoltre il Consiglio nazionale ha di recente negato la necessità di rivedere la LAV respingendo il 30 ottobre 2020, con 111 voti contro 63, la mozione del Gruppo socialista 19.3040 \"Attuazione delle raccomandazioni della valutazione della LAV. Migliorare la posizione delle vittime\", che domandava, tra le altre cose, di rafforzare i diritti della vittima a ottenere una riparazione morale.</p><p>Il Consiglio federale osserva infine che sebbene la vigente legislazione federale non permetta ai Cantoni di prevedere limiti più elevati, essi possono, nel quadro delle loro competenze, adottare una legge cantonale con uno scopo diverso da quello perseguito dalla LAV al fine di sostenere maggiormente le vittime (p. es. il reinserimento professionale o la lotta contro la povertà). In questo caso non è necessaria una modifica della legge federale.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

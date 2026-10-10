@@ -1,6 +1,6 @@
 {
   "id": 20233435,
-  "updated": "2023-06-06T14:17:25Z",
+  "updated": "2024-03-26T20:56:39Z",
   "additionalIndexing": "2846;2831;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2023-06-06T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-02-29T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
           }
         ]
       },
@@ -68,7 +83,140 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-06T18:11:23Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3123,
+                    "gender": "m",
+                    "id": 4222,
+                    "name": "Paganini Nicolò",
+                    "officialDenomination": "Paganini"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-06T18:11:24Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3216,
+                    "gender": "m",
+                    "id": 4319,
+                    "name": "Graber Michael",
+                    "officialDenomination": "Graber"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion V",
+                    "code": "V",
+                    "id": 4,
+                    "name": "Fraktion der Schweizerischen Volkspartei"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "UREK-NR",
+            "id": 7,
+            "name": "Kommission für Umwelt, Raumplanung und Energie NR",
+            "abbreviation1": "UREK-N",
+            "abbreviation2": "UREK",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-17T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "UREK-SR",
+            "id": 20,
+            "name": "Kommission für Umwelt, Raumplanung und Energie SR",
+            "abbreviation1": "UREK-S",
+            "abbreviation2": "UREK",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-17T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +237,18 @@
         },
         {
           "date": "/Date(1686002400000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1699830000000+0100)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1709161200000+0100)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -141,10 +299,9 @@
   ],
   "shortId": "23.3435",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -153,14 +310,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Das Bundesinventar der schützenswerten Ortsbilder der Schweiz (ISOS) wurde auf der Grundlage von Artikel 5 vom Bundesrat als Inventar von nationaler Bedeutung ins Leben gerufen und stellt zweifellos eine ausgezeichnete Dokumentation vieler schöner Ortsbilder der Schweiz dar, deren Erhaltung wichtig ist.</p><p>Allerdings ist das ISOS heute viel mehr als ein Inventar. Es ist, nicht zuletzt auch durch die Bundesgerichtsrechtsprechung und die Verwaltungspraxis, sozusagen zum unverrückbaren Axiom geworden, das in sämtlichen Planungsprozessen als gegeben und unantastbar vorgegeben wird. Aufgrund der heutigen rechtlichen Grundlagen ist das auch ein Stück weit nachvollziehbar, denn wie sollten kommunale oder kantonale Planungen vor Ort einem Inventarbefund vorgehen, der auf einem nationalen Interesse beruht? </p><p>Nötig ist deshalb eine Anpassung des NHG, welches das nationale Interesse an einem Ortsbild insofern relativiert, als dass das ausgewiesene öffentliche Interesse von Gemeinden, Städten und Kantonen als ebenso bedeutend taxiert wird, sodass eine Interessenabwägung auf \"Augenhöhe\" erfolgen kann mit sinnvollen Kompromissen, welche erwünschte kommunale oder kantonale Entwicklungsprojekte ermöglichen. Hierbei sei insbesondere verwiesen auf die nötige bauliche Innenentwicklung und Verdichtung in den Städten und Dörfern, aber auch andere Anliegen in diversen Bereichen wie zum Beispiel beim öffentlichen Grünraum, beim Gewässerraum, beim Lärmschutz, bei der Produktion erneuerbarer Energie, bezüglich Naturgefahren oder auch beim Langsamverkehr.</p>"
+      "value": "<p>Das Bundesinventar der schützenswerten Ortsbilder der Schweiz (ISOS) wurde auf der Grundlage von Artikel 5 vom Bundesrat als Inventar von nationaler Bedeutung ins Leben gerufen und stellt zweifellos eine ausgezeichnete Dokumentation vieler schöner Ortsbilder der Schweiz dar, deren Erhaltung wichtig ist.</p><p>Allerdings ist das ISOS heute viel mehr als ein Inventar. Es ist, nicht zuletzt auch durch die Bundesgerichtsrechtsprechung und die Verwaltungspraxis, sozusagen zum unverrückbaren Axiom geworden, das in sämtlichen Planungsprozessen als gegeben und unantastbar vorgegeben wird. Aufgrund der heutigen rechtlichen Grundlagen ist das auch ein Stück weit nachvollziehbar, denn wie sollten kommunale oder kantonale Planungen vor Ort einem Inventarbefund vorgehen, der auf einem nationalen Interesse beruht? </p><p>Nötig ist deshalb eine Anpassung des NHG, welches das nationale Interesse an einem Ortsbild insofern relativiert, als dass das ausgewiesene öffentliche Interesse von Gemeinden, Städten und Kantonen als ebenso bedeutend taxiert wird, sodass eine Interessenabwägung auf \"Augenhöhe\" erfolgen kann mit sinnvollen Kompromissen, welche erwünschte kommunale oder kantonale Entwicklungsprojekte ermöglichen. Hierbei sei insbesondere verwiesen auf die nötige bauliche Innenentwicklung und Verdichtung in den Städten und Dörfern, aber auch andere Anliegen in diversen Bereichen wie zum Beispiel beim öffentlichen Grünraum, beim Gewässerraum, beim Lärmschutz, bei der Produktion erneuerbarer Energie, bezüglich Naturgefahren oder auch beim Langsamverkehr.</p>"
     },
     {
       "type": {
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Die Bundesinventare nach Artikel 5 Absatz 1 des Natur- und Heimatschutzgesetzes (NHG; SR 451) sind Fachinventare, die bei Interessenabwägungen als Manifestation eines öffentlichen nationalen Interesses zu berücksichtigen sind. Dies bedeutet aber nicht, dass sie per se höher zu gewichten sind als andere Interessen. Von der ungeschmälerten Erhaltung eines Objekts kann bei kantonalen und kommunalen Aufgaben abgewichen werden, wenn andere, auch kantonale oder gar lokale Interessen überwiegen und dies in einer umfassenden Interessenabwägung gemäss Artikel 3 der Raumplanungsverordnung (RPV; SR 700.1) korrekt ermittelt und dargelegt wird.</p><p>Um die Rechtssicherheit in diesem Bereich zu stärken, hat der Bundesrat im Rahmen der Botschaft zur Volksinitiative \"Für die Zukunft unserer Natur und Landschaft\" (Biodiversitätsinitiative) und zum indirekten Gegenvorschlag (Revision des Natur- und Heimatschutzgesetzes) die entsprechende Regelung von der Verordnungsebene (Art. 10 der Verordnung vom 13. November 2019 über das Bundesinventar der schützenswerten Ortsbilder der Schweiz; SR 451.12) auf die Gesetzesebene angehoben (Artikel 12h E-NHG, BBl 2022 737). Den grundsätzlichen Anliegen der Motion trägt der Bundesrat somit schon Rechnung.</p><p>Artikel 5 Absatz 2 NHG hält schliesslich bereits fest, dass die Kantone von sich aus eine Überprüfung der Bundesinventare verlangen können.</p>"
+      "value": "<p>Die Bundesinventare nach Artikel 5 Absatz 1 des Natur- und Heimatschutzgesetzes (NHG; SR 451) sind Fachinventare, die bei Interessenabwägungen als Manifestation eines öffentlichen nationalen Interesses zu berücksichtigen sind. Dies bedeutet aber nicht, dass sie per se höher zu gewichten sind als andere Interessen. Von der ungeschmälerten Erhaltung eines Objekts kann bei kantonalen und kommunalen Aufgaben abgewichen werden, wenn andere, auch kantonale oder gar lokale Interessen überwiegen und dies in einer umfassenden Interessenabwägung gemäss Artikel 3 der Raumplanungsverordnung (RPV; SR 700.1) korrekt ermittelt und dargelegt wird.</p><p>Um die Rechtssicherheit in diesem Bereich zu stärken, hat der Bundesrat im Rahmen der Botschaft zur Volksinitiative \"Für die Zukunft unserer Natur und Landschaft\" (Biodiversitätsinitiative) und zum indirekten Gegenvorschlag (Revision des Natur- und Heimatschutzgesetzes) die entsprechende Regelung von der Verordnungsebene (Art. 10 der Verordnung vom 13. November 2019 über das Bundesinventar der schützenswerten Ortsbilder der Schweiz; SR 451.12) auf die Gesetzesebene angehoben (Artikel 12h E-NHG, BBl 2022 737). Den grundsätzlichen Anliegen der Motion trägt der Bundesrat somit schon Rechnung.</p><p>Artikel 5 Absatz 2 NHG hält schliesslich bereits fest, dass die Kantone von sich aus eine Überprüfung der Bundesinventare verlangen können.</p>  Der Bundesrat beantragt die Annahme der Motion."
     },
     {
       "type": {
@@ -174,8 +331,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Isos soll bauliche Entwicklung und Verdichtung lenken, aber nicht verhindern"
+      "value": "Das Isos soll die bauliche Entwicklung und Verdichtung lenken, aber nicht verhindern"
     }
   ],
-  "title": "Isos soll bauliche Entwicklung und Verdichtung lenken, aber nicht verhindern"
+  "title": "Das Isos soll die bauliche Entwicklung und Verdichtung lenken, aber nicht verhindern"
 }

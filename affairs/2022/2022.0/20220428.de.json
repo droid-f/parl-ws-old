@@ -1,6 +1,6 @@
 {
   "id": 20220428,
-  "updated": "2022-12-06T13:05:49Z",
+  "updated": "2024-03-26T21:42:42Z",
   "additionalIndexing": "28;24;1211;08",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -12,7 +12,7 @@
       "abbreviation": "RK-NR",
       "id": 12,
       "name": "Kommission für Rechtsfragen NR",
-      "abbreviation1": "RK-NR",
+      "abbreviation1": "RK-N",
       "abbreviation2": "RK",
       "committeeNumber": 12,
       "council": {
@@ -52,7 +52,7 @@
               "abbreviation": "RK-NR",
               "id": 12,
               "name": "Kommission für Rechtsfragen NR",
-              "abbreviation1": "RK-NR",
+              "abbreviation1": "RK-N",
               "abbreviation2": "RK",
               "committeeNumber": 12,
               "council": {
@@ -77,7 +77,7 @@
               "abbreviation": "RK-SR",
               "id": 25,
               "name": "Kommission für Rechtsfragen SR",
-              "abbreviation1": "RK-SR",
+              "abbreviation1": "RK-S",
               "abbreviation2": "RK",
               "committeeNumber": 25,
               "council": {
@@ -107,6 +107,21 @@
             "date": "2022-12-06T00:00:00Z",
             "text": "Folge gegeben",
             "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-21T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
           }
         ]
       },
@@ -122,7 +137,7 @@
             "abbreviation": "RK-NR",
             "id": 12,
             "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
+            "abbreviation1": "RK-N",
             "abbreviation2": "RK",
             "committeeNumber": 12,
             "council": {
@@ -175,7 +190,7 @@
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -192,8 +207,36 @@
               "correspondents": [
 
               ]
+            },
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2632,
+                    "gender": "m",
+                    "id": 1120,
+                    "name": "Sommaruga Carlo",
+                    "officialDenomination": "Sommaruga Carlo"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion S",
+                    "code": "S",
+                    "id": 2,
+                    "name": "Sozialdemokratische Fraktion"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5122"
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
@@ -215,8 +258,13 @@
         },
         {
           "date": "/Date(1670281200000+0100)/",
-          "id": 28,
-          "name": "Vorprüfung - Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -243,7 +291,7 @@
         "abbreviation": "RK-NR",
         "id": 12,
         "name": "Kommission für Rechtsfragen NR",
-        "abbreviation1": "RK-NR",
+        "abbreviation1": "RK-N",
         "abbreviation2": "RK",
         "committeeNumber": 12,
         "council": {
@@ -259,8 +307,8 @@
   ],
   "shortId": "22.428",
   "state": {
-    "id": 28,
-    "name": "Vorprüfung - Behandelt vom Nationalrat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },

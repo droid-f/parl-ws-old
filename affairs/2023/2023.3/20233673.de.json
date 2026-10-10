@@ -1,6 +1,6 @@
 {
   "id": 20233673,
-  "updated": "2023-06-20T21:25:28Z",
+  "updated": "2024-03-26T21:38:09Z",
   "additionalIndexing": "2841;2831",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,212 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-26T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-03-14T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-09-06T00:00:00Z",
+        "text": "Ablehnung"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "SGK-SR",
+            "id": 19,
+            "name": "Kommission für soziale Sicherheit und Gesundheit SR",
+            "abbreviation1": "SGK-S",
+            "abbreviation2": "SGK",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-05T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-23T10:11:57Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3121,
+                    "gender": "m",
+                    "id": 4220,
+                    "name": "Roduit Benjamin",
+                    "officialDenomination": "Roduit"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-NR",
+            "id": 6,
+            "name": "Kommission für soziale Sicherheit und Gesundheit NR",
+            "abbreviation1": "SGK-N",
+            "abbreviation2": "SGK",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-05T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-23T10:11:31Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 10849,
+                    "gender": "f",
+                    "id": 10849,
+                    "name": "Thalmann-Bieri Vroni",
+                    "officialDenomination": "Thalmann-Bieri"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1693951200000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1695679200000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1705964400000+0100)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1710370800000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -131,7 +314,7 @@
         "gender": "m",
         "id": 4309,
         "name": "Michel Matthias",
-        "officialDenomination": "Michel"
+        "officialDenomination": "Michel Matthias"
       },
       "type": "cosign"
     },
@@ -164,10 +347,10 @@
   ],
   "shortId": "23.3673",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -176,6 +359,13 @@
         "name": "Begründung"
       },
       "value": "<p>Die Durchführung sachgerechter medizinischer Behandlungen und Untersuchungen setzt eine adäquate Verständigung zwischen dem Gesundheitspersonal und den Patientinnen und Patienten voraus. Häufig ist diese \"adäquate Verständigung\" eine Voraussetzung für einen Behandlungs- respektive Therapieerfolg (Qualitätssicherung). Bei gewissen Personengruppen erfordert dies den Beizug professioneller Dolmetschender. Spezifisch sind gehörlose Personen auf Gebärdensprach-Dolmetschung und fremdsprachige Personen auf interkulturelles Dolmetschen angewiesen.</p><p>Die Möglichkeit zur Inanspruchnahme von Dolmetsch-Leistungen ist eine wesentliche Bedingung für eine kosteneffiziente und qualitativ hochstehende Gesundheitsversorgung. Darum muss sie Bestandteil der Leistungserbringung und somit von anrechenbaren Kosten sein. Verständigungsschwierigkeiten können zu einer Ober-oder Unterversorgung führen und Kosten generieren, welche die direkten Aufwände für Dolmetsch-Leistungen übersteigen. Zudem erschweren oder verunmöglichen Verständigungsschwierigkeiten die Aufklärungs- und lnformationspflicht gegenüber Patientinnen und Patienten.</p><p>Trotz nachgewiesenem Bedarf für Dolmetsch-Leistungen ist deren Finanzierung weder im ambulanten noch im stationären Bereich gesichert und einheitlich geregelt. Diese Lücke gilt es im Sinne des Patientenwohls und der Gleichbehandlung sowie zugunsten verlässlicher Vorgaben für Leistungserbringende zu beheben. Der Bundesrat soll deshalb eine gesetzliche Grundlage schaffen, um die Vergütung von Dolmetsch-Kosten im Gesundheitswesen zu klären, Grundsätze der Kostenübernahme zu definieren und mit den Tarifpartnern geeignete Modelle zu entwickeln, um die Vergütung einheitlich sicherzustellen.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat ist sich der Bedeutung einer adäquaten Verständigung zwischen Gesundheitsfachpersonen und Patientinnen oder Patienten, die keine Landessprache sprechen oder gehörlos sind, im Behandlungskontext bewusst. Dolmetschdienste stellen keine Leistungen dar, die der direkten Diagnose oder Behandlung einer Krankheit und ihrer Folgen dienen (Art. 25 Abs. 1 Bundesgesetz über die Krankenversicherung, KVG; SR 832.10), und professionelle interkulturelle Dolmetschende gehören nicht zu den Leistungserbringern, die zulasten der obligatorischen Krankenpflegeversicherung tätig sind (Art. 35 KVG). Professionelle Dolmetschdienste können jedoch als Teil der medizinischen Leistung betrachtet werden, wenn sie sich als einzig mögliche Lösung erweisen, da sie für die Durchführung einer medizinischen Untersuchung oder Behandlung sowie für deren therapeutischen Erfolg unerlässlich sind (medizinische Nebentätigkeit), wenn die Verständigung mit der versicherten Person zu schwierig ist, um ihre aufgeklärte Einwilligung zu einem medizinischen Eingriff zu erhalten und wenn die versicherte Person über keinen professionellen Dolmetscher oder keine professionelle Dolmetscherin verfügt. Das gilt auch für gehörlose Menschen, die eine Verdolmetschung in Gebärdensprache angewiesen sind. Diese Notwendigkeit muss von Fall zu Fall beurteilt werden. Die Verrechnung muss zwischen den Leistungserbringern und den Versicherern geregelt werden.</p><p>&nbsp;</p><p>Im ambulanten wie auch im stationären Bereich werden die Tarife zwischen den Versicherern und den Leistungserbringern vertraglich festgelegt (Tarifautonomie). Innerhalb dieses Rahmens können die Tarifpartner den mit diesem Aufwand verbundenen Kostenanteil auf die Tarife überwälzen.&nbsp;Sofern die Dolmetscherleistungen, wie oben beschrieben, notwendiger Bestandteil der medizinischen Behandlung sind, fliessen deren Kosten im stationären Bereich bereits heute über die anrechenbaren Kosten in die Fallpauschalen ein. Es ist also Sache der Tarifpartner, dies umzusetzen.&nbsp;Für den ambulanten Bereich wurde die Frage aufgegriffen und das Bundesamt für Gesundheit hat die Tarifpartner über seine Haltung zur rechtlichen Einschätzung in Kenntnis gesetzt und sie aufgefordert, sich mit dem Thema zu befassen.&nbsp;</p><p>&nbsp;</p><p>Der Bundesrat unterstützt die Forderung, die darauf abzielt, die Vergütung der Kosten für Dolmetschdienste einheitlicher zu regeln. Wie oben ausgeführt, bedarf es dafür aber keiner Gesetzesänderung, sondern vielmehr einer einheitlichen Umsetzung durch die Tarifpartner.&nbsp;Im Rahmen seiner Kompetenzen im Tarifbereich wird der Bundesrat künftig der Regelung der Dolmetschdienste besondere Beachtung schenken.&nbsp;</p><p>&nbsp;</p><p>Eine Anpassung des KVG ist daher nicht erforderlich. Der Bundesrat beantragt folglich die Ablehnung der Motion, obwohl er das Anliegen unterstützt.&nbsp;</p>"
     },
     {
       "type": {
@@ -189,8 +379,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Finanzierung von Dolmetsch-Kosten im Gesundheitswesen"
+      "value": "Finanzierung der Kosten für das Dolmetschen im Gesundheitswesen"
     }
   ],
-  "title": "Finanzierung von Dolmetsch-Kosten im Gesundheitswesen"
+  "title": "Finanzierung der Kosten für das Dolmetschen im Gesundheitswesen"
 }

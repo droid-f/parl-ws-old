@@ -1,6 +1,6 @@
 {
   "id": 20220479,
-  "updated": "2023-03-20T15:53:49Z",
+  "updated": "2024-03-26T21:27:57Z",
   "additionalIndexing": "04;28;1236;1211;34",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -40,7 +40,46 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CIP-CN",
+              "id": 11,
+              "name": "Commission des institutions politiques CN",
+              "abbreviation1": "CIP-N",
+              "abbreviation2": "CIP",
+              "committeeNumber": 11,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Conseil national",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-11-09T00:00:00Z",
+            "text": "Ne pas donner suite (conseil prioritaire)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-12-11T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -55,7 +94,7 @@
             "abbreviation": "CIP-CN",
             "id": 11,
             "name": "Commission des institutions politiques CN",
-            "abbreviation1": "CIP-CN",
+            "abbreviation1": "CIP-N",
             "abbreviation2": "CIP",
             "committeeNumber": 11,
             "council": {
@@ -72,16 +111,17 @@
               "correspondents": [
 
               ],
-              "sessionId": "5121"
+              "sessionId": "5122"
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "CIP-CE",
             "id": 24,
             "name": "Commission des institutions politiques CE",
-            "abbreviation1": "CIP-CE",
+            "abbreviation1": "CIP-E",
             "abbreviation2": "CIP",
             "committeeNumber": 24,
             "council": {
@@ -95,6 +135,97 @@
           "date": "2022-09-29T00:00:00Z",
           "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-13T11:49:38Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3146,
+                    "gender": "m",
+                    "id": 4254,
+                    "name": "Cottier Damien",
+                    "officialDenomination": "Cottier"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe RL",
+                    "id": 1,
+                    "name": "Groupe libéral-radical"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-13T11:50:02Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3096,
+                    "gender": "f",
+                    "id": 4174,
+                    "name": "Steinemann Barbara",
+                    "officialDenomination": "Steinemann"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe V",
+                    "id": 4,
+                    "name": "Groupe de l'Union démocratique du Centre"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -103,17 +234,38 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1664402400000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1699484400000+0100)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1702249200000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -453,8 +605,8 @@
   ],
   "shortId": "22.479",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
@@ -471,7 +623,7 @@
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>L'article 10 al.2 de la Constitution fédérale est modifié ainsi: </p><p>2 Tout être humain a droit à la liberté personnelle, notamment à l'intégrité physique, psychique et numérique et à la liberté de mouvement.</p>"
+      "value": "<p>L'article 10 al.2 de la Constitution fédérale est modifié ainsi : </p><p>2 Tout être humain a droit à la liberté personnelle, notamment à l'intégrité physique, psychique et numérique et à la liberté de mouvement.</p>"
     },
     {
       "type": {

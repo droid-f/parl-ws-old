@@ -1,6 +1,6 @@
 {
   "id": 20233677,
-  "updated": "2023-06-20T21:24:35Z",
+  "updated": "2024-03-26T22:02:26Z",
   "additionalIndexing": "48;28",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,192 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-09-20T00:00:00Z",
+            "text": "Transmis à la commission compétente pour examen préalable",
+            "type": 66
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-12-04T00:00:00Z",
+            "text": "L’objet est repris",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-03-06T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-23T00:00:00Z",
+        "text": "Rejet"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CTT-CN",
+            "id": 9,
+            "name": "Commission des transports et des télécommunications CN",
+            "abbreviation1": "CTT-N",
+            "abbreviation2": "CTT",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-16T11:43:31Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3195,
+                    "gender": "m",
+                    "id": 4240,
+                    "name": "Juillard Charles",
+                    "officialDenomination": "Juillard"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CTT-CE",
+            "id": 22,
+            "name": "Commission des transports et des télécommunications CE",
+            "abbreviation1": "CTT-E",
+            "abbreviation2": "CTT",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1692741600000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1695160800000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1704841200000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1705359600000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1709679600000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -138,14 +301,24 @@
         "name": "Groupe libéral-radical"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3108,
+        "gender": "m",
+        "id": 4207,
+        "name": "Müller Damian",
+        "officialDenomination": "Müller Damian"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "23.3677",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -153,22 +326,29 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Même si le domaine automobile constitue un pan important de notre économie qui est directement concerné par la politique environnementale, il n'est actuellement pas possible de connaître le nombre exact de véhicules que compte le parc automobile suisse. En effet, la quantité de véhicule répertoriée par les statistiques officielles ne comprend que ceux qui sont immatriculés; les véhicules non immatriculés disparaissant des relevés. </p><p>Nous sommes dès lors actuellement incapables:</p><p>- de connaître le nombre exact total de véhicules automobiles que compte la Suisse.</p><p>- de connaître le nombre de véhicules constituant le parc des véhicules automobiles d'occasions. </p><p>- de connaître l'évolution du parc des véhicules automobiles d'occasions.</p><p>- d'estimer la valeur financière que le parc d'occasions représente pour les garages qui doivent le financer.</p><p>- de savoir où finissent les véhicules arrivés antérieurement sur le marché suisse.</p><p>- de définir si nous démolissons nos véhicules trop tôt et si nous gaspillons ainsi de précieuses ressources.</p><p>L'expérience de certains professionnels de l'automobile tend en effet à démontrer qu'une partie des véhicules détruits le sont trop tôt. Cela semble indiquer que d'une part, il y aurait trop de voitures en Suisse par rapport aux besoins du marché, ce qui oblige à faire de la place, et que d'autre part, nous gaspillons une quantité non négligeable d'énergie grise et de ressources naturelles et cela même si ces véhicules passent par la case recyclage. En effet, envoyer un objet trop tôt au rebut n'est pas un acte écologique, même s'il est recyclé.</p><p>A noter également la perte, pour la Suisse, de matières premières due aux véhicules qui disparaissent annuellement dans la \" nature \", notamment à l'étranger. Or une telle perte de matière première empêche l'alimentation et la dynamisation de l'économie circulaire que le gouvernement appelle et que le parlement soutient.</p><p>Il est en outre indéniable que le secteur des garages automobiles a pour tâche d'absorber les véhicules non immatriculés et non comptabilisés, ceux-ci correspondant en grande partie au parc d'occasions du pays. Or, de plus en plus de ces petites et moyennes structures font face à des difficultés financières du fait que le capital immobilisé par leur parc d'occasions coûte cher et perd chaque jour de la valeur. Ces liquidités stagnantes vident dès lors ces PME d'une partie de la substance indispensable au bon développement de l'entreprise. </p><p>Ainsi plus le parc de véhicules d'occasions augmente, plus les charges y relatives deviennent pesantes pour la santé économique du secteur. Se pose donc la question de connaître la taille de ce parc et de savoir si cette dernière est en augmentation.</p><p>Connaître la taille du parc des véhicules d'occasion et le nombre de voitures non immatriculée permettrait en effet d'une part de suivre les tendances réelles du marché des véhicules d'occasion et d'autre part d'analyser la masse financière que cela représente. Ces renseignements permettraient aussi en cas de déséquilibre avéré de rechercher des solutions pour permettre de fluidifier ces capitaux figés.</p><p>Selon les professionnels de la démolition et du recyclage (Fondation AutoRecycling Suisse), en 2019 plus de 64 000 voitures auraient disparu en Suisse des écrans radars et finit on ne sait où, en Suisse ou ailleurs avec pour conséquence une perte sèche et conséquente en termes de matières premières et de revenus pour nos entreprises de démolition et recyclage. Il est du reste vraisemblable qu'une partie de ces véhicules ont terminé leur vie dans des dépôts sauvages au bord de certaines routes quand ce n'est pas dans les forêts, ce qui n'est pas acceptable.</p><p>Ainsi, afin de pouvoir gérer un élément important pour la politique environnementale du pays et assurer un développement économique sain du segment économique d'importance qu'est le secteur automobile, il est indispensable que le nombre total de véhicules que la Suisse abrite soit connu et la traçabilité des voitures possible.</p><p>Il convient donc aussi de comptabiliser et d'entrer dans les statistiques officielles l'ensemble des voitures non immatriculées; ce qui, à dire d'experts, ne devrait pas entrainer de surcharge administrative pour les détenteurs des véhicules et pour les services cantonaux des automobiles.</p>"
+      "value": "<p>Même si le domaine automobile constitue un pan important de notre économie qui est directement concerné par la politique environnementale, il n'est actuellement pas possible de connaître le nombre exact de véhicules que compte le parc automobile suisse. En effet, la quantité de véhicule répertoriée par les statistiques officielles ne comprend que ceux qui sont immatriculés ; les véhicules non immatriculés disparaissant des relevés. </p><p>Nous sommes dès lors actuellement incapables :</p><p>- de connaître le nombre exact total de véhicules automobiles que compte la Suisse.</p><p>- de connaître le nombre de véhicules constituant le parc des véhicules automobiles d'occasions. </p><p>- de connaître l'évolution du parc des véhicules automobiles d'occasions.</p><p>- d'estimer la valeur financière que le parc d'occasions représente pour les garages qui doivent le financer.</p><p>- de savoir où finissent les véhicules arrivés antérieurement sur le marché suisse.</p><p>- de définir si nous démolissons nos véhicules trop tôt et si nous gaspillons ainsi de précieuses ressources.</p><p>L'expérience de certains professionnels de l'automobile tend en effet à démontrer qu'une partie des véhicules détruits le sont trop tôt. Cela semble indiquer que d'une part, il y aurait trop de voitures en Suisse par rapport aux besoins du marché, ce qui oblige à faire de la place, et que d'autre part, nous gaspillons une quantité non négligeable d'énergie grise et de ressources naturelles et cela même si ces véhicules passent par la case recyclage. En effet, envoyer un objet trop tôt au rebut n'est pas un acte écologique, même s'il est recyclé.</p><p>A noter également la perte, pour la Suisse, de matières premières due aux véhicules qui disparaissent annuellement dans la \" nature \", notamment à l'étranger. Or une telle perte de matière première empêche l'alimentation et la dynamisation de l'économie circulaire que le gouvernement appelle et que le parlement soutient.</p><p>Il est en outre indéniable que le secteur des garages automobiles a pour tâche d'absorber les véhicules non immatriculés et non comptabilisés, ceux-ci correspondant en grande partie au parc d'occasions du pays. Or, de plus en plus de ces petites et moyennes structures font face à des difficultés financières du fait que le capital immobilisé par leur parc d'occasions coûte cher et perd chaque jour de la valeur. Ces liquidités stagnantes vident dès lors ces PME d'une partie de la substance indispensable au bon développement de l'entreprise. </p><p>Ainsi plus le parc de véhicules d'occasions augmente, plus les charges y relatives deviennent pesantes pour la santé économique du secteur. Se pose donc la question de connaître la taille de ce parc et de savoir si cette dernière est en augmentation.</p><p>Connaître la taille du parc des véhicules d'occasion et le nombre de voitures non immatriculée permettrait en effet d'une part de suivre les tendances réelles du marché des véhicules d'occasion et d'autre part d'analyser la masse financière que cela représente. Ces renseignements permettraient aussi en cas de déséquilibre avéré de rechercher des solutions pour permettre de fluidifier ces capitaux figés.</p><p>Selon les professionnels de la démolition et du recyclage (Fondation AutoRecycling Suisse), en 2019 plus de 64 000 voitures auraient disparu en Suisse des écrans radars et finit on ne sait où, en Suisse ou ailleurs avec pour conséquence une perte sèche et conséquente en termes de matières premières et de revenus pour nos entreprises de démolition et recyclage. Il est du reste vraisemblable qu'une partie de ces véhicules ont terminé leur vie dans des dépôts sauvages au bord de certaines routes quand ce n'est pas dans les forêts, ce qui n'est pas acceptable.</p><p>Ainsi, afin de pouvoir gérer un élément important pour la politique environnementale du pays et assurer un développement économique sain du segment économique d'importance qu'est le secteur automobile, il est indispensable que le nombre total de véhicules que la Suisse abrite soit connu et la traçabilité des voitures possible.</p><p>Il convient donc aussi de comptabiliser et d'entrer dans les statistiques officielles l'ensemble des voitures non immatriculées ; ce qui, à dire d'experts, ne devrait pas entrainer de surcharge administrative pour les détenteurs des véhicules et pour les services cantonaux des automobiles.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral mise sur le principe du pollueur-payeur pour promouvoir l’élimination écoresponsable des véhicules hors d’usage. La fondation Auto Recycling Suisse perçoit, sur la base du droit privé, une contribution à l’élimination pour chaque véhicule nouvellement immatriculé, qui est versée par les membres de l’association auto-suisse et vise à encourager l’élimination écologique des véhicules automobiles.&nbsp;</p><p>Les adaptations juridiques réclamées ne permettent pas d’atteindre l’objectif de résorption du déficit d’informations évoqué. En Suisse, les véhicules hors d’usage, autrement dit ceux destinés à être éliminés, sont d’ores et déjà considérés comme d’«&nbsp;autres déchets soumis à contrôle&nbsp;». Les entreprises d’élimination doivent déclarer régulièrement la réception et le réacheminement de déchets de ce type (art.&nbsp;12, al.&nbsp;3, de l’ordonnance sur les mouvements de déchets [OMoD&nbsp;; RS&nbsp;814.610]). Les services cantonaux de l’environnement compétents en la matière et l’Office fédéral de l’environnement (OFEV) ont ainsi connaissance du nombre de véhicules éliminés en Suisse.</p><p>Les véhicules hors d’usage ne peuvent être exportés qu’avec l’autorisation de l’OFEV. Chaque exportation soumise à autorisation doit être annoncée auprès de ce dernier, si bien que l’on connaît aussi la quantité exportée. Les chiffres correspondants sont publiés dans la statistique suisse des déchets. Par contre, les véhicules d’occasion sont considérés comme des «&nbsp;produits&nbsp;» et peuvent donc être commercialisés librement tant sur le territoire suisse que pour le trafic transfrontalier.</p><p>En outre, s’agissant du trafic transfrontalier, il n’est possible de résorber le déficit d’informations que de manière théorique. Un véhicule peut passer la frontière même sans déclaration formelle en douane. Ce faisant, il n’est pas systématiquement enregistré. Si un tel véhicule routier reste définitivement à l’étranger (par ex. après y avoir été vendu ou démoli), cela passe inaperçu. Dans la pratique, il est impossible d’appliquer et d’imposer une déclaration en douane a posteriori, étant donné que l’Office fédéral de la douane et de la sécurité des frontières (OFDF) ne sait pas si le véhicule routier se trouve sur un territoire douanier étranger et n’est pas non plus habilité à effectuer des contrôles à l’étranger.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Le Conseil fédéral est invité à modifier l'ordonnance sur le système d'information relatif à l'admission des véhicules (OSIAC) en ajoutant:</p><p>- à l'article 4, une lettre d, \"les données des véhicules hors-circulation qui ont été immatriculés par les autorités suisses. Ces véhicules sont supprimés de SIAC lorsqu'ils sont exportés ou détruits\"; </p><p>- à I'article 5, un alinéa 7 \"l'administration des douanes (AFD) ainsi que les entreprises de démolition et de recyclage automobile transmettent à SIAC les données relatives aux véhicules qui sont exportés ou détruits\".</p>"
+      "value": "<p>Le Conseil fédéral est invité à modifier l’ordonnance sur le système d'information relatif à l'admission à la circulation (OSIAC) en ajoutant:</p><p>- à l'article 4, une lettre d, \"les données des véhicules hors-circulation qui ont été immatriculés par les autorités suisses. Ces véhicules sont supprimés de SIAC lorsqu'ils sont exportés ou détruits\";&nbsp;</p><p>- à I'article 5, un alinéa 7 \"l'office fédéral de la douane et de la sécurité de frontières (OFDF) ainsi que les entreprises de démolition et de recyclage automobile transmettent à SIAC les données relatives aux véhicules qui sont exportés ou détruits\".</p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Enfin savoir combien de véhicules automobiles ( immatriculés ou non ) se trouvent en Suisse !"
+      "value": "Enfin savoir combien de véhicules automobiles (immatriculés ou non) se trouvent en Suisse!"
     }
   ],
-  "title": "Enfin savoir combien de véhicules automobiles ( immatriculés ou non ) se trouvent en Suisse !"
+  "title": "Enfin savoir combien de véhicules automobiles (immatriculés ou non) se trouvent en Suisse!"
 }

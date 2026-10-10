@@ -1,6 +1,6 @@
 {
   "id": 20153399,
-  "updated": "2019-02-18T19:03:06Z",
+  "updated": "2024-03-26T20:49:37Z",
   "additionalIndexing": "15;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -100,6 +100,21 @@
             "date": "2020-06-19T00:00:00Z",
             "text": "Sistierung",
             "type": 65
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-03-11T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -115,21 +130,21 @@
       "preConsultations": [
         {
           "committee": {
-            "abbreviation": "WAK-SR",
-            "id": 23,
-            "name": "Kommission für Wirtschaft und Abgaben SR",
-            "abbreviation1": "WAK-SR",
-            "abbreviation2": "WAK",
-            "committeeNumber": 23,
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
             "council": {
-              "abbreviation": "SR",
-              "id": 2,
-              "name": "Ständerat",
-              "type": "S"
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
             },
-            "typeCode": 1
+            "typeCode": 3
           },
-          "date": "2017-03-17T00:00:00Z",
+          "date": "2024-02-19T16:32:07Z",
           "registrations": [
             {
               "correspondents": [
@@ -149,6 +164,31 @@
                   },
                   "language": "de"
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2017-03-17T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
               ],
               "sessionId": "5101"
             }
@@ -159,7 +199,7 @@
             "abbreviation": "WAK-NR",
             "id": 10,
             "name": "Kommission für Wirtschaft und Abgaben NR",
-            "abbreviation1": "WAK-NR",
+            "abbreviation1": "WAK-N",
             "abbreviation2": "WAK",
             "committeeNumber": 10,
             "council": {
@@ -200,8 +240,28 @@
         },
         {
           "date": "/Date(1489618800000+0100)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1688940000000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1708297200000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1710111600000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -252,10 +312,9 @@
   ],
   "shortId": "15.3399",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -264,14 +323,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Gemäss Artikel 2 Absatz 7 BGBM sind Kantone und Gemeinden verpflichtet, die Übertragung der Nutzung von Monopolen auf Private in einem diskriminierungsfreien Ausschreibungsverfahren zu gewähren. Darf eine wirtschaftliche Tätigkeit nur durch eine beschränkte Anbieterzahl ausgeübt werden (sogenannter geschlossener Markt), soll immerhin ein faires Marktzugangsverfahren gewährleistet sein.</p><p>Geschlossene Märkte können auf verschiedene Arten entstehen:</p><p>a. Der Staat kann Grundversorgungsaufgaben mit Leistungsaufträgen auf Private übertragen (Schulzahnpflege, freies Notariat, Spitäler, Spitex). Die Erteilung von Leistungsaufträgen greift in den Wettbewerb ein, weil staatlich beauftragte Leistungserbringer dank Abgeltungen, regulierten Tarifen, Umsatzgarantie und anderen Vorzugsrechten über Wettbewerbsvorteile verfügen. Umso wichtiger ist es, dass die Auswahl in einem fairen Verfahren erfolgt.</p><p>b. Kantone können auch ausserhalb der Grundversorgung die Zahl der Anbieter einer privatwirtschaftlichen Tätigkeit durch Monopole (Kaminfeger, Taxivermittlung) oder Bedürfnisklauseln (Lotterieunternehmen) beschränken.</p><p>c. Geschlossene Märkte entstehen schliesslich auch durch die Gewährung von Rechten zur wirtschaftlichen Nutzung von öffentlichen Sachen (Plakatanschlag, Taxistandplatz), wo nicht sämtliche Nachfrager berücksichtigt werden können.</p><p>Die Auswahl der zu einem geschlossenen Markt zugelassenen Anbieter muss die Gleichbehandlung von Konkurrenten (Art. 27 und 94 der Bundesverfassung), das rechtliche Gehör (Art. 29 der Bundesverfassung) und das Willkürverbot (Art. 9 der Bundesverfassung) beachten. Das Bundesgericht hat die Verfassungsgrundsätze in gewissen Gebieten konkretisiert, insbesondere bei der Nutzung von öffentlichem Grund.</p><p>Artikel 2 Absatz 7 BGBM setzt diese Grundsätze um. Allerdings konnte die im Jahr 2006 eingeführte Bestimmung ihre Wirkung nicht voll entfalten. Das liegt auch daran, dass die Formulierung viel Spielraum offenlässt. Es ist deshalb nötig, die von Bundesverfassung und Bundesgericht aufgestellten Anforderungen durch eine Stärkung von Artikel 2 Absatz 7 BGBM zu konkretisieren und u. a. klarzustellen, dass die Ausschreibungspflicht auch bei der Vergabe von Nutzungsrechten für beschränkt verfügbare öffentliche Sachen und von Leistungsaufträgen gilt.</p>"
+      "value": "<p>Gemäss Artikel 2 Absatz 7 BGBM sind Kantone und Gemeinden verpflichtet, die Übertragung der Nutzung von Monopolen auf Private in einem diskriminierungsfreien Ausschreibungsverfahren zu gewähren. Darf eine wirtschaftliche Tätigkeit nur durch eine beschränkte Anbieterzahl ausgeübt werden (sogenannter geschlossener Markt), soll immerhin ein faires Marktzugangsverfahren gewährleistet sein.</p><p>Geschlossene Märkte können auf verschiedene Arten entstehen:</p><p>a. Der Staat kann Grundversorgungsaufgaben mit Leistungsaufträgen auf Private übertragen (Schulzahnpflege, freies Notariat, Spitäler, Spitex). Die Erteilung von Leistungsaufträgen greift in den Wettbewerb ein, weil staatlich beauftragte Leistungserbringer dank Abgeltungen, regulierten Tarifen, Umsatzgarantie und anderen Vorzugsrechten über Wettbewerbsvorteile verfügen. Umso wichtiger ist es, dass die Auswahl in einem fairen Verfahren erfolgt.</p><p>b. Kantone können auch ausserhalb der Grundversorgung die Zahl der Anbieter einer privatwirtschaftlichen Tätigkeit durch Monopole (Kaminfeger, Taxivermittlung) oder Bedürfnisklauseln (Lotterieunternehmen) beschränken.</p><p>c. Geschlossene Märkte entstehen schliesslich auch durch die Gewährung von Rechten zur wirtschaftlichen Nutzung von öffentlichen Sachen (Plakatanschlag, Taxistandplatz), wo nicht sämtliche Nachfrager berücksichtigt werden können.</p><p>Die Auswahl der zu einem geschlossenen Markt zugelassenen Anbieter muss die Gleichbehandlung von Konkurrenten (Art. 27 und 94 der Bundesverfassung), das rechtliche Gehör (Art. 29 der Bundesverfassung) und das Willkürverbot (Art. 9 der Bundesverfassung) beachten. Das Bundesgericht hat die Verfassungsgrundsätze in gewissen Gebieten konkretisiert, insbesondere bei der Nutzung von öffentlichem Grund.</p><p>Artikel 2 Absatz 7 BGBM setzt diese Grundsätze um. Allerdings konnte die im Jahr 2006 eingeführte Bestimmung ihre Wirkung nicht voll entfalten. Das liegt auch daran, dass die Formulierung viel Spielraum offenlässt. Es ist deshalb nötig, die von Bundesverfassung und Bundesgericht aufgestellten Anforderungen durch eine Stärkung von Artikel 2 Absatz 7 BGBM zu konkretisieren und u. a. klarzustellen, dass die Ausschreibungspflicht auch bei der Vergabe von Nutzungsrechten für beschränkt verfügbare öffentliche Sachen und von Leistungsaufträgen gilt.</p>"
     },
     {
       "type": {
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Auch für den Bundesrat ist ein gut funktionierender Binnenmarkt mit einem diskriminierungsfreien Marktzugang ein wichtiges Anliegen. Artikel 2 Absatz 7 BGBM trägt einen unverzichtbaren Teil dazu bei, indem er Kantone und Gemeinden verpflichtet, die Übertragung der Nutzung kantonaler und kommunaler Monopole auf Private auszuschreiben.</p><p>Aufgrund der heutigen Informationsgrundlagen wäre es für den Bundesrat hingegen verfrüht, bereits einen verbindlichen Auftrag für eine Anpassung der Bestimmung zu erteilen. Besser wäre, vorerst eine Auslegeordnung zu Artikel 2 Absatz 7 BGBM zu erstellen und allfällige Schwierigkeiten bei der Anwendung der Bestimmung im Detail zu eruieren. Erst gestützt darauf kann die Frage, ob die Bestimmung verbessert werden soll, seriös beantwortet werden. Der Bundesrat ist bereit, die entsprechenden Untersuchungen im Zusammenhang mit der Umsetzung des Postulates Caroni 15.3398, \"Faires Verfahren beim Zugang zu geschlossenen Märkten des Bundes\", anzustellen.</p>"
+      "value": "<p>Auch für den Bundesrat ist ein gut funktionierender Binnenmarkt mit einem diskriminierungsfreien Marktzugang ein wichtiges Anliegen. Artikel 2 Absatz 7 BGBM trägt einen unverzichtbaren Teil dazu bei, indem er Kantone und Gemeinden verpflichtet, die Übertragung der Nutzung kantonaler und kommunaler Monopole auf Private auszuschreiben.</p><p>Aufgrund der heutigen Informationsgrundlagen wäre es für den Bundesrat hingegen verfrüht, bereits einen verbindlichen Auftrag für eine Anpassung der Bestimmung zu erteilen. Besser wäre, vorerst eine Auslegeordnung zu Artikel 2 Absatz 7 BGBM zu erstellen und allfällige Schwierigkeiten bei der Anwendung der Bestimmung im Detail zu eruieren. Erst gestützt darauf kann die Frage, ob die Bestimmung verbessert werden soll, seriös beantwortet werden. Der Bundesrat ist bereit, die entsprechenden Untersuchungen im Zusammenhang mit der Umsetzung des Postulates Caroni 15.3398, \"Faires Verfahren beim Zugang zu geschlossenen Märkten des Bundes\", anzustellen.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20214490,
-  "updated": "2022-03-18T10:50:35Z",
+  "updated": "2024-03-26T21:54:21Z",
   "additionalIndexing": "2841;36;04;34;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2022-03-18T00:00:00Z",
             "text": "Adoption",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-09-27T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
           }
         ]
       },
@@ -67,7 +82,98 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-08-22T17:19:21Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3136,
+                    "gender": "m",
+                    "id": 4237,
+                    "name": "Würth Benedikt",
+                    "officialDenomination": "Würth"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe M-E",
+                    "id": 3,
+                    "name": "Le Groupe du Centre. Le Centre. PEV."
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CN",
+            "id": 5,
+            "name": "Commission de la science, de l'éducation et de la culture CN",
+            "abbreviation1": "CSEC-N",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-12-16T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CE",
+            "id": 18,
+            "name": "Commission de la science, de l'éducation et de la culture CE",
+            "abbreviation1": "CSEC-E",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-12-16T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -78,6 +184,12 @@
           "id": 10,
           "name": "Chancellerie fédérale",
           "leading": true
+        },
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Département des finances",
+          "leading": false
         }
       ],
       "states": [
@@ -88,8 +200,18 @@
         },
         {
           "date": "/Date(1647558000000+0100)/",
-          "id": 11,
-          "name": "Motion au 2e conseil"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1695765600000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -187,7 +309,7 @@
         "gender": "m",
         "id": 4190,
         "name": "Dobler Marcel",
-        "officialDenomination": "Dobler"
+        "officialDenomination": "Dobler Marcel"
       },
       "type": "cosign"
     },
@@ -359,10 +481,9 @@
   ],
   "shortId": "21.4490",
   "state": {
-    "id": 11,
-    "name": "Motion au 2e conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -378,7 +499,7 @@
         "id": 14,
         "name": "Réponse CF / Bureau"
       },
-      "value": "<p>Le Conseil fédéral est disposé à créer une base juridique visant à soutenir des projets numériques phares d'intérêt public. Lors de la mise en oeuvre, il veillera à ce que le nouveau type de subvention n'ait pas un champ d'application trop large et à ce qu'il ne fasse pas double emploi avec des instruments d'encouragement existants, en particulier dans le domaine de la promotion économique, de la formation, de la recherche et de l'innovation. Les travaux consisteront notamment à vérifier si les exigences constitutionnelles sont remplies.</p>"
+      "value": "<p>Le Conseil fédéral est disposé à créer une base juridique visant à soutenir des projets numériques phares d'intérêt public. Lors de la mise en oeuvre, il veillera à ce que le nouveau type de subvention n'ait pas un champ d'application trop large et à ce qu'il ne fasse pas double emploi avec des instruments d'encouragement existants, en particulier dans le domaine de la promotion économique, de la formation, de la recherche et de l'innovation. Les travaux consisteront notamment à vérifier si les exigences constitutionnelles sont remplies.</p>  Le Conseil fédéral propose d'accepter la motion."
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20220479,
-  "updated": "2023-03-20T15:53:49Z",
+  "updated": "2024-03-26T21:27:57Z",
   "additionalIndexing": "04;28;1236;1211;34",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -41,7 +41,46 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "SPK-NR",
+              "id": 11,
+              "name": "Staatspolitische Kommission NR",
+              "abbreviation1": "SPK-N",
+              "abbreviation2": "SPK",
+              "committeeNumber": 11,
+              "council": {
+                "abbreviation": "NR",
+                "id": 1,
+                "name": "Nationalrat",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-11-09T00:00:00Z",
+            "text": "Keine Folge geben (Erstrat)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-12-11T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -56,7 +95,7 @@
             "abbreviation": "SPK-NR",
             "id": 11,
             "name": "Staatspolitische Kommission NR",
-            "abbreviation1": "SPK-NR",
+            "abbreviation1": "SPK-N",
             "abbreviation2": "SPK",
             "committeeNumber": 11,
             "council": {
@@ -73,16 +112,17 @@
               "correspondents": [
 
               ],
-              "sessionId": "5121"
+              "sessionId": "5122"
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "SPK-SR",
             "id": 24,
             "name": "Staatspolitische Kommission SR",
-            "abbreviation1": "SPK-SR",
+            "abbreviation1": "SPK-S",
             "abbreviation2": "SPK",
             "committeeNumber": 24,
             "council": {
@@ -96,6 +136,99 @@
           "date": "2022-09-29T00:00:00Z",
           "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-13T11:49:38Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3146,
+                    "gender": "m",
+                    "id": 4254,
+                    "name": "Cottier Damien",
+                    "officialDenomination": "Cottier"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-13T11:50:02Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3096,
+                    "gender": "f",
+                    "id": 4174,
+                    "name": "Steinemann Barbara",
+                    "officialDenomination": "Steinemann"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion V",
+                    "code": "V",
+                    "id": 4,
+                    "name": "Fraktion der Schweizerischen Volkspartei"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -104,17 +237,38 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1664402400000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1699484400000+0100)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1702249200000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -455,8 +609,8 @@
   ],
   "shortId": "22.479",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },
@@ -473,7 +627,7 @@
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Artikel 10 Absatz 2 der Bundesverfassung soll wie folgt geändert werden: </p><p>2 Jeder Mensch hat das Recht auf persönliche Freiheit, insbesondere auf körperliche, geistige und digitale Unversehrtheit und auf Bewegungsfreiheit.</p>"
+      "value": "<p>Artikel 10 Absatz 2 der Bundesverfassung soll wie folgt geändert werden: </p><p>2 Jeder Mensch hat das Recht auf persönliche Freiheit, insbesondere auf körperliche, geistige und digitale Unversehrtheit und auf Bewegungsfreiheit.</p>"
     },
     {
       "type": {

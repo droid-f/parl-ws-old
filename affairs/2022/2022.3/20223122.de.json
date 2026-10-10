@@ -1,6 +1,6 @@
 {
   "id": 20223122,
-  "updated": "2022-06-17T10:44:11Z",
+  "updated": "2024-03-26T21:45:16Z",
   "additionalIndexing": "04;34",
   "affairType": {
     "abbreviation": "Mo.",
@@ -13,7 +13,7 @@
       "gender": "m",
       "id": 4190,
       "name": "Dobler Marcel",
-      "officialDenomination": "Dobler"
+      "officialDenomination": "Dobler Marcel"
     },
     "faction": {
       "abbreviation": "Fraktion RL",
@@ -55,6 +55,21 @@
             "date": "2022-06-17T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-27T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -68,7 +83,99 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-08-22T17:09:21Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3136,
+                    "gender": "m",
+                    "id": 4237,
+                    "name": "Würth Benedikt",
+                    "officialDenomination": "Würth"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WBK-NR",
+            "id": 5,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
+            "abbreviation1": "WBK-N",
+            "abbreviation2": "WBK",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-15T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WBK-SR",
+            "id": 18,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
+            "abbreviation1": "WBK-S",
+            "abbreviation2": "WBK",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-15T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -79,6 +186,12 @@
           "id": 10,
           "name": "Bundeskanzlei",
           "leading": true
+        },
+        {
+          "abbreviation": "EFD",
+          "id": 7,
+          "name": "Finanzdepartement",
+          "leading": false
         }
       ],
       "states": [
@@ -89,8 +202,18 @@
         },
         {
           "date": "/Date(1655416800000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1695765600000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -188,7 +311,7 @@
         "gender": "m",
         "id": 4190,
         "name": "Dobler Marcel",
-        "officialDenomination": "Dobler"
+        "officialDenomination": "Dobler Marcel"
       },
       "faction": {
         "abbreviation": "Fraktion RL",
@@ -201,10 +324,9 @@
   ],
   "shortId": "22.3122",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -213,14 +335,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>In der Schweiz nimmt der Bedarf an digitalen Behördenleistungen weiter zu. In manchen Bereichen ist die Nachfrage heute bereits höher als das Angebot von Bund, Kantonen und Gemeinden. Um dieser Entwicklung gerecht zu werden, braucht es verbindliche Vorgaben, damit Behörden beim Vollzug von Bundesrecht ihre Behördenleistungen auch elektronisch anbieten müssen. Dies wäre kein Novum: Unserer Nachbarländer Deutschland und Österreich kennen bereits sogenannte Online-Zugangsgesetze, die Behörden dazu verpflichten, grundsätzlich alle Verwaltungsleistungen online anzubieten. </p><p>Die Schweiz hat bei der Digitalisierung der Verwaltung Aufholbedarf - das hat die Coronapandemie eindrücklich verdeutlich und wird in internationalen Studien wie dem E-Government-Benchmark der Europäischen Union regelmässig belegt (die Schweiz liegt mit einer Gesamtleistung von 52,3 % auf Rang 32 von 36). Der Handlungsbedarf ist unbestritten: Bund und Kantone haben deshalb bereits Massnahmen ergriffen; wie die Gründung der Digitalen Verwaltung Schweiz (DVS) oder den Entwurf zum Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBaG). Weiter wurde die E-Government-Strategie 2020-2023 zukunftsweisend unter den klaren Leitsatz \"Digital First\" gestellt. </p><p>Diesen Digital First Leitsatz gilt es nun konsequent weiterzuführen und die Erarbeitung der rechtlichen Grundlagen für eine grundsätzliche Pflicht zur Digitalisierung von Behördenleistungen beim Vollzug von Bundesrecht rechtzeitig in Angriff zu nehmen. Den betroffenen Behörden können im Rahmen der rechtlichen Grundlagen grosszügige Übergangsfristen für die Umsetzung dieser Verpflichtung eingeräumt werden. Die Botschaft zur Gesetzesänderung oder zu einem neuen Gesetz berücksichtigt die föderale Aufgabenteilung sowie weitere Beschränkungen der Bundesverfassung.</p>"
+      "value": "<p>In der Schweiz nimmt der Bedarf an digitalen Behördenleistungen weiter zu. In manchen Bereichen ist die Nachfrage heute bereits höher als das Angebot von Bund, Kantonen und Gemeinden. Um dieser Entwicklung gerecht zu werden, braucht es verbindliche Vorgaben, damit Behörden beim Vollzug von Bundesrecht ihre Behördenleistungen auch elektronisch anbieten müssen. Dies wäre kein Novum: Unserer Nachbarländer Deutschland und Österreich kennen bereits sogenannte Online-Zugangsgesetze, die Behörden dazu verpflichten, grundsätzlich alle Verwaltungsleistungen online anzubieten. </p><p>Die Schweiz hat bei der Digitalisierung der Verwaltung Aufholbedarf - das hat die Coronapandemie eindrücklich verdeutlich und wird in internationalen Studien wie dem E-Government-Benchmark der Europäischen Union regelmässig belegt (die Schweiz liegt mit einer Gesamtleistung von 52,3 Prozent auf Rang 32 von 36). Der Handlungsbedarf ist unbestritten: Bund und Kantone haben deshalb bereits Massnahmen ergriffen; wie die Gründung der Digitalen Verwaltung Schweiz (DVS) oder den Entwurf zum Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBaG). Weiter wurde die E-Government-Strategie 2020-2023 zukunftsweisend unter den klaren Leitsatz \"Digital First\" gestellt. </p><p>Diesen Digital First Leitsatz gilt es nun konsequent weiterzuführen und die Erarbeitung der rechtlichen Grundlagen für eine grundsätzliche Pflicht zur Digitalisierung von Behördenleistungen beim Vollzug von Bundesrecht rechtzeitig in Angriff zu nehmen. Den betroffenen Behörden können im Rahmen der rechtlichen Grundlagen grosszügige Übergangsfristen für die Umsetzung dieser Verpflichtung eingeräumt werden. Die Botschaft zur Gesetzesänderung oder zu einem neuen Gesetz berücksichtigt die föderale Aufgabenteilung sowie weitere Beschränkungen der Bundesverfassung.</p>"
     },
     {
       "type": {
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Der Bundesrat ist bereit, die notwendigen Rechtsgrundlagen im Rahmen der nächsten Revision des Bundesgesetzes über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG) umzusetzen. Alternativ könnte das Parlament das Begehren des Motionärs bereits in die Beratungen zur Botschaft zum EMBAG aufnehmen.</p><p>Die Motion bekennt sich zur geltenden Verfassungsordnung und ist so zu interpretieren, dass der Bund den Kantonen nur insofern Vorschriften über die Art und Weise der Aufgabenerfüllung macht, als dies für die einheitliche und korrekte Anwendung des Bundesrechts im jeweiligen Bereich erforderlich ist. Eine darüber hinausgehende allgemeine Bundeskompetenz zur Regelung der Digitalisierung sieht die Bundesverfassung hingegen nicht vor.</p><p>Wo der Bund zur Umsetzung der Motion die Kantone zu einem digitalen Angebot verpflichtet, muss er zwecks durchgängig digitaler Prozesse auch die Nutzung der erforderlichen Grundlagenleistungen und die Einhaltung entsprechender Standards vorsehen können.</p>"
+      "value": "<p>Der Bundesrat ist bereit, die notwendigen Rechtsgrundlagen im Rahmen der nächsten Revision des Bundesgesetzes über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG) umzusetzen. Alternativ könnte das Parlament das Begehren des Motionärs bereits in die Beratungen zur Botschaft zum EMBAG aufnehmen.</p><p>Die Motion bekennt sich zur geltenden Verfassungsordnung und ist so zu interpretieren, dass der Bund den Kantonen nur insofern Vorschriften über die Art und Weise der Aufgabenerfüllung macht, als dies für die einheitliche und korrekte Anwendung des Bundesrechts im jeweiligen Bereich erforderlich ist. Eine darüber hinausgehende allgemeine Bundeskompetenz zur Regelung der Digitalisierung sieht die Bundesverfassung hingegen nicht vor.</p><p>Wo der Bund zur Umsetzung der Motion die Kantone zu einem digitalen Angebot verpflichtet, muss er zwecks durchgängig digitaler Prozesse auch die Nutzung der erforderlichen Grundlagenleistungen und die Einhaltung entsprechender Standards vorsehen können.</p>  Der Bundesrat beantragt die Annahme der Motion."
     },
     {
       "type": {
@@ -234,8 +356,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Nutzenorientierte Digitalisierungsoffensive der Schweizer Verwaltung"
+      "value": "Nutzenorientierte Digitalisierungsoffensive der Schweizer Verwaltung "
     }
   ],
-  "title": "Nutzenorientierte Digitalisierungsoffensive der Schweizer Verwaltung"
+  "title": "Nutzenorientierte Digitalisierungsoffensive der Schweizer Verwaltung "
 }

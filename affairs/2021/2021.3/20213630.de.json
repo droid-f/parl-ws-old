@@ -1,6 +1,6 @@
 {
   "id": 20213630,
-  "updated": "2023-05-03T21:39:20Z",
+  "updated": "2024-03-26T21:22:31Z",
   "additionalIndexing": "2841;28;44",
   "affairType": {
     "abbreviation": "Mo.",
@@ -13,7 +13,7 @@
       "gender": "m",
       "id": 491,
       "name": "Maillard Pierre-Yves",
-      "officialDenomination": "Maillard"
+      "officialDenomination": "Maillard Pierre-Yves"
     },
     "faction": {
       "abbreviation": "Fraktion S",
@@ -55,6 +55,21 @@
             "date": "2023-05-03T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-12-18T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -68,7 +83,94 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "SGK-SR",
+            "id": 19,
+            "name": "Kommission für soziale Sicherheit und Gesundheit SR",
+            "abbreviation1": "SGK-S",
+            "abbreviation2": "SGK",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-02T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-NR",
+            "id": 6,
+            "name": "Kommission für soziale Sicherheit und Gesundheit NR",
+            "abbreviation1": "SGK-N",
+            "abbreviation2": "SGK",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-02T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-20T12:16:50Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3108,
+                    "gender": "m",
+                    "id": 4207,
+                    "name": "Müller Damian",
+                    "officialDenomination": "Müller Damian"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +191,23 @@
         },
         {
           "date": "/Date(1683064800000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1696111200000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1697148000000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1702854000000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -308,7 +425,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "faction": {
         "abbreviation": "Fraktion S",
@@ -321,10 +438,9 @@
   ],
   "shortId": "21.3630",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -333,7 +449,7 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>In der Schweiz übernehmen etwa 600'000 Personen Betreuungsaufgaben - das entspricht ca. 8 Prozent der Bevölkerung. Sie betreuen unterstützungsbedürftige Personen in der Familie, aber auch im Freundeskreis oder in der Nachbarschaft und übernehmen damit eine unverzichtbare Aufgabe in der Gesundheitsversorgung und der Gesellschaft. </p><p>Der \"Tag der betreuenden Angehörigen\" wurde 2012 vom Kanton Waadt lanciert und findet jeweils am 30. Oktober statt. Mittlerweile hat sich dieser Tag zu einem interkantonalen Format entwickelt. Verschiedene Kantone (Bern, Freiburg, Genf, Graubünden, Jura, Neuenburg, Tessin, Waadt, Wallis) und Organisationen nutzen dieses Datum, um betreuenden Angehörigen Dank und Anerkennung auszusprechen und bestehende Unterstützungsmöglichkeiten bekannt zu machen. Der Bundesrat erachtet den Tag der betreuenden Angehörigen und die damit verbundenen Sensibilisierungsaktivitäten als wichtigen Ansatz, um die Sichtbarkeit der von den betreuenden Angehörigen geleisteten Arbeit zu erhöhen. </p><p>Es liegt jedoch nicht in der Zuständigkeit des Bundesrates, \"nationale Tage\" zu bezeichnen. So wurde beispielsweise der Tag der Kranken vom gleichnamigen Trägerverein initiiert und wird mittlerweile von einer Vielzahl von Organisationen aus dem Gesundheits- und Sozialwesen getragen. Der Bundespräsident bzw. die Bundespräsidentin engagiert sich im Rahmen dieses Tages jeweils mit einer Ansprache. Ein weiteres Beispiel für die Entstehung eines \"nationalen Tages\" ist der \"Zukunftstag\". Dieser wurde 2001 als nationaler Tochtertag im Rahmen des Lehrstellenprojekts 16+ von der Schweizerischen Konferenz der Gleichstellungsbeauftragten initiiert. Auch an diesem Tag hat sich der Bundesrat in der Vergangenheit mit verschiedenen Aktivitäten und Ansprachen engagiert. </p><p>Der Bundesrat begrüsst, wenn die betroffenen nationalen Verbände oder Organisationen einen nationalen \"Tag der betreuenden Angehörigen\" ins Leben rufen würden. Er und insbesondere die zuständigen Bundesstellen sind gerne bereit, sich an den für den \"Tag der betreuenden Angehörigen\" geplanten Aktivitäten und Veranstaltungen zu beteiligen, wie dies bis anhin auch bereits erfolgt ist.</p><p>Eine Lancierung eines nationalen \"Tag der betreuenden Angehörigen\" durch den Bundesrat wäre auch vor dem Hintergrund der Gleichbehandlung von anderen relevanten Themen und Anliegen problematisch. Aufgrund der aufgeführten Argumente beantragt der Bundesrat die Ablehnung der Motion.</p>"
+      "value": "<p>In der Schweiz übernehmen etwa 600'000 Personen Betreuungsaufgaben - das entspricht ca. 8 Prozent der Bevölkerung. Sie betreuen unterstützungsbedürftige Personen in der Familie, aber auch im Freundeskreis oder in der Nachbarschaft und übernehmen damit eine unverzichtbare Aufgabe in der Gesundheitsversorgung und der Gesellschaft. </p><p>Der \"Tag der betreuenden Angehörigen\" wurde 2012 vom Kanton Waadt lanciert und findet jeweils am 30. Oktober statt. Mittlerweile hat sich dieser Tag zu einem interkantonalen Format entwickelt. Verschiedene Kantone (Bern, Freiburg, Genf, Graubünden, Jura, Neuenburg, Tessin, Waadt, Wallis) und Organisationen nutzen dieses Datum, um betreuenden Angehörigen Dank und Anerkennung auszusprechen und bestehende Unterstützungsmöglichkeiten bekannt zu machen. Der Bundesrat erachtet den Tag der betreuenden Angehörigen und die damit verbundenen Sensibilisierungsaktivitäten als wichtigen Ansatz, um die Sichtbarkeit der von den betreuenden Angehörigen geleisteten Arbeit zu erhöhen. </p><p>Es liegt jedoch nicht in der Zuständigkeit des Bundesrates, \"nationale Tage\" zu bezeichnen. So wurde beispielsweise der Tag der Kranken vom gleichnamigen Trägerverein initiiert und wird mittlerweile von einer Vielzahl von Organisationen aus dem Gesundheits- und Sozialwesen getragen. Der Bundespräsident bzw. die Bundespräsidentin engagiert sich im Rahmen dieses Tages jeweils mit einer Ansprache. Ein weiteres Beispiel für die Entstehung eines \"nationalen Tages\" ist der \"Zukunftstag\". Dieser wurde 2001 als nationaler Tochtertag im Rahmen des Lehrstellenprojekts 16+ von der Schweizerischen Konferenz der Gleichstellungsbeauftragten initiiert. Auch an diesem Tag hat sich der Bundesrat in der Vergangenheit mit verschiedenen Aktivitäten und Ansprachen engagiert. </p><p>Der Bundesrat begrüsst, wenn die betroffenen nationalen Verbände oder Organisationen einen nationalen \"Tag der betreuenden Angehörigen\" ins Leben rufen würden. Er und insbesondere die zuständigen Bundesstellen sind gerne bereit, sich an den für den \"Tag der betreuenden Angehörigen\" geplanten Aktivitäten und Veranstaltungen zu beteiligen, wie dies bis anhin auch bereits erfolgt ist.</p><p>Eine Lancierung eines nationalen \"Tag der betreuenden Angehörigen\" durch den Bundesrat wäre auch vor dem Hintergrund der Gleichbehandlung von anderen relevanten Themen und Anliegen problematisch. Aufgrund der aufgeführten Argumente beantragt der Bundesrat die Ablehnung der Motion.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

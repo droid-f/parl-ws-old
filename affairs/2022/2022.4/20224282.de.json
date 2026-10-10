@@ -1,6 +1,6 @@
 {
   "id": 20224282,
-  "updated": "2023-05-03T17:23:16Z",
+  "updated": "2024-03-26T22:11:29Z",
   "additionalIndexing": "2846;66",
   "affairType": {
     "abbreviation": "Mo.",
@@ -70,6 +70,21 @@
             "date": "2023-05-03T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-14T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -83,7 +98,98 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "UREK-NR",
+            "id": 7,
+            "name": "Kommission für Umwelt, Raumplanung und Energie NR",
+            "abbreviation1": "UREK-N",
+            "abbreviation2": "UREK",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-11-28T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "UREK-SR",
+            "id": 20,
+            "name": "Kommission für Umwelt, Raumplanung und Energie SR",
+            "abbreviation1": "UREK-S",
+            "abbreviation2": "UREK",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-11-28T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-09-04T09:49:17Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3196,
+                    "gender": "m",
+                    "id": 4241,
+                    "name": "Stark Jakob",
+                    "officialDenomination": "Stark"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion V",
+                    "code": "V",
+                    "id": 4,
+                    "name": "Fraktion der Schweizerischen Volkspartei"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -104,8 +210,23 @@
         },
         {
           "date": "/Date(1683064800000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1688162400000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1693778400000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1694642400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -156,27 +277,33 @@
   ],
   "shortId": "22.4282",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
     {
       "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "Der Bundesrat beantragt die Annahme der Motion."
+    },
+    {
+      "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Der Bundesrat wird beauftragt, einen Entwurf zur Änderung von Artikel 18a des Raumplanungsgesetzes (RPG) auszuarbeiten, sodass für energetische Sanierungen in Bau- und Landwirtschaftszonen keine Baubewilligung nach Artikel 22 Absatz 1 mehr nötig ist, so wie dies bei Solaranlagen der Fall ist. Solche Vorhaben sollen nur noch der zuständigen Behörde gemeldet werden müssen.</p><p>Die Renovation von Gebäuden ist für alle Eigentümerinnen und Eigentümer eine Herausforderung. Es geht darum, Isolationsmassnahmen, mit denen möglichst viel Energie eingespart werden kann, mit der Installation neuer Energiegewinnungssysteme zu kombinieren, sei es mittels Solaranlagen oder sei es mittels anderer Systeme, die keine fossilen Energien benötigen. Die technischen Lösungen sind vorhanden. Es werden Subventionen gewährt und finanziell ist es interessant. Leider hinken die Gesetze und Abläufe den Bedürfnissen der Bevölkerungen oft noch hinterher.</p><p>Nach Artikel 18a RPG und Artikel 32a der Raumplanungsverordnung (RPV) ist es erlaubt, Solaranlagen in Bau- und Landwirtschaftszonen ohne Bewilligungsverfahren zu erstellen. Fassadenisolationen benötigen jedoch wie andere bauliche Veränderungen eine Baubewilligung nach Artikel 22 Absatz 1 RPG.</p><p>Wenn diese Einordnung die Renovierung von Gebäuden, die schon vor 1972 bestanden haben und für die der Bestandesschutz gilt, nicht verhindert, muss die Isolation als erlaubte Erweiterung im Rahmen von Artikel 42 RPV erfolgen, sofern die Identität des Gebäudes gewahrt bleibt. Zudem macht diese Einordnung die Aussenisolation von Gebäuden, die unter die Geltung von Artikel 24a oder 24d Absatz 1 RPG fallen, unmöglich. Diese Artikel verweisen auf Artikel 22 Absatz 1 RPG und legen den Rahmen von nicht bewilligungspflichtigen Arbeiten fest. So könnte ein lediglich isolierender Aussenverputz als Unterhaltsarbeit ausgeführt werden. Für eine effiziente Isolation ist dies unzureichend.</p><p>Um Energieeinsparungen zu ermöglichen, sind jetzt energetische Sanierungsarbeiten wichtig, so die Installation umweltfreundlicherer Heizsysteme, Wärmedämmungen, Einrichtungen zur Erzeugung erneuerbarer Energien (Solaranlagen, kleine Windkraftanlagen, Wärmepumpen etc.), Verglasungen zum Einfangen der Sonnenenergie (Passivheizung) und effiziente Aussenisolation. Es ist dringend notwendig, die Bewilligungsverfahren zu erleichtern.</p>"
+      "value": "<p>Der Bundesrat wird beauftragt, einen Entwurf zur Änderung von Artikel 18a des Raumplanungsgesetzes (RPG) auszuarbeiten, sodass für energetische Sanierungen in Bau- und Landwirtschaftszonen keine Baubewilligung nach Artikel 22 Absatz 1 mehr nötig ist, so wie dies bei Solaranlagen der Fall ist. Solche Vorhaben sollen nur noch der zuständigen Behörde gemeldet werden müssen.</p><p>Die Renovation von Gebäuden ist für alle Eigentümerinnen und Eigentümer eine Herausforderung. Es geht darum, Isolationsmassnahmen, mit denen möglichst viel Energie eingespart werden kann, mit der Installation neuer Energiegewinnungssysteme zu kombinieren, sei es mittels Solaranlagen oder sei es mittels anderer Systeme, die keine fossilen Energien benötigen. Die technischen Lösungen sind vorhanden. Es werden Subventionen gewährt und finanziell ist es interessant. Leider hinken die Gesetze und Abläufe den Bedürfnissen der Bevölkerungen oft noch hinterher.</p><p>Nach Artikel 18a RPG und Artikel 32a der Raumplanungsverordnung (RPV) ist es erlaubt, Solaranlagen in Bau- und Landwirtschaftszonen ohne Bewilligungsverfahren zu erstellen. Fassadenisolationen benötigen jedoch wie andere bauliche Veränderungen eine Baubewilligung nach Artikel 22 Absatz 1 RPG.</p><p>Wenn diese Einordnung die Renovierung von Gebäuden, die schon vor 1972 bestanden haben und für die der Bestandesschutz gilt, nicht verhindert, muss die Isolation als erlaubte Erweiterung im Rahmen von Artikel 42 RPV erfolgen, sofern die Identität des Gebäudes gewahrt bleibt. Zudem macht diese Einordnung die Aussenisolation von Gebäuden, die unter die Geltung von Artikel 24a oder 24d Absatz 1 RPG fallen, unmöglich. Diese Artikel verweisen auf Artikel 22 Absatz 1 RPG und legen den Rahmen von nicht bewilligungspflichtigen Arbeiten fest. So könnte ein lediglich isolierender Aussenverputz als Unterhaltsarbeit ausgeführt werden. Für eine effiziente Isolation ist dies unzureichend.</p><p>Um Energieeinsparungen zu ermöglichen, sind jetzt energetische Sanierungsarbeiten wichtig, so die Installation umweltfreundlicherer Heizsysteme, Wärmedämmungen, Einrichtungen zur Erzeugung erneuerbarer Energien (Solaranlagen, kleine Windkraftanlagen, Wärmepumpen etc.), Verglasungen zum Einfangen der Sonnenenergie (Passivheizung) und effiziente Aussenisolation. Es ist dringend notwendig, die Bewilligungsverfahren zu erleichtern.</p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Änderung des Raumplanungsgesetzes zur Förderung der Energieeffizienz"
+      "value": "Änderung des Raumplanungsgesetzes zur Förderung der Energieeffizienz "
     }
   ],
-  "title": "Änderung des Raumplanungsgesetzes zur Förderung der Energieeffizienz"
+  "title": "Änderung des Raumplanungsgesetzes zur Förderung der Energieeffizienz "
 }

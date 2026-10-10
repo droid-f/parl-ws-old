@@ -1,7 +1,7 @@
 {
   "id": 20220474,
-  "updated": "2023-03-15T18:00:51Z",
-  "additionalIndexing": "0421;2841",
+  "updated": "2024-03-26T21:31:55Z",
+  "additionalIndexing": "421;2841",
   "affairType": {
     "abbreviation": "Iv. pa.",
     "id": 4,
@@ -54,6 +54,46 @@
             "date": "2023-03-15T00:00:00Z",
             "text": "Donné suite",
             "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CIP-CE",
+              "id": 24,
+              "name": "Commission des institutions politiques CE",
+              "abbreviation1": "CIP-E",
+              "abbreviation2": "CIP",
+              "committeeNumber": 24,
+              "council": {
+                "abbreviation": "CE",
+                "id": 2,
+                "name": "Conseil des Etats",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-10-19T00:00:00Z",
+            "text": null,
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-12-21T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
           }
         ]
       },
@@ -66,10 +106,35 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-20T11:22:55Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CIP-CN",
             "id": 11,
             "name": "Commission des institutions politiques CN",
-            "abbreviation1": "CIP-CN",
+            "abbreviation1": "CIP-N",
             "abbreviation2": "CIP",
             "committeeNumber": 11,
             "council": {
@@ -116,7 +181,7 @@
             "abbreviation": "CIP-CE",
             "id": 24,
             "name": "Commission des institutions politiques CE",
-            "abbreviation1": "CIP-CE",
+            "abbreviation1": "CIP-E",
             "abbreviation2": "CIP",
             "committeeNumber": 24,
             "council": {
@@ -129,7 +194,58 @@
           },
           "date": "2022-09-29T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ],
+              "sessionId": "5122"
+            }
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-21T09:06:35Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3199,
+                    "gender": "m",
+                    "id": 4244,
+                    "name": "Zopfi Mathias",
+                    "officialDenomination": "Zopfi"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe G",
+                    "id": 6,
+                    "name": "Groupe des VERT-E-S"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -152,8 +268,23 @@
         },
         {
           "date": "/Date(1678834800000+0100)/",
-          "id": 28,
-          "name": "Examen préalable par le Conseil national"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 225,
+          "name": "Examen préalable - en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1697752800000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1703113200000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -172,7 +303,10 @@
     }
   ],
   "relatedAffairs": [
-
+    {
+      "id": 20232013,
+      "shortId": "23.2013"
+    }
   ],
   "roles": [
     {
@@ -193,8 +327,8 @@
   ],
   "shortId": "22.474",
   "state": {
-    "id": 28,
-    "name": "Examen préalable par le Conseil national",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
@@ -204,7 +338,7 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Les primes de l'assurance-maladie augmentent de manière continue et injustifiée. Leur formation manque de transparence, et des lacunes subsistent concernant la participation des cantons.</p><p>La difficulté d'apporter ne serait-ce qu'une infime modification au système actuel est manifeste. Une des raisons expliquant le rejet d'innombrables propositions est que de nombreux députés sont pris dans un conflit d'intérêts, car ils assument des fonctions dans des organes directeurs ou des fédérations d'assurances-maladie. De telles fonctions sont en règle générale généreusement rémunérées, les montants versés étant peut-être même supérieurs à celui des indemnités parlementaires. Or, ces députés siègent dans les Commissions de la sécurité sociale et de la santé publique des Chambres fédérales, ils participent aux débats et aux votations relatives à des dossiers qui concernent les assureurs-maladie (au sein des commissions chargées de l'examen préalable des projets comme dans les conseils) et ils assument également la fonction de rapporteur.</p><p>Le conflit d'intérêts saute aux yeux : ces parlementaires s'expriment-ils en tant qu'émissaires des assureurs-maladie ou en tant que représentants des citoyens ? Bien malin qui pourra le dire, mais il existe néanmoins un indicateur objectif, à savoir les rémunérations perçues. Si d'importants montants circulent entre les assureurs-maladie et leurs lobbyistes parlementaires, il y a fort à parier que les intérêts des assureurs prévaudront. C'est pourquoi il est indispensable de rendre public le montant des rémunérations, comme le demande la présente initiative.</p><p>Un traitement particulier se justifie pour ce type de mandats dans la mesure où, contrairement aux autres entreprises, les caisses-maladie offrent, avec l'assurance de base, une assurance obligatoire en vertu de la loi.</p>"
+      "value": "<p>Les primes de l'assurance-maladie augmentent de manière continue et injustifiée. Leur formation manque de transparence, et des lacunes subsistent concernant la participation des cantons.</p><p>La difficulté d'apporter ne serait-ce qu'une infime modification au système actuel est manifeste. Une des raisons expliquant le rejet d'innombrables propositions est que de nombreux députés sont pris dans un conflit d'intérêts, car ils assument des fonctions dans des organes directeurs ou des fédérations d'assurances-maladie. De telles fonctions sont en règle générale généreusement rémunérées, les montants versés étant peut-être même supérieurs à celui des indemnités parlementaires. Or, ces députés siègent dans les Commissions de la sécurité sociale et de la santé publique des Chambres fédérales, ils participent aux débats et aux votations relatives à des dossiers qui concernent les assureurs-maladie (au sein des commissions chargées de l'examen préalable des projets comme dans les conseils) et ils assument également la fonction de rapporteur.</p><p>Le conflit d'intérêts saute aux yeux : ces parlementaires s'expriment-ils en tant qu'émissaires des assureurs-maladie ou en tant que représentants des citoyens ? Bien malin qui pourra le dire, mais il existe néanmoins un indicateur objectif, à savoir les rémunérations perçues. Si d'importants montants circulent entre les assureurs-maladie et leurs lobbyistes parlementaires, il y a fort à parier que les intérêts des assureurs prévaudront. C'est pourquoi il est indispensable de rendre public le montant des rémunérations, comme le demande la présente initiative.</p><p>Un traitement particulier se justifie pour ce type de mandats dans la mesure où, contrairement aux autres entreprises, les caisses-maladie offrent, avec l'assurance de base, une assurance obligatoire en vertu de la loi.</p>"
     },
     {
       "type": {

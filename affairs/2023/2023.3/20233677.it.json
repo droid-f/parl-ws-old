@@ -1,6 +1,6 @@
 {
   "id": 20233677,
-  "updated": "2023-06-20T21:24:35Z",
+  "updated": "2024-03-26T22:02:26Z",
   "additionalIndexing": "48;28",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,192 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-09-20T00:00:00Z",
+            "text": "Trasmissione per esame alla commissione competente",
+            "type": 66
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Amm."
+            },
+            "council": null,
+            "date": "2023-12-04T00:00:00Z",
+            "text": "Sarà ripreso",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-03-06T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-23T00:00:00Z",
+        "text": "Respingere"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CTT-CN",
+            "id": 9,
+            "name": "Commissione dei trasporti e delle telecomunicazioni CN",
+            "abbreviation1": "CTT-N",
+            "abbreviation2": "CTT",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-16T11:43:31Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3195,
+                    "gender": "m",
+                    "id": 4240,
+                    "name": "Juillard Charles",
+                    "officialDenomination": "Juillard"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CTT-CS",
+            "id": 22,
+            "name": "Commissione dei trasporti e delle telecomunicazioni CS",
+            "abbreviation1": "CTT-S",
+            "abbreviation2": "CTT",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1692741600000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1695160800000+0200)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1704841200000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1705359600000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1709679600000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -138,23 +301,54 @@
         "name": "Gruppo liberale radicale"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3108,
+        "gender": "m",
+        "id": 4207,
+        "name": "Müller Damian",
+        "officialDenomination": "Müller Damian"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "23.3677",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Nonostante il settore automobilistico rappresenti un segmento importante della nostra economia direttamente interessato dalla politica ambientale, al momento non è possibile conoscere il numero esatto dei veicoli che compongono il parco elvetico. Le cifre riportate dalle statistiche ufficiali, infatti, riguardano solamente i mezzi immatricolati, mentre gli altri sfuggono alle rilevazioni.&nbsp;</p><p>Attualmente pertanto non siamo in grado di:</p><p>– sapere il numero esatto di autovetture presenti in Svizzera;</p><p>– quantificare il parco dell’usato;</p><p>– conoscerne l’andamento;</p><p>– stimare il valore finanziario dell’usato per le autofficine e concessionarie che devono finanziarlo;</p><p>– sapere dove vanno a finire i veicoli arrivati in passato sul mercato svizzero;</p><p>– determinare se demoliamo i nostri veicoli troppo presto, sprecando così risorse preziose.</p><p>L’esperienza di alcuni professionisti del settore sembra infatti dimostrare che una parte dei veicoli viene rottamata prematuramente. Questo sembra sintomo da un lato di un’eccedenza di automobili in Svizzera rispetto alle esigenze del mercato, da cui la necessità di smaltirle, e dall’altro dello spreco di una quantità non indifferente di energia grigia e risorse naturali, anche nei casi in cui questi veicoli finiscano al riciclaggio. Sbarazzarsi di un oggetto prima del dovuto, anche se viene riciclato, non è un comportamento ecologico.</p><p>Senza dimenticare, inoltre, che la sparizione di veicoli «nella natura», soprattutto all’estero, provoca ogni anno per la Svizzera una perdita di materie prime che ostacola l’approvvigionamento e la dinamicità dell’economia circolare invocata dal Governo e sostenuta dal Parlamento.</p><p>È altresì innegabile il ruolo di autofficine e concessionarie nel recepire i veicoli non immatricolati e non contabilizzati, corrispondenti in gran parte al parco dell’usato nazionale. Sempre più piccole e medie realtà di questo tipo si trovano ad affrontare difficoltà finanziarie, perché il capitale immobilizzato dal loro parco dell’usato genera costi gravosi e perde valore giorno dopo giorno; si tratta di liquidità stagnanti che tolgono a queste PMI parte delle risorse indispensabili per la corretta crescita della loro attività.&nbsp;</p><p>In questo modo, più aumenta il parco dell’usato, più gli oneri ad esso connessi pesano sullo stato di salute economica del settore. Conviene dunque quantificare questo parco veicoli e capire se è in aumento.</p><p>Avere a disposizione cifre precise e individuare il numero di auto non immatricolate consentirebbe infatti sia di seguire le tendenze effettive del mercato dell’usato, sia di analizzarne la massa finanziaria. In caso di comprovato squilibrio, tali informazioni permetterebbero anche di cercare soluzioni in grado di trasformare in liquidità questi capitali fissi.</p><p>Stando ai dati dei professionisti della demolizione e del riciclaggio (Fondazione AutoRecycling Suisse), nel 2019 in Svizzera oltre 64&nbsp;000 automobili sarebbero sparite dalla circolazione e finite chissà dove nel territorio nazionale o altrove, provocando una perdita netta in termini di materie prime e incassi per le imprese del settore. Per di più, è probabile che alcuni di questi veicoli abbiano terminato i loro giorni in depositi selvaggi ai lati di certe strade o addirittura nei boschi, il che non è proprio accettabile.</p><p>Dunque, per riuscire a gestire un elemento significativo per la politica ambientale del Paese e garantire un sano sviluppo economico di un settore importante come quello automobilistico, è indispensabile conoscere il numero totale dei veicoli che si trovano sul territorio elvetico e consentirne la tracciabilità.</p><p>È opportuno anche conteggiare e inserire nelle statistiche ufficiali il totale delle automobili non immatricolate, cosa che, stando agli esperti, non dovrebbe comportare ulteriori oneri amministrativi per i titolari dei veicoli né per gli uffici cantonali della circolazione stradale.</p><p>&nbsp;</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Al fine di incentivare la rottamazione ecocompatibile dei mezzi a fine vita, l’Esecutivo punta sul principio di causalità. La fondazione Auto Recycling Schweiz riceve dai membri di autosuisse, sulla base di rapporti privatistici, un contributo di smaltimento per ogni nuova immatricolazione, con l’obiettivo di promuovere una rottamazione rispettosa dell’ambiente dei veicoli a motore in Svizzera.</p><p>Le modifiche normative richieste non consentono di colmare il gap informativo descritto. Nel nostro Paese i veicoli fuori uso, ossia destinati allo smaltimento, rientrano già nella categoria «altri rifiuti soggetti a controllo»: le imprese di smaltimento devono comunicare periodicamente quanti di questi rifiuti ricevono e trasferiscono (art. 12 cpv. 3 dell’ordinanza sul traffico di rifiuti [OTRif; RS 814.610]). I servizi cantonali dell’ambiente preposti e l’UFAM sono quindi a conoscenza del numero di veicoli smaltiti nel Paese.&nbsp;</p><p>Anche la quantità di veicoli fuori uso trasferiti all’estero è nota: l’esportazione è infatti soggetta a segnalazione all’UFAM e rilascio di autorizzazione; i dati vengono pubblicati nelle statistiche svizzere sui rifiuti. Il parco dell’usato è considerato invece come «prodotto» e può essere commercializzato liberamente sia sul territorio nazionale che estero.&nbsp;</p><p>Per il traffico transfrontaliero, per di più, il gap informativo può essere colmato solo teoricamente: un veicolo può infatti attraversare la frontiera senza dichiarazione doganale formale e in tal caso non viene rilevato in maniera sistematica. L’eventuale permanenza definitiva all’estero (ad es. per vendita o rottamazione) passa inosservata. All’atto pratico non è possibile applicare né imporre una dichiarazione a posteriori, dal momento che l’UDSC non possiede informazioni circa la presenza di tale veicolo sul territorio estero né è autorizzato a svolgere controlli in altri Stati.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è invitato a modificare l’ordinanza concernente il sistema d’informazione sull’ammissione alla circolazione (OSIAC) aggiungendo</p><p>– all’articolo 4 una lettera d: «i dati dei veicoli fuori circolazione immatricolati dalle autorità svizzere. Tali veicoli sono cancellati dal SIAC in caso di esportazione o demolizione»;</p><p>– all’articolo 5 un capoverso 7: «l’Ufficio federale della dogana e della sicurezza dei confini (UDSC) nonché le imprese di demolizione e riciclaggio delle automobili trasmettono al SIAC i dati relativi ai veicoli esportati o rottamati».</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Sapere finalmente quante automobili (anche non immatricolate) si trovano in Svizzera!"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Sapere finalmente quante automobili (anche non immatricolate) si trovano in Svizzera!"
 }

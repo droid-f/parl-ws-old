@@ -1,6 +1,6 @@
 {
   "id": 20213661,
-  "updated": "2023-05-03T17:26:36Z",
+  "updated": "2024-03-26T22:31:30Z",
   "additionalIndexing": "10;34;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2023-05-03T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-19T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -68,7 +83,99 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-08-21T19:26:59Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3052,
+                    "gender": "m",
+                    "id": 4151,
+                    "name": "Dittli Josef",
+                    "officialDenomination": "Dittli"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "KVF-SR",
+            "id": 22,
+            "name": "Kommission für Verkehr und Fernmeldewesen SR",
+            "abbreviation1": "KVF-S",
+            "abbreviation2": "KVF",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-09T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
 
+              ],
+              "sessionId": "5122"
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "KVF-NR",
+            "id": 9,
+            "name": "Kommission für Verkehr und Fernmeldewesen NR",
+            "abbreviation1": "KVF-N",
+            "abbreviation2": "KVF",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-09T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +196,23 @@
         },
         {
           "date": "/Date(1683064800000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1686088800000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1692655200000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1695074400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -131,10 +253,9 @@
   ],
   "shortId": "21.3661",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -143,14 +264,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Gerade in einer Krisenzeit, muss jede Massnahme ergriffen werden, um die Kosten für Wirtschaft und Gesellschaft zu senken. Die überhöhten Roaming-Kosten müssen nun endlich mit wirksamen Instrumenten angegangen werden. Die EU hat dies für ihre Bürgerinnen und Bürger zunächst mit Preisobergrenzen und 2017 mit der gänzlichen Abschaffung der Roaming-Gebühren erreicht. Der schweizerische Weg, der in erster Linie auf eine verbesserte Verbraucherinformation und auf die Eigenverantwortung der Mobilfunkanbieter setzt, löst dagegen das Problem unbefriedigend. Wer nicht in eine Kostenfalle tappen will, schaltet das Roaming beim Grenzübertritt aus. Wer es sich leisten kann, wählt vorsichtshalber ein teures Abonnement, das eine gewisse Anzahl Roaming-Minuten und Datenvolumen enthält. Ziel müsste sein, Schweizerinnen und Schweizern die gewohnte und unbeschwerte Nutzung des Smartphones auch im Ausland zu ermöglichen statt mit hohen Preisen und Verbraucherwarnungen die Nutzung von Roaming präventiv einzuschränken. Franken 2,20 pro Minute für einen Anruf in die Schweiz (Salt-Prepay-Angebot) oder Franken 2,95 pro MB (Salt Standardtarif) bzw. Franken 1 pro MB (Aldi) sind weiterhin erschreckend hoch.</p><p>Die Pandemie hat die Digitalisierung beschleunigt. ÖV-Fahrpläne- und Tickets, Tischreservationen im Restaurant, Kreditkarten-Authentifikationen, die Buchung von Slots für den Eintritt in Museen etc. sind auch im Ausland zunehmend nur noch über Internet uneingeschränkt zugänglich. Es besteht also Handlungsbedarf. Der Beitritt zur EU-Roaming-Regelung wäre für die Wirtschaft, den Tourismus und die Reisenden im Sinne einer einheitlichen Regelung sicherlich sinnvoll. Die Möglichkeit einer Ausweitung der bilateralen Verträge mit der EU dürfte aber innert nützlicher Frist nicht realisierbar sein. Möglich wäre es hingegen, Obergrenzen für Roamingdienste der Schweizer Mobilfunkanbieter zu schaffen. Ein vom Konsumentenschutz in Auftrag gegebenes Rechtsgutachten von Andreas Stöckli, Professor für Staats- und Verwaltungsrecht an der Universität Freiburg, zeigt, dass Artikel 12a bis Absatz 1 des revidierten Fernmeldegesetzes die notwendige gesetzliche Grundlage bietet, um in der Fernmeldeverordnung einseitig Preisobergrenzen für die Endkundentarife beim Roaming festzulegen.</p>"
+      "value": "<p>Gerade in einer Krisenzeit, muss jede Massnahme ergriffen werden, um die Kosten für Wirtschaft und Gesellschaft zu senken. Die überhöhten Roaming-Kosten müssen nun endlich mit wirksamen Instrumenten angegangen werden. Die EU hat dies für ihre Bürgerinnen und Bürger zunächst mit Preisobergrenzen und 2017 mit der gänzlichen Abschaffung der Roaming-Gebühren erreicht. Der schweizerische Weg, der in erster Linie auf eine verbesserte Verbraucherinformation und auf die Eigenverantwortung der Mobilfunkanbieter setzt, löst dagegen das Problem unbefriedigend. Wer nicht in eine Kostenfalle tappen will, schaltet das Roaming beim Grenzübertritt aus. Wer es sich leisten kann, wählt vorsichtshalber ein teures Abonnement, das eine gewisse Anzahl Roaming-Minuten und Datenvolumen enthält. Ziel müsste sein, Schweizerinnen und Schweizern die gewohnte und unbeschwerte Nutzung des Smartphones auch im Ausland zu ermöglichen statt mit hohen Preisen und Verbraucherwarnungen die Nutzung von Roaming präventiv einzuschränken. Franken 2,20 pro Minute für einen Anruf in die Schweiz (Salt-Prepay-Angebot) oder Franken 2,95 pro MB (Salt Standardtarif) bzw. Franken 1 pro MB (Aldi) sind weiterhin erschreckend hoch.&nbsp;</p><p>Die Pandemie hat die Digitalisierung beschleunigt. ÖV-Fahrpläne- und Tickets, Tischreservationen im Restaurant, Kreditkarten-Authentifikationen, die Buchung von Slots für den Eintritt in Museen etc. sind auch im Ausland zunehmend nur noch über Internet uneingeschränkt zugänglich. Es besteht also Handlungsbedarf. Der Beitritt zur EU-Roaming-Regelung wäre für die Wirtschaft, den Tourismus und die Reisenden im Sinne einer einheitlichen Regelung sicherlich sinnvoll. Die Möglichkeit einer Ausweitung der bilateralen Verträge mit der EU dürfte aber innert nützlicher Frist nicht realisierbar sein. Möglich wäre es hingegen, Obergrenzen für Roamingdienste der Schweizer Mobilfunkanbieter zu schaffen. Ein vom Konsumentenschutz in Auftrag gegebenes Rechtsgutachten von Andreas Stöckli, Professor für Staats- und Verwaltungsrecht an der Universität Freiburg, zeigt, dass Artikel&nbsp;12a bis Absatz&nbsp;1 des revidierten Fernmeldegesetzes die notwendige gesetzliche Grundlage bietet, um in der Fernmeldeverordnung einseitig Preisobergrenzen für die Endkundentarife beim Roaming festzulegen.</p>"
     },
     {
       "type": {
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Das Parlament hat im Rahmen einer Teilrevision im Jahr 2019 einen neuen Artikel 12abis in das Fernmeldegesetz (FMG) eingefügt. Diese Bestimmung gibt dem Bundesrat verschiedene Kompetenzen zur Bekämpfung von überhöhten Roaming-Preisen. Gemäss Artikel 12abis Absatz 1 Buchstabe c FMG hat der Bundesrat neu die Kompetenz, basierend auf internationalen Vereinbarungen Preisobergrenzen festzulegen. Eine Kompetenz zur unilateralen Festlegung von Preisobergrenzen hat das Parlament dem Bundesrat entgegen der im Gutachten von Prof. Andreas Stöckli vertretenen Haltung eben gerade nicht gegeben. Bestünde diese Möglichkeit tatsächlich, so wäre der Wortlaut der Bestimmung nicht mit der Voraussetzung \"basierend auf internationale Vereinbarungen\" versehen worden. Diesfalls würde die Bestimmung einfach vorsehen, dass der Bundesrat Preisobergrenzen vorsehen kann. Zudem hat der Bundesrat die Möglichkeit unilateraler Preisobergrenzen in seiner Botschaft zur Teilrevision des FMG explizit geprüft und verworfen. In den parlamentarischen Debatten ist zu keiner Zeit eine Diskussion über diesen Richtungsentscheid verlangt worden. Die Einführung von unilateralen Preisobergrenzen für das Roaming würde deshalb eine Revision des FMG voraussetzen. Sie kann nicht vom Bundesrat auf dem Verordnungsweg vorgesehen werden.</p>"
+      "value": "<p>Das Parlament hat im Rahmen einer Teilrevision im Jahr 2019 einen neuen Artikel 12abis in das Fernmeldegesetz (FMG) eingefügt. Diese Bestimmung gibt dem Bundesrat verschiedene Kompetenzen zur Bekämpfung von überhöhten Roaming-Preisen. Gemäss Artikel 12abis Absatz 1 Buchstabe c FMG hat der Bundesrat neu die Kompetenz, basierend auf internationalen Vereinbarungen Preisobergrenzen festzulegen. Eine Kompetenz zur unilateralen Festlegung von Preisobergrenzen hat das Parlament dem Bundesrat entgegen der im Gutachten von Prof. Andreas Stöckli vertretenen Haltung eben gerade nicht gegeben. Bestünde diese Möglichkeit tatsächlich, so wäre der Wortlaut der Bestimmung nicht mit der Voraussetzung \"basierend auf internationale Vereinbarungen\" versehen worden. Diesfalls würde die Bestimmung einfach vorsehen, dass der Bundesrat Preisobergrenzen vorsehen kann. Zudem hat der Bundesrat die Möglichkeit unilateraler Preisobergrenzen in seiner Botschaft zur Teilrevision des FMG explizit geprüft und verworfen. In den parlamentarischen Debatten ist zu keiner Zeit eine Diskussion über diesen Richtungsentscheid verlangt worden. Die Einführung von unilateralen Preisobergrenzen für das Roaming würde deshalb eine Revision des FMG voraussetzen. Sie kann nicht vom Bundesrat auf dem Verordnungsweg vorgesehen werden.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

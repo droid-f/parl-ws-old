@@ -1,6 +1,6 @@
 {
   "id": 20233019,
-  "updated": "2023-05-03T14:33:14Z",
+  "updated": "2024-03-26T21:08:31Z",
   "additionalIndexing": "66;15;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -12,7 +12,7 @@
       "abbreviation": "CAPTE-CN",
       "id": 7,
       "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CN",
-      "abbreviation1": "CAPTE-CN",
+      "abbreviation1": "CAPTE-N",
       "abbreviation2": "CAPTE",
       "committeeNumber": 7,
       "council": {
@@ -57,6 +57,21 @@
             "date": "2023-05-03T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-03-06T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
           }
         ]
       },
@@ -72,10 +87,50 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-19T15:03:54Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2783,
+                    "gender": "m",
+                    "id": 4078,
+                    "name": "Schmid Martin",
+                    "officialDenomination": "Schmid Martin"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CAPTE-CN",
             "id": 7,
             "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CN",
-            "abbreviation1": "CAPTE-CN",
+            "abbreviation1": "CAPTE-N",
             "abbreviation2": "CAPTE",
             "committeeNumber": 7,
             "council": {
@@ -142,7 +197,7 @@
             "abbreviation": "CAPTE-CS",
             "id": 20,
             "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CS",
-            "abbreviation1": "CAPTE-CS",
+            "abbreviation1": "CAPTE-S",
             "abbreviation2": "CAPTE",
             "committeeNumber": 20,
             "council": {
@@ -178,8 +233,28 @@
         },
         {
           "date": "/Date(1683064800000+0200)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1698357600000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1706742000000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1709679600000+0100)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
         }
       ],
       "texts": [
@@ -206,7 +281,7 @@
         "abbreviation": "CAPTE-CN",
         "id": 7,
         "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CN",
-        "abbreviation1": "CAPTE-CN",
+        "abbreviation1": "CAPTE-N",
         "abbreviation2": "CAPTE",
         "committeeNumber": 7,
         "council": {
@@ -222,11 +297,10 @@
   ],
   "shortId": "23.3019",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 209,
+    "name": "Trasmesso al Consiglio federale",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -235,6 +309,13 @@
         "name": "Motivazione"
       },
       "value": "<p>Per migliorare la sicurezza dell'approvvigionamento energetico in Svizzera e ridurre l'impatto sul clima è necessario aumentare la percentuale di gas rinnovabile nell'approvvigionamento di gas in Svizzera. Per raggiungere tale obiettivo dovrebbe anche essere possibile, in una certa misura, importare gas rinnovabile. Devono essere chiariti i requisiti per garantire che il gas rinnovabile importato provenga da fonti sostenibili e possa quindi contribuire alla protezione del clima. Il gas rinnovabile di alta qualità proveniente dalla Svizzera andrebbe sostenuto e indennizzato adeguatamente affinché sia possibile sfruttare in modo sensato i potenziali presenti nel nostro Paese.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "Il Consiglio federale propone di accogliere la mozione."
     },
     {
       "type": {

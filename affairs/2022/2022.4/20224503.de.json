@@ -1,6 +1,6 @@
 {
   "id": 20224503,
-  "updated": "2023-05-04T17:15:43Z",
+  "updated": "2024-03-26T21:51:23Z",
   "additionalIndexing": "1216;1231;09",
   "affairType": {
     "abbreviation": "Mo.",
@@ -70,6 +70,21 @@
             "date": "2023-05-04T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-27T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -83,7 +98,74 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-16T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-16T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2632,
+                    "gender": "m",
+                    "id": 1120,
+                    "name": "Sommaruga Carlo",
+                    "officialDenomination": "Sommaruga Carlo"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion S",
+                    "code": "S",
+                    "id": 2,
+                    "name": "Sozialdemokratische Fraktion"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5122"
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -104,8 +186,18 @@
         },
         {
           "date": "/Date(1683151200000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1695765600000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -216,10 +308,9 @@
   ],
   "shortId": "22.4503",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -235,7 +326,7 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Zurzeit ist bereits die Motion 22.3362 Sommaruga Carlo \"Kampf gegen die Straffreiheit. Übernahme des Verbrechens der Aggression gemäss Römer Statut in das Schweizer Recht\" hängig, welche die Aufnahme des Aggressionsverbrechens in das Schweizer Recht verlangt. Der Bundesrat hat damals Annahme beantragt. Die vorliegend nun zusätzlich angeregte Rückwirkung einer neuen Strafbestimmung gegen die Aggression kann unter Beachtung des Prinzips der Rechtsicherheit sowie des grundsätzlich geltenden Rückwirkungsverbots gemäss Artikel 2 des Strafgesetzbuches (StGB, SR 311.0) ebenfalls geprüft werden.</p>"
+      "value": "<p>Zurzeit ist bereits die Motion 22.3362 Sommaruga Carlo \"Kampf gegen die Straffreiheit. Übernahme des Verbrechens der Aggression gemäss Römer Statut in das Schweizer Recht\" hängig, welche die Aufnahme des Aggressionsverbrechens in das Schweizer Recht verlangt. Der Bundesrat hat damals Annahme beantragt. Die vorliegend nun zusätzlich angeregte Rückwirkung einer neuen Strafbestimmung gegen die Aggression kann unter Beachtung des Prinzips der Rechtsicherheit sowie des grundsätzlich geltenden Rückwirkungsverbots gemäss Artikel 2 des Strafgesetzbuches (StGB, SR 311.0) ebenfalls geprüft werden.</p>  Der Bundesrat beantragt die Annahme der Motion."
     },
     {
       "type": {

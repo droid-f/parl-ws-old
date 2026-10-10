@@ -1,6 +1,6 @@
 {
   "id": 20200441,
-  "updated": "2020-06-26T07:13:30Z",
+  "updated": "2024-03-26T22:17:43Z",
   "additionalIndexing": "66",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -16,8 +16,8 @@
       "officialDenomination": "Kamerzin"
     },
     "faction": {
-      "abbreviation": "M-E",
-      "id": 139,
+      "abbreviation": "Groupe M-E",
+      "id": 3,
       "name": "Le Groupe du Centre. Le Centre. PEV."
     },
     "type": "author"
@@ -49,7 +49,7 @@
               "abbreviation": "CEATE-CN",
               "id": 7,
               "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CN",
-              "abbreviation1": "CEATE-CN",
+              "abbreviation1": "CEATE-N",
               "abbreviation2": "CEATE",
               "committeeNumber": 7,
               "council": {
@@ -62,8 +62,68 @@
             },
             "council": null,
             "date": "2021-08-23T00:00:00Z",
-            "text": "Donné suite",
+            "text": "Donner suite (conseil prioritaire)",
             "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CEATE-CE",
+              "id": 20,
+              "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CE",
+              "abbreviation1": "CEATE-E",
+              "abbreviation2": "CEATE",
+              "committeeNumber": 20,
+              "council": {
+                "abbreviation": "CE",
+                "id": 2,
+                "name": "Conseil des Etats",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2022-09-07T00:00:00Z",
+            "text": "Ne pas approuver la décision de la commission du conseil prioritaire (second conseil)",
+            "type": 49
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CEATE-CN",
+              "id": 7,
+              "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CN",
+              "abbreviation1": "CEATE-N",
+              "abbreviation2": "CEATE",
+              "committeeNumber": 7,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Conseil national",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-08-21T00:00:00Z",
+            "text": "Ne pas donner suite (procédure d'élimination des divergences)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-08-23T00:00:00Z",
+            "text": "Retrait",
+            "type": 17
           }
         ]
       },
@@ -76,10 +136,55 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-08-23T10:08:15Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3145,
+                    "gender": "m",
+                    "id": 4253,
+                    "name": "Clivaz Christophe",
+                    "officialDenomination": "Clivaz Christophe"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe G",
+                    "id": 6,
+                    "name": "Groupe des VERT-E-S"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CEATE-CN",
             "id": 7,
             "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CN",
-            "abbreviation1": "CEATE-CN",
+            "abbreviation1": "CEATE-N",
             "abbreviation2": "CEATE",
             "committeeNumber": 7,
             "council": {
@@ -96,6 +201,11 @@
               "correspondents": [
 
               ]
+            },
+            {
+              "correspondents": [
+
+              ]
             }
           ]
         },
@@ -104,7 +214,7 @@
             "abbreviation": "CEATE-CE",
             "id": 20,
             "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CE",
-            "abbreviation1": "CEATE-CE",
+            "abbreviation1": "CEATE-E",
             "abbreviation2": "CEATE",
             "committeeNumber": 20,
             "council": {
@@ -130,17 +240,38 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1591740000000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1662674400000+0200)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1662760800000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1692741600000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -178,7 +309,7 @@
         "gender": "m",
         "id": 4070,
         "name": "Candinas Martin",
-        "officialDenomination": "Candinas"
+        "officialDenomination": "Candinas Martin"
       },
       "type": "cosign"
     },
@@ -291,8 +422,8 @@
         "officialDenomination": "Kamerzin"
       },
       "faction": {
-        "abbreviation": "M-E",
-        "id": 139,
+        "abbreviation": "Groupe M-E",
+        "id": 3,
         "name": "Le Groupe du Centre. Le Centre. PEV."
       },
       "type": "author"
@@ -300,8 +431,8 @@
   ],
   "shortId": "20.441",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
@@ -311,7 +442,7 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>L'acceptation en 2017 de la stratégie énergétique 2050 en votation populaire aura notamment pour conséquence la fin programmée du nucléaire. Pour remplacer ce mode de production d'énergie, qui représente aujourd'hui en Suisse 36 % de l'électricité produite et 17 % de l'électricité consommée, il faudra trouver à moyen terme des solutions permettant d'augmenter drastiquement la production d'énergies renouvelables indigènes, parmi lesquelles l'hydraulique, l'éolien et le solaire.</p><p>La Commission fédérale de l'électricité (Elcom) a d'ailleurs recommandé au Conseil fédéral d'augmenter sa production d'électricité indigène en hiver pour tenir compte de la baisse à venir des capacités exportatrices des pays voisins. Les importations nettes en hiver ne devraient ainsi pas dépasser 10 THh (cf. conférence de presse annuelle de l'Elcom: <a  href=\"https://www.elcom.admin.ch/elcom/fr/home/documentation/medienmitteilungen.msg-id-79322.html\">https://www.elcom.admin.ch/elcom/fr/home/documentation/medienmitteilungen.msg-id-79322.html</a>.</p><p>Actuellement, dans de nombreux cas, ces projets sont au mieux retardés durant des années ou au pire abandonnés suite à l'admission d'un recours. C'est par exemple le cas du projet hydraulique Lugnez aux Grisons (<a  href=\"http://www.kwz.ch/projekte/projekt-lugnez/\">http://www.kwz.ch/projekte/projekt-lugnez/</a>) bloqué par des procédures (cf. arrêt du Tribunal fédéral du 12 octobre 2016 publié in ATF 142 II 517), du projet de réhaussement du barrage du Grimsel (cf. notamment arrêt du Tribunal fédéral publié in ATF 143 II 241), etc.</p><p>Par conséquent, afin de permettre à ces projets, comme le domaine hydraulique, de pouvoir plus facilement se concrétiser, et a fortiori dans des délais raisonnables, l'intérêt national attaché à leur réalisation doit être considéré comme prépondérant par rapport aux autres intérêts nationaux lorsque l'autorité opère une pesée des intérêts, tant au stade de l'approbation du projet lui-même qu'au stade d'une éventuelle procédure de recours.</p><p>Il est dès lors requis l'adaptation dans ce sens de l'art. 12 al. 3 LEne: \" Lorsqu'une autorité doit statuer sur l'autorisation d'un projet de construction, d'agrandissement ou de rénovation ou sur l'octroi d'une concession portant sur une installation ou une centrale à pompage-turbinage visée à l'al. 2, l'intérêt national attaché à la réalisation de ces projets doit être considéré comme prépondérant par rapport aux autres intérêts nationaux lors de la pesée des intérêts ... \".</p>"
+      "value": "<p>L'acceptation en 2017 de la stratégie énergétique 2050 en votation populaire aura notamment pour conséquence la fin programmée du nucléaire. Pour remplacer ce mode de production d'énergie, qui représente aujourd'hui en Suisse 36 % de l'électricité produite et 17 % de l'électricité consommée, il faudra trouver à moyen terme des solutions permettant d'augmenter drastiquement la production d'énergies renouvelables indigènes, parmi lesquelles l'hydraulique, l'éolien et le solaire.</p><p>La Commission fédérale de l'électricité (Elcom) a d'ailleurs recommandé au Conseil fédéral d'augmenter sa production d'électricité indigène en hiver pour tenir compte de la baisse à venir des capacités exportatrices des pays voisins. Les importations nettes en hiver ne devraient ainsi pas dépasser 10 THh (cf. conférence de presse annuelle de l'Elcom : <a href=\"https://www.elcom.admin.ch/elcom/fr/home/documentation/medienmitteilungen.msg-id-79322.html\">https ://www.elcom.admin.ch/elcom/fr/home/documentation/medienmitteilungen.msg-id-79322.html</a>.</p><p>Actuellement, dans de nombreux cas, ces projets sont au mieux retardés durant des années ou au pire abandonnés suite à l'admission d'un recours. C'est par exemple le cas du projet hydraulique Lugnez aux Grisons (<a href=\"http://www.kwz.ch/projekte/projekt-lugnez/\">http ://www.kwz.ch/projekte/projekt-lugnez/</a>) bloqué par des procédures (cf. arrêt du Tribunal fédéral du 12 octobre 2016 publié in ATF 142 II 517), du projet de réhaussement du barrage du Grimsel (cf. notamment arrêt du Tribunal fédéral publié in ATF 143 II 241), etc.</p><p>Par conséquent, afin de permettre à ces projets, comme le domaine hydraulique, de pouvoir plus facilement se concrétiser, et a fortiori dans des délais raisonnables, l'intérêt national attaché à leur réalisation doit être considéré comme prépondérant par rapport aux autres intérêts nationaux lorsque l'autorité opère une pesée des intérêts, tant au stade de l'approbation du projet lui-même qu'au stade d'une éventuelle procédure de recours.</p><p>Il est dès lors requis l'adaptation dans ce sens de l'art. 12 al. 3 LEne : \" Lorsqu'une autorité doit statuer sur l'autorisation d'un projet de construction, d'agrandissement ou de rénovation ou sur l'octroi d'une concession portant sur une installation ou une centrale à pompage-turbinage visée à l'al. 2, l'intérêt national attaché à la réalisation de ces projets doit être considéré comme prépondérant par rapport aux autres intérêts nationaux lors de la pesée des intérêts ... \".</p>"
     },
     {
       "type": {

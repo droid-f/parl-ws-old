@@ -1,6 +1,6 @@
 {
   "id": 20214533,
-  "updated": "2023-05-04T17:35:13Z",
+  "updated": "2024-03-26T22:22:41Z",
   "additionalIndexing": "09;24;1216;04;28",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2023-05-04T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-09-12T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
           }
         ]
       },
@@ -67,7 +82,98 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-08-18T11:20:37Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2632,
+                    "gender": "m",
+                    "id": 1120,
+                    "name": "Sommaruga Carlo",
+                    "officialDenomination": "Sommaruga Carlo"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo S",
+                    "id": 2,
+                    "name": "Gruppo socialista"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAG-CN",
+            "id": 12,
+            "name": "Commissione degli affari giuridici CN",
+            "abbreviation1": "CAG-N",
+            "abbreviation2": "CAG",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-12-16T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAG-CS",
+            "id": 25,
+            "name": "Commissione degli affari giuridici CS",
+            "abbreviation1": "CAG-S",
+            "abbreviation2": "CAG",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-12-16T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +194,23 @@
         },
         {
           "date": "/Date(1683151200000+0200)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1692309600000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1694469600000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -468,10 +589,9 @@
   ],
   "shortId": "21.4533",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -487,7 +607,7 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>L'applicazione della legge federale concernente l'aiuto alle vittime di reati (LAV; RS 312.5) alle vittime di reati commessi all'estero è periodicamente oggetto di discussione. Il dibattito verte generalmente su due soggetti distinti: da un lato, l'assenza di indennizzo o riparazione morale per le vittime domiciliate in Svizzera al momento dei fatti e, dall'altro, la portata dell'accesso a prestazioni di sostegno nel caso di vittime non domiciliate in Svizzera al momento dei fatti. La presente mozione riguarda il primo problema. Chiede che la Svizzera indennizzi le persone residenti sul suo territorio vittime di atti di violenza all'estero. L'istituzione di un fondo per meglio sostenere le vittime di atti terroristici all'estero era già stata chiesta nel 2020 nell'interpellanza 20.4536, seguita dal postulato 21.3144, respinto dal Consiglio nazionale il 18 giugno 2021, conformemente alla proposta del Consiglio federale.</p><p>Come indicato nelle sue risposte all'interpellanza de Quattro 20.4536 e al postulato de Quattro 21.3144, il Consiglio federale è tuttora dell'opinione che gli argomenti considerati dal legislatore federale in occasione della revisione della LAV del 2007 contro la richiesta avanzata nella presente mozione restino validi. Sottolinea che le vittime di reati all'estero residenti in Svizzera al momento dei fatti possono oggi beneficiare, conformemente agli articoli 3 e 17 LAV, delle prestazioni dei consultori. Per contro, non spetta alla Svizzera versare un'indennità o una riparazione morale per un reato che non è stato commesso sul suo territorio. Il Consiglio federale ritiene che la riparazione del danno causato dal reato rientri nella responsabilità dello Stato in cui si sono verificati i fatti. Questa soluzione corrisponde a quella della Convenzione europea del 24 novembre 1983 relativa al risarcimento delle vittime di reati violenti (RS 0.312.5). Tiene pure conto del fatto che all'estero la Svizzera non può influire né sulla prevenzione efficace della criminalità né sul perseguimento dei reati.</p><p>Per quanto riguarda il fondo di garanzia per le vittime di atti di terrorismo e altri reati gravi (FGTI) in Francia, il Consiglio federale rinvia al numero 4 della sua risposta del 17 febbraio 2021 all'interpellanza 20.4536. Inoltre, dubita che l'istituzione in Svizzera di un fondo speciale per le vittime di determinati tipi di reato costituisca una soluzione adeguata ed equa in particolare nei confronti di altre vittime di reati che non potrebbero beneficiarne. Si pone parimenti la questione di sapere in base a quale criterio l'autorità competente deve ritenere che una persona è stata vittima di un reato qualificabile come \"atto di violenza grave\". Il Consiglio federale rileva infine che il FGTI è finanziato dalla comunità degli assicurati e non dallo Stato francese.</p>"
+      "value": "<p>L'applicazione della legge federale concernente l'aiuto alle vittime di reati (LAV; RS 312.5) alle vittime di reati commessi all'estero è periodicamente oggetto di discussione. Il dibattito verte generalmente su due soggetti distinti: da un lato, l'assenza di indennizzo o riparazione morale per le vittime domiciliate in Svizzera al momento dei fatti e, dall'altro, la portata dell'accesso a prestazioni di sostegno nel caso di vittime non domiciliate in Svizzera al momento dei fatti. La presente mozione riguarda il primo problema. Chiede che la Svizzera indennizzi le persone residenti sul suo territorio vittime di atti di violenza all'estero. L'istituzione di un fondo per meglio sostenere le vittime di atti terroristici all'estero era già stata chiesta nel 2020 nell'interpellanza 20.4536, seguita dal postulato 21.3144, respinto dal Consiglio nazionale il 18 giugno 2021, conformemente alla proposta del Consiglio federale.</p><p>Come indicato nelle sue risposte all'interpellanza de Quattro 20.4536 e al postulato de Quattro 21.3144, il Consiglio federale è tuttora dell'opinione che gli argomenti considerati dal legislatore federale in occasione della revisione della LAV del 2007 contro la richiesta avanzata nella presente mozione restino validi. Sottolinea che le vittime di reati all'estero residenti in Svizzera al momento dei fatti possono oggi beneficiare, conformemente agli articoli 3 e 17 LAV, delle prestazioni dei consultori. Per contro, non spetta alla Svizzera versare un'indennità o una riparazione morale per un reato che non è stato commesso sul suo territorio. Il Consiglio federale ritiene che la riparazione del danno causato dal reato rientri nella responsabilità dello Stato in cui si sono verificati i fatti. Questa soluzione corrisponde a quella della Convenzione europea del 24 novembre 1983 relativa al risarcimento delle vittime di reati violenti (RS 0.312.5). Tiene pure conto del fatto che all'estero la Svizzera non può influire né sulla prevenzione efficace della criminalità né sul perseguimento dei reati.</p><p>Per quanto riguarda il fondo di garanzia per le vittime di atti di terrorismo e altri reati gravi (FGTI) in Francia, il Consiglio federale rinvia al numero 4 della sua risposta del 17 febbraio 2021 all'interpellanza 20.4536. Inoltre, dubita che l'istituzione in Svizzera di un fondo speciale per le vittime di determinati tipi di reato costituisca una soluzione adeguata ed equa in particolare nei confronti di altre vittime di reati che non potrebbero beneficiarne. Si pone parimenti la questione di sapere in base a quale criterio l'autorità competente deve ritenere che una persona è stata vittima di un reato qualificabile come \"atto di violenza grave\". Il Consiglio federale rileva infine che il FGTI è finanziato dalla comunità degli assicurati e non dallo Stato francese.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

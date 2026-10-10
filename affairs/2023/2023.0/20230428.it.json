@@ -1,6 +1,6 @@
 {
   "id": 20230428,
-  "updated": "2023-04-17T15:24:20Z",
+  "updated": "2024-03-26T21:33:00Z",
   "additionalIndexing": "24;04;52",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -40,7 +40,26 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Amm."
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "Sarà ripreso",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Amm."
+            },
+            "council": null,
+            "date": "2024-02-27T00:00:00Z",
+            "text": "Ritirato",
+            "type": 17
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,24 +69,133 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-24T09:07:27Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3062,
+                    "gender": "m",
+                    "id": 4156,
+                    "name": "Buffat Michaël",
+                    "officialDenomination": "Buffat"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo V",
+                    "id": 4,
+                    "name": "Gruppo dell'Unione democratica di Centro"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CN",
+            "id": 10,
+            "name": "Commissione dell'economia e dei tributi CN",
+            "abbreviation1": "CET-N",
+            "abbreviation2": "CET",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-04-11T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CS",
+            "id": 23,
+            "name": "Commissione dell'economia e dei tributi CS",
+            "abbreviation1": "CET-S",
+            "abbreviation2": "CET",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-04-11T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Dipartimento delle Finanze",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1681164000000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1694469600000+0200)/",
+          "id": 223,
+          "name": "Esame preliminare - nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1700780400000+0100)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1708988400000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -293,14 +421,24 @@
         "name": "Gruppo dei Verdi"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3164,
+        "gender": "f",
+        "id": 4272,
+        "name": "Klopfenstein Broggini Delphine",
+        "officialDenomination": "Klopfenstein Broggini"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "23.428",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

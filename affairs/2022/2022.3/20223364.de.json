@@ -1,6 +1,6 @@
 {
   "id": 20223364,
-  "updated": "2022-06-08T15:12:57Z",
+  "updated": "2024-03-26T20:53:08Z",
   "additionalIndexing": "15;2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2022-06-08T00:00:00Z",
             "text": "Zuweisung an die zuständige Kommission zur Vorberatung",
             "type": 66
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-03-11T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -68,7 +83,93 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-10T08:59:34Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2694,
+                    "gender": "m",
+                    "id": 3891,
+                    "name": "Jositsch Daniel",
+                    "officialDenomination": "Jositsch"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-18T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-18T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5202"
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +190,28 @@
         },
         {
           "date": "/Date(1654639200000+0200)/",
-          "id": 33,
-          "name": "An die Kommission zur Vorberatung zugewiesen"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1704063600000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1704841200000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1710111600000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -161,8 +282,8 @@
   ],
   "shortId": "22.3364",
   "state": {
-    "id": 33,
-    "name": "An die Kommission zur Vorberatung zugewiesen",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },
@@ -179,7 +300,7 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Der Bundesrat ist sich bewusst, dass auch die Reisebürobranche von der Corona-Krise betroffen ist. So hatten beispielsweise die behördlichen Massnahmen wie die Quarantänebestimmungen und Grenzschliessungen grosse Auswirkungen auf die Angebote und Aktivitäten der Reisebüros.</p><p>Zum Schutz von Konsumentinnen und Konsumenten haben Pauschalreiseveranstalter gemäss dem Bundesgesetz über Pauschalreisen die Pflicht, für den Fall der Zahlungsunfähigkeit oder ihres Konkurses die Erstattung bezahlter Beträge und die Rückreise des Konsumenten sicherzustellen. Damit wird ein Ungleichgewicht in Verträgen mit Konsumentinnen und Konsumenten ausgeglichen, welche bei Reisebuchungen zum Teil umfangreiche Vorauszahlungen leisten. Aus Sicht des Bundesrates hat sich das System der durch die Reisebranche organisierten und finanzierten Sicherstellungs- und Reisefondseinrichtungen bewährt.</p><p>Der Bundesrat begrüsst daher, dass die \"Stiftung Gesetzlicher Garantiefonds der Schweizer Reisebranche\" mit einem angepassten Gebührenmodell wieder ein solides Fondskapital erreichen will, um ihren Verpflichtungen nachzukommen. Besteht trotz Gebührenerhöhung das Risiko, dass der Garantiefonds grössere Ausfälle nicht decken kann, bleibt jedoch die Reisebranche in der Verantwortung, weitere Massnahmen, wie eine stärkere Preis- oder Gebührenerhöhung oder eine Absicherung durch private Versicherer, zu ergreifen, um den gesetzlichen Verpflichtungen der Reiseveranstalter nachzukommen.</p><p>Die Abfederung der wirtschaftlichen Folgen durch den Bund erfolgte insbesondere durch die Kurzarbeitsentschädigung, den Corona-Erwerbsersatz, die Covid-19-Kredite und die Härtefallhilfen. Diese Stützungsmassnahmen sind darauf ausgerichtet, möglichst zielgerecht jene Unternehmen zu unterstützen, welche am stärksten betroffen waren und sind. Auch die Reisebüros profitieren von diesen Massnahmen: Die Löhne wurden bei ausbleibenden Aufträgen grösstenteils durch die ALV oder bei Selbständigerwerbenden durch den Corona-Erwerbsersatz gedeckt. Mit den Härtefallhilfen werden Unternehmen bereits seit Ende 2020 und noch bis längstens Mitte 2022 grosszügig mit à-fonds-perdu-Beiträgen unterstützt, um u.a. Umsatzausfälle abzufedern. Die Reisebranche hat seit Ausbruch der Krise bis Ende März insgesamt rund 320 Millionen Härtefallgelder bezogen.</p><p>Eine staatliche Bürgschaft für den Fonds oder eine anderweitige staatliche Absicherung würde das Absicherungsrisiko faktisch auf den Steuerzahler übertragen, wodurch letztendlich Steuergelder für die Erfüllung einer privaten Aufgabe zum Einsatz kämen. Damit würde eine neue Bundesaufgabe entstehen, wofür eine entsprechende gesetzliche Grundlage geschaffen werden müsste. Eine solche staatliche Finanzierung der Absicherung von privat gebuchten Ferienreisen erachtet der Bundesrat als nicht angemessen.</p><p>Der Bundesrat erachtet es vor diesem Hintergrund als nicht sinnvoll, dem Anliegen der Motion zu entsprechen.</p>"
+      "value": "<p>Der Bundesrat ist sich bewusst, dass auch die Reisebürobranche von der Corona-Krise betroffen ist. So hatten beispielsweise die behördlichen Massnahmen wie die Quarantänebestimmungen und Grenzschliessungen grosse Auswirkungen auf die Angebote und Aktivitäten der Reisebüros.</p><p>Zum Schutz von Konsumentinnen und Konsumenten haben Pauschalreiseveranstalter gemäss dem Bundesgesetz über Pauschalreisen die Pflicht, für den Fall der Zahlungsunfähigkeit oder ihres Konkurses die Erstattung bezahlter Beträge und die Rückreise des Konsumenten sicherzustellen. Damit wird ein Ungleichgewicht in Verträgen mit Konsumentinnen und Konsumenten ausgeglichen, welche bei Reisebuchungen zum Teil umfangreiche Vorauszahlungen leisten. Aus Sicht des Bundesrates hat sich das System der durch die Reisebranche organisierten und finanzierten Sicherstellungs- und Reisefondseinrichtungen bewährt.</p><p>Der Bundesrat begrüsst daher, dass die \"Stiftung Gesetzlicher Garantiefonds der Schweizer Reisebranche\" mit einem angepassten Gebührenmodell wieder ein solides Fondskapital erreichen will, um ihren Verpflichtungen nachzukommen. Besteht trotz Gebührenerhöhung das Risiko, dass der Garantiefonds grössere Ausfälle nicht decken kann, bleibt jedoch die Reisebranche in der Verantwortung, weitere Massnahmen, wie eine stärkere Preis- oder Gebührenerhöhung oder eine Absicherung durch private Versicherer, zu ergreifen, um den gesetzlichen Verpflichtungen der Reiseveranstalter nachzukommen.</p><p>Die Abfederung der wirtschaftlichen Folgen durch den Bund erfolgte insbesondere durch die Kurzarbeitsentschädigung, den Corona-Erwerbsersatz, die Covid-19-Kredite und die Härtefallhilfen. Diese Stützungsmassnahmen sind darauf ausgerichtet, möglichst zielgerecht jene Unternehmen zu unterstützen, welche am stärksten betroffen waren und sind. Auch die Reisebüros profitieren von diesen Massnahmen: Die Löhne wurden bei ausbleibenden Aufträgen grösstenteils durch die ALV oder bei Selbständigerwerbenden durch den Corona-Erwerbsersatz gedeckt. Mit den Härtefallhilfen werden Unternehmen bereits seit Ende 2020 und noch bis längstens Mitte 2022 grosszügig mit à-fonds-perdu-Beiträgen unterstützt, um u.a. Umsatzausfälle abzufedern. Die Reisebranche hat seit Ausbruch der Krise bis Ende März insgesamt rund 320 Millionen Härtefallgelder bezogen.</p><p>Eine staatliche Bürgschaft für den Fonds oder eine anderweitige staatliche Absicherung würde das Absicherungsrisiko faktisch auf den Steuerzahler übertragen, wodurch letztendlich Steuergelder für die Erfüllung einer privaten Aufgabe zum Einsatz kämen. Damit würde eine neue Bundesaufgabe entstehen, wofür eine entsprechende gesetzliche Grundlage geschaffen werden müsste. Eine solche staatliche Finanzierung der Absicherung von privat gebuchten Ferienreisen erachtet der Bundesrat als nicht angemessen.</p><p>Der Bundesrat erachtet es vor diesem Hintergrund als nicht sinnvoll, dem Anliegen der Motion zu entsprechen.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

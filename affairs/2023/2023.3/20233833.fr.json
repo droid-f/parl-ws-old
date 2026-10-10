@@ -1,6 +1,6 @@
 {
   "id": 20233833,
-  "updated": "2023-06-21T16:01:48Z",
+  "updated": "2024-03-26T22:19:42Z",
   "additionalIndexing": "24;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,222 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-09-11T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-12-11T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-09-06T00:00:00Z",
+        "text": "Rejet"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-31T11:47:56Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2789,
+                    "gender": "m",
+                    "id": 4077,
+                    "name": "Feller Olivier",
+                    "officialDenomination": "Feller"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe RL",
+                    "id": 1,
+                    "name": "Groupe libéral-radical"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-31T11:47:49Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2754,
+                    "gender": "m",
+                    "id": 4052,
+                    "name": "Ritter Markus",
+                    "officialDenomination": "Ritter"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe M-E",
+                    "id": 3,
+                    "name": "Le Groupe du Centre. Le Centre. PEV."
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CE",
+            "id": 23,
+            "name": "Commission de l'économie et des redevances CE",
+            "abbreviation1": "CER-E",
+            "abbreviation2": "CER",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CN",
+            "id": 10,
+            "name": "Commission de l'économie et des redevances CN",
+            "abbreviation1": "CER-N",
+            "abbreviation2": "CER",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Département des finances",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686780000000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1693951200000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1698620400000+0100)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1701385200000+0100)/",
+          "id": 205,
+          "name": "Planifié au Conseil national"
+        },
+        {
+          "date": "/Date(1702249200000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -210,7 +403,7 @@
         "gender": "m",
         "id": 3871,
         "name": "Bischof Pirmin",
-        "officialDenomination": "Bischof"
+        "officialDenomination": "Bischof Pirmin"
       },
       "type": "cosign"
     },
@@ -390,7 +583,7 @@
         "gender": "m",
         "id": 4309,
         "name": "Michel Matthias",
-        "officialDenomination": "Michel"
+        "officialDenomination": "Michel Matthias"
       },
       "type": "cosign"
     },
@@ -532,19 +725,40 @@
   ],
   "shortId": "23.3833",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Les marchandises importées ou exportées sont soumises à des droits de douane. La LD prévoit toutefois des exceptions à l'assujettissement général. Ainsi, l'article&nbsp;14 LD prévoit que des allégements douaniers peuvent être accordés à certaines conditions et en fonction de l'emploi de la marchandise.</p><p>Dans le cas de la transformation de matières premières agricoles, l'ordonnance sur les allégements douaniers (OADou&nbsp;; RS&nbsp;631.012) fixe souvent, s'agissant de tels allégements douaniers selon l’emploi, des valeurs de rendement qui définissent la part des matières premières importées qui doit être affectée à un «&nbsp;emploi déterminé&nbsp;». Sur la base de l'OADou, l'Office fédéral de la douane et de la sécurité des frontières (OFDF) a, dans certains cas d'application de tels allégements douaniers, fixé sciemment les valeurs de rendement mentionnées pour la transformation des produits agricoles importés à un niveau inférieur à celui qui serait techniquement possible dans le cas idéal&nbsp;; c'est le cas notamment pour la fabrication indigène d'amidon et d'anti-limaces. L'allègement douanier entraîne à juste titre un certain «&nbsp;soutien transversal&nbsp;» de l'«&nbsp;emploi prévu des marchandises&nbsp;» défini dans l'OADou. Sans ce soutien, il serait en effet exclu, en raison du régime douanier suisse dans le domaine des matières premières agricoles, qu'un tel emploi ou qu'une telle transformation de la marchandise importée soit économiquement rentable. Contrairement au subventionnement classique, ce soutien n'a en outre aucune répercussion financière pour la Confédération.</p><p>La pratique de l'OFDF mentionnée plus haut a récemment soulevé la question de savoir si l'OADou constituait une base légale suffisante pour permettre aux autorités de fixer des valeurs de rendement plus basses, ce à quoi le Conseil fédéral a finalement répondu par la négative en 2021, en dépit d'une pratique fondée sur cette ordonnance depuis 60&nbsp;ans. Dans la foulée, plusieurs allégements douaniers existants ont été adaptés par les autorités au 1er&nbsp;janvier 2023 au «&nbsp;rendement techniquement possible&nbsp;», ce qui a entraîné la suppression du soutien transversal. Les produits en question peuvent certes encore être fabriqués à partir de matières premières importées l'année dernière, mais la production nationale des biens mentionnés menace de s'arrêter fin 2023.</p><p>L'insécurité juridique en lien avec la base légale pour la pratique menée depuis des décennies par le DFF en matière d'allégements douaniers aurait dû être éliminée par un complément au niveau de la loi (art.&nbsp;9, al. 2bis P-LDD), proposé dans le cadre de la révision de la LD. Étant donné que l'entrée en vigueur de cette dernière devrait être retardée, mais qu'en même temps la création rapide d'une base légale pour la survie de certaines productions existant depuis de nombreuses décennies en Suisse - amidon (Blattmann Suisse SA), anti-limaces (Lonza SA) et carton (Model SA) - est, comme mentionné ci-dessus, urgente, il faut charger le Conseil fédéral de créer formellement la base légale prétendument manquante pour la réglementation inscrite depuis 60&nbsp;ans dans l'OADou. Ce signal clair du Parlement permettra au Conseil fédéral de réintroduire de lege ferenda, à titre transitoire, la réglementation à l'échelon d'ordonnance en vigueur jusqu'au 1er&nbsp;janvier 2023, en attendant la décision définitive de la deuxième chambre ou la mise en œuvre au niveau de la loi.</p><p>Dans le cadre de la présente motion, les conditions d'application doivent être encore plus restreintes au niveau de la loi – au sens d'un correctif pour fixer les valeurs de rendement délibérément plus bas du point de vue de l'économie nationale – en plus des deux conditions déjà existantes pour un allégement douanier (nécessité économique et absence d'intérêts publics contraires prépondérants). Il faut d'une part garantir que l'avantage économique qui peut être obtenu grâce au taux de rendement plus bas soit entièrement utilisé pour l'allégement de la marchandise affectée à l'«&nbsp;emploi déterminé&nbsp;» souhaité sur le plan économique. D'autre part, il faut expressément exigé que l'allègement douanier accordé soit d'intérêt public.</p><p>&nbsp;</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Se fondant sur l’art.&nbsp;14 de la loi sur les douanes (LD&nbsp;; RS&nbsp;<i>631.0</i>), le Département fédéral des finances (DFF) a édicté l’ordonnance sur les allégements douaniers (OADou&nbsp;; RS&nbsp;<i>631.012</i>), qui détermine l’application d’un taux de droits de douane réduit pour le froment (blé) tendre destiné à la fabrication d’amidon. Entré en vigueur en 1959, cet allégement douanier était accordé si au moins 55&nbsp;% de farine était extraite du froment et transformée en amidon (valeur de rendement).</p><p>&nbsp;</p><p>En 2015, des cas de distorsion de la concurrence et d’inégalité de traitement ont incité un cabinet d’avocats mandaté à demander que la valeur de rendement soit relevée de 55&nbsp;% à 75&nbsp;%, ce qui est désormais possible techniquement. En 2021, le Conseil fédéral a admis une dénonciation à l’autorité de surveillance à l’encontre du DFF et, dans la foulée, la valeur de rendement a été relevée à 75&nbsp;% au 1er&nbsp;janvier 2023.</p><p>&nbsp;</p><p>Actuellement, le froment (blé) tendre pour la fabrication d’amidon peut être importé au taux de droits de douane réduit de 0,10&nbsp;franc par 100&nbsp;kg si au moins 75&nbsp;% de farine est extraite du froment et transformée en amidon. Les importations de céréales panifiables dans le cadre du contingent tarifaire sont en revanche soumises à une protection douanière (droits de douane et contribution au fonds de garantie) de 23&nbsp;francs par 100&nbsp;kg.</p><p>&nbsp;</p><p>La motion porte essentiellement sur le cas particulier de la production d’amidon et ne concerne que quelques entreprises. En raison du rendement plus élevé de l’importation de froment (blé) tendre bénéficiant d’un allégement douanier, celles-ci produisent moins ou ne produisent plus de farine destinée à d’autres fins que la production d’amidon. La présente motion demande toutefois une modification de la législation à caractère général et va ainsi bien au-delà du cas particulier de la fabrication d’amidon. En partant de la production d’amidon, la modification de la loi risque d’être préjudiciable à d’autres marchandises.</p><p>&nbsp;</p><p>Une telle modification enfreint en outre les règles de la loi sur les subventions (LSu; RS&nbsp;<i>616.1</i>). Il s’agit d’une subvention cachée qui est tout à fait contraire à la politique économique du Conseil fédéral et qui n’est en outre pas compatible avec la Constitution fédérale (Cst.; RS&nbsp;<i>101</i>) car elle viole le principe constitutionnel de l’égalité de traitement des concurrents (art.&nbsp;27 en relation avec 94&nbsp;Cst.). Elle devrait en outre être notifiée à l’OMC. La modification de la législation souhaitée par l’auteur de la motion est en outre incompatible avec l’accord de libre-échange entre la Suisse et l’Union européenne (UE) de 1972 (RS&nbsp;<i>0.632.401</i>) si des produits couverts par cet accord de libre-échange bénéficient de telles subventions cachées. Les subventions doivent être octroyées de manière transparente et sur la base de la loi sur les subventions. Leur octroi ne peut pas être dissimulé dans la loi sur les douanes. Vendre une partie des marchandises bénéficiant d’un allégement douanier important à des fins non conformes sur des marchés protégés permet d’obtenir un avantage économique et de l’utiliser pour une activité moins ou non rentable. Cet avantage est le résultat de l’application de droits de douane trop faibles sur le marché protégé, avec des conséquences financières pour la Confédération sous forme de pertes de recettes douanières et de distorsions de concurrence sur les marchés protégés par rapport aux concurrents qui ne bénéficient pas de ce système.</p><p>&nbsp;</p><p>Il n’est pas nécessaire de modifier la loi pour que la farine de froment (blé) tendre destinée à la fabrication d’amidon soit assurément disponible à des prix compétitifs sur le plan international. En effet, la loi sur les douanes prévoit déjà la possibilité de réduire les taux de droits de douane pour certains emplois si la nécessité économique est prouvée et qu’aucun intérêt public prépondérant ne s’y oppose (art.&nbsp;14, al.&nbsp;2, LD). Par analogie à l’allégement douanier existant pour le froment (blé) tendre, il est possible de demander un allégement douanier pour l’importation de farine de froment (blé) tendre destinée à la fabrication d’amidon.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé d'adapter l'article&nbsp;14 (Marchandises bénéficiant d’allégements douaniers selon leur emploi) de la loi sur les douanes (LD; RS&nbsp;631.0) de manière à ce que le DFF puisse décider que seule une certaine partie des marchandises importées doit être affectée à l'emploi prévu, pour autant que les deux conditions suivantes soient remplies&nbsp;:</p><p>a. il est garanti que les avantages économiques découlant d'une utilisation différente d'une partie des marchandises importées servent entièrement à l'allègement des marchandises affectées à l'emploi prévu, et</p><p>b. le maintien de l'emploi prévu en Suisse répond à un intérêt public.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Maintenir la production d'amidon en Suisse"
     }
   ],
-  "title": "Titre suit"
+  "title": "Maintenir la production d'amidon en Suisse"
 }

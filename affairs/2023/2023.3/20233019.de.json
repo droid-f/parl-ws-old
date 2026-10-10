@@ -1,6 +1,6 @@
 {
   "id": 20233019,
-  "updated": "2023-05-03T14:33:14Z",
+  "updated": "2024-03-26T21:08:31Z",
   "additionalIndexing": "66;15;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -12,7 +12,7 @@
       "abbreviation": "UREK-NR",
       "id": 7,
       "name": "Kommission für Umwelt, Raumplanung und Energie NR",
-      "abbreviation1": "UREK-NR",
+      "abbreviation1": "UREK-N",
       "abbreviation2": "UREK",
       "committeeNumber": 7,
       "council": {
@@ -57,6 +57,21 @@
             "date": "2023-05-03T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-03-06T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
           }
         ]
       },
@@ -72,10 +87,50 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-19T15:03:54Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2783,
+                    "gender": "m",
+                    "id": 4078,
+                    "name": "Schmid Martin",
+                    "officialDenomination": "Schmid Martin"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "UREK-NR",
             "id": 7,
             "name": "Kommission für Umwelt, Raumplanung und Energie NR",
-            "abbreviation1": "UREK-NR",
+            "abbreviation1": "UREK-N",
             "abbreviation2": "UREK",
             "committeeNumber": 7,
             "council": {
@@ -144,7 +199,7 @@
             "abbreviation": "UREK-SR",
             "id": 20,
             "name": "Kommission für Umwelt, Raumplanung und Energie SR",
-            "abbreviation1": "UREK-SR",
+            "abbreviation1": "UREK-S",
             "abbreviation2": "UREK",
             "committeeNumber": 20,
             "council": {
@@ -180,8 +235,28 @@
         },
         {
           "date": "/Date(1683064800000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1698357600000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1706742000000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1709679600000+0100)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -208,7 +283,7 @@
         "abbreviation": "UREK-NR",
         "id": 7,
         "name": "Kommission für Umwelt, Raumplanung und Energie NR",
-        "abbreviation1": "UREK-NR",
+        "abbreviation1": "UREK-N",
         "abbreviation2": "UREK",
         "committeeNumber": 7,
         "council": {
@@ -224,11 +299,10 @@
   ],
   "shortId": "23.3019",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -237,6 +311,13 @@
         "name": "Begründung"
       },
       "value": "<p>Um die Energieversorgungssicherheit in der Schweiz zu verbessern und die Klimabelastung zu reduzieren, ist eine Erhöhung des Anteils erneuerbares Gas in der Schweizer Gasversorgung notwendig. Um dieses Ziel zu erreichen, sollte auch zu einem gewissen Umfang ein Import von erneuerbarem Gas möglich sein. Es sind entsprechende Anforderungen zu klären, um sicherzustellen, dass das importierte erneuerbare Gas aus einer nachhaltigen Quelle stammt und in Bezug auf den Klimaschutz angerechnet werden kann. Höherwertiges erneuerbares Gas aus dem Inland soll dabei unterstützt und angemessen entschädigt werden, damit die Potenziale im Inland sinnvoll genutzt werden können.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "Der Bundesrat beantragt die Annahme der Motion."
     },
     {
       "type": {

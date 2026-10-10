@@ -1,6 +1,6 @@
 {
   "id": 20200441,
-  "updated": "2020-06-26T07:13:30Z",
+  "updated": "2024-03-26T22:17:43Z",
   "additionalIndexing": "66",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -16,9 +16,9 @@
       "officialDenomination": "Kamerzin"
     },
     "faction": {
-      "abbreviation": "M-E",
+      "abbreviation": "Fraktion M-E",
       "code": "M-E",
-      "id": 139,
+      "id": 3,
       "name": "Die Mitte-Fraktion. Die Mitte. EVP."
     },
     "type": "author"
@@ -50,7 +50,7 @@
               "abbreviation": "UREK-NR",
               "id": 7,
               "name": "Kommission für Umwelt, Raumplanung und Energie NR",
-              "abbreviation1": "UREK-NR",
+              "abbreviation1": "UREK-N",
               "abbreviation2": "UREK",
               "committeeNumber": 7,
               "council": {
@@ -63,8 +63,68 @@
             },
             "council": null,
             "date": "2021-08-23T00:00:00Z",
-            "text": "Folge gegeben",
+            "text": "Folge geben (Erstrat)",
             "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "UREK-SR",
+              "id": 20,
+              "name": "Kommission für Umwelt, Raumplanung und Energie SR",
+              "abbreviation1": "UREK-S",
+              "abbreviation2": "UREK",
+              "committeeNumber": 20,
+              "council": {
+                "abbreviation": "SR",
+                "id": 2,
+                "name": "Ständerat",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2022-09-07T00:00:00Z",
+            "text": "Keine Zustimmung zum Beschluss der Kommission des Erstrates (Zweitrat)",
+            "type": 49
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "UREK-NR",
+              "id": 7,
+              "name": "Kommission für Umwelt, Raumplanung und Energie NR",
+              "abbreviation1": "UREK-N",
+              "abbreviation2": "UREK",
+              "committeeNumber": 7,
+              "council": {
+                "abbreviation": "NR",
+                "id": 1,
+                "name": "Nationalrat",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-08-21T00:00:00Z",
+            "text": "Keine Folge geben (Differenzbereinigung)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-08-23T00:00:00Z",
+            "text": "Zurückgezogen",
+            "type": 17
           }
         ]
       },
@@ -77,10 +137,56 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-08-23T10:08:15Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3145,
+                    "gender": "m",
+                    "id": 4253,
+                    "name": "Clivaz Christophe",
+                    "officialDenomination": "Clivaz Christophe"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion G",
+                    "code": "G",
+                    "id": 6,
+                    "name": "Grüne Fraktion"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "UREK-NR",
             "id": 7,
             "name": "Kommission für Umwelt, Raumplanung und Energie NR",
-            "abbreviation1": "UREK-NR",
+            "abbreviation1": "UREK-N",
             "abbreviation2": "UREK",
             "committeeNumber": 7,
             "council": {
@@ -97,6 +203,11 @@
               "correspondents": [
 
               ]
+            },
+            {
+              "correspondents": [
+
+              ]
             }
           ]
         },
@@ -105,7 +216,7 @@
             "abbreviation": "UREK-SR",
             "id": 20,
             "name": "Kommission für Umwelt, Raumplanung und Energie SR",
-            "abbreviation1": "UREK-SR",
+            "abbreviation1": "UREK-S",
             "abbreviation2": "UREK",
             "committeeNumber": 20,
             "council": {
@@ -134,14 +245,35 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
+          "leading": false
+        },
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
           "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1591740000000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1662674400000+0200)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1662760800000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1692741600000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -179,7 +311,7 @@
         "gender": "m",
         "id": 4070,
         "name": "Candinas Martin",
-        "officialDenomination": "Candinas"
+        "officialDenomination": "Candinas Martin"
       },
       "type": "cosign"
     },
@@ -292,9 +424,9 @@
         "officialDenomination": "Kamerzin"
       },
       "faction": {
-        "abbreviation": "M-E",
+        "abbreviation": "Fraktion M-E",
         "code": "M-E",
-        "id": 139,
+        "id": 3,
         "name": "Die Mitte-Fraktion. Die Mitte. EVP."
       },
       "type": "author"
@@ -302,8 +434,8 @@
   ],
   "shortId": "20.441",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },
@@ -313,14 +445,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Die 2017 in einer Volksabstimmung angenommene Energiestrategie 2050 bedeutet insbesondere den Ausstieg aus der Kernenergie. Um diese Art der Energieproduktion zu ersetzen, die heute in der Schweiz 36 Prozent der produzierten und 17 Prozent der verbrauchten Energie ausmacht, bedarf es mittelfristig Lösungen, die es erlauben, die Produktion erneuerbarer Energien im Inland, unter anderem Wasserkraft sowie Wind- und Solarenergie, drastisch zu erhöhen.</p><p>Die Eidgenössische Elektrizitätskommission (ElCom) hat darüber hinaus dem Bundesrat empfohlen, die inländische Stromproduktion im Winter zu steigern, um der voraussichtlich abnehmenden Exportkapazität der Nachbarsländer zu begegnen. Ihr zufolge soll der Netto-Import im Winterhalbjahr nicht über zehn TWh steigen (siehe Medienmitteilung der ElCom: <a  href=\"https://www.elcom.admin.ch/elcom/de/home/dokumentation/medienmitteilungen.msg-id-79322.html\">https://www.elcom.admin.ch/elcom/de/home/dokumentation/medienmitteilungen.msg-id-79322.html</a>).</p><p>Gegenwärtig sind diesbezügliche Vorhaben in zahlreichen Fällen bestenfalls um Jahre im Verzug oder im schlimmsten Fall aufgrund der Gutheissung von Beschwerden abgebrochen worden. Das ist zum Beispiel der Fall beim Wasserkraftprojekt im Lugnez im Kanton Graubünden (<a  href=\"http://www.kwz.ch/projekte/projekt-lugnez/\">http://www.kwz.ch/projekte/projekt-lugnez/</a>), das aufgrund von Gerichtsprozessen blockiert ist (siehe Urteil des Bundesgerichts veröffentlicht am 12. Oktober 2016 BGE 142 II 517) oder bei der Erhöhung der Grimselstaumauer (siehe Urteil des Bundesgerichts veröffentlicht BGE 143 II 241) usw.</p><p>Damit diese Vorhaben, wie im Bereich der Wasserkraft, einfacher und vor allem in einem vernünftigen Zeitraum verwirklicht werden können, ist das nationale Interesse an der Realisierung dieser Vorhaben bei der Interessenabwägung als vorrangig zu betrachten gegenüber anderen nationalen Interessen, sowohl bei der Bewilligung eines Vorhabens als auch bei eventuellen Beschwerdeverfahren.</p><p>Darum ist Artikel 12 Absatz 3 (erster Satz) des EnG folgendermassen anzupassen: \"Hat eine Behörde über die Bewilligung des Baus, der Erweiterung oder Erneuerung oder über die Konzessionierung einer Anlage oder eines Pumpspeicherkraftwerks nach Absatz 2 zu entscheiden, so ist das nationale Interesse an der Realisierung dieser Vorhaben bei der Interessenabwägung als vorrangig zu betrachten gegenüber anderen nationalen Interessen...\".</p>"
+      "value": "<p>Die 2017 in einer Volksabstimmung angenommene Energiestrategie 2050 bedeutet insbesondere den Ausstieg aus der Kernenergie. Um diese Art der Energieproduktion zu ersetzen, die heute in der Schweiz 36 Prozent der produzierten und 17 Prozent der verbrauchten Energie ausmacht, bedarf es mittelfristig Lösungen, die es erlauben, die Produktion erneuerbarer Energien im Inland, unter anderem Wasserkraft sowie Wind- und Solarenergie, drastisch zu erhöhen.&nbsp;</p><p>Die Eidgenössische Elektrizitätskommission (ElCom) hat darüber hinaus dem Bundesrat empfohlen, die inländische Stromproduktion im Winter zu steigern, um der voraussichtlich abnehmenden Exportkapazität der Nachbarsländer zu begegnen. Ihr zufolge soll der Netto-Import im Winterhalbjahr nicht über zehn TWh steigen (siehe Medienmitteilung der ElCom: <a href=\"https://www.elcom.admin.ch/elcom/de/home/dokumentation/medienmitteilungen.msg-id-79322.html\">https://www.elcom.admin.ch/elcom/de/home/dokumentation/medienmitteilungen.msg-id-79322.html</a>).</p><p>Gegenwärtig sind diesbezügliche Vorhaben in zahlreichen Fällen bestenfalls um Jahre im Verzug oder im schlimmsten Fall aufgrund der Gutheissung von Beschwerden abgebrochen worden. Das ist zum Beispiel der Fall beim Wasserkraftprojekt im Lugnez im Kanton Graubünden (<a href=\"http://www.kwz.ch/projekte/projekt-lugnez/\">http://www.kwz.ch/projekte/projekt-lugnez/</a>), das aufgrund von Gerichtsprozessen blockiert ist (siehe Urteil des Bundesgerichts veröffentlicht am 12. Oktober 2016 BGE 142 II 517) oder bei der Erhöhung der Grimselstaumauer (siehe Urteil des Bundesgerichts veröffentlicht BGE 143 II 241) usw.</p><p>Damit diese Vorhaben, wie im Bereich der Wasserkraft, einfacher und vor allem in einem vernünftigen Zeitraum verwirklicht werden können, ist das nationale Interesse an der Realisierung dieser Vorhaben bei der Interessenabwägung als vorrangig zu betrachten gegenüber anderen nationalen Interessen, sowohl bei der Bewilligung eines Vorhabens als auch bei eventuellen Beschwerdeverfahren.</p><p>Darum ist Artikel&nbsp;12 Absatz&nbsp;3 (erster Satz) des EnG folgendermassen anzupassen: \"Hat eine Behörde über die Bewilligung des Baus, der Erweiterung oder Erneuerung oder über die Konzessionierung einer Anlage oder eines Pumpspeicherkraftwerks nach Absatz&nbsp;2 zu entscheiden, so ist das nationale Interesse an der Realisierung dieser Vorhaben bei der Interessenabwägung als vorrangig zu betrachten gegenüber anderen nationalen Interessen...\".</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Artikel 12 des Energiegesetzes (EnG) ist so anzupassen, dass das nationale Interesse an der Realisierung von Vorhaben zur Nutzung erneuerbarer Energien als vorrangig zu betrachten gegenüber anderen nationalen Interessen ist. Damit soll die Energiewende konkret unterstützt und die Ziele der Energiestrategie 2050 des Bundes erreicht werden.</p>"
+      "value": "<p>Artikel&nbsp;12 des Energiegesetzes (EnG) ist so anzupassen, dass das nationale Interesse an der Realisierung von Vorhaben zur Nutzung erneuerbarer Energien als vorrangig zu betrachten gegenüber anderen nationalen Interessen ist. Damit soll die Energiewende konkret unterstützt und die Ziele der Energiestrategie 2050 des Bundes erreicht werden.&nbsp;</p>"
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20214354,
-  "updated": "2023-05-04T17:32:52Z",
+  "updated": "2024-03-26T21:16:45Z",
   "additionalIndexing": "04;1236;2831;1216",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,31 @@
             "date": "2023-05-04T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "Wird übernommen",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-12-20T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -68,7 +93,123 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-07T15:39:48Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3197,
+                    "gender": "f",
+                    "id": 4242,
+                    "name": "Vara Céline",
+                    "officialDenomination": "Vara"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion G",
+                    "code": "G",
+                    "id": 6,
+                    "name": "Grüne Fraktion"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-16T09:38:02Z",
+          "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-11-30T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-11-30T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +230,23 @@
         },
         {
           "date": "/Date(1683151200000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1696543200000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1697407200000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1703026800000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -237,14 +393,23 @@
         "name": "Die Mitte-Fraktion. Die Mitte. EVP."
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 2623,
+        "gender": "m",
+        "id": 1109,
+        "name": "Pfister Gerhard",
+        "officialDenomination": "Pfister Gerhard"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "21.4354",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -253,14 +418,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Im Jahr 2009 wurde im Parlament die Einführung eines Verbots rassistischer Symbole diskutiert. Es sollte mit Busse bestraft werden, wer öffentlich rassistische Symbole oder Gegenstände, die solche Symbole darstellen oder enthalten, verbreitet. </p><p>Der Bundesrat und in der Folge National- und Ständerat lehnten eine solche Einführung ab, insbesondere mit der Begründung, dass eine aufgrund des Bestimmtheitsgebots von Artikel 1 StGB erforderliche klare Definition von verbotenen Symbolen schwierig sei. Diese Begründung ist nachvollziehbar, wenn die Strafnorm breit auf rassistische Symbole jeglicher Art Bezug nimmt. Sie gilt jedoch nicht, wenn man das Verbot auf eine konkrete Form des Rassismus, nämlich den Holocaust, bezieht, und einzig die Verwendung von in der Öffentlichkeit bekannten Symbolen verbietet.</p><p>Eine Strafnorm allein mit dem Bezug auf den Holocaust ist begründet. Der Nationalsozialismus ist historisch als einzigartiges Verbrechen gegen die Menschlichkeit umfassend umschrieben. Diese Einzigartigkeit wird nun auch durch eine von unserem Parlament gewünschte Schweizer Holocaust-Gedenkstätte in Erinnerung behalten. In Zeiten des verstärkt aufkommenden und beunruhigend ausgelebten Antisemitismus ist zudem auch der Handlungsbedarf klar gegeben und evident, die öffentlich geäusserten Relativierungen dieses Verbrechens zu verbieten. In der Öffentlichkeit bekannte Nazisymbole und Nazigesten im realen und digitalen Raum fallen nicht unter die Meinungsäusserungsfreiheit.  </p>"
+      "value": "<p>Im Jahr 2009 wurde im Parlament die Einführung eines Verbots rassistischer Symbole diskutiert. Es sollte mit Busse bestraft werden, wer öffentlich rassistische Symbole oder Gegenstände, die solche Symbole darstellen oder enthalten, verbreitet. </p><p>Der Bundesrat und in der Folge National- und Ständerat lehnten eine solche Einführung ab, insbesondere mit der Begründung, dass eine aufgrund des Bestimmtheitsgebots von Artikel 1 StGB erforderliche klare Definition von verbotenen Symbolen schwierig sei. Diese Begründung ist nachvollziehbar, wenn die Strafnorm breit auf rassistische Symbole jeglicher Art Bezug nimmt. Sie gilt jedoch nicht, wenn man das Verbot auf eine konkrete Form des Rassismus, nämlich den Holocaust, bezieht, und einzig die Verwendung von in der Öffentlichkeit bekannten Symbolen verbietet.</p><p>Eine Strafnorm allein mit dem Bezug auf den Holocaust ist begründet. Der Nationalsozialismus ist historisch als einzigartiges Verbrechen gegen die Menschlichkeit umfassend umschrieben. Diese Einzigartigkeit wird nun auch durch eine von unserem Parlament gewünschte Schweizer Holocaust-Gedenkstätte in Erinnerung behalten. In Zeiten des verstärkt aufkommenden und beunruhigend ausgelebten Antisemitismus ist zudem auch der Handlungsbedarf klar gegeben und evident, die öffentlich geäusserten Relativierungen dieses Verbrechens zu verbieten. In der Öffentlichkeit bekannte Nazisymbole und Nazigesten im realen und digitalen Raum fallen nicht unter die Meinungsäusserungsfreiheit.  </p>"
     },
     {
       "type": {
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Gemäss Artikel 261bis Absatz 2 des Strafgesetzbuchs (StGB, SR 311.0) sowie Artikel 171c Absatz 1 Satz 2 des Militärstrafgesetzes (MStG, SR 321.0) ist es verboten, öffentlich Ideologien zu verbreiten, die auf die systematische Herabsetzung oder Verleumdung von Personen wegen ihrer Rasse, Ethnie, Religion oder sexuellen Orientierung gerichtet sind. Ob es sich im Einzelfall um Propaganda handelt, hängt von den konkreten Umständen ab. Allein die Tatsache, öffentlich seine Sympathien für eine diskriminierende Ideologie zu bekunden oder sich auf diese im Kontext, auch auf zynische Weise, zu beziehen, stellt noch keine Propaganda dar. Der Täter muss darüber hinaus beabsichtigen, Dritte zu beeinflussen und für die Ideologie zu gewinnen. Wenn er dies tut, macht er sich nach geltendem Recht strafbar.</p><p>Es ist unbestritten, dass das Zur-Schau-Stellen und Instrumentalisieren von Kennzeichen des Nationalsozialismus schockierend und sehr belastend sein kann, namentlich für die Opfer des Holocaust und ihre Angehörigen bzw. Nachkommen. Jedoch vermag die öffentliche Verwendung rassistischer Symbole ohne Propagandazweck die Menschenwürde und den öffentlichen Frieden nur mittelbar zu beeinträchtigen. Die Meinungsäusserungsfreiheit (Art. 16 der Bundesverfassung [BV, SR 101]) gilt zwar nicht absolut, denn sie kann zum Schutz der Rechte Dritter eingeschränkt werden. Es ist gemäss bundesgerichtlicher Rechtsprechung aber hinzunehmen, dass auch stossende Ansichten vertreten werden, selbst wenn sie für die Mehrheit unhaltbar sind.</p><p>Das Parlament hat es z.B. in den Jahren 2015 und 2016 abgelehnt, den Hitlergruss unter Strafe zu stellen (vgl. die Petition <a  href=\"https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20142018\">14.2018</a>). Bei zwei neueren Vorstössen hat der Bundesrat angesichts der bereits bestehenden Rechtsgrundlagen keine Notwendigkeit erkannt, weitergehende Strafbestimmungen gegen den Gebrauch bestimmter Symbole zu erlassen (vgl. die Stellungnahmen zu den Motionen <a  href=\"https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20193270\">19.3270</a> Barrile Angelo, Verbot der öffentlichen Verwendung von extremistischen, gewaltverherrlichenden und rassistischen Symbolen und <a  href=\"https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20214046\">21.4046</a> Rüegger Monika, Verbot für die Verwendung von extremistischen, terroristischen und islamistischen Symbolen). Zudem hat der Bundesrat schon früher dargelegt, dass eine Abgrenzung von strafbarem und straflosem Verhalten kaum möglich sei (<a  href=\"http://www.admin.ch/opc/de/federal-gazette/2010/4851.pdf\">Bericht zur Abschreibung der Motion 04.3224 der Kommission für Rechtsfragen des Nationalrats</a>, BBl 2010 4851, 4859 ff.; https://www.fedlex.admin.ch/eli/fga/2010/819/de). Schliesslich ist darauf hinzuweisen, dass die fraglichen Symbole auch weiterhin bei der Aufarbeitung in einem historischen, edukativen, journalistischen oder künstlerischen Kontext verwendet werden können sollten.</p><p>Der Bundesrat ist deshalb nach wie vor überzeugt, dass gegen die Verwendung von nationalsozialistischen Symbolen ohne Propagandazwecke Prävention besser geeignet ist als strafrechtliche Repression. Zuständige Bundesstelle für Prävention und Sensibilisierung zur Bekämpfung von Rassismus und rassistischer Diskriminierung ist die Fachstelle für Rassismusbekämpfung FRB. Sie gestaltet, fördert und koordiniert entsprechende Aktivitäten auf eidgenössischer, kantonaler und kommunaler Ebene.</p>"
+      "value": "<p>Gemäss Artikel 261bis Absatz 2 des Strafgesetzbuchs (StGB, SR 311.0) sowie Artikel 171c Absatz 1 Satz 2 des Militärstrafgesetzes (MStG, SR 321.0) ist es verboten, öffentlich Ideologien zu verbreiten, die auf die systematische Herabsetzung oder Verleumdung von Personen wegen ihrer Rasse, Ethnie, Religion oder sexuellen Orientierung gerichtet sind. Ob es sich im Einzelfall um Propaganda handelt, hängt von den konkreten Umständen ab. Allein die Tatsache, öffentlich seine Sympathien für eine diskriminierende Ideologie zu bekunden oder sich auf diese im Kontext, auch auf zynische Weise, zu beziehen, stellt noch keine Propaganda dar. Der Täter muss darüber hinaus beabsichtigen, Dritte zu beeinflussen und für die Ideologie zu gewinnen. Wenn er dies tut, macht er sich nach geltendem Recht strafbar.</p><p>Es ist unbestritten, dass das Zur-Schau-Stellen und Instrumentalisieren von Kennzeichen des Nationalsozialismus schockierend und sehr belastend sein kann, namentlich für die Opfer des Holocaust und ihre Angehörigen bzw. Nachkommen. Jedoch vermag die öffentliche Verwendung rassistischer Symbole ohne Propagandazweck die Menschenwürde und den öffentlichen Frieden nur mittelbar zu beeinträchtigen. Die Meinungsäusserungsfreiheit (Art. 16 der Bundesverfassung [BV, SR 101]) gilt zwar nicht absolut, denn sie kann zum Schutz der Rechte Dritter eingeschränkt werden. Es ist gemäss bundesgerichtlicher Rechtsprechung aber hinzunehmen, dass auch stossende Ansichten vertreten werden, selbst wenn sie für die Mehrheit unhaltbar sind.</p><p>Das Parlament hat es z.B. in den Jahren 2015 und 2016 abgelehnt, den Hitlergruss unter Strafe zu stellen (vgl. die Petition <a href=\"https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20142018\">14.2018</a>). Bei zwei neueren Vorstössen hat der Bundesrat angesichts der bereits bestehenden Rechtsgrundlagen keine Notwendigkeit erkannt, weitergehende Strafbestimmungen gegen den Gebrauch bestimmter Symbole zu erlassen (vgl. die Stellungnahmen zu den Motionen <a href=\"https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20193270\">19.3270</a> Barrile Angelo, Verbot der öffentlichen Verwendung von extremistischen, gewaltverherrlichenden und rassistischen Symbolen und <a href=\"https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20214046\">21.4046</a> Rüegger Monika, Verbot für die Verwendung von extremistischen, terroristischen und islamistischen Symbolen). Zudem hat der Bundesrat schon früher dargelegt, dass eine Abgrenzung von strafbarem und straflosem Verhalten kaum möglich sei (<a href=\"http://www.admin.ch/opc/de/federal-gazette/2010/4851.pdf\">Bericht zur Abschreibung der Motion 04.3224 der Kommission für Rechtsfragen des Nationalrats</a>, BBl 2010 4851, 4859 ff.; https://www.fedlex.admin.ch/eli/fga/2010/819/de). Schliesslich ist darauf hinzuweisen, dass die fraglichen Symbole auch weiterhin bei der Aufarbeitung in einem historischen, edukativen, journalistischen oder künstlerischen Kontext verwendet werden können sollten.</p><p>Der Bundesrat ist deshalb nach wie vor überzeugt, dass gegen die Verwendung von nationalsozialistischen Symbolen ohne Propagandazwecke Prävention besser geeignet ist als strafrechtliche Repression. Zuständige Bundesstelle für Prävention und Sensibilisierung zur Bekämpfung von Rassismus und rassistischer Diskriminierung ist die Fachstelle für Rassismusbekämpfung FRB. Sie gestaltet, fördert und koordiniert entsprechende Aktivitäten auf eidgenössischer, kantonaler und kommunaler Ebene.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

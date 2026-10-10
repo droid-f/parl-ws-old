@@ -1,6 +1,6 @@
 {
   "id": 20223122,
-  "updated": "2022-06-17T10:44:11Z",
+  "updated": "2024-03-26T21:45:16Z",
   "additionalIndexing": "04;34",
   "affairType": {
     "abbreviation": "Mo.",
@@ -13,7 +13,7 @@
       "gender": "m",
       "id": 4190,
       "name": "Dobler Marcel",
-      "officialDenomination": "Dobler"
+      "officialDenomination": "Dobler Marcel"
     },
     "faction": {
       "abbreviation": "Gruppo RL",
@@ -54,6 +54,21 @@
             "date": "2022-06-17T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-09-27T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
           }
         ]
       },
@@ -67,7 +82,98 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-08-22T17:09:21Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3136,
+                    "gender": "m",
+                    "id": 4237,
+                    "name": "Würth Benedikt",
+                    "officialDenomination": "Würth"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo M-E",
+                    "id": 3,
+                    "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CN",
+            "id": 5,
+            "name": "Commissione della scienza, dell'educazione e della cultura CN",
+            "abbreviation1": "CSEC-N",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-15T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CS",
+            "id": 18,
+            "name": "Commissione della scienza, dell'educazione e della cultura CS",
+            "abbreviation1": "CSEC-S",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-15T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -78,6 +184,12 @@
           "id": 10,
           "name": "Cancelleria federale",
           "leading": true
+        },
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Dipartimento delle Finanze",
+          "leading": false
         }
       ],
       "states": [
@@ -88,8 +200,18 @@
         },
         {
           "date": "/Date(1655416800000+0200)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1695765600000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -187,7 +309,7 @@
         "gender": "m",
         "id": 4190,
         "name": "Dobler Marcel",
-        "officialDenomination": "Dobler"
+        "officialDenomination": "Dobler Marcel"
       },
       "faction": {
         "abbreviation": "Gruppo RL",
@@ -199,10 +321,9 @@
   ],
   "shortId": "22.3122",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -218,7 +339,7 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>Il Consiglio federale è disposto ad attuare le necessarie basi legali nell'ambito della prossima revisione della legge federale concernente l'impiego di mezzi elettronici per l'adempimento dei compiti delle autorità (LMeCA). In alternativa, il Parlamento potrebbe includere la richiesta contenuta nella mozione nelle deliberazioni concernenti il messaggio pertinente.</p><p>La mozione si iscrive nell'ordinamento costituzionale vigente e dev'essere interpretata nel senso che la Confederazione ha la competenza di imporre ai Cantoni prescrizioni concernenti le modalità di adempimento dei loro compiti soltanto se ciò è indispensabile all'applicazione uniforme e corretta del diritto federale nel settore specifico. La Costituzione federale non prevede per contro una competenza generale più estesa volta a disciplinare la digitalizzazione.</p><p>Se la Confederazione obbliga i Cantoni a fornire un servizio digitale ai fini dell'attuazione della mozione, deve anche essere in grado di prevedere l'utilizzo dei servizi di base necessari e il rispetto degli standard corrispondenti per garantire processi digitali end-to-end.</p><p><b>Proposta del Co</b></p>"
+      "value": "<p>Il Consiglio federale è disposto ad attuare le necessarie basi legali nell'ambito della prossima revisione della legge federale concernente l'impiego di mezzi elettronici per l'adempimento dei compiti delle autorità (LMeCA). In alternativa, il Parlamento potrebbe includere la richiesta contenuta nella mozione nelle deliberazioni concernenti il messaggio pertinente.</p><p>La mozione si iscrive nell'ordinamento costituzionale vigente e dev'essere interpretata nel senso che la Confederazione ha la competenza di imporre ai Cantoni prescrizioni concernenti le modalità di adempimento dei loro compiti soltanto se ciò è indispensabile all'applicazione uniforme e corretta del diritto federale nel settore specifico. La Costituzione federale non prevede per contro una competenza generale più estesa volta a disciplinare la digitalizzazione.</p><p>Se la Confederazione obbliga i Cantoni a fornire un servizio digitale ai fini dell'attuazione della mozione, deve anche essere in grado di prevedere l'utilizzo dei servizi di base necessari e il rispetto degli standard corrispondenti per garantire processi digitali end-to-end.</p><p><b>Proposta del Co</b></p>  Il Consiglio federale propone di accogliere la mozione."
     },
     {
       "type": {

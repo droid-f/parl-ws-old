@@ -1,6 +1,6 @@
 {
   "id": 20220479,
-  "updated": "2023-03-20T15:53:49Z",
+  "updated": "2024-03-26T21:27:57Z",
   "additionalIndexing": "04;28;1236;1211;34",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -40,7 +40,46 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "committee": {
+              "abbreviation": "CIP-CN",
+              "id": 11,
+              "name": "Commissione delle istituzioni politiche CN",
+              "abbreviation1": "CIP-N",
+              "abbreviation2": "CIP",
+              "committeeNumber": 11,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Consiglio nazionale",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-11-09T00:00:00Z",
+            "text": "Non dare seguito (Camera prioritaria)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-12-11T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -55,7 +94,7 @@
             "abbreviation": "CIP-CN",
             "id": 11,
             "name": "Commissione delle istituzioni politiche CN",
-            "abbreviation1": "CIP-CN",
+            "abbreviation1": "CIP-N",
             "abbreviation2": "CIP",
             "committeeNumber": 11,
             "council": {
@@ -72,16 +111,17 @@
               "correspondents": [
 
               ],
-              "sessionId": "5121"
+              "sessionId": "5122"
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "CIP-CS",
             "id": 24,
             "name": "Commissione delle istituzioni politiche CS",
-            "abbreviation1": "CIP-CS",
+            "abbreviation1": "CIP-S",
             "abbreviation2": "CIP",
             "committeeNumber": 24,
             "council": {
@@ -95,6 +135,97 @@
           "date": "2022-09-29T00:00:00Z",
           "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-13T11:49:38Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3146,
+                    "gender": "m",
+                    "id": 4254,
+                    "name": "Cottier Damien",
+                    "officialDenomination": "Cottier"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo RL",
+                    "id": 1,
+                    "name": "Gruppo liberale radicale"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-13T11:50:02Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3096,
+                    "gender": "f",
+                    "id": 4174,
+                    "name": "Steinemann Barbara",
+                    "officialDenomination": "Steinemann"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo V",
+                    "id": 4,
+                    "name": "Gruppo dell'Unione democratica di Centro"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -103,17 +234,38 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1664402400000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 223,
+          "name": "Esame preliminare - nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1699484400000+0100)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1702249200000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -453,8 +605,8 @@
   ],
   "shortId": "22.479",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
     "newKey": 0
   },

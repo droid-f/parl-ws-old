@@ -1,6 +1,6 @@
 {
   "id": 20233800,
-  "updated": "2023-06-21T16:16:32Z",
+  "updated": "2024-03-26T21:38:47Z",
   "additionalIndexing": "1216;28;08",
   "affairType": {
     "abbreviation": "Po.",
@@ -40,10 +40,37 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Combattu"
+            },
+            "council": null,
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Combattu. Discussion reportée",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-02-27T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-08-30T00:00:00Z",
+        "text": "Adoption"
       },
       "index": 0,
       "links": [
@@ -56,13 +83,28 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686780000000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1693346400000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1708988400000+0100)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
         }
       ],
       "texts": [
@@ -175,6 +217,26 @@
     },
     {
       "councillor": {
+        "code": 3142,
+        "gender": "f",
+        "id": 4250,
+        "name": "Bircher Martina",
+        "officialDenomination": "Bircher"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
+        "code": 3135,
+        "gender": "f",
+        "id": 4234,
+        "name": "Schläpfer Therese",
+        "officialDenomination": "Schläpfer Therese"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
         "code": 3154,
         "gender": "f",
         "id": 4262,
@@ -191,19 +253,40 @@
   ],
   "shortId": "23.3800",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 209,
+    "name": "Transmis au Conseil fédéral",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>En 2021, la Confédération et les cantons se sont mis d’accord sur une feuille de route pour endiguer la violence domestique. Alors que beaucoup a été fait dans le domaine de la protection des victimes, il reste encore beaucoup de travail dans le champ d’action&nbsp;8 de la feuille « Suivi des personnes auteures de violence domestique ». Or, il faut le souligner&nbsp;: le travail avec ces personnes est important pour la prévention des féminicides et de la violence sexospécifique de manière générale. Ce n’est que si l’auteur prend conscience de ses actes qu’il aura une chance de renoncer à la violence. Les mesures d’accompagnement ciblées et les programmes spécialisés visent à faciliter ce processus, à faire cesser les situations de violence domestique et à prévenir le risque de récidive et de répétition de comportements violents de génération en génération.</p><p>Certaines bases légales fédérales et cantonales permettent d’ordonner de telles mesures. L’article&nbsp;55a CP prévoit par exemple qu’il est possible, pendant la procédure pénale, d’obliger les personnes violentes à suivre des programmes de prévention. Il existe aussi des mesures dans le cadre de la protection de l’enfant, comme celles prévues à l’article&nbsp;307, alinéa&nbsp;3, CC. Le financement des offres pour les auteurs de violences n’est pas réglé de manière uniforme. Dans la plupart des cantons, les centres de consultation qui offrent un suivi à long terme doivent assurer une partie du financement, voire son entier. Certains cantons font de gros efforts pour mettre en place des offres de qualité faciles d’accès pour les personnes violentes. Certains cantons n’en font en revanche pas assez. Pourtant, la prévention des récidives a des effets indéniables. Des études montrent que leur nombre diminue lorsque les autorités judiciaires prescrivent un suivi ou un programme de prévention comme mesure complémentaire ou que l’on réussit à convaincre les personnes violentes de suivre des mesures. Selon certains calculs, chaque franc investi dans un programme permet d’en économiser quatre.</p><p>Il reste toutefois un grand potentiel d’optimisation. C’est la conclusion à laquelle sont parvenus non seulement les services spécialisés, mais aussi les experts internationaux du Conseil de l’Europe qui ont examiné la situation en Suisse en vue du rapport GREVIO sur la mise en œuvre de la Convention d’Istanbul.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral soutient la demande du postulat. Les cantons ont toutefois reconnu leur compétence concernant le travail avec les personnes auteures de violence dans le cadre de la feuille de route sur la violence domestique. Lors de l’examen des questions posées par le postulat, il ne s’agira donc pas de décharger financièrement les cantons dans ce domaine, mais plutôt d’examiner quelle est la marge de manœuvre existante, dans le cadre des compétences actuelles, pour permettre un travail efficace avec les personnes auteures de violence.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est prié d’étudier comment il serait possible de mettre en place un travail systématique avec les auteurs de violences. Il s’agit notamment d’examiner si, comme dans le cadre de loi fédérale sur l’aide aux victimes d’infractions (LAVI), il serait possible de poser des exigences aux centres de consultation sur la manière de prendre en charge les auteurs de violence, de définir la répartition des coûts entre les cantons et de fixer les prestations financières et les tâches de la Confédération. Cela permettrait en outre de créer un cadre national qui garantirait le respect de la Convention d’Istanbul.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Programmes pour les auteurs de violence pour mieux protéger les victimes"
     }
   ],
-  "title": "Titre suit"
+  "title": "Programmes pour les auteurs de violence pour mieux protéger les victimes"
 }
