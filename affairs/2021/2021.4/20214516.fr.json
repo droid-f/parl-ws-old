@@ -1,6 +1,6 @@
 {
   "id": 20214516,
-  "updated": "2021-12-20T15:37:35Z",
+  "updated": "2025-11-14T07:35:33Z",
   "additionalIndexing": "48;2846",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,172 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-18T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-03-06T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CTT-CE",
+            "id": 22,
+            "name": "Commission des transports et des télécommunications CE",
+            "abbreviation1": "CTT-E",
+            "abbreviation2": "CTT",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CTT-CN",
+            "id": 9,
+            "name": "Commission des transports et des télécommunications CN",
+            "abbreviation1": "CTT-N",
+            "abbreviation2": "CTT",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-16T11:31:32Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3065,
+                    "gender": "m",
+                    "id": 4189,
+                    "name": "Burkart Thierry",
+                    "officialDenomination": "Burkart"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639609200000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1644966000000+0100)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1694988000000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1705359600000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1709679600000+0100)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
         }
       ],
       "texts": [
@@ -110,7 +253,7 @@
         "gender": "m",
         "id": 4070,
         "name": "Candinas Martin",
-        "officialDenomination": "Candinas"
+        "officialDenomination": "Candinas Martin"
       },
       "type": "cosign"
     },
@@ -232,19 +375,40 @@
   ],
   "shortId": "21.4516",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 209,
+    "name": "Transmis au Conseil fédéral",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>La hiérarchie du réseau routier et les fonctions des différents types de routes doivent être maintenues en Suisse. Elles ont fait leurs preuves et garantissent l'efficacité et la fluidité du trafic transport individuel motorisé, du transport de marchandises et des transports publics.</p><p>Actuellement, la limitation de vitesse à 30 km/h s'étend de manière chaotique dans de nombreuses villes et communes, y compris sur les routes à orientation trafic. Il en résulte un affaiblissement de la fonctionnalité du réseau routier. En outre, les utilisateurs de la route reconnaissent moins bien les règles en vigueur (50 limite générale, vitesse maximale 30, zone 30 et zone de rencontre), ce qui pose également problème compte tenu de la sévérité du système de sanctions suisse.</p><p>Une hiérarchie claire est pourtant essentielle pour assigner une fonction précise à chaque type de route, tant à l'extérieur qu'à l'intérieur des localités. Dans les localités, la fonction des routes à orientation trafic est de diriger, de relier et de collecter le trafic. Sur ces routes, la vitesse doit être partout limitée à 50 km/h, à quelques exceptions près. Les routes d'intérêt local, en revanche, servent à collecter et à desservir le trafic dans les zones résidentielles. Sur ces routes, la vitesse peut être limitée à 30 km/h, si tel est le souhait des riverains ou des autorités locales. Enfin, les zones 30 et les zones de rencontre (limitées à 20 km/h) sont tout à fait justifiées dans les quartiers résidentiels.</p><p>Un guidage du trafic performant réduit le trafic de contournement par les quartiers et renforce par conséquent la sécurité routière.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le 10 novembre 2021, le Conseil fédéral a mis en consultation une proposition visant à simplifier l'instauration de zones 30 sur les routes d'intérêt local à l'intérieur des localités. Celle-ci prévoit désormais la possibilité de renoncer à une expertise à cette fin.</p><p>À l'avenir, ces zones pourront être aménagées aussi pour d'autres motifs liés aux conditions locales (par ex. qualité de vie), à l'instar des autres réglementations et restrictions du trafic. À l'heure actuelle, il est possible de mettre en place des zones 30 uniquement pour atténuer des dangers particuliers de la circulation routière, pour réduire les atteintes excessives à l'environnement ou pour améliorer la fluidité du trafic.</p><p>Sur les routes affectées à la circulation générale, la vitesse demeurera en principe limitée à 50 km/h en localité, et les conditions en vigueur pour tout abaissement de la vitesse, à savoir l'examen de la proportionnalité au cas par cas, seront maintenues. Ainsi, les fonctions du réseau routier supérieur ne seront pas compromises et les véhicules continueront d'emprunter ce réseau. Actuellement, les villes et les communes s'en tiennent au droit en vigueur pour abaisser la vitesse sur les routes affectées à la circulation générale.</p><p>La procédure de consultation se poursuit jusqu'au 25 février 2022. Le Conseil fédéral définira ensuite la marche à suivre sur la base des résultats de la consultation. Il refuse toutefois de durcir les règles en matière d'abaissement de la vitesse sur les routes affectées à la circulation générale, comme le réclame l'auteur de la motion.</p>  Le Conseil fédéral propose de rejeter la motion."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé de modifier les dispositions de la loi sur la circulation routière (LCR, RS 741.01) de manière à respecter la hiérarchie et les différentes fonctions du réseau routier suisse tant à l'intérieur qu'à l'extérieur des localités. Les nouvelles dispositions devront, d'une part, préserver les fonctions des différentes routes telles qu'elles sont définies dans les normes VSS. Elles veilleront, d'autre part, à ce que les limitations de vitesse correspondantes soient maintenues, en particulier celles de 50 km/h sur les routes à orientation trafic à l'intérieur des localités, tout en prévoyant la possibilité de réduire cette limitation à 30 km/h sur les routes d'intérêt local. Cette clarification au niveau de la loi permettra une révision consécutive de l'ordonnance d'exécution de la LCR, qui portera sur la désignation des routes à l'intérieur des localités.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Consolider la hiérarchie du réseau routier à l'intérieur comme à l'extérieur des localités"
     }
   ],
-  "title": "Titre suit"
+  "title": "Consolider la hiérarchie du réseau routier à l'intérieur comme à l'extérieur des localités"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20223953,
-  "updated": "2022-12-16T09:00:59Z",
+  "updated": "2025-09-25T15:34:15Z",
   "additionalIndexing": "2846;66;12",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2022-12-16T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-09-25T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
           }
         ]
       },
@@ -68,7 +83,92 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "UREK-SR",
+            "id": 20,
+            "name": "Kommission für Umwelt, Raumplanung und Energie SR",
+            "abbreviation1": "UREK-S",
+            "abbreviation2": "UREK",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-09-21T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "UREK-NR",
+            "id": 7,
+            "name": "Kommission für Umwelt, Raumplanung und Energie NR",
+            "abbreviation1": "UREK-N",
+            "abbreviation2": "UREK",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-09-21T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-07-03T18:08:41Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3227,
+                    "gender": "f",
+                    "id": 4332,
+                    "name": "Crevoisier Crelier Mathilde",
+                    "officialDenomination": "Crevoisier Crelier"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +189,23 @@
         },
         {
           "date": "/Date(1671145200000+0100)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1743372000000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1751493600000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1758751200000+0200)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -171,10 +286,9 @@
   ],
   "shortId": "22.3953",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -187,10 +301,17 @@
     },
     {
       "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "Der Bundesrat beantragt die Annahme der Motion."
+    },
+    {
+      "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Der Bundesrat wird beauftragt, für das Baubewilligungsverfahren bezüglich Fotovoltaikanlagen auf Infrastrukturanlagen, die keinem besonderen Schutz unterstehen und für die keine weitere Auflagen nötig sind, dringlich ein blosses Meldeverfahren oder ein beschleunigtes Verfahren sowie bei Bundesanlagen den Einbezug in die konzentrierte Bundesverfahren vorzusehen, damit Dächer und Fassaden von Gebäuden, Parkflächen in Industrie- und Gewerbezonen, Tunnelportale, Lärmschutzwände, Perronüberdachungen usw. ohne Verzögerung mit Fotovoltaikanlagen ausgerüstet werden können. Es ist zu prüfen, ob dafür Artikel 18a, RPG so rasch als möglich geändert werden muss.</p>"
+      "value": "<p>Der Bundesrat wird beauftragt, für das Baubewilligungsverfahren bezüglich Fotovoltaikanlagen auf Infrastrukturanlagen, die keinem besonderen Schutz unterstehen und für die keine weitere Auflagen nötig sind, dringlich ein blosses Meldeverfahren oder ein beschleunigtes Verfahren sowie bei Bundesanlagen den Einbezug in die konzentrierte Bundesverfahren vorzusehen, damit Dächer und Fassaden von Gebäuden, Parkflächen in Industrie- und Gewerbezonen, Tunnelportale, Lärmschutzwände, Perronüberdachungen usw. ohne Verzögerung mit Fotovoltaikanlagen ausgerüstet werden können. Es ist zu prüfen, ob dafür Artikel 18a, RPG so rasch als möglich geändert werden muss.</p>"
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20224111,
-  "updated": "2022-10-06T15:10:51Z",
+  "updated": "2025-11-25T12:30:21Z",
   "additionalIndexing": "2841;44",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,85 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Amm."
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "Sarà ripreso",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-05-30T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-09T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSS-CN",
+            "id": 6,
+            "name": "Commissione della sicurezza sociale e della sanità",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSS-CS",
+            "id": 19,
+            "name": "Commissione della sicurezza sociale e della sanità CS",
+            "abbreviation1": "CSSS-S",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +134,23 @@
       "states": [
         {
           "date": "/Date(1664402400000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1667948400000+0100)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1717020000000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1725228000000+0200)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
         }
       ],
       "texts": [
@@ -155,7 +238,7 @@
         "gender": "m",
         "id": 4053,
         "name": "Aeschi Thomas",
-        "officialDenomination": "Aeschi Thomas"
+        "officialDenomination": "Aeschi"
       },
       "type": "cosign"
     },
@@ -325,7 +408,7 @@
         "gender": "f",
         "id": 4234,
         "name": "Schläpfer Therese",
-        "officialDenomination": "Schläpfer"
+        "officialDenomination": "Schläpfer Therese"
       },
       "type": "cosign"
     },
@@ -393,14 +476,24 @@
         "name": "Gruppo dell'Unione democratica di Centro"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3142,
+        "gender": "f",
+        "id": 4250,
+        "name": "Bircher Martina",
+        "officialDenomination": "Bircher"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "22.4111",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 204,
+    "name": "Assegnato alla commissione competente",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -409,6 +502,13 @@
         "name": "Motivazione"
       },
       "value": "<p>1. Il personale di cura deve assumersi un onere enorme per documentare le proprie attività, un lavoro che non svolge molto volentieri, in quanto non rientra nelle competenze fondamentali della professione. Riducendo questo tipo di lavoro, si può ipotizzare che meno addetti alle cure abbandoneranno la loro professione.</p><p>2. Riducendo l'onere burocratico, il personale di cura avrebbe di nuovo più tempo per il lavoro a contatto con le persone, il che porterebbe a una maggiore soddisfazione e qualità di vita per tutti.</p><p>3. In tal modo sarebbe possibile abbattere nettamente i costi nel settore sanitario e contrastare la penuria di personale qualificato.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale è consapevole dell'onere amministrativo a cui devono far fronte i professionisti della salute. Nel contempo una buona documentazione delle cure è di fondamentale importanza per garantirne la qualità. Come ha rilevato nel suo parere in risposta al postulato de Courten 19.4551 \"Ridurre i costi della sanità e l'onere dei premi eliminando regolamentazioni inutili nell'assistenza e nelle cure mediche\", la riduzione dell'onere amministrativo a carico del personale di cura, ma anche di quello medico, non è di esclusiva competenza della Confederazione. Occorrono anche sforzi da parte delle strutture sanitarie, dei partner tariffali e di altri attori. Per esempio, spetta alle case di cura e ai Cantoni scegliere gli strumenti più semplici possibili dal punto di vista amministrativo per la rilevazione del fabbisogno di cure.</p><p>Inoltre l'onere amministrativo può essere in parte ridotto promuovendo la digitalizzazione nel settore sanitario. Per questa ragione il Consiglio federale ha proposto di accogliere la mozione 21.4374 Silberschmidt \"Introduzione di una gestione digitale dei pazienti\". Nel suo parere del 23 febbraio 2022 dichiara di essere disposto a promuovere la digitalizzazione dei processi nei limiti delle proprie competenze. La mozione è stata accolta dalle due Camere e trasmessa al Dipartimento federale dell'interno (DFI) per l'attuazione.</p><p>Il Consiglio federale conosce la problematica dell'abbandono precoce della professione da parte del personale di cura. Da uno studio dell'ottobre del 2021 condotto dalla Scuola universitaria di scienze applicate di Zurigo (ZHAW) e intitolato \"Carriere professionali in cure infermieristiche\" emerge tuttavia che l'onere amministrativo è menzionato tra le ragioni dell'abbandono della professione in un numero relativamente raro di casi (www.zhaw.ch &gt; Gesundheit &gt; Forschung &gt; Public Health &gt; Projekte &gt; Carriere professionali in cure infermieristiche: uno studio longitudinale sul periodo successivo all'inserimento professionale). Motivi indicati più di frequente sono le ore di lavoro straordinario, gli orari di lavoro irregolari e la conseguente difficoltà nel conciliare la vita professionale con quella familiare. Altre ragioni citate spesso sono l'impossibilità di fare le pause previste e lo stress psicofisico permanentemente elevato.</p><p>Con l'attuazione dell'iniziativa sulle cure infermieristiche vengono proposte misure, in particolare nell'ambito della seconda tappa, per migliorare le condizioni di lavoro del personale di cura e affrontare i ben noti problemi. Il Consiglio federale deciderà sul seguito dei lavori probabilmente entro la fine del 2022.</p><p>In previsione di questi lavori, il Consiglio federale ritiene che quanto richiesto nella mozione sia già stato preso in considerazione ed esaminato.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

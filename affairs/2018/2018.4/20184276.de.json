@@ -1,6 +1,6 @@
 {
   "id": 20184276,
-  "updated": "2019-09-17T15:25:25Z",
+  "updated": "2025-11-14T08:13:55Z",
   "additionalIndexing": "04;34;1236",
   "affairType": {
     "abbreviation": "Mo.",
@@ -17,7 +17,7 @@
     },
     "faction": {
       "abbreviation": "Fraktion C",
-      "code": "C",
+      "code": "M-E",
       "id": 3,
       "name": "CVP-Fraktion"
     },
@@ -70,6 +70,36 @@
             "date": "2019-09-17T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-06-05T00:00:00Z",
+            "text": "Abschreibung im Zusammenhang mit der Beratung des Geschäfts 24.006",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-06-11T00:00:00Z",
+            "text": "Abschreibung im Zusammenhang mit der Beratung des Geschäfts 24.006",
+            "type": 0
           }
         ]
       },
@@ -88,7 +118,7 @@
             "abbreviation": "SPK-NR",
             "id": 11,
             "name": "Staatspolitische Kommission NR",
-            "abbreviation1": "SPK-NR",
+            "abbreviation1": "SPK-N",
             "abbreviation2": "SPK",
             "committeeNumber": 11,
             "council": {
@@ -114,7 +144,7 @@
             "abbreviation": "SPK-SR",
             "id": 24,
             "name": "Staatspolitische Kommission SR",
-            "abbreviation1": "SPK-SR",
+            "abbreviation1": "SPK-S",
             "abbreviation2": "SPK",
             "committeeNumber": 24,
             "council": {
@@ -136,9 +166,9 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "EFD",
-          "id": 7,
-          "name": "Finanzdepartement",
+          "abbreviation": "BK",
+          "id": 10,
+          "name": "Bundeskanzlei",
           "leading": true
         }
       ],
@@ -155,8 +185,13 @@
         },
         {
           "date": "/Date(1568671200000+0200)/",
-          "id": 26,
-          "name": "Angenommen"
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
+        },
+        {
+          "date": "/Date(1718056800000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -164,11 +199,6 @@
       ]
     }
   ],
-  "handling": {
-    "date": "2019-09-17T00:00:00Z",
-    "legislativePeriod": 50,
-    "session": "5019"
-  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -193,7 +223,7 @@
       },
       "faction": {
         "abbreviation": "Fraktion C",
-        "code": "C",
+        "code": "M-E",
         "id": 3,
         "name": "CVP-Fraktion"
       },
@@ -202,9 +232,9 @@
   ],
   "shortId": "18.4276",
   "state": {
-    "id": 26,
-    "name": "Angenommen",
-    "doneKey": "3",
+    "id": 229,
+    "name": "Erledigt",
+    "doneKey": "0",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },
@@ -215,6 +245,13 @@
         "name": "Begründung"
       },
       "value": "<p>Der Bund betreibt heute einen grossen Aufwand, um seine Leistungen den Unternehmen und den Einwohnerinnen und Einwohnern nicht nur analog, sondern auch digital zugänglich zu machen. Dazu entwickelt er immer mehr amts- oder departementsspezifische Portale (Websites). Betreiberinnen und Betreiber wie auch Nutzerinnen und Nutzer müssen bald unzählige Portale bewirtschaften, was einen grossen Aufwand erfordert. </p><p>Diese amts- oder departementsspezifischen Portale sind sowohl im Aufbau als auch im Betrieb teuer, tragen aber oft wenig zur weiteren Automatisierung der Prozesse bei. Gerade die Vernetzung innerhalb der Bundesverwaltung kommt beim Fokus auf Portale zu kurz, weshalb auf strategischer Ebene der Fokus inskünftig vor allem auf die Einrichtung elektronischer Schnittstellen (sogenannte API: Application Programming Interfaces oder Programmierschnittstellen) gelegt werden soll. </p><p>Elektronische Schnittstellen ermöglichen es Behörden wie auch Unternehmen und Privatpersonen, direkt, also automatisiert, beispielsweise über unternehmensinterne ERP-Systeme (Enterprise Resource Planning Systems oder Geschäftsressourcenplanungssysteme), mit den Behörden Daten auszutauschen. Damit lassen sich dynamische Ökosysteme schaffen und die Vorzüge der Digitalisierung effizient nutzen. Dieser Weg ist einfacher, sicherer und viel kostengünstiger als der Umweg über amts- oder departementsspezifische Portale. Die breite Einrichtung solcher Schnittstellen würde auch die Bestrebungen für eine einzige behördenübergreifende Plattform, wie zum Beispiel Easygov.swiss, unterstützen. Der Datenschutz ist zu jedem Zeitpunkt vollumfänglich gewährleistet.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "Der Bundesrat beantragt die Annahme der Motion."
     },
     {
       "type": {

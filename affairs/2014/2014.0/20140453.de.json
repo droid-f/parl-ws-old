@@ -1,6 +1,6 @@
 {
   "id": 20140453,
-  "updated": "2019-02-18T19:03:06Z",
+  "updated": "2025-11-14T09:03:37Z",
   "additionalIndexing": "1211;2846",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -50,7 +50,7 @@
               "abbreviation": "RK-NR",
               "id": 12,
               "name": "Kommission für Rechtsfragen NR",
-              "abbreviation1": "RK-NR",
+              "abbreviation1": "RK-N",
               "abbreviation2": "RK",
               "committeeNumber": 12,
               "council": {
@@ -63,7 +63,7 @@
             },
             "council": null,
             "date": "2015-11-12T00:00:00Z",
-            "text": "Folge gegeben",
+            "text": "Folge geben (Erstrat)",
             "type": 16
           },
           {
@@ -75,7 +75,7 @@
               "abbreviation": "RK-SR",
               "id": 25,
               "name": "Kommission für Rechtsfragen SR",
-              "abbreviation1": "RK-SR",
+              "abbreviation1": "RK-S",
               "abbreviation2": "RK",
               "committeeNumber": 25,
               "council": {
@@ -123,8 +123,8 @@
           },
           {
             "category": {
-              "id": 4,
-              "name": "Ergänzung"
+              "id": 3,
+              "name": "Normal"
             },
             "council": {
               "abbreviation": "NR",
@@ -134,6 +134,66 @@
             },
             "date": "2019-12-20T00:00:00Z",
             "text": "Bis zur Wintersession 2021.",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Fristverlängerung",
+            "type": 50
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-03-18T00:00:00Z",
+            "text": "Bis zur Frühjahrssession 2024.",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-06-14T00:00:00Z",
+            "text": "Fristverlängerung bis zur Sommersession 2026",
+            "type": 50
+          },
+          {
+            "category": {
+              "id": 4,
+              "name": "Ergänzung"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-06-14T00:00:00Z",
+            "text": "Fristverlängerung bis zur Sommersession 2026",
             "type": 0
           }
         ]
@@ -150,7 +210,7 @@
             "abbreviation": "RK-NR",
             "id": 12,
             "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
+            "abbreviation1": "RK-N",
             "abbreviation2": "RK",
             "committeeNumber": 12,
             "council": {
@@ -178,6 +238,12 @@
               "correspondents": [
 
               ]
+            },
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5113"
             }
           ],
           "treatmentCategory": "V"
@@ -187,7 +253,7 @@
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -205,7 +271,8 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -213,10 +280,16 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -227,91 +300,18 @@
         },
         {
           "date": "/Date(1454367600000+0100)/",
-          "id": 1,
-          "name": "Folge gegeben"
-        }
-      ],
-      "texts": [
-
-      ]
-    },
-    {
-      "consultation": {
-        "resolutions": [
-
-        ]
-      },
-      "federalCouncilProposal": {
-      },
-      "index": 1,
-      "links": [
-
-      ],
-      "preConsultations": [
-        {
-          "committee": {
-            "abbreviation": "RK-NR",
-            "id": 12,
-            "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
-            "abbreviation2": "RK",
-            "committeeNumber": 12,
-            "council": {
-              "abbreviation": "NR",
-              "id": 1,
-              "name": "Nationalrat",
-              "type": "N"
-            },
-            "typeCode": 1
-          },
-          "date": "2014-11-28T00:00:00Z",
-          "registrations": [
-            {
-              "correspondents": [
-
-              ]
-            }
-          ],
-          "treatmentCategory": "V"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
         },
         {
-          "committee": {
-            "abbreviation": "RK-SR",
-            "id": 25,
-            "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
-            "abbreviation2": "RK",
-            "committeeNumber": 25,
-            "council": {
-              "abbreviation": "SR",
-              "id": 2,
-              "name": "Ständerat",
-              "type": "S"
-            },
-            "typeCode": 1
-          },
-          "date": "2015-11-12T00:00:00Z",
-          "registrations": [
-
-          ]
-        }
-      ],
-      "references": [
-
-      ],
-      "relatedDepartments": [
+          "date": "/Date(1646089200000+0100)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlament",
-          "leading": true
-        }
-      ],
-      "states": [
-        {
-          "date": "/Date(1411596000000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "date": "/Date(1656626400000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
         }
       ],
       "texts": [
@@ -619,7 +619,7 @@
         "gender": "m",
         "id": 4141,
         "name": "Portmann Hans-Peter",
-        "officialDenomination": "Portmann"
+        "officialDenomination": "Portmann Hans-Peter"
       },
       "type": "cosign"
     },
@@ -663,8 +663,8 @@
   "sequentialNumber": 305,
   "shortId": "14.453",
   "state": {
-    "id": 1,
-    "name": "Folge gegeben",
+    "id": 208,
+    "name": "In Kommission des Nationalrats",
     "doneKey": "0",
     "newKey": 0
   },
@@ -681,7 +681,7 @@
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Gestützt auf Artikel 160 Absatz 1 der Bundesverfassung und Artikel 107 des Parlamentsgesetzes reiche ich folgende parlamentarische Initiative ein:</p><p>Das Bundesgesetz vom 30. März 1911 betreffend die Ergänzung des Schweizerischen Zivilgesetzbuches (Fünfter Teil: Obligationenrecht) wird wie folgt geändert:</p><p>Art. 219</p><p>...</p><p>Abs. 4</p><p>Beim Verkauf eines Miteigentumsanteils an einem Grundstück mit einer Baute, die weniger als ein Jahr vor dem Verkauf überwiegend neu erstellt wurde, hat der Käufer bei Mängeln der Baute auch das unabdingbare Recht, vom Verkäufer die unentgeltliche Beseitigung der Mängel zu verlangen, sofern dies dem Verkäufer nicht übermässige Kosten verursacht. Mängel sind dem Verkäufer innert 60 Tagen nach der Entdeckung anzuzeigen.</p>"
+      "value": "<p>Gestützt auf Artikel 160 Absatz 1 der Bundesverfassung und Artikel 107 des Parlamentsgesetzes reiche ich folgende parlamentarische Initiative ein:</p><p>Das Bundesgesetz vom 30. März 1911 betreffend die Ergänzung des Schweizerischen Zivilgesetzbuches (Fünfter Teil: Obligationenrecht) wird wie folgt geändert:</p><p>Art. 219</p><p>...</p><p>Abs. 4</p><p>Beim Verkauf eines Miteigentumsanteils an einem Grundstück mit einer Baute, die weniger als ein Jahr vor dem Verkauf überwiegend neu erstellt wurde, hat der Käufer bei Mängeln der Baute auch das unabdingbare Recht, vom Verkäufer die unentgeltliche Beseitigung der Mängel zu verlangen, sofern dies dem Verkäufer nicht übermässige Kosten verursacht. Mängel sind dem Verkäufer innert 60 Tagen nach der Entdeckung anzuzeigen.</p>"
     },
     {
       "type": {

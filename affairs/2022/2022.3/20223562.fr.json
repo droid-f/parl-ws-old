@@ -1,6 +1,6 @@
 {
   "id": 20223562,
-  "updated": "2022-06-10T12:30:35Z",
+  "updated": "2025-12-16T07:38:39Z",
   "additionalIndexing": "2841;08;10",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-04-17T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-12-15T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-24T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSSS-CE",
+            "id": 19,
+            "name": "Commission de la sécurité sociale et de la santé publique CE",
+            "abbreviation1": "CSSS-E",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-10-21T17:01:49Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2600,
+                    "gender": "f",
+                    "id": 1106,
+                    "name": "Häberli-Koller Brigitte",
+                    "officialDenomination": "Häberli-Koller"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSSS-CN",
+            "id": 6,
+            "name": "Commission de la sécurité sociale et de la santé publique CN",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +179,38 @@
       "states": [
         {
           "date": "/Date(1654639200000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1661292000000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1713304800000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1757282400000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1760911200000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1764111600000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1765753200000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -95,7 +238,7 @@
         "gender": "m",
         "id": 4190,
         "name": "Dobler Marcel",
-        "officialDenomination": "Dobler"
+        "officialDenomination": "Dobler Marcel"
       },
       "type": "cosign"
     },
@@ -137,10 +280,10 @@
   ],
   "shortId": "22.3562",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -149,6 +292,13 @@
         "name": "Développement"
       },
       "value": "<p>Le 18 juin 2021, les Chambres ont adopté l'article relatif aux projets pilotes de la LAMal. Parmi les projets envisageables, la loi prévoit la possibilité de prendre en charge des prestations à l'étranger en dehors de la coopération transfrontalière au sens de l'art. 34, al. 2.</p><p>Il est notoire que certaines prestations médicales sont fournies à des tarifs largement plus avantageux dans les pays voisins, cela sans nécessairement des explications objectives. C'est par exemple le cas dans le domaine des médicaments génériques. </p><p>Si l'esprit de la loi prévoit que les acteurs eux-mêmes doivent être à l'origine de la demande, rien n'interdit à la Confédération de jouer un rôle proactif pour provoquer le dépôt d'une demande d'un tel projet pilote. Vu l'urgence d'agir dans le domaine des coûts de la santé, il est proposé de ne pas attendre et d'anticiper déjà l'entrée en vigueur de l'article sur les projets pilotes.  </p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>L'article autorisant des projets pilotes est l'une des principales mesures proposées pour freiner la hausse des coûts. L'art. 59b de la loi sur l'assurance-maladie (LAMal ; RS 832.10) qui le consacre a été adopté par les Chambres (FF 2021 1496) et doit être concrétisé au niveau de l'ordonnance. Le projet correspondant a été soumis en consultation (<a href=\"http://www.fedlex.admin.ch\">www.fedlex.admin.ch</a> &gt; Procédures de consultation &gt; Terminées &gt; 2022) et les avis sont actuellement examinés. L'ensemble de ce cadre légal entrera en vigueur vraisemblablement le 1er janvier 2023.</p><p>L'objectif de l'article sur les projets pilotes est de permettre aux cantons, aux partenaires tarifaires et aux organisations de patients de réaliser, en dehors du cadre de la LAMal, des projets pilotes innovants qui permettent de réduire les coûts. Le projet pilote sera présenté en règle générale par ces acteurs seuls ou conjointement. Le financement d'un projet pilote doit être assuré par les titulaires de l'autorisation : aucune participation ou subvention de la Confédération ne peut être attendue (FF 2019 5765, 5859). Le législateur n'a donc pas prévu de participation financière de la Confédération à de tels projets pilotes.</p><p>Le dépôt d'une demande d'autorisation d'un projet pilote repose sur une base volontaire. Il n'y a pas de base légale permettant au DFI d'entreprendre des démarches pour mettre en oeuvre un projet pilote. En revanche, il se tiendra à disposition pour accompagner le(s) demandeur(s) et le(s) porteur(s) du projet tout au long du processus, afin que le projet puisse être réalisé en bonne et due forme, dans le respect des conditions légales d'autorisation et d'évaluation.</p><p>Par ailleurs, la prise en charge des coûts dans le cadre de la coopération transfrontalière est réglementée par l'article 36a de l'ordonnance sur l'assurance-maladie ; OAMal, RS 832.102. Cette disposition vise un renforcement des régions frontalières suisses et une amélioration de l'offre de soins qui y est proposée.</p><p>Enfin, le Conseil fédéral a publié en 2021 un rapport (rapport du Conseil fédéral du 1er septembre 2021 - Remboursement, dans le cadre de l'assurance obligatoire des soins, de moyens et appareils acquis à titre privé à l'étranger ; www.bag.admin.ch &gt; L'OFSP &gt; Publications &gt; Rapports du Conseil fédéral &gt; 2021) qui a analysé les chances et les risques d'une suppression ou d'un assouplissement du principe de territorialité dans le domaine des moyens et des appareils.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {

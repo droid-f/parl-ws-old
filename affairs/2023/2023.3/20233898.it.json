@@ -1,6 +1,6 @@
 {
   "id": 20233898,
-  "updated": "2023-06-21T15:33:53Z",
+  "updated": "2025-12-09T07:40:50Z",
   "additionalIndexing": "44;2836",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,182 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2025-05-06T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-12-08T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-30T00:00:00Z",
+        "text": "Respingere"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-10-22T21:29:02Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3108,
+                    "gender": "m",
+                    "id": 4207,
+                    "name": "Müller Damian",
+                    "officialDenomination": "Müller Damian"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSS-CS",
+            "id": 19,
+            "name": "Commissione della sicurezza sociale e della sanità CS",
+            "abbreviation1": "CSSS-S",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2025-05-08T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSS-CN",
+            "id": 6,
+            "name": "Commissione della sicurezza sociale e della sanità",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2025-05-08T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Dipartimento dell'interno",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686866400000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1693346400000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1746482400000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1746655200000+0200)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1756850400000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1760997600000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1764111600000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1765148400000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -90,7 +243,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -162,19 +315,40 @@
   ],
   "shortId": "23.3898",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Secondo la rilevazione sulle forze di lavoro in Svizzera (RIFOS) condotta dall’UST, tra il 2012 e il 2022 il lavoro a tempo parziale è aumentato tre&nbsp;volte di più rispetto al lavoro a tempo pieno. Nel quadro dell’esame dell’iniziativa popolare \"Per una previdenza vecchiaia sicura e sostenibile (Iniziativa sulle pensioni)\", lo scorso mese di marzo la CSSS-N ha presentato all’UFAS una richiesta di informazioni e dati statistici sulle conseguenze del lavoro a tempo parziale sull’AVS. Nella sua risposta, l’UFAS ritiene che i dati disponibili non consentano di mostrare concretamente gli effetti del lavoro a tempo parziale sull’AVS, né tanto meno di stabilire che un aumento generale del grado di occupazione della popolazione avrebbe un impatto significativo sulle entrate dell’AVS o di effettuare una proiezione degli eventuali effetti a medio e lungo termine. In conclusione afferma che a tale scopo andrebbero prima elaborati appositi modelli.</p><p>Di conseguenza, per strutturare meglio i modelli di finanziamento dell’AVS, risulta evidente la necessità di disporre di una statistica sull’occupazione, svolta congiuntamente dall’UST e dalla SECO, che si concentri sul lavoro a tempo parziale. L’obiettivo dovrà essere quello di fornire dati individuali sistematici (e non soltanto risultati generali derivanti da indagini sulla popolazione attiva) che tengano conto di criteri multifattoriali come la fascia di età, il sesso, la formazione, il livello salariale, la ripartizione dei compiti in seno alla coppia, le forze di lavoro, il volume totale di attività ecc. La mozione è in linea con gli spunti di riflessione sviluppati durante il dibattito sull’Iniziativa sulle pensioni.</p><p>&nbsp;</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>In generale, non è chiaro quali siano le conseguenze del lavoro a tempo parziale sull’AVS. Quest’ultimo viene espresso per lo più come percentuale della popolazione attiva. Pertanto, dal punto di vista dei contributi, è particolarmente rilevante sapere se un aumento del lavoro a tempo parziale sia dovuto all’inizio di un’attività lucrativa da parte di persone che precedentemente non ne avevano o a una riduzione del grado di occupazione da parte di persone che prima lavoravano a tempo pieno. Tra il 2010 e il 2022 le donne esercitanti un’attività lucrativa sono aumentate del 17&nbsp;per cento. Nel contempo la loro occupazione in posti equivalenti a tempo pieno è aumentata del 23&nbsp;per cento, il che significa che vi è stato un incremento delle ore di lavoro per ogni donna attiva. Nello stesso periodo, fra gli uomini la quota degli attivi è aumentata in modo meno marcato (+14&nbsp;%), mentre la crescita dei posti equivalenti a tempo pieno è stata soltanto dell’11&nbsp;per cento, il che corrisponde a un calo del grado di occupazione medio. C’è dunque d’attendersi che sul fronte dei contributi l’evoluzione rilevata tra le donne generi maggiori entrate per l’AVS, mentre tra gli uomini l’importo versato da ciascun contribuente tenderà a diminuire.</p><p>&nbsp;</p><p>Sul fronte delle uscite non è chiaro quali saranno gli effetti, in particolare a causa del limite massimo, dello splitting, degli accrediti per compiti educativi e dei nuovi modelli familiari (più coppie di concubini che raggiungono l’età di pensionamento).</p><p>&nbsp;</p><p>Su incarico del Consiglio federale, l’Ufficio federale di statistica conduce ogni anno due&nbsp;rilevazioni, la rilevazione sulle forze lavoro in Svizzera (RIFOS; dal 1991) e la rilevazione della struttura dei salari (RSS; dal 1994). Entrambe raccolgono già dati sul grado di occupazione, sulle ore di lavoro retribuite e non retribuite (lavoro domestico e familiare, volontariato) e sul reddito da lavoro. Questi dati possono essere classificati per sesso, età, livello di formazione e molte altre variabili sociodemografiche. Conformemente al principio “once only” stabilito nel quadro del programma Gestione dei dati a livello nazionale (NaDB) e al fine di evitare una nuova indagine, i dati della RIFOS e della RSS possono essere collegati a dati amministrativi come i redditi assoggettati all’obbligo contributivo nell’AVS e nell’AI e le rendite AVS/AI, e si possono effettuare stime sull’impatto del lavoro a tempo parziale sull’AVS. Tuttavia, a causa della complessità del tema e del fatto che la RIFOS e la RSS sono rilevazioni campionarie, occorrerebbe dapprima elaborare modelli complessi. Questi e altri temi saranno trattati nel quadro dell’adempimento della mozione della Commissione della sicurezza sociale e della sanità del Consiglio nazionale 21.3462 \"Mandato per la prossima riforma dell’AVS\".</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di raccogliere dati presso l’UST e la SECO per analizzare le conseguenze del lavoro a tempo parziale sull’AVS e, in seguito, proporre nuovi modelli di finanziamento delle pensioni.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Dati affidabili sui modelli di lavoro, in particolare sul lavoro a tempo parziale, per strutturare meglio il finanziamento delle pensioni"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Dati affidabili sui modelli di lavoro, in particolare sul lavoro a tempo parziale, per strutturare meglio il finanziamento delle pensioni"
 }

@@ -1,6 +1,7 @@
 {
   "id": 20230050,
-  "updated": "2023-06-21T10:47:35Z",
+  "updated": "2026-02-10T20:00:29Z",
+  "additionalIndexing": "44;24;2836;04",
   "affairType": {
     "abbreviation": "OCF",
     "id": 1,
@@ -33,7 +34,7 @@
             "abbreviation": "CSS-CN",
             "id": 6,
             "name": "Commissione della sicurezza sociale e della sanità",
-            "abbreviation1": "CSSS-CN",
+            "abbreviation1": "CSSS-N",
             "abbreviation2": "CSSS",
             "committeeNumber": 6,
             "council": {
@@ -44,7 +45,7 @@
             },
             "typeCode": 1
           },
-          "date": "2023-05-04T00:00:00Z",
+          "date": "2023-05-24T00:00:00Z",
           "registrations": [
 
           ],
@@ -55,7 +56,7 @@
             "abbreviation": "CSS-CS",
             "id": 19,
             "name": "Commissione della sicurezza sociale e della sanità CS",
-            "abbreviation1": "CSSS-CS",
+            "abbreviation1": "CSSS-S",
             "abbreviation2": "CSSS",
             "committeeNumber": 19,
             "council": {
@@ -66,10 +67,11 @@
             },
             "typeCode": 1
           },
-          "date": "2023-05-04T00:00:00Z",
+          "date": "2023-05-24T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "IIIb/IV"
         }
       ],
       "references": [
@@ -105,8 +107,48 @@
       "states": [
         {
           "date": "/Date(1684879200000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1685570400000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1687816800000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1698271200000+0200)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1702508400000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1706655600000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1708988400000+0100)/",
+          "id": 219,
+          "name": "Pianificato per il voto finale"
+        },
+        {
+          "date": "/Date(1710457200000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -122,7 +164,81 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-09-21T00:00:00Z",
+            "text": "Decisione secondo il disegno (progetto)",
+            "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-12-14T00:00:00Z",
+            "text": "Deroga",
+            "type": 37
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-02-27T00:00:00Z",
+            "text": "Adesione",
+            "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-03-15T00:00:00Z",
+            "text": "Adozione nella votazione finale",
+            "type": 36
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-03-15T00:00:00Z",
+            "text": "Adozione nella votazione finale",
+            "type": 36
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -134,10 +250,100 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-31T09:04:40Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3121,
+                    "gender": "m",
+                    "id": 4220,
+                    "name": "Roduit Benjamin",
+                    "officialDenomination": "Roduit"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo M-E",
+                    "id": 3,
+                    "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-31T09:04:22Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3026,
+                    "gender": "f",
+                    "id": 4121,
+                    "name": "Gysi Barbara",
+                    "officialDenomination": "Gysi Barbara"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo S",
+                    "id": 2,
+                    "name": "Gruppo socialista"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CSS-CN",
             "id": 6,
             "name": "Commissione della sicurezza sociale e della sanità",
-            "abbreviation1": "CSSS-CN",
+            "abbreviation1": "CSSS-N",
             "abbreviation2": "CSSS",
             "committeeNumber": 6,
             "council": {
@@ -148,7 +354,7 @@
             },
             "typeCode": 1
           },
-          "date": "2023-05-04T00:00:00Z",
+          "date": "2023-05-24T00:00:00Z",
           "registrations": [
 
           ],
@@ -159,7 +365,7 @@
             "abbreviation": "CSS-CS",
             "id": 19,
             "name": "Commissione della sicurezza sociale e della sanità CS",
-            "abbreviation1": "CSSS-CS",
+            "abbreviation1": "CSSS-S",
             "abbreviation2": "CSSS",
             "committeeNumber": 19,
             "council": {
@@ -170,15 +376,36 @@
             },
             "typeCode": 1
           },
-          "date": "2023-05-04T00:00:00Z",
+          "date": "2023-05-24T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3053,
+                    "gender": "m",
+                    "id": 4153,
+                    "name": "Hegglin Peter",
+                    "officialDenomination": "Hegglin Peter"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo M-E",
+                    "id": 3,
+                    "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5122"
             }
-          ]
+          ],
+          "treatmentCategory": "IIIb/IV"
         }
       ],
       "references": [
@@ -201,6 +428,26 @@
             "id": 1,
             "name": "Oggetto in deliberazione / progetto"
           }
+        },
+        {
+          "date": "/Date(1711407600000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "684",
+            "source": "FF 2024 684",
+            "type": {
+              "id": 1,
+              "name": "Foglio federale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/it/federal-gazette/2024/684.pdf",
+            "year": "2024"
+          },
+          "referendumDeadline": "2024-07-04T00:00:00Z",
+          "type": {
+            "id": 3,
+            "name": "Testo per la votazione finale"
+          }
         }
       ],
       "relatedDepartments": [
@@ -214,8 +461,63 @@
       "states": [
         {
           "date": "/Date(1684879200000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1687298400000+0200)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1687384800000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1687816800000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1693778400000+0200)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1698271200000+0200)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1702508400000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1706655600000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1707433200000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1708988400000+0100)/",
+          "id": 219,
+          "name": "Pianificato per il voto finale"
+        },
+        {
+          "date": "/Date(1710457200000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -247,8 +549,8 @@
   ],
   "shortId": "23.050",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
     "newKey": 0
   },

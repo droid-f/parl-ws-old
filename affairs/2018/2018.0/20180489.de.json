@@ -1,6 +1,6 @@
 {
   "id": 20180489,
-  "updated": "2023-05-15T11:10:58Z",
+  "updated": "2026-02-10T20:34:43Z",
   "additionalIndexing": "24",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -65,7 +65,7 @@
               "abbreviation": "WAK-SR",
               "id": 23,
               "name": "Kommission für Wirtschaft und Abgaben SR",
-              "abbreviation1": "WAK-SR",
+              "abbreviation1": "WAK-S",
               "abbreviation2": "WAK",
               "committeeNumber": 23,
               "council": {
@@ -98,8 +98,8 @@
           },
           {
             "category": {
-              "id": 4,
-              "name": "Ergänzung"
+              "id": 3,
+              "name": "Normal"
             },
             "council": {
               "abbreviation": "NR",
@@ -129,7 +129,7 @@
             "abbreviation": "WAK-NR",
             "id": 10,
             "name": "Kommission für Wirtschaft und Abgaben NR",
-            "abbreviation1": "WAK-NR",
+            "abbreviation1": "WAK-N",
             "abbreviation2": "WAK",
             "committeeNumber": 10,
             "council": {
@@ -144,50 +144,7 @@
           "registrations": [
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "NR",
-                    "id": 1,
-                    "name": "Nationalrat",
-                    "type": "N"
-                  },
-                  "councillor": {
-                    "code": 2698,
-                    "gender": "m",
-                    "id": 3895,
-                    "name": "Lüscher Christian",
-                    "officialDenomination": "Lüscher"
-                  },
-                  "faction": {
-                    "abbreviation": "Fraktion RL",
-                    "code": "RL",
-                    "id": 1,
-                    "name": "FDP-Liberale Fraktion"
-                  },
-                  "language": "fr"
-                },
-                {
-                  "council": {
-                    "abbreviation": "NR",
-                    "id": 1,
-                    "name": "Nationalrat",
-                    "type": "N"
-                  },
-                  "councillor": {
-                    "code": 3046,
-                    "gender": "m",
-                    "id": 4144,
-                    "name": "Matter Thomas",
-                    "officialDenomination": "Matter Thomas"
-                  },
-                  "faction": {
-                    "abbreviation": "Fraktion V",
-                    "code": "V",
-                    "id": 4,
-                    "name": "Fraktion der Schweizerischen Volkspartei"
-                  },
-                  "language": "de"
-                }
+
               ],
               "sessionId": "5101"
             },
@@ -205,7 +162,7 @@
             "abbreviation": "WAK-SR",
             "id": 23,
             "name": "Kommission für Wirtschaft und Abgaben SR",
-            "abbreviation1": "WAK-SR",
+            "abbreviation1": "WAK-S",
             "abbreviation2": "WAK",
             "committeeNumber": 23,
             "council": {
@@ -223,26 +180,12 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
         {
-          "committee": {
-            "abbreviation": "WAK-NR",
-            "id": 10,
-            "name": "Kommission für Wirtschaft und Abgaben NR",
-            "abbreviation1": "WAK-NR",
-            "abbreviation2": "WAK",
-            "committeeNumber": 10,
-            "council": {
-              "abbreviation": "NR",
-              "id": 1,
-              "name": "Nationalrat",
-              "type": "N"
-            },
-            "typeCode": 1
-          },
           "date": "/Date(1668380400000+0100)/",
           "publication": {
             "isOldFormat": false,
@@ -307,8 +250,33 @@
         },
         {
           "date": "/Date(1682978400000+0200)/",
-          "id": 2,
-          "name": "Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1688940000000+0200)/",
+          "id": 225,
+          "name": "Vorprüfung - in Kommission des Ständerates"
+        },
+        {
+          "date": "/Date(1688940000000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1694124000000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 219,
+          "name": "Geplant für die Schlussabstimmung"
+        },
+        {
+          "date": "/Date(1695938400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -332,6 +300,51 @@
             "date": "2023-05-02T00:00:00Z",
             "text": "Beschluss gemäss Entwurf",
             "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-11T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Annahme in der Schlussabstimmung",
+            "type": 36
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Annahme in der Schlussabstimmung",
+            "type": 36
           }
         ]
       },
@@ -339,7 +352,11 @@
       },
       "index": 1,
       "links": [
-
+        {
+          "date": "/Date(1728943200000+0200)/",
+          "title": "Vernehmlassung",
+          "url": "https://www.parlament.ch/de/organe/kommissionen/sachbereichskommissionen/kommissionen-wak/berichte-vernehmlassungen-wak/vernehmlassung-wak-18-489"
+        }
       ],
       "preConsultations": [
         {
@@ -347,7 +364,7 @@
             "abbreviation": "WAK-NR",
             "id": 10,
             "name": "Kommission für Wirtschaft und Abgaben NR",
-            "abbreviation1": "WAK-NR",
+            "abbreviation1": "WAK-N",
             "abbreviation2": "WAK",
             "committeeNumber": 10,
             "council": {
@@ -405,7 +422,7 @@
             "abbreviation": "WAK-SR",
             "id": 23,
             "name": "Kommission für Wirtschaft und Abgaben SR",
-            "abbreviation1": "WAK-SR",
+            "abbreviation1": "WAK-S",
             "abbreviation2": "WAK",
             "committeeNumber": 23,
             "council": {
@@ -418,7 +435,53 @@
           },
           "date": "2018-12-14T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ],
+              "sessionId": "5122"
+            }
+          ],
+          "treatmentCategory": "IIIb/IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-08-18T14:09:28Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2783,
+                    "gender": "m",
+                    "id": 4078,
+                    "name": "Schmid Martin",
+                    "officialDenomination": "Schmid Martin"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -442,6 +505,64 @@
             "id": 1,
             "name": "Beratungsgegenstand / Entwurf"
           }
+        },
+        {
+          "date": "/Date(1668380400000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "3127",
+            "source": "BBl 2022 3127",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2022/3127.pdf",
+            "year": "2022"
+          },
+          "type": {
+            "id": 6,
+            "name": "Bericht"
+          }
+        },
+        {
+          "date": "/Date(1679007600000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "723",
+            "source": "BBl 2023 723",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2023/723.pdf",
+            "year": "2023"
+          },
+          "type": {
+            "id": 2,
+            "name": "Stellungnahme des Bundesrates"
+          }
+        },
+        {
+          "date": "/Date(1696888800000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2292",
+            "source": "BBl 2023 2292",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2023/2292.pdf",
+            "year": "2023"
+          },
+          "referendumDeadline": "2024-01-18T00:00:00Z",
+          "type": {
+            "id": 3,
+            "name": "Schlussabstimmungstext"
+          }
         }
       ],
       "relatedDepartments": [
@@ -460,8 +581,28 @@
         },
         {
           "date": "/Date(1682978400000+0200)/",
-          "id": 2,
-          "name": "Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1688940000000+0200)/",
+          "id": 225,
+          "name": "Vorprüfung - in Kommission des Ständerates"
+        },
+        {
+          "date": "/Date(1688940000000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 219,
+          "name": "Geplant für die Schlussabstimmung"
+        },
+        {
+          "date": "/Date(1695938400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -508,8 +649,8 @@
   ],
   "shortId": "18.489",
   "state": {
-    "id": 2,
-    "name": "Behandelt vom Nationalrat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },

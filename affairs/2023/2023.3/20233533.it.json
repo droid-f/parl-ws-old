@@ -1,7 +1,7 @@
 {
   "id": 20233533,
-  "updated": "2023-05-09T15:31:21Z",
-  "additionalIndexing": "2811;10",
+  "updated": "2025-11-14T07:40:00Z",
+  "additionalIndexing": "2811;10;1231;1216",
   "affairType": {
     "abbreviation": "Mo.",
     "id": 5,
@@ -33,29 +33,166 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-27T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-03-13T00:00:00Z",
+            "text": "Adozione parziale : Punti 2-6: adottati; Punto 1: respinto.",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2023-09-06T00:00:00Z",
+        "text": "Accogliere (in parte)"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CIP-CN",
+            "id": 11,
+            "name": "Commissione delle istituzioni politiche CN",
+            "abbreviation1": "CIP-N",
+            "abbreviation2": "CIP",
+            "committeeNumber": 11,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-23T16:37:45Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2700,
+                    "gender": "f",
+                    "id": 3897,
+                    "name": "Moser Tiana Angelina",
+                    "officialDenomination": "Moser"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CIP-CS",
+            "id": 24,
+            "name": "Commissione delle istituzioni politiche CS",
+            "abbreviation1": "CIP-S",
+            "abbreviation2": "CIP",
+            "committeeNumber": 24,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1683064800000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1693951200000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1695765600000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1705964400000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1710284400000+0100)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
         }
       ],
       "texts": [
@@ -98,10 +235,10 @@
   ],
   "shortId": "23.3533",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 209,
+    "name": "Trasmesso al Consiglio federale",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -110,6 +247,13 @@
         "name": "Motivazione"
       },
       "value": "<p>Le autorità competenti devono far fronte a un crescente numero di nuove domande d'asilo.</p><p>Alla frontiera meridionale, questa situazione è aggravata dalla sospensione illecita dei rinvii nel quadro di Dublino decisa dal Governo italiano. Dato che i trasferimenti sono ostacolati in sempre più Stati, l'Accordo di Dublino non funziona come previsto. Il suo buon funzionamento è tuttavia indispensabile affinché l'Accordo resti un modello di successo per la Svizzera. Il PLR ha presentato una mozione a tale proposito, che incarica il Consiglio federale di intervenire direttamente a Bruxelles (Mo. Müller 23.3031).</p><p>Alla luce delle previsioni attuali, non si prospetta un miglioramento della situazione migratoria. Negli ultimi giorni la Confederazione ha prolungato l'utilizzo delle strutture di alloggio temporaneo. Sono stati inoltre chiesti fondi aggiuntivi pari a 132 milioni di franchi per alloggi supplementari sotto forma di container. I Cantoni sono al limite delle loro capacità ricettive e la Confederazione non può ampliare le sue strutture all'infinito.</p><p>Per migrazione secondaria irregolare s'intende la migrazione da Paesi considerati sicuri in cui i richiedenti hanno soggiornato per lungo tempo. È particolarmente elevata da alcuni Paesi, verso i quali i rinvii sono spesso ostacolati da varie difficoltà d'esecuzione. Per arginare e combattere la migrazione secondaria, la Svizzera deve cooperare strettamente con l'estero, in particolare con l'Unione europea. Il Consiglio federale è incaricato di combattere la migrazione secondaria illegale tramite misure bilaterali e di fermare la migrazione da Paesi sicuri. A tal fine occorre garantire che l'Accordo di Dublino funzioni e sia applicato in maniera sistematica dagli Stati membri.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>1. La formulazione «di norma» nell’articolo&nbsp;31<i>a</i> capoverso&nbsp;1 della legge sull’asilo (LAsi; RS&nbsp;142.31) permette alle autorità di evitare un’applicazione automatica della legge, che in casi specifici potrebbe violare le regole cogenti del diritto nazionale o internazionale (in particolare il rispetto del principio di non respingimento). Se fosse stralciata, la Svizzera non potrebbe più, nell’ambito dell’articolo&nbsp;31<i>a&nbsp;</i>capoverso&nbsp;1 lettera&nbsp;b, applicare la clausola di sovranità (diritto di esaminare le domande d’asilo) per le persone la cui domanda d’asilo deve essere esaminata da un altro Stato in virtù dell’Accordo di associazione a Dublino. Ciò violerebbe il regolamento Dublino III, il cui articolo&nbsp;17 prevede la possibilità di applicare una clausola di sovranità in casi umanitari.&nbsp;</p><p>&nbsp;</p><p>2. La mozione presuppone un nesso tra il tipo di decisione d’asilo e l’efficacia dell’esecuzione dell’allontanamento. Il fatto che la Segreteria di Stato della migrazione (SEM) entri nel merito di una domanda d’asilo o meno influisce sulla durata della procedura, ma non sull’esecuzione della decisione. I Cantoni sono incaricati di eseguire gli allontanamenti. Nel 2019 il Consiglio federale ha introdotto ulteriori incentivi affinché gli interessati lascino anticipatamente i centri federali d’asilo e ritornino autonomamente nel Paese di origine o provenienza. L’Esecutivo collabora inoltre in maniera mirata con gli Stati terzi. Dopo il calo registrato nel 2020 e nel 2021 a causa della pandemia, nel 2022 è stato possibile aumentare sensibilmente il numero di partenze<span style=\"color:black;\"> e la quota d’esecuzione della Svizzera (del 57&nbsp;% nel 2022) è quindi nettamente superiore a quella europea. La Svizzera cerca peraltro costantemente di migliorare la sua quota. D’altra parte, il Consiglio federale esaminerà le possibilità di perfezionare il monitoraggio e di adottare misure supplementari nel settore degli allontanamenti.</span></p><p>&nbsp;</p><p>3. I piani d’azione conclusi con la Germania e l’Austria sono già stati valutati a livello bilaterale e si è concordato sulla necessità di mantenere le misure in essi previste, quali in particolare il potenziamento della cooperazione in materia di polizia di frontiera e lo scambio d’informazioni sul piano operativo. La Svizzera prevede di continuare a discutere periodicamente i piani d’azione con la Germania e l’Austria. Nel giugno scorso hanno avuto luogo vari incontri, in particolare scambi bilaterali tra il Capo del Dipartimento federale di giustizia e polizia (DFGP) e il Ministro austriaco dell’interno, da un lato, e il Ministro tedesco preposto alla migrazione, dall’altro. In occasione degli incontri è stato possibile stilare un bilancio positivo dei piani d’azione ed è stato concordato di potenziare ulteriormente la collaborazione. Il DFGP informa regolarmente le competenti commissioni parlamentari in merito agli sviluppi attuali, se necessario insieme al Dipartimento federale delle finanze (Ufficio federale della dogana e della sicurezza dei confini). Proponendo di accogliere il postulato 23.3859 Pfister Gerhard «Opportunità offerte dalla riforma del sistema europeo comune d'asilo per la politica svizzera in materia d'asilo», il Consiglio federale ha inoltre manifestato la sua disponibilità a informare in maniera esaustiva il Parlamento in merito alle opportunità e ai rischi connessi con la riforma europea in materia di migrazione e asilo. La lotta alla migrazione secondaria irregolare, nella quale si iscrivono anche i piani d’azione con la Germania e l’Austria, ne costituisce un elemento importante. Il Consiglio federale è disposto a intensificare questa informazione.</p><p>&nbsp;</p><p>4. Attualmente la Svizzera ha concluso, sia con Stati UE/Schengen che con Paesi terzi, oltre 65 accordi formalizzanti la cooperazione in materia di ritorno, e si adopera attivamente per concluderne altri. Questi accordi possono prevedere anche disposizioni sulla riammissione di cittadini di Paesi terzi in possesso di un titolo di soggiorno del Paese firmatario. Tuttavia, in linea di principio ogni persona ha diritto a presentare una domanda d’asilo, anche in presenza di un accordo di questo tipo. La Svizzera cerca di estendere la sua rete di accordi di riammissione e migliorare l’utilizzo degli accordi esistenti in tale settore.</p><p>&nbsp;</p><p>5. Come prescritto dalla legge, il Consiglio federale esamina periodicamente l’elenco dei Paesi di provenienza sicuri, chiedendo previamente il parere delle commissioni delle istituzioni politiche del Consiglio nazionale e del Consiglio degli Stati. Oltre al suo esame, tiene pure conto delle valutazioni, talvolta molto divergenti, dei Paesi europei. La SEM segue attentamente i lavori preliminari dell’Agenzia europea per l’asilo volti a definire un elenco comune dei Paesi sicuri. Il DFGP riesaminerà l’elenco dei Paesi sicuri sulla base dei lavori dell’Agenzia europea.&nbsp;</p><p>&nbsp;</p><p>6. Da anni la cooperazione con Europol e INTERPOL nell’ambito del traffico di migranti è solida e funziona senza problemi. Nella sua seduta del 16&nbsp;dicembre 2022 il Consiglio federale ha approvato il terzo piano nazionale d’azione contro la tratta di esseri umani per il periodo 2023-2027. Il piano comprende 44 azioni e definisce sette obiettivi strategici. La lotta alla criminalità transfrontaliera è inoltre considerata nel quadro della strategia nazionale di gestione integrata delle frontiere (strategia IBM) per i prossimi anni e nella formulazione delle conseguenti misure. Anche a tale proposito il Parlamento è informato regolarmente tramite le competenti commissioni. Il Consiglio federale è tuttavia disposto a intensificare questa informazione.&nbsp;</p><p>&nbsp;</p><p>Il Consiglio federale sostiene un’informazione esaustiva e trasparente del Parlamento in merito alla migrazione secondaria irregolare. A suo parere, i provvedimenti chiesti dall’autore della mozione possono tuttavia essere attuati soltanto in parte.</p><p>&nbsp;</p><p><strong>Proposta del Consiglio federale</strong></p><p>Il Consiglio federale propone di accogliere i punti 2, 3, 4, 5 e 6 della mozione e di respingere il punto 1.</p>"
     },
     {
       "type": {

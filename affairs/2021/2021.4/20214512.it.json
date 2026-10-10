@@ -1,6 +1,6 @@
 {
   "id": 20214512,
-  "updated": "2022-06-08T18:45:32Z",
+  "updated": "2025-09-23T09:50:52Z",
   "additionalIndexing": "34;09;1216;15;04",
   "affairType": {
     "abbreviation": "Po.",
@@ -69,6 +69,21 @@
             "date": "2022-06-08T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2025-09-18T00:00:00Z",
+            "text": "Tolto dal ruolo nel quadro di un altro oggetto",
+            "type": 0
           }
         ]
       },
@@ -82,17 +97,43 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CPS-CN",
+            "id": 8,
+            "name": "Commissione della politica di sicurezza CN",
+            "abbreviation1": "CPS-N",
+            "abbreviation2": "CPS",
+            "committeeNumber": 8,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-12-24T00:00:00Z",
+          "registrations": [
 
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DDPS",
+          "id": 6,
+          "name": "Dipartimento della difesa, della protezione della popolazione e dello sport",
+          "leading": true
+        },
+        {
           "abbreviation": "DFF",
           "id": 7,
           "name": "Dipartimento delle Finanze",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -103,8 +144,23 @@
         },
         {
           "date": "/Date(1654639200000+0200)/",
-          "id": 26,
-          "name": "Adottato"
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
+        },
+        {
+          "date": "/Date(1731452400000+0100)/",
+          "id": 218,
+          "name": "Il rapporto in adempimento dell'intervento è disponibile"
+        },
+        {
+          "date": "/Date(1743544800000+0200)/",
+          "id": 216,
+          "name": "Proposta di stralcio è disponibile"
+        },
+        {
+          "date": "/Date(1758146400000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -112,11 +168,6 @@
       ]
     }
   ],
-  "handling": {
-    "date": "2022-06-08T00:00:00Z",
-    "legislativePeriod": 51,
-    "session": "5115"
-  },
   "language": "it",
   "priorityCouncils": [
     {
@@ -329,9 +380,9 @@
   ],
   "shortId": "21.4512",
   "state": {
-    "id": 26,
-    "name": "Adottato",
-    "doneKey": "3",
+    "id": 229,
+    "name": "Liquidato",
+    "doneKey": "0",
     "newKey": 0
   },
   "texts": [
@@ -341,6 +392,13 @@
         "name": "Motivazione"
       },
       "value": "<p>Quasi settimanalmente vengono resi noti casi di attacchi ransomware nei confronti di imprese e organizzazioni svizzere. Dal mese di gennaio 2020 al Centro nazionale per la cibersicurezza (NCSC) sono stati segnalati 185 tentativi di attacchi di questo tipo. Poiché il nostro Paese non prevede un obbligo di notifica dei ciberattacchi, il numero effettivo potrebbe essere nettamente superiore. </p><p>Come tutti gli Stati altamente sviluppati, la Svizzera è un bersaglio interessante per questi attacchi. Purtroppo è stato inoltre constatato che i riscatti continuano a essere pagati nonostante le autorità abbiano avvertito che in questo modo si sostiene il modello di business dei criminali. Ad ogni pagamento la minaccia diventa sempre più grave, perché gli aggressori possono utilizzare le risorse per portare avanti e perfezionare i loro attacchi. Considerata la portata di questi attacchi, è compito e interesse dello Stato contrastare in futuro le ciberminacce in modo più efficace. </p><p>Lo Stato deve essere in grado di far fronte a questa situazione con misure mirate. Occorre chiarire la necessità di prescrivere misure volte a rafforzare la cibersicurezza almeno per le imprese che adempiono un mandato pubblico. Si deve inoltre valutare l'introduzione di un obbligo generale di notifica in caso di pagamento di riscatti a seguito di attacchi ransomware, da combinare all'obbligo di coinvolgere le autorità nelle trattative con i cibercriminali. In questo modo può essere migliorata la base di informazioni disponibile per il perseguimento penale. È necessario intensificare anche lo scambio di informazioni. Il NCSC, le autorità inquirenti, le ditte private di \"Security Incident Response\" e le assicurazioni dispongono di dati concernenti i tentativi di attacchi ransomware e gli attacchi riusciti. Siccome però queste informazioni non sono registrate a livello centrale, al momento non si ha un quadro affidabile della situazione riguardo ai ransomware.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "Il Consiglio federale propone di accogliere il postulato."
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20224467,
-  "updated": "2022-12-23T10:51:37Z",
+  "updated": "2025-11-14T07:33:58Z",
   "additionalIndexing": "08;2446;1211",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,167 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-19T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-06-17T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-22T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-03-25T17:29:40Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3054,
+                    "gender": "m",
+                    "id": 4152,
+                    "name": "Wicki Hans",
+                    "officialDenomination": "Wicki"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CN",
+            "id": 10,
+            "name": "Commission de l'économie et des redevances CN",
+            "abbreviation1": "CER-N",
+            "abbreviation2": "CER",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CE",
+            "id": 23,
+            "name": "Commission de l'économie et des redevances CE",
+            "abbreviation1": "CER-E",
+            "abbreviation2": "CER",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Département des finances",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1671058800000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1677020400000+0100)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1695074400000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1742857200000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1750111200000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -432,10 +570,10 @@
   ],
   "shortId": "22.4467",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -443,7 +581,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Depuis le 1er janvier 2015, la Suisse et la France n'ont plus de convention de double-imposition en matière de succession. Cette situation amène à des situations très problématiques et porte atteinte à la capacité contributive des contribuables. Ainsi, alors que la loi suisse détermine l'impôt en fonction du domicile du défunt, la législation française prévoit que la décision de taxation soit liée au domicile du défunt ainsi qu'à celui de l'héritier. Concrètement, si un résident suisse décède, son héritier, si domicilié en France depuis plus de six ans, sera assujetti à l'impôt français et potentiellement sur l'ensemble de la fortune du défunt. Ces situations familiales sont très courantes surtout dans les cantons frontaliers.</p><p>Par ailleurs, certaines situations, récemment médiatisées, ont démontré d'autres cas très précis de double-imposition. Il en est ainsi de deux frères ayant hérité d'un compte de leur cousin et imposé à une hauteur de 115 % (55 % pour le fisc suisse et 60 % pour le fisc français). Le canton de résidence du défunt n'ayant pas voulu renoncer à son droit d'imposer le compte bancaire français et la France refusant de déduire les droits de successions payés en Suisse quand il s'agit d'avoirs bancaires. </p><p>Dans ce contexte, il parait opportun d'entamer des négociations dans le but d'adopter une nouvelle convention de double-imposition sur les successions avec la France.</p>"
+      "value": "<p>Depuis le 1er janvier 2015, la Suisse et la France n'ont plus de convention de double-imposition en matière de succession. Cette situation amène à des situations très problématiques et porte atteinte à la capacité contributive des contribuables. Ainsi, alors que la loi suisse détermine l'impôt en fonction du domicile du défunt, la législation française prévoit que la décision de taxation soit liée au domicile du défunt ainsi qu'à celui de l'héritier. Concrètement, si un résident suisse décède, son héritier, si domicilié en France depuis plus de six ans, sera assujetti à l'impôt français et potentiellement sur l'ensemble de la fortune du défunt. Ces situations familiales sont très courantes surtout dans les cantons frontaliers.</p><p>Par ailleurs, certaines situations, récemment médiatisées, ont démontré d'autres cas très précis de double-imposition. Il en est ainsi de deux frères ayant hérité d'un compte de leur cousin et imposé à une hauteur de 1,5 % (55 % pour le fisc suisse et 60 % pour le fisc français). Le canton de résidence du défunt n'ayant pas voulu renoncer à son droit d'imposer le compte bancaire français et la France refusant de déduire les droits de successions payés en Suisse quand il s'agit d'avoirs bancaires. </p><p>Dans ce contexte, il parait opportun d'entamer des négociations dans le but d'adopter une nouvelle convention de double-imposition sur les successions avec la France.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>En mai 2011, les autorités fiscales françaises ont remis en question la convention que la Suisse et la France avait conclue le 31 décembre 1953 en vue d'éviter les doubles impositions en matière d'impôts sur les successions. La France invoquait, en particulier, le fait que son droit interne élimine, dans la plupart des cas, de manière unilatérale la double imposition en octroyant un crédit d'impôt pour les droits de succession acquittés, le cas échéant, à l'étranger sur des actifs situés hors de France (méthode de l'imputation). Toutefois, on savait que certains cas de double imposition - comme dans le cas mentionné par l'auteur de la mention - pourraient se produire en l'absence de convention.</p><p>En effet, le droit fiscal français ne prévoit en principe pas de tenir compte des droits de succession étrangers (en l'occurrence suisses) perçus sur des biens hérités qui se trouvent en France. Dans certains cas, ces biens sont ainsi soumis à des droits de succession pouvant atteindre 1,5 % au total (ce taux est différent lorsque les biens sont situés hors de France). Pour les descendants et les conjoints, une telle situation est exclue.</p><p>Entendant également éviter ces cas de double imposition, la Suisse a informé la France, après consultation des cantons, qu'elle préférait une révision de la convention du 31 décembre 1953 à une dénonciation de la convention par la France. La convention révisée a été signée le 11 juillet 2013. Elle a toutefois été rejetée par les Chambres fédérales. La France a ensuite dénoncé la convention de 1953 avec effet au 31 décembre 2014.</p><p>Depuis le 1er janvier 2015, chacun des deux États applique son propre droit successoral aux états de fait franco-suisses. Cette situation était connue du Parlement lorsqu'il a rejeté la convention révisée.</p><p>Lors des négociations qui ont abouti à l'accord de 2013, la France a fait des concessions à la Suisse sur plusieurs points (cf. message concernant l'approbation d'une nouvelle convention entre la Suisse et la France en vue d'éviter les doubles impositions en matière d'impôts sur les successions, FF 2013 6393). Il n'est pas certain que la France soit de nouveau prête à en faire. Pour autant que la France accepte d'entamer de nouvelles négociations, la solution qui en découlerait serait très probablement identique à celle qui a été rejetée en 2013, voire moins favorable que celle-ci. Le droit successoral français n'ayant par ailleurs pas été modifié sur le fond depuis lors, il n'y a pas lieu de s'attendre à ce que les négociations aboutissent à un meilleur résultat.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {

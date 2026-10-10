@@ -1,7 +1,7 @@
 {
   "id": 20140054,
-  "updated": "2021-10-21T14:30:14Z",
-  "additionalIndexing": "24",
+  "updated": "2025-12-17T17:33:37Z",
+  "additionalIndexing": "24;Elementarschadenversicherung;Pflichtversicherung;Erdbeben",
   "affairType": {
     "abbreviation": "BRG",
     "id": 1,
@@ -62,6 +62,21 @@
             "date": "2021-09-22T00:00:00Z",
             "text": "Abschreibung",
             "type": 15
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-12-16T00:00:00Z",
+            "text": "Abschreibung",
+            "type": 15
           }
         ]
       },
@@ -74,10 +89,50 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-10-31T15:29:08Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2767,
+                    "gender": "m",
+                    "id": 4056,
+                    "name": "Fässler Daniel",
+                    "officialDenomination": "Fässler Daniel"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "UREK-NR",
             "id": 7,
             "name": "Kommission für Umwelt, Raumplanung und Energie NR",
-            "abbreviation1": "UREK-NR",
+            "abbreviation1": "UREK-N",
             "abbreviation2": "UREK",
             "committeeNumber": 7,
             "council": {
@@ -134,7 +189,7 @@
             "abbreviation": "UREK-SR",
             "id": 20,
             "name": "Kommission für Umwelt, Raumplanung und Energie SR",
-            "abbreviation1": "UREK-SR",
+            "abbreviation1": "UREK-S",
             "abbreviation2": "UREK",
             "committeeNumber": 20,
             "council": {
@@ -149,22 +204,7 @@
           "registrations": [
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "SR",
-                    "id": 2,
-                    "name": "Ständerat",
-                    "type": "S"
-                  },
-                  "councillor": {
-                    "code": 2774,
-                    "gender": "m",
-                    "id": 4068,
-                    "name": "Eberle Roland",
-                    "officialDenomination": "Eberle"
-                  },
-                  "language": "de"
-                }
+
               ],
               "sessionId": "5013"
             }
@@ -183,7 +223,7 @@
               "name": "Bundesblatt",
               "shortName": "BBl"
             },
-            "url": "https://www.admin.ch/opc/de/federal-gazette/2014/5507.pdf",
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2014/5507.pdf",
             "year": "2014"
           },
           "title": "Bericht des Bundesrates vom 20. Juni 2014 zur Abschreibung der Motion 11.3511 Fournier, Obligatorische Erdbebenversicherung",
@@ -214,8 +254,28 @@
         },
         {
           "date": "/Date(1632261600000+0200)/",
-          "id": 4,
-          "name": "Von beiden Räten behandelt"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1751493600000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1761865200000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1764111600000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1765839600000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -252,8 +312,8 @@
   "sequentialNumber": 89,
   "shortId": "14.054",
   "state": {
-    "id": 4,
-    "name": "Von beiden Räten behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },

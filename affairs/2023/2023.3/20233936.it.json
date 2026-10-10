@@ -1,6 +1,6 @@
 {
   "id": 20233936,
-  "updated": "2023-06-21T15:23:35Z",
+  "updated": "2025-12-04T11:54:44Z",
   "additionalIndexing": "66;48;2846",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,167 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-06-13T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-06-11T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-30T00:00:00Z",
+        "text": "Respingere"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CAPTE-CN",
+            "id": 7,
+            "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CN",
+            "abbreviation1": "CAPTE-N",
+            "abbreviation2": "CAPTE",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-04-01T16:18:28Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2767,
+                    "gender": "m",
+                    "id": 4056,
+                    "name": "Fässler Daniel",
+                    "officialDenomination": "Fässler Daniel"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAPTE-CS",
+            "id": 20,
+            "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CS",
+            "abbreviation1": "CAPTE-S",
+            "abbreviation2": "CAPTE",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686866400000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1693346400000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1718229600000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1743458400000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1749592800000+0200)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
         }
       ],
       "texts": [
@@ -322,19 +460,40 @@
   ],
   "shortId": "23.3936",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 209,
+    "name": "Trasmesso al Consiglio federale",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Sempre più case automobilistiche puntano per il futuro esclusivamente sulla mobilità elettrica. La percentuale di veicoli che possono essere ricaricati dalla rete sta aumentando molto rapidamente. Esistono già veicoli efficienti dal punto di vista energetico e pronti per la commercializzazione e tecnologie di ricarica intelligenti. Le auto elettriche sono nel frattempo disponibili per tutte le categorie di veicoli e raggiungeranno tutti i segmenti di clientela.</p><p>La Svizzera non è sufficientemente preparata ad affrontare il rapido avanzamento dell'elettrificazione della mobilità. Affinché le reti di distribuzione siano utilizzate in modo ottimale e vengano per quanto possibile sgravate, le auto elettriche devono essere collegate alle infrastrutture di ricarica durante i periodi di stazionamento. In questo modo, le operazioni di ricarica possono essere ben gestite a bassa potenza e coordinate e i costi di espansione della rete e i costi della mobilità e dell'energia sono ridotti al minimo per tutti. Questo necessario collegamento tra l'auto e la rete avviene principalmente attraverso la colonnina di ricarica domestica, quindi nel garage di casa. A causa della percentuale di abitazioni di proprietà relativamente bassa, in Svizzera è particolarmente difficile sfruttare questo indispensabile potenziale.</p><p>La guida intersettoriale relativa all'installazione di stazioni di ricarica in edifici con più unità abitative che la Confederazione ha elaborato congiuntamente a varie associazioni è importante, ma non sufficiente in vista di una rapida ed estesa elettrificazione. Attualmente ai residenti di tali edifici è in molti casi negato l'accesso alle infrastrutture di ricarica. La Svizzera, un tempo pioniera della mobilità elettrica, sta perdendo costantemente terreno rispetto all'Europa. Dal punto di vista internazionale, gli investimenti in infrastrutture si dirigono principalmente verso i mercati con normative favorevoli alla mobilità elettrica e raggiungono sempre meno la Svizzera. Spetta quindi al Consiglio federale creare condizioni vincolanti per l'ulteriore sviluppo della mobilità elettrica.</p><p>&nbsp;</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Come già spiegato il 19 maggio 2021 in risposta alla mozione 21.3371 (Grossen Jürg), anche il Consiglio federale intende promuovere lo sviluppo dell’elettromobilità mettendo a disposizione un maggior numero di stazioni di ricarica per veicoli elettrici e facilitandone l’accesso.</p><p>&nbsp;</p><p>Il rapporto del 28 giugno 2023 redatto dal Consiglio federale in adempimento dei postulati 20.4627 (Grossen), 20.4640 (Jauslin) e 20.4694 (Romano) fornisce una panoramica delle attuali norme, degli ostacoli e delle possibili misure per una circolazione stradale senza emissioni di CO2. Il testo si sofferma anche sull’ipotesi di creare un diritto all’infrastruttura di ricarica per gli inquilini e i condomini: oggi l’installazione di queste stazioni non è esplicitamente regolamentata nel diritto di locazione e nel diritto condominiale. Un diritto legittimo all’installazione o alla tolleranza di infrastrutture di ricarica andrebbe iscritto nel Codice delle obbligazioni (CO; RS <i>220</i>) per gli inquilini e nel Codice civile (CC; RS <i>210</i>) per i comproprietari di proprietà per piani. Sotto il profilo della costituzionalità queste rivendicazioni legali sarebbero però assai discutibili perché incompatibili con la garanzia della proprietà, la libertà economica e la libertà contrattuale. Il CO e il CC servono principalmente a disciplinare i rapporti di diritto privato e non a realizzare obiettivi sociali globali.</p><p>&nbsp;</p><p>In alternativa si potrebbe invece puntare su disposizioni di diritto pubblico. Secondo l’articolo 89 capoverso 4 della Costituzione federale (Cost.; RS <i>101</i>), le misure concernenti il consumo di energia negli edifici competono in primo luogo ai Cantoni. Sarebbero ipotizzabili misure autonome di diritto edilizio dei Cantoni oppure l’inclusione di determinati requisiti nel Modello di prescrizioni energetiche dei Cantoni (MoPEC). Diversi Cantoni intendono inoltre adattare i loro regolamenti edilizi in modo da promuovere l’installazione di un maggior numero di stazioni di ricarica domestica, ma anche sul posto di lavoro. In alcuni casi le nuove norme sono già in vigore.</p><p>&nbsp;</p><p>In linea di principio sarebbe ipotizzabile anche un mandato legislativo ai Cantoni per disciplinare l’installazione delle infrastrutture di ricarica e i requisiti strutturali necessari per i nuovi edifici e per le grandi ristrutturazioni di edifici esistenti. Una disposizione corrispondente potrebbe ad esempio essere inserita nell’articolo 45 capoverso 3 della legge federale sull’energia (LEne; RS <i>730.0</i>). Sarebbe applicabile sia alle abitazioni in affitto che a quelle occupate dai proprietari. Le norme cantonali potrebbero operare una distinzione tra le diverse tipologie di fruizione degli edifici nonché tra edifici nuovi e già esistenti.</p><p>&nbsp;</p><p>Nell’ambito del messaggio del 16 settembre 2022 concernente la revisione della legge sul CO2 (FF <i>2022</i> 2651), il Consiglio federale ha proposto di sostenere le infrastrutture di ricarica negli edifici plurifamiliari, nelle aziende con più posti di lavoro e nei parcheggi pubblici. Il programma di sostegno, della durata di sei anni, intende contribuire agli ingenti investimenti iniziali per le infrastrutture di ricarica nei condomini e quindi facilitare e accelerare l’installazione delle infrastrutture di ricarica soprattutto per gli inquilini e le associazioni condominiali. Inoltre, le attività della roadmap sull’elettromobilità e del programma SvizzeraEnergia dell’UFE saranno portate avanti e integrate. Nel quadro della roadmap sono stati sviluppati diversi strumenti ausiliari, come le linee guida per la ricarica negli edifici in affitto o in comproprietà. Nel maggio 2023 SvizzeraEnergia ha lanciato il programma «RicaricaPunto» con numerosi strumenti per promuovere le infrastrutture di ricarica e quindi la mobilità elettrica in Svizzera.&nbsp;</p><p>&nbsp;</p><p>Tuttavia, la richiesta principale della mozione – ossia garantire l’accesso alle infrastrutture di ricarica nei rapporti di locazione e di proprietà condominiale – equivale a sancire il diritto ad avere una stazione di ricarica, cosa che il Consiglio federale continua a respingere (cfr. il suo parere in risposta alla mozione 21.3371).</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di garantire l'accesso alle infrastrutture di ricarica per le auto elettriche anche ai locatari e ai proprietari per piani. Le stazioni di ricarica lenta per le auto elettriche sono di importanza centrale per l'attuazione della transizione energetica e della mobilità. La loro rilevanza è stata rafforzata dalle più recenti decisioni del Parlamento nell'ambito del relativo atto mantello È quindi necessario creare condizioni quadro vincolanti affinché l'espansione della rete di ricarica domestica privata, che permette di sgravare le reti di distribuzione, sia completata rapidamente e senza restrizioni.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Ricarica delle auto elettriche per locatari e proprietari per piani"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Ricarica delle auto elettriche per locatari e proprietari per piani"
 }

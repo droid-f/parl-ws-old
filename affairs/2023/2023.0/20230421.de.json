@@ -1,6 +1,6 @@
 {
   "id": 20230421,
-  "updated": "2023-03-21T15:13:49Z",
+  "updated": "2025-11-14T07:34:30Z",
   "additionalIndexing": "15;24;08",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -34,7 +34,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-12-19T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -44,24 +58,138 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-17T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
 
+              ],
+              "sessionId": "5201"
+            }
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-17T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-09-01T13:20:55Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3063,
+                    "gender": "m",
+                    "id": 4157,
+                    "name": "Bühler Manfred",
+                    "officialDenomination": "Bühler"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion V",
+                    "code": "V",
+                    "id": 4,
+                    "name": "Fraktion der Schweizerischen Volkspartei"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlament",
+          "abbreviation": "EFD",
+          "id": 7,
+          "name": "Finanzdepartement",
           "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1679007600000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1693519200000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1702594800000+0100)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1702940400000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -105,12 +233,26 @@
   ],
   "shortId": "23.421",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Der Rohstoffsektor ist in den vergangenen Jahren deutlich gewachsen. Die in der Schweiz ansässigen Unternehmen haben während der vergangenen Krisenjahre von den volatilen Märkten profitiert. Ihre Gewinne haben sich teilweise um das mehrere hundertfache vergrössert. Aktuellen Schätzungen zu Folge verantwortet der Rohstoffsektor 8 Prozent des Bruttoinlandproduktes. Die Bedeutung dieser Branche ist vergleichbar mit dem Bankensektor (9 Prozent des BIP). </p><p>Die Bedeutung dieses Wirtschaftssektors, verbunden mit dem erhöhten Korruptionsrisiko und finanzieller Abhängigkeit (wie dargelegt im Bericht des Bundesrates zu 13.3365 \"Schweizer Geldwäschereidispositiv in Bezug auf den Rohstoffsektor\") birgt ein nicht mehr zu vernachlässigendes Risiko für die Schweiz. </p><p>Das Fehlverhalten einzelner Firmen kann zu Reputationsschäden des ganzen Sektors und der Schweiz als globalem Wirtschaftsstandort führen. Deshalb sind gesetzliche Grundlagen für den Rohstoffsektor zu verabschieden und eine Aufsichtsbehörde analog der Finma zu etablieren, die die Durchsetzung der gesetzlichen Anforderungen sicherstellt. Eine entsprechende Behörde kann durch Beobachtung relevante Risiken erkennen, Regulierungen frühzeitig planen und die nötigen Informationen zur Verfügung stellen. Sie kann den regulierten Unternehmen zusätzlich Sorgfaltspflichten auferlegen für Geschäftstätigkeiten mit politisch exponierten Personen (PEP) oder PEP-nahestehenden Personen, Transparenzvorschriften erlassen und dafür sorgen, dass kein Handel mit illegalen Rohstoffen, illegal erworbenen Rohstoffen oder Rohstoffen aus Ländern mit internationalen Handelssanktionen betrieben wird.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Es soll ein gesetzlicher Rahmen geschaffen werden, der die Sorgfalts- und Offenlegungspflichten für den Rohstoffsektor definiert. Zur Durchsetzung dieser Pflichten soll eine Rohstoffmarktaufsichtsbehörde eingesetzt werden. Damit soll folgendes sichergestellt werden:</p><p>- Richtlinien für bessere Transparenz</p><p>- Bekämpfung von Korruption und anderen Formen illegitimer Finanzflüsse</p><p>- Kein Handel mit illegalen Rohstoffen, illegal erworbenen Rohstoffen oder Rohstoffen aus Ländern mit von der Schweiz belegten Handelssanktionen getätigt wird- Sorgfaltspflichten für Geschäftstätigkeiten mit politisch exponierten Personen (PEP)</p><p>- Erkennen von relevanten Risiken durch Beobachtung der Geschäftstätigkeit</p>"
+    },
     {
       "type": {
         "id": 1,

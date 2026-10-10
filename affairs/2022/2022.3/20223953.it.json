@@ -1,6 +1,6 @@
 {
   "id": 20223953,
-  "updated": "2022-12-16T09:00:59Z",
+  "updated": "2025-09-25T15:34:15Z",
   "additionalIndexing": "2846;66;12",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2022-12-16T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-09-25T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
           }
         ]
       },
@@ -67,7 +82,92 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CAPTE-CS",
+            "id": 20,
+            "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CS",
+            "abbreviation1": "CAPTE-S",
+            "abbreviation2": "CAPTE",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-09-21T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAPTE-CN",
+            "id": 7,
+            "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CN",
+            "abbreviation1": "CAPTE-N",
+            "abbreviation2": "CAPTE",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-09-21T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-07-03T18:08:41Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3227,
+                    "gender": "f",
+                    "id": 4332,
+                    "name": "Crevoisier Crelier Mathilde",
+                    "officialDenomination": "Crevoisier Crelier"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +188,23 @@
         },
         {
           "date": "/Date(1671145200000+0100)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1743372000000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1751493600000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1758751200000+0200)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
         }
       ],
       "texts": [
@@ -169,10 +284,9 @@
   ],
   "shortId": "22.3953",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 209,
+    "name": "Trasmesso al Consiglio federale",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -182,6 +296,13 @@
         "name": "Motivazione"
       },
       "value": "<p>Gli ostacoli burocratici per aumentare gli impianti fotovoltaici che non rappresentano un problema di sorta devono essere eliminati, affinché si possa avanzare rapidamente nel rafforzamento delle energie rinnovabili.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "Il Consiglio federale propone di accogliere la mozione."
     },
     {
       "type": {

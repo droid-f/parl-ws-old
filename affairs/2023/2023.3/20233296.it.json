@@ -1,6 +1,6 @@
 {
   "id": 20233296,
-  "updated": "2023-03-21T09:12:51Z",
+  "updated": "2025-09-09T07:47:20Z",
   "additionalIndexing": "32;44",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,177 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-03-12T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-09-08T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-05-10T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSEC-CS",
+            "id": 18,
+            "name": "Commissione della scienza, dell'educazione e della cultura CS",
+            "abbreviation1": "CSEC-S",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-08-19T19:06:33Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3205,
+                    "gender": "m",
+                    "id": 4309,
+                    "name": "Michel Matthias",
+                    "officialDenomination": "Michel Matthias"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CN",
+            "id": 5,
+            "name": "Commissione della scienza, dell'educazione e della cultura CN",
+            "abbreviation1": "CSEC-N",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-03-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Dipartimento dell'economia, della formazione e della ricerca",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1678921200000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1683669600000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1710198000000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1717365600000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1755554400000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1757282400000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -156,10 +304,10 @@
   ],
   "shortId": "23.3296",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -168,6 +316,13 @@
         "name": "Motivazione"
       },
       "value": "<p>Anche se i nuovi titoli austriaci \"bachelor professional\" e \"master professional\" non sono paragonabili agli omonimi titoli rilasciati in Germania, in tutta Europa la formazione professionale superiore è in piena evoluzione. Secondo un comunicato stampa del Ministero federale austriaco dell'istruzione, della scienza e della ricerca, i titoli sono una delle tante misure per contrastare la carenza di lavoratori qualificati. In Germania i diplomi \"bachelor professional\" e \"master professional\" vengono conferiti già dal 1° gennaio 2020. Il ministero dell'istruzione tedesco ha motivato questa decisione con la volontà di garantire l'equivalenza tra la formazione professionale superiore e gli studi universitari.</p><p>Ciò ha conseguenze molto pesanti per i professionisti svizzeri, che sono tra i migliori al mondo. Poiché nel nostro Paese questi titoli non esistono, si riducono le chance di trovare un impiego all'estero e perfino in Svizzera. Infatti, le figure professionali in possesso di un diploma bachelor o master sono sempre più richieste.</p><p>Il 13 maggio 2020 il Consiglio federale ha respinto una mozione analoga (20.3050) affermando che entro l'estate del 2020 la Segreteria di Stato per la formazione, la ricerca e l'innovazione (SEFRI) avrebbe effettuato un'analisi sistematica e che bisognava attendere i risultati di questa analisi. Da allora, però, non è successo nulla e, per candidarsi all'estero, chi ha conseguito un titolo svizzero della formazione professionale superiore deve ancora ricorrere a titoli inglesi poco conosciuti. Ieri come oggi, la qualità della nostra formazione professionale non viene valorizzata. Si tratta di una situazione insostenibile che deve essere corretta al più presto.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Come già dichiarato nelle risposte alle mozioni CSEC-N 18.3392, Fetz 18.3240 e Aebischer 20.3050, il Consiglio federale è disposto ad analizzare nel loro complesso il sistema delle SSS, i cicli di studio e i titoli della formazione professionale superiore (FPS) in relazione al loro posizionamento nazionale e internazionale e ad adottare le modifiche necessarie. Tenendo conto di una prima analisi effettuata nel 2020, nel 2021 il DEFR ha lanciato un progetto di ampia portata.</p><p>Sulla base dei lavori di progetto e delle discussioni nell'ambito del partenariato, durante l'incontro nazionale sulla formazione professionale del novembre 2022 la Confederazione, i Cantoni e le parti sociali hanno approvato un pacchetto di misure per rafforzare le SSS e la FPS che include, tra l'altro, l'esame di nuovi titoli complementari, ossia \"Professional Bachelor\" e \"Professional Master\". Subito dopo l'incontro nazionale, la SEFRI ha iniziato i lavori di analisi, in stretto coordinamento con la Conferenza tripartita della formazione professionale.</p><p>Partendo da questa verifica, la SEFRI ha elaborato una proposta concreta di attuazione per introdurre titoli complementari protetti. Ciò prevede che la loro attuazione, come tutte le misure adottate, avvenga nel quadro delle offerte attuali, senza modifiche sistemiche al profilo delle qualifiche della FPS. I partner hanno inoltre sottolineato la necessità di trovare una soluzione che rafforzi tutti i titoli della FPS. I titoli complementari servono a migliorare la notorietà e la reputazione dei titoli in Svizzera e all'estero e a segnalare meglio la loro appartenenza al livello terziario. In questo contesto si dovrebbe evitare di creare confusione con i titoli universitari.</p><p>In una seconda fase, entro la fine di maggio 2023 si concluderà la consultazione degli attori coinvolti sulla proposta di attuazione. Nella seconda metà del 2023 il Consiglio federale deciderà come procedere, nel rispetto delle competenze definite per legge e dei processi decisionali politici.</p><p>Il Consiglio federale ritiene tuttora che sia necessario attendere i risultati di questa analisi e conferma quindi la sua posizione. Se la mozione dovesse essere accolta dalla Camera prioritaria, il Consiglio federale si riserva la possibilità di proporre alla seconda Camera di trasformarla in un mandato d'esame.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

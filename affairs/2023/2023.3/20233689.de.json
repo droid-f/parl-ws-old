@@ -1,6 +1,6 @@
 {
   "id": 20233689,
-  "updated": "2023-06-20T21:18:46Z",
+  "updated": "2025-06-30T15:30:57Z",
   "additionalIndexing": "34;09",
   "affairType": {
     "abbreviation": "Ip.",
@@ -41,10 +41,20 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Keine Diskussion verlangt",
+            "type": 88
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2023-08-23T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -57,13 +67,28 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "VBS",
+          "id": 6,
+          "name": "Departement für Verteidigung, Bevölkerungsschutz und Sport",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686693600000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1692741600000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1695938400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -104,12 +129,19 @@
   ],
   "shortId": "23.3689",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>1./2. Der Bundesrat ist sich der Risiken, die Quantencomputing insbesondere für einige heute breit eingesetzte kryptografische Verfahren birgt, bewusst. Die kryptologische Fachstelle des Bundes hat bundesinterne Sicherheitsanforderungen definiert und empfiehlt bereits seit zehn Jahren, für den Schutz von GEHEIM klassifizierten Informationen ausschliesslich Verfahren zu verwenden, die gemäss heutigem Kenntnisstand auch gegen Quantencomputer genügend Schutz bieten. Konkret basieren seit 2014 neu beschaffte Verschlüsselungssysteme für die Klassifizierungsstufe GEHEIM auf symmetrischen Verfahren mit mindestens 256 Bit Schlüssellänge. Für hochsensitive Informationen wird damit das Risiko minimiert, dass diese heute aufgezeichnet und später dekryptiert werden können.</p><p>Angesichts des steten technologischen Wandels in diesem Bereich verfolgt der Bund die Entwicklungen systematisch und erforscht die kryptologisch relevanten Fragestellungen. Mit der Nationalen Strategie zum Schutz der Schweiz vor Cyberrisiken (NCS) für die Jahre 2018-2022 wurde ein Monitoring über die relevanten Technologien im Bereich der Cybersicherheit etabliert. Das Monitoring wird vom Cyber-Defence Campus (CYD) von armasuisse Wissenschaft und Technologie in Zusammenarbeit mit dem Nationalen Zentrum für Cybersicherheit (NCSC) sichergestellt. Der Cyber-Defence Campus wird ab Herbst 2023 ein Monitoring spezifisch für das Thema Quantencomputing einführen.</p><p>Weiter untersucht der Bund im Rahmen des bei armasuisse Wissenschaft und Technologie angesiedelten Forschungsprograms Cyberspace die Chancen und Risiken einer Umstellung auf Quantencomputing und analysiert Machbarkeit und Sicherheit aktueller und neuer Verschlüsselungsverfahren.&nbsp;</p><p>3./4. Wie erwähnt, verfolgt der Bundesrat die Entwicklungen eng. Schweizer Forschungsinstitute beteiligen sich seit 2017 am Auswahlprozess, den das National Institute of Standards and Technology (NIST, USA) zur Standardisierung von Post-Quanten-Kryptografie durchführt. Dieser Auswahlprozess wird voraussichtlich 2024 abgeschlossen. Es ist davon auszugehen, dass danach die neuen Standards sowohl in Industrieprodukten als auch in Open Source Lösungen verstärkt implementiert werden. Der Bundesrat wird prüfen, inwieweit diese neuen Lösungen auch für tiefer klassifizierte Informationen eingesetzt werden sollen, um den Schutz dieser Informationen gegen Angriffe, ermöglicht durch Quantencomputer, zu gewährleisten.</p>"
+    },
     {
       "type": {
         "id": 5,

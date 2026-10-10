@@ -1,7 +1,7 @@
 {
   "id": 20140054,
-  "updated": "2021-10-21T14:30:14Z",
-  "additionalIndexing": "24",
+  "updated": "2025-12-17T17:33:37Z",
+  "additionalIndexing": "24;Elementarschadenversicherung;Pflichtversicherung;Erdbeben",
   "affairType": {
     "abbreviation": "OCF",
     "id": 1,
@@ -62,6 +62,21 @@
             "date": "2021-09-22T00:00:00Z",
             "text": "Stralcio dal ruolo",
             "type": 15
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-12-16T00:00:00Z",
+            "text": "Stralcio dal ruolo",
+            "type": 15
           }
         ]
       },
@@ -74,10 +89,50 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-10-31T15:29:08Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2767,
+                    "gender": "m",
+                    "id": 4056,
+                    "name": "Fässler Daniel",
+                    "officialDenomination": "Fässler Daniel"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CAPTE-CN",
             "id": 7,
             "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CN",
-            "abbreviation1": "CAPTE-CN",
+            "abbreviation1": "CAPTE-N",
             "abbreviation2": "CAPTE",
             "committeeNumber": 7,
             "council": {
@@ -134,7 +189,7 @@
             "abbreviation": "CAPTE-CS",
             "id": 20,
             "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CS",
-            "abbreviation1": "CAPTE-CS",
+            "abbreviation1": "CAPTE-S",
             "abbreviation2": "CAPTE",
             "committeeNumber": 20,
             "council": {
@@ -149,22 +204,7 @@
           "registrations": [
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "CS",
-                    "id": 2,
-                    "name": "Consiglio degli Stati",
-                    "type": "S"
-                  },
-                  "councillor": {
-                    "code": 2774,
-                    "gender": "m",
-                    "id": 4068,
-                    "name": "Eberle Roland",
-                    "officialDenomination": "Eberle"
-                  },
-                  "language": "de"
-                }
+
               ],
               "sessionId": "5013"
             }
@@ -183,7 +223,7 @@
               "name": "Foglio federale",
               "shortName": "FF"
             },
-            "url": "https://www.admin.ch/opc/it/federal-gazette/2014/4769.pdf",
+            "url": "http://www.admin.ch/opc/it/federal-gazette/2014/4769.pdf",
             "year": "2014"
           },
           "title": "Rapporto del Consiglio federale del 20 giugno 2014 concernente lo stralcio della mozione Fournier 11.3511, Assicurazione obbligatorio i terremoti",
@@ -214,8 +254,28 @@
         },
         {
           "date": "/Date(1632261600000+0200)/",
-          "id": 4,
-          "name": "Trattato dalle due Camere"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1751493600000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1761865200000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1764111600000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1765839600000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -252,8 +312,8 @@
   "sequentialNumber": 89,
   "shortId": "14.054",
   "state": {
-    "id": 4,
-    "name": "Trattato dalle due Camere",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
     "newKey": 0
   },

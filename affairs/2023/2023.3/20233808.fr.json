@@ -1,6 +1,6 @@
 {
   "id": 20233808,
-  "updated": "2023-06-21T16:08:20Z",
+  "updated": "2025-09-18T15:30:18Z",
   "additionalIndexing": "2836;44",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,177 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-09-25T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-09-18T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-30T00:00:00Z",
+        "text": "Rejet"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSSS-CN",
+            "id": 6,
+            "name": "Commission de la sécurité sociale et de la santé publique CN",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-07-09T12:10:53Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3052,
+                    "gender": "m",
+                    "id": 4151,
+                    "name": "Dittli Josef",
+                    "officialDenomination": "Dittli"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSSS-CE",
+            "id": 19,
+            "name": "Commission de la sécurité sociale et de la santé publique CE",
+            "abbreviation1": "CSSS-E",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686780000000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1693346400000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1727215200000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1727820000000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1748815200000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1750975200000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1758146400000+0200)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
         }
       ],
       "texts": [
@@ -292,19 +440,40 @@
   ],
   "shortId": "23.3808",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 209,
+    "name": "Transmis au Conseil fédéral",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>En règle générale, les assurés déposent une demande de prestations AI six mois déjà après le début de leur incapacité de travail. L'AI est donc informée très tôt et peut commencer à effectuer des recherches à partir de ce moment-là. Dans un premier temps, la perte de gain est couverte si l'employeur d'une personne assurée a conclu une assurance d'indemnités journalières en cas de maladie ou si l'incapacité de travail est due à un accident. Elle est également couverte durant les mesures de réadaptation professionnelle par les indemnités journalières de l'AI.</p><p>La situation est toutefois différente pour les assurés dont l'incapacité de travail est due à une maladie : une longue période d'attente commence pour ceux-ci quand les mesures de réadaptation de l'AI sont terminées et que le cas passe en phase d'examen du droit à la rente AI. Les procédures d'examen du droit à la rente durent en effet souvent plusieurs années.</p><p>Une fois parvenues au terme de la période durant laquelle elles ont droit aux indemnités journalières de maladie et lorsqu'elles ont épuisé leur fortune personnelle, les personnes concernées finissent ainsi par s'endetter et sont ensuite obligées de recourir à l'aide sociale. Jusqu'à la fin de la procédure AI, elles doivent vivre de l'aide sociale seule, même si, ultérieurement, elles auront éventuellement droit à une rente AI rétroactive. Le montant des paiements rétroactifs de l'AI est calculé en tenant compte des prestations d'aide sociale. Les soucis financiers et le fait que le recours à l'aide sociale soit moins bien accepté par rapport à la perception d'une rente AI entraînent dans de nombreux cas une détérioration de l'état de santé. En outre, le fait d'être longtemps absent du marché du travail et de ne pas suivre de formation continue entraîne un déconditionnement, une diminution de l'aptitude au travail.</p><p>Il est donc urgent de prendre des mesures pour accélérer les procédures AI et garantir la sécurité financière des personnes concernées, par exemple en introduisant une indemnité journalière durant le délai d'attente, similaire à celle prévue à l'article 18 du Règlement sur l'assurance-invalidité. Cette indemnité serait versée entre la fin des mesures de réadaptation professionnelle et la décision relative au droit à la rente AI.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral juge essentiel que les procédures soient aussi courtes que possible, dans la mesure où les offices&nbsp;AI peuvent influencer leur durée. Dans le cadre du Développement continu de l’AI (17.022), il a donc introduit diverses mesures visant à simplifier et à raccourcir les procédures des assurances sociales. Ainsi, la coordination a été améliorée dans le cadre de la gestion des cas, et la procédure d’instruction menée d’office a été renforcée dans l’optique d’accélérer les examens liés aux expertises médicales. Dans la mesure du possible, l’examen du droit à la rente doit être effectué en parallèle des mesures de réadaptation, de sorte qu’une fois la réadaptation terminée, le délai jusqu’à la décision relative à l’octroi de la rente soit le plus court possible. Pour autant que la demande à l’AI ait été déposée à temps, soit dans les six mois suivant la survenance de l’atteinte à la santé, les 720&nbsp;indemnités journalières octroyées par l’assurance d’indemnités journalières en cas de maladie suffisent généralement à couvrir les éventuelles lacunes financières avant l’octroi d’une rente, le début d’un nouvel emploi ou le passage à l’aide sociale.&nbsp;</p><p>&nbsp;</p><p>Les indemnités journalières durant le délai d’attente au sens des art.&nbsp;18 et 19 du règlement sur l’assurance-invalidité (RAI&nbsp;; RS&nbsp;<i>831.201</i>) sont octroyées avant le début d’un reclassement ou, dans certaines circonstances, pendant la recherche d’emploi (notamment si celle-ci a été précédée d’une activité lucrative), pour autant qu’aucune autre assurance ne soit tenue de verser des indemnités. Il n’incombe pas à l’AI de garantir la sécurité financière de la personne assurée pendant la procédure d’instruction et l’examen du droit à la rente ou entre deux mesures de réadaptation. Durant cette période, d’autres assurances peuvent verser des prestations&nbsp;: selon l’art.&nbsp;70 de la loi fédérale sur la partie générale du droit des assurances sociales (LPGA&nbsp;; RS&nbsp;<i>830.1</i>), l’assuré peut obtenir des indemnités journalières de l’assurance-accidents, de l’assurance-maladie ou de l’assurance-chômage. Ces prestations priment celles de l’AI.&nbsp;</p><p>&nbsp;</p><p>Il ne serait donc pas pertinent d’introduire de manière générale une indemnité journalière pour le délai d’attente entre les différentes mesures, d’une part, et entre la fin de la réadaptation et la décision d’octroi de la rente, d’autre part. En outre, cela aurait des répercussions importantes sur la délimitation et la coordination entre les diverses assurances.</p><p>&nbsp;</p><p>Le Conseil fédéral propose de rejeter la motion.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé de prendre des mesures pour accélérer la procédure AI et pour garantir la sécurité financière des personnes concernées durant celle-ci, par exemple en prévoyant une indemnité journalière durant le délai d'attente entre la fin des mesures de réadaptation professionnelle et la décision d'octroi de la rente AI.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Accélérer la procédure AI et garantir la sécurité financière des assurés durant celle-ci"
     }
   ],
-  "title": "Titre suit"
+  "title": "Accélérer la procédure AI et garantir la sécurité financière des assurés durant celle-ci"
 }

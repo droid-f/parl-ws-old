@@ -1,6 +1,6 @@
 {
   "id": 20233636,
-  "updated": "2023-06-09T09:18:02Z",
+  "updated": "2025-11-14T08:16:50Z",
   "additionalIndexing": "2811",
   "affairType": {
     "abbreviation": "Mo.",
@@ -12,7 +12,7 @@
       "abbreviation": "FK-SR",
       "id": 15,
       "name": "Finanzkommission SR",
-      "abbreviation1": "FK-SR",
+      "abbreviation1": "FK-S",
       "abbreviation2": "FK",
       "committeeNumber": 15,
       "council": {
@@ -43,10 +43,42 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-27T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-12-19T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-08-23T00:00:00Z",
+        "text": "Annahme"
       },
       "index": 0,
       "links": [
@@ -55,10 +87,56 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-09-01T11:09:05Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3183,
+                    "gender": "f",
+                    "id": 4306,
+                    "name": "Gapany Johanna",
+                    "officialDenomination": "Gapany"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "FK-SR",
             "id": 15,
             "name": "Finanzkommission SR",
-            "abbreviation1": "FK-SR",
+            "abbreviation1": "FK-S",
             "abbreviation2": "FK",
             "committeeNumber": 15,
             "council": {
@@ -79,7 +157,7 @@
             "abbreviation": "FK-NR",
             "id": 2,
             "name": "Finanzkommission NR",
-            "abbreviation1": "FK-NR",
+            "abbreviation1": "FK-N",
             "abbreviation2": "FK",
             "committeeNumber": 2,
             "council": {
@@ -94,19 +172,95 @@
           "registrations": [
 
           ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-19T15:39:45Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3214,
+                    "gender": "f",
+                    "id": 4318,
+                    "name": "Wyss Sarah",
+                    "officialDenomination": "Wyss"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion S",
+                    "code": "S",
+                    "id": 2,
+                    "name": "Sozialdemokratische Fraktion"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
         }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1685397600000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1692741600000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1695765600000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1702594800000+0100)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1702940400000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -133,7 +287,7 @@
         "abbreviation": "FK-SR",
         "id": 15,
         "name": "Finanzkommission SR",
-        "abbreviation1": "FK-SR",
+        "abbreviation1": "FK-S",
         "abbreviation2": "FK",
         "committeeNumber": 15,
         "council": {
@@ -149,10 +303,10 @@
   ],
   "shortId": "23.3636",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -161,6 +315,13 @@
         "name": "Begründung"
       },
       "value": "<p>Im Verlaufe des Jahres 2023 will die Armee das Gros der rund 4000 zusätzlichen Plätze wieder zurück haben. Sie macht Eigenbedarf geltend. Während im ganzen Land Kantone und Gemeinden für die Unterbringung der Asylsuchenden sich \"nach der Decke strecken\" und enorme Anstrengungen unternehmen, macht die Armee Unpässlichkeiten im laufenden Betrieb geltend. Es darf erwartet werden, dass alle Staatsebenen Sonderanstrengungen unternehmen, bevor teure und befristete Containerdörfer erstellt werden, die auch aufgrund der Massierung der Asylsuchenden nicht unproblematisch sind (Beschulung, Sicherheit etc.). </p><p>Mit den Containerdörfern sollen 3000 Plätze (auf drei Jahre befristet) geschaffen werden. Was anschliessend folgen soll, bleibt offen. </p><p>Der Einbezug des Zivilschutzbereichs im Rahmen der Erst-Unterbringung ist sachgerecht, zumal diese Anlagen massgeblich auch mit Bundesbeiträgen realisiert wurden. Hier liegt bis heute keine national abgestimmte Kapazitätsplanung vor. Das Bundesgesetz über den Bevölkerungsschutz und den Zivilschutz (BZG) sieht eine Verbundaufgabe vor, in welcher dem Bund gemäss Art. 6 auch eine Koordinationsaufgabe zukommt.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat beantragt die Annahme der Motion.</p>"
     },
     {
       "type": {

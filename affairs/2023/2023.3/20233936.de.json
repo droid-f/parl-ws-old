@@ -1,6 +1,6 @@
 {
   "id": 20233936,
-  "updated": "2023-06-21T15:23:35Z",
+  "updated": "2025-12-04T11:54:44Z",
   "additionalIndexing": "66;48;2846",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,167 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-06-13T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-06-11T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-30T00:00:00Z",
+        "text": "Ablehnung"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "UREK-NR",
+            "id": 7,
+            "name": "Kommission für Umwelt, Raumplanung und Energie NR",
+            "abbreviation1": "UREK-N",
+            "abbreviation2": "UREK",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-04-01T16:18:28Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2767,
+                    "gender": "m",
+                    "id": 4056,
+                    "name": "Fässler Daniel",
+                    "officialDenomination": "Fässler Daniel"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "UREK-SR",
+            "id": 20,
+            "name": "Kommission für Umwelt, Raumplanung und Energie SR",
+            "abbreviation1": "UREK-S",
+            "abbreviation2": "UREK",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686866400000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1693346400000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1718229600000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1743458400000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1749592800000+0200)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -324,10 +462,10 @@
   ],
   "shortId": "23.3936",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -336,6 +474,13 @@
         "name": "Begründung"
       },
       "value": "<p>Immer mehr Autohersteller setzen zukünftig ausschliesslich auf die Elektromobilität. Der Anteil der am Netz aufladbaren Fahrzeuge steigt sehr rasch an. Marktfähige und energieeffiziente Fahrzeuge und intelligente Ladetechnologien sind vorhanden. Elektroautos sind mittlerweile in allen Fahrzeugkategorien verfügbar und werden alle Kundensegmente erreichen.</p><p>Auf die rasch voranschreitende Elektrifizierung der Mobilität ist die Schweiz nicht ausreichend vorbereitet. Für die optimale Nutzung und Schonung der Verteilnetze müssen Elektroautos während den Standzeiten mit Ladeinfrastrukturen verbunden sein. So lassen sich Ladevorgänge mit geringer Leistung gut steuern und aufeinander abstimmen, Netzausbaukosten und Mobilitäts- und Energiekosten werden für alle minimiert. Diese notwendige Verbindung zwischen Auto und Netz wird hauptsächlich über die Heimladestation, also in der Garage zu Hause vollzogen. Aufgrund der vergleichsweise tiefen Eigentumsquote ist es in der Schweiz besonders herausfordernd, dieses unabdingbare Potential auszunutzen.</p><p>Der branchenübergreifend und gemeinsam erstellte Leitfaden für die Installation von Ladestationen in geteilten Mehrparteiengebäude ist wichtig, aber in Anbetracht der raschen und umfänglichen Elektrifizierung nicht ausreichend. Bewohnenden von Mehrparteiengebäuden wird der Zugang zu Ladeinfrastruktur heute in vielen Fällen verweigert. Die Schweiz, vormals Pionierin in Sachen Elektromobilität, verliert im Europäischen Vergleich kontinuierlich an Boden.  Investitionen in Infrastrukturen fliessen international betrachtet vor allem in Märkte mit elektromobilitätsfreundlicher Regulation und erreichen die Schweiz zunehmend nicht mehr. Es liegt deshalb am Bundesrat, verbindliche Voraussetzungen für die weitere Entwicklung der Elektromobilität zu erstellen.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Wie der Bundesrat in seiner Stellungnahme vom 19. Mai 2021 zur Motion 21.3371 (Grossen Jürg) erklärte, hat auch er das Ziel, die Entwicklung der Elektromobilität zu fördern, indem mehr Ladestationen für Elektrofahrzeuge zur Verfügung stehen und der Zugang dazu erleichtert wird.</p><p>&nbsp;</p><p>Der Bericht des Bundesrats vom 28. Juni 2023 zur Erfüllung der Postulate 20.4627 (Grossen), 20.4640 (Jauslin) und 20.4694 (Romano) bietet eine Übersicht über die geltenden Regularien, die Hindernisse und mögliche Massnahmen für einen fossilfrei betriebenen Verkehr. Darin wird unter anderem auch die Schaffung eines Rechtsanspruchs auf Ladeinfrastruktur für Mietende sowie von Stockwerkeigentümerinnen und -eigentümern analysiert: Im Mietrecht und im Stockwerkeigentümerrecht wird heute der Einbau von Ladestationen nicht explizit geregelt. Ein Rechtsanspruch auf die Installation bzw. die Duldung von Ladeinfrastruktur wäre für Mietende im Obligationenrecht (OR; SR 220) und für Stockwerkeigentümerinnen und -eigentümer im Zivilgesetzbuch (ZGB; SR 210) zu verankern. Die Verfassungsmässigkeit solcher Rechtsansprüche wäre jedoch fraglich, da sie in die Eigentumsgarantie sowie in die Wirtschafts- und Vertragsfreiheit eingreifen. Auch dienen das OR und das ZGB in erster Linie der Regelung privatrechtlicher Verhältnisse und nicht der Realisierung allgemeingesellschaftlicher Ziele.&nbsp;</p><p>&nbsp;</p><p>Als alternative Regulierungsoptionen stehen öffentlich-rechtliche Bestimmungen im Vordergrund. Gemäss Artikel 89 Absatz 4 Bundesverfassung (BV; SR 101) sind für Massnahmen, die den Verbrauch von Energie in Gebäuden betreffen, vor allem die Kantone zuständig. Zu denken ist insbesondere an autonome baurechtliche Massnahmen der Kantone oder die Aufnahme von Vorgaben in die Mustervorschriften der Kantone im Energiebereich (MuKEn). Verschiedene Kantone sehen denn auch vor, die Bauvorschriften so anzupassen, damit mehr Ladestationen am Wohnort, aber auch am Arbeitsplatz geschaffen werden. Vereinzelt sind entsprechende Bestimmungen bereits in Kraft.&nbsp;</p><p>&nbsp;</p><p>Grundsätzlich denkbar wäre auch ein Gesetzgebungsauftrag an die Kantone zur Regelung der Installation von Ladeinfrastrukturen und der notwendigen baulichen Voraussetzungen bei Neubauten und bei wesentlichen Erneuerungen bestehender Gebäude. Eine entsprechende Bestimmung könnte beispielsweise in Artikel 45 Absatz 3 des Energiegesetzes (EnG; SR 730.0) verankert werden. Sie würde sowohl für vermietete als auch für selbstgenutzte Liegenschaften gelten. Die kantonalen Regelungen könnten zwischen verschiedenen Gebäudenutzungen sowie zwischen Neu- und Bestandsbauten unterscheiden.</p><p>&nbsp;</p><p>Im Rahmen der Botschaft zur Teilrevision des CO2-Gesetzes vom 16. September 2022 (BBl 2022 2651) hat der Bundesrat vorgeschlagen, Ladeinfrastrukturen in Mehrparteiengebäuden, in Betrieben mit mehreren Arbeitsplätzen und auf öffentlichen Parkplätzen zu unterstützen. Das auf sechs Jahre ausgelegte Förderprogramm soll einen Betrag an die hohen Anfangsinvestitionen für Ladeinfrastruktur in Mehrparteiengebäuden leisten und damit die Installation von Ladeinfrastruktur insbesondere für Mietende und Stockwerkeigentums­gemeinschaften erleichtern und beschleunigen. Zudem sollen die Aktivitäten der Roadmap Elektromobilität sowie des Programms EnergieSchweiz des BFE weitergeführt und ergänzt werden. Im Rahmen der Roadmap wurden verschiedene Hilfsmittel wie Leitfäden für das Laden in Mietobjekten und in Miteigentums­gemeinschaften erarbeitet. EnergieSchweiz hat im Mai 2023 das Programm «Laden.Punkt» lanciert mit zahlreichen Hilfsmitteln, um die Ladeinfrastruktur für Elektromobilität in der Schweiz voranzubringen.</p><p>&nbsp;</p><p>Die Kernforderung der Motion – das Sicherstellen eines Zugangs zu Ladeinfrastrukturen im Mietverhältnis und im Stockwerkeigentum – kommt jedoch einem Rechtsanspruch auf eine Ladestation gleich, den der Bundesrat nach wie vor ablehnt (vgl. Stellungnahme zur Motion 21.3371).&nbsp;</p>"
     },
     {
       "type": {

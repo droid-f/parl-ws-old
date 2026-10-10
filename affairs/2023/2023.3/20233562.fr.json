@@ -1,6 +1,6 @@
 {
   "id": 20233562,
-  "updated": "2023-05-09T15:21:48Z",
+  "updated": "2025-11-14T07:23:03Z",
   "additionalIndexing": "09;34;15",
   "affairType": {
     "abbreviation": "Po.",
@@ -40,10 +40,37 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "L’objet est repris",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-12-12T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-09-06T00:00:00Z",
+        "text": "Rejet"
       },
       "index": 0,
       "links": [
@@ -56,13 +83,28 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DDPS",
+          "id": 6,
+          "name": "Département de la défense, de la protection de la population et des sports",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1683151200000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1693951200000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1702335600000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -238,12 +280,22 @@
         "name": "Groupe socialiste"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3094,
+        "gender": "f",
+        "id": 4199,
+        "name": "Seiler Graf Priska",
+        "officialDenomination": "Seiler Graf"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "23.3562",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
@@ -253,14 +305,21 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Le rapport du 5 janvier 2023 de la société BDO AG sur les coûts supplémentaires concernant les centres de calculs du DDPS et le remplacement du système de conduite FLORAKO et les deux rapports d'audit du CDF sur la gestion des ressources de la BAC (CDF-22125) et sur la dissociation des prestations informatiques de base du DDPS (CDF-22102) suggèrent un désastre informatique (NZZ 12.01.2023).</p><p>L'une des raisons de ce désastre est l'absence de vue d'ensemble de l'architecture informatique globale et du numérique de l'armée ainsi qu'un pilotage stratégique lacunaire. En juin 2020, le cabinet de conseil Deloitte avait déjà constaté le manque de leadership. Il y a de nombreux sous-projets en cours, mais on ne sait pas clairement qui est chargé de piloter l'ensemble, que ce soit la dissociation des prestations informatiques de base du DDPS, la mise en place du commandement Cyber, la nouvelle plateforme numérique, le système de transition LEGACY, la numérisation de la milice, FITANIA (et ses trois sous-projets Centres de calcul, Réseau de conduite suisse et télécommunications de l'armée), SkyView, le système intégré de planification et de suivi de la situation (IPLIS), le développement du système de conduite et d'information des Forces terrestres (SIC FT), etc.</p><p>Le postulat demande un rapport qui expose clairement la vision de l'architecture informatique et du numérique de l'armée et qui renseigne sur les questions de gouvernance et de leadership relatives à l'ensemble de la stratégie numérique : qui attribue les mandats, les compétences et les responsabilités ? Qui met en place la gestion des risques ? Qui veille à la cohérence stratégique globale ?</p>"
+      "value": "<p>Le rapport du 5 janvier 2023 de la société BDO AG sur les coûts supplémentaires concernant les centres de calculs du DDPS et le remplacement du système de conduite FLORAKO et les deux rapports d'audit du CDF sur la gestion des ressources de la BAC (CDF-22125) et sur la dissociation des prestations informatiques de base du DDPS (CDF-22102) suggèrent un désastre informatique (NZZ 12.01.2023).</p><p>L'une des raisons de ce désastre est l'absence de vue d'ensemble de l'architecture informatique globale et du numérique de l'armée ainsi qu'un pilotage stratégique lacunaire. En juin 2020, le cabinet de conseil Deloitte avait déjà constaté le manque de leadership. Il y a de nombreux sous-projets en cours, mais on ne sait pas clairement qui est chargé de piloter l'ensemble, que ce soit la dissociation des prestations informatiques de base du DDPS, la mise en place du commandement Cyber, la nouvelle plateforme numérique, le système de transition LEGACY, la numérisation de la milice, FITANIA (et ses trois sous-projets Centres de calcul, Réseau de conduite suisse et télécommunications de l'armée), SkyView, le système intégré de planification et de suivi de la situation (IPLIS), le développement du système de conduite et d'information des Forces terrestres (SIC FT), etc.</p><p>Le postulat demande un rapport qui expose clairement la vision de l'architecture informatique et du numérique de l'armée et qui renseigne sur les questions de gouvernance et de leadership relatives à l'ensemble de la stratégie numérique : qui attribue les mandats, les compétences et les responsabilités ? Qui met en place la gestion des risques ? Qui veille à la cohérence stratégique globale ?</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Pour faire face aux exigences croissantes en ce qui concerne les technologies de l’information et de la communication (TIC) utilisées dans ses projets et activités, l’Armée suisse a déjà pris différentes mesures au cours des derniers mois et des dernières années. Celles-ci portent non seulement sur la planification et la gestion des TIC, la concentration sur l’informatique indispensable aux engagements et la réduction de la complexité, mais aussi sur le recrutement et le développement du personnel. Les mesures prises ont permis d’obtenir de premiers résultats positifs.</p><p>&nbsp;</p><p>L’Armée suisse a reconnu l’importance stratégique des TIC et en a fait état dans ses objectifs. Elle a élaboré les documents nécessaires en commençant par la «&nbsp;Vision 2030&nbsp;» qui définit, au niveau supérieur, les bases de son orientation à long terme. Cette orientation a ensuite été représentée au niveau de l’architecture TIC (architecture TIC 4.0), ce qui a permis de définir les aspects techniques de la mise en œuvre. Pour sa concrétisation, des mesures et responsabilités ont été définies au niveau opérationnel (objectif TIC&nbsp;2026). Les conclusions de ces travaux sont intégrées dans la révision actuellement en cours de la gouvernance des TIC de la Défense. Cette dernière s’inspire du cadre de gestion COBIT 19 et découle de la gouvernance des TIC du DDPS. En outre, le groupe de gouvernance des TIC de la Défense est en conformité avec l’ordonnance sur la transformation numérique et l’informatique (OTNI&nbsp;; RS <i>172.010.58</i>) pour toutes les prestations non indispensables aux engagements et anticipe la future «&nbsp;ordonnance sur l’informatique dans l’armée&nbsp;» pour les prestations indispensables aux engagements.</p><p>&nbsp;</p><p>Suite à la dissociation des prestations et au renforcement de la collaboration avec l’OFIT, le pilotage supérieur des TIC pour le Groupement Défense est actuellement repensé de manière centralisée au sein de l’État-major de l’armée avec le domaine informatique de la Défense. Le concept existant de la conduite technique des TIC du Groupement Défense est ainsi complété et renforcé afin de pouvoir couvrir les futurs scénarios multi-fournisseurs entre les fournisseurs de prestations indispensables et non indispensables aux engagements de l’armée. Il convient encore de mentionner la mise en place et le développement de la planification globale pluriannuelle intégrée des TIC de la Défense. Elle permet d’avoir une vue d’ensemble globale et transparente de toutes les activités informatiques (initiatives, projets) ainsi que des prestations de fonctionnement et des ressources financières et humaines nécessaires. Cette planification globale pluriannuelle repose sur une base de données uniforme et sert ainsi d’instrument de pilotage et de planification global ainsi que de base de décision pour la planification de l’armée.</p><p>&nbsp;</p><p>À noter enfin que le rapport «&nbsp;Défis et mesures de l’armée en matière de technologies de l’information et de la communication&nbsp;» présente en détails les défis auxquels l’architecture informatique globale de l’armée est confrontée ainsi que l’état des mesures prises et à venir dans ce domaine.&nbsp;</p><p>Étant d’avis que les bases nécessaires existent ou que les travaux sont en cours, le Conseil fédéral estime qu’un rapport supplémentaire n’apporterait pas d’éléments nouveaux.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Le Conseil fédéral est chargé d'examiner et de présenter dans un rapport les éléments suivants :</p><p>a. l'architecture informatique globale et la numérisation de l'armée visées à court, moyen et long termes, et la manière d'y intégrer les capacités et les projets actuels et futurs, les interfaces, les profils d'exigences et les objectifs ;</p><p>b. l'organisation du leadership et de la gouvernance à cet effet ; la définition des responsabilités pour le pilotage global ; la définition des priorités pour assurer la cohérence avec les ressources humaines et financières à long terme ; la répartition des tâches, des compétences et des responsabiliotés, et la mise en place d'une gestion globale des risques ;</p><p>c. la façon de définir les ambitions en matière de numérique et d'informatique militaires et les exigences techniques qui en découlent, dans le but d'utiliser le mieux possible les moyens disponibles pour répondre aux risques concrets pour la sécurité et garantir la cohérence générale avec le système global de l'armée ainsi qu'avec ses partenaires de la milice, de l'industrie et de la société.</p>"
+      "value": "<p>Le Conseil fédéral est chargé d'examiner et de présenter dans un rapport les éléments suivants :</p><p>a. l'architecture informatique globale et la numérisation de l'armée visées à court, moyen et long termes, et la manière d'y intégrer les capacités et les projets actuels et futurs, les interfaces, les profils d'exigences et les objectifs ;</p><p>b. l'organisation du leadership et de la gouvernance à cet effet ; la définition des responsabilités pour le pilotage global ; la définition des priorités pour assurer la cohérence avec les ressources humaines et financières à long terme ; la répartition des tâches, des compétences et des responsabiliotés, et la mise en place d'une gestion globale des risques ;</p><p>c. la façon de définir les ambitions en matière de numérique et d'informatique militaires et les exigences techniques qui en découlent, dans le but d'utiliser le mieux possible les moyens disponibles pour répondre aux risques concrets pour la sécurité et garantir la cohérence générale avec le système global de l'armée ainsi qu'avec ses partenaires de la milice, de l'industrie et de la société.</p>"
     },
     {
       "type": {

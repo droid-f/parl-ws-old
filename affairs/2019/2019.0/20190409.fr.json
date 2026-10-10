@@ -1,6 +1,6 @@
 {
   "id": 20190409,
-  "updated": "2020-10-22T09:07:43Z",
+  "updated": "2025-11-26T11:46:06Z",
   "additionalIndexing": "12;1211;52;2846",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -49,7 +49,7 @@
               "abbreviation": "CEATE-CN",
               "id": 7,
               "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CN",
-              "abbreviation1": "CEATE-CN",
+              "abbreviation1": "CEATE-N",
               "abbreviation2": "CEATE",
               "committeeNumber": 7,
               "council": {
@@ -62,7 +62,7 @@
             },
             "council": null,
             "date": "2020-08-10T00:00:00Z",
-            "text": "Donné suite",
+            "text": "Donner suite (conseil prioritaire)",
             "type": 16
           },
           {
@@ -74,7 +74,7 @@
               "abbreviation": "CEATE-CE",
               "id": 20,
               "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CE",
-              "abbreviation1": "CEATE-CE",
+              "abbreviation1": "CEATE-E",
               "abbreviation2": "CEATE",
               "committeeNumber": 20,
               "council": {
@@ -87,8 +87,53 @@
             },
             "council": null,
             "date": "2020-10-16T00:00:00Z",
-            "text": "Donné suite",
+            "text": "Donner suite (conseil prioritaire)",
             "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-12-16T00:00:00Z",
+            "text": "Prolongation de délai",
+            "type": 50
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-12-16T00:00:00Z",
+            "text": "Le délai imparti est prorogé jusqu'à la session d'hiver 2024.",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-09-23T00:00:00Z",
+            "text": "Adhésion",
+            "type": 3
           }
         ]
       },
@@ -96,7 +141,11 @@
       },
       "index": 0,
       "links": [
-
+        {
+          "date": "/Date(1681250400000+0200)/",
+          "title": "Consultation",
+          "url": "https://www.parlament.ch/fr/organe/commissions/commissions-thematiques/commissions-ceate/rapports-consultations-ceate/vernehmlassung-urek-19-409"
+        }
       ],
       "preConsultations": [
         {
@@ -104,7 +153,7 @@
             "abbreviation": "CEATE-CN",
             "id": 7,
             "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CN",
-            "abbreviation1": "CEATE-CN",
+            "abbreviation1": "CEATE-N",
             "abbreviation2": "CEATE",
             "committeeNumber": 7,
             "council": {
@@ -121,6 +170,12 @@
               "correspondents": [
 
               ]
+            },
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5117"
             }
           ]
         },
@@ -129,7 +184,7 @@
             "abbreviation": "CEATE-CE",
             "id": 20,
             "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CE",
-            "abbreviation1": "CEATE-CE",
+            "abbreviation1": "CEATE-E",
             "abbreviation2": "CEATE",
             "committeeNumber": 20,
             "council": {
@@ -151,14 +206,57 @@
         }
       ],
       "references": [
-
+        {
+          "date": "/Date(1705878000000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "408",
+            "source": "FF 2024 408",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2024/408.pdf",
+            "year": "2024"
+          },
+          "type": {
+            "id": 6,
+            "name": "Rapport"
+          }
+        },
+        {
+          "date": "/Date(1711494000000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "788",
+            "source": "FF 2024 788",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2024/788.pdf",
+            "year": "2024"
+          },
+          "type": {
+            "id": 2,
+            "name": "Avis du Conseil fédéral"
+          }
+        }
       ],
       "relatedDepartments": [
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        },
         {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -169,8 +267,58 @@
         },
         {
           "date": "/Date(1602799200000+0200)/",
-          "id": 1,
-          "name": "Donné suite"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1602885600000+0200)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1602972000000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1712613600000+0200)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1713132000000+0200)/",
+          "id": 205,
+          "name": "Planifié au Conseil national"
+        },
+        {
+          "date": "/Date(1713304800000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1719180000000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1724968800000+0200)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1725832800000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1727042400000+0200)/",
+          "id": 219,
+          "name": "Planifié pour le vote final"
+        },
+        {
+          "date": "/Date(1727388000000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -180,22 +328,180 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-04-17T00:00:00Z",
+            "text": "Décision conforme au projet",
+            "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-09-09T00:00:00Z",
+            "text": "Divergences",
+            "type": 37
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-09-23T00:00:00Z",
+            "text": "Adhésion",
+            "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-09-27T00:00:00Z",
+            "text": "Adoption (vote final)",
+            "type": 36
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-09-27T00:00:00Z",
+            "text": "Adoption (vote final)",
+            "type": 36
+          }
         ]
       },
       "federalCouncilProposal": {
       },
       "index": 1,
       "links": [
-
+        {
+          "date": "/Date(1700607600000+0100)/",
+          "title": "Consultation",
+          "url": "https://www.parlament.ch/fr/organe/commissions/commissions-thematiques/commissions-ceate/rapports-consultations-ceate/vernehmlassung-urek-19-409"
+        }
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-06-24T15:56:32Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3105,
+                    "gender": "m",
+                    "id": 4204,
+                    "name": "Rieder Beat",
+                    "officialDenomination": "Rieder"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-23T14:47:08Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3148,
+                    "gender": "f",
+                    "id": 4256,
+                    "name": "de Montmollin Simone",
+                    "officialDenomination": "de Montmollin"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
         {
           "committee": {
             "abbreviation": "CEATE-CN",
             "id": 7,
             "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CN",
-            "abbreviation1": "CEATE-CN",
+            "abbreviation1": "CEATE-N",
             "abbreviation2": "CEATE",
             "committeeNumber": 7,
             "council": {
@@ -206,21 +512,22 @@
             },
             "typeCode": 1
           },
-          "date": "2019-03-14T00:00:00Z",
+          "date": "2024-01-22T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "IIIb/IV"
         },
         {
           "committee": {
             "abbreviation": "CEATE-CE",
             "id": 20,
             "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CE",
-            "abbreviation1": "CEATE-CE",
+            "abbreviation1": "CEATE-E",
             "abbreviation2": "CEATE",
             "committeeNumber": 20,
             "council": {
@@ -231,32 +538,215 @@
             },
             "typeCode": 1
           },
-          "date": "2019-03-14T00:00:00Z",
+          "date": "2024-01-22T00:00:00Z",
           "registrations": [
 
+          ],
+          "treatmentCategory": "IIIb/IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-23T14:47:26Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3123,
+                    "gender": "m",
+                    "id": 4222,
+                    "name": "Paganini Nicolò",
+                    "officialDenomination": "Paganini"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
       "references": [
-
+        {
+          "date": "/Date(1705878000000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "409",
+            "source": "FF 2024 409",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2024/409.pdf",
+            "year": "2024"
+          },
+          "title": "Loi fédérale sur la protection de la nature et du paysage (LPN)",
+          "type": {
+            "id": 1,
+            "name": "Objet soumis à délibération / Projet"
+          }
+        },
+        {
+          "date": "/Date(1705878000000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "408",
+            "source": "FF 2024 408",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2024/408.pdf",
+            "year": "2024"
+          },
+          "type": {
+            "id": 6,
+            "name": "Rapport"
+          }
+        },
+        {
+          "date": "/Date(1711494000000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "788",
+            "source": "FF 2024 788",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2024/788.pdf",
+            "year": "2024"
+          },
+          "type": {
+            "id": 2,
+            "name": "Avis du Conseil fédéral"
+          }
+        },
+        {
+          "date": "/Date(1728338400000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2490",
+            "source": "FF 2024 2490",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2024/2490.pdf",
+            "year": "2024"
+          },
+          "referendumDeadline": "2025-01-16T00:00:00Z",
+          "type": {
+            "id": 3,
+            "name": "Texte pour le vote final"
+          }
+        },
+        {
+          "date": "/Date(1751234400000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "429",
+            "source": "RO 2025 429",
+            "type": {
+              "id": 2,
+              "name": "Recueil officiel",
+              "shortName": "RO"
+            },
+            "url": "http://www.admin.ch/opc/fr/official-compilation/2025/429.pdf",
+            "year": "2025"
+          },
+          "type": {
+            "id": 5,
+            "name": "Recueil officiel"
+          }
+        }
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlement",
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
           "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1552518000000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1602799200000+0200)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1602885600000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1713304800000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1719180000000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1724968800000+0200)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1725832800000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1727042400000+0200)/",
+          "id": 219,
+          "name": "Planifié pour le vote final"
+        },
+        {
+          "date": "/Date(1727388000000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
-
+        {
+          "type": {
+            "id": 2,
+            "name": "Titre du projet"
+          },
+          "value": "Loi fédérale sur la protection de la nature et du paysage (LPN)"
+        }
       ]
     }
   ],
@@ -362,8 +852,8 @@
   ],
   "shortId": "19.409",
   "state": {
-    "id": 1,
-    "name": "Donné suite",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
@@ -373,14 +863,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Le 30 novembre 2008, le peuple suisse a rejeté à 66 pour cent l'initiative populaire fédérale \"Droit de recours des organisations. Assez d'obstructionnisme - Plus de croissance pour la Suisse!\". Si ce vote réaffirme dans son principe le droit de recours des organisations, il ne légitime cependant pas les dérives procédurales et bureaucratiques de ce droit lorsqu'il s'agit de projets de moindre importance réalisés par de simples citoyens.</p><p>L'article 55 alinéa 1 LPE réserve aux organisations environnementales désignées par le Conseil fédéral le droit de recourir contre les décisions des autorités fédérales et cantonales relatives à la planification, à la construction ou à la modification d'installations fixes. Ce droit est toutefois limité aux installations soumises à l'étude de l'impact sur l'environnement au sens de l'article 10a LPE.</p><p>Dans le champ d'application de la LPN, le droit de recours des organisations est réglé aux articles 12 ss et est accordé aux organisations qui se vouent à la protection de la nature, à la protection du paysage, à la conservation des monuments historiques ou à des tâches semblables. Contrairement à la LPE, la LPN ne prévoit cependant pas de restriction en ce qui concerne l'ampleur du projet. Il en résulte que les grandes entreprises et les investisseurs puissants ne sont pas seuls à devoir faire face aux organisations reconnues: les simples citoyens qui réalisent de petits projets, telle une maison familiale, se retrouvent dans la même situation.</p><p>Une solution pourrait être par exemple d'exclure du droit de recours des organisations les projets qui sont réalisés dans la zone à bâtir mais en dehors des centres villageois et urbains et qui portent sur une surface brute au sol de moins de 600 mètres carrés ou qui remplissent d'autres critères objectifs clairement définis.</p>"
+      "value": "<p>Le 30 novembre 2008, le peuple suisse a rejeté à 66 % l'initiative populaire fédérale \"Droit de recours des organisations. Assez d'obstructionnisme - Plus de croissance pour la Suisse !\". Si ce vote réaffirme dans son principe le droit de recours des organisations, il ne légitime cependant pas les dérives procédurales et bureaucratiques de ce droit lorsqu'il s'agit de projets de moindre importance réalisés par de simples citoyens.</p><p>L'art. 55, al. 1, LPE réserve aux organisations environnementales désignées par le Conseil fédéral le droit de recourir contre les décisions des autorités fédérales et cantonales relatives à la planification, à la construction ou à la modification d'installations fixes. Ce droit est toutefois limité aux installations soumises à l'étude de l'impact sur l'environnement au sens de l'article 10a LPE.</p><p>Dans le champ d'application de la LPN, le droit de recours des organisations est réglé aux articles 12 ss et est accordé aux organisations qui se vouent à la protection de la nature, à la protection du paysage, à la conservation des monuments historiques ou à des tâches semblables. Contrairement à la LPE, la LPN ne prévoit cependant pas de restriction en ce qui concerne l'ampleur du projet. Il en résulte que les grandes entreprises et les investisseurs puissants ne sont pas seuls à devoir faire face aux organisations reconnues : les simples citoyens qui réalisent de petits projets, telle une maison familiale, se retrouvent dans la même situation.</p><p>Une solution pourrait être par exemple d'exclure du droit de recours des organisations les projets qui sont réalisés dans la zone à bâtir mais en dehors des centres villageois et urbains et qui portent sur une surface brute au sol de moins de 600 mètres carrés ou qui remplissent d'autres critères objectifs clairement définis.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>La loi fédérale sur la protection de la nature et du paysage (LPN; RS 451) est modifiée de manière à restreindre le droit de recours des organisations prévu aux articles 12 ss LPN lorsqu'il s'agit de projets de moindre importance en zone à bâtir, à l'image des restrictions imposées par la loi fédérale sur la protection de l'environnement (LPE; RS 814.01).</p>"
+      "value": "<p>La loi fédérale sur la protection de la nature et du paysage (LPN ; RS 451) est modifiée de manière à restreindre le droit de recours des organisations prévu aux articles 12 ss LPN lorsqu'il s'agit de projets de moindre importance en zone à bâtir, à l'image des restrictions imposées par la loi fédérale sur la protection de l'environnement (LPE ; RS 814.01).</p>"
     },
     {
       "type": {

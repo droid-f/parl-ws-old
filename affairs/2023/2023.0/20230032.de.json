@@ -1,6 +1,7 @@
 {
   "id": 20230032,
-  "updated": "2023-05-30T19:52:31Z",
+  "updated": "2026-02-10T20:10:27Z",
+  "additionalIndexing": "24;48;Infrastruktur",
   "affairType": {
     "abbreviation": "BRG",
     "id": 1,
@@ -25,7 +26,21 @@
       },
       "index": 0,
       "links": [
-
+        {
+          "date": "/Date(1727215200000+0200)/",
+          "title": "Swissvotes",
+          "url": "https://swissvotes.ch/vote/673.00"
+        },
+        {
+          "date": "/Date(1728597600000+0200)/",
+          "title": "Volksabstimmung vom 24.11.2024",
+          "url": "https://www.admin.ch/gov/de/start/dokumentation/abstimmungen/20241124/ausbau-nationalstrassen.html"
+        },
+        {
+          "date": "/Date(1728597600000+0200)/",
+          "title": "Verhandlungen/Argumente (PDF)",
+          "url": "https://www.parlament.ch/centers/documents/_layouts/15/DocIdRedir.aspx?ID=DOCID-1-12410"
+        }
       ],
       "preConsultations": [
         {
@@ -33,7 +48,7 @@
             "abbreviation": "KVF-NR",
             "id": 9,
             "name": "Kommission für Verkehr und Fernmeldewesen NR",
-            "abbreviation1": "KVF-NR",
+            "abbreviation1": "KVF-N",
             "abbreviation2": "KVF",
             "committeeNumber": 9,
             "council": {
@@ -44,18 +59,17 @@
             },
             "typeCode": 1
           },
-          "date": "2023-02-10T00:00:00Z",
+          "date": "2023-02-22T00:00:00Z",
           "registrations": [
 
-          ],
-          "treatmentCategory": "IIIb/IV"
+          ]
         },
         {
           "committee": {
             "abbreviation": "KVF-SR",
             "id": 22,
             "name": "Kommission für Verkehr und Fernmeldewesen SR",
-            "abbreviation1": "KVF-SR",
+            "abbreviation1": "KVF-S",
             "abbreviation2": "KVF",
             "committeeNumber": 22,
             "council": {
@@ -66,7 +80,7 @@
             },
             "typeCode": 1
           },
-          "date": "2023-02-10T00:00:00Z",
+          "date": "2023-02-22T00:00:00Z",
           "registrations": [
 
           ]
@@ -110,8 +124,33 @@
         },
         {
           "date": "/Date(1685397600000+0200)/",
-          "id": 2,
-          "name": "Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1686088800000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1688076000000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1695160800000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 219,
+          "name": "Geplant für die Schlussabstimmung"
+        },
+        {
+          "date": "/Date(1695938400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -141,6 +180,21 @@
             "date": "2023-05-30T00:00:00Z",
             "text": "Beschluss gemäss Entwurf",
             "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-20T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
           }
         ]
       },
@@ -153,10 +207,31 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-07-06T10:55:06Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "KVF-NR",
             "id": 9,
             "name": "Kommission für Verkehr und Fernmeldewesen NR",
-            "abbreviation1": "KVF-NR",
+            "abbreviation1": "KVF-N",
             "abbreviation2": "KVF",
             "committeeNumber": 9,
             "council": {
@@ -167,7 +242,7 @@
             },
             "typeCode": 1
           },
-          "date": "2023-02-10T00:00:00Z",
+          "date": "2023-02-22T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -226,7 +301,7 @@
             "abbreviation": "KVF-SR",
             "id": 22,
             "name": "Kommission für Verkehr und Fernmeldewesen SR",
-            "abbreviation1": "KVF-SR",
+            "abbreviation1": "KVF-S",
             "abbreviation2": "KVF",
             "committeeNumber": 22,
             "council": {
@@ -237,10 +312,16 @@
             },
             "typeCode": 1
           },
-          "date": "2023-02-10T00:00:00Z",
+          "date": "2023-02-22T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
-          ]
+              ],
+              "sessionId": "5122"
+            }
+          ],
+          "treatmentCategory": "IIIa/IV"
         }
       ],
       "references": [
@@ -263,6 +344,25 @@
             "id": 1,
             "name": "Beratungsgegenstand / Entwurf"
           }
+        },
+        {
+          "date": "/Date(1697148000000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2340",
+            "source": "BBl 2023 2340",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2023/2340.pdf",
+            "year": "2023"
+          },
+          "type": {
+            "id": 4,
+            "name": "Erlasstext"
+          }
         }
       ],
       "relatedDepartments": [
@@ -281,8 +381,13 @@
         },
         {
           "date": "/Date(1685397600000+0200)/",
-          "id": 2,
-          "name": "Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1695160800000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -312,6 +417,66 @@
             "date": "2023-05-30T00:00:00Z",
             "text": "Beschluss abweichend vom Entwurf",
             "type": 52
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-20T00:00:00Z",
+            "text": "Abweichung",
+            "type": 37
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-21T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Annahme in der Schlussabstimmung",
+            "type": 36
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Annahme in der Schlussabstimmung",
+            "type": 36
           }
         ]
       },
@@ -327,7 +492,7 @@
             "abbreviation": "KVF-NR",
             "id": 9,
             "name": "Kommission für Verkehr und Fernmeldewesen NR",
-            "abbreviation1": "KVF-NR",
+            "abbreviation1": "KVF-N",
             "abbreviation2": "KVF",
             "committeeNumber": 9,
             "council": {
@@ -338,7 +503,7 @@
             },
             "typeCode": 1
           },
-          "date": "2023-02-10T00:00:00Z",
+          "date": "2023-02-22T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -397,7 +562,7 @@
             "abbreviation": "KVF-SR",
             "id": 22,
             "name": "Kommission für Verkehr und Fernmeldewesen SR",
-            "abbreviation1": "KVF-SR",
+            "abbreviation1": "KVF-S",
             "abbreviation2": "KVF",
             "committeeNumber": 22,
             "council": {
@@ -408,7 +573,34 @@
             },
             "typeCode": 1
           },
-          "date": "2023-02-10T00:00:00Z",
+          "date": "2023-02-22T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
+            }
+          ],
+          "treatmentCategory": "IIIa/IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-07-06T10:54:15Z",
           "registrations": [
 
           ]
@@ -434,6 +626,26 @@
             "id": 1,
             "name": "Beratungsgegenstand / Entwurf"
           }
+        },
+        {
+          "date": "/Date(1696888800000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2302",
+            "source": "BBl 2023 2302",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2023/2302.pdf",
+            "year": "2023"
+          },
+          "referendumDeadline": "2024-01-18T00:00:00Z",
+          "type": {
+            "id": 3,
+            "name": "Schlussabstimmungstext"
+          }
         }
       ],
       "relatedDepartments": [
@@ -452,8 +664,23 @@
         },
         {
           "date": "/Date(1685397600000+0200)/",
-          "id": 2,
-          "name": "Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1695160800000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 219,
+          "name": "Geplant für die Schlussabstimmung"
+        },
+        {
+          "date": "/Date(1695938400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -483,6 +710,36 @@
             "date": "2023-05-30T00:00:00Z",
             "text": "Beschluss abweichend vom Entwurf",
             "type": 52
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-20T00:00:00Z",
+            "text": "Abweichung",
+            "type": 37
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-21T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
           }
         ]
       },
@@ -498,7 +755,7 @@
             "abbreviation": "KVF-NR",
             "id": 9,
             "name": "Kommission für Verkehr und Fernmeldewesen NR",
-            "abbreviation1": "KVF-NR",
+            "abbreviation1": "KVF-N",
             "abbreviation2": "KVF",
             "committeeNumber": 9,
             "council": {
@@ -509,7 +766,7 @@
             },
             "typeCode": 1
           },
-          "date": "2023-02-10T00:00:00Z",
+          "date": "2023-02-22T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -568,7 +825,7 @@
             "abbreviation": "KVF-SR",
             "id": 22,
             "name": "Kommission für Verkehr und Fernmeldewesen SR",
-            "abbreviation1": "KVF-SR",
+            "abbreviation1": "KVF-S",
             "abbreviation2": "KVF",
             "committeeNumber": 22,
             "council": {
@@ -579,7 +836,34 @@
             },
             "typeCode": 1
           },
-          "date": "2023-02-10T00:00:00Z",
+          "date": "2023-02-22T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
+            }
+          ],
+          "treatmentCategory": "IIIa/IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-07-06T10:53:44Z",
           "registrations": [
 
           ]
@@ -605,6 +889,25 @@
             "id": 1,
             "name": "Beratungsgegenstand / Entwurf"
           }
+        },
+        {
+          "date": "/Date(1696888800000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2303",
+            "source": "BBl 2023 2303",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2023/2303.pdf",
+            "year": "2023"
+          },
+          "type": {
+            "id": 4,
+            "name": "Erlasstext"
+          }
         }
       ],
       "relatedDepartments": [
@@ -623,8 +926,18 @@
         },
         {
           "date": "/Date(1685397600000+0200)/",
-          "id": 2,
-          "name": "Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1695160800000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -654,6 +967,21 @@
             "date": "2023-05-30T00:00:00Z",
             "text": "Beschluss gemäss Entwurf",
             "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-20T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
           }
         ]
       },
@@ -661,15 +989,45 @@
       },
       "index": 4,
       "links": [
-
+        {
+          "date": "/Date(1699398000000+0100)/",
+          "title": "Veröffentlichung eines Textteils durch Verweis",
+          "url": "https://www.fedlex.admin.ch/eli/fga/2023/2464/de"
+        },
+        {
+          "date": "/Date(1699398000000+0100)/",
+          "title": "Veröffentlichung eines Textteils durch Verweis",
+          "url": "https://www.fedlex.admin.ch/eli/fga/2023/2464/de"
+        }
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-07-06T11:04:58Z",
+          "registrations": [
+
+          ]
+        },
         {
           "committee": {
             "abbreviation": "KVF-NR",
             "id": 9,
             "name": "Kommission für Verkehr und Fernmeldewesen NR",
-            "abbreviation1": "KVF-NR",
+            "abbreviation1": "KVF-N",
             "abbreviation2": "KVF",
             "committeeNumber": 9,
             "council": {
@@ -680,7 +1038,7 @@
             },
             "typeCode": 1
           },
-          "date": "2023-02-10T00:00:00Z",
+          "date": "2023-02-22T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -739,7 +1097,7 @@
             "abbreviation": "KVF-SR",
             "id": 22,
             "name": "Kommission für Verkehr und Fernmeldewesen SR",
-            "abbreviation1": "KVF-SR",
+            "abbreviation1": "KVF-S",
             "abbreviation2": "KVF",
             "committeeNumber": 22,
             "council": {
@@ -750,10 +1108,16 @@
             },
             "typeCode": 1
           },
-          "date": "2023-02-10T00:00:00Z",
+          "date": "2023-02-22T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
-          ]
+              ],
+              "sessionId": "5122"
+            }
+          ],
+          "treatmentCategory": "IIIa/IV"
         }
       ],
       "references": [
@@ -776,6 +1140,25 @@
             "id": 1,
             "name": "Beratungsgegenstand / Entwurf"
           }
+        },
+        {
+          "date": "/Date(1697148000000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2341",
+            "source": "BBl 2023 2341",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2023/2341.pdf",
+            "year": "2023"
+          },
+          "type": {
+            "id": 4,
+            "name": "Erlasstext"
+          }
         }
       ],
       "relatedDepartments": [
@@ -794,8 +1177,13 @@
         },
         {
           "date": "/Date(1685397600000+0200)/",
-          "id": 2,
-          "name": "Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1695160800000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -821,6 +1209,14 @@
   ],
   "relatedAffairs": [
     {
+      "id": 20222007,
+      "shortId": "22.2007"
+    },
+    {
+      "id": 20222032,
+      "shortId": "22.2032"
+    },
+    {
       "id": 20233497,
       "priorityCode": "N",
       "shortId": "23.3497"
@@ -831,8 +1227,8 @@
   ],
   "shortId": "23.032",
   "state": {
-    "id": 2,
-    "name": "Behandelt vom Nationalrat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },

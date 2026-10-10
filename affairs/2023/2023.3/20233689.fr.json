@@ -1,6 +1,6 @@
 {
   "id": 20233689,
-  "updated": "2023-06-20T21:18:46Z",
+  "updated": "2025-06-30T15:30:57Z",
   "additionalIndexing": "34;09",
   "affairType": {
     "abbreviation": "Ip.",
@@ -40,10 +40,20 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Pas de discussion demandée",
+            "type": 88
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2023-08-23T00:00:00Z"
       },
       "index": 0,
       "links": [
@@ -56,13 +66,28 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DDPS",
+          "id": 6,
+          "name": "Département de la défense, de la protection de la population et des sports",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686693600000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1692741600000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1695938400000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -102,19 +127,33 @@
   ],
   "shortId": "23.3689",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>1./2. Le Conseil fédéral est conscient des dangers que représente l’informatique quantique, notamment pour certains procédés cryptographiques largement utilisés aujourd’hui. Le service de la Confédération spécialisé en la matière a défini des exigences internes de sécurité. Dans le cadre du traitement d’informations classifiées SECRET, il recommande depuis dix ans déjà d’utiliser exclusivement des procédures qui, en l’état actuel des connaissances, offrent aussi suffisamment de protection contre les ordinateurs quantiques. Concrètement, depuis 2014, les nouveaux systèmes de chiffrement acquis pour le niveau de classification SECRET se basent sur des procédures symétriques avec une longueur de clé d'au moins 256&nbsp;bits. Le risque que les informations hautement sensibles soient enregistrées aujourd’hui et déchiffrées ultérieurement est ainsi minimalisé.</p><p>Au vu de l’évolution technologique constante dans le domaine, la Confédération suit le sujet de manière systématique et étudie les questions pertinentes en matière de cryptologie. La Stratégie nationale de protection de la Suisse contre les cyberrisques (SNPC) 2018&nbsp;–&nbsp;2022 a permis de mettre en place un monitorage des technologies concernées dans le domaine de la cybersécurité. Celui-ci est assuré par le Campus cyberdéfense (CYD Campus) d’armasuisse Science et technologie en collaboration avec le Centre national pour la cybersécurité (NCSC). À partir de l’automne&nbsp;2023, le Campus cyberdéfense introduira un suivi spécifique pour l’informatique quantique.</p><p>Dans le cadre du programme de recherche Cyberespace établi au sein d’armasuisse Science et technologie, la Confédération étudie en outre les opportunités et les risques d’un passage à l’informatique quantique ainsi que la sécurité et la faisabilité des procédés de chiffrement actuels et futurs.&nbsp;</p><p>3./4. Comme évoqué précédemment, la Confédération suit les évolutions de près. Des instituts de recherche suisses participent depuis 2017 au processus de sélection mené par le National Institute of Standards and Technology (NIST, États-Unis) pour la standardisation de la cryptographie post-quantique. Le processus en question devrait s’achever en 2024. On peut s’attendre à ce que les nouvelles normes soient ensuite davantage implémentées, tant dans les produits industriels que dans les solutions <i>open source</i>. Le Conseil fédéral va examiner dans quelle mesure ces nouvelles solutions devraient également être appliquées aux informations moins sensibles, afin d’assurer leur protection contre une attaque perpétrée à l’aide d’un ordinateur quantique.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>L’informatique quantique progresse actuellement à pas de géant. Certes, on ne peut pas encore prédire quand les ordinateurs quantiques performants et stables prédomineront, mais tout le monde s’accorde à dire qu’ils seront à l’origine de nouveaux problèmes de sécurité. Certaines technologies de chiffrement deviendront vulnérables aux attaques à grande échelle commises au moyen d’ordinateurs quantiques. On suppose que des criminels volent déjà des données chiffrées pour les déchiffrer plus tard à l’aide de la technologique quantique (steal now, decrypt later). Dans ce contexte, je prie le Conseil fédéral de répondre aux questions suivantes&nbsp;:</p><p>1. S’est-il penché sur les dangers que représente l’informatique quantique pour les données chiffrées de l’administration et des autorités, notamment de l’armée, des entreprises étatiques et des institutions d’importance systémique comme la BNS&nbsp;?</p><p>2. Selon lui, dans quels domaines est-il nécessaire d’agir contre ce danger&nbsp;?</p><p>3. Est-il prêt à vérifier que les technologies, les fichiers de données et les systèmes utilisés actuellement répondent à des normes de sécurité quantique ou à réaliser les adaptations nécessaires&nbsp;?</p><p>4. Quel calendrier se fixe-t-il pour procéder à cette vérification et à la mise en œuvre des mesures nécessaires&nbsp;?</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Les systèmes de sécurité informatique de la Confédération face à la menace de l'informatique quantique"
     }
   ],
-  "title": "Titre suit"
+  "title": "Les systèmes de sécurité informatique de la Confédération face à la menace de l'informatique quantique"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20214516,
-  "updated": "2021-12-20T15:37:35Z",
+  "updated": "2025-11-14T07:35:33Z",
   "additionalIndexing": "48;2846",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,172 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-18T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-03-06T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "KVF-SR",
+            "id": 22,
+            "name": "Kommission für Verkehr und Fernmeldewesen SR",
+            "abbreviation1": "KVF-S",
+            "abbreviation2": "KVF",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "KVF-NR",
+            "id": 9,
+            "name": "Kommission für Verkehr und Fernmeldewesen NR",
+            "abbreviation1": "KVF-N",
+            "abbreviation2": "KVF",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-16T11:31:32Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3065,
+                    "gender": "m",
+                    "id": 4189,
+                    "name": "Burkart Thierry",
+                    "officialDenomination": "Burkart"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639609200000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1644966000000+0100)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1694988000000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1705359600000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1709679600000+0100)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -111,7 +254,7 @@
         "gender": "m",
         "id": 4070,
         "name": "Candinas Martin",
-        "officialDenomination": "Candinas"
+        "officialDenomination": "Candinas Martin"
       },
       "type": "cosign"
     },
@@ -234,12 +377,33 @@
   ],
   "shortId": "21.4516",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Die Hierarchie des Strassennetzes und die Funktionen der verschiedenen Strassentypen müssen in der Schweiz erhalten bleiben. Sie haben sich bestens etabliert und gewährleisten einen effizienten und flüssigen Verkehrsfluss vom MIV, dem Güterverkehr bis hin zum öffentlichen Verkehr.</p><p>Gegenwärtig verbreitet sich die Geschwindigkeitsbegrenzung innerorts auf 30 km/h in vielen Städten und Gemeinden auf chaotische Weise, auch auf verkehrsorientierten Strassen. Dies führt zu einer Schwächung der Funktionalität des Strassennetzes und dazu, dass die Verkehrsteilnehmer die geltenden Regelungen (generell Tempo-50, Abschnitt Tempo-30, Tempo-30-Zone oder Begegnungszone) weniger gut erkennen, was auch bezüglich dem strengen schweizerischen Sanktionssystems problematisch ist.</p><p>Eine klare Hierarchie, sowohl ausser- wie auch innerorts, ist jedoch von entscheidender Bedeutung, um jedem Strassentyp eine bestimmte Funktion zuzuweisen. Innerorts besteht bei verkehrsorientierten Strassen die Funktion darin, den Verkehr zu leiten, zu verbinden und zu sammeln. Hier ist die Geschwindigkeit, bis auf einige Ausnahmen, einheitlich auf 50 km/h zu begrenzen. Dagegen dienen Siedlungsstrassen dazu, den Verkehr in den Wohnvierteln zu sammeln und zu bedienen. Auf solchen Strassen kann die Geschwindigkeitsbegrenzung auf 30 km/h gesenkt werden, wenn dies von den betroffenen Anwohnern und Behörden gewünscht wird. Schliesslich haben in Wohnvierteln Tempo-30-Zonen und Begegnungszonen (20 km/h) ihre Berechtigung.</p><p>Eine leistungsfähige Verkehrsführung reduziert den Umwegverkehr in die Quartiere und steigert dadurch dort die Verkehrssicherheit.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat hat am 10. November 2021 einen Vorschlag in die Vernehmlassung gegeben, um die Anordnung von Tempo-30-Zonen auf siedlungsorientierten Strassen innerorts zu erleichtern. Für die Anordnung von Tempo-30-Zonen auf siedlungsorientierten Strassen soll künftig auf ein Gutachten verzichtet werden können. Zudem sollen Tempo-30-Zonen, wie die übrigen Verkehrsanordnungen und-beschränkungen, auch aus weiteren in den örtlichen Verhältnissen liegenden Gründen eingerichtet werden können (z. B. Aufenthaltsqualität). Heute können Tempo-30-Zonen nur zur Verminderung besonderer Gefahren im Strassenverkehr, zur Reduktion einer übermässigen Umweltbelastung oder zur Verbesserung des Verkehrsflusses angeordnet werden.</p><p>Auf den verkehrsorientierten Strassen soll weiterhin grundsätzlich Tempo 50 innerorts gelten und an den heutigen Voraussetzungen für Geschwindigkeitsreduktionen, namentlich der Prüfung der Verhältnismässigkeit im Einzelfall, soll festgehalten werden. Damit wird sichergestellt, dass die Funktionen des übergeordneten Verkehrsnetzes nicht gefährdet werden und der Verkehr auf diesem übergeordneten Netz bleibt. Die Städte und Gemeinden halten sich heute bei der Anordnung von Geschwindigkeitsreduktionen auf verkehrsorientierten Strassen an das geltende Recht.</p><p>Das Vernehmlassungsverfahren dauert bis zum 25. Februar 2022. In der Folge wird der Bundesrat das weitere Vorgehen gestützt auf die Ergebnisse des Vernehmlassungsverfahrens festlegen. Die vom Motionär geforderte Verschärfung bei der Anordnung von Geschwindigkeitsreduktionen auf verkehrsorientierten Strassen lehnt er ab.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, die Bestimmungen des Strassenverkehrsgesetzes (SVG; SR 741.01) so anzupassen, dass die Hierarchie und die verschiedenen Funktionen des Schweizer Strassennetzes innerorts und ausserorts respektiert werden. Die neuen Bestimmungen sollen nicht nur die Funktionen der verschiedenen Strassen erhalten, wie sie in den VSS-Normen festgelegt sind, sondern auch die entsprechenden Geschwindigkeitsbegrenzungen, insbesondere 50 km/h auf den innerörtlichen verkehrsorientierten Strassen und die Möglichkeit, die Geschwindigkeit auf 30 km/h auf Siedlungsstrassen zu reduzieren. Diese gesetzliche Klarstellung wird in der Folge eine Revision der Verordnung zum Strassenverkehrsgesetz bezüglich der Bezeichnung der innerörtlichen Strassen ermöglichen.</p>"
+    },
     {
       "type": {
         "id": 1,

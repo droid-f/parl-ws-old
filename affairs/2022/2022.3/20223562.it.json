@@ -1,6 +1,6 @@
 {
   "id": 20223562,
-  "updated": "2022-06-10T12:30:35Z",
+  "updated": "2025-12-16T07:38:39Z",
   "additionalIndexing": "2841;08;10",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-04-17T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-12-15T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-24T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSS-CS",
+            "id": 19,
+            "name": "Commissione della sicurezza sociale e della sanità CS",
+            "abbreviation1": "CSSS-S",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-10-21T17:01:49Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2600,
+                    "gender": "f",
+                    "id": 1106,
+                    "name": "Häberli-Koller Brigitte",
+                    "officialDenomination": "Häberli-Koller"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSS-CN",
+            "id": 6,
+            "name": "Commissione della sicurezza sociale e della sanità",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +179,38 @@
       "states": [
         {
           "date": "/Date(1654639200000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1661292000000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1713304800000+0200)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1757282400000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1760911200000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1764111600000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1765753200000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -95,7 +238,7 @@
         "gender": "m",
         "id": 4190,
         "name": "Dobler Marcel",
-        "officialDenomination": "Dobler"
+        "officialDenomination": "Dobler Marcel"
       },
       "type": "cosign"
     },
@@ -137,19 +280,40 @@
   ],
   "shortId": "22.3562",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Il 18 giugno 2021 le Camere hanno adottato l'articolo della LAMal riguardante i progetti pilota. Fra i progetti ipotizzabili, la legge prevede la possibilità di assunzione dei costi delle prestazioni fornite all'estero al di fuori della cooperazione transfrontaliera di cui all'articolo 34 capoverso 2.</p><p>È risaputo che talune prestazioni mediche sono fornite a tariffe ampiamente più vantaggiose nei Paesi limitrofi, senza che vi siano per forza spiegazioni oggettive. È il caso per esempio nel settore dei medicamenti generici.</p><p>Benché la legge preveda che siano gli stessi attori a farsene promotori, nulla impedisce alla Confederazione di svolgere un ruolo proattivo affinché sia presentata una domanda per un simile progetto pilota. Considerata l'urgenza di intervenire sui costi sanitari, si propone di non attendere e di anticipare l'entrata in vigore dell'articolo riguardante i progetti pilota.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>L'autorizzazione di progetti pilota è una delle principali misure proposte per porre un freno all'aumento dei costi. Il pertinente articolo 59b della legge federale sull'assicurazione malattie (LAMal; RS 832.10) è stato adottato dalle Camere (FF 2021 1496) e deve essere concretizzato a livello di ordinanza. Il corrispondente progetto è stato posto in consultazione (<a href=\"file://///parlmain.admin.ch/shares/Zentrales_Sekretariat/Bundesratsantworten/www.fedlex.admin.ch\">www.fedlex.admin.ch</a> &gt; Procedure di consultazione &gt; Procedure di consultazione concluse &gt; 2022) e attualmente è in corso l'analisi dei pareri. L'insieme di questo quadro giuridico entrerà in vigore presumibilmente il 1° gennaio 2023.</p><p>Scopo dell'articolo sui progetti pilota è permettere ai Cantoni, ai partner tariffali e alle organizzazioni dei pazienti di realizzare, al di fuori del quadro legale della LAMal, progetti pilota innovativi che permettano di ridurre i costi. Di norma i progetti pilota devono essere presentati da uno o più di questi attori congiuntamente. Il loro finanziamento dev'essere assicurato dai titolari dell'autorizzazione: non ci si può attendere alcun sussidio né alcuna partecipazione da parte dalle Confederazione (FF 2019 4981, 5074). Il legislatore non ha quindi previsto alcuna partecipazione finanziaria della Confederazione a simili progetti pilota.</p><p>La domanda di autorizzazione per un progetto pilota può essere presentata su base volontaria. Il DFI non dispone pertanto di alcuna base legale per intraprendere di sua iniziativa i passi necessari per attuare un progetto pilota. Tuttavia, si tiene a disposizione sia del o dei richiedenti sia del o dei responsabili del progetto per sostenerli durante tutto il processo, di modo che il progetto possa essere attuato correttamente e nel rispetto dei requisiti legali previsti per l'autorizzazione e la valutazione.</p><p>Inoltre, l'assunzione dei costi nel quadro della cooperazione transfrontaliera è disciplinata dall'articolo 36a dell'ordinanza sull'assicurazione malattie (OAMal; RS 832.102). Questa disposizione mira a rafforzare le regioni di frontiera svizzere e a migliorare l'offerta di cure che vi è proposta.</p><p>Per concludere va ricordato che nel 2021 il Consiglio federale ha pubblicato un rapporto in cui sono analizzati le opportunità e i rischi di un'abrogazione o di un allentamento del principio di territorialità nell'ambito dei mezzi e degli apparecchi (disponibile soltanto in tedesco e francese: www.bag.admin.ch &gt; Das BAG &gt; Publikationen &gt; Bundesratsberichte &gt; 2021 &gt; Vergütung im Rahmen der OKP von privat im Ausland bezogenen Mitteln und Gegenständen / Remboursement, dans le cadre de l'AOS, de moyens et appareils acquis à titre privé à l'étranger).</p>  Il Consiglio federale propone di respingere la mozione."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di intraprendere i passi necessari per attuare un progetto pilota ai sensi dell'articolo 59b capoverso 2 lettera b LAMal (progetti pilota) a partire dall'entrata in vigore della modifica di legge del 18 giugno 2021.</p><p>Scopo del progetto pilota sarà testare e valutare l'efficacia in termini di costi dell'abrogazione del principio di territorialità in relazione alla remunerazione delle prestazioni mediche fornite nei Paesi limitrofi.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "LAMal. Un progetto pilota per la remunerazione delle prestazioni mediche fornite nei Paesi limitrofi"
     }
   ],
-  "title": "Titolo segue"
+  "title": "LAMal. Un progetto pilota per la remunerazione delle prestazioni mediche fornite nei Paesi limitrofi"
 }

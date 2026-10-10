@@ -1,6 +1,6 @@
 {
   "id": 20214512,
-  "updated": "2022-06-08T18:45:32Z",
+  "updated": "2025-09-23T09:50:52Z",
   "additionalIndexing": "34;09;1216;15;04",
   "affairType": {
     "abbreviation": "Po.",
@@ -70,6 +70,21 @@
             "date": "2022-06-08T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2025-09-18T00:00:00Z",
+            "text": "Abschreibung im Rahmen eines anderen Geschäfts",
+            "type": 0
           }
         ]
       },
@@ -83,7 +98,27 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "SiK-NR",
+            "id": 8,
+            "name": "Sicherheitspolitische Kommission NR",
+            "abbreviation1": "SiK-N",
+            "abbreviation2": "SiK",
+            "committeeNumber": 8,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-12-24T00:00:00Z",
+          "registrations": [
 
+          ]
+        }
       ],
       "references": [
 
@@ -93,6 +128,12 @@
           "abbreviation": "EFD",
           "id": 7,
           "name": "Finanzdepartement",
+          "leading": false
+        },
+        {
+          "abbreviation": "VBS",
+          "id": 6,
+          "name": "Departement für Verteidigung, Bevölkerungsschutz und Sport",
           "leading": true
         }
       ],
@@ -104,8 +145,23 @@
         },
         {
           "date": "/Date(1654639200000+0200)/",
-          "id": 26,
-          "name": "Angenommen"
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
+        },
+        {
+          "date": "/Date(1731452400000+0100)/",
+          "id": 218,
+          "name": "Bericht in Erfüllung des Vorstosses liegt vor"
+        },
+        {
+          "date": "/Date(1743544800000+0200)/",
+          "id": 216,
+          "name": "Abschreibungsantrag liegt vor"
+        },
+        {
+          "date": "/Date(1758146400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -113,11 +169,6 @@
       ]
     }
   ],
-  "handling": {
-    "date": "2022-06-08T00:00:00Z",
-    "legislativePeriod": 51,
-    "session": "5115"
-  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -331,9 +382,9 @@
   ],
   "shortId": "21.4512",
   "state": {
-    "id": 26,
-    "name": "Angenommen",
-    "doneKey": "3",
+    "id": 229,
+    "name": "Erledigt",
+    "doneKey": "0",
     "newKey": 0
   },
   "texts": [
@@ -343,6 +394,13 @@
         "name": "Begründung"
       },
       "value": "<p>Beinahe wöchentlich werden Fälle von Ransomware-Angriffen auf Schweizer Unternehmen und Organisationen bekannt. Seit Januar 2020 wurden dem Nationalen Zentrum für Cybersicherheit (NCSC) 185 solche Angriffsversuche gemeldet. Da die Schweiz keine Meldepflicht für Cyber-Angriffe kennt, dürfte die effektive Anzahl an Angriffen noch deutlich höher liegen.  </p><p>Die Schweiz ist - wie alle hoch entwickelten Länder - ein attraktives Ziel für solche Angriffe. Leider muss auch festgestellt werden, dass immer wieder Lösegeld bezahlt wird, obwohl Behörden darauf hinweisen, dass durch Lösegeldzahlungen das Geschäftsmodell der Kriminellen gestützt wird. Mit jeder Zahlung steigt die Bedrohung, weil die Kriminellen die Ressource nutzen können, um ihre Angriffe fortzuführen und weiterzuentwickeln. Aufgrund der Ausmasse solcher Angriffe ist es Aufgabe und im Interesse des Staates, solchen Cyberbedrohungen in Zukunft gezielter entgegenzutreten</p><p>Es muss dem Staat gelingen, dieser Bedrohung gezielter entgegenzutreten. Es ist zu klären, ob mindestens für Unternehmen mit öffentlichem Auftrag Massnahmen zur Erhöhung der Cybersicherheit vorgeschrieben werden sollen. Es soll auch geprüft werden, ob eine generelle Meldepflicht für Lösegeldzahlungen nach Ransomware-Angriffen eingeführt werden soll. Diese sollte zusätzlich mit einer Pflicht verbunden werden, die Behörden bei den Verhandlungen mit Cyberkriminellen zu involvieren und dadurch die Informationsbasis für die Strafverfolgung zu verbessern. Zusätzlich soll der Informationsaustausch gestärkt werden. Das NCSC, die Ermittlungsbehörden, private Security Incident Response Firmen und die Versicherungen verfügen über Angaben zu erfolgreichen oder versuchten Ransomware-Angriffen, jedoch werden solche Informationen heute nicht zentral erfasst, weshalb heute ein verlässliches Lagebild zu Ransomware fehlt. </p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "Der Bundesrat beantragt die Annahme des Postulates."
     },
     {
       "type": {

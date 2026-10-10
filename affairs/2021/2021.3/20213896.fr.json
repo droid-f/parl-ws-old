@@ -1,6 +1,6 @@
 {
   "id": 20213896,
-  "updated": "2023-06-14T07:40:56Z",
+  "updated": "2025-11-14T07:22:31Z",
   "additionalIndexing": "55;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,36 @@
             "date": "2023-06-13T00:00:00Z",
             "text": "Adoption",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-03-11T00:00:00Z",
+            "text": "Adoption avec modification",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-05-30T00:00:00Z",
+            "text": "Adhésion",
+            "type": 3
           }
         ]
       },
@@ -67,7 +97,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-20T14:48:48Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2575,
+                    "gender": "m",
+                    "id": 825,
+                    "name": "Germann Hannes",
+                    "officialDenomination": "Germann"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CN",
+            "id": 10,
+            "name": "Commission de l'économie et des redevances CN",
+            "abbreviation1": "CER-N",
+            "abbreviation2": "CER",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-18T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CE",
+            "id": 23,
+            "name": "Commission de l'économie et des redevances CE",
+            "abbreviation1": "CER-E",
+            "abbreviation2": "CER",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-18T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +199,53 @@
         },
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 11,
-          "name": "Motion au 2e conseil"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1704063600000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1708383600000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1710111600000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1711148400000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1713823200000+0200)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1717020000000+0200)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
         }
       ],
       "texts": [
@@ -129,10 +285,9 @@
   ],
   "shortId": "21.3896",
   "state": {
-    "id": 11,
-    "name": "Motion au 2e conseil",
+    "id": 209,
+    "name": "Transmis au Conseil fédéral",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -141,14 +296,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Conformément à l'ordonnance sur la BDTA, les détenteurs d'animaux peuvent exiger de connaître le poids mort. Par arrêt du 25 novembre 2020 du Tribunal administratif fédéral, la communication du poids mort a été annulée, faute de base légale, pour des questions de protection des données. </p><p>Or il est très important de pouvoir communiquer le poids mort et la taxation selon CH-TAX pour les raisons suivantes :</p><p>- Elevage et mise en oeuvre de la stratégie de sélection animale de la Confédération. La Stratégie de sélection animale à l'horizon 2030 de la Confédération donne la même importance aux aspects économiques qu'aux principes directeurs d'ordre social et écologique pour un élevage durable. L'efficience et la rentabilité en font partie, car les produits doivent être adaptés au marché. Pour remplir ces tâches, en particulier pour estimer les valeurs d'élevage, les organisations d'élevage et les fournisseurs de génétique ont besoin de nombreuses données de tous ordres.</p><p>- Promotion de la qualité et production conforme au marché. Les producteurs doivent livrer des animaux à l'engrais qui remplissent des critères précis. Lorsque ces critères ne sont pas suffisamment respectés, les producteurs sont sanctionnés par des déductions. Les données d'abattage, dont le poids mort, sont nécessaires aux producteurs pour que la qualité de leurs animaux à l'engrais soit conforme au marché et aussi irréprochable que possible.</p><p>- Transparence dans la chaîne de création de valeur. Outre la taxation CH-TAX, le poids mort est nécessaire pour appliquer correctement les usages commerciaux. Tant les engraisseurs que les éleveurs ont besoin de ces données, y compris le poids mort, pour prendre leurs décisions. Ce n'est que sur la base de données fiables qu'ils peuvent prendre les décisions qui s'imposent dans leur domaine d'activité.</p><p>- Informations en faveur de l'avant-dernier propriétaire. Etant donné que les animaux sont fréquemment amenés à l'abattoir par l'entremise d'un commerçant, il faut au moins que l'avant-dernier propriétaire, c'est-à-dire agriculteur ayant détenu l'animal, puisse lui aussi consulter et utiliser les informations concernant le poids mort.</p>"
+      "value": "<p>Conformément à l'ordonnance sur la BDTA, les détenteurs d'animaux peuvent exiger de connaître le poids mort. Par arrêt du 25 novembre 2020 du Tribunal administratif fédéral, la communication du poids mort a été annulée, faute de base légale, pour des questions de protection des données. </p><p>Or il est très important de pouvoir communiquer le poids mort et la taxation selon CH-TAX pour les raisons suivantes :</p><p>- Élevage et mise en oeuvre de la stratégie de sélection animale de la Confédération. La Stratégie de sélection animale à l'horizon 2030 de la Confédération donne la même importance aux aspects économiques qu'aux principes directeurs d'ordre social et écologique pour un élevage durable. L'efficience et la rentabilité en font partie, car les produits doivent être adaptés au marché. Pour remplir ces tâches, en particulier pour estimer les valeurs d'élevage, les organisations d'élevage et les fournisseurs de génétique ont besoin de nombreuses données de tous ordres.</p><p>- Promotion de la qualité et production conforme au marché. Les producteurs doivent livrer des animaux à l'engrais qui remplissent des critères précis. Lorsque ces critères ne sont pas suffisamment respectés, les producteurs sont sanctionnés par des déductions. Les données d'abattage, dont le poids mort, sont nécessaires aux producteurs pour que la qualité de leurs animaux à l'engrais soit conforme au marché et aussi irréprochable que possible.</p><p>- Transparence dans la chaîne de création de valeur. Outre la taxation CH-TAX, le poids mort est nécessaire pour appliquer correctement les usages commerciaux. Tant les engraisseurs que les éleveurs ont besoin de ces données, y compris le poids mort, pour prendre leurs décisions. Ce n'est que sur la base de données fiables qu'ils peuvent prendre les décisions qui s'imposent dans leur domaine d'activité.</p><p>- Informations en faveur de l'avant-dernier propriétaire. Étant donné que les animaux sont fréquemment amenés à l'abattoir par l'entremise d'un commerçant, il faut au moins que l'avant-dernier propriétaire, c'est-à-dire agriculteur ayant détenu l'animal, puisse lui aussi consulter et utiliser les informations concernant le poids mort.</p>"
     },
     {
       "type": {
         "id": 14,
         "name": "Réponse CF / Bureau"
       },
-      "value": "<p>Le Conseil fédéral peut comprendre les préoccupations de l'auteur de la motion. Néanmoins, il est d'avis qu'il faut, pour des raisons de coûts et pour des raisons administratives, limiter l'obligation de déclarer les données concernant le poids mort aux seuls grands abattoirs visés aux art. 3 et suivants de l'ordonnance du 26 novembre 2003 sur le bétail de boucherie (OBB ; RS 916.341), qui pratiquent une taxation neutre de la qualité des animaux abattus. De même, le Conseil fédéral estime qu'il est important pour l'agriculture de pouvoir consulter les données relatives au poids mort des animaux abattus et aux résultats du classement des carcasses. Le poids mort devrait donc être communiqué à toutes les personnes qui ont pris part à l'élevage de l'animal, de telle sorte que même les éleveurs qui ne sont ni le dernier ni l'avant-dernier de ceux qui se sont succédés dans l'élevage de l'animal aient accès à ces informations utiles à l'activité de sélection animale. L'art. 18 de l'ordonnance du 26 octobre 2011 relative à la banque de données sur le trafic des animaux (ordonnance sur la BDTA ; RS 916.404.1) autorise déjà les syndicats d'élevage à consulter des données (telles que le poids mort) à des fins zootechniques, pour autant qu'ils s'engagent par écrit à obéir aux dispositions sur la protection des données. De l'avis du Conseil fédéral, la législation actuelle satisfait donc déjà à la demande de l'auteur de la motion.</p><p>Si la motion devait être acceptée par le premier conseil, le Conseil fédéral se réserve le droit de soumettre une proposition de modification au second conseil, qui limitera l'obligation de déclarer les données concernant le poids mort aux abattoirs pratiquant une taxation neutre de la qualité des animaux abattus conformément à l'art. 3 ss OBB et qui permettra de communiquer le poids mort à tous les anciens détenteurs d'un animal. De plus, la requête de l'auteur de la motion concernant l'accès des organisations d'élevage aux données importantes au plan zootechnique, qui a déjà été mise en oeuvre, sera supprimée du texte de la motion.</p>"
+      "value": "<p>Le Conseil fédéral peut comprendre les préoccupations de l'auteur de la motion. Néanmoins, il est d'avis qu'il faut, pour des raisons de coûts et pour des raisons administratives, limiter l'obligation de déclarer les données concernant le poids mort aux seuls grands abattoirs visés aux art. 3 et suivants de l'ordonnance du 26 novembre 2003 sur le bétail de boucherie (OBB ; RS 916.341), qui pratiquent une taxation neutre de la qualité des animaux abattus. De même, le Conseil fédéral estime qu'il est important pour l'agriculture de pouvoir consulter les données relatives au poids mort des animaux abattus et aux résultats du classement des carcasses. Le poids mort devrait donc être communiqué à toutes les personnes qui ont pris part à l'élevage de l'animal, de telle sorte que même les éleveurs qui ne sont ni le dernier ni l'avant-dernier de ceux qui se sont succédés dans l'élevage de l'animal aient accès à ces informations utiles à l'activité de sélection animale. L'art. 18 de l'ordonnance du 26 octobre 2011 relative à la banque de données sur le trafic des animaux (ordonnance sur la BDTA ; RS 916.404.1) autorise déjà les syndicats d'élevage à consulter des données (telles que le poids mort) à des fins zootechniques, pour autant qu'ils s'engagent par écrit à obéir aux dispositions sur la protection des données. De l'avis du Conseil fédéral, la législation actuelle satisfait donc déjà à la demande de l'auteur de la motion.</p><p>Si la motion devait être acceptée par le premier conseil, le Conseil fédéral se réserve le droit de soumettre une proposition de modification au second conseil, qui limitera l'obligation de déclarer les données concernant le poids mort aux abattoirs pratiquant une taxation neutre de la qualité des animaux abattus conformément à l'art. 3 ss OBB et qui permettra de communiquer le poids mort à tous les anciens détenteurs d'un animal. De plus, la requête de l'auteur de la motion concernant l'accès des organisations d'élevage aux données importantes au plan zootechnique, qui a déjà été mise en oeuvre, sera supprimée du texte de la motion.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {

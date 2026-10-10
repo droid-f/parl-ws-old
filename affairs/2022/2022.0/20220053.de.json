@@ -1,6 +1,6 @@
 {
   "id": 20220053,
-  "updated": "2023-01-11T09:19:20Z",
+  "updated": "2026-02-10T20:06:22Z",
   "additionalIndexing": "2446;24;2841",
   "affairType": {
     "abbreviation": "BRG",
@@ -34,7 +34,7 @@
             "abbreviation": "WAK-NR",
             "id": 10,
             "name": "Kommission für Wirtschaft und Abgaben NR",
-            "abbreviation1": "WAK-NR",
+            "abbreviation1": "WAK-N",
             "abbreviation2": "WAK",
             "committeeNumber": 10,
             "council": {
@@ -56,7 +56,7 @@
             "abbreviation": "WAK-SR",
             "id": 23,
             "name": "Kommission für Wirtschaft und Abgaben SR",
-            "abbreviation1": "WAK-SR",
+            "abbreviation1": "WAK-S",
             "abbreviation2": "WAK",
             "committeeNumber": 23,
             "council": {
@@ -70,7 +70,8 @@
           "date": "2022-06-22T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "IIIa/IV"
         }
       ],
       "references": [
@@ -111,8 +112,23 @@
         },
         {
           "date": "/Date(1670454000000+0100)/",
-          "id": 3,
-          "name": "Behandelt vom Ständerat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1688680800000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1693519200000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1695074400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -142,6 +158,21 @@
             "date": "2022-12-08T00:00:00Z",
             "text": "Nichteintreten",
             "type": 67
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-19T00:00:00Z",
+            "text": "Nichteintreten",
+            "type": 67
           }
         ]
       },
@@ -157,7 +188,7 @@
             "abbreviation": "WAK-NR",
             "id": 10,
             "name": "Kommission für Wirtschaft und Abgaben NR",
-            "abbreviation1": "WAK-NR",
+            "abbreviation1": "WAK-N",
             "abbreviation2": "WAK",
             "committeeNumber": 10,
             "council": {
@@ -173,7 +204,8 @@
             {
               "correspondents": [
 
-              ]
+              ],
+              "sessionId": "5122"
             }
           ],
           "treatmentCategory": "IIIa/IV"
@@ -183,7 +215,7 @@
             "abbreviation": "WAK-SR",
             "id": 23,
             "name": "Kommission für Wirtschaft und Abgaben SR",
-            "abbreviation1": "WAK-SR",
+            "abbreviation1": "WAK-S",
             "abbreviation2": "WAK",
             "committeeNumber": 23,
             "council": {
@@ -222,6 +254,99 @@
                 }
               ],
               "sessionId": "5117"
+            }
+          ],
+          "treatmentCategory": "IIIa/IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-09-01T15:14:53Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3016,
+                    "gender": "f",
+                    "id": 4102,
+                    "name": "Bertschy Kathrin",
+                    "officialDenomination": "Bertschy"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion GL",
+                    "code": "GL",
+                    "id": 137,
+                    "name": "Grünliberale Fraktion"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-09-01T15:15:04Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3114,
+                    "gender": "m",
+                    "id": 4213,
+                    "name": "Bendahan Samuel",
+                    "officialDenomination": "Bendahan"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion S",
+                    "code": "S",
+                    "id": 2,
+                    "name": "Sozialdemokratische Fraktion"
+                  },
+                  "language": "fr"
+                }
+              ]
             }
           ]
         }
@@ -264,8 +389,23 @@
         },
         {
           "date": "/Date(1670454000000+0100)/",
-          "id": 3,
-          "name": "Behandelt vom Ständerat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1688680800000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1693519200000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1695074400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -297,8 +437,8 @@
   ],
   "shortId": "22.053",
   "state": {
-    "id": 3,
-    "name": "Behandelt vom Ständerat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },

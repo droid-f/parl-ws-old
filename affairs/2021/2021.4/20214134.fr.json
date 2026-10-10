@@ -1,6 +1,6 @@
 {
   "id": 20214134,
-  "updated": "2021-10-01T10:28:36Z",
+  "updated": "2025-11-14T06:40:21Z",
   "additionalIndexing": "48;52;55",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-14T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-09-16T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2021-11-17T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-07-01T13:44:57Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3108,
+                    "gender": "m",
+                    "id": 4207,
+                    "name": "Müller Damian",
+                    "officialDenomination": "Müller Damian"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CN",
+            "id": 10,
+            "name": "Commission de l'économie et des redevances CN",
+            "abbreviation1": "CER-N",
+            "abbreviation2": "CER",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CE",
+            "id": 23,
+            "name": "Commission de l'économie et des redevances CE",
+            "abbreviation1": "CER-E",
+            "abbreviation2": "CER",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +179,28 @@
       "states": [
         {
           "date": "/Date(1632866400000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1637103600000+0100)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1694642400000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1720044000000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1726437600000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -271,10 +404,10 @@
   ],
   "shortId": "21.4134",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -282,7 +415,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Le nombre d'abattoirs a diminué au cours des dernières années. Les itinéraires de transport courts peuvent en principe contribuer au bien-être des animaux. Or, selon la réponse du Conseil fédéral à l'interpellation 19.4089, il n'existe aucune base légale pour la promotion des structures décentralisées ou pour l'exploitation d'abattoirs régionaux. Aujourd'hui, les animaux de boucherie des régions de montagne, notamment ceux qui sont issus de programmes portant sur les contributions au bien-être animal, doivent être rassemblés à grands frais dans des stations intermédiaires, puis transportés sur de longues distances vers le Plateau ou vers Bâle. Ces longs itinéraires de transport sont synonymes de stress pour les animaux qui ont été détenus tout au long de leur vie selon des normes élevées en matière de bien-être animal. </p><p>Il est vrai que les exploitations des régions de montagne ou celles qui transforment des produits issus de ces régions peuvent recevoir des aides de la Confédération. Mais ces aides ne suffisent pas à empêcher la fermeture des abattoirs dans les zones rurales. Par conséquent, les animaux de boucherie souffrent, car ils doivent être transportés de plus en plus loin. </p><p>L'année dernière, l'abattage à la ferme ou au pâturage a également été inscrit dans l'ordonnance concernant l'abattage et le contrôle des viandes. Etant donné que ces méthodes de mise à mort exigent que les animaux soient transportés vers un abattoir proche après avoir été étourdis et saignés dans l'exploitation, des capacités d'abattage décentralisées sont nécessaires. Pour ces raisons, il faut créer une base légale qui permette de soutenir les capacités d'abattage régionales.</p>"
+      "value": "<p>Le nombre d'abattoirs a diminué au cours des dernières années. Les itinéraires de transport courts peuvent en principe contribuer au bien-être des animaux. Or, selon la réponse du Conseil fédéral à l'interpellation 19.4089, il n'existe aucune base légale pour la promotion des structures décentralisées ou pour l'exploitation d'abattoirs régionaux. Aujourd'hui, les animaux de boucherie des régions de montagne, notamment ceux qui sont issus de programmes portant sur les contributions au bien-être animal, doivent être rassemblés au prix de grands efforts dans des stations intermédiaires, puis transportés sur de longues distances vers le Plateau ou vers Bâle. Ces longs itinéraires de transport sont synonymes de stress pour les animaux qui ont été détenus tout au long de leur vie selon des normes élevées en matière de bien-être animal. </p><p>Il est vrai que les exploitations des régions de montagne ou celles qui transforment des produits issus de ces régions peuvent recevoir des aides de la Confédération. Mais ces aides ne suffisent pas à empêcher la fermeture des abattoirs dans les zones rurales. Par conséquent, les animaux de boucherie souffrent, car ils doivent être transportés de plus en plus loin. </p><p>L'année dernière, l'abattage à la ferme ou au pâturage a également été inscrit dans l'ordonnance concernant l'abattage et le contrôle des viandes. Étant donné que ces méthodes de mise à mort exigent que les animaux soient transportés vers un abattoir proche après avoir été étourdis et saignés dans l'exploitation, des capacités d'abattage décentralisées sont nécessaires. Pour ces raisons, il faut créer une base légale qui permette de soutenir les capacités d'abattage régionales.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Les animaux de boucherie doivent être abattus dans des abattoirs autorisés qui doivent respecter des règles strictes en matière d'hygiène et de protection des animaux, et sont soumis au devoir d'autocontrôle. Les autorités vétérinaires cantonales compétentes examinent, lors de contrôles officiels, si la protection des animaux et la sécurité des aliments sont garanties. Pour sa part, l'Office fédéral de la sécurité alimentaire et des affaires vétérinaires vérifie régulièrement, dans le cadre de la haute surveillance, que les cantons appliquent comme il se doit les législations sur les épizooties, la protection des animaux et les denrées alimentaires.</p><p>Si des transports de courte durée jusqu'aux abattoirs peuvent contribuer au bien-être animal, une réglementation n'est cependant ni indiquée ni nécessaire. Selon la Banque de données sur le trafic des animaux, la Suisse disposait en 2020 de plus de 650 abattoirs autorisés, même si leur nombre a diminué ces dernières années. Nombre d'entre eux sont des établissements décentralisés. En comparaison internationale, le droit suisse sur la protection des animaux est sévère en termes de durée maximale du transport (huit heures, y compris la durée du trajet en Suisse) et d'exigences qualitatives du transport d'animaux.</p><p>Il incombe en premier lieu aux producteurs et aux distributeurs de déterminer respectivement où un animal est abattu et quels morceaux sont achetés, et de favoriser ainsi l'abattage de proximité. Certains cantons et organisations privées accordent aujourd'hui déjà des aides financières destinées à promouvoir les abattoirs régionaux (GR, par ex.). On pourrait aussi imaginer que des durées maximales de transport relevant du droit privé soient définies comme critère pour l'attribution de certains labels et qu'un prix plus élevé soit fixé pour les marchandises vendues sous ces labels.</p><p>L'art. 9a de l'ordonnance concernant l'abattage d'animaux et le contrôle des viandes (OAbCV ; RS 817.190) prévoit les possibilités de la mise à mort à la ferme ou au pré pour la production de viande (en vigueur depuis le 1.7.2020). Il crée une incitation supplémentaire pour la commercialisation de la viande à l'échelle locale.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {

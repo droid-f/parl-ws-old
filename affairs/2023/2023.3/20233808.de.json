@@ -1,6 +1,6 @@
 {
   "id": 20233808,
-  "updated": "2023-06-21T16:08:20Z",
+  "updated": "2025-09-18T15:30:18Z",
   "additionalIndexing": "2836;44",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,177 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-09-25T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-09-18T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-30T00:00:00Z",
+        "text": "Ablehnung"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "SGK-NR",
+            "id": 6,
+            "name": "Kommission für soziale Sicherheit und Gesundheit NR",
+            "abbreviation1": "SGK-N",
+            "abbreviation2": "SGK",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-07-09T12:10:53Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3052,
+                    "gender": "m",
+                    "id": 4151,
+                    "name": "Dittli Josef",
+                    "officialDenomination": "Dittli"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-SR",
+            "id": 19,
+            "name": "Kommission für soziale Sicherheit und Gesundheit SR",
+            "abbreviation1": "SGK-S",
+            "abbreviation2": "SGK",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686780000000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1693346400000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1727215200000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1727820000000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1748815200000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1750975200000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1758146400000+0200)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -294,10 +442,10 @@
   ],
   "shortId": "23.3808",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -305,7 +453,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>In der in der Regel stellen Versicherte bereits 6 Monate nach Beginn ihrer Arbeitsunfähigkeit ein Gesuch um Ausrichtung von IV-Leistungen. Die IV ist also schon früh involviert und kann mit Abklärungen beginnen. Hat der Arbeitgeber einer versicherten Person eine Krankentaggeldversicherung abgeschlossen oder ist die Arbeitsunfähigkeit unfallbedingt, ist der Erwerbsausfall vorerst abgedeckt. Dies ist aufgrund der Ausrichtung von IV- Taggeldern auch während der Durchführung von beruflichen Eingliederungsmassnahmen der Fall.</p><p>Sind die IV-Eingliederungsmassnahmen aber einmal abgeschlossen und geht der Fall an die IV-Rentenprüfung, fängt bei krankheitsbedingter Arbeitsunfähigkeit das lange Warten an: Die Rentenabklärungsverfahren dauern oft mehrere Jahre.</p><p>Die Folgen: Die Krankentaggeldleistungen sind schon lange ausgeschöpft, das persönliche Vermögen ist mittlerweile aufgebraucht, die Betroffenen verschulden sich und müssen in der Folge Sozialhilfe beziehen. Bis zum Abschluss des IV-Verfahrens müssen sie auf Sozialhilfeniveau leben, obwohl evtl. später rückwirkend ein Anspruch auf eine IV-Rente besteht. IV-Nachzahlungen werden verrechnet mit den Sozialhilfeleistungen. Die finanziellen Sorgen und die gegenüber einer IV-Rente geringere Akzeptanz des Sozialhilfebezugs führen in vielen Fällen zu einer Verschlechterung des Gesundheitszustands, die lange Abwesenheit vom Arbeitsmarkt bzw. Weiterbildungsbereich zu einer geringeren Arbeitsmarktfähigkeit, einer Dekonditionierung.</p><p>Es ist daher dringend erforderlich, Massnahmen zu treffen, welche die IV-Verfahren beschleunigen und die finanzielle Absicherung der Betroffenen sicherstellen, z. B. durch ein Wartezeittaggeld, analog dem Wartezeittaggeld gem. Artikel 18 IVV, für die Zeit zwischen dem Abschluss von beruflichen Eingliederungsmassnahmen und dem IV- Rentenentscheid.</p>"
+      "value": "<p>In der in der Regel stellen Versicherte bereits 6 Monate nach Beginn ihrer Arbeitsunfähigkeit ein Gesuch um Ausrichtung von IV-Leistungen. Die IV ist also schon früh involviert und kann mit Abklärungen beginnen. Hat der Arbeitgeber einer versicherten Person eine Krankentaggeldversicherung abgeschlossen oder ist die Arbeitsunfähigkeit unfallbedingt, ist der Erwerbsausfall vorerst abgedeckt. Dies ist aufgrund der Ausrichtung von IV- Taggeldern auch während der Durchführung von beruflichen Eingliederungsmassnahmen der Fall.</p><p>Sind die IV-Eingliederungsmassnahmen aber einmal abgeschlossen und geht der Fall an die IV-Rentenprüfung, fängt bei krankheitsbedingter Arbeitsunfähigkeit das lange Warten an: Die Rentenabklärungsverfahren dauern oft mehrere Jahre.</p><p>Die Folgen: Die Krankentaggeldleistungen sind schon lange ausgeschöpft, das persönliche Vermögen ist mittlerweile aufgebraucht, die Betroffenen verschulden sich und müssen in der Folge Sozialhilfe beziehen. Bis zum Abschluss des IV-Verfahrens müssen sie auf Sozialhilfeniveau leben, obwohl evtl. später rückwirkend ein Anspruch auf eine IV-Rente besteht. IV-Nachzahlungen werden verrechnet mit den Sozialhilfeleistungen. Die finanziellen Sorgen und die gegenüber einer IV-Rente geringere Akzeptanz des Sozialhilfebezugs führen in vielen Fällen zu einer Verschlechterung des Gesundheitszustands, die lange Abwesenheit vom Arbeitsmarkt bzw. Weiterbildungsbereich zu einer geringeren Arbeitsmarktfähigkeit, einer Dekonditionierung.</p><p>Es ist daher dringend erforderlich, Massnahmen zu treffen, welche die IV-Verfahren beschleunigen und die finanzielle Absicherung der Betroffenen sicherstellen, z. B. durch ein Wartezeittaggeld, analog dem Wartezeittaggeld gem. Artikel 18 IVV, für die Zeit zwischen dem Abschluss von beruflichen Eingliederungsmassnahmen und dem IV- Rentenentscheid.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Aus Sicht des Bundesrates ist zentral, dass die Verfahren möglichst kurz dauern, soweit es die IV-Stellen beeinflussen können. Er hat daher im Rahmen der Weiterentwicklung der IV (17.022) diverse Massnahmen im Hinblick auf ein einfaches und rasches Sozialversicherungsverfahren eingeführt, um unter anderem die Verfahrensdauer zu kürzen. So wurde die Koordination im Rahmen der Fallführung verbessert und das Amtsermittlungsverfahren im Hinblick auf schnellere Abklärungen hinsichtlich der medizinischen Begutachtung gestärkt. Nach Möglichkeit ist die Rentenabklärung parallel zu Eingliederungsmassnahmen vorzunehmen, so dass nach Abschluss der Eingliederung die Zeit bis zum Rentenentscheid möglichst kurzgehalten werden kann. Sofern die Anmeldung bei der IV rechtzeitig erfolgt, das heisst innerhalb von sechs Monaten nach Eintritt des Gesundheitsschadens, reichen die von den Krankentaggeldversicherungen gewährten 720 Taggelder in der Regel aus, um allfällige Lücken zwischen einer Rente, einer neuen Anstellung oder einem Übertritt in die Sozialhilfe finanziell zu überbrücken.&nbsp;</p><p>&nbsp;</p><p>Wartezeittaggelder gemäss Artikel 18 und 19 der Verordnung über die Invalidenversicherung (IVV; SR 831.201) sind vorgesehen vor Beginn einer Umschulung und unter gewissen Umständen (insb. bei einer vorgängigen Erwerbstätigkeit) während der Stellensuche, sofern keine andere Versicherung taggeldpflichtig ist. Es ist nicht Aufgabe der IV, während dem IV-Abklärungsverfahren beziehungsweise der Prüfung des Rentenanspruchs und in der Phase zwischen zwei Eingliederungsmassnahmen die finanzielle Absicherung der versicherten Person sicherzustellen. In diesem Zeitraum werden andere Versicherungsleistungen ausgerichtet. So können gemäss Artikel 70 des Bundesgesetzes über den Allgemeinen Teil des Sozialversicherungsrechts (ATSG; SR 830.1) Taggeldleistungen der Unfall-, Kranken- und Arbeitslosenversicherung ausbezahlt werden. Sie gehen den Leistungen der IV vor.&nbsp;</p><p>&nbsp;</p><p>Es ist somit nicht zielführend, ein allgemeines Wartezeittaggeld zwischen den Massnahmen einerseits und dem Abschluss der Eingliederung und dem Rentenentscheid andererseits einzuführen. Dies hätte weiter grosse Auswirkungen auf die Abgrenzung und Koordination zwischen den Versicherungen.</p><p>&nbsp;</p><p>Der Bundesrat beantragt die Ablehnung der Motion.</p>"
     },
     {
       "type": {

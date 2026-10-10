@@ -1,6 +1,6 @@
 {
   "id": 20214516,
-  "updated": "2021-12-20T15:37:35Z",
+  "updated": "2025-11-14T07:35:33Z",
   "additionalIndexing": "48;2846",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,172 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-18T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-03-06T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-02-16T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CTT-CS",
+            "id": 22,
+            "name": "Commissione dei trasporti e delle telecomunicazioni CS",
+            "abbreviation1": "CTT-S",
+            "abbreviation2": "CTT",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CTT-CN",
+            "id": 9,
+            "name": "Commissione dei trasporti e delle telecomunicazioni CN",
+            "abbreviation1": "CTT-N",
+            "abbreviation2": "CTT",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-16T11:31:32Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3065,
+                    "gender": "m",
+                    "id": 4189,
+                    "name": "Burkart Thierry",
+                    "officialDenomination": "Burkart"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1639609200000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1644966000000+0100)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1694988000000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1705359600000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1709679600000+0100)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
         }
       ],
       "texts": [
@@ -110,7 +253,7 @@
         "gender": "m",
         "id": 4070,
         "name": "Candinas Martin",
-        "officialDenomination": "Candinas"
+        "officialDenomination": "Candinas Martin"
       },
       "type": "cosign"
     },
@@ -232,19 +375,40 @@
   ],
   "shortId": "21.4516",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 209,
+    "name": "Trasmesso al Consiglio federale",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>È doveroso preservare la gerarchia della rete e le funzioni delle tipologie stradali in Svizzera, dove sono ben consolidate e assicurano efficienza e scorrevolezza del traffico, da quello privato a quello merci fino al trasporto pubblico.</p><p>Attualmente in molti Comuni e città si sta diffondendo in maniera caotica il limite di 30 km/h nei centri abitati, anche su strade a prevalenza motorizzata, a discapito della funzionalità della rete; inoltre la regolamentazione vigente su un determinato segmento stradale (limite generale di 50 km/h, tratto con limite di 30 km/h, zona 30 o d'incontro) non è facilmente riconoscibile dagli utenti, il che è problematico anche in considerazione del rigoroso sistema sanzionatorio svizzero.</p><p>Eppure una gerarchia chiara, sia all'interno che al di fuori degli abitati, è fondamentale per attribuire una funzione precisa a ciascuna tipologia stradale. Le strade a prevalenza motorizzata nei centri abitati hanno lo scopo di dirigere, collegare e convogliare il traffico; su queste, tranne poche eccezioni, deve valere la velocità massima uniforme di 50 km/h. Le strade residenziali, invece, hanno la funzione di convogliamento del traffico nei quartieri abitativi e di servizio ai residenti; qui il limite può essere abbassato a 30 km/h, su richiesta degli abitanti interessati e delle autorità. Infine, nei quartieri residenziali possono essere giustificate le zone 30 e le zone d'incontro (20 km/h).</p><p>Una gestione efficiente della viabilità riduce il traffico di deviazione nei quartieri, incrementandone la sicurezza stradale.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il 10 novembre 2021 il Consiglio federale ha avviato la consultazione in merito a una proposta volta a semplificare l'istituzione di zone 30 su strade residenziali all'interno di centri abitati. Tale provvedimento in futuro non richiederà più una perizia e le zone 30, al pari di altre norme e limitazioni del traffico, potranno essere istituite anche per ulteriori motivi dettati dalle condizioni locali (p. es. qualità abitativa): oggi invece sono consentite solo allo scopo di attenuare particolari pericoli legati alla viabilità stradale, ridurre un eccessivo impatto ambientale o migliorare la scorrevolezza del traffico.</p><p>Sulle strade a prevalenza motorizzata si intende mantenere sostanzialmente in vigore il limite dei 50 km/h all'interno dei centri abitati e lasciare invariati gli attuali vincoli per le riduzioni dei limiti di velocità, tra cui in particolare la verifica della proporzionalità per caso specifico, preservando così la funzionalità della rete di trasporto sovraordinata e in modo che il flusso veicolare continui a transitare su tale rete. Città e Comuni applicano attualmente le riduzioni dei limiti su strade a prevalenza motorizzata in conformità al diritto vigente.</p><p>Il Consiglio federale, che respinge la richiesta oggetto della mozione circa l'inasprimento delle disposizioni per ridurre i limiti di velocità su strade a prevalenza motorizzata, deciderà come procedere sulla base dei risultati della consultazione in corso fino al 25 febbraio 2022.</p>  Il Consiglio federale propone di respingere la mozione."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di modificare le disposizioni della legge federale sulla circolazione stradale (LCStr; RS 741.01) in modo da garantire il rispetto della gerarchia e delle funzioni della rete stradale svizzera dentro e fuori dai centri abitati. Le nuove disposizioni dovranno riprendere, oltre alle funzioni delle varie tipologie di strade già stabilite nelle norme VSS, anche i relativi limiti di velocità, in particolare 50 km/h per le strade a prevalenza motorizzata nei centri abitati, e la possibilità di ridurre la velocità massima a 30 km/h sulle strade residenziali. Tale precisazione nella legge permetterà di procedere in un secondo tempo alla revisione della pertinente ordinanza in merito alla designazione di \"strada all'interno della località\".</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Garantire la gerarchia della rete stradale nei centri abitati e fuori"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Garantire la gerarchia della rete stradale nei centri abitati e fuori"
 }

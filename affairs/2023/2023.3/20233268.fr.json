@@ -1,6 +1,6 @@
 {
   "id": 20233268,
-  "updated": "2023-03-21T15:03:24Z",
+  "updated": "2025-11-14T07:57:06Z",
   "additionalIndexing": "1236;24;08;09;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,145 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Combattu"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-06-16T00:00:00Z",
+            "text": "Combattu. Discussion reportée",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-28T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-03-07T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-05-24T00:00:00Z",
+        "text": "Le Conseil fédéral propose d'accepter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CAJ-CN",
+            "id": 12,
+            "name": "Commission des affaires juridiques CN",
+            "abbreviation1": "CAJ-N",
+            "abbreviation2": "CAJ",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-09T16:49:35Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2631,
+                    "gender": "m",
+                    "id": 1159,
+                    "name": "Schwander Pirmin",
+                    "officialDenomination": "Schwander"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAJ-CE",
+            "id": 25,
+            "name": "Commission des affaires juridiques CE",
+            "abbreviation1": "CAJ-E",
+            "abbreviation2": "CAJ",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +194,33 @@
       "states": [
         {
           "date": "/Date(1678921200000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1684879200000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1704754800000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1704841200000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1709766000000+0100)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
         }
       ],
       "texts": [
@@ -110,6 +263,16 @@
   "roles": [
     {
       "councillor": {
+        "code": 2740,
+        "gender": "m",
+        "id": 4025,
+        "name": "Büchel Roland Rino",
+        "officialDenomination": "Büchel Roland"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
         "code": 2594,
         "gender": "m",
         "id": 1122,
@@ -126,8 +289,8 @@
   ],
   "shortId": "23.3268",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 209,
+    "name": "Transmis au Conseil fédéral",
     "doneKey": "0",
     "newKey": 0
   },
@@ -137,14 +300,21 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>La guerre d'agression menée par la Russie contre l'Ukraine a causé d'énormes dommages. Alors que la Banque mondiale a évalué à 2 billions de dollars les dommages causés aux infrastructures du pays, la réunion des fonds nécessaires à la reconstruction de l'Ukraine va constituer une tâche herculéenne pour la communauté internationale. Les travaux de coordination ont déjà débuté et la Suisse y participe par l'intermédiaire d'une délégation diplomatique. Les sanctions décidées par l'Occident ont conduit au gel d'avoirs de particuliers mais aussi d'avoirs de l'Etat et d'organismes proches de l'Etat. Pour ces derniers, il est facile d'établir un lien entre l'agresseur et le propriétaire des fonds, puisqu'il s'agit de l'Etat russe lui-même. Il serait donc plus que naturel de verser ces fonds à l'Ukraine à titre de réparation. Mais une telle mesure soulève plusieurs questions épineuses au regard du droit international. La question se pose en particulier de savoir si les avoirs de la banque centrale d'un Etat qui mène une guerre d'agression contraire au droit international sont encore protégés dans leur intégralité en vertu du principe de l'immunité de l'Etat ou si des dérogations sont prévues. Concernant les avoirs de la banque centrale, il conviendra d'examiner quelles mesures pourraient être prises pour éviter d'éventuelles conséquences négatives ultérieures pour la politique monétaire internationale.</p><p>La Suisse peut contribuer de manière substantielle à la réussite de cette entreprise complexe, sur le plan technique comme sur celui du droit international.</p>"
+      "value": "<p>La guerre d'agression menée par la Russie contre l'Ukraine a causé d'énormes dommages. Alors que la Banque mondiale a évalué à 2 billions de dollars les dommages causés aux infrastructures du pays, la réunion des fonds nécessaires à la reconstruction de l'Ukraine va constituer une tâche herculéenne pour la communauté internationale. Les travaux de coordination ont déjà débuté et la Suisse y participe par l'intermédiaire d'une délégation diplomatique. Les sanctions décidées par l'Occident ont conduit au gel d'avoirs de particuliers mais aussi d'avoirs de l'État et d'organismes proches de l'État. Pour ces derniers, il est facile d'établir un lien entre l'agresseur et le propriétaire des fonds, puisqu'il s'agit de l'État russe lui-même. Il serait donc plus que naturel de verser ces fonds à l'Ukraine à titre de réparation. Mais une telle mesure soulève plusieurs questions épineuses au regard du droit international. La question se pose en particulier de savoir si les avoirs de la banque centrale d'un État qui mène une guerre d'agression contraire au droit international sont encore protégés dans leur intégralité en vertu du principe de l'immunité de l'État ou si des dérogations sont prévues. Concernant les avoirs de la banque centrale, il conviendra d'examiner quelles mesures pourraient être prises pour éviter d'éventuelles conséquences négatives ultérieures pour la politique monétaire internationale.</p><p>La Suisse peut contribuer de manière substantielle à la réussite de cette entreprise complexe, sur le plan technique comme sur celui du droit international.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Des réflexions sur l'instauration d'un registre des dommages subis par l'Ukraine en raison de l'agression russe ainsi que d'un mécanisme international d'indemnisation sont actuellement activement poursuivies sur le plan international. La Suisse suit de près l'ensemble de ces discussions qui ont toutes un lien entre elles.</p><p>Le 15 février 2023, le Conseil fédéral pris acte des analyses d'un groupe de travail placé sous la conduite de l'Office fédéral de la justice qui a conclu que les avoirs russes privés ne peuvent pas être confisqués, s'ils ne sont pas d'origine illicite. Le Conseil fédéral a aussi constaté que l'éventuelle possibilité de confisquer les réserves monétaires de la Banque nationale russe et d'autres biens de l'État russe dans le but d'indemniser l'Ukraine est également débattue au niveau international.</p><p>Sur ces deux thèmes, la Suisse entend s'impliquer en faisant valoir ses compétences reconnues dans le domaine du droit international afin que les différentes discussions en cours trouvent des solutions conformes à son ordre juridique interne, au droit international et à ses objectifs de politique extérieure.</p>  Le Conseil fédéral propose d'accepter la motion."
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Le Conseil fédéral est chargé de prendre des mesures en vue de l'élaboration au niveau international des bases nécessaires à la mise en place d'un mécanisme permettant, lorsqu'un Etat est agressé en violation du droit international, d'utiliser les avoirs de l'Etat agresseur pour le paiement de réparations à l'Etat agressé. La question des bases légales internationales devra être éclaircie de manière coordonnée à l'échelle internationale, et il y aura lieu d'élaborer un mécanisme concret permettant de verser en toute légalité à l'Etat agressé les avoirs de l'Etat agresseur (notamment ceux de sa banque centrale) et les avoirs d'organismes proches de l'Etat (notamment ceux d'entreprises étatiques) qui ont été gelés dans le cadre des sanctions.</p>"
+      "value": "<p>Le Conseil fédéral est chargé de prendre des mesures en vue de l'élaboration au niveau international des bases nécessaires à la mise en place d'un mécanisme permettant, lorsqu'un État est agressé en violation du droit international, d'utiliser les avoirs de l'État agresseur pour le paiement de réparations à l'État agressé. La question des bases légales internationales devra être éclaircie de manière coordonnée à l'échelle internationale, et il y aura lieu d'élaborer un mécanisme concret permettant de verser en toute légalité à l'État agressé les avoirs de l'État agresseur (notamment ceux de sa banque centrale) et les avoirs d'organismes proches de l'État (notamment ceux d'entreprises étatiques) qui ont été gelés dans le cadre des sanctions.</p>"
     },
     {
       "type": {

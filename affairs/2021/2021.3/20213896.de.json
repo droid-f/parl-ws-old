@@ -1,6 +1,6 @@
 {
   "id": 20213896,
-  "updated": "2023-06-14T07:40:56Z",
+  "updated": "2025-11-14T07:22:31Z",
   "additionalIndexing": "55;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,36 @@
             "date": "2023-06-13T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-03-11T00:00:00Z",
+            "text": "Annahme mit Änderung",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-05-30T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
           }
         ]
       },
@@ -68,7 +98,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-20T14:48:48Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2575,
+                    "gender": "m",
+                    "id": 825,
+                    "name": "Germann Hannes",
+                    "officialDenomination": "Germann"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-18T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-18T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +200,53 @@
         },
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1704063600000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1708383600000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1710111600000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1711148400000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1713823200000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1717020000000+0200)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -131,10 +287,9 @@
   ],
   "shortId": "21.3896",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -150,7 +305,7 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Der Bundesrat kann die Anliegen des Motionärs nachvollziehen. Er ist jedoch der Meinung, dass die Meldepflicht von Daten zum Schlachtgewicht aus administrativen Gründen sowie aus Kostengründen auf die grossen Schlachtbetriebe mit bestehender neutraler Qualitätseinstufung gemäss Artikel 3 ff. der Schlachtviehverordnung vom 26. November 2003 (SV; SR 916.341) zu beschränken ist. Auch bezüglich der Einsichtsrechte ist der Bundesrat der Auffassung, dass die Einsicht in Daten der Schlachtgewichte und die Ergebnisse der neutralen Qualitätseinstufung für die Schweizer Landwirtschaft wichtig sind. Das Schlachtgewicht sollte daher allen ehemaligen Haltenden eines Tieres bekannt gegeben werden. Dadurch wird sichergestellt, dass auch Züchterinnen und Züchter, welche in der Produktionskette unter Umständen nicht zu den letzten zwei Haltenden eines Tieres gehören, Zugang zu dieser zuchtrelevanten Information erhalten. Artikel 18 der Verordnung vom 26. Oktober 2011 über die Tierverkehrsdatenbank (TVD-Verordnung; SR 916.404.1) gewährleistet den Zugang von Zuchtorganisationen zu zuchtrelevanten Daten (wie das Schlachtgewicht) für Zuchtzwecke bereits heute, sofern sich die Zuchtorganisationen schriftlich zur Einhaltung der Datenschutzbestimmungen verpflichten. Aus Sicht des Bundesrats ist die entsprechende Forderung des Motionärs daher bereits erfüllt.</p><p>Im Falle einer Annahme der Motion im Erstrat behält sich der Bundesrat die Möglichkeit vor, im Zweitrat einen Abänderungsantrag zu stellen. Mit diesem soll die Meldepflicht von Daten zum Schlachtgewicht auf Schlachtbetriebe mit bestehender Qualitätseinstufung gemäss Artikel 3 ff. SV beschränkt und das Schlachtgewicht allen ehemaligen Haltenden eines Tieres bekanntgegeben werden. Zusätzlich soll die bereits umgesetzte Forderung des Motionärs bezüglich des Zugriffs der Zuchtorganisationen auf zuchtrelevante Daten aus dem Motionstext gestrichen werden.</p>"
+      "value": "<p>Der Bundesrat kann die Anliegen des Motionärs nachvollziehen. Er ist jedoch der Meinung, dass die Meldepflicht von Daten zum Schlachtgewicht aus administrativen Gründen sowie aus Kostengründen auf die grossen Schlachtbetriebe mit bestehender neutraler Qualitätseinstufung gemäss Artikel 3 ff. der Schlachtviehverordnung vom 26. November 2003 (SV; SR 916.341) zu beschränken ist. Auch bezüglich der Einsichtsrechte ist der Bundesrat der Auffassung, dass die Einsicht in Daten der Schlachtgewichte und die Ergebnisse der neutralen Qualitätseinstufung für die Schweizer Landwirtschaft wichtig sind. Das Schlachtgewicht sollte daher allen ehemaligen Haltenden eines Tieres bekannt gegeben werden. Dadurch wird sichergestellt, dass auch Züchterinnen und Züchter, welche in der Produktionskette unter Umständen nicht zu den letzten zwei Haltenden eines Tieres gehören, Zugang zu dieser zuchtrelevanten Information erhalten. Artikel 18 der Verordnung vom 26. Oktober 2011 über die Tierverkehrsdatenbank (TVD-Verordnung; SR 916.404.1) gewährleistet den Zugang von Zuchtorganisationen zu zuchtrelevanten Daten (wie das Schlachtgewicht) für Zuchtzwecke bereits heute, sofern sich die Zuchtorganisationen schriftlich zur Einhaltung der Datenschutzbestimmungen verpflichten. Aus Sicht des Bundesrats ist die entsprechende Forderung des Motionärs daher bereits erfüllt.</p><p>Im Falle einer Annahme der Motion im Erstrat behält sich der Bundesrat die Möglichkeit vor, im Zweitrat einen Abänderungsantrag zu stellen. Mit diesem soll die Meldepflicht von Daten zum Schlachtgewicht auf Schlachtbetriebe mit bestehender Qualitätseinstufung gemäss Artikel 3 ff. SV beschränkt und das Schlachtgewicht allen ehemaligen Haltenden eines Tieres bekanntgegeben werden. Zusätzlich soll die bereits umgesetzte Forderung des Motionärs bezüglich des Zugriffs der Zuchtorganisationen auf zuchtrelevante Daten aus dem Motionstext gestrichen werden.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

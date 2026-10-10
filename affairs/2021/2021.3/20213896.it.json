@@ -1,6 +1,6 @@
 {
   "id": 20213896,
-  "updated": "2023-06-14T07:40:56Z",
+  "updated": "2025-11-14T07:22:31Z",
   "additionalIndexing": "55;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,36 @@
             "date": "2023-06-13T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-03-11T00:00:00Z",
+            "text": "Adozione con modificazione",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-05-30T00:00:00Z",
+            "text": "Adesione",
+            "type": 3
           }
         ]
       },
@@ -67,7 +97,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-20T14:48:48Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2575,
+                    "gender": "m",
+                    "id": 825,
+                    "name": "Germann Hannes",
+                    "officialDenomination": "Germann"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CN",
+            "id": 10,
+            "name": "Commissione dell'economia e dei tributi CN",
+            "abbreviation1": "CET-N",
+            "abbreviation2": "CET",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-18T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CS",
+            "id": 23,
+            "name": "Commissione dell'economia e dei tributi CS",
+            "abbreviation1": "CET-S",
+            "abbreviation2": "CET",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-18T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +199,53 @@
         },
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1704063600000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1708383600000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1710111600000+0100)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1711148400000+0100)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1713823200000+0200)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1717020000000+0200)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
         }
       ],
       "texts": [
@@ -129,10 +285,9 @@
   ],
   "shortId": "21.3896",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 209,
+    "name": "Trasmesso al Consiglio federale",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -148,7 +303,7 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>I Consiglio federale comprende le richieste dell'autore della mozione, tuttavia è dell'opinione che l'obbligo di notifica dei dati sul peso alla macellazione, per motivi di natura amministrativa e legati ai costi, vada limitato alle grandi aziende di macellazione che effettuano già la classificazione neutrale della qualità ai sensi dell'articolo 3 e seguenti dell'ordinanza del 26 novembre 2003 sul bestiame da macello (OBM; RS 916.341). Anche per quanto concerne i diritti di consultazione, il Consiglio federale è dell'avviso che la consultazione dei dati sul peso alla macellazione e i risultati della classificazione neutrale della qualità siano importanti per l'agricoltura svizzera. Pertanto il peso alla macellazione andrebbe reso noto a tutti i precedenti detentori di un animale. In tal modo si garantisce che anche gli allevatori che, in determinate circostanze, nella catena di produzione non rientrano tra gli ultimi due detentori di un animale, abbiano accesso a queste informazioni rilevanti per l'allevamento. Già oggi l'articolo 18 dell'ordinanza del 26 ottobre 2011 concernente la banca dati sul traffico di animali (ordinanza BDTA; RS 916.404.1) garantisce alle organizzazioni di allevamento l'accesso a dati rilevanti a fini zootecnici (come i dati sulla macellazione), sempre che le organizzazioni si impegnino per scritto a osservare le disposizioni sulla protezione dei dati. Pertanto secondo il Consiglio federale la richiesta dell'autore della mozione è già adempiuta.</p><p>Nel caso la mozione venisse accolta dalla Camera prioritaria, il Consiglio federale si riserverebbe il diritto di presentare alla seconda Camera una proposta di modifica in modo che l'obbligo di notifica dei dati sul peso alla macellazione sia limitato alle aziende di macellazione che effettuano già la classificazione neutrale della qualità ai sensi dell'articolo 3 e seguenti OBM e che il peso alla macellazione sia reso noto a tutti i precedenti detentori di un animale. Inoltre la richiesta dell'autore della mozione già attuata relativa all'accesso delle organizzazioni di allevamento ai dati rilevanti a fini zootecnici va stralciata dal testo della mozione.</p>"
+      "value": "<p>I Consiglio federale comprende le richieste dell'autore della mozione, tuttavia è dell'opinione che l'obbligo di notifica dei dati sul peso alla macellazione, per motivi di natura amministrativa e legati ai costi, vada limitato alle grandi aziende di macellazione che effettuano già la classificazione neutrale della qualità ai sensi dell'articolo 3 e seguenti dell'ordinanza del 26 novembre 2003 sul bestiame da macello (OBM; RS 916.341). Anche per quanto concerne i diritti di consultazione, il Consiglio federale è dell'avviso che la consultazione dei dati sul peso alla macellazione e i risultati della classificazione neutrale della qualità siano importanti per l'agricoltura svizzera. Pertanto il peso alla macellazione andrebbe reso noto a tutti i precedenti detentori di un animale. In tal modo si garantisce che anche gli allevatori che, in determinate circostanze, nella catena di produzione non rientrano tra gli ultimi due detentori di un animale, abbiano accesso a queste informazioni rilevanti per l'allevamento. Già oggi l'articolo 18 dell'ordinanza del 26 ottobre 2011 concernente la banca dati sul traffico di animali (ordinanza BDTA; RS 916.404.1) garantisce alle organizzazioni di allevamento l'accesso a dati rilevanti a fini zootecnici (come i dati sulla macellazione), sempre che le organizzazioni si impegnino per scritto a osservare le disposizioni sulla protezione dei dati. Pertanto secondo il Consiglio federale la richiesta dell'autore della mozione è già adempiuta.</p><p>Nel caso la mozione venisse accolta dalla Camera prioritaria, il Consiglio federale si riserverebbe il diritto di presentare alla seconda Camera una proposta di modifica in modo che l'obbligo di notifica dei dati sul peso alla macellazione sia limitato alle aziende di macellazione che effettuano già la classificazione neutrale della qualità ai sensi dell'articolo 3 e seguenti OBM e che il peso alla macellazione sia reso noto a tutti i precedenti detentori di un animale. Inoltre la richiesta dell'autore della mozione già attuata relativa all'accesso delle organizzazioni di allevamento ai dati rilevanti a fini zootecnici va stralciata dal testo della mozione.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

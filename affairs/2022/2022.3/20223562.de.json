@@ -1,6 +1,6 @@
 {
   "id": 20223562,
-  "updated": "2022-06-10T12:30:35Z",
+  "updated": "2025-12-16T07:38:39Z",
   "additionalIndexing": "2841;08;10",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,17 +41,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-04-17T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-12-15T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-24T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "SGK-SR",
+            "id": 19,
+            "name": "Kommission für soziale Sicherheit und Gesundheit SR",
+            "abbreviation1": "SGK-S",
+            "abbreviation2": "SGK",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-10-21T17:01:49Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2600,
+                    "gender": "f",
+                    "id": 1106,
+                    "name": "Häberli-Koller Brigitte",
+                    "officialDenomination": "Häberli-Koller"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-NR",
+            "id": 6,
+            "name": "Kommission für soziale Sicherheit und Gesundheit NR",
+            "abbreviation1": "SGK-N",
+            "abbreviation2": "SGK",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -67,8 +180,38 @@
       "states": [
         {
           "date": "/Date(1654639200000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1661292000000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1713304800000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1757282400000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1760911200000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1764111600000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1765753200000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -96,7 +239,7 @@
         "gender": "m",
         "id": 4190,
         "name": "Dobler Marcel",
-        "officialDenomination": "Dobler"
+        "officialDenomination": "Dobler Marcel"
       },
       "type": "cosign"
     },
@@ -139,19 +282,40 @@
   ],
   "shortId": "22.3562",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Am 18. Juni 2021 haben die Räte den Artikel über Pilotprojekte im KVG verabschiedet. Das Gesetz sieht unter anderem als mögliches Pilotprojekt ein Modell vor, bei dem Leistungen im Ausland ausserhalb der grenzüberschreitenden Zusammenarbeit nach Artikel 34 Absatz 2 KVG durch den Versicherer übernommen werden. </p><p>Es ist allgemein bekannt, dass bestimmte medizinische Leistungen in den Nachbarländern zu weitaus günstigeren Preisen erbracht werden, wofür es nicht unbedingt objektive Erklärungen gibt. Dies ist zum Beispiel im Bereich der Generika der Fall. </p><p>Auch wenn das Gesetz vorsieht, dass die Akteure selbst den Antrag stellen müssen, spricht nichts dagegen, dass der Bund eine proaktive Rolle einnimmt, um anzuregen, dass ein Gesuch für ein solches Pilotprojekt eingereicht wird. Angesichts des dringenden Handlungsbedarfs im Bereich der Gesundheitskosten wird beantragt, keine Zeit zu verlieren und das Inkrafttreten des Artikels über Pilotprojekte vorzuziehen.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Artikel über die Bewilligung von Pilotprojekten ist eine der wichtigsten Massnahmen zur Kosteneindämmung. Der zu verankernde Artikel 59b des Bundesgesetzes über die Krankenversicherung (KVG; SR 832.10) wurde von den Räten angenommen (BBI 2021 1496) und muss auf Verordnungsebene konkretisiert werden. Der entsprechende Entwurf wurde in die Vernehmlassung geschickt (<a href=\"http://www.fedlex.admin.ch\">www.fedlex.admin.ch</a> &gt; Vernehmlassungen &gt; Abgeschlossen &gt; 2022) und die Stellungnahmen werden zurzeit geprüft. Der gesamte geänderte Gesetzesrahmen tritt voraussichtlich am 1. Januar 2023 in Kraft.</p><p>Das Ziel des Artikels über die Pilotprojekte ist es, den Kantonen, Tarifpartnern und Patientenorganisationen die Möglichkeit zu geben, ausserhalb des gesetzlichen Rahmens des KVG innovative Pilotprojekte durchzuführen, die zu Kosteneinsparungen führen. Das Pilotprojekt wird in der Regel von diesen Akteuren allein oder gemeinsam eingereicht. Die Finanzierung des Projekts muss von den Bewilligungsinhabern sichergestellt werden. Vom Bund können keine Beteiligungen oder Subventionen erwartet werden (BBl 2019 5765, 5859). Der Gesetzgeber hat daher keine finanzielle Beteiligung des Bundes an solchen Pilotprojekten vorgesehen.</p><p>Ein Gesuch zur Genehmigung eines Pilotprojekts kann auf freiwilliger Basis eingereicht werden. Das EDI hat deshalb keine gesetzliche Grundlage, selber Schritte zu unternehmen, um ein Pilotprojekt durchzuführen. Hingegen wird es dem/den Gesuchstellenden und der Projektträgerschaft während des gesamten Prozesses unterstützend zur Verfügung stehen, damit das Projekt ordnungsgemäss und unter Einhaltung der gesetzlichen Genehmigungs- und Evaluationsbedingungen durchgeführt werden kann.</p><p>Darüber hinaus ist die Kostenübernahme im Rahmen der grenzüberschreitenden Zusammenarbeit in Artikel 36a der Verordnung über die Krankenversicherung (KVV; SR 832.102) geregelt. Diese Bestimmung zielt auf eine Stärkung der Schweizer Grenzregionen und eine Verbesserung des dortigen Versorgungsangebots ab.</p><p>Abschliessend ist zu erwähnen, dass der Bundesrat 2021 einen Bericht veröffentlicht hat (Bericht des Bundesrates vom 1. September 2021 zur Vergütung im Rahmen der obligatorischen Krankenpflegeversicherung von privat im Ausland bezogenen Mitteln und Gegenständen; <a href=\"http://www.bag.admin.ch\">www.bag.admin.ch</a> &gt; Das BAG &gt; Publikationen &gt; Bundesratsberichte &gt; 2021), der die Chancen und Risiken einer Aufhebung bzw. Lockerung des Territorialitätsprinzips im Bereich der Mittel und Gegenstände analysiert.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, die erforderlichen Schritte zur Umsetzung eines Pilotprojekts im Sinne von Artikel 59b Absatz 2 Buchstabe b KVG einzuleiten, sobald die Gesetzesänderung vom 18. Juni 2021 in Kraft tritt.</p><p>Ziel des Pilotprojekts soll es sein, die Kosteneffizienz zu testen und zu bewerten, wenn die Kosten von medizinischen Leistungen in Nachbarländern übernommen werden und damit das Territorialitätsprinzip aufgehoben wird.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "KVG. Ein Pilotprojekt zur Übernahme der Kosten von medizinischen Leistungen, die in Nachbarländern erbracht werden"
     }
   ],
-  "title": "Titel folgt"
+  "title": "KVG. Ein Pilotprojekt zur Übernahme der Kosten von medizinischen Leistungen, die in Nachbarländern erbracht werden"
 }

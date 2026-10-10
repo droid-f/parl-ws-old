@@ -1,6 +1,6 @@
 {
   "id": 20233384,
-  "updated": "2023-03-20T10:23:17Z",
+  "updated": "2025-09-18T15:22:09Z",
   "additionalIndexing": "28;2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,182 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Amm."
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "Sarà ripreso",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-09-11T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-09-18T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-05-24T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSS-CS",
+            "id": 19,
+            "name": "Commissione della sicurezza sociale e della sanità CS",
+            "abbreviation1": "CSSS-S",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSS-CN",
+            "id": 6,
+            "name": "Commissione della sicurezza sociale e della sanità",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-06-27T17:08:57Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3107,
+                    "gender": "m",
+                    "id": 4206,
+                    "name": "Ettlin Erich",
+                    "officialDenomination": "Ettlin Erich"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Dipartimento dell'interno",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1679007600000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1684879200000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1726005600000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1727820000000+0200)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1750975200000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1758146400000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -140,7 +293,7 @@
         "gender": "m",
         "id": 4053,
         "name": "Aeschi Thomas",
-        "officialDenomination": "Aeschi Thomas"
+        "officialDenomination": "Aeschi"
       },
       "type": "cosign"
     },
@@ -270,7 +423,7 @@
         "gender": "f",
         "id": 4234,
         "name": "Schläpfer Therese",
-        "officialDenomination": "Schläpfer"
+        "officialDenomination": "Schläpfer Therese"
       },
       "type": "cosign"
     },
@@ -308,23 +461,54 @@
         "name": "Gruppo dell'Unione democratica di Centro"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3142,
+        "gender": "f",
+        "id": 4250,
+        "name": "Bircher Martina",
+        "officialDenomination": "Bircher"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "23.3384",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Il Consiglio federale ha respinto la mozione 20.4653 adducendo tra le motivazioni che nel quadro delle piattaforme \"Demenza\" e \"Cure palliative\" la Confederazione aveva adottato misure per migliorare la qualità di vita delle persone in questione. In quell'occasione aveva anche affrontato il problema dell'impiego di psicofarmaci. Tuttavia, come emerge dai risultati di uno studio sulla polimedicazione e sui neurolettici nelle case di cura svizzere negli anni 2019 e 2020 (disponibile in tedesco all'indirizzo <a href=\"https://econtent.hogrefe.com/doi/10-1024/1661-8157/a003909\">https://econtent.hogrefe.com/doi/10-1024/1661-8157/a003909</a>) e da recenti articoli di giornale, la situazione si è ulteriormente aggravata. Con il titolo \"Isoliert und vollgepumpt\" (isolati e imbottiti), un articolo del quotidiano Luzerner Zeitung del 25 gennaio 2023 ha risollevato la questione dei sovradosaggi di psicofarmaci con conseguenze fatali, riportando il caso di un settantaseienne che, a seguito di un sovradosaggio, non è stato più in grado di camminare finendo così in sedia a rotelle. Nello stesso articolo, anche alcuni medici assistenti bernesi hanno lanciato un grido d'allarme, segnalando il ricorso sempre più frequente a psicofarmaci per calmare i pazienti (<a href=\"https://epaper-luzernerzeitung-ch.parl.swissconsortium.ch/read/1/1/2023-01-25/20?signature=3abf8f7c8210bf3ae08ac518d9e93afcd960ceb65cf6eb319d3af8a0a4ed73ec\">https://epaper-luzernerzeitung-ch.parl.swissconsortium.ch/read/1/1/2023-01-25/20?signature=3abf8f7c8210bf3ae08ac518d9e93afcd960ceb65cf6eb319d3af8a0a4ed73ec</a>).</p><p>Per giustificare queste misure si invoca per esempio la carenza di personale, ma imbottire i pazienti di psicofarmaci per calmarli non rispetta assolutamente la dignità umana. Bisogna trovare altre soluzioni e misure. Queste situazioni sono inaccettabili in un Paese altamente sviluppato come il nostro, che vanta uno dei migliori sistemi sanitari al mondo. Occorre migliorare la sicurezza dei trattamenti farmacologici. </p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale ritiene importante che gli psicofarmaci siano impiegati in modo corretto e appropriato. Al riguardo si è già espresso a più riprese (Mo. Herzog 20.4653, Ip. Brenzikofer 20.3029, Mo. Estermann 19.4305, Mo. Estermann 18.4302 e Ip. von Siebenthal18.3521).</p><p>Per la prescrizione, i medici devono rispettare le regole riconosciute delle scienze mediche e farmaceutiche (art. 26 della legge sugli agenti terapeutici; RS 812.21). Di conseguenza, gli psicofarmaci possono essere prescritti soltanto da un medico specialista e sotto la sua sorveglianza.</p><p>Le associazioni specialistiche elaborano direttive e linee guida per i medici sull'impiego appropriato di psicofarmaci. La vigilanza sulle persone che esercitano una professione medica universitaria compete ai Cantoni (art. 41 della legge sulle professioni mediche; RS 811.11).</p><p>Inoltre, per quanto riguarda la sicurezza dei trattamenti farmacologici, è prevista una nuova base legale: nel quadro dell'adempimento della mozione Stöckli 18.3512 \"Diritto a un piano di trattamento farmacologico per una maggiore sicurezza dei pazienti\", il Consiglio federale prende in esame, quale ulteriore misura tesa a migliorare la sicurezza in quest'ambito, il diritto a un piano di trattamento farmacologico in formato elettronico o cartaceo.</p><p>I compiti e gli obblighi delle autorità e associazioni specialistiche di cui sopra garantiscono una dispensazione sicura dei medicamenti. Nei limiti delle sue competenze, la Confederazione ha adottato le misure necessarie. Pertanto, il Consiglio federale non ravvisa per ora alcuna ulteriore necessità di intervento a livello federale.</p>  Il Consiglio federale propone di respingere la mozione."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di adottare misure volte a impedire che nelle case di cura e per anziani e nelle cliniche psichiatriche siano impiegati psicofarmaci al solo scopo di calmare i residenti. Occorre migliorare la sicurezza dei trattamenti farmacologici. Anche le persone anziane, malate e affette da demenza meritano una vita dignitosa. </p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Impedire il sovradosaggio di psicofarmaci e promuovere la sicurezza dei trattamenti farmacologici nelle case di cura e per anziani"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Impedire il sovradosaggio di psicofarmaci e promuovere la sicurezza dei trattamenti farmacologici nelle case di cura e per anziani"
 }

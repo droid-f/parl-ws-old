@@ -1,6 +1,7 @@
 {
   "id": 20230043,
-  "updated": "2023-06-08T08:28:23Z",
+  "updated": "2026-02-10T19:54:53Z",
+  "additionalIndexing": "2446;08",
   "affairType": {
     "abbreviation": "BRG",
     "id": 1,
@@ -33,7 +34,7 @@
             "abbreviation": "WAK-NR",
             "id": 10,
             "name": "Kommission für Wirtschaft und Abgaben NR",
-            "abbreviation1": "WAK-NR",
+            "abbreviation1": "WAK-N",
             "abbreviation2": "WAK",
             "committeeNumber": 10,
             "council": {
@@ -44,7 +45,7 @@
             },
             "typeCode": 1
           },
-          "date": "2023-05-04T00:00:00Z",
+          "date": "2023-05-17T00:00:00Z",
           "registrations": [
 
           ],
@@ -55,7 +56,7 @@
             "abbreviation": "WAK-SR",
             "id": 23,
             "name": "Kommission für Wirtschaft und Abgaben SR",
-            "abbreviation1": "WAK-SR",
+            "abbreviation1": "WAK-S",
             "abbreviation2": "WAK",
             "committeeNumber": 23,
             "council": {
@@ -66,10 +67,11 @@
             },
             "typeCode": 1
           },
-          "date": "2023-05-04T00:00:00Z",
+          "date": "2023-05-17T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
@@ -125,8 +127,28 @@
       "states": [
         {
           "date": "/Date(1684274400000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1695074400000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1700175600000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1702508400000+0100)/",
+          "id": 219,
+          "name": "Geplant für die Schlussabstimmung"
+        },
+        {
+          "date": "/Date(1703199600000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -142,7 +164,66 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-19T00:00:00Z",
+            "text": "Beschluss gemäss Entwurf",
+            "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-12-14T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-12-22T00:00:00Z",
+            "text": "Annahme in der Schlussabstimmung",
+            "type": 36
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-12-22T00:00:00Z",
+            "text": "Annahme in der Schlussabstimmung",
+            "type": 36
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -157,7 +238,7 @@
             "abbreviation": "WAK-NR",
             "id": 10,
             "name": "Kommission für Wirtschaft und Abgaben NR",
-            "abbreviation1": "WAK-NR",
+            "abbreviation1": "WAK-N",
             "abbreviation2": "WAK",
             "committeeNumber": 10,
             "council": {
@@ -168,18 +249,23 @@
             },
             "typeCode": 1
           },
-          "date": "2023-05-04T00:00:00Z",
+          "date": "2023-05-17T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ],
+              "sessionId": "5122"
+            }
           ],
-          "treatmentCategory": "IV"
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "WAK-SR",
             "id": 23,
             "name": "Kommission für Wirtschaft und Abgaben SR",
-            "abbreviation1": "WAK-SR",
+            "abbreviation1": "WAK-S",
             "abbreviation2": "WAK",
             "committeeNumber": 23,
             "council": {
@@ -190,10 +276,11 @@
             },
             "typeCode": 1
           },
-          "date": "2023-05-04T00:00:00Z",
+          "date": "2023-05-17T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -216,6 +303,45 @@
             "id": 1,
             "name": "Beratungsgegenstand / Entwurf"
           }
+        },
+        {
+          "date": "/Date(1704754800000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "37",
+            "source": "BBl 2024 37",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2024/37.pdf",
+            "year": "2024"
+          },
+          "referendumDeadline": "2024-04-18T00:00:00Z",
+          "type": {
+            "id": 3,
+            "name": "Schlussabstimmungstext"
+          }
+        },
+        {
+          "date": "/Date(1747692000000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "329",
+            "source": "AS 2025 329",
+            "type": {
+              "id": 2,
+              "name": "Amtliche Sammlung",
+              "shortName": "AS"
+            },
+            "url": "http://www.admin.ch/opc/de/official-compilation/2025/329.pdf",
+            "year": "2025"
+          },
+          "type": {
+            "id": 5,
+            "name": "Amtliche Sammlung"
+          }
         }
       ],
       "relatedDepartments": [
@@ -229,8 +355,28 @@
       "states": [
         {
           "date": "/Date(1684274400000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1695074400000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1698620400000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1702508400000+0100)/",
+          "id": 219,
+          "name": "Geplant für die Schlussabstimmung"
+        },
+        {
+          "date": "/Date(1703199600000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -262,8 +408,8 @@
   ],
   "shortId": "23.043",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },

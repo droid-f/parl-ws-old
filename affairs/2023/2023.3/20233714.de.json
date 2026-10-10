@@ -1,6 +1,6 @@
 {
   "id": 20233714,
-  "updated": "2023-06-20T11:34:05Z",
+  "updated": "2025-11-14T06:31:49Z",
   "additionalIndexing": "55;2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,10 +41,37 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "Wird übernommen",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-09-25T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-30T00:00:00Z",
+        "text": "Ablehnung"
       },
       "index": 0,
       "links": [
@@ -57,13 +84,28 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686693600000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1693346400000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1727215200000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -180,23 +222,54 @@
         "name": "Grüne Fraktion"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3190,
+        "gender": "f",
+        "id": 4298,
+        "name": "Weichelt Manuela",
+        "officialDenomination": "Weichelt"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "23.3714",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>SDHI-Fungizide hemmen die Zellatmung, indem sie ein Enzym der Mitochondrien, das Enzym Succinat-Dehydrogenase (SDH), blockieren. Sie tun dies artenunabhängig und blockieren so das Enzym sowohl bei Regenwürmern, Bienen und Pilzen als auch beim Menschen. Es ist nicht erstaunlich, dass sich dieses Enzym im Laufe der Evolution sehr wenig verändert hat und bei allen Arten fast identisch ist. Hunderte von Forschenden und Ärztinnen und Ärzten, welche die mit SDHI-Pestiziden verbundenen Risiken für die gesamte Biodiversität und die menschliche Gesundheit als nicht kontrollierbar einschätzen, haben 2019 eine Warnung herausgegeben und die dringende Anwendung des Vorsorgeprinzips und den Widerruf der Zulassung der SDHI-Fungizide gefordert.</p><p>Trotzdem stellte der Bundesrat 2020 in seiner Antwort auf die Motion 20.4486, die vom Rat nicht innerhalb der vorgeschriebenen Frist behandelt wurde, überraschend Folgendes fest: «Es ist dabei unerheblich, welcher Wirkmechanismus eines Pflanzenschutzmittels für unerwünschte Nebenwirkungen verantwortlich ist. Wichtig ist, zu wissen, was die möglichen Nebenwirkungen sind und ob diese Nebenwirkungen bei der Anwendung des Produkts ein Risiko für die menschliche Gesundheit oder die Umwelt darstellen können“. Seiner Meinung nach sind die möglichen unerwünschten Nebenwirkungen von SDHI und den «damit verbundenen Risiken für die Umwelt, insbesondere auf Regenwürmer, Bienen und Bodenorganismen» nicht unannehmbar.&nbsp;</p><p>Wer den Wirkmechanismus einer Substanz für lebende Zellen von den verursachten Wirkungen trennt, verschliesst sich jedoch einem systemischen und logischen wissenschaftlichen Ansatz, der auf kausalen Zusammenhängen beruht. Ausserdem wurden inzwischen neue SDHI-haltige Formulierungen sowie Anwendungen zugelassen, die nicht nur Pilze, sondern auch Nematoden in den Böden abtöten.</p><p>Darüber hinaus bestätigen neue unabhängige Studien die Auswirkungen einer chronischen Exposition auf menschliche Zellen, selbst bei sehr niedrigem Expositionsgrad über einen längeren Zeitraum. Dies bedeutet, dass die regelmässige Exposition gegenüber kleinsten Mengen dieser Stoffe beim Menschen erst Jahrzehnte später zu schweren Krankheiten führt. Es sind neurotoxische Wirkungen, insbesondere die Entwicklung neurodegenerativer Erkrankungen, und krebserregende Wirkungen für die Leber und die Schilddrüse zu befürchten. Der Bundesrat soll daher eine gezielte Überprüfung aller SDHI-Pestizide, die in der Schweiz vermarktet werden, vornehmen.</p><p>&nbsp;</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Wie bereits in der Antwort auf die Motion Python 20.4486 «Sofortiger Widerruf der Zulassung der SDHI-Fungizide» ausgeführt, unterliegen Pflanzenschutzmittel einem strengen Zulassungsverfahren. Die in der Schweiz geltenden Dossieranforderungen und Zulassungskriterien sind weitgehend mit jenen der EU harmonisiert und wurden in den letzten zwanzig Jahren deutlich verschärft. So werden Pflanzenschutzmittel nur zugelassen, wenn durch ihre Anwendung – unter Einhaltung der durch die Zulassungsstelle verfügten Anwendungsauflagen und -bedingungen – nach dem heutigen Wissensstand kein Risiko für unannehmbare Nebenwirkungen auf Mensch und Umwelt besteht.&nbsp;</p><p>&nbsp;</p><p>Die Beurteilungen der EU basieren auf international anerkannten und validierten Studien. Sie umfassen insbesondere mögliche toxische Wirkungen, aber auch Auswirkungen auf die Fruchtbarkeit lebender Organismen im Boden usw. Den Wirkungsweisen der Toxizität von Pflanzenschutzmitteln wird systematisch Rechnung getragen, indem unerwünschte Nebenwirkungen für Tierarten bewertet werden, um sie auch für den Menschen zu vermeiden.&nbsp;</p><p>&nbsp;</p><p>SDHI-Fungizide sind eine Gruppe von Wirkstoffen, die hauptsächlich zur Bekämpfung wichtiger Pilzkrankheiten in verschiedenen Kulturen wie Getreide, Obst und Reben eingesetzt werden. In der Schweiz sind aktuell sieben Wirkstoffe aus dieser Gruppe genehmigt.</p><p>&nbsp;</p><p>In der EU hat das Verfahren zur Erneuerung der Genehmigungen aller zurzeit genehmigten SDHI-Wirkstoffe bereits begonnen oder wird dieses Jahr starten. In diesem Rahmen werden die von den Gesuchstellerinnen eingereichten regulatorischen Studien sowie die aktuell verfügbare wissenschaftliche Literatur berücksichtigt. Die Kommission der EU hat die Mitgliedstaaten aufgefordert, die Prüfung dieser Wirkstoffe nicht zu lange hinauszuzögern.&nbsp;</p><p>&nbsp;</p><p>Die Schweiz überprüft die zugelassenen Pflanzenschutzmittel, einschliesslich jener mit SDHI-Wirkstoffen, nachdem die Genehmigungen der Wirkstoffe, die darin enthalten sind, in der EU erneuert wurden. Gemäss Artikel&nbsp;24 der Pflanzenschutzmittelverordnung (PSMV; SR&nbsp;916.161) übernimmt die Schweiz die Beurteilungsergebnisse der Europäischen Behörde für Lebensmittelsicherheit (EFSA) für diese Wirkstoffe sowie die Erwägungen der Kommission der EU. Dieses Verfahren der gezielten Überprüfung stellt sicher, dass die aktuellsten Resultate der Beurteilung der EU übernommen werden und die Arbeit in der Schweiz nicht wiederholt wird.&nbsp;</p><p>&nbsp;</p><p>Das Schweizer Verfahren zur Überprüfung der betroffenen Pflanzenschutzmittel wird die Kriterien der PSMV berücksichtigen, einschliesslich der möglichen Auswirkungen dieser Wirkstoffe auf Mensch und Nichtzielarten. Gegebenenfalls werden die Bewilligungen für diese Pflanzenschutzmittel in der Folge angepasst, eingeschränkt oder entzogen (Art. 29 PSMV).</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, auf der Grundlage der bisher vorliegenden unabhängigen wissenschaftlichen Studien die Gefährlichkeit der Familie der SDHI-Pestizide für die Umwelt, die Biodiversität und die menschliche Gesundheit neu zu bewerten. Er soll dabei die nachgewiesenen toxischen Wirkungen solcher Pestizide auf menschliche Zellen bei chronischer und langfristiger Exposition gegenüber einer sehr niedrigen Dosis berücksichtigen. Er soll in seine Bewertung auch das hohe Expositionsniveau, dem sowohl die Anwenderinnen und Anwender als auch die Anrainerinnen und Anrainer ausgesetzt sind, miteinbeziehen. Ausserdem sollen die Auswirkungen auf Bodenorganismen und Wurzelsysteme mit Blick auf die Erhaltung ihrer Fruchtbarkeit und die Widerstandsfähigkeit gegenüber den Folgen der globalen Erwärmung berücksichtigt werden.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Gezielte Überprüfung der Risiken für die Gesundheit und die Biodiversität durch SDHI-Pestizide"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Gezielte Überprüfung der Risiken für die Gesundheit und die Biodiversität durch SDHI-Pestizide"
 }

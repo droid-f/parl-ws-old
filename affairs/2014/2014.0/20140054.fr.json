@@ -1,7 +1,7 @@
 {
   "id": 20140054,
-  "updated": "2021-10-21T14:30:14Z",
-  "additionalIndexing": "24",
+  "updated": "2025-12-17T17:33:37Z",
+  "additionalIndexing": "24;Elementarschadenversicherung;Pflichtversicherung;Erdbeben",
   "affairType": {
     "abbreviation": "OCF",
     "id": 1,
@@ -62,6 +62,21 @@
             "date": "2021-09-22T00:00:00Z",
             "text": "Classement",
             "type": 15
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-12-16T00:00:00Z",
+            "text": "Classement",
+            "type": 15
           }
         ]
       },
@@ -74,10 +89,50 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-10-31T15:29:08Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2767,
+                    "gender": "m",
+                    "id": 4056,
+                    "name": "Fässler Daniel",
+                    "officialDenomination": "Fässler Daniel"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CEATE-CN",
             "id": 7,
             "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CN",
-            "abbreviation1": "CEATE-CN",
+            "abbreviation1": "CEATE-N",
             "abbreviation2": "CEATE",
             "committeeNumber": 7,
             "council": {
@@ -134,7 +189,7 @@
             "abbreviation": "CEATE-CE",
             "id": 20,
             "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CE",
-            "abbreviation1": "CEATE-CE",
+            "abbreviation1": "CEATE-E",
             "abbreviation2": "CEATE",
             "committeeNumber": 20,
             "council": {
@@ -149,22 +204,7 @@
           "registrations": [
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "CE",
-                    "id": 2,
-                    "name": "Conseil des Etats",
-                    "type": "S"
-                  },
-                  "councillor": {
-                    "code": 2774,
-                    "gender": "m",
-                    "id": 4068,
-                    "name": "Eberle Roland",
-                    "officialDenomination": "Eberle"
-                  },
-                  "language": "de"
-                }
+
               ],
               "sessionId": "5013"
             }
@@ -183,7 +223,7 @@
               "name": "Feuille fédérale",
               "shortName": "FF"
             },
-            "url": "https://www.admin.ch/opc/fr/federal-gazette/2014/5351.pdf",
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2014/5351.pdf",
             "year": "2014"
           },
           "title": "Rapport du Conseil fédéral du 20 juin 2014 sur le classement de la motion Fournier 11.3511, Assurance tremblement de terre obligatoire",
@@ -214,8 +254,28 @@
         },
         {
           "date": "/Date(1632261600000+0200)/",
-          "id": 4,
-          "name": "Traité par les deux conseils"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1751493600000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1761865200000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1764111600000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1765839600000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -252,8 +312,8 @@
   "sequentialNumber": 89,
   "shortId": "14.054",
   "state": {
-    "id": 4,
-    "name": "Traité par les deux conseils",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },

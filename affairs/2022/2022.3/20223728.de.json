@@ -1,6 +1,6 @@
 {
   "id": 20223728,
-  "updated": "2022-06-20T14:18:56Z",
+  "updated": "2025-06-30T10:26:10Z",
   "additionalIndexing": "2841;52;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,167 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-04-17T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-06-04T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-24T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WBK-SR",
+            "id": 18,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
+            "abbreviation1": "WBK-S",
+            "abbreviation2": "WBK",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WBK-NR",
+            "id": 5,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
+            "abbreviation1": "WBK-N",
+            "abbreviation2": "WBK",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-04-29T10:08:11Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3196,
+                    "gender": "m",
+                    "id": 4241,
+                    "name": "Stark Jakob",
+                    "officialDenomination": "Stark"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1655330400000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1661292000000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1713304800000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1745877600000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1748988000000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -304,19 +442,40 @@
   ],
   "shortId": "22.3728",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Nebst der Covid-19-Pandemie gelangen immer wieder auch Fälle von Tierseuchen in den Fokus des öffentlichen Interesses, so derzeit vor allem die Afrikanische Schweinepest (ASP). Diese rückt aus Ostdeutschland und neu Baden-Württemberg wie auch dem Piemont immer näher an unsere Landesgrenzen, weshalb sich nicht mehr die Frage stellt ob, sondern wann das ASP-Virus, das \"nur\" Wild- und Hausschweine befällt und für den Menschen unbedenklich ist, auch hierzulande auftritt. </p><p>Im Rahmen der Vorbereitungen für den Seuchenfall hat sich eben gezeigt, dass die jeweiligen Einschränkungen für die einzelnen Schlacht-, Zerlegungs-, Verarbeitungs- bzw. Entsorgungsbetriebe rasch einmal Mehraufwände (z.B. Personaleinsatz, Reinigung und Desinfektion, erschwerte Betriebs- bzw. Transportabläufe, etc.) zur Folge haben können, die weit über die Entschädigung der Tierwerte nach Artikel 31 und 32 des Tierseuchengesetzes (TSG, SR 916.40) hinaus reichen und so innert Kürze die Existenz der jeweiligen Betriebe gefährden. Auch mit Blick auf die potenzielle Gefahr von tierschutzrelevanten Tierstaus in den verbleibenden Schlachtbetrieben ist damit ein zu grosses und dadurch systemrelevantes Klumpenrisiko für den gesamten Sektor verbunden. Wohl auch deshalb finden sich in unserem Land keine Versicherungen, die bereit sind, ein derartiges Risiko zu tragen.</p><p>In seiner Antwort auf die Interpellation Müller (22.3210) zur ASP hält der Bundesrat fest, dass nach Artikel 165a, Absatz 4 des Landwirtschaftsgesetzes (LwG, SR 910.1) im Bereich der Produktionsmittel in Bezug auf Ernten geschädigten Person eine Abfindung nach Billigkeit ausgerichtet werden kann, sofern durch die behördliche Anordnung ein Schaden entsteht. Analog dazu ist nun auch für den Tierseuchenfall eine entsprechende Entschädigungslösung (z.B. Fonds, laufende Mittel, weitere Alternativen) zu schaffen, wobei sich ein Fonds durchaus aus den nicht zweckgebundenen Einnahmen der Versteigerung von Teilzollkontingenten bei der Fleischeinfuhr und analog zu den Entsorgungsbeiträgen (TSG, Art. 45a, Ziffer 5) realisieren liesse.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Dem Bundesrat ist bewusst, dass sich ein Ausbruch der Afrikanischen Schweinepest - wie jeder Ausbruch einer hochansteckenden Tierseuche - auch finanziell auf Betriebe wie Schlacht-, Zerlegungs-, Verarbeitungs- und Entsorgungsbetriebe auswirken kann. Für den Fall eines Ausbruchs der Afrikanischen Schweinepest sind in der Tierseuchenverordnung (TSV; SR 916.401) bereits seit 1995 Massnahmen bei der Schlachtung und Fleischgewinnung vorgesehen. So müssen beispielsweise im Schlachtbetrieb Schweine aus den Schutz- und Überwachungszonen getrennt aufgestallt und zeitlich oder örtlich getrennt geschlachtet werden. Im Schlachtbetrieb dürfen Schweine frühestens an dem auf die Reinigung und die Desinfektion folgenden Tag wieder zur Schlachtung angenommen werden (Art. 117 TSV).</p><p>Da Fälle von Afrikanischer Schweinepest nun näher an die Schweiz herangerückt sind, kommen Forderungen nach Entschädigungslösungen für Mehraufwände der Schlacht-, Zerlegungs-, Verarbeitungs- und Entsorgungsbetriebe auf, da das Tierseuchengesetz (TSG; SR 916.40) bei einem Tierseuchenausbruch einzig die Entschädigung von Tierverlusten vorsieht (Art. 31 und 32 TSG). Der Bundesrat hat bereits in seiner Antwort auf die Interpellation (22.3210) Müller Leo \"Afrikanische Schweinepest nach Deutschland nun auch in Italien\" festgehalten, dass er zurzeit keine Notwendigkeit für zusätzliche Regelungen sieht wie z. B. Entschädigungen für Betriebsunterbrüche. Betriebsunterbrüche können beispielsweise - wie in anderen Sektoren - durch privatrechtliche Versicherungslösungen abgedeckt werden. Der Bund und die Kantone hingegen können nicht jedes unternehmerische Risiko abdecken, das sich bei Betrieben in Zusammenhang mit einem Tierseuchenausbruch ergeben kann.</p><p>Der Bundesrat spricht sich gegen weitergehende Entschädigungslösungen bei der Afrikanischen Schweinepest aus. So wären bei einer branchenspezifischen Lösung für Schlacht-, Zerlegungs-, Verarbeitungs- und Entsorgungsbetriebe andere Betroffene wie die Tierhaltenden oder bei anderen Tierseuchenausbrüchen (z. B. bei der Maul- und Klauenseuche) auch weitere Betroffene (z. B. Milchverarbeitungs- oder Futtermittelherstellungsbetriebe) benachteiligt, weil dort solche Regelungen fehlen. So haben beispielsweise Tierhalterinnen und Tierhalter auch keinen Anspruch auf eine Entschädigung für ihre Mithilfe, wenn sie die seuchenpolizeilichen Organe bei der Durchführung von Massnahmen in ihren Beständen unterstützen und das dafür notwendige Material, soweit vorhanden, zur Verfügung stellen müssen (Art. 59 Abs. 2 TSV).</p>  Der Bundesrat beantragt die Ablehnung der Motion."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, für behördlich verordnete Schliessungen bzw. angeordnete Notschlachtungen von verseuchten Tierbeständen raschmöglichst eine Entschädigungslösung für die entstandenen Mehraufwände der jeweiligen Schlacht-, Zerlegungs-, Verarbeitungs- und Entsorgungsbetriebe zu schaffen.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Afrikanische Schweinepest - Schlachtbetriebe und damit Versorgungssicherheit gefährden?"
+      "value": "Afrikanische Schweinepest. Schlachtbetriebe und damit die Versorgungssicherheit gefährden?"
     }
   ],
-  "title": "Afrikanische Schweinepest - Schlachtbetriebe und damit Versorgungssicherheit gefährden?"
+  "title": "Afrikanische Schweinepest. Schlachtbetriebe und damit die Versorgungssicherheit gefährden?"
 }

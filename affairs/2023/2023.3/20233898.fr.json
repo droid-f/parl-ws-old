@@ -1,6 +1,6 @@
 {
   "id": 20233898,
-  "updated": "2023-06-21T15:33:53Z",
+  "updated": "2025-12-09T07:40:50Z",
   "additionalIndexing": "44;2836",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,182 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2025-05-06T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-12-08T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-30T00:00:00Z",
+        "text": "Rejet"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-10-22T21:29:02Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3108,
+                    "gender": "m",
+                    "id": 4207,
+                    "name": "Müller Damian",
+                    "officialDenomination": "Müller Damian"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSSS-CE",
+            "id": 19,
+            "name": "Commission de la sécurité sociale et de la santé publique CE",
+            "abbreviation1": "CSSS-E",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2025-05-08T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSSS-CN",
+            "id": 6,
+            "name": "Commission de la sécurité sociale et de la santé publique CN",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2025-05-08T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686866400000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1693346400000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1746482400000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1746655200000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1756850400000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1760997600000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1764111600000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1765148400000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -90,7 +243,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -162,12 +315,33 @@
   ],
   "shortId": "23.3898",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Selon l'enquête suisse sur la population active (ESPA) de l'Office fédéral de la statistique (OFS), entre 2012 et 2022, le travail à temps partiel a progressé trois fois plus que le travail à plein temps. Une demande a été adressée par la CSSS-N en mars dernier à l'OFAS visant à obtenir des informations, respectivement des statistiques, sur les conséquences du travail à temps partiel sur l'AVS. C'était dans le cadre du traitement de l'initiative populaire \" Pour une prévoyance vieillesse sûre et pérenne (initiative sur les rentes). Dans sa réponse, l'OFAS estime que, \" sur la base des données à disposition, il n'est pas possible de montrer concrètement les effets du temps partiel sur l'AVS et en particulier si une augmentation générale du taux d'activité au sein de la population permettrait d'avoir un impact significatif sur les recettes de l'AVS ni de faire une projection de ces effets à moyen long terme. \" Et il conclut en ces termes : \" Pour cela, des modèles devraient d'abord être développés \".</p><p>De ce fait, la nécessité d'une statistique de l'emploi menée conjointement par l'OFS et le SECO, ciblée sur le temps partiel, semble évidente si l'on veut mieux structurer les modèles de financement de l'AVS. Il s'agira de fournir des données systématiques individuelles, et non seulement des résultats généraux d'enquêtes sur la population active, qui tiennent comptent de critères multifactoriels : la catégorie d'âge, le genre, la formation, le niveau de salaire, la répartition des tâches en couple, les forces de travail, le volume total d'activité... La motion s'inscrit dans le cadre des pistes de réflexion développées lors des débats au sujet de l'initiative sur les rentes.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Il n’est pas clairement établi de quelle manière le travail à temps partiel impacte l’AVS. On présente habituellement le travail à temps partiel en pourcentage de la population active. Concernant les conséquences sur les cotisations, il est donc particulièrement important de savoir si une augmentation de l’activité à temps partiel correspond au développement de l’activité lucrative parmi les personnes qui n’en exerçaient pas auparavant ou à une réduction du taux d’occupation des personnes qui travaillaient jusqu’alors à plein temps. La proportion de femmes exerçant une activité lucrative a augmenté de 17&nbsp;% entre 2010 et 2022. Sur la même période, l’emploi des femmes en équivalents temps plein a progressé de 23&nbsp;%, ce qui signifie que le nombre d’heures travaillées par femme exerçant une activité lucrative a, lui aussi, augmenté. Chez les hommes, l’augmentation du nombre d’actifs entre 2010 et 2022 a été moins prononcée, avec une croissance de 14&nbsp;%. En même temps, l’emploi en équivalents temps plein n’a progressé que de 11&nbsp;% chez les hommes, ce qui signifie que le taux d’occupation moyen a baissé. En conséquence, on peut s’attendre à ce que l’évolution observée chez les femmes se traduise par des cotisations supplémentaires à l’AVS, tandis que celle observée chez les hommes entraîne une diminution des recettes par cotisant.</p><p>&nbsp;</p><p>Du côté des dépenses, l’impact de ces évolutions est incertain, notamment en raison du plafonnement des rentes, du splitting, des bonifications pour tâches éducatives et des nouveaux modèles familiaux (davantage de couples en concubinage atteignent l’âge de la retraite).</p><p>&nbsp;</p><p>Sur mandat du Conseil fédéral, l’Office fédéral de la statistique réalise chaque année depuis&nbsp;1991 l’enquête suisse sur la population active (ESPA) et, depuis 1994, l’enquête sur la structure des salaires (ESS). Ces deux enquêtes collectent déjà des données sur le taux d’occupation, le nombre d’heures de travail rémunérées et non rémunérées (travail domestique et familial, bénévolat) et le revenu de l’activité lucrative. Ces données peuvent être ventilées par sexe, âge, niveau de formation et un grand nombre d’autres variables sociodémographiques. Conformément au principe de collecte unique des données (principe <i>once-only</i>) défini dans le cadre de la gestion nationale des données et pour éviter d’avoir à interroger plusieurs fois les mêmes personnes, il est possible de relier les données de l’ESPA et de l’ESS à des données administratives comme les revenus soumis aux cotisations AVS et les rentes AVS ou AI, et d’estimer sur cette base les conséquences du travail à temps partiel sur l’AVS. En raison de la complexité du sujet et parce que l’ESS et l’ESPA sont des enquêtes par sondage, il faudrait toutefois développer au préalable des modèles complexes. Cette question sera traitée, de même que d’autres sujets similaires, dans le cadre de la mise en œuvre de la motion CSSS-N (21.3462 «&nbsp;Mandat concernant la prochaine réforme de l’AVS&nbsp;»).</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé de récolter auprès de l'OFS et du SECO des données visant à analyser les conséquences du travail à temps partiel sur l'AVS et, dans le prolongement, à proposer de nouveaux modèles de financement des retraites.</p>"
+    },
     {
       "type": {
         "id": 1,

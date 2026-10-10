@@ -1,6 +1,7 @@
 {
   "id": 20230035,
-  "updated": "2023-06-16T13:37:26Z",
+  "updated": "2026-02-10T20:07:04Z",
+  "additionalIndexing": "08;15",
   "affairType": {
     "abbreviation": "BRG",
     "id": 1,
@@ -33,7 +34,7 @@
             "abbreviation": "APK-NR",
             "id": 4,
             "name": "Aussenpolitische Kommission NR",
-            "abbreviation1": "APK-NR",
+            "abbreviation1": "APK-N",
             "abbreviation2": "APK",
             "committeeNumber": 4,
             "council": {
@@ -55,7 +56,7 @@
             "abbreviation": "APK-SR",
             "id": 17,
             "name": "Aussenpolitische Kommission SR",
-            "abbreviation1": "APK-SR",
+            "abbreviation1": "APK-S",
             "abbreviation2": "APK",
             "committeeNumber": 17,
             "council": {
@@ -69,7 +70,8 @@
           "date": "2023-04-05T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "IIIb/IV"
         }
       ],
       "references": [
@@ -125,8 +127,33 @@
       "states": [
         {
           "date": "/Date(1680645600000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1697493600000+0200)/",
+          "id": 227,
+          "name": "In beiden Kommissionen"
+        },
+        {
+          "date": "/Date(1702335600000+0100)/",
+          "id": 219,
+          "name": "Geplant für die Schlussabstimmung"
+        },
+        {
+          "date": "/Date(1703199600000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -142,7 +169,66 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-28T00:00:00Z",
+            "text": "Beschluss gemäss Entwurf",
+            "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-12-12T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-12-22T00:00:00Z",
+            "text": "Annahme in der Schlussabstimmung",
+            "type": 36
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-12-22T00:00:00Z",
+            "text": "Annahme in der Schlussabstimmung",
+            "type": 36
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -154,10 +240,56 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-17T10:04:36Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3100,
+                    "gender": "m",
+                    "id": 4194,
+                    "name": "Wehrli Laurent",
+                    "officialDenomination": "Wehrli"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "APK-NR",
             "id": 4,
             "name": "Aussenpolitische Kommission NR",
-            "abbreviation1": "APK-NR",
+            "abbreviation1": "APK-N",
             "abbreviation2": "APK",
             "committeeNumber": 4,
             "council": {
@@ -179,7 +311,7 @@
             "abbreviation": "APK-SR",
             "id": 17,
             "name": "Aussenpolitische Kommission SR",
-            "abbreviation1": "APK-SR",
+            "abbreviation1": "APK-S",
             "abbreviation2": "APK",
             "committeeNumber": 17,
             "council": {
@@ -194,9 +326,77 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2674,
+                    "gender": "m",
+                    "id": 3871,
+                    "name": "Bischof Pirmin",
+                    "officialDenomination": "Bischof Pirmin"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                }
               ],
               "sessionId": "5122"
+            }
+          ],
+          "treatmentCategory": "IIIb/IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-17T10:04:38Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2748,
+                    "gender": "f",
+                    "id": 4040,
+                    "name": "Schneider-Schneiter Elisabeth",
+                    "officialDenomination": "Schneider-Schneiter"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                }
+              ]
             }
           ]
         }
@@ -221,6 +421,26 @@
             "id": 1,
             "name": "Beratungsgegenstand / Entwurf"
           }
+        },
+        {
+          "date": "/Date(1704754800000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "38",
+            "source": "BBl 2024 38",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2024/38.pdf",
+            "year": "2024"
+          },
+          "referendumDeadline": "2024-04-18T00:00:00Z",
+          "type": {
+            "id": 3,
+            "name": "Schlussabstimmungstext"
+          }
         }
       ],
       "relatedDepartments": [
@@ -234,8 +454,28 @@
       "states": [
         {
           "date": "/Date(1680645600000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1702335600000+0100)/",
+          "id": 219,
+          "name": "Geplant für die Schlussabstimmung"
+        },
+        {
+          "date": "/Date(1703199600000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -267,8 +507,8 @@
   ],
   "shortId": "23.035",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },

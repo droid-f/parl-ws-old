@@ -1,6 +1,6 @@
 {
   "id": 20233898,
-  "updated": "2023-06-21T15:33:53Z",
+  "updated": "2025-12-09T07:40:50Z",
   "additionalIndexing": "44;2836",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,182 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2025-05-06T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-12-08T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-30T00:00:00Z",
+        "text": "Ablehnung"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-10-22T21:29:02Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3108,
+                    "gender": "m",
+                    "id": 4207,
+                    "name": "Müller Damian",
+                    "officialDenomination": "Müller Damian"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-SR",
+            "id": 19,
+            "name": "Kommission für soziale Sicherheit und Gesundheit SR",
+            "abbreviation1": "SGK-S",
+            "abbreviation2": "SGK",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2025-05-08T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-NR",
+            "id": 6,
+            "name": "Kommission für soziale Sicherheit und Gesundheit NR",
+            "abbreviation1": "SGK-N",
+            "abbreviation2": "SGK",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2025-05-08T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686866400000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1693346400000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1746482400000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1746655200000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1756850400000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1760997600000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1764111600000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1765148400000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -91,7 +244,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -164,19 +317,40 @@
   ],
   "shortId": "23.3898",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Gemäss der Schweizerischen Arbeitskräfteerhebung (SAKE) des BFS hat Teilzeitarbeit zwischen 2012 und 2022 dreimal stärker zugenommen als Vollzeitarbeit. Im Rahmen der Behandlung der Volksinitiative «Für eine sichere und nachhaltige Altersvorsorge (Renteninitiative)» ersuchte die SGK-N im März dieses Jahres das BSV um Informationen beziehungsweise Statistiken zu den Auswirkungen der Teilzeitarbeit auf die AHV. In seiner Antwort schrieb das BSV: «Basierend auf den verfügbaren Daten kann […] nicht aufgezeigt werden, wie sich Teilzeitarbeit auf die AHV auswirkt und ob eine allgemeine Erhöhung der Erwerbsquote in der Bevölkerung signifikante Auswirkungen auf die Einnahmen oder Ausgaben der AHV hätte. Ausserdem können keine mittel- und langfristigen Projektionen dieser Auswirkungen erstellt werden, da es dafür (noch) keine wirtschaftlichen Modelle gibt».</p><p>Es scheint daher offensichtlich, dass es eine gemeinsame Beschäftigungsstatistik von BFS und SECO zur Teilzeitarbeit braucht, wenn die Finanzierungsmodelle der AHV besser strukturiert werden sollen. Benötigt werden systematische Einzeldaten und nicht nur generelle Ergebnisse aus Erhebungen zur erwerbstätigen Bevölkerung. Diese sollen multifaktorielle Kriterien berücksichtigen, darunter Alterskategorie, Geschlecht, Ausbildung, Lohnniveau, Aufgabenteilung bei Paaren, Arbeitskräfte, Gesamtbeschäftigungsvolumen und so weiter. Die Motion nimmt Überlegungsansätze aus der Debatte zur Renteninitiative wieder auf.</p><p>&nbsp;</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Allgemein ist die Richtung der Auswirkung der Teilzeiterwerbstätigkeit auf die AHV unklar. Die Teilzeiterwerbstätigkeit wird meist als Anteil an den Erwerbstätigen ausgewiesen. Deshalb ist beitragsseitig insbesondere relevant, ob eine Steigerung der Teilzeiterwerbstätigkeit auf eine Aufnahme einer Erwerbstätigkeit von Personen, die davor nicht erwerbstätig waren, oder auf eine Reduktion des Erwerbspensums von Personen, die zuvor Vollzeit erwerbstätig waren, zurückzuführen ist. Bei den Frauen haben die Erwerbstätigen zwischen 2010 und 2022 um 17 Prozent zugenommen. Die Erwerbstätigkeit der Frauen im Vollzeitäquivalent hat im gleichen Zeitraum um 23 Prozent zugenommen, d. h. pro erwerbstätige Frau wurden mehr Arbeitsstunden geleistet. Bei den Männern war die Zunahme der Erwerbstätigen zwischen 2010 und 2022 mit einem Wachstum von 14 Prozent weniger ausgeprägt. Gleichzeitig hat bei den Männern das Vollzeitäquivalent nur um 11% zugenommen, was bedeutet, dass es einen Rückgang bei den durchschnittlichen Erwerbspensen gab. Entsprechend ist zu erwarten, dass die Entwicklung bei den Frauen beitragsseitig Mehreinnahmen für die AHV generiert, während die Entwicklung bei den Männern auf geringere Einnahmen pro Beitragszahler hinweist.</p><p>&nbsp;</p><p>Ausgabenseitig ist es insbesondere aufgrund von Plafonierung, Splitting, Erziehungsgutschriften und neueren Familienmodellen (mehr Konkubinatspaare, die das Rentenalter erreichen) unklar, was die Auswirkungen sind.&nbsp;</p><p>&nbsp;</p><p>Im Auftrag des Bundesrates führt das Bundesamt für Statistik (BFS) seit 1991 jedes Jahr die Schweizerische Arbeitskräfteerhebung (SAKE) und seit 1994 die Lohnstrukturerhebung (LSE) durch. Beide erheben bereits Daten zum Beschäftigungsgrad, zu bezahlten und unbezahlten Arbeitsstunden (Haus- und Familienarbeit, Freiwilligenarbeit) und zum Erwerbseinkommen. Diese Daten können nach Geschlecht, Alter, Bildungsniveau und vielen anderen soziodemografischen Variablen aufgeschlüsselt werden. Gemäss dem im Rahmen von der Nationalen Datenbewirtschaftung (NaDB) festgelegten Once-Only-Prinzip und um eine erneute Befragung zu vermeiden, können die SAKE-Daten und die LSE- Daten mit administrativen Daten, wie AHV-IV-beitragspflichtige Einkommen und AHV-IV-Renten verknüpft werden und Schätzungen zur Auswirkung der Teilzeitarbeit auf die AHV gemacht werden. Aufgrund der Komplexität des Themas und weil es sich bei der LSE und der SAKE um Stichprobenerhebungen handelt, müssten dafür aber zuerst komplexe Modelle entwickelt werden. Solche und ähnliche Themen werden im Rahmen der Umsetzung der Motion SGK-N (21.3462 «Auftrag für die nächste AHV-Reform») behandelt werden.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, beim BFS und beim SECO Daten einzuholen, um die Auswirkungen der Teilzeitarbeit auf die AHV zu analysieren und in der Folge neue Modelle zur Finanzierung unserer Renten vorzuschlagen.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Bessere Strukturierung der Rentenfinanzierung dank zuverlässigen Daten zu den Arbeitsmodellen, insbesondere Teilzeit"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Bessere Strukturierung der Rentenfinanzierung dank zuverlässigen Daten zu den Arbeitsmodellen, insbesondere Teilzeit"
 }

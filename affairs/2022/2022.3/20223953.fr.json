@@ -1,6 +1,6 @@
 {
   "id": 20223953,
-  "updated": "2022-12-16T09:00:59Z",
+  "updated": "2025-09-25T15:34:15Z",
   "additionalIndexing": "2846;66;12",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2022-12-16T00:00:00Z",
             "text": "Adoption",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-09-25T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
           }
         ]
       },
@@ -67,7 +82,92 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CEATE-CE",
+            "id": 20,
+            "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CE",
+            "abbreviation1": "CEATE-E",
+            "abbreviation2": "CEATE",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-09-21T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CEATE-CN",
+            "id": 7,
+            "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CN",
+            "abbreviation1": "CEATE-N",
+            "abbreviation2": "CEATE",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-09-21T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-07-03T18:08:41Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3227,
+                    "gender": "f",
+                    "id": 4332,
+                    "name": "Crevoisier Crelier Mathilde",
+                    "officialDenomination": "Crevoisier Crelier"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +188,23 @@
         },
         {
           "date": "/Date(1671145200000+0100)/",
-          "id": 11,
-          "name": "Motion au 2e conseil"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1743372000000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1751493600000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1758751200000+0200)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
         }
       ],
       "texts": [
@@ -169,10 +284,9 @@
   ],
   "shortId": "22.3953",
   "state": {
-    "id": 11,
-    "name": "Motion au 2e conseil",
+    "id": 209,
+    "name": "Transmis au Conseil fédéral",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -182,6 +296,13 @@
         "name": "Développement"
       },
       "value": "<p>Les obstacles bureaucratiques à la construction d'installations photovoltaïques ne posant pas de problème doivent être supprimés afin de promouvoir rapidement le développement de l'énergie solaire.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "Le Conseil fédéral propose d'accepter la motion."
     },
     {
       "type": {

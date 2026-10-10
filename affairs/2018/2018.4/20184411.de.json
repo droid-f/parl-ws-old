@@ -1,6 +1,6 @@
 {
   "id": 20184411,
-  "updated": "2019-09-24T09:09:57Z",
+  "updated": "2025-09-23T11:59:09Z",
   "additionalIndexing": "15;55",
   "affairType": {
     "abbreviation": "Mo.",
@@ -70,6 +70,36 @@
             "date": "2019-09-23T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-09-10T00:00:00Z",
+            "text": "Abschreibung im Rahmen eines anderen Geschäfts",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2025-09-18T00:00:00Z",
+            "text": "Abschreibung im Rahmen eines anderen Geschäfts",
+            "type": 0
           }
         ]
       },
@@ -88,7 +118,7 @@
             "abbreviation": "WAK-NR",
             "id": 10,
             "name": "Kommission für Wirtschaft und Abgaben NR",
-            "abbreviation1": "WAK-NR",
+            "abbreviation1": "WAK-N",
             "abbreviation2": "WAK",
             "committeeNumber": 10,
             "council": {
@@ -119,7 +149,7 @@
                   },
                   "faction": {
                     "abbreviation": "Fraktion C",
-                    "code": "C",
+                    "code": "M-E",
                     "id": 3,
                     "name": "CVP-Fraktion"
                   },
@@ -157,7 +187,7 @@
             "abbreviation": "WAK-SR",
             "id": 23,
             "name": "Kommission für Wirtschaft und Abgaben SR",
-            "abbreviation1": "WAK-SR",
+            "abbreviation1": "WAK-S",
             "abbreviation2": "WAK",
             "committeeNumber": 23,
             "council": {
@@ -198,8 +228,18 @@
         },
         {
           "date": "/Date(1569189600000+0200)/",
-          "id": 26,
-          "name": "Angenommen"
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
+        },
+        {
+          "date": "/Date(1743544800000+0200)/",
+          "id": 216,
+          "name": "Abschreibungsantrag liegt vor"
+        },
+        {
+          "date": "/Date(1758146400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -207,11 +247,6 @@
       ]
     }
   ],
-  "handling": {
-    "date": "2019-09-23T00:00:00Z",
-    "legislativePeriod": 50,
-    "session": "5019"
-  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -305,9 +340,9 @@
   ],
   "shortId": "18.4411",
   "state": {
-    "id": 26,
-    "name": "Angenommen",
-    "doneKey": "3",
+    "id": 229,
+    "name": "Erledigt",
+    "doneKey": "0",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },
@@ -317,14 +352,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Gestützt auf Artikel 30 Absatz 5 Buchstabe b des Lebensmittelgesetzes sollen private Kontrollbeauftragte ihre Tätigkeit auf jeder Stufe der Produktion, der Verarbeitung und insbesondere des Handels ausüben können. Sie erhalten eine Ausbildung in der Art einer Lebensmittelkontrolleurin bzw. eines Lebensmittelkontrolleurs, wie sie in der entsprechenden Verordnung geregelt ist. Die Tätigkeiten dieser privaten Kontrollbeauftragten sind auf die folgenden Aufgaben begrenzt:</p><p>1. Sie kontrollieren auf dem Markt, ob Erzeugnisse mit einer geschützten Bezeichnung das Gesetz und das jeweilige Pflichtenheft einhalten.</p><p>2. Sie überwachen dem Erzeugnis mit geschützter Bezeichnung ähnliche Produkte, die in der Schweiz hergestellt oder aus dem Ausland importiert wurden, und überprüfen die Herkunft, die Art, die Warenbeschaffenheit und die besonderen Merkmale dieser Produkte, damit die Konsumentinnen und Konsumenten in der Schweiz und im Ausland nicht getäuscht werden und diese Produkte den landwirtschaftlichen Erzeugnissen mit geschützter Bezeichnung nicht schaden.</p><p>Die privaten Kontrollbeauftragten dürfen dagegen weder Bescheinigungen ausstellen noch amtliche Kontrollen der Erzeugnisse mit geschützter Bezeichnung durchführen.</p>"
+      "value": "<p>Gestützt auf Artikel 30 Absatz 5 Buchstabe b des Lebensmittelgesetzes sollen private Kontrollbeauftragte ihre Tätigkeit auf jeder Stufe der Produktion, der Verarbeitung und insbesondere des Handels ausüben können. Sie erhalten eine Ausbildung in der Art einer Lebensmittelkontrolleurin bzw. eines Lebensmittelkontrolleurs, wie sie in der entsprechenden Verordnung geregelt ist. Die Tätigkeiten dieser privaten Kontrollbeauftragten sind auf die folgenden Aufgaben begrenzt:</p><p>1. Sie kontrollieren auf dem Markt, ob Erzeugnisse mit einer geschützten Bezeichnung das Gesetz und das jeweilige Pflichtenheft einhalten.</p><p>2. Sie überwachen dem Erzeugnis mit geschützter Bezeichnung ähnliche Produkte, die in der Schweiz hergestellt oder aus dem Ausland importiert wurden, und überprüfen die Herkunft, die Art, die Warenbeschaffenheit und die besonderen Merkmale dieser Produkte, damit die Konsumentinnen und Konsumenten in der Schweiz und im Ausland nicht getäuscht werden und diese Produkte den landwirtschaftlichen Erzeugnissen mit geschützter Bezeichnung nicht schaden.</p><p>Die privaten Kontrollbeauftragten dürfen dagegen weder Bescheinigungen ausstellen noch amtliche Kontrollen der Erzeugnisse mit geschützter Bezeichnung durchführen.</p>"
     },
     {
       "type": {
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Das Lebensmittelgesetz (LMG, SR 817.0) bezweckt unter anderem den Schutz der Konsumentinnen und Konsumenten vor Täuschung. So müssen gemäss Artikel 18 Absatz 1 LMG sämtliche Angaben über Lebensmittel den Tatsachen entsprechen. Täuschend und damit unzulässig sind namentlich Aufmachungen, Kennzeichnungen, Verpackungen und Werbungen, die geeignet sind, bei den Konsumentinnen und Konsumenten falsche Vorstellungen über Herstellung, Zusammensetzung, Beschaffenheit, Produktionsart, Haltbarkeit, Produktionsland, Herkunft der Rohstoffe oder Bestandteile, besondere Wirkungen oder besonderen Wert des Produkts zu wecken (Art. 18 Abs. 2 und 3 LMG). Der Vollzug des Lebensmittelrechts im Inland obliegt gemäss Artikel 47 LMG den Kantonen. Die Kantonschemikerinnen und Kantonschemiker vollziehen auch den Täuschungsschutz bei den geschützten Bezeichnungen.</p><p>Neben den risikobasierten Stichprobenkontrollen werden regelmässig koordinierte Kontrollkampagnen durchgeführt. So wurden 2015 in einer risikobasierten nationalen Kampagne 1500 Produkte mit geschützten Bezeichnungen überprüft. Dabei wurden rund 300 Produkte beanstandet (etwa 20 Prozent). Die meisten Nichtkonformitäten wurden in der Gastronomie festgestellt. Je nach Art und Schwere der festgestellten Mängel haben die Vollzugsorgane eine Verwarnung ausgesprochen oder Anzeige bei den Strafverfolgungsbehörden erstattet. Die Beanstandungsquote bei den geschützten Bezeichnungen ist demnach relativ hoch. Es liegt in der Verantwortung der betroffenen Kreise, die Selbstkontrolle (gemäss Art. 26 LMG) zu verbessern, damit keine täuschenden Produkte auf den Markt gelangen. Die Kontrollen der Produkte mit geschützten Bezeichnungen werden im Rahmen der normalen Vollzugstätigkeit der kantonalen Behörden weitergeführt.</p><p>Die von der Motionärin geforderte Zusammenarbeit der Branchen- und Produzentenorganisationen mit den Bundesbehörden und den kantonalen Vollzugsbehörden ist schon heute möglich. Meldungen der privaten Organisationen an die zuständigen Stellen werden von den Vollzugsbehörden aufgenommen und im Rahmen der normalen Vollzugstätigkeit überprüft. Um die Zusammenarbeit weiter zu verbessern und zu erleichtern, prüfen die zuständigen Bundesämter und kantonalen Vollzugsbehörden gegenwärtig im Rahmen der Umsetzung der Gesamtstrategie entlang der Lebensmittelkette, wie der Datenaustausch zwischen Privaten (z. B. Zertifizierungsstellen) und Vollzugsorganen weiter verbessert werden kann. Erste Ergebnisse dazu sollten bis Ende 2019 vorliegen.</p><p>Die Schaffung eines weiteren Kontrollorgans parallel zu den kantonalen Behörden zum Vollzug des Lebensmittelgesetzes würde im Vergleich zur heutigen Situation keinen direkten Mehrwert schaffen. Vielmehr würde dadurch ein grösserer Koordinationsaufwand entstehen, damit Doppelkontrollen und weitere administrative Belastungen der Betriebe verhindert werden können.</p>"
+      "value": "<p>Das Lebensmittelgesetz (LMG, SR 817.0) bezweckt unter anderem den Schutz der Konsumentinnen und Konsumenten vor Täuschung. So müssen gemäss Artikel 18 Absatz 1 LMG sämtliche Angaben über Lebensmittel den Tatsachen entsprechen. Täuschend und damit unzulässig sind namentlich Aufmachungen, Kennzeichnungen, Verpackungen und Werbungen, die geeignet sind, bei den Konsumentinnen und Konsumenten falsche Vorstellungen über Herstellung, Zusammensetzung, Beschaffenheit, Produktionsart, Haltbarkeit, Produktionsland, Herkunft der Rohstoffe oder Bestandteile, besondere Wirkungen oder besonderen Wert des Produkts zu wecken (Art. 18 Abs. 2 und 3 LMG). Der Vollzug des Lebensmittelrechts im Inland obliegt gemäss Artikel 47 LMG den Kantonen. Die Kantonschemikerinnen und Kantonschemiker vollziehen auch den Täuschungsschutz bei den geschützten Bezeichnungen.</p><p>Neben den risikobasierten Stichprobenkontrollen werden regelmässig koordinierte Kontrollkampagnen durchgeführt. So wurden 2015 in einer risikobasierten nationalen Kampagne 1500 Produkte mit geschützten Bezeichnungen überprüft. Dabei wurden rund 300 Produkte beanstandet (etwa 20 Prozent). Die meisten Nichtkonformitäten wurden in der Gastronomie festgestellt. Je nach Art und Schwere der festgestellten Mängel haben die Vollzugsorgane eine Verwarnung ausgesprochen oder Anzeige bei den Strafverfolgungsbehörden erstattet. Die Beanstandungsquote bei den geschützten Bezeichnungen ist demnach relativ hoch. Es liegt in der Verantwortung der betroffenen Kreise, die Selbstkontrolle (gemäss Art. 26 LMG) zu verbessern, damit keine täuschenden Produkte auf den Markt gelangen. Die Kontrollen der Produkte mit geschützten Bezeichnungen werden im Rahmen der normalen Vollzugstätigkeit der kantonalen Behörden weitergeführt.</p><p>Die von der Motionärin geforderte Zusammenarbeit der Branchen- und Produzentenorganisationen mit den Bundesbehörden und den kantonalen Vollzugsbehörden ist schon heute möglich. Meldungen der privaten Organisationen an die zuständigen Stellen werden von den Vollzugsbehörden aufgenommen und im Rahmen der normalen Vollzugstätigkeit überprüft. Um die Zusammenarbeit weiter zu verbessern und zu erleichtern, prüfen die zuständigen Bundesämter und kantonalen Vollzugsbehörden gegenwärtig im Rahmen der Umsetzung der Gesamtstrategie entlang der Lebensmittelkette, wie der Datenaustausch zwischen Privaten (z. B. Zertifizierungsstellen) und Vollzugsorganen weiter verbessert werden kann. Erste Ergebnisse dazu sollten bis Ende 2019 vorliegen.</p><p>Die Schaffung eines weiteren Kontrollorgans parallel zu den kantonalen Behörden zum Vollzug des Lebensmittelgesetzes würde im Vergleich zur heutigen Situation keinen direkten Mehrwert schaffen. Vielmehr würde dadurch ein grösserer Koordinationsaufwand entstehen, damit Doppelkontrollen und weitere administrative Belastungen der Betriebe verhindert werden können.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

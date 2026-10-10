@@ -1,7 +1,7 @@
 {
   "id": 20233533,
-  "updated": "2023-05-09T15:31:21Z",
-  "additionalIndexing": "2811;10",
+  "updated": "2025-11-14T07:40:00Z",
+  "additionalIndexing": "2811;10;1231;1216",
   "affairType": {
     "abbreviation": "Mo.",
     "id": 5,
@@ -34,29 +34,166 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-27T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-03-13T00:00:00Z",
+            "text": "Annahme (teilweise) : Punkte 2-6: angenommen; Punkt 1: abgelehnt.",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2023-09-06T00:00:00Z",
+        "text": "Annahme (teilweise)"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "SPK-NR",
+            "id": 11,
+            "name": "Staatspolitische Kommission NR",
+            "abbreviation1": "SPK-N",
+            "abbreviation2": "SPK",
+            "committeeNumber": 11,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-23T16:37:45Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2700,
+                    "gender": "f",
+                    "id": 3897,
+                    "name": "Moser Tiana Angelina",
+                    "officialDenomination": "Moser"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SPK-SR",
+            "id": 24,
+            "name": "Staatspolitische Kommission SR",
+            "abbreviation1": "SPK-S",
+            "abbreviation2": "SPK",
+            "committeeNumber": 24,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1683064800000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1693951200000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1695765600000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1705964400000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1710284400000+0100)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -100,10 +237,10 @@
   ],
   "shortId": "23.3533",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -115,10 +252,17 @@
     },
     {
       "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>1. Die Formulierung \"in der Regel\" in Art. 31a Abs. 1 Asylgesetz (AsylG; SR 142.31) ermöglicht es den Behörden, eine automatische Anwendung des Gesetzes zu vermeiden, welche in spezifischen Fällen dazu führen könnte, dass den zwingenden Regeln des nationalen oder internationalen Rechts widersprochen würde (insb. Einhaltung des Non-Refoulement-Prinzips). Im Rahmen des Art. 31<i>a&nbsp;</i>Abs. 1 lit. b hätte eine Streichung zudem zur Folge, dass die Schweiz bei sämtlichen Personen, für deren Prüfung des Asylgesuchs aufgrund des Dublin-Assoziierungsabkommens ein anderer Staat zuständig ist, die Souveränitätsklausel (sog. Selbsteintrittsrecht) nicht mehr anwenden dürfte. Dies widerspricht der Dublin-III-Verordnung, die in Art.&nbsp;17 die Anwendung einer Klausel bei humanitären Einzelfällen als Option vorsieht.&nbsp;</p><p>&nbsp;</p><p>2. Der Motion liegt die Annahme zugrunde, dass ein Zusammenhang zwischen Art des Asylentscheids und der Vollzugseffizienz besteht. Ob das Staatssekretariat für Migration (SEM) auf ein Asylgesuch eintritt oder nicht, hat zwar Auswirkungen auf die Dauer des Asylverfahrens, nicht jedoch auf den Vollzug. Der Vollzug der Wegweisungen obliegt den Kantonen.<span style=\"color:black;\"> Zudem führte der Bundesrat 2019 weitere Anreize für frühzeitige selbständige Ausreisen ab Bundesasylzentren in die Heimat- und Herkunftsstaaten ein und arbeitet gezielt mit Drittstaaten zusammen.</span>&nbsp;<span style=\"color:black;\">Die Anzahl der Ausreisen konnte im Jahr 2022 nach dem pandemiebedingten Rückgang 2020 und 2021 deutlich gesteigert werden und die Vollzugsquote der Schweiz (2022: 57%) liegt damit deutlich über den europäischen Vergleichswerten. Die Schweiz ist jedoch bemüht, ihre eigene Rückführungsquote laufend zu verbessern. Zudem wird der Bundesrat prüfen, ob es im Rückführungsbereich Möglichkeiten für ein verbessertes Reporting und andere Zusatzmassnahmen gibt.</span></p><p>&nbsp;</p><p>3. Die Aktionspläne mit Deutschland und Österreich wurden bereits auf bilateraler Ebene evaluiert. Man war sich einig, dass die Massnahmen im Rahmen der Aktionspläne grundsätzlich weitergeführt werden sollen. Hierzu gehört u.a. die Intensivierung der grenzpolizeilichen Zusammenarbeit und des Informationsaustauschs auf der operativen Ebene. Der regelmässige Austausch mit Deutschland und Österreich zu den Aktionsplänen soll fortgesetzt werden. Vergangenen Juni kam es zu verschiedenen Treffen, insbesondere zum bilateralen Austausch zwischen der Vorsteherin des Eidg. Justiz- und Polizeidepartements (EJPD) und dem österreichischen Innenminister einerseits sowie der deutschen Innenministerin andererseits. Dabei konnte aus den Aktionsplänen eine positive Bilanz gezogen werden, und es wurde vereinbart, die Zusammenarbeit weiter zu stärken. Das EJPD informiert die zuständigen parlamentarischen Kommissionen regelmässig über aktuelle Entwicklungen, bei Bedarf auch zusammen mit dem EFD (BAZG). Mit seinem Antrag, das Postulat 23.3859 Pfister Gerhard «Chancen der Reform des Gemeinsamen Europäischen Asylsystems (GEAS) für die Schweizer Asylpolitik» anzunehmen, hat der Bundesrat zudem seine Bereitschaft kundgegeben, das Parlament umfassend zu den Chancen und Risiken der europäischen Migrations- und Asylreform zu informieren. Die Bekämpfung der irregulären Sekundärmigration, wozu auch die Aktionspläne mit Deutschland und Österreich gehören, ist dabei ein wichtiges Element. Der Bundesrat ist bereit, diese Information weiter zu intensivieren.&nbsp;</p><p>&nbsp;</p><p>4. Die Schweiz verfügt aktuell über 65 Abkommen, welche die Rückkehrzusammenarbeit formalisieren, sowohl mit EU/Schengen-Staaten als auch mit Drittstaaten, und arbeitet aktiv am Abschluss weiterer Abkommen. Diese können auch Regelungen zur Rückübernahme von Drittstaatsangehörigen mit einem Aufenthaltstitel des entsprechenden Staates enthalten. Auch beim Bestehen solcher Abkommen hat aber grundsätzlich jede Person das Anrecht, einen Asylantrag zu stellen. Die Schweiz will ihr Netz von Rückübernahmeabkommen ausbauen und die bestehenden Abkommen in diesem Bereich besser nutzen.</p><p>&nbsp;</p><p>5. Der Bundesrat überprüft die Liste der verfolgungssicheren Herkunftsstaaten, wie gesetzlich vorgesehen, regelmässig. Dabei begrüsst er vorgängig die staatspolitischen Kommissionen des Stände- und des Nationalrats. Ergänzend zur eigenständigen Prüfung berücksichtigt er auch die teilweise sehr unterschiedlichen Einschätzungen europäischer Staaten. Aufmerksam verfolgt das SEM die Vorarbeiten der Europäischen Asylagentur im Hinblick auf eine künftige Liste verfolgungssicherer Staaten der Europäischen Union. Basierend auf die Arbeit der europäischen Agentur wird das EJPD die Liste der sicheren Staaten neu bewerten.</p><p>&nbsp;</p><p>6. Die Zusammenarbeit mit Europol und INTERPOL im Bereich Menschenschmuggel funktioniert seit Langem problemlos und ist gut etabliert. Für den Bereich Menschenhandel hat der Bundesrat an seiner Sitzung vom 16. Dezember 2022 für die Jahre 2023 bis 2027 den dritten Nationalen Aktionsplan gegen Menschenhandel gutgeheissen. Der Plan umfasst 44 Aktionen zu sieben strategischen Zielen. Die Bekämpfung der grenzüberschreitenden Kriminalität wird zudem im Rahmen der nationalen IBM-Strategie für die nächsten Jahre und bei der Formulierung daraus folgender Massnahmen mitberücksichtigt. Auch hier findet via die zuständigen Kommissionen eine regelmässige Information des Parlaments statt und der Bundesrat ist aber bereit, diese zu intensivieren.&nbsp;</p><p>&nbsp;</p><p>Der Bundesrat unterstützt eine umfassende und transparente Information des Parlaments zur irregulären Sekundärmigration. Die vom Motionär geforderten Massnahmen können aber aus Sicht des Bundesrates nur teilweise umgesetzt werden.&nbsp;</p><p>&nbsp;</p><p><strong>Antrag des Bundesrates</strong></p><p>Der Bundesrat beantragt die Annahme der Lemmata 2, 3, 4, 5 und 6 sowie die Ablehnung des Lemma 1.</p>"
+    },
+    {
+      "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Um den ordentlichen Betrieb im Asylwesen sicherzustellen und weiterhin schutzbedürftigen Menschen nach der humanitären Tradition der Schweiz Asyl zu gewährleisten, sind Massnahmen zur Eindämmung der Sekundärmigration nötig. Der Bundesrat wird daher beauftragt: </p><p>- Den Begriff \"in der Regel\" im Artikel 31a AsylG zu streichen. Dies soll sicherstellen, dass die Möglichkeit von Nichteintreten auf Asylgesuche bei Anträgen von Personen, die aus einem sicheren Drittstaat einwandern, konsequent angewendet wird. </p><p>- Die Vollzugseffizienz der Wegweisungsverfahren bei einem Nichteintretensentscheid gemäss Artikel 31a AsylG dem Parlament aufzeigen. Es sind Massnahmen oder rechtliche Anpassungen für die Verfahrensbeschleunigung vorzuschlagen. </p><p>- Die bisherigen Ergebnisse der vereinbarten Aktionspläne mit Deutschland und Österreich bezüglich der kooperativen Problemlösung zu evaluieren und dem Parlament vorzulegen. </p><p>- Konkrete, konsequente und schnell anwendbare Massnahmen für die Bekämpfung von Asylmissbrauch durch Migranten, die bereits eine Aufenthaltsbewilligung in einem Drittland mit schlechteren Aufnahmebedingungen erlangt, zu treffen. Dazu sollen bilaterale Abkommen mit den betroffenen Drittstaaten abgeschlossen werden. </p><p>- Anpassungen an der Liste der sicheren Drittstaaten und deren Erfüllungskriterien vorzunehmen. Ein Massstab für diese Überprüfung soll die Liste \"Safe-Countries\" von den umliegenden europäischen Nachbarländern bilden. </p><p>- Die konsequente Bekämpfung der Schlepperkriminalität sowie des Menschenhandels zu intensivieren. Zu diesem Zweck muss der Bundesrat nationale sowie internationale Massnahmenmöglichkeiten (bspw. Polizeikooperation mit Europol und Interpol) dem Parlament vorlegen.</p>"
+      "value": "<p>Um den ordentlichen Betrieb im Asylwesen sicherzustellen und weiterhin schutzbedürftigen Menschen nach der humanitären Tradition der Schweiz Asyl zu gewährleisten, sind Massnahmen zur Eindämmung der Sekundärmigration nötig. Der Bundesrat wird daher beauftragt: </p><p>- Den Begriff \"in der Regel\" im Artikel 31a AsylG zu streichen. Dies soll sicherstellen, dass die Möglichkeit von Nichteintreten auf Asylgesuche bei Anträgen von Personen, die aus einem sicheren Drittstaat einwandern, konsequent angewendet wird. </p><p>- Die Vollzugseffizienz der Wegweisungsverfahren bei einem Nichteintretensentscheid gemäss Artikel 31a AsylG dem Parlament aufzeigen. Es sind Massnahmen oder rechtliche Anpassungen für die Verfahrensbeschleunigung vorzuschlagen. </p><p>- Die bisherigen Ergebnisse der vereinbarten Aktionspläne mit Deutschland und Österreich bezüglich der kooperativen Problemlösung zu evaluieren und dem Parlament vorzulegen. </p><p>- Konkrete, konsequente und schnell anwendbare Massnahmen für die Bekämpfung von Asylmissbrauch durch Migranten, die bereits eine Aufenthaltsbewilligung in einem Drittland mit schlechteren Aufnahmebedingungen erlangt, zu treffen. Dazu sollen bilaterale Abkommen mit den betroffenen Drittstaaten abgeschlossen werden. </p><p>- Anpassungen an der Liste der sicheren Drittstaaten und deren Erfüllungskriterien vorzunehmen. Ein Massstab für diese Überprüfung soll die Liste \"Safe-Countries\" von den umliegenden europäischen Nachbarländern bilden. </p><p>- Die konsequente Bekämpfung der Schlepperkriminalität sowie des Menschenhandels zu intensivieren. Zu diesem Zweck muss der Bundesrat nationale sowie internationale Massnahmenmöglichkeiten (bspw. Polizeikooperation mit Europol und Interpol) dem Parlament vorlegen.</p>"
     },
     {
       "type": {

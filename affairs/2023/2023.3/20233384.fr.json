@@ -1,6 +1,6 @@
 {
   "id": 20233384,
-  "updated": "2023-03-20T10:23:17Z",
+  "updated": "2025-09-18T15:22:09Z",
   "additionalIndexing": "28;2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,182 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "L’objet est repris",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-09-11T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-09-18T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-05-24T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSSS-CE",
+            "id": 19,
+            "name": "Commission de la sécurité sociale et de la santé publique CE",
+            "abbreviation1": "CSSS-E",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSSS-CN",
+            "id": 6,
+            "name": "Commission de la sécurité sociale et de la santé publique CN",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-06-27T17:08:57Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3107,
+                    "gender": "m",
+                    "id": 4206,
+                    "name": "Ettlin Erich",
+                    "officialDenomination": "Ettlin Erich"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1679007600000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1684879200000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1726005600000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1727820000000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1750975200000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1758146400000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -140,7 +293,7 @@
         "gender": "m",
         "id": 4053,
         "name": "Aeschi Thomas",
-        "officialDenomination": "Aeschi Thomas"
+        "officialDenomination": "Aeschi"
       },
       "type": "cosign"
     },
@@ -270,7 +423,7 @@
         "gender": "f",
         "id": 4234,
         "name": "Schläpfer Therese",
-        "officialDenomination": "Schläpfer"
+        "officialDenomination": "Schläpfer Therese"
       },
       "type": "cosign"
     },
@@ -308,23 +461,54 @@
         "name": "Groupe de l'Union démocratique du Centre"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3142,
+        "gender": "f",
+        "id": 4250,
+        "name": "Bircher Martina",
+        "officialDenomination": "Bircher"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "23.3384",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Dans son avis relatif à la motion no 20.4653, le Conseil fédéral justifie notamment son rejet de la motion par le fait que la Confédération a pris des mesures dans le cadre des plateformes Démence et Soins palliatifs pour améliorer la qualité de vie des personnes concernées et que la question de l'utilisation de psychotropes y a également été abordée. Or, comme le montrent les résultats d'une étude sur la polymédication et les neuroleptiques dans les EMS suisses pour les années 2019 et 2020 (<a href=\"https://econtent.hogrefe.com/doi/10-1024/1661-8157/a003909\">https ://econtent.hogrefe.com/doi/10-1024/1661-8157/a003909</a>) et de récents articles de presse, la situation s'est encore aggravée. Le quotidien Luzerner Zeitung a par exemple à nouveau soulevé la question des graves conséquences du surdosage de psychotropes dans un article du 25 janvier 2023, intitulé \" Isoliert und vollgepumpt \" (isolé et défoncé), qui rapporte le cas d'un patient de 76 ans qui, depuis le surdosage, a perdu sa mobilité et reste attaché à une chaise roulante. Des médecins assistants bernois ont lancé un cri d'alarme dans le même article, dénonçant qu'on recoure de plus en plus aux médicaments pour calmer les gens <a href=\"https://epaper-luzernerzeitung-ch.parl.swissconsortium.ch/read/1/1/2023-01-25/20?signature=3abf8f7c8210bf3ae08ac518d9e93afcd960ceb65cf6eb319d3af8a0a4ed73ec\">https ://epaper-luzernerzeitung-ch.parl.swissconsortium.ch/read/1/1/2023-01-25/20 ?signature=3abf8f7c8210bf3ae08ac518d9e93afcd960ceb65cf6eb319d3af8a0a4ed73ec</a>).</p><p>Le manque de personnel est avancé pour justifier ces traitements, mais bourrer des personnes de psychotropes pour les calmer ne respecte pas la dignité humaine : il faut trouver d'autres pistes et mesures. De telles situations sont intolérables dans un pays aussi développé que la Suisse, qui possède l'un des meilleurs systèmes de santé au monde. Il faut renforcer la sécurité de la médication.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral estime qu'il est important d'utiliser les psychotropes de manière appropriée et raisonnable. Il s'est déjà exprimé plusieurs fois à ce sujet (motion Herzog 20.4653, interpellation Brenzikofer 20.3029, motion Estermann 19.4305, motion Estermann 18.4302 et interpellation von Siebenthal 18.3521).</p><p>Lorsqu'ils prescrivent des médicaments, les médecins doivent observer les règles reconnues des sciences médicales et pharmaceutiques (art. 26 de la loi sur les produits thérapeutiques ; RS 812.21). Ainsi, les psychotropes ne peuvent être prescrits que par un médecin spécialiste et sous sa surveillance.</p><p>Les sociétés de discipline médicale élaborent des directives et des guides à l'attention du corps médical pour l'aiguiller dans l'utilisation appropriée des psychotropes. La surveillance des personnes exerçant une profession médicale universitaire incombe aux cantons (art. 41 de la loi fédérale sur les professions médicales ; RS 811.11).</p><p>En outre, une nouvelle base légale est prévue en matière de sécurité de la médication. En effet, dans le cadre de la mise en oeuvre de la motion Stöckli 18.3512 \" Droit à un plan de médication en vue de renforcer la sécurité des patients \", le Conseil fédéral examine une nouvelle mesure afin de permettre aux patients d'obtenir un plan de médication sous forme électronique ou sur papier.</p><p>Les tâches et les fonctions définies pour les autorités et les sociétés médicales garantissent une distribution sûre des médicaments. La Confédération a pris les dispositions nécessaires dans le cadre de ses compétences. Le Conseil fédéral ne voit actuellement pas la nécessité de prendre des mesures supplémentaires au niveau fédéral.</p>  Le Conseil fédéral propose de rejeter la motion."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé de prendre des mesures pour empêcher que des psychotropes soient utilisés dans les établissements médico-sociaux (EMS) et les cliniques psychiatriques dans le seul but de calmer les résidents. La sécurité de la médication doit être renforcée. Les personnes âgées, malades et atteintes de démence méritent elles aussi de vivre dans la dignité.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Empêcher le surdosage de médicaments psychotropes et promouvoir la sécurité de la médication dans les EMS"
     }
   ],
-  "title": "Titre suit"
+  "title": "Empêcher le surdosage de médicaments psychotropes et promouvoir la sécurité de la médication dans les EMS"
 }

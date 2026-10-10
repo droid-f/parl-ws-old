@@ -1,6 +1,6 @@
 {
   "id": 20233239,
-  "updated": "2023-03-21T15:10:29Z",
+  "updated": "2025-07-07T15:26:42Z",
   "additionalIndexing": "2836;15",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,17 +41,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-12-14T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-05-29T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-05-24T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "SGK-NR",
+            "id": 6,
+            "name": "Kommission für soziale Sicherheit und Gesundheit NR",
+            "abbreviation1": "SGK-N",
+            "abbreviation2": "SGK",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-12-27T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-03-20T09:05:13Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2600,
+                    "gender": "f",
+                    "id": 1106,
+                    "name": "Häberli-Koller Brigitte",
+                    "officialDenomination": "Häberli-Koller"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-SR",
+            "id": 19,
+            "name": "Kommission für soziale Sicherheit und Gesundheit SR",
+            "abbreviation1": "SGK-S",
+            "abbreviation2": "SGK",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-12-27T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -67,8 +180,33 @@
       "states": [
         {
           "date": "/Date(1678921200000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1684879200000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1702508400000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1707174000000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1710802800000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1716933600000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -365,7 +503,7 @@
         "code": 3123,
         "gender": "m",
         "id": 4222,
-        "name": "Paganini Nicolo",
+        "name": "Paganini Nicolò",
         "officialDenomination": "Paganini"
       },
       "type": "cosign"
@@ -449,8 +587,8 @@
   ],
   "shortId": "23.3239",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },
@@ -464,6 +602,13 @@
     },
     {
       "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat ist sich bewusst, dass der Übertritt ins Rentenalter mit einer erheblichen Einkommensverminderung verbunden sein kann und es neben der materiell gut abgesicherten Mehrheit auch Personen im Rentenalter gibt, die nicht im Wohlstand leben. Reichen Rente und Einkommen nicht zur Deckung der minimalen Grundkosten, besteht Anspruch auf Ergänzungsleistungen.</p><p>Mit der Motion der Kommission für soziale Sicherheit und Gesundheit NR (21.3462 \"Auftrag für die nächste AHV-Reform\") hat das Parlament den Bundesrat damit beauftragt, ihm bis Ende 2026 eine Vorlage für die nächste AHV-Reform zu unterbreiten. Diese Reform wird zum Ziel haben, die AHV-Finanzen für die Zeit von 2030 bis 2040 zu stabilisieren. Massnahmen, die das Rentensystem grundlegend ändern, sollten nicht ausserhalb einer umfassenden Reform thematisiert werden.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
+    },
+    {
+      "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
@@ -474,8 +619,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "AHV für bedürftige Rentnerinnen und Rentner erhöhen"
+      "value": "AHV-Renten für bedürftige Rentnerinnen und Rentner erhöhen"
     }
   ],
-  "title": "AHV für bedürftige Rentnerinnen und Rentner erhöhen"
+  "title": "AHV-Renten für bedürftige Rentnerinnen und Rentner erhöhen"
 }

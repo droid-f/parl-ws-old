@@ -1,6 +1,6 @@
 {
   "id": 20224467,
-  "updated": "2022-12-23T10:51:37Z",
+  "updated": "2025-11-14T07:33:58Z",
   "additionalIndexing": "08;2446;1211",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,167 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-19T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-06-17T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-22T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-03-25T17:29:40Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3054,
+                    "gender": "m",
+                    "id": 4152,
+                    "name": "Wicki Hans",
+                    "officialDenomination": "Wicki"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CN",
+            "id": 10,
+            "name": "Commissione dell'economia e dei tributi CN",
+            "abbreviation1": "CET-N",
+            "abbreviation2": "CET",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CS",
+            "id": 23,
+            "name": "Commissione dell'economia e dei tributi CS",
+            "abbreviation1": "CET-S",
+            "abbreviation2": "CET",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Dipartimento delle Finanze",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1671058800000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1677020400000+0100)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1695074400000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1742857200000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1750111200000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -432,10 +570,10 @@
   ],
   "shortId": "22.4467",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -443,14 +581,21 @@
         "id": 6,
         "name": "Motivazione"
       },
-      "value": "<p>Dal 1° gennaio 2015 la Convenzione tra la Svizzera e la Francia intesa a evitare i casi di doppia imposizione in materia di imposta sulle successioni non è più applicabile. Questa circostanza porta a situazioni assai problematiche e compromette la capacità economica dei contribuenti. Mentre nella legislazione svizzera l'imposta sulle successioni è determinata in funzione del domicilio del defunto, in quella francese fa stato sia il domicilio del defunto che quello degli eredi. Concretamente, se un residente svizzero decede, il suo erede, se domiciliato in Francia da oltre sei anni, sarà assoggettato all'imposta francese e sarà potenzialmente tassato sulla totalità della sostanza del defunto. Queste realtà familiari sono molto frequenti, soprattutto nei Cantoni frontalieri.</p><p>Alcune situazioni sulle quali recentemente si è concentrata l'attenzione dei media hanno messo in luce altri casi specifici di doppia imposizione. Tra questi, ad esempio, il caso di due fratelli che hanno ereditato un conto di un loro cugino e sono stati tassati con un'aliquota pari al 115 per cento (55 % di aliquota in Svizzera e 60 % in Francia). Questo perché il Cantone di residenza del defunto non ha voluto rinunciare al suo diritto di tassare il conto bancario francese, mentre la Francia si rifiutava di dedurre i diritti di successione pagati in Svizzera nel caso di averi bancari.</p><p>In questo contesto appare opportuno avviare negoziati con la Francia al fine di concludere una nuova Convenzione per evitare le doppie imposizioni in materia di imposte sulle successioni. </p>"
+      "value": "<p>Dal 1° gennaio 2015 la Convenzione tra la Svizzera e la Francia intesa a evitare i casi di doppia imposizione in materia d'imposte sulle successioni non è più applicabile. Questa circostanza porta a situazioni assai problematiche e compromette la capacità economica dei contribuenti. Mentre nella legislazione svizzera l'imposta sulle successioni è determinata in funzione del domicilio del defunto, in quella francese fa stato sia il domicilio del defunto che quello degli eredi. Concretamente, se un residente svizzero decede, il suo erede, se domiciliato in Francia da oltre sei anni, sarà assoggettato all'imposta francese e sarà potenzialmente tassato sulla totalità della sostanza del defunto. Queste realtà familiari sono molto frequenti, soprattutto nei Cantoni di frontiera.</p><p>Alcune situazioni sulle quali recentemente si è concentrata l'attenzione dei media hanno messo in luce altri casi specifici di doppia imposizione. Tra questi, il caso di due fratelli che hanno ereditato un conto di un cugino e sono stati tassati con un'aliquota pari al 115 per cento (55 % di aliquota in Svizzera e 60 % in Francia). Questo perché il Cantone di residenza del defunto non ha voluto rinunciare al suo diritto di tassare il conto bancario francese, mentre la Francia si rifiutava di dedurre le imposte di successione pagate in Svizzera sugli averi bancari.</p><p>In questo contesto appare opportuno avviare negoziati con la Francia al fine di concludere una nuova convenzione per evitare le doppie imposizioni in materia di imposte sulle successioni. </p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Nel maggio 2011 le autorità fiscali francesi hanno messo in discussione la Convenzione del 31 dicembre 1953 tra la Confederazione Svizzera e la Repubblica Francese intesa a evitare i casi di doppia imposizione in materia d'imposte sulle successioni. La Francia argomentava, in particolare, con il fatto che il diritto interno francese elimina unilateralmente nella maggior parte dei casi la doppia imposizione concedendo un credito per le imposte sulle successioni pagate all'estero sugli attivi situati al di fuori del territorio francese (metodo integrativo). Era tuttavia noto che l'assenza di una convenzione avrebbe potuto produrre casi di doppia imposizione come quello menzionato dall'autore della mozione.</p><p>Se gli attivi ereditati si trovano in Francia, il diritto fiscale francese non prevede infatti sostanzialmente il computo dell'imposta sulle successioni estera (nella fattispecie svizzera) prelevata su tali attivi. Nel singolo caso può accadere che l'aliquota dell'imposta sulle successioni riscossa sugli attivi situati in Francia ma non su quelli al di fuori del territorio francese ammonti complessivamente al 115 per cento. È escluso che una situazione simile si verifichi per gli eredi e i coniugi.</p><p>Per poter evitare anche questi casi di doppia imposizione e dopo aver consultato i Cantoni, la Svizzera ha informato la Francia di preferire una revisione della Convenzione del 31 dicembre 1953 alla sua denuncia da parte della Francia. L'11 luglio 2013 viene firmata la convenzione riveduta. Tuttavia, le Camere federali la respingono. In seguito la Francia denuncia la Convenzione del 1953 con effetto al 31 dicembre 2014.</p><p>Dal 1° gennaio 2015 ciascuno dei due Stati applica il proprio diritto fiscale successorio alle fattispecie transfrontaliere franco-svizzere. Questa situazione era nota al Parlamento quando ha deciso di respingere la convenzione riveduta.</p><p>Al momento dei negoziati che hanno condotto all'accordo del 2013, la Francia ha fatto concessioni alla Svizzera su diversi punti (cfr. il messaggio concernente l'approvazione di una nuova Convenzione tra la Svizzera e la Francia intesa a evitare i casi di doppia imposizione in materia d'imposte sulle successioni, FF 2013 6193). Non vi è certezza che la Francia sia disposta a fare nuovamente le stesse concessioni. Sicché la soluzione a cui si perverrebbe in caso di nuovi negoziati sarebbe molto probabilmente identica o meno favorevole di quella rifiutata nel 2013, ammesso che la Francia accetti di riavviare i negoziati. Poiché, inoltre, nel frattempo il diritto fiscale successorio francese non ha subito modifiche sostanziali, anche in quest'ottica non è lecito attendersi un esito dei negoziati più favorevole.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {
         "id": 5,
         "name": "Testo depositato"
       },
-      "value": "<p>Il Consiglio federale è incaricato di avviare rapidamente negoziati con la Francia al fine di concludere una Convenzione per evitare le doppie imposizioni in materia di imposte sulle successioni.</p>"
+      "value": "<p>Il Consiglio federale è incaricato di avviare rapidamente negoziati con la Francia al fine di concludere una convenzione per evitare le doppie imposizioni in materia di imposte sulle successioni.</p>"
     },
     {
       "type": {

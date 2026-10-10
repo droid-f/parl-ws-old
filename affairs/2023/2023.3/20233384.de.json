@@ -1,6 +1,6 @@
 {
   "id": 20233384,
-  "updated": "2023-03-20T10:23:17Z",
+  "updated": "2025-09-18T15:22:09Z",
   "additionalIndexing": "28;2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,182 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "Wird übernommen",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-09-11T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-09-18T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-05-24T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "SGK-SR",
+            "id": 19,
+            "name": "Kommission für soziale Sicherheit und Gesundheit SR",
+            "abbreviation1": "SGK-S",
+            "abbreviation2": "SGK",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-NR",
+            "id": 6,
+            "name": "Kommission für soziale Sicherheit und Gesundheit NR",
+            "abbreviation1": "SGK-N",
+            "abbreviation2": "SGK",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-06-27T17:08:57Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3107,
+                    "gender": "m",
+                    "id": 4206,
+                    "name": "Ettlin Erich",
+                    "officialDenomination": "Ettlin Erich"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1679007600000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1684879200000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1726005600000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1727820000000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1750975200000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1758146400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -141,7 +294,7 @@
         "gender": "m",
         "id": 4053,
         "name": "Aeschi Thomas",
-        "officialDenomination": "Aeschi Thomas"
+        "officialDenomination": "Aeschi"
       },
       "type": "cosign"
     },
@@ -271,7 +424,7 @@
         "gender": "f",
         "id": 4234,
         "name": "Schläpfer Therese",
-        "officialDenomination": "Schläpfer"
+        "officialDenomination": "Schläpfer Therese"
       },
       "type": "cosign"
     },
@@ -310,23 +463,54 @@
         "name": "Fraktion der Schweizerischen Volkspartei"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3142,
+        "gender": "f",
+        "id": 4250,
+        "name": "Bircher Martina",
+        "officialDenomination": "Bircher"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "23.3384",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Die Ablehnung der Motion 20.4653 begründete der Bundesrat unter anderem damit, dass der Bund im Rahmen der Plattform \"Demenz\" und \"Palliative Care\" Massnahmen zur Verbesserung der Lebensqualität der Betroffenen ergriffen hätte. Dabei würde auch der Einsatz von Psychopharmaka thematisiert. - Wie den Ergebnissen einer Studie \"Polymedikation und Neuroleptika in Schweizer Pflegeheimen in den Jahren 2019 und 2020\" https://econtent.hogrefe.com/doi/10-1024/1661-8157/a003909 sowie aktuellen Zeitungsberichten entnommen werden muss, hat sich die Situation jedoch noch verschärft. Unter dem Titel \"Isoliert und vollgepumt\" hat z.B. ein Beitrag der Luzerner Zeitung vom 25. Januar 2023 erneut die Überdosierung von Psychopharmaka mit fatalen Folgen aufgegriffen: \"Ein 76-jähriger Patient ist seit der Überdosierung nicht mehr mobil und an den Rollstuhl gebunden\". Im gleichen Artikel haben in einem Hilferuf auch Berner AssistenzärztInnen darauf aufmerksam gemacht, dass \"vermehrt auf Medikamente zurückgegriffen würde, um Leute ruhig zu stellen\". <a href=\"https://epaper-luzernerzeitung-ch.parl.swissconsortium.ch/read/1/1/2023-01-25/20?signature=3abf8f7c8210bf3ae08ac518d9e93afcd960ceb65cf6eb319d3af8a0a4ed73ec\">https://epaper-luzernerzeitung-ch.parl.swissconsortium.ch/read/1/1/2023-01-25/20?signature=3abf8f7c8210bf3ae08ac518d9e93afcd960ceb65cf6eb319d3af8a0a4ed73ec</a>. </p><p>Mit Begründungen wie Personalmangel werden solche Massnahmen gerechtfertigt. Personen mit einer Überdosierung von Psychopharmaka ruhig zu stellen ist absolut menschenunwürdig und fordert nach neuen Lösungsansätzen und Massnahmen. Solche Zustände sind in einem so hochentwickelten Land wie der Schweiz, mit einem der besten Gesundheitssystem der Welt unhaltbar. Die Medikationssicherheit muss gestärkt werden.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat ist der Auffassung, dass ein sachgerechter, angemessener Umgang mit Psychopharmaka wichtig ist. Er hat sich bereits mehrfach zum Umgang mit Psychopharmaka geäussert (Mo 20.4653 Herzog, Ip. 20.3029 Brenzikofer, Mo. 19.4305 Estermann, Mo. 18.4302 Estermann und Ip. 18.3521 von Siebenthal).</p><p>Ärztinnen und Ärzte müssen bei der Verschreibung die anerkannten Regeln der medizinischen und pharmazeutischen Wissenschaften beachten (Art. 26 Heilmittelgesetz; SR 812.21). So dürfen Psychopharmaka nur durch einen Facharzt bzw. eine Fachärztin und unter deren Überwachung verschrieben werden.</p><p>Die Fachgesellschaften entwickeln Richtlinien und Leitfäden für die Ärzteschaft bezüglich des angemessenen Gebrauchs von Psychopharmaka. Die Aufsicht über die universitären Medizinalpersonen obliegt den Kantonen (Art. 41 des Medizinalberufegesetz; SR 811.11).</p><p>Zudem ist im Bereich der Medikationssicherheit eine neue gesetzliche Grundlage geplant: Im Rahmen der Umsetzung der Motion 18.3512 Stöckli \"Recht auf einen Medikationsplan zur Stärkung der Patientensicherheit\" prüft der Bundesrat als weitere Massnahme zur Verbesserung der Medikationssicherheit das Anrecht auf einen elektronischen oder gedruckten Medikationsplan.</p><p>Die beschriebenen Aufgaben und Pflichten der Behörden und Fachgesellschaften gewährleisten eine sichere Abgabe von Arzneimitteln. Der Bund hat im Rahmen seiner Zuständigkeit die notwendigen Massnahmen ergriffen. Der Bundesrat sieht daher aktuell keinen zusätzlichen Handlungsbedarf auf Bundesebene.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, Massnahmen einzuleiten, die verhindern, dass in Alters- und Pflegeheimen sowie in psychiatrischen Kliniken Psychopharmaka eingesetzt werden, nur um Bewohnerinnen und Bewohner ruhig zu stellen. Die Medikationssicherheit muss gestärkt werden. Auch ältere, kranke und demente Menschen verdienen ein menschenwürdiges Leben.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Überdosierungen von Psychopharmaka-Abgaben verhindern und die Medikationssicherheit in Alters- und Pflegeheimen fördern!"
+      "value": "Überdosierungen bei Psychopharmaka-Abgaben verhindern und die Medikationssicherheit in Alters- und Pflegeheimen fördern!"
     }
   ],
-  "title": "Überdosierungen von Psychopharmaka-Abgaben verhindern und die Medikationssicherheit in Alters- und Pflegeheimen fördern!"
+  "title": "Überdosierungen bei Psychopharmaka-Abgaben verhindern und die Medikationssicherheit in Alters- und Pflegeheimen fördern!"
 }

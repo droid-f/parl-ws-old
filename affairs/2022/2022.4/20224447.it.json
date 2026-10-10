@@ -1,6 +1,6 @@
 {
   "id": 20224447,
-  "updated": "2023-03-16T14:16:45Z",
+  "updated": "2025-09-22T15:16:29Z",
   "additionalIndexing": "15;10",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,51 @@
             "date": "2023-03-16T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-21T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-09-10T00:00:00Z",
+            "text": "Tolto dal ruolo nel quadro di un altro oggetto",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2025-09-18T00:00:00Z",
+            "text": "Tolto dal ruolo nel quadro di un altro oggetto",
+            "type": 0
           }
         ]
       },
@@ -67,7 +112,94 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CET-CN",
+            "id": 10,
+            "name": "Commissione dell'economia e dei tributi CN",
+            "abbreviation1": "CET-N",
+            "abbreviation2": "CET",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-15T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3064,
+                    "gender": "m",
+                    "id": 4158,
+                    "name": "Burgherr Thomas",
+                    "officialDenomination": "Burgherr"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo V",
+                    "id": 4,
+                    "name": "Gruppo dell'Unione democratica di Centro"
+                  },
+                  "language": "de"
+                },
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2776,
+                    "gender": "m",
+                    "id": 4072,
+                    "name": "Regazzi Fabio",
+                    "officialDenomination": "Regazzi"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo M-E",
+                    "id": 3,
+                    "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5122"
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CS",
+            "id": 23,
+            "name": "Commissione dell'economia e dei tributi CS",
+            "abbreviation1": "CET-S",
+            "abbreviation2": "CET",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-15T00:00:00Z",
+          "registrations": [
 
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +220,28 @@
         },
         {
           "date": "/Date(1678921200000+0100)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1692914400000+0200)/",
+          "id": 205,
+          "name": "Pianificato nel Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
+        },
+        {
+          "date": "/Date(1743544800000+0200)/",
+          "id": 216,
+          "name": "Proposta di stralcio è disponibile"
+        },
+        {
+          "date": "/Date(1758146400000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -227,7 +379,7 @@
         "gender": "m",
         "id": 3871,
         "name": "Bischof Pirmin",
-        "officialDenomination": "Bischof"
+        "officialDenomination": "Bischof Pirmin"
       },
       "type": "cosign"
     },
@@ -419,10 +571,9 @@
   ],
   "shortId": "22.4447",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -438,7 +589,7 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>Gli aumenti del prezzo dell'energia non concernono soltanto la siderurgia e l'industria dell'alluminio, ma riguardano anche altri settori. La competitività delle aziende con un elevato consumo di energia dipende comunque da numerosi fattori e anche a livello svizzero può essere molto disuguale. Di conseguenza variano anche il modo in cui le imprese si premuniscono contro i rischi legati al prezzo dell'energia e le loro possibilità di riversare sui loro clienti i costi degli aumenti del prezzo dell'energia. Come ricordato anche nella motivazione della mozione, almeno a breve termine la produzione nazionale di acciaio e alluminio non potrebbe essere semplicemente sostituita con le importazioni dall'estero, a causa delle limitate capacità di trasporto. Perciò l'industria dovrebbe essere in grado di recuperare, almeno in parte, i costi generati dall'aumento dei prezzi dell'energia riversandoli sui consumatori. In generale gli aumenti dei prezzi in Svizzera relativi a fattori produttivi intermedi, beni di consumo e beni d'investimento, come pure nel settore della costruzione, finora sono stati nettamente più bassi rispetto all'estero, con conseguenze positive per la domanda proveniente dagli acquirenti nazionali dei prodotti dell'industria del metallo.</p><p>Secondo la previsione del 13 dicembre 2022, il gruppo di esperti della Confederazione per le previsioni congiunturali si aspetta per il 2023 un andamento congiunturale debole ma non recessivo, a differenza di quanto l'OCSE prevede, ad esempio, per la Germania. Gli indicatori congiunturali più recenti confermano questa valutazione. Perciò rispetto ai Paesi vicini le aziende svizzere dovrebbero poter beneficiare di un'evoluzione della domanda più stabile. Nel caso in cui dovessero subire un calo della domanda e perdite di lavoro inevitabili, le imprese potrebbero comunque ricorrere all'indennità per lavoro ridotto (ILR): uno strumento che consente di evitare i licenziamenti e mantenere i posti di lavoro. Il diritto all'ILR sussiste se sono soddisfatte le condizioni pertinenti previste dalla legge sull'assicurazione contro la disoccupazione (LADI; RS 837.0). Questo principio vale per tutte le aziende, indipendentemente dal loro settore operativo.</p><p>Sotto il profilo della decarbonizzazione necessaria nei prossimi decenni, l'industria svizzera sembra meglio posizionata rispetto a quella estera. L'intensità energetica (definita come rapporto tra consumo di energia e creazione di valore aggiunto) dei settori con un elevato consumo di energia come l'industria del metallo, in Svizzera è nettamente inferiore rispetto ai settori analoghi degli altri Paesi europei. Nel settore della tassazione del CO2, il legame tra il sistema di commercio delle emissioni svizzero e quello UE garantisce una competizione alla pari. Nel quadro del postulato CPE-CN 20.3933 Incentivi fiscali per un commercio internazionale sostenibile, il Consiglio federale sta valutando l'introduzione di un meccanismo di adeguamento del carbonio alle frontiere, che potrebbe contribuire al mantenimento della competitività dei settori con un'elevata produzione di CO2.</p><p>In relazione al postulato 18.3509 Abolire gli ostacoli all'uso efficiente delle risorse e all'economia circolare, depositato dal consigliere agli stati Noser, il Consiglio federale ha inoltre introdotto diverse misure, anche nel settore della costruzione, per stimolare l'economia circolare.</p><p>Il Consiglio federale continuerà anche in futuro a impegnarsi per migliorare le condizioni quadro economiche, a vantaggio di tutte le imprese. È invece contrario ai sussidi destinati a industrie o settori particolari: a lungo termine le misure di politica industriale generano dipendenza, comportano un rischio molto elevato di allocazioni errate - a spese dei contribuenti - e penalizzano le imprese e i settori svizzeri che non ne beneficiano, a causa della disparità di trattamento.</p>"
+      "value": "<p>Gli aumenti del prezzo dell'energia non concernono soltanto la siderurgia e l'industria dell'alluminio, ma riguardano anche altri settori. La competitività delle aziende con un elevato consumo di energia dipende comunque da numerosi fattori e anche a livello svizzero può essere molto disuguale. Di conseguenza variano anche il modo in cui le imprese si premuniscono contro i rischi legati al prezzo dell'energia e le loro possibilità di riversare sui loro clienti i costi degli aumenti del prezzo dell'energia. Come ricordato anche nella motivazione della mozione, almeno a breve termine la produzione nazionale di acciaio e alluminio non potrebbe essere semplicemente sostituita con le importazioni dall'estero, a causa delle limitate capacità di trasporto. Perciò l'industria dovrebbe essere in grado di recuperare, almeno in parte, i costi generati dall'aumento dei prezzi dell'energia riversandoli sui consumatori. In generale gli aumenti dei prezzi in Svizzera relativi a fattori produttivi intermedi, beni di consumo e beni d'investimento, come pure nel settore della costruzione, finora sono stati nettamente più bassi rispetto all'estero, con conseguenze positive per la domanda proveniente dagli acquirenti nazionali dei prodotti dell'industria del metallo.</p><p>Secondo la previsione del 13 dicembre 2022, il gruppo di esperti della Confederazione per le previsioni congiunturali si aspetta per il 2023 un andamento congiunturale debole ma non recessivo, a differenza di quanto l'OCSE prevede, ad esempio, per la Germania. Gli indicatori congiunturali più recenti confermano questa valutazione. Perciò rispetto ai Paesi vicini le aziende svizzere dovrebbero poter beneficiare di un'evoluzione della domanda più stabile. Nel caso in cui dovessero subire un calo della domanda e perdite di lavoro inevitabili, le imprese potrebbero comunque ricorrere all'indennità per lavoro ridotto (ILR): uno strumento che consente di evitare i licenziamenti e mantenere i posti di lavoro. Il diritto all'ILR sussiste se sono soddisfatte le condizioni pertinenti previste dalla legge sull'assicurazione contro la disoccupazione (LADI; RS 837.0). Questo principio vale per tutte le aziende, indipendentemente dal loro settore operativo.</p><p>Sotto il profilo della decarbonizzazione necessaria nei prossimi decenni, l'industria svizzera sembra meglio posizionata rispetto a quella estera. L'intensità energetica (definita come rapporto tra consumo di energia e creazione di valore aggiunto) dei settori con un elevato consumo di energia come l'industria del metallo, in Svizzera è nettamente inferiore rispetto ai settori analoghi degli altri Paesi europei. Nel settore della tassazione del CO2, il legame tra il sistema di commercio delle emissioni svizzero e quello UE garantisce una competizione alla pari. Nel quadro del postulato CPE-N 20.3933 Incentivi fiscali per un commercio internazionale sostenibile, il Consiglio federale sta valutando l'introduzione di un meccanismo di adeguamento del carbonio alle frontiere, che potrebbe contribuire al mantenimento della competitività dei settori con un'elevata produzione di CO2.</p><p>In relazione al postulato 18.3509 Abolire gli ostacoli all'uso efficiente delle risorse e all'economia circolare, depositato dal consigliere agli stati Noser, il Consiglio federale ha inoltre introdotto diverse misure, anche nel settore della costruzione, per stimolare l'economia circolare.</p><p>Il Consiglio federale continuerà anche in futuro a impegnarsi per migliorare le condizioni quadro economiche, a vantaggio di tutte le imprese. È invece contrario ai sussidi destinati a industrie o settori particolari: a lungo termine le misure di politica industriale generano dipendenza, comportano un rischio molto elevato di allocazioni errate - a spese dei contribuenti - e penalizzano le imprese e i settori svizzeri che non ne beneficiano, a causa della disparità di trattamento.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

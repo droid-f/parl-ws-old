@@ -1,7 +1,7 @@
 {
   "id": 20003603,
-  "updated": "2019-02-18T19:03:06Z",
-  "additionalIndexing": "12",
+  "updated": "2025-06-25T01:47:32Z",
+  "additionalIndexing": "12;Kontrolle;Feuerwaffe;Gesetz;Waffenbesitz",
   "affairType": {
     "abbreviation": "Mo.",
     "id": 5,
@@ -12,7 +12,7 @@
       "abbreviation": "SiK-SR",
       "id": 21,
       "name": "Sicherheitspolitische Kommission SR",
-      "abbreviation1": "SiK-SR",
+      "abbreviation1": "SiK-S",
       "abbreviation2": "SiK",
       "committeeNumber": 21,
       "council": {
@@ -74,7 +74,7 @@
               "type": "S"
             },
             "date": "2000-12-13T00:00:00Z",
-            "text": "Die Motion wird in Form eines Postulates überwiesen.",
+            "text": "Die Motion wird in Form eines Postulates überwiesen",
             "type": 18
           }
         ]
@@ -110,8 +110,13 @@
         },
         {
           "date": "/Date(976662000000+0100)/",
-          "id": 26,
-          "name": "Angenommen"
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
+        },
+        {
+          "date": "/Date(1149717600000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -119,11 +124,6 @@
       ]
     }
   ],
-  "handling": {
-    "date": "2000-12-13T00:00:00Z",
-    "legislativePeriod": 46,
-    "session": "4605"
-  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -147,7 +147,7 @@
         "abbreviation": "SiK-SR",
         "id": 21,
         "name": "Sicherheitspolitische Kommission SR",
-        "abbreviation1": "SiK-SR",
+        "abbreviation1": "SiK-S",
         "abbreviation2": "SiK",
         "committeeNumber": 21,
         "council": {
@@ -159,26 +159,23 @@
         "typeCode": 1
       },
       "type": "author"
-    },
-    {
-      "councillor": {
-        "code": 2359,
-        "gender": "m",
-        "id": 275,
-        "name": "Maissen Theo",
-        "officialDenomination": "Maissen"
-      },
-      "type": "speaker"
     }
   ],
   "shortId": "00.3603",
   "state": {
-    "id": 26,
-    "name": "Angenommen",
-    "doneKey": "3",
+    "id": 229,
+    "name": "Erledigt",
+    "doneKey": "0",
     "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "Der Bundesrat ist bereit, die Motion entgegenzunehmen."
+    },
     {
       "type": {
         "id": 5,

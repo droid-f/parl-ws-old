@@ -1,7 +1,7 @@
 {
   "id": 20233533,
-  "updated": "2023-05-09T15:31:21Z",
-  "additionalIndexing": "2811;10",
+  "updated": "2025-11-14T07:40:00Z",
+  "additionalIndexing": "2811;10;1231;1216",
   "affairType": {
     "abbreviation": "Mo.",
     "id": 5,
@@ -33,29 +33,166 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-27T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-03-13T00:00:00Z",
+            "text": "Adoption partielle : Points 2-6: adoptés; Point 1 rejeté.",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
+        "date": "2023-09-06T00:00:00Z",
+        "text": "Adoption (partielle)"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CIP-CN",
+            "id": 11,
+            "name": "Commission des institutions politiques CN",
+            "abbreviation1": "CIP-N",
+            "abbreviation2": "CIP",
+            "committeeNumber": 11,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-23T16:37:45Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2700,
+                    "gender": "f",
+                    "id": 3897,
+                    "name": "Moser Tiana Angelina",
+                    "officialDenomination": "Moser"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CIP-CE",
+            "id": 24,
+            "name": "Commission des institutions politiques CE",
+            "abbreviation1": "CIP-E",
+            "abbreviation2": "CIP",
+            "committeeNumber": 24,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1683064800000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1693951200000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1695765600000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1705964400000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1710284400000+0100)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
         }
       ],
       "texts": [
@@ -98,10 +235,10 @@
   ],
   "shortId": "23.3533",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 209,
+    "name": "Transmis au Conseil fédéral",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -109,14 +246,21 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Les autorités compétentes en matière d'asile en Suisse font face à un nombre croissant de nouvelles demandes d'asile. A la frontière sud, cette situation est encore aggravée par l'interruption illicite des renvois Dublin décidée par le gouvernement italien. Comme les renvois sont entravés dans de plus en plus d'Etats, l'accord de Dublin ne fonctionne pas comme prévu. Pourtant, son bon fonctionnement est indispensable afin que l'accord reste un modèle de réussite pour la Suisse. Le PLR a déposé une motion à ce sujet, dans laquelle il demande au Conseil fédéral d'intervenir directement à Bruxelles (Mo. Müller 23.3031). </p><p>Au vu des prévisions actuelles, il ne faut pas s'attendre à ce que la situation migratoire se détende. Dernièrement, la Confédération a même prolongé l'exploitation des centres d'hébergement temporaires. Par ailleurs, des dépenses supplémentaires à hauteur de 132 millions de francs ont été demandées pour des hébergements supplémentaires sous forme de conteneurs. Les cantons ont atteint leur limite et ne peuvent plus garantir des places d'hébergement, tandis que la Confédération ne peut plus agrandir ses structures. </p><p>La migration secondaire irrégulière est une migration à partir d'un Etat considéré comme sûr et dans lequel le requérant d'asile a séjourné pendant une longue période. Elle est surtout le fait de certains Etats, vers lesquels les renvois sont souvent entravés en raison de différentes difficultés d'exécution. Pour lutter contre la migration secondaire et l'endiguer, la Suisse doit collaborer étroitement avec l'étranger, en particulier avec l'Union européenne. Le Conseil fédéral est chargé de combattre la migration secondaire illégale au moyen de mesures bilatérales et de mettre un terme aux mouvements secondaires depuis les Etats sûrs. Pour y parvenir, il faut s'assurer que l'accord de Dublin fonctionne et que les Etats membres l'appliquent à la lettre.</p>"
+      "value": "<p>Les autorités compétentes en matière d'asile en Suisse font face à un nombre croissant de nouvelles demandes d'asile. À la frontière sud, cette situation est encore aggravée par l'interruption illicite des renvois Dublin décidée par le gouvernement italien. Comme les renvois sont entravés dans de plus en plus d'États, l'accord de Dublin ne fonctionne pas comme prévu. Pourtant, son bon fonctionnement est indispensable afin que l'accord reste un modèle de réussite pour la Suisse. Le PLR a déposé une motion à ce sujet, dans laquelle il demande au Conseil fédéral d'intervenir directement à Bruxelles (Mo. Müller 23.3031). </p><p>Au vu des prévisions actuelles, il ne faut pas s'attendre à ce que la situation migratoire se détende. Dernièrement, la Confédération a même prolongé l'exploitation des centres d'hébergement temporaires. Par ailleurs, des dépenses supplémentaires à hauteur de 132 millions de francs ont été demandées pour des hébergements supplémentaires sous forme de conteneurs. Les cantons ont atteint leur limite et ne peuvent plus garantir des places d'hébergement, tandis que la Confédération ne peut plus agrandir ses structures. </p><p>La migration secondaire irrégulière est une migration à partir d'un État considéré comme sûr et dans lequel le requérant d'asile a séjourné pendant une longue période. Elle est surtout le fait de certains États, vers lesquels les renvois sont souvent entravés en raison de différentes difficultés d'exécution. Pour lutter contre la migration secondaire et l'endiguer, la Suisse doit collaborer étroitement avec l'étranger, en particulier avec l'Union européenne. Le Conseil fédéral est chargé de combattre la migration secondaire illégale au moyen de mesures bilatérales et de mettre un terme aux mouvements secondaires depuis les États sûrs. Pour y parvenir, il faut s'assurer que l'accord de Dublin fonctionne et que les États membres l'appliquent à la lettre.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>1. La formulation «&nbsp;en règle générale&nbsp;» à l'art. 31<i>a</i>, al. 1, de la loi sur l'asile (LAsi&nbsp;; RS&nbsp;142.31) permet aux autorités d'éviter d'avoir à appliquer la loi de manière automatique. Dans certains cas, une telle application irait effectivement à l'encontre des règles impératives du droit national ou international (notamment le respect du principe de non-refoulement). Si cette formulation était supprimée, l'art. 31<i>a</i>, al. 1, let.&nbsp;b, LAsi ne permettrait plus à la Suisse de recourir à la clause de souveraineté (droit d’entrer en matière) pour les personnes dont l'examen de la demande d'asile relève de la compétence d'un autre État en vertu de l'accord d'association à Dublin. Ceci contredirait le règlement Dublin III, dont l'art.&nbsp;17 prévoit la possibilité d’appliquer une clause de souveraineté dans des cas humanitaires.&nbsp;</p><p>&nbsp;</p><p>2. Les auteurs de la présente motion considèrent que le type de décision d'asile et l'efficacité de l'exécution du renvoi sont liés. Le fait, pour le Secrétariat d’État aux migrations (SEM), d'entrer ou non en matière sur une demande d'asile a des répercussions sur la durée de la procédure d'asile, mais n'en a pas sur l'exécution de la décision. Les cantons sont chargés de l’exécution des renvois. <span style=\"color:black;\">En 2019, le Conseil fédéral a adopté de nouvelles mesures incitatives pour que les personnes concernées quittent les centres fédéraux pour requérants d’asile à un stade précoce et retournent de manière autonome dans leur pays de provenance ou d'origine. Le Conseil fédéral travaille également de manière ciblée avec les États tiers.</span>&nbsp;<span style=\"color:black;\">Après deux années de recul en raison de la pandémie, le nombre de départs a enregistré une forte hausse en 2022. La Suisse affiche ainsi un taux de renvoi de 57&nbsp;%, nettement supérieur à celui des autres pays européens. La Suisse cherche toutefois constamment à améliorer son propre taux de renvoi. Par ailleurs, le Conseil fédéral examinera les possibilités, dans le domaine des renvois, d’affiner le monitoring et de prendre des mesures additionnelles.&nbsp;</span></p><p>&nbsp;</p><p>3. Les plans d'action conclus avec l'Allemagne et l'Autriche ont déjà été évalués au niveau bilatéral. Il a été convenu que les mesures prévues dans ce cadre devaient être maintenues. Il s'agit, entre autres, d'intensifier la coopération policière aux frontières et l'échange d'informations sur le plan opérationnel. La Suisse va continuer d'échanger régulièrement avec l'Allemagne et l'Autriche au sujet des plans d'action. Plusieurs rencontres ont d’ailleurs eu lieu en juin dernier, notamment des échanges bilatéraux entre la cheffe du Département fédéral de justice et police (DFJP) et le ministre autrichien de l’intérieur d’une part et avec la ministre allemande en charge de la migration d’autre part. Lors de ces rencontres, un bilan positif des plans d’action respectifs a pu être tiré et il a été convenu de continuer à renforcer la collaboration. Le DFJP informe régulièrement les commissions parlementaires compétentes des développements actuels, si nécessaire en association avec le Département fédéral des finances (Office fédéral de la douane et de la sécurité des frontières [OFDF]). En proposant d’accepter le postulat 23.3859 Pfister Gerhard «&nbsp;Bénéfices de la réforme du régime d'asile européen commun pour la politique suisse en matière d'asile&nbsp;», le Conseil fédéral a déjà annoncé qu’il était disposé à informer le Parlement de manière complète sur les bénéfices et les risques pour la Suisse de la réforme européenne en matière d’asile et de migration. La lutte contre la migration secondaire irrégulière, dans laquelle s’inscrivent également les plans d’action avec l’Allemagne et l’Autriche, en est un élément important. Le Conseil fédéral est prêt à renforcer encore son information sur ces questions.</p><p>&nbsp;</p><p>4. À ce jour, la Suisse a conclu 65 accords formalisant la collaboration dans le domaine des retours, aussi bien avec des États de l'UE/États Schengen qu'avec des États tiers, et œuvre activement à la conclusion d'autres accords. Ces accords peuvent également comprendre des règles en matière de réadmission des ressortissants d'États tiers qui disposent d'un titre de séjour sur le territoire du pays signataire. Néanmoins, toute personne a le droit de déposer une demande d'asile, même lorsque de tels accords ont été signés.&nbsp;La Suisse cherche à étendre son réseau d’accords de réadmission et à améliorer l’utilisation des accords existants dans ce domaine.</p><p>&nbsp;</p><p>5. Comme prévu par la loi, le Conseil fédéral vérifie régulièrement la liste des pays considérés comme sûrs. Dans ce cadre, il consulte au préalable les commissions des institutions politiques du Conseil national et du Conseil des États. Qui plus est, il tient compte non seulement de ses propres analyses, mais également des appréciations, parfois très différentes, des autres pays européens. Le SEM suit attentivement les travaux préliminaires de l'Agence de l'Union européenne pour l'asile visant à définir une liste commune de pays d'origine sûrs.&nbsp;Le DFJP réévaluera la liste des pays sûrs sur la base des travaux de l’Agence européenne.</p><p>&nbsp;</p><p>6. La collaboration avec Europol et INTERPOL dans le domaine du trafic de migrants est solide et fonctionne sans accroc, et ce, depuis de nombreuses années. Concernant la traite des êtres humains, le Conseil fédéral a approuvé, lors de sa séance du 16 décembre 2022, le troisième plan d'action national contre la traite des êtres humains pour les années 2023 à 2027. Ce plan comprend 44 actions correspondant à sept buts stratégiques. Par ailleurs, la lutte contre la criminalité transfrontalière sera prise en compte dans la stratégie nationale de gestion intégrée des frontières (<i>Integrated Border Management</i>, IBM) pour les prochaines années et dans la formulation des mesures qui en découleront. Là aussi, le Parlement est régulièrement informé par l’intermédiaire de ses commissions compétentes, mais le Conseil fédéral est disposé à renforcer encore ses efforts en la matière.</p><p>&nbsp;</p><p>Le Conseil fédéral soutient l’objectif d’informer le Parlement de manière complète et transparente sur la migration secondaire irrégulière. Il estime cependant que les mesures exigées par les auteurs de la présente motion ne peuvent que partiellement être mises en œuvre.</p><p>&nbsp;</p><p><strong>Proposition du Conseil fédéral</strong></p><p>Le Conseil fédéral propose d’accepter les points 2, 3, 4, 5 et 6 de la motion, et d’en rejeter le point 1.&nbsp;</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Des mesures doivent être prises pour endiguer les migrations secondaires afin d'assurer le bon fonctionnement de l'asile et de pouvoir continuer à accueillir les personnes qui ont besoin de protection, conformément à la tradition humanitaire de la Suisse. C'est pourquoi nous chargeons le Conseil fédéral : </p><p>- de supprimer l'élément \" en règle générale \" dans l'article 31a de la LAsi, ce qui doit garantir qu'une décision de non-entrée en matière soit systématiquement rendue aux personnes en provenance d'un Etat tiers sûr qui déposent une demande d'asile ; </p><p>- de démontrer au Parlement que, lorsqu'une décision de non-entrée en matière est rendue conformément à l'article 31a de la LAsi, les procédures de renvoi sont exécutées de manière efficace ; des mesures ou des adaptations juridiques doivent être proposées pour accélérer les procédures ; </p><p>- d'évaluer et de présenter au Parlement les résultats obtenus jusqu'à présent par les plans d'action conclus avec l'Allemagne et avec l'Autriche visant à coopérer pour combattre la migration irrégulière ; </p><p>- de prendre des mesures concrètes, cohérentes et rapidement applicables pour lutter contre les abus en matière d'asile commis par des migrants qui ont déjà obtenu une autorisation de séjour dans un Etat tiers ayant des conditions d'accueil moins favorables ; pour ce faire, des accords bilatéraux doivent être conclus avec les Etats tiers concernés ; </p><p>- de réviser la liste des Etats tiers sûrs et les critères d'appréciation ; la liste des pays sûrs établie par les pays européens voisins doit servir de référence ; </p><p>- d'intensifier la lutte systématique contre l'activité des passeurs et contre la traite d'êtres humains ; à cette fin, le Conseil fédéral doit soumettre au Parlement les mesures possibles sur les plans national et international (par exemple coopération policière avec Europol et Interpol).</p>"
+      "value": "<p>Des mesures doivent être prises pour endiguer les migrations secondaires afin d'assurer le bon fonctionnement de l'asile et de pouvoir continuer à accueillir les personnes qui ont besoin de protection, conformément à la tradition humanitaire de la Suisse. C'est pourquoi nous chargeons le Conseil fédéral : </p><p>- de supprimer l'élément \" en règle générale \" dans l'article 31a de la LAsi, ce qui doit garantir qu'une décision de non-entrée en matière soit systématiquement rendue aux personnes en provenance d'un État tiers sûr qui déposent une demande d'asile ; </p><p>- de démontrer au Parlement que, lorsqu'une décision de non-entrée en matière est rendue conformément à l'article 31a de la LAsi, les procédures de renvoi sont exécutées de manière efficace ; des mesures ou des adaptations juridiques doivent être proposées pour accélérer les procédures ; </p><p>- d'évaluer et de présenter au Parlement les résultats obtenus jusqu'à présent par les plans d'action conclus avec l'Allemagne et avec l'Autriche visant à coopérer pour combattre la migration irrégulière ; </p><p>- de prendre des mesures concrètes, cohérentes et rapidement applicables pour lutter contre les abus en matière d'asile commis par des migrants qui ont déjà obtenu une autorisation de séjour dans un État tiers ayant des conditions d'accueil moins favorables ; pour ce faire, des accords bilatéraux doivent être conclus avec les États tiers concernés ; </p><p>- de réviser la liste des États tiers sûrs et les critères d'appréciation ; la liste des pays sûrs établie par les pays européens voisins doit servir de référence ; </p><p>- d'intensifier la lutte systématique contre l'activité des passeurs et contre la traite d'êtres humains ; à cette fin, le Conseil fédéral doit soumettre au Parlement les mesures possibles sur les plans national et international (par exemple coopération policière avec Europol et Interpol).</p>"
     },
     {
       "type": {

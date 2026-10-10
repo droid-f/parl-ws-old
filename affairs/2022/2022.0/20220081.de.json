@@ -1,6 +1,6 @@
 {
   "id": 20220081,
-  "updated": "2023-06-08T12:57:46Z",
+  "updated": "2026-02-10T20:14:58Z",
   "additionalIndexing": "08;24",
   "affairType": {
     "abbreviation": "BRG",
@@ -34,7 +34,7 @@
             "abbreviation": "SiK-NR",
             "id": 8,
             "name": "Sicherheitspolitische Kommission NR",
-            "abbreviation1": "SiK-NR",
+            "abbreviation1": "SiK-N",
             "abbreviation2": "SiK",
             "committeeNumber": 8,
             "council": {
@@ -55,7 +55,7 @@
             "abbreviation": "SiK-SR",
             "id": 21,
             "name": "Sicherheitspolitische Kommission SR",
-            "abbreviation1": "SiK-SR",
+            "abbreviation1": "SiK-S",
             "abbreviation2": "SiK",
             "committeeNumber": 21,
             "council": {
@@ -110,8 +110,18 @@
         },
         {
           "date": "/Date(1686175200000+0200)/",
-          "id": 2,
-          "name": "Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -141,6 +151,21 @@
             "date": "2023-06-08T00:00:00Z",
             "text": "Beschluss gemäss Entwurf",
             "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-28T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
           }
         ]
       },
@@ -153,10 +178,31 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-07-03T15:01:11Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "SiK-NR",
             "id": 8,
             "name": "Sicherheitspolitische Kommission NR",
-            "abbreviation1": "SiK-NR",
+            "abbreviation1": "SiK-N",
             "abbreviation2": "SiK",
             "committeeNumber": 8,
             "council": {
@@ -226,7 +272,7 @@
             "abbreviation": "SiK-SR",
             "id": 21,
             "name": "Sicherheitspolitische Kommission SR",
-            "abbreviation1": "SiK-SR",
+            "abbreviation1": "SiK-S",
             "abbreviation2": "SiK",
             "committeeNumber": 21,
             "council": {
@@ -239,8 +285,14 @@
           },
           "date": "2022-12-02T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
-          ]
+              ],
+              "sessionId": "5122"
+            }
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
@@ -263,6 +315,25 @@
             "id": 1,
             "name": "Beratungsgegenstand / Entwurf"
           }
+        },
+        {
+          "date": "/Date(1697148000000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2329",
+            "source": "BBl 2023 2329",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2023/2329.pdf",
+            "year": "2023"
+          },
+          "type": {
+            "id": 4,
+            "name": "Erlasstext"
+          }
         }
       ],
       "relatedDepartments": [
@@ -281,8 +352,28 @@
         },
         {
           "date": "/Date(1686175200000+0200)/",
-          "id": 2,
-          "name": "Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1686261600000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1688335200000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -314,8 +405,8 @@
   ],
   "shortId": "22.081",
   "state": {
-    "id": 2,
-    "name": "Behandelt vom Nationalrat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },
@@ -325,8 +416,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Rahmenkredit 2024–2027 für drei Genfer Zentren"
+      "value": "Verpflichtungskredit 2024–2027 für drei Genfer Zentren"
     }
   ],
-  "title": "Rahmenkredit 2024–2027 für drei Genfer Zentren"
+  "title": "Verpflichtungskredit 2024–2027 für drei Genfer Zentren"
 }

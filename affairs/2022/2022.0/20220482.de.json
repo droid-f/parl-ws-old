@@ -1,7 +1,7 @@
 {
   "id": 20220482,
-  "updated": "2023-01-17T06:56:59Z",
-  "additionalIndexing": "0421;08",
+  "updated": "2026-02-10T20:19:53Z",
+  "additionalIndexing": "421;08;04;12",
   "affairType": {
     "abbreviation": "Pa. Iv.",
     "id": 4,
@@ -12,7 +12,7 @@
       "abbreviation": "APK-NR",
       "id": 4,
       "name": "Aussenpolitische Kommission NR",
-      "abbreviation1": "APK-NR",
+      "abbreviation1": "APK-N",
       "abbreviation2": "APK",
       "committeeNumber": 4,
       "council": {
@@ -48,26 +48,11 @@
               "id": 3,
               "name": "Normal"
             },
-            "council": {
-              "abbreviation": "NR",
-              "id": 1,
-              "name": "Nationalrat",
-              "type": "N"
-            },
-            "date": "2022-10-18T00:00:00Z",
-            "text": "Beschluss, einen Erlassentwurf auszuarbeiten",
-            "type": 48
-          },
-          {
-            "category": {
-              "id": 3,
-              "name": "Normal"
-            },
             "committee": {
               "abbreviation": "APK-NR",
               "id": 4,
               "name": "Aussenpolitische Kommission NR",
-              "abbreviation1": "APK-NR",
+              "abbreviation1": "APK-N",
               "abbreviation2": "APK",
               "committeeNumber": 4,
               "council": {
@@ -80,33 +65,23 @@
             },
             "council": null,
             "date": "2022-10-18T00:00:00Z",
-            "text": "Folge gegeben",
-            "type": 16
+            "text": "Beschluss, einen Erlassentwurf auszuarbeiten",
+            "type": 48
           },
           {
             "category": {
               "id": 3,
               "name": "Normal"
             },
-            "committee": {
-              "abbreviation": "APK-SR",
-              "id": 17,
-              "name": "Aussenpolitische Kommission SR",
-              "abbreviation1": "APK-SR",
-              "abbreviation2": "APK",
-              "committeeNumber": 17,
-              "council": {
-                "abbreviation": "SR",
-                "id": 2,
-                "name": "Ständerat",
-                "type": "S"
-              },
-              "typeCode": 1
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
             },
-            "council": null,
-            "date": "2023-01-16T00:00:00Z",
-            "text": "Zustimmung",
-            "type": 3
+            "date": "2025-03-21T00:00:00Z",
+            "text": "Fristverlängerung bis zur Frühjahrssession 2027",
+            "type": 0
           }
         ]
       },
@@ -122,7 +97,7 @@
             "abbreviation": "APK-NR",
             "id": 4,
             "name": "Aussenpolitische Kommission NR",
-            "abbreviation1": "APK-NR",
+            "abbreviation1": "APK-N",
             "abbreviation2": "APK",
             "committeeNumber": 4,
             "council": {
@@ -140,14 +115,15 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "APK-SR",
             "id": 17,
             "name": "Aussenpolitische Kommission SR",
-            "abbreviation1": "APK-SR",
+            "abbreviation1": "APK-S",
             "abbreviation2": "APK",
             "committeeNumber": 17,
             "council": {
@@ -165,7 +141,8 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -173,10 +150,16 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "EDA",
+          "id": 3,
+          "name": "Departement für auswärtige Angelegenheiten",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -187,12 +170,131 @@
         },
         {
           "date": "/Date(1673305200000+0100)/",
-          "id": 1,
-          "name": "Folge gegeben"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1673391600000+0100)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1673478000000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
         }
       ],
       "texts": [
 
+      ]
+    },
+    {
+      "consultation": {
+        "resolutions": [
+
+        ]
+      },
+      "federalCouncilProposal": {
+      },
+      "index": 1,
+      "links": [
+
+      ],
+      "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "APK-NR",
+            "id": 4,
+            "name": "Aussenpolitische Kommission NR",
+            "abbreviation1": "APK-N",
+            "abbreviation2": "APK",
+            "committeeNumber": 4,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-10-18T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "APK-SR",
+            "id": 17,
+            "name": "Aussenpolitische Kommission SR",
+            "abbreviation1": "APK-S",
+            "abbreviation2": "APK",
+            "committeeNumber": 17,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-10-18T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
+      ],
+      "references": [
+        {
+          "date": "/Date(1666044000000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "null",
+            "source": "BBl null null",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/null/null.pdf",
+            "year": "null"
+          },
+          "title": "Bundesgesetz ...",
+          "type": {
+            "id": 1,
+            "name": "Beratungsgegenstand / Entwurf"
+          }
+        }
+      ],
+      "relatedDepartments": [
+        {
+          "abbreviation": "EDA",
+          "id": 3,
+          "name": "Departement für auswärtige Angelegenheiten",
+          "leading": true
+        },
+        {
+          "abbreviation": "Parl",
+          "id": 1,
+          "name": "Parlament",
+          "leading": false
+        }
+      ],
+      "states": [
+        {
+          "date": "/Date(1673305200000+0100)/",
+          "id": 201,
+          "name": "Angemeldet"
+        }
+      ],
+      "texts": [
+        {
+          "type": {
+            "id": 2,
+            "name": "Titel der Vorlage"
+          },
+          "value": "Bundesgesetz ..."
+        }
       ]
     }
   ],
@@ -215,7 +317,7 @@
         "abbreviation": "APK-NR",
         "id": 4,
         "name": "Aussenpolitische Kommission NR",
-        "abbreviation1": "APK-NR",
+        "abbreviation1": "APK-N",
         "abbreviation2": "APK",
         "committeeNumber": 4,
         "council": {
@@ -231,8 +333,8 @@
   ],
   "shortId": "22.482",
   "state": {
-    "id": 1,
-    "name": "Folge gegeben",
+    "id": 208,
+    "name": "In Kommission des Nationalrats",
     "doneKey": "0",
     "newKey": 0
   },
@@ -242,14 +344,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Um den gesetzgeberischen Handlungsbedarf im Bereich von Soft Law zu analysieren, haben die Aussenpolitischen Kommissionen von National- und Ständerat eine gemeinsame Subkommission eingesetzt. Im Rahmen ihrer Arbeiten hat diese Subkommission eine Evaluation der Parlamentarischen Verwaltungskontrolle zur Mitwirkung des Parlaments im Bereich von Soft Law in Auftrag gegeben. Als Teil dieser Evaluation wurde von Prof. Petrig (Universität Basel) ein Rechtsgutachten zur Mitwirkung des Parlaments im Bereich von Soft Law erstellt. In diesem Gutachten kommt Prof. Petrig zum Schluss, dass Art. 5b RVOV, welcher konkretisieren sollte, in welchen Fällen eine Konsultation der für die Aussenpolitik zuständigen Kommissionen gemäss Art. 152 Abs. 3 ParlG zu erfolgen hat, Mängel aufweist. Einerseits wurde die Konkretisierung auf Verordnungs- statt auf Gesetzesebene und vom Bundesrat statt vom Parlament vorgenommen. Zum anderen ist der Artikel unpräzise formuliert und schränkt den Anwendungsbereich des Gesetzes zwar nicht rechtlich, aber in der Praxis ein. Mittels der vorliegenden parlamentarischen Initiative soll die Bestimmung zur Konkretisierung des Konsultationsrechts auf die angemessene Normstufe angehoben und deren Formulierung dahingehend verbessert werden, dass sie nicht de facto eine Einschränkung des Konsultationsrechts zur Folge hat.</p><p>In Abs. 5 von Art. 152 ParlG betreffend die Information und Konsultation im Bereich der Aussenpolitik ist festgehalten, dass die für die Aussenpolitik zuständigen Kommissionen oder andere zuständige Kommissionen vom Bundesrat verlangen können, dass er sie informiert oder konsultiert. Die Bestimmung sieht ein Zugsrecht der Kommissionen vor und stellt damit klar, dass letztlich die Kommissionen bestimmen, welche Themen für sie wichtig sind und wo sie mitwirken wollen. Art. 152 Abs. 2 und 3 ParlG verpflichten den Bundesrat, die für die Aussenpolitik zuständigen Kommissionen von sich aus über wichtige aussenpolitische Entwicklungen zu informieren und zu wesentlichen aussenpolitischen Vorhaben zu konsultieren. In Kombination mit dieser Bringschuld des Bundesrates soll das Zugrecht der Kommissionen gestützt auf Absatz 5 die vollumfängliche Wahrung der Informations- und Konsultationsrechte im Bereich der Aussenpolitik sicherstellen. Das Zugrecht der Kommissionen kann die ihm zugedachte Wirkung jedoch nur entfalten, wenn das Verlangen der Kommissionen nach Information und Konsultation für den Bundesrat verbindlich ist. Andernfalls bliebe Abs. 5 inhaltsleer und der Entscheid, welche aussenpolitischen Geschäfte das Wichtigkeits- bzw. Wesentlichkeitserfordernis erfüllen und Gegenstand einer Information bzw. Konsultation bilden, würde allein durch den Bundesrat und die Verwaltung gefällt. Um Unklarheiten und Auslegungsschwierigkeiten in Bezug auf Absatz 5 zu vermeiden und die vollständige Wahrung der Informations- und Konsultationsrechte im Bereich der Aussenpolitik sicherzustellen, soll mittels dieser parlamentarischen Initiative im Gesetzestext ausdrücklich festgehalten werden, dass das Verlangen der zuständigen parlamentarischen Kommissionen nach einer Information oder Konsultation für den Bundesrat verbindlich ist.</p><p>In Art. 152 ParlG ist das Konsultationsrecht der parlamentarischen Kommissionen im Bereich der Aussenpolitik festgehalten. Die Bestimmung schreibt vor, in welchen Fällen der Bundesrat die zuständigen parlamentarischen Kommissionen bzw. die Präsidentinnen oder die Präsidenten der für die Aussenpolitik zuständigen Kommissionen zu konsultieren hat. Mit Ausnahme von Art. 152 Abs. 3ter ParlG, welcher für den Fall der Ablehnung einer vorläufigen Anwendung eines völkerrechtlichen Vertrags durch die zuständigen Kommissionen beider Räte eine klare Rechtsfolge vorsieht, äussert sich der Gesetzestext nicht zum Umgang des Bundesrates mit Konsultationsantworten der parlamentarischen Kommissionen im Bereich der Aussenpolitik. Dieser Umstand hat bei der praktischen Umsetzung des Konsultationsrechts verschiedentlich zu unbefriedigenden Situationen aus Sicht des Parlaments geführt. Namentlich die fehlende Transparenz und Nachvollziehbarkeit in Bezug auf den Umgang des Bundesrates mit den Konsultationsantworten der Kommissionen erschwert aus parlamentarischer Sicht die Zusammenarbeit zwischen Legislative und Exekutive in der Aussenpolitik. Damit die parlamentarischen Kommissionen ihr Konsultationsrecht in der Aussenpolitik effektiv wahrnehmen können, sind sie einerseits auf eine ausreichende Informationsgrundlage und auf die rechtzeitige Gelegenheit zur Stellungnahme angewiesen. Andererseits muss sichergestellt sein, dass der Bundesrat die parlamentarischen Konsultationsantworten zur Kenntnis nimmt und in seinen Entscheidungsprozess mit einbezieht. Letzteres ist im Rahmen der aktuellen praktischen Ausgestaltung und Umsetzung des Konsultationsrechts nicht transparent nachvollziehbar. Mit dem Ziel einer effektiveren parlamentarischen Mitwirkung in der Aussenpolitik sollen daher im Parlamentsrecht klare und verbindliche Verfahren betreffend den Umgang des Bundesrates mit Konsultationsantworten der zuständigen parlamentarischen Kommissionen festgehalten werden. Denkbar sind namentlich eine Anlehnung an die Regelungen des Vernehmlassungsrechts oder die Einführung einer Begründungspflicht für den Bundesrat für das Abweichen von einer Kommissionsstellungnahme.</p>"
+      "value": "<p>Um den gesetzgeberischen Handlungsbedarf im Bereich von Soft Law zu analysieren, haben die Aussenpolitischen Kommissionen von National- und Ständerat eine gemeinsame Subkommission eingesetzt. Im Rahmen ihrer Arbeiten hat diese Subkommission eine Evaluation der Parlamentarischen Verwaltungskontrolle zur Mitwirkung des Parlaments im Bereich von Soft Law in Auftrag gegeben. Als Teil dieser Evaluation wurde von Prof. Petrig (Universität Basel) ein Rechtsgutachten zur Mitwirkung des Parlaments im Bereich von Soft Law erstellt. In diesem Gutachten kommt Prof. Petrig zum Schluss, dass Art. 5b RVOV, welcher konkretisieren sollte, in welchen Fällen eine Konsultation der für die Aussenpolitik zuständigen Kommissionen gemäss Art. 152 Abs. 3 ParlG zu erfolgen hat, Mängel aufweist. Einerseits wurde die Konkretisierung auf Verordnungs- statt auf Gesetzesebene und vom Bundesrat statt vom Parlament vorgenommen. Zum anderen ist der Artikel unpräzise formuliert und schränkt den Anwendungsbereich des Gesetzes zwar nicht rechtlich, aber in der Praxis ein. Mittels der vorliegenden parlamentarischen Initiative soll die Bestimmung zur Konkretisierung des Konsultationsrechts auf die angemessene Normstufe angehoben und deren Formulierung dahingehend verbessert werden, dass sie nicht de facto eine Einschränkung des Konsultationsrechts zur Folge hat.</p><p>In Abs. 5 von Art. 152 ParlG betreffend die Information und Konsultation im Bereich der Aussenpolitik ist festgehalten, dass die für die Aussenpolitik zuständigen Kommissionen oder andere zuständige Kommissionen vom Bundesrat verlangen können, dass er sie informiert oder konsultiert. Die Bestimmung sieht ein Zugsrecht der Kommissionen vor und stellt damit klar, dass letztlich die Kommissionen bestimmen, welche Themen für sie wichtig sind und wo sie mitwirken wollen. Art. 152 Abs. 2 und 3 ParlG verpflichten den Bundesrat, die für die Aussenpolitik zuständigen Kommissionen von sich aus über wichtige aussenpolitische Entwicklungen zu informieren und zu wesentlichen aussenpolitischen Vorhaben zu konsultieren. In Kombination mit dieser Bringschuld des Bundesrates soll das Zugrecht der Kommissionen gestützt auf Absatz 5 die vollumfängliche Wahrung der Informations- und Konsultationsrechte im Bereich der Aussenpolitik sicherstellen. Das Zugrecht der Kommissionen kann die ihm zugedachte Wirkung jedoch nur entfalten, wenn das Verlangen der Kommissionen nach Information und Konsultation für den Bundesrat verbindlich ist. Andernfalls bliebe Abs. 5 inhaltsleer und der Entscheid, welche aussenpolitischen Geschäfte das Wichtigkeits- bzw. Wesentlichkeitserfordernis erfüllen und Gegenstand einer Information bzw. Konsultation bilden, würde allein durch den Bundesrat und die Verwaltung gefällt. Um Unklarheiten und Auslegungsschwierigkeiten in Bezug auf Absatz 5 zu vermeiden und die vollständige Wahrung der Informations- und Konsultationsrechte im Bereich der Aussenpolitik sicherzustellen, soll mittels dieser parlamentarischen Initiative im Gesetzestext ausdrücklich festgehalten werden, dass das Verlangen der zuständigen parlamentarischen Kommissionen nach einer Information oder Konsultation für den Bundesrat verbindlich ist.</p><p>In Art. 152 ParlG ist das Konsultationsrecht der parlamentarischen Kommissionen im Bereich der Aussenpolitik festgehalten. Die Bestimmung schreibt vor, in welchen Fällen der Bundesrat die zuständigen parlamentarischen Kommissionen bzw. die Präsidentinnen oder die Präsidenten der für die Aussenpolitik zuständigen Kommissionen zu konsultieren hat. Mit Ausnahme von Art. 152 Abs. 3ter ParlG, welcher für den Fall der Ablehnung einer vorläufigen Anwendung eines völkerrechtlichen Vertrags durch die zuständigen Kommissionen beider Räte eine klare Rechtsfolge vorsieht, äussert sich der Gesetzestext nicht zum Umgang des Bundesrates mit Konsultationsantworten der parlamentarischen Kommissionen im Bereich der Aussenpolitik. Dieser Umstand hat bei der praktischen Umsetzung des Konsultationsrechts verschiedentlich zu unbefriedigenden Situationen aus Sicht des Parlaments geführt. Namentlich die fehlende Transparenz und Nachvollziehbarkeit in Bezug auf den Umgang des Bundesrates mit den Konsultationsantworten der Kommissionen erschwert aus parlamentarischer Sicht die Zusammenarbeit zwischen Legislative und Exekutive in der Aussenpolitik. Damit die parlamentarischen Kommissionen ihr Konsultationsrecht in der Aussenpolitik effektiv wahrnehmen können, sind sie einerseits auf eine ausreichende Informationsgrundlage und auf die rechtzeitige Gelegenheit zur Stellungnahme angewiesen. Andererseits muss sichergestellt sein, dass der Bundesrat die parlamentarischen Konsultationsantworten zur Kenntnis nimmt und in seinen Entscheidungsprozess mit einbezieht. Letzteres ist im Rahmen der aktuellen praktischen Ausgestaltung und Umsetzung des Konsultationsrechts nicht transparent nachvollziehbar. Mit dem Ziel einer effektiveren parlamentarischen Mitwirkung in der Aussenpolitik sollen daher im Parlamentsrecht klare und verbindliche Verfahren betreffend den Umgang des Bundesrates mit Konsultationsantworten der zuständigen parlamentarischen Kommissionen festgehalten werden. Denkbar sind namentlich eine Anlehnung an die Regelungen des Vernehmlassungsrechts oder die Einführung einer Begründungspflicht für den Bundesrat für das Abweichen von einer Kommissionsstellungnahme.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Die einschlägigen gesetzlichen Grundlagen sind dahingehend anzupassen, dass:</p><p>- Artikel 5b der Regierungs- und Verwaltungsorganisationsverordnung (RVOV) betreffend die Konsultation der für die Aussenpolitik zuständigen parlamentarischen Kommissionen auf Gesetzesstufe angehoben und der Wortlaut der Bestimmung mit dem Ziel einer vollumfänglichen Wahrung des Konsultationsrechts umformuliert wird;</p><p>- Redaktionell unmissverständlich festgehalten wird, dass das Verlangen der zuständigen parlamentarischen Kommissionen nach einer Information oder Konsultation gestützt auf Artikel 152 Absatz 5 des Parlamentsgesetzes für den Bundesrat verbindlich ist;</p><p>- Im Parlamentsrecht klare und verbindliche Verfahren betreffend den Umgang des Bundesrates mit Konsultationsantworten der zuständigen parlamentarischen Kommissionen gestützt auf Artikel 152 des Parlamentsgesetzes festgehalten werden.</p>"
+      "value": "<p>Die einschlägigen gesetzlichen Grundlagen sind dahingehend anzupassen, dass:</p><p>- Artikel 5b der Regierungs- und Verwaltungsorganisationsverordnung (RVOV) betreffend die Konsultation der für die Aussenpolitik zuständigen parlamentarischen Kommissionen auf Gesetzesstufe angehoben und der Wortlaut der Bestimmung mit dem Ziel einer vollumfänglichen Wahrung des Konsultationsrechts umformuliert wird;</p><p>- Redaktionell unmissverständlich festgehalten wird, dass das Verlangen der zuständigen parlamentarischen Kommissionen nach einer Information oder Konsultation gestützt auf Artikel 152 Absatz 5 des Parlamentsgesetzes für den Bundesrat verbindlich ist;</p><p>- Im Parlamentsrecht klare und verbindliche Verfahren betreffend den Umgang des Bundesrates mit Konsultationsantworten der zuständigen parlamentarischen Kommissionen gestützt auf Artikel 152 des Parlamentsgesetzes festgehalten werden.</p>"
     },
     {
       "type": {
