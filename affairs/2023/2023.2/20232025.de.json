@@ -1,6 +1,6 @@
 {
   "id": 20232025,
-  "updated": "2023-06-21T13:05:49Z",
+  "updated": "2026-05-20T01:51:39Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-12-20T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2026-03-19T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -37,7 +66,7 @@
             "abbreviation": "APK-NR",
             "id": 4,
             "name": "Aussenpolitische Kommission NR",
-            "abbreviation1": "APK-NR",
+            "abbreviation1": "APK-N",
             "abbreviation2": "APK",
             "committeeNumber": 4,
             "council": {
@@ -51,14 +80,15 @@
           "date": "2023-06-15T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "APK-SR",
             "id": 17,
             "name": "Aussenpolitische Kommission SR",
-            "abbreviation1": "APK-SR",
+            "abbreviation1": "APK-S",
             "abbreviation2": "APK",
             "committeeNumber": 17,
             "council": {
@@ -72,7 +102,8 @@
           "date": "2023-06-15T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -80,17 +111,48 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "EDA",
+          "id": 3,
+          "name": "Departement für auswärtige Angelegenheiten",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1686780000000+0200)/",
-          "id": 9,
+          "id": 202,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1686866400000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1730674800000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1734649200000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1768172400000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1773874800000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -110,10 +172,10 @@
   ],
   "shortId": "23.2025",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -121,8 +183,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Frieden in Europa."
+      "value": "Frieden in Europa"
     }
   ],
-  "title": "Frieden in Europa."
+  "title": "Frieden in Europa"
 }

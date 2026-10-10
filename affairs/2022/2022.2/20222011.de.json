@@ -1,6 +1,6 @@
 {
   "id": 20222011,
-  "updated": "2023-06-16T08:13:32Z",
+  "updated": "2026-05-20T02:10:37Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -36,6 +36,21 @@
             "date": "2023-06-16T00:00:00Z",
             "text": "Keine Folge gegeben",
             "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-06-13T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
           }
         ]
       },
@@ -51,7 +66,7 @@
             "abbreviation": "SPK-NR",
             "id": 11,
             "name": "Staatspolitische Kommission NR",
-            "abbreviation1": "SPK-NR",
+            "abbreviation1": "SPK-N",
             "abbreviation2": "SPK",
             "committeeNumber": 11,
             "council": {
@@ -78,7 +93,7 @@
             "abbreviation": "SPK-SR",
             "id": 24,
             "name": "Staatspolitische Kommission SR",
-            "abbreviation1": "SPK-SR",
+            "abbreviation1": "SPK-S",
             "abbreviation2": "SPK",
             "committeeNumber": 24,
             "council": {
@@ -92,7 +107,8 @@
           "date": "2022-06-14T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -100,10 +116,16 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -114,8 +136,23 @@
         },
         {
           "date": "/Date(1686866400000+0200)/",
-          "id": 2,
-          "name": "Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1701903600000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1714514400000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1718229600000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -135,8 +172,8 @@
   ],
   "shortId": "22.2011",
   "state": {
-    "id": 2,
-    "name": "Behandelt vom Nationalrat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },

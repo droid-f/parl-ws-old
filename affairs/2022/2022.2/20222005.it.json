@@ -1,6 +1,6 @@
 {
   "id": 20222005,
-  "updated": "2022-04-13T16:16:08Z",
+  "updated": "2026-05-20T02:14:23Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2022-12-14T00:00:00Z",
+            "text": "Trattazione nel contesto della decisione di respingere le mozioni 22.3886 e 22.3887",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-03-20T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -37,7 +66,7 @@
             "abbreviation": "CET-CN",
             "id": 10,
             "name": "Commissione dell'economia e dei tributi CN",
-            "abbreviation1": "CET-CN",
+            "abbreviation1": "CET-N",
             "abbreviation2": "CET",
             "committeeNumber": 10,
             "council": {
@@ -50,7 +79,11 @@
           },
           "date": "2022-04-12T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
           ]
         },
         {
@@ -58,7 +91,7 @@
             "abbreviation": "CET-CS",
             "id": 23,
             "name": "Commissione dell'economia e dei tributi CS",
-            "abbreviation1": "CET-CS",
+            "abbreviation1": "CET-S",
             "abbreviation2": "CET",
             "committeeNumber": 23,
             "council": {
@@ -80,17 +113,38 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Dipartimento dell'economia, della formazione e della ricerca",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1649714400000+0200)/",
-          "id": 9,
+          "id": 202,
           "name": "Depositato"
+        },
+        {
+          "date": "/Date(1698706800000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1738278000000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1742425200000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -100,7 +154,16 @@
   ],
   "language": "it",
   "relatedAffairs": [
-
+    {
+      "id": 20223886,
+      "priorityCode": "N",
+      "shortId": "22.3886"
+    },
+    {
+      "id": 20223887,
+      "priorityCode": "N",
+      "shortId": "22.3887"
+    }
   ],
   "roles": [
     {
@@ -110,10 +173,10 @@
   ],
   "shortId": "22.2005",
   "state": {
-    "id": 9,
-    "name": "Depositato",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

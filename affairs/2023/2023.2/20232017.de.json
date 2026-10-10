@@ -1,6 +1,6 @@
 {
   "id": 20232017,
-  "updated": "2023-05-04T11:34:32Z",
+  "updated": "2026-05-20T01:53:14Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-06-13T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-06-14T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -34,12 +63,12 @@
       "preConsultations": [
         {
           "committee": {
-            "abbreviation": "WBK-NR",
-            "id": 5,
-            "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
-            "abbreviation1": "WBK-NR",
-            "abbreviation2": "WBK",
-            "committeeNumber": 5,
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
             "council": {
               "abbreviation": "NR",
               "id": 1,
@@ -51,16 +80,17 @@
           "date": "2023-04-27T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
-            "abbreviation": "WBK-SR",
-            "id": 18,
-            "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
-            "abbreviation1": "WBK-SR",
-            "abbreviation2": "WBK",
-            "committeeNumber": 18,
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
             "council": {
               "abbreviation": "SR",
               "id": 2,
@@ -72,6 +102,47 @@
           "date": "2023-04-27T00:00:00Z",
           "registrations": [
 
+          ],
+          "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-04-15T10:41:29Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3054,
+                    "gender": "m",
+                    "id": 4152,
+                    "name": "Wicki Hans",
+                    "officialDenomination": "Wicki"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -83,14 +154,40 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
+          "leading": false
+        },
+        {
+          "abbreviation": "WBF",
+          "id": 8,
+          "name": "Departement für Wirtschaft, Bildung und Forschung",
           "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1682546400000+0200)/",
-          "id": 9,
+          "id": 202,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1682632800000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1711407600000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1711494000000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1718316000000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -110,10 +207,10 @@
   ],
   "shortId": "23.2017",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

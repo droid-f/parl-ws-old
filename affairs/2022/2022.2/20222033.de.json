@@ -1,13 +1,13 @@
 {
   "id": 20222033,
-  "updated": "2022-11-23T07:50:17Z",
+  "updated": "2026-05-20T02:05:20Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
     "name": "Petition"
   },
   "author": {
-    "external": "Amnesty International",
+    "external": "Amnesty International und Operation Libero",
     "type": "author"
   },
   "deposit": {
@@ -22,7 +22,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-06-01T00:00:00Z",
+            "text": "Behandelt im Rahmen eines anderen Geschäfts",
+            "type": 80
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-03-07T00:00:00Z",
+            "text": "Behandelt im Rahmen eines anderen Geschäfts",
+            "type": 80
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -37,7 +66,7 @@
             "abbreviation": "RK-NR",
             "id": 12,
             "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
+            "abbreviation1": "RK-N",
             "abbreviation2": "RK",
             "committeeNumber": 12,
             "council": {
@@ -58,7 +87,7 @@
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -71,7 +100,11 @@
           },
           "date": "2022-11-21T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
           ]
         }
       ],
@@ -80,17 +113,28 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1668985200000+0100)/",
-          "id": 9,
+          "id": 202,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1678143600000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -100,20 +144,24 @@
   ],
   "language": "de",
   "relatedAffairs": [
-
+    {
+      "id": 20180043,
+      "priorityCode": "S",
+      "shortId": "18.043"
+    }
   ],
   "roles": [
     {
-      "external": "Amnesty International",
+      "external": "Amnesty International und Operation Libero",
       "type": "author"
     }
   ],
   "shortId": "22.2033",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

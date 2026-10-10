@@ -1,6 +1,6 @@
 {
   "id": 20213909,
-  "updated": "2023-05-03T08:42:25Z",
+  "updated": "2026-03-12T14:18:29Z",
   "additionalIndexing": "24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2023-05-02T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2026-03-12T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
           }
         ]
       },
@@ -67,7 +82,93 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-01-27T14:29:50Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3205,
+                    "gender": "m",
+                    "id": 4309,
+                    "name": "Michel Matthias",
+                    "officialDenomination": "Michel Matthias"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAG-CS",
+            "id": 25,
+            "name": "Commissione degli affari giuridici CS",
+            "abbreviation1": "CAG-S",
+            "abbreviation2": "CAG",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-18T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
 
+              ],
+              "sessionId": "5122"
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAG-CN",
+            "id": 12,
+            "name": "Commissione degli affari giuridici CN",
+            "abbreviation1": "CAG-N",
+            "abbreviation2": "CAG",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-18T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +189,28 @@
         },
         {
           "date": "/Date(1682978400000+0200)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1734476400000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1769468400000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1772146800000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1773270000000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -219,10 +340,9 @@
   ],
   "shortId": "21.3909",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -238,7 +358,7 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>Negli anni successivi alla crisi finanziaria il Parlamento e il Consiglio federale hanno adottato misure per rafforzare la capacità di resistenza delle banche di rilevanza sistemica e quindi ridurre al minimo le probabilità che lo Stato debba intervenire in casi simili a spese dei contribuenti. Sono inoltre state emanate diverse regolamentazioni nell'ambito del sistema di retribuzione degli istituti finanziari.</p><p>Nel caso in cui un intervento statale risultasse indispensabile nonostante le misure adottate, il Parlamento ha ad esempio previsto con l'articolo 10a della legge sulle banche che il Consiglio federale possa ordinare adeguamenti del sistema di retribuzione dell'istituto finanziario sostenuto oppure vietare del tutto o in parte il versamento di retribuzioni variabili.</p><p>L'Autorità federale di vigilanza sui mercati finanziari (FINMA), nella sua circolare 2010/1 del 21 ottobre 2009, ha inoltre stabilito standard minimi per i sistemi di remunerazione negli istituti finanziari di grandi dimensioni. Questi standard, a complemento delle disposizioni del diritto delle obbligazioni e delle prescrizioni in materia di pubblicità delle remunerazioni ai sensi della normativa sulle borse, sono finalizzati a creare un effetto incentivante opportuno riguardo ai rischi assunti nel quadro del sistema di retribuzioni variabili. In caso di accertate o supposte violazioni del diritto in materia di vigilanza, la FINMA ha altresì la possibilità di adottare misure immediate o di enforcement, in particolare per quanto riguarda le retribuzioni variabili. Ciò è ad esempio avvenuto nel quadro del procedimento di enforcement nei confronti di Credit Suisse (casi Archegos e Greensill; cfr. comunicato stampa della FINMA del 22.4.2021) così come nel caso FX contro UBS (cfr. comunicato stampa della FINMA del 12.11.2014).</p><p>In seguito all'approvazione dell'iniziativa popolare \"Contro le retribuzioni abusive\", applicando dunque l'articolo 95 capoverso 3 della Costituzione, il Consiglio federale ha anche emanato l'ordinanza contro le retribuzioni abusive nelle società anonime quotate in borsa. Queste disposizioni sono state riprese nel progetto di modifica del Codice delle obbligazioni, adottato dal Parlamento il 19 giugno 2020. L'entrata in vigore è ancora in sospeso.</p><p>Tenuto conto delle misure già adottate, il Consiglio federale non ritiene opportuno vietare in modo assoluto il pagamento di bonus al consiglio di amministrazione e alla direzione delle banche di rilevanza sistemica, anche perché inciderebbe in misura importante nella libertà economica sancita dalla Costituzione. Infine, la decisione sulla necessità di adeguamenti per incentivare i quadri superiori degli istituti finanziari ad assumersi una maggiore responsabilità individuale è oggetto di analisi nel quadro del postulato Andrey (21.3893), che il Consiglio federale propone di accogliere.</p>"
+      "value": "<p>Negli anni successivi alla crisi finanziaria il Parlamento e il Consiglio federale hanno adottato misure per rafforzare la capacità di resistenza delle banche di rilevanza sistemica e quindi ridurre al minimo le probabilità che lo Stato debba intervenire in casi simili a spese dei contribuenti. Sono inoltre state emanate diverse regolamentazioni nell'ambito del sistema di retribuzione degli istituti finanziari.</p><p>Nel caso in cui un intervento statale risultasse indispensabile nonostante le misure adottate, il Parlamento ha ad esempio previsto con l'articolo 10a della legge sulle banche che il Consiglio federale possa ordinare adeguamenti del sistema di retribuzione dell'istituto finanziario sostenuto oppure vietare del tutto o in parte il versamento di retribuzioni variabili.</p><p>L'Autorità federale di vigilanza sui mercati finanziari (FINMA), nella sua circolare 2010/1 del 21 ottobre 2009, ha inoltre stabilito standard minimi per i sistemi di remunerazione negli istituti finanziari di grandi dimensioni. Questi standard, a complemento delle disposizioni del diritto delle obbligazioni e delle prescrizioni in materia di pubblicità delle remunerazioni ai sensi della normativa sulle borse, sono finalizzati a creare un effetto incentivante opportuno riguardo ai rischi assunti nel quadro del sistema di retribuzioni variabili. In caso di accertate o supposte violazioni del diritto in materia di vigilanza, la FINMA ha altresì la possibilità di adottare misure immediate o di enforcement, in particolare per quanto riguarda le retribuzioni variabili. Ciò è ad esempio avvenuto nel quadro del procedimento di enforcement nei confronti di Credit Suisse (casi Archegos e Greensill; cfr. comunicato stampa della FINMA del 22.4.2021) così come nel caso FX contro UBS (cfr. comunicato stampa della FINMA del 12.11.2014).</p><p>In seguito all'approvazione dell'iniziativa popolare \"Contro le retribuzioni abusive\", applicando dunque l'articolo 95 capoverso 3 della Costituzione, il Consiglio federale ha anche emanato l'ordinanza contro le retribuzioni abusive nelle società anonime quotate in borsa. Queste disposizioni sono state riprese nel progetto di modifica del Codice delle obbligazioni, adottato dal Parlamento il 19 giugno 2020. L'entrata in vigore è ancora in sospeso.</p><p>Tenuto conto delle misure già adottate, il Consiglio federale non ritiene opportuno vietare in modo assoluto il pagamento di bonus al consiglio di amministrazione e alla direzione delle banche di rilevanza sistemica, anche perché inciderebbe in misura importante nella libertà economica sancita dalla Costituzione. Infine, la decisione sulla necessità di adeguamenti per incentivare i quadri superiori degli istituti finanziari ad assumersi una maggiore responsabilità individuale è oggetto di analisi nel quadro del postulato Andrey (21.3893), che il Consiglio federale propone di accogliere.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {
@@ -252,8 +372,8 @@
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Nessun pagamento di bonus per le banche di rilevanza sistematica"
+      "value": "Nessun pagamento di bonus per le banche di rilevanza sistemica"
     }
   ],
-  "title": "Nessun pagamento di bonus per le banche di rilevanza sistematica"
+  "title": "Nessun pagamento di bonus per le banche di rilevanza sistemica"
 }

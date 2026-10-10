@@ -1,6 +1,6 @@
 {
   "id": 20224355,
-  "updated": "2022-12-19T10:22:48Z",
+  "updated": "2026-03-12T14:07:32Z",
   "additionalIndexing": "28;04;44;2811;2846;2836",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-04-15T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2026-03-12T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-15T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-01-15T17:41:09Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3220,
+                    "gender": "f",
+                    "id": 4325,
+                    "name": "Chassot Isabelle",
+                    "officialDenomination": "Chassot"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CN",
+            "id": 5,
+            "name": "Commission de la science, de l'éducation et de la culture CN",
+            "abbreviation1": "CSEC-N",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CE",
+            "id": 18,
+            "name": "Commission de la science, de l'éducation et de la culture CE",
+            "abbreviation1": "CSEC-E",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +179,33 @@
       "states": [
         {
           "date": "/Date(1670886000000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1676415600000+0100)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1713132000000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1768431600000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1772146800000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1773270000000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -107,10 +245,10 @@
   ],
   "shortId": "22.4355",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -118,14 +256,21 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Alors que la transition démographique n'avait pas encore commencé en 2017, elle bat son plein à l'heure actuelle. Cette année, le nombre d'emplois et d'entreprises a baissé pour la première fois depuis le début des relevés en 2011, et ce dans un contexte de chômage historiquement bas. A fin 2021, près de 1,7 million de personnes en Suisse avaient plus de 64 ans. D'après le scénario de référence de l'Office fédéral de la statistique, ils seront déjà plus de 2 millions à fin 2030. Dans plus de la moitié des cantons, les seniors (64+) sont déjà plus nombreux que les jeunes (&lt; 20). En 2030, ce sera le cas dans 23 cantons. La Suisse se trouve actuellement au début d'un changement radical de la structure de sa population, qui va modifier divers aspects de notre société. Le rapport \" Changement démographique en Suisse : champs d'action au niveau fédéral \" a mis en évidence un besoin de coordination et d'action dans le traitement intersectoriel et transdisciplinaire de l'évolution démographique et dans l'attention accrue portée aux interactions entre les changements sociaux et technologiques et à leurs effets sur le comportement d'une population qui vieillit et se diversifie. L'évolution démographique est un élément plus facile à prévoir et à quantifier que d'autres. Simultanément, elle entraîne des changements de tendance fondamentaux dans les domaines les plus divers. Cette situation de départ doit être utilisée pour développer une stratégie démographique solide au niveau fédéral et montrer l'importance que cela revêt pour les thèmes transversaux majeurs suivants :</p><p>1. garantie financière à long terme du réseau de sécurité sociale et maintien du contrat entre les générations ;</p><p>2. participation au marché du travail, éducation et pénurie de main-d'oeuvre qualifiée ;</p><p>3. conciliation de la vie professionnelle et de la vie privée et des tâches de prise en charge (travail de soin) ;</p><p>4. garantie d'une fonctionnalité suffisante et adaptée aux besoins des infrastructures ;</p><p>5. utilisation des ressources naturelles et consommation des ressources ;</p><p>6. développement de l'habitat et garantie de l'accès au logement pour tous les groupes de population ;</p><p>7. rapports de force géopolitiques, migration et coopération internationale.</p>"
+      "value": "<p>Alors que la transition démographique n'avait pas encore commencé en 2017, elle bat son plein à l'heure actuelle. Cette année, le nombre d'emplois et d'entreprises a baissé pour la première fois depuis le début des relevés en 2011, et ce dans un contexte de chômage historiquement bas. À fin 2021, près de 1,7 million de personnes en Suisse avaient plus de 64 ans. D'après le scénario de référence de l'Office fédéral de la statistique, ils seront déjà plus de 2 millions à fin 2030. Dans plus de la moitié des cantons, les seniors (64+) sont déjà plus nombreux que les jeunes (&lt; 20). En 2030, ce sera le cas dans 23 cantons. La Suisse se trouve actuellement au début d'un changement radical de la structure de sa population, qui va modifier divers aspects de notre société. Le rapport \" Changement démographique en Suisse : champs d'action au niveau fédéral \" a mis en évidence un besoin de coordination et d'action dans le traitement intersectoriel et transdisciplinaire de l'évolution démographique et dans l'attention accrue portée aux interactions entre les changements sociaux et technologiques et à leurs effets sur le comportement d'une population qui vieillit et se diversifie. L'évolution démographique est un élément plus facile à prévoir et à quantifier que d'autres. Simultanément, elle entraîne des changements de tendance fondamentaux dans les domaines les plus divers. Cette situation de départ doit être utilisée pour développer une stratégie démographique solide au niveau fédéral et montrer l'importance que cela revêt pour les thèmes transversaux majeurs suivants :</p><p>1. garantie financière à long terme du réseau de sécurité sociale et maintien du contrat entre les générations ;</p><p>2. participation au marché du travail, éducation et pénurie de main-d'oeuvre qualifiée ;</p><p>3. conciliation de la vie professionnelle et de la vie privée et des tâches de prise en charge (travail de soin) ;</p><p>4. garantie d'une fonctionnalité suffisante et adaptée aux besoins des infrastructures ;</p><p>5. utilisation des ressources naturelles et consommation des ressources ;</p><p>6. développement de l'habitat et garantie de l'accès au logement pour tous les groupes de population ;</p><p>7. rapports de force géopolitiques, migration et coopération internationale.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral est, comme l'auteur de la motion, d'avis que la Suisse se trouve dans une phase de transition démographique. Le rapport \" Changement démographique en Suisse : champs d'action au niveau fédéral \" a contribué à faire de cette thématique un thème transversal important.</p><p>L'Office fédéral de la statistique tient des chiffres complets et régulièrement mis à jour sur l'évolution démographique ; ceux-ci servent de base aux travaux de l'administration fédérale. Les \" scénarios pour la Suisse \", réédités tous les 5 ans, donnent un aperçu de l'évolution démographique attendue en Suisse, complété par des prévisions sur l'évolution de la population active et du niveau de formation de la population. Le Département fédéral de l'économie, de la formation et de la recherche a réalisé ou commandé quatre études basées sur ces chiffres. Leurs résultats et les mesures à prendre en matière de politique économique ont été traités en détail dans le \" Rapport de situation sur l'économie suisse \". Les Perspectives d'évolution du transport du Département fédéral de l'environnement, des transports, de l'énergie et de la communication constituent un autre exemple. Dans son rapport \" Pertinence des scénarios de l'évolution de la population établis par l'Office fédéral de la statistique. Rapport succinct de la Commission de gestion du Conseil des États \" du 27 août 2019, la CdG-E salue le fait que les \" scénarios pour la Suisse \" soient utilisés par le Conseil fédéral comme instrument de planification de base.</p><p>Le Département fédéral des finances établit régulièrement les Perspectives à long terme des finances publiques de la Suisse dans le cadre du plan financier de la législature. Celles-ci mettent en évidence les enjeux du vieillissement de la population sur les finances publiques à moyen et à long termes. Les travaux sont également en cours pour ce qui est du rapport en réponse au postulat 20.4257 \" Évolution démographique et cohésion nationale \", qui aborde les différences cantonales en matière de vieillissement. Dans le cadre de la législature actuelle, les conséquences à long terme de l'évolution démographique sur les relations entre générations ainsi que sur les différents domaines politiques font l'objet d'un rapport de synthèse axé sur les finances publiques. Les deux rapports devraient être adoptés par le Conseil fédéral au printemps 2023.</p><p>La publication \" Suisse 2035 : les grands défis de demain en 20 questions \", réalisée par la Chancellerie fédérale et publiée en 2022, aborde également des thèmes directement liés à l'évolution démographique, comme l'âge de la retraite, l'évolution de la part de la population étrangère, le lien entre urbanisation et vieillissement de la société. La publication est le résultat de l'analyse de la situation et du contexte qui, outre d'autres travaux au sein de l'administration fédérale, constitue une contribution pour le programme de la législature.</p><p>Le nouveau programme de la législature 2023 à 2027 est en cours d'élaboration. Une ligne directrice est consacrée à la cohésion nationale et intergénérationnelle, dans laquelle les effets de l'évolution démographique sont intégrés en tant que thème transversal central dans l'élaboration des mesures.</p><p>Le Conseil fédéral ne voit actuellement pas l'utilité d'une stratégie démographique distincte, mais continue de privilégier une prise en compte interdisciplinaire du changement démographique dans tous les domaines politiques du Conseil fédéral.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Le Conseil fédéral est chargé de mettre à jour le rapport \" Changement démographique en Suisse : champs d'action au niveau fédéral \" (rapport du Conseil fédéral en réponse au postulat 13.3697 Schneider-Schneiter \" Synthèse sur la stratégie démographique \" du 20.09.2017).</p>"
+      "value": "<p>Le Conseil fédéral est chargé de mettre à jour le rapport \" Changement démographique en Suisse : champs d'action au niveau fédéral \" (rapport du Conseil fédéral en réponse au postulat 13.3697 Schneider-Schneiter \" Synthèse sur la stratégie démographique \" du 20.09.2017).</p>"
     },
     {
       "type": {

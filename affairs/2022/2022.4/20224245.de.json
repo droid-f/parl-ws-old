@@ -1,6 +1,6 @@
 {
   "id": 20224245,
-  "updated": "2022-10-04T09:38:19Z",
+  "updated": "2026-03-30T09:35:27Z",
   "additionalIndexing": "2841;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,187 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-02-27T00:00:00Z",
+            "text": "Wird übernommen",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-05-30T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-12-11T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-23T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "SGK-SR",
+            "id": 19,
+            "name": "Kommission für soziale Sicherheit und Gesundheit SR",
+            "abbreviation1": "SGK-S",
+            "abbreviation2": "SGK",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-NR",
+            "id": 6,
+            "name": "Kommission für soziale Sicherheit und Gesundheit NR",
+            "abbreviation1": "SGK-N",
+            "abbreviation2": "SGK",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-06-20T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-10-08T17:29:33Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3107,
+                    "gender": "m",
+                    "id": 4206,
+                    "name": "Ettlin Erich",
+                    "officialDenomination": "Ettlin Erich"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1664488800000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1669158000000+0100)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1717020000000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1725228000000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1726437600000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1728338400000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1733871600000+0100)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
         }
       ],
       "texts": [
@@ -91,7 +249,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -180,7 +338,7 @@
         "code": 3123,
         "gender": "m",
         "id": 4222,
-        "name": "Paganini Nicolo",
+        "name": "Paganini Nicolò",
         "officialDenomination": "Paganini"
       },
       "type": "cosign"
@@ -201,7 +359,7 @@
         "gender": "f",
         "id": 4234,
         "name": "Schläpfer Therese",
-        "officialDenomination": "Schläpfer"
+        "officialDenomination": "Schläpfer Therese"
       },
       "type": "cosign"
     },
@@ -230,16 +388,47 @@
         "name": "Die Mitte-Fraktion. Die Mitte. EVP."
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3174,
+        "gender": "m",
+        "id": 4282,
+        "name": "Rechsteiner Thomas",
+        "officialDenomination": "Rechsteiner Thomas"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "22.4245",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 209,
+    "name": "Überwiesen an den Bundesrat",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Medikamentenpreise und Preissenkungen sind ein politischer Dauerbrenner. Ob der Preis(senkungs)debatte wird kaum über die Verschwendung von Medikamenten gesprochen. Übertriebene Sicherheit scheint ein wesentlicher Kostentreiber zu sein. Einmal verkaufte und angebrochene Medikamente dürfen nicht wieder verkauft werden. Sie müssen entsorgt werden. </p><p>Gemäss Sonderabfallstatistik des Bundesamtes für Umwelt (BAFU wurden im Jahr 2020 schweizweit etwa 4200 Tonnen Altmedikamente und Zytostatika-Abfälle aus dem ambulanten und stationären Bereich entsorgt. Das dürfte gemäss Experten einem Wert von über 2 Milliarden Franken und damit fast 20 Prozent der über die Krankenversicherung finanzierten Medikamente entsprechen. Bei den Altmedikamenten dürfte es sich meistens um bezogene und von den Krankenversicherungen vergütete Medikamente handeln, welche von Patienten nicht eingenommen, sondern entsorgt werden, darunter auch gänzlich unbenutzte Packungen mit verblisteten Medikamenten. In dieser Statistik nicht erfasst sind Medikamente, welche über den Haushaltsmüll entsorgt werden. Diese sind in der offiziellen Statistik des Bundes nicht einmal erfasst.</p><p>Zum Ausmass der Medikamentenverschwendung und des damit verbundenen Einsparpotentials gibt es in der Schweiz keine präzisen Zahlen, da verlässliche Statistiken oder empirisch breit angelegte Studien zur Thematik fehlen.</p><p>Man weiss nicht, welche Medikamente in welchen Mengen aus welchem Abgabekanal (Spital, Apotheke, Drogerien, Pflegeheimen, Pre-Wholesale u.a.) zurückgeführt werden. Um das Richtige gegen die Medikamentenverschwendung tun zu können, braucht es Grundlagen, detaillierte Statistiken zur Menge und Art der an die Apotheken, Drogerien und anderen Rücknahmestellen zurückgebrachten und entsorgten Medikamente und ebenso zur Frage des Ablaufdatums, Haltbarkeit, Restinhalt, Verschreibungspflicht und Pflichtleistung der Krankenversicherung.</p><p>Als Konsequenz des Berichts wird der Bundesrat aufgefordert aufzuzeigen, wie diese Verschwendung gestoppt, übertriebene Sicherheitsvorschriften reduziert, die Medikamenten-Compliance gestärkt und das Kosteneinsparpotential genutzt werden kann.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Am 2. November 2022 hat der Bundesrat den Bericht in Erfüllung des Postulates 14.3607 Die Mitte-Fraktion. Die Mitte. EVP \"Stopp der Medikamentenverschwendung\" verabschiedet. Darin hält er fest, dass die Arzneimittelverschwendung als Problem erkannt ist. Der Bericht nennt die zentralen Problembereiche für die Ursache der Arzneimittelverschwendung und zeigt im Sinne einer Übersicht auf, welche Massnahmen Bund, Kantone und Private bisher ergriffen haben bzw. weiterhin ergreifen, um den sachgerechten Einsatz von Arzneimitteln zu verbessern und damit die Arzneimittelverschwendung zu reduzieren.</p><p>Der Bericht kommt weiter zum Schluss, dass weder international noch national verlässliche Statistiken oder empirisch breit angelegte Studien zur Arzneimittelverschwendung vorhanden sind. Die fehlende Wissensgrundlage über das Ausmass der Arzneimittelverschwendung liesse sich für die Schweiz nur unter sehr grossem Aufwand anhand unterschiedlicher empirischer Zugänge, die über die in dem Postulat genannten Abgabekanäle hinausgehen, verbessern. Dies gilt auch für die gewünschte Datenauswertung der vorliegenden Motion Humbel. Eine Verbesserung der Datenlage müsste über die traditionellen Instrumente der Forschungsförderung angegangen werden.</p><p>Aus Sicht des Bundesrates ist es zielführender, wenn der Bund seine bisherigen Bemühungen für einen effizienteren, effektiveren und somit kostengünstigeren Umgang mit Arzneimitteln im Rahmen anderer Projekte wie der Strategie Gesundheit 2030 (vgl. <a href=\"https://www.bag.admin.ch/bag/de/home/strategie-und-politik/gesundheit-2030/gesundheitspolitische-strategie-2030.html\">Gesundheitspolitische Strategie des Bundesrats 2020-2030 (admin.ch)</a>) und der Überprüfung einer Einführung der Einzelabgabe von Antibiotika im Rahmen der Strategie Antibiotikaresistenzen Schweiz (StAR) (vgl. Bericht in Erfüllung der Motion 17.3942 Tornare \"Einzelverkauf von Medikamenten. Wagen wir den Versuch!\") fortführt.</p><p>Vor diesem Hintergrund ist der Bundesrat der Ansicht, dass der Handlungsbedarf bereits erkannt und angegangen wird und die Kernanliegen der Motion aufgenommen sind.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, über die Art und das Ausmass der Medikamentenverschwendung (Rückgabe von abgegebenen Medikamenten nach Kanal, Packungsart, Ablaufdatum, Kassenpflicht, etc.) einen Bericht zu erstellen sowie Massnahmen dagegen vorzuschlagen.</p>"
+    },
     {
       "type": {
         "id": 1,

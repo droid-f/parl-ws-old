@@ -1,6 +1,6 @@
 {
   "id": 20233031,
-  "updated": "2023-06-06T08:06:32Z",
+  "updated": "2026-05-20T21:07:28Z",
   "additionalIndexing": "10;08;2811",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2023-06-05T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-12-19T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
           }
         ]
       },
@@ -68,7 +83,113 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-13T11:39:36Z",
+          "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SPK-NR",
+            "id": 11,
+            "name": "Staatspolitische Kommission NR",
+            "abbreviation1": "SPK-N",
+            "abbreviation2": "SPK",
+            "committeeNumber": 11,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-02-27T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SPK-SR",
+            "id": 24,
+            "name": "Staatspolitische Kommission SR",
+            "abbreviation1": "SPK-S",
+            "abbreviation2": "SPK",
+            "committeeNumber": 24,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-02-27T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-12-05T12:27:31Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2623,
+                    "gender": "m",
+                    "id": 1109,
+                    "name": "Pfister Gerhard",
+                    "officialDenomination": "Pfister Gerhard"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +210,33 @@
         },
         {
           "date": "/Date(1685916000000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1699570800000+0100)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1702594800000+0100)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1702940400000+0100)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
+        },
+        {
+          "date": "/Date(1774994400000+0200)/",
+          "id": 215,
+          "name": "Berichterstattung zum Umsetzungsstand des Vorstosses liegt vor"
         }
       ],
       "texts": [
@@ -201,10 +347,9 @@
   ],
   "shortId": "23.3031",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 215,
+    "name": "Berichterstattung zum Umsetzungsstand des Vorstosses liegt vor",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -220,7 +365,7 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Der Bundesrat teilt das Anliegen des Motionärs. </p><p>Aufgrund der hohen Anlandungszahlen über die zentrale Mittelmeerroute hat Italien am 11. April 2023 den nationalen Ausnahmezustand erklärt. Dieser soll gemäss Angaben der Regierung voraussichtlich sechs Monate dauern und ermöglicht es, besondere Massnahmen zur Steuerung der Migration zu ergreifen und zu finanzieren, z.B. Ausbau von Einrichtungen für die Rückführung von Personen, die keinen Anspruch auf einen Schutzstatus in Italien haben (sogenannte Centri di permanenza per i rimpatri, CPR) oder schnellere Aufnahme- und Unterbringungsverfahren.</p><p>In der Schweiz warten derzeit 307 Personen auf ihre Überstellung nach Italien. Da die Frist für die Überstellung von Dublin-Fällen jedoch grundsätzlich erst nach sechs Monaten abläuft und aufgrund einer Beschwerde oder im Falle von Untertauchen verlängert werden kann, könnten diese Asylsuchenden teilweise auch zu einem späteren Zeitpunkt noch überstellt werden. Zwischen Januar und März 2023 mussten 36 Personen wegen der Aussetzung in das nationale Asylverfahren überführt werden (Stand 11.04.2023) weil die Überstellungsfristen abgelaufen waren.</p><p>Die Schweiz engagiert sich seit der Verkündung der Aussetzung der Dublin-Überstellungen durch die zuständigen italienischen Behörden aktiv auf bilateraler und multilateraler Ebene, damit die Überstellungen wieder aufgenommen werden können. Gemeinsam mit anderen Dublin-Staaten (u.a. Deutschland, Österreich, Frankreich, der Niederlande, Belgien und Dänemark) ist die Schweiz bei der Europäischen Kommission auf verschiedenen Niveaus mit der Forderung vorstellig geworden, um gegenüber Italien auf eine Wiederaufnahme der Überstellungen hinzuwirken. Die Vorsteherin des Eidgenössischen Justiz- und Polizeidepartements (EJPD) hat diese Thematik zudem auch auf Ministerstufe im Rahmen der Justiz- und Innenminister-Räte in Brüssel angesprochen. Auf bilateraler Ebene steht das Staatssekretariat für Migration SEM mit den zuständigen italienischen Behörden ebenfalls in Kontakt. Darüber hinaus wurde das Thema vom Vorsteher des Eidgenössischen Departements für auswärtige Angelegenheiten (EDA) bei seinem jüngsten Besuch in Rom mit seinem italienischen Amtskollegen erörtert. Die Vorsteherin des Eidgenössischen Justiz- und Polizeidepartements (EJPD) wird bei einem geplanten Besuch in Italien vor der Sommerpause dasselbe tun.</p><p>Das Anliegen des Motionärs ist entsprechend bereits umgesetzt.</p>"
+      "value": "<p>Der Bundesrat teilt das Anliegen des Motionärs. </p><p>Aufgrund der hohen Anlandungszahlen über die zentrale Mittelmeerroute hat Italien am 11. April 2023 den nationalen Ausnahmezustand erklärt. Dieser soll gemäss Angaben der Regierung voraussichtlich sechs Monate dauern und ermöglicht es, besondere Massnahmen zur Steuerung der Migration zu ergreifen und zu finanzieren, z.B. Ausbau von Einrichtungen für die Rückführung von Personen, die keinen Anspruch auf einen Schutzstatus in Italien haben (sogenannte Centri di permanenza per i rimpatri, CPR) oder schnellere Aufnahme- und Unterbringungsverfahren.</p><p>In der Schweiz warten derzeit 307 Personen auf ihre Überstellung nach Italien. Da die Frist für die Überstellung von Dublin-Fällen jedoch grundsätzlich erst nach sechs Monaten abläuft und aufgrund einer Beschwerde oder im Falle von Untertauchen verlängert werden kann, könnten diese Asylsuchenden teilweise auch zu einem späteren Zeitpunkt noch überstellt werden. Zwischen Januar und März 2023 mussten 36 Personen wegen der Aussetzung in das nationale Asylverfahren überführt werden (Stand 11.04.2023) weil die Überstellungsfristen abgelaufen waren.</p><p>Die Schweiz engagiert sich seit der Verkündung der Aussetzung der Dublin-Überstellungen durch die zuständigen italienischen Behörden aktiv auf bilateraler und multilateraler Ebene, damit die Überstellungen wieder aufgenommen werden können. Gemeinsam mit anderen Dublin-Staaten (u.a. Deutschland, Österreich, Frankreich, der Niederlande, Belgien und Dänemark) ist die Schweiz bei der Europäischen Kommission auf verschiedenen Niveaus mit der Forderung vorstellig geworden, um gegenüber Italien auf eine Wiederaufnahme der Überstellungen hinzuwirken. Die Vorsteherin des Eidgenössischen Justiz- und Polizeidepartements (EJPD) hat diese Thematik zudem auch auf Ministerstufe im Rahmen der Justiz- und Innenminister-Räte in Brüssel angesprochen. Auf bilateraler Ebene steht das Staatssekretariat für Migration SEM mit den zuständigen italienischen Behörden ebenfalls in Kontakt. Darüber hinaus wurde das Thema vom Vorsteher des Eidgenössischen Departements für auswärtige Angelegenheiten (EDA) bei seinem jüngsten Besuch in Rom mit seinem italienischen Amtskollegen erörtert. Die Vorsteherin des Eidgenössischen Justiz- und Polizeidepartements (EJPD) wird bei einem geplanten Besuch in Italien vor der Sommerpause dasselbe tun.</p><p>Das Anliegen des Motionärs ist entsprechend bereits umgesetzt.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

@@ -1,7 +1,7 @@
 {
   "id": 20233814,
-  "updated": "2023-06-21T16:06:44Z",
-  "additionalIndexing": "2446;04",
+  "updated": "2026-06-02T08:45:04Z",
+  "additionalIndexing": "2841;04",
   "affairType": {
     "abbreviation": "Mo.",
     "id": 5,
@@ -41,29 +41,182 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-09-25T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2026-06-01T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-30T00:00:00Z",
+        "text": "Ablehnung"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-04-23T18:14:15Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3162,
+                    "gender": "m",
+                    "id": 4270,
+                    "name": "Hurni Baptiste",
+                    "officialDenomination": "Hurni"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-NR",
+            "id": 6,
+            "name": "Kommission für soziale Sicherheit und Gesundheit NR",
+            "abbreviation1": "SGK-N",
+            "abbreviation2": "SGK",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-SR",
+            "id": 19,
+            "name": "Kommission für soziale Sicherheit und Gesundheit SR",
+            "abbreviation1": "SGK-S",
+            "abbreviation2": "SGK",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686780000000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1693346400000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1727215200000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1727820000000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1736809200000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1776895200000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1779746400000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1780264800000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -104,10 +257,10 @@
   ],
   "shortId": "23.3814",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -116,6 +269,13 @@
         "name": "Begründung"
       },
       "value": "<p>Zahlreiche Spitäler liegen finanziell selbst auf der Notfallstation. Trotz Verselbständigung muss die öffentliche Hand, bzw. die Steuerzahler immer wieder mit beträchtlichen Beiträgen die Liquidität von Spitälern sichern. Eine Trendwende ist mit über 250 Spitälern nicht in Sicht, Im Gegenteil: Vor dem Hintergrund der zunehmenden finanziellen Engpässe ist - neben dem mangelnden Fachpersonal - die flächendeckende medizinische Versorgung immer weniger gewährleistet. Der Kanton Aargau soll 240 Millionen Schweizer Franken. fürs Kantonsspital Aarau nachschiessen, im benachbarten Baden entsteht aber gleichzeitig ein grosser Neubau. In Bern wurde kürzlich die Schliessung von zwei Spitälern der Inselgruppe bekannt gegeben. Im Kanton St. Gallen wurde ein neu erstelltes Spital gar nie eröffnet, ein aufgrund der Spitalplanung als überflüssig erachtetes Spital dagegen einfach von einer anderen Trägerschaft übernommen und weiterbetrieben. Dieses Jekami mit hohen Kostenfolgen für Prämien- und Steuerzahler ist kaum zukunftsfähig.</p><p>Die nach Verfassung verantwortlichen Akteure, Kantone und Bund, müssen dringend umdenken. Ihre Bemühungen zur Sicherstellung der Spitalplanung bedürfen einer vermehrten Koordination. Krankenversicherungsfragen (Bund: Welche Leistungen werden wie finanziert?) und Versorgungsfragen (Kanton: Welches Spital bietet welche Leistungen an?) dürfen im Interesse der Tragbarkeit der Gesundheitskosten nicht mehr getrennt diskutiert und entschieden werden.</p><p>Da der Bundesrat bislang die Haltung vertritt, dass die Kantone gemäss Verfassung nicht zu vermehrter Koordination gezwungen werden können (z.B. 18.3779), muss er die Initiative freiwillig und mit überzeugenden Argumenten ergreifen. Dazu gehören die notwendigen Konzepte für die Gespräche mit den Kantonen. Ziel einer sinnvollen Koordination muss sein, dass Grundversorgung tendenziell regional und Spezialversorgung zentral erfolgt. \"Zentral\" ist aber so verstehen, dass u.a. gemäss Patientenströmen und Geografie in regionalen Zentren gedacht wird (\"dezentrale Konzentration\") und nicht derart, dass sämtliche Spezialversorgung von einigen wenigen Universitätskliniken im Mittelland beansprucht wird. Ein Widerspruch zur SR-Motion 23.3218 soll nicht bestehen. Lösungen mit einer besseren Koordination und Kooperation über die Kantonsgrenze hinweg verbessern die Qualität und sind im Sinne der Prämien- und Steuerzahler.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat geht mit der Zielsetzung der Motion einig, dass&nbsp;die Gesundheitsversorgung auch künftig flächendeckend zu gewährleisten und gleichzeitig die Qualität und Effizienz zu verbessern ist. Er wies auch in seiner Stellungnahme zu den Motionen 18.3294 der grünliberalen Fraktion \"Mit maximal sechs Gesundheitsregionen die Koordination fördern und Überkapazitäten abbauen\" und 20.4093 Mäder \"Mit maximal sechs Gesundheitsregionen die Koordination fördern und Überkapazitäten abbauen\" darauf hin, dass das Potenzial für die Gestaltung einer wirtschaftlicheren und qualitativ besseren Spitallandschaft durch eine erhöhte Koordination der kantonalen Planungen noch nicht ausgeschöpft ist. Zu beachten ist dabei die verfassungsmässige Kompetenzausscheidung zwischen Bund und Kantonen, wonach die Kantone für die Gesundheitsversorgung zuständig sind. Damit verbleibt die Verantwortung für ihre Planung bei den Kantonen. Indessen sieht das Bundesgesetz über die Krankenversicherung (KVG; SR 832.10) eine Verpflichtung der Kantone zur Koordination ihrer Planungen vor und nimmt damit das Anliegen bereits auf.</p><p>&nbsp;</p><p>Weiter wies der Bundesrat in seiner Stellungnahme zur Motion 21.4439 Wyss \"Interkantonale bedarfsgerechte Spitalplanung\" darauf hin, dass er mit Änderung vom 23. Juni 2021 der Verordnung über die Krankenversicherung (KVV; SR 832.102) die Kriterien für die Planung der Spitäler, Geburtshäuser und Pflegeheime durch die Kantone weiter vereinheitlicht hat und somit in seinem Kompetenzbereich bereits aktiv geworden ist. Die überarbeiteten Planungskriterien definieren unter anderem, mit welchen Kantonen die Koordination der Planungsmassnahmen zu erfolgen hat. Namentlich müssen die Kantone ihre Planungen mit denjenigen Kantonen koordinieren, mit denen die Koordination der Planungsmassnahmen zu einer Stärkung der Wirtschaftlichkeit und der Qualität der Leistungserbringung im Spital führen kann. Die Kantone sind somit ab dem 1. Januar 2022 verpflichtet, bei der Auswahl der Spitäler, die auf der Liste aufzuführen sind, das Potenzial der Konzentration von Leistungen nicht nur auf kantonaler Ebene, sondern auch über die Kantonsgrenzen hinaus zu beachten. Beispielsweise, indem Leistungen in bestimmten Leistungsgruppen in einem Kanton konzentriert werden, anstatt diese Leistungen in beiden Kantonen parallel zu erbringen. Es handelt sich dabei um eine gewichtige Herausforderung für die Kantone, die nun zur Realisierung des Potentials der Koordination mit anderen Kantonen ausdrücklich und verbindlich verpflichtet werden und deren Umsetzung zuerst beobachtet werden sollte.</p><p>&nbsp;</p><p>Schliesslich hat der Bundesrat die Annahme des Postulats 19.3423 der Kommission für soziale Sicherheit und Gesundheit des Nationalrats \"Langfristig bezahlbare Krankenversicherung. Wirksame Kostensenkungs- und Effizienzmassnahmen basieren auf verlässlichen Modellen und Zukunftsszenarien\" empfohlen. Er wird in diesem Rahmen prüfen und Bericht erstatten, wie aufgrund von periodisch entwickelten Modellen und längerfristigen Szenarien schweizweit die optimale stationäre Versorgung gewährleistet werden kann. Dabei sollen die realen Patientenströme bzw. Versorgungsregionen berücksichtigt werden. Die Resultate des Postulatsberichts sind abzuwarten, bevor eine weitergehende Berichterstattungspflicht geprüft werden soll. Aus diesen Gründen empfiehlt der Bundesrat die Ablehnung der Motion.</p>"
     },
     {
       "type": {
@@ -129,8 +289,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Interkantonale Spitalplanung: Dezentrale Koordination der Spezialmedizin und flächendeckende Grundversorgung"
+      "value": "Interkantonale Spitalplanung. Dezentrale Koordination der Spezialmedizin und flächendeckende Grundversorgung"
     }
   ],
-  "title": "Interkantonale Spitalplanung: Dezentrale Koordination der Spezialmedizin und flächendeckende Grundversorgung"
+  "title": "Interkantonale Spitalplanung. Dezentrale Koordination der Spezialmedizin und flächendeckende Grundversorgung"
 }

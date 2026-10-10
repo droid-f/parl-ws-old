@@ -1,6 +1,6 @@
 {
   "id": 20232017,
-  "updated": "2023-05-04T11:34:32Z",
+  "updated": "2026-05-20T01:53:14Z",
   "affairType": {
     "abbreviation": "Pét.",
     "id": 10,
@@ -22,7 +22,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-06-13T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-06-14T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -34,12 +63,12 @@
       "preConsultations": [
         {
           "committee": {
-            "abbreviation": "CSEC-CN",
-            "id": 5,
-            "name": "Commission de la science, de l'éducation et de la culture CN",
-            "abbreviation1": "CSEC-CN",
-            "abbreviation2": "CSEC",
-            "committeeNumber": 5,
+            "abbreviation": "CER-CN",
+            "id": 10,
+            "name": "Commission de l'économie et des redevances CN",
+            "abbreviation1": "CER-N",
+            "abbreviation2": "CER",
+            "committeeNumber": 10,
             "council": {
               "abbreviation": "CN",
               "id": 1,
@@ -51,16 +80,17 @@
           "date": "2023-04-27T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
-            "abbreviation": "CSEC-CE",
-            "id": 18,
-            "name": "Commission de la science, de l'éducation et de la culture CE",
-            "abbreviation1": "CSEC-CE",
-            "abbreviation2": "CSEC",
-            "committeeNumber": 18,
+            "abbreviation": "CER-CE",
+            "id": 23,
+            "name": "Commission de l'économie et des redevances CE",
+            "abbreviation1": "CER-E",
+            "abbreviation2": "CER",
+            "committeeNumber": 23,
             "council": {
               "abbreviation": "CE",
               "id": 2,
@@ -72,6 +102,47 @@
           "date": "2023-04-27T00:00:00Z",
           "registrations": [
 
+          ],
+          "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-04-15T10:41:29Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3054,
+                    "gender": "m",
+                    "id": 4152,
+                    "name": "Wicki Hans",
+                    "officialDenomination": "Wicki"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -80,17 +151,43 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1682546400000+0200)/",
-          "id": 9,
+          "id": 202,
           "name": "Déposé"
+        },
+        {
+          "date": "/Date(1682632800000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1711407600000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1711494000000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1718316000000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -110,10 +207,10 @@
   ],
   "shortId": "23.2017",
   "state": {
-    "id": 9,
-    "name": "Déposé",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

@@ -1,6 +1,7 @@
 {
   "id": 20230307,
-  "updated": "2023-05-09T15:12:26Z",
+  "updated": "2026-05-20T01:57:29Z",
+  "additionalIndexing": "09;2446;28;2841",
   "affairType": {
     "abbreviation": "Iv. ct.",
     "id": 3,
@@ -26,7 +27,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-03-14T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-06-13T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -36,7 +66,90 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CPS-CN",
+            "id": 8,
+            "name": "Commissione della politica di sicurezza CN",
+            "abbreviation1": "CPS-N",
+            "abbreviation2": "CPS",
+            "committeeNumber": 8,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-04-24T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "CPS-CS",
+            "id": 21,
+            "name": "Commissione della politica di sicurezza CS",
+            "abbreviation1": "CPS-S",
+            "abbreviation2": "CPS",
+            "committeeNumber": 21,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-04-24T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-11T19:24:51Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3092,
+                    "gender": "m",
+                    "id": 4172,
+                    "name": "Salzmann Werner",
+                    "officialDenomination": "Salzmann"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -46,14 +159,39 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1682287200000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1704927600000+0100)/",
+          "id": 225,
+          "name": "Esame preliminare - nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1707433200000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1710370800000+0100)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1712613600000+0200)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1718229600000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -86,10 +224,10 @@
   ],
   "shortId": "23.307",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

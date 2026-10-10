@@ -1,6 +1,7 @@
 {
   "id": 20230026,
-  "updated": "2023-06-14T13:48:06Z",
+  "updated": "2026-02-10T21:17:41Z",
+  "additionalIndexing": "44;2836;32;15",
   "affairType": {
     "abbreviation": "BRG",
     "id": 1,
@@ -33,7 +34,7 @@
             "abbreviation": "SGK-NR",
             "id": 6,
             "name": "Kommission für soziale Sicherheit und Gesundheit NR",
-            "abbreviation1": "SGK-NR",
+            "abbreviation1": "SGK-N",
             "abbreviation2": "SGK",
             "committeeNumber": 6,
             "council": {
@@ -44,18 +45,17 @@
             },
             "typeCode": 1
           },
-          "date": "2023-02-10T00:00:00Z",
+          "date": "2023-02-15T00:00:00Z",
           "registrations": [
 
-          ],
-          "treatmentCategory": "IIIb/IV"
+          ]
         },
         {
           "committee": {
             "abbreviation": "SGK-SR",
             "id": 19,
             "name": "Kommission für soziale Sicherheit und Gesundheit SR",
-            "abbreviation1": "SGK-SR",
+            "abbreviation1": "SGK-S",
             "abbreviation2": "SGK",
             "committeeNumber": 19,
             "council": {
@@ -66,7 +66,7 @@
             },
             "typeCode": 1
           },
-          "date": "2023-02-10T00:00:00Z",
+          "date": "2023-02-15T00:00:00Z",
           "registrations": [
 
           ]
@@ -110,8 +110,28 @@
         },
         {
           "date": "/Date(1686693600000+0200)/",
-          "id": 3,
-          "name": "Behandelt vom Ständerat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1686780000000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1693519200000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1695160800000+0200)/",
+          "id": 219,
+          "name": "Geplant für die Schlussabstimmung"
+        },
+        {
+          "date": "/Date(1695938400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -141,6 +161,51 @@
             "date": "2023-06-14T00:00:00Z",
             "text": "Beschluss gemäss Entwurf",
             "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-20T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Annahme in der Schlussabstimmung",
+            "type": 36
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Annahme in der Schlussabstimmung",
+            "type": 36
           }
         ]
       },
@@ -153,10 +218,56 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-09-01T11:35:09Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3074,
+                    "gender": "m",
+                    "id": 4161,
+                    "name": "Glarner Andreas",
+                    "officialDenomination": "Glarner"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion V",
+                    "code": "V",
+                    "id": 4,
+                    "name": "Fraktion der Schweizerischen Volkspartei"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "SGK-NR",
             "id": 6,
             "name": "Kommission für soziale Sicherheit und Gesundheit NR",
-            "abbreviation1": "SGK-NR",
+            "abbreviation1": "SGK-N",
             "abbreviation2": "SGK",
             "committeeNumber": 6,
             "council": {
@@ -167,18 +278,23 @@
             },
             "typeCode": 1
           },
-          "date": "2023-02-10T00:00:00Z",
+          "date": "2023-02-15T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ],
+              "sessionId": "5122"
+            }
           ],
-          "treatmentCategory": "IIIb/IV"
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "SGK-SR",
             "id": 19,
             "name": "Kommission für soziale Sicherheit und Gesundheit SR",
-            "abbreviation1": "SGK-SR",
+            "abbreviation1": "SGK-S",
             "abbreviation2": "SGK",
             "committeeNumber": 19,
             "council": {
@@ -189,7 +305,7 @@
             },
             "typeCode": 1
           },
-          "date": "2023-02-10T00:00:00Z",
+          "date": "2023-02-15T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -218,7 +334,8 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
@@ -241,6 +358,26 @@
             "id": 1,
             "name": "Beratungsgegenstand / Entwurf"
           }
+        },
+        {
+          "date": "/Date(1696888800000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2298",
+            "source": "BBl 2023 2298",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2023/2298.pdf",
+            "year": "2023"
+          },
+          "referendumDeadline": "2024-01-18T00:00:00Z",
+          "type": {
+            "id": 3,
+            "name": "Schlussabstimmungstext"
+          }
         }
       ],
       "relatedDepartments": [
@@ -259,8 +396,28 @@
         },
         {
           "date": "/Date(1686693600000+0200)/",
-          "id": 3,
-          "name": "Behandelt vom Ständerat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1686780000000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1693519200000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1695160800000+0200)/",
+          "id": 219,
+          "name": "Geplant für die Schlussabstimmung"
+        },
+        {
+          "date": "/Date(1695938400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -292,8 +449,8 @@
   ],
   "shortId": "23.026",
   "state": {
-    "id": 3,
-    "name": "Behandelt vom Ständerat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },

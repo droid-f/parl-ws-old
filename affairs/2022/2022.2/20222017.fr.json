@@ -1,6 +1,6 @@
 {
   "id": 20222017,
-  "updated": "2023-03-16T14:23:53Z",
+  "updated": "2026-05-20T02:00:59Z",
   "affairType": {
     "abbreviation": "Pét.",
     "id": 10,
@@ -36,6 +36,21 @@
             "date": "2023-03-16T00:00:00Z",
             "text": "Refusé de donner suite",
             "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-12-22T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
           }
         ]
       },
@@ -43,7 +58,11 @@
       },
       "index": 0,
       "links": [
-
+        {
+          "date": "/Date(1698966000000+0100)/",
+          "title": "Présentation Administration de la pétition du comité d’action",
+          "url": "https://www.parlament.ch/centers/documents/_layouts/15/DocIdRedir.aspx?ID=DOCID-53009006-9465"
+        }
       ],
       "preConsultations": [
         {
@@ -51,7 +70,7 @@
             "abbreviation": "CTT-CN",
             "id": 9,
             "name": "Commission des transports et des télécommunications CN",
-            "abbreviation1": "CTT-CN",
+            "abbreviation1": "CTT-N",
             "abbreviation2": "CTT",
             "committeeNumber": 9,
             "council": {
@@ -65,14 +84,15 @@
           "date": "2022-07-11T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CTT-CE",
             "id": 22,
             "name": "Commission des transports et des télécommunications CE",
-            "abbreviation1": "CTT-CE",
+            "abbreviation1": "CTT-E",
             "abbreviation2": "CTT",
             "committeeNumber": 22,
             "council": {
@@ -111,7 +131,8 @@
               ],
               "sessionId": "5118"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -119,10 +140,16 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -132,9 +159,29 @@
           "name": "Déposé"
         },
         {
-          "date": "/Date(1678921200000+0100)/",
-          "id": 3,
-          "name": "Traité par le Conseil des Etats"
+          "date": "/Date(1695160800000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 205,
+          "name": "Planifié au Conseil national"
+        },
+        {
+          "date": "/Date(1695333600000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1697407200000+0200)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1703199600000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -154,8 +201,8 @@
   ],
   "shortId": "22.2017",
   "state": {
-    "id": 3,
-    "name": "Traité par le Conseil des Etats",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },

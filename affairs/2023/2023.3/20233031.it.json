@@ -1,6 +1,6 @@
 {
   "id": 20233031,
-  "updated": "2023-06-06T08:06:32Z",
+  "updated": "2026-05-20T21:07:28Z",
   "additionalIndexing": "10;08;2811",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2023-06-05T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-12-19T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
           }
         ]
       },
@@ -67,7 +82,113 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-13T11:39:36Z",
+          "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CIP-CN",
+            "id": 11,
+            "name": "Commissione delle istituzioni politiche CN",
+            "abbreviation1": "CIP-N",
+            "abbreviation2": "CIP",
+            "committeeNumber": 11,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-02-27T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CIP-CS",
+            "id": 24,
+            "name": "Commissione delle istituzioni politiche CS",
+            "abbreviation1": "CIP-S",
+            "abbreviation2": "CIP",
+            "committeeNumber": 24,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-02-27T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-12-05T12:27:31Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2623,
+                    "gender": "m",
+                    "id": 1109,
+                    "name": "Pfister Gerhard",
+                    "officialDenomination": "Pfister Gerhard"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +209,33 @@
         },
         {
           "date": "/Date(1685916000000+0200)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1699570800000+0100)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1702594800000+0100)/",
+          "id": 205,
+          "name": "Pianificato nel Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1702940400000+0100)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
+        },
+        {
+          "date": "/Date(1774994400000+0200)/",
+          "id": 215,
+          "name": "Il rapporto sullo stato di attuazione dell'intervento è disponibile"
         }
       ],
       "texts": [
@@ -199,10 +345,9 @@
   ],
   "shortId": "23.3031",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 215,
+    "name": "Il rapporto sullo stato di attuazione dell'intervento è disponibile",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -218,7 +363,7 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>Il Consiglio federale condivide la richiesta avanzata dall'autore della mozione.</p><p>L'11 aprile 2023 l'Italia ha decretato lo stato d'emergenza su tutto il territorio nazionale a causa dell'elevato numero di migranti giunti tramite la rotta del Mediterraneo centrale. Secondo le dichiarazioni del Governo, lo stato d'emergenza durerà probabilmente sei mesi e permetterà di adottare e finanziare misure speciali per gestire la migrazione, ad esempio l'ampliamento delle strutture destinate al rimpatrio delle persone che non hanno diritto a uno statuto di protezione in Italia (centri di permanenza per i rimpatri, CPR) o la velocizzazione delle procedure di accoglienza e alloggio.</p><p>In Svizzera, attualmente 307 persone sono in attesa di essere trasferite in Italia. Tuttavia, dato che il termine di trasferimento dei casi Dublino scade in linea di massima soltanto dopo sei mesi e può essere prolungato in seguito a un ricorso o in caso di scomparsa, questi richiedenti potrebbero essere in parte trasferiti in un secondo tempo. Tra gennaio e marzo 2023 36 persone hanno dovuto essere sottoposte alla procedura d'asilo nazionale a causa della sospensione dei trasferimenti (stato: 11 aprile 2023), poiché i termini di trasferimento erano scaduti.</p><p>Da quando l'Italia ha comunicato di sospendere i trasferimenti nel quadro di Dublino, la Svizzera si adopera attivamente sul piano bilaterale e multilaterale affinché i trasferimenti possano riprendere. Insieme ad altri Stati Dublino (in particolare la Germania, l'Austria, la Francia, i Paesi Bassi, il Belgio e la Danimarca), la Svizzera è intervenuta a vari livelli presso la Commissione europea per chiedere che l'Italia riprenda i trasferimenti. Inoltre, il Capo del Dipartimento federale di giustizia e polizia (DFGP) ha sollevato la questione anche a livello ministeriale nel quadro del Consiglio dei ministri di giustizia e dell'interno a Bruxelles. Sul piano bilaterale, anche la Segreteria di Stato della migrazione (SEM) è in contatto con le competenti autorità italiane. Il Capo del Dipartimento federale degli affari esteri ha inoltre discusso la questione con il suo omologo italiano in occasione della sua recente visita a Roma e il Capo del DFGP farà lo stesso in occasione di una visita prevista in Italia prima della pausa estiva.</p><p>La richiesta avanzata dall'autore della mozione è pertanto già attuata.</p>"
+      "value": "<p>Il Consiglio federale condivide la richiesta avanzata dall'autore della mozione.</p><p>L'11 aprile 2023 l'Italia ha decretato lo stato d'emergenza su tutto il territorio nazionale a causa dell'elevato numero di migranti giunti tramite la rotta del Mediterraneo centrale. Secondo le dichiarazioni del Governo, lo stato d'emergenza durerà probabilmente sei mesi e permetterà di adottare e finanziare misure speciali per gestire la migrazione, ad esempio l'ampliamento delle strutture destinate al rimpatrio delle persone che non hanno diritto a uno statuto di protezione in Italia (centri di permanenza per i rimpatri, CPR) o la velocizzazione delle procedure di accoglienza e alloggio.</p><p>In Svizzera, attualmente 307 persone sono in attesa di essere trasferite in Italia. Tuttavia, dato che il termine di trasferimento dei casi Dublino scade in linea di massima soltanto dopo sei mesi e può essere prolungato in seguito a un ricorso o in caso di scomparsa, questi richiedenti potrebbero essere in parte trasferiti in un secondo tempo. Tra gennaio e marzo 2023 36 persone hanno dovuto essere sottoposte alla procedura d'asilo nazionale a causa della sospensione dei trasferimenti (stato: 11 aprile 2023), poiché i termini di trasferimento erano scaduti.</p><p>Da quando l'Italia ha comunicato di sospendere i trasferimenti nel quadro di Dublino, la Svizzera si adopera attivamente sul piano bilaterale e multilaterale affinché i trasferimenti possano riprendere. Insieme ad altri Stati Dublino (in particolare la Germania, l'Austria, la Francia, i Paesi Bassi, il Belgio e la Danimarca), la Svizzera è intervenuta a vari livelli presso la Commissione europea per chiedere che l'Italia riprenda i trasferimenti. Inoltre, il Capo del Dipartimento federale di giustizia e polizia (DFGP) ha sollevato la questione anche a livello ministeriale nel quadro del Consiglio dei ministri di giustizia e dell'interno a Bruxelles. Sul piano bilaterale, anche la Segreteria di Stato della migrazione (SEM) è in contatto con le competenti autorità italiane. Il Capo del Dipartimento federale degli affari esteri ha inoltre discusso la questione con il suo omologo italiano in occasione della sua recente visita a Roma e il Capo del DFGP farà lo stesso in occasione di una visita prevista in Italia prima della pausa estiva.</p><p>La richiesta avanzata dall'autore della mozione è pertanto già attuata.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

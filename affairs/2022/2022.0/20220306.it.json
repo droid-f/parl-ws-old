@@ -1,6 +1,6 @@
 {
   "id": 20220306,
-  "updated": "2023-06-13T15:53:48Z",
+  "updated": "2026-05-20T02:04:01Z",
   "additionalIndexing": "48;66;2446",
   "affairType": {
     "abbreviation": "Iv. ct.",
@@ -41,6 +41,21 @@
             "date": "2023-06-13T00:00:00Z",
             "text": "Non è dato seguito",
             "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-09-24T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
           }
         ]
       },
@@ -53,10 +68,50 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-04-10T09:33:23Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2715,
+                    "gender": "m",
+                    "id": 3912,
+                    "name": "Wasserfallen Christian",
+                    "officialDenomination": "Wasserfallen Christian"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CAPTE-CS",
             "id": 20,
             "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CS",
-            "abbreviation1": "CAPTE-CS",
+            "abbreviation1": "CAPTE-S",
             "abbreviation2": "CAPTE",
             "committeeNumber": 20,
             "council": {
@@ -95,14 +150,15 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "CAPTE-CN",
             "id": 7,
             "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CN",
-            "abbreviation1": "CAPTE-CN",
+            "abbreviation1": "CAPTE-N",
             "abbreviation2": "CAPTE",
             "committeeNumber": 7,
             "council": {
@@ -116,6 +172,47 @@
           "date": "2022-04-06T00:00:00Z",
           "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-04-10T09:33:41Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 10836,
+                    "gender": "m",
+                    "id": 10836,
+                    "name": "Kolly Nicolas",
+                    "officialDenomination": "Kolly"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -124,10 +221,16 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -138,8 +241,23 @@
         },
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 29,
-          "name": "Esame preliminare. Trattato dal Consiglio degli Stati"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1686693600000+0200)/",
+          "id": 223,
+          "name": "Esame preliminare - nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1712700000000+0200)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1727128800000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -172,8 +290,8 @@
   ],
   "shortId": "22.306",
   "state": {
-    "id": 29,
-    "name": "Esame preliminare. Trattato dal Consiglio degli Stati",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
     "newKey": 0
   },

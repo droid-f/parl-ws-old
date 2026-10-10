@@ -1,6 +1,6 @@
 {
   "id": 20222002,
-  "updated": "2022-04-13T16:11:18Z",
+  "updated": "2026-05-20T02:13:22Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-12-22T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-06-19T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -37,7 +66,7 @@
             "abbreviation": "RK-NR",
             "id": 12,
             "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
+            "abbreviation1": "RK-N",
             "abbreviation2": "RK",
             "committeeNumber": 12,
             "council": {
@@ -51,14 +80,15 @@
           "date": "2022-03-30T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -72,7 +102,8 @@
           "date": "2022-03-30T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -80,17 +111,42 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlament",
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
           "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1648591200000+0200)/",
-          "id": 9,
+          "id": 202,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1696543200000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1700175600000+0100)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1703199600000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1743717600000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1750284000000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -110,10 +166,10 @@
   ],
   "shortId": "22.2002",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

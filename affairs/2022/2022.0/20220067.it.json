@@ -1,6 +1,6 @@
 {
   "id": 20220067,
-  "updated": "2023-06-06T07:42:32Z",
+  "updated": "2026-10-01T10:18:04Z",
   "additionalIndexing": "44;2811;32",
   "affairType": {
     "abbreviation": "OCF",
@@ -34,7 +34,7 @@
             "abbreviation": "CIP-CN",
             "id": 11,
             "name": "Commissione delle istituzioni politiche CN",
-            "abbreviation1": "CIP-CN",
+            "abbreviation1": "CIP-N",
             "abbreviation2": "CIP",
             "committeeNumber": 11,
             "council": {
@@ -56,7 +56,7 @@
             "abbreviation": "CIP-CS",
             "id": 24,
             "name": "Commissione delle istituzioni politiche CS",
-            "abbreviation1": "CIP-CS",
+            "abbreviation1": "CIP-S",
             "abbreviation2": "CIP",
             "committeeNumber": 24,
             "council": {
@@ -70,7 +70,8 @@
           "date": "2022-10-19T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "IIIb/IV"
         }
       ],
       "references": [
@@ -116,8 +117,33 @@
         },
         {
           "date": "/Date(1685916000000+0200)/",
-          "id": 4,
-          "name": "Trattato dalle due Camere"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1688421600000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1694469600000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1702854000000+0100)/",
+          "id": 205,
+          "name": "Pianificato nel Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1702940400000+0100)/",
+          "id": 220,
+          "name": "Rinviato al Consiglio federale"
+        },
+        {
+          "date": "/Date(1790719200000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
         }
       ],
       "texts": [
@@ -162,6 +188,51 @@
             "date": "2023-06-05T00:00:00Z",
             "text": "Rinvio alla Commissione",
             "type": 33
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-09-12T00:00:00Z",
+            "text": "Rinvio al Consiglio federale",
+            "type": 34
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-12-19T00:00:00Z",
+            "text": "Adesione alla decisione di rinvio al Consiglio federale",
+            "type": 58
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2026-09-30T00:00:00Z",
+            "text": "Stralcio dal ruolo",
+            "type": 15
           }
         ]
       },
@@ -174,10 +245,35 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-08-08T17:25:39Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CIP-CN",
             "id": 11,
             "name": "Commissione delle istituzioni politiche CN",
-            "abbreviation1": "CIP-CN",
+            "abbreviation1": "CIP-N",
             "abbreviation2": "CIP",
             "committeeNumber": 11,
             "council": {
@@ -192,48 +288,7 @@
           "registrations": [
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "CN",
-                    "id": 1,
-                    "name": "Consiglio nazionale",
-                    "type": "N"
-                  },
-                  "councillor": {
-                    "code": 3182,
-                    "gender": "m",
-                    "id": 4290,
-                    "name": "Silberschmidt Andri",
-                    "officialDenomination": "Silberschmidt"
-                  },
-                  "faction": {
-                    "abbreviation": "Gruppo RL",
-                    "id": 1,
-                    "name": "Gruppo liberale radicale"
-                  },
-                  "language": "de"
-                },
-                {
-                  "council": {
-                    "abbreviation": "CN",
-                    "id": 1,
-                    "name": "Consiglio nazionale",
-                    "type": "N"
-                  },
-                  "councillor": {
-                    "code": 3025,
-                    "gender": "m",
-                    "id": 4120,
-                    "name": "Romano Marco",
-                    "officialDenomination": "Romano"
-                  },
-                  "faction": {
-                    "abbreviation": "Gruppo M-E",
-                    "id": 3,
-                    "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
-                  },
-                  "language": "de"
-                }
+
               ],
               "sessionId": "5118"
             }
@@ -245,7 +300,7 @@
             "abbreviation": "CIP-CS",
             "id": 24,
             "name": "Commissione delle istituzioni politiche CS",
-            "abbreviation1": "CIP-CS",
+            "abbreviation1": "CIP-S",
             "abbreviation2": "CIP",
             "committeeNumber": 24,
             "council": {
@@ -260,31 +315,12 @@
           "registrations": [
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "CS",
-                    "id": 2,
-                    "name": "Consiglio degli Stati",
-                    "type": "S"
-                  },
-                  "councillor": {
-                    "code": 2775,
-                    "gender": "m",
-                    "id": 4075,
-                    "name": "Caroni Andrea",
-                    "officialDenomination": "Caroni"
-                  },
-                  "faction": {
-                    "abbreviation": "Gruppo RL",
-                    "id": 1,
-                    "name": "Gruppo liberale radicale"
-                  },
-                  "language": "de"
-                }
+
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "IIIb/IV"
         }
       ],
       "references": [
@@ -330,8 +366,38 @@
         },
         {
           "date": "/Date(1685916000000+0200)/",
-          "id": 4,
-          "name": "Trattato dalle due Camere"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1688508000000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1694469600000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1702594800000+0100)/",
+          "id": 205,
+          "name": "Pianificato nel Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1702940400000+0100)/",
+          "id": 220,
+          "name": "Rinviato al Consiglio federale"
+        },
+        {
+          "date": "/Date(1788991200000+0200)/",
+          "id": 205,
+          "name": "Pianificato nel Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1790719200000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
         }
       ],
       "texts": [
@@ -363,8 +429,8 @@
   ],
   "shortId": "22.067",
   "state": {
-    "id": 4,
-    "name": "Trattato dalle due Camere",
+    "id": 206,
+    "name": "Nella Commissione del Consiglio degli Stati",
     "doneKey": "0",
     "newKey": 0
   },
@@ -374,8 +440,8 @@
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Legge federale sugli stranieri e la loro integrazione. Ammissione agevolata di stranieri con un di-ploma universitario svizzero"
+      "value": "Legge federale sugli stranieri e la loro integrazione. Ammissione agevolata di stranieri con un diploma universitario svizzero"
     }
   ],
-  "title": "Legge federale sugli stranieri e la loro integrazione. Ammissione agevolata di stranieri con un di-ploma universitario svizzero"
+  "title": "Legge federale sugli stranieri e la loro integrazione. Ammissione agevolata di stranieri con un diploma universitario svizzero"
 }

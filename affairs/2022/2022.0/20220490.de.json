@@ -1,6 +1,6 @@
 {
   "id": 20220490,
-  "updated": "2022-12-19T10:34:47Z",
+  "updated": "2026-09-02T11:48:47Z",
   "additionalIndexing": "1211;28",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -41,7 +41,56 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "RK-NR",
+              "id": 12,
+              "name": "Kommission für Rechtsfragen NR",
+              "abbreviation1": "RK-N",
+              "abbreviation2": "RK",
+              "committeeNumber": 12,
+              "council": {
+                "abbreviation": "NR",
+                "id": 1,
+                "name": "Nationalrat",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-10-26T00:00:00Z",
+            "text": "Folge geben (Erstrat)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "RK-SR",
+              "id": 25,
+              "name": "Kommission für Rechtsfragen SR",
+              "abbreviation1": "RK-S",
+              "abbreviation2": "RK",
+              "committeeNumber": 25,
+              "council": {
+                "abbreviation": "SR",
+                "id": 2,
+                "name": "Ständerat",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2025-01-28T00:00:00Z",
+            "text": "Zustimmung zum Beschluss der Kommission des Erstrates (Zweitrat)",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -51,24 +100,214 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-27T17:24:06Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3131,
+                    "gender": "m",
+                    "id": 4230,
+                    "name": "Bregy Philipp Matthias",
+                    "officialDenomination": "Bregy"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-14T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
 
+              ],
+              "sessionId": "5201"
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-14T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlament",
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
           "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1670972400000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1698357600000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1698444000000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1738018800000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        }
+      ],
+      "texts": [
+
+      ]
+    },
+    {
+      "consultation": {
+        "resolutions": [
+
+        ]
+      },
+      "federalCouncilProposal": {
+      },
+      "index": 1,
+      "links": [
+
+      ],
+      "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-14T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-14T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
+      ],
+      "references": [
+
+      ],
+      "relatedDepartments": [
+        {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        }
+      ],
+      "states": [
+        {
+          "date": "/Date(1740610800000+0100)/",
+          "id": 201,
+          "name": "Angemeldet"
         }
       ],
       "texts": [
@@ -259,10 +498,10 @@
   ],
   "shortId": "22.490",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 208,
+    "name": "In Kommission des Nationalrats",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -277,7 +516,7 @@
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Das Zivilgesetzbuch ist so zu ändern, dass die Art und Weise, wie der Betreuungsbeitrag nach Artikel 285 ZGB zu berechnen ist, im Gesetz festgelegt wird, mit einer Obergrenze auf der Grundlage der erbrachten Leistung und nicht auf der Grundlage der Bedürfnisse der Empfängerin oder des Empfängers. Es soll sichergestellt werden, dass der Betreuungsbeitrag nicht zweckentfremdet und als Unterhaltsbeitrag zugunsten des Elternteils verwendet wird, dem die Obhut zusteht.</p>"
+      "value": "<p>Das Zivilgesetzbuch ist so zu ändern, dass die Art und Weise, wie der Betreuungsbeitrag nach Artikel 285 ZGB zu berechnen ist, im Gesetz festgelegt wird, mit einer Obergrenze auf der Grundlage der erbrachten Leistung und nicht auf der Grundlage der Bedürfnisse der Empfängerin oder des Empfängers. Es soll sichergestellt werden, dass der Betreuungsbeitrag nicht zweckentfremdet und als Unterhaltsbeitrag zugunsten des Elternteils verwendet wird, dem die Obhut zusteht.</p>"
     },
     {
       "type": {

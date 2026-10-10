@@ -1,6 +1,6 @@
 {
   "id": 20232015,
-  "updated": "2023-04-20T10:49:10Z",
+  "updated": "2026-05-20T02:04:41Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2026-03-19T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -37,7 +51,7 @@
             "abbreviation": "CPE-CN",
             "id": 4,
             "name": "Commissione della politica estera CN",
-            "abbreviation1": "CPE-CN",
+            "abbreviation1": "CPE-N",
             "abbreviation2": "CPE",
             "committeeNumber": 4,
             "council": {
@@ -58,7 +72,7 @@
             "abbreviation": "CPE-CS",
             "id": 17,
             "name": "Commissione della politica estera CS",
-            "abbreviation1": "CPE-CS",
+            "abbreviation1": "CPE-S",
             "abbreviation2": "CPE",
             "committeeNumber": 17,
             "council": {
@@ -80,17 +94,48 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFAE",
+          "id": 3,
+          "name": "Dipartimento degli affari esteri",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1681768800000+0200)/",
-          "id": 9,
+          "id": 202,
           "name": "Depositato"
+        },
+        {
+          "date": "/Date(1681855200000+0200)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1681941600000+0200)/",
+          "id": 227,
+          "name": "Nelle due Commissioni"
+        },
+        {
+          "date": "/Date(1770591600000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1770678000000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1773874800000+0100)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
         }
       ],
       "texts": [
@@ -110,10 +155,10 @@
   ],
   "shortId": "23.2015",
   "state": {
-    "id": 9,
-    "name": "Depositato",
+    "id": 208,
+    "name": "Nella Commissione del Consiglio nazionale",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -121,8 +166,8 @@
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "S.O.S. Cuba"
+      "value": "SOS Cuba"
     }
   ],
-  "title": "S.O.S. Cuba"
+  "title": "SOS Cuba"
 }

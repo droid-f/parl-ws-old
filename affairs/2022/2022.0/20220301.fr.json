@@ -1,6 +1,6 @@
 {
   "id": 20220301,
-  "updated": "2023-06-07T08:22:38Z",
+  "updated": "2026-05-20T01:57:51Z",
   "additionalIndexing": "2836;2841;28",
   "affairType": {
     "abbreviation": "Iv. ct.",
@@ -41,6 +41,21 @@
             "date": "2023-06-06T00:00:00Z",
             "text": "Refusé de donner suite",
             "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-02-29T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
           }
         ]
       },
@@ -53,10 +68,55 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-17T17:30:23Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3172,
+                    "gender": "f",
+                    "id": 4280,
+                    "name": "Porchet Léonore",
+                    "officialDenomination": "Porchet"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe G",
+                    "id": 6,
+                    "name": "Groupe des VERT-E-S"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CSSS-CN",
             "id": 6,
             "name": "Commission de la sécurité sociale et de la santé publique CN",
-            "abbreviation1": "CSSS-CN",
+            "abbreviation1": "CSSS-N",
             "abbreviation2": "CSSS",
             "committeeNumber": 6,
             "council": {
@@ -70,14 +130,15 @@
           "date": "2022-01-26T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "CSSS-CE",
             "id": 19,
             "name": "Commission de la sécurité sociale et de la santé publique CE",
-            "abbreviation1": "CSSS-CE",
+            "abbreviation1": "CSSS-E",
             "abbreviation2": "CSSS",
             "committeeNumber": 19,
             "council": {
@@ -116,6 +177,52 @@
               ],
               "sessionId": "5121"
             }
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-17T17:30:55Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3087,
+                    "gender": "f",
+                    "id": 4198,
+                    "name": "Meyer Mattea",
+                    "officialDenomination": "Meyer Mattea"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe S",
+                    "id": 2,
+                    "name": "Groupe socialiste"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -138,8 +245,23 @@
         },
         {
           "date": "/Date(1686002400000+0200)/",
-          "id": 29,
-          "name": "Examen préalable par le Conseil des Etats"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1696111200000+0200)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1700175600000+0100)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1709161200000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -176,8 +298,8 @@
   ],
   "shortId": "22.301",
   "state": {
-    "id": 29,
-    "name": "Examen préalable par le Conseil des Etats",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
@@ -187,14 +309,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>1. La loi fédérale sur les allocations pour perte de gain en cas de service, de maternité et de paternité (LAPG ; RS 834.1), règle aux articles 16b ss le droit aux allocations de maternité. Les femmes exerçant une activité lucrative ont droit à une allocation perte de gain, versée sous forme d'indemnités journalières, à hauteur de 80 % du revenu moyen obtenu avant le début du droit, et ce pendant 98 jours suivant la naissance ou jusqu'à la reprise anticipée de l'activité.</p><p>En cas d'hospitalisation prolongée du nouveau-né, la mère peut demander que le versement de l'allocation soit ajourné jusqu'au moment où l'enfant retourne à la maison (art. 16c, al.2).</p><p>Le début du droit peut être reporté si la mère en fait la demande et s'il est attesté par un certificat médical que le nouveau-né doit rester en milieu hospitalier durant deux semaines au moins suivant immédiatement la naissance.</p><p>(art 24, al.1 règlement sur les allocations pour perte de gain (RAPG ; RS 834.11)).</p><p>Le règlement précise que l'allocation ne peut être reportée que jusqu'au retour de l'enfant auprès de sa mère.</p><p>2. Le Conseil fédéral a adopté le 20.04.2016 le rapport \" Revenu de la mère en cas d'ajournement de l'allocation de maternité suite à l'hospitalisation prolongée du nouveau-né \".</p><p>Il annonce un projet de modification de la loi, dont l'objectif est de prévoir, dans le régime des allocations pour perte de gain, une disposition qui prolonge la durée de versement de l'allocation de maternité pour les mères dont l'enfant reste hospitalisé durant au moins trois semaines juste après l'accouchement.</p><p>La modification de cette loi a été adoptée par le Parlement le 18 décembre 2020. Après échéance du délai référendaire, le Conseil fédéral a fixé au 1er juillet 2021 l'entrée en vigueur de cette disposition (cf. site internet OFAS).</p><p>Les conditions du droit et le calcul de l'allocation de maternité restent les mêmes que celles en vigueur actuellement ; toutefois, seules les mères qui prévoient d'exercer de nouveau une activité lucrative après l'accouchement auront le droit de bénéficier de la prolongation du versement en cas d'hospitalisation prolongée du nouveau-né. Le versement de l'allocation est limité à 56 jours d'indemnités supplémentaires ce qui correspond aux huit semaines d'interdiction de travailler après l'accouchement prévues par la loi sur le travail dans l'industrie, l'artisanat et le commerce. La durée du droit à l'allocation de maternité passe dans ce cas de 98 jours à 154 jours consécutifs. (art. 16 c, al.2-4) [En cas d'hospitalisation du nouveau-né, la durée du versement est prolongée d'une durée équivalente à celle de l'hospitalisation, mais de 56 jours au plus, si les conditions suivantes sont réunies : a. le nouveau-né est hospitalisé de façon ininterrompue durant deux semaines au moins immédiatement après sa naissance ; b. la mère apporte la preuve qu'au moment de l'accouchement elle prévoyait de reprendre une activité lucrative à la fin de son congé de maternité.]</p><p>En outre, les adaptations nécessaires sont effectuées dans le Code des obligations (art. 329f, al.2 et 336c, al.1, let cbis CO) : le congé de maternité et la protection contre le licenciement en temps inopportun sont prolongés dans la même mesure que le droit à l'allocation.</p><p>3. Dans son Message du 3.11.2018 - Allocation de maternité en cas de séjour prolongé du nouveau-né à l'hôpital (FF 2019, 141) -, le Conseil fédéral relevait \" que seul l'état de santé de l'enfant permet l'ajournement et non celui de la mère, même si une hospitalisation prolongée de cette dernière a les mêmes conséquences, à savoir l'impossibilité de s'occuper du nouveau-né. Mais dans ce cas-là, l'allocation de maternité à laquelle la mère a droit exclut le versement des indemnités journalières d'autres assurances sociales (assurance-invalidité ou accident par exemple). Lorsque le droit à l'allocation de maternité est échu, ce sont les autres assurances qui prennent le relais si la mère est encore en incapacité de travail \".</p><p>Il rappelait également \" le droit au salaire fondé sur l'art. 324a du code des obligations (CO), relatif à l'empêchement de travailler, est plafonné à trois semaines pendant la première année de service \".</p><p>Le Conseil fédéral constatait de plus que l'option la mieux à même d'éviter les inégalités de traitement, qui serait aussi la moins coûteuse et qui ne place pas le paiement du salaire à la seule charge des employeurs, consisterait à prévoir, dans la LAPG, une prolongation du droit à l'allocation de maternité, actuellement limitée à 98 jours.</p><p>Par ailleurs, \" les femmes qui décident d'arrêter de travailler après la naissance de leur enfant n'ont pas besoin d'une prolongation de la durée du versement de l'allocation de maternité puisque rien ne les empêchera de rester auprès de leur enfant au-delà du délai de quatorze semaines \" (p.148 Message précité).</p><p>Concernant la durée de la prolongation, le Conseil fédéral relevait également (p.160) \" Or, il n'est pas souhaitable de prolonger le versement de l'allocation de maternité et de prévoir un droit au congé sans limite dans le temps. Il est donc nécessaire de fixer une période adéquate qui permette de couvrir la grande majorité des cas. Une prise en charge complète dans tous les cas n'est pas légitime, car des hospitalisations prolongées peuvent aller jusqu'à une année, voire au-delà, et on peut s'attendre à ce qu'une autre solution soit trouvée pour ces situations très difficiles. En outre, accorder des prestations d'assurances sociales sans fixer de terme irait à l'encontre du régime des APG \".</p><p>Ces considérations peuvent s'appliquer mutatis mutandis à la demande de prolongation des APG suite à l'hospitalisation de la mère. En effet, cette distinction apparaît comme peu défendable. </p><p>4. Le nombre de femmes concernées n'a pas été évalué au niveau Suisse - l'on ignore donc les coûts, soit les répercussions sur une éventuelle augmentation des cotisations à l'APG. L'initiative relève uniquement que les cas sont peu nombreux.</p><p>Effectivement, dans le canton de Vaud, les situations sont relativement rares :</p><p> </p><p>Frequence des séjours de plus de 2 et de plus de 3 semaines, pour un accouchement en hôpital, VD, en 2017 et 2018:</p><p> </p><table  border=\"1pt\" width=\"488.5pt\"><tr><td  width=\"156.9pt\"   valign=\"center\"><p> </p></td><td  width=\"75.85pt\"   valign=\"center\"><p>2017</p></td><td  width=\"75.9pt\"   valign=\"center\"><p>2018</p></td><td  width=\"78.25pt\"   valign=\"center\"><p>2017</p></td><td  width=\"78.25pt\"   valign=\"center\"><p>2018</p></td></tr><tr><td  width=\"156.9pt\"   valign=\"center\"><p>Séjours de 14 jours et plus</p></td><td  width=\"75.85pt\"   valign=\"center\"><p>119</p></td><td  width=\"75.9pt\"   valign=\"center\"><p>103</p></td><td  width=\"77.5pt\"   valign=\"center\"><p>1.3%</p></td><td  width=\"78.25pt\"   valign=\"center\"><p>1.1%</p></td></tr><tr><td  width=\"156.9pt\"   valign=\"center\"><p>Séjours de 21 jours et plus</p></td><td  width=\"75.85pt\"   valign=\"center\"><p>78</p></td><td  width=\"75.9pt\"   valign=\"center\"><p>58</p></td><td  width=\"77.5pt\"   valign=\"center\"><p>0.8%</p></td><td  width=\"78.25pt\"   valign=\"center\"><p>0.6%</p></td></tr></table><p> </p><p>En conclusion, le Conseil d'Etat et le Grand Conseil unanime proposent de soumettre une modification de la LAPG, du RAPG et du Code des obligations réglant la prolongation du droit aux APG en cas d'hospitalisation de plus de deux semaines de la mère après l'accouchement.</p><p>Afin de disposer d'une réglementation applicable de manière coordonnée entre l'hospitalisation prolongée du nouveau-né et de la mère, il est proposé d'octroyer des APG prolongées de 56 jours au plus à l'instar de ce qui est prévu en cas d'hospitalisation du nouveau-né, et de compléter le Code des obligations (prolongation du congé de maternité), ainsi que le RAPG. Le droit s'éteint dans tous les cas à la fin du 154ème jour après l'accouchement. Il s'éteint avant si la mère recommence à travailler ou décède.</p>"
+      "value": "<p>1. La loi fédérale sur les allocations pour perte de gain en cas de service, de maternité et de paternité (LAPG ; RS 834.1), règle aux articles 16b ss le droit aux allocations de maternité. Les femmes exerçant une activité lucrative ont droit à une allocation perte de gain, versée sous forme d'indemnités journalières, à hauteur de 80 % du revenu moyen obtenu avant le début du droit, et ce pendant 98 jours suivant la naissance ou jusqu'à la reprise anticipée de l'activité.</p><p>En cas d'hospitalisation prolongée du nouveau-né, la mère peut demander que le versement de l'allocation soit ajourné jusqu'au moment où l'enfant retourne à la maison (art. 16c, al.2).</p><p>Le début du droit peut être reporté si la mère en fait la demande et s'il est attesté par un certificat médical que le nouveau-né doit rester en milieu hospitalier durant deux semaines au moins suivant immédiatement la naissance.</p><p>(art 24, al.1 règlement sur les allocations pour perte de gain (RAPG ; RS 834.11)).</p><p>Le règlement précise que l'allocation ne peut être reportée que jusqu'au retour de l'enfant auprès de sa mère.</p><p>2. Le Conseil fédéral a adopté le 20.04.2016 le rapport \" Revenu de la mère en cas d'ajournement de l'allocation de maternité suite à l'hospitalisation prolongée du nouveau-né \".</p><p>Il annonce un projet de modification de la loi, dont l'objectif est de prévoir, dans le régime des allocations pour perte de gain, une disposition qui prolonge la durée de versement de l'allocation de maternité pour les mères dont l'enfant reste hospitalisé durant au moins trois semaines juste après l'accouchement.</p><p>La modification de cette loi a été adoptée par le Parlement le 18 décembre 2020. Après échéance du délai référendaire, le Conseil fédéral a fixé au 1er juillet 2021 l'entrée en vigueur de cette disposition (cf. site internet OFAS).</p><p>Les conditions du droit et le calcul de l'allocation de maternité restent les mêmes que celles en vigueur actuellement ; toutefois, seules les mères qui prévoient d'exercer de nouveau une activité lucrative après l'accouchement auront le droit de bénéficier de la prolongation du versement en cas d'hospitalisation prolongée du nouveau-né. Le versement de l'allocation est limité à 56 jours d'indemnités supplémentaires ce qui correspond aux huit semaines d'interdiction de travailler après l'accouchement prévues par la loi sur le travail dans l'industrie, l'artisanat et le commerce. La durée du droit à l'allocation de maternité passe dans ce cas de 98 jours à 154 jours consécutifs. (art. 16 c, al.2-4) [En cas d'hospitalisation du nouveau-né, la durée du versement est prolongée d'une durée équivalente à celle de l'hospitalisation, mais de 56 jours au plus, si les conditions suivantes sont réunies : a. le nouveau-né est hospitalisé de façon ininterrompue durant deux semaines au moins immédiatement après sa naissance ; b. la mère apporte la preuve qu'au moment de l'accouchement elle prévoyait de reprendre une activité lucrative à la fin de son congé de maternité.]</p><p>En outre, les adaptations nécessaires sont effectuées dans le Code des obligations (art. 329f, al.2 et 336c, al.1, let cbis CO) : le congé de maternité et la protection contre le licenciement en temps inopportun sont prolongés dans la même mesure que le droit à l'allocation.</p><p>3. Dans son Message du 3.11.2018 - Allocation de maternité en cas de séjour prolongé du nouveau-né à l'hôpital (FF 2019, 141) -, le Conseil fédéral relevait \" que seul l'état de santé de l'enfant permet l'ajournement et non celui de la mère, même si une hospitalisation prolongée de cette dernière a les mêmes conséquences, à savoir l'impossibilité de s'occuper du nouveau-né. Mais dans ce cas-là, l'allocation de maternité à laquelle la mère a droit exclut le versement des indemnités journalières d'autres assurances sociales (assurance-invalidité ou accident par exemple). Lorsque le droit à l'allocation de maternité est échu, ce sont les autres assurances qui prennent le relais si la mère est encore en incapacité de travail \".</p><p>Il rappelait également \" le droit au salaire fondé sur l'art. 324a du code des obligations (CO), relatif à l'empêchement de travailler, est plafonné à trois semaines pendant la première année de service \".</p><p>Le Conseil fédéral constatait de plus que l'option la mieux à même d'éviter les inégalités de traitement, qui serait aussi la moins coûteuse et qui ne place pas le paiement du salaire à la seule charge des employeurs, consisterait à prévoir, dans la LAPG, une prolongation du droit à l'allocation de maternité, actuellement limitée à 98 jours.</p><p>Par ailleurs, \" les femmes qui décident d'arrêter de travailler après la naissance de leur enfant n'ont pas besoin d'une prolongation de la durée du versement de l'allocation de maternité puisque rien ne les empêchera de rester auprès de leur enfant au-delà du délai de quatorze semaines \" (p.148 Message précité).</p><p>Concernant la durée de la prolongation, le Conseil fédéral relevait également (p.160) \" Or, il n'est pas souhaitable de prolonger le versement de l'allocation de maternité et de prévoir un droit au congé sans limite dans le temps. Il est donc nécessaire de fixer une période adéquate qui permette de couvrir la grande majorité des cas. Une prise en charge complète dans tous les cas n'est pas légitime, car des hospitalisations prolongées peuvent aller jusqu'à une année, voire au-delà, et on peut s'attendre à ce qu'une autre solution soit trouvée pour ces situations très difficiles. En outre, accorder des prestations d'assurances sociales sans fixer de terme irait à l'encontre du régime des APG \".</p><p>Ces considérations peuvent s'appliquer mutatis mutandis à la demande de prolongation des APG suite à l'hospitalisation de la mère. En effet, cette distinction apparaît comme peu défendable. </p><p>4. Le nombre de femmes concernées n'a pas été évalué au niveau Suisse - l'on ignore donc les coûts, soit les répercussions sur une éventuelle augmentation des cotisations à l'APG. L'initiative relève uniquement que les cas sont peu nombreux.</p><p>Effectivement, dans le canton de Vaud, les situations sont relativement rares :</p><p></p><p>Frequence des séjours de plus de 2 et de plus de 3 semaines, pour un accouchement en hôpital, VD, en 2017 et 2018 :</p><p></p><table border=\"1pt\" width=\"488.5pt\"><tr><td width=\"156.9pt\"   valign=\"center\"><p></p></td><td width=\"75.85pt\"   valign=\"center\"><p>2017</p></td><td width=\"75.9pt\"   valign=\"center\"><p>2018</p></td><td width=\"78.25pt\"   valign=\"center\"><p>2017</p></td><td width=\"78.25pt\"   valign=\"center\"><p>2018</p></td></tr><tr><td width=\"156.9pt\"   valign=\"center\"><p>Séjours de 14 jours et plus</p></td><td width=\"75.85pt\"   valign=\"center\"><p>119</p></td><td width=\"75.9pt\"   valign=\"center\"><p>103</p></td><td width=\"77.5pt\"   valign=\"center\"><p>1.3%</p></td><td width=\"78.25pt\"   valign=\"center\"><p>1.1%</p></td></tr><tr><td width=\"156.9pt\"   valign=\"center\"><p>Séjours de 21 jours et plus</p></td><td width=\"75.85pt\"   valign=\"center\"><p>78</p></td><td width=\"75.9pt\"   valign=\"center\"><p>58</p></td><td width=\"77.5pt\"   valign=\"center\"><p>0.8%</p></td><td width=\"78.25pt\"   valign=\"center\"><p>0.6%</p></td></tr></table><p></p><p>En conclusion, le Conseil d'État et le Grand Conseil unanime proposent de soumettre une modification de la LAPG, du RAPG et du Code des obligations réglant la prolongation du droit aux APG en cas d'hospitalisation de plus de deux semaines de la mère après l'accouchement.</p><p>Afin de disposer d'une réglementation applicable de manière coordonnée entre l'hospitalisation prolongée du nouveau-né et de la mère, il est proposé d'octroyer des APG prolongées de 56 jours au plus à l'instar de ce qui est prévu en cas d'hospitalisation du nouveau-né, et de compléter le Code des obligations (prolongation du congé de maternité), ainsi que le RAPG. Le droit s'éteint dans tous les cas à la fin du 154ème jour après l'accouchement. Il s'éteint avant si la mère recommence à travailler ou décède.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Conformément à l'article 160, alinéa 1, de la Constitution fédérale, le Canton de Vaud exerce le droit d'initiative du canton en soumettant à l'Assemblée fédérale l'initiative cantonale - Prolongation du congé maternité en cas d'hospitalisation prolongée de la mère - et propose la révision partielle de la loi fédérale sur les allocations pour perte de gain (LAPG), du Règlement sur les allocations pour perte de gain (RAPG) et du Code des obligations (CO) selon le texte qui suit :</p><p></p><p>Art. 16c, LAPG</p><p>3 En cas d'hospitalisation du nouveau-né ou de la mère, la durée du versement est prolongée d'une durée équivalente à celle de l'hospitalisation, mais de 56 jours au plus, si les conditions suivantes sont réunies :</p><p>a. la mère ou le nouveau-né, sont hospitalisés de façon ininterrompue durant deux semaines au moins immédiatement après la naissance ;</p><p>b. la mère apporte la preuve qu'au moment de l'accouchement elle prévoyait de reprendre une activité lucrative à la fin de son congé de maternité.</p><p>Art. 16d LAPG</p><p>2 En cas d'hospitalisation du nouveau-né ou de la mère, il s'éteint à la fin de la prolongation prévue à l'art. 16, al.3.</p><p></p><p>Art. 24 RAPG: Titre : Durée du versement de l'allocation de maternité en cas d'hospitalisation prolongée du nouveau-né ou de la mère (art. 16c, al. 3 LAPG)</p><p>La preuve que le nouveau-né ou la mère doivent rester en milieu hospitalier de manière ininterrompue durant deux semaines au moins suivant immédiatement la naissance doit être fournie au moyen d'un certificat médical.</p><p></p><p>Art. 329f CO</p><p>2 En cas d'hospitalisation du nouveau-né ou de la mère, le congé de maternité est prolongé d'une durée équivalente à la prolongation de la durée du versement de l'allocation de maternité.</p>"
+      "value": "<p>Conformément à l'art. 160, al. 1, de la Constitution fédérale, le Canton de Vaud exerce le droit d'initiative du canton en soumettant à l'Assemblée fédérale l'initiative cantonale - Prolongation du congé maternité en cas d'hospitalisation prolongée de la mère - et propose la révision partielle de la loi fédérale sur les allocations pour perte de gain (LAPG), du Règlement sur les allocations pour perte de gain (RAPG) et du Code des obligations (CO) selon le texte qui suit :</p><p></p><p>Art. 16c, LAPG</p><p>3 En cas d'hospitalisation du nouveau-né ou de la mère, la durée du versement est prolongée d'une durée équivalente à celle de l'hospitalisation, mais de 56 jours au plus, si les conditions suivantes sont réunies :</p><p>a. la mère ou le nouveau-né, sont hospitalisés de façon ininterrompue durant deux semaines au moins immédiatement après la naissance ;</p><p>b. la mère apporte la preuve qu'au moment de l'accouchement elle prévoyait de reprendre une activité lucrative à la fin de son congé de maternité.</p><p>Art. 16d LAPG</p><p>2 En cas d'hospitalisation du nouveau-né ou de la mère, il s'éteint à la fin de la prolongation prévue à l'art. 16, al.3.</p><p></p><p>Art. 24 RAPG : Titre : Durée du versement de l'allocation de maternité en cas d'hospitalisation prolongée du nouveau-né ou de la mère (art. 16c, al. 3 LAPG)</p><p>La preuve que le nouveau-né ou la mère doivent rester en milieu hospitalier de manière ininterrompue durant deux semaines au moins suivant immédiatement la naissance doit être fournie au moyen d'un certificat médical.</p><p></p><p>Art. 329f CO</p><p>2 En cas d'hospitalisation du nouveau-né ou de la mère, le congé de maternité est prolongé d'une durée équivalente à la prolongation de la durée du versement de l'allocation de maternité.</p>"
     },
     {
       "type": {

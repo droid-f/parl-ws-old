@@ -1,6 +1,6 @@
 {
   "id": 20210522,
-  "updated": "2021-12-23T15:49:05Z",
+  "updated": "2026-04-17T15:49:54Z",
   "additionalIndexing": "28;1216;1236",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -41,7 +41,96 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "RK-NR",
+              "id": 12,
+              "name": "Kommission für Rechtsfragen NR",
+              "abbreviation1": "RK-N",
+              "abbreviation2": "RK",
+              "committeeNumber": 12,
+              "council": {
+                "abbreviation": "NR",
+                "id": 1,
+                "name": "Nationalrat",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2022-06-23T00:00:00Z",
+            "text": "Folge geben (Erstrat)",
+            "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "RK-SR",
+              "id": 25,
+              "name": "Kommission für Rechtsfragen SR",
+              "abbreviation1": "RK-S",
+              "abbreviation2": "RK",
+              "committeeNumber": 25,
+              "council": {
+                "abbreviation": "SR",
+                "id": 2,
+                "name": "Ständerat",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-05-22T00:00:00Z",
+            "text": "Keine Zustimmung",
+            "type": 49
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-12-04T00:00:00Z",
+            "text": "Wird übernommen",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-12-06T00:00:00Z",
+            "text": "Folge gegeben",
+            "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-12-18T00:00:00Z",
+            "text": "Folge gegeben",
+            "type": 16
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -53,10 +142,56 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-09-01T11:35:02Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3167,
+                    "gender": "m",
+                    "id": 4275,
+                    "name": "Maitre Vincent",
+                    "officialDenomination": "Maitre"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "RK-NR",
             "id": 12,
             "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
+            "abbreviation1": "RK-N",
             "abbreviation2": "RK",
             "committeeNumber": 12,
             "council": {
@@ -73,15 +208,210 @@
               "correspondents": [
 
               ]
+            },
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-12-16T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ]
+            }
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-09-01T11:34:42Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3084,
+                    "gender": "f",
+                    "id": 4197,
+                    "name": "Marti Min Li",
+                    "officialDenomination": "Marti Min Li"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion S",
+                    "code": "S",
+                    "id": 2,
+                    "name": "Sozialdemokratische Fraktion"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-10-08T15:27:54Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3105,
+                    "gender": "m",
+                    "id": 4204,
+                    "name": "Rieder Beat",
+                    "officialDenomination": "Rieder"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "references": [
+
+      ],
+      "relatedDepartments": [
+        {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        }
+      ],
+      "states": [
+        {
+          "date": "/Date(1639609200000+0100)/",
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1693519200000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1701385200000+0100)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1701817200000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1718056800000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1724796000000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1728338400000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1734476400000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        }
+      ],
+      "texts": [
+
+      ]
+    },
+    {
+      "consultation": {
+        "resolutions": [
+
+        ]
+      },
+      "federalCouncilProposal": {
+      },
+      "index": 1,
+      "links": [
+
+      ],
+      "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -96,6 +426,27 @@
           "registrations": [
 
           ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-12-16T00:00:00Z",
+          "registrations": [
+
+          ]
         }
       ],
       "references": [
@@ -103,17 +454,27 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlament",
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
           "leading": true
         }
       ],
       "states": [
         {
-          "date": "/Date(1639609200000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "date": "/Date(1774479600000+0100)/",
+          "id": 201,
+          "name": "Angemeldet"
+        },
+        {
+          "date": "/Date(1774566000000+0100)/",
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1774652400000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
         }
       ],
       "texts": [
@@ -200,12 +561,22 @@
         "name": "Die Mitte-Fraktion. Die Mitte. EVP."
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3115,
+        "gender": "m",
+        "id": 4214,
+        "name": "Gugger Niklaus-Samuel",
+        "officialDenomination": "Gugger"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "21.522",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 208,
+    "name": "In Kommission des Nationalrats",
     "doneKey": "0",
     "newKey": 0
   },
@@ -215,14 +586,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>In der Debatte rund um die Erweiterung des Artikels 261bis StGB, die durch die parlamentarische Initiative Reynard 13.407 angestossen wurde, war ein Thema, ob neben der sexuellen Orientierung auch Diskriminierung und Aufrufe zu Hass aufgrund des Geschlechts aufgenommen werden sollen. Das Parlament verzichtete schliesslich darauf. Gewalt und Hass gegen Frauen ist leider weit verbreitet: Eine Aufnahme von \"Geschlecht\" in Artikel 261bis StGB würde ein klares Signal aussenden, dass Aufrufe zu Gewalt und Hass aus Gründen des Geschlechts ebenso wenig toleriert wird wie Gewaltaufrufe aus rassistischen, antisemitischen oder homophoben Gründen. Die Aufnahme von \"Geschlecht\" entspricht auch Artikel 8 der Bundesverfassung, wo klar festgehalten ist, dass niemand aufgrund des Geschlechts diskriminiert werden darf.</p>"
+      "value": "<p>In der Debatte rund um die Erweiterung des Artikels 261bis StGB, die durch die parlamentarische Initiative Reynard 13.407 angestossen wurde, war ein Thema, ob neben der sexuellen Orientierung auch Diskriminierung und Aufrufe zu Hass aufgrund des Geschlechts aufgenommen werden sollen. Das Parlament verzichtete schliesslich darauf. Gewalt und Hass gegen Frauen ist leider weit verbreitet: Eine Aufnahme von \"Geschlecht\" in Artikel 261bis StGB würde ein klares Signal aussenden, dass Aufrufe zu Gewalt und Hass aus Gründen des Geschlechts ebenso wenig toleriert wird wie Gewaltaufrufe aus rassistischen, antisemitischen oder homophoben Gründen. Die Aufnahme von \"Geschlecht\" entspricht auch Artikel 8 der Bundesverfassung, wo klar festgehalten ist, dass niemand aufgrund des Geschlechts diskriminiert werden darf.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Artikel 261bis des Schweizerischen Strafgesetzbuches wird wie folgt geändert:</p><p>Diskriminierung und Aufruf zu Hass</p><p>Wer öffentlich gegen eine Person oder eine Gruppe von Personen wegen ihrer Rasse, Ethnie, Religion, sexueller Orientierung oder ihrem Geschlecht zu Hass oder zu Diskriminierung aufruft,</p><p>wer öffentlich Ideologien verbreitet, die auf die systematische Herabsetzung oder Verleumdung dieser Personen oder Personengruppen gerichtet sind,</p><p>wer mit dem gleichen Ziel Propagandaaktionen organisiert, fördert oder daran teilnimmt,</p><p>wer öffentlich durch Wort, Schrift, Bild, Gebärden, Tätlichkeiten oder in anderer Weise eine Person oder eine Gruppe von Personen wegen ihrer Rasse, Ethnie, Religion, sexuellen Orientierung oder ihrem Geschlecht gegen die Menschenwürde verstossenden Weise herabsetzt oder diskriminiert oder aus einem dieser Gründe Völkermord oder andere Verbrechen gegen die Menschlichkeit leugnet, gröblich verharmlost oder zu rechtfertigen sucht,</p><p>wer eine von ihm angebotene Leistung, die für die Allgemeinheit bestimmt ist, einer Person oder einer Gruppe von Personen wegen ihrer Rasse, Ethnie, Religion, sexueller Orientierung oder ihrem Geschlecht verweigert,</p><p>wird mit Freiheitsstrafe bis zu drei Jahren oder Geldstrafe bestraft.</p>"
+      "value": "<p>Artikel 261bis des Schweizerischen Strafgesetzbuches wird wie folgt geändert:</p><p>Diskriminierung und Aufruf zu Hass</p><p>Wer öffentlich gegen eine Person oder eine Gruppe von Personen wegen ihrer Rasse, Ethnie, Religion, sexueller Orientierung oder ihrem Geschlecht zu Hass oder zu Diskriminierung aufruft,</p><p>wer öffentlich Ideologien verbreitet, die auf die systematische Herabsetzung oder Verleumdung dieser Personen oder Personengruppen gerichtet sind,</p><p>wer mit dem gleichen Ziel Propagandaaktionen organisiert, fördert oder daran teilnimmt,</p><p>wer öffentlich durch Wort, Schrift, Bild, Gebärden, Tätlichkeiten oder in anderer Weise eine Person oder eine Gruppe von Personen wegen ihrer Rasse, Ethnie, Religion, sexuellen Orientierung oder ihrem Geschlecht gegen die Menschenwürde verstossenden Weise herabsetzt oder diskriminiert oder aus einem dieser Gründe Völkermord oder andere Verbrechen gegen die Menschlichkeit leugnet, gröblich verharmlost oder zu rechtfertigen sucht,</p><p>wer eine von ihm angebotene Leistung, die für die Allgemeinheit bestimmt ist, einer Person oder einer Gruppe von Personen wegen ihrer Rasse, Ethnie, Religion, sexueller Orientierung oder ihrem Geschlecht verweigert,</p><p>wird mit Freiheitsstrafe bis zu drei Jahren oder Geldstrafe bestraft.</p>"
     },
     {
       "type": {

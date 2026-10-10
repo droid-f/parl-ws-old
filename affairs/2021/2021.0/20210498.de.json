@@ -1,6 +1,6 @@
 {
   "id": 20210498,
-  "updated": "2023-05-25T08:51:39Z",
+  "updated": "2026-07-02T17:23:34Z",
   "additionalIndexing": "2836;28;2841;12",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -50,7 +50,7 @@
               "abbreviation": "SGK-NR",
               "id": 6,
               "name": "Kommission für soziale Sicherheit und Gesundheit NR",
-              "abbreviation1": "SGK-NR",
+              "abbreviation1": "SGK-N",
               "abbreviation2": "SGK",
               "committeeNumber": 6,
               "council": {
@@ -63,7 +63,7 @@
             },
             "council": null,
             "date": "2022-11-10T00:00:00Z",
-            "text": "Folge gegeben",
+            "text": "Folge geben (Erstrat)",
             "type": 16
           },
           {
@@ -75,7 +75,7 @@
               "abbreviation": "SGK-SR",
               "id": 19,
               "name": "Kommission für soziale Sicherheit und Gesundheit SR",
-              "abbreviation1": "SGK-SR",
+              "abbreviation1": "SGK-S",
               "abbreviation2": "SGK",
               "committeeNumber": 19,
               "council": {
@@ -90,6 +90,21 @@
             "date": "2023-05-22T00:00:00Z",
             "text": "Zustimmung",
             "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2025-03-21T00:00:00Z",
+            "text": "Fristverlängerung bis zur Frühjahrssession 2027",
+            "type": 0
           }
         ]
       },
@@ -97,15 +112,59 @@
       },
       "index": 0,
       "links": [
-
+        {
+          "date": "/Date(1738278000000+0100)/",
+          "title": "Vernehmlassung",
+          "url": "https://www.parlament.ch/de/organe/kommissionen/sachbereichskommissionen/kommissionen-sgk/berichte-vernehmlassungen-sgk/vernehmlassung-sgk-21-498"
+        }
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-10-24T11:08:12Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3121,
+                    "gender": "m",
+                    "id": 4220,
+                    "name": "Roduit Benjamin",
+                    "officialDenomination": "Roduit"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
         {
           "committee": {
             "abbreviation": "SGK-NR",
             "id": 6,
             "name": "Kommission für soziale Sicherheit und Gesundheit NR",
-            "abbreviation1": "SGK-NR",
+            "abbreviation1": "SGK-N",
             "abbreviation2": "SGK",
             "committeeNumber": 6,
             "council": {
@@ -123,14 +182,15 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "SGK-SR",
             "id": 19,
             "name": "Kommission für soziale Sicherheit und Gesundheit SR",
-            "abbreviation1": "SGK-SR",
+            "abbreviation1": "SGK-S",
             "abbreviation2": "SGK",
             "committeeNumber": 19,
             "council": {
@@ -148,18 +208,102 @@
 
               ]
             }
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-10-24T11:08:11Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3190,
+                    "gender": "f",
+                    "id": 4298,
+                    "name": "Weichelt Manuela",
+                    "officialDenomination": "Weichelt"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
       "references": [
-
+        {
+          "date": "/Date(1756245600000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2664",
+            "source": "BBl 2025 2664",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2025/2664.pdf",
+            "year": "2025"
+          },
+          "type": {
+            "id": 6,
+            "name": "Bericht"
+          }
+        },
+        {
+          "date": "/Date(1760479200000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "3073",
+            "source": "BBl 2025 3073",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2025/3073.pdf",
+            "year": "2025"
+          },
+          "type": {
+            "id": 2,
+            "name": "Stellungnahme des Bundesrates"
+          }
+        }
       ],
       "relatedDepartments": [
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        },
         {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -170,12 +314,374 @@
         },
         {
           "date": "/Date(1684706400000+0200)/",
-          "id": 1,
-          "name": "Folge gegeben"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1708902000000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1756245600000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1764543600000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1775080800000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1780264800000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
         }
       ],
       "texts": [
 
+      ]
+    },
+    {
+      "consultation": {
+        "resolutions": [
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2025-12-01T00:00:00Z",
+            "text": "Beschluss gemäss Entwurf",
+            "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2026-06-01T00:00:00Z",
+            "text": "Nichteintreten",
+            "type": 67
+          }
+        ]
+      },
+      "federalCouncilProposal": {
+      },
+      "index": 1,
+      "links": [
+        {
+          "date": "/Date(1761256800000+0200)/",
+          "title": "Vernehmlassung",
+          "url": "https://www.parlament.ch/de/organe/kommissionen/sachbereichskommissionen/kommissionen-sgk/berichte-vernehmlassungen-sgk/vernehmlassung-sgk-21-498"
+        }
+      ],
+      "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-04-02T19:06:31Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3153,
+                    "gender": "f",
+                    "id": 4261,
+                    "name": "Friedli Esther",
+                    "officialDenomination": "Friedli Esther"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-10-24T11:11:39Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3190,
+                    "gender": "f",
+                    "id": 4298,
+                    "name": "Weichelt Manuela",
+                    "officialDenomination": "Weichelt"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-NR",
+            "id": 6,
+            "name": "Kommission für soziale Sicherheit und Gesundheit NR",
+            "abbreviation1": "SGK-N",
+            "abbreviation2": "SGK",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-09-30T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-SR",
+            "id": 19,
+            "name": "Kommission für soziale Sicherheit und Gesundheit SR",
+            "abbreviation1": "SGK-S",
+            "abbreviation2": "SGK",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-09-30T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-10-24T11:11:22Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3121,
+                    "gender": "m",
+                    "id": 4220,
+                    "name": "Roduit Benjamin",
+                    "officialDenomination": "Roduit"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "references": [
+        {
+          "date": "/Date(1756245600000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2664",
+            "source": "BBl 2025 2664",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2025/2664.pdf",
+            "year": "2025"
+          },
+          "type": {
+            "id": 6,
+            "name": "Bericht"
+          }
+        },
+        {
+          "date": "/Date(1756245600000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2665",
+            "source": "BBl 2025 2665",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2025/2665.pdf",
+            "year": "2025"
+          },
+          "title": "Bundesgesetz über die Invalidenversicherung (Stärkung des Einigungsverfahrens bei den monodisziplinären IV‑Gutachten)",
+          "type": {
+            "id": 1,
+            "name": "Beratungsgegenstand / Entwurf"
+          }
+        },
+        {
+          "date": "/Date(1760479200000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "3073",
+            "source": "BBl 2025 3073",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2025/3073.pdf",
+            "year": "2025"
+          },
+          "type": {
+            "id": 2,
+            "name": "Stellungnahme des Bundesrates"
+          }
+        }
+      ],
+      "relatedDepartments": [
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        },
+        {
+          "abbreviation": "Parl",
+          "id": 1,
+          "name": "Parlament",
+          "leading": false
+        }
+      ],
+      "states": [
+        {
+          "date": "/Date(1632952800000+0200)/",
+          "id": 201,
+          "name": "Angemeldet"
+        },
+        {
+          "date": "/Date(1756245600000+0200)/",
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1756332000000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1764111600000+0100)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1764543600000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1774821600000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1779746400000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1780264800000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        }
+      ],
+      "texts": [
+        {
+          "type": {
+            "id": 2,
+            "name": "Titel der Vorlage"
+          },
+          "value": "Bundesgesetz über die Invalidenversicherung (Stärkung des Einigungsverfahrens bei den monodisziplinären IV‑Gutachten)"
+        }
       ]
     }
   ],
@@ -199,7 +705,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -319,7 +825,7 @@
         "gender": "f",
         "id": 4234,
         "name": "Schläpfer Therese",
-        "officialDenomination": "Schläpfer"
+        "officialDenomination": "Schläpfer Therese"
       },
       "type": "cosign"
     },
@@ -352,8 +858,8 @@
   ],
   "shortId": "21.498",
   "state": {
-    "id": 1,
-    "name": "Folge gegeben",
+    "id": 208,
+    "name": "In Kommission des Nationalrats",
     "doneKey": "0",
     "newKey": 0
   },
@@ -363,14 +869,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Im Rahmen der Weiterentwicklung der IV hat das Parlament Artikel 44 ATSG geändert und dort Massnahmen zur Verbesserung und Sicherstellung der Qualität von Gutachten eingefügt. Einige Monate später wurde der vom EDI in Auftrag gegebene Bericht \"Evaluation der medizinischen Begutachtung in der Invalidenversicherung\" zusammen mit konkreten Empfehlungen veröffentlicht. Obwohl ein breiter Konsens darüber besteht, dass diesen Empfehlungen vollumfänglich Rechnung zu tragen ist - es sei hier auf die Antworten des Bundesrates auf die Fragen 20.5932 und 21.7269 hingewiesen -, hat sich gezeigt, dass dies bei der Erarbeitung des Ausführungsrechts zur Weiterentwicklung der IV im Bereich des Einigungsverfahrens nicht ganz möglich war; nur mit einer Anpassung des IVG lässt sich ein Widerspruch zu Artikel 44 Absatz 2 ATSG vermeiden.</p><p>Diese parlamentarische Initiative hat zum Ziel, die vollständige Umsetzung der Empfehlungen des Evaluationsberichts bei der Vergabe von monodisziplinären IV-Gutachten zu ermöglichen. Da die Empfehlungen die medizinischen Gutachten in der IV betreffen, muss nur das IVG ergänzt werden. Vor der Bezeichnung der sachverständigen Person, die das medizinische Gutachten erstellen soll, muss eine Einigung angestrebt werden. Dabei ist natürlich auch den Ausstandsgründen nach Artikel 36 Absatz 1 ATSG Rechnung zu tragen.</p><p>Nur mit dem Bemühen um eine tatsächliche Einigung, und zwar von Anfang an, kann das Vertrauen in den Vergabeprozess gestärkt, die Akzeptanz der Resultate verbessert und die Wahrscheinlichkeit von Rechtsstreitigkeiten, die Jahre dauern können, verringert werden. Die praktischen Erfahrungen zeigen, dass der Weg über die Suche nach einer tatsächlichen Einigung in der Regel dann auch zu einer Einigung führt. Ein gemeinschaftliches Gutachten, wie es vorgesehen ist für den Fall, dass keine Einigung zustande kommt, soll nur das letzte Mittel sein, ist aber sehr von grosser Bedeutung, da so die IV-Stellen und die Versicherten im Einigungsverfahren das gleiche Gewicht haben.</p>"
+      "value": "<p>Im Rahmen der Weiterentwicklung der IV hat das Parlament Artikel 44 ATSG geändert und dort Massnahmen zur Verbesserung und Sicherstellung der Qualität von Gutachten eingefügt. Einige Monate später wurde der vom EDI in Auftrag gegebene Bericht \"Evaluation der medizinischen Begutachtung in der Invalidenversicherung\" zusammen mit konkreten Empfehlungen veröffentlicht. Obwohl ein breiter Konsens darüber besteht, dass diesen Empfehlungen vollumfänglich Rechnung zu tragen ist - es sei hier auf die Antworten des Bundesrates auf die Fragen 20.5932 und 21.7269 hingewiesen -, hat sich gezeigt, dass dies bei der Erarbeitung des Ausführungsrechts zur Weiterentwicklung der IV im Bereich des Einigungsverfahrens nicht ganz möglich war; nur mit einer Anpassung des IVG lässt sich ein Widerspruch zu Artikel 44 Absatz 2 ATSG vermeiden.</p><p>Diese parlamentarische Initiative hat zum Ziel, die vollständige Umsetzung der Empfehlungen des Evaluationsberichts bei der Vergabe von monodisziplinären IV-Gutachten zu ermöglichen. Da die Empfehlungen die medizinischen Gutachten in der IV betreffen, muss nur das IVG ergänzt werden. Vor der Bezeichnung der sachverständigen Person, die das medizinische Gutachten erstellen soll, muss eine Einigung angestrebt werden. Dabei ist natürlich auch den Ausstandsgründen nach Artikel 36 Absatz 1 ATSG Rechnung zu tragen.</p><p>Nur mit dem Bemühen um eine tatsächliche Einigung, und zwar von Anfang an, kann das Vertrauen in den Vergabeprozess gestärkt, die Akzeptanz der Resultate verbessert und die Wahrscheinlichkeit von Rechtsstreitigkeiten, die Jahre dauern können, verringert werden. Die praktischen Erfahrungen zeigen, dass der Weg über die Suche nach einer tatsächlichen Einigung in der Regel dann auch zu einer Einigung führt. Ein gemeinschaftliches Gutachten, wie es vorgesehen ist für den Fall, dass keine Einigung zustande kommt, soll nur das letzte Mittel sein, ist aber sehr von grosser Bedeutung, da so die IV-Stellen und die Versicherten im Einigungsverfahren das gleiche Gewicht haben.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Artikel 59 des Bundesgesetzes über die Invalidenversicherung ist durch einen Absatz 3bis zu ergänzen:</p><p>\"Muss die IV-Stelle zur Abklärung des Sachverhalts ein monodisziplinäres medizinisches Gutachten einholen, so sind die IV-Stelle und die versicherte Person in Abweichung von Artikel 44 Absatz 2 ATSG dazu verpflichtet, sich auf eine Sachverständige oder einen Sachverständigen zu einigen; den Ausstandsgründen nach Artikel 36 Absatz 1 ATSG wird Rechnung getragen. Kommt keine Einigung zustande, so bezeichnen die IV-Stelle und die versicherte Person je eine Sachverständige oder einen Sachverständigen. Diese erstellen das Gutachten gemeinsam.\"</p>"
+      "value": "<p>Artikel 59 des Bundesgesetzes über die Invalidenversicherung ist durch einen Absatz 3bis zu ergänzen:</p><p>\"Muss die IV-Stelle zur Abklärung des Sachverhalts ein monodisziplinäres medizinisches Gutachten einholen, so sind die IV-Stelle und die versicherte Person in Abweichung von Artikel 44 Absatz 2 ATSG dazu verpflichtet, sich auf eine Sachverständige oder einen Sachverständigen zu einigen; den Ausstandsgründen nach Artikel 36 Absatz 1 ATSG wird Rechnung getragen. Kommt keine Einigung zustande, so bezeichnen die IV-Stelle und die versicherte Person je eine Sachverständige oder einen Sachverständigen. Diese erstellen das Gutachten gemeinsam.\"</p>"
     },
     {
       "type": {

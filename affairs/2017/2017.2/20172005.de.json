@@ -1,6 +1,6 @@
 {
   "id": 20172005,
-  "updated": "2019-12-20T08:53:58Z",
+  "updated": "2026-05-20T02:04:46Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -36,6 +36,21 @@
             "date": "2019-12-20T00:00:00Z",
             "text": "Keine Folge gegeben",
             "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-12-21T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
           }
         ]
       },
@@ -51,7 +66,7 @@
             "abbreviation": "SGK-NR",
             "id": 6,
             "name": "Kommission für soziale Sicherheit und Gesundheit NR",
-            "abbreviation1": "SGK-NR",
+            "abbreviation1": "SGK-N",
             "abbreviation2": "SGK",
             "committeeNumber": 6,
             "council": {
@@ -78,7 +93,7 @@
             "abbreviation": "SGK-SR",
             "id": 19,
             "name": "Kommission für soziale Sicherheit und Gesundheit SR",
-            "abbreviation1": "SGK-SR",
+            "abbreviation1": "SGK-S",
             "abbreviation2": "SGK",
             "committeeNumber": 19,
             "council": {
@@ -92,7 +107,8 @@
           "date": "2016-12-10T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -114,8 +130,28 @@
         },
         {
           "date": "/Date(1576796400000+0100)/",
-          "id": 2,
-          "name": "Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1696111200000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1699311600000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1699916400000+0100)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1703113200000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -135,8 +171,8 @@
   ],
   "shortId": "17.2005",
   "state": {
-    "id": 2,
-    "name": "Behandelt vom Nationalrat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },

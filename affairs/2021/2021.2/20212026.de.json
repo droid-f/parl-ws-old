@@ -1,6 +1,6 @@
 {
   "id": 20212026,
-  "updated": "2021-10-13T10:20:55Z",
+  "updated": "2026-05-20T02:07:05Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,61 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "WBK-NR",
+              "id": 5,
+              "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
+              "abbreviation1": "WBK-N",
+              "abbreviation2": "WBK",
+              "committeeNumber": 5,
+              "council": {
+                "abbreviation": "NR",
+                "id": 1,
+                "name": "Nationalrat",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2022-04-28T00:00:00Z",
+            "text": "Folge geben (vgl. Kommissionsinitiative oder Vorstoss)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-06-09T00:00:00Z",
+            "text": "Der Rat nimmt davon Kenntnis, dass die Kommission im Rahmen des Geschäfts 22.3390 auch die Petition 21.2026 behandelt hat (vgl. Art. 126 Abs. 2 ParlG).",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-09-23T00:00:00Z",
+            "text": "Der Rat nimmt davon Kenntnis, dass die Kommission im Rahmen des Geschäfts 24.031 auch die Petition 21.2026 behandelt hat (vgl. Art. 126 Abs. 2 ParlG).",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -34,31 +88,10 @@
       "preConsultations": [
         {
           "committee": {
-            "abbreviation": "WBK-NR",
-            "id": 5,
-            "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
-            "abbreviation1": "WBK-NR",
-            "abbreviation2": "WBK",
-            "committeeNumber": 5,
-            "council": {
-              "abbreviation": "NR",
-              "id": 1,
-              "name": "Nationalrat",
-              "type": "N"
-            },
-            "typeCode": 1
-          },
-          "date": "2021-10-08T00:00:00Z",
-          "registrations": [
-
-          ]
-        },
-        {
-          "committee": {
             "abbreviation": "WBK-SR",
             "id": 18,
             "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
-            "abbreviation1": "WBK-SR",
+            "abbreviation1": "WBK-S",
             "abbreviation2": "WBK",
             "committeeNumber": 18,
             "council": {
@@ -72,7 +105,8 @@
           "date": "2021-10-08T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
@@ -80,17 +114,42 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlament",
+          "abbreviation": "WBF",
+          "id": 8,
+          "name": "Departement für Wirtschaft, Bildung und Forschung",
           "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1633644000000+0200)/",
-          "id": 9,
+          "id": 202,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1633730400000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1648764000000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1651183200000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1724364000000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1727042400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -100,7 +159,11 @@
   ],
   "language": "de",
   "relatedAffairs": [
-
+    {
+      "id": 20223390,
+      "priorityCode": "N",
+      "shortId": "22.3390"
+    }
   ],
   "roles": [
     {
@@ -110,10 +173,10 @@
   ],
   "shortId": "21.2026",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

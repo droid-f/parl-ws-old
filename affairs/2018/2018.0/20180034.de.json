@@ -1,6 +1,6 @@
 {
   "id": 20180034,
-  "updated": "2020-06-24T10:40:00Z",
+  "updated": "2026-06-22T11:25:23Z",
   "additionalIndexing": "2446;28",
   "affairType": {
     "abbreviation": "BRG",
@@ -19,36 +19,7 @@
     {
       "consultation": {
         "resolutions": [
-          {
-            "category": {
-              "id": 3,
-              "name": "Normal"
-            },
-            "council": {
-              "abbreviation": "SR",
-              "id": 2,
-              "name": "Ständerat",
-              "type": "S"
-            },
-            "date": "2019-09-16T00:00:00Z",
-            "text": "Rückweisung an den Bundesrat",
-            "type": 34
-          },
-          {
-            "category": {
-              "id": 3,
-              "name": "Normal"
-            },
-            "council": {
-              "abbreviation": "NR",
-              "id": 1,
-              "name": "Nationalrat",
-              "type": "N"
-            },
-            "date": "2019-12-18T00:00:00Z",
-            "text": "Zustimmung zur Rückweisung an den Bundesrat",
-            "type": 58
-          }
+
         ]
       },
       "federalCouncilProposal": {
@@ -63,7 +34,7 @@
             "abbreviation": "WAK-NR",
             "id": 10,
             "name": "Kommission für Wirtschaft und Abgaben NR",
-            "abbreviation1": "WAK-NR",
+            "abbreviation1": "WAK-N",
             "abbreviation2": "WAK",
             "committeeNumber": 10,
             "council": {
@@ -85,7 +56,7 @@
             "abbreviation": "WAK-SR",
             "id": 23,
             "name": "Kommission für Wirtschaft und Abgaben SR",
-            "abbreviation1": "WAK-SR",
+            "abbreviation1": "WAK-S",
             "abbreviation2": "WAK",
             "committeeNumber": 23,
             "council": {
@@ -99,7 +70,8 @@
           "date": "2018-03-21T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "IIIa/IV"
         }
       ],
       "references": [
@@ -114,7 +86,7 @@
               "name": "Bundesblatt",
               "shortName": "BBl"
             },
-            "url": "https://www.admin.ch/opc/de/federal-gazette/2018/2133.pdf",
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2018/2133.pdf",
             "year": "2018"
           },
           "title": "Botschaft vom 21. März 2018 zur Änderung des Bundesgesetzes über die direkte Bundessteuer (Ausgewogene Paar- und Familienbesteuerung)",
@@ -134,7 +106,7 @@
               "name": "Bundesblatt",
               "shortName": "BBl"
             },
-            "url": "https://www.admin.ch/opc/de/federal-gazette/2019/5787.pdf",
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2019/5787.pdf",
             "year": "2019"
           },
           "title": "Zusatzbotschaft zur Änderung des Bundesgesetzes über die direkte Bundessteuer (Ausgewogene Paar- und Familienbesteuerung)",
@@ -165,8 +137,28 @@
         },
         {
           "date": "/Date(1576623600000+0100)/",
-          "id": 4,
-          "name": "Von beiden Räten behandelt"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1689026400000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1740438000000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1741561200000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1746568800000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -211,6 +203,36 @@
             "date": "2019-12-18T00:00:00Z",
             "text": "Zustimmung zur Rückweisung an den Bundesrat",
             "type": 58
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-03-10T00:00:00Z",
+            "text": "Abschreibung",
+            "type": 15
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2025-05-07T00:00:00Z",
+            "text": "Abschreibung",
+            "type": 15
           }
         ]
       },
@@ -223,10 +245,50 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-02-25T10:34:17Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3054,
+                    "gender": "m",
+                    "id": 4152,
+                    "name": "Wicki Hans",
+                    "officialDenomination": "Wicki"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "WAK-NR",
             "id": 10,
             "name": "Kommission für Wirtschaft und Abgaben NR",
-            "abbreviation1": "WAK-NR",
+            "abbreviation1": "WAK-N",
             "abbreviation2": "WAK",
             "committeeNumber": 10,
             "council": {
@@ -241,62 +303,19 @@
           "registrations": [
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "NR",
-                    "id": 1,
-                    "name": "Nationalrat",
-                    "type": "N"
-                  },
-                  "councillor": {
-                    "code": 2789,
-                    "gender": "m",
-                    "id": 4077,
-                    "name": "Feller Olivier",
-                    "officialDenomination": "Feller"
-                  },
-                  "faction": {
-                    "abbreviation": "Fraktion RL",
-                    "code": "RL",
-                    "id": 1,
-                    "name": "FDP-Liberale Fraktion"
-                  },
-                  "language": "fr"
-                },
-                {
-                  "council": {
-                    "abbreviation": "NR",
-                    "id": 1,
-                    "name": "Nationalrat",
-                    "type": "N"
-                  },
-                  "councillor": {
-                    "code": 3016,
-                    "gender": "f",
-                    "id": 4102,
-                    "name": "Bertschy Kathrin",
-                    "officialDenomination": "Bertschy"
-                  },
-                  "faction": {
-                    "abbreviation": "Fraktion GL",
-                    "code": "GL",
-                    "id": 137,
-                    "name": "Grünliberale Fraktion"
-                  },
-                  "language": "de"
-                }
+
               ],
               "sessionId": "5101"
             }
           ],
-          "treatmentCategory": "IIIa/IV"
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "WAK-SR",
             "id": 23,
             "name": "Kommission für Wirtschaft und Abgaben SR",
-            "abbreviation1": "WAK-SR",
+            "abbreviation1": "WAK-S",
             "abbreviation2": "WAK",
             "committeeNumber": 23,
             "council": {
@@ -311,32 +330,12 @@
           "registrations": [
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "SR",
-                    "id": 2,
-                    "name": "Ständerat",
-                    "type": "S"
-                  },
-                  "councillor": {
-                    "code": 2674,
-                    "gender": "m",
-                    "id": 3871,
-                    "name": "Bischof Pirmin",
-                    "officialDenomination": "Bischof"
-                  },
-                  "faction": {
-                    "abbreviation": "Fraktion C",
-                    "code": "C",
-                    "id": 3,
-                    "name": "CVP-Fraktion"
-                  },
-                  "language": "de"
-                }
+
               ],
               "sessionId": "5019"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -351,7 +350,7 @@
               "name": "Bundesblatt",
               "shortName": "BBl"
             },
-            "url": "https://www.admin.ch/opc/de/federal-gazette/2018/2209.pdf",
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2018/2209.pdf",
             "year": "2018"
           },
           "title": "Bundesgesetz über die direkte Bundessteuer (DBG) (Ausgewogene Paar- und Familienbesteuerung)",
@@ -382,8 +381,28 @@
         },
         {
           "date": "/Date(1576623600000+0100)/",
-          "id": 4,
-          "name": "Von beiden Räten behandelt"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1689026400000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1740438000000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1741561200000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1746568800000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -415,8 +434,8 @@
   ],
   "shortId": "18.034",
   "state": {
-    "id": 4,
-    "name": "Von beiden Räten behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },

@@ -1,7 +1,7 @@
 {
   "id": 20130308,
-  "updated": "2019-02-18T19:03:06Z",
-  "additionalIndexing": "09",
+  "updated": "2026-05-20T02:11:38Z",
+  "additionalIndexing": "09;Zivildienst;Frau",
   "affairType": {
     "abbreviation": "Iv. ct.",
     "id": 3,
@@ -95,6 +95,36 @@
             "date": "2018-06-12T00:00:00Z",
             "text": "Adhésion à la suspension",
             "type": 72
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-06-18T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2025-09-24T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
           }
         ]
       },
@@ -107,10 +137,50 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-06-24T17:18:02Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3102,
+                    "gender": "m",
+                    "id": 4179,
+                    "name": "Zuberbühler David",
+                    "officialDenomination": "Zuberbühler"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CPS-CN",
             "id": 8,
             "name": "Commission de la politique de sécurité CN",
-            "abbreviation1": "CPS-CN",
+            "abbreviation1": "CPS-N",
             "abbreviation2": "CPS",
             "committeeNumber": 8,
             "council": {
@@ -136,14 +206,14 @@
               "sessionId": "5013"
             }
           ],
-          "treatmentCategory": "V"
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "CPS-CE",
             "id": 21,
             "name": "Commission de la politique de sécurité CE",
-            "abbreviation1": "CPS-CE",
+            "abbreviation1": "CPS-E",
             "abbreviation2": "CPS",
             "committeeNumber": 21,
             "council": {
@@ -158,54 +228,60 @@
           "registrations": [
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "CE",
-                    "id": 2,
-                    "name": "Conseil des Etats",
-                    "type": "S"
-                  },
-                  "councillor": {
-                    "code": 2459,
-                    "gender": "m",
-                    "id": 409,
-                    "name": "Hess Hans",
-                    "officialDenomination": "Hess Hans"
-                  },
-                  "faction": {
-                    "abbreviation": "Groupe RL",
-                    "id": 1,
-                    "name": "Groupe libéral-radical"
-                  },
-                  "language": "de"
-                }
+
               ],
               "sessionId": "4911"
             },
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "CE",
-                    "id": 2,
-                    "name": "Conseil des Etats",
-                    "type": "S"
-                  },
-                  "councillor": {
-                    "code": 2629,
-                    "gender": "f",
-                    "id": 1148,
-                    "name": "Savary Géraldine",
-                    "officialDenomination": "Savary"
-                  },
-                  "language": "fr"
-                }
+
               ],
               "sessionId": "5012"
             },
             {
               "correspondents": [
 
+              ]
+            }
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-05-05T09:34:05Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3092,
+                    "gender": "m",
+                    "id": 4172,
+                    "name": "Salzmann Werner",
+                    "officialDenomination": "Salzmann"
+                  },
+                  "language": "de"
+                }
               ]
             }
           ]
@@ -225,8 +301,33 @@
       "states": [
         {
           "date": "/Date(1370988000000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1655935200000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1746136800000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1750197600000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1750629600000+0200)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1758664800000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -260,18 +361,25 @@
   "sequentialNumber": 207,
   "shortId": "13.308",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
   "texts": [
     {
       "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Depuis 1996, les citoyens de sexe masculin qui ne veulent pas faire d’armée peuvent, sous certaines conditions, se rendre utiles à leur pays en effectuant un service civil. Depuis le 1er avril 2009, ils doivent remplir un formulaire et, par conséquent, ils n’ont plus besoin de prouver leur conflit de conscience à l’égard de l’armée. Alors que les jeunes hommes peuvent désormais accéder plus ou moins librement au service civil, il serait équitable que les femmes, du moins les jeunes femmes, puissent aussi accéder au service civil sur une base volontaire.</p><p>&nbsp;</p><p>Par ailleurs, les femmes suisses peuvent déjà accomplir un service militaire sur une base volontaire. Si elles ressentent le besoin d’objecter durant leurs obligations, elles peuvent demander de transférer les jours de service devant encore être effectués en une période de service civil. Alors que les hommes peuvent directement accéder au service civil, iI paraît discriminatoire de ne pas permettre aux femmes un accès direct au service civil.</p><p>&nbsp;</p><p>Le service civil est défini par nos autorités fédérales comme « une contribution civile de la Confédération en vue de promouvoir la cohésion sociale, de résoudre des conflits sans violence, de développer et de maintenir durablement notre patrimoine culturel » (cf. www.zivi.admin.ch). Les femmes pourraient certainement, au même titre que les hommes, faire preuve de compétences pour contribuer ces objectifs louables.</p><p>&nbsp;</p><p>Les femmes pourraient ainsi, au même titre que les hommes, effectuer des périodes de service civil dans des domaines variés : accompagnement de personnes âgées, conservation de biens culturels, entretien de parcs naturels, soutien aux organisations d’utilité publique, etc. Il conviendrait ainsi d’élargir la fonction première du service civil comme service de remplacement à l’armée à un service encourageant la responsabilité citoyenne.</p><p>&nbsp;</p><p>Le service civil permet d’acquérir des savoir-faire et des savoir-être, d’élargir son réseau, d’apprendre une langue, soit autant de compétences pouvant être valorisées au niveau professionnel. Vu qu’il n’y a plus de raison véritablement objective depuis le 1er avril 2009 d’écarter les femmes du service civil, il est temps qu’elles puissent, elles aussi, bénéficier des avantages multiples et variés du service civil.</p><p>&nbsp;</p><p>En conclusion, cette initiative vise à ouvrir le service civil aux femmes. Une opportunité pour les femmes, la cohésion sociale, l’économie et pour l’environnement.</p>"
+    },
+    {
+      "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Se fondant sur l'article 160 alinéa 1 de la Constitution fédérale, le canton de Vaud soumet à l'Assemblée fédérale l'initiative suivante:</p><p>L'Assemblée fédérale est invitée à modifier l'article 59 alinéas 1 et 2 de la Constitution fédérale et plusieurs articles de la loi fédérale du 6 octobre 1995 sur le service civil afin d'ouvrir le service civil aux femmes sur une base volontaire.</p>"
+      "value": "<p>Se fondant sur l'art.&nbsp;160, al.&nbsp;1, de la Constitution fédérale, le canton de Vaud soumet à l'Assemblée fédérale l'initiative suivante&nbsp;:</p><p>L'Assemblée fédérale est invitée à modifier l'article 59 alinéas 1 et 2 de la Constitution fédérale et plusieurs articles de la loi fédérale du 6 octobre 1995 sur le service civil afin d'ouvrir le service civil aux femmes sur une base volontaire.</p>"
     },
     {
       "type": {

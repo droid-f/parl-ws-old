@@ -1,6 +1,6 @@
 {
   "id": 20222041,
-  "updated": "2023-01-05T14:13:50Z",
+  "updated": "2026-05-20T01:57:55Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,46 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "committee": {
+              "abbreviation": "CPE-CS",
+              "id": 17,
+              "name": "Commissione della politica estera CS",
+              "abbreviation1": "CPE-S",
+              "abbreviation2": "CPE",
+              "committeeNumber": 17,
+              "council": {
+                "abbreviation": "CS",
+                "id": 2,
+                "name": "Consiglio degli Stati",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2024-01-16T00:00:00Z",
+            "text": "Non dare seguito",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-03-14T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -34,10 +73,50 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-12T17:51:47Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3067,
+                    "gender": "m",
+                    "id": 4159,
+                    "name": "Chiesa Marco",
+                    "officialDenomination": "Chiesa"
+                  },
+                  "language": "it"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CPE-CN",
             "id": 4,
             "name": "Commissione della politica estera CN",
-            "abbreviation1": "CPE-CN",
+            "abbreviation1": "CPE-N",
             "abbreviation2": "CPE",
             "committeeNumber": 4,
             "council": {
@@ -58,7 +137,7 @@
             "abbreviation": "CPE-CS",
             "id": 17,
             "name": "Commissione della politica estera CS",
-            "abbreviation1": "CPE-CS",
+            "abbreviation1": "CPE-S",
             "abbreviation2": "CPE",
             "committeeNumber": 17,
             "council": {
@@ -80,17 +159,33 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFAE",
+          "id": 3,
+          "name": "Dipartimento degli affari esteri",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1670194800000+0100)/",
-          "id": 9,
+          "id": 202,
           "name": "Depositato"
+        },
+        {
+          "date": "/Date(1707433200000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1710370800000+0100)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
         }
       ],
       "texts": [
@@ -110,10 +205,10 @@
   ],
   "shortId": "22.2041",
   "state": {
-    "id": 9,
-    "name": "Depositato",
+    "id": 208,
+    "name": "Nella Commissione del Consiglio nazionale",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

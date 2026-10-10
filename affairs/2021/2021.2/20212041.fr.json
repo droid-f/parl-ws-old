@@ -1,13 +1,13 @@
 {
   "id": 20212041,
-  "updated": "2021-11-24T14:09:01Z",
+  "updated": "2026-05-20T02:11:45Z",
   "affairType": {
     "abbreviation": "Pét.",
     "id": 10,
     "name": "Pétition"
   },
   "author": {
-    "external": "Session des femmes 2021",
+    "external": "Frauensession 2021",
     "type": "author"
   },
   "deposit": {
@@ -22,7 +22,86 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CPE-CE",
+              "id": 17,
+              "name": "Commission de politique extérieure CE",
+              "abbreviation1": "CPE-E",
+              "abbreviation2": "CPE",
+              "committeeNumber": 17,
+              "council": {
+                "abbreviation": "CE",
+                "id": 2,
+                "name": "Conseil des Etats",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2024-01-16T00:00:00Z",
+            "text": "Ne pas donner suite (la commission constate qu’une autre autorité compétente s’est déjà saisie de l’objet de la pétition)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-03-14T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CPE-CN",
+              "id": 4,
+              "name": "Commission de politique extérieure CN",
+              "abbreviation1": "CPE-N",
+              "abbreviation2": "CPE",
+              "committeeNumber": 4,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Conseil national",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2025-01-14T00:00:00Z",
+            "text": "Ne pas donner suite",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2025-03-21T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -37,7 +116,7 @@
             "abbreviation": "CPE-CN",
             "id": 4,
             "name": "Commission de politique extérieure CN",
-            "abbreviation1": "CPE-CN",
+            "abbreviation1": "CPE-N",
             "abbreviation2": "CPE",
             "committeeNumber": 4,
             "council": {
@@ -51,14 +130,15 @@
           "date": "2021-10-30T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CPE-CE",
             "id": 17,
             "name": "Commission de politique extérieure CE",
-            "abbreviation1": "CPE-CE",
+            "abbreviation1": "CPE-E",
             "abbreviation2": "CPE",
             "committeeNumber": 17,
             "council": {
@@ -72,7 +152,8 @@
           "date": "2021-10-30T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -80,17 +161,38 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFAE",
+          "id": 3,
+          "name": "Département des affaires étrangères",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1635544800000+0200)/",
-          "id": 9,
+          "id": 202,
           "name": "Déposé"
+        },
+        {
+          "date": "/Date(1707433200000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1710370800000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1742511600000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -104,16 +206,16 @@
   ],
   "roles": [
     {
-      "external": "Session des femmes 2021",
+      "external": "Frauensession 2021",
       "type": "author"
     }
   ],
   "shortId": "21.2041",
   "state": {
-    "id": 9,
-    "name": "Déposé",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -121,8 +223,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "La Suisse rejoint le Partenariat des gouvernements pour une économie du bien-être (WEGo)"
+      "value": "La Suisse rejoint le Partenariat des gouvernements pour une économie du bien-être (Wego)"
     }
   ],
-  "title": "La Suisse rejoint le Partenariat des gouvernements pour une économie du bien-être (WEGo)"
+  "title": "La Suisse rejoint le Partenariat des gouvernements pour une économie du bien-être (Wego)"
 }

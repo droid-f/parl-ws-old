@@ -1,6 +1,7 @@
 {
   "id": 20230036,
-  "updated": "2023-04-21T08:59:56Z",
+  "updated": "2026-06-11T08:05:45Z",
+  "additionalIndexing": "10;08;1231;48;52",
   "affairType": {
     "abbreviation": "OCF",
     "id": 1,
@@ -28,7 +29,50 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CTT-CN",
+            "id": 9,
+            "name": "Commission des transports et des télécommunications CN",
+            "abbreviation1": "CTT-N",
+            "abbreviation2": "CTT",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-04-05T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IIIb/IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CTT-CE",
+            "id": 22,
+            "name": "Commission des transports et des télécommunications CE",
+            "abbreviation1": "CTT-E",
+            "abbreviation2": "CTT",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-04-05T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IIIb/IV"
+        }
       ],
       "references": [
         {
@@ -45,7 +89,7 @@
             "url": "http://www.admin.ch/opc/fr/federal-gazette/2023/999.pdf",
             "year": "2023"
           },
-          "title": "Message du 5 avril 2023 concernant l’approbation et la mise en œuvre de la convention de Strasbourg de 2012 sur la limitation de la responsabilité en navigation intérieure (modification de la loi fédérale sur la naviga-tion maritime sous pavillon suisse) ainsi que l’approbation de la modification de la convention relative à la collecte, au dépôt et à la réception des déchets survenant en navigation rhénane et intérieure",
+          "title": "Message du 5 avril 2023 concernant l’approbation et la mise en œuvre de la convention de Strasbourg de 2012 sur la limitation de la responsabilité en navigation intérieure (modification de la loi fédérale sur la navigation maritime sous pavillon suisse) ainsi que l’approbation de la modification de la convention relative à la collecte, au dépôt et à la réception des déchets survenant en navigation rhénane et intérieure",
           "type": {
             "id": 1,
             "name": "Objet soumis à délibération / Projet"
@@ -123,8 +167,38 @@
       "states": [
         {
           "date": "/Date(1680645600000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1686088800000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1687989600000+0200)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1699916400000+0100)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1702854000000+0100)/",
+          "id": 219,
+          "name": "Planifié pour le vote final"
+        },
+        {
+          "date": "/Date(1703199600000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -133,14 +207,73 @@
             "id": 2,
             "name": "Titre du projet"
           },
-          "value": "Message du 5 avril 2023 concernant l’approbation et la mise en œuvre de la convention de Strasbourg de 2012 sur la limitation de la responsabilité en navigation intérieure (modification de la loi fédérale sur la naviga-tion maritime sous pavillon suisse) ainsi que l’approbation de la modification de la convention relative à la collecte, au dépôt et à la réception des déchets survenant en navigation rhénane et intérieure"
+          "value": "Message du 5 avril 2023 concernant l’approbation et la mise en œuvre de la convention de Strasbourg de 2012 sur la limitation de la responsabilité en navigation intérieure (modification de la loi fédérale sur la navigation maritime sous pavillon suisse) ainsi que l’approbation de la modification de la convention relative à la collecte, au dépôt et à la réception des déchets survenant en navigation rhénane et intérieure"
         }
       ]
     },
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-09-28T00:00:00Z",
+            "text": "Décision conforme au projet",
+            "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-12-18T00:00:00Z",
+            "text": "Adhésion",
+            "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-12-22T00:00:00Z",
+            "text": "Adoption (vote final)",
+            "type": 36
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-12-22T00:00:00Z",
+            "text": "Adoption (vote final)",
+            "type": 36
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -150,7 +283,146 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-07-06T10:27:19Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-13T18:38:31Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3211,
+                    "gender": "f",
+                    "id": 4315,
+                    "name": "Brenzikofer Florence",
+                    "officialDenomination": "Brenzikofer"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe G",
+                    "id": 6,
+                    "name": "Groupe des VERT-E-S"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CTT-CN",
+            "id": 9,
+            "name": "Commission des transports et des télécommunications CN",
+            "abbreviation1": "CTT-N",
+            "abbreviation2": "CTT",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-04-05T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CTT-CE",
+            "id": 22,
+            "name": "Commission des transports et des télécommunications CE",
+            "abbreviation1": "CTT-E",
+            "abbreviation2": "CTT",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-04-05T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
+            }
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-13T18:39:01Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ]
+            }
+          ]
+        }
       ],
       "references": [
         {
@@ -172,6 +444,45 @@
             "id": 1,
             "name": "Objet soumis à délibération / Projet"
           }
+        },
+        {
+          "date": "/Date(1704754800000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "34",
+            "source": "FF 2024 34",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2024/34.pdf",
+            "year": "2024"
+          },
+          "referendumDeadline": "2024-04-18T00:00:00Z",
+          "type": {
+            "id": 3,
+            "name": "Texte pour le vote final"
+          }
+        },
+        {
+          "date": "/Date(1780005600000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "256",
+            "source": "RO 2026 256",
+            "type": {
+              "id": 2,
+              "name": "Recueil officiel",
+              "shortName": "RO"
+            },
+            "url": "http://www.admin.ch/opc/fr/official-compilation/2026/256.pdf",
+            "year": "2026"
+          },
+          "type": {
+            "id": 5,
+            "name": "Recueil officiel"
+          }
         }
       ],
       "relatedDepartments": [
@@ -185,8 +496,33 @@
       "states": [
         {
           "date": "/Date(1680645600000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1701644400000+0100)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1702854000000+0100)/",
+          "id": 219,
+          "name": "Planifié pour le vote final"
+        },
+        {
+          "date": "/Date(1703199600000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -202,7 +538,66 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-09-28T00:00:00Z",
+            "text": "Décision conforme au projet",
+            "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-12-18T00:00:00Z",
+            "text": "Adhésion",
+            "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-12-22T00:00:00Z",
+            "text": "Adoption (vote final)",
+            "type": 36
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-12-22T00:00:00Z",
+            "text": "Adoption (vote final)",
+            "type": 36
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -212,7 +607,146 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-13T18:41:35Z",
+          "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-07-06T10:30:05Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-13T18:41:16Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3211,
+                    "gender": "f",
+                    "id": 4315,
+                    "name": "Brenzikofer Florence",
+                    "officialDenomination": "Brenzikofer"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe G",
+                    "id": 6,
+                    "name": "Groupe des VERT-E-S"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CTT-CN",
+            "id": 9,
+            "name": "Commission des transports et des télécommunications CN",
+            "abbreviation1": "CTT-N",
+            "abbreviation2": "CTT",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-04-05T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CTT-CE",
+            "id": 22,
+            "name": "Commission des transports et des télécommunications CE",
+            "abbreviation1": "CTT-E",
+            "abbreviation2": "CTT",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-04-05T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
+            }
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
         {
@@ -234,6 +768,26 @@
             "id": 1,
             "name": "Objet soumis à délibération / Projet"
           }
+        },
+        {
+          "date": "/Date(1704754800000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "35",
+            "source": "FF 2024 35",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2024/35.pdf",
+            "year": "2024"
+          },
+          "referendumDeadline": "2024-04-18T00:00:00Z",
+          "type": {
+            "id": 3,
+            "name": "Texte pour le vote final"
+          }
         }
       ],
       "relatedDepartments": [
@@ -247,8 +801,33 @@
       "states": [
         {
           "date": "/Date(1680645600000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1701644400000+0100)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1702854000000+0100)/",
+          "id": 219,
+          "name": "Planifié pour le vote final"
+        },
+        {
+          "date": "/Date(1703199600000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -263,6 +842,15 @@
     }
   ],
   "language": "fr",
+  "priorityCouncils": [
+    {
+      "abbreviation": "CE",
+      "id": 2,
+      "name": "Conseil des Etats",
+      "type": "S",
+      "priority": 1
+    }
+  ],
   "relatedAffairs": [
 
   ],
@@ -271,10 +859,10 @@
   ],
   "shortId": "23.036",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -282,8 +870,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Approbation de la convention de Strasbourg de 2012 sur la limitation de la responsabilité en navigation intérieure (modification de la loi fédérale sur la navigation maritime sous pavillon suisse) et de la modification de la convention relative aux déchets survenant en navigation rhénane et intérieure"
+      "value": "Approbation de la convention de Strasbourg de 2012 sur la limitation de la responsabilité en navigation intérieure et de la modification de la loi fédérale sur la navigation maritime sous pavillon suisse et de la modification de la convention relative aux déchets survenant en navigation rhénane et intérieure"
     }
   ],
-  "title": "Approbation de la convention de Strasbourg de 2012 sur la limitation de la responsabilité en navigation intérieure (modification de la loi fédérale sur la navigation maritime sous pavillon suisse) et de la modification de la convention relative aux déchets survenant en navigation rhénane et intérieure"
+  "title": "Approbation de la convention de Strasbourg de 2012 sur la limitation de la responsabilité en navigation intérieure et de la modification de la loi fédérale sur la navigation maritime sous pavillon suisse et de la modification de la convention relative aux déchets survenant en navigation rhénane et intérieure"
 }

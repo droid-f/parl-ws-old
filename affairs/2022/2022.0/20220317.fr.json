@@ -1,6 +1,6 @@
 {
   "id": 20220317,
-  "updated": "2022-10-20T11:15:44Z",
+  "updated": "2026-05-20T01:56:01Z",
   "additionalIndexing": "2841;28;15;55",
   "affairType": {
     "abbreviation": "Iv. ct.",
@@ -27,7 +27,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-09-21T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-03-05T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -39,10 +68,55 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-08-16T11:40:21Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2647,
+                    "gender": "m",
+                    "id": 1267,
+                    "name": "Stöckli Hans",
+                    "officialDenomination": "Stöckli"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe S",
+                    "id": 2,
+                    "name": "Groupe socialiste"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CSSS-CN",
             "id": 6,
             "name": "Commission de la sécurité sociale et de la santé publique CN",
-            "abbreviation1": "CSSS-CN",
+            "abbreviation1": "CSSS-N",
             "abbreviation2": "CSSS",
             "committeeNumber": 6,
             "council": {
@@ -56,14 +130,15 @@
           "date": "2022-09-15T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CSSS-CE",
             "id": 19,
             "name": "Commission de la sécurité sociale et de la santé publique CE",
-            "abbreviation1": "CSSS-CE",
+            "abbreviation1": "CSSS-E",
             "abbreviation2": "CSSS",
             "committeeNumber": 19,
             "council": {
@@ -76,8 +151,14 @@
           },
           "date": "2022-09-15T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
-          ]
+              ],
+              "sessionId": "5122"
+            }
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -88,14 +169,39 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1663192800000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1688594400000+0200)/",
+          "id": 225,
+          "name": "Examen préalable - en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1692136800000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1705618800000+0100)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1709593200000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -128,10 +234,10 @@
   ],
   "shortId": "22.317",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -139,7 +245,7 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Le cannabis est la substance illégale la plus consommée en Suisse. Plusieurs sondages auprès de la population révèlent que plus d'un tiers des personnes âgées de plus de 15 ans ont déjà consommé du cannabis. 3,1 % de la population rapporte un usage actuel (\" au cours des 30 derniers jours \"). Ceci correspond par extrapolation à environ 222'000 personnes qui consomment actuellement du cannabis (Monitorage suisse des addictions, 2020). </p><p>Risques pour la santé liés à la consommation de cannabis</p><p>Les risques pour la santé liés à la consommation de cannabis dépendent de nombreux facteurs (fréquence et durée d'usage, dosage, contexte de consommation, état de santé physique et psychique du consommateur ou de la consommatrice). Les conséquences peuvent être d'ordre physique, comme un risque accru de cancer à cause de la fumée ou des pertes de mémoire, ou d'ordre psychique, comme des psychoses ou des dépressions, notamment dans le cas de consommation intensive à l'adolescence. La consommation de cannabis représente donc le plus de risques pour les jeunes, dont le développement physique et psychique n'est pas encore achevé. </p><p>Depuis 2019, les risques pour la santé ont augmenté de façon spectaculaire avec l'arrivée des cannabinoïdes synthétiques. Les vendeurs et vendeuses pulvérisent ces substances sous une forme très concentrée sur le cannabis légal (CBD), qui est ensuite vendu comme du cannabis ordinaire (THC). Les consommateurs et les consommatrices n'ont aucun moyen de distinguer le cannabis naturel du cannabis synthétique. Seule une analyse en laboratoire peut le révéler. C'est pourquoi certaines villes ont mis en place des offres d'analyse des substances. En effet, les risques pour la santé sont élevés : ces substances peuvent provoquer des pertes de connaissance, des tachycardies, une hypertension artérielle ou des difficultés respiratoires, voire même une mort par overdose [cf. Infodrog (2020) : Cannabinoïdes synthétiques. Informations pour les professionnels. Feuille d'information (en allemand)].</p><p>Position du Conseil d'Etat</p><p>Selon le Conseil d'Etat, l'actuelle interdiction générale du cannabis doit être levée et remplacée par une nouvelle réglementation élaborée avec soin. Les problèmes de santé liés à la consommation du cannabis ont considérablement augmenté depuis l'arrivée massive des cannabinoïdes synthétiques sur le marché. Une nouvelle réglementation permettrait de contrôler les produits à base de cannabis et ainsi de réduire les risques pour la santé. Le processus politique a déjà été amorcé au niveau fédéral : la Commission de la sécurité sociale et de la santé publique du Conseil national a été chargée d'élaborer un projet de loi dans ce sens. </p><p>Il faudra prendre en particulier des mesures strictes pour la protection de la jeunesse et renforcer la prévention. Par ailleurs, les résultats des essais avec remise de cannabis à des fins non médicales devront être pris en compte de manière adéquate. Ainsi, une légalisation du cannabis devra s'accompagner d'une protection effective et complète de la santé, notamment de celle des enfants et des jeunes. </p><p>Une initiative du canton de Soleure peut tout au plus accélérer l'élaboration des dispositions légales. Sur le plan du contenu, elle correspond à l'initiative parlementaire \" Réguler le marché du cannabis pour mieux protéger la jeunesse et les consommateurs \", déposée par le conseiller national Heinz Siegenhalter.</p>"
+      "value": "<p>Le cannabis est la substance illégale la plus consommée en Suisse. Plusieurs sondages auprès de la population révèlent que plus d'un tiers des personnes âgées de plus de 15 ans ont déjà consommé du cannabis. 3,1 % de la population rapporte un usage actuel (\" au cours des 30 derniers jours \"). Ceci correspond par extrapolation à environ 222'000 personnes qui consomment actuellement du cannabis (Monitorage suisse des addictions, 2020). </p><p>Risques pour la santé liés à la consommation de cannabis</p><p>Les risques pour la santé liés à la consommation de cannabis dépendent de nombreux facteurs (fréquence et durée d'usage, dosage, contexte de consommation, état de santé physique et psychique du consommateur ou de la consommatrice). Les conséquences peuvent être d'ordre physique, comme un risque accru de cancer à cause de la fumée ou des pertes de mémoire, ou d'ordre psychique, comme des psychoses ou des dépressions, notamment dans le cas de consommation intensive à l'adolescence. La consommation de cannabis représente donc le plus de risques pour les jeunes, dont le développement physique et psychique n'est pas encore achevé. </p><p>Depuis 2019, les risques pour la santé ont augmenté de façon spectaculaire avec l'arrivée des cannabinoïdes synthétiques. Les vendeurs et vendeuses pulvérisent ces substances sous une forme très concentrée sur le cannabis légal (CBD), qui est ensuite vendu comme du cannabis ordinaire (THC). Les consommateurs et les consommatrices n'ont aucun moyen de distinguer le cannabis naturel du cannabis synthétique. Seule une analyse en laboratoire peut le révéler. C'est pourquoi certaines villes ont mis en place des offres d'analyse des substances. En effet, les risques pour la santé sont élevés : ces substances peuvent provoquer des pertes de connaissance, des tachycardies, une hypertension artérielle ou des difficultés respiratoires, voire même une mort par overdose [cf. Infodrog (2020) : Cannabinoïdes synthétiques. Informations pour les professionnels. Feuille d'information (en allemand)].</p><p>Position du Conseil d'État</p><p>Selon le Conseil d'État, l'actuelle interdiction générale du cannabis doit être levée et remplacée par une nouvelle réglementation élaborée avec soin. Les problèmes de santé liés à la consommation du cannabis ont considérablement augmenté depuis l'arrivée massive des cannabinoïdes synthétiques sur le marché. Une nouvelle réglementation permettrait de contrôler les produits à base de cannabis et ainsi de réduire les risques pour la santé. Le processus politique a déjà été amorcé au niveau fédéral : la Commission de la sécurité sociale et de la santé publique du Conseil national a été chargée d'élaborer un projet de loi dans ce sens. </p><p>Il faudra prendre en particulier des mesures strictes pour la protection de la jeunesse et renforcer la prévention. Par ailleurs, les résultats des essais avec remise de cannabis à des fins non médicales devront être pris en compte de manière adéquate. Ainsi, une légalisation du cannabis devra s'accompagner d'une protection effective et complète de la santé, notamment de celle des enfants et des jeunes. </p><p>Une initiative du canton de Soleure peut tout au plus accélérer l'élaboration des dispositions légales. Sur le plan du contenu, elle correspond à l'initiative parlementaire \" Réguler le marché du cannabis pour mieux protéger la jeunesse et les consommateurs \", déposée par le conseiller national Heinz Siegenhalter.</p>"
     },
     {
       "type": {

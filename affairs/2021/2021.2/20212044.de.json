@@ -1,6 +1,6 @@
 {
   "id": 20212044,
-  "updated": "2022-06-29T11:39:20Z",
+  "updated": "2026-05-20T02:12:56Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -28,6 +28,21 @@
               "name": "Normal"
             },
             "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-06-01T00:00:00Z",
+            "text": "Behandelt im Rahmen eines anderen Geschäfts",
+            "type": 80
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
               "abbreviation": "SR",
               "id": 2,
               "name": "Ständerat",
@@ -36,6 +51,21 @@
             "date": "2022-06-07T00:00:00Z",
             "text": "Von der Petition wird im Rahmen der Behandlung des Geschäfts 18.043, Kenntnis genommen (vgl. Art. 126 Abs. 2 ParlG).",
             "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-03-07T00:00:00Z",
+            "text": "Behandelt im Rahmen eines anderen Geschäfts",
+            "type": 80
           }
         ]
       },
@@ -51,7 +81,7 @@
             "abbreviation": "RK-NR",
             "id": 12,
             "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
+            "abbreviation1": "RK-N",
             "abbreviation2": "RK",
             "committeeNumber": 12,
             "council": {
@@ -64,7 +94,11 @@
           },
           "date": "2021-10-30T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
           ]
         },
         {
@@ -72,7 +106,7 @@
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -112,8 +146,13 @@
         },
         {
           "date": "/Date(1654552800000+0200)/",
-          "id": 3,
-          "name": "Behandelt vom Ständerat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1678143600000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -123,7 +162,11 @@
   ],
   "language": "de",
   "relatedAffairs": [
-
+    {
+      "id": 20180043,
+      "priorityCode": "S",
+      "shortId": "18.043"
+    }
   ],
   "roles": [
     {
@@ -133,8 +176,8 @@
   ],
   "shortId": "21.2044",
   "state": {
-    "id": 3,
-    "name": "Behandelt vom Ständerat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },

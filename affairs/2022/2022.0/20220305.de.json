@@ -1,6 +1,6 @@
 {
   "id": 20220305,
-  "updated": "2022-05-16T08:05:59Z",
+  "updated": "2026-05-20T02:01:23Z",
   "additionalIndexing": "2846;1221;1211",
   "affairType": {
     "abbreviation": "Kt. Iv.",
@@ -27,7 +27,61 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "UREK-SR",
+              "id": 20,
+              "name": "Kommission für Umwelt, Raumplanung und Energie SR",
+              "abbreviation1": "UREK-S",
+              "abbreviation2": "UREK",
+              "committeeNumber": 20,
+              "council": {
+                "abbreviation": "SR",
+                "id": 2,
+                "name": "Ständerat",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-05-11T00:00:00Z",
+            "text": "Keine Folge geben",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-12-11T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-12-20T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -42,7 +96,7 @@
             "abbreviation": "UREK-SR",
             "id": 20,
             "name": "Kommission für Umwelt, Raumplanung und Energie SR",
-            "abbreviation1": "UREK-SR",
+            "abbreviation1": "UREK-S",
             "abbreviation2": "UREK",
             "committeeNumber": 20,
             "council": {
@@ -55,15 +109,21 @@
           },
           "date": "2022-03-23T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
-          ]
+              ],
+              "sessionId": "5121"
+            }
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "UREK-NR",
             "id": 7,
             "name": "Kommission für Umwelt, Raumplanung und Energie NR",
-            "abbreviation1": "UREK-NR",
+            "abbreviation1": "UREK-N",
             "abbreviation2": "UREK",
             "committeeNumber": 7,
             "council": {
@@ -77,7 +137,8 @@
           "date": "2022-03-23T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -88,14 +149,45 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
+          "leading": false
+        },
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
           "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1647990000000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1700607600000+0100)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1700694000000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1702249200000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1731970800000+0100)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1734649200000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -128,10 +220,10 @@
   ],
   "shortId": "22.305",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -153,8 +245,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Für eine Verjährungsfrist auch ausserhalb Bauzone"
+      "value": "Für eine Verjährungsfrist auch ausserhalb der Bauzone"
     }
   ],
-  "title": "Für eine Verjährungsfrist auch ausserhalb Bauzone"
+  "title": "Für eine Verjährungsfrist auch ausserhalb der Bauzone"
 }

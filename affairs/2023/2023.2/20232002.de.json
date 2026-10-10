@@ -1,6 +1,6 @@
 {
   "id": 20232002,
-  "updated": "2023-02-01T10:28:07Z",
+  "updated": "2026-05-20T02:07:15Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-12-21T00:00:00Z",
+            "text": "Von der Petition wird im Rahmen der Behandlung des Geschäfts 20.443, Kenntnis genommen (vgl. Art. 126 Abs. 2 ParlG).",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-03-15T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -37,7 +66,7 @@
             "abbreviation": "UREK-NR",
             "id": 7,
             "name": "Kommission für Umwelt, Raumplanung und Energie NR",
-            "abbreviation1": "UREK-NR",
+            "abbreviation1": "UREK-N",
             "abbreviation2": "UREK",
             "committeeNumber": 7,
             "council": {
@@ -51,14 +80,15 @@
           "date": "2023-01-11T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "UREK-SR",
             "id": 20,
             "name": "Kommission für Umwelt, Raumplanung und Energie SR",
-            "abbreviation1": "UREK-SR",
+            "abbreviation1": "UREK-S",
             "abbreviation2": "UREK",
             "committeeNumber": 20,
             "council": {
@@ -71,8 +101,13 @@
           },
           "date": "2023-01-11T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
-          ]
+              ]
+            }
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -83,14 +118,25 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
+          "leading": false
+        },
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
           "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1673391600000+0100)/",
-          "id": 9,
+          "id": 202,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1710370800000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -100,7 +146,11 @@
   ],
   "language": "de",
   "relatedAffairs": [
-
+    {
+      "id": 20200433,
+      "priorityCode": "N",
+      "shortId": "20.433"
+    }
   ],
   "roles": [
     {
@@ -110,10 +160,10 @@
   ],
   "shortId": "23.2002",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -121,8 +171,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Ausbau des Recyclings von Verpackungen im Onlinehandel"
+      "value": "Ausbau des Recyclings von Verpackungen im Online-Handel "
     }
   ],
-  "title": "Ausbau des Recyclings von Verpackungen im Onlinehandel"
+  "title": "Ausbau des Recyclings von Verpackungen im Online-Handel "
 }

@@ -1,6 +1,6 @@
 {
   "id": 20220448,
-  "updated": "2023-01-13T15:28:58Z",
+  "updated": "2026-09-02T10:48:09Z",
   "additionalIndexing": "1211;28",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -49,7 +49,7 @@
               "abbreviation": "CAJ-CE",
               "id": 25,
               "name": "Commission des affaires juridiques CE",
-              "abbreviation1": "CAJ-CE",
+              "abbreviation1": "CAJ-E",
               "abbreviation2": "CAJ",
               "committeeNumber": 25,
               "council": {
@@ -62,8 +62,48 @@
             },
             "council": null,
             "date": "2022-11-03T00:00:00Z",
-            "text": "Donné suite",
+            "text": "Donner suite (conseil prioritaire)",
             "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CAJ-CN",
+              "id": 12,
+              "name": "Commission des affaires juridiques CN",
+              "abbreviation1": "CAJ-N",
+              "abbreviation2": "CAJ",
+              "committeeNumber": 12,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Conseil national",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-01-12T00:00:00Z",
+            "text": "Adhésion",
+            "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-03-05T00:00:00Z",
+            "text": "Le délai imparti est prorogé jusqu'à la session de printemps 2027",
+            "type": 0
           }
         ]
       },
@@ -71,15 +111,59 @@
       },
       "index": 0,
       "links": [
-
+        {
+          "date": "/Date(1779919200000+0200)/",
+          "title": "Consultation",
+          "url": "https://fedlex.data.admin.ch/eli/dl/proj/2026/51/cons_1"
+        }
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-10-29T18:11:49Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2694,
+                    "gender": "m",
+                    "id": 3891,
+                    "name": "Jositsch Daniel",
+                    "officialDenomination": "Jositsch"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
         {
           "committee": {
             "abbreviation": "CAJ-CE",
             "id": 25,
             "name": "Commission des affaires juridiques CE",
-            "abbreviation1": "CAJ-CE",
+            "abbreviation1": "CAJ-E",
             "abbreviation2": "CAJ",
             "committeeNumber": 25,
             "council": {
@@ -94,27 +178,7 @@
           "registrations": [
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "CE",
-                    "id": 2,
-                    "name": "Conseil des Etats",
-                    "type": "S"
-                  },
-                  "councillor": {
-                    "code": 2775,
-                    "gender": "m",
-                    "id": 4075,
-                    "name": "Caroni Andrea",
-                    "officialDenomination": "Caroni"
-                  },
-                  "faction": {
-                    "abbreviation": "Groupe RL",
-                    "id": 1,
-                    "name": "Groupe libéral-radical"
-                  },
-                  "language": "de"
-                }
+
               ]
             }
           ]
@@ -124,7 +188,7 @@
             "abbreviation": "CAJ-CN",
             "id": 12,
             "name": "Commission des affaires juridiques CN",
-            "abbreviation1": "CAJ-CN",
+            "abbreviation1": "CAJ-N",
             "abbreviation2": "CAJ",
             "committeeNumber": 12,
             "council": {
@@ -143,6 +207,25 @@
               ]
             }
           ]
+        },
+        {
+          "committee": {
+            "id": 10007,
+            "name": "22.448 é Iv. pa. Caroni. Un pacs pour la Suisse",
+            "abbreviation1": "CAJ-E 22.448",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-12-04T00:00:00Z",
+          "registrations": [
+
+          ]
         }
       ],
       "references": [
@@ -150,9 +233,9 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlement",
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
           "leading": true
         }
       ],
@@ -164,12 +247,164 @@
         },
         {
           "date": "/Date(1673478000000+0100)/",
-          "id": 1,
-          "name": "Donné suite"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1673564400000+0100)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1673650800000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1741129200000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
         }
       ],
       "texts": [
 
+      ]
+    },
+    {
+      "consultation": {
+        "resolutions": [
+
+        ]
+      },
+      "federalCouncilProposal": {
+      },
+      "index": 1,
+      "links": [
+
+      ],
+      "preConsultations": [
+        {
+          "committee": {
+            "id": 10007,
+            "name": "22.448 é Iv. pa. Caroni. Un pacs pour la Suisse",
+            "abbreviation1": "CAJ-E 22.448",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-12-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAJ-CN",
+            "id": 12,
+            "name": "Commission des affaires juridiques CN",
+            "abbreviation1": "CAJ-N",
+            "abbreviation2": "CAJ",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-06-16T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAJ-CE",
+            "id": 25,
+            "name": "Commission des affaires juridiques CE",
+            "abbreviation1": "CAJ-E",
+            "abbreviation2": "CAJ",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-06-16T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
+      ],
+      "references": [
+        {
+          "date": "/Date(1655330400000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "null",
+            "source": "FF null null",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/null/null.pdf",
+            "year": "null"
+          },
+          "title": "Loi...",
+          "type": {
+            "id": 1,
+            "name": "Objet soumis à délibération / Projet"
+          }
+        }
+      ],
+      "relatedDepartments": [
+        {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        }
+      ],
+      "states": [
+        {
+          "date": "/Date(1673478000000+0100)/",
+          "id": 201,
+          "name": "Annoncé"
+        },
+        {
+          "date": "/Date(1696543200000+0200)/",
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1699311600000+0100)/",
+          "id": 225,
+          "name": "Examen préalable - en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1699398000000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        }
+      ],
+      "texts": [
+        {
+          "type": {
+            "id": 2,
+            "name": "Titre du projet"
+          },
+          "value": "Loi..."
+        }
       ]
     }
   ],
@@ -265,8 +500,8 @@
   ],
   "shortId": "22.448",
   "state": {
-    "id": 1,
-    "name": "Donné suite",
+    "id": 208,
+    "name": "En commission du Conseil national",
     "doneKey": "0",
     "newKey": 0
   },
@@ -276,14 +511,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Le droit suisse connaît deux formes de relations pour les couple : tout en haut, le mariage (et jusqu'à présent aussi le partenariat enregistré) et, tout en bas, le concubinage (pratiquement non réglementé). Ces deux formes ont leur importance et méritent d'être préservées.</p><p>S'inspirant d'un modèle qui a fait ses preuves dans certains cantons (NE et GE) et à l'étranger (en particulier en France et au Bénélux), la présente initiative vise à proposer aux couples suisses une troisième option à mi-chemin entre les deux premières. Comme le mariage et le concubinage, ce PACS suisse devra être ouvert à tous les types de couples, indépendamment du sexe.</p><p>Le Conseil fédéral a publié le 22 mars 2022 le rapport \"Un PACS pour la Suisse?\" en exécution des postulats 15.3431 et 15.4082. Trois points y sont mis en évidence :</p><p>1. Personnes susceptibles de recourir au PACS</p><p>Il peut s'agir non seulement de jeunes hétérosexuels et homosexuels qui veulent attendre avant de se marier, mais aussi de personnes plus âgées qui ne sont pas intéressées par le mariage (ou par un remariage). Le PACS ne changerait donc rien à la popularité du mariage ni à la réalité de la plupart des autres couples.</p><p>2. Avantages du PACS</p><p>Le PACS offrirait aux couples un moyen facile de se promettre assistance et soutien sur les plans personnel et économique pendant la durée de la vie commune. Ils pourraient ainsi notamment faire valoir leur union auprès de tiers (autorités et particuliers), ce qui clarifierait de nombreuses situations (visite à l'hôpital, démarches administratives, conclusion d'un contrat, etc.). Un tel PACS, qui serait consigné dans un registre, permettrait aux pouvoirs législatifs des différents niveaux de l'Etat, de même qu'aux autorités et aux particuliers, de prévoir des conséquences juridiques pour ce statut en fonction des besoins. En effet, la notion de concubinage est aujourd'hui vague et peu pratique.</p><p>3. Définition de l'institution </p><p>Pour chaque aspect de la vie de couple, de sa naissance à sa dissolution, le législateur fédéral pourra et devra choisir entre les conséquences juridiques du concubinage et celles du mariage (voir le tableau en annexe du rapport du Conseil fédéral).</p><p>Ces conclusions guideront l'élaboration des bases juridiques nécessaires. On gardera à l'esprit que le PACS doit être conçu comme un concubinage amélioré plutôt que comme un mariage allégé. Les conséquences juridiques pourront donc être fixées sur la base des remarques formulées dans le tableau du rapport du Conseil fédéral. Celles en suspens devront aller davantage dans le sens du concubinage et être limitées en principe à la durée de la vie commune. Il est important que le PACS se distingue clairement du mariage. Des règles comparables à celles de ce dernier pourront toutefois être prévues pour ce qui concerne la représentation envers les tiers et les enfants communs.</p>"
+      "value": "<p>Le droit suisse connaît deux formes de relations pour les couple : tout en haut, le mariage (et jusqu'à présent aussi le partenariat enregistré) et, tout en bas, le concubinage (pratiquement non réglementé). Ces deux formes ont leur importance et méritent d'être préservées.</p><p>S'inspirant d'un modèle qui a fait ses preuves dans certains cantons (NE et GE) et à l'étranger (en particulier en France et au Bénélux), la présente initiative vise à proposer aux couples suisses une troisième option à mi-chemin entre les deux premières. Comme le mariage et le concubinage, ce PACS suisse devra être ouvert à tous les types de couples, indépendamment du sexe.</p><p>Le Conseil fédéral a publié le 22 mars 2022 le rapport \"Un PACS pour la Suisse ?\" en exécution des postulats 15.3431 et 15.4082. Trois points y sont mis en évidence :</p><p>1. Personnes susceptibles de recourir au PACS</p><p>Il peut s'agir non seulement de jeunes hétérosexuels et homosexuels qui veulent attendre avant de se marier, mais aussi de personnes plus âgées qui ne sont pas intéressées par le mariage (ou par un remariage). Le PACS ne changerait donc rien à la popularité du mariage ni à la réalité de la plupart des autres couples.</p><p>2. Avantages du PACS</p><p>Le PACS offrirait aux couples un moyen facile de se promettre assistance et soutien sur les plans personnel et économique pendant la durée de la vie commune. Ils pourraient ainsi notamment faire valoir leur union auprès de tiers (autorités et particuliers), ce qui clarifierait de nombreuses situations (visite à l'hôpital, démarches administratives, conclusion d'un contrat, etc.). Un tel PACS, qui serait consigné dans un registre, permettrait aux pouvoirs législatifs des différents niveaux de l'État, de même qu'aux autorités et aux particuliers, de prévoir des conséquences juridiques pour ce statut en fonction des besoins. En effet, la notion de concubinage est aujourd'hui vague et peu pratique.</p><p>3. Définition de l'institution </p><p>Pour chaque aspect de la vie de couple, de sa naissance à sa dissolution, le législateur fédéral pourra et devra choisir entre les conséquences juridiques du concubinage et celles du mariage (voir le tableau en annexe du rapport du Conseil fédéral).</p><p>Ces conclusions guideront l'élaboration des bases juridiques nécessaires. On gardera à l'esprit que le PACS doit être conçu comme un concubinage amélioré plutôt que comme un mariage allégé. Les conséquences juridiques pourront donc être fixées sur la base des remarques formulées dans le tableau du rapport du Conseil fédéral. Celles en suspens devront aller davantage dans le sens du concubinage et être limitées en principe à la durée de la vie commune. Il est important que le PACS se distingue clairement du mariage. Des règles comparables à celles de ce dernier pourront toutefois être prévues pour ce qui concerne la représentation envers les tiers et les enfants communs.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Il convient de créer et d'inscrire dans la loi un pacte civil de solidarité (PACS). On se fondera sur le rapport du Conseil fédéral du 30 mars 2022 \" Un PACS pour la suisse ? \" en gardant à l'esprit que le PACS doit être conçu comme un concubinage amélioré.</p>"
+      "value": "<p>Il convient de créer et d'inscrire dans la loi un pacte civil de solidarité (PACS). On se fondera sur le rapport du Conseil fédéral du 30 mars 2022 \" Un PACS pour la suisse ? \" en gardant à l'esprit que le PACS doit être conçu comme un concubinage amélioré.</p>"
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20202007,
-  "updated": "2020-05-11T13:23:53Z",
+  "updated": "2026-09-23T11:58:30Z",
   "affairType": {
     "abbreviation": "Pét.",
     "id": 10,
@@ -22,7 +22,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2026-09-22T00:00:00Z",
+            "text": "Le conseil prend acte du fait que la commission a également traité la pétition 20.2007 dans le cadre de l’examen de l’objet 25.069 (cf. art. 126, al. 2, LParl).",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -37,7 +51,7 @@
             "abbreviation": "CSSS-CN",
             "id": 6,
             "name": "Commission de la sécurité sociale et de la santé publique CN",
-            "abbreviation1": "CSSS-CN",
+            "abbreviation1": "CSSS-N",
             "abbreviation2": "CSSS",
             "committeeNumber": 6,
             "council": {
@@ -58,7 +72,7 @@
             "abbreviation": "CSSS-CE",
             "id": 19,
             "name": "Commission de la sécurité sociale et de la santé publique CE",
-            "abbreviation1": "CSSS-CE",
+            "abbreviation1": "CSSS-E",
             "abbreviation2": "CSSS",
             "committeeNumber": 19,
             "council": {
@@ -89,8 +103,18 @@
       "states": [
         {
           "date": "/Date(1585692000000+0200)/",
-          "id": 9,
+          "id": 202,
           "name": "Déposé"
+        },
+        {
+          "date": "/Date(1788991200000+0200)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1790028000000+0200)/",
+          "id": 205,
+          "name": "Planifié au Conseil national"
         }
       ],
       "texts": [
@@ -100,7 +124,11 @@
   ],
   "language": "fr",
   "relatedAffairs": [
-
+    {
+      "id": 20250069,
+      "priorityCode": "S",
+      "shortId": "25.069"
+    }
   ],
   "roles": [
     {
@@ -110,8 +138,8 @@
   ],
   "shortId": "20.2007",
   "state": {
-    "id": 9,
-    "name": "Déposé",
+    "id": 205,
+    "name": "Planifié au Conseil national",
     "doneKey": "0",
     "newKey": 0
   },

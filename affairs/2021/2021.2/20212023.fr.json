@@ -1,6 +1,6 @@
 {
   "id": 20212023,
-  "updated": "2021-09-23T12:58:50Z",
+  "updated": "2026-05-20T01:56:22Z",
   "affairType": {
     "abbreviation": "Pét.",
     "id": 10,
@@ -22,7 +22,31 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CSEC-CN",
+              "id": 5,
+              "name": "Commission de la science, de l'éducation et de la culture CN",
+              "abbreviation1": "CSEC-N",
+              "abbreviation2": "CSEC",
+              "committeeNumber": 5,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Conseil national",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2022-04-28T00:00:00Z",
+            "text": "Donner suite (cf. initiative de commission ou intervention)",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -34,31 +58,10 @@
       "preConsultations": [
         {
           "committee": {
-            "abbreviation": "CSEC-CN",
-            "id": 5,
-            "name": "Commission de la science, de l'éducation et de la culture CN",
-            "abbreviation1": "CSEC-CN",
-            "abbreviation2": "CSEC",
-            "committeeNumber": 5,
-            "council": {
-              "abbreviation": "CN",
-              "id": 1,
-              "name": "Conseil national",
-              "type": "N"
-            },
-            "typeCode": 1
-          },
-          "date": "2021-09-22T00:00:00Z",
-          "registrations": [
-
-          ]
-        },
-        {
-          "committee": {
             "abbreviation": "CSEC-CE",
             "id": 18,
             "name": "Commission de la science, de l'éducation et de la culture CE",
-            "abbreviation1": "CSEC-CE",
+            "abbreviation1": "CSEC-E",
             "abbreviation2": "CSEC",
             "committeeNumber": 18,
             "council": {
@@ -72,7 +75,8 @@
           "date": "2021-09-22T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
@@ -80,17 +84,38 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1632261600000+0200)/",
-          "id": 9,
+          "id": 202,
           "name": "Déposé"
+        },
+        {
+          "date": "/Date(1632348000000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1634162400000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1651183200000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
         }
       ],
       "texts": [
@@ -100,7 +125,11 @@
   ],
   "language": "fr",
   "relatedAffairs": [
-
+    {
+      "id": 20223393,
+      "priorityCode": "N",
+      "shortId": "22.3393"
+    }
   ],
   "roles": [
     {
@@ -110,10 +139,10 @@
   ],
   "shortId": "21.2023",
   "state": {
-    "id": 9,
-    "name": "Déposé",
+    "id": 206,
+    "name": "En commission du Conseil des Etats",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

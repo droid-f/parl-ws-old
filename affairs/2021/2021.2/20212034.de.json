@@ -1,6 +1,6 @@
 {
   "id": 20212034,
-  "updated": "2021-11-24T13:57:28Z",
+  "updated": "2026-05-20T01:51:48Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-05-31T00:00:00Z",
+            "text": "Behandelt im Rahmen eines anderen Geschäfts",
+            "type": 80
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-03-14T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -37,7 +66,7 @@
             "abbreviation": "WBK-NR",
             "id": 5,
             "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
-            "abbreviation1": "WBK-NR",
+            "abbreviation1": "WBK-N",
             "abbreviation2": "WBK",
             "committeeNumber": 5,
             "council": {
@@ -50,15 +79,21 @@
           },
           "date": "2021-10-30T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
-          ]
+              ],
+              "sessionId": "5121"
+            }
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "WBK-SR",
             "id": 18,
             "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
-            "abbreviation1": "WBK-SR",
+            "abbreviation1": "WBK-S",
             "abbreviation2": "WBK",
             "committeeNumber": 18,
             "council": {
@@ -72,6 +107,47 @@
           "date": "2021-10-30T00:00:00Z",
           "registrations": [
 
+          ],
+          "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-16T10:51:56Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3227,
+                    "gender": "f",
+                    "id": 4332,
+                    "name": "Crevoisier Crelier Mathilde",
+                    "officialDenomination": "Crevoisier Crelier"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -80,17 +156,47 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlament",
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
           "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1635544800000+0200)/",
-          "id": 9,
+          "id": 202,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1635631200000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1667257200000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1676588400000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1707433200000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1710370800000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1710457200000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -100,7 +206,11 @@
   ],
   "language": "de",
   "relatedAffairs": [
-
+    {
+      "id": 20233017,
+      "priorityCode": "N",
+      "shortId": "23.3017"
+    }
   ],
   "roles": [
     {
@@ -110,10 +220,10 @@
   ],
   "shortId": "21.2034",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

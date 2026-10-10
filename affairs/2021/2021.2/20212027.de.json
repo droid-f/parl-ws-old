@@ -1,6 +1,6 @@
 {
   "id": 20212027,
-  "updated": "2022-12-15T13:37:09Z",
+  "updated": "2026-05-20T02:03:51Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -27,6 +27,31 @@
               "id": 3,
               "name": "Normal"
             },
+            "committee": {
+              "abbreviation": "WBK-SR",
+              "id": 18,
+              "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
+              "abbreviation1": "WBK-S",
+              "abbreviation2": "WBK",
+              "committeeNumber": 18,
+              "council": {
+                "abbreviation": "SR",
+                "id": 2,
+                "name": "Ständerat",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2022-10-17T00:00:00Z",
+            "text": "Keine Folge geben",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
             "council": {
               "abbreviation": "SR",
               "id": 2,
@@ -34,6 +59,46 @@
               "type": "S"
             },
             "date": "2022-12-15T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "WBK-NR",
+              "id": 5,
+              "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
+              "abbreviation1": "WBK-N",
+              "abbreviation2": "WBK",
+              "committeeNumber": 5,
+              "council": {
+                "abbreviation": "NR",
+                "id": 1,
+                "name": "Nationalrat",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-11-09T00:00:00Z",
+            "text": "Keine Folge geben",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-12-22T00:00:00Z",
             "text": "Keine Folge gegeben",
             "type": 51
           }
@@ -51,7 +116,7 @@
             "abbreviation": "WBK-NR",
             "id": 5,
             "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
-            "abbreviation1": "WBK-NR",
+            "abbreviation1": "WBK-N",
             "abbreviation2": "WBK",
             "committeeNumber": 5,
             "council": {
@@ -65,14 +130,15 @@
           "date": "2021-10-06T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "WBK-SR",
             "id": 18,
             "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
-            "abbreviation1": "WBK-SR",
+            "abbreviation1": "WBK-S",
             "abbreviation2": "WBK",
             "committeeNumber": 18,
             "council": {
@@ -112,7 +178,8 @@
               ],
               "sessionId": "5117"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -120,10 +187,16 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -133,9 +206,24 @@
           "name": "Eingereicht"
         },
         {
-          "date": "/Date(1671058800000+0100)/",
-          "id": 3,
-          "name": "Behandelt vom Ständerat"
+          "date": "/Date(1671231600000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1671318000000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1699484400000+0100)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1703199600000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -155,8 +243,8 @@
   ],
   "shortId": "21.2027",
   "state": {
-    "id": 3,
-    "name": "Behandelt vom Ständerat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },

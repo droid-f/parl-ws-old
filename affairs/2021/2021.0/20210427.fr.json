@@ -1,6 +1,6 @@
 {
   "id": 20210427,
-  "updated": "2022-09-07T10:15:17Z",
+  "updated": "2026-10-09T14:22:31Z",
   "additionalIndexing": "08;15;1236",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -49,7 +49,7 @@
               "abbreviation": "CAJ-CN",
               "id": 12,
               "name": "Commission des affaires juridiques CN",
-              "abbreviation1": "CAJ-CN",
+              "abbreviation1": "CAJ-N",
               "abbreviation2": "CAJ",
               "committeeNumber": 12,
               "council": {
@@ -62,7 +62,7 @@
             },
             "council": null,
             "date": "2022-05-20T00:00:00Z",
-            "text": "Donné suite",
+            "text": "Donner suite (conseil prioritaire)",
             "type": 16
           },
           {
@@ -74,7 +74,7 @@
               "abbreviation": "CAJ-CE",
               "id": 25,
               "name": "Commission des affaires juridiques CE",
-              "abbreviation1": "CAJ-CE",
+              "abbreviation1": "CAJ-E",
               "abbreviation2": "CAJ",
               "committeeNumber": 25,
               "council": {
@@ -89,6 +89,21 @@
             "date": "2022-09-06T00:00:00Z",
             "text": "Adhésion",
             "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-12-20T00:00:00Z",
+            "text": "Le délai imparti est prorogé jusqu'à la session d’hiver 2026",
+            "type": 0
           }
         ]
       },
@@ -104,7 +119,7 @@
             "abbreviation": "CAJ-CN",
             "id": 12,
             "name": "Commission des affaires juridiques CN",
-            "abbreviation1": "CAJ-CN",
+            "abbreviation1": "CAJ-N",
             "abbreviation2": "CAJ",
             "committeeNumber": 12,
             "council": {
@@ -119,37 +134,18 @@
           "registrations": [
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "CN",
-                    "id": 1,
-                    "name": "Conseil national",
-                    "type": "N"
-                  },
-                  "councillor": {
-                    "code": 2765,
-                    "gender": "m",
-                    "id": 4059,
-                    "name": "Flach Beat",
-                    "officialDenomination": "Flach"
-                  },
-                  "faction": {
-                    "abbreviation": "Groupe GL",
-                    "id": 137,
-                    "name": "Groupe vert'libéral"
-                  },
-                  "language": "de"
-                }
+
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "CAJ-CE",
             "id": 25,
             "name": "Commission des affaires juridiques CE",
-            "abbreviation1": "CAJ-CE",
+            "abbreviation1": "CAJ-E",
             "abbreviation2": "CAJ",
             "committeeNumber": 25,
             "council": {
@@ -167,7 +163,8 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
@@ -175,10 +172,16 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -189,8 +192,13 @@
         },
         {
           "date": "/Date(1662415200000+0200)/",
-          "id": 1,
-          "name": "Donné suite"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1734649200000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
         }
       ],
       "texts": [
@@ -209,7 +217,10 @@
     }
   ],
   "relatedAffairs": [
-
+    {
+      "id": 20222039,
+      "shortId": "22.2039"
+    }
   ],
   "roles": [
     {
@@ -440,8 +451,8 @@
   ],
   "shortId": "21.427",
   "state": {
-    "id": 1,
-    "name": "Donné suite",
+    "id": 208,
+    "name": "En commission du Conseil national",
     "doneKey": "0",
     "newKey": 0
   },
@@ -451,7 +462,7 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Plus d'un million d'Ouïghours sont détenus dans des centres de rééducation et de travail forcé, ce qui représente près de 10 % de la population de cette ethnie dans la région autonome du Xinjiang au nord-est de la Chine. De plus en plus d'organisations parlent de crimes contre l'humanité, tandis que les parlements néerlandais et canadien et le gouvernement américain parlent de génocide.</p><p>Le rapport Nankai a récemment documenté pour la première fois le fait que les Ouïghours sont systématiquement forcés par le gouvernement chinois de travailler dans des usines.</p><p>Des entreprises suisses sont soupçonnées de proposer des produits ou des services à des entreprises chinoises impliquées dans le travail forcé ou d'en acquérir auprès d'elles, ce qui va à l'encontre du droit international, des conventions fondamentales de l'Organisation internationale du travail ratifiées par la Suisse concernant le travail forcé ou obligatoire (convention no 29) et concernant l'abolition du travail forcé (convention no 105), des principes directeurs de l'ONU relatifs aux entreprises et aux droits de l'homme et des principes directeurs de l'OCDE.</p><p>Le contre-projet à l'initiative pour des multinationales responsables doit entrer en vigueur prochainement. Il impose notamment des devoirs de diligence et de transparence en matière de minerais et de métaux provenant de zones de conflit et en matière de travail des enfants. Il faut étendre le champ d'application de ces dispositions au travail forcé.</p><p>Soumettre les entreprises à un devoir de diligence efficace peut éviter qu'elles soient associées aux crimes les plus graves contre l'humanité. Par ailleurs, les entreprises qui font des affaires de manière responsable et investissent des ressources pour respecter cet engagement ont des coûts plus élevés que les concurrents qui ne le font pas et qui profitent ainsi indirectement du travail forcé. Il s'agit finalement d'assurer la transparence des coûts, transparence qui renforcera l'attrait économique des entreprises suisses.</p>"
+      "value": "<p>Plus d'un million d'Ouïghours sont détenus dans des centres de rééducation et de travail forcé, ce qui représente près de 10 % de la population de cette ethnie dans la région autonome du Xinjiang au nord-est de la Chine. De plus en plus d'organisations parlent de crimes contre l'humanité, tandis que les parlements néerlandais et canadien et le gouvernement américain parlent de génocide.</p><p>Le rapport Nankai a récemment documenté pour la première fois le fait que les Ouïghours sont systématiquement forcés par le gouvernement chinois de travailler dans des usines.</p><p>Des entreprises suisses sont soupçonnées de proposer des produits ou des services à des entreprises chinoises impliquées dans le travail forcé ou d'en acquérir auprès d'elles, ce qui va à l'encontre du droit international, des conventions fondamentales de l'Organisation internationale du travail ratifiées par la Suisse concernant le travail forcé ou obligatoire (convention no 29) et concernant l'abolition du travail forcé (convention no 105), des principes directeurs de l'ONU relatifs aux entreprises et aux droits de l'homme et des principes directeurs de l'OCDE.</p><p>Le contre-projet à l'initiative pour des multinationales responsables doit entrer en vigueur prochainement. Il impose notamment des devoirs de diligence et de transparence en matière de minerais et de métaux provenant de zones de conflit et en matière de travail des enfants. Il faut étendre le champ d'application de ces dispositions au travail forcé.</p><p>Soumettre les entreprises à un devoir de diligence efficace peut éviter qu'elles soient associées aux crimes les plus graves contre l'humanité. Par ailleurs, les entreprises qui font des affaires de manière responsable et investissent des ressources pour respecter cet engagement ont des coûts plus élevés que les concurrents qui ne le font pas et qui profitent ainsi indirectement du travail forcé. Il s'agit finalement d'assurer la transparence des coûts, transparence qui renforcera l'attrait économique des entreprises suisses.</p>"
     },
     {
       "type": {

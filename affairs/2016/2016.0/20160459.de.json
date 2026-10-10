@@ -1,6 +1,6 @@
 {
   "id": 20160459,
-  "updated": "2023-03-22T07:21:10Z",
+  "updated": "2026-02-10T21:25:04Z",
   "additionalIndexing": "2846",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -50,7 +50,7 @@
               "abbreviation": "RK-NR",
               "id": 12,
               "name": "Kommission für Rechtsfragen NR",
-              "abbreviation1": "RK-NR",
+              "abbreviation1": "RK-N",
               "abbreviation2": "RK",
               "committeeNumber": 12,
               "council": {
@@ -63,7 +63,7 @@
             },
             "council": null,
             "date": "2017-10-19T00:00:00Z",
-            "text": "Folge gegeben",
+            "text": "Folge geben (Erstrat)",
             "type": 16
           },
           {
@@ -75,7 +75,7 @@
               "abbreviation": "RK-SR",
               "id": 25,
               "name": "Kommission für Rechtsfragen SR",
-              "abbreviation1": "RK-SR",
+              "abbreviation1": "RK-S",
               "abbreviation2": "RK",
               "committeeNumber": 25,
               "council": {
@@ -108,8 +108,8 @@
           },
           {
             "category": {
-              "id": 4,
-              "name": "Ergänzung"
+              "id": 3,
+              "name": "Normal"
             },
             "council": {
               "abbreviation": "NR",
@@ -139,7 +139,7 @@
             "abbreviation": "RK-NR",
             "id": 12,
             "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
+            "abbreviation1": "RK-N",
             "abbreviation2": "RK",
             "committeeNumber": 12,
             "council": {
@@ -197,7 +197,7 @@
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -215,26 +215,12 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
         {
-          "committee": {
-            "abbreviation": "RK-NR",
-            "id": 12,
-            "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
-            "abbreviation2": "RK",
-            "committeeNumber": 12,
-            "council": {
-              "abbreviation": "NR",
-              "id": 1,
-              "name": "Nationalrat",
-              "type": "N"
-            },
-            "typeCode": 1
-          },
           "date": "/Date(1660773600000+0200)/",
           "publication": {
             "isOldFormat": false,
@@ -252,6 +238,25 @@
             "id": 6,
             "name": "Bericht"
           }
+        },
+        {
+          "date": "/Date(1666130400000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2624",
+            "source": "BBl 2022 2624",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2022/2624.pdf",
+            "year": "2022"
+          },
+          "type": {
+            "id": 2,
+            "name": "Stellungnahme des Bundesrates"
+          }
         }
       ],
       "relatedDepartments": [
@@ -259,7 +264,7 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": false
+          "leading": true
         }
       ],
       "states": [
@@ -275,8 +280,23 @@
         },
         {
           "date": "/Date(1678316400000+0100)/",
-          "id": 2,
-          "name": "Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1693778400000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1694988000000+0200)/",
+          "id": 219,
+          "name": "Geplant für die Schlussabstimmung"
+        },
+        {
+          "date": "/Date(1695938400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -300,6 +320,51 @@
             "date": "2023-03-09T00:00:00Z",
             "text": "Beschluss gemäss Entwurf",
             "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-18T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Annahme in der Schlussabstimmung",
+            "type": 36
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Annahme in der Schlussabstimmung",
+            "type": 36
           }
         ]
       },
@@ -307,7 +372,11 @@
       },
       "index": 1,
       "links": [
-
+        {
+          "date": "/Date(1702335600000+0100)/",
+          "title": "Vernehmlassung",
+          "url": "https://www.parlament.ch/de/organe/kommissionen/sachbereichskommissionen/kommissionen-rk/berichte-vernehmlassungen-rk/vernehmlassung-rk-n-15-455"
+        }
       ],
       "preConsultations": [
         {
@@ -315,7 +384,7 @@
             "abbreviation": "RK-NR",
             "id": 12,
             "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
+            "abbreviation1": "RK-N",
             "abbreviation2": "RK",
             "committeeNumber": 12,
             "council": {
@@ -373,7 +442,7 @@
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -386,11 +455,51 @@
           },
           "date": "2018-04-30T00:00:00Z",
           "registrations": [
-
-          ]
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2767,
+                    "gender": "m",
+                    "id": 4056,
+                    "name": "Fässler Daniel",
+                    "officialDenomination": "Fässler Daniel"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5122"
+            }
+          ],
+          "treatmentCategory": "IIIb/IV"
         }
       ],
       "references": [
+        {
+          "date": "/Date(1660773600000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2100",
+            "source": "BBl 2022 2100",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2022/2100.pdf",
+            "year": "2022"
+          },
+          "type": {
+            "id": 6,
+            "name": "Bericht"
+          }
+        },
         {
           "date": "/Date(1660773600000+0200)/",
           "publication": {
@@ -409,6 +518,64 @@
           "type": {
             "id": 1,
             "name": "Beratungsgegenstand / Entwurf"
+          }
+        },
+        {
+          "date": "/Date(1666130400000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2624",
+            "source": "BBl 2022 2624",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2022/2624.pdf",
+            "year": "2022"
+          },
+          "type": {
+            "id": 2,
+            "name": "Stellungnahme des Bundesrates"
+          }
+        },
+        {
+          "date": "/Date(1696888800000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2289",
+            "source": "BBl 2023 2289",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2023/2289.pdf",
+            "year": "2023"
+          },
+          "referendumDeadline": "2024-01-18T00:00:00Z",
+          "type": {
+            "id": 3,
+            "name": "Schlussabstimmungstext"
+          }
+        },
+        {
+          "date": "/Date(1747260000000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "197",
+            "source": "AS 2025 197",
+            "type": {
+              "id": 2,
+              "name": "Amtliche Sammlung",
+              "shortName": "AS"
+            },
+            "url": "http://www.admin.ch/opc/de/official-compilation/2025/197.pdf",
+            "year": "2025"
+          },
+          "type": {
+            "id": 5,
+            "name": "Amtliche Sammlung"
           }
         }
       ],
@@ -434,8 +601,23 @@
         },
         {
           "date": "/Date(1678316400000+0100)/",
-          "id": 2,
-          "name": "Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1693778400000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1694988000000+0200)/",
+          "id": 219,
+          "name": "Geplant für die Schlussabstimmung"
+        },
+        {
+          "date": "/Date(1695938400000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -582,8 +764,8 @@
   ],
   "shortId": "16.459",
   "state": {
-    "id": 2,
-    "name": "Behandelt vom Nationalrat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },
@@ -593,14 +775,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Artikel 269d OR legt die von der Vermieterin oder dem Vermieter zu befolgenden Regeln fest, wenn sie oder er den Mietzins erhöhen oder andere einseitige Änderungen am Mietvertrag vornehmen will. Diese Bestimmung sieht namentlich vor, dass die Mitteilung an die Mieterin oder den Mieter schriftlich und auf einem offiziellen, vom Kanton genehmigten Formular erfolgen muss. </p><p>In seinem Entscheid vom 8. Juli 2003 befand das Bundesgericht, dass das offizielle Formular zur Mitteilung einer Mietzinserhöhung an die Mieterin oder den Mieter handschriftlich unterzeichnet sein müsse und dass eine Nachbildung der eigenhändigen Unterschrift auf mechanischem Wege nur da als genügend anerkannt werde, wo deren Gebrauch im Verkehr gemäss Artikel 14 Absatz 2 OR üblich sei.</p><p>Dieser Entscheid führt zu einer Rechtsunsicherheit mit potenziell gravierenden Folgen: Fehlt die eigenhändige Unterschrift auf dem offiziellen Formular, kann die Mitteilung der Mietzinserhöhung für nichtig erklärt werden. </p><p>Die vorliegende Initiative hat zum Ziel, eine auf mechanischem Wege nachgebildete Unterschrift zur Mitteilung einer Mietzinserhöhung oder jeglicher anderen einseitigen Vertragsänderung für zulässig zu erklären und somit der eigenhändigen Unterschrift gleichzustellen. Die vorgelegte Bestimmung erlaubt es namentlich institutionellen Vermieterinnen wie den Pensionskassen oder auch Liegenschaftsverwaltungen, auf den offiziellen Formularen für Mietzinserhöhungen oder andere einseitige Vertragsänderungen eine Faksimileunterschrift anzubringen. Der Verwaltungsaufwand wird dadurch erheblich vermindert, ohne dass auf irgendeine Weise die Rechte der Mieterinnen und Mieter eingeschränkt würden. </p><p>Ein Vorschlag, der dem in dieser Initiative enthaltenen Vorschlag ähnlich ist, wurde dem Bundesrat bereits von Nationalrat Rudolf Steiner in der am 22. März 2007 eingereichten Motion 07.3159 unterbreitet. In seiner Stellungnahme vom 15. Juni 2007 räumte der Bundesrat damals ein, dass die Forderung nach eigenhändiger Unterzeichnung übertrieben formalistisch sei und dass zum Schutz der Mieterin oder des Mieters das offizielle, vom Kanton genehmigte Formular genüge. Leider wurde die Motion ohne parlamentarische Debatte abgeschrieben, da der Urheber Ende 2007 aus dem Rat ausgeschieden war.</p>"
+      "value": "<p>Artikel 269d OR legt die von der Vermieterin oder dem Vermieter zu befolgenden Regeln fest, wenn sie oder er den Mietzins erhöhen oder andere einseitige Änderungen am Mietvertrag vornehmen will. Diese Bestimmung sieht namentlich vor, dass die Mitteilung an die Mieterin oder den Mieter schriftlich und auf einem offiziellen, vom Kanton genehmigten Formular erfolgen muss. </p><p>In seinem Entscheid vom 8. Juli 2003 befand das Bundesgericht, dass das offizielle Formular zur Mitteilung einer Mietzinserhöhung an die Mieterin oder den Mieter handschriftlich unterzeichnet sein müsse und dass eine Nachbildung der eigenhändigen Unterschrift auf mechanischem Wege nur da als genügend anerkannt werde, wo deren Gebrauch im Verkehr gemäss Artikel 14 Absatz 2 OR üblich sei.</p><p>Dieser Entscheid führt zu einer Rechtsunsicherheit mit potenziell gravierenden Folgen: Fehlt die eigenhändige Unterschrift auf dem offiziellen Formular, kann die Mitteilung der Mietzinserhöhung für nichtig erklärt werden. </p><p>Die vorliegende Initiative hat zum Ziel, eine auf mechanischem Wege nachgebildete Unterschrift zur Mitteilung einer Mietzinserhöhung oder jeglicher anderen einseitigen Vertragsänderung für zulässig zu erklären und somit der eigenhändigen Unterschrift gleichzustellen. Die vorgelegte Bestimmung erlaubt es namentlich institutionellen Vermieterinnen wie den Pensionskassen oder auch Liegenschaftsverwaltungen, auf den offiziellen Formularen für Mietzinserhöhungen oder andere einseitige Vertragsänderungen eine Faksimileunterschrift anzubringen. Der Verwaltungsaufwand wird dadurch erheblich vermindert, ohne dass auf irgendeine Weise die Rechte der Mieterinnen und Mieter eingeschränkt würden. </p><p>Ein Vorschlag, der dem in dieser Initiative enthaltenen Vorschlag ähnlich ist, wurde dem Bundesrat bereits von Nationalrat Rudolf Steiner in der am 22. März 2007 eingereichten Motion 07.3159 unterbreitet. In seiner Stellungnahme vom 15. Juni 2007 räumte der Bundesrat damals ein, dass die Forderung nach eigenhändiger Unterzeichnung übertrieben formalistisch sei und dass zum Schutz der Mieterin oder des Mieters das offizielle, vom Kanton genehmigte Formular genüge. Leider wurde die Motion ohne parlamentarische Debatte abgeschrieben, da der Urheber Ende 2007 aus dem Rat ausgeschieden war.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Gestützt auf Artikel 160 Absatz 1 der Bundesverfassung und auf Artikel 107 des Parlamentsgesetzes reiche ich folgende parlamentarische Initiative ein:</p><p>Artikel 269d des Obligationenrechts (OR) soll um einen vierten Absatz mit folgendem Wortlaut ergänzt werden:</p><p>Art. 269d</p><p>...</p><p>Abs. 4</p><p>Für die Mitteilung einer Mietzinserhöhung oder jeglicher anderen einseitigen Vertragsänderung ist eine auf mechanischem Wege nachgebildete Unterschrift auf dem offiziellen Formular zulässig.</p>"
+      "value": "<p>Gestützt auf Artikel 160 Absatz 1 der Bundesverfassung und auf Artikel 107 des Parlamentsgesetzes reiche ich folgende parlamentarische Initiative ein:</p><p>Artikel 269d des Obligationenrechts (OR) soll um einen vierten Absatz mit folgendem Wortlaut ergänzt werden:</p><p>Art. 269d</p><p>...</p><p>Abs. 4</p><p>Für die Mitteilung einer Mietzinserhöhung oder jeglicher anderen einseitigen Vertragsänderung ist eine auf mechanischem Wege nachgebildete Unterschrift auf dem offiziellen Formular zulässig.</p>"
     },
     {
       "type": {

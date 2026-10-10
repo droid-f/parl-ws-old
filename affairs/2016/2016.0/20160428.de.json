@@ -1,6 +1,6 @@
 {
   "id": 20160428,
-  "updated": "2021-10-01T08:37:49Z",
+  "updated": "2026-08-20T18:01:15Z",
   "additionalIndexing": "28;2836;1211",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -17,7 +17,7 @@
     },
     "faction": {
       "abbreviation": "Fraktion C",
-      "code": "C",
+      "code": "M-E",
       "id": 3,
       "name": "CVP-Fraktion"
     },
@@ -50,7 +50,7 @@
               "abbreviation": "RK-NR",
               "id": 12,
               "name": "Kommission für Rechtsfragen NR",
-              "abbreviation1": "RK-NR",
+              "abbreviation1": "RK-N",
               "abbreviation2": "RK",
               "committeeNumber": 12,
               "council": {
@@ -63,7 +63,7 @@
             },
             "council": null,
             "date": "2017-06-23T00:00:00Z",
-            "text": "Folge gegeben",
+            "text": "Folge geben (Erstrat)",
             "type": 16
           },
           {
@@ -75,7 +75,7 @@
               "abbreviation": "RK-SR",
               "id": 25,
               "name": "Kommission für Rechtsfragen SR",
-              "abbreviation1": "RK-SR",
+              "abbreviation1": "RK-S",
               "abbreviation2": "RK",
               "committeeNumber": 25,
               "council": {
@@ -108,8 +108,8 @@
           },
           {
             "category": {
-              "id": 4,
-              "name": "Ergänzung"
+              "id": 3,
+              "name": "Normal"
             },
             "council": {
               "abbreviation": "NR",
@@ -138,8 +138,8 @@
           },
           {
             "category": {
-              "id": 4,
-              "name": "Ergänzung"
+              "id": 3,
+              "name": "Normal"
             },
             "council": {
               "abbreviation": "NR",
@@ -149,6 +149,51 @@
             },
             "date": "2021-10-01T00:00:00Z",
             "text": "Bis zur Herbstsession 2023.",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-28T00:00:00Z",
+            "text": "Fristverlängerung bis zur Herbstsession 2025",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2025-09-26T00:00:00Z",
+            "text": "Fristverlängerung",
+            "type": 50
+          },
+          {
+            "category": {
+              "id": 4,
+              "name": "Ergänzung"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2025-09-26T00:00:00Z",
+            "text": "Fristverlängerung bis zur Herbstsession 2027",
             "type": 0
           }
         ]
@@ -165,7 +210,7 @@
             "abbreviation": "RK-NR",
             "id": 12,
             "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
+            "abbreviation1": "RK-N",
             "abbreviation2": "RK",
             "committeeNumber": 12,
             "council": {
@@ -193,16 +238,22 @@
 
               ],
               "sessionId": "5111"
+            },
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
             }
           ],
-          "treatmentCategory": "V"
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -220,7 +271,8 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
@@ -228,10 +280,10 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlament",
-          "leading": false
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
         }
       ],
       "states": [
@@ -247,8 +299,18 @@
         },
         {
           "date": "/Date(1633039200000+0200)/",
-          "id": 2,
-          "name": "Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
         }
       ],
       "texts": [
@@ -273,7 +335,7 @@
             "abbreviation": "RK-NR",
             "id": 12,
             "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
+            "abbreviation1": "RK-N",
             "abbreviation2": "RK",
             "committeeNumber": 12,
             "council": {
@@ -299,7 +361,7 @@
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -313,7 +375,8 @@
           "date": "2017-06-23T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -321,10 +384,10 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlament",
-          "leading": false
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
         }
       ],
       "states": [
@@ -335,8 +398,18 @@
         },
         {
           "date": "/Date(1633039200000+0200)/",
-          "id": 2,
-          "name": "Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1689112800000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
         }
       ],
       "texts": [
@@ -368,7 +441,7 @@
       },
       "faction": {
         "abbreviation": "Fraktion C",
-        "code": "C",
+        "code": "M-E",
         "id": 3,
         "name": "CVP-Fraktion"
       },
@@ -377,8 +450,8 @@
   ],
   "shortId": "16.428",
   "state": {
-    "id": 2,
-    "name": "Behandelt vom Nationalrat",
+    "id": 208,
+    "name": "In Kommission des Nationalrats",
     "doneKey": "0",
     "newKey": 0
   },
@@ -388,14 +461,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Das am 1. Januar 2013 in Kraft getretene Erwachsenenschutzrecht kennt das Institut der erstreckten elterlichen Sorge nicht mehr. Erstreckte elterliche Sorge hiess im alten Recht im Wesentlichen, dass gewisse Aufsichtsrechte der Vormundschaftsbehörde wie bei den Eltern Unmündiger entfielen. Die Inhaber der elterlichen Sorge von erwachsenen Kindern mussten der Vormundschaftsbehörde insbesondere weder Rechnung ablegen noch periodisch Bericht erstatten. Auch entfiel die Pflicht, für die in den Artikeln 421 und 422 ZGB aufgezählten Geschäfte die Zustimmung der Vormundschaftsbehörde bzw. der vormundschaftlichen Aufsichtsbehörde einzuholen. Nachdem das revidierte Recht die erstreckte elterliche Sorge nicht mehr kennt, werden die Eltern erwachsener behinderter Kinder zwangsläufig als Beistand oder Beiständin eingesetzt. Damit verbunden ist gemäss Artikel 420 ZGB unter anderem die Pflicht zur periodischen Berichterstattung und Rechnungsablage gegenüber der Erwachsenenschutzbehörde. Eine entsprechende Entbindung ist nur möglich, wenn \"es die Umstände\" erlauben. Mit der \"Kann\"-Formulierung verweist das Gesetz auf das Ermessen der Behörden. In der Lehre wird eine diesbezüglich zurückhaltende Praxis stipuliert. Eine entsprechend zurückhaltende Anwendung wurde zumindest bisher auch in der Praxis ausgeübt.</p><p>Zwischenzeitlich hat die Praxis zwar erkannt, dass hier ein grosses Konfliktpotenzial insbesondere mit Eltern, die zum Teil während Jahrzehnten anstandslos und uneigennützig für ihre behinderten Kinder gesorgt haben und nun plötzlich Rechenschaft ablegen müssen, besteht. Auch wenn die Behörden nun zu gewissen Entbindungen bereit sind, so sind diese an den Wortlaut von Artikel 420 ZGB gebunden. Eltern und andere Personen gemäss Artikel 420 ZGB können von den aufgeführten Pflichten nicht generell befreit werden. Die parlamentarische Initiative will einen Paradigmenwechsel, und zwar derart, dass die in Artikel 420 ZGB aufgeführten Personen, insbesondere die Eltern und die Ehegatten, nur noch ausnahmsweise, wenn besondere Umstände vorliegen, zur periodischen Berichterstattung und Rechnungsablage verpflichtet und allenfalls den weiteren Verpflichtungen gemäss Artikel 420 ZGB unterstellt werden. In jedem Falle ist eine Änderung von Artikel 420 ZGB derart vorzunehmen, dass der administrative Aufwand aus den entsprechenden Verpflichtungen massiv reduziert wird. Im Falle der Befreiung von den genannten Verpflichtungen ist gleichfalls die Frage der Haftung zu klären.</p>"
+      "value": "<p>Das am 1. Januar 2013 in Kraft getretene Erwachsenenschutzrecht kennt das Institut der erstreckten elterlichen Sorge nicht mehr. Erstreckte elterliche Sorge hiess im alten Recht im Wesentlichen, dass gewisse Aufsichtsrechte der Vormundschaftsbehörde wie bei den Eltern Unmündiger entfielen. Die Inhaber der elterlichen Sorge von erwachsenen Kindern mussten der Vormundschaftsbehörde insbesondere weder Rechnung ablegen noch periodisch Bericht erstatten. Auch entfiel die Pflicht, für die in den Artikeln 421 und 422 ZGB aufgezählten Geschäfte die Zustimmung der Vormundschaftsbehörde bzw. der vormundschaftlichen Aufsichtsbehörde einzuholen. Nachdem das revidierte Recht die erstreckte elterliche Sorge nicht mehr kennt, werden die Eltern erwachsener behinderter Kinder zwangsläufig als Beistand oder Beiständin eingesetzt. Damit verbunden ist gemäss Artikel 420 ZGB unter anderem die Pflicht zur periodischen Berichterstattung und Rechnungsablage gegenüber der Erwachsenenschutzbehörde. Eine entsprechende Entbindung ist nur möglich, wenn \"es die Umstände\" erlauben. Mit der \"Kann\"-Formulierung verweist das Gesetz auf das Ermessen der Behörden. In der Lehre wird eine diesbezüglich zurückhaltende Praxis stipuliert. Eine entsprechend zurückhaltende Anwendung wurde zumindest bisher auch in der Praxis ausgeübt.</p><p>Zwischenzeitlich hat die Praxis zwar erkannt, dass hier ein grosses Konfliktpotenzial insbesondere mit Eltern, die zum Teil während Jahrzehnten anstandslos und uneigennützig für ihre behinderten Kinder gesorgt haben und nun plötzlich Rechenschaft ablegen müssen, besteht. Auch wenn die Behörden nun zu gewissen Entbindungen bereit sind, so sind diese an den Wortlaut von Artikel 420 ZGB gebunden. Eltern und andere Personen gemäss Artikel 420 ZGB können von den aufgeführten Pflichten nicht generell befreit werden. Die parlamentarische Initiative will einen Paradigmenwechsel, und zwar derart, dass die in Artikel 420 ZGB aufgeführten Personen, insbesondere die Eltern und die Ehegatten, nur noch ausnahmsweise, wenn besondere Umstände vorliegen, zur periodischen Berichterstattung und Rechnungsablage verpflichtet und allenfalls den weiteren Verpflichtungen gemäss Artikel 420 ZGB unterstellt werden. In jedem Falle ist eine Änderung von Artikel 420 ZGB derart vorzunehmen, dass der administrative Aufwand aus den entsprechenden Verpflichtungen massiv reduziert wird. Im Falle der Befreiung von den genannten Verpflichtungen ist gleichfalls die Frage der Haftung zu klären.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Gestützt auf Artikel 160 Absatz 1 der Bundesverfassung und Artikel 107 des Parlamentsgesetzes reiche ich folgende parlamentarische Initiative ein:</p><p>Artikel 420 ZGB ist so zu ändern, dass die Personen, insbesondere die Eltern und die Ehegatten, welche entsprechend als Beistand oder Beiständin eingesetzt werden, nur noch ausnahmsweise der Pflicht zur periodischen Berichterstattung und Rechnungsablage und allenfalls den weiteren Verpflichtungen gemäss Artikel 420 ZGB unterstellt werden. In jedem Falle ist eine Änderung von Artikel 420 ZGB derart vorzunehmen, dass der administrative Aufwand aus den entsprechenden Verpflichtungen massiv reduziert wird.</p>"
+      "value": "<p>Gestützt auf Artikel 160 Absatz 1 der Bundesverfassung und Artikel 107 des Parlamentsgesetzes reiche ich folgende parlamentarische Initiative ein:</p><p>Artikel 420 ZGB ist so zu ändern, dass die Personen, insbesondere die Eltern und die Ehegatten, welche entsprechend als Beistand oder Beiständin eingesetzt werden, nur noch ausnahmsweise der Pflicht zur periodischen Berichterstattung und Rechnungsablage und allenfalls den weiteren Verpflichtungen gemäss Artikel 420 ZGB unterstellt werden. In jedem Falle ist eine Änderung von Artikel 420 ZGB derart vorzunehmen, dass der administrative Aufwand aus den entsprechenden Verpflichtungen massiv reduziert wird.</p>"
     },
     {
       "type": {

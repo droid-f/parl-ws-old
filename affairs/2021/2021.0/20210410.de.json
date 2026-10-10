@@ -1,6 +1,6 @@
 {
   "id": 20210410,
-  "updated": "2023-05-23T17:00:59Z",
+  "updated": "2026-09-02T11:38:04Z",
   "additionalIndexing": "1211;04;1216;28;2846",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -50,7 +50,7 @@
               "abbreviation": "RK-NR",
               "id": 12,
               "name": "Kommission für Rechtsfragen NR",
-              "abbreviation1": "RK-NR",
+              "abbreviation1": "RK-N",
               "abbreviation2": "RK",
               "committeeNumber": 12,
               "council": {
@@ -63,7 +63,7 @@
             },
             "council": null,
             "date": "2022-05-19T00:00:00Z",
-            "text": "Folge gegeben",
+            "text": "Folge geben (Erstrat)",
             "type": 16
           },
           {
@@ -75,7 +75,7 @@
               "abbreviation": "RK-SR",
               "id": 25,
               "name": "Kommission für Rechtsfragen SR",
-              "abbreviation1": "RK-SR",
+              "abbreviation1": "RK-S",
               "abbreviation2": "RK",
               "committeeNumber": 25,
               "council": {
@@ -90,6 +90,36 @@
             "date": "2023-05-22T00:00:00Z",
             "text": "Zustimmung",
             "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2025-06-20T00:00:00Z",
+            "text": "Fristverlängerung",
+            "type": 50
+          },
+          {
+            "category": {
+              "id": 4,
+              "name": "Ergänzung"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2025-06-20T00:00:00Z",
+            "text": "Fristverlängerung bis zur Sommersession 2027",
+            "type": 0
           }
         ]
       },
@@ -105,7 +135,7 @@
             "abbreviation": "RK-NR",
             "id": 12,
             "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
+            "abbreviation1": "RK-N",
             "abbreviation2": "RK",
             "committeeNumber": 12,
             "council": {
@@ -120,38 +150,18 @@
           "registrations": [
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "NR",
-                    "id": 1,
-                    "name": "Nationalrat",
-                    "type": "N"
-                  },
-                  "councillor": {
-                    "code": 3058,
-                    "gender": "f",
-                    "id": 4184,
-                    "name": "Arslan Sibel",
-                    "officialDenomination": "Arslan"
-                  },
-                  "faction": {
-                    "abbreviation": "Fraktion G",
-                    "code": "G",
-                    "id": 6,
-                    "name": "Grüne Fraktion"
-                  },
-                  "language": "de"
-                }
+
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -169,7 +179,8 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -177,10 +188,16 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -191,8 +208,109 @@
         },
         {
           "date": "/Date(1684706400000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1725400800000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        }
+      ],
+      "texts": [
+
+      ]
+    },
+    {
+      "consultation": {
+        "resolutions": [
+
+        ]
+      },
+      "federalCouncilProposal": {
+      },
+      "index": 1,
+      "links": [
+
+      ],
+      "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-03-08T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-03-08T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "V"
+        }
+      ],
+      "references": [
+
+      ],
+      "relatedDepartments": [
+        {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        },
+        {
+          "abbreviation": "Parl",
           "id": 1,
-          "name": "Folge gegeben"
+          "name": "Parlament",
+          "leading": false
+        }
+      ],
+      "states": [
+        {
+          "date": "/Date(1725487200000+0200)/",
+          "id": 201,
+          "name": "Angemeldet"
+        },
+        {
+          "date": "/Date(1726092000000+0200)/",
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1726178400000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
         }
       ],
       "texts": [
@@ -211,6 +329,11 @@
     }
   ],
   "relatedAffairs": [
+    {
+      "id": 20210411,
+      "priorityCode": "N",
+      "shortId": "21.411"
+    },
     {
       "id": 20210411,
       "priorityCode": "N",
@@ -287,8 +410,8 @@
   ],
   "shortId": "21.410",
   "state": {
-    "id": 1,
-    "name": "Folge gegeben",
+    "id": 208,
+    "name": "In Kommission des Nationalrats",
     "doneKey": "0",
     "newKey": 0
   },
@@ -298,14 +421,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Im Jahr 2018 wurden in der Schweiz 18 522 Straftaten registriert, die der Definition von häuslicher Gewalt entsprechen. Dies entspricht einem Anstieg von 9 Prozent im Vergleich zu 2017. Die zweite Covid-19-Welle hat diese Zahlen noch weiter in die Höhe getrieben.</p><p>Häusliche Gewalt ist ein weit verbreitetes Übel, das mit allen Mitteln bekämpft werden muss. Die Verletzten müssen besser geschützt und die verletzenden Personen besser begleitet werden. Häufig müssen die Verletzten ihre Wohnung verlassen, um sich und ihre Kinder zu schützen. In diesen Fällen sind die Betroffenen Opfer im doppelten Sinne: Sie sind Opfer von Gewalt und verlieren zudem den Zugang zur eigenen Wohnung.</p><p>Ich fordere daher eine Änderung von Artikel 28b Absatz 4 des Zivilgesetzbuches, indem die Regel eingeführt wird, dass die kantonalen Stellen die sofortige Ausweisung der verletzenden Person aus der gemeinsamen Wohnung verfügen müssen. Mit der klaren Umsetzung des Prinzips \"Wer schlägt, geht\" ist die Botschaft an die verletzenden Personen eindeutig, und die Verletzten werden besser geschützt.</p><p>Dieses Prinzip ist bereits in mehreren Kantonen erfolgreich angewandt worden: Waadt, Genf, St. Gallen, Freiburg, Jura, Neuenburg, Wallis, Nidwalden und Obwalden. Diese Massnahmen haben sich als wirksam erwiesen: Seit 2015, seit also im Kanton Waadt dieses Prinzip systematisch angewandt wird, hat sich die Zahl der Entfernungsmassnahmen verzehnfacht. Dieses Prinzip ist mittlerweile auch im Waadtländer Gesetz gegen häusliche Gewalt festgeschrieben, das der Grosse Rat 2017 einstimmig angenommen hat. Ziel dieses Gesetzes ist der verstärkte Schutz der Verletzten durch die Minimierung der Rückfälligkeit (dank der sofortigen Ausweisung und eines obligatorischen sozialerzieherischen Gesprächs mit der verletzenden Person), durch die Spezialisierung der Fachkräfte und durch die Verbesserung der Koordination zwischen den entsprechenden Stellen. Es handelt sich um ein Prinzip und nicht um einen Automatismus. Dies ermöglicht es, bei Bedarf die Besonderheiten des Einzelfalls zu berücksichtigen, wie z. B. diejenigen einer minderjährigen verletzenden Person.</p><p>Die Hinzufügung von \"der verletzenden Person\" (\"de l'auteur de l'atteinte\") betrifft ausschliesslich den französischen Text, wo diese Präzisierung fehlt.</p>"
+      "value": "<p>Im Jahr 2018 wurden in der Schweiz 18 522 Straftaten registriert, die der Definition von häuslicher Gewalt entsprechen. Dies entspricht einem Anstieg von 9 Prozent im Vergleich zu 2017. Die zweite Covid-19-Welle hat diese Zahlen noch weiter in die Höhe getrieben.</p><p>Häusliche Gewalt ist ein weit verbreitetes Übel, das mit allen Mitteln bekämpft werden muss. Die Verletzten müssen besser geschützt und die verletzenden Personen besser begleitet werden. Häufig müssen die Verletzten ihre Wohnung verlassen, um sich und ihre Kinder zu schützen. In diesen Fällen sind die Betroffenen Opfer im doppelten Sinne: Sie sind Opfer von Gewalt und verlieren zudem den Zugang zur eigenen Wohnung.</p><p>Ich fordere daher eine Änderung von Artikel 28b Absatz 4 des Zivilgesetzbuches, indem die Regel eingeführt wird, dass die kantonalen Stellen die sofortige Ausweisung der verletzenden Person aus der gemeinsamen Wohnung verfügen müssen. Mit der klaren Umsetzung des Prinzips \"Wer schlägt, geht\" ist die Botschaft an die verletzenden Personen eindeutig, und die Verletzten werden besser geschützt.</p><p>Dieses Prinzip ist bereits in mehreren Kantonen erfolgreich angewandt worden: Waadt, Genf, St. Gallen, Freiburg, Jura, Neuenburg, Wallis, Nidwalden und Obwalden. Diese Massnahmen haben sich als wirksam erwiesen: Seit 2015, seit also im Kanton Waadt dieses Prinzip systematisch angewandt wird, hat sich die Zahl der Entfernungsmassnahmen verzehnfacht. Dieses Prinzip ist mittlerweile auch im Waadtländer Gesetz gegen häusliche Gewalt festgeschrieben, das der Grosse Rat 2017 einstimmig angenommen hat. Ziel dieses Gesetzes ist der verstärkte Schutz der Verletzten durch die Minimierung der Rückfälligkeit (dank der sofortigen Ausweisung und eines obligatorischen sozialerzieherischen Gesprächs mit der verletzenden Person), durch die Spezialisierung der Fachkräfte und durch die Verbesserung der Koordination zwischen den entsprechenden Stellen. Es handelt sich um ein Prinzip und nicht um einen Automatismus. Dies ermöglicht es, bei Bedarf die Besonderheiten des Einzelfalls zu berücksichtigen, wie z. B. diejenigen einer minderjährigen verletzenden Person.</p><p>Die Hinzufügung von \"der verletzenden Person\" (\"de l'auteur de l'atteinte\") betrifft ausschliesslich den französischen Text, wo diese Präzisierung fehlt.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Artikel 28b Absatz 4 des Zivilgesetzbuches (SR 210) soll wie folgt geändert werden:</p><p>Artikel 28b B. Schutz der Persönlichkeit / II. Gegen Verletzungen / 2. Klage / b. Gewalt, Drohungen oder Nachstellungen</p><p>4 Die Kantone bezeichnen eine Stelle, die im Krisenfall die sofortige Ausweisung der verletzenden Person aus der gemeinsamen Wohnung verfügt, und regeln das Verfahren.</p>"
+      "value": "<p>Artikel 28b Absatz 4 des Zivilgesetzbuches (SR 210) soll wie folgt geändert werden:</p><p>Artikel 28b B. Schutz der Persönlichkeit / II. Gegen Verletzungen / 2. Klage / b. Gewalt, Drohungen oder Nachstellungen</p><p>4 Die Kantone bezeichnen eine Stelle, die im Krisenfall die sofortige Ausweisung der verletzenden Person aus der gemeinsamen Wohnung verfügt, und regeln das Verfahren.</p>"
     },
     {
       "type": {

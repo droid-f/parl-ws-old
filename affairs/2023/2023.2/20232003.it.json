@@ -1,13 +1,13 @@
 {
   "id": 20232003,
-  "updated": "2023-02-01T10:30:21Z",
+  "updated": "2026-09-17T08:57:35Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
     "name": "Petizione"
   },
   "author": {
-    "external": "Sessione dei giovani 2022",
+    "external": "Jugendsession 2022",
     "type": "author"
   },
   "deposit": {
@@ -22,7 +22,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2026-06-19T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -37,7 +51,7 @@
             "abbreviation": "CAPTE-CN",
             "id": 7,
             "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CN",
-            "abbreviation1": "CAPTE-CN",
+            "abbreviation1": "CAPTE-N",
             "abbreviation2": "CAPTE",
             "committeeNumber": 7,
             "council": {
@@ -51,27 +65,47 @@
           "date": "2023-01-11T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
-            "abbreviation": "CAPTE-CS",
-            "id": 20,
-            "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CS",
-            "abbreviation1": "CAPTE-CS",
-            "abbreviation2": "CAPTE",
-            "committeeNumber": 20,
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
             "council": {
-              "abbreviation": "CS",
-              "id": 2,
-              "name": "Consiglio degli Stati",
-              "type": "S"
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
             },
-            "typeCode": 1
+            "typeCode": 3
           },
-          "date": "2023-01-11T00:00:00Z",
+          "date": "2026-03-31T16:45:55Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3206,
+                    "gender": "m",
+                    "id": 4310,
+                    "name": "Guggisberg Lars",
+                    "officialDenomination": "Guggisberg"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -80,17 +114,38 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1673391600000+0100)/",
-          "id": 9,
+          "id": 202,
           "name": "Depositato"
+        },
+        {
+          "date": "/Date(1774738800000+0100)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1774908000000+0200)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1781820000000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
         }
       ],
       "texts": [
@@ -100,20 +155,24 @@
   ],
   "language": "it",
   "relatedAffairs": [
-
+    {
+      "id": 20224596,
+      "priorityCode": "S",
+      "shortId": "22.4596"
+    }
   ],
   "roles": [
     {
-      "external": "Sessione dei giovani 2022",
+      "external": "Jugendsession 2022",
       "type": "author"
     }
   ],
   "shortId": "23.2003",
   "state": {
-    "id": 9,
-    "name": "Depositato",
+    "id": 206,
+    "name": "Nella Commissione del Consiglio degli Stati",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

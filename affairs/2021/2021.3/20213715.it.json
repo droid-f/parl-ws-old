@@ -1,6 +1,6 @@
 {
   "id": 20213715,
-  "updated": "2023-06-13T10:19:07Z",
+  "updated": "2026-06-05T10:59:45Z",
   "additionalIndexing": "28;1216;2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2023-06-13T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-02-27T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
           }
         ]
       },
@@ -67,7 +82,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSEC-CN",
+            "id": 5,
+            "name": "Commissione della scienza, dell'educazione e della cultura CN",
+            "abbreviation1": "CSEC-N",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-15T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CS",
+            "id": 18,
+            "name": "Commissione della scienza, dell'educazione e della cultura CS",
+            "abbreviation1": "CSEC-S",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-15T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-23T14:39:45Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3227,
+                    "gender": "f",
+                    "id": 4332,
+                    "name": "Crevoisier Crelier Mathilde",
+                    "officialDenomination": "Crevoisier Crelier"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +184,33 @@
         },
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1703199600000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1705964400000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1707433200000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1708988400000+0100)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
+        },
+        {
+          "date": "/Date(1778104800000+0200)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
         }
       ],
       "texts": [
@@ -117,7 +238,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -327,7 +448,7 @@
         "gender": "m",
         "id": 4070,
         "name": "Candinas Martin",
-        "officialDenomination": "Candinas"
+        "officialDenomination": "Candinas Martin"
       },
       "type": "cosign"
     },
@@ -717,7 +838,7 @@
         "gender": "m",
         "id": 4141,
         "name": "Portmann Hans-Peter",
-        "officialDenomination": "Portmann"
+        "officialDenomination": "Portmann Hans-Peter"
       },
       "type": "cosign"
     },
@@ -909,10 +1030,9 @@
   ],
   "shortId": "21.3715",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 204,
+    "name": "Assegnato alla commissione competente",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -928,7 +1048,7 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>Adottando il rapporto redatto in adempimento del postulato 15.3945 \"Impedire la violenza sulle persone anziane\", nel settembre del 2020, il Consiglio federale ha riconosciuto l'importanza del problema in oggetto e la necessità di agire tramite la prevenzione e interventi da definire d'intesa con i Cantoni e gli altri attori di rilievo. Ora attende i risultati della concertazione svolta dal DFI con le conferenze dei direttori cantonali interessati (CdC, CDOS, CDS, CDDGP e COPMA) prima di decidere i prossimi passi. A causa della pandemia di COVID-19, su richiesta dei Cantoni, competenti per la maggioranza degli ambiti relativi alla prevenzione della violenza nei confronti delle persone anziane, la discussione è stata sospesa, ma tutte le parti coinvolte si sono impegnate a riprenderla nella primavera del 2022. Il Consiglio federale deciderà dunque entro la fine del 2022.</p><p>Negli ultimi mesi, questo tema non è stato dimenticato. Al momento è in fase di elaborazione un piano d'azione per l'attuazione della Convenzione del Consiglio d'Europa sulla prevenzione e la lotta contro la violenza nei confronti delle donne e la violenza domestica (Convenzione di Istanbul; RS 0.311.35), nel quale si terrà conto anche dei bisogni specifici delle persone anziane. Inoltre, il Dialogo strategico del 30 aprile 2021 tra la Confederazione, i Cantoni e alcune organizzazioni della società civile è sfociato nella firma di una roadmap \"Violenza domestica\" (www.ufg.admin.ch &gt; Società &gt; Violenza domestica &gt; Dialogo strategico \"Violenza domestica\"), che menziona, tra l'altro, un'iniziativa della Prevenzione Svizzera della Criminalità per una campagna di prevenzione destinata in modo mirato alle persone anziane.</p><p>Come sottolineato dall'autrice della mozione, il maltrattamento nei confronti delle persone anziane solleva questioni che vanno oltre la violenza domestica, in particolare per quanto concerne le cure, l'assistenza e i familiari assistenti. I bisogni e le possibilità d'intervento in questi ambiti saranno esaminati con gli uffici federali e le organizzazioni coinvolti, in vista della ripresa della discussione con i Cantoni.</p>"
+      "value": "<p>Adottando il rapporto redatto in adempimento del postulato 15.3945 \"Impedire la violenza sulle persone anziane\", nel settembre del 2020, il Consiglio federale ha riconosciuto l'importanza del problema in oggetto e la necessità di agire tramite la prevenzione e interventi da definire d'intesa con i Cantoni e gli altri attori di rilievo. Ora attende i risultati della concertazione svolta dal DFI con le conferenze dei direttori cantonali interessati (CdC, CDOS, CDS, CDDGP e COPMA) prima di decidere i prossimi passi. A causa della pandemia di COVID-19, su richiesta dei Cantoni, competenti per la maggioranza degli ambiti relativi alla prevenzione della violenza nei confronti delle persone anziane, la discussione è stata sospesa, ma tutte le parti coinvolte si sono impegnate a riprenderla nella primavera del 2022. Il Consiglio federale deciderà dunque entro la fine del 2022.</p><p>Negli ultimi mesi, questo tema non è stato dimenticato. Al momento è in fase di elaborazione un piano d'azione per l'attuazione della Convenzione del Consiglio d'Europa sulla prevenzione e la lotta contro la violenza nei confronti delle donne e la violenza domestica (Convenzione di Istanbul; RS 0.311.35), nel quale si terrà conto anche dei bisogni specifici delle persone anziane. Inoltre, il Dialogo strategico del 30 aprile 2021 tra la Confederazione, i Cantoni e alcune organizzazioni della società civile è sfociato nella firma di una roadmap \"Violenza domestica\" (www.ufg.admin.ch &gt; Società &gt; Violenza domestica &gt; Dialogo strategico \"Violenza domestica\"), che menziona, tra l'altro, un'iniziativa della Prevenzione Svizzera della Criminalità per una campagna di prevenzione destinata in modo mirato alle persone anziane.</p><p>Come sottolineato dall'autrice della mozione, il maltrattamento nei confronti delle persone anziane solleva questioni che vanno oltre la violenza domestica, in particolare per quanto concerne le cure, l'assistenza e i familiari assistenti. I bisogni e le possibilità d'intervento in questi ambiti saranno esaminati con gli uffici federali e le organizzazioni coinvolti, in vista della ripresa della discussione con i Cantoni.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

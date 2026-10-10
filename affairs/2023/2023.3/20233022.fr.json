@@ -1,6 +1,6 @@
 {
   "id": 20233022,
-  "updated": "2023-05-03T14:34:00Z",
+  "updated": "2026-09-24T09:03:05Z",
   "additionalIndexing": "09;66;24;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -12,7 +12,7 @@
       "abbreviation": "CEATE-CN",
       "id": 7,
       "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CN",
-      "abbreviation1": "CEATE-CN",
+      "abbreviation1": "CEATE-N",
       "abbreviation2": "CEATE",
       "committeeNumber": 7,
       "council": {
@@ -57,6 +57,51 @@
             "date": "2023-05-03T00:00:00Z",
             "text": "Adoption",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-03-05T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2026-09-21T00:00:00Z",
+            "text": "Classé dans le cadre d’un autre objet 26.006",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2026-09-24T00:00:00Z",
+            "text": "Classé dans le cadre d’un autre objet 26.006",
+            "type": 0
           }
         ]
       },
@@ -72,10 +117,50 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-19T14:44:40Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2783,
+                    "gender": "m",
+                    "id": 4078,
+                    "name": "Schmid Martin",
+                    "officialDenomination": "Schmid Martin"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CEATE-CN",
             "id": 7,
             "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CN",
-            "abbreviation1": "CEATE-CN",
+            "abbreviation1": "CEATE-N",
             "abbreviation2": "CEATE",
             "committeeNumber": 7,
             "council": {
@@ -142,7 +227,7 @@
             "abbreviation": "CEATE-CE",
             "id": 20,
             "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CE",
-            "abbreviation1": "CEATE-CE",
+            "abbreviation1": "CEATE-E",
             "abbreviation2": "CEATE",
             "committeeNumber": 20,
             "council": {
@@ -178,8 +263,48 @@
         },
         {
           "date": "/Date(1683064800000+0200)/",
-          "id": 11,
-          "name": "Motion au 2e conseil"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1693778400000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1706742000000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1709593200000+0100)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
+        },
+        {
+          "date": "/Date(1743544800000+0200)/",
+          "id": 215,
+          "name": "Rapport sur l'état d'avancement est disponible"
+        },
+        {
+          "date": "/Date(1774994400000+0200)/",
+          "id": 216,
+          "name": "Proposition de classement est disponible"
+        },
+        {
+          "date": "/Date(1789941600000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1790200800000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -206,7 +331,7 @@
         "abbreviation": "CEATE-CN",
         "id": 7,
         "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CN",
-        "abbreviation1": "CEATE-CN",
+        "abbreviation1": "CEATE-N",
         "abbreviation2": "CEATE",
         "committeeNumber": 7,
         "council": {
@@ -222,19 +347,25 @@
   ],
   "shortId": "23.3022",
   "state": {
-    "id": 11,
-    "name": "Motion au 2e conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "Le Conseil fédéral propose d'accepter la motion."
+    },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Le Conseil fédéral est chargé d'inclure dans le projet de loi sur les centrales de réserve dans le cadre de la réserve énergétique une disposition relative à une mesure visant à garantir l'approvisionnement en électricité en hiver grâce à des installations de couplage chaleur-force (installations CCF). Les questions suivantes doivent être abordées :</p><p>a. Quelles sont la puissance et la quantité d'énergie supplémentaires (heures d'exploitation) issues des nouvelles installations CCF qui seraient nécessaires d'ici 2035 pour contribuer de manière substantielle à la sécurité de l'approvisionnement en électricité durant le semestre d'hiver ? Quelle serait la trajectoire de développement annuelle ?</p><p>b. A combien doivent s'élever les subventions annuelles nécessaires pour garantir le développement visé au point a d'ici à 2035 ? Par quel moyen le financement doit-il être assuré (supplément réseau, fonds généraux de la Confédération) ?</p><p>c. Comment les subventions disponibles chaque année sont-elles attribuées (ventes aux enchères, contributions aux investissements) ?</p><p>d. Comment l'exploitation climatiquement neutre des installations CCF est-elle garantie dans le cadre du régime de CO2 (SEQE, attestations) ? En outre, l'utilisation et les coûts des technologies CCS doivent également être examinés.</p><p>e. Dans quels cas les installations sont-elles exploitées avec de la chaleur ou de l'électricité ? Quelles conditions doivent être remplies à cet effet ?</p>"
+      "value": "<p>Le Conseil fédéral est chargé d'inclure dans le projet de loi sur les centrales de réserve dans le cadre de la réserve énergétique une disposition relative à une mesure visant à garantir l'approvisionnement en électricité en hiver grâce à des installations de couplage chaleur-force (installations CCF). Les questions suivantes doivent être abordées :</p><p>a. Quelles sont la puissance et la quantité d'énergie supplémentaires (heures d'exploitation) issues des nouvelles installations CCF qui seraient nécessaires d'ici 2035 pour contribuer de manière substantielle à la sécurité de l'approvisionnement en électricité durant le semestre d'hiver ? Quelle serait la trajectoire de développement annuelle ?</p><p>b. À combien doivent s'élever les subventions annuelles nécessaires pour garantir le développement visé au point a d'ici à 2035 ? Par quel moyen le financement doit-il être assuré (supplément réseau, fonds généraux de la Confédération) ?</p><p>c. Comment les subventions disponibles chaque année sont-elles attribuées (ventes aux enchères, contributions aux investissements) ?</p><p>d. Comment l'exploitation climatiquement neutre des installations CCF est-elle garantie dans le cadre du régime de CO2 (SEQE, attestations) ? En outre, l'utilisation et les coûts des technologies CCS doivent également être examinés.</p><p>e. Dans quels cas les installations sont-elles exploitées avec de la chaleur ou de l'électricité ? Quelles conditions doivent être remplies à cet effet ?</p>"
     },
     {
       "type": {

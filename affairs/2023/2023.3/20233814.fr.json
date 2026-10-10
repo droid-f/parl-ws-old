@@ -1,7 +1,7 @@
 {
   "id": 20233814,
-  "updated": "2023-06-21T16:06:44Z",
-  "additionalIndexing": "2446;04",
+  "updated": "2026-06-02T08:45:04Z",
+  "additionalIndexing": "2841;04",
   "affairType": {
     "abbreviation": "Mo.",
     "id": 5,
@@ -40,29 +40,182 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-09-25T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2026-06-01T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-30T00:00:00Z",
+        "text": "Rejet"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-04-23T18:14:15Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3162,
+                    "gender": "m",
+                    "id": 4270,
+                    "name": "Hurni Baptiste",
+                    "officialDenomination": "Hurni"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSSS-CN",
+            "id": 6,
+            "name": "Commission de la sécurité sociale et de la santé publique CN",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSSS-CE",
+            "id": 19,
+            "name": "Commission de la sécurité sociale et de la santé publique CE",
+            "abbreviation1": "CSSS-E",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686780000000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1693346400000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1727215200000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1727820000000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1736809200000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1776895200000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1779746400000+0200)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1780264800000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -102,19 +255,40 @@
   ],
   "shortId": "23.3814",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>De nombreux hôpitaux sont aux soins intensifs du point de vue financier. Les pouvoirs publics, et donc le contribuable, sont régulièrement appelés à assurer la liquidité d'hôpitaux, en leur versant des contributions considérables, même quand ils sont devenus autonomes. Avec plus de 250 hôpitaux, aucun renversement de tendance n'est en vue, bien au contraire : alors que les difficultés financières sont de plus en plus fortes, la couverture médicale sur l'ensemble du territoire est de moins en moins garantie, sans compter le manque de personnel qualifié. Le canton d'Argovie devra ainsi injecter 240&nbsp;millions de francs dans d'hôpital cantonal d'Aarau, tandis qu'un nouveau grand bâtiment est en construction dans la ville voisine de Baden. À Berne, la fermeture de deux hôpitaux du groupe Insel a récemment été annoncée. Dans le canton de Saint-Gall, un hôpital récemment construit n'a jamais ouvert, tandis qu'un autre hôpital, jugé superflu à la suite de la planification hospitalière, a simplement été repris par un autre organisme qui en a poursuivi l'exploitation. Cette mentalité de libre-service, qui a des conséquences financières élevées pour ceux qui paient les primes et le contribuable, n'est guère viable.</p><p>Il est urgent que les acteurs responsables en vertu de la Constitution, les cantons et la Confédération changent de paradigme. Leurs efforts pour garantir la planification hospitalière doivent être davantage coordonnés. Les questions relatives à l'assurance-maladie (Confédération : quelles prestations financer et de quelle manière ?) et celles relatives aux soins (canton : quel hôpital offre quelles prestations ?) ne doivent plus être discutées et décidées séparément, afin que les coûts du système de santé restent supportables.</p><p>Étant donné que le Conseil fédéral a estimé jusqu'à présent que la Constitution ne permet pas de contraindre les cantons à davantage se coordonner (cf. 18.3779), il doit prendre l'initiative et présenter des arguments convaincants. Il faut notamment qu'il dispose d'une stratégie lors des discussions qu'il mènera avec les cantons. Une bonne coordination passe par une couverture médicale de base assurée généralement sur le plan régional et une centralisation des soins spécialisés. La centralisation doit cependant être pensée sur le plan régional en fonction notamment des flux de patients et de la géographie («&nbsp;concentration décentralisée&nbsp;»), et non entraîner une concentration de tous les soins spécialisés dans quelques cliniques universitaires situées sur le Plateau. Il ne doit pas y avoir de contradiction avec la motion no 23.3218 déposée au Conseil des États. Des solutions qui renforcent la coordination et la coopération par-delà les frontières cantonales améliorent la qualité et sont dans l'intérêt de ceux qui paient les primes et du contribuable.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral partage l’objectif de l’auteur de la motion, à savoir qu’il faut continuer de garantir un approvisionnement en soins sur l’ensemble du territoire tout en améliorant la qualité et l’efficacité des soins. Dans sa réponse aux motions 18.3294 du groupe vert’libéral et 20.4093 Mäder, toutes deux intitulées «&nbsp;Promouvoir la coordination et réduire les capacités excédentaires en définissant un maximum de six régions de santé&nbsp;», il a relevé qu’il est encore possible d’améliorer la coordination des planifications cantonales et, ainsi, de mettre en place un paysage hospitalier plus économique et de meilleure qualité. Il convient de noter que, selon la répartition constitutionnelle des compétences entre la Confédération et les cantons, ces derniers sont responsables de l’approvisionnement en soins et, partant, de leur planification. Par ailleurs, la loi fédérale sur l’assurance-maladie (LAMal&nbsp;; RS&nbsp;<i>832.10</i>) oblige déjà les cantons à coordonner leurs planifications&nbsp;; elle prend donc déjà en compte la requête formulée dans la présente motion.</p><p>&nbsp;</p><p>Dans son avis relatif à la motion 21.4439 Wyss «&nbsp;Planification hospitalière intercantonale répondant aux besoins&nbsp;», le Conseil fédéral a également relevé qu’avec la modification du 23&nbsp;juin 2021 de l’ordonnance sur l’assurance-maladie (OAMal&nbsp;; RS&nbsp;<i>832.102</i>), il a poursuivi l’harmonisation des critères que les cantons doivent appliquer pour la planification des hôpitaux, des maisons de naissance et des établissements médico-sociaux, et qu’il a donc déjà œuvré dans son domaine de compétences. Ces critères révisés définissent entre autres avec quels cantons les mesures de planification doivent être coordonnées. Ainsi, lorsqu’une coordination permet de renforcer l’économicité et la qualité des prestations fournies à l’hôpital, les cantons concernés doivent se coordonner. Depuis le 1er&nbsp;janvier 2022, les cantons ont ainsi l’obligation, au moment de choisir les établissements qu’ils inscrivent sur leur liste, de tenir compte du potentiel de concentration des prestations non seulement à l’échelon cantonal, mais aussi au-delà de leurs frontières. Deux cantons peuvent donc par exemple concentrer les prestations de certains groupes dans l’un des deux plutôt que de les fournir en parallèle. Il s’agit d’un défi de taille pour les cantons, qui sont désormais tenus explicitement et de manière contraignante de concrétiser le potentiel de coordination avec les autres cantons. Sa mise en œuvre devrait d’abord être observée.</p><p>&nbsp;</p><p>Enfin, le Conseil fédéral a proposé d’accepter le postulat 19.3423 déposé par la Commission de la sécurité sociale et de la santé publique du Conseil national «&nbsp;Assurance-maladie abordable à long terme. Pour être efficaces, les mesures de baisse des coûts et d’amélioration de l’efficacité doivent se fonder sur des modèles et des scénarios fiables&nbsp;». Dans ce cadre, il examinera et rendra compte des possibilités de garantir un approvisionnement en soins stationnaires optimal dans toute la Suisse en s’appuyant sur des modèles développés périodiquement et des scénarios à long terme. Pour ce faire, les flux réels de patients et les régions de soins doivent être pris en compte. Il convient donc d’attendre les conclusions du rapport de postulat avant qu’une obligation de rapport plus étendue ne soit examinée. Le Conseil fédéral propose par conséquent de rejeter la motion.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>Le Conseil fédéral est chargé d'approcher activement les cantons en leur présentant une stratégie permettant de garantir la couverture médicale sur l'ensemble du territoire tout en améliorant la qualité et l'efficacité selon le principe de la concentration décentralisée. Il fera rapport au Parlement tous les deux ans sur l'avancement du programme.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Planification hospitalière intercantonale. Coordination décentralisée de la médecine spécialisée et couverture médicale de base sur l'ensemble du territoire"
     }
   ],
-  "title": "Titre suit"
+  "title": "Planification hospitalière intercantonale. Coordination décentralisée de la médecine spécialisée et couverture médicale de base sur l'ensemble du territoire"
 }

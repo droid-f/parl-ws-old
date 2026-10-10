@@ -1,6 +1,6 @@
 {
   "id": 20222005,
-  "updated": "2022-04-13T16:16:08Z",
+  "updated": "2026-05-20T02:14:23Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-12-14T00:00:00Z",
+            "text": "Behandlung im Zusammenhang mit der Ablehnung der Motionen 22.3886 und 22.3887",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-03-20T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -37,7 +66,7 @@
             "abbreviation": "WAK-NR",
             "id": 10,
             "name": "Kommission für Wirtschaft und Abgaben NR",
-            "abbreviation1": "WAK-NR",
+            "abbreviation1": "WAK-N",
             "abbreviation2": "WAK",
             "committeeNumber": 10,
             "council": {
@@ -50,7 +79,11 @@
           },
           "date": "2022-04-12T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
           ]
         },
         {
@@ -58,7 +91,7 @@
             "abbreviation": "WAK-SR",
             "id": 23,
             "name": "Kommission für Wirtschaft und Abgaben SR",
-            "abbreviation1": "WAK-SR",
+            "abbreviation1": "WAK-S",
             "abbreviation2": "WAK",
             "committeeNumber": 23,
             "council": {
@@ -83,14 +116,35 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
+          "leading": false
+        },
+        {
+          "abbreviation": "WBF",
+          "id": 8,
+          "name": "Departement für Wirtschaft, Bildung und Forschung",
           "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1649714400000+0200)/",
-          "id": 9,
+          "id": 202,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1698706800000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1738278000000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1742425200000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -100,7 +154,16 @@
   ],
   "language": "de",
   "relatedAffairs": [
-
+    {
+      "id": 20223886,
+      "priorityCode": "N",
+      "shortId": "22.3886"
+    },
+    {
+      "id": 20223887,
+      "priorityCode": "N",
+      "shortId": "22.3887"
+    }
   ],
   "roles": [
     {
@@ -110,10 +173,10 @@
   ],
   "shortId": "22.2005",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

@@ -1,6 +1,6 @@
 {
   "id": 20210411,
-  "updated": "2023-05-23T17:03:02Z",
+  "updated": "2026-09-02T11:39:03Z",
   "additionalIndexing": "1211;2846;28",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -49,7 +49,7 @@
               "abbreviation": "CAJ-CN",
               "id": 12,
               "name": "Commission des affaires juridiques CN",
-              "abbreviation1": "CAJ-CN",
+              "abbreviation1": "CAJ-N",
               "abbreviation2": "CAJ",
               "committeeNumber": 12,
               "council": {
@@ -62,7 +62,7 @@
             },
             "council": null,
             "date": "2022-05-19T00:00:00Z",
-            "text": "Donné suite",
+            "text": "Donner suite (conseil prioritaire)",
             "type": 16
           },
           {
@@ -74,7 +74,7 @@
               "abbreviation": "CAJ-CE",
               "id": 25,
               "name": "Commission des affaires juridiques CE",
-              "abbreviation1": "CAJ-CE",
+              "abbreviation1": "CAJ-E",
               "abbreviation2": "CAJ",
               "committeeNumber": 25,
               "council": {
@@ -89,6 +89,36 @@
             "date": "2023-05-22T00:00:00Z",
             "text": "Adhésion",
             "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2025-06-20T00:00:00Z",
+            "text": "Prolongation de délai",
+            "type": 50
+          },
+          {
+            "category": {
+              "id": 4,
+              "name": "Complément"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2025-06-20T00:00:00Z",
+            "text": "Le délai imparti est prorogé jusqu'à la session d’été 2027",
+            "type": 0
           }
         ]
       },
@@ -104,7 +134,7 @@
             "abbreviation": "CAJ-CN",
             "id": 12,
             "name": "Commission des affaires juridiques CN",
-            "abbreviation1": "CAJ-CN",
+            "abbreviation1": "CAJ-N",
             "abbreviation2": "CAJ",
             "committeeNumber": 12,
             "council": {
@@ -142,14 +172,15 @@
                 }
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CAJ-CE",
             "id": 25,
             "name": "Commission des affaires juridiques CE",
-            "abbreviation1": "CAJ-CE",
+            "abbreviation1": "CAJ-E",
             "abbreviation2": "CAJ",
             "committeeNumber": 25,
             "council": {
@@ -167,7 +198,8 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -175,10 +207,16 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -189,12 +227,136 @@
         },
         {
           "date": "/Date(1684706400000+0200)/",
-          "id": 1,
-          "name": "Donné suite"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1725400800000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
         }
       ],
       "texts": [
 
+      ]
+    },
+    {
+      "consultation": {
+        "resolutions": [
+
+        ]
+      },
+      "federalCouncilProposal": {
+      },
+      "index": 1,
+      "links": [
+
+      ],
+      "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CAJ-CN",
+            "id": 12,
+            "name": "Commission des affaires juridiques CN",
+            "abbreviation1": "CAJ-N",
+            "abbreviation2": "CAJ",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-03-08T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAJ-CE",
+            "id": 25,
+            "name": "Commission des affaires juridiques CE",
+            "abbreviation1": "CAJ-E",
+            "abbreviation2": "CAJ",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-03-08T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
+      ],
+      "references": [
+        {
+          "date": "/Date(1615158000000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "null",
+            "source": "FF null null",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/null/null.pdf",
+            "year": "null"
+          },
+          "title": "Loi...",
+          "type": {
+            "id": 1,
+            "name": "Objet soumis à délibération / Projet"
+          }
+        }
+      ],
+      "relatedDepartments": [
+        {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        },
+        {
+          "abbreviation": "Parl",
+          "id": 1,
+          "name": "Parlement",
+          "leading": false
+        }
+      ],
+      "states": [
+        {
+          "date": "/Date(1684706400000+0200)/",
+          "id": 201,
+          "name": "Annoncé"
+        },
+        {
+          "date": "/Date(1725141600000+0200)/",
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1725400800000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        }
+      ],
+      "texts": [
+        {
+          "type": {
+            "id": 2,
+            "name": "Titre du projet"
+          },
+          "value": "Loi..."
+        }
       ]
     }
   ],
@@ -209,6 +371,21 @@
     }
   ],
   "relatedAffairs": [
+    {
+      "id": 20210410,
+      "priorityCode": "N",
+      "shortId": "21.410"
+    },
+    {
+      "id": 20210410,
+      "priorityCode": "N",
+      "shortId": "21.410"
+    },
+    {
+      "id": 20210410,
+      "priorityCode": "N",
+      "shortId": "21.410"
+    },
     {
       "id": 20210410,
       "priorityCode": "N",
@@ -284,8 +461,8 @@
   ],
   "shortId": "21.411",
   "state": {
-    "id": 1,
-    "name": "Donné suite",
+    "id": 208,
+    "name": "En commission du Conseil national",
     "doneKey": "0",
     "newKey": 0
   },
@@ -295,7 +472,7 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>En 2018, 18 522 infractions répondant à la définition de la violence domestique ont été enregistrées en Suisse. Soit une augmentation de 9 % par rapport à 2017. La seconde vague du covid a de plus augmenté encore ces chiffres.</p><p>La violence domestique est un fléau qui doit être combattu avec la plus grande énergie. Les victimes doivent être mieux protégées et les auteurs mieux accompagnés. Bien souvent, les victimes doivent quitter le domicile pour se protéger elles et leurs enfants. On a alors un effet de double peine : être victime de violences et perdre l'accès à son foyer.</p><p>Nous demandons dès lors une modification de l'art. 28 al. 4 CC introduisant le principe selon lequel les services cantonaux prononcent l'expulsion immédiate de l'auteur du logement commun. En effet, avec la mise en oeuvre claire du principe \"qui frappe part\", le message aux auteurs est clair et les victimes sont mieux protégées.</p><p>Ce principe a déjà été mis en application, avec succès, par plusieurs cantons : Vaud, Genève, Saint -Gall, Fribourg, Jura, Neuchâtel, Valais, Nidwald ou encore Obwald. Ces mesures se sont avérées efficaces : depuis 2015 et sa mise en oeuvre systématique dans le canton de Vaud, le nombre de mesures d'éloignement a été multiplié par dix. Ce principe est celui de la loi vaudoise contre la violence domestique, acceptée à l'unanimité en 2017 par le Grand conseil. Son objectif est de renforcer la protection des victimes en limitant la récidive (grâce à l'expulsion immédiate pour l'auteur et à un entretien socio-éducatifs obligatoire pour l'auteur), en spécialisant les professionnels et en améliorant la coordination entre les entités concernées. Il s'agit d'un principe et non d'un automatisme, ce qui permet de prendre en compte, au besoin, des cas particuliers, comme ceux d'un auteur mineur.</p><p>L'ajout \" de l'auteur de l'atteinte\" concerne  uniquement le texte en français, où il fait défaut.</p>"
+      "value": "<p>En 2018, 18 522 infractions répondant à la définition de la violence domestique ont été enregistrées en Suisse. Soit une augmentation de 9 % par rapport à 2017. La seconde vague du covid a de plus augmenté encore ces chiffres.</p><p>La violence domestique est un fléau qui doit être combattu avec la plus grande énergie. Les victimes doivent être mieux protégées et les auteurs mieux accompagnés. Bien souvent, les victimes doivent quitter le domicile pour se protéger elles et leurs enfants. On a alors un effet de double peine : être victime de violences et perdre l'accès à son foyer.</p><p>Nous demandons dès lors une modification de l'art. 28 al. 4 CC introduisant le principe selon lequel les services cantonaux prononcent l'expulsion immédiate de l'auteur du logement commun. En effet, avec la mise en oeuvre claire du principe \"qui frappe part\", le message aux auteurs est clair et les victimes sont mieux protégées.</p><p>Ce principe a déjà été mis en application, avec succès, par plusieurs cantons : Vaud, Genève, Saint -Gall, Fribourg, Jura, Neuchâtel, Valais, Nidwald ou encore Obwald. Ces mesures se sont avérées efficaces : depuis 2015 et sa mise en oeuvre systématique dans le canton de Vaud, le nombre de mesures d'éloignement a été multiplié par dix. Ce principe est celui de la loi vaudoise contre la violence domestique, acceptée à l'unanimité en 2017 par le Grand conseil. Son objectif est de renforcer la protection des victimes en limitant la récidive (grâce à l'expulsion immédiate pour l'auteur et à un entretien socio-éducatifs obligatoire pour l'auteur), en spécialisant les professionnels et en améliorant la coordination entre les entités concernées. Il s'agit d'un principe et non d'un automatisme, ce qui permet de prendre en compte, au besoin, des cas particuliers, comme ceux d'un auteur mineur.</p><p>L'ajout \" de l'auteur de l'atteinte\" concerne  uniquement le texte en français, où il fait défaut.</p>"
     },
     {
       "type": {

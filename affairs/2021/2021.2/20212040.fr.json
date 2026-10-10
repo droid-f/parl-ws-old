@@ -1,13 +1,13 @@
 {
   "id": 20212040,
-  "updated": "2021-11-24T14:06:21Z",
+  "updated": "2026-05-20T02:14:18Z",
   "affairType": {
     "abbreviation": "Pét.",
     "id": 10,
     "name": "Pétition"
   },
   "author": {
-    "external": "Session des femmes 2021",
+    "external": "Frauensession 2021",
     "type": "author"
   },
   "deposit": {
@@ -22,7 +22,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-06-07T00:00:00Z",
+            "text": "Le conseil prend acte du fait que la commission a également traité la pétition 21.2040 dans le cadre de l’examen des objets 21.405 et 21.414 (cf. art. 126 LParl).",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-06-13T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -37,7 +66,7 @@
             "abbreviation": "CIP-CN",
             "id": 11,
             "name": "Commission des institutions politiques CN",
-            "abbreviation1": "CIP-CN",
+            "abbreviation1": "CIP-N",
             "abbreviation2": "CIP",
             "committeeNumber": 11,
             "council": {
@@ -50,7 +79,12 @@
           },
           "date": "2021-10-30T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ],
+              "sessionId": "5114"
+            }
           ]
         },
         {
@@ -58,7 +92,7 @@
             "abbreviation": "CIP-CE",
             "id": 24,
             "name": "Commission des institutions politiques CE",
-            "abbreviation1": "CIP-CE",
+            "abbreviation1": "CIP-E",
             "abbreviation2": "CIP",
             "committeeNumber": 24,
             "council": {
@@ -80,17 +114,38 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1635544800000+0200)/",
-          "id": 9,
+          "id": 202,
           "name": "Déposé"
+        },
+        {
+          "date": "/Date(1710802800000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1712700000000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1718229600000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -100,20 +155,29 @@
   ],
   "language": "fr",
   "relatedAffairs": [
-
+    {
+      "id": 20210405,
+      "priorityCode": "N",
+      "shortId": "21.405"
+    },
+    {
+      "id": 20210414,
+      "priorityCode": "N",
+      "shortId": "21.414"
+    }
   ],
   "roles": [
     {
-      "external": "Session des femmes 2021",
+      "external": "Frauensession 2021",
       "type": "author"
     }
   ],
   "shortId": "21.2040",
   "state": {
-    "id": 9,
-    "name": "Déposé",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -121,8 +185,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Introduction du droit de vote pour les habitant.e.s du pays n’ayant pas la citoyenneté suisse"
+      "value": "Introduction du droit de vote pour les habitants et habitantes du pays n'ayant pas la citoyenneté suisse"
     }
   ],
-  "title": "Introduction du droit de vote pour les habitant.e.s du pays n’ayant pas la citoyenneté suisse"
+  "title": "Introduction du droit de vote pour les habitants et habitantes du pays n'ayant pas la citoyenneté suisse"
 }

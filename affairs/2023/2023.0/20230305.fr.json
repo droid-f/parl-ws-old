@@ -1,6 +1,7 @@
 {
   "id": 20230305,
-  "updated": "2023-03-22T06:59:07Z",
+  "updated": "2026-05-20T02:13:49Z",
+  "additionalIndexing": "44;2446;28;1236",
   "affairType": {
     "abbreviation": "Iv. ct.",
     "id": 3,
@@ -26,7 +27,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-03-14T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-09-25T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -36,24 +66,143 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-19T16:51:41Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2783,
+                    "gender": "m",
+                    "id": 4078,
+                    "name": "Schmid Martin",
+                    "officialDenomination": "Schmid Martin"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CE",
+            "id": 23,
+            "name": "Commission de l'économie et des redevances CE",
+            "abbreviation1": "CER-E",
+            "abbreviation2": "CER",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-15T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CN",
+            "id": 10,
+            "name": "Commission de l'économie et des redevances CN",
+            "abbreviation1": "CER-N",
+            "abbreviation2": "CER",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-15T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "V"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Département des finances",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1678834800000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1685916000000+0200)/",
+          "id": 225,
+          "name": "Examen préalable - en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1708297200000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1708383600000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1710370800000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1724018400000+0200)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1727215200000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -86,10 +235,10 @@
   ],
   "shortId": "23.305",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -97,22 +246,22 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Le système fiscal en vigueur s'appuie sur l'état-civil pour déterminer la taxation des particuliers. Or, ce principe est en contradiction croissante avec la réalité sociale. Si le mariage était autrefois la norme, ce n'est plus le cas aujourd'hui : le nombre de divorces augmente ainsi que le nombre de familles recomposées. Une société ouverte et libérale, qui entend laisser aux individus le choix de leur mode de vie, ne devrait pas en privilégier un en particulier.</p><p>Il existe une alternative au système actuel : l'imposition individuelle est indépendante de l'état civil, tient compte des changements de société, et favorise, par différentes incitations, la présence des femmes sur le marché du travail. En outre, elle permet de régler différents problèmes qui se posent avec le système en vigueur, comme l'inégalité de traitement entre les couples mariés et les couples de concubins ou l'imposition des familles monoparentales.</p><p>Au niveau fédéral, la situation en la matière n'est pas encore tranchée, et ce sont les cantons qui en subissent les conséquences : il est par conséquent logique que les cantons puissent, à travers la Conférence des directrices et directeurs cantonaux des finances, exercer une influence dans ce domaine.</p>"
+      "value": "<p>Le système fiscal en vigueur s'appuie sur l'état-civil pour déterminer la taxation des particuliers. Or, ce principe est en contradiction croissante avec la réalité sociale. Si le mariage était autrefois la norme, ce n'est plus le cas aujourd'hui : le nombre de divorces augmente ainsi que le nombre de familles recomposées. Une société ouverte et libérale, qui entend laisser aux individus le choix de leur mode de vie, ne devrait pas en privilégier un en particulier.</p><p>Il existe une alternative au système actuel : l'imposition individuelle est indépendante de l'état civil, tient compte des changements de société, et favorise, par différentes incitations, la présence des femmes sur le marché du travail. En outre, elle permet de régler différents problèmes qui se posent avec le système en vigueur, comme l'inégalité de traitement entre les couples mariés et les couples de concubins ou l'imposition des familles monoparentales.</p><p>Au niveau fédéral, la situation en la matière n'est pas encore tranchée, et ce sont les cantons qui en subissent les conséquences : il est par conséquent logique que les cantons puissent, à travers la Conférence des directrices et directeurs cantonaux des finances, exercer une influence dans ce domaine.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Se fondant sur l'art. 160, al. 1, de la Constitution fédérale, le Grand Conseil du canton des Grisons soumet à l'Assemblée fédérale l'initiative suivante :</p><p>Le canton des Grisons demande une modification des bases légales permettant de passer du système d'imposition du couple et de la famille à un système d'imposition individuelle.</p>"
+      "value": "<p>Se fondant sur l'art. 160, al. 1, de la Constitution fédérale, le Grand Conseil du canton des Grisons soumet à l'Assemblée fédérale l'initiative suivante :</p><p>Le canton des Grisons demande une modification des bases légales permettant de passer du système d'imposition du couple et de la famille à un système d'imposition individuelle.</p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Introduction de l’imposition individuelle"
+      "value": "Introduction de l'imposition individuelle"
     }
   ],
-  "title": "Introduction de l’imposition individuelle"
+  "title": "Introduction de l'imposition individuelle"
 }

@@ -1,6 +1,7 @@
 {
   "id": 20233958,
-  "updated": "2023-06-20T16:58:36Z",
+  "updated": "2026-09-24T08:41:14Z",
+  "additionalIndexing": "04;1236;34;09",
   "affairType": {
     "abbreviation": "Po.",
     "id": 6,
@@ -11,7 +12,7 @@
       "abbreviation": "CPS-CN",
       "id": 8,
       "name": "Commission de la politique de sécurité CN",
-      "abbreviation1": "CPS-CN",
+      "abbreviation1": "CPS-N",
       "abbreviation2": "CPS",
       "committeeNumber": 8,
       "council": {
@@ -42,10 +43,42 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-27T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2026-09-24T00:00:00Z",
+            "text": "Classé dans le cadre d’un autre objet 26.006",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-08-30T00:00:00Z",
+        "text": "Adoption"
       },
       "index": 0,
       "links": [
@@ -54,10 +87,31 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "CPS-CE",
+            "id": 21,
+            "name": "Commission de la politique de sécurité CE",
+            "abbreviation1": "CPS-E",
+            "abbreviation2": "CPS",
+            "committeeNumber": 21,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2025-11-14T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CPS-CN",
             "id": 8,
             "name": "Commission de la politique de sécurité CN",
-            "abbreviation1": "CPS-CN",
+            "abbreviation1": "CPS-N",
             "abbreviation2": "CPS",
             "committeeNumber": 8,
             "council": {
@@ -78,13 +132,53 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "ChF",
+          "id": 10,
+          "name": "Chancellerie fédérale",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1687212000000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1693346400000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1695679200000+0200)/",
+          "id": 205,
+          "name": "Planifié au Conseil national"
+        },
+        {
+          "date": "/Date(1695765600000+0200)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
+        },
+        {
+          "date": "/Date(1761692400000+0100)/",
+          "id": 218,
+          "name": "Rapport en réponse de l'intervention est disponible"
+        },
+        {
+          "date": "/Date(1763074800000+0100)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1774994400000+0200)/",
+          "id": 216,
+          "name": "Proposition de classement est disponible"
+        },
+        {
+          "date": "/Date(1790200800000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -111,7 +205,7 @@
         "abbreviation": "CPS-CN",
         "id": 8,
         "name": "Commission de la politique de sécurité CN",
-        "abbreviation1": "CPS-CN",
+        "abbreviation1": "CPS-N",
         "abbreviation2": "CPS",
         "committeeNumber": 8,
         "council": {
@@ -127,10 +221,10 @@
   ],
   "shortId": "23.3958",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -138,7 +232,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p  align=\"both\">La cybersécurité des réseaux de communication est un sujet de plus en plus important. La récente recrudescence des cyberattaques, notamment contre les infrastructures numériques des autorités, est très inquiétante. </p><p  align=\"both\">Afin de protéger leurs données contre les cyberattaques, les entreprises et l'administration fédérale communiquaient jusqu'à présent au moyen de lignes dédiées ou par réseaux fermés. Les lignes dédiées ne protègent le flux de données qu'entre deux terminaux, pas sur Internet. Même si le flux de données sur Internet est chiffré, il reste exposé aux cyberattaques de tiers dans le monde entier qui chercheraient à les déchiffrer ou à perturber la communication. </p><p  align=\"both\">Le rapport a pour but d'exposer les approches possibles dans ces cas. L'accent y est notamment mis sur le standard de communication ouvert qui a été développé à l'EPFZ : Scalability, Control and Isolation On Next-Generation Networks (SCION). Ce standard de communication permet entre autres aux utilisateurs et utilisatrices du réseau de contrôler le chemin emprunté par leurs paquets de données. </p><p  align=\"both\">L'administration fédérale a déjà réalisé des projets pilotes avec le protocole SCION. A l'initiative de la Banque nationale suisse (BNS), il a été décidé de remplacer à moyen terme l'infrastructure réseau de la place financière suisse (FinanceIPNet) par le Secure Swiss Finance Network (SSFN), dont la technologie se base également sur le protocole SCION.</p>"
+      "value": "<p align=\"both\">La cybersécurité des réseaux de communication est un sujet de plus en plus important. La récente recrudescence des cyberattaques, notamment contre les infrastructures numériques des autorités, est très inquiétante. </p><p align=\"both\">Afin de protéger leurs données contre les cyberattaques, les entreprises et l'administration fédérale communiquaient jusqu'à présent au moyen de lignes dédiées ou par réseaux fermés. Les lignes dédiées ne protègent le flux de données qu'entre deux terminaux, pas sur Internet. Même si le flux de données sur Internet est chiffré, il reste exposé aux cyberattaques de tiers dans le monde entier qui chercheraient à les déchiffrer ou à perturber la communication. </p><p align=\"both\">Le rapport a pour but d'exposer les approches possibles dans ces cas. L'accent y est notamment mis sur le standard de communication ouvert qui a été développé à l'EPFZ : Scalability, Control and Isolation On Next-Generation Networks (SCION). Ce standard de communication permet entre autres aux utilisateurs et utilisatrices du réseau de contrôler le chemin emprunté par leurs paquets de données. </p><p align=\"both\">L'administration fédérale a déjà réalisé des projets pilotes avec le protocole SCION. À l'initiative de la Banque nationale suisse (BNS), il a été décidé de remplacer à moyen terme l'infrastructure réseau de la place financière suisse (FinanceIPNet) par le Secure Swiss Finance Network (SSFN), dont la technologie se base également sur le protocole SCION.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral propose d’accepter le postulat.</p>"
     },
     {
       "type": {
@@ -152,8 +253,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Sécuriser le flux de données de l’administration fédérale"
+      "value": "Sécuriser le flux de données de l'administration fédérale"
     }
   ],
-  "title": "Sécuriser le flux de données de l’administration fédérale"
+  "title": "Sécuriser le flux de données de l'administration fédérale"
 }

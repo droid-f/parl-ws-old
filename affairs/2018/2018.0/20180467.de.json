@@ -1,6 +1,6 @@
 {
   "id": 20180467,
-  "updated": "2023-03-22T07:21:10Z",
+  "updated": "2026-02-20T17:16:34Z",
   "additionalIndexing": "1211;28;2811",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -43,8 +43,8 @@
         "resolutions": [
           {
             "category": {
-              "id": 5,
-              "name": "Adm"
+              "id": 4,
+              "name": "Ergänzung"
             },
             "council": {
               "abbreviation": "NR",
@@ -53,8 +53,8 @@
               "type": "N"
             },
             "date": "2019-05-20T00:00:00Z",
-            "text": "Wird übernommen",
-            "type": 90
+            "text": null,
+            "type": 0
           },
           {
             "category": {
@@ -65,7 +65,7 @@
               "abbreviation": "RK-NR",
               "id": 12,
               "name": "Kommission für Rechtsfragen NR",
-              "abbreviation1": "RK-NR",
+              "abbreviation1": "RK-N",
               "abbreviation2": "RK",
               "committeeNumber": 12,
               "council": {
@@ -78,7 +78,7 @@
             },
             "council": null,
             "date": "2020-02-20T00:00:00Z",
-            "text": "Folge gegeben",
+            "text": "Folge geben (Erstrat)",
             "type": 16
           },
           {
@@ -90,7 +90,7 @@
               "abbreviation": "RK-SR",
               "id": 25,
               "name": "Kommission für Rechtsfragen SR",
-              "abbreviation1": "RK-SR",
+              "abbreviation1": "RK-S",
               "abbreviation2": "RK",
               "committeeNumber": 25,
               "council": {
@@ -120,6 +120,46 @@
             "date": "2022-03-15T00:00:00Z",
             "text": "Folge gegeben",
             "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "RK-SR",
+              "id": 25,
+              "name": "Kommission für Rechtsfragen SR",
+              "abbreviation1": "RK-S",
+              "abbreviation2": "RK",
+              "committeeNumber": 25,
+              "council": {
+                "abbreviation": "SR",
+                "id": 2,
+                "name": "Ständerat",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-04-18T00:00:00Z",
+            "text": "Folge geben (Differenzbereinigung)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-09-27T00:00:00Z",
+            "text": "Abschreibung",
+            "type": 15
           }
         ]
       },
@@ -135,7 +175,7 @@
             "abbreviation": "RK-NR",
             "id": 12,
             "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
+            "abbreviation1": "RK-N",
             "abbreviation2": "RK",
             "committeeNumber": 12,
             "council": {
@@ -167,7 +207,7 @@
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -189,9 +229,10 @@
               "correspondents": [
 
               ],
-              "sessionId": "5121"
+              "sessionId": "5122"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -199,10 +240,16 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -213,8 +260,122 @@
         },
         {
           "date": "/Date(1647298800000+0100)/",
-          "id": 28,
-          "name": "Vorprüfung - Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1688421600000+0200)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1688508000000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1727388000000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
+        }
+      ],
+      "texts": [
+
+      ]
+    },
+    {
+      "consultation": {
+        "resolutions": [
+
+        ]
+      },
+      "federalCouncilProposal": {
+      },
+      "index": 1,
+      "links": [
+
+      ],
+      "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2018-12-03T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2018-12-03T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
+      ],
+      "references": [
+
+      ],
+      "relatedDepartments": [
+        {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        },
+        {
+          "abbreviation": "Parl",
+          "id": 1,
+          "name": "Parlament",
+          "leading": false
+        }
+      ],
+      "states": [
+        {
+          "date": "/Date(1700607600000+0100)/",
+          "id": 201,
+          "name": "Angemeldet"
+        },
+        {
+          "date": "/Date(1725141600000+0200)/",
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1727301600000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1732057200000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -265,8 +426,8 @@
   ],
   "shortId": "18.467",
   "state": {
-    "id": 28,
-    "name": "Vorprüfung - Behandelt vom Nationalrat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },
@@ -276,14 +437,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Meine Motion 16.3916 wird in der Wintersession 2019 abgeschrieben, weil sie seit mehr als zwei Jahren hängig ist und im Rat nicht behandelt wurde. Das ändert aber nichts an den Schicksalen der - meist weiblichen - Jugendlichen und Kinder, die zwangsverheiratet werden.</p><p>Minderjährigenheiraten in der Schweiz nehmen sogar zu. Die Fachstelle Zwangsheirat, das Kompetenzzentrum des Bundes in dieser Frage, berichtet von 107 Fällen im Jahr 2017. Besonders stark nahmen Fälle mit Kindern unter 16 Jahren zu, welche von Zwangsheirat bedroht waren. Ebenfalls nehmen Fälle von sogenannten religiös geschlossenen Minderjährigenehen zu (vgl. \"NZZ\" vom 4. März 2018).</p><p>Aus diesen Gründen unterstützt auch die Fachstelle Zwangsheirat die Forderung nach einem Verbot von Kinderehen in der Schweiz. In einem Schreiben an die Nationalratsmitglieder vom 7. September 2018 hält diese fest, dass allen das Anrecht auf Schutz zusteht. Eine Vereinheitlichung des Ehefähigkeitsalters bei 18 Jahren und dessen uneingeschränkte Gültigkeit seien notwendig, wenn Kinder- und Minderjährigenheiraten in der Schweiz effektiv und nachhaltig bekämpft werden sollen. Es sei Zeit für ein Korrektiv.</p><p>In der Schweiz müssen Brautleute gemäss Artikel 94 ZGB das 18. Altersjahr zurückgelegt haben und urteilsfähig sein, um die Ehe eingehen zu können. Ist einer der Ehegatten minderjährig, liegt gemäss Artikel 105 Ziffer 6 ZGB ein unbefristeter Ungültigkeitsgrund vor. Jedoch lässt derselbe Artikel im zweiten Satz eine Anerkennung von Minderjährigenehen zu, wenn \"... die Weiterführung der Ehe den überwiegenden Interessen dieses Ehegatten\" entspricht. Dieser Satz ist ein Affront für die betroffenen Jugendlichen, die oftmals in einem Abhängigkeitsverhältnis zum \"Ehegatten\" stehen. In der Schweiz dürfen Frauen ab 18 Jahren selbstbestimmt entscheiden, mit wem sie die Ehe eingehen wollen. Ebenfalls ist es unsere Pflicht, diese vor sexuellem Missbrauch zu schützen.</p>"
+      "value": "<p>Meine Motion 16.3916 wird in der Wintersession 2019 abgeschrieben, weil sie seit mehr als zwei Jahren hängig ist und im Rat nicht behandelt wurde. Das ändert aber nichts an den Schicksalen der - meist weiblichen - Jugendlichen und Kinder, die zwangsverheiratet werden.</p><p>Minderjährigenheiraten in der Schweiz nehmen sogar zu. Die Fachstelle Zwangsheirat, das Kompetenzzentrum des Bundes in dieser Frage, berichtet von 107 Fällen im Jahr 2017. Besonders stark nahmen Fälle mit Kindern unter 16 Jahren zu, welche von Zwangsheirat bedroht waren. Ebenfalls nehmen Fälle von sogenannten religiös geschlossenen Minderjährigenehen zu (vgl. \"NZZ\" vom 4. März 2018).</p><p>Aus diesen Gründen unterstützt auch die Fachstelle Zwangsheirat die Forderung nach einem Verbot von Kinderehen in der Schweiz. In einem Schreiben an die Nationalratsmitglieder vom 7. September 2018 hält diese fest, dass allen das Anrecht auf Schutz zusteht. Eine Vereinheitlichung des Ehefähigkeitsalters bei 18 Jahren und dessen uneingeschränkte Gültigkeit seien notwendig, wenn Kinder- und Minderjährigenheiraten in der Schweiz effektiv und nachhaltig bekämpft werden sollen. Es sei Zeit für ein Korrektiv.</p><p>In der Schweiz müssen Brautleute gemäss Artikel 94 ZGB das 18. Altersjahr zurückgelegt haben und urteilsfähig sein, um die Ehe eingehen zu können. Ist einer der Ehegatten minderjährig, liegt gemäss Artikel 105 Ziffer 6 ZGB ein unbefristeter Ungültigkeitsgrund vor. Jedoch lässt derselbe Artikel im zweiten Satz eine Anerkennung von Minderjährigenehen zu, wenn \"... die Weiterführung der Ehe den überwiegenden Interessen dieses Ehegatten\" entspricht. Dieser Satz ist ein Affront für die betroffenen Jugendlichen, die oftmals in einem Abhängigkeitsverhältnis zum \"Ehegatten\" stehen. In der Schweiz dürfen Frauen ab 18 Jahren selbstbestimmt entscheiden, mit wem sie die Ehe eingehen wollen. Ebenfalls ist es unsere Pflicht, diese vor sexuellem Missbrauch zu schützen.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Artikel 105 Ziffer 6 (Minderjährigkeit als Grund für unbefristete Eheungültigkeit) des Zivilgesetzbuches (ZGB) ist wie folgt zu ändern:</p><p>Art. 105</p><p>Ein Ungültigkeitsgrund liegt vor, wenn:</p><p>...</p><p>6. einer der Ehegatten minderjährig ist.</p><p>(Der zweite Teil des Satzes \"es sei denn, die Weiterführung der Ehe entspricht den überwiegenden Interessen dieses Ehegatten\" ist zu streichen.)</p>"
+      "value": "<p>Artikel&nbsp;105 Ziffer 6 (Minderjährigkeit als Grund für unbefristete Eheungültigkeit) des Zivilgesetzbuches (ZGB) ist wie folgt zu ändern:</p><p>Art. 105</p><p>Ein Ungültigkeitsgrund liegt vor, wenn:</p><p>...</p><p>6. einer der Ehegatten minderjährig ist.&nbsp;</p><p>(Der zweite Teil des Satzes \"es sei denn, die Weiterführung der Ehe entspricht den überwiegenden Interessen dieses Ehegatten\" ist zu streichen.)</p>"
     },
     {
       "type": {

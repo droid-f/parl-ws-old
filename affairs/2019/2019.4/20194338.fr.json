@@ -1,6 +1,6 @@
 {
   "id": 20194338,
-  "updated": "2021-09-30T16:06:19Z",
+  "updated": "2026-06-09T08:20:41Z",
   "additionalIndexing": "1211",
   "affairType": {
     "abbreviation": "Mo.",
@@ -13,7 +13,7 @@
       "gender": "m",
       "id": 4070,
       "name": "Candinas Martin",
-      "officialDenomination": "Candinas"
+      "officialDenomination": "Candinas Martin"
     },
     "faction": {
       "abbreviation": "Groupe C",
@@ -54,6 +54,21 @@
             "date": "2021-09-30T00:00:00Z",
             "text": "Adoption",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2026-06-08T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
           }
         ]
       },
@@ -69,10 +84,50 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-03-31T14:49:43Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3205,
+                    "gender": "m",
+                    "id": 4309,
+                    "name": "Michel Matthias",
+                    "officialDenomination": "Michel Matthias"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CAJ-CN",
             "id": 12,
             "name": "Commission des affaires juridiques CN",
-            "abbreviation1": "CAJ-CN",
+            "abbreviation1": "CAJ-N",
             "abbreviation2": "CAJ",
             "committeeNumber": 12,
             "council": {
@@ -93,7 +148,7 @@
             "abbreviation": "CAJ-CE",
             "id": 25,
             "name": "Commission des affaires juridiques CE",
-            "abbreviation1": "CAJ-CE",
+            "abbreviation1": "CAJ-E",
             "abbreviation2": "CAJ",
             "committeeNumber": 25,
             "council": {
@@ -106,7 +161,12 @@
           },
           "date": "2019-09-27T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ],
+              "sessionId": "5201"
+            }
           ]
         }
       ],
@@ -129,8 +189,28 @@
         },
         {
           "date": "/Date(1632952800000+0200)/",
-          "id": 11,
-          "name": "Motion au 2e conseil"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1773874800000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1775080800000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1779746400000+0200)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1780869600000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -228,7 +308,7 @@
         "gender": "m",
         "id": 4070,
         "name": "Candinas Martin",
-        "officialDenomination": "Candinas"
+        "officialDenomination": "Candinas Martin"
       },
       "faction": {
         "abbreviation": "Groupe C",
@@ -240,10 +320,9 @@
   ],
   "shortId": "19.4338",
   "state": {
-    "id": 11,
-    "name": "Motion au 2e conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -252,14 +331,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Les données contenues dans le registre des poursuites d'un ancien domicile déclaré n'apparaissent pas dans le domicile actuel déclaré d'une personne. Non seulement cette situation favorise les abus, mais elle a pour conséquence qu'un déménagement crée (momentanément) un extrait du registre de poursuites blanc comme neige. Un partenaire contractuel potentiel peut ainsi être amené à conclure un contrat alors qu'il ne l'aurait pas fait s'il avait eu pleinement connaissance de la solvabilité de l'autre partie. Instaurer l'obligation de communiquer automatiquement au nouvel office des poursuites compétent les données des personnes qui déménagent ou qui changent leur domicile déclaré permettrait d'y remédier.</p><p>Si le domicile déclaré ne correspond pas au for de la poursuite, l'office des poursuites compétent du domicile effectif de la personne (for de la poursuite) reprendra les données du registre des poursuites du domicile déclaré et ce dernier ne délivrera plus d'extrait du registre. L'article 46 alinéa 1 de la loi fédérale sur la poursuite pour dettes et la faillite (for ordinaire de la poursuite) devrait par ailleurs être aligné sur l'article 23 alinéa 1 du code civil (domicile) pour les séjours dans un EMS, à l'hôpital ou en prison notamment. Les exceptions devraient être signalées de manière adéquate sous forme de réserve sur l'extrait du registre.</p><p>La sécurité du droit exige que le nouvel office des poursuites compétent ne puisse délivrer un extrait du registre des poursuites qu'une fois que la reprise dans le nouveau registre des données de l'ancien office des poursuites est garantie. L'extrait du registre délivré par le nouvel office des poursuites devrait signaler pendant cinq ans au maximum sous forme de réserve qu'il se fonde sur des données issues de l'ancien arrondissement des poursuites.</p>"
+      "value": "<p>Les données contenues dans le registre des poursuites d'un ancien domicile déclaré n'apparaissent pas dans le domicile actuel déclaré d'une personne. Non seulement cette situation favorise les abus, mais elle a pour conséquence qu'un déménagement crée (momentanément) un extrait du registre de poursuites blanc comme neige. Un partenaire contractuel potentiel peut ainsi être amené à conclure un contrat alors qu'il ne l'aurait pas fait s'il avait eu pleinement connaissance de la solvabilité de l'autre partie. Instaurer l'obligation de communiquer automatiquement au nouvel office des poursuites compétent les données des personnes qui déménagent ou qui changent leur domicile déclaré permettrait d'y remédier.</p><p>Si le domicile déclaré ne correspond pas au for de la poursuite, l'office des poursuites compétent du domicile effectif de la personne (for de la poursuite) reprendra les données du registre des poursuites du domicile déclaré et ce dernier ne délivrera plus d'extrait du registre. L'art. 46, al. 1, de la loi fédérale sur la poursuite pour dettes et la faillite (for ordinaire de la poursuite) devrait par ailleurs être aligné sur l'art. 23, al. 1, du code civil (domicile) pour les séjours dans un EMS, à l'hôpital ou en prison notamment. Les exceptions devraient être signalées de manière adéquate sous forme de réserve sur l'extrait du registre.</p><p>La sécurité du droit exige que le nouvel office des poursuites compétent ne puisse délivrer un extrait du registre des poursuites qu'une fois que la reprise dans le nouveau registre des données de l'ancien office des poursuites est garantie. L'extrait du registre délivré par le nouvel office des poursuites devrait signaler pendant cinq ans au maximum sous forme de réserve qu'il se fonde sur des données issues de l'ancien arrondissement des poursuites.</p>"
     },
     {
       "type": {
         "id": 14,
         "name": "Réponse CF / Bureau"
       },
-      "value": "<p>Le Conseil fédéral a étudié en détail les conditions de la création d'un extrait national du registre des poursuites dans son rapport en réponse au postulat 12.3957 Candinas \"Lutte contre les débiteurs qui veulent échapper à leurs dettes en déménageant\". Cette étude a montré qu'un extrait national infaillible du registre des poursuites n'est pas réalisable aujourd'hui à un coût raisonnable. Le Conseil fédéral s'était donc alors prononcé contre la création d'un tel extrait.</p><p>Entre-temps, le Parlement a toutefois adopté la motion 16.3335 Candinas \"Mettre un terme aux abus des extraits du registre des poursuites\", que le Conseil fédéral, fort des connaissances acquises depuis 2016, a également recommandée favorablement, revenant ainsi sur son avis initial (voir la question 18.5640 Candinas \"Extraits du registre des poursuites. Comment faire pour mettre un terme aux abus ?\"). Cette motion a pour but d'obliger les offices des poursuites à vérifier, avant de délivrer un extrait du registre, si le débiteur a son domicile dans l'arrondissement de poursuite concerné et, le cas échéant, depuis quand, puis de faire figurer ces informations sur l'extrait proprement dit. Si la personne concernée est domiciliée ailleurs ou bien arrivée récemment, cela constitue un signal d'alarme pour le créancier, qui peut alors lui demander des renseignements supplémentaires sur son domicile réel ou précédent. Cette solution a l'avantage d'aboutir presque au même résultat que celui recherché aujourd'hui par l'auteur de la motion et au prix d'un effort administratif minime. A l'inverse, le Conseil fédéral estime que la proposition faite ici ne présente aucun avantage et augmenterait considérablement la charge de travail des offices concernés.</p><p>En outre, le Conseil fédéral a ouvert le 16 août 2019 la procédure de consultation relative à la nouvelle loi sur le service des adresses (LSAdr). L'objectif de la LSAdr est de créer une base juridique pour que l'Office fédéral de la statistique puisse mettre en place un service national d'adresses. Grâce à ce service, les offices des poursuites seraient en mesure de consulter sur une source fiable les adresses de domicile (anciennes et actuelles) des habitants de la Suisse. Dans ce contexte, il faudra également évaluer dans quelle mesure et dans quels cas la LSAdr facilitera la découverte du domicile actuel et précédent d'un débiteur.</p>"
+      "value": "<p>Le Conseil fédéral a étudié en détail les conditions de la création d'un extrait national du registre des poursuites dans son rapport en réponse au postulat 12.3957 Candinas \"Lutte contre les débiteurs qui veulent échapper à leurs dettes en déménageant\". Cette étude a montré qu'un extrait national infaillible du registre des poursuites n'est pas réalisable aujourd'hui à un coût raisonnable. Le Conseil fédéral s'était donc alors prononcé contre la création d'un tel extrait.</p><p>Entre-temps, le Parlement a toutefois adopté la motion 16.3335 Candinas \"Mettre un terme aux abus des extraits du registre des poursuites\", que le Conseil fédéral, fort des connaissances acquises depuis 2016, a également recommandée favorablement, revenant ainsi sur son avis initial (voir la question 18.5640 Candinas \"Extraits du registre des poursuites. Comment faire pour mettre un terme aux abus ?\"). Cette motion a pour but d'obliger les offices des poursuites à vérifier, avant de délivrer un extrait du registre, si le débiteur a son domicile dans l'arrondissement de poursuite concerné et, le cas échéant, depuis quand, puis de faire figurer ces informations sur l'extrait proprement dit. Si la personne concernée est domiciliée ailleurs ou bien arrivée récemment, cela constitue un signal d'alarme pour le créancier, qui peut alors lui demander des renseignements supplémentaires sur son domicile réel ou précédent. Cette solution a l'avantage d'aboutir presque au même résultat que celui recherché aujourd'hui par l'auteur de la motion et au prix d'un effort administratif minime. À l'inverse, le Conseil fédéral estime que la proposition faite ici ne présente aucun avantage et augmenterait considérablement la charge de travail des offices concernés.</p><p>En outre, le Conseil fédéral a ouvert le 16 août 2019 la procédure de consultation relative à la nouvelle loi sur le service des adresses (LSAdr). L'objectif de la LSAdr est de créer une base juridique pour que l'Office fédéral de la statistique puisse mettre en place un service national d'adresses. Grâce à ce service, les offices des poursuites seraient en mesure de consulter sur une source fiable les adresses de domicile (anciennes et actuelles) des habitants de la Suisse. Dans ce contexte, il faudra également évaluer dans quelle mesure et dans quels cas la LSAdr facilitera la découverte du domicile actuel et précédent d'un débiteur.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {

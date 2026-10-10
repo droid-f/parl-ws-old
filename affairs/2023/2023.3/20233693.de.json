@@ -1,6 +1,6 @@
 {
   "id": 20233693,
-  "updated": "2023-06-20T21:17:42Z",
+  "updated": "2026-03-19T15:48:24Z",
   "additionalIndexing": "28;34;1236",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,192 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "Wird übernommen",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-09-25T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2026-03-19T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-30T00:00:00Z",
+        "text": "Ablehnung"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-01-27T14:44:33Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2775,
+                    "gender": "m",
+                    "id": 4075,
+                    "name": "Caroni Andrea",
+                    "officialDenomination": "Caroni"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686693600000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1693346400000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1727215200000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1727820000000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1765926000000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1769468400000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1772146800000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1773874800000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -210,23 +373,54 @@
         "name": "Grüne Fraktion"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3222,
+        "gender": "m",
+        "id": 4327,
+        "name": "Mahaim Raphaël",
+        "officialDenomination": "Mahaim"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "23.3693",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Sharenting und Influence Marketing, die Kinder in Szene setzen (Veröffentlichung gesponserter Posts, Produktplazierungen), bringen Risiken für die Gesundheit und die Sicherheit dieser Kinder mit sich. Die Missbrauchsrisiken, sowohl im Bereich des Persönlichkeitsschutzes wie auch der Ausbeutung, sind durchaus real. So werden etwa gewisse Kinder durchgehend von ihren Eltern gefilmt, damit diese zusätzliche Abonnentinnen und Abonnenten gewinnen und den Ertrag künftiger Posts steigern können. Angesichts der raschen Entwicklung dieser neuen Tätigkeiten, kommerziell oder nicht, empfiehlt der UN-Kinderrechtsausschuss den Staaten «sicherzustellen, dass nationale Politiken und Strategien für den digitalen Raum die Belange der Kinderrechte in den Mittelpunkt aller Überlegungen stellen ... um zu verhindern, dass der technologische Raum Kinder bei politischen Überlegungen ignoriert; die Tatsache, dass Kinder oft zu jung sind, um Zugang zu Technologie zu haben, bedeutet nicht, dass die Nutzung moderner Geräte und Plattformen durch Erwachsene ihnen nicht schaden kann.» Allerdings adressiert die Strategie «Digitale Schweiz» diese Herausforderungen nicht und das neue Datenschutzgesetz enthält keine einzige Bestimmung, welche gezielt den Persönlichkeitsschutz von Minderjährigen gewährleistet. Gemäss dem französischen Recht müssen die rechtlichen Vertreterinnen und Vertreter der zuständigen Behörde eine Meldung machen, wenn sie das Bild eines Kindes unter 16 Jahren auf einer Videoplattform verbreiten. In der Schweiz braucht es für eine solche Bestimmung eine Änderung der Verordnung&nbsp;5 zum Arbeitsgesetz, in deren Rahmen solche kommerziellen Tätigkeiten in Artikel&nbsp;7 über kulturelle, künstlerische und sportliche Darbietungen sowie Werbung aufgenommen werden, damit die Tätigkeiten ebenfalls den zuständigen kantonalen Behörden gemeldet werden müssen. Der Bundesrat ist der Ansicht, dass die Möglichkeit der Kinder- und Erwachsenenschutzbehörde, zu intervenieren, falls die Eltern einer oder eines Minderjährigen ihr Recht als gesetzliche Vertretung überschreiten, ausreicht, um die Minderjährigen zu schützen; zudem ist er der Ansicht, dass das Vorhandensein der Website jugendundmedien.ch ausreicht, um dem Bedürfnis nach Prävention und Sensibilisierung angesichts des Risikos der übermässigen Exponierung von Kindern im Internet oder der kommerziellen Ausbeutung ihrer Bilder Genüge zu tun (22.4192). Da diese Massnahmen nicht zu genügen scheinen, wird der Bundesrat beauftragt, die Verordnung&nbsp;5 zum Arbeitsgesetz zu ändern und diese Herausforderungen in die Strategie «Digitale Schweiz» aufzunehmen.</p><p>&nbsp;</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Das Arbeitsgesetz (ArG; SR <i>822.11</i>) und die einschlägige Verordnung 5 (Jugendarbeitsschutzverordnung, ArGV 5; SR <i>822.115</i>) enthalten spezifische Bestimmungen zum Gesundheitsschutz von jugendlichen Arbeitnehmenden. Diese Bestimmungen gelten nur im Rahmen eines Arbeitsverhältnisses nach ArG, was bei einer Eltern-Kind-Beziehung im Zusammenhang mit den genannten Tätigkeiten meist nicht der Fall ist. Beim Influence Marketing, bei dem Eltern ihre Kinder in gesponserte Online-Inhalte einbeziehen, können die exponierten Kinder nicht als «Arbeitnehmende» im Sinne von Artikel&nbsp;1 ArG betrachtet werden, da sie nicht die nötigen Voraussetzungen erfüllen. So sind sie insbesondere nicht in einem dem ArG unterstellten Unternehmen beschäftigt und stehen auch nicht in einem Unterordnungsverhältnis zum Arbeitgeber oder Unternehmen. Laut Wegleitung zu Artikel&nbsp;1 ArG spricht man von Arbeitnehmenden, wenn sich eine Person bei der Ausübung einer Tätigkeit in eine fremde Arbeitsorganisation einordnen muss und wenn die Arbeitsleistung in persönlicher Unterordnung zu erfolgen hat, die Ausübung der Arbeit also an eine klare Weisung des Arbeitgebers gebunden ist (www.seco.admin.ch &gt; Arbeit &gt; Arbeitsbedingungen &gt; Arbeitsgesetz und Verordnungen &gt; Wegleitungen zum Arbeitsgesetz und seinen Verordnungen &gt; Wegleitung zum ArG &gt; ArG Artikel 1: Betrieblicher und persönlicher Geltungsbereich). Folglich gilt die ArGV 5 in den von der Motionärin genannten Fällen nicht.&nbsp;</p><p>&nbsp;</p><p>Als gesetzliche Vertretung ihrer Kinder (Art.&nbsp;304 ZGB) können Eltern grundsätzlich über die Verwendung der Daten ihrer Kinder entscheiden, also auch über sie betreffende Bilder, sofern dabei das Wohl des Kindes gewahrt ist. Da es sich hierbei um einen Aspekt der Persönlichkeit handelt (Art.&nbsp;19<i>c</i> ZGB), muss für die Verwendung der Bilder minderjähriger Kinder jedoch deren Zustimmung eingeholt werden, sobald diese urteilsfähig sind. Überschreiten die Eltern die Grenzen ihres gesetzlichen Vertretungsrechts oder ihrer Erziehungspflicht, kann die Kindesschutzbehörde (KESB) hinzugezogen werden. Wie in seiner Stellungnahme zur Interpellation Pointet (22.4192 «Persönlichkeitsrechte von Kindern wahren, Eltern sensibilisieren!») bereits erwähnt, erachtet der Bundesrat die rechtlichen Rahmenbedingungen als ausreichend.</p><p>&nbsp;</p><p>Die Plattform Jugend und Medien ist ein zielführendes Instrument, um Eltern über das Recht der Kinder auf das eigene Bild zu informieren und sie entsprechend dafür zu sensibilisieren. Der Schutz der Daten und der Privatsphäre von Kindern und Jugendlichen im Internet bildete 2020 und 2021 das Schwerpunktthema der Plattform. Im Rahmen dieser Arbeit widmete sich die Plattform dem Phänomen «Sharenting» und entwickelte Empfehlungen für Eltern zum Schutz der Persönlichkeitsrechte von Kindern. Die Informationen sind auf der Internetseite und in den sozialen Netzwerken jederzeit verfügbar.&nbsp;</p><p>&nbsp;</p><p>Nicht das richtige Instrument, um die Rechte von Kindern am eigenen Bild bei Influence Marketing im Internet zu stärken, ist hingegen die Strategie «Digitale Schweiz», bei der eher allgemeine Themen und nicht konkrete Fälle im Vordergrund stehen.&nbsp;</p><p>&nbsp;</p><p>Der Bundesrat beantragt deshalb die Ablehnung der Motion. Sollte die Motion im Erstrat angenommen werden, behält sich der Bundesrat vor, im Zweitrat einen Antrag auf Änderung der Motion in einen Prüfungsauftrag zu stellen, um zu klären, ob und wo spezifische Bestimmungen zur Vermarktung von Kinderbildern durch Eltern im Schweizer Rechtsrahmen Platz finden würden.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Der Bundesrat wird beauftragt, den Kinderschutz angesichts des Risikos der Ausbeutung im Internet zu verstärken. Erstens in Bezug auf die kommerzielle Nutzung der Bilder von Kindern (Kinder oder Eltern als Influencerinnen und Influencer), indem er die Verordnung&nbsp;5 zum Arbeitsgesetz nach dem Beispiel des französischen Rechts zu diesem Thema ändert. Zweitens, indem er im Rahmen einer interdepartementalen Vision seine Politik in Bezug auf das Recht am Bild verstärkt, dies auf Basis der Empfehlungen des UN-Kinderrechtsausschusses.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Titel folgt"
+      "value": "Übermässige Exponierung von Kindern im Internet (Sharenting und kommerzielle Nutzung von Bildern). Für eine garantierte Achtung des Rechts am Bild und des Arbeitsrechts"
     }
   ],
-  "title": "Titel folgt"
+  "title": "Übermässige Exponierung von Kindern im Internet (Sharenting und kommerzielle Nutzung von Bildern). Für eine garantierte Achtung des Rechts am Bild und des Arbeitsrechts"
 }

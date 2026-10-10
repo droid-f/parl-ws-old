@@ -1,6 +1,6 @@
 {
   "id": 20212036,
-  "updated": "2023-03-22T12:10:41Z",
+  "updated": "2026-05-20T01:52:32Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -31,7 +31,7 @@
               "abbreviation": "SGK-NR",
               "id": 6,
               "name": "Kommission für soziale Sicherheit und Gesundheit NR",
-              "abbreviation1": "SGK-NR",
+              "abbreviation1": "SGK-N",
               "abbreviation2": "SGK",
               "committeeNumber": 6,
               "council": {
@@ -44,8 +44,8 @@
             },
             "council": null,
             "date": "2022-06-23T00:00:00Z",
-            "text": "Folge gegeben",
-            "type": 16
+            "text": "Folge geben (vgl. Kommissionsinitiative oder Vorstoss)",
+            "type": 0
           },
           {
             "category": {
@@ -61,6 +61,46 @@
             "date": "2022-09-29T00:00:00Z",
             "text": "Von der Petition wird im Rahmen der Behandlung des Geschäfts 22.3868, Kenntnis genommen (vgl. Art. 126 Abs. 2 ParlG).",
             "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "WBK-SR",
+              "id": 18,
+              "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
+              "abbreviation1": "WBK-S",
+              "abbreviation2": "WBK",
+              "committeeNumber": 18,
+              "council": {
+                "abbreviation": "SR",
+                "id": 2,
+                "name": "Ständerat",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-01-30T00:00:00Z",
+            "text": "Behandlung im Zusammenhang mit hängigem Beratungsgegenstand (Geschäftsnummer)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-03-14T00:00:00Z",
+            "text": "Behandelt im Rahmen eines anderen Geschäfts",
+            "type": 80
           }
         ]
       },
@@ -76,7 +116,7 @@
             "abbreviation": "SGK-NR",
             "id": 6,
             "name": "Kommission für soziale Sicherheit und Gesundheit NR",
-            "abbreviation1": "SGK-NR",
+            "abbreviation1": "SGK-N",
             "abbreviation2": "SGK",
             "committeeNumber": 6,
             "council": {
@@ -101,7 +141,7 @@
             "abbreviation": "WBK-SR",
             "id": 18,
             "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
-            "abbreviation1": "WBK-SR",
+            "abbreviation1": "WBK-S",
             "abbreviation2": "WBK",
             "committeeNumber": 18,
             "council": {
@@ -130,6 +170,12 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
+          "leading": false
+        },
+        {
+          "abbreviation": "WBF",
+          "id": 8,
+          "name": "Departement für Wirtschaft, Bildung und Forschung",
           "leading": true
         }
       ],
@@ -141,8 +187,18 @@
         },
         {
           "date": "/Date(1664402400000+0200)/",
-          "id": 2,
-          "name": "Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1664488800000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1701990000000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -166,8 +222,8 @@
   ],
   "shortId": "21.2036",
   "state": {
-    "id": 2,
-    "name": "Behandelt vom Nationalrat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },

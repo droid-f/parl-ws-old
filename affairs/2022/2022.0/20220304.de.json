@@ -1,6 +1,6 @@
 {
   "id": 20220304,
-  "updated": "2023-06-13T15:54:17Z",
+  "updated": "2026-05-20T02:01:59Z",
   "additionalIndexing": "48",
   "affairType": {
     "abbreviation": "Kt. Iv.",
@@ -41,6 +41,21 @@
             "date": "2023-06-13T00:00:00Z",
             "text": "Keine Folge gegeben",
             "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-28T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
           }
         ]
       },
@@ -56,7 +71,7 @@
             "abbreviation": "KVF-SR",
             "id": 22,
             "name": "Kommission für Verkehr und Fernmeldewesen SR",
-            "abbreviation1": "KVF-SR",
+            "abbreviation1": "KVF-S",
             "abbreviation2": "KVF",
             "committeeNumber": 22,
             "council": {
@@ -96,14 +111,15 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "KVF-NR",
             "id": 9,
             "name": "Kommission für Verkehr und Fernmeldewesen NR",
-            "abbreviation1": "KVF-NR",
+            "abbreviation1": "KVF-N",
             "abbreviation2": "KVF",
             "committeeNumber": 9,
             "council": {
@@ -116,8 +132,13 @@
           },
           "date": "2022-03-16T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
-          ]
+              ]
+            }
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -128,6 +149,12 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
+          "leading": false
+        },
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
           "leading": true
         }
       ],
@@ -139,8 +166,23 @@
         },
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 29,
-          "name": "Vorprüfung - Behandelt vom Ständerat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1686693600000+0200)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1694642400000+0200)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -173,8 +215,8 @@
   ],
   "shortId": "22.304",
   "state": {
-    "id": 29,
-    "name": "Vorprüfung - Behandelt vom Ständerat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },

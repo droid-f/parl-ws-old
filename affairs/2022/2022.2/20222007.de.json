@@ -1,6 +1,6 @@
 {
   "id": 20222007,
-  "updated": "2022-05-10T09:49:40Z",
+  "updated": "2026-05-20T02:13:26Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-05-30T00:00:00Z",
+            "text": "Der Rat nimmt davon Kenntnis, dass die Kommission im Rahmen des Geschäfts 23.032 auch die Petition 22.2007 behandelt hat (vgl. Art. 126 Abs. 2 ParlG).",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-20T00:00:00Z",
+            "text": "Der Rat nimmt davon Kenntnis, dass die Kommission im Rahmen des Geschäfts 23.032 auch die Petition 22.2007 behandelt hat (vgl. Art. 126 Abs. 2 ParlG).",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -37,7 +66,7 @@
             "abbreviation": "KVF-NR",
             "id": 9,
             "name": "Kommission für Verkehr und Fernmeldewesen NR",
-            "abbreviation1": "KVF-NR",
+            "abbreviation1": "KVF-N",
             "abbreviation2": "KVF",
             "committeeNumber": 9,
             "council": {
@@ -50,15 +79,20 @@
           },
           "date": "2022-05-09T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
-          ]
+              ]
+            }
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "KVF-SR",
             "id": 22,
             "name": "Kommission für Verkehr und Fernmeldewesen SR",
-            "abbreviation1": "KVF-SR",
+            "abbreviation1": "KVF-S",
             "abbreviation2": "KVF",
             "committeeNumber": 22,
             "council": {
@@ -71,8 +105,13 @@
           },
           "date": "2022-05-09T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
-          ]
+              ]
+            }
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -89,8 +128,28 @@
       "states": [
         {
           "date": "/Date(1652047200000+0200)/",
-          "id": 9,
+          "id": 202,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1686088800000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1688076000000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1688162400000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1708988400000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -100,7 +159,11 @@
   ],
   "language": "de",
   "relatedAffairs": [
-
+    {
+      "id": 20230032,
+      "priorityCode": "N",
+      "shortId": "23.032"
+    }
   ],
   "roles": [
     {
@@ -110,10 +173,10 @@
   ],
   "shortId": "22.2007",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

@@ -1,6 +1,6 @@
 {
   "id": 20232003,
-  "updated": "2023-02-01T10:30:21Z",
+  "updated": "2026-09-17T08:57:35Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2026-06-19T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -37,7 +51,7 @@
             "abbreviation": "UREK-NR",
             "id": 7,
             "name": "Kommission für Umwelt, Raumplanung und Energie NR",
-            "abbreviation1": "UREK-NR",
+            "abbreviation1": "UREK-N",
             "abbreviation2": "UREK",
             "committeeNumber": 7,
             "council": {
@@ -51,27 +65,47 @@
           "date": "2023-01-11T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
-            "abbreviation": "UREK-SR",
-            "id": 20,
-            "name": "Kommission für Umwelt, Raumplanung und Energie SR",
-            "abbreviation1": "UREK-SR",
-            "abbreviation2": "UREK",
-            "committeeNumber": 20,
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
             "council": {
-              "abbreviation": "SR",
-              "id": 2,
-              "name": "Ständerat",
-              "type": "S"
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
             },
-            "typeCode": 1
+            "typeCode": 3
           },
-          "date": "2023-01-11T00:00:00Z",
+          "date": "2026-03-31T16:45:55Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3206,
+                    "gender": "m",
+                    "id": 4310,
+                    "name": "Guggisberg Lars",
+                    "officialDenomination": "Guggisberg"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -83,14 +117,35 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
+          "leading": false
+        },
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
           "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1673391600000+0100)/",
-          "id": 9,
+          "id": 202,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1774738800000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1774908000000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1781820000000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
         }
       ],
       "texts": [
@@ -100,7 +155,11 @@
   ],
   "language": "de",
   "relatedAffairs": [
-
+    {
+      "id": 20224596,
+      "priorityCode": "S",
+      "shortId": "22.4596"
+    }
   ],
   "roles": [
     {
@@ -110,10 +169,10 @@
   ],
   "shortId": "23.2003",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
+    "id": 206,
+    "name": "In Kommission des Ständerats",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

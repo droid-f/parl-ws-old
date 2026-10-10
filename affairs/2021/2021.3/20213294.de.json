@@ -1,6 +1,6 @@
 {
   "id": 20213294,
-  "updated": "2023-03-02T12:09:12Z",
+  "updated": "2026-06-12T08:36:39Z",
   "additionalIndexing": "2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -70,6 +70,51 @@
             "date": "2023-03-02T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-14T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2026-03-12T00:00:00Z",
+            "text": "Abschreibung im Rahmen eines anderen Geschäfts 25.074",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2026-06-11T00:00:00Z",
+            "text": "Abschreibung im Rahmen eines anderen Geschäfts 25.074",
+            "type": 0
           }
         ]
       },
@@ -85,10 +130,31 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-07-05T14:57:03Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "SGK-SR",
             "id": 19,
             "name": "Kommission für soziale Sicherheit und Gesundheit SR",
-            "abbreviation1": "SGK-SR",
+            "abbreviation1": "SGK-S",
             "abbreviation2": "SGK",
             "committeeNumber": 19,
             "council": {
@@ -129,6 +195,48 @@
               "sessionId": "5118"
             }
           ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-NR",
+            "id": 6,
+            "name": "Kommission für soziale Sicherheit und Gesundheit NR",
+            "abbreviation1": "SGK-N",
+            "abbreviation2": "SGK",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-03-18T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-07-05T14:57:04Z",
+          "registrations": [
+
+          ]
         }
       ],
       "references": [
@@ -155,8 +263,38 @@
         },
         {
           "date": "/Date(1677711600000+0100)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1688076000000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1688421600000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1694124000000+0200)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1694642400000+0200)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
+        },
+        {
+          "date": "/Date(1774994400000+0200)/",
+          "id": 215,
+          "name": "Berichterstattung zum Umsetzungsstand des Vorstosses liegt vor"
+        },
+        {
+          "date": "/Date(1781128800000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -197,10 +335,9 @@
   ],
   "shortId": "21.3294",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -209,14 +346,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>\"Der Mangel bei der Medikationssicherheit scheint im schweizerischen Gesundheitssystem ein dringendes Problem darzustellen. Studien deuten auf eine hohe Rate unerwünschter Arzneimittelereignisse und inadäquater Verschreibungen unter verschiedensten Umständen hin\", schreiben die Autoren Charles Vincent und Anthony Staines im Bericht \"Verbesserung der Qualität und Patientensicherheit des Schweizerischen Gesundheitswesens\" vom Juni 2019. Der Bericht wurde im Auftrag des Bundesamts für Gesundheit verfasst. Die Autoren empfehlen, an den Behandlungsschnittstellen bei PatientInnen mit Polymedikation systematisch Medikationsabgleiche durchzuführen.</p><p>Gemäss dem Helsana-Arzneimittelreport 2020 werden in Pflegeheimen im Durchschnitt 9 Arzneimittel pro PatientIn eingenommen, welche oft von mehreren ÄrztInnen gleichzeitig verschrieben werden. Die Polymedikation berge grosse Gefahren, schreibt die Stiftung Patientensicherheit auf ihrer Website. Denn \"mit jedem zusätzlich eingenommenen Medikament steigt das Risiko für unerwünschte Arzneimittelereignisse (UAE)\".</p><p>Die Anforderungen an eine sichere und adäquate Medikation sind in den letzten Jahren stetig gestiegen. Die Menschen werden immer älter, die Zahl der mehrfachkranken Personen und die Polymedikation nehmen zu. Auch steigt die Zahl der Behandelnden pro Patient. Aus diesem Grund ist die Voraussetzung zu schaffen, dass alle betroffenen Gesundheitsfachpersonen eine aktuelle Übersicht über die Medikation erhalten und die Angemessenheit der Medikation regelmässig überprüft wird.</p><p>Das Departement Pharmazeutische Wissenschaften der Universität Basel hat im August 2019 den Review \"Nutzen von Medikationsplänen in der Praxis\" veröffentlicht. \"Bei einem Arztbesuch, einer Hospitalisierung oder einem Eintritt ins Pflegeheim sind die Informationen zu der aktuellen Therapie des Patienten oft nur unvollständig vorhanden\", schreiben die Autoren. Ein Nutzen von Medikationsplänen kann gemäss den Autoren sowohl bei PatientInnen (z.B. Wissenszuwachs, höhere Adhärenz) als auch beim Prozess (z.B. bessere interprofessionelle Zusammenarbeit, Wirtschaftlichkeit) nachgewiesen werden.</p><p>Mit der vom Parlament angenommen Motion 18.3512 \"Recht auf einen Medikationsplan zur Stärkung der Patientensicherheit\" bekommen die PatientInnen das Recht, \"einen elektronischen oder gedruckten Medikationsplan zu erhalten, sofern sie drei oder mehr Arzneimittel gleichzeitig einnehmen.\" Der Medikationsplan enthält die Arzneimittel, die Dosierung und das Einnahmeschema. Er trägt dazu bei, die Adhärenz der Arzneimitteleinnahme zu erhöhen. Medikationspläne bilden die Basis, um die Medikation überprüfen zu können. Dieses Recht gilt nur für PatientInnen, die dies explizit wünschen. Mit der angenommenen Motion 18.3512 wird aber keine Pflicht für Fachpersonen geschaffen, Medikationspläne für alle PatientInnen zu führen und systematisch einen Medikationsabgleich durchzuführen. Diese Verpflichtung wird mit der vorliegenden Motion geschaffen.</p><p>Die Rollen und Verantwortlichkeiten für Medikationsüberprüfungen sind heute teilweise unbestimmt und müssen geklärt werden. Mit der vorliegenden Motion wird die Verpflichtung geschaffen, Medikationspläne zu erstellen, die Angemessenheit der Medikation zu überprüfen und die Medikationspläne zu aktualisieren. Eine Überprüfung müssen Fachpersonen durchführen, falls ein Patient Arzneimittel mit Risikopotenzial über einen zu definierenden Zeitraum einnimmt. </p><p>Damit die Medikationspläne aktuell, umfassend und allen betroffenen und berechtigten Gesundheitsfachpersonen zur Verfügung stehen, müssen folgende Faktoren berücksichtigt werden:</p><p>1. Interprofessionelle Zusammenarbeit: Verschreibungs- und Abgabekompetenzen sowie Aufgaben weiterer Gesundheitsfachpersonen beim Medikatonsprozess sind zu berücksichtigen, namentlich die neuen Abgabekompetenzen der Apothekerinnen ausgewählter Arzneimittel der Kategorie B.</p><p>2. Aktuelle Verfügbarkeit der gesamten Medikation: Mit dem elektronischen Patientendossier besteht ein Instrument, mit dem die Medikationspläne landesweit allen berechtigten Gesundheitsfachpersonen zugänglich gemacht werden können. Der Einsatz anderer geeigneter Tools kann geprüft werden.</p><p>3. Medikationsableich: mit digitalen Instrumenten ist es möglich, eine Übersicht der Gesamtmedikation zu erhalten, um einen Medikationsabgleich über ambulante und stationäre Schnittstellen hinweg durchführen zu können. Dies leistet einen wesentlichen Beitrag zur Erhöhung der Medikationsqualität. Gemäss HMG Artikel 26 besteht diese Vorgabe bereits, wird aber nicht systematisch umgesetzt, was zu Medikationsfehlern führt, die mit der Umsetzung der vorliegenden Motion verhindert werden können.</p><p>4. Klärung von Rollen und Verantwortlichkeiten: dem Bundesrat wird der Auftrag erteilt, Rollen und Verantwortlichkeiten der Akteure zu klären, namentlich auch die Rechte und Pflichten der PatientInnen.</p><p>5. Technische Aspekte: Technische Aspekte, Fragen des Datenschutzes und der -sicherheit sowie von Standards sind festzulegen, um die Interoperabilität sicherzustellen.</p><p>6. Finanzierung: Bei der Finanzierung ist namentlich die Frage zu klären, wie die Leistungen von Gesundheitsfachpersonen abzugelten sind, die nicht Teil der geltenden Tarife gemäss dem KVG sind (Diskrepanz zwischen Leistungserbringer und Gesundheitsfachperson).</p><p>Die Qualitätsprobleme bei der Medikation sind seit vielen Jahren bekannt, Lücken bestehen namentlich an der Schnittstelle von stationär zu ambulant. Es wurden bisher keine verpflichtenden Massnahmen zur Qualitätssicherung getroffen, obwohl dies die Gesundheitsstrategien jeweils vorgesehen hatten. Mit der vorliegenden Motion wird beispielsweise eine zentrale Massnahme der Strategie Gesundheit 2020 endlich umgesetzt, nämlich die \"Einführung und aktive Förderung der eMedikation mit der Möglichkeit für Ärzte/- innen, Apotheken und Spitäler, einen elektronischen Zugang auf Medikationsinformationen der Patienten/-innen zu erhalten\". Die Steigerung der Qualität bei gleichzeitiger Kostendämpfung gehört auch zu den Schwerpunkten der Strategie Gesundheit 2030. </p><p>Die Annahme der Motion leistet einen wesentlichen Beitrag, um die Medikationsqualität und -sicherheit bei PatientInnen mit Polymedikation zu verbessern. Vermeidbare Fehler, vermeidbare (Re)-Hospitalisierungen und vermeidbare Todesfälle können dank dem Einsatz digitaler Instrumente endlich systematisch verhindert werden. Die eMedikation ist auch eine der geplanten Hauptanwendungen des elektronischen Patientendossiers, das zukünftig von allen Gesundheitsfachpersonen einzusetzen ist. Die Verpflichtung zu Medikationsplänen und zum Medikationsabgleich kann und soll dem elektronischen Patientendossier zum Durchbruch verhelfen.</p>"
+      "value": "<p>\"Der Mangel bei der Medikationssicherheit scheint im schweizerischen Gesundheitssystem ein dringendes Problem darzustellen. Studien deuten auf eine hohe Rate unerwünschter Arzneimittelereignisse und inadäquater Verschreibungen unter verschiedensten Umständen hin\", schreiben die Autoren Charles Vincent und Anthony Staines im Bericht \"Verbesserung der Qualität und Patientensicherheit des Schweizerischen Gesundheitswesens\" vom Juni 2019. Der Bericht wurde im Auftrag des Bundesamts für Gesundheit verfasst. Die Autoren empfehlen, an den Behandlungsschnittstellen bei PatientInnen mit Polymedikation systematisch Medikationsabgleiche durchzuführen.</p><p>Gemäss dem Helsana-Arzneimittelreport 2020 werden in Pflegeheimen im Durchschnitt 9 Arzneimittel pro PatientIn eingenommen, welche oft von mehreren ÄrztInnen gleichzeitig verschrieben werden. Die Polymedikation berge grosse Gefahren, schreibt die Stiftung Patientensicherheit auf ihrer Website. Denn \"mit jedem zusätzlich eingenommenen Medikament steigt das Risiko für unerwünschte Arzneimittelereignisse (UAE)\".</p><p>Die Anforderungen an eine sichere und adäquate Medikation sind in den letzten Jahren stetig gestiegen. Die Menschen werden immer älter, die Zahl der mehrfachkranken Personen und die Polymedikation nehmen zu. Auch steigt die Zahl der Behandelnden pro Patient. Aus diesem Grund ist die Voraussetzung zu schaffen, dass alle betroffenen Gesundheitsfachpersonen eine aktuelle Übersicht über die Medikation erhalten und die Angemessenheit der Medikation regelmässig überprüft wird.</p><p>Das Departement Pharmazeutische Wissenschaften der Universität Basel hat im August 2019 den Review \"Nutzen von Medikationsplänen in der Praxis\" veröffentlicht. \"Bei einem Arztbesuch, einer Hospitalisierung oder einem Eintritt ins Pflegeheim sind die Informationen zu der aktuellen Therapie des Patienten oft nur unvollständig vorhanden\", schreiben die Autoren. Ein Nutzen von Medikationsplänen kann gemäss den Autoren sowohl bei PatientInnen (z.B. Wissenszuwachs, höhere Adhärenz) als auch beim Prozess (z.B. bessere interprofessionelle Zusammenarbeit, Wirtschaftlichkeit) nachgewiesen werden.</p><p>Mit der vom Parlament angenommen Motion 18.3512 \"Recht auf einen Medikationsplan zur Stärkung der Patientensicherheit\" bekommen die PatientInnen das Recht, \"einen elektronischen oder gedruckten Medikationsplan zu erhalten, sofern sie drei oder mehr Arzneimittel gleichzeitig einnehmen.\" Der Medikationsplan enthält die Arzneimittel, die Dosierung und das Einnahmeschema. Er trägt dazu bei, die Adhärenz der Arzneimitteleinnahme zu erhöhen. Medikationspläne bilden die Basis, um die Medikation überprüfen zu können. Dieses Recht gilt nur für PatientInnen, die dies explizit wünschen. Mit der angenommenen Motion 18.3512 wird aber keine Pflicht für Fachpersonen geschaffen, Medikationspläne für alle PatientInnen zu führen und systematisch einen Medikationsabgleich durchzuführen. Diese Verpflichtung wird mit der vorliegenden Motion geschaffen.</p><p>Die Rollen und Verantwortlichkeiten für Medikationsüberprüfungen sind heute teilweise unbestimmt und müssen geklärt werden. Mit der vorliegenden Motion wird die Verpflichtung geschaffen, Medikationspläne zu erstellen, die Angemessenheit der Medikation zu überprüfen und die Medikationspläne zu aktualisieren. Eine Überprüfung müssen Fachpersonen durchführen, falls ein Patient Arzneimittel mit Risikopotenzial über einen zu definierenden Zeitraum einnimmt. </p><p>Damit die Medikationspläne aktuell, umfassend und allen betroffenen und berechtigten Gesundheitsfachpersonen zur Verfügung stehen, müssen folgende Faktoren berücksichtigt werden:</p><p>1. Interprofessionelle Zusammenarbeit: Verschreibungs- und Abgabekompetenzen sowie Aufgaben weiterer Gesundheitsfachpersonen beim Medikatonsprozess sind zu berücksichtigen, namentlich die neuen Abgabekompetenzen der Apothekerinnen ausgewählter Arzneimittel der Kategorie B.</p><p>2. Aktuelle Verfügbarkeit der gesamten Medikation: Mit dem elektronischen Patientendossier besteht ein Instrument, mit dem die Medikationspläne landesweit allen berechtigten Gesundheitsfachpersonen zugänglich gemacht werden können. Der Einsatz anderer geeigneter Tools kann geprüft werden.</p><p>3. Medikationsableich: mit digitalen Instrumenten ist es möglich, eine Übersicht der Gesamtmedikation zu erhalten, um einen Medikationsabgleich über ambulante und stationäre Schnittstellen hinweg durchführen zu können. Dies leistet einen wesentlichen Beitrag zur Erhöhung der Medikationsqualität. Gemäss HMG Artikel 26 besteht diese Vorgabe bereits, wird aber nicht systematisch umgesetzt, was zu Medikationsfehlern führt, die mit der Umsetzung der vorliegenden Motion verhindert werden können.</p><p>4. Klärung von Rollen und Verantwortlichkeiten: dem Bundesrat wird der Auftrag erteilt, Rollen und Verantwortlichkeiten der Akteure zu klären, namentlich auch die Rechte und Pflichten der PatientInnen.</p><p>5. Technische Aspekte: Technische Aspekte, Fragen des Datenschutzes und der -sicherheit sowie von Standards sind festzulegen, um die Interoperabilität sicherzustellen.</p><p>6. Finanzierung: Bei der Finanzierung ist namentlich die Frage zu klären, wie die Leistungen von Gesundheitsfachpersonen abzugelten sind, die nicht Teil der geltenden Tarife gemäss dem KVG sind (Diskrepanz zwischen Leistungserbringer und Gesundheitsfachperson).</p><p>Die Qualitätsprobleme bei der Medikation sind seit vielen Jahren bekannt, Lücken bestehen namentlich an der Schnittstelle von stationär zu ambulant. Es wurden bisher keine verpflichtenden Massnahmen zur Qualitätssicherung getroffen, obwohl dies die Gesundheitsstrategien jeweils vorgesehen hatten. Mit der vorliegenden Motion wird beispielsweise eine zentrale Massnahme der Strategie Gesundheit 2020 endlich umgesetzt, nämlich die \"Einführung und aktive Förderung der eMedikation mit der Möglichkeit für Ärzte/- innen, Apotheken und Spitäler, einen elektronischen Zugang auf Medikationsinformationen der Patienten/-innen zu erhalten\". Die Steigerung der Qualität bei gleichzeitiger Kostendämpfung gehört auch zu den Schwerpunkten der Strategie Gesundheit 2030. </p><p>Die Annahme der Motion leistet einen wesentlichen Beitrag, um die Medikationsqualität und -sicherheit bei PatientInnen mit Polymedikation zu verbessern. Vermeidbare Fehler, vermeidbare (Re)-Hospitalisierungen und vermeidbare Todesfälle können dank dem Einsatz digitaler Instrumente endlich systematisch verhindert werden. Die eMedikation ist auch eine der geplanten Hauptanwendungen des elektronischen Patientendossiers, das zukünftig von allen Gesundheitsfachpersonen einzusetzen ist. Die Verpflichtung zu Medikationsplänen und zum Medikationsabgleich kann und soll dem elektronischen Patientendossier zum Durchbruch verhelfen.</p>"
     },
     {
       "type": {
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Der Bundesrat ist überzeugt, dass die Medikationsqualität und die Sicherheit bei Patientinnen und Patienten mit Polymedikation verbessert werden müssen. In diesem Sinne hat er dem Parlament die Annahme der Motion Stöckli 18.3512 \"Recht auf einen Medikationsplan zur Stärkung der Patientensicherheit\" beantragt. Diese wurde am 7. März 2019 vom Parlament angenommen. Sie verlangt die Schaffung von Rechtsgrundlagen, aufgrund derer alle chronisch kranken Patientinnen und Patienten, die drei oder mehr Arzneimittel gleichzeitig einnehmen, Anrecht auf einen elektronischen oder gedruckten Medikationsplan haben. Die Umsetzung dieser Motion läuft. In Absprache mit den Vertreterinnen und Vertretern der Patienten-, Ärzte- und Apothekerorganisationen möchte das Bundesamt für Gesundheit das Verfahren zur Bewirtschaftung, die Rolle und die Verantwortlichkeiten der einzelnen Akteure sowie die technischen und finanziellen Aspekte klären, um die bestmögliche Einführung in der Praxis sicherzustellen. Die Arbeiten zur Einbindung des Medikationsplans in das elektronische Patientendossier laufen ebenfalls und sind eng mit dieser Umsetzung verknüpft.</p><p>Die neue Motion Stöckli 21.3294 verfolgt dieselben Ziele wie die Motion Stöckli 18.3512. Aus verschiedenen Gründen soll die vorliegende Motion jedoch abgelehnt werden:</p><p>1a. Die vorliegende Motion verlangt, dass die Medizinalfachpersonen zwingend einen Medikationsplan für alle Patientinnen und Patienten erstellen, die Arzneimittel der Abgabekategorien A bis D mit möglichen Wechselwirkungen einnehmen. Die Motion 18.3512 fordert, dass alle Patientinnen und Patienten, die drei oder mehr systemisch wirkende Arzneimittel einnehmen, Anrecht auf einen Medikationsplan haben. In diesem Punkt widersprechen sich die beiden Motionen.</p><p>1b/1c. Die Ziele des Motionärs, also die Verbesserung der Versorgungsqualität bei Patientinnen und Patienten mit Polymedikation und die Erhöhung ihrer Sicherheit, können nur erreicht werden, wenn alle Informationen zum Gesundheitszustand des Patienten oder der Patientin und die entsprechende Medikation im Medikationsplan auf dem neuesten Stand gehalten werden. Wenn die Gesundheitsfachpersonen keinen oder nur teilweisen Zugriff darauf haben, können sie die Informationen nicht aktualisieren und keinen Medikationsabgleich vornehmen.</p><p>2a. Die vorliegende Motion sieht eine explizite Pflicht für das Gesundheitspersonal vor. Die Motion Stöckli 18.3512 sieht ein Recht der Patientinnen und Patienten auf einen Medikationsplan vor. Dieses Recht der Patientinnen und Patienten entspricht faktisch einer Pflicht der Leistungserbringer, einen Medikationsplan anzubieten. Die Pflichten und Aufgaben der Gesundheitsfachpersonen gegenüber Patientinnen und Patienten werden bereits in der geltenden Gesetzgebung und in den entsprechenden Richtlinien der unterschiedlichen Berufe ausgeführt. Der Bundesrat sieht deshalb keinen Grund, die Verpflichtung in dieser Hinsicht auszudehnen.</p><p>2b. Im Rahmen der Umsetzung der Motion 18.3512 soll die Rolle jedes Akteurs bei der Bewirtschaftung eines Medikationsplans geklärt werden. Dieser Punkt wird derzeit mit den verschiedenen Akteuren diskutiert.</p><p>3. Ebenso werden die Finanzierungsfragen bei den laufenden Arbeiten diskutiert. Es ist jedoch zu präzisieren, dass die Massnahmen der Qualitätssicherung (wie z.B. Medikationsqualität) im Rahmen der obligatorischen Krankenpflegeversicherung Bestandteil der Leistungserbringung sind. Solche Aufwände können und werden daher bereits heute bei der Tarifberechnung berücksichtigt. Die Ausgestaltung und Vereinbarung der Tarife ist Sache der Tarifpartner.</p><p>Der Bundesrat teilt das Anliegen der vorliegenden Motion Stöckli 21.3294. Er beantragt vor dem Hintergrund obiger Erläuterungen jedoch die Ablehnung. Die überwiesene Motion Stöckli 18.3512 reicht aus, um den Medikationsplan im klinischen und pharmazeutischen Alltag einzuführen. Zudem müssen bei der Umsetzung Lösungen möglich sein, die den regionalen Gegebenheiten hinsichtlich der interprofessionellen Zusammenarbeit möglichst gerecht werden.</p>"
+      "value": "<p>Der Bundesrat ist überzeugt, dass die Medikationsqualität und die Sicherheit bei Patientinnen und Patienten mit Polymedikation verbessert werden müssen. In diesem Sinne hat er dem Parlament die Annahme der Motion Stöckli 18.3512 \"Recht auf einen Medikationsplan zur Stärkung der Patientensicherheit\" beantragt. Diese wurde am 7. März 2019 vom Parlament angenommen. Sie verlangt die Schaffung von Rechtsgrundlagen, aufgrund derer alle chronisch kranken Patientinnen und Patienten, die drei oder mehr Arzneimittel gleichzeitig einnehmen, Anrecht auf einen elektronischen oder gedruckten Medikationsplan haben. Die Umsetzung dieser Motion läuft. In Absprache mit den Vertreterinnen und Vertretern der Patienten-, Ärzte- und Apothekerorganisationen möchte das Bundesamt für Gesundheit das Verfahren zur Bewirtschaftung, die Rolle und die Verantwortlichkeiten der einzelnen Akteure sowie die technischen und finanziellen Aspekte klären, um die bestmögliche Einführung in der Praxis sicherzustellen. Die Arbeiten zur Einbindung des Medikationsplans in das elektronische Patientendossier laufen ebenfalls und sind eng mit dieser Umsetzung verknüpft.</p><p>Die neue Motion Stöckli 21.3294 verfolgt dieselben Ziele wie die Motion Stöckli 18.3512. Aus verschiedenen Gründen soll die vorliegende Motion jedoch abgelehnt werden:</p><p>1a. Die vorliegende Motion verlangt, dass die Medizinalfachpersonen zwingend einen Medikationsplan für alle Patientinnen und Patienten erstellen, die Arzneimittel der Abgabekategorien A bis D mit möglichen Wechselwirkungen einnehmen. Die Motion 18.3512 fordert, dass alle Patientinnen und Patienten, die drei oder mehr systemisch wirkende Arzneimittel einnehmen, Anrecht auf einen Medikationsplan haben. In diesem Punkt widersprechen sich die beiden Motionen.</p><p>1b/1c. Die Ziele des Motionärs, also die Verbesserung der Versorgungsqualität bei Patientinnen und Patienten mit Polymedikation und die Erhöhung ihrer Sicherheit, können nur erreicht werden, wenn alle Informationen zum Gesundheitszustand des Patienten oder der Patientin und die entsprechende Medikation im Medikationsplan auf dem neuesten Stand gehalten werden. Wenn die Gesundheitsfachpersonen keinen oder nur teilweisen Zugriff darauf haben, können sie die Informationen nicht aktualisieren und keinen Medikationsabgleich vornehmen.</p><p>2a. Die vorliegende Motion sieht eine explizite Pflicht für das Gesundheitspersonal vor. Die Motion Stöckli 18.3512 sieht ein Recht der Patientinnen und Patienten auf einen Medikationsplan vor. Dieses Recht der Patientinnen und Patienten entspricht faktisch einer Pflicht der Leistungserbringer, einen Medikationsplan anzubieten. Die Pflichten und Aufgaben der Gesundheitsfachpersonen gegenüber Patientinnen und Patienten werden bereits in der geltenden Gesetzgebung und in den entsprechenden Richtlinien der unterschiedlichen Berufe ausgeführt. Der Bundesrat sieht deshalb keinen Grund, die Verpflichtung in dieser Hinsicht auszudehnen.</p><p>2b. Im Rahmen der Umsetzung der Motion 18.3512 soll die Rolle jedes Akteurs bei der Bewirtschaftung eines Medikationsplans geklärt werden. Dieser Punkt wird derzeit mit den verschiedenen Akteuren diskutiert.</p><p>3. Ebenso werden die Finanzierungsfragen bei den laufenden Arbeiten diskutiert. Es ist jedoch zu präzisieren, dass die Massnahmen der Qualitätssicherung (wie z.B. Medikationsqualität) im Rahmen der obligatorischen Krankenpflegeversicherung Bestandteil der Leistungserbringung sind. Solche Aufwände können und werden daher bereits heute bei der Tarifberechnung berücksichtigt. Die Ausgestaltung und Vereinbarung der Tarife ist Sache der Tarifpartner.</p><p>Der Bundesrat teilt das Anliegen der vorliegenden Motion Stöckli 21.3294. Er beantragt vor dem Hintergrund obiger Erläuterungen jedoch die Ablehnung. Die überwiesene Motion Stöckli 18.3512 reicht aus, um den Medikationsplan im klinischen und pharmazeutischen Alltag einzuführen. Zudem müssen bei der Umsetzung Lösungen möglich sein, die den regionalen Gegebenheiten hinsichtlich der interprofessionellen Zusammenarbeit möglichst gerecht werden.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

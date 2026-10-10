@@ -1,6 +1,6 @@
 {
   "id": 20202007,
-  "updated": "2020-05-11T13:23:53Z",
+  "updated": "2026-09-23T11:58:30Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2026-09-22T00:00:00Z",
+            "text": "La Camera prende atto che la Commissione ha trattato anche la petizione 20.2007 nel quadro dell’esame dell’oggetto 25.069 (cfr. art. 126 cpv. 2 LParl).",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -37,7 +51,7 @@
             "abbreviation": "CSS-CN",
             "id": 6,
             "name": "Commissione della sicurezza sociale e della sanità",
-            "abbreviation1": "CSSS-CN",
+            "abbreviation1": "CSSS-N",
             "abbreviation2": "CSSS",
             "committeeNumber": 6,
             "council": {
@@ -58,7 +72,7 @@
             "abbreviation": "CSS-CS",
             "id": 19,
             "name": "Commissione della sicurezza sociale e della sanità CS",
-            "abbreviation1": "CSSS-CS",
+            "abbreviation1": "CSSS-S",
             "abbreviation2": "CSSS",
             "committeeNumber": 19,
             "council": {
@@ -89,8 +103,18 @@
       "states": [
         {
           "date": "/Date(1585692000000+0200)/",
-          "id": 9,
+          "id": 202,
           "name": "Depositato"
+        },
+        {
+          "date": "/Date(1788991200000+0200)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1790028000000+0200)/",
+          "id": 205,
+          "name": "Pianificato nel Consiglio nazionale"
         }
       ],
       "texts": [
@@ -100,7 +124,11 @@
   ],
   "language": "it",
   "relatedAffairs": [
-
+    {
+      "id": 20250069,
+      "priorityCode": "S",
+      "shortId": "25.069"
+    }
   ],
   "roles": [
     {
@@ -110,8 +138,8 @@
   ],
   "shortId": "20.2007",
   "state": {
-    "id": 9,
-    "name": "Depositato",
+    "id": 205,
+    "name": "Pianificato nel Consiglio nazionale",
     "doneKey": "0",
     "newKey": 0
   },

@@ -1,6 +1,6 @@
 {
   "id": 20210065,
-  "updated": "2022-09-20T13:15:22Z",
+  "updated": "2026-03-19T15:50:28Z",
   "additionalIndexing": "55;52;2846",
   "affairType": {
     "abbreviation": "BRG",
@@ -34,7 +34,7 @@
             "abbreviation": "UREK-SR",
             "id": 20,
             "name": "Kommission für Umwelt, Raumplanung und Energie SR",
-            "abbreviation1": "UREK-SR",
+            "abbreviation1": "UREK-S",
             "abbreviation2": "UREK",
             "committeeNumber": 20,
             "council": {
@@ -45,9 +45,13 @@
             },
             "typeCode": 1
           },
-          "date": "2021-08-26T00:00:00Z",
+          "date": "2021-09-01T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
           ]
         },
         {
@@ -55,7 +59,7 @@
             "abbreviation": "UREK-NR",
             "id": 7,
             "name": "Kommission für Umwelt, Raumplanung und Energie NR",
-            "abbreviation1": "UREK-NR",
+            "abbreviation1": "UREK-N",
             "abbreviation2": "UREK",
             "committeeNumber": 7,
             "council": {
@@ -66,37 +70,14 @@
             },
             "typeCode": 1
           },
-          "date": "2021-08-26T00:00:00Z",
+          "date": "2021-09-01T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "NR",
-                    "id": 1,
-                    "name": "Nationalrat",
-                    "type": "N"
-                  },
-                  "councillor": {
-                    "code": 3123,
-                    "gender": "m",
-                    "id": 4222,
-                    "name": "Paganini Nicolo",
-                    "officialDenomination": "Paganini"
-                  },
-                  "faction": {
-                    "abbreviation": "Fraktion M-E",
-                    "code": "M-E",
-                    "id": 3,
-                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
-                  },
-                  "language": "de"
-                }
-              ],
-              "sessionId": "5116"
+
+              ]
             }
-          ],
-          "treatmentCategory": "V"
+          ]
         }
       ],
       "references": [
@@ -111,7 +92,7 @@
               "name": "Bundesblatt",
               "shortName": "BBl"
             },
-            "url": "https://www.admin.ch/opc/de/federal-gazette/2021/2115.pdf",
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2021/2115.pdf",
             "year": "2021"
           },
           "title": "Botschaft vom 1. September 2021 zur Volksinitiative «Gegen die Verbauung unserer Landschaft (Landschaftsinitiative)»",
@@ -142,8 +123,23 @@
         },
         {
           "date": "/Date(1663624800000+0200)/",
-          "id": 4,
-          "name": "Von beiden Räten behandelt"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1701385200000+0100)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1701730800000+0100)/",
+          "id": 219,
+          "name": "Geplant für die Schlussabstimmung"
+        },
+        {
+          "date": "/Date(1703199600000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -191,12 +187,107 @@
           },
           {
             "category": {
-              "id": 4,
-              "name": "Ergänzung"
+              "id": 3,
+              "name": "Normal"
             },
-            "council": null,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
             "date": "2022-09-20T00:00:00Z",
             "text": "Bis zum 8. März 2024.",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-11-28T00:00:00Z",
+            "text": "Fristverlängerung",
+            "type": 50
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2022-11-28T00:00:00Z",
+            "text": "Bis zum 8. März 2024.",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-12-05T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-12-22T00:00:00Z",
+            "text": "Annahme in der Schlussabstimmung",
+            "type": 36
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-12-22T00:00:00Z",
+            "text": "Annahme in der Schlussabstimmung",
+            "type": 36
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-02-16T00:00:00Z",
+            "text": "Eintritt der Bedingung für den Rückzug (16.02.2024) (BBl 2024 360)",
             "type": 0
           }
         ]
@@ -210,10 +301,56 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-06T18:12:54Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3130,
+                    "gender": "m",
+                    "id": 4229,
+                    "name": "Egger Mike",
+                    "officialDenomination": "Egger Mike"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion V",
+                    "code": "V",
+                    "id": 4,
+                    "name": "Fraktion der Schweizerischen Volkspartei"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "UREK-NR",
             "id": 7,
             "name": "Kommission für Umwelt, Raumplanung und Energie NR",
-            "abbreviation1": "UREK-NR",
+            "abbreviation1": "UREK-N",
             "abbreviation2": "UREK",
             "committeeNumber": 7,
             "council": {
@@ -224,17 +361,23 @@
             },
             "typeCode": 1
           },
-          "date": "2021-08-26T00:00:00Z",
+          "date": "2021-09-01T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
-          ]
+              ],
+              "sessionId": "5116"
+            }
+          ],
+          "treatmentCategory": "I/IIIa"
         },
         {
           "committee": {
             "abbreviation": "UREK-SR",
             "id": 20,
             "name": "Kommission für Umwelt, Raumplanung und Energie SR",
-            "abbreviation1": "UREK-SR",
+            "abbreviation1": "UREK-S",
             "abbreviation2": "UREK",
             "committeeNumber": 20,
             "council": {
@@ -245,7 +388,7 @@
             },
             "typeCode": 1
           },
-          "date": "2021-08-26T00:00:00Z",
+          "date": "2021-09-01T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -273,6 +416,59 @@
                 }
               ],
               "sessionId": "5115"
+            },
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5117"
+            }
+          ],
+          "treatmentCategory": "I/IIIa"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-06T18:12:56Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3017,
+                    "gender": "f",
+                    "id": 4101,
+                    "name": "Bulliard-Marbach Christine",
+                    "officialDenomination": "Bulliard"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "fr"
+                }
+              ]
             }
           ]
         }
@@ -289,13 +485,32 @@
               "name": "Bundesblatt",
               "shortName": "BBl"
             },
-            "url": "https://www.admin.ch/opc/de/federal-gazette/2021/2116.pdf",
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2021/2116.pdf",
             "year": "2021"
           },
           "title": "Bundesbeschluss über die Volksinitiative «Gegen die Verbauung unserer Landschaft (Landschaftsinitiative)»",
           "type": {
             "id": 1,
             "name": "Beratungsgegenstand / Entwurf"
+          }
+        },
+        {
+          "date": "/Date(1704754800000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "29",
+            "source": "BBl 2024 29",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2024/29.pdf",
+            "year": "2024"
+          },
+          "type": {
+            "id": 3,
+            "name": "Schlussabstimmungstext"
           }
         }
       ],
@@ -320,8 +535,23 @@
         },
         {
           "date": "/Date(1663624800000+0200)/",
-          "id": 4,
-          "name": "Von beiden Räten behandelt"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1699830000000+0100)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1701730800000+0100)/",
+          "id": 219,
+          "name": "Geplant für die Schlussabstimmung"
+        },
+        {
+          "date": "/Date(1703199600000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -353,8 +583,8 @@
   ],
   "shortId": "21.065",
   "state": {
-    "id": 4,
-    "name": "Von beiden Räten behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },

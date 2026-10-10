@@ -1,6 +1,6 @@
 {
   "id": 20220315,
-  "updated": "2022-10-20T11:16:24Z",
+  "updated": "2026-05-20T01:58:51Z",
   "additionalIndexing": "66;2446;52;44;32;04;2846",
   "affairType": {
     "abbreviation": "Kt. Iv.",
@@ -27,7 +27,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-12-11T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2025-06-16T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -42,7 +71,7 @@
             "abbreviation": "UREK-NR",
             "id": 7,
             "name": "Kommission für Umwelt, Raumplanung und Energie NR",
-            "abbreviation1": "UREK-NR",
+            "abbreviation1": "UREK-N",
             "abbreviation2": "UREK",
             "committeeNumber": 7,
             "council": {
@@ -56,14 +85,15 @@
           "date": "2022-09-02T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "UREK-SR",
             "id": 20,
             "name": "Kommission für Umwelt, Raumplanung und Energie SR",
-            "abbreviation1": "UREK-SR",
+            "abbreviation1": "UREK-S",
             "abbreviation2": "UREK",
             "committeeNumber": 20,
             "council": {
@@ -76,7 +106,58 @@
           },
           "date": "2022-09-02T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
+          ],
+          "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-09-05T10:39:10Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2767,
+                    "gender": "m",
+                    "id": 4056,
+                    "name": "Fässler Daniel",
+                    "officialDenomination": "Fässler Daniel"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -88,14 +169,45 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
+          "leading": false
+        },
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
           "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1662069600000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1662156000000+0200)/",
+          "id": 225,
+          "name": "Vorprüfung - in Kommission des Ständerates"
+        },
+        {
+          "date": "/Date(1693778400000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1702249200000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1729548000000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1750024800000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -128,8 +240,8 @@
   ],
   "shortId": "22.315",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },
@@ -146,7 +258,7 @@
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Gestützt auf Artikel 160 Absatz 1 der Bundesverfassung vom 18. April 1999, Artikel 115 des Bundesgesetzes vom 13. Dezember 2002 über die Bundesversammlung und Artikel 156 des Geschäftsreglementes vom 13. September 1985 des Grossen Rates des Kantons Genf (Loi portant règlement du Grand Conseil de la République et canton de Genève) reicht der Grosse Rat des Kantons Genf folgende Standesinitiative ein:</p><p>In Anbetracht dessen, dass:</p><p>- künftig Energiemangellagen zu erwarten sind;</p><p>- in der Schweiz und auf der ganzen Welt Klimademonstrationen stattfinden;</p><p>- die Nutzung fossiler Energieträger, die CO2-Emissionen verursachen, einzudämmen ist;</p><p>- die Nutzung umweltfreundlicher und landschaftsschonender erneuerbarer Energien gefördert werden muss;</p><p>- die erneuerbaren Energien in der Schweiz zu langsam ausgebaut werden;</p><p>- die Abschaffung der kostendeckenden Einspeisevergütung (KEV) des Bundes zur Folge hatte, dass die verschiedenen Subventionen für Privateigentümer eher den Selbstverbrauch als die Stromproduktion für die Gesamtbevölkerung fördern;</p><p>- gerade einmal 2,25 Prozent des in der Schweiz produzierten Stroms aus Solarenergie stammt;</p><p>- auch im Energiebereich eher konstruktive, innovative und anreizbasierte Lösungen als Pflicht- oder Strafmassnahmen gefördert werden sollten;</p><p>- der Ausbau der Solarenergie aufgrund des zu niedrigen Strom- und Abnahmepreises für erneuerbare Energie kaum vorankommt;</p><p>- die Inhaber von Anlagen kostendeckend arbeiten können müssen;</p><p>- es besser ist, grüne Energie vor Ort zu produzieren, als kohlenstoffhaltige Energieträger aus dem Ausland zu importieren;</p><p>- die Anreizmassnahme auf dem alten System der kostendeckenden Einspeisevergütung (KEV) beruhen könnte;</p><p>- diese Vergütung zu den Investitionsbeiträgen, der sogenannten Einmalvergütung (EIV), hinzukäme,</p><p>fordert der Grosse Rat des Kantons Genf die Bundesversammlung auf:</p><p>- eine bundesweite Ausbildungsoffensive zu lancieren, um die von der Solarbranche zur Bekämpfung des Klimanotstands benötigten Kompetenzen zu schaffen, d. h. 20 000 Fachleute in der Schweiz auszubilden;</p><p>- die Sanierung von Dächern und die Installation von Fotovoltaikanlagen durch Finanzhilfen des Bundes massiv zu unterstützen;</p><p>- gezielte steuerliche Anreize vorzuschlagen, insbesondere für die Einspeisung von Solarenergie ins Netz;</p><p>- diese Ausbildungsmassnahmen, Finanzhilfen und steuerlichen Anreize gemeinsam mit den Kantonsbehörden umzusetzen.</p>"
+      "value": "<p>Gestützt auf Artikel 160 Absatz 1 der Bundesverfassung vom 18. April 1999, Artikel 115 des Bundesgesetzes vom 13. Dezember 2002 über die Bundesversammlung und Artikel 156 des Geschäftsreglementes vom 13. September 1985 des Grossen Rates des Kantons Genf (Loi portant règlement du Grand Conseil de la République et canton de Genève) reicht der Grosse Rat des Kantons Genf folgende Standesinitiative ein:</p><p>In Anbetracht dessen, dass:</p><p>- künftig Energiemangellagen zu erwarten sind;</p><p>- in der Schweiz und auf der ganzen Welt Klimademonstrationen stattfinden;</p><p>- die Nutzung fossiler Energieträger, die CO2-Emissionen verursachen, einzudämmen ist;</p><p>- die Nutzung umweltfreundlicher und landschaftsschonender erneuerbarer Energien gefördert werden muss;</p><p>- die erneuerbaren Energien in der Schweiz zu langsam ausgebaut werden;</p><p>- die Abschaffung der kostendeckenden Einspeisevergütung (KEV) des Bundes zur Folge hatte, dass die verschiedenen Subventionen für Privateigentümer eher den Selbstverbrauch als die Stromproduktion für die Gesamtbevölkerung fördern;</p><p>- gerade einmal 2,25 Prozent des in der Schweiz produzierten Stroms aus Solarenergie stammt;</p><p>- auch im Energiebereich eher konstruktive, innovative und anreizbasierte Lösungen als Pflicht- oder Strafmassnahmen gefördert werden sollten;</p><p>- der Ausbau der Solarenergie aufgrund des zu niedrigen Strom- und Abnahmepreises für erneuerbare Energie kaum vorankommt;</p><p>- die Inhaber von Anlagen kostendeckend arbeiten können müssen;</p><p>- es besser ist, grüne Energie vor Ort zu produzieren, als kohlenstoffhaltige Energieträger aus dem Ausland zu importieren;</p><p>- die Anreizmassnahme auf dem alten System der kostendeckenden Einspeisevergütung (KEV) beruhen könnte;</p><p>- diese Vergütung zu den Investitionsbeiträgen, der sogenannten Einmalvergütung (EIV), hinzukäme,</p><p>fordert der Grosse Rat des Kantons Genf die Bundesversammlung auf:</p><p>- eine bundesweite Ausbildungsoffensive zu lancieren, um die von der Solarbranche zur Bekämpfung des Klimanotstands benötigten Kompetenzen zu schaffen, d. h. 20 000 Fachleute in der Schweiz auszubilden;</p><p>- die Sanierung von Dächern und die Installation von Fotovoltaikanlagen durch Finanzhilfen des Bundes massiv zu unterstützen;</p><p>- gezielte steuerliche Anreize vorzuschlagen, insbesondere für die Einspeisung von Solarenergie ins Netz;</p><p>- diese Ausbildungsmassnahmen, Finanzhilfen und steuerlichen Anreize gemeinsam mit den Kantonsbehörden umzusetzen.</p>"
     },
     {
       "type": {

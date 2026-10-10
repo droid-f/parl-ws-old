@@ -1,6 +1,6 @@
 {
   "id": 20150320,
-  "updated": "2021-01-13T08:10:03Z",
+  "updated": "2026-06-16T11:44:51Z",
   "additionalIndexing": "09;10;2811;1216",
   "affairType": {
     "abbreviation": "Iv. ct.",
@@ -36,7 +36,7 @@
               "abbreviation": "CIP-CS",
               "id": 24,
               "name": "Commissione delle istituzioni politiche CS",
-              "abbreviation1": "CIP-CS",
+              "abbreviation1": "CIP-S",
               "abbreviation2": "CIP",
               "committeeNumber": 24,
               "council": {
@@ -47,10 +47,15 @@
               },
               "typeCode": 1
             },
-            "council": null,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
             "date": "2016-11-08T00:00:00Z",
-            "text": "È dato seguito",
-            "type": 16
+            "text": "Dare seguito",
+            "type": 0
           },
           {
             "category": {
@@ -61,7 +66,7 @@
               "abbreviation": "CIP-CN",
               "id": 11,
               "name": "Commissione delle istituzioni politiche CN",
-              "abbreviation1": "CIP-CN",
+              "abbreviation1": "CIP-N",
               "abbreviation2": "CIP",
               "committeeNumber": 11,
               "council": {
@@ -74,8 +79,8 @@
             },
             "council": null,
             "date": "2017-01-20T00:00:00Z",
-            "text": "È dato seguito",
-            "type": 16
+            "text": "Dare seguito",
+            "type": 0
           },
           {
             "category": {
@@ -89,13 +94,13 @@
               "type": "N"
             },
             "date": "2019-03-22T00:00:00Z",
-            "text": "Proroga del termine",
-            "type": 50
+            "text": "Proroga del termine fino alla sessione primaverile 2021.",
+            "type": 0
           },
           {
             "category": {
-              "id": 4,
-              "name": "Complemento"
+              "id": 3,
+              "name": "Normale"
             },
             "council": {
               "abbreviation": "CN",
@@ -103,8 +108,53 @@
               "name": "Consiglio nazionale",
               "type": "N"
             },
-            "date": "2019-03-22T00:00:00Z",
-            "text": "Sino alla sessione primaverile 2021.",
+            "date": "2021-03-19T00:00:00Z",
+            "text": "Proroga del termine fino alla sessione primaverile 2023.",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-03-17T00:00:00Z",
+            "text": "Proroga del termine fino alla sessione primaverile 2025.",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-09-23T00:00:00Z",
+            "text": "Nessuno stralcio dal ruolo",
+            "type": 59
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2026-03-20T00:00:00Z",
+            "text": "Il termine imposto è prorogato fino alla sessione primaverile 2028",
             "type": 0
           }
         ]
@@ -118,10 +168,90 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-11-14T09:08:36Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3207,
+                    "gender": "m",
+                    "id": 4311,
+                    "name": "Marchesi Piero",
+                    "officialDenomination": "Marchesi"
+                  },
+                  "language": "it"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-08-21T09:50:59Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2631,
+                    "gender": "m",
+                    "id": 1159,
+                    "name": "Schwander Pirmin",
+                    "officialDenomination": "Schwander"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CIP-CN",
             "id": 11,
             "name": "Commissione delle istituzioni politiche CN",
-            "abbreviation1": "CIP-CN",
+            "abbreviation1": "CIP-N",
             "abbreviation2": "CIP",
             "committeeNumber": 11,
             "council": {
@@ -139,14 +269,15 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "CIP-CS",
             "id": 24,
             "name": "Commissione delle istituzioni politiche CS",
-            "abbreviation1": "CIP-CS",
+            "abbreviation1": "CIP-S",
             "abbreviation2": "CIP",
             "committeeNumber": 24,
             "council": {
@@ -164,7 +295,8 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
@@ -186,8 +318,53 @@
         },
         {
           "date": "/Date(1484866800000+0100)/",
-          "id": 1,
-          "name": "Vi è stato dato seguito"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1485039600000+0100)/",
+          "id": 225,
+          "name": "Esame preliminare - nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1485126000000+0100)/",
+          "id": 223,
+          "name": "Esame preliminare - nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1742511600000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1755727200000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1758578400000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1763074800000+0100)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1772146800000+0100)/",
+          "id": 205,
+          "name": "Pianificato nel Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1773961200000+0100)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
         }
       ],
       "texts": [
@@ -208,24 +385,24 @@
               "name": "Consiglio nazionale",
               "type": "N"
             },
-            "date": "2021-03-19T00:00:00Z",
-            "text": "Proroga del termine",
-            "type": 50
+            "date": "2025-03-21T00:00:00Z",
+            "text": "Stralcio dal ruolo",
+            "type": 15
           },
           {
             "category": {
-              "id": 4,
-              "name": "Complemento"
+              "id": 3,
+              "name": "Normale"
             },
             "council": {
-              "abbreviation": "CN",
-              "id": 1,
-              "name": "Consiglio nazionale",
-              "type": "N"
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
             },
-            "date": "2021-03-19T00:00:00Z",
-            "text": "Sino alla sessione primaverile 2023.",
-            "type": 0
+            "date": "2025-09-23T00:00:00Z",
+            "text": "Nessuno stralcio dal ruolo",
+            "type": 59
           }
         ]
       },
@@ -241,7 +418,7 @@
             "abbreviation": "CIP-CN",
             "id": 11,
             "name": "Commissione delle istituzioni politiche CN",
-            "abbreviation1": "CIP-CN",
+            "abbreviation1": "CIP-N",
             "abbreviation2": "CIP",
             "committeeNumber": 11,
             "council": {
@@ -258,7 +435,7 @@
               "correspondents": [
 
               ],
-              "sessionId": "5108"
+              "sessionId": "5118"
             }
           ],
           "treatmentCategory": "V"
@@ -268,7 +445,7 @@
             "abbreviation": "CIP-CS",
             "id": 24,
             "name": "Commissione delle istituzioni politiche CS",
-            "abbreviation1": "CIP-CS",
+            "abbreviation1": "CIP-S",
             "abbreviation2": "CIP",
             "committeeNumber": 24,
             "council": {
@@ -282,7 +459,8 @@
           "date": "2015-12-18T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -290,17 +468,33 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1443564000000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1742511600000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1773961200000+0100)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
         }
       ],
       "texts": [
@@ -333,8 +527,8 @@
   ],
   "shortId": "15.320",
   "state": {
-    "id": 1,
-    "name": "Vi è stato dato seguito",
+    "id": 208,
+    "name": "Nella Commissione del Consiglio nazionale",
     "doneKey": "0",
     "newKey": 0
   },

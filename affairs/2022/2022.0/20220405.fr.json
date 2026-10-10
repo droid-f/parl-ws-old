@@ -1,6 +1,6 @@
 {
   "id": 20220405,
-  "updated": "2022-03-25T09:46:56Z",
+  "updated": "2026-10-02T11:47:58Z",
   "additionalIndexing": "15;55;52",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -12,7 +12,7 @@
       "abbreviation": "CER-CN",
       "id": 10,
       "name": "Commission de l'économie et des redevances CN",
-      "abbreviation1": "CER-CN",
+      "abbreviation1": "CER-N",
       "abbreviation2": "CER",
       "committeeNumber": 10,
       "council": {
@@ -52,7 +52,7 @@
               "abbreviation": "CER-CN",
               "id": 10,
               "name": "Commission de l'économie et des redevances CN",
-              "abbreviation1": "CER-CN",
+              "abbreviation1": "CER-N",
               "abbreviation2": "CER",
               "committeeNumber": 10,
               "council": {
@@ -74,22 +74,52 @@
               "name": "Normal"
             },
             "committee": {
-              "abbreviation": "CER-CN",
-              "id": 10,
-              "name": "Commission de l'économie et des redevances CN",
-              "abbreviation1": "CER-CN",
+              "abbreviation": "CER-CE",
+              "id": 23,
+              "name": "Commission de l'économie et des redevances CE",
+              "abbreviation1": "CER-E",
               "abbreviation2": "CER",
-              "committeeNumber": 10,
+              "committeeNumber": 23,
               "council": {
-                "abbreviation": "CN",
-                "id": 1,
-                "name": "Conseil national",
-                "type": "N"
+                "abbreviation": "CE",
+                "id": 2,
+                "name": "Conseil des Etats",
+                "type": "S"
               },
               "typeCode": 1
             },
             "council": null,
-            "date": "2022-02-22T00:00:00Z",
+            "date": "2023-01-16T00:00:00Z",
+            "text": "Ne pas donner suite",
+            "type": 49
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-21T00:00:00Z",
+            "text": "Donné suite",
+            "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-03-11T00:00:00Z",
             "text": "Donné suite",
             "type": 16
           }
@@ -99,15 +129,59 @@
       },
       "index": 0,
       "links": [
-
+        {
+          "date": "/Date(1745532000000+0200)/",
+          "title": "Consultation",
+          "url": "https://www.parlament.ch/fr/organe/commissions/commissions-thematiques/commissions-cer/rapports-consultations-cer/vernehmlassung-wak-22-405"
+        }
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-20T10:35:34Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2783,
+                    "gender": "m",
+                    "id": 4078,
+                    "name": "Schmid Martin",
+                    "officialDenomination": "Schmid Martin"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
         {
           "committee": {
             "abbreviation": "CER-CN",
             "id": 10,
             "name": "Commission de l'économie et des redevances CN",
-            "abbreviation1": "CER-CN",
+            "abbreviation1": "CER-N",
             "abbreviation2": "CER",
             "committeeNumber": 10,
             "council": {
@@ -124,15 +198,180 @@
               "correspondents": [
 
               ]
+            },
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "CER-CE",
             "id": 23,
             "name": "Commission de l'économie et des redevances CE",
-            "abbreviation1": "CER-CE",
+            "abbreviation1": "CER-E",
+            "abbreviation2": "CER",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-02-22T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ]
+            }
+          ],
+          "treatmentCategory": "IV"
+        }
+      ],
+      "references": [
+        {
+          "date": "/Date(1768172400000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "258",
+            "source": "FF 2026 258",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2026/258.pdf",
+            "year": "2026"
+          },
+          "type": {
+            "id": 6,
+            "name": "Rapport"
+          }
+        },
+        {
+          "date": "/Date(1776808800000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "1087",
+            "source": "FF 2026 1087",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2026/1087.pdf",
+            "year": "2026"
+          },
+          "type": {
+            "id": 2,
+            "name": "Avis du Conseil fédéral"
+          }
+        }
+      ],
+      "relatedDepartments": [
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        },
+        {
+          "abbreviation": "Parl",
+          "id": 1,
+          "name": "Parlement",
+          "leading": false
+        }
+      ],
+      "states": [
+        {
+          "date": "/Date(1645484400000+0100)/",
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 225,
+          "name": "Examen préalable - en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1708383600000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1710111600000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1768258800000+0100)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1789509600000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1789596000000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        }
+      ],
+      "texts": [
+
+      ]
+    },
+    {
+      "consultation": {
+        "resolutions": [
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2026-09-16T00:00:00Z",
+            "text": "Décision conforme au projet",
+            "type": 62
+          }
+        ]
+      },
+      "federalCouncilProposal": {
+      },
+      "index": 1,
+      "links": [
+        {
+          "date": "/Date(1789596000000+0200)/",
+          "title": "Consultation",
+          "url": "https://www.parlament.ch/fr/organe/commissions/commissions-thematiques/commissions-cer/rapports-consultations-cer/vernehmlassung-wak-22-405"
+        }
+      ],
+      "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CER-CE",
+            "id": 23,
+            "name": "Commission de l'économie et des redevances CE",
+            "abbreviation1": "CER-E",
             "abbreviation2": "CER",
             "committeeNumber": 23,
             "council": {
@@ -146,29 +385,226 @@
           "date": "2022-02-22T00:00:00Z",
           "registrations": [
 
+          ],
+          "treatmentCategory": "IIIb/IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-01-13T17:20:29Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2796,
+                    "gender": "f",
+                    "id": 4090,
+                    "name": "Amaudruz Céline",
+                    "officialDenomination": "Amaudruz"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CN",
+            "id": 10,
+            "name": "Commission de l'économie et des redevances CN",
+            "abbreviation1": "CER-N",
+            "abbreviation2": "CER",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-02-22T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IIIb/IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-01-13T17:20:28Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3131,
+                    "gender": "m",
+                    "id": 4230,
+                    "name": "Bregy Philipp Matthias",
+                    "officialDenomination": "Bregy"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
       "references": [
-
+        {
+          "date": "/Date(1768172400000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "259",
+            "source": "FF 2026 259",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2026/259.pdf",
+            "year": "2026"
+          },
+          "title": "Loi fédérale sur l’agriculture (Loi sur l’agriculture, LAgr)",
+          "type": {
+            "id": 1,
+            "name": "Objet soumis à délibération / Projet"
+          }
+        },
+        {
+          "date": "/Date(1768172400000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "258",
+            "source": "FF 2026 258",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2026/258.pdf",
+            "year": "2026"
+          },
+          "type": {
+            "id": 6,
+            "name": "Rapport"
+          }
+        },
+        {
+          "date": "/Date(1776808800000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "1087",
+            "source": "FF 2026 1087",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2026/1087.pdf",
+            "year": "2026"
+          },
+          "type": {
+            "id": 2,
+            "name": "Avis du Conseil fédéral"
+          }
+        }
       ],
       "relatedDepartments": [
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        },
         {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
-          "date": "/Date(1645484400000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "date": "/Date(1718316000000+0200)/",
+          "id": 201,
+          "name": "Annoncé"
+        },
+        {
+          "date": "/Date(1718402400000+0200)/",
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1719266400000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1768258800000+0100)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1779746400000+0200)/",
+          "id": 205,
+          "name": "Planifié au Conseil national"
+        },
+        {
+          "date": "/Date(1789509600000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
         }
       ],
       "texts": [
-
+        {
+          "type": {
+            "id": 2,
+            "name": "Titre du projet"
+          },
+          "value": "Loi fédérale sur l’agriculture (Loi sur l’agriculture, LAgr)"
+        }
       ]
     }
   ],
@@ -191,7 +627,7 @@
         "abbreviation": "CER-CN",
         "id": 10,
         "name": "Commission de l'économie et des redevances CN",
-        "abbreviation1": "CER-CN",
+        "abbreviation1": "CER-N",
         "abbreviation2": "CER",
         "committeeNumber": 10,
         "council": {
@@ -207,8 +643,8 @@
   ],
   "shortId": "22.405",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 204,
+    "name": "Attribué à la commission compétente",
     "doneKey": "0",
     "newKey": 0
   },

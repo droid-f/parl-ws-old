@@ -1,6 +1,6 @@
 {
   "id": 20213715,
-  "updated": "2023-06-13T10:19:07Z",
+  "updated": "2026-06-05T10:59:45Z",
   "additionalIndexing": "28;1216;2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2023-06-13T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-02-27T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
           }
         ]
       },
@@ -68,7 +83,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WBK-NR",
+            "id": 5,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
+            "abbreviation1": "WBK-N",
+            "abbreviation2": "WBK",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-15T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WBK-SR",
+            "id": 18,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
+            "abbreviation1": "WBK-S",
+            "abbreviation2": "WBK",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-15T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-23T14:39:45Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3227,
+                    "gender": "f",
+                    "id": 4332,
+                    "name": "Crevoisier Crelier Mathilde",
+                    "officialDenomination": "Crevoisier Crelier"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +185,33 @@
         },
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1703199600000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1705964400000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1707433200000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1708988400000+0100)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
+        },
+        {
+          "date": "/Date(1778104800000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
         }
       ],
       "texts": [
@@ -118,7 +239,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -328,7 +449,7 @@
         "gender": "m",
         "id": 4070,
         "name": "Candinas Martin",
-        "officialDenomination": "Candinas"
+        "officialDenomination": "Candinas Martin"
       },
       "type": "cosign"
     },
@@ -718,7 +839,7 @@
         "gender": "m",
         "id": 4141,
         "name": "Portmann Hans-Peter",
-        "officialDenomination": "Portmann"
+        "officialDenomination": "Portmann Hans-Peter"
       },
       "type": "cosign"
     },
@@ -911,10 +1032,9 @@
   ],
   "shortId": "21.3715",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 204,
+    "name": "Zugewiesen an die behandelnde Kommission",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -930,7 +1050,7 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Mit der Verabschiedung des Berichts zur Erfüllung des Postulats 15.3945 Glanzmann-Hunkeler \"Gewalt im Alter verhindern\" im September 2020 hat der Bundesrat die Bedeutung der Problematik anerkannt und dabei auf die Notwendigkeit hingewiesen, gemeinsam mit den Kantonen und den zuständigen Akteuren Präventions- und Interventionsmassnahmen in die Wege zu leiten. Der Bundesrat wartet nun die Ergebnisse der vom EDI durchgeführten Anhörung der zuständigen kantonalen Direktorenkonferenzen (KdK, SODK, GDK, KKJPD sowie KOKES) ab, bevor er über das weitere Vorgehen entscheidet. Infolge der Corona-Pandemie wurde die Diskussion auf Wunsch der Kantone, die für die meisten Bereiche der Prävention von Gewalt im Alter zuständig sind, sistiert. Alle Beteiligten haben jedoch zugesagt, die Diskussion im Frühjahr 2022 wiederaufzunehmen. Der Bundesrat wird somit bis Ende 2022 Stellung nehmen.</p><p>Dennoch ist das Thema in den letzten Monaten nicht in Vergessenheit geraten. Ein Aktionsplan zur Umsetzung des Übereinkommens des Europarats zur Verhütung und Bekämpfung von Gewalt gegen Frauen und häuslicher Gewalt (Istanbul-Konvention; SR 0.311.35) ist in Bearbeitung. In diesem Zusammenhang wird auch den spezifischen Bedürfnissen der älteren Menschen Rechnung getragen. Am Strategischen Dialog vom 30. April 2021, an dem der Bund, die Kantone und zivilgesellschaftliche Organisationen teilnahmen, wurde zum Abschluss des Anlasses die \"Häusliche Gewalt: Roadmap von Bund und Kantonen\" unterzeichnet. (www.bj.admin.ch &gt; Gesellschaft &gt; Häusliche Gewalt &gt; Strategischer Dialog \"Häusliche Gewalt\"). Darin ist unter anderem die Initiative der Schweizerischen Kriminalprävention (SKP) aufgeführt, die darauf abzielt, eine Informationskampagne gegen häusliche Gewalt mit Fokus auf ältere Personen durchzuführen.</p><p>Wie die Motion unterstreicht, wirft die Misshandlung älterer Menschen Fragen auf, die über die häusliche Gewalt hinausgehen und insbesondere die Bereiche Pflege, Betreuung und pflegende Angehörige betreffen. Der Bedarf und die Handlungsoptionen in diesen Bereichen werden im Hinblick auf die Wiederaufnahme der Diskussionen mit den Kantonen gemeinsam mit den betroffenen Bundesämtern und Organisationen geprüft werden.</p>"
+      "value": "<p>Mit der Verabschiedung des Berichts zur Erfüllung des Postulats 15.3945 Glanzmann-Hunkeler \"Gewalt im Alter verhindern\" im September 2020 hat der Bundesrat die Bedeutung der Problematik anerkannt und dabei auf die Notwendigkeit hingewiesen, gemeinsam mit den Kantonen und den zuständigen Akteuren Präventions- und Interventionsmassnahmen in die Wege zu leiten. Der Bundesrat wartet nun die Ergebnisse der vom EDI durchgeführten Anhörung der zuständigen kantonalen Direktorenkonferenzen (KdK, SODK, GDK, KKJPD sowie KOKES) ab, bevor er über das weitere Vorgehen entscheidet. Infolge der Corona-Pandemie wurde die Diskussion auf Wunsch der Kantone, die für die meisten Bereiche der Prävention von Gewalt im Alter zuständig sind, sistiert. Alle Beteiligten haben jedoch zugesagt, die Diskussion im Frühjahr 2022 wiederaufzunehmen. Der Bundesrat wird somit bis Ende 2022 Stellung nehmen.</p><p>Dennoch ist das Thema in den letzten Monaten nicht in Vergessenheit geraten. Ein Aktionsplan zur Umsetzung des Übereinkommens des Europarats zur Verhütung und Bekämpfung von Gewalt gegen Frauen und häuslicher Gewalt (Istanbul-Konvention; SR 0.311.35) ist in Bearbeitung. In diesem Zusammenhang wird auch den spezifischen Bedürfnissen der älteren Menschen Rechnung getragen. Am Strategischen Dialog vom 30. April 2021, an dem der Bund, die Kantone und zivilgesellschaftliche Organisationen teilnahmen, wurde zum Abschluss des Anlasses die \"Häusliche Gewalt: Roadmap von Bund und Kantonen\" unterzeichnet. (www.bj.admin.ch &gt; Gesellschaft &gt; Häusliche Gewalt &gt; Strategischer Dialog \"Häusliche Gewalt\"). Darin ist unter anderem die Initiative der Schweizerischen Kriminalprävention (SKP) aufgeführt, die darauf abzielt, eine Informationskampagne gegen häusliche Gewalt mit Fokus auf ältere Personen durchzuführen.</p><p>Wie die Motion unterstreicht, wirft die Misshandlung älterer Menschen Fragen auf, die über die häusliche Gewalt hinausgehen und insbesondere die Bereiche Pflege, Betreuung und pflegende Angehörige betreffen. Der Bedarf und die Handlungsoptionen in diesen Bereichen werden im Hinblick auf die Wiederaufnahme der Diskussionen mit den Kantonen gemeinsam mit den betroffenen Bundesämtern und Organisationen geprüft werden.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

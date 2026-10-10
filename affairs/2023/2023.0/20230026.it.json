@@ -1,6 +1,7 @@
 {
   "id": 20230026,
-  "updated": "2023-06-14T13:48:06Z",
+  "updated": "2026-02-10T21:17:41Z",
+  "additionalIndexing": "44;2836;32;15",
   "affairType": {
     "abbreviation": "OCF",
     "id": 1,
@@ -33,7 +34,7 @@
             "abbreviation": "CSS-CN",
             "id": 6,
             "name": "Commissione della sicurezza sociale e della sanità",
-            "abbreviation1": "CSSS-CN",
+            "abbreviation1": "CSSS-N",
             "abbreviation2": "CSSS",
             "committeeNumber": 6,
             "council": {
@@ -44,18 +45,17 @@
             },
             "typeCode": 1
           },
-          "date": "2023-02-10T00:00:00Z",
+          "date": "2023-02-15T00:00:00Z",
           "registrations": [
 
-          ],
-          "treatmentCategory": "IIIb/IV"
+          ]
         },
         {
           "committee": {
             "abbreviation": "CSS-CS",
             "id": 19,
             "name": "Commissione della sicurezza sociale e della sanità CS",
-            "abbreviation1": "CSSS-CS",
+            "abbreviation1": "CSSS-S",
             "abbreviation2": "CSSS",
             "committeeNumber": 19,
             "council": {
@@ -66,7 +66,7 @@
             },
             "typeCode": 1
           },
-          "date": "2023-02-10T00:00:00Z",
+          "date": "2023-02-15T00:00:00Z",
           "registrations": [
 
           ]
@@ -110,8 +110,28 @@
         },
         {
           "date": "/Date(1686693600000+0200)/",
-          "id": 3,
-          "name": "Trattato dal Consiglio degli Stati"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1686780000000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1693519200000+0200)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1695160800000+0200)/",
+          "id": 219,
+          "name": "Pianificato per il voto finale"
+        },
+        {
+          "date": "/Date(1695938400000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -141,6 +161,51 @@
             "date": "2023-06-14T00:00:00Z",
             "text": "Decisione secondo il disegno (progetto)",
             "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-20T00:00:00Z",
+            "text": "Adesione",
+            "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Adozione nella votazione finale",
+            "type": 36
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Adozione nella votazione finale",
+            "type": 36
           }
         ]
       },
@@ -153,10 +218,55 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-09-01T11:35:09Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3074,
+                    "gender": "m",
+                    "id": 4161,
+                    "name": "Glarner Andreas",
+                    "officialDenomination": "Glarner"
+                  },
+                  "faction": {
+                    "abbreviation": "Gruppo V",
+                    "id": 4,
+                    "name": "Gruppo dell'Unione democratica di Centro"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CSS-CN",
             "id": 6,
             "name": "Commissione della sicurezza sociale e della sanità",
-            "abbreviation1": "CSSS-CN",
+            "abbreviation1": "CSSS-N",
             "abbreviation2": "CSSS",
             "committeeNumber": 6,
             "council": {
@@ -167,18 +277,23 @@
             },
             "typeCode": 1
           },
-          "date": "2023-02-10T00:00:00Z",
+          "date": "2023-02-15T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ],
+              "sessionId": "5122"
+            }
           ],
-          "treatmentCategory": "IIIb/IV"
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "CSS-CS",
             "id": 19,
             "name": "Commissione della sicurezza sociale e della sanità CS",
-            "abbreviation1": "CSSS-CS",
+            "abbreviation1": "CSSS-S",
             "abbreviation2": "CSSS",
             "committeeNumber": 19,
             "council": {
@@ -189,7 +304,7 @@
             },
             "typeCode": 1
           },
-          "date": "2023-02-10T00:00:00Z",
+          "date": "2023-02-15T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -217,7 +332,8 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
@@ -240,6 +356,26 @@
             "id": 1,
             "name": "Oggetto in deliberazione / progetto"
           }
+        },
+        {
+          "date": "/Date(1696888800000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2298",
+            "source": "FF 2023 2298",
+            "type": {
+              "id": 1,
+              "name": "Foglio federale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/it/federal-gazette/2023/2298.pdf",
+            "year": "2023"
+          },
+          "referendumDeadline": "2024-01-18T00:00:00Z",
+          "type": {
+            "id": 3,
+            "name": "Testo per la votazione finale"
+          }
         }
       ],
       "relatedDepartments": [
@@ -258,8 +394,28 @@
         },
         {
           "date": "/Date(1686693600000+0200)/",
-          "id": 3,
-          "name": "Trattato dal Consiglio degli Stati"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1686780000000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1693519200000+0200)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1695160800000+0200)/",
+          "id": 219,
+          "name": "Pianificato per il voto finale"
+        },
+        {
+          "date": "/Date(1695938400000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -291,8 +447,8 @@
   ],
   "shortId": "23.026",
   "state": {
-    "id": 3,
-    "name": "Trattato dal Consiglio degli Stati",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
     "newKey": 0
   },

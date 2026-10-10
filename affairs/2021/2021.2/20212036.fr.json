@@ -1,13 +1,13 @@
 {
   "id": 20212036,
-  "updated": "2023-03-22T12:10:41Z",
+  "updated": "2026-05-20T01:52:32Z",
   "affairType": {
     "abbreviation": "Pét.",
     "id": 10,
     "name": "Pétition"
   },
   "author": {
-    "external": "Session des femmes 2021",
+    "external": "Frauensession 2021",
     "type": "author"
   },
   "deposit": {
@@ -31,7 +31,7 @@
               "abbreviation": "CSSS-CN",
               "id": 6,
               "name": "Commission de la sécurité sociale et de la santé publique CN",
-              "abbreviation1": "CSSS-CN",
+              "abbreviation1": "CSSS-N",
               "abbreviation2": "CSSS",
               "committeeNumber": 6,
               "council": {
@@ -44,8 +44,8 @@
             },
             "council": null,
             "date": "2022-06-23T00:00:00Z",
-            "text": "Donné suite",
-            "type": 16
+            "text": "Donner suite (cf. initiative de commission ou intervention)",
+            "type": 0
           },
           {
             "category": {
@@ -61,6 +61,46 @@
             "date": "2022-09-29T00:00:00Z",
             "text": "Il est pris acte de la pétition selon la discussion de l’objet 22.3868 (voir art. 126 al. 2 LParl).",
             "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CSEC-CE",
+              "id": 18,
+              "name": "Commission de la science, de l'éducation et de la culture CE",
+              "abbreviation1": "CSEC-E",
+              "abbreviation2": "CSEC",
+              "committeeNumber": 18,
+              "council": {
+                "abbreviation": "CE",
+                "id": 2,
+                "name": "Conseil des Etats",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-01-30T00:00:00Z",
+            "text": "Traitement en relation avec un objet pendant (numéro de l’objet)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-03-14T00:00:00Z",
+            "text": "Examiné dans le cadre d’un autre objet",
+            "type": 80
           }
         ]
       },
@@ -76,7 +116,7 @@
             "abbreviation": "CSSS-CN",
             "id": 6,
             "name": "Commission de la sécurité sociale et de la santé publique CN",
-            "abbreviation1": "CSSS-CN",
+            "abbreviation1": "CSSS-N",
             "abbreviation2": "CSSS",
             "committeeNumber": 6,
             "council": {
@@ -101,7 +141,7 @@
             "abbreviation": "CSEC-CE",
             "id": 18,
             "name": "Commission de la science, de l'éducation et de la culture CE",
-            "abbreviation1": "CSEC-CE",
+            "abbreviation1": "CSEC-E",
             "abbreviation2": "CSEC",
             "committeeNumber": 18,
             "council": {
@@ -127,10 +167,16 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -141,8 +187,18 @@
         },
         {
           "date": "/Date(1664402400000+0200)/",
-          "id": 2,
-          "name": "Traité par le Conseil national"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1664488800000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1701990000000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -160,14 +216,14 @@
   ],
   "roles": [
     {
-      "external": "Session des femmes 2021",
+      "external": "Frauensession 2021",
       "type": "author"
     }
   ],
   "shortId": "21.2036",
   "state": {
-    "id": 2,
-    "name": "Traité par le Conseil national",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },

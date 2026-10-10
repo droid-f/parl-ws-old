@@ -1,6 +1,6 @@
 {
   "id": 20210313,
-  "updated": "2023-06-16T07:37:25Z",
+  "updated": "2026-05-20T02:02:18Z",
   "additionalIndexing": "55;15;52;66",
   "affairType": {
     "abbreviation": "Iv. ct.",
@@ -32,6 +32,31 @@
               "id": 3,
               "name": "Normal"
             },
+            "committee": {
+              "abbreviation": "CEATE-CE",
+              "id": 20,
+              "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CE",
+              "abbreviation1": "CEATE-E",
+              "abbreviation2": "CEATE",
+              "committeeNumber": 20,
+              "council": {
+                "abbreviation": "CE",
+                "id": 2,
+                "name": "Conseil des Etats",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2022-06-23T00:00:00Z",
+            "text": "Donner suite",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
             "council": {
               "abbreviation": "CN",
               "id": 1,
@@ -39,6 +64,46 @@
               "type": "N"
             },
             "date": "2023-06-15T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CEATE-CE",
+              "id": 20,
+              "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CE",
+              "abbreviation1": "CEATE-E",
+              "abbreviation2": "CEATE",
+              "committeeNumber": 20,
+              "council": {
+                "abbreviation": "CE",
+                "id": 2,
+                "name": "Conseil des Etats",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2024-03-21T00:00:00Z",
+            "text": "Ne pas donner suite (procédure d'élimination des divergences)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-05-28T00:00:00Z",
             "text": "Refusé de donner suite",
             "type": 51
           }
@@ -53,10 +118,50 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-03-22T12:54:19Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2767,
+                    "gender": "m",
+                    "id": 4056,
+                    "name": "Fässler Daniel",
+                    "officialDenomination": "Fässler Daniel"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CEATE-CE",
             "id": 20,
             "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CE",
-            "abbreviation1": "CEATE-CE",
+            "abbreviation1": "CEATE-E",
             "abbreviation2": "CEATE",
             "committeeNumber": 20,
             "council": {
@@ -74,14 +179,15 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CEATE-CN",
             "id": 7,
             "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CN",
-            "abbreviation1": "CEATE-CN",
+            "abbreviation1": "CEATE-N",
             "abbreviation2": "CEATE",
             "committeeNumber": 7,
             "council": {
@@ -109,10 +215,16 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -123,8 +235,23 @@
         },
         {
           "date": "/Date(1686780000000+0200)/",
-          "id": 28,
-          "name": "Examen préalable par le Conseil national"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1712700000000+0200)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1716847200000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -157,8 +284,8 @@
   ],
   "shortId": "21.313",
   "state": {
-    "id": 28,
-    "name": "Examen préalable par le Conseil national",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
@@ -168,14 +295,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Dans sa réponse à l'interpellation 51.20.76 \" Davantage de liberté de planification concernant les installations centrales de combustion alimentées au bois \", le Conseil d'Etat saint-gallois constate que la construction de bâtiments et d'installations pour la production de chaleur à partir de biomasse ligneuse en dehors d'une zone à bâtir (par ex. en zone agricole) est régie par le droit fédéral et que, à l'heure actuelle, elle n'est (généralement) pas autorisée. Si le droit fédéral était adapté en conséquence, le Gouvernement saint-gallois serait prêt à réexaminer et à modifier la pratique d'autorisation actuelle.</p><p>S'agissant de la biomasse ligneuse (bois-énergie), la base d'autorisation actuelle implique l'impossibilité de construire un nouveau bâtiment destiné à la production de bois-énergie (chaleur ou chaleur/électricité) en zone agricole. Ainsi, on ne profite pas de l'opportunité de réaliser des réseaux thermiques à proximité des zones urbaines : si, dans une zone à bâtir, on construit une installation thermique au lieu d'un logement (qui est plus rentable), on fait perdre au terrain une grande partie de sa valeur économique. En outre, les désagréments liés à ces installations (fumée, bruit, transport) sont rarement bien tolérés dans les zones urbaines.</p><p>Actuellement, la Suisse possède un important potentiel inexploité en matière de bois-énergie, qui permettrait d'économiser 1,5 million de tonnes de CO2 par an. Dans ce contexte, il y a lieu de réexaminer en détail les dispositions du droit fédéral afin de créer de meilleures bases pour la construction d'installations de bois-énergie.</p><p>L'adoption de l'art. 16a, al. 1bis, LAT avait traduit la volonté politique d'autoriser ce genre d'installations en zone agricole. Toutefois, à l'art. 34a, al. 1bis, de l'ordonnance sur l'aménagement du territoire (OAT ; RS 700.1), le Conseil fédéral a malheureusement fortement durci les conditions relatives à la conformité à l'affectation de la zone. Or, les intérêts de la politique énergétique ne sauraient être relégués au second plan, au profit de ceux de l'aménagement du territoire.</p><p>Pour exploiter le potentiel considérable des ressources dont nous disposons en Suisse sur le plan énergétique, tout en misant sur une chaîne de création de valeur régionale rentable, et afin que les espaces ruraux puissent contribuer à la Stratégie énergétique 2050 et à la réalisation des objectifs climatiques, il convient de supprimer certains obstacles en matière d'aménagement du territoire.</p>"
+      "value": "<p>Dans sa réponse à l'interpellation 51.20.76 \" Davantage de liberté de planification concernant les installations centrales de combustion alimentées au bois \", le Conseil d'État saint-gallois constate que la construction de bâtiments et d'installations pour la production de chaleur à partir de biomasse ligneuse en dehors d'une zone à bâtir (par ex. en zone agricole) est régie par le droit fédéral et que, à l'heure actuelle, elle n'est (généralement) pas autorisée. Si le droit fédéral était adapté en conséquence, le Gouvernement saint-gallois serait prêt à réexaminer et à modifier la pratique d'autorisation actuelle.</p><p>S'agissant de la biomasse ligneuse (bois-énergie), la base d'autorisation actuelle implique l'impossibilité de construire un nouveau bâtiment destiné à la production de bois-énergie (chaleur ou chaleur/électricité) en zone agricole. Ainsi, on ne profite pas de l'opportunité de réaliser des réseaux thermiques à proximité des zones urbaines : si, dans une zone à bâtir, on construit une installation thermique au lieu d'un logement (qui est plus rentable), on fait perdre au terrain une grande partie de sa valeur économique. En outre, les désagréments liés à ces installations (fumée, bruit, transport) sont rarement bien tolérés dans les zones urbaines.</p><p>Actuellement, la Suisse possède un important potentiel inexploité en matière de bois-énergie, qui permettrait d'économiser 1,5 million de tonnes de CO2 par an. Dans ce contexte, il y a lieu de réexaminer en détail les dispositions du droit fédéral afin de créer de meilleures bases pour la construction d'installations de bois-énergie.</p><p>L'adoption de l'art. 16a, al. 1bis, LAT avait traduit la volonté politique d'autoriser ce genre d'installations en zone agricole. Toutefois, à l'art. 34a, al. 1bis, de l'ordonnance sur l'aménagement du territoire (OAT ; RS 700.1), le Conseil fédéral a malheureusement fortement durci les conditions relatives à la conformité à l'affectation de la zone. Or, les intérêts de la politique énergétique ne sauraient être relégués au second plan, au profit de ceux de l'aménagement du territoire.</p><p>Pour exploiter le potentiel considérable des ressources dont nous disposons en Suisse sur le plan énergétique, tout en misant sur une chaîne de création de valeur régionale rentable, et afin que les espaces ruraux puissent contribuer à la Stratégie énergétique 2050 et à la réalisation des objectifs climatiques, il convient de supprimer certains obstacles en matière d'aménagement du territoire.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Se fondant sur l'art. 160, al. 1, de la Constitution fédérale et sur l'art. 115 de la loi sur le Parlement, le canton de Saint-Gall soumet à l'Assemblée fédérale l'initiative suivante :</p><p>L'Assemblée fédérale est invitée à modifier la loi sur l'aménagement du territoire (LAT ; RS 700), dans le cadre de la révision en cours de cette loi (LAT II), de sorte que les cantons et les communes puissent autoriser les constructions et les installations pour la production de chaleur et d'électricité à partir de biomasse ligneuse en zone agricole.</p>"
+      "value": "<p>Se fondant sur l'art. 160, al. 1, de la Constitution fédérale et sur l'art. 115 de la loi sur le Parlement, le canton de Saint-Gall soumet à l'Assemblée fédérale l'initiative suivante :</p><p>L'Assemblée fédérale est invitée à modifier la loi sur l'aménagement du territoire (LAT ; RS 700), dans le cadre de la révision en cours de cette loi (LAT II), de sorte que les cantons et les communes puissent autoriser les constructions et les installations pour la production de chaleur et d'électricité à partir de biomasse ligneuse en zone agricole.</p>"
     },
     {
       "type": {

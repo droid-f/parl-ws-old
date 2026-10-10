@@ -1,6 +1,7 @@
 {
   "id": 20230306,
-  "updated": "2023-04-06T11:28:15Z",
+  "updated": "2026-09-14T08:26:27Z",
+  "additionalIndexing": "36;32;10",
   "affairType": {
     "abbreviation": "Iv. ct.",
     "id": 3,
@@ -26,7 +27,71 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CSEC-CE",
+              "id": 18,
+              "name": "Commission de la science, de l'éducation et de la culture CE",
+              "abbreviation1": "CSEC-E",
+              "abbreviation2": "CSEC",
+              "committeeNumber": 18,
+              "council": {
+                "abbreviation": "CE",
+                "id": 2,
+                "name": "Conseil des Etats",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2024-04-09T00:00:00Z",
+            "text": "Donner suite",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CSEC-CN",
+              "id": 5,
+              "name": "Commission de la science, de l'éducation et de la culture CN",
+              "abbreviation1": "CSEC-N",
+              "abbreviation2": "CSEC",
+              "committeeNumber": 5,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Conseil national",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2024-09-05T00:00:00Z",
+            "text": "Donner suite",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2026-06-09T00:00:00Z",
+            "text": "Classement",
+            "type": 15
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -36,24 +101,148 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-03-30T09:38:59Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3205,
+                    "gender": "m",
+                    "id": 4309,
+                    "name": "Michel Matthias",
+                    "officialDenomination": "Michel Matthias"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CE",
+            "id": 18,
+            "name": "Commission de la science, de l'éducation et de la culture CE",
+            "abbreviation1": "CSEC-E",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-31T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CN",
+            "id": 5,
+            "name": "Commission de la science, de l'éducation et de la culture CN",
+            "abbreviation1": "CSEC-N",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-31T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1680213600000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1701385200000+0100)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1709593200000+0100)/",
+          "id": 225,
+          "name": "Examen préalable - en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1712613600000+0200)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1725487200000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1774479600000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1779746400000+0200)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1780956000000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
         }
       ],
       "texts": [
@@ -86,10 +275,10 @@
   ],
   "shortId": "23.306",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 208,
+    "name": "En commission du Conseil national",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -97,14 +286,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Par motion déposée et développée le 19 mai 2022 (Motion 2022-GC-101), les députés Grégoire Kubski et Antoinette de Weck ainsi que 40 co-signataires demandent au Conseil d'Etat, au nom du canton de Fribourg, de soumettre à l'Assemblée fédérale une initiative cantonale demandant au Parlement fédéral et au Conseil fédéral d'entreprendre dans les meilleurs délais les démarches nécessaires afin que la Suisse puisse continuer à participer au programme-cadre de recherche et d'innovation de l'Union Européenne Horizon Europe.</p><p>L'exclusion de la Suisse entraîne un affaiblissement de sa capacité d'innovation et de sa compétitivité et réduit la mobilité des chercheurs et chercheuses, la coopération internationale ainsi que le transfert de connaissances. Elle écarte également les scientifiques et les étudiants et étudiantes du marché européen de la formation et réduit l'attractivité et le rayonnement des hautes écoles et des instituts de recherche suisses.</p><p>Les coopérations de recherches avec les universités européennes sont essentielles pour le développement de l'Université et des Hautes écoles spécialisées de Fribourg, et par conséquent pour le canton dans son ensemble. En outre, les mesures transitoires prévues par la Confédération ne compensent pas réellement les impacts négatifs induits par l'exclusion du programme Horizon Europe. Pour ces raisons, il est impératif que le Parlement fédéral et le Conseil fédéral fassent de la réintégration à Horizon Europe une priorité.</p>"
+      "value": "<p>Par motion déposée et développée le 19 mai 2022 (Motion 2022-GC-101), les députés Grégoire Kubski et Antoinette de Weck ainsi que 40 co-signataires demandent au Conseil d'État, au nom du canton de Fribourg, de soumettre à l'Assemblée fédérale une initiative cantonale demandant au Parlement fédéral et au Conseil fédéral d'entreprendre dans les meilleurs délais les démarches nécessaires afin que la Suisse puisse continuer à participer au programme-cadre de recherche et d'innovation de l'Union Européenne Horizon Europe.</p><p>L'exclusion de la Suisse entraîne un affaiblissement de sa capacité d'innovation et de sa compétitivité et réduit la mobilité des chercheurs et chercheuses, la coopération internationale ainsi que le transfert de connaissances. Elle écarte également les scientifiques et les étudiants et étudiantes du marché européen de la formation et réduit l'attractivité et le rayonnement des hautes écoles et des instituts de recherche suisses.</p><p>Les coopérations de recherches avec les universités européennes sont essentielles pour le développement de l'Université et des Hautes écoles spécialisées de Fribourg, et par conséquent pour le canton dans son ensemble. En outre, les mesures transitoires prévues par la Confédération ne compensent pas réellement les impacts négatifs induits par l'exclusion du programme Horizon Europe. Pour ces raisons, il est impératif que le Parlement fédéral et le Conseil fédéral fassent de la réintégration à Horizon Europe une priorité.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>S'appuyant sur l'article 160 al. 1 de la Constitution fédérale, le Grand Conseil du canton de Fribourg soumet à l'Assemblée fédérale l'initiative cantonale suivante:</p><p>Les Autorités fédérales sont invitées à arrêter dans les meilleurs délais les dispositions législatives nécessaires pour que la Suisse puisse continuer à participer en tant que pays tiers associé au programme de recherche de l'Union Européenne Horizon Europe.</p>"
+      "value": "<p>S'appuyant sur l'article 160 al. 1 de la Constitution fédérale, le Grand Conseil du canton de Fribourg soumet à l'Assemblée fédérale l'initiative cantonale suivante :</p><p>Les Autorités fédérales sont invitées à arrêter dans les meilleurs délais les dispositions législatives nécessaires pour que la Suisse puisse continuer à participer en tant que pays tiers associé au programme de recherche de l'Union Européenne Horizon Europe.</p>"
     },
     {
       "type": {

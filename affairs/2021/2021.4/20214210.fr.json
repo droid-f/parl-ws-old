@@ -1,6 +1,6 @@
 {
   "id": 20214210,
-  "updated": "2023-06-14T07:49:56Z",
+  "updated": "2026-09-24T10:55:05Z",
   "additionalIndexing": "55;2846",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,51 @@
             "date": "2023-06-13T00:00:00Z",
             "text": "Adoption",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-03-11T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2026-09-21T00:00:00Z",
+            "text": "Classé dans le cadre d’un autre objet 26.006",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2026-09-24T00:00:00Z",
+            "text": "Classé dans le cadre d’un autre objet 26.006",
+            "type": 0
           }
         ]
       },
@@ -67,7 +112,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-20T14:47:02Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3054,
+                    "gender": "m",
+                    "id": 4152,
+                    "name": "Wicki Hans",
+                    "officialDenomination": "Wicki"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CN",
+            "id": 10,
+            "name": "Commission de l'économie et des redevances CN",
+            "abbreviation1": "CER-N",
+            "abbreviation2": "CER",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-09-30T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CE",
+            "id": 23,
+            "name": "Commission de l'économie et des redevances CE",
+            "abbreviation1": "CER-E",
+            "abbreviation2": "CER",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-09-30T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +214,38 @@
         },
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 11,
-          "name": "Motion au 2e conseil"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1708383600000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1710111600000+0100)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
+        },
+        {
+          "date": "/Date(1774994400000+0200)/",
+          "id": 216,
+          "name": "Proposition de classement est disponible"
+        },
+        {
+          "date": "/Date(1789941600000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1790200800000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -108,7 +264,11 @@
     }
   ],
   "relatedAffairs": [
-
+    {
+      "id": 20214157,
+      "priorityCode": "N",
+      "shortId": "21.4157"
+    }
   ],
   "roles": [
     {
@@ -199,10 +359,9 @@
   ],
   "shortId": "21.4210",
   "state": {
-    "id": 11,
-    "name": "Motion au 2e conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -218,7 +377,7 @@
         "id": 14,
         "name": "Réponse CF / Bureau"
       },
-      "value": "<p>L'art. 60, al. 1 de la loi sur l'agriculture (LAgr ; RS 910.1) stipule que quiconque plante de nouvelles vignes doit être titulaire d'une autorisation du canton. En supprimant la durée de dix ans pour la replantation de la vigne, fixée dans l'ordonnance sur le vin, il ne sera plus possible que des surfaces ayant été cultivées en vignes soient biffées du cadastre viticole.</p><p>Or, selon l'art. 60, al. 5, LAgr, le canton est habilité à interdire, temporairement et par région, toute plantation de nouvelles vignes servant à la production vinicole, si des mesures destinées à alléger le marché ou à permettre la reconversion de surfaces viticoles sont financées ou si la situation du marché l'exige. L'abrogation du délai de dix ans entraînerait que cette possibilité de régulation confiée au canton devienne obsolète.</p><p>L'autorisation de planter des vignes contient des exigences environnementales liées par exemple à la protection de plantes et de la faune. Ces exigences sont fixées localement et peuvent être adaptées par les cantons. L'octroi d'une autorisation de replanter de la vigne sur une parcelle dont la culture a été interrompue plus de dix ans permet d'appliquer les exigences actualisées de protection de l'environnement et des sols.</p><p>Il ne serait pas approprié d'accorder une autorisation sans possibilité de le révoquer en cas de non-respect des règles y afférentes. Le délai de dix ans pour la replantation d'une vigne a déjà été instauré dans l'ordonnance sur la viticulture et le placement des produits viticoles de 1953 (Statut du vin) et a fait ses preuves, aussi bien dans les années difficiles que plus faciles traversées par l'économie vitivinicole. Il est suffisamment long pour permettre aux viticulteurs de prendre des décisions d'investissements ou de désinvestissements en phase avec les conditions du marché. Il permet cependant aux changements structurels, nécessaires au développement de l'économie vitivinicole, d'avoir lieu sans que la rente de situation (conférée à la parcelle par une autorisation de plantation) les freine.</p><p>Les relations contractuelles entre les propriétaires du bien-fonds et les viticulteurs sont diverses et empreintes de régionalisme. Le fermage, le vignolage, le métayage et des formes hybrides sont possibles. Le règlement sur l'entretien et le renouvellement des installations fait partie du droit dispositif et peut donc être librement convenu par contrat. Le délai limite de reconstitution fixé à dix ans est connu des parties d'un contrat en vigueur et ne devrait pas interférer lorsque la question d'une reconstitution de vigne se pose. L'Union européenne fixe des droits de plantation viticole. Compte tenu de leurs inconvénients, la Commission européenne réfléchit à les transformer en autorisation temporaire de planter de la vigne.</p><p>Au vu des éléments précités, le Conseil fédéral est d'avis que la durée de dix ans pour une reconstitution de surface viticole apporte déjà suffisamment de flexibilité pour les producteurs.</p>"
+      "value": "<p>L'art. 60, al. 1 de la loi sur l'agriculture (LAgr ; RS 910.1) stipule que quiconque plante de nouvelles vignes doit être titulaire d'une autorisation du canton. En supprimant la durée de dix ans pour la replantation de la vigne, fixée dans l'ordonnance sur le vin, il ne sera plus possible que des surfaces ayant été cultivées en vignes soient biffées du cadastre viticole.</p><p>Or, selon l'art. 60, al. 5, LAgr, le canton est habilité à interdire, temporairement et par région, toute plantation de nouvelles vignes servant à la production vinicole, si des mesures destinées à alléger le marché ou à permettre la reconversion de surfaces viticoles sont financées ou si la situation du marché l'exige. L'abrogation du délai de dix ans entraînerait que cette possibilité de régulation confiée au canton devienne obsolète.</p><p>L'autorisation de planter des vignes contient des exigences environnementales liées par exemple à la protection de plantes et de la faune. Ces exigences sont fixées localement et peuvent être adaptées par les cantons. L'octroi d'une autorisation de replanter de la vigne sur une parcelle dont la culture a été interrompue plus de dix ans permet d'appliquer les exigences actualisées de protection de l'environnement et des sols.</p><p>Il ne serait pas approprié d'accorder une autorisation sans possibilité de le révoquer en cas de non-respect des règles y afférentes. Le délai de dix ans pour la replantation d'une vigne a déjà été instauré dans l'ordonnance sur la viticulture et le placement des produits viticoles de 1953 (Statut du vin) et a fait ses preuves, aussi bien dans les années difficiles que plus faciles traversées par l'économie vitivinicole. Il est suffisamment long pour permettre aux viticulteurs de prendre des décisions d'investissements ou de désinvestissements en phase avec les conditions du marché. Il permet cependant aux changements structurels, nécessaires au développement de l'économie vitivinicole, d'avoir lieu sans que la rente de situation (conférée à la parcelle par une autorisation de plantation) les freine.</p><p>Les relations contractuelles entre les propriétaires du bien-fonds et les viticulteurs sont diverses et empreintes de régionalisme. Le fermage, le vignolage, le métayage et des formes hybrides sont possibles. Le règlement sur l'entretien et le renouvellement des installations fait partie du droit dispositif et peut donc être librement convenu par contrat. Le délai limite de reconstitution fixé à dix ans est connu des parties d'un contrat en vigueur et ne devrait pas interférer lorsque la question d'une reconstitution de vigne se pose. L'Union européenne fixe des droits de plantation viticole. Compte tenu de leurs inconvénients, la Commission européenne réfléchit à les transformer en autorisation temporaire de planter de la vigne.</p><p>Au vu des éléments précités, le Conseil fédéral est d'avis que la durée de dix ans pour une reconstitution de surface viticole apporte déjà suffisamment de flexibilité pour les producteurs.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {

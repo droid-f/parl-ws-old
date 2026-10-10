@@ -1,6 +1,6 @@
 {
   "id": 20180467,
-  "updated": "2023-03-22T07:21:10Z",
+  "updated": "2026-02-20T17:16:34Z",
   "additionalIndexing": "1211;28;2811",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -42,8 +42,8 @@
         "resolutions": [
           {
             "category": {
-              "id": 5,
-              "name": "Adm"
+              "id": 4,
+              "name": "Complément"
             },
             "council": {
               "abbreviation": "CN",
@@ -52,8 +52,8 @@
               "type": "N"
             },
             "date": "2019-05-20T00:00:00Z",
-            "text": "L’objet est repris",
-            "type": 90
+            "text": null,
+            "type": 0
           },
           {
             "category": {
@@ -64,7 +64,7 @@
               "abbreviation": "CAJ-CN",
               "id": 12,
               "name": "Commission des affaires juridiques CN",
-              "abbreviation1": "CAJ-CN",
+              "abbreviation1": "CAJ-N",
               "abbreviation2": "CAJ",
               "committeeNumber": 12,
               "council": {
@@ -77,7 +77,7 @@
             },
             "council": null,
             "date": "2020-02-20T00:00:00Z",
-            "text": "Donné suite",
+            "text": "Donner suite (conseil prioritaire)",
             "type": 16
           },
           {
@@ -89,7 +89,7 @@
               "abbreviation": "CAJ-CE",
               "id": 25,
               "name": "Commission des affaires juridiques CE",
-              "abbreviation1": "CAJ-CE",
+              "abbreviation1": "CAJ-E",
               "abbreviation2": "CAJ",
               "committeeNumber": 25,
               "council": {
@@ -119,6 +119,46 @@
             "date": "2022-03-15T00:00:00Z",
             "text": "Donné suite",
             "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CAJ-CE",
+              "id": 25,
+              "name": "Commission des affaires juridiques CE",
+              "abbreviation1": "CAJ-E",
+              "abbreviation2": "CAJ",
+              "committeeNumber": 25,
+              "council": {
+                "abbreviation": "CE",
+                "id": 2,
+                "name": "Conseil des Etats",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-04-18T00:00:00Z",
+            "text": "Donner suite (procédure d'élimination des divergences)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-09-27T00:00:00Z",
+            "text": "Classement",
+            "type": 15
           }
         ]
       },
@@ -134,7 +174,7 @@
             "abbreviation": "CAJ-CN",
             "id": 12,
             "name": "Commission des affaires juridiques CN",
-            "abbreviation1": "CAJ-CN",
+            "abbreviation1": "CAJ-N",
             "abbreviation2": "CAJ",
             "committeeNumber": 12,
             "council": {
@@ -166,7 +206,7 @@
             "abbreviation": "CAJ-CE",
             "id": 25,
             "name": "Commission des affaires juridiques CE",
-            "abbreviation1": "CAJ-CE",
+            "abbreviation1": "CAJ-E",
             "abbreviation2": "CAJ",
             "committeeNumber": 25,
             "council": {
@@ -188,9 +228,10 @@
               "correspondents": [
 
               ],
-              "sessionId": "5121"
+              "sessionId": "5122"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -198,10 +239,16 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -212,8 +259,122 @@
         },
         {
           "date": "/Date(1647298800000+0100)/",
-          "id": 28,
-          "name": "Examen préalable par le Conseil national"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1688421600000+0200)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1688508000000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1727388000000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
+        }
+      ],
+      "texts": [
+
+      ]
+    },
+    {
+      "consultation": {
+        "resolutions": [
+
+        ]
+      },
+      "federalCouncilProposal": {
+      },
+      "index": 1,
+      "links": [
+
+      ],
+      "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CAJ-CE",
+            "id": 25,
+            "name": "Commission des affaires juridiques CE",
+            "abbreviation1": "CAJ-E",
+            "abbreviation2": "CAJ",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2018-12-03T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAJ-CN",
+            "id": 12,
+            "name": "Commission des affaires juridiques CN",
+            "abbreviation1": "CAJ-N",
+            "abbreviation2": "CAJ",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2018-12-03T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
+      ],
+      "references": [
+
+      ],
+      "relatedDepartments": [
+        {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        },
+        {
+          "abbreviation": "Parl",
+          "id": 1,
+          "name": "Parlement",
+          "leading": false
+        }
+      ],
+      "states": [
+        {
+          "date": "/Date(1700607600000+0100)/",
+          "id": 201,
+          "name": "Annoncé"
+        },
+        {
+          "date": "/Date(1725141600000+0200)/",
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1727301600000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1732057200000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -263,8 +424,8 @@
   ],
   "shortId": "18.467",
   "state": {
-    "id": 28,
-    "name": "Examen préalable par le Conseil national",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
@@ -281,7 +442,7 @@
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>L'article 105 chiffre 6 (annulation du mariage pour cause de minorité) du Code civil (CC) sera modifié comme suit:</p><p>Art. 105</p><p>Le mariage doit être annulé:</p><p>...</p><p>6. lorsque l'un des époux est mineur.</p><p>(Biffer la subordonnée \"... à moins que son intérêt supérieur ne commande de maintenir le mariage\").</p>"
+      "value": "<p>L'article 105 chiffre 6 (annulation du mariage pour cause de minorité) du Code civil (CC) sera modifié comme suit :</p><p>Art. 105</p><p>Le mariage doit être annulé :</p><p>...</p><p>6. lorsque l'un des époux est mineur.</p><p>(Biffer la subordonnée \"... à moins que son intérêt supérieur ne commande de maintenir le mariage\").</p>"
     },
     {
       "type": {

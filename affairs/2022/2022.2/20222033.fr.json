@@ -1,13 +1,13 @@
 {
   "id": 20222033,
-  "updated": "2022-11-23T07:50:17Z",
+  "updated": "2026-05-20T02:05:20Z",
   "affairType": {
     "abbreviation": "Pét.",
     "id": 10,
     "name": "Pétition"
   },
   "author": {
-    "external": "Amnesty International",
+    "external": "Amnesty International und Operation Libero",
     "type": "author"
   },
   "deposit": {
@@ -22,7 +22,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-06-01T00:00:00Z",
+            "text": "Examiné dans le cadre d’un autre objet",
+            "type": 80
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-03-07T00:00:00Z",
+            "text": "Examiné dans le cadre d’un autre objet",
+            "type": 80
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -37,7 +66,7 @@
             "abbreviation": "CAJ-CN",
             "id": 12,
             "name": "Commission des affaires juridiques CN",
-            "abbreviation1": "CAJ-CN",
+            "abbreviation1": "CAJ-N",
             "abbreviation2": "CAJ",
             "committeeNumber": 12,
             "council": {
@@ -58,7 +87,7 @@
             "abbreviation": "CAJ-CE",
             "id": 25,
             "name": "Commission des affaires juridiques CE",
-            "abbreviation1": "CAJ-CE",
+            "abbreviation1": "CAJ-E",
             "abbreviation2": "CAJ",
             "committeeNumber": 25,
             "council": {
@@ -71,7 +100,11 @@
           },
           "date": "2022-11-21T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
           ]
         }
       ],
@@ -80,17 +113,28 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1668985200000+0100)/",
-          "id": 9,
+          "id": 202,
           "name": "Déposé"
+        },
+        {
+          "date": "/Date(1678143600000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -100,20 +144,24 @@
   ],
   "language": "fr",
   "relatedAffairs": [
-
+    {
+      "id": 20180043,
+      "priorityCode": "S",
+      "shortId": "18.043"
+    }
   ],
   "roles": [
     {
-      "external": "Amnesty International",
+      "external": "Amnesty International und Operation Libero",
       "type": "author"
     }
   ],
   "shortId": "22.2033",
   "state": {
-    "id": 9,
-    "name": "Déposé",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

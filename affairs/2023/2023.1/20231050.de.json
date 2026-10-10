@@ -1,0 +1,147 @@
+{
+  "id": 20231050,
+  "updated": "2025-11-14T05:51:04Z",
+  "additionalIndexing": "34;04",
+  "affairType": {
+    "abbreviation": "A",
+    "id": 18,
+    "name": "Anfrage"
+  },
+  "author": {
+    "councillor": {
+      "code": 3137,
+      "gender": "m",
+      "id": 4245,
+      "name": "Andrey Gerhard",
+      "officialDenomination": "Andrey"
+    },
+    "faction": {
+      "abbreviation": "Fraktion G",
+      "code": "G",
+      "id": 6,
+      "name": "Grüne Fraktion"
+    },
+    "type": "author"
+  },
+  "deposit": {
+    "council": {
+      "abbreviation": "NR",
+      "id": 1,
+      "name": "Nationalrat",
+      "type": "N"
+    },
+    "date": "2023-09-28T00:00:00Z",
+    "legislativePeriod": 51,
+    "session": "5122"
+  },
+  "descriptors": [
+
+  ],
+  "drafts": [
+    {
+      "consultation": {
+        "resolutions": [
+
+        ]
+      },
+      "federalCouncilProposal": {
+        "date": "2023-11-22T00:00:00Z"
+      },
+      "index": 0,
+      "links": [
+
+      ],
+      "preConsultations": [
+
+      ],
+      "references": [
+
+      ],
+      "relatedDepartments": [
+        {
+          "abbreviation": "BK",
+          "id": 10,
+          "name": "Bundeskanzlei",
+          "leading": true
+        }
+      ],
+      "states": [
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1700607600000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
+        }
+      ],
+      "texts": [
+
+      ]
+    }
+  ],
+  "language": "de",
+  "priorityCouncils": [
+    {
+      "abbreviation": "NR",
+      "id": 1,
+      "name": "Nationalrat",
+      "type": "N",
+      "priority": 1
+    }
+  ],
+  "relatedAffairs": [
+
+  ],
+  "roles": [
+    {
+      "councillor": {
+        "code": 3137,
+        "gender": "m",
+        "id": 4245,
+        "name": "Andrey Gerhard",
+        "officialDenomination": "Andrey"
+      },
+      "faction": {
+        "abbreviation": "Fraktion G",
+        "code": "G",
+        "id": 6,
+        "name": "Grüne Fraktion"
+      },
+      "type": "author"
+    }
+  ],
+  "shortId": "23.1050",
+  "state": {
+    "id": 229,
+    "name": "Erledigt",
+    "doneKey": "0",
+    "newKey": 0
+  },
+  "texts": [
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<ol><li>Die Bundesverwaltung ist vom Sicherheitsvorfall Storm 0558 gemäss schriftlichem Statement der Firma Microsoft vom 11. August 2023 und nach aktuellem Kenntnisstand der internen Untersuchungen nicht betroffen.</li><li>Microsoft räumt ihrer Kundschaft ein vertragliches Auditrecht ein, das es ihr nötigenfalls erlaubt, die Datenbearbeitung durch unabhängige Fachleute überprüfen zu lassen und vermittelt der Kundschaft den Zugang zu Microsoft-internen Auditberichten.</li><li>Ja, die Logdateien wurden von den internen Leistungserbringern überprüft. Es wurde keine Kompromittierung der Bundesaccounts festgestellt.</li><li>Zurzeit gibt es noch keine produktiven M365 Applikationen in der Cloud. Präventiv wurde ein Monitoring des Datenverkehrs und die Analyse der Logdateien durchgeführt und als fester Bestandteil der Betriebsorganisation des internen Leistungserbringers aufgenommen. Alle Microsoft-Kontosignaturschlüssel-Schlüssel (MSA), die vor dem Vorfall aktiv waren - einschließlich des vom Angreifer erworbenen Signierschlüssels - wurden ungültig gemacht. Der Designfehler im Token-Validierungsprozess wurde durch Microsoft korrigiert. Die Bundesverwaltung hat Sofortmassnahmen zur Verbesserung der internen Kommunikation bei Sicherheitsvorfällen getroffen. Der Aufbau einer Alarmorganisation im Umfeld der Cloud-Infrastruktur ist zwischen NCSC, DTI und dem BIT in Arbeit.</li><li>Der Vorfall Storm0558 hat keinen Einfluss auf den Einführungsentscheid von Microsoft&nbsp;365. Bereits vor dem Sicherheitsvorfall wurde festgelegt, dass keine vertraulichen Informationen (nach IschV oder ab 01.01.2024 nach ISG) oder besonders schützenswerte Personendaten (nach DSG) in der Cloud bearbeitet werden dürfen. Dazu werden seitens Projekt CEBA organisatorische und technische Hilfsmittel zur Verfügung gestellt.</li></ol>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p><span style=\"color:#000000;\">Eine ungenannte amerikanische Bundes-Behörde entdeckte im Juni illegale Zugriffe auf ihre Konten in der Microsoft Azure Cloud. Wie eine Untersuchung ergab, war es chinesischen Angreifern gelungen, einen sogenannten Master-Key von Microsoft zu entwenden und ihn für ihre Zwecke zu missbrauchen. Microsoft musste später einräumen, dass der Schlüssel nicht nur Zugang zu beliebigen Email-Konten, sondern auch Zugang zu beliebigen Accounts mit persönlicher Authentisierung wie Sharepoint, die Konferenz-Software Teams, OneDrive, Kundenapplikationen mit Microsoft-Login etc. zuliess. Aus einer Sicherheitsperspektive kann nicht ausgeschlossen werden, dass Teile der Cloud-Infrastruktur kompromittiert bleiben.</span></p><p>&nbsp;</p><ol><li><span style=\"color:#000000;\">Wie schätzt der Bundesrat das Ausmass des Vorfalls für die Bundesverwaltung ein?</span></li><li><span style=\"color:#000000;\">Verfügt der Bund über Auditrechte beim Lieferanten?</span></li><li><span style=\"color:#000000;\">Wurden die zusätzlichen durch Microsoft den Kunden zur Verfügung gestellten Log-Dateien überprüft und was wurde dabei herausgefunden?</span></li><li><span style=\"color:#000000;\">Welche Massnahmen hat der Bundesrat ergriffen, um eine allfällige Kompromittierung bereits in die MS-Cloud migrierter Applikationen der Verwaltung zu erkennen?</span></li><li><span style=\"color:#000000;\">Wie beeinflusst der erfolgreiche Angriff auf Microsoft die bereits gefällte Entscheidung, die Büroautomation nach Office365 zu wechseln?</span></li></ol><p>&nbsp;</p>"
+    },
+    {
+      "type": {
+        "id": 1,
+        "name": "Titel des Geschäftes"
+      },
+      "value": "Folgen des Microsoft-Cloud-Cybervorfalls für den Bund"
+    }
+  ],
+  "title": "Folgen des Microsoft-Cloud-Cybervorfalls für den Bund"
+}

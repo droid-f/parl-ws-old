@@ -1,6 +1,6 @@
 {
   "id": 20180434,
-  "updated": "2021-11-11T14:54:59Z",
+  "updated": "2026-07-08T11:15:15Z",
   "additionalIndexing": "09;34;28;1216",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -42,8 +42,8 @@
         "resolutions": [
           {
             "category": {
-              "id": 5,
-              "name": "Amm."
+              "id": 4,
+              "name": "Complemento"
             },
             "council": {
               "abbreviation": "CN",
@@ -52,8 +52,8 @@
               "type": "N"
             },
             "date": "2019-01-23T00:00:00Z",
-            "text": "Sarà ripreso",
-            "type": 90
+            "text": null,
+            "type": 0
           },
           {
             "category": {
@@ -64,7 +64,7 @@
               "abbreviation": "CAG-CN",
               "id": 12,
               "name": "Commissione degli affari giuridici CN",
-              "abbreviation1": "CAG-CN",
+              "abbreviation1": "CAG-N",
               "abbreviation2": "CAG",
               "committeeNumber": 12,
               "council": {
@@ -77,7 +77,7 @@
             },
             "council": null,
             "date": "2019-08-29T00:00:00Z",
-            "text": "È dato seguito",
+            "text": "Dare seguito (Camera prioritaria)",
             "type": 16
           },
           {
@@ -89,7 +89,7 @@
               "abbreviation": "CAG-CS",
               "id": 25,
               "name": "Commissione degli affari giuridici CS",
-              "abbreviation1": "CAG-CS",
+              "abbreviation1": "CAG-S",
               "abbreviation2": "CAG",
               "committeeNumber": 25,
               "council": {
@@ -104,6 +104,76 @@
             "date": "2019-10-29T00:00:00Z",
             "text": "Adesione",
             "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2021-12-17T00:00:00Z",
+            "text": "Proroga del termine",
+            "type": 50
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": null,
+            "date": "2021-12-17T00:00:00Z",
+            "text": "Fino alla sessione invernale 2023.",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-12-22T00:00:00Z",
+            "text": "Il termine imposto è prorogato fino alla sessione invernale 2025",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2025-12-19T00:00:00Z",
+            "text": "Proroga del termine",
+            "type": 50
+          },
+          {
+            "category": {
+              "id": 4,
+              "name": "Complemento"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2025-12-19T00:00:00Z",
+            "text": "Il termine imposto è prorogato fino alla sessione invernale 2027",
+            "type": 0
           }
         ]
       },
@@ -111,7 +181,11 @@
       },
       "index": 0,
       "links": [
-
+        {
+          "date": "/Date(1783461600000+0200)/",
+          "title": "Consultazione",
+          "url": "https://www.parlament.ch/it/organe/commissioni/commissioni-tematiche/commissioni-cag/rapporti-consultazioni-cag/vernehmlassung-rk-n-18-434"
+        }
       ],
       "preConsultations": [
         {
@@ -119,7 +193,7 @@
             "abbreviation": "CAG-CN",
             "id": 12,
             "name": "Commissione degli affari giuridici CN",
-            "abbreviation1": "CAG-CN",
+            "abbreviation1": "CAG-N",
             "abbreviation2": "CAG",
             "committeeNumber": 12,
             "council": {
@@ -134,22 +208,7 @@
           "registrations": [
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "CN",
-                    "id": 1,
-                    "name": "Consiglio nazionale",
-                    "type": "N"
-                  },
-                  "councillor": {
-                    "code": 3131,
-                    "gender": "m",
-                    "id": 4230,
-                    "name": "Bregy Philipp Matthias",
-                    "officialDenomination": "Bregy"
-                  },
-                  "language": "de"
-                }
+
               ]
             },
             {
@@ -158,14 +217,15 @@
               ],
               "sessionId": "5112"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CAG-CS",
             "id": 25,
             "name": "Commissione degli affari giuridici CS",
-            "abbreviation1": "CAG-CS",
+            "abbreviation1": "CAG-S",
             "abbreviation2": "CAG",
             "committeeNumber": 25,
             "council": {
@@ -183,7 +243,8 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -191,9 +252,9 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlamento",
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
           "leading": true
         }
       ],
@@ -205,8 +266,38 @@
         },
         {
           "date": "/Date(1572303600000+0100)/",
-          "id": 1,
-          "name": "Vi è stato dato seguito"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1698271200000+0200)/",
+          "id": 223,
+          "name": "Esame preliminare - nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1698357600000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1698966000000+0100)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1718920800000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1764111600000+0100)/",
+          "id": 205,
+          "name": "Pianificato nel Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1766098800000+0100)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
         }
       ],
       "texts": [
@@ -216,7 +307,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 4,
+              "name": "Complemento"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2025-12-19T00:00:00Z",
+            "text": "Il termine imposto è prorogato fino alla sessione invernale 2027",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -231,7 +336,7 @@
             "abbreviation": "CAG-CN",
             "id": 12,
             "name": "Commissione degli affari giuridici CN",
-            "abbreviation1": "CAG-CN",
+            "abbreviation1": "CAG-N",
             "abbreviation2": "CAG",
             "committeeNumber": 12,
             "council": {
@@ -256,7 +361,7 @@
             "abbreviation": "CAG-CS",
             "id": 25,
             "name": "Commissione degli affari giuridici CS",
-            "abbreviation1": "CAG-CS",
+            "abbreviation1": "CAG-S",
             "abbreviation2": "CAG",
             "committeeNumber": 25,
             "council": {
@@ -278,9 +383,9 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlamento",
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
           "leading": true
         }
       ],
@@ -292,8 +397,13 @@
         },
         {
           "date": "/Date(1572303600000+0100)/",
-          "id": 1,
-          "name": "Vi è stato dato seguito"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1718920800000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
         }
       ],
       "texts": [
@@ -391,7 +501,7 @@
         "gender": "m",
         "id": 4070,
         "name": "Candinas Martin",
-        "officialDenomination": "Candinas"
+        "officialDenomination": "Candinas Martin"
       },
       "type": "cosign"
     },
@@ -570,7 +680,7 @@
         "code": 3123,
         "gender": "m",
         "id": 4222,
-        "name": "Paganini Nicolo",
+        "name": "Paganini Nicolò",
         "officialDenomination": "Paganini"
       },
       "type": "cosign"
@@ -623,8 +733,8 @@
   ],
   "shortId": "18.434",
   "state": {
-    "id": 1,
-    "name": "Vi è stato dato seguito",
+    "id": 208,
+    "name": "Nella Commissione del Consiglio nazionale",
     "doneKey": "0",
     "newKey": 0
   },

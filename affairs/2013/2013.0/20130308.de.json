@@ -1,7 +1,7 @@
 {
   "id": 20130308,
-  "updated": "2019-02-18T19:03:06Z",
-  "additionalIndexing": "09",
+  "updated": "2026-05-20T02:11:38Z",
+  "additionalIndexing": "09;Zivildienst;Frau",
   "affairType": {
     "abbreviation": "Kt. Iv.",
     "id": 3,
@@ -95,6 +95,36 @@
             "date": "2018-06-12T00:00:00Z",
             "text": "Zustimmung zur Sistierung",
             "type": 72
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2025-06-18T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2025-09-24T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
           }
         ]
       },
@@ -107,10 +137,50 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-06-24T17:18:02Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3102,
+                    "gender": "m",
+                    "id": 4179,
+                    "name": "Zuberbühler David",
+                    "officialDenomination": "Zuberbühler"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "SiK-NR",
             "id": 8,
             "name": "Sicherheitspolitische Kommission NR",
-            "abbreviation1": "SiK-NR",
+            "abbreviation1": "SiK-N",
             "abbreviation2": "SiK",
             "committeeNumber": 8,
             "council": {
@@ -136,14 +206,14 @@
               "sessionId": "5013"
             }
           ],
-          "treatmentCategory": "V"
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "SiK-SR",
             "id": 21,
             "name": "Sicherheitspolitische Kommission SR",
-            "abbreviation1": "SiK-SR",
+            "abbreviation1": "SiK-S",
             "abbreviation2": "SiK",
             "committeeNumber": 21,
             "council": {
@@ -158,55 +228,60 @@
           "registrations": [
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "SR",
-                    "id": 2,
-                    "name": "Ständerat",
-                    "type": "S"
-                  },
-                  "councillor": {
-                    "code": 2459,
-                    "gender": "m",
-                    "id": 409,
-                    "name": "Hess Hans",
-                    "officialDenomination": "Hess Hans"
-                  },
-                  "faction": {
-                    "abbreviation": "Fraktion RL",
-                    "code": "RL",
-                    "id": 1,
-                    "name": "FDP-Liberale Fraktion"
-                  },
-                  "language": "de"
-                }
+
               ],
               "sessionId": "4911"
             },
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "SR",
-                    "id": 2,
-                    "name": "Ständerat",
-                    "type": "S"
-                  },
-                  "councillor": {
-                    "code": 2629,
-                    "gender": "f",
-                    "id": 1148,
-                    "name": "Savary Géraldine",
-                    "officialDenomination": "Savary"
-                  },
-                  "language": "fr"
-                }
+
               ],
               "sessionId": "5012"
             },
             {
               "correspondents": [
 
+              ]
+            }
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-05-05T09:34:05Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3092,
+                    "gender": "m",
+                    "id": 4172,
+                    "name": "Salzmann Werner",
+                    "officialDenomination": "Salzmann"
+                  },
+                  "language": "de"
+                }
               ]
             }
           ]
@@ -226,8 +301,33 @@
       "states": [
         {
           "date": "/Date(1370988000000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1655935200000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1746136800000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1750197600000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1750629600000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1758664800000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -261,18 +361,25 @@
   "sequentialNumber": 207,
   "shortId": "13.308",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },
   "texts": [
     {
       "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Seit 1996 haben Schweizer Bürger, die aus Gewissensgründen keinen Militärdienst leisten wollen, die Möglichkeit, unter bestimmten Bedingungen Zivildienst zu leisten. Wer Zivildienst leisten will, muss seit dem 1. April 2009 nur noch ein Formular ausfüllen und sich auch nicht mehr gegenüber der Armee einer Gewissensprüfung unterziehen. Da es also jungen Männern mehr oder weniger frei steht, Zivildienst zu leisten, wäre es billigermassen angebracht, wenn auch Frauen, zumindest junge Frauen, freiwilligen Zivildienst leisten könnten.</p><p>&nbsp;</p><p>Schweizer Frauen können schon heute freiwillig Militärdienst leisten. Wenn sie vor Ablauf ihrer Dienstpflicht aus Gewissensgründen keinen Militärdienst mehr leisten wollen, können sie ein Gesuch stellen, die noch verbleibende Dienstpflicht im Zivildienst zu erfüllen. Während also Männer direkt in den Zivildienst eintreten können, ist den Frauen dieser direkte Zugang verwehrt, was gewissermaßen eine Diskriminierung gleichkommt.&nbsp;</p><p>&nbsp;</p><p>Der Zivildienst ist gemäss Definition der Bundesbehörden \"ein ziviler Beitrag des Bundes zur Förderung des sozialen Zusammenhalts, zur gewaltfreien Konfliktlösung, zur nachhaltigen Entwicklung und zur Erhaltung kulturellen Erbes\" (vgl. www.zivi.admin.ch). Frauen könnten zweifellos ebenso wie Männer ihren Beitrag zur Erreichung dieser lobenswerten Ziele leisten.</p><p>&nbsp;</p><p>Auch könnten Frauen ebenso wie Männer in verschiedenen Einsatzbereichen Zivildienst leisten. Dazu gehören zum Beispiel die Betreuung von Betagten, der Schutz von Kulturgütern, der Unterhalt von Naturparks, die Arbeit in gemeinnützigen Organisationen etc. Somit wäre der Zivildienst nicht mehr primär als Militärersatzdienst, sondern auch als Dienst zur Förderung der Bürgerverantwortung zu definieren.</p><p>&nbsp;</p><p>Der Zivildienst bietet Gelegenheit, sich fachlich und persönlich weiterzuentwickeln, sein Beziehungsnetz zu erweitern, eine Fremdsprache zu erlernen und sich somit Kompetenzen anzueignen, die im Berufsleben genutzt werden können. Da es seit dem 1. April 2009 keinen eigentlichen Grund mehr gibt, Frauen vom Zivildienst auszuschliessen, ist es an der Zeit, auch sie von den zahlreichen und vielfältigen Vorteilen des Zivildienstes profitieren zu lassen.&nbsp;</p><p>&nbsp;</p><p>Mit dieser Initiative soll der Zivildienst für Frauen zugänglich gemacht werden, was eine Chance für die Frauen, den sozialen Zusammenhalt, die Wirtschaft und die Umwelt darstellt.</p>"
+    },
+    {
+      "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Gestützt auf Artikel 160 Absatz 1 der Bundesverfassung reicht der Kanton Waadt folgende Standesinitiative ein:</p><p>Die Bundesversammlung wird aufgefordert, Artikel 59 Absätze 1 und 2 der Bundesverfassung sowie mehrere Artikel des Bundesgesetzes vom 6. Oktober 1995 über den zivilen Ersatzdienst so zu ändern, dass Frauen einen freiwilligen Zivildienst absolvieren können.</p>"
+      "value": "<p>Gestützt auf Artikel&nbsp;160 Absatz&nbsp;1 der Bundesverfassung reicht der Kanton Waadt folgende Standesinitiative ein:</p><p>Die Bundesversammlung wird aufgefordert, Artikel&nbsp;59 Absätze 1 und 2 der Bundesverfassung sowie mehrere Artikel des Bundesgesetzes vom 6. Oktober 1995 über den zivilen Ersatzdienst so zu ändern, dass Frauen einen freiwilligen Zivildienst absolvieren können.</p>"
     },
     {
       "type": {

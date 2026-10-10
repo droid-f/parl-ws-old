@@ -1,6 +1,6 @@
 {
   "id": 20210464,
-  "updated": "2023-01-17T06:51:21Z",
+  "updated": "2026-05-13T10:23:16Z",
   "additionalIndexing": "09;1216;04",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -49,7 +49,7 @@
               "abbreviation": "CAG-CS",
               "id": 25,
               "name": "Commissione degli affari giuridici CS",
-              "abbreviation1": "CAG-CS",
+              "abbreviation1": "CAG-S",
               "abbreviation2": "CAG",
               "committeeNumber": 25,
               "council": {
@@ -62,7 +62,7 @@
             },
             "council": null,
             "date": "2022-07-01T00:00:00Z",
-            "text": "È dato seguito",
+            "text": "Dare seguito (Camera prioritaria)",
             "type": 16
           },
           {
@@ -74,7 +74,7 @@
               "abbreviation": "CAG-CN",
               "id": 12,
               "name": "Commissione degli affari giuridici CN",
-              "abbreviation1": "CAG-CN",
+              "abbreviation1": "CAG-N",
               "abbreviation2": "CAG",
               "committeeNumber": 12,
               "council": {
@@ -89,6 +89,21 @@
             "date": "2023-01-12T00:00:00Z",
             "text": "Adesione",
             "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-03-06T00:00:00Z",
+            "text": "Il termine imposto è prorogato fino alla sessione primaverile 2027",
+            "type": 0
           }
         ]
       },
@@ -96,15 +111,59 @@
       },
       "index": 0,
       "links": [
-
+        {
+          "date": "/Date(1778623200000+0200)/",
+          "title": "Consultazione",
+          "url": "https://fedlex.data.admin.ch/eli/dl/proj/2026/44/cons_1"
+        }
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-01-28T06:49:42Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2694,
+                    "gender": "m",
+                    "id": 3891,
+                    "name": "Jositsch Daniel",
+                    "officialDenomination": "Jositsch"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
         {
           "committee": {
             "abbreviation": "CAG-CN",
             "id": 12,
             "name": "Commissione degli affari giuridici CN",
-            "abbreviation1": "CAG-CN",
+            "abbreviation1": "CAG-N",
             "abbreviation2": "CAG",
             "committeeNumber": 12,
             "council": {
@@ -129,7 +188,7 @@
             "abbreviation": "CAG-CS",
             "id": 25,
             "name": "Commissione degli affari giuridici CS",
-            "abbreviation1": "CAG-CS",
+            "abbreviation1": "CAG-S",
             "abbreviation2": "CAG",
             "committeeNumber": 25,
             "council": {
@@ -155,10 +214,16 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -169,12 +234,146 @@
         },
         {
           "date": "/Date(1673478000000+0100)/",
-          "id": 1,
-          "name": "Vi è stato dato seguito"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1734562800000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1741215600000+0100)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1747346400000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
         }
       ],
       "texts": [
 
+      ]
+    },
+    {
+      "consultation": {
+        "resolutions": [
+
+        ]
+      },
+      "federalCouncilProposal": {
+      },
+      "index": 1,
+      "links": [
+
+      ],
+      "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CAG-CN",
+            "id": 12,
+            "name": "Commissione degli affari giuridici CN",
+            "abbreviation1": "CAG-N",
+            "abbreviation2": "CAG",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-17T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAG-CS",
+            "id": 25,
+            "name": "Commissione degli affari giuridici CS",
+            "abbreviation1": "CAG-S",
+            "abbreviation2": "CAG",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-17T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
+      ],
+      "references": [
+        {
+          "date": "/Date(1623880800000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "null",
+            "source": "FF null null",
+            "type": {
+              "id": 1,
+              "name": "Foglio federale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/it/federal-gazette/null/null.pdf",
+            "year": "null"
+          },
+          "title": "Legge..",
+          "type": {
+            "id": 1,
+            "name": "Oggetto in deliberazione / progetto"
+          }
+        }
+      ],
+      "relatedDepartments": [
+        {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        },
+        {
+          "abbreviation": "Parl",
+          "id": 1,
+          "name": "Parlamento",
+          "leading": false
+        }
+      ],
+      "states": [
+        {
+          "date": "/Date(1673478000000+0100)/",
+          "id": 201,
+          "name": "Annunciato"
+        },
+        {
+          "date": "/Date(1730415600000+0100)/",
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1731538800000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        }
+      ],
+      "texts": [
+        {
+          "type": {
+            "id": 2,
+            "name": "Titolo del progetto"
+          },
+          "value": "Legge.."
+        }
       ]
     }
   ],
@@ -250,8 +449,8 @@
   ],
   "shortId": "21.464",
   "state": {
-    "id": 1,
-    "name": "Vi è stato dato seguito",
+    "id": 206,
+    "name": "Nella Commissione del Consiglio degli Stati",
     "doneKey": "0",
     "newKey": 0
   },

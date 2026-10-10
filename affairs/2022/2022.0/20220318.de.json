@@ -1,6 +1,6 @@
 {
   "id": 20220318,
-  "updated": "2023-01-11T09:19:20Z",
+  "updated": "2026-05-20T01:58:12Z",
   "additionalIndexing": "2841;1236;34;15;36",
   "affairType": {
     "abbreviation": "Kt. Iv.",
@@ -36,7 +36,7 @@
               "abbreviation": "WBK-SR",
               "id": 18,
               "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
-              "abbreviation1": "WBK-SR",
+              "abbreviation1": "WBK-S",
               "abbreviation2": "WBK",
               "committeeNumber": 18,
               "council": {
@@ -49,8 +49,33 @@
             },
             "council": null,
             "date": "2022-11-08T00:00:00Z",
-            "text": "Folge gegeben",
-            "type": 16
+            "text": "Folge geben",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "WBK-NR",
+              "id": 5,
+              "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
+              "abbreviation1": "WBK-N",
+              "abbreviation2": "WBK",
+              "committeeNumber": 5,
+              "council": {
+                "abbreviation": "NR",
+                "id": 1,
+                "name": "Nationalrat",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-04-21T00:00:00Z",
+            "text": "Folge geben",
+            "type": 0
           }
         ]
       },
@@ -63,10 +88,50 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-10-15T15:18:26Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2569,
+                    "gender": "f",
+                    "id": 806,
+                    "name": "Graf Maya",
+                    "officialDenomination": "Graf Maya"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "WBK-NR",
             "id": 5,
             "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
-            "abbreviation1": "WBK-NR",
+            "abbreviation1": "WBK-N",
             "abbreviation2": "WBK",
             "committeeNumber": 5,
             "council": {
@@ -79,7 +144,11 @@
           },
           "date": "2022-09-15T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
           ]
         },
         {
@@ -87,7 +156,7 @@
             "abbreviation": "WBK-SR",
             "id": 18,
             "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
-            "abbreviation1": "WBK-SR",
+            "abbreviation1": "WBK-S",
             "abbreviation2": "WBK",
             "committeeNumber": 18,
             "council": {
@@ -113,17 +182,228 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1663192800000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1701385200000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1728943200000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1733871600000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1740092400000+0100)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1742511600000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
+        }
+      ],
+      "texts": [
+
+      ]
+    },
+    {
+      "consultation": {
+        "resolutions": [
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-12-11T00:00:00Z",
+            "text": "Abschreibung",
+            "type": 15
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2025-03-21T00:00:00Z",
+            "text": "Abschreibung",
+            "type": 15
+          }
+        ]
+      },
+      "federalCouncilProposal": {
+      },
+      "index": 1,
+      "links": [
+
+      ],
+      "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-10-24T20:46:23Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2569,
+                    "gender": "f",
+                    "id": 806,
+                    "name": "Graf Maya",
+                    "officialDenomination": "Graf Maya"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WBK-SR",
+            "id": 18,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
+            "abbreviation1": "WBK-S",
+            "abbreviation2": "WBK",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-09-15T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "WBK-NR",
+            "id": 5,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
+            "abbreviation1": "WBK-N",
+            "abbreviation2": "WBK",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-09-15T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "V"
+        }
+      ],
+      "references": [
+
+      ],
+      "relatedDepartments": [
+        {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        },
+        {
+          "abbreviation": "Parl",
+          "id": 1,
+          "name": "Parlament",
+          "leading": false
+        }
+      ],
+      "states": [
+        {
+          "date": "/Date(1682028000000+0200)/",
+          "id": 201,
+          "name": "Angemeldet"
+        },
+        {
+          "date": "/Date(1682114400000+0200)/",
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1728943200000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1733871600000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1740092400000+0100)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1742511600000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -142,7 +422,21 @@
     }
   ],
   "relatedAffairs": [
-
+    {
+      "id": 20220313,
+      "priorityCode": "S",
+      "shortId": "22.313"
+    },
+    {
+      "id": 20220313,
+      "priorityCode": "S",
+      "shortId": "22.313"
+    },
+    {
+      "id": 20220313,
+      "priorityCode": "S",
+      "shortId": "22.313"
+    }
   ],
   "roles": [
     {
@@ -156,8 +450,8 @@
   ],
   "shortId": "22.318",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },

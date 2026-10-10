@@ -1,6 +1,6 @@
 {
   "id": 20223166,
-  "updated": "2022-09-21T18:28:19Z",
+  "updated": "2026-03-11T14:38:09Z",
   "additionalIndexing": "66",
   "affairType": {
     "abbreviation": "Mo.",
@@ -48,6 +48,21 @@
             "date": "2022-09-21T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2026-03-11T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -61,7 +76,92 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-02-12T17:18:35Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3108,
+                    "gender": "m",
+                    "id": 4207,
+                    "name": "Müller Damian",
+                    "officialDenomination": "Müller Damian"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "UREK-NR",
+            "id": 7,
+            "name": "Kommission für Umwelt, Raumplanung und Energie NR",
+            "abbreviation1": "UREK-N",
+            "abbreviation2": "UREK",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-16T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "UREK-SR",
+            "id": 20,
+            "name": "Kommission für Umwelt, Raumplanung und Energie SR",
+            "abbreviation1": "UREK-S",
+            "abbreviation2": "UREK",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-16T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -82,8 +182,23 @@
         },
         {
           "date": "/Date(1663711200000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1770850800000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1772146800000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1773183600000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -127,10 +242,9 @@
   ],
   "shortId": "22.3166",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -146,7 +260,7 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Mit dem neu ausgerichteten Energiegesetz (EnG, SR 730.0) im Rahmen der Energiestrategie 2050 und dem Bundesgesetz über den Um- und Ausbau der Stromnetze (AS 2019 1349) hat der Bundesrat per Anfang 2018 respektive Mitte 2019 umfassende Regelungen zu intelligenten Netzen bereits in Kraft gesetzt, um deren Potenzial zu nutzen. Es gilt, diese Regelungen zur Verbreitung von intelligenten Messgeräten und dem Einsatz von intelligenten Steuer- und Regelsystemen konsequent umzusetzen. Die Eidgenössische Elektrizitätskommission (ElCom) überwacht den Vollzug dieser neuen Instrumente. Weiter hat der Bundesrat im Entwurf zum Bundesgesetz über eine sichere Stromversorgung mit erneuerbaren Energien (21.047) nebst der innovationsfördernden Teilmarktöffnung im Bereich des Messwesen Grundsätze für die Flexibilisierung des Stromsystems vorgelegt. Die Flexibilität der jeweiligen Flexibilitätsinhaber kann sowohl von Netzbetreibern für das Netz als auch von Dritten für den Markt genutzt werden, was die Verbreitung von intelligenten Netzkomponenten unterstützt. Zudem wird im erwähnten Entwurf bei den Grundsätzen für die Netzplanung die Nutzung von Flexibilität neu ebenfalls ausdrücklich im Gesetz erwähnt. Aus Sicht des Bundesrates bestehen bereits heute genügend Anreize, um in intelligente Netze zu investieren.</p>"
+      "value": "<p>Mit dem neu ausgerichteten Energiegesetz (EnG, SR 730.0) im Rahmen der Energiestrategie 2050 und dem Bundesgesetz über den Um- und Ausbau der Stromnetze (AS 2019 1349) hat der Bundesrat per Anfang 2018 respektive Mitte 2019 umfassende Regelungen zu intelligenten Netzen bereits in Kraft gesetzt, um deren Potenzial zu nutzen. Es gilt, diese Regelungen zur Verbreitung von intelligenten Messgeräten und dem Einsatz von intelligenten Steuer- und Regelsystemen konsequent umzusetzen. Die Eidgenössische Elektrizitätskommission (ElCom) überwacht den Vollzug dieser neuen Instrumente. Weiter hat der Bundesrat im Entwurf zum Bundesgesetz über eine sichere Stromversorgung mit erneuerbaren Energien (21.047) nebst der innovationsfördernden Teilmarktöffnung im Bereich des Messwesen Grundsätze für die Flexibilisierung des Stromsystems vorgelegt. Die Flexibilität der jeweiligen Flexibilitätsinhaber kann sowohl von Netzbetreibern für das Netz als auch von Dritten für den Markt genutzt werden, was die Verbreitung von intelligenten Netzkomponenten unterstützt. Zudem wird im erwähnten Entwurf bei den Grundsätzen für die Netzplanung die Nutzung von Flexibilität neu ebenfalls ausdrücklich im Gesetz erwähnt. Aus Sicht des Bundesrates bestehen bereits heute genügend Anreize, um in intelligente Netze zu investieren.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

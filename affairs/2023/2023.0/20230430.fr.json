@@ -1,17 +1,13 @@
 {
   "id": 20230430,
-  "updated": "2023-05-05T10:54:32Z",
+  "updated": "2026-06-04T14:20:10Z",
+  "additionalIndexing": "2446;15;04;08",
   "affairType": {
     "abbreviation": "Iv. pa.",
     "id": 4,
     "name": "Initiative parlementaire"
   },
   "author": {
-    "faction": {
-      "abbreviation": "Groupe S",
-      "id": 2,
-      "name": "Groupe socialiste"
-    },
     "type": "author"
   },
   "deposit": {
@@ -32,7 +28,16 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-05-10T00:00:00Z",
+            "text": "Retrait",
+            "type": 17
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -42,7 +47,48 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CER-CE",
+            "id": 23,
+            "name": "Commission de l'économie et des redevances CE",
+            "abbreviation1": "CER-E",
+            "abbreviation2": "CER",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CER-CN",
+            "id": 10,
+            "name": "Commission de l'économie et des redevances CN",
+            "abbreviation1": "CER-N",
+            "abbreviation2": "CER",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -58,8 +104,13 @@
       "states": [
         {
           "date": "/Date(1683151200000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1683669600000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -82,11 +133,6 @@
   ],
   "roles": [
     {
-      "faction": {
-        "abbreviation": "Groupe S",
-        "id": 2,
-        "name": "Groupe socialiste"
-      },
       "type": "author"
     },
     {
@@ -102,19 +148,33 @@
   ],
   "shortId": "23.430",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Développement"
+      },
+      "value": "<p>Le projet de l'OCDE et du G20 sur l'imposition des grands groupes d'entreprises est à saluer sans réserve. Il conviendra toutefois, lors de sa mise en oeuvre en Suisse, de veiller à ce que la répartition des recettes supplémentaires n'accentue pas davantage les inégalités entre cantons.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Texte déposé"
+      },
+      "value": "<p>La mise en oeuvre du projet de l'OCDE et du G20 sur l'imposition des grands groupes d'entreprises (imposition minimale de l'OCDE) obéira aux principes suivants :</p><p>- la Confédération ou les cantons percevront un impôt complémentaire ;</p><p>- 50 % des recettes supplémentaires reviendront à la Confédération et 50 %, aux cantons ;</p><p>- la part des recettes supplémentaires revenant aux cantons sera répartie entre eux de la manière suivante : chaque canton recevra 400 francs (au maximum) par habitant ; le solde sera ensuite réparti de manière équilibrée entre eux.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Titre suit"
+      "value": "Mise en œuvre du projet de l'OCDE et du G20 sur l'imposition des grands groupes d'entreprises (2)"
     }
   ],
-  "title": "Titre suit"
+  "title": "Mise en œuvre du projet de l'OCDE et du G20 sur l'imposition des grands groupes d'entreprises (2)"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20210472,
-  "updated": "2022-01-24T08:57:29Z",
+  "updated": "2026-06-30T09:34:39Z",
   "additionalIndexing": "04;09",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -49,7 +49,7 @@
               "abbreviation": "CAG-CN",
               "id": 12,
               "name": "Commissione degli affari giuridici CN",
-              "abbreviation1": "CAG-CN",
+              "abbreviation1": "CAG-N",
               "abbreviation2": "CAG",
               "committeeNumber": 12,
               "council": {
@@ -62,7 +62,7 @@
             },
             "council": null,
             "date": "2021-10-29T00:00:00Z",
-            "text": "È dato seguito",
+            "text": "Dare seguito (Camera prioritaria)",
             "type": 16
           },
           {
@@ -74,7 +74,7 @@
               "abbreviation": "CAG-CS",
               "id": 25,
               "name": "Commissione degli affari giuridici CS",
-              "abbreviation1": "CAG-CS",
+              "abbreviation1": "CAG-S",
               "abbreviation2": "CAG",
               "committeeNumber": 25,
               "council": {
@@ -89,6 +89,46 @@
             "date": "2022-01-21T00:00:00Z",
             "text": "Adesione",
             "type": 3
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Amm."
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "Sarà ripreso",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-03-15T00:00:00Z",
+            "text": "fino alla sessione primaverile 2026",
+            "type": 50
+          },
+          {
+            "category": {
+              "id": 4,
+              "name": "Complemento"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-03-15T00:00:00Z",
+            "text": "fino alla sessione primaverile 2026",
+            "type": 0
           }
         ]
       },
@@ -104,7 +144,7 @@
             "abbreviation": "CAG-CN",
             "id": 12,
             "name": "Commissione degli affari giuridici CN",
-            "abbreviation1": "CAG-CN",
+            "abbreviation1": "CAG-N",
             "abbreviation2": "CAG",
             "committeeNumber": 12,
             "council": {
@@ -122,14 +162,15 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CAG-CS",
             "id": 25,
             "name": "Commissione degli affari giuridici CS",
-            "abbreviation1": "CAG-CS",
+            "abbreviation1": "CAG-S",
             "abbreviation2": "CAG",
             "committeeNumber": 25,
             "council": {
@@ -147,17 +188,55 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
-
+        {
+          "date": "/Date(1761865200000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "3465",
+            "source": "FF 2025 3465",
+            "type": {
+              "id": 1,
+              "name": "Foglio federale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/it/federal-gazette/2025/3465.pdf",
+            "year": "2025"
+          },
+          "type": {
+            "id": 6,
+            "name": "Rapporto"
+          }
+        },
+        {
+          "date": "/Date(1768345200000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "106",
+            "source": "FF 2026 106",
+            "type": {
+              "id": 1,
+              "name": "Foglio federale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/it/federal-gazette/2026/106.pdf",
+            "year": "2026"
+          },
+          "type": {
+            "id": 2,
+            "name": "Parere del Consiglio federale"
+          }
+        }
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlamento",
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
           "leading": true
         }
       ],
@@ -169,8 +248,33 @@
         },
         {
           "date": "/Date(1642719600000+0100)/",
-          "id": 1,
-          "name": "Vi è stato dato seguito"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1659304800000+0200)/",
+          "id": 223,
+          "name": "Esame preliminare - nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1722463200000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1773183600000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1781474400000+0200)/",
+          "id": 219,
+          "name": "Pianificato per il voto finale"
+        },
+        {
+          "date": "/Date(1781820000000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -180,7 +284,66 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2026-03-11T00:00:00Z",
+            "text": "Decisione secondo il disegno (progetto)",
+            "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2026-06-15T00:00:00Z",
+            "text": "Adesione",
+            "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2026-06-19T00:00:00Z",
+            "text": "Adozione nella votazione finale",
+            "type": 36
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2026-06-19T00:00:00Z",
+            "text": "Adozione nella votazione finale",
+            "type": 36
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -192,31 +355,10 @@
       "preConsultations": [
         {
           "committee": {
-            "abbreviation": "CAG-CN",
-            "id": 12,
-            "name": "Commissione degli affari giuridici CN",
-            "abbreviation1": "CAG-CN",
-            "abbreviation2": "CAG",
-            "committeeNumber": 12,
-            "council": {
-              "abbreviation": "CN",
-              "id": 1,
-              "name": "Consiglio nazionale",
-              "type": "N"
-            },
-            "typeCode": 1
-          },
-          "date": "2021-06-18T00:00:00Z",
-          "registrations": [
-
-          ]
-        },
-        {
-          "committee": {
             "abbreviation": "CAG-CS",
             "id": 25,
             "name": "Commissione degli affari giuridici CS",
-            "abbreviation1": "CAG-CS",
+            "abbreviation1": "CAG-S",
             "abbreviation2": "CAG",
             "committeeNumber": 25,
             "council": {
@@ -230,29 +372,300 @@
           "date": "2021-06-18T00:00:00Z",
           "registrations": [
 
+          ],
+          "treatmentCategory": "IIIb/IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-03-31T14:31:15Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3152,
+                    "gender": "m",
+                    "id": 4260,
+                    "name": "Fivaz Fabien",
+                    "officialDenomination": "Fivaz Fabien"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAG-CN",
+            "id": 12,
+            "name": "Commissione degli affari giuridici CN",
+            "abbreviation1": "CAG-N",
+            "abbreviation2": "CAG",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-18T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IIIb/IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-01-19T09:07:23Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3222,
+                    "gender": "m",
+                    "id": 4327,
+                    "name": "Mahaim Raphaël",
+                    "officialDenomination": "Mahaim"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-01-19T09:07:24Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 10807,
+                    "gender": "m",
+                    "id": 10807,
+                    "name": "Gianini Simone",
+                    "officialDenomination": "Gianini"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
       "references": [
-
+        {
+          "date": "/Date(1761865200000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "3466",
+            "source": "FF 2025 3466",
+            "type": {
+              "id": 1,
+              "name": "Foglio federale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/it/federal-gazette/2025/3466.pdf",
+            "year": "2025"
+          },
+          "title": "Legge federale sulla riabilitazione dei volontari nella Resistenza francese o nella Resistenza italiana",
+          "type": {
+            "id": 1,
+            "name": "Oggetto in deliberazione / progetto"
+          }
+        },
+        {
+          "date": "/Date(1761865200000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "3465",
+            "source": "FF 2025 3465",
+            "type": {
+              "id": 1,
+              "name": "Foglio federale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/it/federal-gazette/2025/3465.pdf",
+            "year": "2025"
+          },
+          "type": {
+            "id": 6,
+            "name": "Rapporto"
+          }
+        },
+        {
+          "date": "/Date(1768345200000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "106",
+            "source": "FF 2026 106",
+            "type": {
+              "id": 1,
+              "name": "Foglio federale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/it/federal-gazette/2026/106.pdf",
+            "year": "2026"
+          },
+          "type": {
+            "id": 2,
+            "name": "Parere del Consiglio federale"
+          }
+        },
+        {
+          "date": "/Date(1782770400000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "1761",
+            "source": "FF 2026 1761",
+            "type": {
+              "id": 1,
+              "name": "Foglio federale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/it/federal-gazette/2026/1761.pdf",
+            "year": "2026"
+          },
+          "referendumDeadline": "2026-10-08T00:00:00Z",
+          "type": {
+            "id": 3,
+            "name": "Testo per la votazione finale"
+          }
+        }
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlamento",
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
           "leading": true
         }
       ],
       "states": [
         {
-          "date": "/Date(1623967200000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "date": "/Date(1732662000000+0100)/",
+          "id": 201,
+          "name": "Annunciato"
+        },
+        {
+          "date": "/Date(1732748400000+0100)/",
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1732834800000+0100)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1768777200000+0100)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1772146800000+0100)/",
+          "id": 205,
+          "name": "Pianificato nel Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1773183600000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1774908000000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1779746400000+0200)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1781474400000+0200)/",
+          "id": 219,
+          "name": "Pianificato per il voto finale"
+        },
+        {
+          "date": "/Date(1781820000000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
-
+        {
+          "type": {
+            "id": 2,
+            "name": "Titolo del progetto"
+          },
+          "value": "Legge federale sulla riabilitazione dei volontari nella Resistenza francese o nella Resistenza italiana"
+        }
       ]
     }
   ],
@@ -276,7 +689,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -394,12 +807,22 @@
         "name": "Gruppo dei Verdi"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3152,
+        "gender": "m",
+        "id": 4260,
+        "name": "Fivaz Fabien",
+        "officialDenomination": "Fivaz Fabien"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "21.472",
   "state": {
-    "id": 1,
-    "name": "Vi è stato dato seguito",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
     "newKey": 0
   },

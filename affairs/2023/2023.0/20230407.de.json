@@ -1,6 +1,6 @@
 {
   "id": 20230407,
-  "updated": "2023-03-16T15:08:47Z",
+  "updated": "2026-05-05T14:41:00Z",
   "additionalIndexing": "2841;28",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -41,7 +41,46 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "SPK-NR",
+              "id": 11,
+              "name": "Staatspolitische Kommission NR",
+              "abbreviation1": "SPK-N",
+              "abbreviation2": "SPK",
+              "committeeNumber": 11,
+              "council": {
+                "abbreviation": "NR",
+                "id": 1,
+                "name": "Nationalrat",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2024-01-11T00:00:00Z",
+            "text": "Keine Folge geben (Erstrat)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-04-15T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -51,24 +90,163 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-15T09:14:03Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3088,
+                    "gender": "m",
+                    "id": 4193,
+                    "name": "Nantermod Philippe",
+                    "officialDenomination": "Nantermod"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-15T09:14:05Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3123,
+                    "gender": "m",
+                    "id": 4222,
+                    "name": "Paganini Nicolò",
+                    "officialDenomination": "Paganini"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "SPK-NR",
+            "id": 11,
+            "name": "Staatspolitische Kommission NR",
+            "abbreviation1": "SPK-N",
+            "abbreviation2": "SPK",
+            "committeeNumber": 11,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-14T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "SPK-SR",
+            "id": 24,
+            "name": "Staatspolitische Kommission SR",
+            "abbreviation1": "SPK-S",
+            "abbreviation2": "SPK",
+            "committeeNumber": 24,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-14T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "BK",
+          "id": 10,
+          "name": "Bundeskanzlei",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1678748400000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1703113200000+0100)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1713132000000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -96,7 +274,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -279,12 +457,26 @@
   ],
   "shortId": "23.407",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Die Gesundheitsfolgenabschätzung (GFA) zielt darauf ab, mögliche positive und negative Gesundheitsauswirkungen von politischen Vorhaben, insbesondere auch in Politikbereichen ausserhalb des Sektors Gesundheit, prospektiv abzuschätzen. Die GFA wird seit den 1970er-Jahren von der WHO aus der Erkenntnis heraus gefordert und gefördert, dass Gesundheit nicht alleine aus den Rahmenbedingungen des Gesundheitssystems, aus den biologisch-genetischen Voraussetzungen und aus dem persönlichen Lebensstil resultiert. Wesentlich für Gesundheit und Wohlbefinden der Bevölkerung oder einzelner Personengruppen sind die Lebensbedingungen, insbesondere Umwelteinflüsse, Bildung, Beschäftigung, Einkommen, Wohnen, Nahrungsangebot, Frieden, soziale Lage, Chancengleichheit, soziale Unterstützung. Die Strategie \"Gesundheit 2030\" des Bundesrates erinnert daran, dass der Gesundheitszustand der Menschen in der Schweiz zu 60 Prozent von Faktoren ausserhalb der Gesundheitspolitik bestimmt wird. Dieses Wissen und die Verantwortung für eine kohärente Gesundheitspolitik sollen bei Verwaltung, Bundesrat und Parlament gestärkt werden.</p><p>Botschaften des Bundesrats und Berichte einer Parlamentskommission zur Schaffung oder Änderungen von rechtssetzenden Bestimmungen enthalten den Titel \"Auswirkungen\". Artikel 141 Absatz 2 des Parlamentsgesetzes legt fest, was eine Botschaft erläutern muss, unter anderem (Bst. g) die Auswirkungen auf Wirtschaft, Gesellschaft, Umwelt und künftige Generationen. Diese sehr allgemein gehaltene Anweisung lässt nicht unbedingt an Gesundheitsfolgen denken, und in der Tat fehlt eine Abschätzung der Auswirkungen auf die menschliche Gesundheit in den meisten Botschaften. Es kommt nicht selten vor, dass Gesetze vorgeschlagen werden, die den gesundheitspolitischen Zielen des Bundesrates zuwiderlaufen. </p><p>Als Modell kann die Umsetzung von Artikel 141 Absatz 2 Buchstabe i dienen: \"die Auswirkungen auf die Gleichstellung von Frau und Mann\". Das Eidgenössische Büro für die Gleichstellung von Frau und Mann hat 2017 ein Verfahren \"Gleichstellungsfolgenabschätzung in Gesetzgebungsprojekten\" entwickelt, samt drei Arbeitsinstrumenten. Sie erlauben ein gestuftes Vorgehen: Zuerst die Vorprüfung, danach nur bei Bedarf die Hauptprüfung. Analog kann mit der Gesundheitsfolgenabschätzung verfahren werden.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Das Parlamentsgesetz wird in Artikel 141 Absatz 2 mit folgendem Ziel ergänzt: Botschaften zum Erlass oder zur Änderung von rechtsetzenden Bestimmungen enthalten unter dem Titel \"Auswirkungen\" zusätzlich zu den bisher nachzuweisenden Auswirkungen das Ergebnis einer Gesundheitsfolgenabschätzung.</p>"
+    },
     {
       "type": {
         "id": 1,

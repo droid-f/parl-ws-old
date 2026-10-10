@@ -1,6 +1,6 @@
 {
   "id": 20230444,
-  "updated": "2023-06-21T16:25:18Z",
+  "updated": "2026-05-05T14:38:33Z",
   "additionalIndexing": "04",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -40,7 +40,46 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "committee": {
+              "abbreviation": "CIP-CN",
+              "id": 11,
+              "name": "Commissione delle istituzioni politiche CN",
+              "abbreviation1": "CIP-N",
+              "abbreviation2": "CIP",
+              "committeeNumber": 11,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Consiglio nazionale",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2024-04-26T00:00:00Z",
+            "text": "Non dare seguito (Camera prioritaria)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-05-30T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -50,24 +89,133 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-04-26T16:30:34Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3221,
+                    "gender": "m",
+                    "id": 4326,
+                    "name": "Fischer Benjamin",
+                    "officialDenomination": "Fischer Benjamin"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CIP-CN",
+            "id": 11,
+            "name": "Commissione delle istituzioni politiche CN",
+            "abbreviation1": "CIP-N",
+            "abbreviation2": "CIP",
+            "committeeNumber": 11,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CIP-CS",
+            "id": 24,
+            "name": "Commissione delle istituzioni politiche CS",
+            "abbreviation1": "CIP-S",
+            "abbreviation2": "CIP",
+            "committeeNumber": 24,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "CaF",
+          "id": 10,
+          "name": "Cancelleria federale",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1686866400000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1692914400000+0200)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1710975600000+0100)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1714082400000+0200)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1717020000000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -107,19 +255,33 @@
   ],
   "shortId": "23.444",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Mentre la pubblicità commerciale è sottoposta al controllo della Commissione Svizzera per la Lealtà, quella politica è soggetta solo a restrizioni minime, formulate in modo molto ampio (cfr. Kley, Rechtliche Schranken der politischen Werbung, in: Schweizer Werbeagenda 2003). Questo fatto è stato criticato più volte da diversi schieramenti politici. In una democrazia, il dibattito politico dovrebbe essere impegnato e al contempo poter essere condotto in maniera aspra. Tuttavia, per una corretta formazione della volontà degli aventi diritto di voto, è importante che non siano fatte affermazioni palesemente fuorvianti.</p><p>Negli ultimi anni questo tema è stato oggetto di diversi interventi. Il maggior sostegno è stato ottenuto da un'iniziativa parlamentare di Judith Stamm (99.427), a cui si ispira la presente iniziativa parlamentare.</p><p>Da tempo ci si lamenta del fatto che nella pubblicità delle campagne di voto siano presenti esagerazioni, semplificazioni o addirittura affermazioni palesemente false, che alterano la realtà e che sono effettivamente fuorvianti per gli elettori. Ciò è particolarmente deplorevole quando sono utilizzati mezzi costosi e non vi è la possibilità di ribattere con altrettanta influenza e visibilità. In questi casi l'organo qui proposto dovrebbe essere interpellato dai cittadini interessati per un parere. Questo organo potrebbe essere diretto dai presidenti delle Camere federali (come in concreto proposto da Judith Stamm nell'Iv. Pa. 99.427). Nell'elaborazione del progetto si potrà tuttavia preferire anche una soluzione con personalità indipendenti.</p><p>L'esistenza di questo nuovo organo avrebbe certamente anche un effetto preventivo: tutti coloro che si esprimono pubblicamente dovrebbero in futuro confrontarsi con critiche e richiami. In questo modo, l'organo potrebbe contribuire allo sviluppo e alla diffusione di uno standard di qualità per la discussione e il dibattito pubblico. Questo è di vitale importanza per il futuro della democrazia diretta.</p><p>&nbsp;</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>La legge sui diritti politici deve essere modificata in modo da creare un organo a cui sia possibile appellarsi per giudicare dichiarazioni dubbie nella pubblicità delle campagne di voto. Questo organo sarà altresì incaricato di svolgere una sorta di controllo di qualità del dibattito pubblico. Non avrà tuttavia alcun potere sanzionatorio penale o di altro tipo, ma si esprimerà sulla plausibilità e sulla veridicità degli argomenti e delle tesi, illustrando il suo parere in tempo utile al pubblico quale contributo specifico alla discussione sull'oggetto.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Per campagne di voto con argomentazioni leali"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Per campagne di voto con argomentazioni leali"
 }

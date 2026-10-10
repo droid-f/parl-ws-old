@@ -1,6 +1,6 @@
 {
   "id": 20210427,
-  "updated": "2022-09-07T10:15:17Z",
+  "updated": "2026-10-09T14:22:31Z",
   "additionalIndexing": "08;15;1236",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -49,7 +49,7 @@
               "abbreviation": "CAG-CN",
               "id": 12,
               "name": "Commissione degli affari giuridici CN",
-              "abbreviation1": "CAG-CN",
+              "abbreviation1": "CAG-N",
               "abbreviation2": "CAG",
               "committeeNumber": 12,
               "council": {
@@ -62,7 +62,7 @@
             },
             "council": null,
             "date": "2022-05-20T00:00:00Z",
-            "text": "È dato seguito",
+            "text": "Dare seguito (Camera prioritaria)",
             "type": 16
           },
           {
@@ -74,7 +74,7 @@
               "abbreviation": "CAG-CS",
               "id": 25,
               "name": "Commissione degli affari giuridici CS",
-              "abbreviation1": "CAG-CS",
+              "abbreviation1": "CAG-S",
               "abbreviation2": "CAG",
               "committeeNumber": 25,
               "council": {
@@ -89,6 +89,21 @@
             "date": "2022-09-06T00:00:00Z",
             "text": "Adesione",
             "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-12-20T00:00:00Z",
+            "text": "Il termine imposto è prorogato fino alla sessione invernale 2026",
+            "type": 0
           }
         ]
       },
@@ -104,7 +119,7 @@
             "abbreviation": "CAG-CN",
             "id": 12,
             "name": "Commissione degli affari giuridici CN",
-            "abbreviation1": "CAG-CN",
+            "abbreviation1": "CAG-N",
             "abbreviation2": "CAG",
             "committeeNumber": 12,
             "council": {
@@ -119,37 +134,18 @@
           "registrations": [
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "CN",
-                    "id": 1,
-                    "name": "Consiglio nazionale",
-                    "type": "N"
-                  },
-                  "councillor": {
-                    "code": 2765,
-                    "gender": "m",
-                    "id": 4059,
-                    "name": "Flach Beat",
-                    "officialDenomination": "Flach"
-                  },
-                  "faction": {
-                    "abbreviation": "Gruppo GL",
-                    "id": 137,
-                    "name": "Gruppo verde liberale"
-                  },
-                  "language": "de"
-                }
+
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "CAG-CS",
             "id": 25,
             "name": "Commissione degli affari giuridici CS",
-            "abbreviation1": "CAG-CS",
+            "abbreviation1": "CAG-S",
             "abbreviation2": "CAG",
             "committeeNumber": 25,
             "council": {
@@ -167,7 +163,8 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
@@ -175,10 +172,16 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -189,8 +192,13 @@
         },
         {
           "date": "/Date(1662415200000+0200)/",
-          "id": 1,
-          "name": "Vi è stato dato seguito"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1734649200000+0100)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
         }
       ],
       "texts": [
@@ -209,7 +217,10 @@
     }
   ],
   "relatedAffairs": [
-
+    {
+      "id": 20222039,
+      "shortId": "22.2039"
+    }
   ],
   "roles": [
     {
@@ -440,8 +451,8 @@
   ],
   "shortId": "21.427",
   "state": {
-    "id": 1,
-    "name": "Vi è stato dato seguito",
+    "id": 208,
+    "name": "Nella Commissione del Consiglio nazionale",
     "doneKey": "0",
     "newKey": 0
   },

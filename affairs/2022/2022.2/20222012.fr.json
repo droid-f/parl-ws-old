@@ -1,6 +1,6 @@
 {
   "id": 20222012,
-  "updated": "2023-03-22T12:08:58Z",
+  "updated": "2026-05-20T01:52:58Z",
   "affairType": {
     "abbreviation": "Pét.",
     "id": 10,
@@ -27,6 +27,31 @@
               "id": 3,
               "name": "Normal"
             },
+            "committee": {
+              "abbreviation": "CSEC-CE",
+              "id": 18,
+              "name": "Commission de la science, de l'éducation et de la culture CE",
+              "abbreviation1": "CSEC-E",
+              "abbreviation2": "CSEC",
+              "committeeNumber": 18,
+              "council": {
+                "abbreviation": "CE",
+                "id": 2,
+                "name": "Conseil des Etats",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-01-30T00:00:00Z",
+            "text": "Donner suite (cf. initiative de commission ou intervention)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
             "council": {
               "abbreviation": "CE",
               "id": 2,
@@ -36,6 +61,46 @@
             "date": "2023-03-14T00:00:00Z",
             "text": "Il est pris acte de la pétition selon la discussion de l’objet 23.3009 (voir art. 126 al. 2 LParl).",
             "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CSEC-CN",
+              "id": 5,
+              "name": "Commission de la science, de l'éducation et de la culture CN",
+              "abbreviation1": "CSEC-N",
+              "abbreviation2": "CSEC",
+              "committeeNumber": 5,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Conseil national",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-10-12T00:00:00Z",
+            "text": "Ne pas donner suite (la commission constate qu’une autre autorité compétente s’est déjà saisie de l’objet de la pétition)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-12-22T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
           }
         ]
       },
@@ -48,10 +113,35 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-18T18:45:54Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CSEC-CN",
             "id": 5,
             "name": "Commission de la science, de l'éducation et de la culture CN",
-            "abbreviation1": "CSEC-CN",
+            "abbreviation1": "CSEC-N",
             "abbreviation2": "CSEC",
             "committeeNumber": 5,
             "council": {
@@ -72,7 +162,7 @@
             "abbreviation": "CSEC-CE",
             "id": 18,
             "name": "Commission de la science, de l'éducation et de la culture CE",
-            "abbreviation1": "CSEC-CE",
+            "abbreviation1": "CSEC-E",
             "abbreviation2": "CSEC",
             "committeeNumber": 18,
             "council": {
@@ -98,10 +188,16 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -112,8 +208,23 @@
         },
         {
           "date": "/Date(1678748400000+0100)/",
-          "id": 3,
-          "name": "Traité par le Conseil des Etats"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1678834800000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1697061600000+0200)/",
+          "id": 205,
+          "name": "Planifié au Conseil national"
+        },
+        {
+          "date": "/Date(1703199600000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -137,8 +248,8 @@
   ],
   "shortId": "22.2012",
   "state": {
-    "id": 3,
-    "name": "Traité par le Conseil des Etats",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
@@ -148,8 +259,8 @@
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Endométriose – Donnez la parole aux patientes !"
+      "value": "Endométriose. Donnez la parole aux patientes!"
     }
   ],
-  "title": "Endométriose – Donnez la parole aux patientes !"
+  "title": "Endométriose. Donnez la parole aux patientes!"
 }

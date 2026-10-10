@@ -1,6 +1,6 @@
 {
   "id": 20222036,
-  "updated": "2023-06-16T08:09:15Z",
+  "updated": "2026-05-20T02:02:37Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -27,6 +27,31 @@
               "id": 3,
               "name": "Normal"
             },
+            "committee": {
+              "abbreviation": "WBK-NR",
+              "id": 5,
+              "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
+              "abbreviation1": "WBK-N",
+              "abbreviation2": "WBK",
+              "committeeNumber": 5,
+              "council": {
+                "abbreviation": "NR",
+                "id": 1,
+                "name": "Nationalrat",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-04-20T00:00:00Z",
+            "text": "Keine Folge geben (weil die Kommission die Petition ablehnt)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
             "council": {
               "abbreviation": "NR",
               "id": 1,
@@ -48,58 +73,10 @@
       "preConsultations": [
         {
           "committee": {
-            "abbreviation": "WBK-NR",
-            "id": 5,
-            "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
-            "abbreviation1": "WBK-NR",
-            "abbreviation2": "WBK",
-            "committeeNumber": 5,
-            "council": {
-              "abbreviation": "NR",
-              "id": 1,
-              "name": "Nationalrat",
-              "type": "N"
-            },
-            "typeCode": 1
-          },
-          "date": "2022-11-24T00:00:00Z",
-          "registrations": [
-            {
-              "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "NR",
-                    "id": 1,
-                    "name": "Nationalrat",
-                    "type": "N"
-                  },
-                  "councillor": {
-                    "code": 3152,
-                    "gender": "m",
-                    "id": 4260,
-                    "name": "Fivaz Fabien",
-                    "officialDenomination": "Fivaz Fabien"
-                  },
-                  "faction": {
-                    "abbreviation": "Fraktion G",
-                    "code": "G",
-                    "id": 6,
-                    "name": "Grüne Fraktion"
-                  },
-                  "language": "fr"
-                }
-              ],
-              "sessionId": "5121"
-            }
-          ],
-          "treatmentCategory": "V"
-        },
-        {
-          "committee": {
             "abbreviation": "WBK-SR",
             "id": 18,
             "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
-            "abbreviation1": "WBK-SR",
+            "abbreviation1": "WBK-S",
             "abbreviation2": "WBK",
             "committeeNumber": 18,
             "council": {
@@ -113,7 +90,8 @@
           "date": "2022-11-24T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -124,6 +102,12 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
+          "leading": false
+        },
+        {
+          "abbreviation": "WBF",
+          "id": 8,
+          "name": "Departement für Wirtschaft, Bildung und Forschung",
           "leading": true
         }
       ],
@@ -135,8 +119,13 @@
         },
         {
           "date": "/Date(1686866400000+0200)/",
-          "id": 2,
-          "name": "Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1686952800000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
         }
       ],
       "texts": [
@@ -156,8 +145,8 @@
   ],
   "shortId": "22.2036",
   "state": {
-    "id": 2,
-    "name": "Behandelt vom Nationalrat",
+    "id": 206,
+    "name": "In Kommission des Ständerats",
     "doneKey": "0",
     "newKey": 0
   },

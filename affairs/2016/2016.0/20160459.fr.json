@@ -1,6 +1,6 @@
 {
   "id": 20160459,
-  "updated": "2023-03-22T07:21:10Z",
+  "updated": "2026-02-10T21:25:04Z",
   "additionalIndexing": "2846",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -49,7 +49,7 @@
               "abbreviation": "CAJ-CN",
               "id": 12,
               "name": "Commission des affaires juridiques CN",
-              "abbreviation1": "CAJ-CN",
+              "abbreviation1": "CAJ-N",
               "abbreviation2": "CAJ",
               "committeeNumber": 12,
               "council": {
@@ -62,7 +62,7 @@
             },
             "council": null,
             "date": "2017-10-19T00:00:00Z",
-            "text": "Donné suite",
+            "text": "Donner suite (conseil prioritaire)",
             "type": 16
           },
           {
@@ -74,7 +74,7 @@
               "abbreviation": "CAJ-CE",
               "id": 25,
               "name": "Commission des affaires juridiques CE",
-              "abbreviation1": "CAJ-CE",
+              "abbreviation1": "CAJ-E",
               "abbreviation2": "CAJ",
               "committeeNumber": 25,
               "council": {
@@ -107,8 +107,8 @@
           },
           {
             "category": {
-              "id": 4,
-              "name": "Complément"
+              "id": 3,
+              "name": "Normal"
             },
             "council": {
               "abbreviation": "CN",
@@ -138,7 +138,7 @@
             "abbreviation": "CAJ-CN",
             "id": 12,
             "name": "Commission des affaires juridiques CN",
-            "abbreviation1": "CAJ-CN",
+            "abbreviation1": "CAJ-N",
             "abbreviation2": "CAJ",
             "committeeNumber": 12,
             "council": {
@@ -195,7 +195,7 @@
             "abbreviation": "CAJ-CE",
             "id": 25,
             "name": "Commission des affaires juridiques CE",
-            "abbreviation1": "CAJ-CE",
+            "abbreviation1": "CAJ-E",
             "abbreviation2": "CAJ",
             "committeeNumber": 25,
             "council": {
@@ -213,26 +213,12 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
         {
-          "committee": {
-            "abbreviation": "CAJ-CN",
-            "id": 12,
-            "name": "Commission des affaires juridiques CN",
-            "abbreviation1": "CAJ-CN",
-            "abbreviation2": "CAJ",
-            "committeeNumber": 12,
-            "council": {
-              "abbreviation": "CN",
-              "id": 1,
-              "name": "Conseil national",
-              "type": "N"
-            },
-            "typeCode": 1
-          },
           "date": "/Date(1660773600000+0200)/",
           "publication": {
             "isOldFormat": false,
@@ -250,6 +236,25 @@
             "id": 6,
             "name": "Rapport"
           }
+        },
+        {
+          "date": "/Date(1666130400000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2624",
+            "source": "FF 2022 2624",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2022/2624.pdf",
+            "year": "2022"
+          },
+          "type": {
+            "id": 2,
+            "name": "Avis du Conseil fédéral"
+          }
         }
       ],
       "relatedDepartments": [
@@ -257,7 +262,7 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": false
+          "leading": true
         }
       ],
       "states": [
@@ -273,8 +278,23 @@
         },
         {
           "date": "/Date(1678316400000+0100)/",
-          "id": 2,
-          "name": "Traité par le Conseil national"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1693778400000+0200)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1694988000000+0200)/",
+          "id": 219,
+          "name": "Planifié pour le vote final"
+        },
+        {
+          "date": "/Date(1695938400000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -298,6 +318,51 @@
             "date": "2023-03-09T00:00:00Z",
             "text": "Décision conforme au projet",
             "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-09-18T00:00:00Z",
+            "text": "Adhésion",
+            "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Adoption (vote final)",
+            "type": 36
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Adoption (vote final)",
+            "type": 36
           }
         ]
       },
@@ -305,7 +370,11 @@
       },
       "index": 1,
       "links": [
-
+        {
+          "date": "/Date(1702335600000+0100)/",
+          "title": "Consultation",
+          "url": "https://www.parlament.ch/fr/organe/commissions/commissions-thematiques/commissions-caj/rapports-consultations-caj/consultation-caj-n-15-455"
+        }
       ],
       "preConsultations": [
         {
@@ -313,7 +382,7 @@
             "abbreviation": "CAJ-CN",
             "id": 12,
             "name": "Commission des affaires juridiques CN",
-            "abbreviation1": "CAJ-CN",
+            "abbreviation1": "CAJ-N",
             "abbreviation2": "CAJ",
             "committeeNumber": 12,
             "council": {
@@ -371,7 +440,7 @@
             "abbreviation": "CAJ-CE",
             "id": 25,
             "name": "Commission des affaires juridiques CE",
-            "abbreviation1": "CAJ-CE",
+            "abbreviation1": "CAJ-E",
             "abbreviation2": "CAJ",
             "committeeNumber": 25,
             "council": {
@@ -384,11 +453,51 @@
           },
           "date": "2018-04-30T00:00:00Z",
           "registrations": [
-
-          ]
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2767,
+                    "gender": "m",
+                    "id": 4056,
+                    "name": "Fässler Daniel",
+                    "officialDenomination": "Fässler Daniel"
+                  },
+                  "language": "de"
+                }
+              ],
+              "sessionId": "5122"
+            }
+          ],
+          "treatmentCategory": "IIIb/IV"
         }
       ],
       "references": [
+        {
+          "date": "/Date(1660773600000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2100",
+            "source": "FF 2022 2100",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2022/2100.pdf",
+            "year": "2022"
+          },
+          "type": {
+            "id": 6,
+            "name": "Rapport"
+          }
+        },
         {
           "date": "/Date(1660773600000+0200)/",
           "publication": {
@@ -407,6 +516,64 @@
           "type": {
             "id": 1,
             "name": "Objet soumis à délibération / Projet"
+          }
+        },
+        {
+          "date": "/Date(1666130400000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2624",
+            "source": "FF 2022 2624",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2022/2624.pdf",
+            "year": "2022"
+          },
+          "type": {
+            "id": 2,
+            "name": "Avis du Conseil fédéral"
+          }
+        },
+        {
+          "date": "/Date(1696888800000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "2289",
+            "source": "FF 2023 2289",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2023/2289.pdf",
+            "year": "2023"
+          },
+          "referendumDeadline": "2024-01-18T00:00:00Z",
+          "type": {
+            "id": 3,
+            "name": "Texte pour le vote final"
+          }
+        },
+        {
+          "date": "/Date(1747260000000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "197",
+            "source": "RO 2025 197",
+            "type": {
+              "id": 2,
+              "name": "Recueil officiel",
+              "shortName": "RO"
+            },
+            "url": "http://www.admin.ch/opc/fr/official-compilation/2025/197.pdf",
+            "year": "2025"
+          },
+          "type": {
+            "id": 5,
+            "name": "Recueil officiel"
           }
         }
       ],
@@ -432,8 +599,23 @@
         },
         {
           "date": "/Date(1678316400000+0100)/",
-          "id": 2,
-          "name": "Traité par le Conseil national"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1693778400000+0200)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1694988000000+0200)/",
+          "id": 219,
+          "name": "Planifié pour le vote final"
+        },
+        {
+          "date": "/Date(1695938400000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -579,8 +761,8 @@
   ],
   "shortId": "16.459",
   "state": {
-    "id": 2,
-    "name": "Traité par le Conseil national",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
@@ -590,14 +772,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>L'article 269d CO fixe les règles qui doivent être respectées par le bailleur lorsque celui-ci veut augmenter le loyer ou apporter d'autres modifications unilatérales au contrat de bail. Cette disposition prévoit notamment que la notification au locataire doit se faire par écrit au moyen d'une formule officielle agréée par le canton.</p><p>Dans un arrêt du 8 juillet 2003, le Tribunal fédéral a considéré que la formule officielle visant à notifier une hausse de loyer à un locataire devait être signée à la main, la signature reproduite par un moyen mécanique n'étant suffisante que dans les affaires où elle est admise par l'usage, conformément à l'article 14 alinéa 2 CO.</p><p>Cet arrêt crée une insécurité juridique qui peut être lourde de conséquences. En effet, en l'absence de signature autographe apposée sur la formule officielle, la notification de hausse de loyer peut se retrouver frappée de nullité.</p><p>La présente initiative a pour objectif d'autoriser la signature reproduite par un moyen mécanique au même titre que la signature autographe lors de la notification d'une hausse de loyer ou de toute autre modification unilatérale du contrat. La disposition proposée permettra notamment aux propriétaires institutionnels, comme les caisses de pension, et aux gérants d'immeubles d'apposer une signature sous la forme d'un fac-similé sur les formules officielles requises en cas d'augmentation du loyer ou d'autres modifications unilatérales du contrat. Cela diminuera considérablement le travail administratif sans affaiblir d'une quelconque manière les droits des locataires.</p><p>Une proposition analogue à celle contenue dans la présente initiative avait déjà été faite dans la motion 07.3159 déposée le 22 mars 2007 par le conseiller national Rudolf Steiner. Dans son avis du 15 juin 2007, le Conseil fédéral avait alors admis que l'exigence d'une signature apposée à la main constituait un formalisme excessif, l'utilisation de la formule officielle agréée par le canton étant suffisante pour protéger les locataires. Malheureusement, la motion a été classée sans débat parlementaire, l'auteur ayant quitté le Conseil national à la fin de l'année 2007.</p>"
+      "value": "<p>L'article 269d CO fixe les règles qui doivent être respectées par le bailleur lorsque celui-ci veut augmenter le loyer ou apporter d'autres modifications unilatérales au contrat de bail. Cette disposition prévoit notamment que la notification au locataire doit se faire par écrit au moyen d'une formule officielle agréée par le canton.</p><p>Dans un arrêt du 8 juillet 2003, le Tribunal fédéral a considéré que la formule officielle visant à notifier une hausse de loyer à un locataire devait être signée à la main, la signature reproduite par un moyen mécanique n'étant suffisante que dans les affaires où elle est admise par l'usage, conformément à l'art. 14, al. 2, CO.</p><p>Cet arrêt crée une insécurité juridique qui peut être lourde de conséquences. En effet, en l'absence de signature autographe apposée sur la formule officielle, la notification de hausse de loyer peut se retrouver frappée de nullité.</p><p>La présente initiative a pour objectif d'autoriser la signature reproduite par un moyen mécanique au même titre que la signature autographe lors de la notification d'une hausse de loyer ou de toute autre modification unilatérale du contrat. La disposition proposée permettra notamment aux propriétaires institutionnels, comme les caisses de pension, et aux gérants d'immeubles d'apposer une signature sous la forme d'un fac-similé sur les formules officielles requises en cas d'augmentation du loyer ou d'autres modifications unilatérales du contrat. Cela diminuera considérablement le travail administratif sans affaiblir d'une quelconque manière les droits des locataires.</p><p>Une proposition analogue à celle contenue dans la présente initiative avait déjà été faite dans la motion 07.3159 déposée le 22 mars 2007 par le conseiller national Rudolf Steiner. Dans son avis du 15 juin 2007, le Conseil fédéral avait alors admis que l'exigence d'une signature apposée à la main constituait un formalisme excessif, l'utilisation de la formule officielle agréée par le canton étant suffisante pour protéger les locataires. Malheureusement, la motion a été classée sans débat parlementaire, l'auteur ayant quitté le Conseil national à la fin de l'année 2007.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Conformément à l'article 160 alinéa 1 de la Constitution et à l'article 107 de la loi sur le Parlement, je dépose l'initiative parlementaire suivante:</p><p>L'article 269d du Code des obligations (CO) sera complété par un quatrième alinéa ayant la teneur suivante:</p><p>Art. 269d</p><p>...</p><p>Al. 4</p><p>Pour la notification d'une augmentation de loyer ou de toute autre modification unilatérale du contrat, une signature reproduite sur la formule officielle par un moyen mécanique est admise.</p>"
+      "value": "<p>Conformément à l'art. 160, al. 1, de la Constitution et à l'article 107 de la loi sur le Parlement, je dépose l'initiative parlementaire suivante :</p><p>L'article 269d du Code des obligations (CO) sera complété par un quatrième alinéa ayant la teneur suivante :</p><p>Art. 269d</p><p>...</p><p>Al. 4</p><p>Pour la notification d'une augmentation de loyer ou de toute autre modification unilatérale du contrat, une signature reproduite sur la formule officielle par un moyen mécanique est admise.</p>"
     },
     {
       "type": {

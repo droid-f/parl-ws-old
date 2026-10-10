@@ -1,6 +1,6 @@
 {
   "id": 20183179,
-  "updated": "2019-02-18T19:03:06Z",
+  "updated": "2026-09-24T12:44:08Z",
   "additionalIndexing": "09;34",
   "affairType": {
     "abbreviation": "Mo.",
@@ -13,7 +13,7 @@
       "gender": "m",
       "id": 4190,
       "name": "Dobler Marcel",
-      "officialDenomination": "Dobler"
+      "officialDenomination": "Dobler Marcel"
     },
     "faction": {
       "abbreviation": "Fraktion RL",
@@ -70,6 +70,36 @@
             "date": "2018-12-06T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2026-09-21T00:00:00Z",
+            "text": "Abschreibung im Rahmen eines anderen Geschäfts 26.006",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2026-09-24T00:00:00Z",
+            "text": "Abschreibung im Rahmen eines anderen Geschäfts 26.006",
+            "type": 0
           }
         ]
       },
@@ -88,7 +118,7 @@
             "abbreviation": "SiK-SR",
             "id": 21,
             "name": "Sicherheitspolitische Kommission SR",
-            "abbreviation1": "SiK-SR",
+            "abbreviation1": "SiK-S",
             "abbreviation2": "SiK",
             "committeeNumber": 21,
             "council": {
@@ -155,8 +185,28 @@
         },
         {
           "date": "/Date(1544050800000+0100)/",
-          "id": 26,
-          "name": "Angenommen"
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
+        },
+        {
+          "date": "/Date(1743544800000+0200)/",
+          "id": 215,
+          "name": "Berichterstattung zum Umsetzungsstand des Vorstosses liegt vor"
+        },
+        {
+          "date": "/Date(1774994400000+0200)/",
+          "id": 216,
+          "name": "Abschreibungsantrag liegt vor"
+        },
+        {
+          "date": "/Date(1789941600000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1790200800000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -164,11 +214,6 @@
       ]
     }
   ],
-  "handling": {
-    "date": "2018-12-06T00:00:00Z",
-    "legislativePeriod": 50,
-    "session": "5015"
-  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -189,7 +234,7 @@
         "gender": "m",
         "id": 4190,
         "name": "Dobler Marcel",
-        "officialDenomination": "Dobler"
+        "officialDenomination": "Dobler Marcel"
       },
       "faction": {
         "abbreviation": "Fraktion RL",
@@ -202,9 +247,9 @@
   ],
   "shortId": "18.3179",
   "state": {
-    "id": 26,
-    "name": "Angenommen",
-    "doneKey": "3",
+    "id": 229,
+    "name": "Erledigt",
+    "doneKey": "0",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },
@@ -215,6 +260,13 @@
         "name": "Begründung"
       },
       "value": "<p>Ein digitales Dienstbüchlein ist massiv schneller ausgefüllt und vermindert damit den zeitlichen Aufwand für alle Beteiligten. Die Fehleranfälligkeit ist zudem viel geringer, so kann es zum Beispiel nicht verschwinden und ist nicht überklebbar, wie dies bis anhin der Fall war.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "Der Bundesrat beantragt die Annahme der Motion."
     },
     {
       "type": {

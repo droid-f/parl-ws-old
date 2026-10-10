@@ -1,6 +1,6 @@
 {
   "id": 20223980,
-  "updated": "2022-09-23T07:24:16Z",
+  "updated": "2026-02-20T17:17:33Z",
   "additionalIndexing": "28;44;2811;32",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,167 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-25T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-05-29T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-16T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-03-19T15:26:58Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2694,
+                    "gender": "m",
+                    "id": 3891,
+                    "name": "Jositsch Daniel",
+                    "officialDenomination": "Jositsch"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1663797600000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1668553200000+0100)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1695592800000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1710802800000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1716933600000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -410,14 +548,24 @@
         "name": "Die Mitte-Fraktion. Die Mitte. EVP."
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3186,
+        "gender": "f",
+        "id": 4294,
+        "name": "Studer Lilian",
+        "officialDenomination": "Studer"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "22.3980",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -426,6 +574,13 @@
         "name": "Begründung"
       },
       "value": "<p>Studien belegen: 80 bis 90 Prozent der Menschen in der Prostitution würden sofort aus dem Sexgewerbe aussteigen, wenn sie eine Alternative dazu hätten. Der Grossteil prostituiert sich aus wirtschaftlicher Not heraus oder unter Zwang. Vor allem für MigrantInnen ist Prostitution oft die einzige Option, sich und ihre Familie zu ernähren. Ein Ausstieg scheitert meist an dieser Alternativlosigkeit, oft verschärft durch Rechtsstatus, geringe Berufsausbildung, Sprachkenntnisse und psychischen Zustand. </p><p>Ausstiegsprozesse sind entsprechend komplex, langwierig und individuell. Es braucht deshalb langfristig finanzierte Ausstiegsprogramme mit Ausbildungs- und Arbeitsangeboten zur beruflichen Neuorientierung und Reintegration und einem koordinierenden Case Management sowie vertrauensvoller Kooperation zwischen den beteiligten Behörden und Institutionen aller Ebenen, spezialisierten Fachberatungsstellen, Ausstiegsangeboten und Bildungsträgern.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat teilt das Anliegen der Motion, dass ausstiegswillige Sexarbeitende unterstützt werden sollten. Er verweist auch auf den umfangreichen Bericht \"Prostitution und Menschenhandel zum Zweck der sexuellen Ausbeutung\", den er 2015 in Erfüllung der Postulate 12.4162 Streiff-Feller, 13.3332 Caroni, 13.4033 Feri und 13.4045 Fehr erarbeitet hat. Der Bericht empfahl u.a. die Förderung von Ausstiegshilfen.</p><p>Für die Regelung der Prostitution sind in der Schweiz jedoch primär die Kantone zuständig. Sie erlassen beispielsweise die Vorschriften zur Bekämpfung der Gewalt an Sexarbeitenden und verantworten die Verbesserung ihrer rechtlichen Stellung. In der Schweiz gibt es verschiedene kantonal und kommunal finanzierte Anlauf- und Beratungsstellen für Sexarbeitende. Diese bauen Netzwerke auf, die ausstiegswillige Personen unterstützen können. Sie organisieren Sprachkurse und Schulungen zur Stärkung der Kompetenzen bei der Stellensuche. Einige dieser Beratungsstellen arbeiten mit ausgewählten Arbeitgebenden zusammen und vermitteln den Sexarbeitenden alternative Arbeitsmöglichkeiten. Auch Notwohnungen werden ihnen zur Verfügung gestellt, in denen sie im Bedarfsfall untergebracht werden können. Anlaufstellen existieren auch speziell für Sans-Papiers. Diese Beratungsstellen werden zum Teil von kantonalen Behörden unterstützt.</p><p>Werden Sexarbeitende milieubedingt Opfer einer Straftat und dadurch unmittelbar in ihrer körperlichen, psychischen oder sexuellen Integrität beeinträchtigt, so können sie die Leistungen nach dem Bundesgesetz über die Hilfe an Opfer von Straftaten (OHG, SR 312.5) beanspruchen. Die Beratungsstellen leisten ihnen bei Bedarf Sofort- und längerfristige Hilfe.</p><p>Wie bereits in der Antwort auf die Interpellation Streiff-Feller 20.4216 \"Menschen sind keine Ware. Nordisches Modell für die Schweiz (Sexkaufverbot)\" erwähnt, sind die Interventionsmöglichkeiten des Bundes beschränkt und betreffen Kriminalprävention und Prävention von sexuell übertragbaren Infektionen. fedpol kann gestützt auf die Verordnung über Massnahmen zur Verhütung von Straftaten im Zusammenhang mit Prostitution (SR 311.039.4) Präventionsmassnahmen finanziell unterstützen. Das sind Massnahmen, die private oder öffentlich-rechtliche Organisationen ergreifen, um Sexarbeitende vor Straftaten zu schützen. fedpol verfügt dafür über ein jährliches Budget von 200'000 Franken. Die unterstützten Projekte umfassen insbesondere den Schutz vor Straftaten, Selbstverteidigungskurse, die Sensibilisierung für die Rechte und Pflichten von Sexarbeitenden und die Unterstützung in Notlagen.</p><p>Weitere Massnahmen enthält der Nationale Aktionsplan gegen Menschenhandel, der auch den Bereich der sexuellen Ausbeutung erfasst. Die Massnahmen beim Bund und in den Kantonen umfassen die Verbesserung der Datenlage, Rückkehrhilfen für Opfer und Informationsbroschüren für typische Herkunftsländer von Opfern. Aber auch Aus- und Weiterbildungen für Polizei und Justiz gehören dazu. Viele dieser Massnahmen wurden bereits eingeführt oder befinden sich in Umsetzung.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

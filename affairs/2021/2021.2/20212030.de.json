@@ -1,6 +1,6 @@
 {
   "id": 20212030,
-  "updated": "2021-11-24T13:51:42Z",
+  "updated": "2026-05-20T01:53:25Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,21 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-06-16T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -37,7 +51,7 @@
             "abbreviation": "WBK-NR",
             "id": 5,
             "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
-            "abbreviation1": "WBK-NR",
+            "abbreviation1": "WBK-N",
             "abbreviation2": "WBK",
             "committeeNumber": 5,
             "council": {
@@ -50,15 +64,42 @@
           },
           "date": "2021-10-30T00:00:00Z",
           "registrations": [
-
-          ]
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3152,
+                    "gender": "m",
+                    "id": 4260,
+                    "name": "Fivaz Fabien",
+                    "officialDenomination": "Fivaz Fabien"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion G",
+                    "code": "G",
+                    "id": 6,
+                    "name": "Grüne Fraktion"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5121"
+            }
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "WBK-SR",
             "id": 18,
             "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
-            "abbreviation1": "WBK-SR",
+            "abbreviation1": "WBK-S",
             "abbreviation2": "WBK",
             "committeeNumber": 18,
             "council": {
@@ -72,7 +113,8 @@
           "date": "2021-10-30T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -80,17 +122,37 @@
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlament",
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
           "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1635544800000+0200)/",
-          "id": 9,
+          "id": 202,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1635631200000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1680472800000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1683842400000+0200)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1686952800000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
         }
       ],
       "texts": [
@@ -110,10 +172,10 @@
   ],
   "shortId": "21.2030",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
+    "id": 206,
+    "name": "In Kommission des Ständerats",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

@@ -1,6 +1,6 @@
 {
   "id": 20214214,
-  "updated": "2023-06-14T07:50:14Z",
+  "updated": "2026-06-09T15:40:45Z",
   "additionalIndexing": "36;10",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2023-06-13T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2026-06-09T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
           }
         ]
       },
@@ -67,7 +82,93 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSEC-CN",
+            "id": 5,
+            "name": "Commissione della scienza, dell'educazione e della cultura CN",
+            "abbreviation1": "CSEC-N",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-09-30T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CS",
+            "id": 18,
+            "name": "Commissione della scienza, dell'educazione e della cultura CS",
+            "abbreviation1": "CSEC-S",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-09-30T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-05-05T15:20:04Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3205,
+                    "gender": "m",
+                    "id": 4309,
+                    "name": "Michel Matthias",
+                    "officialDenomination": "Michel Matthias"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +189,28 @@
         },
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1701385200000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1777932000000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1779746400000+0200)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1780956000000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -289,10 +410,9 @@
   ],
   "shortId": "21.4214",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -308,7 +428,7 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>La Svizzera ha attualmente lo status di Paese terzo non associato al pacchetto Orizzonte 2021-2027 (composto da Orizzonte Europa, dal programma Euratom, dall'infrastruttura di ricerca ITER e dal programma Digital Europe). Circa due terzi delle misure (p. es. la maggior parte dei progetti di partenariato) sono comunque accessibili agli attori svizzeri della ricerca e dell'innovazione, seppure senza finanziamenti da parte dell'UE. Nel 2021 i ricercatori e gli innovatori svizzeri non possono più partecipare ai bandi di concorso per progetti individuali, ad esempio per ottenere le borse del Consiglio europeo della ricerca, del Consiglio europeo per l'innovazione o determinate borse Marie-Curie (MSCA, Marie Sklodowska Curie Actions).</p><p>L'obiettivo dichiarato del Consiglio federale rimane quello di realizzare al più presto la piena associazione all'intero pacchetto Orizzonte Europa. Il 17 settembre e il 20 ottobre 2021 l'Esecutivo ha pertanto varato una serie di misure transitorie per attenuare gli effetti della situazione attuale. Tra queste figurano il finanziamento diretto da parte della Confederazione (DEFR/SEFRI) dei partecipanti svizzeri ai progetti del pacchetto Orizzonte nonché ulteriori offerte presso organizzazioni come il FNS e Innosuisse per compensare le parti di programma ora precluse. Le misure transitorie sono finanziate con i fondi già stanziati per la partecipazione svizzera al pacchetto Orizzonte. Alcune misure saranno sottoposte al Parlamento nella sessione invernale 2021 nel quadro di un annuncio ulteriore a complemento del preventivo 2022 per dei trasferimenti di credito.</p><p>I settori spaziale e della ricerca quantistica - e in particolare l'iniziativa Quantum Flagship - sono attualmente accessibili solo in misura molto limitata. Trattandosi delle cosiddette esclusioni strategiche dell'UE nei confronti dei Paesi terzi, la partecipazione della Svizzera sarebbe improbabile anche nel caso di una piena associazione al pacchetto Orizzonte. Nel settore della fisica quantistica non è possibile adottare a breve misure transitorie adeguate. In quello spaziale è invece prevista, a titolo di compensazione, una maggiore partecipazione degli attori svizzeri ai programmi dell'Agenzia spaziale europea ESA. Per controbilanciare la probabile esclusione dei ricercatori svizzeri dai bandi di concorso del Programma Europa Digitale, il Consiglio federale ha adottato misure transitorie nel settore d'importanza strategica del calcolo ad alte prestazioni. Altre misure transitorie a favore di Innosuisse dovranno invece permettere di attenuare gli effetti negativi per le imprese.</p><p>Pertanto, le misure transitorie offrono già valide soluzioni temporanee per colmare al meglio il periodo fino alla piena associazione.</p><p>In una prospettiva più a lungo termine il Consiglio federale ha invece incaricato il DEFR di valutare insieme al DFF misure compensative o sostitutive atte a potenziare il polo svizzero della ricerca e dell'innovazione. Tali misure servirebbero soprattutto a consolidare ulteriormente la posizione elvetica nel settore della ricerca e dell'innovazione (R&amp;I). Saranno esaminati anche i settori di ricerca in cui la Svizzera vanta indiscusse competenze specialistiche, come quelli degli affari spaziali e della ricerca quantistica. Le misure verrebbero adottate se a lungo termine non fosse possibile aderire all'intero pacchetto Orizzonte. I risultati dei suddetti mandati di valutazione saranno presentati verso la metà del 2022 (per le eventuali misure compensative) e nel corso del 2023 (per le eventuali misure sostitutive).</p><p>L'Esecutivo informerà il Parlamento sugli esiti e sull'approccio che intende adottare. Le richieste avanzate dall'autore della mozione sono quindi già debitamente considerate.</p>"
+      "value": "<p>La Svizzera ha attualmente lo status di Paese terzo non associato al pacchetto Orizzonte 2021-2027 (composto da Orizzonte Europa, dal programma Euratom, dall'infrastruttura di ricerca ITER e dal programma Digital Europe). Circa due terzi delle misure (p. es. la maggior parte dei progetti di partenariato) sono comunque accessibili agli attori svizzeri della ricerca e dell'innovazione, seppure senza finanziamenti da parte dell'UE. Nel 2021 i ricercatori e gli innovatori svizzeri non possono più partecipare ai bandi di concorso per progetti individuali, ad esempio per ottenere le borse del Consiglio europeo della ricerca, del Consiglio europeo per l'innovazione o determinate borse Marie-Curie (MSCA, Marie Sklodowska Curie Actions).</p><p>L'obiettivo dichiarato del Consiglio federale rimane quello di realizzare al più presto la piena associazione all'intero pacchetto Orizzonte Europa. Il 17 settembre e il 20 ottobre 2021 l'Esecutivo ha pertanto varato una serie di misure transitorie per attenuare gli effetti della situazione attuale. Tra queste figurano il finanziamento diretto da parte della Confederazione (DEFR/SEFRI) dei partecipanti svizzeri ai progetti del pacchetto Orizzonte nonché ulteriori offerte presso organizzazioni come il FNS e Innosuisse per compensare le parti di programma ora precluse. Le misure transitorie sono finanziate con i fondi già stanziati per la partecipazione svizzera al pacchetto Orizzonte. Alcune misure saranno sottoposte al Parlamento nella sessione invernale 2021 nel quadro di un annuncio ulteriore a complemento del preventivo 2022 per dei trasferimenti di credito.</p><p>I settori spaziale e della ricerca quantistica - e in particolare l'iniziativa Quantum Flagship - sono attualmente accessibili solo in misura molto limitata. Trattandosi delle cosiddette esclusioni strategiche dell'UE nei confronti dei Paesi terzi, la partecipazione della Svizzera sarebbe improbabile anche nel caso di una piena associazione al pacchetto Orizzonte. Nel settore della fisica quantistica non è possibile adottare a breve misure transitorie adeguate. In quello spaziale è invece prevista, a titolo di compensazione, una maggiore partecipazione degli attori svizzeri ai programmi dell'Agenzia spaziale europea ESA. Per controbilanciare la probabile esclusione dei ricercatori svizzeri dai bandi di concorso del Programma Europa Digitale, il Consiglio federale ha adottato misure transitorie nel settore d'importanza strategica del calcolo ad alte prestazioni. Altre misure transitorie a favore di Innosuisse dovranno invece permettere di attenuare gli effetti negativi per le imprese.</p><p>Pertanto, le misure transitorie offrono già valide soluzioni temporanee per colmare al meglio il periodo fino alla piena associazione.</p><p>In una prospettiva più a lungo termine il Consiglio federale ha invece incaricato il DEFR di valutare insieme al DFF misure compensative o sostitutive atte a potenziare il polo svizzero della ricerca e dell'innovazione. Tali misure servirebbero soprattutto a consolidare ulteriormente la posizione elvetica nel settore della ricerca e dell'innovazione (R&amp;I). Saranno esaminati anche i settori di ricerca in cui la Svizzera vanta indiscusse competenze specialistiche, come quelli degli affari spaziali e della ricerca quantistica. Le misure verrebbero adottate se a lungo termine non fosse possibile aderire all'intero pacchetto Orizzonte. I risultati dei suddetti mandati di valutazione saranno presentati verso la metà del 2022 (per le eventuali misure compensative) e nel corso del 2023 (per le eventuali misure sostitutive).</p><p>L'Esecutivo informerà il Parlamento sugli esiti e sull'approccio che intende adottare. Le richieste avanzate dall'autore della mozione sono quindi già debitamente considerate.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

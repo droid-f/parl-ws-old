@@ -1,6 +1,7 @@
 {
   "id": 20230307,
-  "updated": "2023-05-09T15:12:26Z",
+  "updated": "2026-05-20T01:57:29Z",
+  "additionalIndexing": "09;2446;28;2841",
   "affairType": {
     "abbreviation": "Kt. Iv.",
     "id": 3,
@@ -26,7 +27,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-03-14T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-06-13T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -36,7 +66,90 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "SiK-NR",
+            "id": 8,
+            "name": "Sicherheitspolitische Kommission NR",
+            "abbreviation1": "SiK-N",
+            "abbreviation2": "SiK",
+            "committeeNumber": 8,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-04-24T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "SiK-SR",
+            "id": 21,
+            "name": "Sicherheitspolitische Kommission SR",
+            "abbreviation1": "SiK-S",
+            "abbreviation2": "SiK",
+            "committeeNumber": 21,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-04-24T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-11T19:24:51Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3092,
+                    "gender": "m",
+                    "id": 4172,
+                    "name": "Salzmann Werner",
+                    "officialDenomination": "Salzmann"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -46,14 +159,39 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1682287200000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1704927600000+0100)/",
+          "id": 225,
+          "name": "Vorprüfung - in Kommission des Ständerates"
+        },
+        {
+          "date": "/Date(1707433200000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1710370800000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1712613600000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1718229600000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -86,10 +224,10 @@
   ],
   "shortId": "23.307",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -104,7 +242,7 @@
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Gestützt auf Artikel 160 Absatz 1 der Bundesverfassung vom 18. April 1999 und § 49 Abs. 1 lit. a der Verfassung des Kantons Luzern vom 17. Juni 2007 hat der Kantonsrat folgende Kantonsinitiative in Bern eingereicht. Dienstwillige Personen mit Geburtsgebrechen wie zum Beispiel Hämophilie oder Diabetes sowie weiteren rund 20 Geburtsgebrechen sind von der Wehrpflichtersatzabgabe zu befreien.</p>"
+      "value": "<p>Gestützt auf Artikel 160 Absatz 1 der Bundesverfassung vom 18. April 1999 und § 49 Abs. 1 lit. a der Verfassung des Kantons Luzern vom 17. Juni 2007 hat der Kantonsrat folgende Kantonsinitiative in Bern eingereicht. Dienstwillige Personen mit Geburtsgebrechen wie zum Beispiel Hämophilie oder Diabetes sowie weiteren rund 20 Geburtsgebrechen sind von der Wehrpflichtersatzabgabe zu befreien.</p>"
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20222012,
-  "updated": "2023-03-22T12:08:58Z",
+  "updated": "2026-05-20T01:52:58Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -27,6 +27,31 @@
               "id": 3,
               "name": "Normal"
             },
+            "committee": {
+              "abbreviation": "WBK-SR",
+              "id": 18,
+              "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
+              "abbreviation1": "WBK-S",
+              "abbreviation2": "WBK",
+              "committeeNumber": 18,
+              "council": {
+                "abbreviation": "SR",
+                "id": 2,
+                "name": "Ständerat",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-01-30T00:00:00Z",
+            "text": "Folge geben (vgl. Kommissionsinitiative oder Vorstoss)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
             "council": {
               "abbreviation": "SR",
               "id": 2,
@@ -36,6 +61,46 @@
             "date": "2023-03-14T00:00:00Z",
             "text": "Von der Petition wird im Rahmen der Behandlung des Geschäfts 23.3009, Kenntnis genommen (vgl. Art. 126 Abs. 2 ParlG).",
             "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "WBK-NR",
+              "id": 5,
+              "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
+              "abbreviation1": "WBK-N",
+              "abbreviation2": "WBK",
+              "committeeNumber": 5,
+              "council": {
+                "abbreviation": "NR",
+                "id": 1,
+                "name": "Nationalrat",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-10-12T00:00:00Z",
+            "text": "Keine Folge geben (weil die Kommission feststellt, dass das Anliegen der Petition bereits durch eine andere zuständige Behörde unterstützt wird)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-12-22T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
           }
         ]
       },
@@ -48,10 +113,35 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-18T18:45:54Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "WBK-NR",
             "id": 5,
             "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
-            "abbreviation1": "WBK-NR",
+            "abbreviation1": "WBK-N",
             "abbreviation2": "WBK",
             "committeeNumber": 5,
             "council": {
@@ -72,7 +162,7 @@
             "abbreviation": "WBK-SR",
             "id": 18,
             "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
-            "abbreviation1": "WBK-SR",
+            "abbreviation1": "WBK-S",
             "abbreviation2": "WBK",
             "committeeNumber": 18,
             "council": {
@@ -98,10 +188,16 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "EDI",
+          "id": 4,
+          "name": "Departement des Innern",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -112,8 +208,23 @@
         },
         {
           "date": "/Date(1678748400000+0100)/",
-          "id": 3,
-          "name": "Behandelt vom Ständerat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1678834800000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1697061600000+0200)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1703199600000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -137,8 +248,8 @@
   ],
   "shortId": "22.2012",
   "state": {
-    "id": 3,
-    "name": "Behandelt vom Ständerat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },
@@ -148,8 +259,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Endometriose – Geben Sie Betroffenen eine Stimme!"
+      "value": "Endometriose. Geben Sie Betroffenen eine Stimme!"
     }
   ],
-  "title": "Endometriose – Geben Sie Betroffenen eine Stimme!"
+  "title": "Endometriose. Geben Sie Betroffenen eine Stimme!"
 }

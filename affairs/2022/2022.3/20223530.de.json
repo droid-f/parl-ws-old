@@ -1,6 +1,6 @@
 {
   "id": 20223530,
-  "updated": "2022-06-02T15:43:41Z",
+  "updated": "2026-09-23T09:50:15Z",
   "additionalIndexing": "2831;04;44;28;32",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,17 +41,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-04-17T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2026-09-22T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-31T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WBK-SR",
+            "id": 18,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
+            "abbreviation1": "WBK-S",
+            "abbreviation2": "WBK",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-06-30T10:28:50Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3220,
+                    "gender": "f",
+                    "id": 4325,
+                    "name": "Chassot Isabelle",
+                    "officialDenomination": "Chassot"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WBK-NR",
+            "id": 5,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
+            "abbreviation1": "WBK-N",
+            "abbreviation2": "WBK",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -67,8 +180,33 @@
       "states": [
         {
           "date": "/Date(1654034400000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1661896800000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1713304800000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1782770400000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1788991200000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1790028000000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -116,7 +254,7 @@
         "gender": "m",
         "id": 4070,
         "name": "Candinas Martin",
-        "officialDenomination": "Candinas"
+        "officialDenomination": "Candinas Martin"
       },
       "type": "cosign"
     },
@@ -169,10 +307,10 @@
   ],
   "shortId": "22.3530",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -181,6 +319,13 @@
         "name": "Begründung"
       },
       "value": "<p>Wir Schweizerinnen und Schweizer sind stolz auf die vier Landessprachen, doch dessen Gebrauch ist gering. Zu oft bleiben wir in der bequemen Muttersprache und tun wenig dafür, um den Röstigraben zu überwinden. Für die Französischkenntnisse reisen wir nach der Ausbildung auf Nizza, an Neuchâtel haben wir nicht gedacht. Wie wir in den Toscana-Ferien Pizza bestellen, lernen wir auf YouTube, im Tessin waren wir nie. Das soll sich ändern. Deshalb ist es mir ein Anliegen, dass schweizweit niederschwellige Möglichkeiten geschaffen werden, die anderen Landessprachen zu lernen. Ich fordere vom Bundesamt für Kultur mehr Angebote wie \"Italiando\", damit noch mehr Schülerinnen von günstigen Sprachferien im Inland profitieren können. So steigt bereits in der Schulzeit das Interesse an fremden Sprachen und die Schweiz wird vernetzter. Più Svizzera, davantage Suisse, mehr Schweiz, dapli Svizra.</p><p>Die Überwindung der Sprachgrenzen ist wichtig für den Zusammenhalt des Landes. Das Verständnis für andere Sprachregionen des Landes und ihre Kultur ist von grosser Bedeutung für die Zusammenarbeit der Gesellschaft. Ohne Sprachverständnis kann auch kein harmonievolles Miteinander entstehen.</p><p>Für die berufliche Mobilität und für die berufliche Zukunft der Jugend sind Sprachkompetenzen von entscheidender Bedeutung. Wer Sprachkompetenzen mitbringt, wird auf den Arbeitsmarkt attraktiver und kann sich besser vernetzen. Dies dient dem Wirtschaftsstandort Schweiz.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat teilt die Einschätzung, dass der schulische Austausch einen wichtigen Beitrag zur Verständigung zwischen den Kultur- und Sprachgemeinschaften und damit zum gesellschaftlichen Zusammenhalt, zur Qualität und Weiterentwicklung des Bildungsraumes Schweiz und zur Erhaltung der Wettbewerbs- und Innovationsfähigkeit der Schweiz leistet. Austauscherfahrungen schaffen ein Bewusstsein für Mehrsprachigkeit, fördern den Spracherwerb und die Motivation zum Sprachenlernen und erhöhen damit die Arbeitsmarktfähigkeit bei Kindern und Jugendlichen.</p><p>Aus diesen Gründen ist die Förderung des schulischen Austauschs ein wichtiger Pfeiler der Sprachenpolitik des Bundes. In der aktuellen Förderperiode steigen die Mittel für die Förderung des nationalen schulischen Austauschs von 2,4 Mio. (2020) auf 6,8 Mio. (2024) an. Die Agentur Movetia unterstützt im Auftrag des Bundes verschiedene Formen des Austauschs auf allen schulischen Ebenen, inklusive der beruflichen Grundbildung (Einzelaustausch, Klassenaustausch, Lehrpersonenaustausch). Im Rahmen der Förderung von Italienisch und Rätoromanisch unterstützt das Bundesamt für Kultur auch Projekte im ausserschulischen Bereich, wie das erwähnte \"Italiando\".</p><p>Zur Stärkung des nationalen Sprachaustauschs sind jedoch keine gesetzlichen Anpassungen erforderlich daher lehnt der Bundesrat die Motion ab. Im Rahmen der Kulturbotschaft 2025-2028 wird der Bundesrat aber erläutern, welches die nächsten Meilensteine sind, um den nationalen Austausch zu stärken.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {
@@ -194,8 +339,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Vier Sprachen - viel Potential: Nationalen Sprachaustausch fördern"
+      "value": "Vier Sprachen, viel Potenzial. Nationalen Sprachaustausch fördern"
     }
   ],
-  "title": "Vier Sprachen - viel Potential: Nationalen Sprachaustausch fördern"
+  "title": "Vier Sprachen, viel Potenzial. Nationalen Sprachaustausch fördern"
 }

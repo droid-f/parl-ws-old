@@ -1,6 +1,7 @@
 {
   "id": 20230300,
-  "updated": "2023-01-17T11:49:46Z",
+  "updated": "2026-05-20T01:51:27Z",
+  "additionalIndexing": "2446;28;44;1236",
   "affairType": {
     "abbreviation": "Kt. Iv.",
     "id": 3,
@@ -26,7 +27,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-03-14T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-09-25T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -36,24 +66,153 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-23T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-23T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-19T16:50:44Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2783,
+                    "gender": "m",
+                    "id": 4078,
+                    "name": "Schmid Martin",
+                    "officialDenomination": "Schmid Martin"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "EFD",
+          "id": 7,
+          "name": "Finanzdepartement",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1671750000000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1678057200000+0100)/",
+          "id": 225,
+          "name": "Vorprüfung - in Kommission des Ständerates"
+        },
+        {
+          "date": "/Date(1708297200000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1708383600000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1710370800000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1718229600000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1718316000000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1724018400000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1727215200000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -86,10 +245,10 @@
   ],
   "shortId": "23.300",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -97,7 +256,7 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Das Bundesparlament befasst sich bereits seit langem mittels diverser Vorstösse und Initiativen mit dem Thema der Individualbesteuerung beziehungsweise der Ungleichbehandlung von verheirateten/eingetragenen Paaren gegenüber Konkubinatspaaren. Gerade auch vor dem Hintergrund der aktuellen Gleichstellungsbewegung und einem gesellschaftlich geforderten Diskurs über das Aufbrechen traditioneller Rollenverständnisse und Familienbilder ist es angezeigt, auch in steuerrechtlichen Themen endlich einen Schritt vorwärts zu gehen. Doch der Bundesrat zaudert. Das geltende Steuersystem begründet nach wie vor auf dem überholten Alleinernährer-Modell.</p><p>Tatsächlich verhindert dieses Steuermodell das Fortschreiten gelebter Gleichstellung und Gleichberechtigung: Rechtsgleichheit wie sie von der Bundesverfassung in Artikel 8 verlangt wird, wird nicht gewährleistet, wenn die verheiratete Durchschnittsverdienerin 50 Prozent mehr Einkommenssteuern und Sozialabgaben leisten muss als die unverheiratete Durchschnittsverdienerin. Verheiratete Frauen werden somit aufgrund des Zivilstands - ihrer Lebensform - diskriminiert. Die Folgen sind oft Rückzug und Ausscheiden von Frauen aus dem Arbeitsmarkt. Damit einher gehen Karrierestopp, finanzielle Abhängigkeit und Altersarmut.</p><p>Bei der Individualbesteuerung wird das Einkommen jeder natürlichen Person einzeln besteuert. Die Höhe der Steuer richtet sich dabei in erster Linie nach dem Einkommen der einzelnen Person. Heute werden in der Schweiz verheiratete Paare und gleichgeschlechtliche Paare mit eingetragener Partnerschaft gemeinsam besteuert. Allerdings müssen die Steuerverluste in Milliardenhöhe gegenfinanziert werden, zum Beispiel mittels der Erhöhung der Progressionskurven.</p><p>Es liegt in der Hand des Bundesparlaments, hier die notwendigen Schritte zu unternehmen, nur dann können die Kantone entsprechende Anpassungen im kantonalen Steuerrecht vornehmen.</p>"
+      "value": "<p>Das Bundesparlament befasst sich bereits seit langem mittels diverser Vorstösse und Initiativen mit dem Thema der Individualbesteuerung beziehungsweise der Ungleichbehandlung von verheirateten/eingetragenen Paaren gegenüber Konkubinatspaaren. Gerade auch vor dem Hintergrund der aktuellen Gleichstellungsbewegung und einem gesellschaftlich geforderten Diskurs über das Aufbrechen traditioneller Rollenverständnisse und Familienbilder ist es angezeigt, auch in steuerrechtlichen Themen endlich einen Schritt vorwärts zu gehen. Doch der Bundesrat zaudert. Das geltende Steuersystem begründet nach wie vor auf dem überholten Alleinernährer-Modell.</p><p>Tatsächlich verhindert dieses Steuermodell das Fortschreiten gelebter Gleichstellung und Gleichberechtigung: Rechtsgleichheit wie sie von der Bundesverfassung in Artikel 8 verlangt wird, wird nicht gewährleistet, wenn die verheiratete Durchschnittsverdienerin 50 Prozent mehr Einkommenssteuern und Sozialabgaben leisten muss als die unverheiratete Durchschnittsverdienerin. Verheiratete Frauen werden somit aufgrund des Zivilstands - ihrer Lebensform - diskriminiert. Die Folgen sind oft Rückzug und Ausscheiden von Frauen aus dem Arbeitsmarkt. Damit einher gehen Karrierestopp, finanzielle Abhängigkeit und Altersarmut.</p><p>Bei der Individualbesteuerung wird das Einkommen jeder natürlichen Person einzeln besteuert. Die Höhe der Steuer richtet sich dabei in erster Linie nach dem Einkommen der einzelnen Person. Heute werden in der Schweiz verheiratete Paare und gleichgeschlechtliche Paare mit eingetragener Partnerschaft gemeinsam besteuert. Allerdings müssen die Steuerverluste in Milliardenhöhe gegenfinanziert werden, zum Beispiel mittels der Erhöhung der Progressionskurven.</p><p>Es liegt in der Hand des Bundesparlaments, hier die notwendigen Schritte zu unternehmen, nur dann können die Kantone entsprechende Anpassungen im kantonalen Steuerrecht vornehmen.</p>"
     },
     {
       "type": {

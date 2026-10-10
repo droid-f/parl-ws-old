@@ -1,7 +1,7 @@
 {
   "id": 20130308,
-  "updated": "2019-02-18T19:03:06Z",
-  "additionalIndexing": "09",
+  "updated": "2026-05-20T02:11:38Z",
+  "additionalIndexing": "09;Zivildienst;Frau",
   "affairType": {
     "abbreviation": "Iv. ct.",
     "id": 3,
@@ -95,6 +95,36 @@
             "date": "2018-06-12T00:00:00Z",
             "text": "Adesione alla sospensione",
             "type": 72
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2025-06-18T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2025-09-24T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
           }
         ]
       },
@@ -107,10 +137,50 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-06-24T17:18:02Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3102,
+                    "gender": "m",
+                    "id": 4179,
+                    "name": "Zuberbühler David",
+                    "officialDenomination": "Zuberbühler"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CPS-CN",
             "id": 8,
             "name": "Commissione della politica di sicurezza CN",
-            "abbreviation1": "CPS-CN",
+            "abbreviation1": "CPS-N",
             "abbreviation2": "CPS",
             "committeeNumber": 8,
             "council": {
@@ -136,14 +206,14 @@
               "sessionId": "5013"
             }
           ],
-          "treatmentCategory": "V"
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "CPS-CS",
             "id": 21,
             "name": "Commissione della politica di sicurezza CS",
-            "abbreviation1": "CPS-CS",
+            "abbreviation1": "CPS-S",
             "abbreviation2": "CPS",
             "committeeNumber": 21,
             "council": {
@@ -158,54 +228,60 @@
           "registrations": [
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "CS",
-                    "id": 2,
-                    "name": "Consiglio degli Stati",
-                    "type": "S"
-                  },
-                  "councillor": {
-                    "code": 2459,
-                    "gender": "m",
-                    "id": 409,
-                    "name": "Hess Hans",
-                    "officialDenomination": "Hess Hans"
-                  },
-                  "faction": {
-                    "abbreviation": "Gruppo RL",
-                    "id": 1,
-                    "name": "Gruppo liberale radicale"
-                  },
-                  "language": "de"
-                }
+
               ],
               "sessionId": "4911"
             },
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "CS",
-                    "id": 2,
-                    "name": "Consiglio degli Stati",
-                    "type": "S"
-                  },
-                  "councillor": {
-                    "code": 2629,
-                    "gender": "f",
-                    "id": 1148,
-                    "name": "Savary Géraldine",
-                    "officialDenomination": "Savary"
-                  },
-                  "language": "fr"
-                }
+
               ],
               "sessionId": "5012"
             },
             {
               "correspondents": [
 
+              ]
+            }
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-05-05T09:34:05Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3092,
+                    "gender": "m",
+                    "id": 4172,
+                    "name": "Salzmann Werner",
+                    "officialDenomination": "Salzmann"
+                  },
+                  "language": "de"
+                }
               ]
             }
           ]
@@ -225,8 +301,33 @@
       "states": [
         {
           "date": "/Date(1370988000000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1655935200000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1746136800000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1750197600000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1750629600000+0200)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1758664800000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -260,12 +361,19 @@
   "sequentialNumber": 207,
   "shortId": "13.308",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
     "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Dal 1996 i cittadini svizzeri che per motivi di coscienza non vogliono prestare servizio militare hanno la possibilità, a determinate condizioni, di svolgere un servizio civile. Dal 1° aprile 2009 chi intende prestare servizio civile deve ormai solo compilare un formulario e non più motivare la propria obiezione di coscienza dinanzi all’autorità militare. Dato che i giovani uomini sono più o meno liberi di prestare servizio civile, sarebbe giusto concedere anche alle donne, perlomeno a quelle più giovani, l’opportunità di assolvere il servizio civile su base volontaria.</p><p>Già oggi le donne svizzere possono prestare servizio militare su base volontaria. Qualora, per motivi di coscienza, non intendano più assolvere il proprio obbligo di prestare servizio militare, possono chiedere di prestare i giorni mancanti nel servizio civile.</p><p>Mentre gli uomini possono arruolarsi direttamente nel servizio civile, alle donne questo accesso diretto non è consentito: una circostanza che può essere vista come una discriminazione. Secondo la definizione delle autorità federali il servizio civile fornisce un contributo «alla promozione della coesione sociale, alla soluzione pacifica dei conflitti, allo sviluppo sostenibile e alla conservazione del patrimonio culturale» (cfr. www.zivi.admin.ch). Non vi è dubbio che le donne possano contribuire allo stesso modo degli uomini al raggiungimento di questi obiettivi lodevoli.</p><p>Analogamente, le donne potrebbero prestare servizio civile al pari degli uomini in diversi settori d’impiego. Si pensi per esempio all’assistenza alle persone anziane, alla tutela dei beni culturali, alla manutenzione dei parchi naturali, al lavoro nelle organizzazioni di utilità pubblica ecc. In tal modo il servizio civile non sarebbe più definito come servizio sostitutivo del servizio militare, bensì come servizio atto a promuovere la responsabilità civile.</p><p>Il servizio civile offre possibilità di sviluppo personale e professionale, di estendere la propria rete di relazioni, di imparare una lingua straniera e quindi di acquisire competenze che possono tornare utili nella vita professionale. Poiché dal 1° aprile 2009 non vi è più un motivo plausibile per escludere le donne dal servizio civile, è ormai tempo di offrire anche a loro la possibilità di beneficiare dei molteplici e numerosi vantaggi che esso offre. In sostanza, questa iniziativa è intesa a offrire alle donne l’accesso al servizio civile, fatto che rappresenta un’opportunità per le donne, la coesione sociale, l’economia e l’ambiente.</p>"
+    },
     {
       "type": {
         "id": 5,

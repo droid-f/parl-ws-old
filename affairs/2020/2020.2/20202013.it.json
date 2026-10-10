@@ -1,6 +1,6 @@
 {
   "id": 20202013,
-  "updated": "2021-10-01T08:44:57Z",
+  "updated": "2026-05-20T02:01:25Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -36,6 +36,21 @@
             "date": "2021-10-01T00:00:00Z",
             "text": "Non è dato seguito",
             "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-09-26T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
           }
         ]
       },
@@ -51,7 +66,7 @@
             "abbreviation": "CAPTE-CN",
             "id": 7,
             "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CN",
-            "abbreviation1": "CAPTE-CN",
+            "abbreviation1": "CAPTE-N",
             "abbreviation2": "CAPTE",
             "committeeNumber": 7,
             "council": {
@@ -78,7 +93,7 @@
             "abbreviation": "CAPTE-CS",
             "id": 20,
             "name": "Commissione dell'ambiente, della pianificazione del territorio e dell'energia CS",
-            "abbreviation1": "CAPTE-CS",
+            "abbreviation1": "CAPTE-S",
             "abbreviation2": "CAPTE",
             "committeeNumber": 20,
             "council": {
@@ -92,14 +107,20 @@
           "date": "2020-06-25T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        }
       ],
       "states": [
         {
@@ -109,8 +130,18 @@
         },
         {
           "date": "/Date(1633039200000+0200)/",
-          "id": 2,
-          "name": "Trattato dal Consiglio nazionale"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1719266400000+0200)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1727301600000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -130,8 +161,8 @@
   ],
   "shortId": "20.2013",
   "state": {
-    "id": 2,
-    "name": "Trattato dal Consiglio nazionale",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
     "newKey": 0
   },

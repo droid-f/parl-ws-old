@@ -1,7 +1,7 @@
 {
   "id": 20200323,
-  "updated": "2023-06-15T11:58:39Z",
-  "additionalIndexing": "04;28;2836;0421",
+  "updated": "2026-05-20T01:52:45Z",
+  "additionalIndexing": "04;28;2836;421",
   "affairType": {
     "abbreviation": "Iv. ct.",
     "id": 3,
@@ -36,7 +36,7 @@
               "abbreviation": "CIP-CE",
               "id": 24,
               "name": "Commission des institutions politiques CE",
-              "abbreviation1": "CIP-CE",
+              "abbreviation1": "CIP-E",
               "abbreviation2": "CIP",
               "committeeNumber": 24,
               "council": {
@@ -49,7 +49,7 @@
             },
             "council": null,
             "date": "2020-11-09T00:00:00Z",
-            "text": "Donné suite",
+            "text": "Donner suite (conseil prioritaire)",
             "type": 16
           },
           {
@@ -61,7 +61,7 @@
               "abbreviation": "CIP-CN",
               "id": 11,
               "name": "Commission des institutions politiques CN",
-              "abbreviation1": "CIP-CN",
+              "abbreviation1": "CIP-N",
               "abbreviation2": "CIP",
               "committeeNumber": 11,
               "council": {
@@ -74,7 +74,7 @@
             },
             "council": null,
             "date": "2021-01-22T00:00:00Z",
-            "text": "Donné suite",
+            "text": "Donner suite (conseil prioritaire)",
             "type": 16
           }
         ]
@@ -95,7 +95,7 @@
             "abbreviation": "CIP-CE",
             "id": 24,
             "name": "Commission des institutions politiques CE",
-            "abbreviation1": "CIP-CE",
+            "abbreviation1": "CIP-E",
             "abbreviation2": "CIP",
             "committeeNumber": 24,
             "council": {
@@ -120,7 +120,7 @@
             "abbreviation": "CIP-CN",
             "id": 11,
             "name": "Commission des institutions politiques CN",
-            "abbreviation1": "CIP-CN",
+            "abbreviation1": "CIP-N",
             "abbreviation2": "CIP",
             "committeeNumber": 11,
             "council": {
@@ -143,21 +143,6 @@
       ],
       "references": [
         {
-          "committee": {
-            "abbreviation": "CIP-CE",
-            "id": 24,
-            "name": "Commission des institutions politiques CE",
-            "abbreviation1": "CIP-CE",
-            "abbreviation2": "CIP",
-            "committeeNumber": 24,
-            "council": {
-              "abbreviation": "CE",
-              "id": 2,
-              "name": "Conseil des Etats",
-              "type": "S"
-            },
-            "typeCode": 1
-          },
           "date": "/Date(1680127200000+0200)/",
           "publication": {
             "isOldFormat": false,
@@ -198,10 +183,16 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -217,8 +208,38 @@
         },
         {
           "date": "/Date(1686175200000+0200)/",
-          "id": 3,
-          "name": "Traité par le Conseil des Etats"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1694642400000+0200)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1695333600000+0200)/",
+          "id": 205,
+          "name": "Planifié au Conseil national"
+        },
+        {
+          "date": "/Date(1695333600000+0200)/",
+          "id": 205,
+          "name": "Planifié au Conseil national"
+        },
+        {
+          "date": "/Date(1695592800000+0200)/",
+          "id": 219,
+          "name": "Planifié pour le vote final"
+        },
+        {
+          "date": "/Date(1695938400000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -242,6 +263,81 @@
             "date": "2023-06-08T00:00:00Z",
             "text": "Décision conforme au projet",
             "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-14T00:00:00Z",
+            "text": "Divergences",
+            "type": 37
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-09-21T00:00:00Z",
+            "text": "Divergences",
+            "type": 37
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-25T00:00:00Z",
+            "text": "Adhésion",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Adoption (vote final)",
+            "type": 36
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-09-29T00:00:00Z",
+            "text": "Adoption (vote final)",
+            "type": 36
           }
         ]
       },
@@ -249,7 +345,11 @@
       },
       "index": 1,
       "links": [
-
+        {
+          "date": "/Date(1728943200000+0200)/",
+          "title": "Consultation",
+          "url": "https://www.parlament.ch/press-releases/Pages/mm-spk-s-2022-08-25.aspx?lang=1036"
+        }
       ],
       "preConsultations": [
         {
@@ -257,7 +357,7 @@
             "abbreviation": "CIP-CN",
             "id": 11,
             "name": "Commission des institutions politiques CN",
-            "abbreviation1": "CIP-CN",
+            "abbreviation1": "CIP-N",
             "abbreviation2": "CIP",
             "committeeNumber": 11,
             "council": {
@@ -272,18 +372,55 @@
           "registrations": [
             {
               "correspondents": [
-
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3192,
+                    "gender": "f",
+                    "id": 4300,
+                    "name": "Widmer Céline",
+                    "officialDenomination": "Widmer Céline"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe S",
+                    "id": 2,
+                    "name": "Groupe socialiste"
+                  },
+                  "language": "de"
+                },
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3224,
+                    "gender": "m",
+                    "id": 4329,
+                    "name": "Ruch Daniel",
+                    "officialDenomination": "Ruch"
+                  },
+                  "language": "fr"
+                }
               ],
               "sessionId": "5122"
             }
-          ]
+          ],
+          "treatmentCategory": "IIIb/IV"
         },
         {
           "committee": {
             "abbreviation": "CIP-CE",
             "id": 24,
             "name": "Commission des institutions politiques CE",
-            "abbreviation1": "CIP-CE",
+            "abbreviation1": "CIP-E",
             "abbreviation2": "CIP",
             "committeeNumber": 24,
             "council": {
@@ -322,10 +459,30 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "IIIb/IV"
         }
       ],
       "references": [
+        {
+          "date": "/Date(1680127200000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "934",
+            "source": "FF 2023 934",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2023/934.pdf",
+            "year": "2023"
+          },
+          "type": {
+            "id": 6,
+            "name": "Rapport"
+          }
+        },
         {
           "date": "/Date(1680127200000+0200)/",
           "publication": {
@@ -345,14 +502,39 @@
             "id": 1,
             "name": "Objet soumis à délibération / Projet"
           }
+        },
+        {
+          "date": "/Date(1684879200000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "1357",
+            "source": "FF 2023 1357",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2023/1357.pdf",
+            "year": "2023"
+          },
+          "type": {
+            "id": 2,
+            "name": "Avis du Conseil fédéral"
+          }
         }
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFI",
+          "id": 4,
+          "name": "Département de l'intérieur",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -363,8 +545,33 @@
         },
         {
           "date": "/Date(1686175200000+0200)/",
-          "id": 3,
-          "name": "Traité par le Conseil des Etats"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1694642400000+0200)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1695333600000+0200)/",
+          "id": 205,
+          "name": "Planifié au Conseil national"
+        },
+        {
+          "date": "/Date(1695592800000+0200)/",
+          "id": 219,
+          "name": "Planifié pour le vote final"
+        },
+        {
+          "date": "/Date(1695938400000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -395,9 +602,54 @@
       "shortId": "19.311"
     },
     {
+      "id": 20190311,
+      "priorityCode": "S",
+      "shortId": "19.311"
+    },
+    {
+      "id": 20190311,
+      "priorityCode": "S",
+      "shortId": "19.311"
+    },
+    {
+      "id": 20190311,
+      "priorityCode": "S",
+      "shortId": "19.311"
+    },
+    {
       "id": 20200313,
       "priorityCode": "S",
       "shortId": "20.313"
+    },
+    {
+      "id": 20200313,
+      "priorityCode": "S",
+      "shortId": "20.313"
+    },
+    {
+      "id": 20200313,
+      "priorityCode": "S",
+      "shortId": "20.313"
+    },
+    {
+      "id": 20200313,
+      "priorityCode": "S",
+      "shortId": "20.313"
+    },
+    {
+      "id": 20210311,
+      "priorityCode": "S",
+      "shortId": "21.311"
+    },
+    {
+      "id": 20210311,
+      "priorityCode": "S",
+      "shortId": "21.311"
+    },
+    {
+      "id": 20210311,
+      "priorityCode": "S",
+      "shortId": "21.311"
     },
     {
       "id": 20210311,
@@ -417,8 +669,8 @@
   ],
   "shortId": "20.323",
   "state": {
-    "id": 3,
-    "name": "Traité par le Conseil des Etats",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
@@ -428,7 +680,7 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>A sa session de décembre 2019, le Grand Conseil du canton de Lucerne a rejeté l'introduction d'une réglementation des suppléances en son sein (Motion M 699 de Rahel Estermann). Comme principaux arguments, les partisans de ce projet ont avancé qu'un système de suppléances permettrait de remplacer les parlementaires qui se trouvent en congé maternité.</p><p>Dans les faits, une femme risque de perdre son droit à l'allocation de maternité découlant de son revenu principal (c'est-à-dire de son activité professionnelle) si elle participe, pendant son congé maternité, aux activités du parlement (soit aux séances des commissions et du conseil). Cette situation est choquante, car il ne s'agit pas à proprement parler de la reprise de l'activité lucrative.</p><p>Les dispositions relatives à la protection de la maternité et à l'allocation de maternité constituent sans aucun doute des acquis importants, auxquels il convient de faire très attention. Le mandat d'une parlementaire, élue légitimement par le peuple, diffère toutefois des obligations d'une personne liée par un contrat de travail. Selon la législation actuelle, les jeunes mères ne sont de facto pas en mesure de remplir le mandat qui leur a été confié par le peuple et d'être présentes au Parlement, ce qui est incompatible avec notre système de milice. Enfin, les quelques absences dues à l'activité parlementaire ne vont à l'encontre ni de la protection de la maternité prévue par le droit du travail ni du bien de l'enfant.</p><p>La présente initiative vise à modifier la législation fédérale de telle sorte que les femmes puissent à l'avenir assumer leurs mandats parlementaires (aux trois niveaux institutionnels) pendant leur congé maternité sans perdre leur droit à l'allocation de maternité ni la protection de la maternité.</p>"
+      "value": "<p>À sa session de décembre 2019, le Grand Conseil du canton de Lucerne a rejeté l'introduction d'une réglementation des suppléances en son sein (Motion M 699 de Rahel Estermann). Comme principaux arguments, les partisans de ce projet ont avancé qu'un système de suppléances permettrait de remplacer les parlementaires qui se trouvent en congé maternité.</p><p>Dans les faits, une femme risque de perdre son droit à l'allocation de maternité découlant de son revenu principal (c'est-à-dire de son activité professionnelle) si elle participe, pendant son congé maternité, aux activités du parlement (soit aux séances des commissions et du conseil). Cette situation est choquante, car il ne s'agit pas à proprement parler de la reprise de l'activité lucrative.</p><p>Les dispositions relatives à la protection de la maternité et à l'allocation de maternité constituent sans aucun doute des acquis importants, auxquels il convient de faire très attention. Le mandat d'une parlementaire, élue légitimement par le peuple, diffère toutefois des obligations d'une personne liée par un contrat de travail. Selon la législation actuelle, les jeunes mères ne sont de facto pas en mesure de remplir le mandat qui leur a été confié par le peuple et d'être présentes au Parlement, ce qui est incompatible avec notre système de milice. Enfin, les quelques absences dues à l'activité parlementaire ne vont à l'encontre ni de la protection de la maternité prévue par le droit du travail ni du bien de l'enfant.</p><p>La présente initiative vise à modifier la législation fédérale de telle sorte que les femmes puissent à l'avenir assumer leurs mandats parlementaires (aux trois niveaux institutionnels) pendant leur congé maternité sans perdre leur droit à l'allocation de maternité ni la protection de la maternité.</p>"
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20210065,
-  "updated": "2022-09-20T13:15:22Z",
+  "updated": "2026-03-19T15:50:28Z",
   "additionalIndexing": "55;52;2846",
   "affairType": {
     "abbreviation": "OCF",
@@ -34,7 +34,7 @@
             "abbreviation": "CEATE-CE",
             "id": 20,
             "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CE",
-            "abbreviation1": "CEATE-CE",
+            "abbreviation1": "CEATE-E",
             "abbreviation2": "CEATE",
             "committeeNumber": 20,
             "council": {
@@ -45,9 +45,13 @@
             },
             "typeCode": 1
           },
-          "date": "2021-08-26T00:00:00Z",
+          "date": "2021-09-01T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
           ]
         },
         {
@@ -55,7 +59,7 @@
             "abbreviation": "CEATE-CN",
             "id": 7,
             "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CN",
-            "abbreviation1": "CEATE-CN",
+            "abbreviation1": "CEATE-N",
             "abbreviation2": "CEATE",
             "committeeNumber": 7,
             "council": {
@@ -66,36 +70,14 @@
             },
             "typeCode": 1
           },
-          "date": "2021-08-26T00:00:00Z",
+          "date": "2021-09-01T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
-                {
-                  "council": {
-                    "abbreviation": "CN",
-                    "id": 1,
-                    "name": "Conseil national",
-                    "type": "N"
-                  },
-                  "councillor": {
-                    "code": 3123,
-                    "gender": "m",
-                    "id": 4222,
-                    "name": "Paganini Nicolo",
-                    "officialDenomination": "Paganini"
-                  },
-                  "faction": {
-                    "abbreviation": "Groupe M-E",
-                    "id": 3,
-                    "name": "Le Groupe du Centre. Le Centre. PEV."
-                  },
-                  "language": "de"
-                }
-              ],
-              "sessionId": "5116"
+
+              ]
             }
-          ],
-          "treatmentCategory": "V"
+          ]
         }
       ],
       "references": [
@@ -110,7 +92,7 @@
               "name": "Feuille fédérale",
               "shortName": "FF"
             },
-            "url": "https://www.admin.ch/opc/fr/federal-gazette/2021/2115.pdf",
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2021/2115.pdf",
             "year": "2021"
           },
           "title": "Message du 1er septembre 2021  relatif à l’initiative populaire «Contre le bétonnage de notre paysage (Initiative paysage)»",
@@ -141,8 +123,23 @@
         },
         {
           "date": "/Date(1663624800000+0200)/",
-          "id": 4,
-          "name": "Traité par les deux conseils"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1701385200000+0100)/",
+          "id": 205,
+          "name": "Planifié au Conseil national"
+        },
+        {
+          "date": "/Date(1701730800000+0100)/",
+          "id": 219,
+          "name": "Planifié pour le vote final"
+        },
+        {
+          "date": "/Date(1703199600000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -190,12 +187,107 @@
           },
           {
             "category": {
-              "id": 4,
-              "name": "Complément"
+              "id": 3,
+              "name": "Normal"
             },
-            "council": null,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
             "date": "2022-09-20T00:00:00Z",
             "text": "Jusqu'au 8 mars 2024.",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-11-28T00:00:00Z",
+            "text": "Prolongation de délai",
+            "type": 50
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2022-11-28T00:00:00Z",
+            "text": "Jusqu'au 8 mars 2024.",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-12-05T00:00:00Z",
+            "text": "Adhésion",
+            "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-12-22T00:00:00Z",
+            "text": "Adoption (vote final)",
+            "type": 36
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-12-22T00:00:00Z",
+            "text": "Adoption (vote final)",
+            "type": 36
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-02-16T00:00:00Z",
+            "text": "Réalisation du retrait conditionnel (16.02.2024) (BBl 2024 360)",
             "type": 0
           }
         ]
@@ -209,10 +301,55 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-06T18:12:54Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3130,
+                    "gender": "m",
+                    "id": 4229,
+                    "name": "Egger Mike",
+                    "officialDenomination": "Egger Mike"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe V",
+                    "id": 4,
+                    "name": "Groupe de l'Union démocratique du Centre"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CEATE-CN",
             "id": 7,
             "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CN",
-            "abbreviation1": "CEATE-CN",
+            "abbreviation1": "CEATE-N",
             "abbreviation2": "CEATE",
             "committeeNumber": 7,
             "council": {
@@ -223,17 +360,23 @@
             },
             "typeCode": 1
           },
-          "date": "2021-08-26T00:00:00Z",
+          "date": "2021-09-01T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
-          ]
+              ],
+              "sessionId": "5116"
+            }
+          ],
+          "treatmentCategory": "I/IIIa"
         },
         {
           "committee": {
             "abbreviation": "CEATE-CE",
             "id": 20,
             "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CE",
-            "abbreviation1": "CEATE-CE",
+            "abbreviation1": "CEATE-E",
             "abbreviation2": "CEATE",
             "committeeNumber": 20,
             "council": {
@@ -244,7 +387,7 @@
             },
             "typeCode": 1
           },
-          "date": "2021-08-26T00:00:00Z",
+          "date": "2021-09-01T00:00:00Z",
           "registrations": [
             {
               "correspondents": [
@@ -271,6 +414,58 @@
                 }
               ],
               "sessionId": "5115"
+            },
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5117"
+            }
+          ],
+          "treatmentCategory": "I/IIIa"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-06T18:12:56Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3017,
+                    "gender": "f",
+                    "id": 4101,
+                    "name": "Bulliard-Marbach Christine",
+                    "officialDenomination": "Bulliard"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe M-E",
+                    "id": 3,
+                    "name": "Le Groupe du Centre. Le Centre. PEV."
+                  },
+                  "language": "fr"
+                }
+              ]
             }
           ]
         }
@@ -287,13 +482,32 @@
               "name": "Feuille fédérale",
               "shortName": "FF"
             },
-            "url": "https://www.admin.ch/opc/fr/federal-gazette/2021/2116.pdf",
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2021/2116.pdf",
             "year": "2021"
           },
           "title": "Arrêté fédéral relatif à l’initiative populaire «Contre le bétonnage de notre paysage (Initiative paysage)»",
           "type": {
             "id": 1,
             "name": "Objet soumis à délibération / Projet"
+          }
+        },
+        {
+          "date": "/Date(1704754800000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "29",
+            "source": "FF 2024 29",
+            "type": {
+              "id": 1,
+              "name": "Feuille fédérale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/fr/federal-gazette/2024/29.pdf",
+            "year": "2024"
+          },
+          "type": {
+            "id": 3,
+            "name": "Texte pour le vote final"
           }
         }
       ],
@@ -318,8 +532,23 @@
         },
         {
           "date": "/Date(1663624800000+0200)/",
-          "id": 4,
-          "name": "Traité par les deux conseils"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1699830000000+0100)/",
+          "id": 205,
+          "name": "Planifié au Conseil national"
+        },
+        {
+          "date": "/Date(1701730800000+0100)/",
+          "id": 219,
+          "name": "Planifié pour le vote final"
+        },
+        {
+          "date": "/Date(1703199600000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -351,8 +580,8 @@
   ],
   "shortId": "21.065",
   "state": {
-    "id": 4,
-    "name": "Traité par les deux conseils",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },

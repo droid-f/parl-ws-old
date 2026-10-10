@@ -1,6 +1,6 @@
 {
   "id": 20202017,
-  "updated": "2021-10-01T08:44:27Z",
+  "updated": "2026-05-20T02:00:19Z",
   "affairType": {
     "abbreviation": "Pét.",
     "id": 10,
@@ -36,6 +36,21 @@
             "date": "2021-10-01T00:00:00Z",
             "text": "Refusé de donner suite",
             "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-09-26T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
           }
         ]
       },
@@ -51,7 +66,7 @@
             "abbreviation": "CEATE-CN",
             "id": 7,
             "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CN",
-            "abbreviation1": "CEATE-CN",
+            "abbreviation1": "CEATE-N",
             "abbreviation2": "CEATE",
             "committeeNumber": 7,
             "council": {
@@ -78,7 +93,7 @@
             "abbreviation": "CEATE-CE",
             "id": 20,
             "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CE",
-            "abbreviation1": "CEATE-CE",
+            "abbreviation1": "CEATE-E",
             "abbreviation2": "CEATE",
             "committeeNumber": 20,
             "council": {
@@ -92,14 +107,20 @@
           "date": "2020-08-02T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        }
       ],
       "states": [
         {
@@ -109,8 +130,18 @@
         },
         {
           "date": "/Date(1633039200000+0200)/",
-          "id": 2,
-          "name": "Traité par le Conseil national"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1719266400000+0200)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1727301600000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -130,8 +161,8 @@
   ],
   "shortId": "20.2017",
   "state": {
-    "id": 2,
-    "name": "Traité par le Conseil national",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },

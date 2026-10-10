@@ -1,6 +1,6 @@
 {
   "id": 20222000,
-  "updated": "2022-12-16T08:22:15Z",
+  "updated": "2026-05-20T01:54:04Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -51,7 +51,7 @@
             "abbreviation": "CAG-CN",
             "id": 12,
             "name": "Commissione degli affari giuridici CN",
-            "abbreviation1": "CAG-CN",
+            "abbreviation1": "CAG-N",
             "abbreviation2": "CAG",
             "committeeNumber": 12,
             "council": {
@@ -77,7 +77,7 @@
             "abbreviation": "CAG-CS",
             "id": 25,
             "name": "Commissione degli affari giuridici CS",
-            "abbreviation1": "CAG-CS",
+            "abbreviation1": "CAG-S",
             "abbreviation2": "CAG",
             "committeeNumber": 25,
             "council": {
@@ -90,7 +90,11 @@
           },
           "date": "2022-02-03T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
           ]
         }
       ],
@@ -99,10 +103,16 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFF",
+          "id": 7,
+          "name": "Dipartimento delle Finanze",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -113,8 +123,23 @@
         },
         {
           "date": "/Date(1671145200000+0100)/",
-          "id": 2,
-          "name": "Trattato dal Consiglio nazionale"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1727906400000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1730156400000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1758146400000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -134,8 +159,8 @@
   ],
   "shortId": "22.2000",
   "state": {
-    "id": 2,
-    "name": "Trattato dal Consiglio nazionale",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
     "newKey": 0
   },

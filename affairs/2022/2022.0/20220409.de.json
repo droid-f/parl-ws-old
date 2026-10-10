@@ -1,6 +1,6 @@
 {
   "id": 20220409,
-  "updated": "2023-05-30T07:37:45Z",
+  "updated": "2026-09-02T11:43:08Z",
   "additionalIndexing": "1216;28;34",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -50,7 +50,7 @@
               "abbreviation": "RK-NR",
               "id": 12,
               "name": "Kommission für Rechtsfragen NR",
-              "abbreviation1": "RK-NR",
+              "abbreviation1": "RK-N",
               "abbreviation2": "RK",
               "committeeNumber": 12,
               "council": {
@@ -63,7 +63,7 @@
             },
             "council": null,
             "date": "2022-10-20T00:00:00Z",
-            "text": "Folge gegeben",
+            "text": "Folge geben (Erstrat)",
             "type": 16
           },
           {
@@ -75,7 +75,7 @@
               "abbreviation": "RK-SR",
               "id": 25,
               "name": "Kommission für Rechtsfragen SR",
-              "abbreviation1": "RK-SR",
+              "abbreviation1": "RK-S",
               "abbreviation2": "RK",
               "committeeNumber": 25,
               "council": {
@@ -88,8 +88,38 @@
             },
             "council": null,
             "date": "2023-05-22T00:00:00Z",
-            "text": "Zustimmung",
-            "type": 3
+            "text": "Zustimmung zum Beschluss der Kommission des Erstrates (Zweitrat)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2025-06-20T00:00:00Z",
+            "text": "Fristverlängerung",
+            "type": 50
+          },
+          {
+            "category": {
+              "id": 4,
+              "name": "Ergänzung"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2025-06-20T00:00:00Z",
+            "text": "Fristverlängerung bis zur Sommersession 2027",
+            "type": 0
           }
         ]
       },
@@ -105,7 +135,7 @@
             "abbreviation": "RK-NR",
             "id": 12,
             "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
+            "abbreviation1": "RK-N",
             "abbreviation2": "RK",
             "committeeNumber": 12,
             "council": {
@@ -123,14 +153,15 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -148,7 +179,8 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -156,10 +188,16 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -170,12 +208,136 @@
         },
         {
           "date": "/Date(1684706400000+0200)/",
-          "id": 1,
-          "name": "Folge gegeben"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1742338800000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
         }
       ],
       "texts": [
 
+      ]
+    },
+    {
+      "consultation": {
+        "resolutions": [
+
+        ]
+      },
+      "federalCouncilProposal": {
+      },
+      "index": 1,
+      "links": [
+
+      ],
+      "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-03T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-03-03T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
+      ],
+      "references": [
+        {
+          "date": "/Date(1646262000000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "null",
+            "source": "BBl null null",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/null/null.pdf",
+            "year": "null"
+          },
+          "title": "Bundesgesetz...",
+          "type": {
+            "id": 1,
+            "name": "Beratungsgegenstand / Entwurf"
+          }
+        }
+      ],
+      "relatedDepartments": [
+        {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        },
+        {
+          "abbreviation": "Parl",
+          "id": 1,
+          "name": "Parlament",
+          "leading": false
+        }
+      ],
+      "states": [
+        {
+          "date": "/Date(1646262000000+0100)/",
+          "id": 201,
+          "name": "Angemeldet"
+        },
+        {
+          "date": "/Date(1725141600000+0200)/",
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1725400800000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        }
+      ],
+      "texts": [
+        {
+          "type": {
+            "id": 2,
+            "name": "Titel der Vorlage"
+          },
+          "value": "Bundesgesetz..."
+        }
       ]
     }
   ],
@@ -190,7 +352,11 @@
     }
   ],
   "relatedAffairs": [
-
+    {
+      "id": 20220400,
+      "priorityCode": "N",
+      "shortId": "22.400"
+    }
   ],
   "roles": [
     {
@@ -392,8 +558,8 @@
   ],
   "shortId": "22.409",
   "state": {
-    "id": 1,
-    "name": "Folge gegeben",
+    "id": 208,
+    "name": "In Kommission des Nationalrats",
     "doneKey": "0",
     "newKey": 0
   },
@@ -403,7 +569,7 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Im Bericht des Bundesrats vom 3. Dezember 2021 in Erfüllung des Postulats 19.4369 Arslan vom 27. September 2019 sind folgende Auszüge zur elektronischen Überwachung zu finden:</p><p>3.3.3.2 Das spanische Modell, Seite 14</p><p>\"Das spanische Modell hat gewisse Grenzen. Und doch gibt es keinen Todesfall zu verzeichnen. 95% der zu schützenden Personen gaben an, sich sicherer und besser geschützt zu fühlen.\"</p><p>3.4.1.2 Technische Aspekte, Seite 15</p><p>\"Der Hauptnachteil der passiven elektronischen Überwachung liegt darin, dass die zuständige Stelle nicht sofort eingreifen kann.\"</p><p>3.4.2.4 Soziale und psychologische Aspekte, Seite 21</p><p>\"Bei den mit einem GPS-System durchgeführten aktiven Überwachungen sind die Resultate positiv. Eine Studie berichtet, dass die überwachten Personen fast nie versucht hätten, die zu schützende Person zu kontaktieren, und dass sie die Auflagen besser einhalten. Auch das spanische Modell zeigt vielversprechende Resultate.\"</p><p>4.1.1. Vorbemerkung, Seite 29</p><p>\"Gemäss der externen Studie ist es schwierig, die Wirksamkeit der elektronischen Überwachung zu beurteilen, insbesondere im Kontext des Schutzes vor häuslicher Gewalt. Tatsächlich verfügt die Schweiz hier über wenig Erfahrung.\"</p><p>5.2 Beurteilung des Gesetzgebungsbedarfs, Seite 35</p><p>\"Der Bundesrat kommt zum Schluss, dass auf Bundesebene kein gesetzgeberischer Handlungsbedarf besteht. Die bestehenden gesetzlichen Grundlagen im Zivil- und Strafrecht betreffend die elektronische Überwachung erlauben es den zuständigen Behörden, solche Überwachungen anzuordnen.\"</p><p>Der Bundesrat stellt also fest, dass passive Überwachung einen Nachteil aufweist: Die Ordnungskräfte treffen zu spät ein, wenn die Straftat, die häufig nicht rückgängig zu machen ist, bereits begangen wurde. Er gibt zu, dass das spanische Modell vielversprechende Wirkung zeigt, bedauert aber die Tatsache, dass in der Schweiz nur wenig Erfahrungen gesammelt wurden. Zum Schluss sieht der Bundesrat keinen Grund, auf Bundesebene entsprechende Gesetze zu erlassen.</p><p>Die Einstellung des Bundesrates kann nur bedauert werden. Er ist offenbar nicht dazu bereit, sich wirklich mit dem Phänomen der Gewalt gegen Frauen auseinanderzusetzen und eine geeignete rechtliche Regelung zu treffen. Es ist unerträglich, dabei zusehen zu müssen, wie die Liste der Opfer immer länger wird, während wir die Resultate weiterer Studien abwarten. Seit seiner Einführung rettet das spanische Modell Leben. Wie der Bundesrat schreibt, \"gibt es keinen Todesfall zu verzeichnen\", während die Opfer in der Schweiz viel zu oft schwer verletzt oder getötet werden. Dies hat sich kürzlich wieder am Fall in La Chaux-de-Fonds gezeigt, als ein Täter eine Frau entführte, bevor er sich mit ihr zusammen in einen Abgrund stürzte. Es ist nun nicht mehr an der Zeit, sich vorsichtig an das Thema heranzutasten, sondern Zeit, zur Tat zu schreiten.</p>"
+      "value": "<p>Im Bericht des Bundesrats vom 3. Dezember 2021 in Erfüllung des Postulats 19.4369 Arslan vom 27. September 2019 sind folgende Auszüge zur elektronischen Überwachung zu finden:</p><p>3.3.3.2 Das spanische Modell, Seite 14</p><p>\"Das spanische Modell hat gewisse Grenzen. Und doch gibt es keinen Todesfall zu verzeichnen. 95 Prozent der zu schützenden Personen gaben an, sich sicherer und besser geschützt zu fühlen.\"</p><p>3.4.1.2 Technische Aspekte, Seite 15</p><p>\"Der Hauptnachteil der passiven elektronischen Überwachung liegt darin, dass die zuständige Stelle nicht sofort eingreifen kann.\"</p><p>3.4.2.4 Soziale und psychologische Aspekte, Seite 21</p><p>\"Bei den mit einem GPS-System durchgeführten aktiven Überwachungen sind die Resultate positiv. Eine Studie berichtet, dass die überwachten Personen fast nie versucht hätten, die zu schützende Person zu kontaktieren, und dass sie die Auflagen besser einhalten. Auch das spanische Modell zeigt vielversprechende Resultate.\"</p><p>4.1.1. Vorbemerkung, Seite 29</p><p>\"Gemäss der externen Studie ist es schwierig, die Wirksamkeit der elektronischen Überwachung zu beurteilen, insbesondere im Kontext des Schutzes vor häuslicher Gewalt. Tatsächlich verfügt die Schweiz hier über wenig Erfahrung.\"</p><p>5.2 Beurteilung des Gesetzgebungsbedarfs, Seite 35</p><p>\"Der Bundesrat kommt zum Schluss, dass auf Bundesebene kein gesetzgeberischer Handlungsbedarf besteht. Die bestehenden gesetzlichen Grundlagen im Zivil- und Strafrecht betreffend die elektronische Überwachung erlauben es den zuständigen Behörden, solche Überwachungen anzuordnen.\"</p><p>Der Bundesrat stellt also fest, dass passive Überwachung einen Nachteil aufweist: Die Ordnungskräfte treffen zu spät ein, wenn die Straftat, die häufig nicht rückgängig zu machen ist, bereits begangen wurde. Er gibt zu, dass das spanische Modell vielversprechende Wirkung zeigt, bedauert aber die Tatsache, dass in der Schweiz nur wenig Erfahrungen gesammelt wurden. Zum Schluss sieht der Bundesrat keinen Grund, auf Bundesebene entsprechende Gesetze zu erlassen.</p><p>Die Einstellung des Bundesrates kann nur bedauert werden. Er ist offenbar nicht dazu bereit, sich wirklich mit dem Phänomen der Gewalt gegen Frauen auseinanderzusetzen und eine geeignete rechtliche Regelung zu treffen. Es ist unerträglich, dabei zusehen zu müssen, wie die Liste der Opfer immer länger wird, während wir die Resultate weiterer Studien abwarten. Seit seiner Einführung rettet das spanische Modell Leben. Wie der Bundesrat schreibt, \"gibt es keinen Todesfall zu verzeichnen\", während die Opfer in der Schweiz viel zu oft schwer verletzt oder getötet werden. Dies hat sich kürzlich wieder am Fall in La Chaux-de-Fonds gezeigt, als ein Täter eine Frau entführte, bevor er sich mit ihr zusammen in einen Abgrund stürzte. Es ist nun nicht mehr an der Zeit, sich vorsichtig an das Thema heranzutasten, sondern Zeit, zur Tat zu schreiten.</p>"
     },
     {
       "type": {

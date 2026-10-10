@@ -1,6 +1,6 @@
 {
   "id": 20212040,
-  "updated": "2021-11-24T14:06:21Z",
+  "updated": "2026-05-20T02:14:18Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2022-06-07T00:00:00Z",
+            "text": "Der Rat nimmt davon Kenntnis, dass die Kommission im Rahmen der Geschäfte 21.405 und 21.414 auch die Petition 21.2040 behandelt hat (vgl. Art. 126 ParlG).",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-06-13T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -37,7 +66,7 @@
             "abbreviation": "SPK-NR",
             "id": 11,
             "name": "Staatspolitische Kommission NR",
-            "abbreviation1": "SPK-NR",
+            "abbreviation1": "SPK-N",
             "abbreviation2": "SPK",
             "committeeNumber": 11,
             "council": {
@@ -50,7 +79,12 @@
           },
           "date": "2021-10-30T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ],
+              "sessionId": "5114"
+            }
           ]
         },
         {
@@ -58,7 +92,7 @@
             "abbreviation": "SPK-SR",
             "id": 24,
             "name": "Staatspolitische Kommission SR",
-            "abbreviation1": "SPK-SR",
+            "abbreviation1": "SPK-S",
             "abbreviation2": "SPK",
             "committeeNumber": 24,
             "council": {
@@ -80,17 +114,38 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1635544800000+0200)/",
-          "id": 9,
+          "id": 202,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1710802800000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1712700000000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1718229600000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -100,7 +155,16 @@
   ],
   "language": "de",
   "relatedAffairs": [
-
+    {
+      "id": 20210405,
+      "priorityCode": "N",
+      "shortId": "21.405"
+    },
+    {
+      "id": 20210414,
+      "priorityCode": "N",
+      "shortId": "21.414"
+    }
   ],
   "roles": [
     {
@@ -110,10 +174,10 @@
   ],
   "shortId": "21.2040",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -121,8 +185,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Einführung politischer Rechte für Einwohner:innen der Schweiz ohne Schweizer Staatsbürgerschaft"
+      "value": "Einführung politischer Rechte für Einwohnerinnen und Einwohner der Schweiz ohne Schweizer Staatsbürgerschaft"
     }
   ],
-  "title": "Einführung politischer Rechte für Einwohner:innen der Schweiz ohne Schweizer Staatsbürgerschaft"
+  "title": "Einführung politischer Rechte für Einwohnerinnen und Einwohner der Schweiz ohne Schweizer Staatsbürgerschaft"
 }

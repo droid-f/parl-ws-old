@@ -1,6 +1,6 @@
 {
   "id": 20223133,
-  "updated": "2022-03-22T13:49:53Z",
+  "updated": "2026-02-20T17:14:11Z",
   "additionalIndexing": "15;52;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -33,7 +33,51 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-20T00:00:00Z",
+            "text": "Adoption partielle : Point 1 adopté; Points 2, 3, 4 et 5 rejetés.",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 4,
+              "name": "Complément"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-20T00:00:00Z",
+            "text": "Le point 1 est adopté; Les points 2, 3, 4 et 5 sont rejetés.",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-03-19T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -46,7 +90,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-01-29T10:06:24Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3205,
+                    "gender": "m",
+                    "id": 4309,
+                    "name": "Michel Matthias",
+                    "officialDenomination": "Michel Matthias"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAJ-CE",
+            "id": 25,
+            "name": "Commission des affaires juridiques CE",
+            "abbreviation1": "CAJ-E",
+            "abbreviation2": "CAJ",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAJ-CN",
+            "id": 12,
+            "name": "Commission des affaires juridiques CN",
+            "abbreviation1": "CAJ-N",
+            "abbreviation2": "CAJ",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -62,8 +187,28 @@
       "states": [
         {
           "date": "/Date(1647385200000+0100)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1652824800000+0200)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1695160800000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1738105200000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1742338800000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -106,8 +251,8 @@
   ],
   "shortId": "22.3133",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
@@ -117,21 +262,21 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Le fait que 80 % du commerce des matières premières exportée par la Russie se déroule en Suisse a mis en évidence l'énorme risque que représente potentiellement la place suisse de commerce des matières premières pour la réputation ne notre pays. Or, la Confédération n'a même pas de vue d'ensemble de ce qui s'y passe et la régulation est très lacunaire, si ce n'est inexistante. </p><p> Pour éviter que la Suisse se retrouve soudain sous une énorme pression comme autrefois avec le secret bancaire, le blanchiment et l'évasion fiscale, il est indispensable de poser un cadre. Si nous ne le faisons pas maintenant, nous pourrions bientôt le regretter amèrement.</p><p>L'adoption d'une loi sur le commerce des matières première permettra de mieux protéger cette branche contre des dérapages qui en menacent la pérennité. Elle permettra aussi de protéger la réputation de la Suisse et d'éviter que notre pays ne soit brutalement mis sous pression par la communauté internationale en raison de dérapage dans le secteur des matières premières.  </p>"
+      "value": "<p>Le fait que 80 % du commerce des matières premières exportée par la Russie se déroule en Suisse a mis en évidence l'énorme risque que représente potentiellement la place suisse de commerce des matières premières pour la réputation ne notre pays. Or, la Confédération n'a même pas de vue d'ensemble de ce qui s'y passe et la régulation est très lacunaire, si ce n'est inexistante. </p><p> Pour éviter que la Suisse se retrouve soudain sous une énorme pression comme autrefois avec le secret bancaire, le blanchiment et l'évasion fiscale, il est indispensable de poser un cadre. Si nous ne le faisons pas maintenant, nous pourrions bientôt le regretter amèrement.</p><p>L'adoption d'une loi sur le commerce des matières première permettra de mieux protéger cette branche contre des dérapages qui en menacent la pérennité. Elle permettra aussi de protéger la réputation de la Suisse et d'éviter que notre pays ne soit brutalement mis sous pression par la communauté internationale en raison de dérapage dans le secteur des matières premières.  </p>"
     },
     {
       "type": {
         "id": 14,
         "name": "Réponse CF / Bureau"
       },
-      "value": "<p>Le Conseil fédéral a identifié des risques spécifiques pour le secteur des matières premières en Suisse et a pris les mesures qui s'imposaient. Ainsi, les dispositions relatives à la transparence des paiements effectués par les entreprises extractrices de matières premières sont entrées en vigueur en janvier 2021 (art. 964d CO). Le Conseil fédéral a la compétence d'étendre les exigences de transparence au négoce de matières premières dans le cadre d'une procédure harmonisée à l'échelle internationale (art. 964i CO). L'entrée en vigueur, le 1er janvier 2022, des dispositions du contre-projet indirect du Parlement à l'initiative populaire fédérale \" Entreprises responsables - pour protéger l'être humain et l'environnement \" impose un niveau de réglementation encore plus élevé dans le secteur des matières premières. Ces nouvelles dispositions prévoient une obligation de faire rapport sur les questions de durabilité (environnement, questions de personnel, droits de l'homme et lutte contre la corruption ; art. 964b CO) ainsi qu'un devoir de diligence et de transparence concernant les minerais provenant de zones de conflit (étain, tantale, tungstène ou or) et le travail des enfants (art. 964j CO).</p><p>Les dispositions s'inspirent de la réglementation européenne et sont plus contraignantes que celle-ci en ce qui concerne le travail des enfants. En outre, la révision de la loi sur le blanchiment d'argent (LBA ; RS 955.0) et de la loi sur le contrôle des métaux précieux (RS 941.31) comprend également des mesures s'appliquant au secteur des matières premières. Ces mesures visent, d'une part, à réglementer le commerce professionnel des métaux précieux et, d'autre part, chargent le Bureau central du contrôle des métaux précieux d'assurer la surveillance dans le domaine du blanchiment d'argent des essayeurs du commerce qui négocient des métaux précieux bancaires. Par ailleurs, les intermédiaires financiers, y compris les banques suisses qui financent le négoce de matières premières, sont légalement tenus d'informer le Bureau de communication en matière de blanchiment d'argent des présomptions de blanchiment d'argent et de financement du terrorisme (cf. art. 9 LBA).</p><p>Le négoce de matières premières est une activité de portée internationale. D'où un engagement à l'international de la Suisse pour une plus grande transparence et une meilleure traçabilité des chaînes d'approvisionnement. La Suisse soutient à ce titre l'Initiative pour la transparence dans les industries extractives (ITIE), la norme mondiale de gouvernance pour le secteur des matières premières, qui relève d'une participation volontaire des Etats. L'ITIE prévoit notamment des exigences de transparence dans le négoce des matières premières, qui ont été renforcées ces dernières années grâce à l'engagement de la Suisse et au dialogue avec les entreprises de matières premières. Notre pays joue un rôle important dans la participation active du secteur suisse des matières premières à l'ITIE à la faveur d'un dialogue constant avec le secteur. Dans le souci d'améliorer la transparence et la traçabilité du commerce international de l'or, l'administration fédérale a en outre soumis le 24 septembre 2020 à l'Organisation mondiale des douanes une proposition visant à modifier la classification tarifaire internationale de l'or. La Suisse a appliqué la modification proposée à ses importations d'or dès le 1er janvier 2021.</p><p>Le Conseil fédéral attend des entreprises établies ou actives en Suisse qu'elles assument leur responsabilité, en Suisse comme à l'étranger, et se conforment aux normes régissant la responsabilité sociétale des entreprises (RSE), reconnues à l'échelle internationale, à l'instar des Principes directeurs de l'OCDE à l'intention des entreprises multinationales. Cela vaut également pour le négoce des matières premières : en 2018 déjà, le Secrétariat d'Etat à l'économie et le Département fédéral des affaires étrangères avaient publié un guide à l'intention des entreprises actives dans le commerce des matières premières sur la mise en oeuvre des Principes directeurs de l'ONU relatifs aux entreprises et aux droits de l'homme sur toute la chaîne d'approvisionnement en matières premières et en cohérence avec le guide de l'OCDE sur le devoir de diligence.</p><p>Compte tenu de l'importance en termes de politique intérieure et extérieure du secteur des matières premières, et en particulier du négoce de ces dernières, le Conseil fédéral a mis en place en 2013 la plateforme interdépartementale \" Matières premières \". Celle-ci permet de suivre les évolutions observées dans le secteur, d'identifier les risques émergents et d'y réagir en impliquant les parties prenantes concernées. Depuis lors, le Conseil fédéral a rendu compte régulièrement des travaux coordonnés par la plateforme, qui veille à la transmission des informations au sein de l'administration fédérale et avec les parties prenantes externes. Les départements représentés dans cette structure entretiennent un dialogue régulier avec les acteurs du secteur ainsi qu'avec les ONG intéressées. La plateforme a ainsi récemment organisé un dialogue entre des négociants en matières premières, des ONG et la Confédération, portant notamment sur le thème des sanctions et des matières premières russes.</p>"
+      "value": "<p>Le Conseil fédéral a identifié des risques spécifiques pour le secteur des matières premières en Suisse et a pris les mesures qui s'imposaient. Ainsi, les dispositions relatives à la transparence des paiements effectués par les entreprises extractrices de matières premières sont entrées en vigueur en janvier 2021 (art. 964d CO). Le Conseil fédéral a la compétence d'étendre les exigences de transparence au négoce de matières premières dans le cadre d'une procédure harmonisée à l'échelle internationale (art. 964i CO). L'entrée en vigueur, le 1er janvier 2022, des dispositions du contre-projet indirect du Parlement à l'initiative populaire fédérale \" Entreprises responsables - pour protéger l'être humain et l'environnement \" impose un niveau de réglementation encore plus élevé dans le secteur des matières premières. Ces nouvelles dispositions prévoient une obligation de faire rapport sur les questions de durabilité (environnement, questions de personnel, droits de l'homme et lutte contre la corruption ; art. 964b CO) ainsi qu'un devoir de diligence et de transparence concernant les minerais provenant de zones de conflit (étain, tantale, tungstène ou or) et le travail des enfants (art. 964j CO).</p><p>Les dispositions s'inspirent de la réglementation européenne et sont plus contraignantes que celle-ci en ce qui concerne le travail des enfants. En outre, la révision de la loi sur le blanchiment d'argent (LBA ; RS 955.0) et de la loi sur le contrôle des métaux précieux (RS 941.31) comprend également des mesures s'appliquant au secteur des matières premières. Ces mesures visent, d'une part, à réglementer le commerce professionnel des métaux précieux et, d'autre part, chargent le Bureau central du contrôle des métaux précieux d'assurer la surveillance dans le domaine du blanchiment d'argent des essayeurs du commerce qui négocient des métaux précieux bancaires. Par ailleurs, les intermédiaires financiers, y compris les banques suisses qui financent le négoce de matières premières, sont légalement tenus d'informer le Bureau de communication en matière de blanchiment d'argent des présomptions de blanchiment d'argent et de financement du terrorisme (cf. art. 9 LBA).</p><p>Le négoce de matières premières est une activité de portée internationale. D'où un engagement à l'international de la Suisse pour une plus grande transparence et une meilleure traçabilité des chaînes d'approvisionnement. La Suisse soutient à ce titre l'Initiative pour la transparence dans les industries extractives (ITIE), la norme mondiale de gouvernance pour le secteur des matières premières, qui relève d'une participation volontaire des États. L'ITIE prévoit notamment des exigences de transparence dans le négoce des matières premières, qui ont été renforcées ces dernières années grâce à l'engagement de la Suisse et au dialogue avec les entreprises de matières premières. Notre pays joue un rôle important dans la participation active du secteur suisse des matières premières à l'ITIE à la faveur d'un dialogue constant avec le secteur. Dans le souci d'améliorer la transparence et la traçabilité du commerce international de l'or, l'administration fédérale a en outre soumis le 24 septembre 2020 à l'Organisation mondiale des douanes une proposition visant à modifier la classification tarifaire internationale de l'or. La Suisse a appliqué la modification proposée à ses importations d'or dès le 1er janvier 2021.</p><p>Le Conseil fédéral attend des entreprises établies ou actives en Suisse qu'elles assument leur responsabilité, en Suisse comme à l'étranger, et se conforment aux normes régissant la responsabilité sociétale des entreprises (RSE), reconnues à l'échelle internationale, à l'instar des Principes directeurs de l'OCDE à l'intention des entreprises multinationales. Cela vaut également pour le négoce des matières premières : en 2018 déjà, le Secrétariat d'État à l'économie et le Département fédéral des affaires étrangères avaient publié un guide à l'intention des entreprises actives dans le commerce des matières premières sur la mise en oeuvre des Principes directeurs de l'ONU relatifs aux entreprises et aux droits de l'homme sur toute la chaîne d'approvisionnement en matières premières et en cohérence avec le guide de l'OCDE sur le devoir de diligence.</p><p>Compte tenu de l'importance en termes de politique intérieure et extérieure du secteur des matières premières, et en particulier du négoce de ces dernières, le Conseil fédéral a mis en place en 2013 la plateforme interdépartementale \" Matières premières \". Celle-ci permet de suivre les évolutions observées dans le secteur, d'identifier les risques émergents et d'y réagir en impliquant les parties prenantes concernées. Depuis lors, le Conseil fédéral a rendu compte régulièrement des travaux coordonnés par la plateforme, qui veille à la transmission des informations au sein de l'administration fédérale et avec les parties prenantes externes. Les départements représentés dans cette structure entretiennent un dialogue régulier avec les acteurs du secteur ainsi qu'avec les ONG intéressées. La plateforme a ainsi récemment organisé un dialogue entre des négociants en matières premières, des ONG et la Confédération, portant notamment sur le thème des sanctions et des matières premières russes.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Le Conseil fédéral est chargé de préparer les mesures suivantes :</p><p>1. Présenter un message en vue d'une loi sur le commerce des matières premières. </p><p>2. Cette loi fixera les règles à respecter pour le commerce international des matières premières géré depuis la Suisse.</p><p>3. La loi prévoira un système assurant la traçabilité complète des transactions, cargaisons et des matières premières, ce qui devrait également permettre de vérifier le respect des standards d'extraction, de recyclage ou de production lorsque ceux-ci existent.</p><p>4. Cette loi garantira des standards analogues à ceux appliqués aux banques s'agissant de la légalité des fonds, de la transparence des ayants-droits économiques, du respect des loi fiscales du respect des sanctions internationales etc...</p><p>5. la loi établira étendra les compétences de la Finma de manière à ce qu'elle soit chargée de la surveillance complète du secteur et d'appliquer la loi sur le commerce des matières premières , domaine dans lequel elle a déjà quelques responsabilités.</p>"
+      "value": "<p>Le Conseil fédéral est chargé de préparer les mesures suivantes :</p><p>1. Présenter un message en vue d'une loi sur le commerce des matières premières. </p><p>2. Cette loi fixera les règles à respecter pour le commerce international des matières premières géré depuis la Suisse.</p><p>3. La loi prévoira un système assurant la traçabilité complète des transactions, cargaisons et des matières premières, ce qui devrait également permettre de vérifier le respect des standards d'extraction, de recyclage ou de production lorsque ceux-ci existent.</p><p>4. Cette loi garantira des standards analogues à ceux appliqués aux banques s'agissant de la légalité des fonds, de la transparence des ayants-droits économiques, du respect des loi fiscales du respect des sanctions internationales etc...</p><p>5. la loi établira étendra les compétences de la Finma de manière à ce qu'elle soit chargée de la surveillance complète du secteur et d'appliquer la loi sur le commerce des matières premières , domaine dans lequel elle a déjà quelques responsabilités.</p>"
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20223980,
-  "updated": "2022-09-23T07:24:16Z",
+  "updated": "2026-02-20T17:17:33Z",
   "additionalIndexing": "28;44;2811;32",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,167 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-25T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-05-29T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-16T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CAG-CN",
+            "id": 12,
+            "name": "Commissione degli affari giuridici CN",
+            "abbreviation1": "CAG-N",
+            "abbreviation2": "CAG",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAG-CS",
+            "id": 25,
+            "name": "Commissione degli affari giuridici CS",
+            "abbreviation1": "CAG-S",
+            "abbreviation2": "CAG",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-03-19T15:26:58Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2694,
+                    "gender": "m",
+                    "id": 3891,
+                    "name": "Jositsch Daniel",
+                    "officialDenomination": "Jositsch"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1663797600000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1668553200000+0100)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1695592800000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1710802800000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1716933600000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -408,14 +546,24 @@
         "name": "Il Gruppo del Centro. Alleanza del Centro. PEV."
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3186,
+        "gender": "f",
+        "id": 4294,
+        "name": "Studer Lilian",
+        "officialDenomination": "Studer"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "22.3980",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -427,10 +575,17 @@
     },
     {
       "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale condivide la richiesta della mozione di sostenere le persone che lavorano nell'industria del sesso intenzionate a lasciare la loro attività. Rinvia anche al rapporto dettagliato \"Prostituzione e tratta di esseri umani finalizzata allo sfruttamento sessuale\" elaborato nel 2015 in adempimento dei postulati 12.4162 Streiff-Feller, 13.3332 Caroni, 13.4033 Feri e 13.4045 Fehr. Il rapporto raccomandava tra l'altro di promuovere gli aiuti che permettono di lasciare l'ambiente della prostituzione.</p><p>In Svizzera, tuttavia, il disciplinamento della prostituzione compete in primis ai Cantoni. Sono loro a emanare per esempio le direttive in materia di lotta contro la violenza nei confronti delle persone che lavorano nell'industria del sesso e a essere responsabili di migliorare la loro posizione giuridica. In Svizzera esistono diversi servizi di contatto e consulenza finanziati dai Cantoni e dai Comuni per le persone che lavorano nel settore della prostituzione. Questi servizi allestiscono reti che possono fornire sostegno a coloro che desiderano lasciare l'ambiente a luci rosse. Organizzano corsi di lingua e formazioni per rafforzare le competenze di chi cerca lavoro. Alcuni consultori collaborano con datori di lavoro selezionati e trasmettono proposte alternative di lavoro alle persone in questione. In caso di bisogno, queste persone possono alloggiare in appartamenti d'emergenza messi a loro disposizione. Esistono anche consultori dedicati nello specifico ai \"sans-papier\", in parte sostenuti da autorità cantonali.</p><p>Se una persona operante nell'industria del sesso è vittima di un reato legato all'ambiente a luci rosse e subisce un danno diretto alla sua integrità fisica, psichica o sessuale, ha diritto alle prestazioni previste dalla legge federale concernente l'aiuto alle vittime di reati (LAV; RS 312.5). All'occorrenza, i consultori forniscono un aiuto immediato e a più lungo termine.</p><p>Come menzionato della risposta all'interpellanza Streiff-Feller 20.4216 \"Le persone non sono merci. Modello nordico per la Svizzera (divieto dell'acquisto di sesso)\", le possibilità d'intervento della Confederazione sono limitate e riguardano la prevenzione della criminalità e delle malattie sessualmente trasmissibili. In virtù dell'ordinanza sulle misure di prevenzione dei reati in materia di prostituzione (RS 311.039.4), fedpol può sostenere finanziariamente misure preventive eseguite da organizzazioni di diritto pubblico o privato per tutelare dai reati le persone operanti nell'industria del sesso. A tal fine fedpol dispone di un budget annuo di 200 000 franchi. I progetti sostenuti comprendono in particolare la protezione dai reati, corsi di autodifesa, la sensibilizzazione ai diritti e ai doveri delle persone che lavorano nel settore della prostituzione e il sostegno nelle situazioni di bisogno.</p><p>Il Piano nazionale d'azione contro la tratta di esseri umani, che include anche il settore dello sfruttamento sessuale, contiene ulteriori misure. Queste misure, federali e cantonali, comprendono il miglioramento dei dati disponibili, aiuti al ritorno per le vittime e opuscoli informativi per i Paesi di provenienza tipici delle vittime, come pure formazioni e formazioni continue per i membri della polizia e della giustizia. Molte di queste misure sono già state introdotte o sono in fase di attuazione.</p>  Il Consiglio federale propone di respingere la mozione."
+    },
+    {
+      "type": {
         "id": 5,
         "name": "Testo depositato"
       },
-      "value": "<p>Il Consiglio federale è incaricato di garantire che le persone che desiderano uscire dalla prostituzione abbiano accesso a pertinenti offerte e accompagnamento conformi alle loro esigenze. A tal fine deve elaborare quanto prima le basi legali necessarie nonché un piano corredato di misure in modo da consentire un riorientamento professionale e sociale delle persone in questione. Occorrono alternative a lungo termine che le rendano finanziariamente indipendenti al di fuori della prostituzione. È necessario coinvolgere i Cantoni, le competenti autorità e istituzioni e gli offerenti esistenti. </p><p>Il piano dovrà disciplinare in particolare:</p><p>1. lo statuto giuridico delle persone (statuto di soggiorno, documenti, certificati, ecc.);</p><p>2. alloggi sicuri e a prezzo abbordabile;</p><p>3. assistenza e accompagnamento psicoterapeutici;</p><p>4. case management accompagnatorio;</p><p>5. offerte formative e lavorative finalizzate al riorientamento professionale per formazioni riconosciute nonché reinserimento nel mercato del lavoro, incluse offerte per l'apprendimento della lingua;</p><p>6. programmi e accompagnamento a lungo termine nei Paesi di origine a fini di reinserimento;</p><p>7. rete di specialisti e servizi sensibilizzati alla tematica; </p><p>8. interconnessione e cooperazione degli attori e delle offerte a tutti i livelli;</p><p>9. finanziamento a lungo termine dei programmi di uscita e accompagnamento nonché promozione delle offerte esistenti.</p>"
+      "value": "<p>Il Consiglio federale è incaricato di garantire che le persone che desiderano uscire dalla prostituzione abbiano accesso a pertinenti offerte e accompagnamento conformi alle loro esigenze. A tal fine deve elaborare quanto prima le basi legali necessarie nonché un piano corredato di misure in modo da consentire un riorientamento professionale e sociale delle persone in questione. Occorrono alternative a lungo termine che le rendano finanziariamente indipendenti al di fuori della prostituzione. È necessario coinvolgere i Cantoni, le competenti autorità e istituzioni e gli offerenti esistenti. </p><p>Il piano dovrà disciplinare in particolare:</p><p>1. lo statuto giuridico delle persone (statuto di soggiorno, documenti, certificati, ecc.);</p><p>2. alloggi sicuri e a prezzo abbordabile;</p><p>3. assistenza e accompagnamento psicoterapeutici;</p><p>4. case management accompagnatorio;</p><p>5. offerte formative e lavorative finalizzate al riorientamento professionale per formazioni riconosciute nonché reinserimento nel mercato del lavoro, incluse offerte per l'apprendimento della lingua;</p><p>6. programmi e accompagnamento a lungo termine nei Paesi di origine a fini di reinserimento;</p><p>7. rete di specialisti e servizi sensibilizzati alla tematica; </p><p>8. interconnessione e cooperazione degli attori e delle offerte a tutti i livelli;</p><p>9. finanziamento a lungo termine dei programmi di uscita e accompagnamento nonché promozione delle offerte esistenti.</p><p>10. informazione e sensibilizzazione delle persone interessate.</p>"
     },
     {
       "type": {

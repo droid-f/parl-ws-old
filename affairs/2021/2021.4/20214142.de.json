@@ -1,6 +1,6 @@
 {
   "id": 20214142,
-  "updated": "2023-03-15T14:34:38Z",
+  "updated": "2026-05-20T21:00:21Z",
   "additionalIndexing": "2836;44;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -70,6 +70,21 @@
             "date": "2023-03-15T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-14T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
           }
         ]
       },
@@ -85,10 +100,31 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-07-06T09:20:05Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "SGK-NR",
             "id": 6,
             "name": "Kommission für soziale Sicherheit und Gesundheit NR",
-            "abbreviation1": "SGK-NR",
+            "abbreviation1": "SGK-N",
             "abbreviation2": "SGK",
             "committeeNumber": 6,
             "council": {
@@ -109,7 +145,7 @@
             "abbreviation": "SGK-SR",
             "id": 19,
             "name": "Kommission für soziale Sicherheit und Gesundheit SR",
-            "abbreviation1": "SGK-SR",
+            "abbreviation1": "SGK-S",
             "abbreviation2": "SGK",
             "committeeNumber": 19,
             "council": {
@@ -150,6 +186,27 @@
               "sessionId": "5118"
             }
           ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-07-06T09:19:55Z",
+          "registrations": [
+
+          ]
         }
       ],
       "references": [
@@ -176,8 +233,28 @@
         },
         {
           "date": "/Date(1678834800000+0100)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1689458400000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1689544800000+0200)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1694642400000+0200)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
+        },
+        {
+          "date": "/Date(1774994400000+0200)/",
+          "id": 215,
+          "name": "Berichterstattung zum Umsetzungsstand des Vorstosses liegt vor"
         }
       ],
       "texts": [
@@ -238,10 +315,9 @@
   ],
   "shortId": "21.4142",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 215,
+    "name": "Berichterstattung zum Umsetzungsstand des Vorstosses liegt vor",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -250,21 +326,21 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Bei einem Stellenwechsel und damit auch Wechsel der Vorsorgeeinrichtung ist der Arbeitnehmer nach der heutigen Rechtslage gemäss Artikel 3 des Freizügigkeitsgesetzes (FZG) gesetzlich verpflichtet, sein Vorsorgeguthaben in die Vorsorgeeinrichtung des neuen Arbeitgebers übertragen zu lassen.</p><p>Die gleiche Pflicht gilt, wenn das Vorsorgeguthaben zum Beispiel aufgrund von Arbeitslosigkeit oder eines Auslandaufenthalts zwischenzeitlich bei einer Freizügigkeitseinrichtung auf einem Freizügigkeitskonto parkiert war: mit dem neuen Stellenantritt muss das Vorsorgeguthaben gemäss Artikel 4 Absatz 2bis FZG in die Vorsorgeeinrichtung des neuen Arbeitgebers übertragen werden.</p><p>Tritt ein Arbeitnehmer - freiwillig oder bei einem Stellenverlust unfreiwillig - aus einem 1e-Vorsorgeplan aus und bietet die Pensionskasse des neuen Arbeitgebers keinen 1e-Vorsorgeplan an, kann dies bei einem Börsen-Tief im Austrittszeitpunkt die zwangsweise Realisierung eines Verlusts auf der Anlagestrategie des 1e-Vorsorgeplans zur Folge haben. Dieser Verlust kann bei später steigenden Börsenkursen nicht mehr wettgemacht werden, da der neue Arbeitgeber keinen 1e-Vorsorgeplan mit ähnlichen Anlagestrategien anbietet.</p><p>Das Vorsorgerecht darf eine doppelte Bestrafung (Stellenverlust und finanzieller Verlust auf das Vorsorgekapital) nicht tolerieren.  Die Gesetzgebung ist entsprechend anzupassen.</p>"
+      "value": "<p>Bei einem Stellenwechsel und damit auch Wechsel der Vorsorgeeinrichtung ist der Arbeitnehmer nach der heutigen Rechtslage gemäss Artikel 3 des Freizügigkeitsgesetzes (FZG) gesetzlich verpflichtet, sein Vorsorgeguthaben in die Vorsorgeeinrichtung des neuen Arbeitgebers übertragen zu lassen.</p><p>Die gleiche Pflicht gilt, wenn das Vorsorgeguthaben zum Beispiel aufgrund von Arbeitslosigkeit oder eines Auslandaufenthalts zwischenzeitlich bei einer Freizügigkeitseinrichtung auf einem Freizügigkeitskonto parkiert war: mit dem neuen Stellenantritt muss das Vorsorgeguthaben gemäss Artikel 4 Absatz 2bis FZG in die Vorsorgeeinrichtung des neuen Arbeitgebers übertragen werden.</p><p>Tritt ein Arbeitnehmer - freiwillig oder bei einem Stellenverlust unfreiwillig - aus einem 1e-Vorsorgeplan aus und bietet die Pensionskasse des neuen Arbeitgebers keinen 1e-Vorsorgeplan an, kann dies bei einem Börsen-Tief im Austrittszeitpunkt die zwangsweise Realisierung eines Verlusts auf der Anlagestrategie des 1e-Vorsorgeplans zur Folge haben. Dieser Verlust kann bei später steigenden Börsenkursen nicht mehr wettgemacht werden, da der neue Arbeitgeber keinen 1e-Vorsorgeplan mit ähnlichen Anlagestrategien anbietet.</p><p>Das Vorsorgerecht darf eine doppelte Bestrafung (Stellenverlust und finanzieller Verlust auf das Vorsorgekapital) nicht tolerieren.  Die Gesetzgebung ist entsprechend anzupassen.</p>"
     },
     {
       "type": {
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Gemäss dem Freizügigkeitsgesetz (FZG; SR 831.42) müssen alle Arbeitnehmenden bei einem Stellenwechsel ihre Austrittsleistung in die Vorsorgeeinrichtung des neuen Arbeitgebers einbringen. Denn nur mit der vollständigen Übertragung der Austrittsleistung kann sichergestellt werden, dass der Vorsorgeschutz weiter aufgebaut wird, insbesondere auch der Schutz gegen die Risiken Tod und Invalidität.</p><p>Auf den 1. Oktober 2017 wurde das Freizügigkeitsgesetz geändert. Von Personen, die in \"1e-Plänen\" versichert sind, wird seither mehr Eigenverantwortung verlangt. Sie können entsprechend ihrer persönlichen Risikofähigkeit unterschiedlich riskante Anlagestrategien wählen, wobei die Vorsorgeeinrichtung ihnen mindestens eine Anlagestrategie mit risikoarmen Anlagen anbieten muss. 1e-Pläne ermöglichen es den versicherten Personen grundsätzlich, höhere Renditen zu erzielen. Im Gegenzug müssen sie aber auch die negativen Konsequenzen ihrer Anlagestrategie selber tragen. Die Möglichkeit eines Stellenwechsels sollte bei der Auswahl der Anlagestrategie berücksichtigt werden.</p><p>Die Strategiewahl darf keine negativen Auswirkungen auf die Vorsorgeeinrichtung eines neuen Arbeitgebers haben. Mit der vorliegenden Motion würde die explizit gewollte Eigenverantwortung jedoch reduziert: Gemäss Bundesgesetz über die berufliche Alters-, Hinterlassenen- und Invalidenvorsorge (BVG; SR 831.40) bilden alle Arbeitnehmenden eines Arbeitgebers ein Kollektiv, das zu den gleichen Rahmenbedingungen zu versichern ist. Diese Gleichbehandlung des Kollektivs würde verletzt, wenn nicht alle Versicherten ihre Austrittsleistung in ihre Vorsorgeeinrichtung einbringen müssen. Das hätte insbesondere dann Konsequenzen, wenn sich die neue Vorsorgeeinrichtung in Unterdeckung befindet: Müssten einzelne Eintretende ihre Austrittsleistung nicht in ihre neue Vorsorgeeinrichtung einbringen, würden diese dadurch privilegiert, denn ihre Austrittsleistungen müssten die Unterdeckung nicht mittragen. Bei einer allfälligen Teilliquidation hätten die Personen, die ihre Austrittsleistung nicht eingebracht haben, den Vorteil, dass ihre Guthaben nicht von der Unterdeckung betroffen wären, während alle anderen Versicherten, auch neu eingetretene, Kürzungen auf ihren Austrittsleistungen erleiden würden. Durch das Wahlrecht Einzelner würde sich die Unterdeckung auf die Guthaben der anderen Versicherten konzentrieren und würde so für sie verschärft.</p><p>Die Situation beim Austritt aus einem 1e-Plan unterscheidet sich zudem nicht grundlegend von der Situation bei Personen, die, zum Beispiel aufgrund von Arbeitslosigkeit oder Mutterschaft, ihre Austrittsleistung für eine gewisse Zeit auf ein Freizügigkeitskonto überweisen müssen und dort eine Lösung mit grossem Aktienanteil wählen. Müssen sie das Freizügigkeitskonto aufgrund einer Neuanstellung während einer Baisse auflösen, erleiden auch sie einen Verlust.</p><p>Die vorliegende Motion ist identisch mit der abgeschriebenen Motion Weibel, Schutz des Vorsorgekapitals beim Austritt aus einem 1e-Vorsorgeplan (19.3769), bei welcher der Bundesrat ebenfalls die Ablehnung beantragt hat.</p>"
+      "value": "<p>Gemäss dem Freizügigkeitsgesetz (FZG; SR 831.42) müssen alle Arbeitnehmenden bei einem Stellenwechsel ihre Austrittsleistung in die Vorsorgeeinrichtung des neuen Arbeitgebers einbringen. Denn nur mit der vollständigen Übertragung der Austrittsleistung kann sichergestellt werden, dass der Vorsorgeschutz weiter aufgebaut wird, insbesondere auch der Schutz gegen die Risiken Tod und Invalidität.</p><p>Auf den 1. Oktober 2017 wurde das Freizügigkeitsgesetz geändert. Von Personen, die in \"1e-Plänen\" versichert sind, wird seither mehr Eigenverantwortung verlangt. Sie können entsprechend ihrer persönlichen Risikofähigkeit unterschiedlich riskante Anlagestrategien wählen, wobei die Vorsorgeeinrichtung ihnen mindestens eine Anlagestrategie mit risikoarmen Anlagen anbieten muss. 1e-Pläne ermöglichen es den versicherten Personen grundsätzlich, höhere Renditen zu erzielen. Im Gegenzug müssen sie aber auch die negativen Konsequenzen ihrer Anlagestrategie selber tragen. Die Möglichkeit eines Stellenwechsels sollte bei der Auswahl der Anlagestrategie berücksichtigt werden.</p><p>Die Strategiewahl darf keine negativen Auswirkungen auf die Vorsorgeeinrichtung eines neuen Arbeitgebers haben. Mit der vorliegenden Motion würde die explizit gewollte Eigenverantwortung jedoch reduziert: Gemäss Bundesgesetz über die berufliche Alters-, Hinterlassenen- und Invalidenvorsorge (BVG; SR 831.40) bilden alle Arbeitnehmenden eines Arbeitgebers ein Kollektiv, das zu den gleichen Rahmenbedingungen zu versichern ist. Diese Gleichbehandlung des Kollektivs würde verletzt, wenn nicht alle Versicherten ihre Austrittsleistung in ihre Vorsorgeeinrichtung einbringen müssen. Das hätte insbesondere dann Konsequenzen, wenn sich die neue Vorsorgeeinrichtung in Unterdeckung befindet: Müssten einzelne Eintretende ihre Austrittsleistung nicht in ihre neue Vorsorgeeinrichtung einbringen, würden diese dadurch privilegiert, denn ihre Austrittsleistungen müssten die Unterdeckung nicht mittragen. Bei einer allfälligen Teilliquidation hätten die Personen, die ihre Austrittsleistung nicht eingebracht haben, den Vorteil, dass ihre Guthaben nicht von der Unterdeckung betroffen wären, während alle anderen Versicherten, auch neu eingetretene, Kürzungen auf ihren Austrittsleistungen erleiden würden. Durch das Wahlrecht Einzelner würde sich die Unterdeckung auf die Guthaben der anderen Versicherten konzentrieren und würde so für sie verschärft.</p><p>Die Situation beim Austritt aus einem 1e-Plan unterscheidet sich zudem nicht grundlegend von der Situation bei Personen, die, zum Beispiel aufgrund von Arbeitslosigkeit oder Mutterschaft, ihre Austrittsleistung für eine gewisse Zeit auf ein Freizügigkeitskonto überweisen müssen und dort eine Lösung mit grossem Aktienanteil wählen. Müssen sie das Freizügigkeitskonto aufgrund einer Neuanstellung während einer Baisse auflösen, erleiden auch sie einen Verlust.</p><p>Die vorliegende Motion ist identisch mit der abgeschriebenen Motion Weibel, Schutz des Vorsorgekapitals beim Austritt aus einem 1e-Vorsorgeplan (19.3769), bei welcher der Bundesrat ebenfalls die Ablehnung beantragt hat.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Der Bundesrat wird eingeladen, eine Vorlage auszuarbeiten, um das Freizügigkeitsgesetz (FZG) dahingehend zu ändern, dass beim Stellenwechsel von einem Arbeitgeber mit einem 1e-Vorsorgeplan zu einem Arbeitgeber ohne 1e-Vorsorgeplan ein zwangsweiser Verlust auf der Freizügigkeitsleistung verhindert werden kann. Durch eine Änderung des FZG sollte dem Arbeitnehmer die Möglichkeit geboten werden, bei Austritt aus einem 1e-Vorsorgeplan sein entsprechendes Vorsorgeguthaben bis zu zwei Jahren auf einer Freizügigkeitseinrichtung zu belassen. Der betroffene Arbeitnehmer hätte so die Möglichkeit, einen im Austrittszeitpunkt aus der Pensionskasse des alten Arbeitgebers realisierten Verlust durch Einbringen in eine Anlagestrategie mit ähnlichem Aktienanteil bei einer Freizügigkeitseinrichtung bei steigenden Kursen wieder wettzumachen. In der Folge könnte der Arbeitnehmer während zwei Jahren selbst den Verkaufszeitpunkt seines Vorsorgeguthabens und dessen Einbringung in die Pensionskasse des neuen Arbeitgebers bestimmen.</p>"
+      "value": "<p>Der Bundesrat wird eingeladen, eine Vorlage auszuarbeiten, um das Freizügigkeitsgesetz (FZG) dahingehend zu ändern, dass beim Stellenwechsel von einem Arbeitgeber mit einem 1e-Vorsorgeplan zu einem Arbeitgeber ohne 1e-Vorsorgeplan ein zwangsweiser Verlust auf der Freizügigkeitsleistung verhindert werden kann. Durch eine Änderung des FZG sollte dem Arbeitnehmer die Möglichkeit geboten werden, bei Austritt aus einem 1e-Vorsorgeplan sein entsprechendes Vorsorgeguthaben bis zu zwei Jahren auf einer Freizügigkeitseinrichtung zu belassen. Der betroffene Arbeitnehmer hätte so die Möglichkeit, einen im Austrittszeitpunkt aus der Pensionskasse des alten Arbeitgebers realisierten Verlust durch Einbringen in eine Anlagestrategie mit ähnlichem Aktienanteil bei einer Freizügigkeitseinrichtung bei steigenden Kursen wieder wettzumachen. In der Folge könnte der Arbeitnehmer während zwei Jahren selbst den Verkaufszeitpunkt seines Vorsorgeguthabens und dessen Einbringung in die Pensionskasse des neuen Arbeitgebers bestimmen.&nbsp;</p>"
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20210319,
-  "updated": "2023-01-11T09:19:20Z",
+  "updated": "2026-05-20T01:55:00Z",
   "additionalIndexing": "2841",
   "affairType": {
     "abbreviation": "Iv. ct.",
@@ -41,6 +41,21 @@
             "date": "2022-12-08T00:00:00Z",
             "text": "Refusé de donner suite",
             "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-03-05T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
           }
         ]
       },
@@ -53,10 +68,55 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-31T09:00:11Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3121,
+                    "gender": "m",
+                    "id": 4220,
+                    "name": "Roduit Benjamin",
+                    "officialDenomination": "Roduit"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe M-E",
+                    "id": 3,
+                    "name": "Le Groupe du Centre. Le Centre. PEV."
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CSSS-CN",
             "id": 6,
             "name": "Commission de la sécurité sociale et de la santé publique CN",
-            "abbreviation1": "CSSS-CN",
+            "abbreviation1": "CSSS-N",
             "abbreviation2": "CSSS",
             "committeeNumber": 6,
             "council": {
@@ -70,14 +130,15 @@
           "date": "2021-09-22T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "CSSS-CE",
             "id": 19,
             "name": "Commission de la sécurité sociale et de la santé publique CE",
-            "abbreviation1": "CSSS-CE",
+            "abbreviation1": "CSSS-E",
             "abbreviation2": "CSSS",
             "committeeNumber": 19,
             "council": {
@@ -116,7 +177,8 @@
               ],
               "sessionId": "5117"
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
@@ -127,7 +189,7 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -138,8 +200,23 @@
         },
         {
           "date": "/Date(1670454000000+0100)/",
-          "id": 29,
-          "name": "Examen préalable par le Conseil des Etats"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1693519200000+0200)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1698271200000+0200)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1709593200000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -172,8 +249,8 @@
   ],
   "shortId": "21.319",
   "state": {
-    "id": 29,
-    "name": "Examen préalable par le Conseil des Etats",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
@@ -183,14 +260,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Nous débuterons par une question à laquelle une réponse affirmative nous paraît évidente : les vaccins en temps de pandémie ne relèvent-ils pas du bien commun ?</p><p>En novembre 2020, le G20 promettait de ne reculer \" devant aucun effort pour assurer l'accès abordable et équitable de tous \" aux vaccins, tests et traitements contre la COVID-19. Mais hormis quelques gestes de solidarité interétatiques, il faut bien constater que le nationalisme sanitaire l'emporte encore et toujours très largement.</p><p>Un fonds mis en place en juin 2020 par une organisation internationale (le GAVI) a récolté à ce jour 2 milliards de dons. Il en faudrait approximativement le triple pour permettre l'accès au vaccin à 92 pays à faible et moyen revenu.</p><p>Parallèlement, les pays riches se sont réservé des dizaines de millions de doses. Cette année, ils disposeront de plus de 50 % de la production globale, alors qu'ils n'abritent que 13 % de la population mondiale. Si la Suisse envisage d'immuniser les trois quarts de sa population d'ici l'été, on estime qu'une telle couverture dans les pays les plus pauvres ne sera possible qu'à l'horizon 2024. Pourtant, tout le monde s'accorde à dire que seule une vaccination à l'échelle mondiale est en mesure de maîtriser valablement et durablement la pandémie.</p><p>Pour assurer une meilleure accessibilité aux vaccins, ceux existants et ceux qui viendront, il paraît incontournable que la protection des brevets soit assouplie. Un accord de 1995 de l'OMC prévoit un tel assouplissement en cas d'urgence sanitaire. Mais la procédure est lourde, ce qui a amené des pays comme l'Inde et l'Afrique du Sud, qui connaissent une crise sanitaire d'une ampleur exceptionnelle, à demander la levée des patentes tant que durera la pandémie. Malheureusement, les pays riches, et la Suisse en fait partie, se sont opposés à cette demande, donnant la priorité aux intérêts de leurs champions nationaux pharmaceutiques.</p><p>Nous estimons pour notre part que l'urgence de la lutte contre la COVID-19 n'est pas compatible avec la recherche de profits exagérés. Cette suspension temporaire de la propriété intellectuelle est donc totalement justifiée.</p>"
+      "value": "<p>Nous débuterons par une question à laquelle une réponse affirmative nous paraît évidente : les vaccins en temps de pandémie ne relèvent-ils pas du bien commun ?</p><p>En novembre 2020, le G20 promettait de ne reculer \" devant aucun effort pour assurer l'accès abordable et équitable de tous \" aux vaccins, tests et traitements contre la COVID-19. Mais hormis quelques gestes de solidarité interétatiques, il faut bien constater que le nationalisme sanitaire l'emporte encore et toujours très largement.</p><p>Un fonds mis en place en juin 2020 par une organisation internationale (le GAVI) a récolté à ce jour 2 milliards de dons. Il en faudrait approximativement le triple pour permettre l'accès au vaccin à 92 pays à faible et moyen revenu.</p><p>Parallèlement, les pays riches se sont réservé des dizaines de millions de doses. Cette année, ils disposeront de plus de 50 % de la production globale, alors qu'ils n'abritent que 13 % de la population mondiale. Si la Suisse envisage d'immuniser les trois quarts de sa population d'ici l'été, on estime qu'une telle couverture dans les pays les plus pauvres ne sera possible qu'à l'horizon 2024. Pourtant, tout le monde s'accorde à dire que seule une vaccination à l'échelle mondiale est en mesure de maîtriser valablement et durablement la pandémie.</p><p>Pour assurer une meilleure accessibilité aux vaccins, ceux existants et ceux qui viendront, il paraît incontournable que la protection des brevets soit assouplie. Un accord de 1995 de l'OMC prévoit un tel assouplissement en cas d'urgence sanitaire. Mais la procédure est lourde, ce qui a amené des pays comme l'Inde et l'Afrique du Sud, qui connaissent une crise sanitaire d'une ampleur exceptionnelle, à demander la levée des patentes tant que durera la pandémie. Malheureusement, les pays riches, et la Suisse en fait partie, se sont opposés à cette demande, donnant la priorité aux intérêts de leurs champions nationaux pharmaceutiques.</p><p>Nous estimons pour notre part que l'urgence de la lutte contre la COVID-19 n'est pas compatible avec la recherche de profits exagérés. Cette suspension temporaire de la propriété intellectuelle est donc totalement justifiée.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Conformément à l'article 160, alinéa 1, de la Constitution fédérale, et à l'article 84, lettre o, de la Constitution cantonale, le Parlement fait usage du droit d'initiative du Canton en matière fédérale et demande que la Suisse accorde la priorité à sa tradition humanitaire et exige l'utilisation intensive de la flexibilité prévue par les accords de l'OMC afin de rendre les vaccins anti-covid accessibles à toutes et tous sur notre petite planète.</p>"
+      "value": "<p>Conformément à l'art. 160, al. 1, de la Constitution fédérale, et à l'art. 84, let. o, de la Constitution cantonale, le Parlement fait usage du droit d'initiative du Canton en matière fédérale et demande que la Suisse accorde la priorité à sa tradition humanitaire et exige l'utilisation intensive de la flexibilité prévue par les accords de l'OMC afin de rendre les vaccins anti-covid accessibles à toutes et tous sur notre petite planète.</p>"
     },
     {
       "type": {

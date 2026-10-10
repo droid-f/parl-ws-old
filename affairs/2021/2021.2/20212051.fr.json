@@ -1,13 +1,13 @@
 {
   "id": 20212051,
-  "updated": "2021-11-24T14:22:30Z",
+  "updated": "2026-05-20T02:07:37Z",
   "affairType": {
     "abbreviation": "Pét.",
     "id": 10,
     "name": "Pétition"
   },
   "author": {
-    "external": "Session des femmes 2021",
+    "external": "Frauensession 2021",
     "type": "author"
   },
   "deposit": {
@@ -22,7 +22,46 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CSEC-CN",
+              "id": 5,
+              "name": "Commission de la science, de l'éducation et de la culture CN",
+              "abbreviation1": "CSEC-N",
+              "abbreviation2": "CSEC",
+              "committeeNumber": 5,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Conseil national",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2022-04-28T00:00:00Z",
+            "text": "Donner suite (cf. initiative de commission ou intervention)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2026-03-19T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -34,23 +73,42 @@
       "preConsultations": [
         {
           "committee": {
-            "abbreviation": "CSEC-CN",
-            "id": 5,
-            "name": "Commission de la science, de l'éducation et de la culture CN",
-            "abbreviation1": "CSEC-CN",
-            "abbreviation2": "CSEC",
-            "committeeNumber": 5,
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
             "council": {
-              "abbreviation": "CN",
-              "id": 1,
-              "name": "Conseil national",
-              "type": "N"
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
             },
-            "typeCode": 1
+            "typeCode": 3
           },
-          "date": "2021-10-30T00:00:00Z",
+          "date": "2026-02-17T17:00:56Z",
           "registrations": [
-
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3205,
+                    "gender": "m",
+                    "id": 4309,
+                    "name": "Michel Matthias",
+                    "officialDenomination": "Michel Matthias"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         },
         {
@@ -58,7 +116,7 @@
             "abbreviation": "CSEC-CE",
             "id": 18,
             "name": "Commission de la science, de l'éducation et de la culture CE",
-            "abbreviation1": "CSEC-CE",
+            "abbreviation1": "CSEC-E",
             "abbreviation2": "CSEC",
             "committeeNumber": 18,
             "council": {
@@ -72,7 +130,8 @@
           "date": "2021-10-30T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
@@ -80,17 +139,48 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1635544800000+0200)/",
-          "id": 9,
+          "id": 202,
           "name": "Déposé"
+        },
+        {
+          "date": "/Date(1635631200000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1648764000000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1651183200000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1771282800000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1773874800000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
         }
       ],
       "texts": [
@@ -100,20 +190,24 @@
   ],
   "language": "fr",
   "relatedAffairs": [
-
+    {
+      "id": 20223390,
+      "priorityCode": "N",
+      "shortId": "22.3390"
+    }
   ],
   "roles": [
     {
-      "external": "Session des femmes 2021",
+      "external": "Frauensession 2021",
       "type": "author"
     }
   ],
   "shortId": "21.2051",
   "state": {
-    "id": 9,
-    "name": "Déposé",
+    "id": 208,
+    "name": "En commission du Conseil national",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

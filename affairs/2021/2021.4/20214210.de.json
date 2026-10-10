@@ -1,6 +1,6 @@
 {
   "id": 20214210,
-  "updated": "2023-06-14T07:49:56Z",
+  "updated": "2026-09-24T10:55:05Z",
   "additionalIndexing": "55;2846",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,51 @@
             "date": "2023-06-13T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-03-11T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2026-09-21T00:00:00Z",
+            "text": "Abschreibung im Rahmen eines anderen Geschäfts 26.006",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2026-09-24T00:00:00Z",
+            "text": "Abschreibung im Rahmen eines anderen Geschäfts 26.006",
+            "type": 0
           }
         ]
       },
@@ -68,7 +113,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-20T14:47:02Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3054,
+                    "gender": "m",
+                    "id": 4152,
+                    "name": "Wicki Hans",
+                    "officialDenomination": "Wicki"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-09-30T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-09-30T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +215,38 @@
         },
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1708383600000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1710111600000+0100)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
+        },
+        {
+          "date": "/Date(1774994400000+0200)/",
+          "id": 216,
+          "name": "Abschreibungsantrag liegt vor"
+        },
+        {
+          "date": "/Date(1789941600000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1790200800000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -109,7 +265,11 @@
     }
   ],
   "relatedAffairs": [
-
+    {
+      "id": 20214157,
+      "priorityCode": "N",
+      "shortId": "21.4157"
+    }
   ],
   "roles": [
     {
@@ -201,10 +361,9 @@
   ],
   "shortId": "21.4210",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -220,14 +379,14 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Artikel 60 Absatz 1 des Landwirtschaftsgesetzes (LwG; SR 910.1) schreibt vor, dass jede Person, die Reben neu anpflanzt, eine Bewilligung des Kantons braucht. Durch die Abschaffung der Zehnjahresfrist für die Wiederbepflanzung einer Rebfläche, wie sie in der Weinverordnung festgelegt ist, wäre es nicht mehr möglich, unbewirtschaftete Rebflächen aus dem Rebbaukataster zu streichen. Es ist aber so, dass gemäss Artikel 60 Absatz 5 des LwG der Kanton vorübergehend und regionenweise jegliches Anpflanzen von neuen Reben für die Weinerzeugung verbieten kann, wenn Massnahmen zur Marktentlastung oder zur Umstellung der Rebflächen finanziert werden oder wenn es die Marktlage erfordert. Die Abschaffung der Zehnjahresfrist würde dazu führen, dass diese dem Kanton übertragene Regulierungsmöglichkeit obsolet wird.</p><p>Die Bewilligung für das Anpflanzen von Reben enthält Umweltauflagen, z. B. zum Schutz von Pflanzen und Tieren. Diese Anforderungen werden lokal festgelegt und können von den Kantonen angepasst werden. Die für die Wiederbepflanzung einer Rebfläche auf einem seit mehr als zehn Jahren nicht mehr bewirtschafteten Grundstück benötigte Bewilligung stellt sicher, dass aktualisierte Umwelt- und Bodenschutzanforderungen zur Anwendung kommen.</p><p>Es wäre nicht angemessen, eine Bewilligung ohne die Möglichkeit, sie bei Nichteinhaltung widerrufen zu können, zu erteilen. Die 10-Jahres-Frist für die Wiederbepflanzung mit Reben wurde bereits mit der Verordnung über den Rebbau und den Absatz der Rebbauerzeugnisse (Weinstatut) von 1953 eingeführt und hat sich sowohl in schwierigen als auch in einfacheren Jahren für die Weinwirtschaft bewährt. Sie ist lang genug, um den Weinbäuerinnen und Weinbauern die Möglichkeit zu geben, Investitions- oder Desinvestitionsentscheidungen entsprechend den Marktbedingungen zu treffen. Damit ebnet sie den strukturellen Veränderungen, die für die Weiterentwicklung der Weinwirtschaft notwendig sind, den Weg, ohne dass diese durch den Lagewert (der der Parzelle durch eine Pflanzungsbewilligung zukommt) behindert werden.</p><p>Die vertraglichen Beziehungen zwischen den Grundeigentümerinnen und -eigentümern und den Weinbäuerinnen und -bauern sind verschiedenster Natur und regional geprägt. Möglich sind Pacht, Halbpacht, Teilpacht oder hybride Formen. Regelungen zur Instandhaltung und Erneuerung von Anlagen sind Teil des dispositiven Rechts und können daher vertraglich frei vereinbart werden. Die 10-Jahres-Frist für die Erneuerung ist den Parteien eines bestehenden Vertrags bekannt und dürfte keine Rolle spielen, wenn sich die Frage der Erneuerung einer Rebfläche stellt. Die Europäische Union erteilt Rebpflanzungsrechte. Angesichts ihrer Nachteile erwägt die Europäische Kommission, sie in befristete Bewilligungen zum Anpflanzen von Reben umzuwandeln.</p><p>Angesichts der genannten Elemente ist der Bundesrat der Ansicht, dass die 10-Jahres-Frist für die Erneuerung von Rebflächen den Produzentinnen und Produzenten bereits genügend Flexibilität bietet.</p>"
+      "value": "<p>Artikel 60 Absatz 1 des Landwirtschaftsgesetzes (LwG; SR 910.1) schreibt vor, dass jede Person, die Reben neu anpflanzt, eine Bewilligung des Kantons braucht. Durch die Abschaffung der Zehnjahresfrist für die Wiederbepflanzung einer Rebfläche, wie sie in der Weinverordnung festgelegt ist, wäre es nicht mehr möglich, unbewirtschaftete Rebflächen aus dem Rebbaukataster zu streichen. Es ist aber so, dass gemäss Artikel 60 Absatz 5 des LwG der Kanton vorübergehend und regionenweise jegliches Anpflanzen von neuen Reben für die Weinerzeugung verbieten kann, wenn Massnahmen zur Marktentlastung oder zur Umstellung der Rebflächen finanziert werden oder wenn es die Marktlage erfordert. Die Abschaffung der Zehnjahresfrist würde dazu führen, dass diese dem Kanton übertragene Regulierungsmöglichkeit obsolet wird.</p><p>Die Bewilligung für das Anpflanzen von Reben enthält Umweltauflagen, z. B. zum Schutz von Pflanzen und Tieren. Diese Anforderungen werden lokal festgelegt und können von den Kantonen angepasst werden. Die für die Wiederbepflanzung einer Rebfläche auf einem seit mehr als zehn Jahren nicht mehr bewirtschafteten Grundstück benötigte Bewilligung stellt sicher, dass aktualisierte Umwelt- und Bodenschutzanforderungen zur Anwendung kommen.</p><p>Es wäre nicht angemessen, eine Bewilligung ohne die Möglichkeit, sie bei Nichteinhaltung widerrufen zu können, zu erteilen. Die 10-Jahres-Frist für die Wiederbepflanzung mit Reben wurde bereits mit der Verordnung über den Rebbau und den Absatz der Rebbauerzeugnisse (Weinstatut) von 1953 eingeführt und hat sich sowohl in schwierigen als auch in einfacheren Jahren für die Weinwirtschaft bewährt. Sie ist lang genug, um den Weinbäuerinnen und Weinbauern die Möglichkeit zu geben, Investitions- oder Desinvestitionsentscheidungen entsprechend den Marktbedingungen zu treffen. Damit ebnet sie den strukturellen Veränderungen, die für die Weiterentwicklung der Weinwirtschaft notwendig sind, den Weg, ohne dass diese durch den Lagewert (der der Parzelle durch eine Pflanzungsbewilligung zukommt) behindert werden.</p><p>Die vertraglichen Beziehungen zwischen den Grundeigentümerinnen und -eigentümern und den Weinbäuerinnen und -bauern sind verschiedenster Natur und regional geprägt. Möglich sind Pacht, Halbpacht, Teilpacht oder hybride Formen. Regelungen zur Instandhaltung und Erneuerung von Anlagen sind Teil des dispositiven Rechts und können daher vertraglich frei vereinbart werden. Die 10-Jahres-Frist für die Erneuerung ist den Parteien eines bestehenden Vertrags bekannt und dürfte keine Rolle spielen, wenn sich die Frage der Erneuerung einer Rebfläche stellt. Die Europäische Union erteilt Rebpflanzungsrechte. Angesichts ihrer Nachteile erwägt die Europäische Kommission, sie in befristete Bewilligungen zum Anpflanzen von Reben umzuwandeln.</p><p>Angesichts der genannten Elemente ist der Bundesrat der Ansicht, dass die 10-Jahres-Frist für die Erneuerung von Rebflächen den Produzentinnen und Produzenten bereits genügend Flexibilität bietet.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Der Bundesrat wird beauftragt, die Artikel 3 Absatz 1 Buchstabe a und 5 Absatz 2 der Weinverordnung aufzuheben (SR 916.140). Die 10-Jahresfrist für die Erneuerung von Rebflächen ist zu streichen.</p>"
+      "value": "<p>Der Bundesrat wird beauftragt, die Artikel 3 Absatz 1 Buchstabe a und 5 Absatz 2 der Weinverordnung aufzuheben (SR 916.140). Die 10-Jahresfrist für die Erneuerung von Rebflächen ist zu streichen.</p>"
     },
     {
       "type": {

@@ -1,6 +1,7 @@
 {
   "id": 20230304,
-  "updated": "2023-03-22T06:56:50Z",
+  "updated": "2026-09-15T09:11:46Z",
+  "additionalIndexing": "32;44",
   "affairType": {
     "abbreviation": "Kt. Iv.",
     "id": 3,
@@ -26,7 +27,46 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-05-29T00:00:00Z",
+            "text": "Folge gegeben",
+            "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "WBK-NR",
+              "id": 5,
+              "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
+              "abbreviation1": "WBK-N",
+              "abbreviation2": "WBK",
+              "committeeNumber": 5,
+              "council": {
+                "abbreviation": "NR",
+                "id": 1,
+                "name": "Nationalrat",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2024-11-14T00:00:00Z",
+            "text": "Folge geben",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -36,7 +76,90 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-04-30T19:10:28Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3205,
+                    "gender": "m",
+                    "id": 4309,
+                    "name": "Michel Matthias",
+                    "officialDenomination": "Michel Matthias"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WBK-NR",
+            "id": 5,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
+            "abbreviation1": "WBK-N",
+            "abbreviation2": "WBK",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-10T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "WBK-SR",
+            "id": 18,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
+            "abbreviation1": "WBK-S",
+            "abbreviation2": "WBK",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-10T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
 
@@ -46,14 +169,213 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
+          "leading": false
+        },
+        {
+          "abbreviation": "WBF",
+          "id": 8,
+          "name": "Departement für Wirtschaft, Bildung und Forschung",
           "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1678402800000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1701385200000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1703199600000+0100)/",
+          "id": 225,
+          "name": "Vorprüfung - in Kommission des Ständerates"
+        },
+        {
+          "date": "/Date(1714428000000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1716933600000+0200)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1731538800000+0100)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1734649200000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1782165600000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        }
+      ],
+      "texts": [
+
+      ]
+    },
+    {
+      "consultation": {
+        "resolutions": [
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2026-09-14T00:00:00Z",
+            "text": "Fristverlängerung bis 14. November 2028",
+            "type": 0
+          }
+        ]
+      },
+      "federalCouncilProposal": {
+      },
+      "index": 1,
+      "links": [
+
+      ],
+      "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WBK-SR",
+            "id": 18,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
+            "abbreviation1": "WBK-S",
+            "abbreviation2": "WBK",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-10T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-07-02T14:10:02Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3205,
+                    "gender": "m",
+                    "id": 4309,
+                    "name": "Michel Matthias",
+                    "officialDenomination": "Michel Matthias"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WBK-NR",
+            "id": 5,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
+            "abbreviation1": "WBK-N",
+            "abbreviation2": "WBK",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-03-10T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
+      ],
+      "references": [
+
+      ],
+      "relatedDepartments": [
+        {
+          "abbreviation": "Parl",
+          "id": 1,
+          "name": "Parlament",
+          "leading": false
+        },
+        {
+          "abbreviation": "WBF",
+          "id": 8,
+          "name": "Departement für Wirtschaft, Bildung und Forschung",
+          "leading": true
+        }
+      ],
+      "states": [
+        {
+          "date": "/Date(1731452400000+0100)/",
+          "id": 201,
+          "name": "Angemeldet"
+        },
+        {
+          "date": "/Date(1731538800000+0100)/",
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1734649200000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1788991200000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1789336800000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
         }
       ],
       "texts": [
@@ -86,8 +408,8 @@
   ],
   "shortId": "23.304",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 206,
+    "name": "In Kommission des Ständerats",
     "doneKey": "0",
     "newKey": 0
   },
@@ -97,7 +419,7 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Für den Zugang zu einer Pädagogischen Hochschule braucht es heute grundsätzlich eine gymnasiale Maturität (Art. 24 Abs. 1 HFKG). In Artikel 24 Absatz 2 HFKG erfolgt insofern eine kleine Öffnung bei den Zugangsvoraussetzungen, dass auch Absolventinnen und Absolventen einer Fachmaturität pädagogischer Ausrichtung prüfungsfrei zur Vorstufen- und Primarlehrerausbildung zugelassen werden müssen.</p><p>Eine Zulassung von Absolventinnen und Absolventen einer Berufsmatura ist jedoch nur 'unter bestimmten Voraussetzungen', die der Hochschulrat festsetzt, möglich. Die Berufsmatura ermöglicht somit heute für die Ausbildung zur Primarlehrperson keinen prüfungsfreien Übertritt an eine Pädagogische Hochschule. Es ist eine Aufnahmeprüfung abzulegen. Als Vorbereitung für die Aufnahmeprüfung gibt es aufwändige Vorkurse.</p><p>Diese zusätzliche Hürde für Berufsmaturandinnen und Berufsmaturanden für den Zugang zu einer Pädagogischen Hochschule ist mindestens für die Ausbildung zur Kindergarten- oder Primarlehrperson nicht mehr gerechtfertigt. Damit verkennt man nämlich die zusätzliche wertvolle Erfahrung in einem anderen Beruf, die eine Lehrperson einbringt.</p><p>So kommt es nämlich zu absurden Situationen, in denen ausgebildete Fachpersonen 'Betreuung Kind' mit Berufsmaturität, welche das Entwicklungsspektrum von 1 bis 12 Jahren abdecken, keinen prüfungsfreien Zugang zu einer Pädagogischen Hochschule erhalten, aber ein Maturand mit Schwerpunktfach Physik ohne jegliche soziale bzw. entwicklungs-spezifische Berufserfahrung Zugang erhält.</p><p>Gerade in Zeiten des Mangels an Lehrpersonen sind wir auf einfache Antworten und Beiträge zum Problem angewiesen.</p><p>Mit der Berufsmaturität wollte man für Lernende und junge Berufsleute eine attraktive Perspektive eröffnen und damit auch unser Berufsbildungssystem stärken. Zu dieser Attraktivitätssteigerung soll auch beitragen, dass keine unnötigen und erschwerenden Hürden zu weiterführenden Schulen errichtet werden.</p><p>Weiter ist es nicht gerechtfertigt, dass Absolventinnen und Absolventen einer Berufsmatura den gleichen Vorkurs und die gleiche Aufnahmeprüfung wie Berufsleute ohne Berufsmatura absolvieren müssen. Damit verkennt man, dass mit der Berufsmatura eine erweiterte Allgemeinbildung abgeschlossen wird. Zudem würde so der Fokus der Lehrpersonenausbildung wieder vermehrt praxis- und erfahrungsorientiert ausfallen, statt wissenschaftsorientiert.</p><p>Der Stoff, der in den Vorkursen vermittelt wird, ist weitgehend identisch mit dem Stoff der der Berufsmaturitätsschulen. Es braucht diese Doppelspurigkeit nicht.</p>"
+      "value": "<p>Für den Zugang zu einer Pädagogischen Hochschule braucht es heute grundsätzlich eine gymnasiale Maturität (Art. 24 Abs. 1 HFKG). In Artikel 24 Absatz 2 HFKG erfolgt insofern eine kleine Öffnung bei den Zugangsvoraussetzungen, dass auch Absolventinnen und Absolventen einer Fachmaturität pädagogischer Ausrichtung prüfungsfrei zur Vorstufen- und Primarlehrerausbildung zugelassen werden müssen.</p><p>Eine Zulassung von Absolventinnen und Absolventen einer Berufsmatura ist jedoch nur 'unter bestimmten Voraussetzungen', die der Hochschulrat festsetzt, möglich. Die Berufsmatura ermöglicht somit heute für die Ausbildung zur Primarlehrperson keinen prüfungsfreien Übertritt an eine Pädagogische Hochschule. Es ist eine Aufnahmeprüfung abzulegen. Als Vorbereitung für die Aufnahmeprüfung gibt es aufwändige Vorkurse.</p><p>Diese zusätzliche Hürde für Berufsmaturandinnen und Berufsmaturanden für den Zugang zu einer Pädagogischen Hochschule ist mindestens für die Ausbildung zur Kindergarten- oder Primarlehrperson nicht mehr gerechtfertigt. Damit verkennt man nämlich die zusätzliche wertvolle Erfahrung in einem anderen Beruf, die eine Lehrperson einbringt.</p><p>So kommt es nämlich zu absurden Situationen, in denen ausgebildete Fachpersonen 'Betreuung Kind' mit Berufsmaturität, welche das Entwicklungsspektrum von 1 bis 12 Jahren abdecken, keinen prüfungsfreien Zugang zu einer Pädagogischen Hochschule erhalten, aber ein Maturand mit Schwerpunktfach Physik ohne jegliche soziale bzw. entwicklungs-spezifische Berufserfahrung Zugang erhält.</p><p>Gerade in Zeiten des Mangels an Lehrpersonen sind wir auf einfache Antworten und Beiträge zum Problem angewiesen.</p><p>Mit der Berufsmaturität wollte man für Lernende und junge Berufsleute eine attraktive Perspektive eröffnen und damit auch unser Berufsbildungssystem stärken. Zu dieser Attraktivitätssteigerung soll auch beitragen, dass keine unnötigen und erschwerenden Hürden zu weiterführenden Schulen errichtet werden.</p><p>Weiter ist es nicht gerechtfertigt, dass Absolventinnen und Absolventen einer Berufsmatura den gleichen Vorkurs und die gleiche Aufnahmeprüfung wie Berufsleute ohne Berufsmatura absolvieren müssen. Damit verkennt man, dass mit der Berufsmatura eine erweiterte Allgemeinbildung abgeschlossen wird. Zudem würde so der Fokus der Lehrpersonenausbildung wieder vermehrt praxis- und erfahrungsorientiert ausfallen, statt wissenschaftsorientiert.</p><p>Der Stoff, der in den Vorkursen vermittelt wird, ist weitgehend identisch mit dem Stoff der der Berufsmaturitätsschulen. Es braucht diese Doppelspurigkeit nicht.</p>"
     },
     {
       "type": {
@@ -111,8 +433,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Mit der Berufsmatura prüfungsfrei an die Pädagogischen Hochschulen - eine Antwort auf den Lehrpersonenmangel"
+      "value": "Mit der Berufsmatura prüfungsfrei an die pädagogischen Hochschulen. Eine Antwort auf den Lehrpersonenmangel"
     }
   ],
-  "title": "Mit der Berufsmatura prüfungsfrei an die Pädagogischen Hochschulen - eine Antwort auf den Lehrpersonenmangel"
+  "title": "Mit der Berufsmatura prüfungsfrei an die pädagogischen Hochschulen. Eine Antwort auf den Lehrpersonenmangel"
 }

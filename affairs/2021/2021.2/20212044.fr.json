@@ -1,13 +1,13 @@
 {
   "id": 20212044,
-  "updated": "2022-06-29T11:39:20Z",
+  "updated": "2026-05-20T02:12:56Z",
   "affairType": {
     "abbreviation": "Pét.",
     "id": 10,
     "name": "Pétition"
   },
   "author": {
-    "external": "Session des femmes 2021",
+    "external": "Frauensession 2021",
     "type": "author"
   },
   "deposit": {
@@ -28,6 +28,21 @@
               "name": "Normal"
             },
             "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-06-01T00:00:00Z",
+            "text": "Examiné dans le cadre d’un autre objet",
+            "type": 80
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
               "abbreviation": "CE",
               "id": 2,
               "name": "Conseil des Etats",
@@ -36,6 +51,21 @@
             "date": "2022-06-07T00:00:00Z",
             "text": "Il est pris acte de la pétition selon la discussion de l’objet 18.043 (voir art. 126 al. 2 LParl).",
             "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-03-07T00:00:00Z",
+            "text": "Examiné dans le cadre d’un autre objet",
+            "type": 80
           }
         ]
       },
@@ -51,7 +81,7 @@
             "abbreviation": "CAJ-CN",
             "id": 12,
             "name": "Commission des affaires juridiques CN",
-            "abbreviation1": "CAJ-CN",
+            "abbreviation1": "CAJ-N",
             "abbreviation2": "CAJ",
             "committeeNumber": 12,
             "council": {
@@ -64,7 +94,11 @@
           },
           "date": "2021-10-30T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
           ]
         },
         {
@@ -72,7 +106,7 @@
             "abbreviation": "CAJ-CE",
             "id": 25,
             "name": "Commission des affaires juridiques CE",
-            "abbreviation1": "CAJ-CE",
+            "abbreviation1": "CAJ-E",
             "abbreviation2": "CAJ",
             "committeeNumber": 25,
             "council": {
@@ -112,8 +146,13 @@
         },
         {
           "date": "/Date(1654552800000+0200)/",
-          "id": 3,
-          "name": "Traité par le Conseil des Etats"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1678143600000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -123,18 +162,22 @@
   ],
   "language": "fr",
   "relatedAffairs": [
-
+    {
+      "id": 20180043,
+      "priorityCode": "S",
+      "shortId": "18.043"
+    }
   ],
   "roles": [
     {
-      "external": "Session des femmes 2021",
+      "external": "Frauensession 2021",
       "type": "author"
     }
   ],
   "shortId": "21.2044",
   "state": {
-    "id": 3,
-    "name": "Traité par le Conseil des Etats",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },

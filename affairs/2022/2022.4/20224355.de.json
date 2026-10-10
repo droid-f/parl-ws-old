@@ -1,6 +1,6 @@
 {
   "id": 20224355,
-  "updated": "2022-12-19T10:22:48Z",
+  "updated": "2026-03-12T14:07:32Z",
   "additionalIndexing": "28;04;44;2811;2846;2836",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,17 +41,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-04-15T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2026-03-12T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-02-15T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Ablehnung der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-01-15T17:41:09Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3220,
+                    "gender": "f",
+                    "id": 4325,
+                    "name": "Chassot Isabelle",
+                    "officialDenomination": "Chassot"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WBK-NR",
+            "id": 5,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
+            "abbreviation1": "WBK-N",
+            "abbreviation2": "WBK",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WBK-SR",
+            "id": 18,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
+            "abbreviation1": "WBK-S",
+            "abbreviation2": "WBK",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -67,8 +180,33 @@
       "states": [
         {
           "date": "/Date(1670886000000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1676415600000+0100)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1713132000000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1768431600000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1772146800000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1773270000000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -109,10 +247,10 @@
   ],
   "shortId": "22.4355",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -121,6 +259,13 @@
         "name": "Begründung"
       },
       "value": "<p>Während wir im Jahr 2017 noch vor der demografischen Transition standen, befinden wir uns nun bereits mitten in diesem Prozess. Dieses Jahr ist die Zahl der Beschäftigten und der Unternehmen erstmals seit Beginn der Datenerfassung im Jahr 2011 zurückgegangen. Dies bei historisch tiefer Arbeitslosigkeit. Ende 2021 waren in der Schweiz nahezu 1,7 Millionen Personen älter als 64 Jahre. Gemäss dem Referenzszenario des Bundesamtes für Statistik werden dies Ende 2030 bereits mehr als 2 Millionen sein. In mehr als der Hälfte aller Kantone leben bereits heute mehr Seniorinnen und Senioren (64+) als Jugendliche (&lt;20). Im Jahr 2030 wird dies in 23 Kantonen der Fall sein. Die Schweiz befindet sich aktuell am Anfang einer einschneidenden Veränderung der Bevölkerungsstruktur, die diverse Aspekte unserer Gesellschaft verändern wird. Im Bericht \"Demografischer Wandel in der Schweiz: Handlungsfelder auf Bundesebene\" wurde ein Koordinations- und Handlungsbedarf bei der sektorübergreifenden und transdisziplinären Behandlung des demografischen Wandels und bei der verstärkten Beachtung von Wechselwirkungen zwischen gesellschaftlichem und technologischem Wandel und deren Auswirkungen auf das Verhalten einer älter und vielfältiger werdenden Bevölkerung eruiert. Die demografische Entwicklung ist überdurchschnittlich gut prognostizierbar und quantifizierbar. Gleichzeitig führt sie zu fundamentalen Trendänderungen in den verschiedensten Bereichen. Diese Ausgangslage muss genutzt werden, um eine fundierte Demografiestrategie auf Bundesebene zu entwickeln und die Bedeutung für die zentralen Querschnittsthemen aufzuzeigen: </p><p>1. Langfristige finanzielle Sicherung des Sozialversicherungsnetzes und Aufrechterhaltung des Generationenvertrags; </p><p>2. Erwerbsbeteiligung, Bildung und Fachkräftemangel; </p><p>3. Vereinbarkeit von Arbeit und Privatleben und Betreuungsaufgaben (Care-Arbeit); </p><p>4. Gewährleistung einer ausreichenden und bedürfnisgerechten Funktionalität der Infrastrukturen; </p><p>5. Nutzung natürlicher Ressourcen und Ressourcenverbrauch; </p><p>6. Siedlungsentwicklung und Sicherung des Zugangs zu Wohnraum für alle Bevölkerungsgruppen. </p><p>7. Geopolitische Kräfteverhältnisse, Migration und internationale Zusammenarbeit.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat stimmt der Motionärin zu, dass die Schweiz in einer demographischen Transition steht. Der Bericht \"Demografischer Wandel in der Schweiz: Handlungsfelder auf Bundesebene\" hat dazu beigetragen, die Thematik als ein wichtiges Querschnittsthema zu verankern.</p><p>Das Bundesamt für Statistik (BFS) führt ein umfassendes, regelmässig aktualisiertes Zahlenwerk zu den demografischen Entwicklungen, welches als Grundlage für Arbeiten in der Bundesverwaltung genutzt wird. Die alle 5 Jahre neu aufgelegten \"Schweiz-Szenarien\" geben einen Überblick über die erwartete Bevölkerungsentwicklung in der Schweiz, ergänzt durch Vorausschätzungen zur Entwicklung der Erwerbsbevölkerung und zum Bildungsniveau der Bevölkerung. Das Eidgenössische Departemente für Wirtschaft, Bildung und Forschung (WBF) hat vier Studien erstellt bzw. in Auftrag gegeben, die auf dem Zahlenwerk beruhen. Deren Ergebnisse und der wirtschaftspolitische Handlungsbedarf wurden umfassend als Schwerpunktkapitel im \"Lagebericht zur Schweizer Volkswirtschaft\" behandelt. Ein weiteres Beispiel sind die Verkehrsperspektiven des Eidgenössischen Departement für Umwelt, Verkehr, Energie und Kommunikation (UVEK). In ihrem Bericht \"Zweckmässigkeit der Bevölkerungsszenarien des Bundesamtes für Statistik - Kurzbericht der Geschäftsprüfungskommission des Ständerates\" vom 27. August 2019 begrüsst die GPK-S, dass die \"Schweiz-Szenarien\" vom Bundesrat als grundlegendes Planungsinstrument verwendet werden.</p><p>Das Eidgenössische Finanzdepartment (EFD) erstellt regelmässig im Rahmen der Legislaturfinanzplanung die Langfristperspektiven der öffentlichen Finanzen der Schweiz. Diese zeigen die Herausforderungen der Alterung der Gesellschaft auf die öffentlichen Finanzen mittel- bis langfristig auf. Ausserdem laufen gegenwärtig die Arbeiten am Postulatsbericht 20.4257 \"Demografischer Wandel und Zusammenhalt der Schweiz\", welcher auf die kantonalen Unterschiede in der Alterung eingeht. Im Rahmen der laufenden Legislatur sind die langfristigen Folgen der demographischen Entwicklung auf die Generationenbeziehungen sowie auf die verschiedenen Politikbereiche Gegenstand eines Syntheseberichts mit Fokus auf die öffentlichen Finanzen. Die beiden Berichte werden voraussichtlich im Frühjahr 2023 vom Bundesrat verabschiedet.</p><p>In der von der Bundeskanzlei (BK) erstellten Publikation \"Schweiz 2035: Think Tanks beantworten 20 Zukunftsfragen\", die 2022 publiziert wurde, werden ebenfalls Themen mit direktem Bezug zum demografischen Wandel angesprochen, z.B. das Rentenalter, die Entwicklung des Anteils der ausländischen Bevölkerung, der Zusammenhang zwischen Urbanisierung und alternder Gesellschaft. Die Publikation ist das Resultat der Lage- und Umfeldanalyse, die nebst weiteren Arbeiten in der Bundesverwaltung einen Input für die Legislaturplanung darstellt.</p><p>Zurzeit wird die neue Legislaturplanung 2023-2027 erarbeitet. Eine Leitlinie ist dem nationalen und generationengerechten Zusammenhalt gewidmet, worin die Auswirkungen des demografischen Wandels als ein zentrales Querschnittsthema bei der Erarbeitung der Massnahmen aufgenommen werden.</p><p>Der Bundesrat sieht aktuell keinen Nutzen für eine separate Demografiestrategie, sondern bevorzugt eine weiterhin transdisziplinäre Berücksichtigung des demografischen Wandels in allen Politikbereichen des Bundesrates.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20232024,
-  "updated": "2023-06-21T10:18:38Z",
+  "updated": "2026-05-20T01:51:23Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,56 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "UREK-NR",
+              "id": 7,
+              "name": "Kommission für Umwelt, Raumplanung und Energie NR",
+              "abbreviation1": "UREK-N",
+              "abbreviation2": "UREK",
+              "committeeNumber": 7,
+              "council": {
+                "abbreviation": "NR",
+                "id": 1,
+                "name": "Nationalrat",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-08-22T00:00:00Z",
+            "text": "Behandlung im Zusammenhang mit hängigem Beratungsgegenstand (22.025)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "UREK-SR",
+              "id": 20,
+              "name": "Kommission für Umwelt, Raumplanung und Energie SR",
+              "abbreviation1": "UREK-S",
+              "abbreviation2": "UREK",
+              "committeeNumber": 20,
+              "council": {
+                "abbreviation": "SR",
+                "id": 2,
+                "name": "Ständerat",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2023-10-27T00:00:00Z",
+            "text": "Behandlung im Zusammenhang mit hängigem Beratungsgegenstand (22.025)",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -37,7 +86,7 @@
             "abbreviation": "UREK-NR",
             "id": 7,
             "name": "Kommission für Umwelt, Raumplanung und Energie NR",
-            "abbreviation1": "UREK-NR",
+            "abbreviation1": "UREK-N",
             "abbreviation2": "UREK",
             "committeeNumber": 7,
             "council": {
@@ -58,7 +107,7 @@
             "abbreviation": "UREK-SR",
             "id": 20,
             "name": "Kommission für Umwelt, Raumplanung und Energie SR",
-            "abbreviation1": "UREK-SR",
+            "abbreviation1": "UREK-S",
             "abbreviation2": "UREK",
             "committeeNumber": 20,
             "council": {
@@ -83,14 +132,25 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
+          "leading": false
+        },
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
           "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1686520800000+0200)/",
-          "id": 9,
+          "id": 202,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1733094000000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -100,7 +160,11 @@
   ],
   "language": "de",
   "relatedAffairs": [
-
+    {
+      "id": 20220025,
+      "priorityCode": "N",
+      "shortId": "22.025"
+    }
   ],
   "roles": [
     {
@@ -110,10 +174,10 @@
   ],
   "shortId": "23.2024",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

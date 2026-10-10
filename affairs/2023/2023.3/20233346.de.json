@@ -1,6 +1,6 @@
 {
   "id": 20233346,
-  "updated": "2023-03-21T08:53:34Z",
+  "updated": "2026-05-20T21:06:15Z",
   "additionalIndexing": "48",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,193 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 1,
+              "name": "Bekämpft"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-06-16T00:00:00Z",
+            "text": "Bekämpft. Diskussion verschoben",
+            "type": 27
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-11T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-12-19T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-05-10T00:00:00Z",
+        "text": "Der Bundesrat beantragt die Annahme der Motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-30T12:34:13Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3065,
+                    "gender": "m",
+                    "id": 4189,
+                    "name": "Burkart Thierry",
+                    "officialDenomination": "Burkart"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "KVF-SR",
+            "id": 22,
+            "name": "Kommission für Verkehr und Fernmeldewesen SR",
+            "abbreviation1": "KVF-S",
+            "abbreviation2": "KVF",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "KVF-NR",
+            "id": 9,
+            "name": "Kommission für Verkehr und Fernmeldewesen NR",
+            "abbreviation1": "KVF-N",
+            "abbreviation2": "KVF",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1679007600000+0100)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1700607600000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1700694000000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1702940400000+0100)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
+        },
+        {
+          "date": "/Date(1774994400000+0200)/",
+          "id": 215,
+          "name": "Berichterstattung zum Umsetzungsstand des Vorstosses liegt vor"
         }
       ],
       "texts": [
@@ -121,7 +285,7 @@
         "gender": "m",
         "id": 4053,
         "name": "Aeschi Thomas",
-        "officialDenomination": "Aeschi Thomas"
+        "officialDenomination": "Aeschi"
       },
       "type": "cosign"
     },
@@ -361,7 +525,7 @@
         "gender": "f",
         "id": 4234,
         "name": "Schläpfer Therese",
-        "officialDenomination": "Schläpfer"
+        "officialDenomination": "Schläpfer Therese"
       },
       "type": "cosign"
     },
@@ -397,6 +561,46 @@
     },
     {
       "councillor": {
+        "code": 3171,
+        "gender": "m",
+        "id": 4279,
+        "name": "Pointet François",
+        "officialDenomination": "Pointet"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
+        "code": 3173,
+        "gender": "m",
+        "id": 4281,
+        "name": "Pult Jon",
+        "officialDenomination": "Pult"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
+        "code": 3180,
+        "gender": "f",
+        "id": 4288,
+        "name": "Schlatter Marionna",
+        "officialDenomination": "Schlatter"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
+        "code": 3187,
+        "gender": "f",
+        "id": 4295,
+        "name": "Suter Gabriela",
+        "officialDenomination": "Suter"
+      },
+      "type": "controvert"
+    },
+    {
+      "councillor": {
         "code": 3078,
         "gender": "m",
         "id": 4163,
@@ -414,12 +618,33 @@
   ],
   "shortId": "23.3346",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 215,
+    "name": "Berichterstattung zum Umsetzungsstand des Vorstosses liegt vor",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Mit 410 km ist die A1 die längste Autobahn der Schweiz. Sie macht rund einen Fünftel des gesamten Nationalstrassennetzes aus und verbindet die Schweizer Zentren Genf, Bern, Zürich und St. Gallen auf der Ost-West-Achse.</p><p>Die massive und ungebremste Zuwanderung hat dazu geführt, dass das Verkehrsaufkommen auf dieser wichtigen Achse heute um einiges grösser ist als früher. Einige Teilabschnitte wie zwischen Härkingen und Wiggertal wurden folgerichtig bereits auf sechs Spuren ausgebaut. Eine weitere Etappe zwischen Härkingen und Luterbach ist in Planung. Dennoch gehört die A1 heute zu den chronisch überlasteten Strecken des Landes, wie die täglichen Staumeldungen zwischen Baregg und Zürich, bei Lausanne oder zwischen Kirchberg und Bern belegen. </p><p>Die Nutzung dieser wichtigen Verkehrsachse wird in naher Zukunft weiter zunehmen. Es ist daher angebracht, dass der Bundesrat den generellen Ausbau der Autobahn A1 auf sechs Spuren forciert.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "Der Bundesrat beantragt die Annahme der Motion."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p align=\"both\">Der Bundesrat wird beauftragt, die Autobahn A1 auf den Streckenabschnitten Bern-Zürich und Lausanne-Genf auf mindestens sechs Spuren auszubauen.</p>"
+    },
     {
       "type": {
         "id": 1,

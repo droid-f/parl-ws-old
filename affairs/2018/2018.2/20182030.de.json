@@ -1,6 +1,6 @@
 {
   "id": 20182030,
-  "updated": "2021-04-19T09:37:52Z",
+  "updated": "2026-05-20T02:04:56Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-09-17T00:00:00Z",
+            "text": "Der Rat nimmt davon Kenntnis, dass die Kommission im Rahmen des Geschäfts 21.018 auch die Petition 18.2030 behandelt hat (vgl. Art. 126 Abs. 2 ParlG).",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-12-12T00:00:00Z",
+            "text": "Der Rat nimmt davon Kenntnis, dass die Kommission im Rahmen des Geschäfts 21.018 auch die Petition 18.2030 behandelt hat (vgl. Art. 126 Abs. 2 ParlG).",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -37,7 +66,7 @@
             "abbreviation": "SPK-NR",
             "id": 11,
             "name": "Staatspolitische Kommission NR",
-            "abbreviation1": "SPK-NR",
+            "abbreviation1": "SPK-N",
             "abbreviation2": "SPK",
             "committeeNumber": 11,
             "council": {
@@ -58,7 +87,7 @@
             "abbreviation": "APK-SR",
             "id": 17,
             "name": "Aussenpolitische Kommission SR",
-            "abbreviation1": "APK-SR",
+            "abbreviation1": "APK-S",
             "abbreviation2": "APK",
             "committeeNumber": 17,
             "council": {
@@ -74,6 +103,47 @@
             {
               "correspondents": [
 
+              ],
+              "sessionId": "5202"
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-07-17T10:23:56Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3136,
+                    "gender": "m",
+                    "id": 4237,
+                    "name": "Würth Benedikt",
+                    "officialDenomination": "Würth"
+                  },
+                  "language": "de"
+                }
               ]
             }
           ]
@@ -83,13 +153,28 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EDA",
+          "id": 3,
+          "name": "Departement für auswärtige Angelegenheiten",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1543532400000+0100)/",
-          "id": 9,
+          "id": 202,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1729461600000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1733958000000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -109,8 +194,8 @@
   ],
   "shortId": "18.2030",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },

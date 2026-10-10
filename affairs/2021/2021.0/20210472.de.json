@@ -1,6 +1,6 @@
 {
   "id": 20210472,
-  "updated": "2022-01-24T08:57:29Z",
+  "updated": "2026-06-30T09:34:39Z",
   "additionalIndexing": "04;09",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -50,7 +50,7 @@
               "abbreviation": "RK-NR",
               "id": 12,
               "name": "Kommission für Rechtsfragen NR",
-              "abbreviation1": "RK-NR",
+              "abbreviation1": "RK-N",
               "abbreviation2": "RK",
               "committeeNumber": 12,
               "council": {
@@ -63,7 +63,7 @@
             },
             "council": null,
             "date": "2021-10-29T00:00:00Z",
-            "text": "Folge gegeben",
+            "text": "Folge geben (Erstrat)",
             "type": 16
           },
           {
@@ -75,7 +75,7 @@
               "abbreviation": "RK-SR",
               "id": 25,
               "name": "Kommission für Rechtsfragen SR",
-              "abbreviation1": "RK-SR",
+              "abbreviation1": "RK-S",
               "abbreviation2": "RK",
               "committeeNumber": 25,
               "council": {
@@ -90,6 +90,46 @@
             "date": "2022-01-21T00:00:00Z",
             "text": "Zustimmung",
             "type": 3
+          },
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-12-07T00:00:00Z",
+            "text": "Wird übernommen",
+            "type": 90
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-03-15T00:00:00Z",
+            "text": "bis zur Frühjahrssession 2026",
+            "type": 50
+          },
+          {
+            "category": {
+              "id": 4,
+              "name": "Ergänzung"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-03-15T00:00:00Z",
+            "text": "bis zur Frühjahrssession 2026",
+            "type": 0
           }
         ]
       },
@@ -105,7 +145,7 @@
             "abbreviation": "RK-NR",
             "id": 12,
             "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
+            "abbreviation1": "RK-N",
             "abbreviation2": "RK",
             "committeeNumber": 12,
             "council": {
@@ -123,14 +163,15 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -148,17 +189,55 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
-
+        {
+          "date": "/Date(1761865200000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "3465",
+            "source": "BBl 2025 3465",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2025/3465.pdf",
+            "year": "2025"
+          },
+          "type": {
+            "id": 6,
+            "name": "Bericht"
+          }
+        },
+        {
+          "date": "/Date(1768345200000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "106",
+            "source": "BBl 2026 106",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2026/106.pdf",
+            "year": "2026"
+          },
+          "type": {
+            "id": 2,
+            "name": "Stellungnahme des Bundesrates"
+          }
+        }
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlament",
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
           "leading": true
         }
       ],
@@ -170,8 +249,33 @@
         },
         {
           "date": "/Date(1642719600000+0100)/",
-          "id": 1,
-          "name": "Folge gegeben"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1659304800000+0200)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1722463200000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1773183600000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1781474400000+0200)/",
+          "id": 219,
+          "name": "Geplant für die Schlussabstimmung"
+        },
+        {
+          "date": "/Date(1781820000000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -181,7 +285,66 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2026-03-11T00:00:00Z",
+            "text": "Beschluss gemäss Entwurf",
+            "type": 62
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2026-06-15T00:00:00Z",
+            "text": "Zustimmung",
+            "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2026-06-19T00:00:00Z",
+            "text": "Annahme in der Schlussabstimmung",
+            "type": 36
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2026-06-19T00:00:00Z",
+            "text": "Annahme in der Schlussabstimmung",
+            "type": 36
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -193,31 +356,10 @@
       "preConsultations": [
         {
           "committee": {
-            "abbreviation": "RK-NR",
-            "id": 12,
-            "name": "Kommission für Rechtsfragen NR",
-            "abbreviation1": "RK-NR",
-            "abbreviation2": "RK",
-            "committeeNumber": 12,
-            "council": {
-              "abbreviation": "NR",
-              "id": 1,
-              "name": "Nationalrat",
-              "type": "N"
-            },
-            "typeCode": 1
-          },
-          "date": "2021-06-18T00:00:00Z",
-          "registrations": [
-
-          ]
-        },
-        {
-          "committee": {
             "abbreviation": "RK-SR",
             "id": 25,
             "name": "Kommission für Rechtsfragen SR",
-            "abbreviation1": "RK-SR",
+            "abbreviation1": "RK-S",
             "abbreviation2": "RK",
             "committeeNumber": 25,
             "council": {
@@ -231,29 +373,300 @@
           "date": "2021-06-18T00:00:00Z",
           "registrations": [
 
+          ],
+          "treatmentCategory": "IIIb/IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-03-31T14:31:15Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3152,
+                    "gender": "m",
+                    "id": 4260,
+                    "name": "Fivaz Fabien",
+                    "officialDenomination": "Fivaz Fabien"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-18T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IIIb/IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-01-19T09:07:23Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3222,
+                    "gender": "m",
+                    "id": 4327,
+                    "name": "Mahaim Raphaël",
+                    "officialDenomination": "Mahaim"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-01-19T09:07:24Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 10807,
+                    "gender": "m",
+                    "id": 10807,
+                    "name": "Gianini Simone",
+                    "officialDenomination": "Gianini"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
       "references": [
-
+        {
+          "date": "/Date(1761865200000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "3466",
+            "source": "BBl 2025 3466",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2025/3466.pdf",
+            "year": "2025"
+          },
+          "title": "Bundesgesetz über die Rehabilitierung der Freiwilligen in der französischen Résistance und im italienischen Widerstand",
+          "type": {
+            "id": 1,
+            "name": "Beratungsgegenstand / Entwurf"
+          }
+        },
+        {
+          "date": "/Date(1761865200000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "3465",
+            "source": "BBl 2025 3465",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2025/3465.pdf",
+            "year": "2025"
+          },
+          "type": {
+            "id": 6,
+            "name": "Bericht"
+          }
+        },
+        {
+          "date": "/Date(1768345200000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "106",
+            "source": "BBl 2026 106",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2026/106.pdf",
+            "year": "2026"
+          },
+          "type": {
+            "id": 2,
+            "name": "Stellungnahme des Bundesrates"
+          }
+        },
+        {
+          "date": "/Date(1782770400000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "1761",
+            "source": "BBl 2026 1761",
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            },
+            "url": "http://www.admin.ch/opc/de/federal-gazette/2026/1761.pdf",
+            "year": "2026"
+          },
+          "referendumDeadline": "2026-10-08T00:00:00Z",
+          "type": {
+            "id": 3,
+            "name": "Schlussabstimmungstext"
+          }
+        }
       ],
       "relatedDepartments": [
         {
-          "abbreviation": "Parl",
-          "id": 1,
-          "name": "Parlament",
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
           "leading": true
         }
       ],
       "states": [
         {
-          "date": "/Date(1623967200000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "date": "/Date(1732662000000+0100)/",
+          "id": 201,
+          "name": "Angemeldet"
+        },
+        {
+          "date": "/Date(1732748400000+0100)/",
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1732834800000+0100)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1768777200000+0100)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1772146800000+0100)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1773183600000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1774908000000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1779746400000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1781474400000+0200)/",
+          "id": 219,
+          "name": "Geplant für die Schlussabstimmung"
+        },
+        {
+          "date": "/Date(1781820000000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
-
+        {
+          "type": {
+            "id": 2,
+            "name": "Titel der Vorlage"
+          },
+          "value": "Bundesgesetz über die Rehabilitierung der Freiwilligen in der französischen Résistance und im italienischen Widerstand"
+        }
       ]
     }
   ],
@@ -277,7 +690,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -396,12 +809,22 @@
         "name": "Grüne Fraktion"
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3152,
+        "gender": "m",
+        "id": 4260,
+        "name": "Fivaz Fabien",
+        "officialDenomination": "Fivaz Fabien"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "21.472",
   "state": {
-    "id": 1,
-    "name": "Folge gegeben",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },

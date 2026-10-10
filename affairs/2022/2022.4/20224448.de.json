@@ -1,6 +1,6 @@
 {
   "id": 20224448,
-  "updated": "2023-03-16T14:16:24Z",
+  "updated": "2026-05-20T21:07:57Z",
   "additionalIndexing": "2846;1211",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,36 @@
             "date": "2023-03-16T00:00:00Z",
             "text": "Zuweisung an die zuständige Kommission zur Vorberatung",
             "type": 66
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-28T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-12-12T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
           }
         ]
       },
@@ -68,7 +98,120 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-15T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-15T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2632,
+                    "gender": "m",
+                    "id": 1120,
+                    "name": "Sommaruga Carlo",
+                    "officialDenomination": "Sommaruga Carlo"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion S",
+                    "code": "S",
+                    "id": 2,
+                    "name": "Sozialdemokratische Fraktion"
+                  },
+                  "language": "fr"
+                }
+              ],
+              "sessionId": "5122"
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-27T18:17:33Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3131,
+                    "gender": "m",
+                    "id": 4230,
+                    "name": "Bregy Philipp Matthias",
+                    "officialDenomination": "Bregy"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +232,38 @@
         },
         {
           "date": "/Date(1678921200000+0100)/",
-          "id": 33,
-          "name": "An die Kommission zur Vorberatung zugewiesen"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1694383200000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1698357600000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1701385200000+0100)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1702335600000+0100)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
+        },
+        {
+          "date": "/Date(1774994400000+0200)/",
+          "id": 215,
+          "name": "Berichterstattung zum Umsetzungsstand des Vorstosses liegt vor"
         }
       ],
       "texts": [
@@ -201,8 +374,8 @@
   ],
   "shortId": "22.4448",
   "state": {
-    "id": 33,
-    "name": "An die Kommission zur Vorberatung zugewiesen",
+    "id": 215,
+    "name": "Berichterstattung zum Umsetzungsstand des Vorstosses liegt vor",
     "doneKey": "0",
     "newKey": 0
   },
@@ -212,7 +385,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Der Bundesrat soll beauftragt werden, im Interesse der Mieterschaft und der Vermieterschaft eine Frage zu klären, die sich in absehbarer Zukunft stellen wird. </p><p>Das Mietrecht hält in Art. 269 OR fest, dass ein Mietzins missbräuchlich ist, wenn damit ein übersetzter Ertrag aus der Mietsache erzielt wird oder wenn dieser auf einem offensichtlich übersetzten Kaufpreis beruht. Gemäss Art. 269a OR sind Mietzinse umgekehrt in der Regel unter anderem dann nicht missbräuchlich, wenn diese im Rahmen der orts- oder quartierüblichen Mietzinse liegen (Bst. a) oder durch Kostensteigerungen (z.B. Hypothekarzinserhöhung) oder Mehrleistungen des Vermieters begründet sind (Bst. b). </p><p>Wie der Ertrag auf dem investierten Eigenkapital (Nettorendite) zu ermitteln ist und wann ein Ertrag im Sinne von Artikel 269 OR als übersetzt gilt, ist weder im Gesetz noch in der massgebenden Verordnung festgelegt. Gemäss ständiger Rechtsprechung des Bundesgerichts richtet sich die Nettorendite nach dem aktuellen hypothekarischen Referenzzinssatz, d.h. nach dem seit September 2008 publizierten, volumengewichteten Durchschnittszinssatz der inländischen Hypothekarforderungen, der vierteljährlich durch das Eidgenössische Volkswirtschaftsdepartement erhoben wird (Art. 12a VMWG). </p><p>Seit 1986 galt in der Praxis der Grundsatz, dass ein Ertrag im Sinne von Art. 269 OR zulässig ist, wenn dieser 0,5 Prozent über dem Referenzzins liegt. Mit Urteil vom 26. Oktober<b> </b>2020 (4A_554/2019) nahm das Bundesgericht bei der Berechnung der Nettorendite zwei Praxisänderungen vor: Das investierte Eigenkapital ist neu zu 100 Prozent an die Teuerung anzupassen. Und zweitens darf der Ertrag den<b> </b>Referenzzinssatz neu um 2 Prozent übersteigen, wenn der Referenzzins 2 Prozent oder weniger beträgt. Beim seit 3. März 2020 massgebenden Referenzzins von 1,25 Prozent beträgt die maximal zulässige Nettorendite somit 3,25 Prozent.</p><p>Marktbeobachter gehen aufgrund der generell steigenden Zinsen davon aus, dass 2023 der Referenzzinssatz erstmals seit seiner Einführung im Jahr 2008 ansteigen wird. Für die folgenden Jahre werden weitere Zinsschritte erwartet. </p><p>Bei einem Anstieg des Referenzzinssatzes auf über 2 Prozent wird sich die Frage stellen, ob der bei der Berechnung der Nettorendite gemäss Artikel 269 OR zulässige Zuschlag zum Referenzzins direkt wieder auf 0,5 Prozent zu reduzieren ist. Dies hätte zur Folge, dass die zulässige Nettorendite bei einem Anstieg des Referenzzinssatzes von 2 auf 2,25 Prozent von 4 auf 2,75 Prozent sinken würde. </p><p>Mit Blick auf die Erwägungen im Urteil vom 26. Oktober 2020 ist davon auszugehen, dass das Bundesgericht den für die Berechnung der Nettorendite zulässigen Zuschlag in Schritten<b> </b>reduzieren wird, um Verwerfungen zu vermeiden. Im Interesse der Rechtssicherheit wäre allerdings eine politische Klärung vorzuziehen. Der Bundesrat soll daher beauftragt werden, sich dieser für die Mieterschaft und die Vermieterschaft wichtigen Frage rechtzeitig und vorausschauend anzunehmen und eine Regelung zur zulässigen Nettorendite für<b> </b>Wohn- und Geschäftsliegenschaften vorzulegen. Diese soll den ökonomischen Folgen angemessen Rechnung tragen.<b> </b></p>"
+      "value": "<p>Der Bundesrat soll beauftragt werden, im Interesse der Mieterschaft und der Vermieterschaft eine Frage zu klären, die sich in absehbarer Zukunft stellen wird. </p><p>Das Mietrecht hält in Art. 269 OR fest, dass ein Mietzins missbräuchlich ist, wenn damit ein übersetzter Ertrag aus der Mietsache erzielt wird oder wenn dieser auf einem offensichtlich übersetzten Kaufpreis beruht. Gemäss Art. 269a OR sind Mietzinse umgekehrt in der Regel unter anderem dann nicht missbräuchlich, wenn diese im Rahmen der orts- oder quartierüblichen Mietzinse liegen (Bst. a) oder durch Kostensteigerungen (z.B. Hypothekarzinserhöhung) oder Mehrleistungen des Vermieters begründet sind (Bst. b). </p><p>Wie der Ertrag auf dem investierten Eigenkapital (Nettorendite) zu ermitteln ist und wann ein Ertrag im Sinne von Artikel 269 OR als übersetzt gilt, ist weder im Gesetz noch in der massgebenden Verordnung festgelegt. Gemäss ständiger Rechtsprechung des Bundesgerichts richtet sich die Nettorendite nach dem aktuellen hypothekarischen Referenzzinssatz, d.h. nach dem seit September 2008 publizierten, volumengewichteten Durchschnittszinssatz der inländischen Hypothekarforderungen, der vierteljährlich durch das Eidgenössische Volkswirtschaftsdepartement erhoben wird (Art. 12a VMWG). </p><p>Seit 1986 galt in der Praxis der Grundsatz, dass ein Ertrag im Sinne von Art. 269 OR zulässig ist, wenn dieser 0,5 Prozent über dem Referenzzins liegt. Mit Urteil vom 26. Oktober<b></b>2020 (4A_554/2019) nahm das Bundesgericht bei der Berechnung der Nettorendite zwei Praxisänderungen vor: Das investierte Eigenkapital ist neu zu 100 Prozent an die Teuerung anzupassen. Und zweitens darf der Ertrag den<b></b>Referenzzinssatz neu um 2 Prozent übersteigen, wenn der Referenzzins 2 Prozent oder weniger beträgt. Beim seit 3. März 2020 massgebenden Referenzzins von 1,25 Prozent beträgt die maximal zulässige Nettorendite somit 3,25 Prozent.</p><p>Marktbeobachter gehen aufgrund der generell steigenden Zinsen davon aus, dass 2023 der Referenzzinssatz erstmals seit seiner Einführung im Jahr 2008 ansteigen wird. Für die folgenden Jahre werden weitere Zinsschritte erwartet. </p><p>Bei einem Anstieg des Referenzzinssatzes auf über 2 Prozent wird sich die Frage stellen, ob der bei der Berechnung der Nettorendite gemäss Artikel 269 OR zulässige Zuschlag zum Referenzzins direkt wieder auf 0,5 Prozent zu reduzieren ist. Dies hätte zur Folge, dass die zulässige Nettorendite bei einem Anstieg des Referenzzinssatzes von 2 auf 2,25 Prozent von 4 auf 2,75 Prozent sinken würde. </p><p>Mit Blick auf die Erwägungen im Urteil vom 26. Oktober 2020 ist davon auszugehen, dass das Bundesgericht den für die Berechnung der Nettorendite zulässigen Zuschlag in Schritten<b></b>reduzieren wird, um Verwerfungen zu vermeiden. Im Interesse der Rechtssicherheit wäre allerdings eine politische Klärung vorzuziehen. Der Bundesrat soll daher beauftragt werden, sich dieser für die Mieterschaft und die Vermieterschaft wichtigen Frage rechtzeitig und vorausschauend anzunehmen und eine Regelung zur zulässigen Nettorendite für<b></b>Wohn- und Geschäftsliegenschaften vorzulegen. Diese soll den ökonomischen Folgen angemessen Rechnung tragen.<b></b></p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "Der Bundesrat beantragt die Annahme der Motion."
     },
     {
       "type": {

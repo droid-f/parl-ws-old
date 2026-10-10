@@ -1,6 +1,6 @@
 {
   "id": 20204260,
-  "updated": "2021-03-09T13:34:09Z",
+  "updated": "2026-09-24T12:19:46Z",
   "additionalIndexing": "04;34",
   "affairType": {
     "abbreviation": "Mo.",
@@ -12,7 +12,7 @@
       "abbreviation": "FK-NR",
       "id": 2,
       "name": "Finanzkommission NR",
-      "abbreviation1": "FK-NR",
+      "abbreviation1": "FK-N",
       "abbreviation2": "FK",
       "committeeNumber": 2,
       "council": {
@@ -72,6 +72,36 @@
             "date": "2021-03-08T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2026-09-21T00:00:00Z",
+            "text": "Abschreibung im Rahmen eines anderen Geschäfts 26.006",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2026-09-24T00:00:00Z",
+            "text": "Abschreibung im Rahmen eines anderen Geschäfts 26.006",
+            "type": 0
           }
         ]
       },
@@ -90,7 +120,7 @@
             "abbreviation": "FK-NR",
             "id": 2,
             "name": "Finanzkommission NR",
-            "abbreviation1": "FK-NR",
+            "abbreviation1": "FK-N",
             "abbreviation2": "FK",
             "committeeNumber": 2,
             "council": {
@@ -120,7 +150,7 @@
                     "officialDenomination": "Andrey"
                   },
                   "faction": {
-                    "abbreviation": "G",
+                    "abbreviation": "Fraktion G",
                     "code": "G",
                     "id": 6,
                     "name": "Grüne Fraktion"
@@ -159,7 +189,7 @@
             "abbreviation": "FK-SR",
             "id": 15,
             "name": "Finanzkommission SR",
-            "abbreviation1": "FK-SR",
+            "abbreviation1": "FK-S",
             "abbreviation2": "FK",
             "committeeNumber": 15,
             "council": {
@@ -189,9 +219,9 @@
                     "officialDenomination": "Hegglin Peter"
                   },
                   "faction": {
-                    "abbreviation": "M-E",
+                    "abbreviation": "Fraktion M-E",
                     "code": "M-E",
-                    "id": 139,
+                    "id": 3,
                     "name": "Die Mitte-Fraktion. Die Mitte. EVP."
                   },
                   "language": "de"
@@ -226,8 +256,28 @@
         },
         {
           "date": "/Date(1615158000000+0100)/",
-          "id": 26,
-          "name": "Angenommen"
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
+        },
+        {
+          "date": "/Date(1743544800000+0200)/",
+          "id": 215,
+          "name": "Berichterstattung zum Umsetzungsstand des Vorstosses liegt vor"
+        },
+        {
+          "date": "/Date(1774994400000+0200)/",
+          "id": 216,
+          "name": "Abschreibungsantrag liegt vor"
+        },
+        {
+          "date": "/Date(1789941600000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1790200800000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -235,11 +285,6 @@
       ]
     }
   ],
-  "handling": {
-    "date": "2021-03-08T00:00:00Z",
-    "legislativePeriod": 51,
-    "session": "5108"
-  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -259,7 +304,7 @@
         "abbreviation": "FK-NR",
         "id": 2,
         "name": "Finanzkommission NR",
-        "abbreviation1": "FK-NR",
+        "abbreviation1": "FK-N",
         "abbreviation2": "FK",
         "committeeNumber": 2,
         "council": {
@@ -275,9 +320,9 @@
   ],
   "shortId": "20.4260",
   "state": {
-    "id": 26,
-    "name": "Angenommen",
-    "doneKey": "3",
+    "id": 229,
+    "name": "Erledigt",
+    "doneKey": "0",
     "isMotionInSecondCouncil": true,
     "newKey": 0
   },
@@ -288,6 +333,13 @@
         "name": "Begründung"
       },
       "value": "<p>Die Motion schliesst an die bereits angenommenen, gleichlautenden Motionen 18.4276 und 18.4238 an und erweitert diese.</p><p>Um gleichzeitig dezentrale Autonomie in einzelnen Abteilungen zu wahren und dennoch eine Harmonisierung des Zugangs zu Daten und Prozessen zu ermöglichen, bewährt sich in der Praxis ein zentraler Zusammenzug solcher Schnittstellen. Dabei werden Regeln über die Ausgestaltung organisationsübergreifend verpflichtend vorgegeben und deren Einhaltung überprüft. Die hinter den Schnittstellen befindlichen Systeme gewinnen an Flexibilität, da dort die Anzahl der Vorgaben (Sicherheit, gesetzliche Einschränkungen, etc.) reduziert wird. Der Ansatz erlaubt es auch, alte Systeme (sogenannte Legacy Systeme) hinter den gesicherten Schnittstellen zu integrieren. Vorteile sind erhöhte Flexibilität, vereinfachte Wiederverwendung von Funktionen und besser steuerbarer Ablösungsmöglichkeiten in iterativem Vorgehen - und damit eine Reduktion der Anbieterabhängigkeit.</p><p>Ein moderner \"Daten Hub\" verbessert die Voraussetzungen für E-Government Vorhaben und die Beziehung der Staatsebenen mit der Zivilgesellschaft und den Unternehmen. Er hilft insbesondere auch das \"Once-Only\"-Prinzip zu realisieren, sodass Bürger*innen und Unternehmen bestimmte Standardinformationen den Behörden und Verwaltungen nur einmal mitteilen müssen.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "Der Bundesrat beantragt die Annahme der Motion."
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20233554,
-  "updated": "2023-05-09T15:23:25Z",
+  "updated": "2026-03-18T15:16:06Z",
   "additionalIndexing": "15;1211",
   "affairType": {
     "abbreviation": "Mo.",
@@ -41,29 +41,177 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-09-12T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2026-03-18T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-16T00:00:00Z",
+        "text": "Ablehnung"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-01-27T14:32:40Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3205,
+                    "gender": "m",
+                    "id": 4309,
+                    "name": "Michel Matthias",
+                    "officialDenomination": "Michel Matthias"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "EJPD",
+          "id": 5,
+          "name": "Justiz- und Polizeidepartement",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1683151200000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1726092000000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1727820000000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1765926000000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1769468400000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1772146800000+0100)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1773788400000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -568,7 +716,7 @@
     {
       "councillor": {
         "code": 3228,
-        "gender": "f",
+        "gender": "m",
         "id": 4333,
         "name": "Meier Andreas",
         "officialDenomination": "Meier Andreas"
@@ -594,8 +742,8 @@
   ],
   "shortId": "23.3554",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },
@@ -605,7 +753,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Viele öffentliche und private Unternehmen beauftragen Inkassounternehmen mit der Eintreibung ihrer Forderungen. Obwohl die Kundinnen und Kunden der betreffenden Unternehmen häufig vertraglich nicht an die Inkassounternehmen gebunden sind, blähen diese die Rechnungen Gläubigers automatisch auf und erheben häufig unangemessene oder sogar missbräuchliche Gebühren, ohne zuvor die Grundlage der Forderung zu überprüfen. Aus Angst vor einer Betreibung und unter Druck gesetzt durch Verfahren, die praktisch der Nötigung gleichkommen, begleichen die Schuldnerinnen und Schuldner oft den gesamten Betrag, obwohl dessen Höhe zum Teil unberechtigt ist.</p><p>Um solche Praktiken zu rechtfertigen, berufen sich die Inkassounternehmen auf Artikel 106 OR, der vorsieht, dass die Kosten für das Inkasso einen grösseren Schaden darstellen und auf die Schuldnerin oder den Schuldner überwälzt werden dürfen; dieser Artikel regelt zudem die Voraussetzungen unter denen diese Praxis toleriert werden kann. Wie der Bundesrat in seiner Antwort auf das Postulat Comte (12.3641) feststellte, sollten die Kosten, die dem Gläubiger (oder einem Inkassounternehmen) als Folge des Mahnverfahrens - dessen Gebühr von der Schuldnerin oder vom Schuldner zu tragen ist - entstehen, gemäss Rechtsprechung nur ausnahmsweise als grösserer Schaden verrechnet werden. Konsumentenschutzorganisationen stellen jedoch regelmässig fest, dass dies in der gängigen Praxis der Inkassounternehmen eindeutig nicht der Fall ist.</p><p>Die vorliegende Motion fordert den Bundesrat auf, gesetzgeberisch tätig zu werden und die von Inkassounternehmen einforderbaren Gebühren (in Prozent) zu deckeln, und zwar in Abstufungen, die sich nach der Höhe der Forderungen richten (z. B.: unter 100 Schweizerfranken, 100-300 Franken usw.). Das Rahmenmodell könnte sich an der Praxis des Bundesgerichts in Bezug auf die als Wucher geltenden Zinssätze (+ 15%) orientieren.</p>"
+      "value": "<p>Viele öffentliche und private Unternehmen beauftragen Inkassounternehmen mit der Eintreibung ihrer Forderungen. Obwohl die Kundinnen und Kunden der betreffenden Unternehmen häufig vertraglich nicht an die Inkassounternehmen gebunden sind, blähen diese die Rechnungen Gläubigers automatisch auf und erheben häufig unangemessene oder sogar missbräuchliche Gebühren, ohne zuvor die Grundlage der Forderung zu überprüfen. Aus Angst vor einer Betreibung und unter Druck gesetzt durch Verfahren, die praktisch der Nötigung gleichkommen, begleichen die Schuldnerinnen und Schuldner oft den gesamten Betrag, obwohl dessen Höhe zum Teil unberechtigt ist.</p><p>Um solche Praktiken zu rechtfertigen, berufen sich die Inkassounternehmen auf Artikel 106 OR, der vorsieht, dass die Kosten für das Inkasso einen grösseren Schaden darstellen und auf die Schuldnerin oder den Schuldner überwälzt werden dürfen; dieser Artikel regelt zudem die Voraussetzungen unter denen diese Praxis toleriert werden kann. Wie der Bundesrat in seiner Antwort auf das Postulat Comte (12.3641) feststellte, sollten die Kosten, die dem Gläubiger (oder einem Inkassounternehmen) als Folge des Mahnverfahrens - dessen Gebühr von der Schuldnerin oder vom Schuldner zu tragen ist - entstehen, gemäss Rechtsprechung nur ausnahmsweise als grösserer Schaden verrechnet werden. Konsumentenschutzorganisationen stellen jedoch regelmässig fest, dass dies in der gängigen Praxis der Inkassounternehmen eindeutig nicht der Fall ist.</p><p>Die vorliegende Motion fordert den Bundesrat auf, gesetzgeberisch tätig zu werden und die von Inkassounternehmen einforderbaren Gebühren (in Prozent) zu deckeln, und zwar in Abstufungen, die sich nach der Höhe der Forderungen richten (z. B.: unter 100 Schweizerfranken, 100-300 Franken usw.). Das Rahmenmodell könnte sich an der Praxis des Bundesgerichts in Bezug auf die als Wucher geltenden Zinssätze (+ 15%) orientieren.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Bereits das geltende Recht hält Möglichkeiten bereit, um gegen unangemessene bzw. aggressive Praktiken von Inkassounternehmen vorzugehen. Dies hat der Bundesrat in seinem Bericht «Rahmenbedingungen der Praktiken von Inkassounternehmen» vom 22. März 2017 in Erfüllung des Postulates Comte 12.3641 ausführlich dargelegt und zuletzt in seiner Antwort auf die Interpellation Michaud Gigon 21.4408 «Die Selbstregulierung von Inkassounternehmen unter die Lupe nehmen» bestätigt.</p><p>Im erwähnten Bericht wurde namentlich dargelegt, dass Inkassogebühren nur dann als Verspätungsschaden im Sinne von Artikel 106 Absatz 1 OR (SR 220) geltend gemacht werden können, wenn im Einzelfall effektiv ein Schaden entstanden ist, der den gesetzlichen oder vertraglichen Verzugszins übersteigt und konkret nachgewiesen werden kann. So führt der eigene zeitliche Aufwand der Gläubigerinnen und Gläubiger bzw. der die Forderung übernehmenden Inkassounternehmen regelmässig nicht zu einer unfreiwilligen Vermögensverminderung, die einzelnen Schuldnerinnen und Schuldnern zurechenbar ist. Deshalb liegt kein Schaden im Rechtssinne vor. Auch können die Kosten einer Vertretung nur dann als Schaden geltend gemacht werden, wenn der Beizug externer Personen notwendig und angemessen war. Die Kosten für den Beizug eines Inkassounternehmens können somit nur ausnahmsweise nach den allgemeinen Regeln der Schadensberechnung als ersetzbar gelten.</p><p>Die Motion verlangt eine gesetzliche Regelung zur Begrenzung der Inkassogebühren, abhängig von der Forderungshöhe. Dieses Anliegen scheint allerdings im Widerspruch zum Ziel der Motion zu stehen. Denn mit der verlangten Regelung würden Gebühren, die nach geltendem Recht nicht als Schadensposten zugelassen und somit nicht geschuldet sind, zwar betragsmässig begrenzt, aber im Grundsatz legitimiert. Das ist nach Ansicht des Bundesrates nicht zielführend. Stattdessen sollten vielmehr die bereits bestehenden Regeln und Missbrauchsschranken in der Praxis mit allen zur Verfügung stehenden Mitteln durchgesetzt werden, beispielsweise auch durch Musterklagen, Pilotprozesse oder allenfalls auch Verbandsklagen.&nbsp;</p>"
     },
     {
       "type": {

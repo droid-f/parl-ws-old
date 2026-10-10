@@ -1,6 +1,6 @@
 {
   "id": 20233002,
-  "updated": "2023-03-01T08:36:28Z",
+  "updated": "2026-05-20T21:02:24Z",
   "additionalIndexing": "1236;34;32;09;04",
   "affairType": {
     "abbreviation": "Mo.",
@@ -12,7 +12,7 @@
       "abbreviation": "SiK-SR",
       "id": 21,
       "name": "Sicherheitspolitische Kommission SR",
-      "abbreviation1": "SiK-SR",
+      "abbreviation1": "SiK-S",
       "abbreviation2": "SiK",
       "committeeNumber": 21,
       "council": {
@@ -57,6 +57,21 @@
             "date": "2023-02-28T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-19T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
           }
         ]
       },
@@ -75,7 +90,7 @@
             "abbreviation": "SiK-SR",
             "id": 21,
             "name": "Sicherheitspolitische Kommission SR",
-            "abbreviation1": "SiK-SR",
+            "abbreviation1": "SiK-S",
             "abbreviation2": "SiK",
             "committeeNumber": 21,
             "council": {
@@ -122,7 +137,7 @@
             "abbreviation": "SiK-NR",
             "id": 8,
             "name": "Sicherheitspolitische Kommission NR",
-            "abbreviation1": "SiK-NR",
+            "abbreviation1": "SiK-N",
             "abbreviation2": "SiK",
             "committeeNumber": 8,
             "council": {
@@ -135,7 +150,12 @@
           },
           "date": "2023-01-12T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ],
+              "sessionId": "5122"
+            }
           ]
         }
       ],
@@ -147,6 +167,12 @@
           "abbreviation": "EFD",
           "id": 7,
           "name": "Finanzdepartement",
+          "leading": false
+        },
+        {
+          "abbreviation": "VBS",
+          "id": 6,
+          "name": "Departement für Verteidigung, Bevölkerungsschutz und Sport",
           "leading": true
         }
       ],
@@ -158,8 +184,33 @@
         },
         {
           "date": "/Date(1677538800000+0100)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1686866400000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1687125600000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1694124000000+0200)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1695074400000+0200)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
+        },
+        {
+          "date": "/Date(1774994400000+0200)/",
+          "id": 215,
+          "name": "Berichterstattung zum Umsetzungsstand des Vorstosses liegt vor"
         }
       ],
       "texts": [
@@ -186,7 +237,7 @@
         "abbreviation": "SiK-SR",
         "id": 21,
         "name": "Sicherheitspolitische Kommission SR",
-        "abbreviation1": "SiK-SR",
+        "abbreviation1": "SiK-S",
         "abbreviation2": "SiK",
         "committeeNumber": 21,
         "council": {
@@ -202,19 +253,25 @@
   ],
   "shortId": "23.3002",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 215,
+    "name": "Berichterstattung zum Umsetzungsstand des Vorstosses liegt vor",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
     {
       "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>.</p>"
+    },
+    {
+      "type": {
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Die Stärkung der Sicherheit von digitalen Daten und Informationen ist ein wichtiges Anliegen des Bundesrats. Neben dem Datenschutzgesetz (DSG; SR 235.1) enthält insbesondere das in diesem Jahr in Kraft tretende Informationssicherheitsgesetz (ISG; SR 128) Vorgaben zur Klassifizierung und zur Gewährleistung der Sicherheit von Informationen. Die Vorgaben des ISG verpflichten die Kantone jedoch nur dann, wenn sie klassifizierte Informationen des Bundes bearbeiten oder auf Informatikmittel des Bundes zugreifen - und keine gleichwertigen Vorschriften haben (Artikel 3 ISG). Für Betreiberinnen kritischer Infrastrukturen, die nicht dem Bund zuzurechnen sind, gelten diese Vorgaben des ISG nicht.</p><p>Um den Anliegen der Motion zu entsprechen, ist zu klären, für welche Behörden und Betreiberinnen kritischer Infrastrukturen der Bund die verfassungsrechtliche Kompetenz hat, die geforderten Vorgaben zu erlassen. Der Bundesrat wird dem Parlament für diejenigen Bereiche Vorgaben vorschlagen, in welchen er über die nötigen Kompetenzen verfügt. Für jene Bereiche, in welchen der Bund nicht über die entsprechende Rechtssetzungskompetenz verfügt, wird der Bundesrat Möglichkeiten für das weitere Vorgehen aufzeigen.</p>"
+      "value": "<p>Die Stärkung der Sicherheit von digitalen Daten und Informationen ist ein wichtiges Anliegen des Bundesrats. Neben dem Datenschutzgesetz (DSG; SR 235.1) enthält insbesondere das in diesem Jahr in Kraft tretende Informationssicherheitsgesetz (ISG; SR 128) Vorgaben zur Klassifizierung und zur Gewährleistung der Sicherheit von Informationen. Die Vorgaben des ISG verpflichten die Kantone jedoch nur dann, wenn sie klassifizierte Informationen des Bundes bearbeiten oder auf Informatikmittel des Bundes zugreifen - und keine gleichwertigen Vorschriften haben (Artikel 3 ISG). Für Betreiberinnen kritischer Infrastrukturen, die nicht dem Bund zuzurechnen sind, gelten diese Vorgaben des ISG nicht.</p><p>Um den Anliegen der Motion zu entsprechen, ist zu klären, für welche Behörden und Betreiberinnen kritischer Infrastrukturen der Bund die verfassungsrechtliche Kompetenz hat, die geforderten Vorgaben zu erlassen. Der Bundesrat wird dem Parlament für diejenigen Bereiche Vorgaben vorschlagen, in welchen er über die nötigen Kompetenzen verfügt. Für jene Bereiche, in welchen der Bund nicht über die entsprechende Rechtssetzungskompetenz verfügt, wird der Bundesrat Möglichkeiten für das weitere Vorgehen aufzeigen.</p>  Der Bundesrat beantragt die Annahme der Motion."
     },
     {
       "type": {
@@ -228,8 +285,8 @@
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Mehr Sicherheit bei den wichtigsten digitalen Daten der Schweiz"
+      "value": "Mehr Sicherheit bei den wichtigsten digitalen Daten der Schweiz "
     }
   ],
-  "title": "Mehr Sicherheit bei den wichtigsten digitalen Daten der Schweiz"
+  "title": "Mehr Sicherheit bei den wichtigsten digitalen Daten der Schweiz "
 }

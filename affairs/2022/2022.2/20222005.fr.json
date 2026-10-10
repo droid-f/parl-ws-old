@@ -1,6 +1,6 @@
 {
   "id": 20222005,
-  "updated": "2022-04-13T16:16:08Z",
+  "updated": "2026-05-20T02:14:23Z",
   "affairType": {
     "abbreviation": "Pét.",
     "id": 10,
@@ -22,7 +22,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2022-12-14T00:00:00Z",
+            "text": "Traitement dans le cadre du refus des motions 22.3886 et 22.3887",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2025-03-20T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -37,7 +66,7 @@
             "abbreviation": "CER-CN",
             "id": 10,
             "name": "Commission de l'économie et des redevances CN",
-            "abbreviation1": "CER-CN",
+            "abbreviation1": "CER-N",
             "abbreviation2": "CER",
             "committeeNumber": 10,
             "council": {
@@ -50,7 +79,11 @@
           },
           "date": "2022-04-12T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ]
+            }
           ]
         },
         {
@@ -58,7 +91,7 @@
             "abbreviation": "CER-CE",
             "id": 23,
             "name": "Commission de l'économie et des redevances CE",
-            "abbreviation1": "CER-CE",
+            "abbreviation1": "CER-E",
             "abbreviation2": "CER",
             "committeeNumber": 23,
             "council": {
@@ -80,17 +113,38 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Département de l'économie, de la formation et de la recherche",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1649714400000+0200)/",
-          "id": 9,
+          "id": 202,
           "name": "Déposé"
+        },
+        {
+          "date": "/Date(1698706800000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1738278000000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1742425200000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -100,7 +154,16 @@
   ],
   "language": "fr",
   "relatedAffairs": [
-
+    {
+      "id": 20223886,
+      "priorityCode": "N",
+      "shortId": "22.3886"
+    },
+    {
+      "id": 20223887,
+      "priorityCode": "N",
+      "shortId": "22.3887"
+    }
   ],
   "roles": [
     {
@@ -110,10 +173,10 @@
   ],
   "shortId": "22.2005",
   "state": {
-    "id": 9,
-    "name": "Déposé",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

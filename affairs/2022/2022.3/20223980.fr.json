@@ -1,6 +1,6 @@
 {
   "id": 20223980,
-  "updated": "2022-09-23T07:24:16Z",
+  "updated": "2026-02-20T17:17:33Z",
   "additionalIndexing": "28;44;2811;32",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,167 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-25T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-05-29T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-11-16T00:00:00Z",
+        "text": "Le Conseil fédéral propose de rejeter la motion."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CAJ-CN",
+            "id": 12,
+            "name": "Commission des affaires juridiques CN",
+            "abbreviation1": "CAJ-N",
+            "abbreviation2": "CAJ",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAJ-CE",
+            "id": 25,
+            "name": "Commission des affaires juridiques CE",
+            "abbreviation1": "CAJ-E",
+            "abbreviation2": "CAJ",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-03-19T15:26:58Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2694,
+                    "gender": "m",
+                    "id": 3891,
+                    "name": "Jositsch Daniel",
+                    "officialDenomination": "Jositsch"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1663797600000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1668553200000+0100)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1695592800000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1710802800000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1716933600000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -408,14 +546,24 @@
         "name": "Le Groupe du Centre. Le Centre. PEV."
       },
       "type": "author"
+    },
+    {
+      "councillor": {
+        "code": 3186,
+        "gender": "f",
+        "id": 4294,
+        "name": "Studer Lilian",
+        "officialDenomination": "Studer"
+      },
+      "type": "assuming"
     }
   ],
   "shortId": "22.3980",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -423,22 +571,29 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p  align=\"both\">Des études montrent que 80 à 90 % des personnes exerçant la prostitution cesseraient immédiatement cette activité si elles le pouvaient. La majorité d'entre elles se prostitue par nécessité économique ou sous la contrainte. En particulier, la prostitution est souvent la seule solution qui s'offre aux personnes migrantes pour se nourrir et nourrir leur famille. Les personnes qui souhaiteraient sortir de la prostitution ne peuvent souvent pas le faire car elles ne disposent pas d'autres possibilités de gagner leur vie, leur situation étant encore aggravée par leur statut juridique, leur faible niveau de formation, leur manque de connaissances linguistiques et leur état psychique. </p><p  align=\"both\">Le processus de sortie de la prostitution est forcément long, complexe et individuel. C'est pourquoi il doit pouvoir s'appuyer sur des programmes dont le financement soit assuré à long terme et qui englobent notamment des offres de formation et d'emploi permettant la réorientation professionnelle et l'insertion sociale des personnes concernées. Il est également essentiel de garantir la gestion coordonnée des dossiers et la coopération entre les autorités responsables, les institutions de tous les niveaux, les centres de conseil spécialisés, les responsables des programmes et les organismes de formation dans une atmosphère de confiance.</p>"
+      "value": "<p>Des études montrent que 80 à 90 % des personnes exerçant la prostitution cesseraient immédiatement cette activité si elles le pouvaient. La majorité d'entre elles se prostitue par nécessité économique ou sous la contrainte. En particulier, la prostitution est souvent la seule solution qui s'offre aux personnes migrantes pour se nourrir et nourrir leur famille. Les personnes qui souhaiteraient sortir de la prostitution ne peuvent souvent pas le faire car elles ne disposent pas d'autres possibilités de gagner leur vie, leur situation étant encore aggravée par leur statut juridique, leur faible niveau de formation, leur manque de connaissances linguistiques et leur état psychique.</p><p>Le processus de sortie de la prostitution est forcément long, complexe et individuel. C'est pourquoi il doit pouvoir s'appuyer sur des programmes dont le financement soit assuré à long terme et qui englobent notamment des offres de formation et d'emploi permettant la réorientation professionnelle et l'insertion sociale des personnes concernées. Il est également essentiel de garantir la gestion coordonnée des dossiers et la coopération entre les autorités responsables, les institutions de tous les niveaux, les centres de conseil spécialisés, les responsables des programmes et les organismes de formation dans une atmosphère de confiance.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral partage l'objectif de la motion d'un soutien aux personnes exerçant le travail du sexe qui cherchent à sortir de la prostitution. Il renvoie aussi au rapport détaillé \" Prostitution et traite d'êtres humains à des fins d'exploitation sexuelle \", qu'il a présenté en 2015 en réponse aux postulats 12.4162 Streiff-Feller, 13.3332 Caroni, 13.4033 Feri et 13.4045 Fehr. Ce rapport recommandait notamment de promouvoir les aides permettant de quitter le milieu de la prostitution.</p><p>En Suisse, la réglementation de la prostitution relève cependant en premier lieu de la compétence des cantons. Ce sont eux qui édictent par exemple les directives relatives à la lutte contre la violence à l'égard des personnes exerçant le travail du sexe et sont chargés d'améliorer la situation juridique de ces dernières. Il existe en Suisse divers centres d'accueil et de consultation financés par les cantons et les communes pour les personnes qui exercent le travail du sexe. Ces centres mettent en place des réseaux qui peuvent soutenir les personnes souhaitant sortir de la prostitution. Ils organisent des cours de langue et des formations pour renforcer les compétences dans la recherche d'emploi. Certains de ces centres collaborent avec des employeurs sélectionnés et transmettent des propositions alternatives d'emploi aux personnes actives dans le travail du sexe. En cas de besoin, elles peuvent loger dans des appartements d'urgence qui sont mis à leur disposition. Il existe également des centres de consultation s'adressant spécialement aux sans-papiers, qui sont soutenus en partie par les autorités cantonales.</p><p>Si une personne exerçant le travail du sexe est victime d'une infraction liée au milieu de la prostitution et qu'elle a subi une atteinte directe à son intégrité physique, psychique ou sexuelle, elle a droit aux prestations prévues par la loi sur l'aide aux victimes d'infraction (LAVI, RS 312.5). Les centres de consultation lui fournissent une aide immédiate et à plus long terme si elle en a besoin.</p><p>Comme mentionné dans la réponse à l'interpellation Streiff-Feller 20.4216 \" Les êtres humains ne sont pas des choses. Interdire l'achat de services sexuels en Suisse selon l'exemple nordique \", les possibilités d'intervention de la Confédération sont limitées et concernent la prévention de la criminalité et des maladies sexuellement transmissibles. fedpol peut soutenir financièrement des mesures de prévention en vertu de l'ordonnance sur les mesures de prévention des infractions liées à la prostitution (RS 311.039.4). Il s'agit de mesures prises par des organisations privées ou de droit public pour protéger contre les infractions les personnes exerçant le travail du sexe. fedpol dispose d'un budget annuel de 200 000 francs à cet effet. Les projets soutenus concernent notamment la protection contre les infractions, des cours d'auto-défense, la sensibilisation aux droits et aux obligations des personnes pratiquant le travail du sexe et l'assistance en cas d'urgence.</p><p>D'autres mesures figurent dans le plan d'action national contre la traite des êtres humains, qui comprend aussi le domaine de l'exploitation sexuelle. Les mesures de la Confédération et des cantons portent sur l'amélioration des données, les aides au retour pour les victimes et les brochures d'information relatives aux pays d'origine typiques des victimes. Des formations de base et continue destinées à la police et à la justice en font aussi partie. Bon nombre de ces mesures ont déjà été introduites ou sont en cours de réalisation.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p  align=\"both\">Le Conseil fédéral est chargé de faire en sorte que les personnes qui souhaitent sortir de la prostitution bénéficient, dans toute la Suisse, de programmes et d'offres d'accompagnement adaptés à leurs besoins. Il élaborera dans les plus brefs délais les bases légales nécessaires ainsi qu'une stratégie déclinée en mesures. L'objectif sera de favoriser la réorientation professionnelle et l'insertion sociale des personnes concernées, en leur donnant les moyens de gagner durablement leur vie de manière autonome en dehors de la prostitution. Les cantons, les autorités et les institutions concernées ainsi que les prestataires existants seront associés à la démarche. </p><p  align=\"both\">La stratégie portera en particulier sur les points suivants :</p><p  align=\"both\">1. statut juridique des personnes concernées (titre de séjour, documents d'identité, certificats, etc.) ;</p><p  align=\"both\">2. logement sûr et abordable ;</p><p  align=\"both\">3. traitement et accompagnement psychothérapeutiques ;</p><p  align=\"both\">4. gestion des dossiers ; </p><p  align=\"both\">5. offres de formation permettant l'obtention d'un diplôme reconnu en vue d'une réorientation professionnelle et offres d'emploi permettant la réintégration du marché du travail (y compris cours de langue) ;</p><p  align=\"both\">6. programmes de réintégration et d'accompagnement à long terme dans le pays d'origine ; </p><p  align=\"both\">7. création d'un réseau de spécialistes et de services sensibilisés à la question ; </p><p  align=\"both\">8. mise en réseau des offres et collaboration des acteurs à tous les niveaux ;</p><p  align=\"both\">9. financement à long terme des programmes de sortie de la prostitution et des offres d'accompagnement, promotion des programmes et offres existants ; </p><p  align=\"both\">10. information et sensibilisation des personnes concernées.</p>"
+      "value": "<p>Le Conseil fédéral est chargé de faire en sorte que les personnes qui souhaitent sortir de la prostitution bénéficient, dans toute la Suisse, de programmes et d'offres d'accompagnement adaptés à leurs besoins. Il élaborera dans les plus brefs délais les bases légales nécessaires ainsi qu'une stratégie déclinée en mesures. L'objectif sera de favoriser la réorientation professionnelle et l'insertion sociale des personnes concernées, en leur donnant les moyens de gagner durablement leur vie de manière autonome en dehors de la prostitution. Les cantons, les autorités et les institutions concernées ainsi que les prestataires existants seront associés à la démarche.</p><p>La stratégie portera en particulier sur les points suivants :</p><p>1. statut juridique des personnes concernées (titre de séjour, documents d'identité, certificats, etc.) ;</p><p>2. logement sûr et abordable ;</p><p>3. traitement et accompagnement psychothérapeutiques ;</p><p>4. gestion des dossiers ;</p><p>5. offres de formation permettant l'obtention d'un diplôme reconnu en vue d'une réorientation professionnelle et offres d'emploi permettant la réintégration du marché du travail (y compris cours de langue) ;</p><p>6. programmes de réintégration et d'accompagnement à long terme dans le pays d'origine ;</p><p>7. création d'un réseau de spécialistes et de services sensibilisés à la question ;</p><p>8. mise en réseau des offres et collaboration des acteurs à tous les niveaux ;</p><p>9. financement à long terme des programmes de sortie de la prostitution et des offres d'accompagnement, promotion des programmes et offres existants ;</p><p>10. information et sensibilisation des personnes concernées.</p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Des programmes efficaces pour favoriser la réorientation professionnelle et l’insertion sociale des personnes souhaitant sortir de la prostitution"
+      "value": "Des programmes efficaces pour favoriser la réorientation professionnelle et l'insertion sociale des personnes souhaitant sortir de la prostitution"
     }
   ],
-  "title": "Des programmes efficaces pour favoriser la réorientation professionnelle et l’insertion sociale des personnes souhaitant sortir de la prostitution"
+  "title": "Des programmes efficaces pour favoriser la réorientation professionnelle et l'insertion sociale des personnes souhaitant sortir de la prostitution"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20210319,
-  "updated": "2023-01-11T09:19:20Z",
+  "updated": "2026-05-20T01:55:00Z",
   "additionalIndexing": "2841",
   "affairType": {
     "abbreviation": "Kt. Iv.",
@@ -41,6 +41,21 @@
             "date": "2022-12-08T00:00:00Z",
             "text": "Keine Folge gegeben",
             "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2024-03-05T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
           }
         ]
       },
@@ -53,10 +68,56 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-10-31T09:00:11Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3121,
+                    "gender": "m",
+                    "id": 4220,
+                    "name": "Roduit Benjamin",
+                    "officialDenomination": "Roduit"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "SGK-NR",
             "id": 6,
             "name": "Kommission für soziale Sicherheit und Gesundheit NR",
-            "abbreviation1": "SGK-NR",
+            "abbreviation1": "SGK-N",
             "abbreviation2": "SGK",
             "committeeNumber": 6,
             "council": {
@@ -70,14 +131,15 @@
           "date": "2021-09-22T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "SGK-SR",
             "id": 19,
             "name": "Kommission für soziale Sicherheit und Gesundheit SR",
-            "abbreviation1": "SGK-SR",
+            "abbreviation1": "SGK-S",
             "abbreviation2": "SGK",
             "committeeNumber": 19,
             "council": {
@@ -117,7 +179,8 @@
               ],
               "sessionId": "5117"
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
@@ -128,7 +191,7 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -139,8 +202,23 @@
         },
         {
           "date": "/Date(1670454000000+0100)/",
-          "id": 29,
-          "name": "Vorprüfung - Behandelt vom Ständerat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1693519200000+0200)/",
+          "id": 223,
+          "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1698271200000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1709593200000+0100)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -173,8 +251,8 @@
   ],
   "shortId": "21.319",
   "state": {
-    "id": 29,
-    "name": "Vorprüfung - Behandelt vom Ständerat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },
@@ -191,7 +269,7 @@
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Gestützt auf Artikel 160 Absatz 1 der Bundesverfassung und Artikel 84 Buchstabe o der Verfassung des Kantons Jura nimmt das Parlament des Kantons Jura sein Initiativrecht auf Bundesebene wahr und verlangt, dass die Schweiz ihrer humanitären Tradition Vorrang einräumt und darauf pocht, dass von der in den WTO-Abkommen vorgesehenen Flexibilität verstärkt Gebrauch gemacht wird, damit die Covid-19-Impfstoffe weltweit allen zugänglich sind.</p>"
+      "value": "<p>Gestützt auf Artikel 160 Absatz 1 der Bundesverfassung und Artikel 84 Buchstabe o der Verfassung des Kantons Jura nimmt das Parlament des Kantons Jura sein Initiativrecht auf Bundesebene wahr und verlangt, dass die Schweiz ihrer humanitären Tradition Vorrang einräumt und darauf pocht, dass von der in den WTO-Abkommen vorgesehenen Flexibilität verstärkt Gebrauch gemacht wird, damit die Covid-19-Impfstoffe weltweit allen zugänglich sind.</p>"
     },
     {
       "type": {

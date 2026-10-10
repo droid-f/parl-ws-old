@@ -1,6 +1,6 @@
 {
   "id": 20214214,
-  "updated": "2023-06-14T07:50:14Z",
+  "updated": "2026-06-09T15:40:45Z",
   "additionalIndexing": "36;10",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2023-06-13T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2026-06-09T00:00:00Z",
+            "text": "Ablehnung",
+            "type": 22
           }
         ]
       },
@@ -68,7 +83,93 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WBK-NR",
+            "id": 5,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
+            "abbreviation1": "WBK-N",
+            "abbreviation2": "WBK",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-09-30T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WBK-SR",
+            "id": 18,
+            "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
+            "abbreviation1": "WBK-S",
+            "abbreviation2": "WBK",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-09-30T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-05-05T15:20:04Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3205,
+                    "gender": "m",
+                    "id": 4309,
+                    "name": "Michel Matthias",
+                    "officialDenomination": "Michel Matthias"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +190,28 @@
         },
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1701385200000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
+        },
+        {
+          "date": "/Date(1777932000000+0200)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1779746400000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1780956000000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -291,10 +412,9 @@
   ],
   "shortId": "21.4214",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -310,7 +430,7 @@
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Die Schweiz gilt beim Horizon-Paket 2021-2027 (Horizon Europe, Euratom-Programm, Forschungsinfrastruktur ITER und Digital Europe Programm) zurzeit als nicht assoziiertes Drittland. Rund zwei Drittel der Massnahmen (namentlich die meisten Verbundprojekte) sind für Schweizer Akteure aus Forschung und Innovation trotzdem zugänglich, allerdings ohne Finanzierung seitens EU. An Ausschreibungen für Einzelprojekte, bspw. für Stipendien des European Research Council ERC und des European Innovation Council EIC sowie für gewisse Marie Sklodowska-Curie Aktionen MSCA, haben Schweizer Forschende im Jahr 2021 keinen Zugang mehr.</p><p>Eine möglichst zeitnahe Assoziierung am Horizon-Paket bleibt das erklärte Ziel des Bundesrates. Um die Auswirkungen der aktuellen Situation abzufedern, hat er am 17. September und am 20. Oktober 2021 Übergangsmassnahmen beschlossen. Dazu gehören die direkte Finanzierung der Schweizer Teilnahmen an den Projekten des Horizon-Paketes durch den Bund (WBF/SBFI) sowie zusätzliche Angebote bei Institutionen wie SNF und Innosuisse als Ersatz für nicht mehr zugängliche Programmteile. Diese Übergangsmassnahmen werden mit den Mitteln finanziert, die für die Schweizer Teilnahme am Horizon-Paket bewilligt wurden. Gewisse Massnahmen werden dem Parlament für Kreditverschiebungen mit einer Nachmeldung zum Voranschlag 2022 in der Wintersession 2021 unterbreitet.</p><p>Die Bereiche Quantenforschung und Raumfahrt sind aktuell nur sehr eingeschränkt zugänglich. Da es sich um sogenannte strategische Ausschlüsse der EU gegenüber Drittstaaten handelt, wäre eine Teilnahme selbst im Falle einer Assoziierung an das Horizon-Paket fraglich. Im Bereich Quantum sind kurzfristige Übergangsmassnahmen nicht möglich. Im Bereich Raumfahrt ist als Übergangsmassnahme eine verstärkte Teilnahme der Schweizer Akteure an den Programmen der Europäischen Weltraumorganisation ESA vorgesehen. Um dem voraussichtlichen Ausschluss von Schweizer Forschenden an einem grossen Teil der Ausschreibungen des Digital Europe Program (DEP) entgegenzuwirken, hat der Bundesrat im strategisch wichtigen Bereich des Hochleistungsrechnens Übergangsmassnahmen beschlossen. Um die fehlenden Teilnahmemöglichkeiten für KMU abzufedern, wird die Innosuisse im Rahmen der Übergangsmassnahmen gestärkt.</p><p>Die Übergangsmassnahmen bieten somit kurzfristige Lösungen an, um den Übergang bis zu einer Assoziierung möglichst reibungslos zu gestalten.</p><p>In einer längerfristigen Perspektive hat der Bundesrat das WBF in Zusammenarbeit mit dem EFD beauftragt, Ergänzungs- und Ersatzmassnahmen zur Stärkung des Schweizer Forschungs- und Innovationsstandortes zu prüfen.</p><p>Diese Massnahmen würden dazu dienen, die Schweizer Position im F&amp;I-Bereich weiter zu stärken, wobei auch Forschungsbereiche geprüft werden, in denen die Schweiz über einzigartige Expertise verfügt, wie in der Quantenforschung und Raumfahrt. Ersatzmassnahmen würden greifen, falls langfristig keine Assoziierung möglich wäre. Die Ergebnisse dieser Prüfaufträge werden Mitte 2022 für mögliche Ergänzungsmassnahmen bzw. im Verlauf des Jahres 2023 für allfällige Ersatzmassnahmen vorliegen. Der Bundesrat wird das Parlament über die Ergebnisse und das weitere Vorgehen informieren. Den Anliegen der Motion wird damit bereits Rechnung getragen.</p>"
+      "value": "<p>Die Schweiz gilt beim Horizon-Paket 2021-2027 (Horizon Europe, Euratom-Programm, Forschungsinfrastruktur ITER und Digital Europe Programm) zurzeit als nicht assoziiertes Drittland. Rund zwei Drittel der Massnahmen (namentlich die meisten Verbundprojekte) sind für Schweizer Akteure aus Forschung und Innovation trotzdem zugänglich, allerdings ohne Finanzierung seitens EU. An Ausschreibungen für Einzelprojekte, bspw. für Stipendien des European Research Council ERC und des European Innovation Council EIC sowie für gewisse Marie Sklodowska-Curie Aktionen MSCA, haben Schweizer Forschende im Jahr 2021 keinen Zugang mehr.</p><p>Eine möglichst zeitnahe Assoziierung am Horizon-Paket bleibt das erklärte Ziel des Bundesrates. Um die Auswirkungen der aktuellen Situation abzufedern, hat er am 17. September und am 20. Oktober 2021 Übergangsmassnahmen beschlossen. Dazu gehören die direkte Finanzierung der Schweizer Teilnahmen an den Projekten des Horizon-Paketes durch den Bund (WBF/SBFI) sowie zusätzliche Angebote bei Institutionen wie SNF und Innosuisse als Ersatz für nicht mehr zugängliche Programmteile. Diese Übergangsmassnahmen werden mit den Mitteln finanziert, die für die Schweizer Teilnahme am Horizon-Paket bewilligt wurden. Gewisse Massnahmen werden dem Parlament für Kreditverschiebungen mit einer Nachmeldung zum Voranschlag 2022 in der Wintersession 2021 unterbreitet.</p><p>Die Bereiche Quantenforschung und Raumfahrt sind aktuell nur sehr eingeschränkt zugänglich. Da es sich um sogenannte strategische Ausschlüsse der EU gegenüber Drittstaaten handelt, wäre eine Teilnahme selbst im Falle einer Assoziierung an das Horizon-Paket fraglich. Im Bereich Quantum sind kurzfristige Übergangsmassnahmen nicht möglich. Im Bereich Raumfahrt ist als Übergangsmassnahme eine verstärkte Teilnahme der Schweizer Akteure an den Programmen der Europäischen Weltraumorganisation ESA vorgesehen. Um dem voraussichtlichen Ausschluss von Schweizer Forschenden an einem grossen Teil der Ausschreibungen des Digital Europe Program (DEP) entgegenzuwirken, hat der Bundesrat im strategisch wichtigen Bereich des Hochleistungsrechnens Übergangsmassnahmen beschlossen. Um die fehlenden Teilnahmemöglichkeiten für KMU abzufedern, wird die Innosuisse im Rahmen der Übergangsmassnahmen gestärkt.</p><p>Die Übergangsmassnahmen bieten somit kurzfristige Lösungen an, um den Übergang bis zu einer Assoziierung möglichst reibungslos zu gestalten.</p><p>In einer längerfristigen Perspektive hat der Bundesrat das WBF in Zusammenarbeit mit dem EFD beauftragt, Ergänzungs- und Ersatzmassnahmen zur Stärkung des Schweizer Forschungs- und Innovationsstandortes zu prüfen.</p><p>Diese Massnahmen würden dazu dienen, die Schweizer Position im F&amp;I-Bereich weiter zu stärken, wobei auch Forschungsbereiche geprüft werden, in denen die Schweiz über einzigartige Expertise verfügt, wie in der Quantenforschung und Raumfahrt. Ersatzmassnahmen würden greifen, falls langfristig keine Assoziierung möglich wäre. Die Ergebnisse dieser Prüfaufträge werden Mitte 2022 für mögliche Ergänzungsmassnahmen bzw. im Verlauf des Jahres 2023 für allfällige Ersatzmassnahmen vorliegen. Der Bundesrat wird das Parlament über die Ergebnisse und das weitere Vorgehen informieren. Den Anliegen der Motion wird damit bereits Rechnung getragen.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {

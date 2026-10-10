@@ -1,6 +1,6 @@
 {
   "id": 20220300,
-  "updated": "2023-06-16T07:37:04Z",
+  "updated": "2026-05-20T02:00:47Z",
   "additionalIndexing": "66;52;55",
   "affairType": {
     "abbreviation": "Kt. Iv.",
@@ -32,6 +32,31 @@
               "id": 3,
               "name": "Normal"
             },
+            "committee": {
+              "abbreviation": "UREK-SR",
+              "id": 20,
+              "name": "Kommission für Umwelt, Raumplanung und Energie SR",
+              "abbreviation1": "UREK-S",
+              "abbreviation2": "UREK",
+              "committeeNumber": 20,
+              "council": {
+                "abbreviation": "SR",
+                "id": 2,
+                "name": "Ständerat",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2022-06-23T00:00:00Z",
+            "text": "Folge geben",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
             "council": {
               "abbreviation": "NR",
               "id": 1,
@@ -39,6 +64,46 @@
               "type": "N"
             },
             "date": "2023-06-15T00:00:00Z",
+            "text": "Keine Folge gegeben",
+            "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "UREK-SR",
+              "id": 20,
+              "name": "Kommission für Umwelt, Raumplanung und Energie SR",
+              "abbreviation1": "UREK-S",
+              "abbreviation2": "UREK",
+              "committeeNumber": 20,
+              "council": {
+                "abbreviation": "SR",
+                "id": 2,
+                "name": "Ständerat",
+                "type": "S"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2024-03-21T00:00:00Z",
+            "text": "Keine Folge geben (Differenzbereinigung)",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2024-05-28T00:00:00Z",
             "text": "Keine Folge gegeben",
             "type": 51
           }
@@ -53,10 +118,50 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-03-22T12:58:06Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2767,
+                    "gender": "m",
+                    "id": 4056,
+                    "name": "Fässler Daniel",
+                    "officialDenomination": "Fässler Daniel"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "UREK-NR",
             "id": 7,
             "name": "Kommission für Umwelt, Raumplanung und Energie NR",
-            "abbreviation1": "UREK-NR",
+            "abbreviation1": "UREK-N",
             "abbreviation2": "UREK",
             "committeeNumber": 7,
             "council": {
@@ -83,7 +188,7 @@
             "abbreviation": "UREK-SR",
             "id": 20,
             "name": "Kommission für Umwelt, Raumplanung und Energie SR",
-            "abbreviation1": "UREK-SR",
+            "abbreviation1": "UREK-S",
             "abbreviation2": "UREK",
             "committeeNumber": 20,
             "council": {
@@ -101,7 +206,8 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -112,6 +218,12 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
+          "leading": false
+        },
+        {
+          "abbreviation": "UVEK",
+          "id": 9,
+          "name": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
           "leading": true
         }
       ],
@@ -123,8 +235,23 @@
         },
         {
           "date": "/Date(1686780000000+0200)/",
-          "id": 28,
-          "name": "Vorprüfung - Behandelt vom Nationalrat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1711062000000+0100)/",
+          "id": 230,
+          "name": "Beratung in Kommission des Ständerates abgeschlossen"
+        },
+        {
+          "date": "/Date(1712700000000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1716847200000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -157,8 +284,8 @@
   ],
   "shortId": "22.300",
   "state": {
-    "id": 28,
-    "name": "Vorprüfung - Behandelt vom Nationalrat",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
     "newKey": 0
   },
@@ -168,7 +295,7 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Die Erstellung von Bauten und Anlagen für die Produktion von Wärme bzw. Strom aus verholzter Biomasse ausserhalb einer Bauzone (z.B. in der Landwirtschaftszone) sind nach Bundesrecht zu beurteilen und darum aktuell in der Regel nicht zulässig. Nur bei einer Anpassung des diesbezüglichen Bundesrechts wäre es für unsere Regierung und unsere Gemeinden möglich solche Anlagen zu bewilligen.</p><p>Die aktuelle gesetzliche Bewilligungsgrundlage verunmöglicht den Bau eines neuen Gebäudes mit dem Zweck der Wärme- und/oder Stromproduktion aus Energieholz. Damit wird die Chance verpasst, Wärmenetzverbunde in Siedlungsnähe zu realisieren. In der Bauzone selbst sind Heizungsanlagen mit ihren verbundenen Emissionen (Rauch, Lärm, Transport) selten erwünscht. Auch ökonomisch besteht kein Anreiz statt rentablem Wohnraum lediglich eine Heizung zu erbauen.</p><p>Das Energieholzpotential in der Schweiz ist riesig. Leider bleibt ein Teil davon ungenutzt in unseren Wäldern liegen. Mit deren energetischen Nutzung könnte auch der CO2-Ausstoss gesenkt werden. Eine gesteigerte Energieholznutzung würde auch Anreize für die Waldpflege schaffen. Dies wiederum ist die Grundlage, damit der Wald all seine vielfältigen Funktionen erfüllen kann und den Erwartungen gerecht wird.</p><p>Mit der Schaffung von Artikel 16a Absatz 1bis Raumplanungsgesetz (RPG) wird im Grundsatz der politische Wille bekräftigt, dass solche Anlagen in der Landwirtschaft gewünscht sind. In der Ausführungsverordnung hat der Bundesrat in Artikel 34a Absatz 1bis Raumplanungsverordnung (RPV) die Voraussetzungen für die Zonenkonformität leider jedoch wieder stark eingeschränkt. Die Interessen der Energiepolitik dürfen aber gegenüber den Interessen der Raumplanung nicht geschmälert werden.</p>"
+      "value": "<p>Die Erstellung von Bauten und Anlagen für die Produktion von Wärme bzw. Strom aus verholzter Biomasse ausserhalb einer Bauzone (z.B. in der Landwirtschaftszone) sind nach Bundesrecht zu beurteilen und darum aktuell in der Regel nicht zulässig. Nur bei einer Anpassung des diesbezüglichen Bundesrechts wäre es für unsere Regierung und unsere Gemeinden möglich solche Anlagen zu bewilligen.</p><p>Die aktuelle gesetzliche Bewilligungsgrundlage verunmöglicht den Bau eines neuen Gebäudes mit dem Zweck der Wärme- und/oder Stromproduktion aus Energieholz. Damit wird die Chance verpasst, Wärmenetzverbunde in Siedlungsnähe zu realisieren. In der Bauzone selbst sind Heizungsanlagen mit ihren verbundenen Emissionen (Rauch, Lärm, Transport) selten erwünscht. Auch ökonomisch besteht kein Anreiz statt rentablem Wohnraum lediglich eine Heizung zu erbauen.</p><p>Das Energieholzpotential in der Schweiz ist riesig. Leider bleibt ein Teil davon ungenutzt in unseren Wäldern liegen. Mit deren energetischen Nutzung könnte auch der CO2-Ausstoss gesenkt werden. Eine gesteigerte Energieholznutzung würde auch Anreize für die Waldpflege schaffen. Dies wiederum ist die Grundlage, damit der Wald all seine vielfältigen Funktionen erfüllen kann und den Erwartungen gerecht wird.</p><p>Mit der Schaffung von Artikel 16a Absatz 1bis Raumplanungsgesetz (RPG) wird im Grundsatz der politische Wille bekräftigt, dass solche Anlagen in der Landwirtschaft gewünscht sind. In der Ausführungsverordnung hat der Bundesrat in Artikel 34a Absatz 1bis Raumplanungsverordnung (RPV) die Voraussetzungen für die Zonenkonformität leider jedoch wieder stark eingeschränkt. Die Interessen der Energiepolitik dürfen aber gegenüber den Interessen der Raumplanung nicht geschmälert werden.</p>"
     },
     {
       "type": {

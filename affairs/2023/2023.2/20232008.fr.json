@@ -1,6 +1,6 @@
 {
   "id": 20232008,
-  "updated": "2023-06-16T08:48:55Z",
+  "updated": "2026-05-20T02:09:19Z",
   "affairType": {
     "abbreviation": "Pét.",
     "id": 10,
@@ -36,6 +36,21 @@
             "date": "2023-06-15T00:00:00Z",
             "text": "Refusé de donner suite",
             "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-28T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
           }
         ]
       },
@@ -51,7 +66,7 @@
             "abbreviation": "CPS-CN",
             "id": 8,
             "name": "Commission de la politique de sécurité CN",
-            "abbreviation1": "CPS-CN",
+            "abbreviation1": "CPS-N",
             "abbreviation2": "CPS",
             "committeeNumber": 8,
             "council": {
@@ -67,16 +82,18 @@
             {
               "correspondents": [
 
-              ]
+              ],
+              "sessionId": "5122"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CPS-CE",
             "id": 21,
             "name": "Commission de la politique de sécurité CE",
-            "abbreviation1": "CPS-CE",
+            "abbreviation1": "CPS-E",
             "abbreviation2": "CPS",
             "committeeNumber": 21,
             "council": {
@@ -115,7 +132,8 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -137,8 +155,23 @@
         },
         {
           "date": "/Date(1686780000000+0200)/",
-          "id": 3,
-          "name": "Traité par le Conseil des Etats"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1686866400000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1687125600000+0200)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -158,8 +191,8 @@
   ],
   "shortId": "23.2008",
   "state": {
-    "id": 3,
-    "name": "Traité par le Conseil des Etats",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },

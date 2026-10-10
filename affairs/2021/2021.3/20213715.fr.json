@@ -1,6 +1,6 @@
 {
   "id": 20213715,
-  "updated": "2023-06-13T10:19:07Z",
+  "updated": "2026-06-05T10:59:45Z",
   "additionalIndexing": "28;1216;2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -54,6 +54,21 @@
             "date": "2023-06-13T00:00:00Z",
             "text": "Adoption",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-02-27T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
           }
         ]
       },
@@ -67,7 +82,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSEC-CN",
+            "id": 5,
+            "name": "Commission de la science, de l'éducation et de la culture CN",
+            "abbreviation1": "CSEC-N",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-15T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CE",
+            "id": 18,
+            "name": "Commission de la science, de l'éducation et de la culture CE",
+            "abbreviation1": "CSEC-E",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-06-15T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-23T14:39:45Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3227,
+                    "gender": "f",
+                    "id": 4332,
+                    "name": "Crevoisier Crelier Mathilde",
+                    "officialDenomination": "Crevoisier Crelier"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -88,8 +184,33 @@
         },
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 11,
-          "name": "Motion au 2e conseil"
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1703199600000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1705964400000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1707433200000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1708988400000+0100)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
+        },
+        {
+          "date": "/Date(1778104800000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
         }
       ],
       "texts": [
@@ -117,7 +238,7 @@
         "gender": "m",
         "id": 491,
         "name": "Maillard Pierre-Yves",
-        "officialDenomination": "Maillard"
+        "officialDenomination": "Maillard Pierre-Yves"
       },
       "type": "cosign"
     },
@@ -327,7 +448,7 @@
         "gender": "m",
         "id": 4070,
         "name": "Candinas Martin",
-        "officialDenomination": "Candinas"
+        "officialDenomination": "Candinas Martin"
       },
       "type": "cosign"
     },
@@ -717,7 +838,7 @@
         "gender": "m",
         "id": 4141,
         "name": "Portmann Hans-Peter",
-        "officialDenomination": "Portmann"
+        "officialDenomination": "Portmann Hans-Peter"
       },
       "type": "cosign"
     },
@@ -909,10 +1030,9 @@
   ],
   "shortId": "21.3715",
   "state": {
-    "id": 11,
-    "name": "Motion au 2e conseil",
+    "id": 204,
+    "name": "Attribué à la commission compétente",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -921,14 +1041,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>La violence sur les personnes âgées provoque d'énormes souffrances et constitue une charge importante pour tous les services concernés. Le sujet reste cependant largement tabou. La pandémie de COVID-19 a rendu manifeste à quel point les personnes âgées et fragiles sont dépendantes de l'aide d'autrui.</p><p>Le rapport donnant suite au postulat 15.3945 révèle l'ampleur du problème. On y apprend que, chaque année, 300 000 à 500 000 personnes de plus de 60 ans sont victimes de violence, d'abus ou de négligence. Souvent, ces formes de maltraitance sont dues au fait que les proches aidants, les professionnels et le personnel soignant et accompagnant sont débordés.</p><p>Les recommandations émises dans ce rapport sont les suivantes : 1) favoriser la diffusion des connaissances et la prise de conscience ; 2) renforcer la coordination des acteurs et les offres existantes ; 3) développer l'offre et la qualité ; 4) lancer un plan d'action national.</p><p>Ces recommandations vont dans la même direction que celles du programme de promotion \" Offres visant à décharger les proches aidants \", dont le rapport de synthèse appelle à la création de bureaux d'accueil régionaux, à la collaboration entre professionnels et proches aidants et à un meilleur accès aux offres de prise en charge.</p><p>Quant au rapport \" Organisation de l'aide à la vieillesse dans les cantons \" (OFAS, 2020), il appelle la Confédération, en collaboration avec les cantons, à améliorer ses connaissances pour mieux appréhender la situation et orienter les offres en fonction des besoins, afin de garantir un soutien adapté et de qualité pour les personnes âgées.</p><p>D'autres études mettent elles aussi l'accent sur l'importance d'une bonne prise en charge. Meier et al. (ProSenectute/ZHAW, 2020) montrent ainsi non seulement que les offres de prise en charge répondent à un besoin, mais aussi qu'elles ont un effet direct sur les facteurs de risque cités dans le rapport donnant suite au postulat 15.3945 (isolement, mauvaise santé, surcharge de l'entourage, mauvaise intégration socioéconomique). La mise à disposition d'offres de prise en charge accessibles et abordables permet ainsi d'atténuer sensiblement ces facteurs ou de prévenir leur apparition. Une bonne prise en charge accélère également la détection des cas de maltraitance grâce à l'établissement d'une relation de confiance, et contribue à mettre fin au tabou qui entoure ce phénomène. </p><p></p><p>Enfin, le programme d'impulsion pourra également s'inspirer d'un document publié par la FNHW, \" Wegweiser für gute Betreuung im Alter \", qui détaille les piliers d'une bonne prise en charge, en particulier dans le domaine psychosocial.</p>"
+      "value": "<p>La violence sur les personnes âgées provoque d'énormes souffrances et constitue une charge importante pour tous les services concernés. Le sujet reste cependant largement tabou. La pandémie de COVID-19 a rendu manifeste à quel point les personnes âgées et fragiles sont dépendantes de l'aide d'autrui.</p><p>Le rapport donnant suite au postulat 15.3945 révèle l'ampleur du problème. On y apprend que, chaque année, 300 000 à 500 000 personnes de plus de 60 ans sont victimes de violence, d'abus ou de négligence. Souvent, ces formes de maltraitance sont dues au fait que les proches aidants, les professionnels et le personnel soignant et accompagnant sont débordés.</p><p>Les recommandations émises dans ce rapport sont les suivantes : 1) favoriser la diffusion des connaissances et la prise de conscience ; 2) renforcer la coordination des acteurs et les offres existantes ; 3) développer l'offre et la qualité ; 4) lancer un plan d'action national.</p><p>Ces recommandations vont dans la même direction que celles du programme de promotion \" Offres visant à décharger les proches aidants \", dont le rapport de synthèse appelle à la création de bureaux d'accueil régionaux, à la collaboration entre professionnels et proches aidants et à un meilleur accès aux offres de prise en charge.</p><p>Quant au rapport \" Organisation de l'aide à la vieillesse dans les cantons \" (OFAS, 2020), il appelle la Confédération, en collaboration avec les cantons, à améliorer ses connaissances pour mieux appréhender la situation et orienter les offres en fonction des besoins, afin de garantir un soutien adapté et de qualité pour les personnes âgées.</p><p>D'autres études mettent elles aussi l'accent sur l'importance d'une bonne prise en charge. Meier et al. (ProSenectute/ZHAW, 2020) montrent ainsi non seulement que les offres de prise en charge répondent à un besoin, mais aussi qu'elles ont un effet direct sur les facteurs de risque cités dans le rapport donnant suite au postulat 15.3945 (isolement, mauvaise santé, surcharge de l'entourage, mauvaise intégration socioéconomique). La mise à disposition d'offres de prise en charge accessibles et abordables permet ainsi d'atténuer sensiblement ces facteurs ou de prévenir leur apparition. Une bonne prise en charge accélère également la détection des cas de maltraitance grâce à l'établissement d'une relation de confiance, et contribue à mettre fin au tabou qui entoure ce phénomène. </p><p></p><p>Enfin, le programme d'impulsion pourra également s'inspirer d'un document publié par la FNHW, \" Wegweiser für gute Betreuung im Alter \", qui détaille les piliers d'une bonne prise en charge, en particulier dans le domaine psychosocial.</p>"
     },
     {
       "type": {
         "id": 14,
         "name": "Réponse CF / Bureau"
       },
-      "value": "<p>Avec l'adoption du rapport répondant au postulat 15.3945 Glanzmann-Hunkeler \" Prévenir la violence sur les personnes âgées \", en septembre 2020, le Conseil fédéral a reconnu l'importance de ce problème et la nécessité d'agir par la prévention et par des interventions à définir de concert avec les cantons et les autres acteurs pertinents. Il attend maintenant les résultats de la concertation menée par le DFI avec les conférences des directeurs cantonaux concernées (CdC, CDAS, CDS, CCDJP, ainsi que la COPMA) pour prendre une décision sur la suite à donner. En raison de la crise du Covid-19, la discussion a été suspendue à la demande des cantons, compétents dans la plupart des domaines intéressant la prévention de la violence envers les personnes âgées, mais toutes les parties impliquées se sont engagées à la reprendre au printemps 2022. Le Conseil fédéral se déterminera ainsi d'ici fin 2022.</p><p>Ces derniers mois, le thème n'a cependant pas été oublié. Un Plan d'action pour la mise en oeuvre de la Convention du Conseil de l'Europe sur la prévention et la lutte contre la violence à l'égard des femmes et la violence domestique (Convention d'Istanbul ; RS 0.311.35) est en cours de préparation ; les besoins spécifiques des aînés seront aussi pris en compte. De plus, le Dialogue stratégique du 30 avril 2021 entre la Confédération, les cantons et des organisations de la société civile a abouti à la signature d'une feuille de route \" Violence domestique \" (www.ofj.admin.ch &gt; Société &gt; Violence domestique &gt; Dialogue stratégique sur la violence domestique) qui mentionne, entre autres, une initiative de la Prévention Suisse de la Criminalité pour une campagne de prévention ciblée sur les personnes âgées.</p><p>Comme la motion le met en évidence, la maltraitance à l'encontre des personnes âgées soulève des questions au-delà de la violence domestique, en rapport notamment avec les soins, la prise en charge et les proches aidants. Les besoins et possibilités d'action dans ces domaines seront examinés avec les offices fédéraux et les organisations concernés, en vue de la reprise de la discussion avec les cantons.</p>"
+      "value": "<p>Avec l'adoption du rapport répondant au postulat 15.3945 Glanzmann-Hunkeler \" Prévenir la violence sur les personnes âgées \", en septembre 2020, le Conseil fédéral a reconnu l'importance de ce problème et la nécessité d'agir par la prévention et par des interventions à définir de concert avec les cantons et les autres acteurs pertinents. Il attend maintenant les résultats de la concertation menée par le DFI avec les conférences des directeurs cantonaux concernées (CdC, CDAS, CDS, CCDJP, ainsi que la COPMA) pour prendre une décision sur la suite à donner. En raison de la crise du Covid-19, la discussion a été suspendue à la demande des cantons, compétents dans la plupart des domaines intéressant la prévention de la violence envers les personnes âgées, mais toutes les parties impliquées se sont engagées à la reprendre au printemps 2022. Le Conseil fédéral se déterminera ainsi d'ici fin 2022.</p><p>Ces derniers mois, le thème n'a cependant pas été oublié. Un Plan d'action pour la mise en oeuvre de la Convention du Conseil de l'Europe sur la prévention et la lutte contre la violence à l'égard des femmes et la violence domestique (Convention d'Istanbul ; RS 0.311.35) est en cours de préparation ; les besoins spécifiques des aînés seront aussi pris en compte. De plus, le Dialogue stratégique du 30 avril 2021 entre la Confédération, les cantons et des organisations de la société civile a abouti à la signature d'une feuille de route \" Violence domestique \" (www.ofj.admin.ch &gt; Société &gt; Violence domestique &gt; Dialogue stratégique sur la violence domestique) qui mentionne, entre autres, une initiative de la Prévention Suisse de la Criminalité pour une campagne de prévention ciblée sur les personnes âgées.</p><p>Comme la motion le met en évidence, la maltraitance à l'encontre des personnes âgées soulève des questions au-delà de la violence domestique, en rapport notamment avec les soins, la prise en charge et les proches aidants. Les besoins et possibilités d'action dans ces domaines seront examinés avec les offices fédéraux et les organisations concernés, en vue de la reprise de la discussion avec les cantons.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20212023,
-  "updated": "2021-09-23T12:58:50Z",
+  "updated": "2026-05-20T01:56:22Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,31 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "WBK-NR",
+              "id": 5,
+              "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
+              "abbreviation1": "WBK-N",
+              "abbreviation2": "WBK",
+              "committeeNumber": 5,
+              "council": {
+                "abbreviation": "NR",
+                "id": 1,
+                "name": "Nationalrat",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2022-04-28T00:00:00Z",
+            "text": "Folge geben (vgl. Kommissionsinitiative oder Vorstoss)",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -34,31 +58,10 @@
       "preConsultations": [
         {
           "committee": {
-            "abbreviation": "WBK-NR",
-            "id": 5,
-            "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
-            "abbreviation1": "WBK-NR",
-            "abbreviation2": "WBK",
-            "committeeNumber": 5,
-            "council": {
-              "abbreviation": "NR",
-              "id": 1,
-              "name": "Nationalrat",
-              "type": "N"
-            },
-            "typeCode": 1
-          },
-          "date": "2021-09-22T00:00:00Z",
-          "registrations": [
-
-          ]
-        },
-        {
-          "committee": {
             "abbreviation": "WBK-SR",
             "id": 18,
             "name": "Kommission für Wissenschaft, Bildung und Kultur SR",
-            "abbreviation1": "WBK-SR",
+            "abbreviation1": "WBK-S",
             "abbreviation2": "WBK",
             "committeeNumber": 18,
             "council": {
@@ -72,7 +75,8 @@
           "date": "2021-09-22T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
@@ -83,14 +87,35 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlament",
+          "leading": false
+        },
+        {
+          "abbreviation": "WBF",
+          "id": 8,
+          "name": "Departement für Wirtschaft, Bildung und Forschung",
           "leading": true
         }
       ],
       "states": [
         {
           "date": "/Date(1632261600000+0200)/",
-          "id": 9,
+          "id": 202,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1632348000000+0200)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1634162400000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1651183200000+0200)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
         }
       ],
       "texts": [
@@ -100,7 +125,11 @@
   ],
   "language": "de",
   "relatedAffairs": [
-
+    {
+      "id": 20223393,
+      "priorityCode": "N",
+      "shortId": "22.3393"
+    }
   ],
   "roles": [
     {
@@ -110,10 +139,10 @@
   ],
   "shortId": "21.2023",
   "state": {
-    "id": 9,
-    "name": "Eingereicht",
+    "id": 206,
+    "name": "In Kommission des Ständerats",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {

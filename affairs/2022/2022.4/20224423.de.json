@@ -1,6 +1,6 @@
 {
   "id": 20224423,
-  "updated": "2023-05-03T21:34:26Z",
+  "updated": "2026-05-20T21:07:08Z",
   "additionalIndexing": "2841;34",
   "affairType": {
     "abbreviation": "Mo.",
@@ -13,7 +13,7 @@
       "gender": "m",
       "id": 4190,
       "name": "Dobler Marcel",
-      "officialDenomination": "Dobler"
+      "officialDenomination": "Dobler Marcel"
     },
     "faction": {
       "abbreviation": "Fraktion RL",
@@ -70,6 +70,21 @@
             "date": "2023-05-03T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "date": "2023-09-13T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
           }
         ]
       },
@@ -88,7 +103,7 @@
             "abbreviation": "SGK-NR",
             "id": 6,
             "name": "Kommission für soziale Sicherheit und Gesundheit NR",
-            "abbreviation1": "SGK-NR",
+            "abbreviation1": "SGK-N",
             "abbreviation2": "SGK",
             "committeeNumber": 6,
             "council": {
@@ -109,7 +124,7 @@
             "abbreviation": "SGK-SR",
             "id": 19,
             "name": "Kommission für soziale Sicherheit und Gesundheit SR",
-            "abbreviation1": "SGK-SR",
+            "abbreviation1": "SGK-S",
             "abbreviation2": "SGK",
             "committeeNumber": 19,
             "council": {
@@ -122,7 +137,58 @@
           },
           "date": "2022-12-14T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
+              ],
+              "sessionId": "5122"
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-08-21T18:17:21Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "SR",
+                    "id": 2,
+                    "name": "Ständerat",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3108,
+                    "gender": "m",
+                    "id": 4207,
+                    "name": "Müller Damian",
+                    "officialDenomination": "Müller Damian"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion RL",
+                    "code": "RL",
+                    "id": 1,
+                    "name": "FDP-Liberale Fraktion"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -145,8 +211,23 @@
         },
         {
           "date": "/Date(1683064800000+0200)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1694469600000+0200)/",
+          "id": 207,
+          "name": "In Ständerat geplant"
+        },
+        {
+          "date": "/Date(1694556000000+0200)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
+        },
+        {
+          "date": "/Date(1774994400000+0200)/",
+          "id": 215,
+          "name": "Berichterstattung zum Umsetzungsstand des Vorstosses liegt vor"
         }
       ],
       "texts": [
@@ -254,7 +335,7 @@
         "gender": "m",
         "id": 4190,
         "name": "Dobler Marcel",
-        "officialDenomination": "Dobler"
+        "officialDenomination": "Dobler Marcel"
       },
       "faction": {
         "abbreviation": "Fraktion RL",
@@ -267,10 +348,9 @@
   ],
   "shortId": "22.4423",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 215,
+    "name": "Berichterstattung zum Umsetzungsstand des Vorstosses liegt vor",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -279,14 +359,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Der Bundesrat ist gemäss der Interpellation 22.4005 der Ansicht, dass die Erfahrungen, Fachinformationen mit QR-Codes digital zur Verfügung zu stellen positiv sind. Somit kann der digitale Zugang die Patientensicherheit erhöhen, indem weitere Sprachen angeboten oder Personen wie Analphabetinnen und Analphabeten oder Menschen mit einer Sehbeeinträchtigung erreicht werden können. Auf <a  href=\"http://www.swissmedicinfo.ch\">www.swissmedicinfo.ch</a> können die Arzneimittelinformationen digital zur Verfügung gestellt werden und können von den gängigen Internetbrowsern laut vorgelesen werden.</p><p>Die elektronische Form soll die Papierform bis auf Weiteres komplementieren und nicht ersetzen.</p><p>Bereits heute sind die heilmittelrechtlichen Grundlagen ausreichend, um die zusätzliche Verwendung von QR-Codes zu genehmigen. Swissmedic wird im ersten Quartal 2023 eine Wegleitung publizieren, welche die Verwendung von QR-Codes in der Arzneimittelinformation und auf der Verpackung regelt. Dabei orientiert sich Swissmedic an den Vorgaben der Europäischen Arzneimittel-Agentur (EMA). </p><p>Mit diesem Vorstoss soll innerhalb einer grosszüigen Übergangsfrist mit Hilfe der Digitalisierung die Patientensicherheit verbessert werden.</p>"
+      "value": "<p>Der Bundesrat ist gemäss der Interpellation 22.4005 der Ansicht, dass die Erfahrungen, Fachinformationen mit QR-Codes digital zur Verfügung zu stellen positiv sind. Somit kann der digitale Zugang die Patientensicherheit erhöhen, indem weitere Sprachen angeboten oder Personen wie Analphabetinnen und Analphabeten oder Menschen mit einer Sehbeeinträchtigung erreicht werden können. Auf <a href=\"http://www.swissmedicinfo.ch\">www.swissmedicinfo.ch</a> können die Arzneimittelinformationen digital zur Verfügung gestellt werden und können von den gängigen Internetbrowsern laut vorgelesen werden.</p><p>Die elektronische Form soll die Papierform bis auf Weiteres komplementieren und nicht ersetzen.</p><p>Bereits heute sind die heilmittelrechtlichen Grundlagen ausreichend, um die zusätzliche Verwendung von QR-Codes zu genehmigen. Swissmedic wird im ersten Quartal 2023 eine Wegleitung publizieren, welche die Verwendung von QR-Codes in der Arzneimittelinformation und auf der Verpackung regelt. Dabei orientiert sich Swissmedic an den Vorgaben der Europäischen Arzneimittel-Agentur (EMA). </p><p>Mit diesem Vorstoss soll innerhalb einer grosszüigen Übergangsfrist mit Hilfe der Digitalisierung die Patientensicherheit verbessert werden.</p>"
     },
     {
       "type": {
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Wie in der Antwort auf die Interpellation 22.4005 Dobler \"Mit einem QR-Code auf Arzneimitteln können Packungsbeilagen digital in weiteren Sprachen angeboten werden und damit kann die Patientensicherheit erhöht werden\" ausgeführt, anerkennt der Bundesrat, dass der digitale Zugang zu den Arzneimittelinformationen die Patientensicherheit - z.B. für Personen mit einer Sehbeeinträchtigung oder einer Leseschwäche - erhöht. Daher unterstützt der Bundesrat die Forderung der Motion, die rechtlichen Grundlagen zu schaffen, um QR-Codes, die zu den genehmigten Arzneimittelinformationstexten führen, unter Gewährung angemessener Übergangfristen auf Packmitteln verpflichtend einzuführen und die Barrierefreiheit der elektronischen Arzneimittelinformationen sicherzustellen.</p><p>Im Rahmen der Umsetzung muss ausserdem geprüft werden, welche Anpassungen vorgenommen werden müssen, damit die digitalen Arzneimittelinformationen barrierefrei gemäss eCH-Standard 0059 zur Verfügung stehen.</p>"
+      "value": "<p>Wie in der Antwort auf die Interpellation 22.4005 Dobler \"Mit einem QR-Code auf Arzneimitteln können Packungsbeilagen digital in weiteren Sprachen angeboten werden und damit kann die Patientensicherheit erhöht werden\" ausgeführt, anerkennt der Bundesrat, dass der digitale Zugang zu den Arzneimittelinformationen die Patientensicherheit - z.B. für Personen mit einer Sehbeeinträchtigung oder einer Leseschwäche - erhöht. Daher unterstützt der Bundesrat die Forderung der Motion, die rechtlichen Grundlagen zu schaffen, um QR-Codes, die zu den genehmigten Arzneimittelinformationstexten führen, unter Gewährung angemessener Übergangfristen auf Packmitteln verpflichtend einzuführen und die Barrierefreiheit der elektronischen Arzneimittelinformationen sicherzustellen.</p><p>Im Rahmen der Umsetzung muss ausserdem geprüft werden, welche Anpassungen vorgenommen werden müssen, damit die digitalen Arzneimittelinformationen barrierefrei gemäss eCH-Standard 0059 zur Verfügung stehen.</p>  Der Bundesrat beantragt die Annahme der Motion."
     },
     {
       "type": {

@@ -1,6 +1,6 @@
 {
   "id": 20223530,
-  "updated": "2022-06-02T15:43:41Z",
+  "updated": "2026-09-23T09:50:15Z",
   "additionalIndexing": "2831;04;44;28;32",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,17 +40,130 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-04-17T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2026-09-22T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2022-08-31T00:00:00Z",
+        "text": "Il Consiglio federale propone di respingere la mozione."
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSEC-CS",
+            "id": 18,
+            "name": "Commissione della scienza, dell'educazione e della cultura CS",
+            "abbreviation1": "CSEC-S",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 18,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-06-30T10:28:50Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3220,
+                    "gender": "f",
+                    "id": 4325,
+                    "name": "Chassot Isabelle",
+                    "officialDenomination": "Chassot"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSEC-CN",
+            "id": 5,
+            "name": "Commissione della scienza, dell'educazione e della cultura CN",
+            "abbreviation1": "CSEC-N",
+            "abbreviation2": "CSEC",
+            "committeeNumber": 5,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-04-25T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -66,8 +179,33 @@
       "states": [
         {
           "date": "/Date(1654034400000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1661896800000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1713304800000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1782770400000+0200)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1788991200000+0200)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1790028000000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -115,7 +253,7 @@
         "gender": "m",
         "id": 4070,
         "name": "Candinas Martin",
-        "officialDenomination": "Candinas"
+        "officialDenomination": "Candinas Martin"
       },
       "type": "cosign"
     },
@@ -167,19 +305,40 @@
   ],
   "shortId": "22.3530",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Noi Svizzere e Svizzeri siamo orgogliosi delle nostre quattro lingue nazionali, però le utilizziamo poco. Troppo spesso rimaniamo nella comodità della lingua madre e facciamo poco per superare il Röstigraben. Dopo gli studi, per imparare il francese andiamo a Nizza, dimenticandoci della Città di Neuchâtel. Prima di partire in vacanza per la Toscana, impariamo su YouTube a ordinare una pizza, però non abbiamo mai messo piede in Ticino. Tutto questo deve cambiare. È quindi importante che in tutta la Svizzera vengano offerte opportunità facilmente accessibili per imparare le altre lingue nazionali. All'UFC chiedo più proposte come il progetto \"Italiando\", affinché un numero sempre maggiore di allievi possa beneficiare di soggiorni linguistici in Svizzera a un prezzo conveniente. In questo modo già a scuola si contribuirebbe ad accrescere l'interesse per le lingue straniere, rendendo la Svizzera più connessa. Più Svizzera, davantage Suisse, mehr Schweiz, dapli Svizra.</p><p>Il superamento dei confini linguistici è importante per la coesione del Paese. La comprensione delle altre regioni linguistiche svizzere e della loro cultura è fondamentale per la collaborazione tra le varie componenti della nostra società, perché senza comprensione linguistica non può esserci una convivenza armoniosa.</p><p>Le competenze linguistiche sono requisiti di importanza cruciale per la mobilità e il futuro professionale dei giovani. Chi le possiede diventa più interessante sul mercato del lavoro e può creare più facilmente una rete di contatti, a tutto vantaggio della piazza economica svizzera.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>Il Consiglio federale condivide il parere che gli scambi scolastici apportino un importante contributo alla comprensione tra le comunità culturali e linguistiche e quindi alla coesione sociale, alla qualità e all'ulteriore sviluppo dello spazio formativo svizzero, nonché alla salvaguardia della competitività e della capacità innovativa del Paese. Le esperienze vissute durante gli scambi, oltre a promuovere l'apprendimento delle lingue e la motivazione a impararle, sensibilizzano al plurilinguismo e migliorano così le future opportunità di bambini e giovani sul mercato del lavoro.</p><p>Per queste ragioni la promozione degli scambi scolastici è un importante pilastro della politica linguistica della Confederazione. Nell'attuale periodo di finanziamento, i mezzi destinati alla promozione degli scambi a livello nazionale sono aumentati da 2,4 (2020) a 6,8 milioni di franchi (2024). Su incarico della Confederazione l'agenzia Movetia sostiene diverse forme di scambi a tutti i livelli scolastici, inclusa la formazione professionale di base (scambi individuali, di classi, di docenti). Nel quadro della promozione dell'italiano e del romancio, l'Ufficio federale della cultura sostiene inoltre progetti in ambito extrascolastico, come il già citato \"Italiando\".</p><p>Per rafforzare gli scambi linguistici a livello nazionale non sono tuttavia necessarie modifiche di legge e per questo motivo il Consiglio federale respinge la mozione, Ma espliciterà nel messaggio sulla cultura 2025-2028 le prossime tappe fondamentali per raggiungere questo obiettivo.</p>  Il Consiglio federale propone di respingere la mozione."
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è invitato a promuovere gli scambi linguistici nazionali, in particolar modo a incentivare e incrementare i soggiorni linguistici in Svizzera per gli allievi. Il progetto \"Italiando\", sostenuto dall'Ufficio federale della cultura (UFC), è un buon esempio di un progetto vincente promosso dalla Confederazione che andrebbe esteso a tutte le lingue nazionali. A questo scopo andrebbero presentati al Parlamento un rapporto e una proposta sulle necessarie modifiche di legge.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Quattro lingue, un grande potenziale. Promuovere gli scambi linguistici nazionali"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Quattro lingue, un grande potenziale. Promuovere gli scambi linguistici nazionali"
 }

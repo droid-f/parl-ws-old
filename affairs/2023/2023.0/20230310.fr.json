@@ -1,6 +1,7 @@
 {
   "id": 20230310,
-  "updated": "2023-06-06T10:58:44Z",
+  "updated": "2026-05-20T01:58:03Z",
+  "additionalIndexing": "48;15;10",
   "affairType": {
     "abbreviation": "Iv. ct.",
     "id": 3,
@@ -26,7 +27,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-06-06T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2025-05-06T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -36,24 +66,188 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CTT-CE",
+            "id": 22,
+            "name": "Commission des transports et des télécommunications CE",
+            "abbreviation1": "CTT-E",
+            "abbreviation2": "CTT",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-06-02T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CTT-CN",
+            "id": 9,
+            "name": "Commission des transports et des télécommunications CN",
+            "abbreviation1": "CTT-N",
+            "abbreviation2": "CTT",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-06-02T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2025-01-17T14:11:51Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2752,
+                    "gender": "m",
+                    "id": 4046,
+                    "name": "Quadri Lorenzo",
+                    "officialDenomination": "Quadri"
+                  },
+                  "language": "it"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-05-06T12:47:55Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3200,
+                    "gender": "f",
+                    "id": 4303,
+                    "name": "Maret Marianne",
+                    "officialDenomination": "Maret Marianne"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DETEC",
+          "id": 9,
+          "name": "Département  de l'environnement, des transports, de l'énergie et de la communication",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1685656800000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1694642400000+0200)/",
+          "id": 225,
+          "name": "Examen préalable - en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1714946400000+0200)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1717624800000+0200)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1718229600000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1724882400000+0200)/",
+          "id": 223,
+          "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1736809200000+0100)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1746482400000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -86,10 +280,10 @@
   ],
   "shortId": "23.310",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -97,22 +291,22 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>L'axe de transit du Gothard, dans le canton d'Uri, est régulièrement soumis à un important volume de circulation et, par conséquent, à des embouteillages. Ces dernières années, ce phénomène se produisait surtout à des moments précis, lors de pics de fréquentation du réseau routier (Pâques, Pentecôte, juin et juillet, etc.).</p><p>Mais le volume du trafic n'a cessé d'augmenter et, avec lui, les heures d'embouteillage à l'entrée du tunnel du Gothard, qui surviennent désormais toute l'année. La congestion du tunnel du Gothard n'est donc pas un phénomène ponctuel, mais un état permanent, provoqué par un volume de circulation trop élevé par rapport aux capacités de la route.</p><p>Les embouteillages sur l'autoroute et, corollairement, le report de trafic sur la route cantonale sont une source de stress pour la population locale et nuisent à l'accessibilité des villages à l'intérieur du canton. De même, le tourisme est entravé dans son développement, en particulier dans l'Oberland uranais.</p><p>Avec d'autres services fédéraux, l'Office fédéral du développement territorial établit des scénarios quant aux évolutions futures des transports. Le volume des transports continuera à augmenter, comme le montrent les \" Perspectives d'évolution du transport 2050 \" du DETEC. Selon le scénario principal \" Base \", la croissance du transport sera certes moins forte que celle de la population, mais les prestations de transport du trafic voyageurs (en voyageurs-kilomètres) augmenteront tout de même de 11 % d'ici 2050 par rapport à l'année de référence 2017 et le transport de marchandises de 31 %.</p><p>Le scénario \" Base \" part de l'hypothèse que la planification des transports et l'aménagement du territoire sont dûment mis en oeuvre selon l'orientation décidée par le Conseil fédéral dans le document \" Mobilité et territoire 2050 \". Ce scénario de base est toutefois plutôt axé sur les agglomérations. Or, l'augmentation du trafic est en grande partie générée par le trafic de loisirs et de vacances. Avec l'accord sur les transports terrestres que la Suisse a conclu avec l'UE, il existe également au niveau international un accord selon lequel le transport transalpin de marchandises doit être respectueux de l'environnement. La mise en service du second tube du Saint-Gothard en 2029 et la remise en état du premier tube qui suivra ne changeront rien à la capacité du trafic. En effet, l'art. 84 de la Constitution fédérale, qui régit la protection des Alpes, interdit l'augmentation de la capacité des routes de transit des régions alpines.</p><p>La situation au Saint-Gothard ne va donc pas s'améliorer toute seule.</p><p>L'Office fédéral des routes et la police cantonale uranaise tentent d'y remédier par diverses mesures, mais cela ne permet au mieux que d'atténuer quelque peu les inconvénients. Le problème de congestion reste entier.</p><p>Nous vous prions par conséquent d'entreprendre les démarches nécessaires pour traiter la présente initiative.</p>"
+      "value": "<p>L'axe de transit du Gothard, dans le canton d'Uri, est régulièrement soumis à un important volume de circulation et, par conséquent, à des embouteillages. Ces dernières années, ce phénomène se produisait surtout à des moments précis, lors de pics de fréquentation du réseau routier (Pâques, Pentecôte, juin et juillet, etc.).</p><p>Mais le volume du trafic n'a cessé d'augmenter et, avec lui, les heures d'embouteillage à l'entrée du tunnel du Gothard, qui surviennent désormais toute l'année. La congestion du tunnel du Gothard n'est donc pas un phénomène ponctuel, mais un état permanent, provoqué par un volume de circulation trop élevé par rapport aux capacités de la route.</p><p>Les embouteillages sur l'autoroute et, corollairement, le report de trafic sur la route cantonale sont une source de stress pour la population locale et nuisent à l'accessibilité des villages à l'intérieur du canton. De même, le tourisme est entravé dans son développement, en particulier dans l'Oberland uranais.</p><p>Avec d'autres services fédéraux, l'Office fédéral du développement territorial établit des scénarios quant aux évolutions futures des transports. Le volume des transports continuera à augmenter, comme le montrent les \" Perspectives d'évolution du transport 2050 \" du DETEC. Selon le scénario principal \" Base \", la croissance du transport sera certes moins forte que celle de la population, mais les prestations de transport du trafic voyageurs (en voyageurs-kilomètres) augmenteront tout de même de 11 % d'ici 2050 par rapport à l'année de référence 2017 et le transport de marchandises de 31 %.</p><p>Le scénario \" Base \" part de l'hypothèse que la planification des transports et l'aménagement du territoire sont dûment mis en oeuvre selon l'orientation décidée par le Conseil fédéral dans le document \" Mobilité et territoire 2050 \". Ce scénario de base est toutefois plutôt axé sur les agglomérations. Or, l'augmentation du trafic est en grande partie générée par le trafic de loisirs et de vacances. Avec l'accord sur les transports terrestres que la Suisse a conclu avec l'UE, il existe également au niveau international un accord selon lequel le transport transalpin de marchandises doit être respectueux de l'environnement. La mise en service du second tube du Saint-Gothard en 2029 et la remise en état du premier tube qui suivra ne changeront rien à la capacité du trafic. En effet, l'art. 84 de la Constitution fédérale, qui régit la protection des Alpes, interdit l'augmentation de la capacité des routes de transit des régions alpines.</p><p>La situation au Saint-Gothard ne va donc pas s'améliorer toute seule.</p><p>L'Office fédéral des routes et la police cantonale uranaise tentent d'y remédier par diverses mesures, mais cela ne permet au mieux que d'atténuer quelque peu les inconvénients. Le problème de congestion reste entier.</p><p>Nous vous prions par conséquent d'entreprendre les démarches nécessaires pour traiter la présente initiative.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Se fondant sur l'art. 160, al. 1, de la Constitution fédérale de la Confédération suisse du 18 avril 1999 (Cst. ; RS 101), le canton d'Uri dépose l'initiative suivante concernant le système de régulation au Gothard :</p><p>L'Assemblée fédérale est invitée à créer les bases légales ou à modifier la loi fédérale sur la circulation routière (LCR ; RS 741.01) de manière à ce qu'il soit possible de mieux réguler le volume de circulation sur l'axe de transit du Gothard et d'améliorer la situation afin de la rendre supportable pour le canton d'Uri. On envisagera notamment d'incorporer les éléments suivants à la base légale pour réguler le volume de circulation et les habitudes de déplacement des usagers et usagères de la route :</p><p>- Des mesures de gestion du trafic doivent être prises pour fluidifier la circulation dans le tunnel routier du Gothard sans augmenter la capacité de la route (feux de signalisation avec décompte de temps, vitesse minimale de 80 km/h, etc.) ;</p><p>- Des mesures doivent être prises pour faire de l'autoroute l'itinéraire principal du transport routier en transit. La route cantonale doit servir principalement à la desserte intracantonale (gestion des bretelles de sortie et d'accès à l'autoroute en cas de surcharge, etc.).</p><p>- A moyen terme, il convient de planifier des mesures pour adapter l'afflux routier maximal au volume de capacité actuel et futur du corridor routier du Gothard et de réduire ainsi les effets négatifs du trafic de transit sur le canton d'Uri. Il s'agit notamment d'étudier la faisabilité d'un système de réservation en ligne de créneaux de circulation dans le tunnel du Gothard, et ce tant du point de vue technique que légal.</p><p>- La problématique du transport routier en transit à travers les Alpes doit être abordée lors des prochaines négociations sur l'accord sur les transports terrestres conclu avec l'Union européenne, y compris dans l'éventualité d'un cycle de négociations \" Bilatérales III \".</p><p>- L'objectif légal de transférer de la route au rail le transport transalpin de marchandises n'a pas encore pu être concrétisé dans la mesure souhaitée. Des mesures coordonnées au niveau international restent donc nécessaires pour que les objectifs de la politique de transfert puissent être atteints. Cela implique également le développement d'offres ferroviaires compétitives avec les capacités correspondantes, qui contribuent à désengorger la route.</p>"
+      "value": "<p>Se fondant sur l'art. 160, al. 1, de la Constitution fédérale de la Confédération suisse du 18 avril 1999 (Cst. ; RS 101), le canton d'Uri dépose l'initiative suivante concernant le système de régulation au Gothard :</p><p>L'Assemblée fédérale est invitée à créer les bases légales ou à modifier la loi fédérale sur la circulation routière (LCR ; RS 741.01) de manière à ce qu'il soit possible de mieux réguler le volume de circulation sur l'axe de transit du Gothard et d'améliorer la situation afin de la rendre supportable pour le canton d'Uri. On envisagera notamment d'incorporer les éléments suivants à la base légale pour réguler le volume de circulation et les habitudes de déplacement des usagers et usagères de la route :</p><p>- Des mesures de gestion du trafic doivent être prises pour fluidifier la circulation dans le tunnel routier du Gothard sans augmenter la capacité de la route (feux de signalisation avec décompte de temps, vitesse minimale de 80 km/h, etc.) ;</p><p>- Des mesures doivent être prises pour faire de l'autoroute l'itinéraire principal du transport routier en transit. La route cantonale doit servir principalement à la desserte intracantonale (gestion des bretelles de sortie et d'accès à l'autoroute en cas de surcharge, etc.).</p><p>- A moyen terme, il convient de planifier des mesures pour adapter l'afflux routier maximal au volume de capacité actuel et futur du corridor routier du Gothard et de réduire ainsi les effets négatifs du trafic de transit sur le canton d'Uri. Il s'agit notamment d'étudier la faisabilité d'un système de réservation en ligne de créneaux de circulation dans le tunnel du Gothard, et ce tant du point de vue technique que légal.</p><p>- La problématique du transport routier en transit à travers les Alpes doit être abordée lors des prochaines négociations sur l'accord sur les transports terrestres conclu avec l'Union européenne, y compris dans l'éventualité d'un cycle de négociations \" Bilatérales III \".</p><p>- L'objectif légal de transférer de la route au rail le transport transalpin de marchandises n'a pas encore pu être concrétisé dans la mesure souhaitée. Des mesures coordonnées au niveau international restent donc nécessaires pour que les objectifs de la politique de transfert puissent être atteints. Cela implique également le développement d'offres ferroviaires compétitives avec les capacités correspondantes, qui contribuent à désengorger la route.</p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Système de régulation du transport routier en transit par le Gothard"
+      "value": "Système de régulation du transport routier en transit par le Saint-Gothard"
     }
   ],
-  "title": "Système de régulation du transport routier en transit par le Gothard"
+  "title": "Système de régulation du transport routier en transit par le Saint-Gothard"
 }

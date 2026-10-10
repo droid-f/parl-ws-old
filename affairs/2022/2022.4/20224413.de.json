@@ -1,6 +1,6 @@
 {
   "id": 20224413,
-  "updated": "2023-03-13T17:55:10Z",
+  "updated": "2026-05-20T21:01:37Z",
   "additionalIndexing": "15;2811;2846;44",
   "affairType": {
     "abbreviation": "Mo.",
@@ -55,6 +55,21 @@
             "date": "2023-03-13T00:00:00Z",
             "text": "Annahme",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-25T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
           }
         ]
       },
@@ -68,7 +83,99 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-09-01T09:17:42Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3163,
+                    "gender": "m",
+                    "id": 4271,
+                    "name": "Kamerzin Sidney",
+                    "officialDenomination": "Kamerzin"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-SR",
+            "id": 25,
+            "name": "Kommission für Rechtsfragen SR",
+            "abbreviation1": "RK-S",
+            "abbreviation2": "RK",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-14T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "RK-NR",
+            "id": 12,
+            "name": "Kommission für Rechtsfragen NR",
+            "abbreviation1": "RK-N",
+            "abbreviation2": "RK",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-12-14T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -89,8 +196,33 @@
         },
         {
           "date": "/Date(1678662000000+0100)/",
-          "id": 11,
-          "name": "Motion an 2. Rat"
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1688421600000+0200)/",
+          "id": 208,
+          "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1693519200000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
+        },
+        {
+          "date": "/Date(1695333600000+0200)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1695592800000+0200)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
+        },
+        {
+          "date": "/Date(1774994400000+0200)/",
+          "id": 215,
+          "name": "Berichterstattung zum Umsetzungsstand des Vorstosses liegt vor"
         }
       ],
       "texts": [
@@ -181,10 +313,9 @@
   ],
   "shortId": "22.4413",
   "state": {
-    "id": 11,
-    "name": "Motion an 2. Rat",
+    "id": 215,
+    "name": "Berichterstattung zum Umsetzungsstand des Vorstosses liegt vor",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -193,29 +324,29 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Gemäss Artikel 2 Absatz 2 Buchstabe a Bundesgesetz über den Erwerb von Grundstücken durch Personen im Ausland (BewG; SR 211.412.41) bedarf der Erwerb von Grundstücken durch Personen im Ausland keiner Bewilligung, wenn das Grundstück als ständige Betriebsstätte eines Handels-, Fabrikations- oder eines anderen nach kaufmännischer Art geführten Gewerbes, eines Handwerksbetriebes oder eines freien Berufes dient. Gemäss Artikel 3 der Verordnung über den Erwerb von Grundstücken durch Personen im Ausland (BewV; SR 211.412.411) begründet jedoch heute die Verwendung des Grundstückes für die Erstellung oder gewerbsmässige Vermietung von Wohnraum, der nicht zu einem Hotel oder Apparthotel gehört, keine Betriebsstätte im Sinne von Artikel 2 Absatz 2 Buchstabe a BewG. </p><p>Für den Erwerb von betriebsnotwendigen Personalwohnungen (PW) durch ausländisch beherrschte Hotelbetriebe stellte in Graubünden die kantonale Bewilligungsbehörde in der jüngeren<b> </b>Vergangenheit im Zusammenhang mit einer Betriebsstätte mehrmals die Nichtbewilligungspflicht fest. Für die kantonale Bewilligungsbehörde war die Betriebsnotwendigkeit von Personalunterkünften in den Tourismusorten ebenso notorisch wie die Tatsache, dass solche Personalwohnungen kaum verfügbar sind. Ein Hotelbetrieb ist sehr personalintensiv und im Betrieb wie auch bei der Rekrutierung des Hotelpersonals dringend auf eigene Personalunterkünfte angewiesen. Insbesondere in den Saisonbetrieben in Berggebieten ist die zur Verfügungstellung von Möglichkeiten zum Wohnen auf Zeit ein matchentscheidendes Kriterium, um Mitarbeitende engagieren zu können. Dabei spielt es keine Rolle, in welcher Kategorie der Beherbergungsbetrieb positioniert ist. Vielmehr ist entscheidend, wie viele Mitarbeitende ein Betrieb zweimal pro Jahr immer wieder gewinnen muss. Sofern eine<b> </b>Mitarbeiterin oder ein Mitarbeiter für einen kurzen Zeitraum (wenige Monate) selber noch einen persönlichen Wohnraum organisieren muss, ist dies für den Betrieb ein klarer Wettbewerbsnachteil. Insbesondere in Destinationen, in welchen das Wohnen im Vergleich teuer oder sogar sehr teuer ist (wie im Engadin, auf der Lenzerheide oder in Davos und Arosa), wird dieser Wettbewerbsnachteil für die Personalgewinnung noch verstärkt. Es gilt des Weiteren zu beachten, dass bei den Arbeitszeiten in der Hotellerie dem Arbeitsweg eine grössere Bedeutung zukommt als dies bei Büroarbeiten der Fall ist. Dies deshalb, da bei Arbeiten mit Zimmerstunden (fast alle Küchenmitarbeitenden etc.) der Arbeitsweg pro Tag in der Regel viermal und nicht nur zweimal gemacht wird. Also ist auch die Distanz Arbeitsort zu Wohnort ein Wettbewerbsfaktor zur Gewinnung von Mitarbeitenden. In einer Saisondestination kann das bedeuten, dass zweimal im Jahr - je nach Betriebsgrösse - dutzende oder gar hunderte Wohneinheiten dem Betrieb zur Verfügung stehen müssen. Es ist somit klar, dass ein Personalhaus in einer Feriendestination funktional einem Hotelbetrieb zugeordnet werden muss. Gegen eine entsprechende Verfügung vom 24. August 2018 erhob das Bundesamt für Justiz (BJ) Beschwerde an das Verwaltungsgericht Graubünden, welche zuerst abgewiesen, dann aber vom Bundesgericht (Entscheid 2C_589/2020 vom 22. März 2021) gutgeheissen wurde. Das Bundesgericht begründete den Entscheid im Gegensatz zum Verwaltungsgericht damit, dass unter den Begriff der bewilligungsfreien Betriebsstätte nur Grundstücke subsumiert werden könnten, welche direkt der wirtschaftlichen Tätigkeit eines entsprechenden Unternehmens dienen. Nach der bestehenden Verordnung müsse die wirtschaftliche Tätigkeit in der Liegenschaft stattfinden. Zudem bestimme der heutige Artikel 3 BewV, dass die Verwendung eines Grundstücks für die Erstellung oder gewerbsmässige Vermietung von Wohnraum, der nicht zu einem Hotel oder Apparthotel gehöre, keine Betriebsstätte begründe. Wenn somit die Liegenschaft gewöhnlichen Wohnzwecken diene, und sei es auch fürs Personal, und nicht ein gewisser Hotelservice sichergestellt sei, gelte sie entgegen der Praxis der Behörde nicht als Teil der Hotelbetriebsstätte. </p><p>Die Auslegung von Artikel 3 BewV durch das Bundesgericht ist zu eng. Sie verschärft den Wohnungsmangel und die schwierige Wohnungssituation des Personals in den Tourismusgebieten erheblich. Damit die von der Hotellerie dringend benötigten eigenen Personalwohnungen dennoch realisiert werden können, wird der Bundesrat mit dieser Motion aufgefordert, die BewV anzupassen. Konkret wird folgende Änderung von Artikel 3 BewV vorgeschlagen: Die Verwendung des Grundstückes für die Erstellung oder gewerbsmässige Vermietung von Wohnraum, der nicht zu einem Hotel oder Apparthotel gehört, begründet keine Betriebsstätte im Sinne von Artikel 2 Absatz 2 Buchstabe a BewG. Davon ausgenommen ist Wohnraum, der einem Hotel oder Aparthotel zur Unterbringung von betriebsnotwendigem Personal dient. </p>"
+      "value": "<p>Gemäss Artikel&nbsp;2 Absatz&nbsp;2 Buchstabe&nbsp;a Bundesgesetz über den Erwerb von Grundstücken durch Personen im Ausland (BewG; SR 211.412.41) bedarf der Erwerb von Grundstücken durch Personen im Ausland keiner Bewilligung, wenn das Grundstück als ständige Betriebsstätte eines Handels-, Fabrikations- oder eines anderen nach kaufmännischer Art geführten Gewerbes, eines Handwerksbetriebes oder eines freien Berufes dient. Gemäss Artikel&nbsp;3 der Verordnung über den Erwerb von Grundstücken durch Personen im Ausland (BewV; SR 211.412.411) begründet jedoch heute die Verwendung des Grundstückes für die Erstellung oder gewerbsmässige Vermietung von Wohnraum, der nicht zu einem Hotel oder Apparthotel gehört, keine Betriebsstätte im Sinne von Artikel&nbsp;2 Absatz&nbsp;2 Buchstabe&nbsp;a BewG. </p><p>Für den Erwerb von betriebsnotwendigen Personalwohnungen (PW) durch ausländisch beherrschte Hotelbetriebe stellte in Graubünden die kantonale Bewilligungsbehörde in der jüngeren<b></b>Vergangenheit im Zusammenhang mit einer Betriebsstätte mehrmals die Nichtbewilligungspflicht fest. Für die kantonale Bewilligungsbehörde war die Betriebsnotwendigkeit von Personalunterkünften in den Tourismusorten ebenso notorisch wie die Tatsache, dass solche Personalwohnungen kaum verfügbar sind. Ein Hotelbetrieb ist sehr personalintensiv und im Betrieb wie auch bei der Rekrutierung des Hotelpersonals dringend auf eigene Personalunterkünfte angewiesen. Insbesondere in den Saisonbetrieben in Berggebieten ist die zur Verfügungstellung von Möglichkeiten zum Wohnen auf Zeit ein matchentscheidendes Kriterium, um Mitarbeitende engagieren zu können. Dabei spielt es keine Rolle, in welcher Kategorie der Beherbergungsbetrieb positioniert ist. Vielmehr ist entscheidend, wie viele Mitarbeitende ein Betrieb zweimal pro Jahr immer wieder gewinnen muss. Sofern eine<b></b>Mitarbeiterin oder ein Mitarbeiter für einen kurzen Zeitraum (wenige Monate) selber noch einen persönlichen Wohnraum organisieren muss, ist dies für den Betrieb ein klarer Wettbewerbsnachteil. Insbesondere in Destinationen, in welchen das Wohnen im Vergleich teuer oder sogar sehr teuer ist (wie im Engadin, auf der Lenzerheide oder in Davos und Arosa), wird dieser Wettbewerbsnachteil für die Personalgewinnung noch verstärkt. Es gilt des Weiteren zu beachten, dass bei den Arbeitszeiten in der Hotellerie dem Arbeitsweg eine grössere Bedeutung zukommt als dies bei Büroarbeiten der Fall ist. Dies deshalb, da bei Arbeiten mit Zimmerstunden (fast alle Küchenmitarbeitenden etc.) der Arbeitsweg pro Tag in der Regel viermal und nicht nur zweimal gemacht wird. Also ist auch die Distanz Arbeitsort zu Wohnort ein Wettbewerbsfaktor zur Gewinnung von Mitarbeitenden. In einer Saisondestination kann das bedeuten, dass zweimal im Jahr - je nach Betriebsgrösse - dutzende oder gar hunderte Wohneinheiten dem Betrieb zur Verfügung stehen müssen. Es ist somit klar, dass ein Personalhaus in einer Feriendestination funktional einem Hotelbetrieb zugeordnet werden muss. Gegen eine entsprechende Verfügung vom 24. August 2018 erhob das Bundesamt für Justiz (BJ) Beschwerde an das Verwaltungsgericht Graubünden, welche zuerst abgewiesen, dann aber vom Bundesgericht (Entscheid 2C_589/2020 vom 22. März 2021) gutgeheissen wurde. Das Bundesgericht begründete den Entscheid im Gegensatz zum Verwaltungsgericht damit, dass unter den Begriff der bewilligungsfreien Betriebsstätte nur Grundstücke subsumiert werden könnten, welche direkt der wirtschaftlichen Tätigkeit eines entsprechenden Unternehmens dienen. Nach der bestehenden Verordnung müsse die wirtschaftliche Tätigkeit in der Liegenschaft stattfinden. Zudem bestimme der heutige Artikel&nbsp;3 BewV, dass die Verwendung eines Grundstücks für die Erstellung oder gewerbsmässige Vermietung von Wohnraum, der nicht zu einem Hotel oder Apparthotel gehöre, keine Betriebsstätte begründe. Wenn somit die Liegenschaft gewöhnlichen Wohnzwecken diene, und sei es auch fürs Personal, und nicht ein gewisser Hotelservice sichergestellt sei, gelte sie entgegen der Praxis der Behörde nicht als Teil der Hotelbetriebsstätte. </p><p>Die Auslegung von Artikel&nbsp;3 BewV durch das Bundesgericht ist zu eng. Sie verschärft den Wohnungsmangel und die schwierige Wohnungssituation des Personals in den Tourismusgebieten erheblich. Damit die von der Hotellerie dringend benötigten eigenen Personalwohnungen dennoch realisiert werden können, wird der Bundesrat mit dieser Motion aufgefordert, die BewV anzupassen. Konkret wird folgende Änderung von Artikel&nbsp;3 BewV vorgeschlagen: Die Verwendung des Grundstückes für die Erstellung oder gewerbsmässige Vermietung von Wohnraum, der nicht zu einem Hotel oder Apparthotel gehört, begründet keine Betriebsstätte im Sinne von Artikel&nbsp;2 Absatz&nbsp;2 Buchstabe&nbsp;a BewG. Davon ausgenommen ist Wohnraum, der einem Hotel oder Aparthotel zur Unterbringung von betriebsnotwendigem Personal dient. </p>"
     },
     {
       "type": {
         "id": 14,
         "name": "Antwort BR / Büro"
       },
-      "value": "<p>Gemäss dem Bundesgesetz über den Erwerb von Grundstücken durch Personen im Ausland (BewG; SR 211.412.41) müssen ausländische Personen grundsätzlich um eine Bewilligung ersuchen, bevor sie ein Grundstück in der Schweiz erwerben dürfen. Je nach Art der Nutzung des Grundstücks entfällt diese Bewilligungspflicht jedoch. Welche Erwerbe aufgrund des Verwendungszweckes eines Grundstücks von der Bewilligungspflicht ausgenommen sind, ist in Artikel 2 BewG geregelt. Zur Umsetzung des Anliegens des Motionärs wäre eine Anpassung des Gesetzes erforderlich, da eine weitere Nutzungsart von Grundstücken vom Geltungsbereich des BewG ausgenommen werden soll. Eine Ergänzung von Artikel 3 der Verordnung über den Erwerb von Grundstücken durch Personen im Ausland (BewV; SR 211.412.411) ist dafür nicht ausreichend. Diese Bestimmung definiert einzig den Begriff der \"Betriebsstätte\".</p><p>Mit der Revision des BewG im Jahr 1997 wurden Personen im Ausland von der Bewilligungspflicht befreit, wenn sie ein Grundstück erwerben, welches der Ausübung einer wirtschaftlichen Tätigkeit eines Unternehmens dient (Art. 2 Abs. 2 Bst. a BewG). Um den Erwerb von Grundstücken mit Betriebsstätten nicht unnötig zu erschweren oder zu verunmöglichen, wurden durch Wohnanteilsvorschriften vorgeschriebene Wohnungen auf solchen Grundstücken ebenfalls von der Bewilligungspflicht befreit (Art. 2 Abs. 3 BewG). Nach der Rechtsprechung des Bundesgerichts kann ein Miterwerb von Wohnungen unter dem Titel der Betriebsstätte zudem bei Betriebsnotwendigkeit zugelassen werden. Bereits heute ist also beim Erwerb eines Betriebsstättegrundstücks ein Miterwerb von Wohnungen zulässig. Ein Ausbau dieser Möglichkeiten ist nicht angezeigt.</p><p>Das Vorhaben des Motionärs würde es erlauben, dass Personalwohnungen auch durch Dritte erworben und anschliessend als Wohnungen zur Unterbringung von Personal vermietet werden können. Damit würde eine neue reine Kapitalanlagemöglichkeit von Personen im Ausland in Wohnraum geschaffen, was dem Grundgedanken des BewG zuwiderläuft.</p>"
+      "value": "<p>Gemäss dem Bundesgesetz über den Erwerb von Grundstücken durch Personen im Ausland (BewG; SR 211.412.41) müssen ausländische Personen grundsätzlich um eine Bewilligung ersuchen, bevor sie ein Grundstück in der Schweiz erwerben dürfen. Je nach Art der Nutzung des Grundstücks entfällt diese Bewilligungspflicht jedoch. Welche Erwerbe aufgrund des Verwendungszweckes eines Grundstücks von der Bewilligungspflicht ausgenommen sind, ist in Artikel 2 BewG geregelt. Zur Umsetzung des Anliegens des Motionärs wäre eine Anpassung des Gesetzes erforderlich, da eine weitere Nutzungsart von Grundstücken vom Geltungsbereich des BewG ausgenommen werden soll. Eine Ergänzung von Artikel 3 der Verordnung über den Erwerb von Grundstücken durch Personen im Ausland (BewV; SR 211.412.411) ist dafür nicht ausreichend. Diese Bestimmung definiert einzig den Begriff der \"Betriebsstätte\".</p><p>Mit der Revision des BewG im Jahr 1997 wurden Personen im Ausland von der Bewilligungspflicht befreit, wenn sie ein Grundstück erwerben, welches der Ausübung einer wirtschaftlichen Tätigkeit eines Unternehmens dient (Art. 2 Abs. 2 Bst. a BewG). Um den Erwerb von Grundstücken mit Betriebsstätten nicht unnötig zu erschweren oder zu verunmöglichen, wurden durch Wohnanteilsvorschriften vorgeschriebene Wohnungen auf solchen Grundstücken ebenfalls von der Bewilligungspflicht befreit (Art. 2 Abs. 3 BewG). Nach der Rechtsprechung des Bundesgerichts kann ein Miterwerb von Wohnungen unter dem Titel der Betriebsstätte zudem bei Betriebsnotwendigkeit zugelassen werden. Bereits heute ist also beim Erwerb eines Betriebsstättegrundstücks ein Miterwerb von Wohnungen zulässig. Ein Ausbau dieser Möglichkeiten ist nicht angezeigt.</p><p>Das Vorhaben des Motionärs würde es erlauben, dass Personalwohnungen auch durch Dritte erworben und anschliessend als Wohnungen zur Unterbringung von Personal vermietet werden können. Damit würde eine neue reine Kapitalanlagemöglichkeit von Personen im Ausland in Wohnraum geschaffen, was dem Grundgedanken des BewG zuwiderläuft.</p>  Der Bundesrat beantragt die Ablehnung der Motion."
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Der Bundesrat wird beauftragt, Artikel 3 BewV so zu ändern, dass Hotels der Bau von Personalwohnungen gemäss BewV ermöglicht werden soII. Wohnraum, der einem Hotel oder Aparthotel zur Unterbringung von betriebsnotwendigem Personal dient, bildet Teil einer Betriebsstätte im Sinne von Artikel 2 Absatz 2 Buchstabe a BewG.</p>"
+      "value": "<p>Der Bundesrat wird beauftragt, Artikel&nbsp;3 BewV so zu ändern, dass Hotels der Bau von Personalwohnungen gemäss BewV ermöglicht werden soll. Wohnraum, der einem Hotel oder Aparthotel zur Unterbringung von betriebsnotwendigem Personal dient, bildet Teil einer Betriebsstätte im Sinne von Artikel&nbsp;2 Absatz&nbsp;2 Buchstabe&nbsp;a BewG.</p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Wohnungsknappheit in Tourismusgemeinden. Ergänzung von Artikel 3 BewV, Personalwohnungen von Hotels als Teil einer Betriebsstätte anerkennen"
+      "value": "Wohnungsknappheit in Tourismusgemeinden. Ergänzung von Artikel 3 BewV, Personalwohnungen von Hotels als Teil einer Betriebsstätte anerkennen "
     }
   ],
-  "title": "Wohnungsknappheit in Tourismusgemeinden. Ergänzung von Artikel 3 BewV, Personalwohnungen von Hotels als Teil einer Betriebsstätte anerkennen"
+  "title": "Wohnungsknappheit in Tourismusgemeinden. Ergänzung von Artikel 3 BewV, Personalwohnungen von Hotels als Teil einer Betriebsstätte anerkennen "
 }

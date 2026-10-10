@@ -1,6 +1,6 @@
 {
   "id": 20220405,
-  "updated": "2022-03-25T09:46:56Z",
+  "updated": "2026-10-02T11:47:58Z",
   "additionalIndexing": "15;55;52",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -12,7 +12,7 @@
       "abbreviation": "CET-CN",
       "id": 10,
       "name": "Commissione dell'economia e dei tributi CN",
-      "abbreviation1": "CET-CN",
+      "abbreviation1": "CET-N",
       "abbreviation2": "CET",
       "committeeNumber": 10,
       "council": {
@@ -52,7 +52,7 @@
               "abbreviation": "CET-CN",
               "id": 10,
               "name": "Commissione dell'economia e dei tributi CN",
-              "abbreviation1": "CET-CN",
+              "abbreviation1": "CET-N",
               "abbreviation2": "CET",
               "committeeNumber": 10,
               "council": {
@@ -74,22 +74,52 @@
               "name": "Normale"
             },
             "committee": {
-              "abbreviation": "CET-CN",
-              "id": 10,
-              "name": "Commissione dell'economia e dei tributi CN",
-              "abbreviation1": "CET-CN",
+              "abbreviation": "CET-CS",
+              "id": 23,
+              "name": "Commissione dell'economia e dei tributi CS",
+              "abbreviation1": "CET-S",
               "abbreviation2": "CET",
-              "committeeNumber": 10,
+              "committeeNumber": 23,
               "council": {
-                "abbreviation": "CN",
-                "id": 1,
-                "name": "Consiglio nazionale",
-                "type": "N"
+                "abbreviation": "CS",
+                "id": 2,
+                "name": "Consiglio degli Stati",
+                "type": "S"
               },
               "typeCode": 1
             },
             "council": null,
-            "date": "2022-02-22T00:00:00Z",
+            "date": "2023-01-16T00:00:00Z",
+            "text": "Nessuna adesione",
+            "type": 49
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-21T00:00:00Z",
+            "text": "È dato seguito",
+            "type": 16
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-03-11T00:00:00Z",
             "text": "È dato seguito",
             "type": 16
           }
@@ -99,15 +129,59 @@
       },
       "index": 0,
       "links": [
-
+        {
+          "date": "/Date(1745532000000+0200)/",
+          "title": "Consultazione",
+          "url": "https://www.parlament.ch/it/organe/commissioni/commissioni-tematiche/commissioni-cet/rapporti-consultazioni-cet/vernehmlassung-wak-22-405"
+        }
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-20T10:35:34Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2783,
+                    "gender": "m",
+                    "id": 4078,
+                    "name": "Schmid Martin",
+                    "officialDenomination": "Schmid Martin"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
         {
           "committee": {
             "abbreviation": "CET-CN",
             "id": 10,
             "name": "Commissione dell'economia e dei tributi CN",
-            "abbreviation1": "CET-CN",
+            "abbreviation1": "CET-N",
             "abbreviation2": "CET",
             "committeeNumber": 10,
             "council": {
@@ -124,15 +198,180 @@
               "correspondents": [
 
               ]
+            },
+            {
+              "correspondents": [
+
+              ],
+              "sessionId": "5122"
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "CET-CS",
             "id": 23,
             "name": "Commissione dell'economia e dei tributi CS",
-            "abbreviation1": "CET-CS",
+            "abbreviation1": "CET-S",
+            "abbreviation2": "CET",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-02-22T00:00:00Z",
+          "registrations": [
+            {
+              "correspondents": [
+
+              ]
+            }
+          ],
+          "treatmentCategory": "IV"
+        }
+      ],
+      "references": [
+        {
+          "date": "/Date(1768172400000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "258",
+            "source": "FF 2026 258",
+            "type": {
+              "id": 1,
+              "name": "Foglio federale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/it/federal-gazette/2026/258.pdf",
+            "year": "2026"
+          },
+          "type": {
+            "id": 6,
+            "name": "Rapporto"
+          }
+        },
+        {
+          "date": "/Date(1776808800000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "1087",
+            "source": "FF 2026 1087",
+            "type": {
+              "id": 1,
+              "name": "Foglio federale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/it/federal-gazette/2026/1087.pdf",
+            "year": "2026"
+          },
+          "type": {
+            "id": 2,
+            "name": "Parere del Consiglio federale"
+          }
+        }
+      ],
+      "relatedDepartments": [
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Dipartimento dell'economia, della formazione e della ricerca",
+          "leading": true
+        },
+        {
+          "abbreviation": "Parl",
+          "id": 1,
+          "name": "Parlamento",
+          "leading": false
+        }
+      ],
+      "states": [
+        {
+          "date": "/Date(1645484400000+0100)/",
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1695247200000+0200)/",
+          "id": 225,
+          "name": "Esame preliminare - nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1708383600000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1710111600000+0100)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1768258800000+0100)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1789509600000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1789596000000+0200)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        }
+      ],
+      "texts": [
+
+      ]
+    },
+    {
+      "consultation": {
+        "resolutions": [
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2026-09-16T00:00:00Z",
+            "text": "Decisione secondo il disegno (progetto)",
+            "type": 62
+          }
+        ]
+      },
+      "federalCouncilProposal": {
+      },
+      "index": 1,
+      "links": [
+        {
+          "date": "/Date(1789596000000+0200)/",
+          "title": "Consultazione",
+          "url": "https://www.parlament.ch/it/organe/commissioni/commissioni-tematiche/commissioni-cet/rapporti-consultazioni-cet/vernehmlassung-wak-22-405"
+        }
+      ],
+      "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CET-CS",
+            "id": 23,
+            "name": "Commissione dell'economia e dei tributi CS",
+            "abbreviation1": "CET-S",
             "abbreviation2": "CET",
             "committeeNumber": 23,
             "council": {
@@ -146,29 +385,226 @@
           "date": "2022-02-22T00:00:00Z",
           "registrations": [
 
+          ],
+          "treatmentCategory": "IIIb/IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-01-13T17:20:29Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2796,
+                    "gender": "f",
+                    "id": 4090,
+                    "name": "Amaudruz Céline",
+                    "officialDenomination": "Amaudruz"
+                  },
+                  "language": "fr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CET-CN",
+            "id": 10,
+            "name": "Commissione dell'economia e dei tributi CN",
+            "abbreviation1": "CET-N",
+            "abbreviation2": "CET",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2022-02-22T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IIIb/IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-01-13T17:20:28Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Consiglio nazionale",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3131,
+                    "gender": "m",
+                    "id": 4230,
+                    "name": "Bregy Philipp Matthias",
+                    "officialDenomination": "Bregy"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
           ]
         }
       ],
       "references": [
-
+        {
+          "date": "/Date(1768172400000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "259",
+            "source": "FF 2026 259",
+            "type": {
+              "id": 1,
+              "name": "Foglio federale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/it/federal-gazette/2026/259.pdf",
+            "year": "2026"
+          },
+          "title": "Legge federale sull’agricoltura (Legge sull’agricoltura, LAgr)",
+          "type": {
+            "id": 1,
+            "name": "Oggetto in deliberazione / progetto"
+          }
+        },
+        {
+          "date": "/Date(1768172400000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "258",
+            "source": "FF 2026 258",
+            "type": {
+              "id": 1,
+              "name": "Foglio federale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/it/federal-gazette/2026/258.pdf",
+            "year": "2026"
+          },
+          "type": {
+            "id": 6,
+            "name": "Rapporto"
+          }
+        },
+        {
+          "date": "/Date(1776808800000+0200)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "1087",
+            "source": "FF 2026 1087",
+            "type": {
+              "id": 1,
+              "name": "Foglio federale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/it/federal-gazette/2026/1087.pdf",
+            "year": "2026"
+          },
+          "type": {
+            "id": 2,
+            "name": "Parere del Consiglio federale"
+          }
+        }
       ],
       "relatedDepartments": [
+        {
+          "abbreviation": "DEFR",
+          "id": 8,
+          "name": "Dipartimento dell'economia, della formazione e della ricerca",
+          "leading": true
+        },
         {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
-          "date": "/Date(1645484400000+0100)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "date": "/Date(1718316000000+0200)/",
+          "id": 201,
+          "name": "Annunciato"
+        },
+        {
+          "date": "/Date(1718402400000+0200)/",
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1719266400000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1768258800000+0100)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1779746400000+0200)/",
+          "id": 205,
+          "name": "Pianificato nel Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1789509600000+0200)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
         }
       ],
       "texts": [
-
+        {
+          "type": {
+            "id": 2,
+            "name": "Titolo del progetto"
+          },
+          "value": "Legge federale sull’agricoltura (Legge sull’agricoltura, LAgr)"
+        }
       ]
     }
   ],
@@ -191,7 +627,7 @@
         "abbreviation": "CET-CN",
         "id": 10,
         "name": "Commissione dell'economia e dei tributi CN",
-        "abbreviation1": "CET-CN",
+        "abbreviation1": "CET-N",
         "abbreviation2": "CET",
         "committeeNumber": 10,
         "council": {
@@ -207,8 +643,8 @@
   ],
   "shortId": "22.405",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 204,
+    "name": "Assegnato alla commissione competente",
     "doneKey": "0",
     "newKey": 0
   },

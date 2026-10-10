@@ -1,6 +1,6 @@
 {
   "id": 20213294,
-  "updated": "2023-03-02T12:09:12Z",
+  "updated": "2026-06-12T08:36:39Z",
   "additionalIndexing": "2841",
   "affairType": {
     "abbreviation": "Mo.",
@@ -69,6 +69,51 @@
             "date": "2023-03-02T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-14T00:00:00Z",
+            "text": "Adozione",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2026-03-12T00:00:00Z",
+            "text": "Tolto dal ruolo nel quadro di un altro oggetto 25.074",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2026-06-11T00:00:00Z",
+            "text": "Tolto dal ruolo nel quadro di un altro oggetto 25.074",
+            "type": 0
           }
         ]
       },
@@ -84,10 +129,31 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-07-05T14:57:03Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CSS-CS",
             "id": 19,
             "name": "Commissione della sicurezza sociale e della sanità CS",
-            "abbreviation1": "CSSS-CS",
+            "abbreviation1": "CSSS-S",
             "abbreviation2": "CSSS",
             "committeeNumber": 19,
             "council": {
@@ -127,6 +193,48 @@
               "sessionId": "5118"
             }
           ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CSS-CN",
+            "id": 6,
+            "name": "Commissione della sicurezza sociale e della sanità",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-03-18T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-07-05T14:57:04Z",
+          "registrations": [
+
+          ]
         }
       ],
       "references": [
@@ -153,8 +261,38 @@
         },
         {
           "date": "/Date(1677711600000+0100)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1688076000000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1688421600000+0200)/",
+          "id": 231,
+          "name": "Fine delle discussioni della Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1694124000000+0200)/",
+          "id": 205,
+          "name": "Pianificato nel Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1694642400000+0200)/",
+          "id": 209,
+          "name": "Trasmesso al Consiglio federale"
+        },
+        {
+          "date": "/Date(1774994400000+0200)/",
+          "id": 215,
+          "name": "Il rapporto sullo stato di attuazione dell'intervento è disponibile"
+        },
+        {
+          "date": "/Date(1781128800000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -194,10 +332,9 @@
   ],
   "shortId": "21.3294",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -213,7 +350,7 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>Il Consiglio federale è convinto che la qualità del trattamento farmacologico e la sicurezza dei pazienti con polimorbilità debbano essere migliorate. In tal senso ha proposto al Parlamento di accogliere la mozione Stöckli 18.3512 \"Diritto a un piano di trattamento farmacologico per una maggiore sicurezza dei pazienti\", il quale l'ha accolta il 7 marzo 2019. La mozione chiede l'adozione di basi legali che conferiscano il diritto a un piano di trattamento farmacologico elettronico o cartaceo a tutti i pazienti che assumono parallelamente almeno tre medicamenti. L'attuazione di questa mozione è in corso. D'intesa con i rappresentanti delle organizzazioni dei pazienti, dei medici e dei farmacisti, l'Ufficio federale della sanità pubblica (UFSP) intende chiarire la procedura di gestione del piano, il ruolo e la responsabilità di ogni attore e gli aspetti tecnici e finanziari per assicurare al meglio la sua introduzione nella prassi. In stretto coordinamento con la realizzazione del piano farmacologico sono in corso anche i lavori per la sua integrazione nella cartella informatizzata del paziente.</p><p>La presente mozione persegue gli stessi obiettivi della mozione Stöckli18.3512, ma deve essere respinta per diversi motivi:</p><p>1.a. La presente mozione chiede che i professionisti della salute siano imperativamente tenuti a definire un piano di trattamento farmacologico per ogni paziente che assume medicamenti delle categorie di dispensazione A-D suscettibili di interagire. La mozione 18.3512 menziona il diritto a un piano di trattamento farmacologico per tutti i pazienti che assumono tre o più medicamenti ad azione sistemica. Su questo punto le due mozioni si contraddicono.</p><p>1.b / 1c Gli obiettivi dell'autore della mozione, ossia l'innalzamento della qualità dell'assistenza ai pazienti polimedicati e il miglioramento della loro sicurezza, possono essere raggiunti soltanto se tutte le informazioni concernenti lo stato di salute del paziente e i medicamenti che assume sono tenute aggiornate nel piano di trattamento farmacologico. Se non vi hanno accesso o vi hanno accesso solo in parte, i professionisti della salute non possono aggiornare le informazioni né verificare sistematicamente ogni singola terapia.</p><p>2.a La presente mozione prevede un obbligo esplicito per il personale sanitario. La mozione Stöckli 18.3512 prevede il diritto dei pazienti a un piano di trattamento farmacologico. Questo diritto dei pazienti corrisponde di fatto a un obbligo per i fornitori di prestazioni di offrire un piano di trattamento farmacologico. Gli obblighi e i compiti dei professionisti della salute nei confronti dei pazienti sono già definiti nella legislazione vigente e nelle direttive specifiche delle diverse professioni. Il Consiglio federale non vede quindi alcun motivo di estendere l'obbligo in questo senso.</p><p>2.b. Nel quadro dell'attuazione della mozione 18.3512 va chiarito il ruolo di ogni attore nella gestione del piano di trattamento farmacologico. Questo aspetto è attualmente discusso con i diversi attori.</p><p>3. Anche le questioni di finanziamento sono discusse nell'ambito dei lavori in corso. Occorre tuttavia precisare che le misure per la garanzia della qualità (p. es. qualità del trattamento farmacologico) fanno parte delle prestazioni fornite nel quadro dell'assicurazione obbligatoria delle cure medico-sanitarie. I relativi oneri possono essere considerati, e lo sono già, nella fatturazione delle tariffe. Definire e concordare le tariffe è compito dei partner tariffali.</p><p>Il Consiglio federale condivide la richiesta della presente mozione, ma, alla luce di quanto suesposto, chiede di respingerla. La mozione Stöckli 18.3512, già accolta, è sufficiente per introdurre il piano di trattamento farmacologico nella prassi clinica e farmacologica quotidiana. Inoltre, in sede di attuazione devono essere praticabili soluzioni che tengano conto il più possibile delle peculiarità regionali in materia di collaborazione interprofessionale.</p>"
+      "value": "<p>Il Consiglio federale è convinto che la qualità del trattamento farmacologico e la sicurezza dei pazienti con polimorbilità debbano essere migliorate. In tal senso ha proposto al Parlamento di accogliere la mozione Stöckli 18.3512 \"Diritto a un piano di trattamento farmacologico per una maggiore sicurezza dei pazienti\", il quale l'ha accolta il 7 marzo 2019. La mozione chiede l'adozione di basi legali che conferiscano il diritto a un piano di trattamento farmacologico elettronico o cartaceo a tutti i pazienti che assumono parallelamente almeno tre medicamenti. L'attuazione di questa mozione è in corso. D'intesa con i rappresentanti delle organizzazioni dei pazienti, dei medici e dei farmacisti, l'Ufficio federale della sanità pubblica (UFSP) intende chiarire la procedura di gestione del piano, il ruolo e la responsabilità di ogni attore e gli aspetti tecnici e finanziari per assicurare al meglio la sua introduzione nella prassi. In stretto coordinamento con la realizzazione del piano farmacologico sono in corso anche i lavori per la sua integrazione nella cartella informatizzata del paziente.</p><p>La presente mozione persegue gli stessi obiettivi della mozione Stöckli18.3512, ma deve essere respinta per diversi motivi:</p><p>1.a. La presente mozione chiede che i professionisti della salute siano imperativamente tenuti a definire un piano di trattamento farmacologico per ogni paziente che assume medicamenti delle categorie di dispensazione A-D suscettibili di interagire. La mozione 18.3512 menziona il diritto a un piano di trattamento farmacologico per tutti i pazienti che assumono tre o più medicamenti ad azione sistemica. Su questo punto le due mozioni si contraddicono.</p><p>1.b / 1c Gli obiettivi dell'autore della mozione, ossia l'innalzamento della qualità dell'assistenza ai pazienti polimedicati e il miglioramento della loro sicurezza, possono essere raggiunti soltanto se tutte le informazioni concernenti lo stato di salute del paziente e i medicamenti che assume sono tenute aggiornate nel piano di trattamento farmacologico. Se non vi hanno accesso o vi hanno accesso solo in parte, i professionisti della salute non possono aggiornare le informazioni né verificare sistematicamente ogni singola terapia.</p><p>2.a La presente mozione prevede un obbligo esplicito per il personale sanitario. La mozione Stöckli 18.3512 prevede il diritto dei pazienti a un piano di trattamento farmacologico. Questo diritto dei pazienti corrisponde di fatto a un obbligo per i fornitori di prestazioni di offrire un piano di trattamento farmacologico. Gli obblighi e i compiti dei professionisti della salute nei confronti dei pazienti sono già definiti nella legislazione vigente e nelle direttive specifiche delle diverse professioni. Il Consiglio federale non vede quindi alcun motivo di estendere l'obbligo in questo senso.</p><p>2.b. Nel quadro dell'attuazione della mozione 18.3512 va chiarito il ruolo di ogni attore nella gestione del piano di trattamento farmacologico. Questo aspetto è attualmente discusso con i diversi attori.</p><p>3. Anche le questioni di finanziamento sono discusse nell'ambito dei lavori in corso. Occorre tuttavia precisare che le misure per la garanzia della qualità (p. es. qualità del trattamento farmacologico) fanno parte delle prestazioni fornite nel quadro dell'assicurazione obbligatoria delle cure medico-sanitarie. I relativi oneri possono essere considerati, e lo sono già, nella fatturazione delle tariffe. Definire e concordare le tariffe è compito dei partner tariffali.</p><p>Il Consiglio federale condivide la richiesta della presente mozione, ma, alla luce di quanto suesposto, chiede di respingerla. La mozione Stöckli 18.3512, già accolta, è sufficiente per introdurre il piano di trattamento farmacologico nella prassi clinica e farmacologica quotidiana. Inoltre, in sede di attuazione devono essere praticabili soluzioni che tengano conto il più possibile delle peculiarità regionali in materia di collaborazione interprofessionale.</p>  Il Consiglio federale propone di respingere la mozione."
     },
     {
       "type": {

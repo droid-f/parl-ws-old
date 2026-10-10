@@ -1,18 +1,13 @@
 {
   "id": 20230430,
-  "updated": "2023-05-05T10:54:32Z",
+  "updated": "2026-06-04T14:20:10Z",
+  "additionalIndexing": "2446;15;04;08",
   "affairType": {
     "abbreviation": "Pa. Iv.",
     "id": 4,
     "name": "Parlamentarische Initiative"
   },
   "author": {
-    "faction": {
-      "abbreviation": "Fraktion S",
-      "code": "S",
-      "id": 2,
-      "name": "Sozialdemokratische Fraktion"
-    },
     "type": "author"
   },
   "deposit": {
@@ -33,7 +28,16 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 5,
+              "name": "Adm"
+            },
+            "council": null,
+            "date": "2023-05-10T00:00:00Z",
+            "text": "Zurückgezogen",
+            "type": 17
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -43,7 +47,48 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "WAK-SR",
+            "id": 23,
+            "name": "Kommission für Wirtschaft und Abgaben SR",
+            "abbreviation1": "WAK-S",
+            "abbreviation2": "WAK",
+            "committeeNumber": 23,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "WAK-NR",
+            "id": 10,
+            "name": "Kommission für Wirtschaft und Abgaben NR",
+            "abbreviation1": "WAK-N",
+            "abbreviation2": "WAK",
+            "committeeNumber": 10,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-08-25T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -59,8 +104,13 @@
       "states": [
         {
           "date": "/Date(1683151200000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1683669600000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -83,12 +133,6 @@
   ],
   "roles": [
     {
-      "faction": {
-        "abbreviation": "Fraktion S",
-        "code": "S",
-        "id": 2,
-        "name": "Sozialdemokratische Fraktion"
-      },
       "type": "author"
     },
     {
@@ -104,19 +148,33 @@
   ],
   "shortId": "23.430",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Begründung"
+      },
+      "value": "<p>Das OECD/G20-Projekt zur Besteuerung grosser Unternehmensgruppen (OECD-Mindeststeuer) ist uneingeschränkt zu begrüssen. Allerdings muss bei der nationalen Umsetzung darauf geachtet werden, dass die innerschweizerische Verteilung der Zusatzeinnahmen die Ungleichheit zwischen den Kantonen nicht weiter verschärft.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Eingereichter Text"
+      },
+      "value": "<p>Die Umsetzung des OECD/G20-Projekts zur Besteuerung grosser Unternehmensgruppen wird mit folgenden Eckpunkten umgesetzt:</p><p>- Der Bund oder die Kantone erheben eine Ergänzungssteuer</p><p>- Die zusätzlichen Einnahmen gehen zu je 50 Prozent an Bund und Kantone</p><p>- Die Rückzahlung an die Kantone erfolgt bis zu einem Maximalbetrag von 400 Franken pro Einwohner:in. Die darüber hinaus gehenden Anteile werden an alle Kantone gleichmässig umverteilt.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titel des Geschäftes"
       },
-      "value": "Umsetzung OECD/G20-Projekt zur Besteuerung grosser Unternehmensgruppen (2)"
+      "value": "Umsetzung des OECD/G20-Projekts zur Besteuerung grosser Unternehmensgruppen (2)"
     }
   ],
-  "title": "Umsetzung OECD/G20-Projekt zur Besteuerung grosser Unternehmensgruppen (2)"
+  "title": "Umsetzung des OECD/G20-Projekts zur Besteuerung grosser Unternehmensgruppen (2)"
 }

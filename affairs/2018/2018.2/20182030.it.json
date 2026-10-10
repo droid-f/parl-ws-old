@@ -1,6 +1,6 @@
 {
   "id": 20182030,
-  "updated": "2021-04-19T09:37:52Z",
+  "updated": "2026-05-20T02:04:56Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -22,7 +22,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2024-09-17T00:00:00Z",
+            "text": "La Camera prende atto che la Commissione ha trattato anche la petizione 18.2030 nel quadro dell’esame dell’oggetto 21.018 (cfr. art. 126 cpv. 2 LParl).",
+            "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2024-12-12T00:00:00Z",
+            "text": "La Camera prende atto che la Commissione ha trattato anche la petizione 18.2030 nel quadro dell’esame dell’oggetto 21.018 (cfr. art. 126 cpv. 2 LParl).",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -37,7 +66,7 @@
             "abbreviation": "CIP-CN",
             "id": 11,
             "name": "Commissione delle istituzioni politiche CN",
-            "abbreviation1": "CIP-CN",
+            "abbreviation1": "CIP-N",
             "abbreviation2": "CIP",
             "committeeNumber": 11,
             "council": {
@@ -58,7 +87,7 @@
             "abbreviation": "CPE-CS",
             "id": 17,
             "name": "Commissione della politica estera CS",
-            "abbreviation1": "CPE-CS",
+            "abbreviation1": "CPE-S",
             "abbreviation2": "CPE",
             "committeeNumber": 17,
             "council": {
@@ -74,6 +103,47 @@
             {
               "correspondents": [
 
+              ],
+              "sessionId": "5202"
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-07-17T10:23:56Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3136,
+                    "gender": "m",
+                    "id": 4237,
+                    "name": "Würth Benedikt",
+                    "officialDenomination": "Würth"
+                  },
+                  "language": "de"
+                }
               ]
             }
           ]
@@ -83,13 +153,28 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFAE",
+          "id": 3,
+          "name": "Dipartimento degli affari esteri",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1543532400000+0100)/",
-          "id": 9,
+          "id": 202,
           "name": "Depositato"
+        },
+        {
+          "date": "/Date(1729461600000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1733958000000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -109,8 +194,8 @@
   ],
   "shortId": "18.2030",
   "state": {
-    "id": 9,
-    "name": "Depositato",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
     "newKey": 0
   },

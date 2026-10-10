@@ -1,6 +1,6 @@
 {
   "id": 20233806,
-  "updated": "2023-06-21T16:08:44Z",
+  "updated": "2026-10-06T19:53:15Z",
   "additionalIndexing": "34;15;1236",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,10 +40,27 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2025-05-05T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-30T00:00:00Z",
+        "text": "Respingere"
       },
       "index": 0,
       "links": [
@@ -56,13 +73,28 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1686780000000+0200)/",
-          "id": 24,
-          "name": "Non ancora trattato dalla Camera"
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1693346400000+0200)/",
+          "id": 203,
+          "name": "La dichiarazione sull’intervento è disponibile"
+        },
+        {
+          "date": "/Date(1746396000000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -212,19 +244,40 @@
   ],
   "shortId": "23.3806",
   "state": {
-    "id": 24,
-    "name": "Non ancora trattato dalla Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
+    {
+      "type": {
+        "id": 6,
+        "name": "Motivazione"
+      },
+      "value": "<p>Già oggi i sistemi algoritmici e l'intelligenza artificiale sono utilizzati da attori statali e privati. Tuttavia, il loro impiego non è sempre evidente per tutti gli interessati. La trasparenza e la tracciabilità rientrano tra le misure raccomandate sia dagli esperti che dai rappresentanti dei settori interessati. L'obbligo di dichiarazione mira a garantire che sia obbligatorio dichiarare le componenti IA per tutte le applicazioni e i sistemi basati sull'intelligenza artificiale utilizzati in Svizzera. Questo include informazioni sugli algoritmi impiegati, le fonti di dati, i dati di addestramento e i metodi di valutazione. La comunicazione di tali informazioni consente di comprendere meglio il funzionamento e il potenziale delle applicazioni IA e di identificare eventuali pregiudizi, discriminazioni o effetti indesiderati. L'introduzione di un obbligo di dichiarazione per l'intelligenza artificiale rafforza la Svizzera nella sua posizione all'avanguardia nel campo dell'IA etica e in quanto Paese responsabile che prende sul serio la protezione della sfera privata, la lotta alla discriminazione e la promozione della trasparenza nello sviluppo tecnologico.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Risposta del CF / Ufficio"
+      },
+      "value": "<p>La questione della trasparenza nell'uso dei sistemi di IA è attualmente discussa sia nel contesto dei lavori dell'UE sull'AI Act, sia nei negoziati per un accordo vincolante sull'IA in seno al Consiglio d'Europa, presieduti dalla Svizzera. La trasparenza e la tracciabilità sono componenti importanti di entrambe le normative che si basano su un principio del rischio, che prevede requisiti normativi diversi in funzione dei rischi delle varie applicazioni. A seconda del contesto, si applica un approccio normativo graduale e differenziato. Attualmente l'UE non prevede l'obbligo di dichiarazione per le applicazioni per le quali sono previsti solo rischi minimi. Le modalità esatte secondo cui il Consiglio d'Europa formulerà tale approccio graduale sono attualmente ancora oggetto di negoziati. Tuttavia, si può ipotizzare che verrà concordato un obbligo di dichiarazione per le applicazioni che superano un certo livello di rischio (ma non per tutte le applicazioni di IA).&nbsp;</p><p>&nbsp;</p><p>Per la Svizzera, vale la pena sottolineare che la nuova legge sulla protezione dei dati (nLPD), che entrerà in vigore il 1° settembre 2023, prevede già l'obbligo di informare in caso una decisione si basi esclusivamente sul trattamento di dati personali automatizzato (art. 21 nLPD). La disposizione riguarda le decisioni che hanno un certo grado di complessità ed effetti giuridici o conseguenze significative sulla persona interessata. Si applica sia nel settore pubblico che in quello privato. L'art. 25 capoverso. 2 lettera f nLPD obbliga inoltre il responsabile del trattamento dati a comunicare alla persona interessata, nell'ambito del diritto di accesso, la logica su cui si fonda la decisione individuale automatica. Devono essere specificate anche la quantità e la natura dei dati utilizzati, nonché la rispettiva ponderazione. Queste informazioni consentono alla persona interessata di comprendere la decisione ed eventualmente di contestarla.</p><p>&nbsp;</p><p>Nella sua risposta al postulato Dobler (<a href=\"https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20233201\">23.3201</a>), il Consiglio federale ha già annunciato che entro la fine del 2024 elaborerà uno schema politico con possibili opzioni per misure normative settoriali e, se necessario, trasversali nel campo dell'IA. Le analisi verranno effettuate in seno a organi esistenti (in particolare la Piattaforma tripartita e il suo comitato amministrativo, il gruppo di coordinamento interdipartimentale per la politica digitale dell’UE, il monitoraggio delle linee guida della Confederazione sull’IA, e la CNAI), con il coinvolgimento di tutti gli enti federali interessati. Affronteranno anche la questione della misura in cui in Svizzera sia appropriato un regolamento relativo all'obbligo di dichiarazione dei sistemi di IA che vada oltre le regolamentazioni già previste dalla nLPD.</p>"
+    },
+    {
+      "type": {
+        "id": 5,
+        "name": "Testo depositato"
+      },
+      "value": "<p>Il Consiglio federale è incaricato di creare le basi legali affinché sia introdotto un obbligo di dichiarazione per le applicazioni dell'intelligenza artificiale e dei sistemi decisionali automatizzati. Questo obbligo di dichiarazione dovrebbe valere per le applicazioni sia nel settore pubblico che in quello privato. Ciò garantisce standard uniformi e crea fiducia sia per i cittadini che per le imprese che utilizzano le tecnologie IA.</p>"
+    },
     {
       "type": {
         "id": 1,
         "name": "Titolo dell'oggetto"
       },
-      "value": "Titolo segue"
+      "value": "Obbligo di dichiarazione per le applicazioni dell'intelligenza artificiale e i sistemi decisionali automatizzati"
     }
   ],
-  "title": "Titolo segue"
+  "title": "Obbligo di dichiarazione per le applicazioni dell'intelligenza artificiale e i sistemi decisionali automatizzati"
 }

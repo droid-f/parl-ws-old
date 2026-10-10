@@ -1,6 +1,7 @@
 {
   "id": 20233958,
-  "updated": "2023-06-20T16:58:36Z",
+  "updated": "2026-09-24T08:41:14Z",
+  "additionalIndexing": "04;1236;34;09",
   "affairType": {
     "abbreviation": "Po.",
     "id": 6,
@@ -11,7 +12,7 @@
       "abbreviation": "SiK-NR",
       "id": 8,
       "name": "Sicherheitspolitische Kommission NR",
-      "abbreviation1": "SiK-NR",
+      "abbreviation1": "SiK-N",
       "abbreviation2": "SiK",
       "committeeNumber": 8,
       "council": {
@@ -42,10 +43,42 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2023-09-27T00:00:00Z",
+            "text": "Annahme",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "date": "2026-09-24T00:00:00Z",
+            "text": "Abschreibung im Rahmen eines anderen Geschäfts 26.006",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "+",
+        "date": "2023-08-30T00:00:00Z",
+        "text": "Annahme"
       },
       "index": 0,
       "links": [
@@ -54,10 +87,31 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "SiK-SR",
+            "id": 21,
+            "name": "Sicherheitspolitische Kommission SR",
+            "abbreviation1": "SiK-S",
+            "abbreviation2": "SiK",
+            "committeeNumber": 21,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2025-11-14T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "SiK-NR",
             "id": 8,
             "name": "Sicherheitspolitische Kommission NR",
-            "abbreviation1": "SiK-NR",
+            "abbreviation1": "SiK-N",
             "abbreviation2": "SiK",
             "committeeNumber": 8,
             "council": {
@@ -78,13 +132,53 @@
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "BK",
+          "id": 10,
+          "name": "Bundeskanzlei",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1687212000000+0200)/",
-          "id": 24,
-          "name": "Im Rat noch nicht behandelt"
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1693346400000+0200)/",
+          "id": 203,
+          "name": "Stellungnahme zum Vorstoss liegt vor"
+        },
+        {
+          "date": "/Date(1695679200000+0200)/",
+          "id": 205,
+          "name": "In Nationalrat geplant"
+        },
+        {
+          "date": "/Date(1695765600000+0200)/",
+          "id": 209,
+          "name": "Überwiesen an den Bundesrat"
+        },
+        {
+          "date": "/Date(1761692400000+0100)/",
+          "id": 218,
+          "name": "Bericht in Erfüllung des Vorstosses liegt vor"
+        },
+        {
+          "date": "/Date(1763074800000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
+        },
+        {
+          "date": "/Date(1774994400000+0200)/",
+          "id": 216,
+          "name": "Abschreibungsantrag liegt vor"
+        },
+        {
+          "date": "/Date(1790200800000+0200)/",
+          "id": 229,
+          "name": "Erledigt"
         }
       ],
       "texts": [
@@ -111,7 +205,7 @@
         "abbreviation": "SiK-NR",
         "id": 8,
         "name": "Sicherheitspolitische Kommission NR",
-        "abbreviation1": "SiK-NR",
+        "abbreviation1": "SiK-N",
         "abbreviation2": "SiK",
         "committeeNumber": 8,
         "council": {
@@ -127,10 +221,10 @@
   ],
   "shortId": "23.3958",
   "state": {
-    "id": 24,
-    "name": "Im Rat noch nicht behandelt",
+    "id": 229,
+    "name": "Erledigt",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -139,6 +233,13 @@
         "name": "Begründung"
       },
       "value": "<p>Cybersicherheit in Kommunikationsnetzen wird immer wichtiger. Die starke Häufung von zunehmend aggressiveren Attacken in der jüngsten Vergangenheit, insbesondere auf behördliche digitale Angebote, ist sehr besorgniserregend.</p><p>Um den Datenverkehr vor Angriffen zu schützen, kommunizieren Unternehmen und die Verwaltung bislang mittels Standleitungen oder in geschlossenen Netzwerken. Standleitungen schützen nur den Datenverkehr von Punkt zu Punkt, nicht aber den Datenverkehr im Internet. Auch wenn der Datenverkehr im Internet verschlüsselt erfolgt, ist er exponiert und kann weltweit von Dritten mit dem Ziel der Entschlüsselung oder der Kommunikationsstörung angegriffen werden. </p><p>Der Bericht soll aufzeigen, welche Ansätze sich hier anbieten. Unter anderem soll auch ein Fokus auf den an der ETH Zürich entwickelten, offenen Kommunikationsstandard \"Scalability, Control and Isolation On Next-Generation Networks (SCiON)\", gelegt werden. Dieser Standard ermöglicht den Netzwerkteilnehmer*innen unter anderem, den Weg ihrer Datenpakete zu steuern. </p><p>Die Verwaltung hat bereits Pilotprojekte mit dem SCION-Protokoll realisiert. Und der Schweizer Finanzplatz hat auf Initiative der Schweizerischen Nationalbank (SNB) ebenfalls entschieden, die bestehende Netzwerkinfrastruktur (FinanceIPNet) mittelfristig durch das \"Secure Swiss Finance Network (SSFN)\" abzulösen. Das SSFN basiert ebenfalls auf der SCION Technologie.</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Antwort BR / Büro"
+      },
+      "value": "<p>Der Bundesrat beantragt die Annahme dieses Postulats.</p>"
     },
     {
       "type": {

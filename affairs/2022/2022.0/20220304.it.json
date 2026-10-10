@@ -1,6 +1,6 @@
 {
   "id": 20220304,
-  "updated": "2023-06-13T15:54:17Z",
+  "updated": "2026-05-20T02:01:59Z",
   "additionalIndexing": "48",
   "affairType": {
     "abbreviation": "Iv. ct.",
@@ -41,6 +41,21 @@
             "date": "2023-06-13T00:00:00Z",
             "text": "Non è dato seguito",
             "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2023-09-28T00:00:00Z",
+            "text": "Non è dato seguito",
+            "type": 51
           }
         ]
       },
@@ -56,7 +71,7 @@
             "abbreviation": "CTT-CS",
             "id": 22,
             "name": "Commissione dei trasporti e delle telecomunicazioni CS",
-            "abbreviation1": "CTT-CS",
+            "abbreviation1": "CTT-S",
             "abbreviation2": "CTT",
             "committeeNumber": 22,
             "council": {
@@ -95,14 +110,15 @@
               ],
               "sessionId": "5121"
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CTT-CN",
             "id": 9,
             "name": "Commissione dei trasporti e delle telecomunicazioni CN",
-            "abbreviation1": "CTT-CN",
+            "abbreviation1": "CTT-N",
             "abbreviation2": "CTT",
             "committeeNumber": 9,
             "council": {
@@ -115,8 +131,13 @@
           },
           "date": "2022-03-16T00:00:00Z",
           "registrations": [
+            {
+              "correspondents": [
 
-          ]
+              ]
+            }
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -124,10 +145,16 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DATEC",
+          "id": 9,
+          "name": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -138,8 +165,23 @@
         },
         {
           "date": "/Date(1686607200000+0200)/",
-          "id": 29,
-          "name": "Esame preliminare. Trattato dal Consiglio degli Stati"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1686693600000+0200)/",
+          "id": 223,
+          "name": "Esame preliminare - nella Commissione del Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1694642400000+0200)/",
+          "id": 205,
+          "name": "Pianificato nel Consiglio nazionale"
+        },
+        {
+          "date": "/Date(1695852000000+0200)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -172,8 +214,8 @@
   ],
   "shortId": "22.304",
   "state": {
-    "id": 29,
-    "name": "Esame preliminare. Trattato dal Consiglio degli Stati",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
     "newKey": 0
   },

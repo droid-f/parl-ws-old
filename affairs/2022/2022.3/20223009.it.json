@@ -1,6 +1,6 @@
 {
   "id": 20223009,
-  "updated": "2022-03-17T18:03:07Z",
+  "updated": "2026-03-10T09:41:10Z",
   "additionalIndexing": "2841;15;24",
   "affairType": {
     "abbreviation": "Mo.",
@@ -12,7 +12,7 @@
       "abbreviation": "CIP-CN",
       "id": 11,
       "name": "Commissione delle istituzioni politiche CN",
-      "abbreviation1": "CIP-CN",
+      "abbreviation1": "CIP-N",
       "abbreviation2": "CIP",
       "committeeNumber": 11,
       "council": {
@@ -57,6 +57,21 @@
             "date": "2022-03-17T00:00:00Z",
             "text": "Adozione",
             "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "date": "2026-03-05T00:00:00Z",
+            "text": "Reiezione",
+            "type": 22
           }
         ]
       },
@@ -72,79 +87,52 @@
       "preConsultations": [
         {
           "committee": {
-            "abbreviation": "CIP-CN",
-            "id": 11,
-            "name": "Commissione delle istituzioni politiche CN",
-            "abbreviation1": "CIP-CN",
-            "abbreviation2": "CIP",
-            "committeeNumber": 11,
+            "abbreviation": "N/A-I-V",
+            "id": 9999,
+            "name": "Commissione provvisoria-V",
+            "abbreviation1": "Dummy-I-V",
+            "abbreviation2": "Dummy-I-V",
+            "committeeNumber": 9999,
             "council": {
-              "abbreviation": "CN",
-              "id": 1,
-              "name": "Consiglio nazionale",
-              "type": "N"
+              "abbreviation": "AF",
+              "id": 3,
+              "name": "Assemblea federale plenaria",
+              "type": "B"
             },
-            "typeCode": 1
+            "typeCode": 3
           },
-          "date": "2022-01-27T00:00:00Z",
+          "date": "2026-01-23T17:02:09Z",
           "registrations": [
             {
               "correspondents": [
                 {
                   "council": {
-                    "abbreviation": "CN",
-                    "id": 1,
-                    "name": "Consiglio nazionale",
-                    "type": "N"
+                    "abbreviation": "CS",
+                    "id": 2,
+                    "name": "Consiglio degli Stati",
+                    "type": "S"
                   },
                   "councillor": {
-                    "code": 3146,
+                    "code": 3053,
                     "gender": "m",
-                    "id": 4254,
-                    "name": "Cottier Damien",
-                    "officialDenomination": "Cottier"
-                  },
-                  "faction": {
-                    "abbreviation": "Gruppo RL",
-                    "id": 1,
-                    "name": "Gruppo liberale radicale"
-                  },
-                  "language": "fr"
-                },
-                {
-                  "council": {
-                    "abbreviation": "CN",
-                    "id": 1,
-                    "name": "Consiglio nazionale",
-                    "type": "N"
-                  },
-                  "councillor": {
-                    "code": 3030,
-                    "gender": "m",
-                    "id": 4125,
-                    "name": "Rutz Gregor",
-                    "officialDenomination": "Rutz Gregor"
-                  },
-                  "faction": {
-                    "abbreviation": "Gruppo V",
-                    "id": 4,
-                    "name": "Gruppo dell'Unione democratica di Centro"
+                    "id": 4153,
+                    "name": "Hegglin Peter",
+                    "officialDenomination": "Hegglin Peter"
                   },
                   "language": "de"
                 }
-              ],
-              "sessionId": "5113"
+              ]
             }
           ]
         },
         {
           "committee": {
-            "abbreviation": "CIP-CS",
-            "id": 24,
-            "name": "Commissione delle istituzioni politiche CS",
-            "abbreviation1": "CIP-CS",
-            "abbreviation2": "CIP",
-            "committeeNumber": 24,
+            "abbreviation": "CET-CS",
+            "id": 23,
+            "name": "Commissione dell'economia e dei tributi CS",
+            "abbreviation1": "CET-S",
+            "abbreviation2": "CET",
+            "committeeNumber": 23,
             "council": {
               "abbreviation": "CS",
               "id": 2,
@@ -178,8 +166,33 @@
         },
         {
           "date": "/Date(1647471600000+0100)/",
-          "id": 11,
-          "name": "Mozione alla seconda Camera"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1766098800000+0100)/",
+          "id": 206,
+          "name": "Nella Commissione del Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1769122800000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1769122800000+0100)/",
+          "id": 230,
+          "name": "Fine delle discussioni della Commissione del degli Stati"
+        },
+        {
+          "date": "/Date(1772146800000+0100)/",
+          "id": 207,
+          "name": "Pianificato nel Consiglio degli Stati"
+        },
+        {
+          "date": "/Date(1772665200000+0100)/",
+          "id": 229,
+          "name": "Liquidato"
         }
       ],
       "texts": [
@@ -206,7 +219,7 @@
         "abbreviation": "CIP-CN",
         "id": 11,
         "name": "Commissione delle istituzioni politiche CN",
-        "abbreviation1": "CIP-CN",
+        "abbreviation1": "CIP-N",
         "abbreviation2": "CIP",
         "committeeNumber": 11,
         "council": {
@@ -222,10 +235,9 @@
   ],
   "shortId": "22.3009",
   "state": {
-    "id": 11,
-    "name": "Mozione alla seconda Camera",
+    "id": 229,
+    "name": "Liquidato",
     "doneKey": "0",
-    "isMotionInSecondCouncil": true,
     "newKey": 0
   },
   "texts": [
@@ -241,7 +253,7 @@
         "id": 14,
         "name": "Risposta del CF / Ufficio"
       },
-      "value": "<p>Il Consiglio federale è consapevole del fatto che i provvedimenti adottati per far fronte alla pandemia di COVID-19 hanno avuto pesanti ripercussioni sull'economia. Per molti settori economici e aziende l'impatto è stato così forte che i provvedimenti di sostegno previsti dalla legge sulle epidemie (LEp; RS 818.101) non sono bastati. Il Consiglio federale ha quindi elaborato rapidamente nuovi provvedimenti e ha creato le necessarie basi giuridiche nella legge COVID-19 (RS 818.102) e nelle pertinenti ordinanze.</p><p>Secondo il Consiglio federale, la questione dell'inserimento nella LEp di un obbligo di indennizzo sussidiario per le aziende e per interi settori economici va esaminata nel quadro della valutazione dell'impatto della pandemia di COVID-19, insieme all'esame del disciplinamento delle competenze della Confederazione e dei Cantoni e dell'adeguatezza dei provvedimenti adottati. Su tale base, nell'ambito della revisione della LEp attualmente in corso occorre verificare se è opportuno introdurre un obbligo di indennizzo come proposto nella mozione. Le eventuali proposte di modifica andranno presentate al Parlamento in un progetto di revisione. È tuttavia prematuro prendere una decisione preliminare senza aver valutato in modo sistematico le esperienze acquisite durante la pandemia.</p><p>Il Consiglio federale si è già pronunciato in merito a un eventuale obbligo di indennizzo nel parere in risposta alla mozione Stark 21.3742 \"Sancire nella legge un indennizzo in caso d'interdizione al lavoro\". Il Consiglio degli Stati si è allineato al parere del Consiglio federale, secondo cui la questione dev'essere esaminata nell'ambito della revisione della LEp, e ha respinto la mozione durante la sessione autunnale 2021.</p>"
+      "value": "<p>Il Consiglio federale è consapevole del fatto che i provvedimenti adottati per far fronte alla pandemia di COVID-19 hanno avuto pesanti ripercussioni sull'economia. Per molti settori economici e aziende l'impatto è stato così forte che i provvedimenti di sostegno previsti dalla legge sulle epidemie (LEp; RS 818.101) non sono bastati. Il Consiglio federale ha quindi elaborato rapidamente nuovi provvedimenti e ha creato le necessarie basi giuridiche nella legge COVID-19 (RS 818.102) e nelle pertinenti ordinanze.</p><p>Secondo il Consiglio federale, la questione dell'inserimento nella LEp di un obbligo di indennizzo sussidiario per le aziende e per interi settori economici va esaminata nel quadro della valutazione dell'impatto della pandemia di COVID-19, insieme all'esame del disciplinamento delle competenze della Confederazione e dei Cantoni e dell'adeguatezza dei provvedimenti adottati. Su tale base, nell'ambito della revisione della LEp attualmente in corso occorre verificare se è opportuno introdurre un obbligo di indennizzo come proposto nella mozione. Le eventuali proposte di modifica andranno presentate al Parlamento in un progetto di revisione. È tuttavia prematuro prendere una decisione preliminare senza aver valutato in modo sistematico le esperienze acquisite durante la pandemia.</p><p>Il Consiglio federale si è già pronunciato in merito a un eventuale obbligo di indennizzo nel parere in risposta alla mozione Stark 21.3742 \"Sancire nella legge un indennizzo in caso d'interdizione al lavoro\". Il Consiglio degli Stati si è allineato al parere del Consiglio federale, secondo cui la questione dev'essere esaminata nell'ambito della revisione della LEp, e ha respinto la mozione durante la sessione autunnale 2021.</p><p>Il Consiglio federale propone di respingere la mozione.</p>"
     },
     {
       "type": {

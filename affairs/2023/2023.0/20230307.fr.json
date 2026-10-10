@@ -1,6 +1,7 @@
 {
   "id": 20230307,
-  "updated": "2023-05-09T15:12:26Z",
+  "updated": "2026-05-20T01:57:29Z",
+  "additionalIndexing": "09;2446;28;2841",
   "affairType": {
     "abbreviation": "Iv. ct.",
     "id": 3,
@@ -26,7 +27,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-03-14T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-06-13T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -36,7 +66,90 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CPS-CN",
+            "id": 8,
+            "name": "Commission de la politique de sécurité CN",
+            "abbreviation1": "CPS-N",
+            "abbreviation2": "CPS",
+            "committeeNumber": 8,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-04-24T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "CPS-CE",
+            "id": 21,
+            "name": "Commission de la politique de sécurité CE",
+            "abbreviation1": "CPS-E",
+            "abbreviation2": "CPS",
+            "committeeNumber": 21,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-04-24T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "V"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-01-11T19:24:51Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3092,
+                    "gender": "m",
+                    "id": 4172,
+                    "name": "Salzmann Werner",
+                    "officialDenomination": "Salzmann"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "references": [
 
@@ -46,14 +159,39 @@
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlement",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
         {
           "date": "/Date(1682287200000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1704927600000+0100)/",
+          "id": 225,
+          "name": "Examen préalable - en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1707433200000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1710370800000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1712613600000+0200)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1718229600000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -86,10 +224,10 @@
   ],
   "shortId": "23.307",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
-    "newKey": 1
+    "newKey": 0
   },
   "texts": [
     {
@@ -97,22 +235,22 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Le montant de ladite taxe n'est pas très élevé, d'autant plus que, selon la réglementation actuelle, il est réduit de moitié si le handicap n'est pas considéré comme majeur. Les répercussions se font toutefois douloureusement ressentir dans le maigre porte-monnaie des jeunes en apprentissage ou en études. Mais le problème réside ailleurs : cette situation est insatisfaisante et perçue comme injuste par les personnes concernées qui souhaitent effectuer leur service militaire. Elles sont en effet soumises à des taxes alors qu'elles seraient prêtes à servir, dans la mesure de leurs capacités. La situation est injuste dans le cas d'hommes souffrant par exemple d'hémophilie, de diabète, ou d'autres infirmités congénitales, qui se retrouvent enfermés dans un carcan légal les obligeant à payer la taxe d'exemption, même s'ils veulent servir. </p><p>La prise de position du gouvernement sur le postulat P 522 a montré que le canton de Lucerne n'a malheureusement aucune latitude pour mettre en place une pratique cantonale différente et doit donc appliquer les directives fédérales. C'est pourquoi le Grand Conseil du canton de Lucerne adresse une initiative au Parlement fédéral, auquel il incombe de prendre les mesures nécessaires à cet égard. Ce n'est qu'ensuite que les cantons pourront procéder aux modifications ad hoc de leur droit cantonal.</p>"
+      "value": "<p>Le montant de ladite taxe n'est pas très élevé, d'autant plus que, selon la réglementation actuelle, il est réduit de moitié si le handicap n'est pas considéré comme majeur. Les répercussions se font toutefois douloureusement ressentir dans le maigre porte-monnaie des jeunes en apprentissage ou en études. Mais le problème réside ailleurs : cette situation est insatisfaisante et perçue comme injuste par les personnes concernées qui souhaitent effectuer leur service militaire. Elles sont en effet soumises à des taxes alors qu'elles seraient prêtes à servir, dans la mesure de leurs capacités. La situation est injuste dans le cas d'hommes souffrant par exemple d'hémophilie, de diabète, ou d'autres infirmités congénitales, qui se retrouvent enfermés dans un carcan légal les obligeant à payer la taxe d'exemption, même s'ils veulent servir. </p><p>La prise de position du gouvernement sur le postulat P 522 a montré que le canton de Lucerne n'a malheureusement aucune latitude pour mettre en place une pratique cantonale différente et doit donc appliquer les directives fédérales. C'est pourquoi le Grand Conseil du canton de Lucerne adresse une initiative au Parlement fédéral, auquel il incombe de prendre les mesures nécessaires à cet égard. Ce n'est qu'ensuite que les cantons pourront procéder aux modifications ad hoc de leur droit cantonal.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p>Se fondant sur l'art. 160, al. 1, de la Constitution fédérale du 18 avril 1999 et sur l'art. 49, al. 1, let. a, de la Constitution du canton de Lucerne du 17 juin 2007, le Grand Conseil du canton de Lucerne soumet à l'Assemblée fédérale l'initiative suivante : les personnes désireuses de servir et souffrant d'hémophilie, de diabète, ou d'une vingtaine d'autres infirmités congénitales doivent être exonérées de la taxe d'exemption de l'obligation de servir.</p>"
+      "value": "<p>Se fondant sur l'art. 160, al. 1, de la Constitution fédérale du 18 avril 1999 et sur l'art. 49, al. 1, let. a, de la Constitution du canton de Lucerne du 17 juin 2007, le Grand Conseil du canton de Lucerne soumet à l'Assemblée fédérale l'initiative suivante : les personnes désireuses de servir et souffrant d'hémophilie, de diabète, ou d'une vingtaine d'autres infirmités congénitales doivent être exonérées de la taxe d'exemption de l'obligation de servir.</p>"
     },
     {
       "type": {
         "id": 1,
         "name": "Titre de l'objet"
       },
-      "value": "Pour l’exonération de la taxe d’exemption de l’obligation de servir des personnes désireuses d’effectuer le service militaire et souffrant d’infirmités congénitales telles que l’hémophilie ou le diabète"
+      "value": "Pour l'exonération de la taxe d'exemption de l'obligation de servir des personnes désireuses d'effectuer le service militaire et souffrant d'infirmités congénitales telles que l'hémophilie ou le diabète"
     }
   ],
-  "title": "Pour l’exonération de la taxe d’exemption de l’obligation de servir des personnes désireuses d’effectuer le service militaire et souffrant d’infirmités congénitales telles que l’hémophilie ou le diabète"
+  "title": "Pour l'exonération de la taxe d'exemption de l'obligation de servir des personnes désireuses d'effectuer le service militaire et souffrant d'infirmités congénitales telles que l'hémophilie ou le diabète"
 }

@@ -1,6 +1,6 @@
 {
   "id": 20220321,
-  "updated": "2022-12-29T14:46:33Z",
+  "updated": "2026-05-20T02:06:28Z",
   "additionalIndexing": "24;2841;28",
   "affairType": {
     "abbreviation": "Iv. ct.",
@@ -27,7 +27,36 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2023-12-18T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-09-24T00:00:00Z",
+            "text": "Refusé de donner suite",
+            "type": 51
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -39,10 +68,55 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2023-11-09T14:05:55Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3053,
+                    "gender": "m",
+                    "id": 4153,
+                    "name": "Hegglin Peter",
+                    "officialDenomination": "Hegglin Peter"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe M-E",
+                    "id": 3,
+                    "name": "Le Groupe du Centre. Le Centre. PEV."
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "CSSS-CE",
             "id": 19,
             "name": "Commission de la sécurité sociale et de la santé publique CE",
-            "abbreviation1": "CSSS-CE",
+            "abbreviation1": "CSSS-E",
             "abbreviation2": "CSSS",
             "committeeNumber": 19,
             "council": {
@@ -56,14 +130,15 @@
           "date": "2022-09-22T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CSSS-CN",
             "id": 6,
             "name": "Commission de la sécurité sociale et de la santé publique CN",
-            "abbreviation1": "CSSS-CN",
+            "abbreviation1": "CSSS-N",
             "abbreviation2": "CSSS",
             "committeeNumber": 6,
             "council": {
@@ -77,7 +152,8 @@
           "date": "2022-09-22T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -94,8 +170,33 @@
       "states": [
         {
           "date": "/Date(1663797600000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1697752800000+0200)/",
+          "id": 225,
+          "name": "Examen préalable - en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1699311600000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1702854000000+0100)/",
+          "id": 208,
+          "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1718834400000+0200)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1727128800000+0200)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -128,8 +229,8 @@
   ],
   "shortId": "22.321",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
@@ -139,14 +240,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p  align=\"both\">Depuis 1996 et l'entrée en vigueur de la LAMal (loi fédérale sur l'assurance-maladie), les primes d'assurance-maladie ont augmenté en moyenne de 146%, alors que les coûts totaux (dépenses de santé totales par tête en francs) ont augmenté quant à eux de 82%. Précisément quand il est question de l'évolution des coûts, il faudrait différentier les coûts globaux des coûts de l'AOS (assurance obligatoire des soins) financés par les primes. Nous sommes donc face à des évolutions qui sont certes liées, mais qui se distinguent fortement. Les primes augmentent plus que les coûts ; l'augmentation des primes n'est donc pas uniquement imputable à l'augmentation des coûts. De 1996 à 2020, la part de l'AOS dans le financement du système de santé est passé de 29,9% à 37,9% et la part de l'Etat de 14,6% à 21,8%. A l'avenir, le transfert des prestations hospitalières subventionnées par les impôts vers l'ambulatoire, financé par les primes, aura pour conséquence que la part des soins de santé financée par les primes augmentera encore davantage. Le financement croissant par les primes par tête, financement indépendant du revenu, touchera les ménages à bas revenus de façon disproportionnée. Pour trouver de bonnes solutions politiques pour un système de santé socialement et financièrement acceptable, il est impératif de considérer le système de santé dans son ensemble : si l'on veut freiner l'augmentation des primes, il faut d'abord empêcher que les payeurs de primes assument une part toujours plus grande de la facture globale. En septembre 2020, une initiative cantonale avait été déposée par le canton du Jura qui demandait que les assurances remboursent les primes encaissées si elles étaient plus élevées que les coûts cumulés dans le canton. Cette initiative cantonale a été rejetée par les deux chambres. Indexer les primes sur l'augmentation des coûts aura pour avantage de forcer les législateurs à trouver une solution pour un financement uniforme des prestations ambulatoires et stationnaires (EFAS). Nous rappelons qu'un texte pour un financement moniste a été déposé en 2009 et qu'il a été depuis \" schubladisé \" par le Parlement fédéral. Il obligera également les politiques et les professionnels de soins à trouver des solutions pour une réelle baisse des coûts. De multiples études démontrent qu'un tiers des coûts médicaux pourraient être économisés (examens et opérations inutiles, traitements sans effets thérapeutiques). Cette indexation permettra de remettre sur la table la question des réserves. Même si les assurances ont puisé dans leurs réserves, celles-ci restent en moyenne 50% au-dessus du minimum légal. Et finalement cette indexation permettra aux assurées de comprendre le pourquoi de l'augmentation des primes. Il faut reconnaître qu'actuellement le pourquoi et le comment de l'augmentation des primes restent un grand mystère permettant toutes les interprétations et ouvrant la voie à une saine colère des assurés. Finalement, la réalité des coûts face aux primes donnera la possibilité d'une discussion politique sur le vieillissement de la population, sur le prix des nouveaux traitements et sur l'importance de la prévention (parent pauvre du système de santé suisse). </p>"
+      "value": "<p align=\"both\">Depuis 1996 et l'entrée en vigueur de la LAMal (loi fédérale sur l'assurance-maladie), les primes d'assurance-maladie ont augmenté en moyenne de 1,6 %, alors que les coûts totaux (dépenses de santé totales par tête en francs) ont augmenté quant à eux de 82 %. Précisément quand il est question de l'évolution des coûts, il faudrait différentier les coûts globaux des coûts de l'AOS (assurance obligatoire des soins) financés par les primes. Nous sommes donc face à des évolutions qui sont certes liées, mais qui se distinguent fortement. Les primes augmentent plus que les coûts ; l'augmentation des primes n'est donc pas uniquement imputable à l'augmentation des coûts. De 1996 à 2020, la part de l'AOS dans le financement du système de santé est passé de 29,9 % à 37,9 % et la part de l'État de 14,6 % à 21,8 %. À l'avenir, le transfert des prestations hospitalières subventionnées par les impôts vers l'ambulatoire, financé par les primes, aura pour conséquence que la part des soins de santé financée par les primes augmentera encore davantage. Le financement croissant par les primes par tête, financement indépendant du revenu, touchera les ménages à bas revenus de façon disproportionnée. Pour trouver de bonnes solutions politiques pour un système de santé socialement et financièrement acceptable, il est impératif de considérer le système de santé dans son ensemble : si l'on veut freiner l'augmentation des primes, il faut d'abord empêcher que les payeurs de primes assument une part toujours plus grande de la facture globale. En septembre 2020, une initiative cantonale avait été déposée par le canton du Jura qui demandait que les assurances remboursent les primes encaissées si elles étaient plus élevées que les coûts cumulés dans le canton. Cette initiative cantonale a été rejetée par les deux chambres. Indexer les primes sur l'augmentation des coûts aura pour avantage de forcer les législateurs à trouver une solution pour un financement uniforme des prestations ambulatoires et stationnaires (EFAS). Nous rappelons qu'un texte pour un financement moniste a été déposé en 2009 et qu'il a été depuis \" schubladisé \" par le Parlement fédéral. Il obligera également les politiques et les professionnels de soins à trouver des solutions pour une réelle baisse des coûts. De multiples études démontrent qu'un tiers des coûts médicaux pourraient être économisés (examens et opérations inutiles, traitements sans effets thérapeutiques). Cette indexation permettra de remettre sur la table la question des réserves. Même si les assurances ont puisé dans leurs réserves, celles-ci restent en moyenne 50 % au-dessus du minimum légal. Et finalement cette indexation permettra aux assurées de comprendre le pourquoi de l'augmentation des primes. Il faut reconnaître qu'actuellement le pourquoi et le comment de l'augmentation des primes restent un grand mystère permettant toutes les interprétations et ouvrant la voie à une saine colère des assurés. Finalement, la réalité des coûts face aux primes donnera la possibilité d'une discussion politique sur le vieillissement de la population, sur le prix des nouveaux traitements et sur l'importance de la prévention (parent pauvre du système de santé suisse). </p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Texte déposé"
       },
-      "value": "<p  align=\"both\">Le GRAND CONSEIL de la République et canton de Genève vu l'article 160, alinéa 1, de la Constitution fédérale, du 18 avril 1999 ; vu l'article 115 de la loi fédérale sur l'Assemblée fédérale, du 13 décembre 2002 ; vu l'article 156 de la loi portant règlement du Grand Conseil de la République et canton de Genève, du 13 décembre 1985, considérant</p><p>- l'augmentation importante des primes d'assurance-maladie ;</p><p>- l'obligation faites aux pouvoirs publics de subventionner leurs administrés ;</p><p>- l'énorme charge financière sur le budget des ménages ;</p><p>- le choix de franchises élevées ;</p><p>- le renoncement aux soins et aux traitements liés à l'impossibilité de payer la franchise ;</p><p>- que les primes des assurances-maladie augmentent plus vite que les coûts réels de la santé,</p><p  align=\"both\">demande à l'Assemblée fédérale d'indexer l'augmentation des primes d'assurance-maladie \" au maximum \" sur la croissance réelle des coûts de la santé.</p>"
+      "value": "<p align=\"both\">Le GRAND CONSEIL de la République et canton de Genève vu l'art. 160, al. 1, de la Constitution fédérale, du 18 avril 1999 ; vu l'article 115 de la loi fédérale sur l'Assemblée fédérale, du 13 décembre 2002 ; vu l'article 156 de la loi portant règlement du Grand Conseil de la République et canton de Genève, du 13 décembre 1985, considérant</p><p>- l'augmentation importante des primes d'assurance-maladie ;</p><p>- l'obligation faites aux pouvoirs publics de subventionner leurs administrés ;</p><p>- l'énorme charge financière sur le budget des ménages ;</p><p>- le choix de franchises élevées ;</p><p>- le renoncement aux soins et aux traitements liés à l'impossibilité de payer la franchise ;</p><p>- que les primes des assurances-maladie augmentent plus vite que les coûts réels de la santé,</p><p align=\"both\">demande à l'Assemblée fédérale d'indexer l'augmentation des primes d'assurance-maladie \" au maximum \" sur la croissance réelle des coûts de la santé.</p>"
     },
     {
       "type": {

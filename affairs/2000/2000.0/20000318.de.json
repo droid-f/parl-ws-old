@@ -1,7 +1,7 @@
 {
   "id": 20000318,
-  "updated": "2019-02-18T19:03:06Z",
-  "additionalIndexing": "2841",
+  "updated": "2026-05-20T01:50:24Z",
+  "additionalIndexing": "2841;Kontrolle;Vorrat;Kostenrechnung;Kanton;Krankenversicherung;Krankenkasse;Betriebsrücklage;Statistik",
   "affairType": {
     "abbreviation": "Kt. Iv.",
     "id": 3,
@@ -125,7 +125,7 @@
             "abbreviation": "SGK-SR",
             "id": 19,
             "name": "Kommission für soziale Sicherheit und Gesundheit SR",
-            "abbreviation1": "SGK-SR",
+            "abbreviation1": "SGK-S",
             "abbreviation2": "SGK",
             "committeeNumber": 19,
             "council": {
@@ -156,7 +156,7 @@
                   },
                   "faction": {
                     "abbreviation": "Fraktion C",
-                    "code": "C",
+                    "code": "M-E",
                     "id": 3,
                     "name": "Christlichdemokratische Fraktion"
                   },
@@ -171,14 +171,15 @@
               ],
               "sessionId": "4606"
             }
-          ]
+          ],
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
             "abbreviation": "SGK-NR",
             "id": 6,
             "name": "Kommission für soziale Sicherheit und Gesundheit NR",
-            "abbreviation1": "SGK-NR",
+            "abbreviation1": "SGK-N",
             "abbreviation2": "SGK",
             "committeeNumber": 6,
             "council": {
@@ -225,7 +226,7 @@
         },
         {
           "date": "/Date(1064959200000+0200)/",
-          "id": 27,
+          "id": 229,
           "name": "Erledigt"
         }
       ],
@@ -234,11 +235,6 @@
       ]
     }
   ],
-  "handling": {
-    "date": "2003-10-01T00:00:00Z",
-    "legislativePeriod": 46,
-    "session": "4620"
-  },
   "language": "de",
   "priorityCouncils": [
     {
@@ -265,9 +261,9 @@
   "sequentialNumber": 112,
   "shortId": "00.318",
   "state": {
-    "id": 27,
+    "id": 229,
     "name": "Erledigt",
-    "doneKey": "1",
+    "doneKey": "0",
     "newKey": 0
   },
   "texts": [
@@ -276,14 +272,14 @@
         "id": 6,
         "name": "Begründung"
       },
-      "value": "<p>Seit das KVG in Kraft ist herrscht der Eindruck vor, dass die Kosten der Krankenversicherung noch mehr ansteigen als unter dem alten System und dass die Prämien der obligatorischen Krankenpflegeversicherung dazu verurteilt sind, von Jahr zu Jahr unaufhaltbar und in erheblichem Masse anzusteigen.</p><p>Die Versicherer müssen ihre Prämientarife der obligatorischen Krankenpflegeversicherung für das jeweils nachfolgende Jahr vom Bundesrat genehmigen lassen. Seit der KVG-Revision von 1999 (Art. 61 Abs. 4) \"können die Kantone zu den für ihre Bevölkerung vorgesehenen Prämientarifen Stellung nehmen\", wobei das Genehmigungsverfahren dadurch nicht verzögert werden darf.</p><p>Die Schwierigkeit für die Kantone liegt darin, dass sie über kein nach einem einheitlichen Modell erstelltes statistisches Datenmaterial verfügen, das ihnen Abklärungen und eine begründete Stellungnahme ermöglichen würde. So gibt es heute beispielsweise keine verlässlichen Daten über alle Versicherer eines Kantons, welche die Kosten nach Leistungserbringer-Kategorien aufschlüsseln und es zuliessen, abzuschätzen, ob die Kostenanstiege auf eine Tarifänderung oder auf ein verändertes Leistungsvolumen zurückzuführen sind.</p><p>Mit den in dieser Standesinitiative geforderten drei neuen KVG-Bestimmungen würde den Kantonen ermöglicht, die Gründe für die Kostensteigerungen bei den Versicherern und deren Auswirkungen auf die Versicherten zu verstehen. Daraus ergäbe sich eine von den Versicherten geschätzte bessere Transparenz, aufgrund der die Kantone im Rahmen ihrer Kompetenzen und des KVG kostendämmende Massnahmen vorsehen könnten. Ebenso könnte dadurch der Rahmen für die Prämienverbilligungsbeiträge, die sich im Kanton Waadt auf jährlich rund 300 Millionen Franken belaufen, besser abgesteckt werden. </p><p>Aus diesen Gründen sieht sich der Waadtländer Grosse Rat veranlasst, in Ausübung seines Initiativrechtes gemäss Artikel 160 Absatz 1 der Bundesverfassung die eidgenössischen Räte zu ersuchen, die drei erwähnten neuen Bestimmungen in das KVG aufzunehmen.</p>"
+      "value": "<p>Seit das KVG in Kraft ist herrscht der Eindruck vor, dass die Kosten der Krankenversicherung noch mehr ansteigen als unter dem alten System und dass die Prämien der obligatorischen Krankenpflegeversicherung dazu verurteilt sind, von Jahr zu Jahr unaufhaltbar und in erheblichem Masse anzusteigen.</p><p>Die Versicherer müssen ihre Prämientarife der obligatorischen Krankenpflegeversicherung für das jeweils nachfolgende Jahr vom Bundesrat genehmigen lassen. Seit der KVG-Revision von 1999 (Art. 61 Abs. 4) \"können die Kantone zu den für ihre Bevölkerung vorgesehenen Prämientarifen Stellung nehmen\", wobei das Genehmigungsverfahren dadurch nicht verzögert werden darf.</p><p>Die Schwierigkeit für die Kantone liegt darin, dass sie über kein nach einem einheitlichen Modell erstelltes statistisches Datenmaterial verfügen, das ihnen Abklärungen und eine begründete Stellungnahme ermöglichen würde. So gibt es heute beispielsweise keine verlässlichen Daten über alle Versicherer eines Kantons, welche die Kosten nach Leistungserbringer-Kategorien aufschlüsseln und es zuliessen, abzuschätzen, ob die Kostenanstiege auf eine Tarifänderung oder auf ein verändertes Leistungsvolumen zurückzuführen sind.</p><p>Mit den in dieser Standesinitiative geforderten drei neuen KVG-Bestimmungen würde den Kantonen ermöglicht, die Gründe für die Kostensteigerungen bei den Versicherern und deren Auswirkungen auf die Versicherten zu verstehen. Daraus ergäbe sich eine von den Versicherten geschätzte bessere Transparenz, aufgrund der die Kantone im Rahmen ihrer Kompetenzen und des KVG kostendämmende Massnahmen vorsehen könnten. Ebenso könnte dadurch der Rahmen für die Prämienverbilligungsbeiträge, die sich im Kanton Waadt auf jährlich rund 300 Millionen Franken belaufen, besser abgesteckt werden. </p><p>Aus diesen Gründen sieht sich der Waadtländer Grosse Rat veranlasst, in Ausübung seines Initiativrechtes gemäss Artikel 160 Absatz 1 der Bundesverfassung die eidgenössischen Räte zu ersuchen, die drei erwähnten neuen Bestimmungen in das KVG aufzunehmen.</p>"
     },
     {
       "type": {
         "id": 5,
         "name": "Eingereichter Text"
       },
-      "value": "<p>Der Grosse Rat des Kantons Waadt ersucht die Bundesversammlung, gestützt auf Artikel 160 Absatz 1 der Bundesverfassung, drei neue Bestimmungen in das Krankenversicherungsgesetz (KVG) aufzunehmen, die folgende Ziele verfolgen:</p><p>a. Die Krankenversicherer müssen ihre Kostenrechnung nach einer einheitlichen, von den Bundesbehörden festgelegten Methode führen;</p><p>b. die Krankenversicherer müssen eine nach einer einheitlichen, von den Bundesbehörden festgelegten Methode erstellte Statistik vorlegen über:</p><p>- ihre jährlichen Kosten je Kanton und Leistungserbringer,</p><p>- ihre Reserven je Kanton und versicherte Person;</p><p>c. der Bundesrat kann die Kantone beauftragen, unter der Aufsicht des Bundesamtes für Sozialversicherung (BSV) die Rechnung und die Prämien der auf ihrem Kantonsgebiet tätigen Krankenversicherer zu überprüfen, wobei die Kantone diese Aufgabe ganz oder teilweise auch zugelassenen Treuhändern übertragen können.</p>"
+      "value": "<p>Der Grosse Rat des Kantons Waadt ersucht die Bundesversammlung, gestützt auf Artikel 160 Absatz 1 der Bundesverfassung, drei neue Bestimmungen in das Krankenversicherungsgesetz (KVG) aufzunehmen, die folgende Ziele verfolgen:</p><p>a. Die Krankenversicherer müssen ihre Kostenrechnung nach einer einheitlichen, von den Bundesbehörden festgelegten Methode führen;</p><p>b. die Krankenversicherer müssen eine nach einer einheitlichen, von den Bundesbehörden festgelegten Methode erstellte Statistik vorlegen über:</p><p>- ihre jährlichen Kosten je Kanton und Leistungserbringer,</p><p>- ihre Reserven je Kanton und versicherte Person;</p><p>c. der Bundesrat kann die Kantone beauftragen, unter der Aufsicht des Bundesamtes für Sozialversicherung (BSV) die Rechnung und die Prämien der auf ihrem Kantonsgebiet tätigen Krankenversicherer zu überprüfen, wobei die Kantone diese Aufgabe ganz oder teilweise auch zugelassenen Treuhändern übertragen können.</p>"
     },
     {
       "type": {

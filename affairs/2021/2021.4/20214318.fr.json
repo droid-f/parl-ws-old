@@ -1,6 +1,6 @@
 {
   "id": 20214318,
-  "updated": "2021-10-05T09:21:29Z",
+  "updated": "2026-10-01T16:08:49Z",
   "additionalIndexing": "66;2446;52",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,7 +40,66 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2023-09-18T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2024-03-06T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2026-09-21T00:00:00Z",
+            "text": "Refus de classer",
+            "type": 59
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2026-09-24T00:00:00Z",
+            "text": "Refus de classer",
+            "type": 59
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -53,7 +112,88 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CEATE-CN",
+            "id": 7,
+            "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CN",
+            "abbreviation1": "CEATE-N",
+            "abbreviation2": "CEATE",
+            "committeeNumber": 7,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2024-02-19T16:03:06Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 2783,
+                    "gender": "m",
+                    "id": 4078,
+                    "name": "Schmid Martin",
+                    "officialDenomination": "Schmid Martin"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CEATE-CE",
+            "id": 20,
+            "name": "Commission de l'environnement, de l'aménagement du territoire et de l'énergie CE",
+            "abbreviation1": "CEATE-E",
+            "abbreviation2": "CEATE",
+            "committeeNumber": 20,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2023-10-04T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
@@ -69,8 +209,33 @@
       "states": [
         {
           "date": "/Date(1633039200000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1637103600000+0100)/",
+          "id": 203,
+          "name": "L’avis relatif à l’intervention est disponible"
+        },
+        {
+          "date": "/Date(1694988000000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1706742000000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1709247600000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1709679600000+0100)/",
+          "id": 209,
+          "name": "Transmis au Conseil fédéral"
         }
       ],
       "texts": [
@@ -380,8 +545,8 @@
   ],
   "shortId": "21.4318",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 209,
+    "name": "Transmis au Conseil fédéral",
     "doneKey": "0",
     "newKey": 0
   },
@@ -391,14 +556,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Le biogaz étranger revient plus cher au consommateur que le gaz naturel conventionnel, sans parler du fait qu'il est soumis à la taxe sur le CO2 et qu'il présente un bilan CO2 neutre. Ces charges réduisent massivement l'intérêt du client à se tourner vers le biogaz pour se chauffer et la taxe sur le CO2 manque ainsi totalement sa cible.</p><p>Contrairement à l'électricité, le biogaz acheminé par le réseau ne bénéficie toujours pas d'un système internationalement reconnu qui en atteste l'origine.</p><p>En 2015 déjà, le Conseil fédéral annonçait dans son rapport en exécution du postulat 13.3004 de la CEATE-N que les révisions prévues jusqu'en 2020 (loi sur le CO2, loi sur l'imposition des huiles minérales, etc.) combleraient cette lacune. Or, il ne s'est rien passé depuis et le Conseil fédéral n'a fait que reporter la question. Pour les fournisseurs de gaz, la situation est grave : ils souhaitent rendre leur mélange plus écologique en augmentant la part du biogaz, mais à l'autre bout de la chaîne, les clients ne sont pas prêts à payer le gaz toujours plus cher et encore moins à faire les frais d'une taxe sur le CO2 injustifiée.</p>"
+      "value": "<p>Le biogaz étranger revient plus cher au consommateur que le gaz naturel conventionnel, sans parler du fait qu'il est soumis à la taxe sur le CO2 et qu'il présente un bilan CO2 neutre. Ces charges réduisent massivement l'intérêt du client à se tourner vers le biogaz pour se chauffer et la taxe sur le CO2 manque ainsi totalement sa cible.</p><p>Contrairement à l'électricité, le biogaz acheminé par le réseau ne bénéficie toujours pas d'un système internationalement reconnu qui en atteste l'origine.</p><p>En 2015 déjà, le Conseil fédéral annonçait dans son rapport en exécution du postulat 13.3004 de la CEATE-N que les révisions prévues jusqu'en 2020 (loi sur le CO2, loi sur l'imposition des huiles minérales, etc.) combleraient cette lacune. Or, il ne s'est rien passé depuis et le Conseil fédéral n'a fait que reporter la question. Pour les fournisseurs de gaz, la situation est grave : ils souhaitent rendre leur mélange plus écologique en augmentant la part du biogaz, mais à l'autre bout de la chaîne, les clients ne sont pas prêts à payer le gaz toujours plus cher et encore moins à faire les frais d'une taxe sur le CO2 injustifiée.</p>"
     },
     {
       "type": {
         "id": 14,
         "name": "Réponse CF / Bureau"
       },
-      "value": "<p>Conformément au droit en vigueur, le prélèvement de la taxe sur le CO2 est lié à l'impôt sur les huiles minérales. Celui-ci est perçu en vertu du droit douanier sur les marchandises importées physiquement. Le Conseil fédéral est conscient qu'il est nécessaire d'agir s'agissant du biogaz produit à l'étranger et importé en Suisse uniquement de manière virtuelle (du gaz naturel pur est physiquement importé en Suisse, mais c'est à l'étranger que le biogaz est injecté dans le réseau de gaz et consommé). La Suisse ne peut toutefois agir seule : pour éviter tout double comptage, elle doit s'assurer que le pays de production ou d'origine lui cède les réductions de CO2 réalisées. De plus, un système de compensation (clearing) international est indispensable pour garantir la traçabilité du biogaz. Or ce système est encore en élaboration. En conséquence, la demande de l'auteur ne saurait être mise en oeuvre actuellement.</p>"
+      "value": "<p>Conformément au droit en vigueur, le prélèvement de la taxe sur le CO2 est lié à l'impôt sur les huiles minérales. Celui-ci est perçu en vertu du droit douanier sur les marchandises importées physiquement. Le Conseil fédéral est conscient qu'il est nécessaire d'agir s'agissant du biogaz produit à l'étranger et importé en Suisse uniquement de manière virtuelle (du gaz naturel pur est physiquement importé en Suisse, mais c'est à l'étranger que le biogaz est injecté dans le réseau de gaz et consommé). La Suisse ne peut toutefois agir seule : pour éviter tout double comptage, elle doit s'assurer que le pays de production ou d'origine lui cède les réductions de CO2 réalisées. De plus, un système de compensation (clearing) international est indispensable pour garantir la traçabilité du biogaz. Or ce système est encore en élaboration. En conséquence, la demande de l'auteur ne saurait être mise en oeuvre actuellement.</p>  Le Conseil fédéral propose de rejeter la motion."
     },
     {
       "type": {

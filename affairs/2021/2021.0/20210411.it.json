@@ -1,6 +1,6 @@
 {
   "id": 20210411,
-  "updated": "2023-05-23T17:03:02Z",
+  "updated": "2026-09-02T11:39:03Z",
   "additionalIndexing": "1211;2846;28",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -49,7 +49,7 @@
               "abbreviation": "CAG-CN",
               "id": 12,
               "name": "Commissione degli affari giuridici CN",
-              "abbreviation1": "CAG-CN",
+              "abbreviation1": "CAG-N",
               "abbreviation2": "CAG",
               "committeeNumber": 12,
               "council": {
@@ -62,7 +62,7 @@
             },
             "council": null,
             "date": "2022-05-19T00:00:00Z",
-            "text": "È dato seguito",
+            "text": "Dare seguito (Camera prioritaria)",
             "type": 16
           },
           {
@@ -74,7 +74,7 @@
               "abbreviation": "CAG-CS",
               "id": 25,
               "name": "Commissione degli affari giuridici CS",
-              "abbreviation1": "CAG-CS",
+              "abbreviation1": "CAG-S",
               "abbreviation2": "CAG",
               "committeeNumber": 25,
               "council": {
@@ -89,6 +89,36 @@
             "date": "2023-05-22T00:00:00Z",
             "text": "Adesione",
             "type": 3
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normale"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2025-06-20T00:00:00Z",
+            "text": "Proroga del termine",
+            "type": 50
+          },
+          {
+            "category": {
+              "id": 4,
+              "name": "Complemento"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "date": "2025-06-20T00:00:00Z",
+            "text": "Il termine imposto è prorogato fino alla sessione estiva 2027",
+            "type": 0
           }
         ]
       },
@@ -104,7 +134,7 @@
             "abbreviation": "CAG-CN",
             "id": 12,
             "name": "Commissione degli affari giuridici CN",
-            "abbreviation1": "CAG-CN",
+            "abbreviation1": "CAG-N",
             "abbreviation2": "CAG",
             "committeeNumber": 12,
             "council": {
@@ -142,14 +172,15 @@
                 }
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
             "abbreviation": "CAG-CS",
             "id": 25,
             "name": "Commissione degli affari giuridici CS",
-            "abbreviation1": "CAG-CS",
+            "abbreviation1": "CAG-S",
             "abbreviation2": "CAG",
             "committeeNumber": 25,
             "council": {
@@ -167,7 +198,8 @@
 
               ]
             }
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -175,10 +207,16 @@
       ],
       "relatedDepartments": [
         {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        },
+        {
           "abbreviation": "Parl",
           "id": 1,
           "name": "Parlamento",
-          "leading": true
+          "leading": false
         }
       ],
       "states": [
@@ -189,12 +227,136 @@
         },
         {
           "date": "/Date(1684706400000+0200)/",
-          "id": 1,
-          "name": "Vi è stato dato seguito"
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
+        },
+        {
+          "date": "/Date(1725400800000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
         }
       ],
       "texts": [
 
+      ]
+    },
+    {
+      "consultation": {
+        "resolutions": [
+
+        ]
+      },
+      "federalCouncilProposal": {
+      },
+      "index": 1,
+      "links": [
+
+      ],
+      "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CAG-CN",
+            "id": 12,
+            "name": "Commissione degli affari giuridici CN",
+            "abbreviation1": "CAG-N",
+            "abbreviation2": "CAG",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-03-08T00:00:00Z",
+          "registrations": [
+
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAG-CS",
+            "id": 25,
+            "name": "Commissione degli affari giuridici CS",
+            "abbreviation1": "CAG-S",
+            "abbreviation2": "CAG",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2021-03-08T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
+      ],
+      "references": [
+        {
+          "date": "/Date(1615158000000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "page": "null",
+            "source": "FF null null",
+            "type": {
+              "id": 1,
+              "name": "Foglio federale",
+              "shortName": "FF"
+            },
+            "url": "http://www.admin.ch/opc/it/federal-gazette/null/null.pdf",
+            "year": "null"
+          },
+          "title": "Legge...",
+          "type": {
+            "id": 1,
+            "name": "Oggetto in deliberazione / progetto"
+          }
+        }
+      ],
+      "relatedDepartments": [
+        {
+          "abbreviation": "DFGP",
+          "id": 5,
+          "name": "Dipartimento di giustizia e polizia",
+          "leading": true
+        },
+        {
+          "abbreviation": "Parl",
+          "id": 1,
+          "name": "Parlamento",
+          "leading": false
+        }
+      ],
+      "states": [
+        {
+          "date": "/Date(1684706400000+0200)/",
+          "id": 201,
+          "name": "Annunciato"
+        },
+        {
+          "date": "/Date(1725141600000+0200)/",
+          "id": 202,
+          "name": "Depositato"
+        },
+        {
+          "date": "/Date(1725400800000+0200)/",
+          "id": 208,
+          "name": "Nella Commissione del Consiglio nazionale"
+        }
+      ],
+      "texts": [
+        {
+          "type": {
+            "id": 2,
+            "name": "Titolo del progetto"
+          },
+          "value": "Legge..."
+        }
       ]
     }
   ],
@@ -209,6 +371,21 @@
     }
   ],
   "relatedAffairs": [
+    {
+      "id": 20210410,
+      "priorityCode": "N",
+      "shortId": "21.410"
+    },
+    {
+      "id": 20210410,
+      "priorityCode": "N",
+      "shortId": "21.410"
+    },
+    {
+      "id": 20210410,
+      "priorityCode": "N",
+      "shortId": "21.410"
+    },
     {
       "id": 20210410,
       "priorityCode": "N",
@@ -284,8 +461,8 @@
   ],
   "shortId": "21.411",
   "state": {
-    "id": 1,
-    "name": "Vi è stato dato seguito",
+    "id": 208,
+    "name": "Nella Commissione del Consiglio nazionale",
     "doneKey": "0",
     "newKey": 0
   },

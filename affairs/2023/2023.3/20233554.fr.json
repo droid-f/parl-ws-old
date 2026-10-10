@@ -1,6 +1,6 @@
 {
   "id": 20233554,
-  "updated": "2023-05-09T15:23:25Z",
+  "updated": "2026-03-18T15:16:06Z",
   "additionalIndexing": "15;1211",
   "affairType": {
     "abbreviation": "Mo.",
@@ -40,29 +40,177 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "date": "2024-09-12T00:00:00Z",
+            "text": "Adoption",
+            "type": 20
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "date": "2026-03-18T00:00:00Z",
+            "text": "Rejet",
+            "type": 22
+          }
         ]
       },
       "federalCouncilProposal": {
+        "code": "-",
+        "date": "2023-08-16T00:00:00Z",
+        "text": "Rejet"
       },
       "index": 0,
       "links": [
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CAJ-CE",
+            "id": 25,
+            "name": "Commission des affaires juridiques CE",
+            "abbreviation1": "CAJ-E",
+            "abbreviation2": "CAJ",
+            "committeeNumber": 25,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-01-27T14:32:40Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CE",
+                    "id": 2,
+                    "name": "Conseil des Etats",
+                    "type": "S"
+                  },
+                  "councillor": {
+                    "code": 3205,
+                    "gender": "m",
+                    "id": 4309,
+                    "name": "Michel Matthias",
+                    "officialDenomination": "Michel Matthias"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CAJ-CN",
+            "id": 12,
+            "name": "Commission des affaires juridiques CN",
+            "abbreviation1": "CAJ-N",
+            "abbreviation2": "CAJ",
+            "committeeNumber": 12,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2024-10-02T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
 
       ],
       "relatedDepartments": [
-
+        {
+          "abbreviation": "DFJP",
+          "id": 5,
+          "name": "Département de justice et police",
+          "leading": true
+        }
       ],
       "states": [
         {
           "date": "/Date(1683151200000+0200)/",
-          "id": 24,
-          "name": "Non encore traité au conseil"
+          "id": 202,
+          "name": "Déposé"
+        },
+        {
+          "date": "/Date(1726092000000+0200)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1727820000000+0200)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
+        },
+        {
+          "date": "/Date(1765926000000+0100)/",
+          "id": 206,
+          "name": "En commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1769468400000+0100)/",
+          "id": 230,
+          "name": "Fin des discussions en commission du Conseil des Etats"
+        },
+        {
+          "date": "/Date(1772146800000+0100)/",
+          "id": 207,
+          "name": "Planifié au Conseil des Etats"
+        },
+        {
+          "date": "/Date(1773788400000+0100)/",
+          "id": 229,
+          "name": "Liquidé"
         }
       ],
       "texts": [
@@ -567,7 +715,7 @@
     {
       "councillor": {
         "code": 3228,
-        "gender": "f",
+        "gender": "m",
         "id": 4333,
         "name": "Meier Andreas",
         "officialDenomination": "Meier Andreas"
@@ -592,8 +740,8 @@
   ],
   "shortId": "23.3554",
   "state": {
-    "id": 24,
-    "name": "Non encore traité au conseil",
+    "id": 229,
+    "name": "Liquidé",
     "doneKey": "0",
     "newKey": 0
   },
@@ -603,7 +751,14 @@
         "id": 6,
         "name": "Développement"
       },
-      "value": "<p>Nombre d'entreprises publiques et privées font recours à des sociétés pour le recouvrement de leurs créances. Alors que les clients des entreprises en question ne sont souvent pas liés par des relations contractuelles, les maisons de recouvrement gonflent les factures du créancier de manière automatique avec des frais souvent indus, voire abusifs, sans vérifier le fondement de la créance. Par crainte d'être mis aux poursuites, et mis sous pression par des procédés proches de la contrainte, les débiteurs s'acquittent souvent de la totalité des frais pourtant en partie indus. </p><p>Pour justifier de telles pratiques, les sociétés de recouvrement se référent à l'article 106 CO, qui prévoit le report du coût du recouvrement sur le débiteur au titre de dommage supplémentaire et les conditions selon lesquelles cette pratique peut être tolérée. Pourtant, comme le rappelait le Conseil fédéral dans sa réponse au postulat Comte 12.3641, la jurisprudence prévoit que les frais engagés par le créancier (ou une société de recouvrement) ne doivent être inclus que de manière exceptionnelle dans les dommages supplémentaires résultant de la mise en demeure, celle-ci étant à la charge du débiteur. Cependant, tel n'est très clairement pas le cas dans la pratique courante des sociétés de recouvrement comme le constatent régulièrement les organisations de défense des consommateurs. </p><p>Dans ce contexte, la présente motion invite le Conseil fédéral à légiférer en plafonnant les frais (exprimés en pourcentage) exigibles des sociétés de recouvrement et par pallier en fonction des montants des créances (par exemple : moins de 100 francs ; 100 francs à 300 francs ; etc.) Ce modèle d'encadrement s'inspirerait de la pratique du Tribunal fédéral en matière de taux d'intérêts considérés comme usuriers (+15 %).</p>"
+      "value": "<p>Nombre d'entreprises publiques et privées font recours à des sociétés pour le recouvrement de leurs créances. Alors que les clients des entreprises en question ne sont souvent pas liés par des relations contractuelles, les maisons de recouvrement gonflent les factures du créancier de manière automatique avec des frais souvent indus, voire abusifs, sans vérifier le fondement de la créance. Par crainte d'être mis aux poursuites, et mis sous pression par des procédés proches de la contrainte, les débiteurs s'acquittent souvent de la totalité des frais pourtant en partie indus. </p><p>Pour justifier de telles pratiques, les sociétés de recouvrement se référent à l'article 106 CO, qui prévoit le report du coût du recouvrement sur le débiteur au titre de dommage supplémentaire et les conditions selon lesquelles cette pratique peut être tolérée. Pourtant, comme le rappelait le Conseil fédéral dans sa réponse au postulat Comte 12.3641, la jurisprudence prévoit que les frais engagés par le créancier (ou une société de recouvrement) ne doivent être inclus que de manière exceptionnelle dans les dommages supplémentaires résultant de la mise en demeure, celle-ci étant à la charge du débiteur. Cependant, tel n'est très clairement pas le cas dans la pratique courante des sociétés de recouvrement comme le constatent régulièrement les organisations de défense des consommateurs. </p><p>Dans ce contexte, la présente motion invite le Conseil fédéral à légiférer en plafonnant les frais (exprimés en pourcentage) exigibles des sociétés de recouvrement et par pallier en fonction des montants des créances (par exemple : moins de 100 francs ; 100 francs à 300 francs ; etc.) Ce modèle d'encadrement s'inspirerait de la pratique du Tribunal fédéral en matière de taux d'intérêts considérés comme usuriers (+15 %).</p>"
+    },
+    {
+      "type": {
+        "id": 14,
+        "name": "Réponse CF / Bureau"
+      },
+      "value": "<p>Le Conseil fédéral a démontré dans son rapport « Encadrement des pratiques des maisons de recouvrement » du 22 mars 2017 en réponse au postulat 12.3641 Comte que le droit en vigueur fournissait déjà les moyens de lutter contre les pratiques inappropriées ou agressives des sociétés de recouvrement. Il a confirmé ce constat dans sa réponse à l’interpellation 21.4408 Michaud Gigon « Pointage sur l'autorégulation des maisons de recouvrement ».</p><p>Le rapport susmentionné indique notamment que les frais de recouvrement ne peuvent valoir comme dommage supplémentaire au sens de l’art. 106, al. 1, CO (RS 220) que si, en l’espèce, un dommage supérieur à l’intérêt moratoire fixé par la loi ou par le contrat est effectivement survenu et que ce dommage peut concrètement être prouvé. Or, en général, le temps investi par les créanciers ou les sociétés de recouvrement qui reprennent les créances à leur compte pour récupérer le montant de celles-ci n’induit pas une réduction involontaire de patrimoine imputable à des débiteurs déterminés ; il n’y a donc pas de dommage au sens juridique du terme. De plus, il n’est possible de faire valoir les frais de représentation comme dommage que si le recours à des personnes externes était nécessaire et approprié. Selon les règles générales de calcul du dommage, le coût résultant du recours à une société de recouvrement ne peut qu’exceptionnellement être considéré comme un montant à indemniser.</p><p>La motion demande une disposition légale limitant les frais de recouvrement en fonction du montant de la créance. Cette demande semble toutefois être en contradiction avec le but visé par la motion. En effet, la réglementation suggérée légitimerait des frais - certes plafonnés - qui pourraient être réclamés à titre de dommage. Or, de tels frais ne sont pas reconnus aujourd’hui comme postes de préjudice et ne sont donc pas dus. De l’avis du Conseil fédéral, cette proposition n’est pas pertinente. Il faudrait, au lieu de cela, faire appliquer les règles en vigueur et lutter contre les abus par tous les moyens disponibles, par exemple par le biais d’actions en justice modèles, de procès pilotes ou éventuellement d’actions des organisations.&nbsp;</p>"
     },
     {
       "type": {
