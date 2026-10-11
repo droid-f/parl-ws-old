@@ -7,11 +7,18 @@
     "sorting": 1
   },
   {
+    "id": 55,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_55_",
+    "name": "Überwiesen",
+    "sorting": 2
+  },
+  {
     "id": 60,
-    "updated": "2014-10-10T20:22:58Z",
+    "updated": "2023-06-30T12:10:12Z",
     "code": "C_60_",
     "name": "Abgeschlossen",
-    "sorting": 2
+    "sorting": 3
   },
   {
     "id": 25,
@@ -45,6 +52,76 @@
       "id": 60
     },
     "sorting": 10
+  },
+  {
+    "id": 229,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_229_",
+    "name": "Erledigt",
+    "parent": {
+      "id": 60
+    },
+    "sorting": 229
+  },
+  {
+    "id": 209,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_209_",
+    "name": "Überwiesen an den Bundesrat",
+    "parent": {
+      "id": 55
+    },
+    "sorting": 209
+  },
+  {
+    "id": 210,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_210_",
+    "name": "Überwiesen an das Ratsbüro",
+    "parent": {
+      "id": 55
+    },
+    "sorting": 210
+  },
+  {
+    "id": 211,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_211_",
+    "name": "Überwiesen an das Bundesgericht",
+    "parent": {
+      "id": 55
+    },
+    "sorting": 211
+  },
+  {
+    "id": 212,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_212_",
+    "name": "Überwiesen an die AB-BA",
+    "parent": {
+      "id": 55
+    },
+    "sorting": 212
+  },
+  {
+    "id": 215,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_215_",
+    "name": "Berichterstattung zum Umsetzungsstand des Vorstosses liegt vor",
+    "parent": {
+      "id": 55
+    },
+    "sorting": 215
+  },
+  {
+    "id": 218,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_218_",
+    "name": "Bericht in Erfüllung des Vorstosses liegt vor",
+    "parent": {
+      "id": 55
+    },
+    "sorting": 218
   },
   {
     "id": 9,
@@ -177,5 +254,215 @@
       "id": 50
     },
     "sorting": 16
+  },
+  {
+    "id": 201,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_201_",
+    "name": "Angemeldet",
+    "parent": {
+      "id": 50
+    },
+    "sorting": 201
+  },
+  {
+    "id": 202,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_202_",
+    "name": "Eingereicht",
+    "parent": {
+      "id": 50
+    },
+    "sorting": 202
+  },
+  {
+    "id": 203,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_203_",
+    "name": "Stellungnahme zum Vorstoss liegt vor",
+    "parent": {
+      "id": 50
+    },
+    "sorting": 203
+  },
+  {
+    "id": 204,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_204_",
+    "name": "Zugewiesen an die behandelnde Kommission",
+    "parent": {
+      "id": 50
+    },
+    "sorting": 204
+  },
+  {
+    "id": 205,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_205_",
+    "name": "In Nationalrat geplant",
+    "parent": {
+      "id": 50
+    },
+    "sorting": 205
+  },
+  {
+    "id": 206,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_206_",
+    "name": "In Kommission des Ständerats",
+    "parent": {
+      "id": 50
+    },
+    "sorting": 206
+  },
+  {
+    "id": 207,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_207_",
+    "name": "In Ständerat geplant",
+    "parent": {
+      "id": 50
+    },
+    "sorting": 207
+  },
+  {
+    "id": 208,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_208_",
+    "name": "In Kommission des Nationalrats",
+    "parent": {
+      "id": 50
+    },
+    "sorting": 208
+  },
+  {
+    "id": 216,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_216_",
+    "name": "Abschreibungsantrag liegt vor",
+    "parent": {
+      "id": 50
+    },
+    "sorting": 216
+  },
+  {
+    "id": 219,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_219_",
+    "name": "Geplant für die Schlussabstimmung",
+    "parent": {
+      "id": 50
+    },
+    "sorting": 219
+  },
+  {
+    "id": 220,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_220_",
+    "name": "Zurückgewiesen an den Bundesrat",
+    "parent": {
+      "id": 50
+    },
+    "sorting": 220
+  },
+  {
+    "id": 221,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_221_",
+    "name": "In Einigungskonferenz",
+    "parent": {
+      "id": 50
+    },
+    "sorting": 221
+  },
+  {
+    "id": 222,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_222_",
+    "name": "Mehrere Entwürfe in Beratung",
+    "parent": {
+      "id": 50
+    },
+    "sorting": 222
+  },
+  {
+    "id": 223,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_223_",
+    "name": "Vorprüfung - in Kommission des Nationalrates",
+    "parent": {
+      "id": 50
+    },
+    "sorting": 223
+  },
+  {
+    "id": 225,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_225_",
+    "name": "Vorprüfung - in Kommission des Ständerates",
+    "parent": {
+      "id": 50
+    },
+    "sorting": 225
+  },
+  {
+    "id": 227,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_227_",
+    "name": "In beiden Kommissionen",
+    "parent": {
+      "id": 50
+    },
+    "sorting": 227
+  },
+  {
+    "id": 228,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_228_",
+    "name": "In beiden Räten geplant",
+    "parent": {
+      "id": 50
+    },
+    "sorting": 228
+  },
+  {
+    "id": 230,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_230_",
+    "name": "Beratung in Kommission des Ständerates abgeschlossen",
+    "parent": {
+      "id": 50
+    },
+    "sorting": 230
+  },
+  {
+    "id": 231,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_231_",
+    "name": "Beratung in Kommission des Nationalrates abgeschlossen",
+    "parent": {
+      "id": 50
+    },
+    "sorting": 231
+  },
+  {
+    "id": 232,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_232_",
+    "name": "In Vereinigter Bundesversammlung geplant",
+    "parent": {
+      "id": 50
+    },
+    "sorting": 232
+  },
+  {
+    "id": 233,
+    "updated": "2023-06-30T12:10:12Z",
+    "code": "C_233_",
+    "name": "In Beratung",
+    "parent": {
+      "id": 50
+    },
+    "sorting": 233
   }
 ]
