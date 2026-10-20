@@ -1,6 +1,6 @@
 {
   "id": 20240472,
-  "updated": "2026-05-28T10:06:11Z",
+  "updated": "2026-10-20T17:50:14Z",
   "additionalIndexing": "24;48;2846",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -89,6 +89,31 @@
             "date": "2026-01-13T00:00:00Z",
             "text": "Ne pas approuver la décision de la commission du conseil prioritaire (second conseil)",
             "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "CTT-CN",
+              "id": 9,
+              "name": "Commission des transports et des télécommunications CN",
+              "abbreviation1": "CTT-N",
+              "abbreviation2": "CTT",
+              "committeeNumber": 9,
+              "council": {
+                "abbreviation": "CN",
+                "id": 1,
+                "name": "Conseil national",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2026-10-20T00:00:00Z",
+            "text": "Donner suite (procédure d'élimination des divergences)",
+            "type": 0
           }
         ]
       },
@@ -99,6 +124,51 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-10-20T17:40:47Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3126,
+                    "gender": "m",
+                    "id": 4225,
+                    "name": "Kutter Philipp",
+                    "officialDenomination": "Kutter"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe M-E",
+                    "id": 3,
+                    "name": "Le Groupe du Centre. Le Centre. PEV."
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
         {
           "committee": {
             "abbreviation": "CTT-CE",
@@ -118,7 +188,8 @@
           "date": "2025-02-12T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
@@ -139,7 +210,8 @@
           "date": "2025-02-12T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
@@ -194,6 +266,11 @@
           "date": "/Date(1768518000000+0100)/",
           "id": 223,
           "name": "Examen préalable - en commission du Conseil national"
+        },
+        {
+          "date": "/Date(1792447200000+0200)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
         }
       ],
       "texts": [
@@ -503,8 +580,8 @@
   ],
   "shortId": "24.472",
   "state": {
-    "id": 223,
-    "name": "Examen préalable - en commission du Conseil national",
+    "id": 231,
+    "name": "Fin des discussions en commission du Conseil national",
     "doneKey": "0",
     "newKey": 0
   },

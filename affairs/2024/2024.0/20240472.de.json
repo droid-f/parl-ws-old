@@ -1,6 +1,6 @@
 {
   "id": 20240472,
-  "updated": "2026-05-28T10:06:11Z",
+  "updated": "2026-10-20T17:50:14Z",
   "additionalIndexing": "24;48;2846",
   "affairType": {
     "abbreviation": "Pa. Iv.",
@@ -90,6 +90,31 @@
             "date": "2026-01-13T00:00:00Z",
             "text": "Keine Zustimmung zum Beschluss der Kommission des Erstrates (Zweitrat)",
             "type": 0
+          },
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "KVF-NR",
+              "id": 9,
+              "name": "Kommission für Verkehr und Fernmeldewesen NR",
+              "abbreviation1": "KVF-N",
+              "abbreviation2": "KVF",
+              "committeeNumber": 9,
+              "council": {
+                "abbreviation": "NR",
+                "id": 1,
+                "name": "Nationalrat",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2026-10-20T00:00:00Z",
+            "text": "Folge geben (Differenzbereinigung)",
+            "type": 0
           }
         ]
       },
@@ -100,6 +125,52 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-10-20T17:40:47Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3126,
+                    "gender": "m",
+                    "id": 4225,
+                    "name": "Kutter Philipp",
+                    "officialDenomination": "Kutter"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion M-E",
+                    "code": "M-E",
+                    "id": 3,
+                    "name": "Die Mitte-Fraktion. Die Mitte. EVP."
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
         {
           "committee": {
             "abbreviation": "KVF-SR",
@@ -119,7 +190,8 @@
           "date": "2025-02-12T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
@@ -140,7 +212,8 @@
           "date": "2025-02-12T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "IV"
         }
       ],
       "references": [
@@ -195,6 +268,11 @@
           "date": "/Date(1768518000000+0100)/",
           "id": 223,
           "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1792447200000+0200)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
         }
       ],
       "texts": [
@@ -505,8 +583,8 @@
   ],
   "shortId": "24.472",
   "state": {
-    "id": 223,
-    "name": "Vorprüfung - in Kommission des Nationalrates",
+    "id": 231,
+    "name": "Beratung in Kommission des Nationalrates abgeschlossen",
     "doneKey": "0",
     "newKey": 0
   },
