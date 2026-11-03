@@ -1,6 +1,6 @@
 {
   "id": 20242046,
-  "updated": "2026-10-01T18:29:05Z",
+  "updated": "2026-11-03T16:31:38Z",
   "affairType": {
     "abbreviation": "Pet.",
     "id": 10,
@@ -48,6 +48,52 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-D-V",
+            "id": 9999,
+            "name": "Provisorische Kommission-V",
+            "abbreviation1": "Dummy-D-V",
+            "abbreviation2": "Dummy-D-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Vereinigte Bundesversammlung",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-11-03T16:31:12Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "NR",
+                    "id": 1,
+                    "name": "Nationalrat",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2585,
+                    "gender": "m",
+                    "id": 1138,
+                    "name": "Bäumle Martin",
+                    "officialDenomination": "Bäumle"
+                  },
+                  "faction": {
+                    "abbreviation": "Fraktion GL",
+                    "code": "GL",
+                    "id": 137,
+                    "name": "Grünliberale Fraktion"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "UREK-SR",
             "id": 20,
             "name": "Kommission für Umwelt, Raumplanung und Energie SR",
@@ -65,7 +111,8 @@
           "date": "2024-12-10T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         },
         {
           "committee": {
@@ -86,7 +133,8 @@
           "date": "2024-12-10T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "V"
         }
       ],
       "references": [
@@ -136,6 +184,11 @@
           "date": "/Date(1790805600000+0200)/",
           "id": 208,
           "name": "In Kommission des Nationalrats"
+        },
+        {
+          "date": "/Date(1793660400000+0100)/",
+          "id": 231,
+          "name": "Beratung in Kommission des Nationalrates abgeschlossen"
         }
       ],
       "texts": [
@@ -155,8 +208,8 @@
   ],
   "shortId": "24.2046",
   "state": {
-    "id": 208,
-    "name": "In Kommission des Nationalrats",
+    "id": 231,
+    "name": "Beratung in Kommission des Nationalrates abgeschlossen",
     "doneKey": "0",
     "newKey": 0
   },
