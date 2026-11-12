@@ -1,6 +1,6 @@
 {
   "id": 20260078,
-  "updated": "2026-11-03T14:06:15Z",
+  "updated": "2026-11-12T16:36:19Z",
   "additionalIndexing": "421;48",
   "affairType": {
     "abbreviation": "BRG",
@@ -28,7 +28,50 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "KVF-NR",
+            "id": 9,
+            "name": "Kommission für Verkehr und Fernmeldewesen NR",
+            "abbreviation1": "KVF-N",
+            "abbreviation2": "KVF",
+            "committeeNumber": 9,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2026-11-12T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "KVF-SR",
+            "id": 22,
+            "name": "Kommission für Verkehr und Fernmeldewesen SR",
+            "abbreviation1": "KVF-S",
+            "abbreviation2": "KVF",
+            "committeeNumber": 22,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2026-11-12T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
         {
@@ -60,6 +103,11 @@
           "date": "/Date(1793142000000+0100)/",
           "id": 202,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1794438000000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
         }
       ],
       "texts": [
@@ -68,6 +116,15 @@
     }
   ],
   "language": "de",
+  "priorityCouncils": [
+    {
+      "abbreviation": "NR",
+      "id": 1,
+      "name": "Nationalrat",
+      "type": "N",
+      "priority": 1
+    }
+  ],
   "relatedAffairs": [
 
   ],
@@ -76,8 +133,8 @@
   ],
   "shortId": "26.078",
   "state": {
-    "id": 202,
-    "name": "Eingereicht",
+    "id": 204,
+    "name": "Zugewiesen an die behandelnde Kommission",
     "doneKey": "0",
     "newKey": 1
   },

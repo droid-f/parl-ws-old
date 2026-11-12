@@ -1,6 +1,6 @@
 {
   "id": 20260073,
-  "updated": "2026-10-09T08:29:15Z",
+  "updated": "2026-11-12T16:20:36Z",
   "additionalIndexing": "09;28",
   "affairType": {
     "abbreviation": "OCF",
@@ -29,7 +29,50 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CPS-CN",
+            "id": 8,
+            "name": "Commissione della politica di sicurezza CN",
+            "abbreviation1": "CPS-N",
+            "abbreviation2": "CPS",
+            "committeeNumber": 8,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2026-11-12T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IIIb/IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CPS-CS",
+            "id": 21,
+            "name": "Commissione della politica di sicurezza CS",
+            "abbreviation1": "CPS-S",
+            "abbreviation2": "CPS",
+            "committeeNumber": 21,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2026-11-12T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IIIb/IV"
+        }
       ],
       "references": [
         {
@@ -71,6 +114,11 @@
           "date": "/Date(1788904800000+0200)/",
           "id": 202,
           "name": "Depositato"
+        },
+        {
+          "date": "/Date(1794438000000+0100)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
         }
       ],
       "texts": [
@@ -209,6 +257,15 @@
     }
   ],
   "language": "it",
+  "priorityCouncils": [
+    {
+      "abbreviation": "CN",
+      "id": 1,
+      "name": "Consiglio nazionale",
+      "type": "N",
+      "priority": 1
+    }
+  ],
   "relatedAffairs": [
 
   ],
@@ -217,8 +274,8 @@
   ],
   "shortId": "26.073",
   "state": {
-    "id": 202,
-    "name": "Depositato",
+    "id": 204,
+    "name": "Assegnato alla commissione competente",
     "doneKey": "0",
     "newKey": 0
   },
