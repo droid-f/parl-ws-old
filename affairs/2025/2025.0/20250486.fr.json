@@ -1,6 +1,6 @@
 {
   "id": 20250486,
-  "updated": "2026-10-09T14:43:46Z",
+  "updated": "2026-11-20T09:27:35Z",
   "additionalIndexing": "1216;15",
   "affairType": {
     "abbreviation": "Iv. pa.",
@@ -35,31 +35,7 @@
     {
       "consultation": {
         "resolutions": [
-          {
-            "category": {
-              "id": 3,
-              "name": "Normal"
-            },
-            "committee": {
-              "abbreviation": "CAJ-CN",
-              "id": 12,
-              "name": "Commission des affaires juridiques CN",
-              "abbreviation1": "CAJ-N",
-              "abbreviation2": "CAJ",
-              "committeeNumber": 12,
-              "council": {
-                "abbreviation": "CN",
-                "id": 1,
-                "name": "Conseil national",
-                "type": "N"
-              },
-              "typeCode": 1
-            },
-            "council": null,
-            "date": "2026-11-19T00:00:00Z",
-            "text": "Examen prévu",
-            "type": 0
-          }
+
         ]
       },
       "federalCouncilProposal": {
@@ -69,6 +45,51 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-11-20T09:26:32Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 3181,
+                    "gender": "f",
+                    "id": 4289,
+                    "name": "Schneider Meret",
+                    "officialDenomination": "Schneider Meret"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe G",
+                    "id": 6,
+                    "name": "Groupe des VERT-E-S"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
         {
           "committee": {
             "abbreviation": "CAJ-CN",
@@ -88,7 +109,8 @@
           "date": "2026-02-13T00:00:00Z",
           "registrations": [
 
-          ]
+          ],
+          "treatmentCategory": "IV"
         },
         {
           "committee": {
@@ -109,6 +131,52 @@
           "date": "2026-02-13T00:00:00Z",
           "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-11-20T09:26:43Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 10807,
+                    "gender": "m",
+                    "id": 10807,
+                    "name": "Gianini Simone",
+                    "officialDenomination": "Gianini"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe RL",
+                    "id": 1,
+                    "name": "Groupe libéral-radical"
+                  },
+                  "language": "it"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -144,6 +212,11 @@
           "date": "/Date(1791496800000+0200)/",
           "id": 208,
           "name": "En commission du Conseil national"
+        },
+        {
+          "date": "/Date(1795129200000+0100)/",
+          "id": 231,
+          "name": "Fin des discussions en commission du Conseil national"
         }
       ],
       "texts": [
@@ -178,8 +251,8 @@
   ],
   "shortId": "25.486",
   "state": {
-    "id": 208,
-    "name": "En commission du Conseil national",
+    "id": 231,
+    "name": "Fin des discussions en commission du Conseil national",
     "doneKey": "0",
     "newKey": 0
   },

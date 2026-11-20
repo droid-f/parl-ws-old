@@ -1,6 +1,6 @@
 {
   "id": 20260083,
-  "updated": "2026-11-12T10:09:32Z",
+  "updated": "2026-11-19T11:58:48Z",
   "additionalIndexing": "2811",
   "affairType": {
     "abbreviation": "OCF",
@@ -9,7 +9,8 @@
   },
   "deposit": {
     "date": "2026-11-11T00:00:00Z",
-    "legislativePeriod": 52
+    "legislativePeriod": 52,
+    "session": "5216"
   },
   "descriptors": [
 
@@ -28,7 +29,48 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CIP-CE",
+            "id": 24,
+            "name": "Commission des institutions politiques CE",
+            "abbreviation1": "CIP-E",
+            "abbreviation2": "CIP",
+            "committeeNumber": 24,
+            "council": {
+              "abbreviation": "CE",
+              "id": 2,
+              "name": "Conseil des Etats",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2026-11-11T00:00:00Z",
+          "registrations": [
 
+          ]
+        },
+        {
+          "committee": {
+            "abbreviation": "CIP-CN",
+            "id": 11,
+            "name": "Commission des institutions politiques CN",
+            "abbreviation1": "CIP-N",
+            "abbreviation2": "CIP",
+            "committeeNumber": 11,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Conseil national",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2026-11-11T00:00:00Z",
+          "registrations": [
+
+          ]
+        }
       ],
       "references": [
         {
@@ -65,6 +107,11 @@
           "date": "/Date(1794351600000+0100)/",
           "id": 202,
           "name": "Déposé"
+        },
+        {
+          "date": "/Date(1795042800000+0100)/",
+          "id": 204,
+          "name": "Attribué à la commission compétente"
         }
       ],
       "texts": [
@@ -73,6 +120,15 @@
     }
   ],
   "language": "fr",
+  "priorityCouncils": [
+    {
+      "abbreviation": "CN",
+      "id": 1,
+      "name": "Conseil national",
+      "type": "N",
+      "priority": 1
+    }
+  ],
   "relatedAffairs": [
 
   ],
@@ -81,8 +137,8 @@
   ],
   "shortId": "26.083",
   "state": {
-    "id": 202,
-    "name": "Déposé",
+    "id": 204,
+    "name": "Attribué à la commission compétente",
     "doneKey": "0",
     "newKey": 1
   },

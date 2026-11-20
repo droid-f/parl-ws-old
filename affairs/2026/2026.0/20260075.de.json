@@ -1,6 +1,6 @@
 {
   "id": 20260075,
-  "updated": "2026-10-02T12:01:38Z",
+  "updated": "2026-11-16T14:22:27Z",
   "additionalIndexing": "2841;34",
   "affairType": {
     "abbreviation": "BRG",
@@ -29,7 +29,50 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "SGK-SR",
+            "id": 19,
+            "name": "Kommission für soziale Sicherheit und Gesundheit SR",
+            "abbreviation1": "SGK-S",
+            "abbreviation2": "SGK",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "SR",
+              "id": 2,
+              "name": "Ständerat",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2026-09-02T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "SGK-NR",
+            "id": 6,
+            "name": "Kommission für soziale Sicherheit und Gesundheit NR",
+            "abbreviation1": "SGK-N",
+            "abbreviation2": "SGK",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "NR",
+              "id": 1,
+              "name": "Nationalrat",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2026-09-02T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
         {
@@ -81,6 +124,11 @@
           "date": "/Date(1788300000000+0200)/",
           "id": 202,
           "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1794783600000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
         }
       ],
       "texts": [
@@ -95,6 +143,15 @@
     }
   ],
   "language": "de",
+  "priorityCouncils": [
+    {
+      "abbreviation": "SR",
+      "id": 2,
+      "name": "Ständerat",
+      "type": "S",
+      "priority": 1
+    }
+  ],
   "relatedAffairs": [
 
   ],
@@ -103,8 +160,8 @@
   ],
   "shortId": "26.075",
   "state": {
-    "id": 202,
-    "name": "Eingereicht",
+    "id": 204,
+    "name": "Zugewiesen an die behandelnde Kommission",
     "doneKey": "0",
     "newKey": 0
   },

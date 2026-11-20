@@ -1,6 +1,6 @@
 {
   "id": 20260217,
-  "updated": "2026-11-10T22:15:21Z",
+  "updated": "2026-11-20T17:18:19Z",
   "affairType": {
     "abbreviation": "OP",
     "id": 2,
@@ -30,11 +30,56 @@
       "preConsultations": [
         {
           "committee": {
+            "abbreviation": "N/A-F-V",
+            "id": 9999,
+            "name": "Commission provisoire-V",
+            "abbreviation1": "Dummy-F-V",
+            "abbreviation2": "Dummy-F-V",
+            "committeeNumber": 9999,
+            "council": {
+              "abbreviation": "V",
+              "id": 3,
+              "name": "Assemblée fédérale (Chambres réunies)",
+              "type": "B"
+            },
+            "typeCode": 3
+          },
+          "date": "2026-11-16T09:24:08Z",
+          "registrations": [
+            {
+              "correspondents": [
+                {
+                  "council": {
+                    "abbreviation": "CN",
+                    "id": 1,
+                    "name": "Conseil national",
+                    "type": "N"
+                  },
+                  "councillor": {
+                    "code": 2740,
+                    "gender": "m",
+                    "id": 4025,
+                    "name": "Büchel Roland Rino",
+                    "officialDenomination": "Büchel Roland"
+                  },
+                  "faction": {
+                    "abbreviation": "Groupe V",
+                    "id": 4,
+                    "name": "Groupe de l'Union démocratique du Centre"
+                  },
+                  "language": "de"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "committee": {
             "abbreviation": "Bu-CN",
             "id": 1,
             "name": "Bureau CN",
             "abbreviation1": "Bu-N",
-            "abbreviation2": "Bu",
+            "abbreviation2": "Bu-N",
             "committeeNumber": 1,
             "council": {
               "abbreviation": "CN",
@@ -66,6 +111,11 @@
           "date": "/Date(1790546400000+0200)/",
           "id": 202,
           "name": "Déposé"
+        },
+        {
+          "date": "/Date(1795129200000+0100)/",
+          "id": 205,
+          "name": "Planifié au Conseil national"
         }
       ],
       "texts": [
@@ -91,8 +141,8 @@
   ],
   "shortId": "26.217",
   "state": {
-    "id": 202,
-    "name": "Déposé",
+    "id": 205,
+    "name": "Planifié au Conseil national",
     "doneKey": "0",
     "newKey": 1
   },

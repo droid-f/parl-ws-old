@@ -1,6 +1,6 @@
 {
   "id": 20260474,
-  "updated": "2026-10-30T14:47:22Z",
+  "updated": "2026-11-13T14:40:37Z",
   "affairType": {
     "abbreviation": "Pa. Iv.",
     "id": 4,
@@ -32,7 +32,8 @@
       "type": "S"
     },
     "date": "2026-10-16T00:00:00Z",
-    "legislativePeriod": 52
+    "legislativePeriod": 52,
+    "session": "5216"
   },
   "descriptors": [
 
@@ -41,7 +42,31 @@
     {
       "consultation": {
         "resolutions": [
-
+          {
+            "category": {
+              "id": 3,
+              "name": "Normal"
+            },
+            "committee": {
+              "abbreviation": "WBK-NR",
+              "id": 5,
+              "name": "Kommission für Wissenschaft, Bildung und Kultur NR",
+              "abbreviation1": "WBK-N",
+              "abbreviation2": "WBK",
+              "committeeNumber": 5,
+              "council": {
+                "abbreviation": "NR",
+                "id": 1,
+                "name": "Nationalrat",
+                "type": "N"
+              },
+              "typeCode": 1
+            },
+            "council": null,
+            "date": "2026-11-13T00:00:00Z",
+            "text": "Zustimmung zum Beschluss der Kommission des Erstrates (Zweitrat)",
+            "type": 0
+          }
         ]
       },
       "federalCouncilProposal": {
@@ -126,6 +151,11 @@
           "date": "/Date(1792188000000+0200)/",
           "id": 223,
           "name": "Vorprüfung - in Kommission des Nationalrates"
+        },
+        {
+          "date": "/Date(1794524400000+0100)/",
+          "id": 206,
+          "name": "In Kommission des Ständerats"
         }
       ],
       "texts": [
@@ -168,8 +198,8 @@
   ],
   "shortId": "26.474",
   "state": {
-    "id": 223,
-    "name": "Vorprüfung - in Kommission des Nationalrates",
+    "id": 206,
+    "name": "In Kommission des Ständerats",
     "doneKey": "0",
     "newKey": 1
   },

@@ -1,6 +1,6 @@
 {
   "id": 20260075,
-  "updated": "2026-10-02T12:01:38Z",
+  "updated": "2026-11-16T14:22:27Z",
   "additionalIndexing": "2841;34",
   "affairType": {
     "abbreviation": "OCF",
@@ -29,7 +29,50 @@
 
       ],
       "preConsultations": [
+        {
+          "committee": {
+            "abbreviation": "CSS-CS",
+            "id": 19,
+            "name": "Commissione della sicurezza sociale e della sanità CS",
+            "abbreviation1": "CSSS-S",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 19,
+            "council": {
+              "abbreviation": "CS",
+              "id": 2,
+              "name": "Consiglio degli Stati",
+              "type": "S"
+            },
+            "typeCode": 1
+          },
+          "date": "2026-09-02T00:00:00Z",
+          "registrations": [
 
+          ],
+          "treatmentCategory": "IV"
+        },
+        {
+          "committee": {
+            "abbreviation": "CSS-CN",
+            "id": 6,
+            "name": "Commissione della sicurezza sociale e della sanità",
+            "abbreviation1": "CSSS-N",
+            "abbreviation2": "CSSS",
+            "committeeNumber": 6,
+            "council": {
+              "abbreviation": "CN",
+              "id": 1,
+              "name": "Consiglio nazionale",
+              "type": "N"
+            },
+            "typeCode": 1
+          },
+          "date": "2026-09-02T00:00:00Z",
+          "registrations": [
+
+          ],
+          "treatmentCategory": "IV"
+        }
       ],
       "references": [
         {
@@ -81,6 +124,11 @@
           "date": "/Date(1788300000000+0200)/",
           "id": 202,
           "name": "Depositato"
+        },
+        {
+          "date": "/Date(1794783600000+0100)/",
+          "id": 204,
+          "name": "Assegnato alla commissione competente"
         }
       ],
       "texts": [
@@ -95,6 +143,15 @@
     }
   ],
   "language": "it",
+  "priorityCouncils": [
+    {
+      "abbreviation": "CS",
+      "id": 2,
+      "name": "Consiglio degli Stati",
+      "type": "S",
+      "priority": 1
+    }
+  ],
   "relatedAffairs": [
 
   ],
@@ -103,8 +160,8 @@
   ],
   "shortId": "26.075",
   "state": {
-    "id": 202,
-    "name": "Depositato",
+    "id": 204,
+    "name": "Assegnato alla commissione competente",
     "doneKey": "0",
     "newKey": 0
   },

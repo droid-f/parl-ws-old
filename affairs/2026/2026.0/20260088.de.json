@@ -1,14 +1,16 @@
 {
   "id": 20260088,
-  "updated": "2026-11-12T14:22:05Z",
+  "updated": "2026-11-19T12:12:25Z",
+  "additionalIndexing": "08;2446",
   "affairType": {
     "abbreviation": "BRG",
     "id": 1,
     "name": "Geschäft des Bundesrates"
   },
   "deposit": {
-    "date": "2026-11-12T00:00:00Z",
-    "legislativePeriod": 52
+    "date": "2026-11-18T00:00:00Z",
+    "legislativePeriod": 52,
+    "session": "5216"
   },
   "descriptors": [
 
@@ -43,7 +45,7 @@
             },
             "typeCode": 1
           },
-          "date": "2026-11-12T00:00:00Z",
+          "date": "2026-11-18T00:00:00Z",
           "registrations": [
 
           ],
@@ -65,7 +67,7 @@
             },
             "typeCode": 1
           },
-          "date": "2026-11-12T00:00:00Z",
+          "date": "2026-11-18T00:00:00Z",
           "registrations": [
 
           ],
@@ -73,7 +75,21 @@
         }
       ],
       "references": [
-
+        {
+          "date": "/Date(1794956400000+0100)/",
+          "publication": {
+            "isOldFormat": false,
+            "type": {
+              "id": 1,
+              "name": "Bundesblatt",
+              "shortName": "BBl"
+            }
+          },
+          "type": {
+            "id": 1,
+            "name": "Beratungsgegenstand / Entwurf"
+          }
+        }
       ],
       "relatedDepartments": [
         {
@@ -88,6 +104,16 @@
           "date": "/Date(1794438000000+0100)/",
           "id": 201,
           "name": "Angemeldet"
+        },
+        {
+          "date": "/Date(1794956400000+0100)/",
+          "id": 202,
+          "name": "Eingereicht"
+        },
+        {
+          "date": "/Date(1795042800000+0100)/",
+          "id": 204,
+          "name": "Zugewiesen an die behandelnde Kommission"
         }
       ],
       "texts": [
@@ -113,8 +139,8 @@
   ],
   "shortId": "26.088",
   "state": {
-    "id": 201,
-    "name": "Angemeldet",
+    "id": 204,
+    "name": "Zugewiesen an die behandelnde Kommission",
     "doneKey": "0",
     "newKey": 1
   },
